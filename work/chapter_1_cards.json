@@ -1,0 +1,50 @@
+[
+ {
+  "Text": "{{c1::Certification::process}} is the process that verifies, usually through a standardized exam, that a provider meets the minimum required KSA competencies for emergency care.",
+  "Back Extra": "Distinguish: Certification verifies competency; licensure is the legal authority to practice; credentialing is an employer's check of qualifications.",
+  "chapter": 1,
+  "needs_human_check": false
+ },
+ {
+  "Text": "{{c1::Licensure::status}} is the legal authority to practice in your state, granted after you complete the certification process.",
+  "Back Extra": "Distinguish: Certification verifies you meet competency standards; licensure is the state granting legal authority to practice.",
+  "chapter": 1,
+  "needs_human_check": false
+ },
+ {
+  "Text": "{{c1::Credentialing::process}} is the verification of a health care provider's qualifications, typically overseen by a physician medical director.",
+  "Back Extra": "Cue: Credentialing can grant an EMT additional skills or limit them, separate from the base scope of practice.",
+  "chapter": 1,
+  "needs_human_check": true
+ },
+ {
+  "Text": "The four EMS licensure levels, from least to most training, are {{c1::emergency medical responder (EMR)}}, {{c1::EMT}}, {{c1::advanced EMT (AEMT)}}, and {{c1::paramedic}}.",
+  "Back Extra": "Cue: Scope of practice widens at each level; EMR is the most basic, paramedic the most advanced.",
+  "chapter": 1,
+  "needs_human_check": false
+ },
+ {
+  "Text": "Beyond the EMT level, an AEMT adds training in specific aspects of {{c1::advanced life support (ALS)::level of care}}.",
+  "Back Extra": "Cue: AEMT sits between EMT and paramedic, with selected ALS skills such as IV therapy.",
+  "chapter": 1,
+  "needs_human_check": false
+ },
+ {
+  "Text": "{{c1::Scene size-up::call phase}} is the initial overview of a call to judge whether the scene is safe, what resources are needed, and how to approach the emergency.",
+  "Back Extra": "Cue: It happens first on every call, before you reach the patient.",
+  "chapter": 1,
+  "needs_human_check": false
+ },
+ {
+  "Text": "{{c1::Patient assessment::call phase}} is the foundation of an EMS call: using assessment techniques to find what is wrong with the patient and identify life threats.",
+  "Back Extra": "Cue: Assessment drives treatment; you find life threats before you treat them.",
+  "chapter": 1,
+  "needs_human_check": false
+ },
+ {
+  "Text": "The six EMS functions represented by the bars of the Star of Life, in order, are {{c1::detection}}, {{c1::reporting}}, {{c1::response}}, {{c1::on-scene care}}, {{c1::care in transit}}, and {{c1::transfer to definitive care}}.",
+  "Back Extra": "Cue: The six trace a call from spotting the emergency (detection) to hospital handoff (transfer to definitive care).",
+  "chapter": 1,
+  "needs_human_check": false
+ }
+]

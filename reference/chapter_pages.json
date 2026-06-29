@@ -1,0 +1,248 @@
+{
+ "1": {
+  "chapter_num": 1,
+  "chapter_name": "EMS Systems",
+  "start": 67,
+  "end": 129
+ },
+ "2": {
+  "chapter_num": 2,
+  "chapter_name": "Workforce Safety and Wellness",
+  "start": 130,
+  "end": 266
+ },
+ "3": {
+  "chapter_num": 3,
+  "chapter_name": "Medical, Legal, and Ethical Issues",
+  "start": 267,
+  "end": 349
+ },
+ "4": {
+  "chapter_num": 4,
+  "chapter_name": "Communications and Documentation",
+  "start": 350,
+  "end": 454
+ },
+ "5": {
+  "chapter_num": 5,
+  "chapter_name": "Medical Terminology",
+  "start": 455,
+  "end": 514
+ },
+ "6": {
+  "chapter_num": 6,
+  "chapter_name": "The Human Body",
+  "start": 515,
+  "end": 680
+ },
+ "7": {
+  "chapter_num": 7,
+  "chapter_name": "Life Span Development",
+  "start": 681,
+  "end": 737
+ },
+ "8": {
+  "chapter_num": 8,
+  "chapter_name": "Lifting and Moving Patients",
+  "start": 738,
+  "end": 867
+ },
+ "9": {
+  "chapter_num": 9,
+  "chapter_name": "The Team Approach to Health Care",
+  "start": 868,
+  "end": 913
+ },
+ "10": {
+  "chapter_num": 10,
+  "chapter_name": "Patient Assessment",
+  "start": 914,
+  "end": 1101
+ },
+ "11": {
+  "chapter_num": 11,
+  "chapter_name": "Airway Management",
+  "start": 1102,
+  "end": 1308
+ },
+ "12": {
+  "chapter_num": 12,
+  "chapter_name": "Principles of Pharmacology",
+  "start": 1309,
+  "end": 1387
+ },
+ "13": {
+  "chapter_num": 13,
+  "chapter_name": "Shock",
+  "start": 1388,
+  "end": 1445
+ },
+ "14": {
+  "chapter_num": 14,
+  "chapter_name": "BLS Resuscitation",
+  "start": 1446,
+  "end": 1579
+ },
+ "15": {
+  "chapter_num": 15,
+  "chapter_name": "Medical Overview",
+  "start": 1580,
+  "end": 1631
+ },
+ "16": {
+  "chapter_num": 16,
+  "chapter_name": "Respiratory Emergencies",
+  "start": 1632,
+  "end": 1744
+ },
+ "17": {
+  "chapter_num": 17,
+  "chapter_name": "Cardiovascular Emergencies",
+  "start": 1745,
+  "end": 1859
+ },
+ "18": {
+  "chapter_num": 18,
+  "chapter_name": "Neurologic Emergencies",
+  "start": 1860,
+  "end": 1934
+ },
+ "19": {
+  "chapter_num": 19,
+  "chapter_name": "Gastrointestinal and Urologic Emergencies",
+  "start": 1935,
+  "end": 1987
+ },
+ "20": {
+  "chapter_num": 20,
+  "chapter_name": "Endocrine and Hematologic Emergencies",
+  "start": 1988,
+  "end": 2052
+ },
+ "21": {
+  "chapter_num": 21,
+  "chapter_name": "Allergy and Anaphylaxis",
+  "start": 2053,
+  "end": 2096
+ },
+ "22": {
+  "chapter_num": 22,
+  "chapter_name": "Toxicology",
+  "start": 2097,
+  "end": 2170
+ },
+ "23": {
+  "chapter_num": 23,
+  "chapter_name": "Behavioral Health Emergencies",
+  "start": 2171,
+  "end": 2235
+ },
+ "24": {
+  "chapter_num": 24,
+  "chapter_name": "Gynecologic Emergencies",
+  "start": 2236,
+  "end": 2275
+ },
+ "25": {
+  "chapter_num": 25,
+  "chapter_name": "Trauma Overview",
+  "start": 2276,
+  "end": 2357
+ },
+ "26": {
+  "chapter_num": 26,
+  "chapter_name": "Bleeding",
+  "start": 2358,
+  "end": 2434
+ },
+ "27": {
+  "chapter_num": 27,
+  "chapter_name": "Soft-Tissue Injuries",
+  "start": 2435,
+  "end": 2549
+ },
+ "28": {
+  "chapter_num": 28,
+  "chapter_name": "Face and Neck Injuries",
+  "start": 2550,
+  "end": 2646
+ },
+ "29": {
+  "chapter_num": 29,
+  "chapter_name": "Head and Spine Injuries",
+  "start": 2647,
+  "end": 2797
+ },
+ "30": {
+  "chapter_num": 30,
+  "chapter_name": "Chest Injuries",
+  "start": 2798,
+  "end": 2860
+ },
+ "31": {
+  "chapter_num": 31,
+  "chapter_name": "Abdominal and Genitourinary Injuries",
+  "start": 2861,
+  "end": 2928
+ },
+ "32": {
+  "chapter_num": 32,
+  "chapter_name": "Orthopaedic Injuries",
+  "start": 2929,
+  "end": 3083
+ },
+ "33": {
+  "chapter_num": 33,
+  "chapter_name": "Environmental Emergencies",
+  "start": 3084,
+  "end": 3197
+ },
+ "34": {
+  "chapter_num": 34,
+  "chapter_name": "Obstetrics and Neonatal Care",
+  "start": 3198,
+  "end": 3295
+ },
+ "35": {
+  "chapter_num": 35,
+  "chapter_name": "Pediatric Emergencies",
+  "start": 3296,
+  "end": 3473
+ },
+ "36": {
+  "chapter_num": 36,
+  "chapter_name": "Geriatric Emergencies",
+  "start": 3474,
+  "end": 3576
+ },
+ "37": {
+  "chapter_num": 37,
+  "chapter_name": "Patients With Special Challenges",
+  "start": 3577,
+  "end": 3653
+ },
+ "38": {
+  "chapter_num": 38,
+  "chapter_name": "Transport Operations",
+  "start": 3654,
+  "end": 3758
+ },
+ "39": {
+  "chapter_num": 39,
+  "chapter_name": "Vehicle Extrication and Special Rescue",
+  "start": 3759,
+  "end": 3812
+ },
+ "40": {
+  "chapter_num": 40,
+  "chapter_name": "Incident Management",
+  "start": 3813,
+  "end": 3918
+ },
+ "41": {
+  "chapter_num": 41,
+  "chapter_name": "Terrorism Response and Disaster Management",
+  "start": 3919,
+  "end": 4471
+ }
+}
