@@ -49,6 +49,12 @@ For every highlight in the file:
 ### Stage 2.5 — Global consolidation (REQUIRED after any fan-out)
 A per-unit fan-out has no global view, so it duplicates the same fact across neighboring units and over-fragments one concept into many micro-cards (it once turned 36 highlights into 76 cards — online medical control alone got 9). After all units are drafted and edited, run ONE consolidation pass with the WHOLE chapter's cards in view: **dedupe** the same fact carded in multiple units (keep the best one), **collapse** a concept split into many micro-cards down to the 1–2 high-yield cards, and **trim** genuine low-yield/trivia — all WITHOUT dropping any must-test fact (never re-introduce under-clozing). Emit a transparent merge/collapse/cut log so Parker can audit the balance. The per-unit agents structurally cannot do this; it's what turns an exhaustive dump into a tight, high-yield set.
 
+### Stage 2.75 — Verify (a mandatory gate, never skip)
+Reliability is a harness, not a promise to be careful. Before staging, the set MUST pass verification:
+1. `python3 scripts/check_cards.py work/chapter_<N>_cards.json` — the deterministic gate (legal HTML + cloze-present = HARD block; literal-answer-in-stem, parenthetical-after-cloze, numeric-without-flag, in-batch duplicates = warnings). Fix HARD errors; route every warning to the judge.
+2. The independent LLM judge runs the FULL `reference/editor-checklist.md` on every card (run, never eyeballed).
+3. Both are calibrated against `reference/regression-cases.md` — the library of every flaw ever caught (bad cards the checks MUST flag, good cards they must NOT). Whenever a rule, the checker, or the judge changes, re-validate against it so nothing regresses. Every new flaw Parker catches gets added there as a permanent test.
+
 ### Stage 3 — Stage into Anki (once per chapter)
 Write the collected card objects to a JSON, then:
 ```
