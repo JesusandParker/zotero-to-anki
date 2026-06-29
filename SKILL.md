@@ -1,6 +1,6 @@
 ---
 name: emt-card-maker
-description: Turn Parker's green Zotero highlights from his EMT textbook into high-quality Anki cloze cards, staged to a review subdeck. Use whenever he's done reading/highlighting an EMT chapter (or names a chapter) and wants cards made, e.g. "make my Chapter 1 cards", "I finished highlighting chapter 3", "build EMT flashcards from my highlights".
+description: Make and maintain Parker's EMT Anki cloze cards from his green Zotero highlights. Use (1) to GENERATE cards when he's done highlighting a chapter ("make my Chapter 1 cards", "I finished highlighting chapter 3"), AND (2) to FIX/REVIEW/IMPROVE existing cards or the card-maker itself when he reports a problem while studying ("I noticed an issue with an EMT card", "this EMT flashcard is wrong / the hint gives it away", "fix the EMT card maker", "the cards keep doing X"). On any EMT-card issue, follow the "If Parker reports an issue" procedure below.
 ---
 
 # EMT Card Maker
@@ -17,6 +17,21 @@ This replaces his old ChatGPT "v60" system. The old EMT deck was deleted on purp
 
 ## Priority order when rules collide
 When two goals trade off, resolve in this order (Parker's explicit ranking from his ChatGPT-era notes): **(1)** correct cloze formatting + reliable write to Anki, **(2)** completeness/coverage of testable facts, **(3)** standalone atomicity, **(4)** a teachable Back Extra, **(5)** readability/aesthetics, **(6)** speed — dead last. Parker will gladly wait for better cards; never trade 1–5 for speed.
+
+## If Parker reports an issue with a card (his main ongoing loop — START HERE)
+
+Once a chapter's cards exist, this is the primary use. A fresh Claude session with NO memory of past work can do this end-to-end from this skill alone. When Parker says something like *"I noticed an issue with an EMT card,"* *"the hint gives it away,"* *"this card is wrong":*
+
+1. **Read the standards first** — `reference/regression-cases.md` (every flaw caught before + how it's caught; his issue is usually a known class), then `reference/card-rules.md` and `reference/parker-preferences.md`.
+2. **Find the card** — it's in Anki deck `EMT::_Review` (AnkiConnect at `localhost:8765`, Anki must be running; search by a distinctive phrase) and in `work/chapter_<N>_cards.json`.
+3. **Diagnose honestly — one-off or systemic?** If it's a *kind* of mistake (not a typo), assume systemic: the rules would let it recur, so fix the rules, not just the card.
+4. **Fix the card(s)** in Anki and in the JSON.
+5. **If systemic:** encode the rule (`card-rules.md` / `editor-checklist.md` / `parker-preferences.md`), AND add a case to `reference/regression-cases.md` (a BAD card the checks must catch + a GOOD card they must NOT over-flag), AND extend `scripts/check_cards.py` if it can be mechanized.
+6. **Re-verify:** run `python3 scripts/check_cards.py work/chapter_<N>_cards.json` and confirm the regression cases still pass (catch the bad, spare the good).
+7. **Log it** in `reference/feedback-log.md` (date, what he flagged, the fix, the rule/test added).
+8. **Commit + push** per `CLAUDE.md`.
+
+Be honest about one-off vs systemic, and never over-correct — the regression suite's "don't over-flag" cases are the guard against swinging too far.
 
 ## The pipeline
 

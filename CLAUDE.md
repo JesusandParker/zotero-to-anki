@@ -7,6 +7,9 @@ to cloze cards).
 Parker owns this and is not a heavy coder, so keep version control smooth and
 low-friction for him.
 
+## If Parker reports a card issue (the main ongoing loop)
+Follow **`SKILL.md` → "If Parker reports an issue with a card"** (read `reference/regression-cases.md` first — the history of every flaw class). Decide one-off vs systemic; if systemic, encode the rule + add a regression test + extend `scripts/check_cards.py`; re-run the checker; log it in `reference/feedback-log.md`; then commit + push. A fresh session needs no prior context — everything is in this repo.
+
 ## Version-control workflow
 - After meaningful changes here, **commit and push** so the work is saved and
   backed up: `git -C . add -A && git commit -m "<clear message>" && git push`
