@@ -1,6 +1,6 @@
 [
   {
-    "Text": "{{c1::Certification::credentialing step}} is the process that verifies a provider has met the minimum required {{c2::knowledge, skills, and abilities (KSA)}}.",
+    "Text": "{{c1::Certification::pathway step}} is the process that verifies a provider has met the minimum required {{c2::knowledge, skills, and abilities (KSA)}}.",
     "Back Extra": "Distinguish: <i>certification</i> attests you have the competency (e.g. via the NREMT); <i>licensure</i> is the state granting legal permission to practice; <i>credentialing</i> is a specific agency authorizing you to work for it.<br>Pitfall: holding certification is not the same as being licensed to practice in a given state.",
     "chapter": 1,
     "needs_human_check": true
@@ -18,8 +18,8 @@
     "needs_human_check": false
   },
   {
-    "Text": "The pathway to practicing as an EMS provider runs in order: {{c1::certification}} (competency verified), then {{c1::licensure}} (state authority granted), then {{c1::credentialing}} (a specific agency authorizes you to work).",
-    "Back Extra": "Cue: \"prove it, then you're allowed, then you're hired\" - you certify first, the state licenses you, then an agency credentials you.<br>Pitfall: completing certification only makes you <i>eligible</i> for licensure; it is not itself permission to practice.",
+    "Text": "The pathway to practicing as an EMS provider runs in order: {{c1::certification}}, then {{c1::licensure}}, then {{c1::credentialing}}.",
+    "Back Extra": "Meaning: certification verifies your competency, licensure is the state granting legal permission to practice, and credentialing is a specific agency authorizing you to work for it.<br>Cue: \"prove it, then you're allowed, then you're hired\" - you certify first, the state licenses you, then an agency credentials you.<br>Pitfall: completing certification only makes you <i>eligible</i> for licensure; it is not itself permission to practice.",
     "chapter": 1,
     "needs_human_check": false
   },
@@ -36,8 +36,8 @@
     "needs_human_check": false
   },
   {
-    "Text": "Among the four EMS levels, the {{c1::emergency medical responder (EMR)::level}} is the lowest - trained in basic emergency care to manage the scene and start lifesaving care <i>before the ambulance arrives</i>.",
-    "Back Extra": "Distinguish: an EMR works under the direction of providers with more advanced training and focuses on scene management, not advanced clinical skills.<br>Cue: EMR is the pre-ambulance provider.",
+    "Text": "The {{c1::emergency medical responder (EMR)::EMS level}} is trained to {{c2::manage the scene and start lifesaving care before the ambulance arrives}}.",
+    "Back Extra": "Distinguish: an EMR works under more advanced providers and focuses on scene management, not advanced clinical skills.<br>Cue: the EMR is the <i>pre-ambulance</i> provider — the first, lowest of the four levels.",
     "chapter": 1,
     "needs_human_check": false
   },
@@ -90,8 +90,8 @@
     "needs_human_check": false
   },
   {
-    "Text": "{{c1::Title I::which title?}} of the ADA is the employment section: an EMT who can perform the essential job functions {{c2::with reasonable accommodations}} must be given the opportunity to pursue an EMS career.",
-    "Back Extra": "Pitfall: the protection applies only to someone who CAN perform the essential job functions (with the accommodation in place); it does not waive the core ability to do the job.<br>Distinguish: Title I governs hiring and the workplace, not access to public government programs.",
+    "Text": "Under {{c1::Title I::which ADA title?}} of the ADA, an EMT who can perform the essential job functions {{c2::with reasonable accommodations}} must be given the opportunity to pursue an EMS career.",
+    "Back Extra": "Meaning: Title I is the employment section of the ADA, governing hiring and the workplace.<br>Pitfall: the protection applies only to someone who CAN perform the essential job functions (with the accommodation in place); it does not waive the core ability to do the job.<br>Distinguish: Title I covers employment, not access to public government programs.",
     "chapter": 1,
     "needs_human_check": false
   },
