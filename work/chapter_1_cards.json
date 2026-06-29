@@ -2,44 +2,136 @@
  {
   "Text": "{{c1::Certification::process}} is the process that verifies, usually through a standardized exam, that a provider meets the minimum required KSA competencies for emergency care.",
   "Back Extra": "Distinguish: Certification verifies competency; licensure is the legal authority to practice; credentialing is an employer's check of qualifications.",
-  "chapter": 1,
-  "needs_human_check": false
+  "chapter": 1, "needs_human_check": false
  },
  {
   "Text": "{{c1::Licensure::status}} is the legal authority to practice in your state, granted after you complete the certification process.",
   "Back Extra": "Distinguish: Certification verifies you meet competency standards; licensure is the state granting legal authority to practice.",
-  "chapter": 1,
-  "needs_human_check": false
+  "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "{{c1::Credentialing::process}} is the verification of a health care provider's qualifications, typically overseen by a physician medical director.",
-  "Back Extra": "Cue: Credentialing can grant an EMT additional skills or limit them, separate from the base scope of practice.",
-  "chapter": 1,
-  "needs_human_check": true
+  "Text": "{{c1::Credentialing::process}} is the verification of a health care provider's qualifications, the phase after licensure, often overseen by a physician medical director.",
+  "Back Extra": "Cue: Credentialing can grant an EMT additional skills or limit them, beyond the base scope of practice.",
+  "chapter": 1, "needs_human_check": true
  },
  {
   "Text": "The four EMS licensure levels, from least to most training, are {{c1::emergency medical responder (EMR)}}, {{c1::EMT}}, {{c1::advanced EMT (AEMT)}}, and {{c1::paramedic}}.",
-  "Back Extra": "Cue: Scope of practice widens at each level; EMR is the most basic, paramedic the most advanced.",
-  "chapter": 1,
-  "needs_human_check": false
+  "Back Extra": "Cue: Each level has a wider scope of practice; EMR is the most basic, paramedic the most advanced.",
+  "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "Beyond the EMT level, an AEMT adds training in specific aspects of {{c1::advanced life support (ALS)::level of care}}.",
-  "Back Extra": "Cue: AEMT sits between EMT and paramedic, with selected ALS skills such as IV therapy.",
-  "chapter": 1,
-  "needs_human_check": false
+  "Text": "Beyond the EMT level, an AEMT adds selected {{c1::advanced life support (ALS)::level of care}} skills such as IV and IO therapy, advanced airway adjuncts, and a limited number of medications.",
+  "Back Extra": "Distinguish: An AEMT has more than an EMT but less than a paramedic, who carries the full ALS scope.",
+  "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "The six EMS functions represented by the bars of the Star of Life, in order, are {{c1::detection}}, {{c1::reporting}}, {{c1::response}}, {{c1::on-scene care}}, {{c1::care in transit}}, and {{c1::transfer to definitive care}}.",
-  "Back Extra": "Cue: The six trace a call from spotting the emergency (detection) to hospital handoff (transfer to definitive care).",
-  "chapter": 1,
-  "needs_human_check": false
+  "Text": "The AEMT course typically ranges from {{c1::200 to 400::hours}} hours.",
+  "Back Extra": "Cue: More than an EMT course (about 150 to 200 hours) and well short of full paramedic training.",
+  "chapter": 1, "needs_human_check": true
  },
  {
   "Text": "The core work of an EMT on a call follows four steps: {{c1::scene size-up}}, {{c1::patient assessment}}, {{c1::treatment}}, and {{c1::transport}}.",
   "Back Extra": "Cue: Size up the scene (is it safe?), assess to find life threats, treat, then transport the patient to definitive care.",
-  "chapter": 1,
-  "needs_human_check": false,
-  "note": "Unified card (card-rules Rule 0): replaced the two isolated scene-size-up / patient-assessment cards after the Ch1 calibration miss."
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "The six EMS functions on the bars of the Star of Life, in order, are {{c1::detection}}, {{c1::reporting}}, {{c1::response}}, {{c1::on-scene care}}, {{c1::care in transit}}, and {{c1::transfer to definitive care}}.",
+  "Back Extra": "Cue: They trace a call from spotting the emergency (detection) to hospital handoff (transfer to definitive care).",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "{{c1::Title I::which title?}} of the Americans with Disabilities Act protects EMTs with disabilities seeking employment, requiring covered employers to make reasonable accommodations.",
+  "Back Extra": "Cue: Accommodations let an EMT who can perform the job's functional skills pursue the career despite a disability.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "Because licensure is a {{c1::state::level of government}} function, the laws regulating how EMS providers operate are enacted at the state level.",
+  "Back Extra": "Cue: The state EMS office controls licensure; the local medical director provides day-to-day oversight.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "A medical director can {{c1::limit::limit or expand?}} an EMT's scope of practice but cannot expand it beyond what state law already allows.",
+  "Back Extra": "Pitfall: Adding a skill the state has not approved requires state approval first, not just the medical director's permission.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "The EMS Agenda 2050 envisions an EMS system that is {{c1::inherently safe and effective}}, {{c1::integrated and seamless}}, {{c1::reliable and prepared}}, {{c1::socially equitable}}, {{c1::sustainable and efficient}}, and {{c1::adaptable and innovative}}.",
+  "Back Extra": "Cue: Six guiding principles, anchor each by one word: safety, integration, reliability, equity, sustainability, adaptability.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "Each EMS system has a physician {{c1::medical director}} who authorizes its EMTs to provide care and to whom treatment problems or proposed procedure changes are referred.",
+  "Back Extra": "Cue: The medical director is the working liaison between the EMTs, the hospitals, and the medical community.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "{{c1::Standing orders::term}} are the part of protocols that specify what an EMT must do for a specific complaint or condition, without contacting medical control first.",
+  "Back Extra": "Distinguish: Standing orders are pre-authorized (off-line) care; they do not require calling the medical director before acting.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "The medical director approves the required {{c1::continuing education and training}} for each EMT in the service.",
+  "Back Extra": "Cue: This keeps every EMT's knowledge and skills current and meeting the proper training standards.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "The two forms of medical control are off-line, also called {{c1::indirect}}, and online, also called {{c1::direct}}.",
+  "Back Extra": "Cue: Off-line / indirect = orders set up in advance; online / direct = live direction during the call.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "{{c1::Online::online or off-line?}} (direct) medical control is direction given in real time over the phone or radio from the medical director or a designated physician, such as a hospital base-station physician.",
+  "Back Extra": "Distinguish: Off-line control is set up ahead of time (standing orders, protocols); online happens live during the call.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "{{c1::Off-line::online or off-line?}} (indirect) medical control consists of standing orders, training, and supervision authorized in advance by the medical director.",
+  "Back Extra": "Distinguish: Online control is live phone or radio direction during a call; off-line is established beforehand.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "{{c1::Mobile integrated health care (MIH)::model}} delivers health care using prehospital resources within the community, rather than at a physician's office or hospital.",
+  "Back Extra": "Cue: MIH aims to improve access to care at an affordable price and connects patients with resources like social services.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "The medical director is responsible for {{c1::quality control::responsibility}}, ensuring everyone under their supervision meets appropriate medical-care standards on each call.",
+  "Back Extra": "Cue: Quality oversight runs from the medical director down to each individual EMT's own practice.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "{{c1::Continuous quality improvement (CQI)::process}} is a quality-management process in which team members at every level keep asking 'How are we doing now?' and 'What can we do to be better?'",
+  "Back Extra": "Cue: CQI is proactive and ongoing, not a one-time inspection; it depends on a just culture that reports errors without blame.",
+  "chapter": 1, "needs_human_check": true
+ },
+ {
+  "Text": "Medical errors are commonly grouped into three sources: a {{c1::rules-based}}, a {{c1::knowledge-based}}, or a {{c1::skills-based}} failure.",
+  "Back Extra": "Cue: Rules = did the wrong thing per protocol or permission; knowledge = did not know; skills = could not perform it correctly.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "{{c1::Public health::field}} examines the health needs of entire populations with the goal of preventing health problems.",
+  "Back Extra": "Distinguish: Public health is proactive and population-level; emergency care is reactive and patient-level.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "A {{c1::goiter::condition}} is an abnormally large thyroid gland, caused by too little {{c2::iodine}} in the diet.",
+  "Back Extra": "Ex: Adding iodine to table salt is a classic public-health measure that made goiters rare in the US.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "{{c1::Primary::primary or secondary?}} prevention uses strategies that stop an event from ever happening.",
+  "Back Extra": "Distinguish: Secondary prevention acts after the event to reduce its effects. Ex: a vaccine is primary prevention.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "{{c1::Secondary::primary or secondary?}} prevention applies after an event has happened, aiming to decrease its effects.",
+  "Back Extra": "Distinguish: Primary prevention stops the event entirely. Ex: seatbelts and helmets are secondary, reducing injury in a crash.",
+  "chapter": 1, "needs_human_check": false
+ },
+ {
+  "Text": "An EMT who does everything with the patient's best interest in mind is acting as a {{c1::patient advocate::role}}.",
+  "Back Extra": "Cue: 'Everything you do needs to be done with the patient in mind' is the guiding principle of EMS.",
+  "chapter": 1, "needs_human_check": false
  }
 ]
