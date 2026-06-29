@@ -79,7 +79,7 @@ Different numbers → 2 cards: c1 hides the term (describe → name), c2 hides t
 
 **Back Extra:** `Distinguish:` is the highest-value line (pin against the nearest confusable — hypoxia vs hypoxemia, crepitus vs subcutaneous emphysema). Then `Cue:`/`Pitfall:`/`Why:`. Never re-define the term.
 
-**Do:** write the full "X is Y" sentence first, then decide which half to hide; make the definition specific enough that exactly one term fits. **Don't:** put term + meaning under the *same* number (all-blanks, unanswerable); cloze a word so generic the rest gives it away ("hypoxia is low {{c1::oxygen}}" — hide the discriminator instead).
+**Do:** write the full "X is Y" sentence first, then decide which half to hide; make the definition specific enough that exactly one term fits. **If the sentence also carries a goal, function, cause, or key qualifier, that is a SECOND testable fact — give it its own cloze (`c3`), don't leave it as visible scenery.** (The under-clozing trap for definitions: "public health examines the needs of {{c2::populations}}, with the goal of {{c3::preventing health problems}}" — the *goal* gets clozed too, not just the term and the "who.") **Don't:** put term + meaning under the *same* number (all-blanks, unanswerable); cloze a word so generic the rest gives it away ("hypoxia is low {{c1::oxygen}}" — hide the discriminator instead).
 
 **Examples:**
 ```

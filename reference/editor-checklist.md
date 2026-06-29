@@ -9,7 +9,7 @@ Run every drafted card through all 14 checks. Output one of: **PASS**, **REWRITE
 | 1 | **One answer** | Hide the cloze. Read the stem. Could a knowledgeable EMT write a *different* correct answer? | Rewrite the stem to constrain to one answer, or DROP. |
 | 2 | **No tautology / leak** | Is the answer stated or strongly implied by the visible words? | Rewrite so the stem cues without revealing. |
 | 3 | **Grounded** | Is every claim supported by the highlight's `context` paragraph? Any invented detail? | Remove/fix the unsupported part. If the fact needs info that isn't there, DROP and flag. |
-| 4 | **Fully clozed** | Are there other distinct testable facts in this passage left untested? | Add sibling card(s) for the missed facts. |
+| 4 | **Fully clozed** | Are there other distinct testable facts left untested in the VISIBLE text — a goal, purpose, function, cause, or key qualifier riding along as scenery? Run this on EVERY card, definitions included. | Cloze it (add a `c`-number) or add a sibling card. |
 | 5 | **List handled** | Is this a list where only some items are clozed and the rest revealed? | Restructure into sibling cards or one grouped-reveal card (card-rules Layer B #4). |
 | 6 | **Crisp cloze** | Is the hidden span a tight keyword/number, or a long fuzzy phrase you couldn't recall verbatim? | Tighten the deletion to the key term. |
 | 7 | **Cohesive, not crammed** | Are the items a genuine single set, or unrelated facts forced together? A real cohesive list stays ONE card at any length (Parker's preference). Also: does the prose exceed ~60 words? | Split ONLY if the items are unrelated or the prose is too long; keep real lists whole. |

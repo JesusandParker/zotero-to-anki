@@ -110,7 +110,7 @@
   "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "{{c1::Public health::field}} examines the health needs of {{c2::entire populations}}, with the goal of preventing health problems.",
+  "Text": "{{c1::Public health::field}} examines the health needs of {{c2::entire populations}}, with the goal of {{c3::preventing health problems}}.",
   "Back Extra": "Distinguish: public health is <i>proactive</i> and <i>population-level</i>; emergency care is <i>reactive</i> and <i>patient-level</i>.",
   "chapter": 1, "needs_human_check": false
  },
