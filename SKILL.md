@@ -54,10 +54,16 @@ Tell Parker: how many cards landed in `EMT::_Review`, and specifically list the 
 
 ## Reference files (load on demand)
 - `reference/card-rules.md` — the full standard (Layer A form + Layer B judgment). Read before drafting.
+- `reference/parker-preferences.md` — Parker's living tastes. Read before drafting; when it conflicts with card-rules, this wins.
 - `reference/editor-checklist.md` — the 11-point adversarial Editor pass. Read before editing.
 - `reference/note-format.md` — exact note type, cloze/MathJax/image syntax, Back Extra vocabulary, write targets.
 - `reference/cloze-mastery.md` — 2,391 annotated AnKing exemplars across 23 sections. **Large file — open only the section for the card type you're writing**, not the whole thing.
 - `reference/chapter_pages.json` — page→chapter map (used by the extractor).
 
-## Improving over time
-When Parker rejects or rewrites a card, that's signal. Capture the lesson as a new line in `reference/card-rules.md` (or a `reference/parker-preferences.md` you create) so the system gets better instead of repeating the mistake. This is the feedback loop the old static prompt never had.
+## Improving over time (the feedback loop)
+When Parker reacts to a card, that's the signal that makes this system grow. Route it to the right layer, then commit + push (per `CLAUDE.md`):
+- **One bad card** → fix that card in Anki. No rule change.
+- **A recurring pattern** ("cards keep doing X") → add/edit a rule in `reference/card-rules.md` or `reference/editor-checklist.md`.
+- **A taste/preference** ("I like it phrased like Y", "split big lists") → add it to `reference/parker-preferences.md`, and resolve any matching "Open question" there.
+- **An extraction/code issue** → fix the script.
+Always generalize: turn "this card is wrong" into the rule that prevents the whole class of mistake. That's how Chapter N+1 inherits everything learned in Chapter N.
