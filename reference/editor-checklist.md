@@ -12,7 +12,7 @@ Run every drafted card through all 11 checks. Output one of: **PASS**, **REWRITE
 | 4 | **Fully clozed** | Are there other distinct testable facts in this passage left untested? | Add sibling card(s) for the missed facts. |
 | 5 | **List handled** | Is this a list where only some items are clozed and the rest revealed? | Restructure into sibling cards or one grouped-reveal card (card-rules Layer B #4). |
 | 6 | **Crisp cloze** | Is the hidden span a tight keyword/number, or a long fuzzy phrase you couldn't recall verbatim? | Tighten the deletion to the key term. |
-| 7 | **Right size** | Does one card hide more than ~3–4 items, or exceed 60 words? | Split. |
+| 7 | **Cohesive, not crammed** | Are the items a genuine single set, or unrelated facts forced together? A real cohesive list stays ONE card at any length (Parker's preference). Also: does the prose exceed ~60 words? | Split ONLY if the items are unrelated or the prose is too long; keep real lists whole. |
 | 8 | **Worth it** | Is the card built around genuinely testable knowledge, or around soft connective filler? | Re-anchor the card to the real fact. Do NOT drop a highlighted item — if it's truly uncardable even after checking card-rules Rule 0, flag `needs_human_check`. |
 | 9 | **Hint clean** | Could the hint replace the answer and mean the same thing? | Make it a slot-label, or remove it. |
 | 10 | **Standalone** | Any deixis, source-artifact word, or sentence-initial pronoun? Does it read cold, right after an unrelated card? | Rewrite to be self-contained. |

@@ -48,15 +48,14 @@ Each rule below cites a real failure so the reason is concrete. **Rule 0 gets re
 4. **List rule — test every item, never "cloze one and reveal the rest."**
    When the source lists N parallel items, every item must be tested. Choose deliberately:
    - **Sibling cards:** N cards, each hiding a *different* item with the others shown as context (best when each item is independently high-yield), or
-   - **One grouped card:** hide the whole set under the *same* cloze number `{{c1::A}}, {{c1::B}}, {{c1::C}}` (best for a short set learned as a unit).
+   - **One grouped card (the default for a cohesive list):** hide the whole set under the *same* cloze number `{{c1::A}}, {{c1::B}}, {{c1::C}}`. Use this for any list whose items belong together as a unit, regardless of length (Parker's preference — see rule 6). Reach for sibling cards only when the items are really independent facts that merely happen to be listed.
    Never `{{c1::A}}, B, C, D` — that tests A and gives away B/C/D for free.
    *v60 failure:* "…frontal, parietal, occipital, and `[temporal]` lobes." (3 of 4 lobes never tested.)
 
 5. **Crisp-cloze rule.** Delete a tight keyword, number, or term — not a long fuzzy phrase you could never recall verbatim.
    *v60 failure:* "Eustress can increase `[focus and short-term energy]`." → cloze the crisp concept, not the phrase.
 
-6. **List-size cap.** No single card hides more than ~3–4 items. Bigger sets become sibling cards.
-   *v60 failure:* one de-escalation card hid a 5-item list under one cloze.
+6. **Cohesive lists stay whole; don't cram unrelated facts.** A genuine cohesive list — parallel members of one set, or the steps of one process — goes in ONE card no matter how many items (Parker confirmed 2026-06-29: keep a real list together, don't split it; e.g. the Star of Life's 6 functions, the EMS Agenda 2050's 6 principles). The only thing to avoid is forcing *unrelated/independent* facts into one card just to bundle them — those stay separate cards. Test before bundling: "are these truly one set, or am I lumping unrelated things together?"
 
 7. **Under-clozing check.** Within the highlighted passage, every *distinct testable* fact gets tested somewhere (this card or a sibling). Don't leave a clozable fact sitting in plain text.
    *v60 failure (the "didn't cloze cytosine" bug):* 82.5% of long old cards clozed only one thing.
