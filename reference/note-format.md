@@ -29,7 +29,7 @@ The number decides how many cards a note makes and which blanks share a card. Se
 Open every Back Extra line with one of: `Meaning:` `Why:` `Mechanism:` `Distinguish:` `Pitfall:` `Ex:` `Cue:` `Pathway:` `Mnemonic:`. (This matches the house style of the old deck and the AnKing Extra field.)
 
 ## HTML
-- Allowed: `<b>`, `<br>`, `<img>`. Nothing else. No escaped entities. One note per object.
+- Allowed: `<b>`, `<i>`, `<br>`, `<img>`. Nothing else (no `<u>`, no escaped entities). One note per object. Bold/italics are for *selective* emphasis only — the load-bearing word, not whole phrases (Parker's gold cards use italics for contrast; keep it sparing).
 
 ## Card object (what the writer produces, what `anki_write.py` consumes)
 ```json

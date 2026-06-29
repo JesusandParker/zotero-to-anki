@@ -2,7 +2,7 @@
 
 This is the piece the old ChatGPT system never had, and the single biggest reason the new cards will beat the old ones. After a card is drafted, run it through this checklist **as an adversary** — your job is to *break* the card, not to approve it. Default to "rewrite" when unsure.
 
-Run every drafted card through all 13 checks. Output one of: **PASS**, **REWRITE** (with the fix applied), or **DROP** (with a one-line reason).
+Run every drafted card through all 14 checks. Output one of: **PASS**, **REWRITE** (with the fix applied), or **DROP** (with a one-line reason).
 
 | # | Check | How to test it | If it fails |
 |---|-------|----------------|-------------|
@@ -19,6 +19,7 @@ Run every drafted card through all 13 checks. Output one of: **PASS**, **REWRITE
 | 11 | **Back Extra earns its place** | Does it add a real edge (Distinguish/Pitfall/Why…), or just restate the Text? | Rewrite it, don't pad. |
 | 12 | **Application-fit** | For a sign / finding / threshold / "which one" fact: is there a paired scenario card forcing a field decision (impression or next action), or is this pure recall? NREMT is application-weighted. | Draft the paired application cloze (one stem, one decision). Heaviest in clinical chapters; light in recall-heavy ones. |
 | 13 | **Coin-flip hinted** | Is the cloze a direction/binary (increase/decrease, indicated/contraindicated, open/closed) with nothing in the stem forcing the choice? | Add a forced-choice `::option/option` hint. An unhinted coin-flip blank is unanswerable — REWRITE. |
+| 14 | **Prereq-closed** | Does the card rely on an undefined term that makes it understandable only in source/lecture context (Parker's "wonky cards")? | Fold in a one-clause definition or spawn a sibling definition card — only from grounded context, else flag `needs_human_check`. |
 
 **Safety overlay:** if the card states a number, dose, threshold, or time window, or the extractor marked its grounding `PARTIAL`/`NOT_FOUND`, set `needs_human_check: true` regardless of the verdict above. These go to Parker for a human glance before he moves them out of `EMT::_Review`.
 

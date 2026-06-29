@@ -15,6 +15,9 @@ This replaces his old ChatGPT "v60" system. The old EMT deck was deleted on purp
 2. **Zero guessing.** If the context is too thin, ambiguous, or the highlight didn't locate (`grounding: NOT_FOUND`), do NOT invent. Flag it for Parker. Especially for any number, dose, or threshold.
 3. **Nothing is final.** Everything lands in `EMT::_Review`. Parker reviews, edits, and moves keepers himself. You stage; he commits.
 
+## Priority order when rules collide
+When two goals trade off, resolve in this order (Parker's explicit ranking from his ChatGPT-era notes): **(1)** correct cloze formatting + reliable write to Anki, **(2)** completeness/coverage of testable facts, **(3)** standalone atomicity, **(4)** a teachable Back Extra, **(5)** readability/aesthetics, **(6)** speed — dead last. Parker will gladly wait for better cards; never trade 1–5 for speed.
+
 ## The pipeline
 
 Work **one chapter at a time**, and within a chapter, **one highlight at a time** (Parker explicitly wants this blocked, focused approach — it's also what fixes the old deck's under-clozing).

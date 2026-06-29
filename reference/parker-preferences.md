@@ -16,6 +16,8 @@ How it's used: `card-rules.md` is the hard methodology; this file is Parker's sp
 - Back Extra opens with a labeled line: **Distinguish** for confusable pairs, **Cue** for a memory hook, **Pitfall** for a common trap, **Ex** for an example.
 - Confusable terms (certification/licensure/credentialing, primary/secondary prevention, online/off-line) get cross-linking *Distinguish* lines.
 - "such as" / open-ended lists are NOT carded as closed memorize-these lists.
+- **Breaks between chunks:** when a Text or Back Extra holds two or more distinct pieces of info, separate them with `<br>` so the card is scannable, not a run-on block. (Parker: "I kinda want there to be breaks inbtw info.") Don't break inside a single flowing sentence.
+- **Italics enabled** for selective emphasis/contrast (Parker asked for this repeatedly across his ChatGPT prompt versions; his gold cards use it). Same restraint as bold — the load-bearing word only.
 
 ## Open questions (need Parker's call — answer once and it becomes a rule)
 - **Yield level:** is ~27 cards for Chapter 1 about right, or more granular / fewer cards? — *deferred by Parker for now.*
@@ -24,3 +26,4 @@ How it's used: `card-rules.md` is the hard methodology; this file is Parker's sp
 - 2026-06-29: created during the Chapter 1 calibration; seeded with the tastes established so far.
 - 2026-06-29: confirmed big-list handling (keep a cohesive list whole, never split; never lump unrelated items). Card-volume question deferred.
 - 2026-06-29: adopted two-way definitions (evidence-based, from the AnKing decks + memory research). Converted Chapter 1's definitional cards to the `{{c1::term}} is {{c2::meaning}}` form.
+- 2026-06-29: mined the Obsidian ChatGPT-era complaints (7-agent workflow). Added rules for prerequisite-closure and meaning-dedupe, completed the banned source-word list, added emphasis-restraint + `<br>` readability + a written priority order, and enabled italics (a repeated past request). Confirmed most heavy complaints were already fixed by the architecture.

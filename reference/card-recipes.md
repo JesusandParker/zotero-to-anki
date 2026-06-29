@@ -2,7 +2,7 @@
 
 The master playbook for picking and executing the right card pattern for any EMT highlight. This is the **fast working reference**; `cloze-mastery.md` is the deep exemplar bank (open only the section you need). Hard form rules live in `card-rules.md`, the adversarial pass in `editor-checklist.md`, Parker's tastes in `parker-preferences.md` (those win on conflict).
 
-Note type is 2-field: **Text** (the cloze) + **Back Extra** (the teaching half, lines open with `Cue:`/`Distinguish:`/`Pitfall:`/`Why:`/`Mechanism:`/`Ex:`/`Pathway:`/`Mnemonic:`/`Meaning:`). HTML allowed: `<b>`, `<br>`, `<img>` only.
+Note type is 2-field: **Text** (the cloze) + **Back Extra** (the teaching half, lines open with `Cue:`/`Distinguish:`/`Pitfall:`/`Why:`/`Mechanism:`/`Ex:`/`Pathway:`/`Mnemonic:`/`Meaning:`). HTML allowed: `<b>`, `<i>`, `<br>`, `<img>` only (selective emphasis; no `<u>`).
 
 ---
 
@@ -57,6 +57,7 @@ Do **Rule 0 first** (card-rules): if the highlight is one leg of a connected set
 6. **Both directions become separate cards only when both are real goals** — never assume one direction trains the reverse. *(Recall is directional; backward transfer is real but unreliable.)*
 7. **Confusable siblings are made mutually discriminable** — the distinguishing feature appears in the cue or the `Distinguish:` line. *(Interference; the defensible core of interleaving.)*
 8. **Visual/spatial facts use images** (image-occlusion ideally), not words alone — but only *relevant* images, never decorative. *(Dual coding.)*
+9. **Emphasis is signal, not decoration; explanations use plain language.** Bold or italicize only the genuinely load-bearing word(s) — the negator, the contrast pivot, the one term the eye must land on. Styling several words, or styling "to look formatted," destroys the signal. When a Back Extra explains or defines, use plain words a layperson knows; never define a hard term with more jargon — gloss it in the same line. *(Parker: "don't make me look up six more words.")*
 
 **Hint hard rule (all archetypes):** a hint constrains the answer's *form* (category, count, binary options, first letter) and NEVER leaks its content. The two licensed leak-on-purpose exceptions are first-letter mnemonic cues and forced-choice option lists (the point there is *which*, not the word). Default is **no hint** — only ~16-21% of live AnKing clozes carry one.
 
