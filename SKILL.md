@@ -30,13 +30,14 @@ For every highlight in the file:
 
 0. **Group first (Rule 0 — do this before anything else).** Scan the highlights around this one (same page, consecutive, overlapping `context`). If several are parallel pieces of one idea — the bullet lead-ins under a single heading, a set of related terms, the steps of one process — treat them as ONE unit and make a single unified card. Never fragment a connected set into isolated cards, and never drop a highlighted span as "thin." See `reference/card-rules.md` Rule 0.
 
-1. **Classify the fact type.** Definition · vocabulary · numeric value/dose · formula · classification list · ordered sequence · anatomy/spatial · comparison · mechanism/causal chain · indications/contraindications · clinical-application · table/figure · ambiguous fragment.
+1. **Classify the fact type, then open its recipe.** Definition · numeric value/dose/cutoff · classification list · ordered sequence/protocol · comparison/direction-of-change · mechanism/causal chain · indication/contraindication · trigger ("when do you do X") · scope-of-practice · MOI → index of suspicion · age-banded vitals · buzzword/clinical-vignette · anatomy/figure · ambiguous fragment. Then open the matching section of **`reference/card-recipes.md`** — the archetype playbook (when-to-use, exact template, hint + Back-Extra conventions, do's/don'ts, EMT examples). Drill into `reference/cloze-mastery.md` only for more exemplars.
    - If it's a **table/figure** fact (or `grounding` is `PARTIAL`/`NOT_FOUND`), render the page and read it visually:
      ```
      python3 ~/.claude/skills/emt-card-maker/scripts/render_page.py <page>
      ```
      Then author from the image and attach it via the card's `image` field.
-2. **Draft 1–N cards** using the recipe for that type. Open the matching archetype section of `reference/cloze-mastery.md` (Part III for lists/equations/tables/numerics; Part V for definitions, comparisons, mechanisms, sequences, classifications, vignettes) and follow `reference/card-rules.md`. Apply the **under-clozing check**: every distinct testable fact in the passage must be tested by some card. A `user_comment` like "Know all of these!!" is a signal to be thorough.
+2. **Draft 1–N cards** following the chosen recipe in `reference/card-recipes.md` and the gates in `reference/card-rules.md`. Apply the **under-clozing check**: every distinct testable fact in the passage must be tested by some card. A `user_comment` like "Know all of these!!" is a signal to be thorough.
+   **Auto-pair rule (what makes the deck feel like NREMT prep):** if the fact is a sign, finding, vital threshold, or "which one" discrimination, also draft ONE short scenario cloze embedding it in a 1–2 sentence patient stem ending in a single decision (field impression or next action) — one stem, one cloze. Heaviest in clinical chapters; recall-heavy chapters (EMS Systems, Medical/Legal) need it far less. See `card-recipes.md` §1 and §9.
 3. **Edit each candidate** through `reference/editor-checklist.md` as an adversary. Rewrite or drop. Set `needs_human_check: true` for any number/dose/threshold or weak grounding.
 4. Keep the survivors as card objects in the shape from `reference/note-format.md`.
 
@@ -55,7 +56,8 @@ Tell Parker: how many cards landed in `EMT::_Review`, and specifically list the 
 ## Reference files (load on demand)
 - `reference/card-rules.md` — the full standard (Layer A form + Layer B judgment). Read before drafting.
 - `reference/parker-preferences.md` — Parker's living tastes. Read before drafting; when it conflicts with card-rules, this wins.
-- `reference/editor-checklist.md` — the 11-point adversarial Editor pass. Read before editing.
+- `reference/card-recipes.md` — **the archetype playbook**: for any highlight, which card shape to use plus the exact template and conventions. The primary drafting reference; consult it every time.
+- `reference/editor-checklist.md` — the 13-point adversarial Editor pass. Read before editing.
 - `reference/note-format.md` — exact note type, cloze/MathJax/image syntax, Back Extra vocabulary, write targets.
 - `reference/cloze-mastery.md` — 2,391 annotated AnKing exemplars across 23 sections. **Large file — open only the section for the card type you're writing**, not the whole thing.
 - `reference/chapter_pages.json` — page→chapter map (used by the extractor).
