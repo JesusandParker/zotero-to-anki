@@ -28,12 +28,16 @@ The audit of the old deck showed these were already near-perfect (deixis 0.4%, s
 
 ## Layer B — Judgment (the audit's findings; this is the new work)
 
-Each rule below cites a real failure from the deleted v60 deck so the reason is concrete.
+Each rule below cites a real failure so the reason is concrete. **Rule 0 gets read first, every time.**
 
-1. **Yield filter — card knowledge, not sentences.**
-   Only make a card if the fact is worth long-term memory for an EMT / the NREMT exam. Drop soft, throwaway, or edge-case clauses even if they were highlighted.
-   *v60 failure:* "A nicotine-cessation plan should address challenges that may `[trigger product use]`." (Not testable knowledge.) Also low-yield guide-dog handling trivia.
-   → A green highlight marks the *territory*; the yield filter picks the *cards* inside it. One highlight may yield several cards, one card, or — occasionally — none.
+0. **Connected-highlight synthesis — CHECK THIS BEFORE DRAFTING ANYTHING.**
+   Before you card a highlight, look at the highlights right around it. Parker often highlights several short spans — consecutive bullet lead-ins, parallel terms, or the pieces of one explanation under a single heading — that together form ONE bigger idea. When highlights are adjacent (same page, consecutive in order, overlapping context) and parallel, **synthesize them into one unified card that captures the whole concept**, not isolated fragment cards. Read the shared context paragraph: if the spans are the skeleton of a single point, make the single point.
+   *Failure that created this rule (2026-06-29):* "Scene size-up / Patient assessment / Treatment / Transport" were four highlighted bullet lead-ins under one heading ("EMT Training: Focus and Requirements") — the arc of every call. The system wrongly made two isolated cards and **dropped** the other two, instead of one card on the four core EMT functions. The fix was the single card: "The core work of an EMT on a call follows four steps: scene size-up, patient assessment, treatment, transport."
+
+1. **Yield filter — phrase around the real fact, but NEVER overrule a highlight.**
+   Within a highlight, decide *which clause* carries the testable knowledge and build the card around that, not around soft connective filler. But do **not** drop an entire highlighted span as "trivia" — Parker highlighted it on purpose; the green mark *is* the decision that it matters. If a span looks thin on its own, that is almost always Rule 0 (it's one leg of a connected set), so zoom out first. If a whole highlight still seems genuinely un-cardable after that, **flag it** (`needs_human_check`) for Parker — never silently discard it.
+   *v60 phrasing failure:* "A nicotine-cessation plan should address challenges that may `[trigger product use]`." — build the card around the real fact, don't cloze filler.
+   → A green highlight is something worth a card; your job is to render it well, not to veto it.
 
 2. **One-answer rule.** With the cloze hidden, the visible stem must point to **exactly one** correct answer. If several answers fit, the stem is too vague — rewrite it (add the constraining detail) or drop it.
    *v60 failure:* "A core goal of CQI is `[minimizing errors]`." (Improving care, quality, safety all fit.)

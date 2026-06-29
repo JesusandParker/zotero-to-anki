@@ -13,7 +13,7 @@ Run every drafted card through all 11 checks. Output one of: **PASS**, **REWRITE
 | 5 | **List handled** | Is this a list where only some items are clozed and the rest revealed? | Restructure into sibling cards or one grouped-reveal card (card-rules Layer B #4). |
 | 6 | **Crisp cloze** | Is the hidden span a tight keyword/number, or a long fuzzy phrase you couldn't recall verbatim? | Tighten the deletion to the key term. |
 | 7 | **Right size** | Does one card hide more than ~3–4 items, or exceed 60 words? | Split. |
-| 8 | **Worth it** | Is this genuinely NREMT-testable knowledge, or soft filler that happened to be highlighted? | DROP if it's filler. |
+| 8 | **Worth it** | Is the card built around genuinely testable knowledge, or around soft connective filler? | Re-anchor the card to the real fact. Do NOT drop a highlighted item — if it's truly uncardable even after checking card-rules Rule 0, flag `needs_human_check`. |
 | 9 | **Hint clean** | Could the hint replace the answer and mean the same thing? | Make it a slot-label, or remove it. |
 | 10 | **Standalone** | Any deixis, source-artifact word, or sentence-initial pronoun? Does it read cold, right after an unrelated card? | Rewrite to be self-contained. |
 | 11 | **Back Extra earns its place** | Does it add a real edge (Distinguish/Pitfall/Why…), or just restate the Text? | Rewrite it, don't pad. |

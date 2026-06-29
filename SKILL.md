@@ -28,6 +28,8 @@ This writes `work/chapter_<N>_highlights.json` (green highlights + grounded `con
 ### Stage 2 — For each highlight: classify → draft → edit
 For every highlight in the file:
 
+0. **Group first (Rule 0 — do this before anything else).** Scan the highlights around this one (same page, consecutive, overlapping `context`). If several are parallel pieces of one idea — the bullet lead-ins under a single heading, a set of related terms, the steps of one process — treat them as ONE unit and make a single unified card. Never fragment a connected set into isolated cards, and never drop a highlighted span as "thin." See `reference/card-rules.md` Rule 0.
+
 1. **Classify the fact type.** Definition · vocabulary · numeric value/dose · formula · classification list · ordered sequence · anatomy/spatial · comparison · mechanism/causal chain · indications/contraindications · clinical-application · table/figure · ambiguous fragment.
    - If it's a **table/figure** fact (or `grounding` is `PARTIAL`/`NOT_FOUND`), render the page and read it visually:
      ```

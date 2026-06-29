@@ -30,21 +30,16 @@
   "needs_human_check": false
  },
  {
-  "Text": "{{c1::Scene size-up::call phase}} is the initial overview of a call to judge whether the scene is safe, what resources are needed, and how to approach the emergency.",
-  "Back Extra": "Cue: It happens first on every call, before you reach the patient.",
-  "chapter": 1,
-  "needs_human_check": false
- },
- {
-  "Text": "{{c1::Patient assessment::call phase}} is the foundation of an EMS call: using assessment techniques to find what is wrong with the patient and identify life threats.",
-  "Back Extra": "Cue: Assessment drives treatment; you find life threats before you treat them.",
-  "chapter": 1,
-  "needs_human_check": false
- },
- {
   "Text": "The six EMS functions represented by the bars of the Star of Life, in order, are {{c1::detection}}, {{c1::reporting}}, {{c1::response}}, {{c1::on-scene care}}, {{c1::care in transit}}, and {{c1::transfer to definitive care}}.",
   "Back Extra": "Cue: The six trace a call from spotting the emergency (detection) to hospital handoff (transfer to definitive care).",
   "chapter": 1,
   "needs_human_check": false
+ },
+ {
+  "Text": "The core work of an EMT on a call follows four steps: {{c1::scene size-up}}, {{c1::patient assessment}}, {{c1::treatment}}, and {{c1::transport}}.",
+  "Back Extra": "Cue: Size up the scene (is it safe?), assess to find life threats, treat, then transport the patient to definitive care.",
+  "chapter": 1,
+  "needs_human_check": false,
+  "note": "Unified card (card-rules Rule 0): replaced the two isolated scene-size-up / patient-assessment cards after the Ch1 calibration miss."
  }
 ]
