@@ -18,7 +18,9 @@ from difflib import SequenceMatcher
 ALLOWED_TAGS = {"b", "i", "br", "img"}
 CLOZE = re.compile(r"\{\{c(\d+)::(.*?)(?:::(.*?))?\}\}")
 TAG = re.compile(r"</?([a-zA-Z0-9]+)[^>]*>")
-NUMISH = re.compile(r"\d|\bmg\b|\bmcg\b|mmHg|\bmL\b|%|\bhours?\b|\bminutes?\b|:\d")
+# a real VALUE/dose/threshold (number + unit, comparison, or range) — NOT a bare
+# list ordinal like "1. Detection" or a year inside a name.
+VALUE = re.compile(r"[<>≤≥]\s*\d|\d+\s*(?:mg|mcg|g|mmHg|mL|%|/min|bpm|hours?|minutes?|seconds?)\b|\d+\s*(?:to|-|–)\s*\d+", re.I)
 
 
 def readable(t):
@@ -36,7 +38,8 @@ def visible_stem(text, group):
     for m in CLOZE.finditer(text):
         out.append(text[pos:m.start()])
         if m.group(1) == group:
-            out.append("___" + (f" [{m.group(3)}]" if m.group(3) else ""))
+            out.append("___")  # blank WITHOUT the hint: an answer inside its own
+            # forced-choice hint ("federal or state?") is legitimate, not a leak
         else:
             out.append(m.group(2))
         pos = m.end()
@@ -65,13 +68,13 @@ def main():
             for m in CLOZE.finditer(t):
                 if m.group(1) == g:
                     a = norm(m.group(2))
-                    if a and len(a.split()) <= 4 and a in stem:
+                    if a and len(a.split()) <= 4 and re.search(r"\b" + re.escape(a) + r"\b", stem):
                         warn.append(f"#{i}: answer '{m.group(2)}' is visible in its own stem (leak)")
         # WARN: parenthetical hanging right off a cloze (the pathway-card leak shape)
         if re.search(r"\}\}\s*\(", t):
             warn.append(f"#{i}: parenthetical right after a cloze — verify it is NOT the answer's definition (leak risk)")
         # WARN: looks numeric but not flagged
-        if NUMISH.search(readable(t)) and not c.get("needs_human_check"):
+        if VALUE.search(readable(t)) and not c.get("needs_human_check"):
             warn.append(f"#{i}: looks numeric/dose but needs_human_check is false")
         reads.append(readable(t))
     # WARN: in-batch near-duplicates
