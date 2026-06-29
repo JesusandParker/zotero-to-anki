@@ -1,16 +1,16 @@
 [
  {
-  "Text": "{{c1::Certification::process}} is the process that verifies, usually through a standardized exam, that a provider meets the minimum required KSA competencies for emergency care.",
+  "Text": "{{c1::Certification::process}} is the exam-based verification that a provider meets {{c2::minimum competency standards}} for emergency care.",
   "Back Extra": "Distinguish: Certification verifies competency; licensure is the legal authority to practice; credentialing is an employer's check of qualifications.",
   "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "{{c1::Licensure::status}} is the legal authority to practice in your state, granted after you complete the certification process.",
+  "Text": "{{c1::Licensure::status}} is the {{c2::legal authority to practice}} in your state, granted after you complete certification.",
   "Back Extra": "Distinguish: Certification verifies you meet competency standards; licensure is the state granting legal authority to practice.",
   "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "{{c1::Credentialing::process}} is the verification of a health care provider's qualifications, the phase after licensure, often overseen by a physician medical director.",
+  "Text": "{{c1::Credentialing::process}} is the verification of a health care provider's {{c2::qualifications}}, the phase after licensure, often overseen by a medical director.",
   "Back Extra": "Cue: Credentialing can grant an EMT additional skills or limit them, beyond the base scope of practice.",
   "chapter": 1, "needs_human_check": true
  },
@@ -60,13 +60,13 @@
   "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "Each EMS system has a physician {{c1::medical director}} who authorizes its EMTs to provide care and to whom treatment problems or proposed procedure changes are referred.",
+  "Text": "A {{c1::medical director::role}} is the physician who {{c2::authorizes a service's EMTs to provide care}} and to whom treatment problems or procedure changes are referred.",
   "Back Extra": "Cue: The medical director is the working liaison between the EMTs, the hospitals, and the medical community.",
   "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "{{c1::Standing orders::term}} are the part of protocols that specify what an EMT must do for a specific complaint or condition, without contacting medical control first.",
-  "Back Extra": "Distinguish: Standing orders are pre-authorized (off-line) care; they do not require calling the medical director before acting.",
+  "Text": "{{c1::Standing orders::term}} let an EMT act on a specific complaint or condition {{c2::without contacting medical control first}}.",
+  "Back Extra": "Distinguish: Standing orders are pre-authorized, off-line care; they are part of the written protocols.",
   "chapter": 1, "needs_human_check": false
  },
  {
@@ -80,17 +80,17 @@
   "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "{{c1::Online::online or off-line?}} (direct) medical control is direction given in real time over the phone or radio from the medical director or a designated physician, such as a hospital base-station physician.",
+  "Text": "{{c1::Online::which?}} (direct) medical control is {{c2::real-time direction by phone or radio during a call}}, from the medical director or a designated physician.",
   "Back Extra": "Distinguish: Off-line control is set up ahead of time (standing orders, protocols); online happens live during the call.",
   "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "{{c1::Off-line::online or off-line?}} (indirect) medical control consists of standing orders, training, and supervision authorized in advance by the medical director.",
+  "Text": "{{c1::Off-line::which?}} (indirect) medical control is {{c2::standing orders, protocols, training, and supervision set up in advance}} by the medical director.",
   "Back Extra": "Distinguish: Online control is live phone or radio direction during a call; off-line is established beforehand.",
   "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "{{c1::Mobile integrated health care (MIH)::model}} delivers health care using prehospital resources within the community, rather than at a physician's office or hospital.",
+  "Text": "{{c1::Mobile integrated health care (MIH)::model}} delivers health care using {{c2::prehospital resources, within the community}}, rather than at a physician's office or hospital.",
   "Back Extra": "Cue: MIH aims to improve access to care at an affordable price and connects patients with resources like social services.",
   "chapter": 1, "needs_human_check": false
  },
@@ -100,7 +100,7 @@
   "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "{{c1::Continuous quality improvement (CQI)::process}} is a quality-management process in which team members at every level keep asking 'How are we doing now?' and 'What can we do to be better?'",
+  "Text": "{{c1::Continuous quality improvement (CQI)::process}} is a quality-management process in which team members at every level keep asking {{c2::'how are we doing now, and how can we do better?'}}",
   "Back Extra": "Cue: CQI is proactive and ongoing, not a one-time inspection; it depends on a just culture that reports errors without blame.",
   "chapter": 1, "needs_human_check": true
  },
@@ -110,7 +110,7 @@
   "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "{{c1::Public health::field}} examines the health needs of entire populations with the goal of preventing health problems.",
+  "Text": "{{c1::Public health::field}} examines the health needs of {{c2::entire populations}}, with the goal of preventing health problems.",
   "Back Extra": "Distinguish: Public health is proactive and population-level; emergency care is reactive and patient-level.",
   "chapter": 1, "needs_human_check": false
  },
@@ -120,17 +120,17 @@
   "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "{{c1::Primary::primary or secondary?}} prevention uses strategies that stop an event from ever happening.",
+  "Text": "{{c1::Primary::primary or secondary?}} prevention is {{c2::stopping an event from ever happening}}.",
   "Back Extra": "Distinguish: Secondary prevention acts after the event to reduce its effects. Ex: a vaccine is primary prevention.",
   "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "{{c1::Secondary::primary or secondary?}} prevention applies after an event has happened, aiming to decrease its effects.",
+  "Text": "{{c1::Secondary::primary or secondary?}} prevention is {{c2::reducing the effects of an event that has already happened}}.",
   "Back Extra": "Distinguish: Primary prevention stops the event entirely. Ex: seatbelts and helmets are secondary, reducing injury in a crash.",
   "chapter": 1, "needs_human_check": false
  },
  {
-  "Text": "An EMT who does everything with the patient's best interest in mind is acting as a {{c1::patient advocate::role}}.",
+  "Text": "A {{c1::patient advocate::role}} is an EMT who does everything with {{c2::the patient's best interest in mind}}.",
   "Back Extra": "Cue: 'Everything you do needs to be done with the patient in mind' is the guiding principle of EMS.",
   "chapter": 1, "needs_human_check": false
  }
