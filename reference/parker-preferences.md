@@ -14,7 +14,8 @@ How it's used: `card-rules.md` is the hard methodology; this file is Parker's sp
 - **Fresh-pass over patching:** when he wants a chapter redone, wipe the deck and rebuild from scratch rather than editing card-by-card.
 
 ## Current defaults (working, but not yet explicitly confirmed — flag if wrong)
-- Back Extra opens with a labeled line: **Distinguish** for confusable pairs, **Cue** for a memory hook, **Pitfall** for a common trap, **Ex** for an example.
+- Back Extra opens with a labeled line. The full blessed label set (matches `note-format.md`): **Distinguish** (confusable pairs) · **Pitfall** (a common trap) · **Why** / **Mechanism** (the reason/how) · **Ex** (an example) · **Cue** / **Mnemonic** (a memory hook) · **Pathway** · **Meaning** (expand an acronym). Priority when choosing: Distinguish/Pitfall > Why/Mechanism > Ex > Cue/Mnemonic. (2026-07-01: confirmed the Ch2/Ch3 cards use the wider set well; blessed it here to match the note-format vocabulary.)
+- **Margin comments are honored end-to-end.** A `user_comment` question gets answered at hand-off (grounded in source); "look more into this" gets `needs_human_check` + a specific to-do; "know all of these" makes the list exhaustive. (2026-07-01.)
 - Confusable terms (certification/licensure/credentialing, primary/secondary prevention, online/off-line) get cross-linking *Distinguish* lines.
 - "such as" / open-ended lists are NOT carded as closed memorize-these lists.
 - **Breaks between chunks:** when a Text or Back Extra holds two or more distinct pieces of info, separate them with `<br>` so the card is scannable, not a run-on block. (Parker: "I kinda want there to be breaks inbtw info.") Don't break inside a single flowing sentence.

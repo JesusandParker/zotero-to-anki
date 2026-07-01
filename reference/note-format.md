@@ -44,7 +44,7 @@ Open every Back Extra line with one of: `Meaning:` `Why:` `Mechanism:` `Distingu
 ```
 
 ## Write target & tags
-- **Staging deck:** `EMT::_Review`. Everything the pipeline generates lands here. Parker reviews/edits in Anki and moves keepers into his real chapter decks himself. Nothing the pipeline writes is "final."
+- **Staging deck:** `all::EMT::_Review`. Everything the pipeline generates lands here. Parker reviews/edits in Anki and moves keepers into his real chapter decks himself. Nothing the pipeline writes is "final."
 - **Tags (auto-applied):** `claude_generated` + `ch<N>`. This is a reversibility marker, NOT the organizational tagging scheme Parker deferred — it just lets a batch be found and undone in one click. (Full tag taxonomy is a separate, later decision.)
 - **Sync:** the pipeline never auto-syncs to AnkiWeb. Parker syncs when he's ready (his cards also live on his phone, so writes propagate on his next sync).
 

@@ -29,6 +29,16 @@ TAG = re.compile(r"</?([a-zA-Z0-9]+)[^>]*>")
 # a real VALUE/dose/threshold (number + unit, comparison, or range) — NOT a bare
 # list ordinal like "1. Detection" or a year inside a name.
 VALUE = re.compile(r"[<>≤≥]\s*\d|\d+\s*(?:mg|mcg|g|mmHg|mL|%|/min|bpm|hours?|minutes?|seconds?)\b|\d+\s*(?:to|-|–)\s*\d+", re.I)
+# "N <list-noun>" where the card should then cloze exactly N items. A mismatch means
+# the card states one count but tests another number of items — the exact shape of the
+# Ch3 "consider 7 factors" bug (source had 8). Catch it mechanically.
+NUMWORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
+            "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11, "twelve": 12}
+LIST_NOUNS = (r"factors|signs|steps|elements|questions|items|types|ways|routes|hazards|"
+              r"circumstances|stages|consequences|forms|principles|functions|components|"
+              r"categories|reasons|examples|cases|situations|conditions|features|actions|"
+              r"criteria|rights|duties|methods|phases|properties|kinds")
+COUNT_RE = re.compile(r"\b(\d+|" + "|".join(NUMWORDS) + r")\s+(?:\w+\s+){0,2}?(?:" + LIST_NOUNS + r")\b", re.I)
 
 
 def readable(t):
@@ -84,6 +94,27 @@ def main():
         # WARN: looks numeric but not flagged
         if VALUE.search(readable(t)) and not c.get("needs_human_check"):
             warn.append(f"#{i}: looks numeric/dose but needs_human_check is false")
+        # WARN: stated list-count != number of clozed items (the "7 vs 8 factors" bug)
+        m = COUNT_RE.search(readable(t))
+        if m:
+            stated = NUMWORDS.get(m.group(1).lower(), None)
+            if stated is None:
+                try: stated = int(m.group(1))
+                except ValueError: stated = None
+            if stated and 2 <= stated <= 20:
+                # Count members of the dominant cloze group (the list group) and warn only
+                # on an UNDERCOUNT — fewer clozed items than the stated number, i.e. a
+                # dropped list item (the real "7 vs 8 factors" bug). An OVERCOUNT is almost
+                # always a branch/alternative ("recovery, or exhaustion" = one stage, two
+                # outcomes) and is safe, so it isn't flagged (avoids false positives).
+                by_group = {}
+                for cm in CLOZE.finditer(t):
+                    by_group.setdefault(cm.group(1), 0)
+                    by_group[cm.group(1)] += 1
+                dom = max(by_group.values()) if by_group else 0
+                if dom > 1 and dom < stated:
+                    warn.append(f"#{i}: says '{m.group(0)}' but clozes only {dom} items "
+                                f"— a list item may be missing; verify against the full source page")
         reads.append(readable(t))
     # WARN: in-batch near-duplicates
     for i in range(len(reads)):

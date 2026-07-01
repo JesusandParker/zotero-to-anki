@@ -1,0 +1,1001 @@
+[
+ {
+  "Text": "A stressor that produces a {{c2::positive::positive or negative}} response is {{c1::eustress::stress type}}, whereas stress that produces a {{c2::negative::positive or negative}} response is {{c1::distress::stress type}}.",
+  "Back Extra": "Pitfall: the event itself does not decide which; the same high-speed MVC dispatch can produce eustress in one EMT and distress in another.<br>Ex: death of a family member or divorce typically causes distress; receiving a promotion or taking a vacation typically causes eustress.<br>Cue: <i>eu-</i> = good (as in <i>euphoria</i>).",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Eustress is a stressor response that is positive; distress is stress that produces negative responses (term-meaning binding tested in both directions).",
+  "source_indices": [
+   0,
+   1
+  ]
+ },
+ {
+  "Text": "After a dispatch to a high-speed motor vehicle collision, an EMT feels increased focus and energy in the short term and, long term, greater job satisfaction from performing well. The EMT is experiencing {{c1::eustress::eustress/distress}}.",
+  "Back Extra": "Distinguish: the same collision dispatch producing feeling overwhelmed, increased anxiety, and loss of focus is distress, which long term brings psychological and physiologic difficulties.<br>Pitfall: everyday usage treats stress as purely negative; in fact not all stress reactions are negative.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A stress reaction of increased focus, short-term energy, and long-term job satisfaction after a challenging call is classified as eustress, not distress.",
+  "source_indices": [
+   0,
+   1
+  ]
+ },
+ {
+  "Text": "{{c1::Wellness}} is the {{c2::active pursuit of a state of good health}}.",
+  "Back Extra": "Distinguish: resilience is the capacity to cope with and recover from distress — don't swap the two terms.<br>Pitfall: good physical fitness alone is not enough — wellness is multifaceted.<br>Why: EMS providers must work at wellness the same way they work to maintain their knowledge, skills, and attitudes.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Wellness is defined as the active pursuit of a state of good health.",
+  "source_indices": [
+   2
+  ]
+ },
+ {
+  "Text": "{{c1::Resilience}} is the capacity of an individual to {{c2::cope with and recover from distress}}.",
+  "Back Extra": "Distinguish: wellness is the broad, active pursuit of good health; resilience deals specifically with handling distress.<br>Pitfall: resilience is not fixed; some people tend to be more resilient than others, and a person's resilience can change.<br>Ex: builders include a balanced diet, adequate sleep, strong family/peer relationships, daily movement, and mindfulness.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Resilience is defined as the capacity of an individual to cope with and recover from distress.",
+  "source_indices": [
+   3
+  ]
+ },
+ {
+  "Text": "Long-term <b>sleep deprivation</b> in EMS providers can lead to 5 chronic conditions (among others):<br>{{c1::hypertension}}<br>{{c1::sleep apnea}}<br>{{c1::respiratory issues}}<br>{{c1::diabetes}}<br>{{c1::depression}}",
+  "Back Extra": "Distinguish: <i>short-term</i> fatigue causes acute harm (medical errors, vehicle crashes); <i>long-term</i> deprivation causes chronic disease.<br>Why: sleep deprivation and stress form a vicious cycle, each worsening the other, compounded in high-workload EMS systems.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Long-term sleep deprivation can lead to hypertension, sleep apnea, respiratory issues, diabetes, and depression, among other medical conditions.",
+  "source_indices": [
+   4
+  ]
+ },
+ {
+  "Text": "Acceptable alcohol consumption is defined as {{c1::one drink}} per day for <b>women</b> and {{c1::two drinks}} per day for <b>men</b>.",
+  "Back Extra": "Distinguish: <i>excessive</i> drinking is a separate category — binge = 5+ drinks (men) / 4+ (women) in one occasion; heavy = 15+ (men) / 8+ (women) per week.<br>Pitfall: people who drink excessively are not necessarily alcoholics, but they can still experience adverse health effects.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "Acceptable alcohol consumption is one drink per day for women and two drinks per day for men.",
+  "source_indices": [
+   5
+  ]
+ },
+ {
+  "Text": "According to the CDC, excessive alcohol use causes approximately {{c1::88,000}} deaths per year in the United States, at an economic cost of more than {{c2::$200 billion}} per year.<br>Approximately {{c3::75}}% of the total cost of alcohol abuse is attributed to {{c4::binge::binge/heavy}} drinking.",
+  "Back Extra": "Distinguish: <i>binge</i> drinking = many drinks in one occasion (men 5+, women 4+); <i>heavy</i> drinking = a high weekly total (men 15+/week, women 8+/week).<br>Pitfall: despite touted benefits of moderate drinking (e.g., red wine and heart health), the CDC says no one should start or increase drinking for potential health benefits.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "CDC: excessive alcohol use causes ~88,000 US deaths/year and costs more than $200 billion/year, with ~75% of the total cost attributed to binge drinking.",
+  "source_indices": [
+   6
+  ]
+ },
+ {
+  "Text": "As an EMT, protecting your own well-being means deliberately finding a {{c1::balance}} between {{c2::work and family}} — you owe it to yourself and to them.",
+  "Back Extra": "Why: coworkers, family, and friends often do not understand the stress of EMS calls, so protecting time to relax with them takes deliberate effort.<br>Pitfall: after a \"bad call\" you may not feel like attending a planned family event; that is the moment a formal peer support group or critical incident stress management (CISM) team can help.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "EMTs must find a balance between work and family, and they owe that balance to themselves and to their families.",
+  "source_indices": [
+   7
+  ]
+ },
+ {
+  "Text": "An {{c1::infectious disease::disease type}} is a medical condition caused by {{c2::the growth and spread of harmful organisms within the body}}.",
+  "Back Extra": "Distinguish: a communicable disease can pass to another person or species, whereas infectious is the broader category that also includes diseases not easily spread to others.<br>Ex: Salmonella causes infectious food poisoning but is not communicable to others.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "An infectious disease is a medical condition caused by the growth and spread of harmful organisms within the body.",
+  "source_indices": [
+   8,
+   13
+  ]
+ },
+ {
+  "Text": "A {{c1::communicable disease::disease type}} is a disease that can be {{c2::spread from one person or species to another}}.",
+  "Back Extra": "Distinguish: communicable is a subset of infectious — every communicable disease is infectious, but not every infectious disease is communicable.<br>Ex: hepatitis B is infectious and communicable, whereas Salmonella is infectious but not communicable to others.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A communicable disease is a disease that can be spread from one person or species to another.",
+  "source_indices": [
+   9,
+   13
+  ]
+ },
+ {
+  "Text": "{{c1::All::All/Not all}} communicable diseases are infectious, but {{c1::not all::All/Not all}} infectious diseases are easily communicable.",
+  "Back Extra": "Why: infectious only means organisms are growing in the body, while communicable adds that the disease can pass to others.<br>Ex: hepatitis B is infectious and communicable; Salmonella is infectious but not communicable to others.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "All communicable diseases are infectious, but not all infectious diseases are easily communicable.",
+  "source_indices": [
+   8,
+   9,
+   13
+  ]
+ },
+ {
+  "Text": "A {{c1::pathogen::term}} is a microorganism {{c2::capable of causing disease}} in a susceptible host.",
+  "Back Extra": "Distinguish: contamination is the presence of pathogens on or in an object, wound, food, or the body, not the disease-causing microbe itself.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A pathogen is a microorganism capable of causing disease in a susceptible host.",
+  "source_indices": [
+   10
+  ]
+ },
+ {
+  "Text": "{{c1::Contamination::term}} is the presence of {{c2::pathogens or foreign bodies on or in an object}}.",
+  "Back Extra": "Distinguish: contamination describes the <i>object</i> (pathogens or foreign bodies on or in it); exposure describes the <i>person</i> (contact with blood, body fluids, or airborne particles that may transmit disease).<br>Ex: contaminated items include dressings, water, food, needles, wounds, or the patient's body.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Contamination is the presence of pathogens or foreign bodies on or in an object.",
+  "source_indices": [
+   11
+  ]
+ },
+ {
+  "Text": "{{c2::Exposure::event}} is a situation in which a person comes into contact with {{c1::blood}}, {{c1::body fluids}}, {{c1::tissues}}, or {{c1::airborne particles}} in a manner that may allow {{c3::disease transmission::outcome}} to occur.",
+  "Back Extra": "Distinguish: Contamination is pathogens simply present on an object or the body; exposure is a person's contact that could transmit disease.<br>Cue: PPE is worn specifically to prevent exposure.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Exposure is a situation in which a person contacts blood, body fluids, tissues, or airborne particles in a manner that may allow disease transmission to occur.",
+  "source_indices": [
+   12
+  ]
+ },
+ {
+  "Text": "{{c1::Transmission}} is {{c2::how an infectious disease spreads}}.",
+  "Back Extra": "Why: all infections start from germs abnormally invading the body, but different germs spread by different means.<br>Cue: also called the <i>means</i> or <i>mechanisms</i> of transmission.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Transmission is the way an infectious disease is spread.",
+  "source_indices": [
+   14
+  ]
+ },
+ {
+  "Text": "Infectious diseases can be transmitted by four routes:<br>{{c1::contact}}, {{c1::aerosolized}}, {{c1::foodborne}}, and {{c1::vector-borne}}.",
+  "Back Extra": "Meaning: contact (direct or indirect), aerosolized (in droplets), foodborne, and vector-borne (through insects or parasitic worms).<br>Distinguish: of the four routes, only contact splits into two forms, direct or indirect.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "Infectious diseases can be transmitted by four routes: contact, aerosolized, foodborne, and vector-borne.",
+  "source_indices": [
+   14,
+   15
+  ]
+ },
+ {
+  "Text": "{{c1::Direct contact::contact type}} transmission moves an organism from one person to another by {{c2::touching, with no intermediary object}}.",
+  "Back Extra": "Distinguish: indirect contact spreads through a contaminated object (a fomite); direct contact needs person-to-person touch.<br>Ex: a patient's blood entering a cut on the EMT's hand, or HIV passing between sexual partners.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Direct contact transmission = an organism moved person-to-person by touch, with no intermediary object.",
+  "source_indices": [
+   16,
+   17
+  ]
+ },
+ {
+  "Text": "{{c1::Indirect contact::contact type}} transmission spreads infection from an infected patient to another person through an {{c2::inanimate (nonliving) object}}.",
+  "Back Extra": "Distinguish: direct contact needs person-to-person touch with no intermediary.<br>Cue: the contaminated object itself is called a fomite, e.g. an uncleaned stretcher that infects someone days later.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Indirect contact transmission = infection spread from an infected patient to another person through an inanimate object.",
+  "source_indices": [
+   18
+  ]
+ },
+ {
+  "Text": "A {{c1::fomite}} is the {{c2::inanimate object that transmits the infection}} in indirect contact.",
+  "Back Extra": "Distinguish: direct contact skips any object, passing the organism by touch alone.<br>Ex: blood left on an ambulance stretcher that is not cleaned can transmit the virus to someone days later.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A fomite is the inanimate object that transmits an infection in indirect contact.",
+  "source_indices": [
+   18
+  ]
+ },
+ {
+  "Text": "{{c1::Bloodborne pathogens}} are {{c2::microorganisms present in human blood that can cause disease}}.",
+  "Back Extra": "Why: controlling a patient's bleeding is a direct-contact exposure risk because bloodborne pathogens travel in blood.<br>Ex: hepatitis B can move from a patient's blood into a cut on the EMT's hand.<br>Pitfall: even a small, unnoticed cut can let a bloodborne pathogen enter the provider.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Bloodborne pathogens are microorganisms present in human blood that can cause disease in humans.",
+  "source_indices": [
+   17
+  ]
+ },
+ {
+  "Text": "Classify each scenario's <b>contact-transmission</b> route:<br>You touch the weeping skin lesion of a contagious patient with an ungloved hand = {{c1::direct::direct/indirect}}<br>You reuse a stethoscope on the next patient without cleaning it = {{c1::indirect::direct/indirect}}",
+  "Back Extra": "Distinguish: direct = person-to-person touch with no intermediary; indirect = through a contaminated object (a fomite).<br>Cue: if a nonliving object carries the germ between people, the route is indirect.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Classify scenarios as direct (blood into a cut) vs indirect (contaminated stretcher) contact transmission.",
+  "source_indices": [
+   16,
+   17,
+   18
+  ]
+ },
+ {
+  "Text": "{{c1::Airborne transmission::route}} is the spread of an infectious agent through {{c2::droplets or dust}}.",
+  "Back Extra": "Distinguish: Large droplets fall short and cause direct-contact spread; only tiny droplets become true airborne particles.<br>Ex: The common cold (coronavirus) spreads by coughing and sneezing.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Airborne transmission is the spread of an infectious agent through droplets or dust.",
+  "source_indices": [
+   19
+  ]
+ },
+ {
+  "Text": "{{c1::Foodborne transmission::route}} is the {{c2::contamination of food or water with a disease-causing organism}}.",
+  "Back Extra": "Why: Raw meat can carry bacteria that contaminate other foods on contact, so raw meats are kept away from other foods during prep.<br>Ex: Proper food storage and cleaning prep surfaces before and after use also cut foodborne spread.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Foodborne transmission is the contamination of food or water with a disease-causing organism.",
+  "source_indices": [
+   20
+  ]
+ },
+ {
+  "Text": "{{c1::Vector-borne transmission::mode of transmission}} is the spread of infection by {{c2::animals or insects}} that carry an organism from one person or place to another.",
+  "Back Extra": "Distinguish: vector-borne transmission needs a living carrier (an animal or insect), whereas foodborne transmission spreads through contaminated food or water.<br>Ex: rabies, Lyme disease, and the bubonic plague (fleas living on rats) are vector-borne.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Vector-borne transmission is the spread of infection by animals or insects that carry an organism from one person or place to another.",
+  "source_indices": [
+   21
+  ]
+ },
+ {
+  "Text": "The CDC's 2016 standard-precautions recommendation is to assume that {{c1::every person::who}} is potentially infected or can spread an organism transmissible in the health care setting.",
+  "Back Extra": "Distinguish: OSHA calls the same universal approach universal precautions.<br>Why: you cannot reliably tell who is contagious, so precautions apply to all patients, not just those with a known or suspected infection.<br>Pitfall: a patient who looks healthy or denies illness is not proven free of a transmissible infection.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "The CDC's 2016 standard-precautions recommendation is to assume every person is potentially infected or can spread a transmissible organism.",
+  "source_indices": [
+   22
+  ]
+ },
+ {
+  "Text": "If you are exposed to an infectious disease during patient care, you must notify your {{c1::designated officer::role}}.",
+  "Back Extra": "Distinguish: Standard (universal) precautions aim to prevent exposure; notifying your designated officer is the required step <i>after</i> an exposure occurs.<br>Cue: Because the CDC recommends assuming every patient may be infected, any exposure is treated as potentially infectious and must be reported.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "If you are exposed to an infectious disease, you must notify your designated officer.",
+  "source_indices": [
+   23
+  ]
+ },
+ {
+  "Text": "In infection control, {{c1::donning::term}} is {{c2::putting on::putting on or taking off}} PPE, and {{c1::doffing::term}} is {{c2::taking off::putting on or taking off}} PPE.",
+  "Back Extra": "Mnemonic: don = \"do <i>on</i>\"; doff = \"do <i>off</i>.\"<br>Why: donning and doffing full PPE in a consistent sequence is essential to reduce the risk of contamination.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Donning means putting on PPE and doffing means taking off PPE",
+  "source_indices": [
+   24
+  ]
+ },
+ {
+  "Text": "When <b>donning</b> PPE, put the items on in this order:<br><br>1. {{c1::Gown (secure the ties at neck and waist)}}<br>2. {{c1::N95 mask (ensure a tight seal)}}<br>3. {{c1::Eye protection (wraparound eyewear, goggles, or full face shield)}}<br>4. {{c1::Gloves}}",
+  "Back Extra": "Distinguish: doffing is not simply the reverse; whatever doffing process is used, the mask is the <i>last</i> item removed.<br>Why: departmental policy sets the exact order; always don PPE in the same order every time.<br>Pitfall: donning or doffing alone; have a partner observe and assist to ensure the process is done properly.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "The PPE donning order is gown (ties secured at neck and waist), then N95 mask (tight seal), then eye protection (wraparound eyewear, goggles, or full face shield), then gloves last.",
+  "source_indices": [
+   26
+  ]
+ },
+ {
+  "Text": "Gloves are the <i>last</i> piece of PPE you don. Pull the cuffs up and {{c1::over::over or under}} the sleeves of your gown.",
+  "Back Extra": "Distinguish: last on, first off; when doffing, gloves are the <i>first</i> item removed.<br>Why: cuffs pulled over the sleeves leave no exposed skin at the wrist where glove meets gown.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "When donning, glove cuffs are pulled up and over the gown sleeves.",
+  "source_indices": [
+   26
+  ]
+ },
+ {
+  "Text": "Doff full PPE by removing the items in this order:<br><br>{{c1::gloves}} → {{c1::eye protection}} → {{c1::gown}} → {{c1::mask}}",
+  "Back Extra": "Pitfall: clean your hands with alcohol-based sanitizer after the gown, then again thoroughly after the mask.<br>Cue: departments follow slightly different doffing sequences, but the mask is always removed last.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "The order for doffing full PPE is gloves, then eye protection, then gown, then mask; departments vary but the mask is always removed last.",
+  "source_indices": [
+   25,
+   27
+  ]
+ },
+ {
+  "Text": "Of the PPE removed during doffing, the one item that is decontaminated and reused rather than discarded is the {{c1::eye protection::which PPE item}}.",
+  "Back Extra": "Why: eye protection is the only reusable PPE item, so remove it from the back and tilt it forward without touching the contaminated front, then decontaminate it for later use.<br>Distinguish: gloves, gown, and mask are single-use and discarded.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "During PPE doffing, eye protection is decontaminated and reused rather than discarded like the other PPE.",
+  "source_indices": [
+   27
+  ]
+ },
+ {
+  "Text": "You must wash your hands {{c1::before and after::when}} contact with a patient, and wearing gloves {{c2::does not::does/does not}} eliminate this need.",
+  "Back Extra": "Why: Handwashing is the simplest yet most effective way to control disease transmission.<br>Mechanism: The longer germs stay on you the likelier they breach your barriers, and tiny skin cuts or abrasions are access points for pathogens.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Wash hands before and after patient contact, and wearing gloves does not remove that requirement.",
+  "source_indices": [
+   28
+  ]
+ },
+ {
+  "Text": "While providing patient care, you must change your gloves after they have been exposed to any {{c1::petroleum-based::product family}} product.",
+  "Back Extra": "Ex: motor oil, gasoline.<br>Distinguish: petroleum jelly gets its own stricter rule — never used with latex gloves in the first place.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Gloves must be changed after exposure to motor oil, gasoline, or any petroleum-based product.",
+  "source_indices": [
+   29,
+   30
+  ]
+ },
+ {
+  "Text": "During patient care, <b>never</b> use {{c1::petroleum jelly::ointment}} with {{c2::latex::glove material}} gloves.",
+  "Back Extra": "Why: petroleum jelly is itself a petroleum-based product — the same family that forces a glove change on contact.<br>Distinguish: motor oil or gasoline on any gloves means change them; petroleum jelly with latex is banned outright.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Petroleum jelly must not be used with latex gloves.",
+  "source_indices": [
+   30,
+   29
+  ]
+ },
+ {
+  "Text": "When a patient has <i>substantial</i> bleeding, protect yourself by wearing {{c1::double::single/double}} gloves.",
+  "Back Extra": "Ex: You may also double-glove when expecting exposure to large volumes of other body fluids.<br>Distinguish: Cleaning and disinfecting the ambulance calls for heavy-duty utility gloves instead, never lightweight latex or vinyl.<br>Pitfall: double-gloving does not replace changing gloves between patients.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Substantial bleeding is the trigger for wearing double gloves.",
+  "source_indices": [
+   31
+  ]
+ },
+ {
+  "Text": "When cleaning and disinfecting the ambulance, wear {{c1::heavy-duty utility::glove type}} gloves. <b>Never</b> use {{c1::lightweight latex or vinyl::2 glove types}} gloves for cleaning.",
+  "Back Extra": "Distinguish: lightweight latex and vinyl gloves are the patient-care gloves — the cleaning job gets its own dedicated heavy-duty pair.<br>Pitfall: change any gloves exposed to motor oil, gasoline, or any petroleum-based product, and never use petroleum jelly with latex gloves.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "For cleaning and disinfecting the ambulance, use heavy-duty utility gloves, never lightweight latex or vinyl gloves.",
+  "source_indices": [
+   32
+  ]
+ },
+ {
+  "Text": "Proper glove removal (Step 1): {{c2::partially::partially/completely}} remove the first glove by pinching at the {{c1::wrist::location}}, being careful to touch only the {{c1::outside::outside or inside}} of the glove.",
+  "Back Extra": "Why: the other hand is still gloved during Step 1, so glove touches only glove — bare skin never contacts the contaminated exterior.<br>Pitfall: the first glove comes only <i>partially</i> off in Step 1 — it is fully removed in a later step.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "Proper glove removal Step 1: partially remove the first glove by pinching at the wrist, touching only the outside of the glove.",
+  "source_indices": [
+   33
+  ]
+ },
+ {
+  "Text": "Prescription eyeglasses are not considered appropriate PPE eye protection because they offer little {{c1::side::coverage direction}} protection.",
+  "Back Extra": "Distinguish: Goggles or a full face shield give the best eye protection; eyeglass wearers need one <i>in addition</i> to their glasses.<br>Pitfall: Contact lenses add no splash protection either.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Prescription eyeglasses offer little side protection, which is why they are not considered appropriate as PPE eye protection.",
+  "source_indices": [
+   34
+  ]
+ },
+ {
+  "Text": "Aerosol-generating procedures (e.g., endotracheal intubation), field delivery of a baby, and major trauma are the classic situations where an EMT may need to add a {{c1::gown::PPE item}} for protection from extensive blood or body-fluid splatter.",
+  "Back Extra": "Why: a gown protects you from extensive splatter of blood or other body fluids.<br>Pitfall: gown use follows department policy — know your local policy before you need it.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Gowns may be worn in situations such as aerosol-generating procedures (e.g., endotracheal intubation), field delivery of a baby, and major trauma.",
+  "source_indices": [
+   35
+  ]
+ },
+ {
+  "Text": "You suspect a patient has an airborne- or droplet-spread disease such as tuberculosis, influenza, or COVID-19. Place a {{c1::surgical mask}} on the patient and a {{c1::particulate air respirator (N95)}} on yourself.",
+  "Back Extra": "Why: A simple surgical mask on the patient reduces germs spreading from them into the air.<br>Distinguish: You wear a plain surgical mask for possible blood or body-fluid spatter, but upgrade to an N95 respirator for a suspected airborne or droplet disease.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "For a suspected airborne/droplet-disease patient, place a surgical mask on the patient and a particulate air respirator (N95) on yourself.",
+  "source_indices": [
+   36
+  ]
+ },
+ {
+  "Text": "A patient with a suspected airborne disease already has a surgical mask on. Do you also place a particulate (N95) respirator on that patient? {{c1::No::yes/no}}",
+  "Back Extra": "Why: A particulate respirator on the patient is unnecessary and uncomfortable, and the surgical mask already reduces the germs they spread into the air.<br>Pitfall: The N95 respirator is protective gear for the rescuer, not the patient.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Do not place a particulate (N95) respirator on the patient; it is unnecessary and uncomfortable.",
+  "source_indices": [
+   37
+  ]
+ },
+ {
+  "Text": "When handling used needles, <b>never</b> {{c1::recap}}, {{c1::break}}, or {{c1::bend}} them.<br>Place each used needle directly into an {{c2::approved, closed, rigid::description}} sharps container.",
+  "Back Extra": "Why: the spread of HIV and hepatitis in the health care setting can usually be traced back to careless handling of sharps.<br>Pitfall: even the most careful providers may expose themselves through an accidental needlestick, so the hands-on maneuvers are banned outright.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Used needles must never be recapped, broken, or bent, and each is placed directly into an approved, closed, rigid sharps container.",
+  "source_indices": [
+   38
+  ]
+ },
+ {
+  "Text": "<b>Managing a potential exposure</b> (Step 1): {{c2::en route to the scene::when}}, make sure {{c1::PPE is out and available::action}}.",
+  "Back Extra": "Why: Staging PPE before arrival means you are protected the moment you make patient contact, not scrambling for gloves at the door.<br>Cue: Infection control belongs in your daily routine — exposure management starts before you ever see the patient.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "Step 1 of managing a potential exposure is, en route to the scene, making sure PPE is out and available.",
+  "source_indices": [
+   39
+  ]
+ },
+ {
+  "Text": "Routinely clean the ambulance {{c1::after each run::when}} and {{c1::daily::how often}}.<br>Whenever possible, ambulance cleaning should be done at {{c2::the hospital::hospital/station}}.",
+  "Back Extra": "Why: cleaning removes surface organisms left in the unit, preventing spread of communicable disease, and a fast cleanup returns the unit to service sooner.<br>Cue: address the high-contact areas: surfaces in direct contact with the patient's blood or body fluids, or surfaces you touched after that contact.<br>Pitfall: if you clean the unit back at the station instead, you must have a designated area with good ventilation.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "The ambulance is routinely cleaned after each run and daily, and whenever possible the cleaning is done at the hospital.",
+  "source_indices": [
+   40,
+   41
+  ]
+ },
+ {
+  "Text": "To clean the ambulance (the unit), you can use a {{c2::bleach::cleaning agent}}-and-water solution mixed at a {{c1::1:10::ratio}} dilution.",
+  "Back Extra": "Pitfall: never clean the unit with alcohol or aerosol spray products.<br>Ex: a hospital-approved disinfectant effective against <i>Mycobacterium tuberculosis</i> is an acceptable alternative.<br>Cue: mixed correctly, the solution should <i>not</i> have a strong bleach odor.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "A bleach-and-water solution at a 1:10 dilution can be used to clean the ambulance.",
+  "source_indices": [
+   42
+  ]
+ },
+ {
+  "Text": "Exposure to a patient's blood or body fluids {{c1::does not::does/does not}} mean there is a risk of infection.",
+  "Back Extra": "Distinguish: only a <i>significant</i> exposure carries real infection risk; mere contact often does not.<br>Why: a follow-up evaluation by a physician determines whether a significant exposure actually occurred.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Exposure to a patient's blood or body fluids does not mean there is a risk of infection.",
+  "source_indices": [
+   43
+  ]
+ },
+ {
+  "Text": "{{c1::Prophylaxis::term}} is {{c2::preventive treatment or measures taken against disease}}.",
+  "Back Extra": "Ex: Postexposure prophylaxis (PEP) is preventive care started after a significant exposure to keep infection from taking hold.<br>Cue: <i>pro-</i> (before) + <i>phylaxis</i> (guarding) = guarding against disease before it develops.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "Prophylaxis is preventive treatment or measures taken against disease.",
+  "source_indices": [
+   44
+  ]
+ },
+ {
+  "Text": "After a hepatitis B exposure in an EMT who lacks antibodies, post-exposure prophylaxis is {{c1::hepatitis B immune globulin}}, which gives only {{c2::temporary::duration}} protection, followed by the {{c3::three}}-shot hepatitis B vaccine series.",
+  "Back Extra": "Mechanism: The globulin's ready-made antibodies attack the virus immediately, buying time until the vaccine series takes effect.<br>Distinguish: An EMT who already has hepatitis B antibodies (previously vaccinated) needs no treatment.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "Hepatitis B post-exposure prophylaxis in an antibody-negative EMT = hepatitis B immune globulin (immediate but temporary) followed by a three-shot hepatitis B vaccine series.",
+  "source_indices": [
+   45
+  ]
+ },
+ {
+  "Text": "After an exposure, there is <b>no</b> treatment to prevent infection with hepatitis {{c1::C::B/C}}.",
+  "Back Extra": "Distinguish: Hepatitis B DOES have postexposure treatment — hepatitis B immune globulin plus the hepatitis B vaccine series.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "There is no postexposure treatment to prevent hepatitis C infection, unlike hepatitis B.",
+  "source_indices": [
+   45,
+   46
+  ]
+ },
+ {
+  "Text": "A crash scene must be well marked.<br>If law enforcement has not already done so, place devices at a sufficient distance from the scene to {{c1::warn}}, {{c1::slow}}, and {{c1::divert}} oncoming traffic.",
+  "Back Extra": "Why: a second crash into a poorly marked scene can damage the ambulance and injure you, your partner, or the patient.<br>Cue: the devices must alert motorists coming from <i>both</i> directions that a crash has occurred.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Warning devices are placed at a sufficient distance from a crash scene to warn, slow, and divert oncoming traffic.",
+  "source_indices": [
+   47
+  ]
+ },
+ {
+  "Text": "At a highway crash where you must work in an open traffic lane, physically shield the scene by parking a {{c1::heavy vehicle::what}} upstream to block the lane.",
+  "Back Extra": "Ex: a fire engine or other large apparatus makes the ideal blocker.<br>Why: if a second vehicle plows into the scene, it strikes the heavy blocker instead of you, your partner, or the patient.<br>Pitfall: a well-marked scene alone is not enough in a live lane — you also need the physical block.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "When you must work in a traffic lane, park a heavy vehicle (such as a fire engine, if available) positioned to block traffic in that lane.",
+  "source_indices": [
+   48
+  ]
+ },
+ {
+  "Text": "<b>Before</b> attempting to access patients who are trapped in a vehicle, check the vehicle's {{c1::stability}}.",
+  "Back Extra": "Pitfall: never rock or push the vehicle to find out whether it will move — that can overturn it or send it crashing into a ditch.<br>Pathway: check stability → take measures to secure the vehicle → access the patient.<br>Pitfall: if you are uncertain a crash scene is safe, wait for appropriately trained personnel to arrive before approaching.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Vehicle stability must be checked before attempting to access patients trapped in a vehicle.",
+  "source_indices": [
+   49
+  ]
+ },
+ {
+  "Text": "Hazardous materials placards and labels are {{c1::colored, diamond-shaped::appearance}} safety markers.<br>You should {{c2::never approach::approach/never approach}} any object marked with a placard or label.",
+  "Back Extra": "Distinguish: Placards go on transport vehicles and buildings; labels go on individual packages.<br>Pitfall: Some hazardous materials may not be properly marked, so an unmarked object is not proven safe.<br>Cue: read placards, labels, and identification numbers from a distance, using binoculars if needed.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Hazmat placards/labels are colored and diamond-shaped, and you must never approach any object marked with one.",
+  "source_indices": [
+   50,
+   51
+  ]
+ },
+ {
+  "Text": "The {{c1::Emergency Response Guidebook (ERG)::resource name}} is the {{c2::US Department of Transportation (DOT)::federal agency}}'s resource for a {{c3::hazardous materials::incident type}} incident, giving the proper procedures for {{c4::scene control}} and {{c4::emergency care of patients}}.",
+  "Back Extra": "Ex: a paper or electronic copy of the ERG should be available in your unit, and smartphone and tablet hazmat apps also exist.<br>Pitfall: the ERG is no substitute for scene size-up — never blindly rush in before assessing the scene for hazards.<br>Cue: the ERG also lists common hazardous materials; state and local agencies may keep information on materials common to their own areas.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "The Emergency Response Guidebook (ERG) is the US DOT's resource for hazmat incidents and gives the proper procedures for scene control and emergency care of patients.",
+  "source_indices": [
+   52
+  ]
+ },
+ {
+  "Text": "At a scene involving <b>hazardous materials</b>, the general guidelines are:<br>{{c1::Do not enter if there is evidence of hazardous materials}}<br>{{c1::Remain upwind and uphill}}<br>{{c1::Keep your distance (retreat if you learn the true nature of the situation)}}<br>{{c1::Quickly contact dispatch and request additional resources}}<br>{{c1::Do not enter until instructed by trained hazardous materials responders}}",
+  "Back Extra": "Why: vapors drift downwind and liquid runoff flows downhill, so staying upwind and uphill keeps the material moving away from you.<br>Cue: the DOT <i>Emergency Response Guidebook</i> lists hazardous materials and the proper scene-control and patient-care procedures.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "The general hazmat-scene guidelines are: do not enter with evidence of hazmat, stay upwind and uphill, keep your distance (retreating if needed), quickly contact dispatch for additional resources, and do not enter until trained hazmat responders instruct you.",
+  "source_indices": [
+   53
+  ]
+ },
+ {
+  "Text": "You arrive at an overturned tanker truck leaking an unknown chemical, with a visible vapor cloud. Relative to the scene, you should stage {{c1::upwind::upwind/downwind}} and {{c1::uphill::uphill/downhill}}, at a distance.",
+  "Back Extra": "Why: wind carries vapors and gravity carries liquid runoff, so upwind and uphill keeps both hazards moving away from you.<br>Pitfall: parking close to see the scene better defeats the point; keep your distance and be willing to retreat.<br>Cue: you may not enter until trained hazardous materials responders instruct you to.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "The correct staging position at a hazardous materials scene is upwind and uphill, at a distance.",
+  "source_indices": [
+   53
+  ]
+ },
+ {
+  "Text": "When power lines are down, mark off a {{c1::danger zone::zone type}} around the lines and keep it a {{c1::restricted::access}} area.<br>Set the perimeter using the {{c1::utility poles}} as landmarks — the safety zone is {{c1::one span of the poles' distance::distance}}.",
+  "Back Extra": "Meaning: one span = the distance between two adjacent utility poles.<br>Why: energized lines behave unpredictably and handling them is beyond EMT training — only emergency personnel, equipment, and vehicles belong inside.<br>Pitfall: the danger zone extends well beyond the immediate accident scene, and charged wires may show no visible sparks.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "At a downed-power-line scene you mark off a restricted danger zone, using the utility poles as perimeter landmarks, with a safety zone of one span of the poles' distance.",
+  "source_indices": [
+   54,
+   55
+  ]
+ },
+ {
+  "Text": "To avoid injury from lightning <b>ground current</b>, stay away from four features:<br>{{c1::drainage ditches}}<br>{{c1::moist areas}}<br>{{c1::small depressions}}<br>{{c1::wet ropes}}",
+  "Back Extra": "Why: after the bolt hits, current drains along the earth following the most conductive pathway — wet, low features carry it to you.<br>Distinguish: avoid <i>high ground</i> for the direct-strike risk; avoid low, wet features for the <i>ground-current</i> risk.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "To avoid lightning ground-current injury, stay away from drainage ditches, moist areas, small depressions, and wet ropes.",
+  "source_indices": [
+   56
+  ]
+ },
+ {
+  "Text": "Just before a <b>lightning strike</b>, as your surroundings become {{c2::electrically charged}}, two warning signs you may notice are {{c1::a slight tingling on your skin}} and {{c1::your hair standing on end}}.",
+  "Back Extra": "Pitfall: either sensation alone is a warning; you may feel tingling <i>or</i> hair standing on end, not necessarily both.<br>Distinguish: the tingling warning comes <i>before</i> a strike; ground current is the danger <i>after</i> the bolt hits.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Just before a lightning strike, as the surroundings become electrically charged, the warning signs are a slight tingling on the skin and hair standing on end.",
+  "source_indices": [
+   57
+  ]
+ },
+ {
+  "Text": "During an outdoor rescue, your skin tingles and your hair stands on end. What may be about to happen? {{c1::A lightning strike::threat}}<br><br>Immediate action? {{c1::Move to the lowest possible area::next step}}",
+  "Back Extra": "Why: high ground and projections (such as a single tree) draw the direct strike, so low is safest.<br>Pitfall: in a rescue operation, you may need to delay the rescue until the storm passes.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Tingling skin and hair standing on end mean a lightning strike may be imminent, and the immediate response is to move to the lowest possible area.",
+  "source_indices": [
+   57,
+   58
+  ]
+ },
+ {
+  "Text": "If caught in the open as a lightning strike becomes imminent, make yourself the smallest possible target with four actions:<br>{{c1::drop equipment (especially metal) that projects above your body}}<br>{{c1::avoid fences and other metal objects}}<br>{{c1::get into a low crouch}}<br>{{c1::place nonconductive material (such as a blanket) under your feet}}",
+  "Back Extra": "Why: metal projecting above your body invites the initial strike and can transmit the strike's current over a long distance; nonconductive material insulates your feet from ground current.<br>Pitfall: stay away from projections from the ground, such as a single tree.<br>Ex: a vehicle is safe shelter — get inside your car or unit if possible.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "When caught in the open before a strike, the four smallest-target actions are: drop projecting (metal) equipment, avoid fences and metal objects, assume a low crouch, and put nonconductive material under your feet.",
+  "source_indices": [
+   58
+  ]
+ },
+ {
+  "Text": "When a lightning strike is imminent, a <b>low crouch</b> exposes {{c1::only your feet}} to the ground current, whereas sitting exposes {{c1::your feet and your buttocks}}.",
+  "Back Extra": "Why: ground current travels along the earth's surface, so every body surface touching the ground becomes a path for current.<br>Cue: the nonconductive blanket under your feet insulates the one contact you cannot remove.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A low crouch exposes only the feet to ground current, while sitting exposes both the feet and the buttocks.",
+  "source_indices": [
+   58
+  ]
+ },
+ {
+  "Text": "The <b>seven</b> common hazards at a fire scene are:<br>{{c1::Smoke}}<br>{{c1::Oxygen deficiency}}<br>{{c1::High temperatures}}<br>{{c1::Toxic gases}}<br>{{c1::Building collapse}}<br>{{c1::Equipment}}<br>{{c1::Explosions}}",
+  "Back Extra": "Cue: three in the air (smoke, oxygen deficiency, toxic gases) + one you feel (high temperatures) + three that strike (building collapse, equipment, explosions).<br>Ex: firefighters carry a self-contained breathing apparatus (SCBA) at fire scenes to protect against the airborne hazards.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "The seven common hazards in a fire are smoke, oxygen deficiency, high temperatures, toxic gases, building collapse, equipment, and explosions.",
+  "source_indices": [
+   59
+  ]
+ },
+ {
+  "Text": "In a fire, smoke is made up of particles of {{c1::tar}} and {{c1::carbon}}.",
+  "Back Extra": "Why: smoke particles irritate the respiratory system on contact, and some can be deadly.<br>Pitfall: most smoke particles get trapped in the upper respiratory system, but the smaller ones still reach the lungs.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Smoke consists of particles of tar and carbon.",
+  "source_indices": [
+   60
+  ]
+ },
+ {
+  "Text": "A typical building fire emits a number of toxic gases, including:<br>{{c1::carbon monoxide}}<br>{{c1::cyanide}}<br>{{c1::carbon dioxide}}",
+  "Back Extra": "Distinguish: of the three, carbon <i>monoxide</i> is the deadliest — a colorless, odorless gas responsible for more fire deaths each year than any other by-product of combustion.<br>Pitfall: gases are not a fire's only respiratory threat — fire also consumes the available oxygen (worst in confined spaces), and superheated air itself can damage the airway.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A typical building fire emits toxic gases including carbon monoxide, cyanide, and carbon dioxide.",
+  "source_indices": [
+   61
+  ]
+ },
+ {
+  "Text": "Carbon monoxide binds to the hemoglobin in red blood cells about {{c1::200 times::multiple}} more readily than oxygen does.",
+  "Back Extra": "Mechanism: With roughly 200x the affinity, carbon monoxide out-competes oxygen for hemoglobin, so hemoglobin can no longer carry oxygen to body tissues.<br>Pitfall: Carbon monoxide is colorless and odorless, giving no warning of exposure.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "Carbon monoxide combines with hemoglobin about 200 times more readily than oxygen.",
+  "source_indices": [
+   62
+  ]
+ },
+ {
+  "Text": "Inhaling cyanide, a toxic gas produced by fire, prevents {{c1::cells from using oxygen}}.<br>At high concentrations, inhaled cyanide produces {{c2::shock}} and {{c2::severe hypoxia}}, ultimately leading to {{c2::death}}.",
+  "Back Extra": "Why: the result is cellular hypoxia — the tissues are starved of usable oxygen even though oxygen is still present.<br>Cue: cyanide comes from combustion, so suspect it in enclosed-space fire and smoke-inhalation victims.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Inhaling cyanide prevents cells from using oxygen; at high concentrations it causes shock and severe hypoxia, leading to death.",
+  "source_indices": [
+   63
+  ]
+ },
+ {
+  "Text": "Carbon dioxide is a {{c1::colorless, odorless::sensory}} gas.<br>Exposure to carbon dioxide causes {{c2::increased respirations}}, {{c2::dizziness}}, and {{c2::sweating}}.",
+  "Back Extra": "Distinguish: unlike carbon monoxide (which binds hemoglobin and blocks oxygen transport), carbon dioxide harms mainly by <i>displacing</i> oxygen in the air — both gases are colorless and odorless.<br>Pitfall: neither gas warns you by sight or smell, so rely on scene clues and detectors.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Carbon dioxide is a colorless, odorless gas, and exposure causes increased respirations, dizziness, and sweating.",
+  "source_indices": [
+   64
+  ]
+ },
+ {
+  "Text": "Breathing carbon dioxide at concentrations {{c1::greater than 10% to 12%::threshold}} results in death within {{c2::a few minutes::time}}.",
+  "Back Extra": "Distinguish: below 10% to 12%, carbon dioxide exposure causes only increased respirations, dizziness, and sweating, not death.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "Breathing carbon dioxide at concentrations greater than 10% to 12% causes death within a few minutes.",
+  "source_indices": [
+   65
+  ]
+ },
+ {
+  "Text": "At a crash scene, <b>avoid</b> using {{c1::oxygen::gas}} in or near a vehicle that is {{c2::smoking}}, {{c2::smoldering}}, or {{c2::leaking fuel}}.",
+  "Back Extra": "Why: oxygen feeds combustion, so an oxygen source beside smoke or fuel vapor can ignite the wreck.<br>Pitfall: gasoline and other auto fluids are hazardous materials — treat a fuel leak as a fire risk, not just a spill.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Oxygen must not be used in or near a vehicle that is smoking, smoldering, or leaking fuel.",
+  "source_indices": [
+   66
+  ]
+ },
+ {
+  "Text": "At a vehicle crash, the first risk to consider is {{c1::traffic::hazard}}.<br>Ideally, park the ambulance so you can easily {{c2::leave::action}} the scene.<br>If you are the <b>first</b> unit to arrive, use the ambulance itself as a {{c3::shield::role}} until more help comes.",
+  "Back Extra": "Why: fire, rescue, and police vehicles arriving after you may park around you or block your exit.<br>Ex: hydraulic and hose lines are two common blockages you may encounter at a crash.<br>Cue: shield first, exit later. Once additional help arrives, relocate the ambulance for an easier exit.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "At a crash, traffic is the first risk to consider; ideally park the ambulance for an easy exit, but the first-arriving unit uses the ambulance itself as a shield.",
+  "source_indices": [
+   67,
+   68
+  ]
+ },
+ {
+  "Text": "When responding to a motor vehicle crash, park the ambulance at least {{c1::100 ft (30.5 m)::distance}} from the crash site.",
+  "Back Extra": "Why: you must be able to leave the scene easily; arriving fire, rescue, and police vehicles can block your exit (hydraulic and hose lines are common blockages).<br>Distinguish: if you are <i>first</i> on scene, park the ambulance as a shield to protect the scene, then relocate for easier exit once additional help arrives.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "The ambulance should be parked at least 100 ft (30.5 m) away from all crash sites.",
+  "source_indices": [
+   69
+  ]
+ },
+ {
+  "Text": "When you need protection from projectiles (bullets, bottles, rocks) at a scene, {{c1::cover::term}} is the tactical use of {{c2::an impenetrable barrier}}, whereas {{c1::concealment::term}} <i>only</i> {{c2::hides you from a person's view}}.",
+  "Back Extra": "Pitfall: do not depend on someone else for your safety; assessing the risks of each environment you enter is your own first task.<br>Cue: whenever you are in doubt about your safety, do not put yourself at risk.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Cover is the tactical use of an impenetrable barrier for protection, whereas concealment is hiding behind objects to limit a person's ability to see you.",
+  "source_indices": [
+   70,
+   71
+  ]
+ },
+ {
+  "Text": "The {{c1::American National Standards Institute (ANSI)::organization}} requires all EMS providers to wear {{c3::a high-visibility public safety vest::PPE}} whenever they are {{c2::on or near the roadway::location}}.",
+  "Back Extra": "Distinguish: gloves and eye protection guard against body fluids (standard precautions); the high-visibility vest addresses a separate roadway hazard — being seen by traffic.<br>Cue: roadway work = be seen first.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "ANSI is the body that requires all EMS providers to wear a high-visibility public safety vest while on or near the roadway.",
+  "source_indices": [
+   72
+  ]
+ },
+ {
+  "Text": "You should wear a {{c1::helmet::PPE}} anytime you work in a {{c2::fall zone::hazard area}}, an area where you are likely to encounter falling objects.",
+  "Back Extra": "Pitfall: objects often fall one after another — if the chin strap is not secure, the first falling object can knock the helmet off before the next one hits.<br>Cue: the helmet needs <i>top and side</i> impact protection plus a secure chin strap.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A fall zone is an area where you are likely to encounter falling objects, and you must wear a helmet anytime you work in one.",
+  "source_indices": [
+   73
+  ]
+ },
+ {
+  "Text": "A medical helicopter is landing at your emergency scene. While working near the landing and takeoff zone, wear {{c1::a face shield or goggles::PPE}}, because the rotors make large amounts of {{c2::dirt and debris::hazard}} airborne.",
+  "Back Extra": "Why: Rotor-blown debris poses a real risk for eye injury during touchdown and liftoff.<br>Distinguish: The helicopter's loud noise is a separate hazard, managed with soft foam earplugs, not eye protection.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "At helicopter landing and takeoff zones on emergency scenes, wear a face shield or goggles because rotor-blown dirt and debris pose an eye-injury risk.",
+  "source_indices": [
+   74
+  ]
+ },
+ {
+  "Text": "When injuries or acute illness leave an emergency patient confused or unsettled, you should {{c1::orient::communication action}} him or her to the surroundings, using {{c2::brief, concise::style}} statements.",
+  "Back Extra": "Ex: \"Mr. Rosa, you've had an accident, and I am now splinting your arm. I'm Mike Short of Ridgefield EMS. I'll be caring for you.\"<br>Why: the aura of an emergency — lights, sirens, smells, strangers — is intense, so expect disorientation in any emergency patient.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A patient confused by injury or acute illness should be oriented to his or her surroundings using brief, concise statements.",
+  "source_indices": [
+   75
+  ]
+ },
+ {
+  "Text": "Simply explaining what you are doing and allowing the patient to be part of the care can relieve the patient's feelings of {{c1::helplessness}} as well as some of the {{c1::fear}}.",
+  "Back Extra": "Why: taking an active part in the care hands the patient back a sense of <i>control</i> — the direct counter to helplessness.<br>Distinguish: being honest with a patient does not mean saying everything — skip alarming or unnecessary details the patient may not understand.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Explaining what you are doing and involving the patient in the care relieves feelings of helplessness and some of the fear.",
+  "source_indices": [
+   76
+  ]
+ },
+ {
+  "Text": "A critically ill patient asks you to notify his family but is unable to help you locate them. What should you do? {{c1::Make sure an appropriate and responsible person makes an effort to locate them::next step}}",
+  "Back Extra": "Why: assuring the patient that someone will make the notifications is itself part of patient care, because the reassurance helps calm the patient.<br>Pitfall: you do not have to locate the family personally — ensuring that a responsible person makes the effort fulfills the duty.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "When a patient wants family or close persons notified but cannot help locate them, the EMT should make sure an appropriate and responsible person makes an effort to locate the desired persons.",
+  "source_indices": [
+   77
+  ]
+ },
+ {
+  "Text": "A critically ill or injured child's XABCs are managed {{c2::the same as an adult's::same as adult/modified for age}}, with due regard for pediatric variations in {{c1::height}}, {{c1::weight}}, and {{c1::size}}.",
+  "Back Extra": "Meaning: XABCs = assessing airway, breathing, and circulation while addressing immediate life threats.<br>Cue: adult priorities, kid proportions.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Critically ill or injured children receive the same XABC (life-threat) care as any adult, but with due regard for pediatric variations in height, weight, and size.",
+  "source_indices": [
+   78
+  ]
+ },
+ {
+  "Text": "Because of the commotion an emergency scene brings for a child, a {{c1::relative or responsible adult::who}} should accompany the child {{c1::at all times::how often}}, to {{c2::relieve anxiety}} and {{c2::assist in care}} as appropriate.",
+  "Back Extra": "Pitfall: don't send the parent away to reduce scene commotion — separating the child from a familiar adult deepens the very anxiety you are trying to relieve.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A relative or responsible adult should accompany a pediatric patient at all times, to relieve anxiety and to assist in care as appropriate.",
+  "source_indices": [
+   79
+  ]
+ },
+ {
+  "Text": "A young child has died of terminal leukemia at home, and after you privately acknowledge the death her parents show little emotion and do not ask to see her.<br>Best next step? Offer that they may {{c1::see, hold, or touch::action with the body}} her.",
+  "Back Extra": "Why: holding or touching the child lessens disbelief and makes the death real for the grieving parents.<br>Pitfall: offer viewing only if possible and appropriate; a crime scene can bar it, and significant traumatic disfigurement may force the decision to be delayed.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Even if parents do not ask, tell them they may see their deceased child, and if possible and appropriate find a place where they can hold or touch the child.",
+  "source_indices": [
+   80
+  ]
+ },
+ {
+  "Text": "Letting parents hold or touch their deceased child is important in the grieving process because it lessens the sense of {{c1::disbelief::reaction}} and makes the death {{c1::real}}.",
+  "Back Extra": "Ex: shock, disbelief, and denial are common parental reactions even when the death was expected, as with terminal leukemia.<br>Pitfall: parents who show little emotion at the initial news still benefit from holding or touching the child.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Parents holding or touching their deceased child aids grieving by lessening disbelief and making the death real.",
+  "source_indices": [
+   80
+  ]
+ },
+ {
+  "Text": "A patient is close to death, and his wife is grieving at the scene while you provide reassurance and emotional care. One simple, supportive thing you can do for her is {{c1::ask whether there is anything you can do to help::what to ask}}.",
+  "Back Extra": "Ex: Offer to call a relative or a religious advisor for her.<br>Cue: With any grieving patient or bystander, do helpful things and make simple suggestions.",
+  "chapter": 2,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "While patients and bystanders are grieving, the EMT should ask whether there is anything he or she can do to help, such as calling a relative or religious advisor.",
+  "source_indices": [
+   81
+  ]
+ },
+ {
+  "Text": "{{c1::General adaptation syndrome::term}} is {{c2::the body's three-stage response to stress}}.",
+  "Back Extra": "Why: The physiologic side is the fight-or-flight response, driven by the interaction of the endocrine and nervous systems.<br>Cue: Both positive stress (e.g., exercise) and negative stress produce the same physiologic manifestations.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "The general adaptation syndrome is the body's three-stage response to stress.",
+  "source_indices": [
+   82
+  ]
+ },
+ {
+  "Text": "The three stages of the <b>general adaptation syndrome</b>, in order, are:<br>1. {{c1::alarm response}}<br>2. {{c1::reaction and resistance}}<br>3. {{c1::recovery}}, or {{c1::exhaustion}} if the stress is prolonged",
+  "Back Extra": "Mechanism: The stages are physiologic — the endocrine and nervous systems interacting, known as the fight-or-flight response.<br>Cue: The same three stages follow any stressor, whether emotional, physical, or environmental, and whether the stress is positive (exercise) or negative (losing a patient).",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "The general adaptation syndrome runs in three ordered stages: alarm response, reaction and resistance, then recovery (or exhaustion if stress is prolonged).",
+  "source_indices": [
+   82
+  ]
+ },
+ {
+  "Text": "When a crisis suddenly engulfs a patient, briefly {{c1::explain your plan of action::communication step}} to assist them.<br>Also inform the patient that you need {{c2::their own help}} and the assistance of {{c2::family members}} or {{c2::bystanders}}.",
+  "Back Extra": "Pitfall: anxious family members and bystanders are resources to recruit into the plan, not obstacles to clear from the scene.<br>Cue: explain the plan, then hand out jobs, patient included.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "For a patient suddenly engulfed by a crisis, briefly explain your plan of action to assist them, and inform the patient that you need their own help and the assistance of family members or bystanders to carry out that plan.",
+  "source_indices": [
+   83
+  ]
+ },
+ {
+  "Text": "When an emergency patient voices fears and concerns, your responses must be {{c1::discreet and diplomatic::2 qualities}}, giving reassurance when appropriate.<br>If the patient's loved one has been killed or critically injured, wait, if possible, until {{c2::clergy or the ED staff::who}} can give the patient the news.",
+  "Back Extra": "Why: clergy and ED staff can provide the psychological support the patient needs after receiving such news.<br>Ex: patients usually worry most about the safety of others involved and about damage or loss of personal property, concerns you can often relieve right at the scene.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Responses to a patient's fears/concerns must be discreet and diplomatic with reassurance when appropriate, and news of a loved one's death or critical injury should wait for clergy or ED staff to deliver.",
+  "source_indices": [
+   84
+  ]
+ },
+ {
+  "Text": "A patient tells you her religious convictions strongly oppose {{c1::medications, blood, and blood products::3 items}}. Beyond respecting her wishes, you must {{c2::report the objection to the next level of care::action}}.",
+  "Back Extra": "Why: the objection can only be honored after handoff if the information travels with the patient — respecting it yourself is not enough.<br>Ex: other religious needs to respect in the field: patients may cling to medals or charms (especially if you attempt to remove them), and may ask for religious counsel, baptism, or last rites when death is imminent — try to accommodate these requests.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Religious convictions may strongly oppose medications, blood, and blood products; an EMT who learns this must report it to the next level of care.",
+  "source_indices": [
+   85
+  ]
+ }
+]

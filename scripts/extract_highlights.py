@@ -23,6 +23,13 @@ PDF = "/Users/parkerregner/Zotero/storage/Z98PW7AT/Pollak et al. - 2021 - Emerge
 GREEN = ("#5fb236", "#7cc868")  # both palette greens = "make a card"
 CHAPTER_MAP = os.path.join(SKILL, "reference", "chapter_pages.json")
 CTX_CHARS = 450  # paragraph context grabbed on each side of the highlight
+# A list lead-in (a highlight that introduces an enumerated list, e.g. "...consider
+# the following factors:") needs MUCH more forward context, or the list gets cut off
+# mid-enumeration and the card-writer completes it from memory (ungrounded) or
+# undercounts. This bit Ch3 card 4: the 450-char window caught only 4 of 8
+# decision-making-capacity factors. When we detect a lead-in, grab the whole list.
+LIST_FWD_CHARS = 1700
+LIST_LEADIN = re.compile(r"(:\s*$|\bfollowing\b|\binclude[sd]?\b|\bare[:]?\s*$|\bconsider\b)", re.I)
 
 
 def norm(s):
@@ -95,14 +102,21 @@ def locate_context(hl_text, raw_page):
     ni = page_n.lower().find(anchor.lower())
     if ni < 0:
         ni = max(0, int(idx * len(page_n) / max(1, len(page_loose))))
+    hln = norm(hl_text)
+    # a list lead-in gets a wide forward window so the WHOLE enumerated list is captured
+    fwd = LIST_FWD_CHARS if LIST_LEADIN.search(hln) else CTX_CHARS
     start = max(0, ni - CTX_CHARS)
-    end = min(len(page_n), ni + len(norm(hl_text)) + CTX_CHARS)
+    end = min(len(page_n), ni + len(hln) + fwd)
     # snap to word boundaries
     if start > 0:
         start = page_n.find(" ", start) + 1
     if end < len(page_n):
         end = page_n.rfind(" ", 0, end)
     return status, page_n[start:end].strip()
+
+
+def is_list_leadin(hl_text):
+    return bool(LIST_LEADIN.search(norm(hl_text)))
 
 
 def main():
@@ -149,7 +163,20 @@ def main():
             continue
         if page_label not in page_cache:
             page_cache[page_label] = page_text(page_label)
-        status, ctx = locate_context(text, page_cache[page_label])
+        page_src = page_cache[page_label]
+        # A list lead-in whose enumeration spills onto the NEXT page (e.g. the
+        # decision-making-capacity factors run 272->273) would be truncated if we
+        # only read one page. For lead-ins, append the next page so the whole list
+        # is in context. (This is the real cause of the Ch3 "7 vs 8 factors" bug.)
+        if is_list_leadin(text):
+            try:
+                nxt = str(int(re.sub(r"[^0-9]", "", page_label)) + 1)
+                if nxt not in page_cache:
+                    page_cache[nxt] = page_text(nxt)
+                page_src = page_src + " " + page_cache[nxt]
+            except ValueError:
+                pass
+        status, ctx = locate_context(text, page_src)
         items.append({
             "chapter_num": cnum,
             "chapter_name": cname,
@@ -158,6 +185,10 @@ def main():
             "highlight": norm(text),
             "context": ctx,
             "grounding": status,
+            # true = this highlight introduces an enumerated list; the writer/editor
+            # MUST count the list against the full page (not just this context) and
+            # test every item — this is where undercounting/ungrounded completion hides.
+            "list_lead_in": is_list_leadin(text),
             "user_comment": (comment or "").strip() or None,
             "sort": sort,
         })

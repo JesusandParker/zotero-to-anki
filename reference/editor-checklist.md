@@ -2,7 +2,7 @@
 
 This is the piece the old ChatGPT system never had, and the single biggest reason the new cards will beat the old ones. After a card is drafted, run it through this checklist **as an adversary** — your job is to *break* the card, not to approve it. Default to "rewrite" when unsure.
 
-Run every drafted card through all 15 checks. Output one of: **PASS**, **REWRITE** (with the fix applied), or **DROP** (with a one-line reason).
+Run every drafted card through all 17 checks. Output one of: **PASS**, **REWRITE** (with the fix applied), or **DROP** (with a one-line reason).
 
 | # | Check | How to test it | If it fails |
 |---|-------|----------------|-------------|
@@ -21,6 +21,8 @@ Run every drafted card through all 15 checks. Output one of: **PASS**, **REWRITE
 | 13 | **Coin-flip hinted** | Is the cloze a direction/binary (increase/decrease, indicated/contraindicated, open/closed) with nothing in the stem forcing the choice? | Add a forced-choice `::option/option` hint. An unhinted coin-flip blank is unanswerable — REWRITE. |
 | 14 | **Prereq-closed** | Does the card rely on an undefined term that makes it understandable only in source/lecture context (Parker's "wonky cards")? | Fold in a one-clause definition or spawn a sibling definition card — only from grounded context, else flag `needs_human_check`. |
 | 15 | **Cue, not crutch (isolation test)** | Picture this card ALONE in Parker's shuffled MCAT+EMT+genetics deck. Does the visible side give enough SITUATIONAL context to answer it — WITHOUT a parenthetical/appositive/descriptor that states the answer's own definition? Could a non-knower decode the answer from the cue? | Strip the definitional leak (move it to Back Extra). If now too vague, add SITUATIONAL (not definitional) context. Target: knower-can / non-knower-can't. |
+| 16 | **No cross-card give-away** | For a scenario/classify card, are its correct answers spelled out — as an `Ex:` line, a definition, or the same wording — on a SIBLING card in this same batch? (A knower and non-knower both then win by pattern-matching the neighbor, not by reasoning.) | Re-write the scenario with a FRESH exemplar not used verbatim elsewhere, or DROP it if a sibling already tests the same discrimination. |
+| 17 | **List complete vs the real source** | For any card that states a count ("N factors/signs/steps") or enumerates a list: does it test EVERY item the *full source page* lists — not just the ones that fit the extractor's context window? Lists that spill across a page break are the trap. If the highlight is a `list_lead_in`, read the whole list off the page before trusting the count. | Add the missing item(s); correct the stated count. A stated count that ≠ the number of clozed items is the tell (`check_cards.py` flags an undercount). |
 
 **Safety overlay:** if the card states a number, dose, threshold, or time window, or the extractor marked its grounding `PARTIAL`/`NOT_FOUND`, set `needs_human_check: true` regardless of the verdict above. These go to Parker for a human glance before he moves them out of `EMT::_Review`.
 

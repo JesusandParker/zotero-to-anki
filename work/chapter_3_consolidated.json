@@ -1,0 +1,958 @@
+[
+ {
+  "Text": "Typically, {{c1::consent}} is required from every {{c2::conscious adult::patient group}} before care can be started.",
+  "Back Extra": "Why: a conscious, rational adult who can make informed decisions keeps the legal right to refuse care, even while ill or injured.<br>Pitfall: caring for a patient after refusal can be grounds for both <i>criminal</i> and <i>civil</i> action.<br>Pitfall: consent can be partial — the patient may accept some aspects of care and refuse others.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Consent is typically required from every conscious adult before care can be started.",
+  "source_indices": [
+   0
+  ]
+ },
+ {
+  "Text": "Consent to medical care can take two forms: {{c1::expressed (actual)}} or {{c1::implied}}.",
+  "Back Extra": "Why: the foundation of consent is decision-making capacity, meaning the patient can understand the information you provide, process it, and make an informed choice about care.<br>Pitfall: the law allows a patient with capacity to make choices that seem medically unsound, even ones that endanger the patient's life.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Consent comes in two forms: expressed (also called actual) or implied.",
+  "source_indices": [
+   1
+  ]
+ },
+ {
+  "Text": "{{c1::Decision-making capacity::term}}, the foundation of {{c3::consent}}, is a patient's ability to {{c2::understand}} the information you provide, {{c2::process}} it, and make an {{c2::informed choice}} about medical care.",
+  "Back Extra": "Distinguish: Competence is the near-synonym decided by a court; decision-making capacity is what you assess on scene.<br>Pitfall: A patient with intact capacity may legally make a choice that seems medically unsound, even one that endangers his or her life.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Decision-making capacity, the foundation of consent, is the ability to understand the information provided, process it, and make an informed choice regarding medical care.",
+  "source_indices": [
+   2
+  ]
+ },
+ {
+  "Text": "The terms competence and decision-making capacity are often used interchangeably, but <b>competence</b> is the {{c1::legal::legal/health care}} term, decided by {{c1::a court of law::authority}}, while <b>decision-making capacity</b> is the {{c1::health care::legal/health care}} term.",
+  "Back Extra": "Pitfall: On scene you assess decision-making capacity — a competence ruling typically comes from a court, not from providers in the field.<br>Cue: <i>C</i>ourt declares <i>c</i>ompetence.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Competence is the legal term (determined by a court of law), whereas decision-making capacity is the term used in health care.",
+  "source_indices": [
+   3
+  ]
+ },
+ {
+  "Text": "When determining a patient's <b>decision-making capacity</b>, consider 7 factors:<br>{{c1::Impaired intellect (mental limitation or dementia)}}<br>{{c1::Legal age (18 in most states)}}<br>{{c1::Alcohol or drug intoxication, or serious injury or illness}}<br>{{c1::Significant pain}}<br>{{c1::Hearing or visual problems}}<br>{{c1::A language barrier}}<br>{{c1::Apparent understanding (asks rational questions)}}",
+  "Back Extra": "Why: Decision-making capacity is the foundation of consent — an adult who is conscious, rational, and capable of an informed decision may legally refuse care, so these factors decide whose refusal stands.<br>Cue: Sweep the conversation head to toe — mind, age, chemicals, pain, senses, language, comprehension.",
+  "chapter": 3,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "The factors to consider when determining decision-making capacity are: impaired intellect (mental limitation/dementia), legal age (18 in most states), alcohol/drug intoxication or serious injury or illness, significant pain, hearing or visual problems, a language barrier, and apparent understanding (rational questions).",
+  "source_indices": [
+   4
+  ]
+ },
+ {
+  "Text": "A conscious adult smells of alcohol and slurs his speech after a fall, and he is refusing transport. Before you can honor the refusal, you must first assess his {{c1::decision-making capacity::term}}.",
+  "Back Extra": "Why: Intoxication is a factor that can remove decision-making capacity, and only a patient capable of an informed decision has a legal right to refuse care.<br>Distinguish: You assess capacity on scene; competence is the court's call.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "When an impaired patient refuses care, the EMT must assess decision-making capacity before honoring the refusal.",
+  "source_indices": [
+   3,
+   4
+  ]
+ },
+ {
+  "Text": "{{c1::Expressed::consent type}} consent, also called {{c1::actual::synonym}} consent, is given when the patient {{c2::specifically acknowledges wanting care or transport}}.",
+  "Back Extra": "Ex: Verbal — the patient says yes when you ask to check his blood pressure; nonverbal — the patient nods yes or extends an arm toward you.<br>Distinguish: <i>implied</i> consent is assumed for a patient unable to consent when life or limb is threatened.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Expressed (actual) consent is the consent given when the patient specifically acknowledges that he or she wants care or transport",
+  "source_indices": [
+   5
+  ]
+ },
+ {
+  "Text": "To be valid, a patient's consent must be {{c1::informed}} consent, meaning you explained all <b>5</b> things:<br>{{c2::the nature of the treatment}}<br>{{c2::potential risks}}<br>{{c2::benefits}}<br>{{c2::alternatives to treatment}}<br>{{c2::potential consequences of refusing treatment}}",
+  "Back Extra": "Pitfall: Informed consent does not have to be written — it is valid when given only <i>verbally</i>.<br>Why: The prehospital environment often requires obtaining consent more quickly than in the hospital setting.",
+  "chapter": 3,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "Consent is valid only if informed, meaning the EMT explained the treatment's nature, risks, benefits, alternatives, and the consequences of refusing it",
+  "source_indices": [
+   6
+  ]
+ },
+ {
+  "Text": "A conscious man with a severe headache says nothing when you ask to check his blood pressure, but nods and extends his arm toward you. What type of consent do you have? {{c1::Expressed (nonverbal) consent::consent type}}",
+  "Back Extra": "Why: Expressed consent may be verbal or nonverbal — a nod or an offered arm specifically acknowledges that the patient wants your care.<br>Distinguish: Implied consent applies only to a patient unable to consent, with a threat to life or limb.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Nonverbal signals such as nodding yes or extending an arm constitute expressed consent",
+  "source_indices": [
+   5
+  ]
+ },
+ {
+  "Text": "Implied consent (the law assumes a patient unable to consent would want care) may <b>never</b> be used unless a serious condition threatens {{c1::life or limb::2 things}}, which is why it is called the {{c2::emergency doctrine::name}}.",
+  "Back Extra": "Ex: patients intoxicated by drugs or alcohol, mentally impaired, or with a head injury are typical implied-consent patients.<br>Distinguish: if a spouse, close relative, or next of kin is available, the law lets them consent for the patient — make every effort to get that first, but never delay care for imminently life-threatening injuries.<br>Pitfall: when the seriousness of the threat is unclear, a medicolegal judgment may follow — protect yourself with best efforts to obtain consent and a thoroughly documented run report.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Implied consent applies only to a serious condition threatening life or limb, which is why the principle is called the emergency doctrine.",
+  "source_indices": [
+   7,
+   8
+  ]
+ },
+ {
+  "Text": "A patient being treated under implied consent who {{c1::regains consciousness}} and appears {{c1::capable of making an informed decision}} is {{c2::no longer::still/no longer}} covered by the doctrine.",
+  "Back Extra": "Ex: classic on diabetic-emergency, overdose, syncope, and seizure calls — the patient wakes up mid-treatment.<br>Why: implied consent only substitutes for the decision of a patient who cannot make one; once capacity returns, the patient decides for himself.<br>Meaning: from that moment, care and transport continue only with the patient's own consent.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Implied consent ceases the moment the patient regains consciousness and appears capable of making an informed decision.",
+  "source_indices": [
+   9
+  ]
+ },
+ {
+  "Text": "An adult patient who is mentally incompetent {{c1::cannot::can/cannot}} give informed consent, a situation legally similar to consent involving {{c1::a minor::patient category}}.",
+  "Back Extra": "Ex: patients who are mentally ill, developmentally delayed, or in behavioral (psychological) crisis may lack the capacity to consent.<br>Meaning: consent granted on a mentally incompetent patient's behalf is called involuntary consent.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A mentally incompetent adult cannot give informed consent, and the legal situation parallels that of a minor.",
+  "source_indices": [
+   10
+  ]
+ },
+ {
+  "Text": "For emergency care of a mentally incompetent adult, consent should be obtained from someone {{c1::legally responsible}} for the patient, such as a {{c1::guardian}} or {{c1::conservator}}.",
+  "Back Extra": "Pitfall: a guardian's permission is often not readily obtainable, and many states have protective custody statutes letting law enforcement take the patient to a medical facility.<br>Ex: under certain conditions, law enforcement and prison officials are also legally permitted to give consent.<br>Distinguish: if the injury is an immediate life threat and no guardian is reachable, care proceeds under implied consent.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Consent for emergency care of a mentally incompetent adult comes from someone legally responsible for the patient, such as a guardian or conservator.",
+  "source_indices": [
+   10
+  ]
+ },
+ {
+  "Text": "When a minor's parent or legal guardian cannot be reached for consent, health care providers in {{c1::every::every/some}} state are allowed to give {{c1::emergency::type of care}} care to the child — the minor's consent is then {{c2::implied::consent type}}, just as with an adult.",
+  "Back Extra": "Distinguish: a minor consenting to his or her <i>own</i> care is allowed only in some states, depending on the minor's age and maturity.<br>Pitfall: never withhold life-saving care from a minor because no one authorized to give consent is available — keep trying to reach the parent or guardian while care continues.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "In every state, when a parent cannot be reached to provide consent, health care providers may give emergency care to a child; in a true emergency the minor's consent is implied, just as with an adult.",
+  "source_indices": [
+   11,
+   13
+  ]
+ },
+ {
+  "Text": "In many states a minor is considered {{c2::emancipated::legal status}}, meaning {{c3::legally treated as an adult despite being under the legal age}}, based on four common circumstances:<br>{{c1::marriage}}<br>{{c1::membership in the armed services}}<br>{{c1::parenthood}}<br>{{c1::living away from parents and self-supporting}}",
+  "Back Extra": "Mnemonic: the 4 M's — <b>M</b>arried, <b>M</b>ilitary, <b>M</b>om/Dad (is a parent), <b>M</b>oved out (self-supporting).<br>Ex: a court order can also declare a minor emancipated, but that route is uncommon.<br>Pitfall: emancipation is state law and the exact circumstances vary — know your state's rules.",
+  "chapter": 3,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "Emancipated minors are legally treated as adults despite being under the legal age; many states consider a minor emancipated if married, in the armed services, a parent, or living away from and no longer relying on parents for support.",
+  "source_indices": [
+   12
+  ]
+ },
+ {
+  "Text": "A minor who is a parent {{c1::can::can/cannot}} give consent for treatment of his or her own child.",
+  "Back Extra": "Why: parenthood is itself an emancipating circumstance in many states, so the minor consents as a legal adult — for personal care and for the child's care.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A minor who is a parent may give consent for his or her own child.",
+  "source_indices": [
+   12
+  ]
+ },
+ {
+  "Text": "If a minor is injured at a school or camp and no parent or guardian is available, {{c3::teachers and school officials::roles}} may legally consent to the minor's treatment by acting {{c1::in loco parentis::legal term}}, which means {{c2::in the position or place of a parent}}.",
+  "Back Extra": "Pitfall: still attempt to reach the actual parent or legal guardian whenever possible — in loco parentis is the fallback, not the first choice.<br>Distinguish: with no parent available AND a true emergency, no one's permission is needed at all — the minor's consent is implied, just as with an adult.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "In school or camp settings, teachers and school officials may act in loco parentis (in the position or place of a parent) and legally consent to an injured minor's treatment when a parent or guardian is unavailable.",
+  "source_indices": [
+   13
+  ]
+ },
+ {
+  "Text": "To <b>forcibly restrain</b> a combative patient who poses a physical danger to himself or others, an EMT should typically consult {{c1::medical control}} for authorization or contact {{c1::law enforcement}}.",
+  "Back Extra": "Distinguish: medical control grants <i>you</i> authorization to restrain; law enforcement personnel carry the legal authority to restrain people themselves.<br>Why: restraint without legal authority exposes you to civil and criminal penalties.<br>Pitfall: in some states only a police officer may forcibly restrain a person, so know your local laws.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Before forcibly restraining a patient, an EMT typically consults medical control for authorization or contacts law enforcement, who have the authority to restrain people.",
+  "source_indices": [
+   14
+  ]
+ },
+ {
+  "Text": "A head-injured patient becomes combative and swings at rescuers, though he clearly needs treatment and transport.<br>Because he poses a risk to the rescuers, the advisable move is to {{c1::wait for law enforcement to arrive on scene}} before attempting to treat him.",
+  "Back Extra": "Why: restraint may be used only in circumstances of risk to the patient or others, and law enforcement personnel have the authority to restrain people.<br>Ex: combative behavior may result from a psychiatric or behavioral condition, drugs, or a medical condition such as a head injury or hypoxia.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "When a combative patient poses a risk to the rescuers, it is advisable to wait for law enforcement to arrive on scene before attempting to treat him.",
+  "source_indices": [
+   14
+  ]
+ },
+ {
+  "Text": "On every call where a patient refuses treatment, you should involve {{c1::online medical control::who}} and {{c1::document that consultation}}.",
+  "Back Extra": "Why: refusal-of-care calls pose a real litigation risk in EMS and require you to proceed cautiously.<br>Cue: be familiar with your local policies on refusal of care.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "On any refusal-of-care call, the EMT should involve online medical control and document that consultation.",
+  "source_indices": [
+   15
+  ]
+ },
+ {
+  "Text": "A patient's decision to accept or refuse treatment should be based on information that you provide, including:<br>{{c1::what you think might be wrong (your assessment)}}<br>{{c1::the treatment you think is necessary}}<br>{{c1::any possible risks of that treatment}}<br>{{c1::the availability of alternative treatments}}<br>{{c1::the possible consequences of refusing treatment}}",
+  "Back Extra": "Pitfall: giving the information is not enough. Be sure the patient understands everything and encourage questions.<br>Cue: all of this information belongs in your PCR, and many jurisdictions use preprinted refusal forms so every item is documented or acknowledged.<br>Distinguish: nearly the same list as the informed-consent elements (nature, risks, benefits, alternatives, consequences) — the refusal version adds your assessment of what might be wrong.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "An informed accept/refuse decision rests on five pieces of EMT-provided information: assessment of what is wrong, the treatment thought necessary, its risks, alternative treatments, and the consequences of refusing.",
+  "source_indices": [
+   16
+  ]
+ },
+ {
+  "Text": "A man swallowed a bottle of pills 'to end it all,' but is now calm, coherent, and refusing transport. Do you accept his refusal? {{c1::No (treat and transport)::yes/no}}",
+  "Back Extra": "Why: a suicide attempt — or conveyed suicidal intent alone — means he is not regarded as having normal mental capacity, so his refusal is not an informed refusal.<br>Pitfall: do not assume a confused or delusional patient's refusal is an informed refusal either.<br>Cue: when in doubt, treat, and contact medical direction whenever you are unsure.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A patient who attempted suicide or conveyed suicidal intent is not regarded as having normal mental capacity, so the EMT should not accept the refusal and should provide care.",
+  "source_indices": [
+   17,
+   18
+  ]
+ },
+ {
+  "Text": "When in doubt about a patient's ability to refuse care, {{c1::providing treatment::providing/failing to treat}} is usually the much more defensible position.",
+  "Back Extra": "Why: a single assessment finding usually cannot determine capacity; the constellation of findings is what supports your conclusion.<br>Cue: contact medical direction when you are unsure.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "When capacity to refuse is in doubt, providing treatment is a much more defensible position than failing to treat.",
+  "source_indices": [
+   18
+  ]
+ },
+ {
+  "Text": "Before leaving the scene where a patient has refused care, you should:<br>{{c1::Encourage the patient, up to three times if the situation allows, to permit treatment}}<br>{{c1::Remind the patient to call 9-1-1 if they change their mind or the condition worsens}}<br>{{c1::Advise the patient to contact a personal physician as soon as possible}}",
+  "Back Extra": "Why: your documentation must show every effort you made to obtain consent.<br>Cue: also get the refusal form signed and document the refusal thoroughly before you clear the scene.<br>Pitfall: never endanger yourself to care for a refusing patient; use law enforcement if needed for your own safety.",
+  "chapter": 3,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "Before leaving a refusal scene: encourage the patient up to three times to permit treatment, remind them to call 9-1-1 if they change their mind or worsen, and advise them to contact a personal physician as soon as possible.",
+  "source_indices": [
+   19,
+   20,
+   21
+  ]
+ },
+ {
+  "Text": "When a patient, parent, or guardian refuses treatment or transport, protect yourself with both {{c1::a thorough PCR (patient care report)}} and {{c1::official refusal documentation}}.",
+  "Back Extra": "Cue: have the refusing party sign the form, document your efforts to ensure an informed refusal, and note medical control's involvement.<br>Why: refusal cases can reach court (parents refusing a child's care have been charged with child neglect), and you may be called as a witness.<br>Pitfall: if the refusal form is not already part of the PCR, submit it with the PCR.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "On a refusal of treatment or transport, the EMT is protected by BOTH a thorough PCR and official (signed) refusal documentation.",
+  "source_indices": [
+   22
+  ]
+ },
+ {
+  "Text": "Communication between an EMT and a patient is confidential.<br>The protected information includes the {{c1::patient history}}, {{c1::assessment findings}}, and {{c1::treatment provided}}.",
+  "Back Extra": "Why: disclosure to anyone other than providers directly involved in the patient's care requires proper authorization (patient permission or a court order), or the EMT risks liability for breach of confidentiality.<br>Pitfall: sharing patient information with third-party billing personnel is <b>not</b> a breach of confidentiality.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Confidential patient information includes the patient history, assessment findings, and treatment provided.",
+  "source_indices": [
+   23
+  ]
+ },
+ {
+  "Text": "When multiple patients are in close proximity, such as in the back of one ambulance, PHI protections {{c1::still apply::still apply / are relaxed}}, whether or not the patients are {{c1::family::relationship}}.",
+  "Back Extra": "Meaning: PHI = protected health information.<br>Why: confidential details may go only to providers directly involved in that patient's care, so a nearby patient has no right to hear them.<br>Pitfall: never leave electronic devices or patient reports containing PHI unattended.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "PHI must still be maintained when two or more patients (family or not) are in close proximity, such as in the back of an ambulance.",
+  "source_indices": [
+   24
+  ]
+ },
+ {
+  "Text": "Using a personal electronic device, such as a cell phone, to capture information from a call is {{c1::prohibited::permitted / prohibited}}.<br>Photos of a patient's injuries or vehicle, and recordings made by crew members during a call, are {{c1::PHI::classification}} and a {{c1::confidential::status}} part of the {{c1::patient report::document}}.",
+  "Back Extra": "Pitfall: never post PHI on social media.<br>Distinguish: patient information may be used for internal quality improvement and training, but only after <i>all</i> identifying information is removed.<br>Pitfall: a legitimate-sounding purpose (such as documentation) does not make personal-device photos allowed.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Personal electronic devices must never be used to capture call information; digital images of a patient's injuries or vehicle and crew recordings are PHI and a confidential part of the patient report.",
+  "source_indices": [
+   25
+  ]
+ },
+ {
+  "Text": "When caring for patients with {{c2::terminal illnesses::patient population}}, you may encounter {{c1::POLST::form acronym}} and {{c1::MOLST::form acronym}} forms, which explicitly describe {{c3::acceptable interventions}} in the form of {{c3::medical orders}}.",
+  "Back Extra": "Distinguish: a DNR addresses resuscitation only; POLST/MOLST forms go further, spelling out which interventions the patient accepts.<br>Cue: expect them on hospice and other end-of-life calls.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "POLST and MOLST forms are encountered with terminally ill patients and explicitly describe acceptable interventions in the form of medical orders",
+  "source_indices": [
+   26
+  ]
+ },
+ {
+  "Text": "In end-of-life orders, <b>POLST</b> stands for {{c1::Physician Orders for Life-Sustaining Treatment}} and <b>MOLST</b> stands for {{c1::Medical Orders for Life-Sustaining Treatment}}.",
+  "Back Extra": "Cue: the two expansions differ only in the first word — <i>P</i>hysician vs <i>M</i>edical; both end in Orders for Life-Sustaining Treatment.<br>Why: because they are written as medical orders, they tell EMS explicitly which interventions the patient accepts.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "POLST expands to Physician Orders for Life-Sustaining Treatment and MOLST expands to Medical Orders for Life-Sustaining Treatment",
+  "source_indices": [
+   26
+  ]
+ },
+ {
+  "Text": "A relative hands you a power of attorney at a medical emergency, and its meaning is unclear. While the document is being interpreted, emergency care {{c1::continues without delay::continues/waits}}.",
+  "Back Extra": "Pitfall: many types of power of attorney exist and not all grant medical decision-making — read the document carefully, but keep treating while you do.<br>Cue: any question about its meaning or validity → contact online medical control.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Never delay emergency care while efforts are made to interpret a power of attorney",
+  "source_indices": [
+   27
+  ]
+ },
+ {
+  "Text": "The person named in a power of attorney or health care proxy is authorized to make the patient's medical decisions <b>only</b> when the patient is {{c1::no longer capable of deciding::patient status}}.",
+  "Back Extra": "Why: a patient who remains conscious and competent never surrenders the right to make medical decisions.<br>Cue: think of the proxy's authority as <i>dormant</i> until the patient loses capacity.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A power of attorney or health care proxy is only authorized to make decisions when the patient is no longer capable of doing so",
+  "source_indices": [
+   28,
+   27
+  ]
+ },
+ {
+  "Text": "Even with a <b>DNR</b> order in place, a patient who is <b>not</b> in {{c2::cardiac arrest::patient state}} must still receive supportive measures: {{c1::oxygen}}, {{c1::pain relief}}, and {{c1::comfort}}.",
+  "Back Extra": "Meaning: DNR does not mean \"do not treat\" — the order limits resuscitation, never routine care and comfort.<br>Pitfall: withholding oxygen or pain relief because of a DNR is a treatment error, not compliance.<br>Cue: each agency must build a protocol for these calls with its medical director and legal counsel.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Under a DNR, EMS is still obligated to provide supportive measures (oxygen, pain relief, comfort) to a patient not in cardiac arrest; DNR does not mean 'do not treat'",
+  "source_indices": [
+   28
+  ]
+ },
+ {
+  "Text": "In cases of hypothermia, a patient should not be considered dead until he or she is {{c1::warm and dead}}.",
+  "Back Extra": "Why: people have survived hypothermia at body temperatures as low as 64°F (18°C), so a cold, pulseless patient is not necessarily dead.<br>Pitfall: when you are unsure, begin CPR immediately and contact medical control for guidance.",
+  "chapter": 3,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "A hypothermic patient should not be considered dead until warm and dead.",
+  "source_indices": [
+   29
+  ]
+ },
+ {
+  "Text": "The eight presumptive signs of death are:<br>{{c1::Unresponsiveness to painful stimuli}}<br>{{c1::Lack of a carotid pulse or heartbeat}}<br>{{c1::Absence of chest rise and fall}}<br>{{c1::No deep tendon or corneal reflexes}}<br>{{c1::Absence of pupillary reactivity}}<br>{{c1::No systolic blood pressure}}<br>{{c1::Profound cyanosis}}<br>{{c1::Lowered or decreased body temperature}}",
+  "Back Extra": "Distinguish: presumptive signs only suggest death, whereas definitive (conclusive) signs — such as obvious mortal damage — are clear even to nonmedical people.<br>Cue: weigh the whole cluster (responsiveness, pulse, breathing, reflexes, pupils, blood pressure, skin color, temperature), not any single finding.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "The eight presumptive signs of death are unresponsiveness to painful stimuli, no carotid pulse/heartbeat, no chest rise and fall, no deep tendon or corneal reflexes, no pupillary reactivity, no systolic BP, profound cyanosis, and lowered body temperature.",
+  "source_indices": [
+   30
+  ]
+ },
+ {
+  "Text": "Beyond the presumptive signs of death, more evidence is typically needed before presuming death when death is sudden, as in {{c1::hypothermia}}, {{c1::acute poisoning}}, or {{c1::cardiac arrest}}.",
+  "Back Extra": "Why: presumptive signs are considered adequate mainly after severe trauma or the end stages of a long-term illness such as cancer, where death is expected.<br>Cue: sudden, potentially reversible causes justify attempting resuscitation — the same logic as the hypothermia 'warm and dead' rule.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "More evidence than the presumptive signs is needed before presuming death in sudden death from hypothermia, acute poisoning, or cardiac arrest.",
+  "source_indices": [
+   30
+  ]
+ },
+ {
+  "Text": "The speed at which rigor mortis develops after death is governed by how quickly the body can {{c1::lose heat to its surroundings}}, so rigor sets in sooner in a {{c2::thin::thin/fat}} body than a fat one, and sooner on a {{c2::tile floor::tile floor/blanketed bed}} than in a blanketed bed.",
+  "Back Extra": "Why: rigor mortis is caused by chemical changes in muscle, and how fast the body cools affects how fast rigor appears.<br>Distinguish: body fat and blankets insulate, slowing heat loss and delaying rigor.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "The rate of rigor mortis onset is determined by how fast the body loses heat to its surroundings: faster in a thin body than a fat one, and faster on a tile floor than wrapped in a blanket in bed.",
+  "source_indices": [
+   31
+  ]
+ },
+ {
+  "Text": "{{c1::Rigor mortis::postmortem sign}} is the {{c2::stiffening of the body's muscles}}, developing {{c3::2 to 12::time window}} hours after death.",
+  "Back Extra": "Mechanism: rigor mortis results from chemical changes within the muscle tissue.<br>Cue: rigor begins in the face and jaw, then extends downward until the body reaches full rigor.<br>Distinguish: putrefaction (decomposition of tissues) is a much later sign, 40 to 96 hours after death.",
+  "chapter": 3,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "Rigor mortis is the stiffening of the body's muscles (caused by chemical changes in muscle tissue), developing between 2 and 12 hours after death.",
+  "source_indices": [
+   31,
+   32
+  ]
+ },
+ {
+  "Text": "{{c1::Algor mortis::postmortem sign}} is the {{c2::cooling of the body until it matches the ambient temperature}}.",
+  "Back Extra": "Distinguish: rigor mortis is stiffening of the muscles and dependent lividity is skin discoloration from pooled blood — both are separate postmortem signs of death.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Algor mortis is the cooling of the body until it matches the ambient (surrounding) temperature.",
+  "source_indices": [
+   33
+  ]
+ },
+ {
+  "Text": "{{c1::Putrefaction::postmortem sign}} is the {{c2::decomposition of body tissues}}, developing {{c3::40 to 96::time window}} hours after death.",
+  "Back Extra": "Why: the exact timing depends on temperature conditions.<br>Distinguish: rigor mortis (stiffening) and algor mortis (cooling to ambient temperature) appear far earlier — rigor at 2 to 12 hours.",
+  "chapter": 3,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "Putrefaction is the decomposition of body tissues, developing between 40 and 96 hours after death depending on temperature conditions.",
+  "source_indices": [
+   34
+  ]
+ },
+ {
+  "Text": "In most states, the {{c2::medical examiner::official}} must be notified of a death when {{c1::trauma}} is a factor, or when the death involves {{c1::suspected criminal}} or {{c1::unusual}} situations.",
+  "Back Extra": "Distinguish: in some states a coroner, rather than a medical examiner, fills this role.<br>Why: once the medical examiner or coroner assumes responsibility for the scene, that responsibility supersedes all others at the scene, including the family's.<br>Ex: hanging and poisoning count as unusual situations.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "In most states, the medical examiner must be notified when a death involves trauma, suspected criminal situations, or unusual situations (such as a hanging).",
+  "source_indices": [
+   35,
+   36
+  ]
+ },
+ {
+  "Text": "Deaths that may be considered <b>medical examiner cases</b> include these eight examples:<br>{{c1::Dead on arrival (DOA) / dead on scene (DOS)}}<br>{{c1::Death without previous medical care (or the physician cannot state the cause of death)}}<br>{{c1::Suicide}}<br>{{c1::Violent death}}<br>{{c1::Poisoning, known or suspected}}<br>{{c1::Death from unintentional injuries}}<br>{{c1::Suspicion of a criminal act}}<br>{{c1::Infant and child deaths}}",
+  "Back Extra": "Cue: deaths that are sudden, suspicious, unexplained, or involve a child are the ones a physician cannot readily certify.<br>Pitfall: at a possible medical examiner scene, limit your disturbance of the scene, and remove yourself once death is determined per local protocols.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Example medical examiner cases: DOA/DOS, death without previous medical care or unstatable cause, suicide, violent death, known or suspected poisoning, death from unintentional injuries, suspicion of a criminal act, and infant and child deaths.",
+  "source_indices": [
+   36
+  ]
+ },
+ {
+  "Text": "Treat a potential <b>organ donor</b> {{c1::the same as any other patient::how}}, using {{c1::all means necessary}} to keep the patient alive — and give {{c2::oxygen::treatment}} at all times, or commonly donated organs (kidney, heart, liver) will be {{c2::damaged and become useless::consequence}}.",
+  "Back Extra": "Why: the priority is saving the patient's life, not preserving organs — never scale back treatment because the patient may become a donor.<br>Pitfall: protocols for special situations like organ donation vary — learn your area's specific rules.<br>Cue: donor care = normal patient care + oxygen, always.",
+  "chapter": 3,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "A potential organ donor is treated the same as any other patient, using all means necessary to keep them alive, and must be given oxygen at all times or the donor organs are damaged and become useless.",
+  "source_indices": [
+   37
+  ]
+ },
+ {
+  "Text": "An EMT who {{c1::carries out procedures they are not authorized to perform::conduct}} is practicing outside their {{c2::scope of practice::legal concept}}, which may be considered {{c3::negligence}} or, in some states, even a {{c3::criminal offense}}.",
+  "Back Extra": "Why: an EMT's authorization comes through medical direction, either online (telephone/radio orders) or offline (standing orders and protocols); a procedure beyond that authorization has no legal cover.<br>Distinguish: <i>scope of practice</i> = what you are authorized to do; <i>standard of care</i> = how you must act or behave. The two should not be confused.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Performing procedures you are not authorized to perform is practicing outside your scope of practice, which may be considered negligence or, in some states, a criminal offense.",
+  "source_indices": [
+   38
+  ]
+ },
+ {
+  "Text": "A {{c1::standard of care::legal concept}} is {{c2::the manner in which you must act or behave}} as an EMT.",
+  "Back Extra": "Distinguish: <i>scope of practice</i> = which procedures you are authorized to perform; a standard of care is about your conduct, not your authorization.<br>Why: the law requires concern for the safety and welfare of others whenever your behavior or activities could cause them injury or harm.<br>Ex: standards of care are established by local customs, statutes, ordinances, protocols, medical literature, and case law.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Standard of care is defined as the manner in which an EMT must act or behave.",
+  "source_indices": [
+   39
+  ]
+ },
+ {
+  "Text": "{{c1::Duty to act::legal concept}} is {{c2::an individual's responsibility to provide patient care}}.",
+  "Back Extra": "Distinguish: a bystander has <i>no</i> duty to act — no obligation to assist a stranger in distress.<br>Why: a duty to act arises from either statute or function.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Duty to act is defined as an individual's responsibility to provide patient care.",
+  "source_indices": [
+   40
+  ]
+ },
+ {
+  "Text": "As an EMT, your <b>legal</b> duty to act begins once {{c1::your ambulance responds to a call}} or {{c1::treatment is begun}}.",
+  "Back Extra": "Ex: duty can also arise when you are charged with emergency medical response, or when service policy requires you to assist in any emergency.<br>Distinguish: before dispatch and before care begins, an off-duty EMT usually has no legal obligation to stop at a crash.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A legal duty to act begins once the ambulance responds to a call or treatment is begun.",
+  "source_indices": [
+   41
+  ]
+ },
+ {
+  "Text": "You are off duty in your personal vehicle when you come upon a motor vehicle crash. Are you legally obligated to stop and assist? {{c1::No, in most cases::yes/no}}",
+  "Back Extra": "Why: the legal duty to act attaches only once your ambulance responds to a call or treatment is begun — neither has happened in an off-duty drive-up.<br>Pitfall: if you choose to intervene anyway, you must continue competent care until an equal or higher medical authority assumes care.<br>Cue: be familiar with the laws and policies in your service area — some circumstances can create an off-duty obligation.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "An off-duty EMT who witnesses a crash is, in most cases, not legally obligated to stop and assist.",
+  "source_indices": [
+   41
+  ]
+ },
+ {
+  "Text": "In EMS law, {{c1::negligence::legal concept}} is the failure to provide {{c2::the same care that a person with similar training would provide}} in the same or a similar situation.",
+  "Back Extra": "Distinguish: <i>breach of duty</i> is only one element of a negligence claim — not acting within the expected and reasonable standard of care.<br>Pitfall: harm alone is not negligence — duty, breach of duty, damages, and causation must all be present.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Negligence is the failure to provide the same care that a person with similar training would provide in the same or a similar situation.",
+  "source_indices": [
+   42
+  ]
+ },
+ {
+  "Text": "For negligence liability, all <b>four</b> elements must be present:<br>1. {{c1::Duty::D}}<br>2. {{c1::Breach of duty::B}}<br>3. {{c1::Damages::D}}<br>4. {{c1::Causation::C}}",
+  "Back Extra": "Why: when all four are proven, the EMT, the agency, and/or the medical director may be sued for negligence.<br>Cue: causation is often called <i>proximate causation</i> — the breach must be the direct cause of the injury.",
+  "chapter": 3,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "Determination of negligence requires four elements — duty, breach of duty, damages, and causation — and all four must be present for liability.",
+  "source_indices": [
+   43,
+   44
+  ]
+ },
+ {
+  "Text": "Name the negligence element each description matches:<br>An obligation to provide care per the standard set by training and local protocols = {{c1::duty}}<br>Not acting within an expected and reasonable standard of care = {{c1::breach of duty}}<br>Noticeable physical or psychological harm to the patient = {{c1::damages}}<br>A reasonable cause-and-effect link between the failure in care and the harm suffered = {{c1::causation}}",
+  "Back Extra": "Ex: dropping a patient during lifting and fracturing his leg — the drop directly causes the fracture, tying the elements together.<br>Distinguish: <i>damages</i> is the harm itself; <i>causation</i> is the link between the substandard act and that harm.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "The meanings of the four negligence elements: duty = obligation to provide care per training/local protocols; breach of duty = not acting within an expected and reasonable standard of care; damages = noticeable physical or psychological harm; causation = reasonable cause-and-effect relationship between breach and damages.",
+  "source_indices": [
+   43
+  ]
+ },
+ {
+  "Text": "Under the liability theory of {{c1::res ipsa loquitur}}, an EMT can be held liable even when the plaintiff {{c2::cannot clearly show how the injury occurred}}.",
+  "Back Extra": "Why: liability requires showing an injury occurred, its cause was in the EMT's control, and such injuries generally do not occur without negligence.<br>Ex: an unconscious patient is dropped and later sues over a facial laceration he cannot explain or describe.<br>Distinguish: <i>negligence per se</i> instead requires conduct in clear violation of a statute.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Res ipsa loquitur allows an EMT or EMS system to be held liable even when the plaintiff cannot clearly demonstrate how the injury occurred.",
+  "source_indices": [
+   44,
+   45
+  ]
+ },
+ {
+  "Text": "In rare cases, a plaintiff may establish liability using the theory of {{c1::negligence per se}}, which applies when the conduct in question allegedly occurred {{c2::in clear violation of a statute}}.",
+  "Back Extra": "Ex: an EMT gives an IV cardiac medication (an ALS skill) and the patient is injured — care that clearly exceeds EMT scope of practice.<br>Why: the plaintiff then does not have to establish the circumstances surrounding the conduct.<br>Distinguish: <i>res ipsa loquitur</i> covers injuries the plaintiff cannot explain; negligence per se covers conduct that broke a statute.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Negligence per se is a rarely used liability theory that applies when the defendant's conduct allegedly occurred in clear violation of a statute.",
+  "source_indices": [
+   45,
+   46
+  ]
+ },
+ {
+  "Text": "All forms of negligence come under the general legal category of {{c1::torts}}, which are defined as {{c2::civil wrongs}}.",
+  "Back Extra": "Distinguish: tort actions fall outside the jurisdiction of US criminal courts — a negligence suit is civil litigation, not prosecution.<br>Ex: other tort actions include defamation of character and invasion of privacy.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "All forms of negligence fall under the general category of torts, which are defined as civil wrongs.",
+  "source_indices": [
+   46
+  ]
+ },
+ {
+  "Text": "{{c1::Abandonment::legal term}} is the {{c2::unilateral}} termination of care by the EMT without the patient's {{c2::consent}} and without provision for continuing care by a {{c2::competent}} medical professional.",
+  "Back Extra": "Why: once care starts you assume a duty that must not stop until an equally competent provider takes over — failing it exposes the patient to harm and can bring civil action.<br>Pitfall: abandonment can occur even at the ED handoff — the duty ends only when you turn the patient over to appropriate hospital personnel.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Abandonment is the unilateral termination of care by the EMT without the patient's consent and without provision for continuing care by a competent medical professional.",
+  "source_indices": [
+   47,
+   48
+  ]
+ },
+ {
+  "Text": "You are caring for injured patients at a car crash when a passerby reports a second, larger crash down the road. If you turn your patients over to the <i>untrained</i> passerby and respond to the second crash, you may have committed {{c1::abandonment::legal term}}.",
+  "Back Extra": "Why: care may be turned over only to someone trained and competent to meet the patients' needs — an untrained passerby is not.<br>Distinguish: handing off to an equally (or more) competent medical provider is a proper transfer of care, not abandonment.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Leaving patients in the care of an untrained passerby to respond to another emergency may constitute abandonment.",
+  "source_indices": [
+   47,
+   48
+  ]
+ },
+ {
+  "Text": "Before you transfer care or leave a patient, ask yourself <b>8</b> general self-check questions:<br>{{c1::What problems may develop from your actions?}}<br>{{c1::How might the patient's condition worsen if you leave?}}<br>{{c1::Does the patient need care?}}<br>{{c1::Are you neglecting your duty to your patient?}}<br>{{c1::Is the person assuming care capable of providing the level of care needed by the patient?}}<br>{{c1::Are you abandoning the patient if you leave the scene?}}<br>{{c1::Are you violating a standard of care?}}<br>{{c1::Are you acting prudently?}}",
+  "Back Extra": "Cue: chunk the eight into consequences (problems, worsening), the patient (need for care), the receiver (capable?), and your own conduct (duty, abandonment, standard of care, prudence).<br>Why: each question tests whether leaving would breach the duty you assumed the moment care began.",
+  "chapter": 3,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "Before transferring care or leaving a patient, the EMT should weigh eight general self-check questions (problems from actions, worsening, need for care, neglect of duty, capability of the person assuming care, abandonment, standard of care, prudence).",
+  "source_indices": [
+   47,
+   48
+  ]
+ },
+ {
+  "Text": "In EMS law, {{c1::assault::legal term}} is unlawfully placing a person in {{c2::fear of immediate bodily harm}}.",
+  "Back Extra": "Distinguish: battery requires actual unlawful touching; assault is complete with fear alone, no contact needed.<br>Ex: threatening to restrain a patient who does not want to be transported could be considered assault.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Assault is defined as unlawfully placing a person in fear of immediate bodily harm.",
+  "source_indices": [
+   49
+  ]
+ },
+ {
+  "Text": "In EMS law, {{c1::battery::legal term}} is unlawfully {{c2::touching}} a person, which includes providing {{c3::emergency care without consent}}.",
+  "Back Extra": "Distinguish: assault is the fear of immediate harm with no touching required; battery is the actual contact.<br>Why: criminal battery requires proving intent to cause harm, which an EMS provider rarely has, so criminal cases are rare; civil battery suits are common in health care.<br>Ex: applying a splint or using an EpiPen on a patient who has not consented is battery.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Battery is defined as unlawfully touching a person, which includes providing emergency care without consent.",
+  "source_indices": [
+   50,
+   52
+  ]
+ },
+ {
+  "Text": "In EMS law, {{c1::kidnapping::legal term}} is the seizing, confining, abducting, or carrying away of a person {{c2::by force::key element}}.",
+  "Back Extra": "Why: criminal kidnapping charges are almost unheard of in EMS because the EMT is almost always acting in a good-faith effort to care for the patient.<br>Distinguish: the realistic exposure for holding or transporting a patient against their will is a civil lawsuit for false imprisonment, which requires no force.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Kidnapping is the seizing, confining, abducting, or carrying away of a person by force.",
+  "source_indices": [
+   51
+  ]
+ },
+ {
+  "Text": "In EMS law, {{c1::false imprisonment::legal term}} is the {{c2::unauthorized confinement}} of a person that lasts for {{c3::an appreciable period of time::how long}}.",
+  "Back Extra": "Distinguish: kidnapping requires force (seizing or carrying away); false imprisonment does not, and it is the far more likely civil claim against an EMT.<br>Ex: refusing to let a patient out of the ambulance after they rescind consent mid-transport.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "False imprisonment is defined as the unauthorized confinement of a person that lasts for an appreciable period of time.",
+  "source_indices": [
+   52,
+   51
+  ]
+ },
+ {
+  "Text": "Mid-transport, your patient rescinds consent and demands to be let out of the ambulance. If you refuse, you could be accused of {{c1::false imprisonment::kidnapping or false imprisonment}}.",
+  "Back Extra": "Why: criminal kidnapping charges are almost unheard of in EMS because the EMT is acting in good faith to provide care; the realistic risk is a civil false-imprisonment suit.<br>Pitfall: consent is not locked in at pickup; a patient can rescind it during transport.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Refusing to release a patient who rescinds consent during transport exposes the EMT to an accusation of false imprisonment, not kidnapping.",
+  "source_indices": [
+   51,
+   52
+  ]
+ },
+ {
+  "Text": "A patient refuses transport, and you threaten to restrain him if he will not come along. The threat alone could be considered {{c1::assault::assault or battery}}.",
+  "Back Extra": "Why: assault requires only that the person fears immediate bodily harm; no touching has occurred yet.<br>Distinguish: actually grabbing him, applying a splint, or using an EpiPen without consent would be battery (unlawful touching).",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Threatening to restrain a patient who does not want to be transported could be considered assault, not battery.",
+  "source_indices": [
+   49,
+   50,
+   52
+  ]
+ },
+ {
+  "Text": "{{c1::Defamation::legal claim}} is the communication of {{c2::false information that damages a person's reputation}}.",
+  "Back Extra": "Distinguish: the statement must be <i>false</i> — improperly sharing <i>true</i> patient information is a breach of confidentiality, not defamation.<br>Ex: inappropriate comments on social media, \"station house\" conversations, or a false statement on a run report can all give rise to a defamation claim against an EMT.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Defamation is the communication of false information that damages the reputation of a person.",
+  "source_indices": [
+   53
+  ]
+ },
+ {
+  "Text": "{{c1::Libel}} is defamation that is {{c2::written::written or spoken}}, whereas {{c1::slander}} is defamation that is {{c2::spoken::written or spoken}}.",
+  "Back Extra": "Cue: <i>s</i>lander = <i>s</i>poken — both start with <i>s</i>.<br>Ex: a false statement written on a run report would be libel; a false \"war story\" told aloud to friends would be slander.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Written defamation is libel; spoken defamation is slander.",
+  "source_indices": [
+   54
+  ]
+ },
+ {
+  "Text": "{{c1::Gross negligence::legal term}} is conduct that constitutes a {{c2::willful or reckless}} disregard for a {{c2::duty or standard of care}}.",
+  "Back Extra": "Distinguish: <i>ordinary</i> negligence is just failing to provide the care a similarly trained provider would give in the same situation; no willful or reckless element is required.<br>Pitfall: gross negligence voids an EMS provider's legal protection. State immunity laws give no protection when injury or damage is caused by gross negligence or <i>willful misconduct</i>.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Gross negligence is conduct constituting a willful or reckless disregard for a duty or standard of care, and it voids state EMS immunity protection.",
+  "source_indices": [
+   55
+  ]
+ },
+ {
+  "Text": "Two legal presumptions attach to EMS reports and records:<br>An action or procedure <b>not</b> recorded on the written report is presumed {{c1::not performed::performed/not performed}}.<br>An {{c1::incomplete or untidy::2 report flaws}} report is evidence of {{c1::incomplete or inexpert::2 care flaws}} emergency medical care.",
+  "Back Extra": "Why: without a record you must testify from memory alone, which is wholly inadequate and embarrassing under aggressive cross-examination.<br>Cue: \"not documented, not done\" and \"sloppy chart, sloppy care.\"<br>Pitfall: \"I did it but didn't chart it\" fails in court; the only defense against both presumptions is a complete, accurate report on every patient contact.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Two legal presumptions about EMS documentation: an action not recorded on the written report is presumed not performed, and an incomplete or untidy report is evidence of incomplete or inexpert emergency medical care.",
+  "source_indices": [
+   56
+  ]
+ },
+ {
+  "Text": "For an EMT, <b>failure to report</b> under a mandatory reporting statute (e.g., suspected child abuse) may result in four consequences: {{c1::disciplinary action}}, {{c1::suspension of EMT privileges}}, {{c1::a fine}}, or even {{c1::criminal prosecution}}.",
+  "Back Extra": "Cue: two professional hits (disciplinary action, suspended privileges), then two legal hits (a fine, \"or even\" criminal prosecution).<br>Pitfall: reporting rules are state law — who receives the report (law enforcement, a child protection agency, or the ED) and the filing time window vary by state, so learn your own state's statute.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Failing to meet a mandatory reporting requirement can result in disciplinary action, suspension of EMT privileges, a fine, or criminal prosecution.",
+  "source_indices": [
+   57
+  ]
+ },
+ {
+  "Text": "If you find evidence at an emergency scene that a crime may have been committed, in most cases you must immediately notify {{c1::the dispatcher::who}} so that law enforcement authorities can respond.",
+  "Back Extra": "Why: Reporting through dispatch gets police rolling without pulling you off patient care — a possible crime never stops life-saving treatment.<br>Pitfall: Your safety still comes first, so confirm the scene is safe before entering.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Evidence that a crime may have been committed at a scene means the EMT must notify the dispatcher immediately so law enforcement can respond.",
+  "source_indices": [
+   58
+  ]
+ },
+ {
+  "Text": "On a call for an apparent break-in, your patient has life-threatening bleeding and the scene is confirmed safe, but law enforcement has not yet arrived. What do you do? {{c1::Provide life-saving emergency care now::treat now/wait for police}}",
+  "Back Extra": "Why: A crime scene changes how you move and what you touch, not whether the patient gets treated.<br>Pitfall: Disturb the crime scene no more than absolutely necessary while providing care.<br>Ex: At times you must transport the patient to the hospital before law enforcement even arrives.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A possible crime scene does not stop the EMT from providing life-saving emergency care once the scene is safe; transport may even happen before police arrive.",
+  "source_indices": [
+   58
+  ]
+ },
+ {
+  "Text": "{{c1::Ethics}} is the philosophy of {{c2::right and wrong}}, of {{c2::moral principles}}, and of {{c2::ideal professional behavior}}.",
+  "Back Extra": "Distinguish: Morality is the code of conduct itself, set by society, religion, or a person, not the philosophy that studies it.<br>Cue: Ethics is often called <i>the study of morality</i>.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Ethics is the philosophy of right and wrong, of moral principles, and of ideal professional behavior.",
+  "source_indices": [
+   59
+  ]
+ },
+ {
+  "Text": "{{c1::Morality}} is {{c2::a code of conduct}} that defines {{c2::right versus wrong}} and can be set by {{c3::society, religion, or a person::sources}}.",
+  "Back Extra": "Distinguish: Ethics is the philosophy that studies right and wrong; morality is the code of conduct itself.<br>Cue: Morality shapes a person's character and conscience.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Morality is a code of conduct defining right versus wrong that can be set by society, religion, or a person.",
+  "source_indices": [
+   60
+  ]
+ },
+ {
+  "Text": "{{c1::Applied ethics}} is the manner in which ethical principles are {{c2::incorporated into professional conduct}}.",
+  "Back Extra": "Ex: Deciding what to do when your partner arrives at work smelling of alcohol is an applied-ethics dilemma.<br>Why: Ethical issues arise in nearly every EMS incident, so the patient's best interests must stay at the forefront of EMT decision making.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Applied ethics is the manner in which principles of ethics are incorporated into professional conduct.",
+  "source_indices": [
+   61
+  ]
+ },
+ {
+  "Text": "As an EMT, you are obligated to report medical errors you {{c1::make}} or {{c1::witness}} to {{c2::the medical director or another appropriate person::recipient}} as soon as possible.",
+  "Back Extra": "Distinguish: General <i>misconduct</i> by other providers is reported up the chain of command; <i>medical errors</i> go to the medical director or another appropriate person.<br>Why: Caring about your patients, coworkers, and the EMS system means never standing by silently.<br>Cue: Absolute honesty in reporting — a complete and accurate account of events and patient care — is an unquestionable EMT responsibility.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "EMTs are obligated to report medical errors they make or witness to the medical director or another appropriate person as soon as possible.",
+  "source_indices": [
+   62
+  ]
+ },
+ {
+  "Text": "Before acting on a tough ethical call, an EMT can run the six yes/no questions of the ethical decision-making checklist:<br>{{c1::Is the decision in the best interests of the patient?}}<br>{{c1::Is it based on logic and reason rather than emotion?}}<br>{{c1::Does it protect the patient's rights?}}<br>{{c1::Would you agree to the same decision if you were the patient?}}<br>{{c1::Would you make the same decision again in similar circumstances?}}<br>{{c1::Can you defend the decision to others?}}",
+  "Back Extra": "Pitfall: Don't wrestle a hard ethical call alone; involve online medical control in the decision.<br>Cue: Think patient (interests, rights, trade places), reasoning (logic over emotion, repeatable), and accountability (defensible to others).",
+  "chapter": 3,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "The ethical decision-making checklist consists of six yes/no self-check questions: patient's best interests, logic over emotion, patient's rights, agree if you were the patient, same decision again, defensible to others.",
+  "source_indices": [
+   63
+  ]
+ },
+ {
+  "Text": "While <b>on duty</b>, if a policy, rule, or law points one way and your personal sense of morals points another, you must follow {{c1::the policy, rule, or law (professional ethics)::professional ethics/personal morals}}.",
+  "Back Extra": "Distinguish: Morality is a personal code set by society, religion, or the person; professional ethics are the standards of the profession, which bind you on duty.<br>Ex: Honest reporting, a complete and accurate account of all events and patient care, is one unquestionable professional duty.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "While on duty, professional ethics (policies, rules, and laws) trump the EMT's personal morals.",
+  "source_indices": [
+   64
+  ]
+ },
+ {
+  "Text": "If you are served with the summons and complaint that begin a civil lawsuit, immediately notify {{c1::the head of your service::role}}, because the complaint must be answered within a set period, usually {{c2::20 to 30::range}} days.",
+  "Back Extra": "Meaning: the formal response is called the <i>answer</i>, which generally denies the claims and raises one or more defenses for you and your service.<br>Why: the complaint sets out the plaintiff's case and the legal theory for recovering a judgment against you.",
+  "chapter": 3,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "An EMT served with a summons must immediately notify the head of the service because the complaint must be answered within a set period, usually 20 to 30 days.",
+  "source_indices": [
+   65
+  ]
+ },
+ {
+  "Text": "The {{c1::statute of limitations::lawsuit defense}} is {{c2::the time within which a claim must be initiated}}.",
+  "Back Extra": "Ex: in many states a negligence claim must be initiated within 3 years of the event; a case filed later is barred.<br>Pitfall: most states extend the window for children, sometimes until the injured child's 21st birthday.",
+  "chapter": 3,
+  "needs_human_check": true,
+  "image": null,
+  "claim": "The statute of limitations is the time within which a claim must be initiated.",
+  "source_indices": [
+   66
+  ]
+ },
+ {
+  "Text": "The lawsuit defense of {{c1::governmental immunity::defense}} generally applies only to EMS systems operated by {{c1::municipalities or other governmental entities::operator type}}.",
+  "Back Extra": "Meaning: if covered, the service sometimes cannot be sued at all (particularly when an emergency exists), or the plaintiff's monetary judgment may be capped.<br>Pitfall: state laws vary significantly on immunity, so learn the law where you work.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Governmental immunity generally applies only to EMS systems operated by municipalities or other governmental entities.",
+  "source_indices": [
+   67
+  ]
+ },
+ {
+  "Text": "{{c1::Contributory negligence::defense}} is a lawsuit defense raised when {{c2::the plaintiff's own conduct helped cause the injuries or damages}}.",
+  "Back Extra": "Distinguish: statute of limitations attacks a late filing, governmental immunity turns on who operates the service, contributory negligence points at the plaintiff's own conduct.<br>Cue: \"the patient did something wrong too.\"",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Contributory negligence is a defense raised when the plaintiff's own conduct contributed to the plaintiff's injuries or damages.",
+  "source_indices": [
+   68
+  ]
+ },
+ {
+  "Text": "You give aspirin to a chest-pain patient after he denies any allergy, but a severe allergic reaction follows and his hospital chart shows an aspirin allergy he forgot. Which lawsuit defense fits? {{c1::Contributory negligence::defense}}",
+  "Back Extra": "Why: the patient's own forgetfulness and denial of the allergy contributed to the reaction, not just your care.<br>Distinguish: governmental immunity and statute of limitations would not fit here, since the issue is the patient's conduct, not timing or who runs the service.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "A patient who denies a known aspirin allergy and then reacts to aspirin exemplifies grounds for the contributory negligence defense.",
+  "source_indices": [
+   68
+  ]
+ },
+ {
+  "Text": "Once the answer to the complaint is filed, a lawsuit enters {{c1::discovery::phase}}, in which {{c2::both sides::who}} obtain information about the case to help {{c3::negotiate a settlement or prepare for trial::2 goals}}.",
+  "Back Extra": "Meaning: discovery tools include interrogatories, depositions, requests for document production, and physical examinations.<br>Why: with the facts known to both sides, most cases settle and never reach trial.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Discovery is the lawsuit phase, after the answer is filed, in which both sides obtain case information to aid settlement negotiation or trial preparation.",
+  "source_indices": [
+   69
+  ]
+ },
+ {
+  "Text": "In discovery, {{c1::interrogatories}} are {{c2::written::written/oral}} questions each side sends to the other, while {{c1::depositions}} are {{c2::oral::written/oral}} questions asked of parties and witnesses {{c3::under oath::condition}}.",
+  "Back Extra": "Cue: you <i>speak</i> at a deposition (live, sworn testimony), while interrogatories arrive on paper.<br>Meaning: requests for document production and physical examinations round out the discovery toolbox.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Interrogatories are written questions each side sends to the other; depositions are oral questions asked of parties and witnesses under oath.",
+  "source_indices": [
+   70,
+   71
+  ]
+ },
+ {
+  "Text": "A winning plaintiff can be awarded two types of damages:<br>{{c1::Compensatory::type}} damages repay the plaintiff for the injuries sustained, spanning both {{c2::economic}} and {{c2::noneconomic}} losses.<br>{{c1::Punitive::type}} damages are reserved for a defendant's intentional or reckless conduct.",
+  "Back Extra": "Ex: economic losses = medical bills, damaged personal property, lost earnings.<br>Ex: noneconomic losses = physical or emotional pain and suffering.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "The two damage types are compensatory (repaying the plaintiff's injuries via economic and noneconomic losses) and punitive.",
+  "source_indices": [
+   72
+  ]
+ },
+ {
+  "Text": "In negligence cases, punitive damages are {{c1::not commonly::commonly/not commonly}} awarded. Punitive damages require conduct that was {{c1::intentional::conduct type}} or showed {{c1::reckless disregard for the safety of the public::conduct type}}.",
+  "Back Extra": "Distinguish: compensatory damages repay the plaintiff for injuries sustained; punitive damages respond to how the defendant acted.<br>Why: a negligence claim alleges careless rather than intentional conduct, so the punitive threshold is rarely met.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null,
+  "claim": "Punitive damages are not commonly awarded in negligence cases and require intentional conduct or reckless disregard for public safety.",
+  "source_indices": [
+   72
+  ]
+ }
+]

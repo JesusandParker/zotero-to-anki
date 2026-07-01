@@ -41,7 +41,9 @@ Work **one chapter at a time**, and within a chapter, **one highlight at a time*
 ```
 python3 ~/.claude/skills/emt-card-maker/scripts/extract_highlights.py --chapter <N>
 ```
-This writes `work/chapter_<N>_highlights.json` (green highlights + grounded `context` + page + any margin `user_comment`). Read it.
+This writes `work/chapter_<N>_highlights.json` (green highlights + grounded `context` + page + any margin `user_comment` + a `list_lead_in` flag). Read it.
+- **`list_lead_in: true`** marks a highlight that introduces an enumerated list. The extractor widens its context and pulls the next page for these, but you MUST still read the whole list off the source page and test EVERY item — lists that span a page break are where items get dropped (card-rules #14).
+- **`user_comment`** is Parker talking directly to you. Obey it: "Know all of these!!" → test every item exhaustively; a *question* → answer it (grounded only in the source) and surface the answer at hand-off; "look more into this" → flag `needs_human_check` and tell him what to look into. Never silently ignore a margin comment.
 
 ### Stage 2 — For each highlight: classify → draft → edit
 For every highlight in the file:
@@ -80,7 +82,12 @@ python3 ~/.claude/skills/emt-card-maker/scripts/anki_write.py work/chapter_<N>_c
 (Add `--dry-run` first to validate without writing — dry-run skips the stamp gate.) This adds each card to `EMT::_Review` on the `AnKing Cloze` note type (fields `Text` + `Back Extra`; the other three AnKing fields stay empty — they're Parker's own), tagged `claude_generated` + `ch<N>`, one at a time, with pre-flight validation. Anki must be open.
 
 ### Stage 4 — Hand off
-Tell Parker: how many cards landed in `EMT::_Review`, and specifically list the `needs_human_check` ones (doses/numbers/weak grounding) for him to verify before he moves anything into his real chapter decks.
+Tell Parker:
+- how many cards landed in `EMT::_Review`;
+- the `needs_human_check` ones (doses/numbers/weak grounding) for him to verify before he moves anything into his real chapter decks;
+- **answers to any margin questions** he wrote (`user_comment` that is a question) — answered from the source, with what he should double-check;
+- anything he flagged with "look more into this," and the specific thing to look into.
+Margin comments are Parker's voice on the page; a hand-off that ignores one has failed even if the cards are perfect.
 
 ## Reference files (load on demand)
 - `reference/card-rules.md` — the full standard (Layer A form + Layer B judgment). Read before drafting.

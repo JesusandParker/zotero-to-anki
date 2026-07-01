@@ -28,8 +28,11 @@ ANKI = "http://localhost:8765"
 # AnKing Cloze fields: Text, Back Extra, Lecture Notes, Missed Questions,
 # Additional Resources — we fill only the first two; the rest are Parker's own
 # study-time fields and stay empty.
+# His whole collection lives under an "all::" parent (the 2026-06-29 reorg), so the
+# staging deck's full path is "all::EMT::_Review". Writing to a bare "EMT::_Review"
+# creates a STRAY top-level deck instead of landing in his real review deck.
 MODEL = "AnKing Cloze"
-DEFAULT_DECK = "EMT::_Review"
+DEFAULT_DECK = "all::EMT::_Review"
 CLOZE_RE = re.compile(r"\{\{c\d+::")
 
 
