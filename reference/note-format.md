@@ -1,11 +1,12 @@
 # Anki Note Format & Write Targets
 
-The exact shape every card must take, and where it goes. Verified live against Parker's collection on 2026-06-29.
+The exact shape every card must take, and where it goes. Verified live against Parker's collection on 2026-07-01.
 
 ## Note type
-- **Model:** `01_Cloze - Parkers Note Type` (a Cloze type).
-- **Fields, in order:** `Text`, `Back Extra`.
-- This model already exists in the collection and is the only one we use. (If it's ever missing, recreate a Cloze type with exactly these two fields.)
+- **Model:** `AnKing Cloze` (a Cloze type). This replaced `01_Cloze - Parkers Note Type` on 2026-06-29, when Parker restyled his whole collection to the AnKing look and the old type was deleted; all existing EMT cards were migrated.
+- **Fields, in order:** `Text`, `Back Extra`, `Lecture Notes`, `Missed Questions`, `Additional Resources`.
+- **The pipeline fills only `Text` and `Back Extra`.** The last three are Parker's own study-time fields (his notes, missed exam questions, extra resources) — always leave them empty; never write into them.
+- If the model is ever missing/renamed, find whatever cloze type his current `tag:claude_generated` cards use and update `scripts/anki_write.py` MODEL to match.
 
 ## Cloze syntax
 ```

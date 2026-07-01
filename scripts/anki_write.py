@@ -23,7 +23,12 @@ Usage:
 import argparse, base64, json, os, re, sys, urllib.request
 
 ANKI = "http://localhost:8765"
-MODEL = "01_Cloze - Parkers Note Type"
+# 2026-07-01: Parker's homemade cloze cards migrated to "AnKing Cloze" during the
+# 2026-06-29 styling session (the old "01_Cloze - Parkers Note Type" was deleted).
+# AnKing Cloze fields: Text, Back Extra, Lecture Notes, Missed Questions,
+# Additional Resources — we fill only the first two; the rest are Parker's own
+# study-time fields and stay empty.
+MODEL = "AnKing Cloze"
 DEFAULT_DECK = "EMT::_Review"
 CLOZE_RE = re.compile(r"\{\{c\d+::")
 
@@ -52,7 +57,9 @@ def main():
     cards = json.load(open(args.cards_json))
     call("version")  # liveness check (exits if Anki closed)
     if MODEL not in call("modelNames"):
-        sys.exit(f"ERROR: note type '{MODEL}' not found in collection. Recreate it (fields: Text, Back Extra).")
+        sys.exit(f"ERROR: note type '{MODEL}' not found in collection. Parker's cards live on "
+                 f"this model since 2026-06-29; if it was renamed, update MODEL here to match "
+                 f"whatever cloze type his current cards use (check notesInfo on tag:claude_generated).")
     call("createDeck", deck=args.deck)
 
     added, skipped = 0, []
