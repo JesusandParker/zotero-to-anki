@@ -12,8 +12,16 @@ Usage: python3 scripts/check_cards.py work/chapter_N_cards.json
 Exit 1 on any HARD error (blocks staging). WARNINGS print but don't block —
 they are routed to the LLM judge / Parker.
 """
-import json, re, sys, unicodedata
+import hashlib, json, os, re, sys, unicodedata
 from difflib import SequenceMatcher
+
+
+def stamp_path(cards_json):
+    return cards_json + ".verified"
+
+
+def file_hash(path):
+    return hashlib.sha256(open(path, "rb").read()).hexdigest()
 
 ALLOWED_TAGS = {"b", "i", "br", "img"}
 CLOZE = re.compile(r"\{\{c(\d+)::(.*?)(?:::(.*?))?\}\}")
@@ -95,6 +103,21 @@ def main():
             print("  !", w)
     if not hard and not warn:
         print("  deterministic checks clean")
+
+    # Verification stamp: on a HARD-clean pass, write a hash of THIS exact file so
+    # anki_write.py can confirm the file it's about to stage is the one that passed
+    # the gate. This makes Stage 2.75 physically unskippable (the writer refuses an
+    # unstamped/edited file) without any global hook. Warnings don't block the stamp
+    # — they're routed to the judge/human, per the pipeline contract.
+    src = sys.argv[1]
+    sp = stamp_path(src)
+    if hard:
+        if os.path.exists(sp):
+            os.remove(sp)  # a previously-clean file went dirty; invalidate its stamp
+    else:
+        with open(sp, "w") as f:
+            f.write(json.dumps({"sha256": file_hash(src), "warnings": len(warn)}))
+        print(f"  stamped OK -> {os.path.basename(sp)}")
     sys.exit(1 if hard else 0)
 
 

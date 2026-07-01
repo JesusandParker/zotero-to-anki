@@ -66,16 +66,18 @@ A per-unit fan-out has no global view, so it duplicates the same fact across nei
 
 ### Stage 2.75 — Verify (a mandatory gate, never skip)
 Reliability is a harness, not a promise to be careful. Before staging, the set MUST pass verification:
-1. `python3 scripts/check_cards.py work/chapter_<N>_cards.json` — the deterministic gate (legal HTML + cloze-present = HARD block; literal-answer-in-stem, parenthetical-after-cloze, numeric-without-flag, in-batch duplicates = warnings). Fix HARD errors; route every warning to the judge.
+1. `python3 scripts/check_cards.py work/chapter_<N>_cards.json` — the deterministic gate (legal HTML + cloze-present = HARD block; literal-answer-in-stem, parenthetical-after-cloze, numeric-without-flag, in-batch duplicates = warnings). Fix HARD errors; route every warning to the judge. On a HARD-clean pass it writes a `<file>.verified` stamp (a hash of the exact file).
 2. The independent LLM judge runs the FULL `reference/editor-checklist.md` on every card (run, never eyeballed).
 3. Both are calibrated against `reference/regression-cases.md` — the library of every flaw ever caught (bad cards the checks MUST flag, good cards they must NOT). Whenever a rule, the checker, or the judge changes, re-validate against it so nothing regresses. Every new flaw Parker catches gets added there as a permanent test.
+
+**This gate is physically unskippable, not just a rule:** `anki_write.py` refuses to stage any file that lacks a current `.verified` stamp (and editing the JSON after the check invalidates the stamp — re-run `check_cards.py` to re-stamp). So Stage 3 cannot run until Stage 2.75 has passed on the exact bytes being staged. `--force` exists as a deliberate escape hatch only.
 
 ### Stage 3 — Stage into Anki (once per chapter)
 Write the collected card objects to a JSON, then:
 ```
 python3 ~/.claude/skills/emt-card-maker/scripts/anki_write.py work/chapter_<N>_cards.json
 ```
-(Add `--dry-run` first to validate without writing.) This adds each card to `EMT::_Review`, tagged `claude_generated` + `ch<N>`, one at a time, with pre-flight validation. Anki must be open.
+(Add `--dry-run` first to validate without writing — dry-run skips the stamp gate.) This adds each card to `EMT::_Review` on the `AnKing Cloze` note type (fields `Text` + `Back Extra`; the other three AnKing fields stay empty — they're Parker's own), tagged `claude_generated` + `ch<N>`, one at a time, with pre-flight validation. Anki must be open.
 
 ### Stage 4 — Hand off
 Tell Parker: how many cards landed in `EMT::_Review`, and specifically list the `needs_human_check` ones (doses/numbers/weak grounding) for him to verify before he moves anything into his real chapter decks.

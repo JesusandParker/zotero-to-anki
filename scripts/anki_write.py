@@ -20,7 +20,7 @@ Usage:
     python3 anki_write.py cards.json
     python3 anki_write.py cards.json --deck "EMT::_Review" --dry-run
 """
-import argparse, base64, json, os, re, sys, urllib.request
+import argparse, base64, hashlib, json, os, re, sys, urllib.request
 
 ANKI = "http://localhost:8765"
 # 2026-07-01: Parker's homemade cloze cards migrated to "AnKing Cloze" during the
@@ -52,7 +52,28 @@ def main():
     ap.add_argument("cards_json")
     ap.add_argument("--deck", default=DEFAULT_DECK)
     ap.add_argument("--dry-run", action="store_true", help="validate only, write nothing")
+    ap.add_argument("--force", action="store_true",
+                    help="stage even if the verification stamp is missing/stale (escape hatch)")
     args = ap.parse_args()
+
+    # Verification gate: refuse to stage a file that check_cards.py didn't pass clean.
+    # The stamp is a hash of the exact bytes, so editing the JSON after the check
+    # invalidates it. This turns Stage 2.75 from "please don't skip" into "can't skip".
+    if not args.dry_run and not args.force:
+        stamp = args.cards_json + ".verified"
+        cur = hashlib.sha256(open(args.cards_json, "rb").read()).hexdigest()
+        ok = False
+        if os.path.exists(stamp):
+            try:
+                ok = json.load(open(stamp)).get("sha256") == cur
+            except Exception:
+                ok = False
+        if not ok:
+            sys.exit(
+                f"ERROR: no valid verification stamp for {args.cards_json}.\n"
+                f"Run the gate first:  python3 scripts/check_cards.py {args.cards_json}\n"
+                f"(Then re-run this.)  If check_cards passed but you edited the JSON after, "
+                f"re-run check_cards to re-stamp. Use --force only to deliberately bypass.")
 
     cards = json.load(open(args.cards_json))
     call("version")  # liveness check (exits if Anki closed)
