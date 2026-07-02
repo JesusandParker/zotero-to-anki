@@ -99,9 +99,21 @@ def main():
     if args.deck:
         call("createDeck", deck=args.deck)
     else:
-        for ch in sorted({c.get("chapter") for c in cards if c.get("chapter")}):
+        run_chapters = sorted({c.get("chapter") for c in cards if c.get("chapter")})
+        new_subdecks = []
+        for ch in run_chapters:
             call("createDeck", deck=claude_review_deck(ch))
             call("createDeck", deck=book_highlights_deck(ch))
+            new_subdecks += [claude_review_deck(ch), book_highlights_deck(ch)]
+        # Fresh subdecks default to Anki's "Default" preset (bury-siblings OFF); the
+        # two-way definition cards need bury-siblings ON so the name-it/define-it halves
+        # space across days. Copy the EMT parent's preset onto the subdecks we just made
+        # (the "EMT" preset created 2026-07-02 has bury on). Non-fatal if it's missing.
+        try:
+            emt_cfg_id = call("getDeckConfig", deck=DECK_ROOT)["id"]
+            call("setDeckConfigId", decks=new_subdecks, configId=emt_cfg_id)
+        except Exception:
+            pass
 
     added, skipped = 0, []
     for i, c in enumerate(cards):
