@@ -6,7 +6,7 @@ The exact shape every card must take, and where it goes. Verified live against P
 - **Model:** `AnKing Cloze` (a Cloze type). This replaced `01_Cloze - Parkers Note Type` on 2026-06-29, when Parker restyled his whole collection to the AnKing look and the old type was deleted; all existing EMT cards were migrated.
 - **Fields, in order:** `Text`, `Back Extra`, `Lecture Notes`, `Missed Questions`, `Additional Resources`.
 - **The pipeline fills only `Text` and `Back Extra`.** The last three are Parker's own study-time fields (his notes, missed exam questions, extra resources) — always leave them empty; never write into them.
-- If the model is ever missing/renamed, find whatever cloze type his current `tag:claude_generated` cards use and update `scripts/anki_write.py` MODEL to match.
+- If the model is ever missing/renamed, find whatever cloze type his current EMT cards use (`deck:all::EMT::*`) and update `scripts/anki_write.py` MODEL to match.
 
 ## Cloze syntax
 ```
@@ -44,8 +44,10 @@ Open every Back Extra line with one of: `Meaning:` `Why:` `Mechanism:` `Distingu
 ```
 
 ## Write target & tags
-- **Staging deck:** `all::EMT::_Review`. Everything the pipeline generates lands here. Parker reviews/edits in Anki and moves keepers into his real chapter decks himself. Nothing the pipeline writes is "final."
-- **Tags (auto-applied):** `claude_generated` + `ch<N>`. This is a reversibility marker, NOT the organizational tagging scheme Parker deferred — it just lets a batch be found and undone in one click. (Full tag taxonomy is a separate, later decision.)
+- **Staging deck (per chapter):** `all::EMT::Chapter <N>::claude review`. Every card the pipeline generates for a chapter lands in THAT chapter's `claude review` subdeck. `anki_write.py` derives the deck per card from its `chapter` field and auto-creates the substructure. Nothing the pipeline writes is "final."
+  - **Exact deck names (case matters — match Parker's):** `Chapter <N>` and `Book Highlights` are Title Case; `claude review` is lowercase.
+- **Promotion (Parker's manual first-pass gate):** Parker reviews the `claude review` deck and PROMOTES keepers into the sibling `all::EMT::Chapter <N>::Book Highlights` deck himself. The pipeline NEVER writes to Book Highlights — it only creates the empty deck so his promotion target exists.
+- **Tags (auto-applied):** `ch<N>` only. Parker had the old `claude_generated` marker removed from every card and from the skill on 2026-07-02 (he found it noise); the per-chapter deck structure now identifies each batch. Keep the chapter tag; add nothing else.
 - **Sync:** the pipeline never auto-syncs to AnkiWeb. Parker syncs when he's ready (his cards also live on his phone, so writes propagate on his next sync).
 
 ## Operational guards (handled by `anki_write.py`)

@@ -9,7 +9,7 @@ safely:
   * validates every Text field contains cloze markup ({{c1::...}})
   * pre-flights each note with canAddNotesWithErrorDetail
   * writes ONE note at a time (never a batch) so one bad card can't roll back the rest
-  * tags every card 'claude_generated' + 'ch<N>' so a batch is filterable / reversible
+  * tags every card 'ch<N>' (chapter only) so a chapter's batch is filterable
   * does NOT auto-sync to AnkiWeb (Parker syncs deliberately)
 
 Card JSON shape (list of objects):
@@ -18,7 +18,7 @@ Card JSON shape (list of objects):
 
 Usage:
     python3 anki_write.py cards.json
-    python3 anki_write.py cards.json --deck "EMT::_Review" --dry-run
+    python3 anki_write.py cards.json --deck "all::EMT::Chapter 1::claude review" --dry-run
 """
 import argparse, base64, hashlib, json, os, re, sys, urllib.request
 
@@ -28,11 +28,18 @@ ANKI = "http://localhost:8765"
 # AnKing Cloze fields: Text, Back Extra, Lecture Notes, Missed Questions,
 # Additional Resources — we fill only the first two; the rest are Parker's own
 # study-time fields and stay empty.
-# His whole collection lives under an "all::" parent (the 2026-06-29 reorg), so the
-# staging deck's full path is "all::EMT::_Review". Writing to a bare "EMT::_Review"
-# creates a STRAY top-level deck instead of landing in his real review deck.
 MODEL = "AnKing Cloze"
-DEFAULT_DECK = "all::EMT::_Review"
+# Per-chapter staging structure (Parker's system, adopted 2026-07-02, replacing the
+# single flat "all::EMT::_Review" dumping ground that ballooned). For each chapter:
+#   all::EMT::Chapter <N>::claude review    <- the pipeline dumps every new card HERE
+#   all::EMT::Chapter <N>::Book Highlights  <- Parker PROMOTES keepers here himself,
+#                                              after his first review pass
+# The writer only ever writes to "claude review"; it also creates the "Book Highlights"
+# sibling so Parker's promotion target exists. "Chapter <N>" / "Book Highlights" are
+# Title Case; "claude review" is lowercase — match Parker's exact deck names.
+DECK_ROOT = "all::EMT"
+def claude_review_deck(ch):   return f"{DECK_ROOT}::Chapter {ch}::claude review"
+def book_highlights_deck(ch): return f"{DECK_ROOT}::Chapter {ch}::Book Highlights"
 CLOZE_RE = re.compile(r"\{\{c\d+::")
 
 
@@ -53,7 +60,9 @@ def call(action, **params):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("cards_json")
-    ap.add_argument("--deck", default=DEFAULT_DECK)
+    ap.add_argument("--deck", default=None,
+                    help="override target deck (default: all::EMT::Chapter <N>::claude review, "
+                         "derived per card from its 'chapter' field)")
     ap.add_argument("--dry-run", action="store_true", help="validate only, write nothing")
     ap.add_argument("--force", action="store_true",
                     help="stage even if the verification stamp is missing/stale (escape hatch)")
@@ -83,14 +92,27 @@ def main():
     if MODEL not in call("modelNames"):
         sys.exit(f"ERROR: note type '{MODEL}' not found in collection. Parker's cards live on "
                  f"this model since 2026-06-29; if it was renamed, update MODEL here to match "
-                 f"whatever cloze type his current cards use (check notesInfo on tag:claude_generated).")
-    call("createDeck", deck=args.deck)
+                 f"whatever cloze type his current EMT cards use (check notesInfo on deck:all::EMT::*).")
+
+    # Create each chapter's full substructure so BOTH our target ("claude review")
+    # and Parker's promotion target ("Book Highlights") exist before we write.
+    if args.deck:
+        call("createDeck", deck=args.deck)
+    else:
+        for ch in sorted({c.get("chapter") for c in cards if c.get("chapter")}):
+            call("createDeck", deck=claude_review_deck(ch))
+            call("createDeck", deck=book_highlights_deck(ch))
 
     added, skipped = 0, []
     for i, c in enumerate(cards):
         text = c.get("Text", "")
         if not CLOZE_RE.search(text):
             skipped.append((i, "no cloze markup in Text")); continue
+        # route each card to its chapter's "claude review" subdeck
+        ch = c.get("chapter")
+        deck = args.deck or (claude_review_deck(ch) if ch else None)
+        if not deck:
+            skipped.append((i, "card has no 'chapter' and no --deck override")); continue
 
         # optional page image -> store in Anki media and embed
         if c.get("image") and os.path.exists(c["image"]):
@@ -99,11 +121,11 @@ def main():
                  data=base64.b64encode(open(c["image"], "rb").read()).decode())
             text = text + f'<br><img src="{fn}">'
 
-        tags = ["claude_generated"]
-        if c.get("chapter"):
-            tags.append(f"ch{c['chapter']}")
+        # Chapter tag only (Parker removed the old 'claude_generated' marker 2026-07-02;
+        # the per-chapter deck structure now identifies each batch).
+        tags = [f"ch{ch}"] if ch else []
         note = {
-            "deckName": args.deck, "modelName": MODEL,
+            "deckName": deck, "modelName": MODEL,
             "fields": {"Text": text, "Back Extra": c.get("Back Extra", "")},
             "tags": tags,
             "options": {"allowDuplicate": False, "duplicateScope": "deck"},
@@ -116,7 +138,12 @@ def main():
         call("addNote", note=note)
         added += 1
 
-    print(f"{'[dry-run] would add' if args.dry_run else 'added'}: {added}/{len(cards)} -> {args.deck}")
+    if args.deck:
+        target = args.deck
+    else:
+        chs = sorted({c.get("chapter") for c in cards if c.get("chapter")})
+        target = ", ".join(claude_review_deck(ch) for ch in chs) or "(per-chapter claude review)"
+    print(f"{'[dry-run] would add' if args.dry_run else 'added'}: {added}/{len(cards)} -> {target}")
     if skipped:
         print(f"skipped {len(skipped)}:")
         for i, why in skipped:

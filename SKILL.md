@@ -5,7 +5,7 @@ description: Make and maintain Parker's EMT Anki cloze cards from his green Zote
 
 # EMT Card Maker
 
-Turns the things Parker green-highlights (`#5fb236`) in his EMT textbook (Zotero) into excellent Anki cloze cards, grounded in the real page text, quality-checked, and staged into `EMT::_Review` for him to approve and file.
+Turns the things Parker green-highlights (`#5fb236`) in his EMT textbook (Zotero) into excellent Anki cloze cards, grounded in the real page text, quality-checked, and staged into the chapter's `all::EMT::Chapter <N>::claude review` subdeck for him to approve and promote.
 
 This replaces his old ChatGPT "v60" system. The old EMT deck was deleted on purpose; this rebuild fixes what that deck got wrong (see `reference/card-rules.md` Layer B for the specific failures). **The green highlight is Parker's "this matters" signal — he has already chosen what's important. Your job is to turn it into the best possible card(s), not to re-decide importance.**
 
@@ -13,7 +13,7 @@ This replaces his old ChatGPT "v60" system. The old EMT deck was deleted on purp
 
 1. **Always ground in the page paragraph.** Never write a card from the bare highlight sentence. Use the `context` paragraph the extractor provides. Every claim on a card must be supported by that context. (This is what keeps cards correct instead of hallucinated.)
 2. **Zero guessing.** If the context is too thin, ambiguous, or the highlight didn't locate (`grounding: NOT_FOUND`), do NOT invent. Flag it for Parker. Especially for any number, dose, or threshold.
-3. **Nothing is final.** Everything lands in `EMT::_Review`. Parker reviews, edits, and moves keepers himself. You stage; he commits.
+3. **Nothing is final.** Everything lands in the chapter's `all::EMT::Chapter <N>::claude review` subdeck. Parker reviews, edits, and PROMOTES keepers into the sibling `...::Book Highlights` deck himself. You stage; he commits.
 
 ## Priority order when rules collide
 When two goals trade off, resolve in this order (Parker's explicit ranking from his ChatGPT-era notes): **(1)** correct cloze formatting + reliable write to Anki, **(2)** completeness/coverage of testable facts, **(3)** standalone atomicity, **(4)** a teachable Back Extra, **(5)** readability/aesthetics, **(6)** speed — dead last. Parker will gladly wait for better cards; never trade 1–5 for speed.
@@ -23,7 +23,7 @@ When two goals trade off, resolve in this order (Parker's explicit ranking from 
 Once a chapter's cards exist, this is the primary use. A fresh Claude session with NO memory of past work can do this end-to-end from this skill alone. When Parker says something like *"I noticed an issue with an EMT card,"* *"the hint gives it away,"* *"this card is wrong":*
 
 1. **Read the standards first** — `reference/regression-cases.md` (every flaw caught before + how it's caught; his issue is usually a known class), then `reference/card-rules.md` and `reference/parker-preferences.md`.
-2. **Find the card** — it's in Anki deck `EMT::_Review` (AnkiConnect at `localhost:8765`, Anki must be running; search by a distinctive phrase) and in `work/chapter_<N>_cards.json`.
+2. **Find the card** — it's in Anki under `all::EMT::Chapter <N>::claude review` (or `...::Book Highlights` if Parker already promoted it) via AnkiConnect at `localhost:8765` (Anki must be running; search by a distinctive phrase) and in `work/chapter_<N>_cards.json`.
 3. **Diagnose honestly — one-off or systemic?** If it's a *kind* of mistake (not a typo), assume systemic: the rules would let it recur, so fix the rules, not just the card.
 4. **Fix the card(s)** in Anki and in the JSON.
 5. **If systemic:** encode the rule (`card-rules.md` / `editor-checklist.md` / `parker-preferences.md`), AND add a case to `reference/regression-cases.md` (a BAD card the checks must catch + a GOOD card they must NOT over-flag), AND extend `scripts/check_cards.py` if it can be mechanized.
@@ -79,11 +79,11 @@ Write the collected card objects to a JSON, then:
 ```
 python3 ~/.claude/skills/emt-card-maker/scripts/anki_write.py work/chapter_<N>_cards.json
 ```
-(Add `--dry-run` first to validate without writing — dry-run skips the stamp gate.) This adds each card to `EMT::_Review` on the `AnKing Cloze` note type (fields `Text` + `Back Extra`; the other three AnKing fields stay empty — they're Parker's own), tagged `claude_generated` + `ch<N>`, one at a time, with pre-flight validation. Anki must be open.
+(Add `--dry-run` first to validate without writing — dry-run skips the stamp gate.) This adds each card to `all::EMT::Chapter <N>::claude review` (derived per card from its `chapter` field; the writer also creates the `Book Highlights` sibling for Parker to promote into) on the `AnKing Cloze` note type (fields `Text` + `Back Extra`; the other three AnKing fields stay empty — they're Parker's own), tagged `ch<N>` only, one at a time, with pre-flight validation. Anki must be open.
 
 ### Stage 4 — Hand off
 Tell Parker:
-- how many cards landed in `EMT::_Review`;
+- how many cards landed in `Chapter <N>::claude review` (and remind him to promote keepers into the sibling `Book Highlights` deck after his first pass);
 - the `needs_human_check` ones (doses/numbers/weak grounding) for him to verify before he moves anything into his real chapter decks;
 - **answers to any margin questions** he wrote (`user_comment` that is a question) — answered from the source, with what he should double-check;
 - anything he flagged with "look more into this," and the specific thing to look into.

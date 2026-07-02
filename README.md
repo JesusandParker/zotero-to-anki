@@ -7,7 +7,7 @@ In Claude Code, say something like **"make my Chapter 1 EMT cards"** (or "I fini
 
 1. **Extract** your green (`#5fb236`) highlights for that chapter from Zotero, each grounded in its surrounding page paragraph.
 2. **Draft → Edit** each highlight into card(s): classify the fact, write it against the rules, then run an adversarial Editor pass that kills vague / tautological / under-clozed / low-yield cards.
-3. **Stage** the survivors into the `EMT::_Review` deck in Anki (tagged `claude_generated`), where you review, edit, and move the keepers into your real chapter decks yourself.
+3. **Stage** the survivors into that chapter's `all::EMT::Chapter <N>::claude review` deck in Anki (tagged `ch<N>`), where you review, edit, and promote the keepers into the sibling `Book Highlights` deck yourself.
 
 Anki must be **open** for the write step.
 
@@ -20,7 +20,7 @@ Anki must be **open** for the write step.
 - `reference/chapter_pages.json` — textbook page→chapter map.
 - `scripts/extract_highlights.py` — Zotero green highlights → grounded JSON (read-only on Zotero).
 - `scripts/render_page.py` — render a table/figure page to an image for visual cards.
-- `scripts/anki_write.py` — safe, one-at-a-time write into `EMT::_Review`.
+- `scripts/anki_write.py` — safe, one-at-a-time write into `all::EMT::Chapter <N>::claude review` (per chapter).
 
 ## Design notes
 - **Greenfield:** the old EMT deck was exported to iCloud and deleted, so there's no dedup step — every card is new.
