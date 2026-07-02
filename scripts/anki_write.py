@@ -42,6 +42,19 @@ def claude_review_deck(ch):   return f"{DECK_ROOT}::Chapter {ch}::claude review"
 def book_highlights_deck(ch): return f"{DECK_ROOT}::Chapter {ch}::Book Highlights"
 CLOZE_RE = re.compile(r"\{\{c\d+::")
 
+# Parker wants a full paragraph break BETWEEN Back Extra components (e.g. a Distinguish
+# line and a Pitfall line) — real white space, not a tight single line break (2026-07-02).
+# Back Extra never breaks inside one flowing component (card-rules #5), so every run of
+# <br> is a component boundary: collapse each to exactly <br><br>. Idempotent — cards
+# already authored with <br><br> are untouched. This is the mechanical guarantee behind
+# the rule, so the spacing holds even if a card is drafted with single <br>s.
+_BR_RUN = re.compile(r"(?:\s*<br\s*/?>\s*)+", re.I)
+def paragraphize(back_extra):
+    if not back_extra:
+        return back_extra
+    be = _BR_RUN.sub("<br><br>", back_extra)
+    return re.sub(r"^(?:<br>)+|(?:<br>)+$", "", be)  # trim any stray leading/trailing break
+
 
 def call(action, **params):
     req = urllib.request.Request(
@@ -138,7 +151,7 @@ def main():
         tags = [f"ch{ch}"] if ch else []
         note = {
             "deckName": deck, "modelName": MODEL,
-            "fields": {"Text": text, "Back Extra": c.get("Back Extra", "")},
+            "fields": {"Text": text, "Back Extra": paragraphize(c.get("Back Extra", ""))},
             "tags": tags,
             "options": {"allowDuplicate": False, "duplicateScope": "deck"},
         }

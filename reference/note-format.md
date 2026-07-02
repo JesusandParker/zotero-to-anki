@@ -29,6 +29,8 @@ The number decides how many cards a note makes and which blanks share a card. Se
 ## Back Extra vocabulary
 Open every Back Extra line with one of: `Meaning:` `Why:` `Mechanism:` `Distinguish:` `Pitfall:` `Ex:` `Cue:` `Pathway:` `Mnemonic:`. (This matches the house style of the old deck and the AnKing Extra field.)
 
+**Separate distinct components with a paragraph break `<br><br>`, not a single `<br>`** (Parker's preference, 2026-07-02) — each labeled line sits in its own block with white space around it so his eye can jump between parts. `anki_write.py` normalizes any run of `<br>` in Back Extra to exactly `<br><br>` at write time, so this is guaranteed even for a card drafted with single breaks. Example: `Distinguish: ...<br><br>Pitfall: ...`.
+
 ## HTML
 - Allowed: `<b>`, `<i>`, `<br>`, `<img>`. Nothing else (no `<u>`, no escaped entities). One note per object. Bold/italics are for *selective* emphasis only — the load-bearing word, not whole phrases (Parker's gold cards use italics for contrast; keep it sparing).
 

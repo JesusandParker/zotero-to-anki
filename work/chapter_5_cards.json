@@ -1156,14 +1156,14 @@
  },
  {
   "Text": "The prefix {{c1::ab-}} means {{c2::away from}}.",
-  "Back Extra": "Ex: abduction = away from the point of reference<br>Distinguish: opposite is ad- (toward)",
+  "Back Extra": "Ex: abduction = away from the point of reference<br><br>Distinguish: opposite is ad- (toward)",
   "chapter": 5,
   "needs_human_check": false,
   "image": null
  },
  {
   "Text": "The prefix {{c1::ad-}} means {{c2::to, toward}}.",
-  "Back Extra": "Ex: adduction = toward the center<br>Distinguish: opposite is ab- (away from)",
+  "Back Extra": "Ex: adduction = toward the center<br><br>Distinguish: opposite is ab- (away from)",
   "chapter": 5,
   "needs_human_check": false,
   "image": null
@@ -1212,7 +1212,7 @@
  },
  {
   "Text": "The prefix {{c1::brady-}} means {{c2::slow}}.",
-  "Back Extra": "Ex: bradypnea = slow breathing<br>Distinguish: opposite is tachy- (rapid)",
+  "Back Extra": "Ex: bradypnea = slow breathing<br><br>Distinguish: opposite is tachy- (rapid)",
   "chapter": 5,
   "needs_human_check": false,
   "image": null
@@ -1275,7 +1275,7 @@
  },
  {
   "Text": "The prefix {{c1::epi-}} means {{c2::upon, over, above}}.",
-  "Back Extra": "Ex: epigastric = above or over the stomach<br>Distinguish: opposite is sub-/hypo- (below)",
+  "Back Extra": "Ex: epigastric = above or over the stomach<br><br>Distinguish: opposite is sub-/hypo- (below)",
   "chapter": 5,
   "needs_human_check": false,
   "image": null
@@ -1310,14 +1310,14 @@
  },
  {
   "Text": "The prefix {{c1::hyper-}} means {{c2::over, excessive, high}}.",
-  "Back Extra": "Ex: hyperventilation = fast ventilations<br>Distinguish: opposite is hypo- (under/below)",
+  "Back Extra": "Ex: hyperventilation = fast ventilations<br><br>Distinguish: opposite is hypo- (under/below)",
   "chapter": 5,
   "needs_human_check": false,
   "image": null
  },
  {
   "Text": "The prefix {{c1::hypo-}} means {{c2::under, below normal}}.",
-  "Back Extra": "Ex: hypoperfusion = below-normal blood flow to vital organs<br>Distinguish: opposite is hyper- (over/excessive)",
+  "Back Extra": "Ex: hypoperfusion = below-normal blood flow to vital organs<br><br>Distinguish: opposite is hyper- (over/excessive)",
   "chapter": 5,
   "needs_human_check": false,
   "image": null
@@ -1345,7 +1345,7 @@
  },
  {
   "Text": "The prefix {{c1::intra-}} means {{c2::inside, within}}.",
-  "Back Extra": "Ex: intrauterine = within the uterus<br>Distinguish: opposite is inter- (between)",
+  "Back Extra": "Ex: intrauterine = within the uterus<br><br>Distinguish: opposite is inter- (between)",
   "chapter": 5,
   "needs_human_check": false,
   "image": null
@@ -1485,14 +1485,14 @@
  },
  {
   "Text": "The prefix {{c1::post-}} means {{c2::after, behind}}.",
-  "Back Extra": "Ex: postsurgical = occurring after surgery<br>Distinguish: opposite is pre- (before)",
+  "Back Extra": "Ex: postsurgical = occurring after surgery<br><br>Distinguish: opposite is pre- (before)",
   "chapter": 5,
   "needs_human_check": false,
   "image": null
  },
  {
   "Text": "The prefix {{c1::pre-}} means {{c2::before}}.",
-  "Back Extra": "Ex: prenatal = occurring before birth<br>Distinguish: opposite is post- (after)",
+  "Back Extra": "Ex: prenatal = occurring before birth<br><br>Distinguish: opposite is post- (after)",
   "chapter": 5,
   "needs_human_check": false,
   "image": null
@@ -1541,7 +1541,7 @@
  },
  {
   "Text": "The prefix {{c1::sub-}} means {{c2::under, below}}.",
-  "Back Extra": "Ex: subcutaneous = beneath the skin<br>Distinguish: opposite is super-/supra- (above)",
+  "Back Extra": "Ex: subcutaneous = beneath the skin<br><br>Distinguish: opposite is super-/supra- (above)",
   "chapter": 5,
   "needs_human_check": false,
   "image": null
@@ -1555,7 +1555,7 @@
  },
  {
   "Text": "The prefix {{c1::supra-}} means {{c2::above, upper}}.",
-  "Back Extra": "Ex: suprasternal notch = top of the sternum<br>Distinguish: opposite is infra-/sub- (below)",
+  "Back Extra": "Ex: suprasternal notch = top of the sternum<br><br>Distinguish: opposite is infra-/sub- (below)",
   "chapter": 5,
   "needs_human_check": false,
   "image": null
@@ -1576,7 +1576,7 @@
  },
  {
   "Text": "The prefix {{c1::tachy-}} means {{c2::rapid, fast}}.",
-  "Back Extra": "Ex: tachycardia = fast heart rate<br>Distinguish: opposite is brady- (slow)",
+  "Back Extra": "Ex: tachycardia = fast heart rate<br><br>Distinguish: opposite is brady- (slow)",
   "chapter": 5,
   "needs_human_check": false,
   "image": null
