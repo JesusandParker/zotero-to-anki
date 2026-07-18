@@ -4,8 +4,9 @@ The exact shape every card must take, and where it goes. Verified live against P
 
 ## Note type
 - **Model:** `AnKing Cloze` (a Cloze type). This replaced `01_Cloze - Parkers Note Type` on 2026-06-29, when Parker restyled his whole collection to the AnKing look and the old type was deleted; all existing EMT cards were migrated.
-- **Fields, in order:** `Text`, `Back Extra`, `Lecture Notes`, `Missed Questions`, `Additional Resources`.
-- **The pipeline fills only `Text` and `Back Extra`.** The last three are Parker's own study-time fields (his notes, missed exam questions, extra resources) — always leave them empty; never write into them.
+- **Fields, in order:** `Text`, `Back Extra`, `Lecture Notes`, `Missed Questions`, `Additional Resources`, `Card Feedback`.
+- **The pipeline fills only `Text` and `Back Extra`.** `Lecture Notes`, `Missed Questions`, `Additional Resources` are Parker's own study-time fields (his notes, missed exam questions, extra resources) — always leave them empty; never write into them.
+- **`Card Feedback` (added 2026-07-18) is a HIDDEN, human-only field.** It is not referenced in any card template, so it never renders during review; Parker types card complaints into it via Anki's Edit button while studying, and `scripts/feedback_harvest.py` collects them for the batch feedback loop (see SKILL.md → "Processing card feedback (batch)"). The generator must NEVER write into it. `AnKing Basic` carries the same field (`Front`, `Back`, `Back Extra`, `Card Feedback`).
 - If the model is ever missing/renamed, find whatever cloze type his current EMT cards use (`deck:all::EMT::*`) and update `scripts/anki_write.py` MODEL to match.
 
 ## Cloze syntax

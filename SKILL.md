@@ -1,6 +1,6 @@
 ---
 name: emt-card-maker
-description: Make and maintain Parker's EMT Anki cloze cards from his green Zotero highlights. Use (1) to GENERATE cards when he's done highlighting a chapter ("make my Chapter 1 cards", "I finished highlighting chapter 3"), AND (2) to FIX/REVIEW/IMPROVE existing cards or the card-maker itself when he reports a problem while studying ("I noticed an issue with an EMT card", "this EMT flashcard is wrong / the hint gives it away", "fix the EMT card maker", "the cards keep doing X"). On any EMT-card issue, follow the "If Parker reports an issue" procedure below.
+description: Make and maintain Parker's EMT Anki cloze cards from his green Zotero highlights. Use (1) to GENERATE cards when he's done highlighting a chapter ("make my Chapter 1 cards", "I finished highlighting chapter 3"), AND (2) to FIX/REVIEW/IMPROVE existing cards or the card-maker itself when he reports a problem while studying ("I noticed an issue with an EMT card", "this EMT flashcard is wrong / the hint gives it away", "fix the EMT card maker", "the cards keep doing X"), AND (3) to BATCH-PROCESS the complaints Parker types into the hidden "Card Feedback" field during review ("go look at my card feedback", "process my complaints", "go through the cards I ranted about / flagged", "harvest my Anki feedback") — this spans his EMT and Liberty course cards. On any single-card issue follow the "If Parker reports an issue" procedure below; for a batch, follow "Processing card feedback (batch)".
 ---
 
 # EMT Card Maker
@@ -32,6 +32,29 @@ Once a chapter's cards exist, this is the primary use. A fresh Claude session wi
 8. **Commit + push** per `CLAUDE.md`.
 
 Be honest about one-off vs systemic, and never over-correct — the regression suite's "don't over-flag" cases are the guard against swinging too far.
+
+## Processing card feedback (batch) — "go look at my complaints"
+
+Parker leaves complaints on cards *while studying* by typing into a hidden **`Card Feedback`** field (on his `AnKing Cloze` / `AnKing Basic` note types) via Anki's **Edit** button — it never shows during review but stays attached to the exact card, on Mac and iPhone. This is the batch front-door to the single-card loop above; it spans his EMT **and** Liberty course cards. When he says *"go look at my card feedback,"* *"process my complaints,"* *"go through the cards I ranted about"*:
+
+1. **Harvest** (Anki must be running):
+   ```
+   python3 ~/.claude/skills/emt-card-maker/scripts/feedback_harvest.py
+   ```
+   Lists every note with a non-empty `Card Feedback` and writes `work/feedback_inbox_<date>.json` (per card: noteId, deck, front, Back Extra, the rant). Read it. Non-empty = unprocessed; an empty inbox means nothing to do.
+2. **Process each item** with the **"If Parker reports an issue with a card"** procedure above (read `reference/regression-cases.md` first; diagnose one-off vs systemic; fix the card; if systemic, encode the rule + add a regression test + extend `check_cards.py`). Route by the card's deck:
+   - *Card-craft* issues (leaky hint, under-clozing, phrasing, formatting) → the shared `reference/` canon here, whatever the subject. This is the home of card craft; `course-to-anki` reuses it.
+   - A card from a **Liberty course deck** (`all::LIBERTY::…`) whose complaint is about *selection/scoring* ("this shouldn't exist", "you missed the real testable fact") → also route to `course-to-anki` per its feedback loop (adjust `scripts/score.py` weights or the pass prompts, and log why).
+3. **Write back** with the same script — one small JSON batch does fixes and clears together:
+   ```
+   python3 ~/.claude/skills/emt-card-maker/scripts/feedback_harvest.py --apply fixes.json
+   ```
+   where `fixes.json` is a list of `{"noteId": …, "fields": {"Text": "…", "Back Extra": "…"}, "clear_feedback": true}`. Applies the approved fix and clears the feedback in one step. (Or `--clear <noteId> …` when the card just needed logging, no edit.)
+4. **Log every item** in `reference/feedback-log.md` (date, deck, the complaint, the fix, any rule/test added) — the permanent history. The field is only the transient inbox.
+5. **Clear a card's feedback ONLY after it's logged** — a non-empty `Card Feedback` must always mean "still unprocessed," so nothing is ever lost.
+6. Re-run `python3 scripts/check_cards.py …` if you touched any rule/regression file, then **commit + push** per `CLAUDE.md`, and remind Parker to **sync** (his cards live on his phone too).
+
+The `Card Feedback` field is **hidden + human-only**: the card generator must never write into it (see `reference/note-format.md`).
 
 ## The pipeline
 
