@@ -1,0 +1,51 @@
+[
+  {
+    "Text": "{{c1::Therapeutic communication::technique}} uses both {{c2::verbal and nonverbal}} techniques to {{c3::encourage patients to express how they feel and to build a positive relationship}}.",
+    "Back Extra": "Why: nonverbal cues (posture, facial expression, eye contact) carry as much of the message as the spoken words do.<br><br>Cue: the aim is a positive, trusting relationship, not just gathering facts.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "The tone, pace, and volume of a patient's speech reveal the person's {{c1::mood}} and the perceived {{c2::importance}} of the message.",
+    "Back Extra": "Ex: a patient yelling that his chest is killing him may be angry, scared, or both, on top of being in pain.<br><br>Pitfall: listen to how something is said, not only the words, or you miss half the message.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "Direct eye contact conveys {{c1::honesty and respect}} in the United States and most European countries, but conveys {{c1::confrontation}} in Latin American, Asian, and African cultures.",
+    "Back Extra": "Pitfall: a North American EMT may wrongly read a patient who looks away as hiding something or untrustworthy, when the patient is simply being polite by their own culture.<br><br>Why: people tend to interpret messages through their own worldview.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "{{c1::Ethnocentrism::bias}} is {{c2::considering your own cultural values as more important when interacting with people of a different culture}}.",
+    "Back Extra": "Distinguish: ethnocentrism is privately judging your own culture as superior; cultural imposition goes further and actively forces those values onto the patient.<br><br>Pitfall: it quietly skews your read of a patient, e.g. assuming someone who avoids eye contact is being deceptive.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "{{c1::Cultural imposition::bias}} is {{c2::forcing your own cultural values onto a patient because you believe your values are better}}.",
+    "Back Extra": "Distinguish: cultural imposition is the extreme of ethnocentrism, ethnocentrism only ranks your culture higher, cultural imposition acts on it against the patient.<br><br>Ex: a physician angrily accusing parents of abuse over the harmless Asian healing practice of coining is cultural imposition.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "Your patient is Thai and has a bleeding scalp wound, but in Thai culture the head is deeply personal and touched only by intimates. What should you do before treating the head? {{c1::Ask permission first, if at all possible}}",
+    "Back Extra": "Why: all aspects of communication, including touch, have a cultural foundation, so respecting it builds trust even during care.<br><br>Pitfall: recognize and respect a patient's culture even during a life-threatening emergency, not only when it is convenient.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "In communication, {{c1::noise::obstacle}} is {{c2::anything that dampens or obscures the true meaning of a message}}.",
+    "Back Extra": "Ex: literal noise is sounds in the environment; lighting, distance, and physical obstacles are other physical factors that obscure the message.<br><br>Distinguish: this is physical/literal noise, a barrier to the message, not the message's actual content.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  }
+]

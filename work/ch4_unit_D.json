@@ -1,0 +1,72 @@
+[
+  {
+    "Text": "You are there to listen and act on what you learn, so do not limit your assessment of an older patient to the {{c1::obvious problem}}.",
+    "Back Extra": "Why: older patients who feel unwell or are overly concerned about their health are at risk for a serious decline in their physical, emotional, or psychological state.<br><br>Pitfall: the presenting complaint may not be the real emergency.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "In an older patient, do not assume new confusion, hostility, or irritability is normal for their age; it can be caused by:<br>{{c1::hypoxia (lack of oxygen)}}<br>{{c1::brain injury, including stroke}}<br>{{c1::unintentional drug overdose}}<br>{{c1::infection}}<br>{{c1::abnormal blood glucose level}}<br>{{c1::insufficient perfusion (poor circulation)}}",
+    "Back Extra": "Pitfall: never attribute altered mental status to old age; assuming senility can miss a reversible, life-threatening cause.<br><br>Cue: these are the must-not-miss medical causes to screen for before blaming age.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "You find a normally sharp 78-year-old now acutely confused, and your partner says \"she's just old.\" Acute confusion in an older patient should be treated as a {{c1::new medical problem::what}}, not normal aging.",
+    "Back Extra": "Pitfall: never attribute altered mental status to old age.<br><br>Why: the causes (hypoxia, stroke, overdose, infection, abnormal glucose, poor perfusion) are often reversible and rapidly fatal if missed.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "Some older patients with chronic diseases such as {{c1::diabetes}} may feel {{c2::little or no pain}} when injured, so you must watch for subtle {{c3::objective}} changes in their condition.",
+    "Back Extra": "Why: these patients may not feel or report pain and may be unaware of changes in their body systems, so a serious injury can be silent.<br><br>Pitfall: a lack of reported pain does NOT rule out serious injury.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "Before leaving for the hospital, if appropriate, help an older patient locate personal items such as {{c1::hearing aids}}, {{c1::eyeglasses}}, or {{c1::dentures}} if they will significantly improve the patient's stay.",
+    "Back Extra": "Why: these aids let the patient communicate, see, and eat during a hospital stay that may last hours to days.<br><br>Cue: locate them before departure, while there is still time to find them.",
+    "chapter": 4,
+    "needs_human_check": true,
+    "image": null
+  },
+  {
+    "Text": "Children often take cues from their parents or caregivers, so the fastest way to calm a frightened child is often to first calm the {{c1::caregiver (parent)}}.",
+    "Back Extra": "Cue: calm the adult, calm the child.<br><br>Ex: also be honest with children (they see through lies) and respect their modesty.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "A hard-of-hearing patient's {{c1::hearing aids}} can be lost in an accident or fall, or forgotten when the patient is confused or ill, so look nearby or ask the patient or family about them.",
+    "Back Extra": "Cue: a missing hearing aid may be the reason you cannot communicate, not a lack of intelligence.<br><br>Why: most hard-of-hearing patients have normal intelligence and can understand once you communicate successfully.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "Five steps to efficiently communicate with a patient who is hard of hearing:<br>1. {{c1::Have paper and a pen ready}} (print clearly)<br>2. {{c1::Face the patient and speak distinctly at a normal pace}}<br>3. {{c1::Never shout}}<br>4. {{c1::Ask short questions and give short answers}}<br>5. {{c1::Learn simple sign-language phrases}} (e.g., \"sick,\" \"hurt,\" \"help\")",
+    "Back Extra": "Pitfall: shouting does not help the patient hear and may frighten them.<br><br>Cue: many hard-of-hearing patients read lips, so keep your mouth visible, well-lit, and use a clear barrier mask if you must unmask.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "For a visually impaired patient with a guide dog: if the patient is {{c1::stable}}, transport the dog with the patient; if the patient is {{c1::unstable}} (or the dog is injured or unruly), arrange for the dog's care instead.",
+    "Back Extra": "Why: a stable patient's guide dog reduces stress for both, but an unstable patient needs your full attention and an injured or unruly dog is a hazard.<br><br>Cue: contact your supervisor and follow local protocol for the dog's care.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "With a patient who speaks little English, you can improve understanding by pointing to specific {{c1::parts of the body}} as you ask questions.",
+    "Back Extra": "Pitfall: speaking LOUDER does not increase a patient's ability to understand you.<br><br>Cue: use short, simple questions and avoid difficult medical terms.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  }
+]

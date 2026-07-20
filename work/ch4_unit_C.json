@@ -1,0 +1,44 @@
+[
+  {
+    "Text": "{{c1::Emotional intelligence::trait}} is the ability to {{c2::identify, understand, and manage one's own emotions and the emotions of others}}.",
+    "Back Extra": "Cue: people with high emotional intelligence are the kind, caring, exceptional listeners you know.<br><br>Why: as an EMT it lets you read a scene, empathize, and stay in control when emotions run high.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "Emotional intelligence is commonly understood to have <b>five</b> attributes:<br>{{c1::Self-awareness}} (recognize your own emotions)<br>{{c1::Self-regulation}} (control impulsive emotions and behaviors)<br>{{c1::Motivation}} (drive yourself and others in a positive direction)<br>{{c1::Empathy}} (understand others' concerns, emotions, and needs)<br>{{c1::Social skills}} (build and keep positive rapport and relationships)",
+    "Back Extra": "Distinguish: self-<i>awareness</i> is noticing your own emotions; self-<i>regulation</i> is controlling them.<br><br>Cue: empathy reads other people's cues; social skills act on them to build rapport.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "The <b>behavioral change stairway model</b> is a five-step method for de-escalating a high-emotion crisis, followed in order:<br><br>1. {{c1::Employ active listening}}<br>2. {{c1::Display empathy}}<br>3. {{c1::Build a rapport}}<br>4. {{c1::Exert influence}}<br>5. {{c1::Initiate behavior change}}",
+    "Back Extra": "Cue: developed by the FBI to manage hostage negotiations; it adapts to most crisis communications.<br><br>Why: the order matters because each step builds on the ones before it to improve communication, build rapport, and de-escalate.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "At a scene, when a family member is not helping your patient care, a good move is to give him or her a {{c1::task to do::what}}, such as gathering medications or clothing.",
+    "Back Extra": "Why: a task turns that person from a hindrance into a valuable aide.<br><br>Pitfall: it is generally best to keep families together; separating a patient from loved ones may make the patient more anxious.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "People call 9-1-1 because they are in crisis, so part of being a good EMT is projecting {{c1::calm and control}} into a chaotic environment, even when you do not actually feel calm.",
+    "Back Extra": "Cue: the adage is \"never let them see you sweat.\"<br><br>Pitfall: everything you do communicates something, so your body language must reflect your words.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "To help a hard-of-hearing patient hear you, have the patient put the {{c1::stethoscope}} in his or her ears while you speak softly into the {{c1::diaphragm}} to amplify the sound.",
+    "Back Extra": "Why: the stethoscope acts like a makeshift hearing aid, channeling and amplifying your voice into the patient's ears.<br><br>Cue: if you cannot communicate with the patient yourself, first have your partner try.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "Text": "{{c1::Mission-critical communications::category}} are any communications where a disruption will result in {{c2::failure of the task at hand}}, and their goal is an efficient, effective, error-free transfer of the {{c3::mental model}}.",
+    "Back Extra": "Why: when providers hold different pictures of \"what's going on,\" situational awareness fails and errors begin.<br><br>Cue: think handoffs, radio reports, and team callouts.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "A {{c1::mental model::concept}} is the picture individuals have in their head of {{c2::\"what's going on\"}}, and a team works effectively only when all members {{c3::share the same one}}.",
+    "Back Extra": "Distinguish: a shared mental model means every team member, though in different roles seeing different things, holds the same picture of the situation.<br><br>Why: it is the very thing a good handoff transfers.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "To build a shared mental model, a provider or team answers four questions in sequence:<br>1. {{c1::What is the focused priority for the patient?}} (the crux of the problem)<br>2. {{c1::What is the history of prior care?}} (what got us here)<br>3. {{c1::What is the patient's current state?}} (where are we now)<br>4. {{c1::What are the patient's immediate needs?}} (the very next thing that must happen)",
+    "Back Extra": "Why: answering these quickly gives the receiving clinicians a running start instead of restarting the assessment from scratch.<br><br>Cue: priority to history to current state to next need.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "{{c1::Patient care handover (handoff)::event}} is the transfer of both {{c2::pertinent patient information}} and the {{c3::responsibility for the patient's care}}.",
+    "Back Extra": "Cue: the American College of Emergency Physicians calls handover \"the most dangerous point in a patient's ED journey.\"<br><br>Pitfall: it often involves physically moving the patient and equipment, adding to the risk.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "The five-point method for <b>giving</b> a handover report:<br>{{c1::Initiate eye contact}}<br>{{c1::Manage the environment}}<br>{{c1::Ensure the ABCs}}<br>{{c1::Provide a structured report}}<br>{{c1::Provide documentation}}",
+    "Back Extra": "Cue: eye contact signals \"we are communicating now, you and I.\"<br><br>Distinguish: \"Ensure the ABCs\" means any immediately needed or ongoing lifesaving care (e.g., CPR) is conveyed and continued first, before the full report.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "The structured handover mnemonic {{c1::SBAR}} stands for {{c2::Situation, Background, Assessment, and Recap/Rx}} (modified in EMS to <b>SBAT</b>, where the T is Treatment).",
+    "Back Extra": "Meaning: Situation = concise statement of the problem; Background = brief relevant info; Assessment = your findings and impression; Treatment/Recap = care already given.<br><br>Why: a standardized format greatly improves efficiency and reduces handoff errors.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "The five-point method for <b>receiving</b> a handover report:<br>{{c1::Maintain eye contact}}<br>{{c1::Manage the environment}}<br>{{c1::Ensure understanding}}<br>{{c1::Summarize}}<br>{{c1::Gather supplementary patient documentation}}",
+    "Back Extra": "Distinguish: \"Summarize\" means stating the receiver's mental model aloud so the reporting provider can catch and correct any errors.<br><br>Pitfall: the summary is not a repeat of the whole report, just the key mental-model recap.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "Text": "When approaching a potentially hostile patient, do <b>not</b> take an aggressive posture such as {{c1::crossing your arms}}, {{c1::clenching your fists}}, or {{c1::placing your hands on your hips}}; instead stand with your {{c2::palms facing out}}.",
+    "Back Extra": "Why: an aggressive posture signals impatience or a claim of authority, while open palms communicate openness and acceptance and allow for quick movement if needed.<br><br>Pitfall: personal safety is your primary concern with a hostile patient, so first assess scene safety and consider law enforcement and backup.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "With a potentially hostile patient you should make {{c1::good eye contact, but not stare}}, and speak {{c2::calmly, confidently, and slowly}}.",
+    "Back Extra": "Why: a steady but non-fixed gaze and a calm, slow voice help de-escalate without appearing to challenge the patient.<br><br>Pitfall: never threaten the patient verbally or physically; personal safety is the primary concern.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "You arrive to find an agitated man pacing and shouting. To help de-escalate, you keep your {{c1::palms facing out}} and avoid {{c2::crossing your arms}}. What tone and pace should your voice have? {{c3::calm, confident, and slow::manner}}",
+    "Back Extra": "Cue: open palms plus a calm, slow voice reads as non-threatening and leaves room for quick movement.<br><br>Pitfall: assess scene safety and get law enforcement or backup before closing distance; never threaten the patient.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "An {{c1::open-ended::type}} question is one the patient must answer with {{c2::some level of detail}}, whereas a {{c3::closed-ended::type}} question can be answered in a {{c4::short or single-word}} response.",
+    "Back Extra": "Ex: open-ended = \"What seems to be bothering you today?\"; closed-ended = \"Are you having chest pain?\"<br><br>Distinguish: open-ended questions let the conversation flow and the patient direct you; closed-ended questions yield limited information and are only a starting point.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "When first approaching a patient you should use {{c1::open-ended::open/closed}} questions, but switch to {{c2::closed-ended::open/closed}} questions when the patient cannot give long or complete answers.",
+    "Back Extra": "Why: open-ended questions let the patient direct you to the problem; a patient in severe respiratory distress or a young child may only manage short answers.<br><br>Pitfall: closed-ended answers give limited information, so treat them as only a starting point.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "Before beginning the patient interview, you and your partner should determine {{c1::which provider will lead}} the interview.",
+    "Back Extra": "Why: deciding the lead ensures you do not ask questions at the same time or ask repetitive questions.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "To avoid confusing the patient (who may just answer \"yes\"), it is best to ask a {{c1::single question}}, wait for an answer, and then proceed to the next question.",
+    "Back Extra": "Pitfall: asking two questions at once, such as one open-ended and one closed-ended together, often gets a single \"yes\" that answers neither clearly.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "In therapeutic communication, {{c1::reflection::technique}} is restating a patient's statement back to them to confirm your understanding.",
+    "Back Extra": "Ex: Patient: \"I am so depressed I could die.\" EMT: \"I understand you are feeling depressed.\"<br><br>Distinguish: reflection mirrors what the patient said; clarification instead asks the patient to explain what they meant.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "In therapeutic communication, {{c1::clarification::technique}} is asking the patient to explain what he or she meant by an answer.",
+    "Back Extra": "Ex: EMT: \"When you say you feel 'funny,' can you tell me exactly what that feels like?\"<br><br>Distinguish: clarification asks the patient to explain further; reflection restates what the patient already said to confirm you understood it.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "The therapeutic communication technique of {{c1::confrontation::technique}} is used to make a patient who is in denial or in a state of shock focus on urgent, life-critical issues.",
+    "Back Extra": "Ex: firmly redirecting a patient who insists he is \"fine\" to let you control the heavy bleeding from his arm.<br><br>Distinguish: confrontation redirects a resistant patient to the critical problem; facilitation simply encourages a willing patient to keep talking.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "The therapeutic communication technique of {{c1::facilitation::technique}} means encouraging the patient to talk more or provide more information.",
+    "Back Extra": "Ex: EMT: \"I am listening. Can you tell me more about that?\"<br><br>Distinguish: facilitation draws out more from a willing patient; interpretation instead restates the patient's complaint to confirm your understanding of it.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "During a patient interview you should avoid giving {{c1::false hope or reassurance}}, because {{c2::you do not actually know that everything will be okay}}.",
+    "Back Extra": "Pitfall: promising a good outcome you cannot guarantee can destroy trust when it proves untrue.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "During a patient interview you should avoid {{c1::\"why\" questions}}, because they {{c2::appear to accuse the listener}}.",
+    "Back Extra": "Ex: \"Why did you stop taking your medication?\" sounds accusatory; \"What made it hard to keep taking it?\" does not.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  },
+  {
+    "Text": "During a patient interview you should avoid speaking in {{c1::professional jargon}}, because it {{c2::confuses the patient}}.",
+    "Back Extra": "Why: most patients do not understand medical jargon, so plain language keeps communication open.",
+    "chapter": 4,
+    "needs_human_check": false,
+    "image": null
+  }
+]
