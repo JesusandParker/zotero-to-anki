@@ -1,0 +1,3 @@
+{"verdicts": [
+{"noteId": 1782941720177, "verdict": "REWRITE", "reason": "R10 synonym-equation husk: Expressed and actual (synonyms) both under c1; split so each card shows one synonym as anchor", "fix": {"Text": "{{c1::Expressed::consent type}} consent, also called {{c3::actual::synonym}} consent, is given when the patient {{c2::specifically acknowledges wanting care or transport}}."}, "needs_human_check": false}
+]}

@@ -1,0 +1,4 @@
+{"pass_count": 102, "verdicts": [
+{"noteId": 1784513278552, "verdict": "REWRITE", "reason": "3 spans co-hidden under c1; split to crisp c1/c2", "fix": {"Text": "You cannot make yourself understood to a hard-of-hearing patient. One clever fix is to have the patient put a {{c1::stethoscope::device}} in his or her ears while you speak softly into the {{c2::diaphragm::part}} to amplify the sound."}, "needs_human_check": false},
+{"noteId": 1784513280504, "verdict": "REWRITE", "reason": "R10 husk: both contrast halves under c1; split c1/c2", "fix": {"Text": "A handover's verbal report should carry {{c1::only the immediately critical information}}, with the numerous other details transferring via {{c2::a paper or electronic report}}."}, "needs_human_check": false}
+]}

@@ -1,0 +1,29 @@
+[
+  {
+    "noteId": 1782941723780,
+    "model": "AnKing Cloze",
+    "deck": "all::EMT::Chapter 3::claude review",
+    "front_field": "Text",
+    "front": "The lawsuit defense of {{c1::governmental immunity::defense}} generally applies only to EMS systems operated by {{c1::municipalities or other governmental entities::operator type}}.",
+    "back_extra": "Meaning: if covered, the service sometimes cannot be sued at all (particularly when an emergency exists), or the plaintiff's monetary judgment may be capped.<br><br>Pitfall: state laws vary significantly on immunity, so learn the law where you work.",
+    "feedback": "Doesn't know classic case of how can I answer it because there are so many things to fill the blank with how in the world am I supposed to guess both governmental immunity and municipalities or other government entities all at the same time with my only context being the lawsuit defense of and generally applies only to EMS systems operated by like that is so little details to go off of and you want me to somehow pull out of my butt, governmental, immunity and municipalities or other government entities like I don't even have enough context to understand what you're trying to give me to ask it's simply impossible to answer without having first seen the answerright like, how was I supposed to get that off rip I had no chance at all there was absolute set up for failure."
+  },
+  {
+    "noteId": 1782941719658,
+    "model": "AnKing Cloze",
+    "deck": "all::EMT::Chapter 2::claude review",
+    "front_field": "Text",
+    "front": "A patient tells you her religious convictions strongly oppose {{c1::medications, blood, and blood products::3 items}}. Beyond respecting her wishes, you must {{c2::report the objection to the next level of care::action}}.",
+    "back_extra": "Why: the objection can only be honored after handoff if the information travels with the patient — respecting it yourself is not enough.<br><br>Ex: other religious needs to respect in the field: patients may cling to medals or charms (especially if you attempt to remove them), and may ask for religious counsel, baptism, or last rites when death is imminent — try to accommodate these requests.",
+    "feedback": "I think this is a perfect example of just the level of ambiguity. That is totally unacceptable. I want you to think about it like this. If you asked me to guess three things that a patient religious convictions strongly opposed that could be so many things right like you're asking me to guess medication's blood and blood productshow am I supposed to guess that could literally be anything it could be that she's strongly opposes abortion you know there's no way for me to guess that. Because there are so many things that could fit in that hole you know there are so many things I could put there and so it's just a bad cardand the next part saying that I should report the objection to the next level of care I mean beyond respecting her wishes maybe I should like give her a hug and tell her that she's wrong you know I don't know there are so many things that could also fit in that box so I think this is one of the biggest problems. here is the deep level of ambiguity."
+  },
+  {
+    "noteId": 1782755633456,
+    "model": "AnKing Cloze",
+    "deck": "all::EMT::Chapter 1::claude review",
+    "front_field": "Text",
+    "front": "Medical errors are examined as coming from three possible sources (alone or combined):<br>{{c1::rules-based failure::r}}<br>{{c1::knowledge-based failure::k}}<br>{{c1::skills-based failure::s}}",
+    "back_extra": "Cue: the three map to authority (rules), information (knowledge), and hands-on execution (skills).<br><br>Distinguish: giving a drug without the legal right or the medical director's permission is a <i>rules-based</i> failure - even if the drug was correct - not a knowledge-based one.",
+    "feedback": "I think the thing about this that I don't really love is that your hint is a letter like what in the world… That's literally giving away the answer and it's such an easy copout hint I think like you're just giving me the first letter of each of these things that's absolutely ridiculous. Couldn't I just guess it based off of the first letter does not narrow down what it could be immensely, but to the point where it's literally getting me the answer? I just think that's absolutely ridiculous."
+  }
+]

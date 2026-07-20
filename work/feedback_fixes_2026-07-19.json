@@ -1,0 +1,26 @@
+[
+  {
+    "noteId": 1782755633456,
+    "fields": {
+      "Text": "Medical errors are examined as coming from three possible sources (alone or combined): a {{c1::rules}}-based, a {{c1::knowledge}}-based, or a {{c1::skills}}-based failure.",
+      "Back Extra": "Cue: the three map to authority (rules), information (knowledge), and hands-on execution (skills).<br><br>Distinguish: giving a drug without the legal right or the medical director's permission is a <i>rules-based</i> failure - even if the drug was correct - not a knowledge-based one."
+    },
+    "clear_feedback": true
+  },
+  {
+    "noteId": 1782941719658,
+    "fields": {
+      "Text": "When a patient's religious convictions oppose medications, blood, and blood products, respecting the refusal is not enough; you must also {{c1::report it to the next level of care::duty}}.",
+      "Back Extra": "Why: the objection is only honored after handoff if the information travels with the patient, so respecting it yourself is not enough.<br><br>Ex: other religious needs to respect in the field include patients clinging to medals or charms (especially if you try to remove them), or asking for religious counsel, baptism, or last rites when death is imminent - try to accommodate these."
+    },
+    "clear_feedback": true
+  },
+  {
+    "noteId": 1782941723780,
+    "fields": {
+      "Text": "The lawsuit defense of {{c2::governmental immunity::defense}} generally applies only to EMS systems operated by {{c1::municipalities or other governmental entities::operator type}}.",
+      "Back Extra": "Meaning: if covered, the service sometimes cannot be sued at all (particularly when an emergency exists), or the plaintiff's monetary judgment may be capped.<br><br>Pitfall: state laws vary significantly on immunity, so learn the law where you work."
+    },
+    "clear_feedback": true
+  }
+]

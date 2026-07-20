@@ -1,0 +1,322 @@
+[
+ {
+  "noteId": 1782755633456,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "Medical errors are examined as coming from three possible sources (alone or combined): a {{c1::rules}}-based, a {{c1::knowledge}}-based, or a {{c1::skills}}-based failure.",
+  "Back Extra": "Cue: the three map to authority (rules), information (knowledge), and hands-on execution (skills).<br><br>Distinguish: giving a drug without the legal right or the medical director's permission is a <i>rules-based</i> failure - even if the drug was correct - not a knowledge-based one.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632408,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The {{c1::emergency medical responder (EMR)::EMS level}} is trained to {{c2::manage the scene and start lifesaving care before the ambulance arrives}}.",
+  "Back Extra": "Distinguish: an EMR works under more advanced providers and focuses on scene management, not advanced clinical skills.<br><br>Cue: the EMR is the <i>pre-ambulance</i> provider — the first, lowest of the four levels.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632907,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "Every EMS system's {{c1::medical director::role}} is a {{c2::physician (MD or DO)}} who {{c3::authorizes the service's EMTs to provide medical care in the field}}.",
+  "Back Extra": "Distinguish: the medical director must be a <i>physician</i>, not a nurse, senior EMT, supervisor, or agency administrator.<br><br>Why: EMTs are not independently licensed, so they act as an extension of the medical director's license.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755633056,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "A {{c1::standing order::term}} is {{c2::a part of an EMS system's protocols designating what an EMT must do for a specific complaint or condition}}, carried out {{c3::without::with or without?}} first contacting a physician.",
+  "Back Extra": "Distinguish: an online (direct) order is the opposite - it must be obtained live from a physician before acting.<br><br>Pitfall: standing orders still come <i>from</i> the medical director; they are written in advance, not a skipping of physician oversight.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755633306,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "{{c1::Mobile integrated health care (MIH)::care model}} is {{c2::a care model that delivers prehospital-level resources to the patient within the community}}, by an integrated team that includes EMS providers.",
+  "Back Extra": "Distinguish: an ambulance ride is a single transport; MIH is an ongoing model that links the patient to broader resources like social services.<br><br>Cue: \"mobile\" + \"integrated\" = care brought to the patient and woven into a wider team.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755633507,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "{{c1::Public health::field}} examines the health needs of {{c2::entire populations}}, with the goal of {{c3::preventing health problems}}.",
+  "Back Extra": "Distinguish: public health works at the <i>population</i> level (preventing problems), whereas clinical care treats <i>one patient</i> at a time.<br><br>Why: this population-prevention focus drives the prevention and public-education parts of EMS.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755633556,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "Adding {{c1::iodine}} to {{c2::table salt}} is the classic public-health fix for {{c3::goiter (an abnormally enlarged thyroid gland)}}, now rare because the fortified food reaches the whole population.",
+  "Back Extra": "Distinguish: this is primary prevention (stop the disease before it starts), not treatment of an existing goiter.<br><br>Why: the thyroid enlarges trying to compensate for a lack of dietary iodine.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755633709,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "A {{c1::patient advocate::role}} is someone who acts {{c2::in the patient's best interest}} - the guiding principle that everything an EMT does is done <i>with the patient in mind</i>.",
+  "Back Extra": "Pitfall: advocacy is the lens for every action on a call, not a single separate task.<br><br>Cue: it is the guiding principle for all EMS personnel.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632708,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "{{c1::Patient assessment::call phase}} is the foundation of any EMS call - using anatomy, physiology, and pathophysiology to {{c2::determine what is wrong with the patient}} and {{c2::identify life threats}}.",
+  "Back Extra": "Why: every treatment and transport decision is built on what the assessment finds, so spotting life threats early lets you prioritize care.<br><br>Distinguish: scene size-up sets up the call; patient assessment is its foundation.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632157,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "{{c1::Licensure::legal status}} is {{c2::the legal authority to practice in one's state}}.",
+  "Back Extra": "Distinguish: certification (passing the NREMT) verifies competency and comes first; licensure is the legal authority to practice that follows.<br><br>Pitfall: licensure is not an unrestricted right to practice; the next step, <i>credentialing</i>, is a service or medical director verifying you may work for them.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632858,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "Under {{c1::Title I::which ADA title?}} of the ADA, an EMT who can perform the essential job functions {{c2::with reasonable accommodations}} must be given the opportunity to pursue an EMS career.",
+  "Back Extra": "Meaning: Title I is the employment section of the ADA, governing hiring and the workplace.<br><br>Pitfall: the protection applies only to someone who CAN perform the essential job functions (with the accommodation in place); it does not waive the core ability to do the job.<br><br>Distinguish: Title I covers employment, not access to public government programs.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632457,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "Beyond the EMT level, the <b>AEMT</b> adds four specific aspects of advanced life support (ALS):<br>{{c1::IV (intravenous) therapy}}<br>{{c1::IO (intraosseous) therapy}}<br>{{c1::advanced airway adjuncts}}<br>{{c1::administering a <i>limited</i> number of medications}}",
+  "Back Extra": "Distinguish: the AEMT does only <i>selected/limited</i> ALS; the paramedic has full ALS scope including emergency pharmacology and cardiac-rhythm interpretation.<br><br>Pitfall: AEMT medications are a <i>limited</i> set, not the paramedic's full drug formulary.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755633206,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "Off-line (indirect) medical control consists of {{c1::standing orders}}, {{c1::training}}, and {{c1::supervision}}, all authorized in advance by the medical director.",
+  "Back Extra": "Distinguish: online (direct) control is a physician's order given live over phone or radio during the call; off-line needs no real-time contact.<br><br>Cue: off-line is the rules and prep already in place before you ever key the radio.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632758,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The six EMS functions represented by the bars of the <b>Star of Life</b>, in order, are:<br>1. {{c1::Detection}}<br>2. {{c1::Reporting}}<br>3. {{c1::Response}}<br>4. {{c1::On-scene care}}<br>5. {{c1::Care in transit}}<br>6. {{c1::Transfer to definitive care}}",
+  "Back Extra": "Cue: the six bars trace one EMS call end to end, from spotting the emergency (Detection) through hospital handoff (Transfer to definitive care).<br><br>Why: the symbol was adapted from the AMA's Medical Identification Symbol to mark EMS as a public-service emblem.<br><br><a href=\"https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStar_of_Life&amp;ved=0CBUQjRxqFwoTCJDamISLtZUDFQAAAAAdAAAAABAF&amp;opi=89978449\"><img alt=\"Star of Life - Wikipedia\" src=\"250px-Star_of_life2.svg.png\"></a>",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632207,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "{{c1::Credentialing::process}} is {{c2::a specific agency or medical director verifying a provider's qualifications}} before letting them work there.",
+  "Back Extra": "Distinguish: licensure is granted by the <i>state</i>; credentialing is granted by the <i>employing agency or system</i>.<br><br>Cue: the order runs certification, then licensure, then credentialing.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632657,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "{{c1::Scene size-up::call phase}} is {{c2::getting an overview of the situation and an awareness of the presence and level of safety threats}}, done before you reach the patient.",
+  "Back Extra": "Distinguish: scene size-up is about the scene and your safety; patient assessment is about figuring out what is wrong with the patient.<br><br>Cue: overview, safety, resources, approach - decide these up front so you don't become a second patient.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632807,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The Americans With Disabilities Act (ADA) protects people with a disability two ways: it bars denial of access to programs and services of {{c1::state or local governments}}, and bars employers from failing to provide {{c1::full and equal employment}}.",
+  "Back Extra": "Distinguish: the first half covers access to government programs and services; the second half, <i>Title I</i>, covers hiring and the workplace.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755633407,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "{{c1::Continuous quality improvement (CQI)::process}} is {{c2::a quality-management process in which team members at every level repeatedly evaluate how they are doing and how to do better}}.",
+  "Back Extra": "Distinguish: a <i>just culture</i> balances fairness and accountability when errors happen; CQI is the ongoing process of measuring and improving care.<br><br>Cue: the giveaway is <i>every level</i> - CQI is everyone's job, not just management's.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755633609,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "{{c1::Primary prevention::prevention type}} is {{c2::strategies that stop an event (illness or injury) from ever happening}}.",
+  "Back Extra": "Distinguish: <i>primary</i> prevention acts <i>before</i> the event occurs (a vaccine, teaching CPR, a pool-safety program); <i>secondary</i> prevention acts after the event has already begun.<br><br>Ex: a polio vaccine is primary prevention - it virtually eliminated polio within one generation.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755633157,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "{{c1::Online (direct)::type of medical control}} medical control is {{c2::live orders given over the phone or radio while you are treating the patient}}, from the medical director or a designated physician.",
+  "Back Extra": "Distinguish: off-line (indirect) control is the standing orders and protocols written ahead of time, with no live contact during the call.<br><br>Pitfall: the order may be relayed by a designee (e.g. a base-station physician), so it need not come from the medical director personally.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755633657,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "{{c1::Secondary prevention::prevention type}} is {{c2::strategies used after an event has already happened, to decrease its effects}}.",
+  "Back Extra": "Distinguish: <i>primary</i> prevention stops the event from ever happening; <i>secondary</i> prevention accepts it happened and limits the damage.<br><br>Ex: helmets and seat belts do not stop the crash, but they prevent serious injury once it occurs.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632109,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "{{c1::Certification::pathway step}} is the process that verifies a provider has met the minimum required {{c2::knowledge, skills, and abilities (KSA)}}.",
+  "Back Extra": "Distinguish: <i>certification</i> attests you have the competency (e.g. via the NREMT); <i>licensure</i> is the state granting legal permission to practice; <i>credentialing</i> is a specific agency authorizing you to work for it.<br><br>Pitfall: holding certification is not the same as being licensed to practice in a given state.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755633007,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "A medical director {{c1::can::can or cannot}} <b>limit</b> an EMT's scope of practice but {{c1::cannot::can or cannot}} <b>expand</b> it beyond what {{c2::state law}} already allows.",
+  "Back Extra": "Why: scope of practice is set by state law; only the state can widen it, never a physician's order.<br><br>Pitfall: a medical director cannot authorize a skill the state has not approved, even with a direct order.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632957,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "Beyond authorizing care, the medical director also: serves as the working {{c1::liaison}} between the medical community, hospitals, and EMTs; approves each EMT's {{c1::continuing education and training}}; and maintains {{c1::quality control}} of the care given.",
+  "Back Extra": "Distinguish: these are duties of the <i>medical director</i> specifically, not the state EMS office or the agency.<br><br>Cue: one physician ties EMS to the wider medical system, sets training standards, and answers for care quality.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755633107,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "Medical control comes in two forms, authorized by the medical director:<br>{{c1::Off-line}} = also called {{c1::indirect}}<br>{{c1::Online}} = also called {{c1::direct}}",
+  "Back Extra": "Cue: <i>on</i>line means you are <i>on the line</i> (live contact) = <i>direct</i>; off-line is arranged in advance, so it reaches you <i>indirectly</i>.<br><br>Distinguish: both are authorized by the same medical director, just delivered differently.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755633356,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "Mobile integrated health care (MIH) evolved to improve {{c1::access to health care at an affordable price}}, especially for patients who struggle to reach a clinic.",
+  "Back Extra": "Distinguish: the aim is better access and lower cost, not faster emergency response.<br><br>Why: it brings care to where the patient already is.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632558,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "How many hours does the <b>AEMT</b> course typically range? {{c1::200 to 400 hours::range}}",
+  "Back Extra": "Distinguish: an EMT course runs about 150 to 200 hours; the AEMT course is longer because it layers limited ALS skills on top.<br><br>Why: the added IV/IO, advanced airway, and medication skills require more training time.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755633256,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "You are on scene and radio the base-station physician for an order your standing protocols do not cover. Which kind of medical control are you using? {{c1::Online (direct)::online or off-line?}}",
+  "Back Extra": "Distinguish: had you instead followed a pre-written standing order with no call, that would be off-line (indirect) control.<br><br>Cue: a live conversation by phone or radio = online.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632357,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In most states, people who work in emergency medical care are licensed at four levels (lowest to highest training):<br>{{c1::Emergency medical responder (EMR)}}<br>{{c1::Emergency medical technician (EMT)}}<br>{{c1::Advanced EMT (AEMT)}}<br>{{c1::Paramedic}}",
+  "Back Extra": "Cue: listed lowest to highest level of training and scope of practice; paramedic is the only level with no two-letter abbreviation.<br><br>Why: each level has a different scope of practice and requires different education and training.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632307,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "Because licensure is a {{c1::state::federal or state?}} function, the laws regulating how EMS providers operate are both written and enforced at the {{c1::state}} level.",
+  "Back Extra": "Distinguish: NREMT certification is national, but each <i>state</i> decides whether to license you and how providers may operate.<br><br>Cue: the state EMS office that issues licenses is the same body that enforces the operating rules.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632257,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The pathway to practicing as an EMS provider runs in order: {{c1::certification}}, then {{c1::licensure}}, then {{c1::credentialing}}.",
+  "Back Extra": "Meaning: certification verifies your competency, licensure is the state granting legal permission to practice, and credentialing is a specific agency authorizing you to work for it.<br><br>Cue: \"prove it, then you're allowed, then you're hired\" - you certify first, the state licenses you, then an agency credentials you.<br><br>Pitfall: completing certification only makes you <i>eligible</i> for licensure; it is not itself permission to practice.",
+  "tags": [
+   "ch1"
+  ]
+ },
+ {
+  "noteId": 1782755632508,
+  "deck": "all::EMT::Chapter 1::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The <b>AEMT</b> level exists to bring {{c1::limited ALS care}} to regions where {{c1::paramedics are not available}}, focusing on the assessment and intervention skills shown to improve outcomes.",
+  "Back Extra": "Distinguish: the AEMT bridges the EMT and paramedic levels - an expanded but still limited range of skills beyond the EMT.<br><br>Cue: think of the AEMT as the stand-in that brings some ALS to areas a paramedic cannot reach.",
+  "tags": [
+   "ch1"
+  ]
+ }
+]

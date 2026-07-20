@@ -1,0 +1,982 @@
+[
+ {
+  "noteId": 1783030174735,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::mal-}} means {{c2::bad or abnormal}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Malignant</b> — a 'bad,' cancerous tumor that invades and spreads; also malignant hypertension, dangerously high BP with organ damage.</li><li style=\"margin-bottom:5px;\"><b>Malaise</b> — that vague 'I just feel bad/off' complaint patients report early in infection or an MI.</li><li style=\"margin-bottom:5px;\"><b>Malformation</b> — an abnormally formed structure, as in an arteriovenous malformation (AVM) that can rupture and bleed into the brain.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174785,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::mega-}} means {{c2::large}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Megacolon</b> — an abnormally dilated colon; toxic megacolon is a surgical emergency in severe colitis or C. diff.</li><li style=\"margin-bottom:5px;\"><b>Megakaryocyte</b> — the giant bone-marrow cell that fragments into thousands of platelets.</li><li style=\"margin-bottom:5px;\"><b>Megaesophagus</b> — a massively dilated (enlarged) esophagus, the end-stage of long-standing achalasia (also seen in Chagas disease).</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174835,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::meta-}} means {{c2::after, change}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Metacarpals</b> — the five hand bones lying just after the carpals (wrist bones).</li><li style=\"margin-bottom:5px;\"><b>Metastasis</b> — cancer that has spread beyond its original site to a new location.</li><li style=\"margin-bottom:5px;\"><b>Metabolism</b> — the body's constant chemical changes that convert food into usable energy.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174885,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::micro-}} means {{c2::small}}.",
+  "Back Extra": "Distinguish: opposite is macro-/mega- (large)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Microcytic anemia</b> — abnormally small red cells (low MCV), the hallmark of iron-deficiency anemia.</li><li style=\"margin-bottom:5px;\"><b>Microcephaly</b> — an abnormally small head and brain, seen in congenital Zika infection.</li><li style=\"margin-bottom:5px;\"><b>Micrognathia</b> — a small, underdeveloped jaw; an airway red flag in Pierre Robin sequence.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174935,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::mono-}} means {{c2::one, single}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Monocyte</b> — a white blood cell with a single nucleus that matures into a macrophage in tissue.</li><li style=\"margin-bottom:5px;\"><b>Monoplegia</b> — paralysis of one single limb (versus hemiplegia or paraplegia).</li><li style=\"margin-bottom:5px;\"><b>Monoclonal antibody</b> — a drug built from one identical antibody clone; the '-mab' medications like Humira.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174986,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::multi-}} means {{c2::many}}.",
+  "Back Extra": "Ex: multiparous = giving birth to more than one offspring at a time<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Multigravida</b> — a woman who has been pregnant many (more than one) times.</li><li style=\"margin-bottom:5px;\"><b>Multifocal atrial tachycardia</b> — an irregular fast rhythm firing from many different atrial sites.</li><li style=\"margin-bottom:5px;\"><b>Multisystem trauma</b> — injury involving many body systems at once; the classic major-trauma patient.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175034,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::neo-}} means {{c2::new}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Neonate</b> — a newborn in its first 28 days of life; neonatal resuscitation follows its own protocol.</li><li style=\"margin-bottom:5px;\"><b>Neoplasm</b> — literally a 'new growth,' the medical term for a tumor, benign or malignant.</li><li style=\"margin-bottom:5px;\"><b>Neovascularization</b> — abnormal new blood-vessel growth, as in diabetic retinopathy that threatens sight.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175086,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::noct-}} means {{c2::night}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Nocturia</b> — waking to urinate at night, a classic clue to heart failure or an enlarged prostate.</li><li style=\"margin-bottom:5px;\"><b>Paroxysmal nocturnal dyspnea</b> — sudden nighttime breathlessness that wakes a heart-failure patient gasping for air.</li><li style=\"margin-bottom:5px;\"><b>Nocturnal enuresis</b> — nighttime bedwetting, common in young children.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175135,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::nulli-}} means {{c2::none}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Nulligravida</b> — a woman who has never been pregnant, charted as 'gravida 0.'</li><li style=\"margin-bottom:5px;\"><b>Nullipara</b> — a woman who has never given birth to a viable infant ('para 0').</li><li style=\"margin-bottom:5px;\"><b>Nulliparous</b> — never having given birth; a recognized risk factor for breast and ovarian cancer.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175185,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::olig(o)-}} means {{c2::little, deficient}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Oliguria</b> — scanty urine output, a key warning sign of shock, dehydration, or acute kidney injury.</li><li style=\"margin-bottom:5px;\"><b>Oligospermia</b> — a deficient sperm count, a common cause of male infertility.</li><li style=\"margin-bottom:5px;\"><b>Oligohydramnios</b> — too little amniotic fluid around the fetus, an obstetric warning sign.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175236,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::ortho-}} means {{c2::straight or normal}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Orthopnea</b> — breathlessness lying flat that eases when sitting up straight; a hallmark of heart failure, measured in pillows.</li><li style=\"margin-bottom:5px;\"><b>Orthostatic hypotension</b> — a BP drop on standing upright; orthostatic vitals expose hidden blood or fluid loss.</li><li style=\"margin-bottom:5px;\"><b>Orthopedics</b> — the specialty for bones and joints, originally meaning 'straightening' children's deformities.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175285,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::pan-}} means {{c2::all, entire}}.",
+  "Back Extra": "Ex: pandemic = a worldwide epidemic<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Pancytopenia</b> — a fall in all three blood cell lines (red cells, white cells, platelets), pointing to bone-marrow failure.</li><li style=\"margin-bottom:5px;\"><b>Pandemic</b> — a disease outbreak spreading across entire countries and continents, like COVID-19.</li><li style=\"margin-bottom:5px;\"><b>Pancarditis</b> — inflammation of all layers of the heart, seen in acute rheumatic fever.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175335,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::para-}} means {{c2::near, beside, beyond, apart from}}.",
+  "Back Extra": "Ex: parasternal = beside the sternum<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Paramedic</b> — literally 'alongside medicine'; the prehospital provider working beside the physician.</li><li style=\"margin-bottom:5px;\"><b>Parathyroid glands</b> — four small glands sitting beside the thyroid that regulate blood calcium.</li><li style=\"margin-bottom:5px;\"><b>Paresthesia</b> — an abnormal sensation like numbness or pins-and-needles, a departure from normal feeling.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175385,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::per-}} means {{c2::through}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Perfusion</b> — blood pouring through the tissues; you judge it (skin color, cap refill, mentation) to catch shock early.</li><li style=\"margin-bottom:5px;\"><b>Percutaneous</b> — through the skin; a percutaneous coronary intervention (PCI) threads a catheter through the skin to reopen a blocked coronary artery in a STEMI.</li><li style=\"margin-bottom:5px;\"><b>Per os (PO)</b> — by mouth, literally through the mouth; the route you chart whenever a drug is swallowed.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175436,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::peri-}} means {{c2::around}}.",
+  "Back Extra": "Ex: pericardium = sac around the heart<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Pericarditis</b> — inflammation of the pericardium, the sac around the heart; sharp chest pain that eases when leaning forward.</li><li style=\"margin-bottom:5px;\"><b>Periorbital ecchymosis</b> — bruising around the eyes ('raccoon eyes'); a red flag for basilar skull fracture.</li><li style=\"margin-bottom:5px;\"><b>Peritonitis</b> — inflammation of the peritoneum, the lining around the abdominal organs; gives a rigid, rebound-tender belly.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175485,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::poly-}} means {{c2::many}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Polyuria</b> — excessive urination; one of the 'three P's' (with polydipsia and polyphagia) that flags new diabetes/DKA.</li><li style=\"margin-bottom:5px;\"><b>Polytrauma</b> — many serious injuries at once; the patient who triggers a full trauma-team activation.</li><li style=\"margin-bottom:5px;\"><b>Polypharmacy</b> — many medications taken together; a fall-and-interaction red flag in elderly patients.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175536,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::post-}} means {{c2::after, behind}}.",
+  "Back Extra": "Ex: postsurgical = occurring after surgery<br><br>Distinguish: opposite is pre- (before)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Postictal</b> — the drowsy, confused state after a seizure; what you often find on arrival to a seizure call.</li><li style=\"margin-bottom:5px;\"><b>Postpartum hemorrhage</b> — bleeding after delivery; a leading cause of maternal death.</li><li style=\"margin-bottom:5px;\"><b>Posterior</b> — the 'behind/back' sense; e.g., a posterior wall MI, or auscultating the posterior chest.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175586,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::pre-}} means {{c2::before}}.",
+  "Back Extra": "Ex: prenatal = occurring before birth<br><br>Distinguish: opposite is post- (after)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Preeclampsia</b> — dangerously high blood pressure in pregnancy that comes before eclampsia's seizures.</li><li style=\"margin-bottom:5px;\"><b>Premature ventricular contraction (PVC)</b> — a ventricular beat that fires before it's due; common ectopy on the monitor.</li><li style=\"margin-bottom:5px;\"><b>Prehospital</b> — the 'before the hospital' phase of care; literally the EMT's domain.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175635,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::primi-}} means {{c2::first}}.",
+  "Back Extra": "Ex: primigravida = pregnant for the first time<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Primigravida</b> — a woman pregnant for the first time (G1); carries higher preeclampsia risk.</li><li style=\"margin-bottom:5px;\"><b>Primipara</b> — a woman who has delivered for the first time; charted as P1.</li><li style=\"margin-bottom:5px;\"><b>Primitive reflexes</b> — the first/earliest reflexes, present at birth (Moro, grasp, rooting); their reappearance in adults flags frontal brain damage.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175686,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::pro-}} means {{c2::before, in front of}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Prodrome</b> — early warning symptoms before an illness fully hits, like the aura before a migraine or seizure.</li><li style=\"margin-bottom:5px;\"><b>Prophylaxis</b> — treatment given before a problem to prevent it, e.g., DVT prophylaxis in an immobile patient.</li><li style=\"margin-bottom:5px;\"><b>Prolapse</b> — a falling forward/down; umbilical cord prolapse (cord slips ahead of the baby) is a true delivery emergency.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175736,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::quadr(i)-}} means {{c2::four}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Quadriplegia</b> — paralysis of all four limbs from a high cervical spinal cord injury.</li><li style=\"margin-bottom:5px;\"><b>Quadrants</b> — the four regions of the abdomen (RUQ/LUQ/RLQ/LLQ); RLQ pain points to appendicitis.</li><li style=\"margin-bottom:5px;\"><b>Quadriceps</b> — the four-headed muscle on the front of the thigh.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175785,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::re-}} means {{c2::back}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Reflux</b> — acid flowing back up from the stomach (GERD); the burn of heartburn.</li><li style=\"margin-bottom:5px;\"><b>Regurgitation</b> — blood flowing back through a leaky valve, e.g., mitral regurgitation.</li><li style=\"margin-bottom:5px;\"><b>Reduction</b> — setting a fractured or dislocated bone back into place, like a closed reduction of a dislocated shoulder.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175835,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::retro-}} means {{c2::backward, behind}}.",
+  "Back Extra": "Ex: retroperitoneal = area behind the peritoneum<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Retrosternal</b> — behind the sternum; 'retrosternal chest pressure' is the classic charting for cardiac pain.</li><li style=\"margin-bottom:5px;\"><b>Retroperitoneal</b> — behind the peritoneum, where the kidneys and aorta lie; a retroperitoneal bleed (ruptured AAA) hides blood in the back.</li><li style=\"margin-bottom:5px;\"><b>Retrograde amnesia</b> — loss of memory for events before a head injury (working backward from the impact).</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175885,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::semi-}} means {{c2::half, partial}}.",
+  "Back Extra": "Ex: semiconscious = partially conscious<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Semi-Fowler's</b> — the half-sitting position (about 30–45 degrees) used to ease a patient's breathing.</li><li style=\"margin-bottom:5px;\"><b>Semiconscious</b> — only partially awake and responsive; a common way to describe altered mental status.</li><li style=\"margin-bottom:5px;\"><b>Semilunar valves</b> — the half-moon-shaped aortic and pulmonic valves of the heart.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175936,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::sub-}} means {{c2::under, below}}.",
+  "Back Extra": "Ex: subcutaneous = beneath the skin<br><br>Distinguish: opposite is super-/supra- (above)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Sublingual</b> — under the tongue; sublingual nitroglycerin dissolves there for fast chest-pain relief.</li><li style=\"margin-bottom:5px;\"><b>Subcutaneous</b> — under the skin; the fatty layer where insulin and heparin (enoxaparin/Lovenox) are injected.</li><li style=\"margin-bottom:5px;\"><b>Subdural hematoma</b> — bleeding below the dura mater; classic after falls in the elderly and often slow to show.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030175986,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::super-}} means {{c2::above, excessive, or more than normal}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Superior</b> — the 'above' sense; the superior vena cava drains blood from above the heart.</li><li style=\"margin-bottom:5px;\"><b>Superficial</b> — at the surface, above the deeper layers; a superficial (first-degree) burn spares all but the top of the skin.</li><li style=\"margin-bottom:5px;\"><b>Superinfection</b> — an extra infection piled on top of another, like C. diff or oral thrush after antibiotics.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176035,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::supra-}} means {{c2::above, upper}}.",
+  "Back Extra": "Ex: suprasternal notch = top of the sternum<br><br>Distinguish: opposite is infra-/sub- (below)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Supraventricular tachycardia (SVT)</b> — a fast rhythm arising above the ventricles; narrow-complex tach treated with vagal maneuvers or adenosine.</li><li style=\"margin-bottom:5px;\"><b>Supraglottic airway</b> — a rescue airway (i-gel, King) that seats above the glottis and vocal cords.</li><li style=\"margin-bottom:5px;\"><b>Suprapubic</b> — above the pubic bone; suprapubic tenderness points to the bladder (retention or UTI).</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176085,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::sym-}} means {{c2::together, joined}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Sympathetic nervous system</b> — nerves acting together for 'fight or flight'; epinephrine is a sympathomimetic that copies it.</li><li style=\"margin-bottom:5px;\"><b>Symphysis pubis</b> — the joint where the two pubic bones are joined at the front of the pelvis.</li><li style=\"margin-bottom:5px;\"><b>Symmetry</b> — matching evenly on both sides; you check facial symmetry for droop in a stroke screen.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176135,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::syn-}} means {{c2::together, joined}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Syndrome</b> — literally signs that \"run together\"; think compartment syndrome or Cushing's syndrome.</li><li style=\"margin-bottom:5px;\"><b>Synapse</b> — the junction where two neurons join together to pass a signal (neuro).</li><li style=\"margin-bottom:5px;\"><b>Syndactyly</b> — congenitally fused or webbed fingers/toes; the digits are joined.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176186,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::tachy-}} means {{c2::rapid, fast}}.",
+  "Back Extra": "Ex: tachycardia = fast heart rate<br><br>Distinguish: opposite is brady- (slow)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Tachycardia</b> — fast heart rate over 100 bpm; the word you say on every SVT.</li><li style=\"margin-bottom:5px;\"><b>Tachypnea</b> — rapid breathing; an early red flag in sepsis, DKA, or respiratory distress.</li><li style=\"margin-bottom:5px;\"><b>Tachyphylaxis</b> — rapidly fading drug response with repeated doses, e.g., nitroglycerin tolerance.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176235,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::tetra-}} means {{c2::four}}.",
+  "Back Extra": "Ex: tetralogy of Fallot = congenital defect involving four anatomic abnormalities of the heart<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Tetralogy of Fallot</b> — congenital heart defect with four features; cause of peds \"tet spells.\"</li><li style=\"margin-bottom:5px;\"><b>Tetraplegia</b> — paralysis of all four limbs after a cervical spinal cord injury.</li><li style=\"margin-bottom:5px;\"><b>Tetracycline</b> — antibiotic named for its four fused chemical rings.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176287,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::trans-}} means {{c2::across, through, beyond}}.",
+  "Back Extra": "Ex: transvaginal = across or through the vagina<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Transdermal</b> — drug absorbed through the skin, like a nitro or fentanyl patch.</li><li style=\"margin-bottom:5px;\"><b>Transfusion</b> — pouring blood across from a donor into your patient.</li><li style=\"margin-bottom:5px;\"><b>Transverse</b> — lying across the body; the transverse colon crosses the abdomen and the transverse plane splits top from bottom.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176335,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::tri-}} means {{c2::three}}.",
+  "Back Extra": "Ex: trigeminy = irregular heartbeat of two normal beats followed by one premature beat<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Tricuspid valve</b> — the right-heart valve with three cusps/leaflets.</li><li style=\"margin-bottom:5px;\"><b>Triceps</b> — the three-headed muscle on the back of the upper arm.</li><li style=\"margin-bottom:5px;\"><b>Trimester</b> — one of pregnancy's three stages; how you date an OB patient.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176387,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::uni-}} means {{c2::one}}.",
+  "Back Extra": "Ex: unilateral = one side<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Unilateral</b> — on one side; unilateral facial droop or weakness screams stroke.</li><li style=\"margin-bottom:5px;\"><b>Unipolar depression</b> — mood stuck at one pole (low only), unlike bipolar.</li><li style=\"margin-bottom:5px;\"><b>Unicornuate uterus</b> — congenital uterus with a single horn/cavity (OB/GYN).</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176435,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::dipl-}} means {{c2::two; double}}.",
+  "Back Extra": "Ex: diplopia = double vision<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Diplopia</b> — double vision; a red flag in stroke, head injury, or botulism.</li><li style=\"margin-bottom:5px;\"><b>Diplococci</b> — bacteria growing in pairs, like Neisseria meningitidis.</li><li style=\"margin-bottom:5px;\"><b>Diploid</b> — a cell carrying two (double) sets of chromosomes (2n), like every human somatic cell; gametes are haploid.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176485,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::null-}} means {{c2::none}}.",
+  "Back Extra": "Ex: nullipara = never given birth<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Nulligravida</b> — a woman who has never been pregnant (OB history).</li><li style=\"margin-bottom:5px;\"><b>Nulliparous</b> — a woman who has never given birth; zero on her para count.</li><li style=\"margin-bottom:5px;\"><b>Null mutation</b> — a gene change that yields no functional protein (genetics).</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176535,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::quad-}} means {{c2::four}}.",
+  "Back Extra": "Ex: quadriplegic = paralysis of all four extremities<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Quadrant</b> — the abdomen's four regions; RLQ pain points to appendicitis.</li><li style=\"margin-bottom:5px;\"><b>Quadriplegia</b> — paralysis of all four limbs from a cervical spine injury.</li><li style=\"margin-bottom:5px;\"><b>Quadriceps</b> — the four-headed muscle group on the front of the thigh.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176585,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::quint-}} means {{c2::five}}.",
+  "Back Extra": "Ex: quintipara = five pregnancies resulting in five live births<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Quintuplets</b> — five babies from a single pregnancy (OB).</li><li style=\"margin-bottom:5px;\"><b>Quintan fever</b> — fever recurring every fifth day, classically trench fever (Bartonella quintana).</li><li style=\"margin-bottom:5px;\"><b>Quintile</b> — one of five equal groups when stratifying risk or lab data.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176635,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::sext-}} means {{c2::six}}.",
+  "Back Extra": "Ex: sextuplets = six offspring of the same pregnancy<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Sextuplets</b> — six babies from one pregnancy (OB).</li><li style=\"margin-bottom:5px;\"><b>Sextant</b> — in dentistry, the mouth split into six sections for charting.</li><li style=\"margin-bottom:5px;\"><b>Sextan fever</b> — fever that recurs every sixth day (classic periodic-fever series).</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176686,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::sept-}} means {{c2::seven}}.",
+  "Back Extra": "Ex: septuplets = seven offspring of the same pregnancy<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Septuplets</b> — seven babies from one pregnancy (OB).</li><li style=\"margin-bottom:5px;\"><b>Septuagenarian</b> — a patient in their seventies (70–79); common in case write-ups.</li><li style=\"margin-bottom:5px;\"><b>Septan fever</b> — fever recurring every seventh day (not septum, a wall, or septic, infection).</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176735,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::oct-}} means {{c2::eight}}.",
+  "Back Extra": "Ex: octigravida = pregnant for the eighth time<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Octuplets</b> — eight babies from one pregnancy (think \"Octomom\").</li><li style=\"margin-bottom:5px;\"><b>Octogenarian</b> — a patient in their eighties (80–89); frequent on geriatric calls.</li><li style=\"margin-bottom:5px;\"><b>Octreotide</b> — an eight-amino-acid (octapeptide) drug used to stop variceal/GI bleeding.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176786,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::nona-}} means {{c2::nine}}.",
+  "Back Extra": "Ex: nonan = occurring on the ninth day<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Nonagenarian</b> — a patient in their nineties (90–99), like a frail 94-year-old.</li><li style=\"margin-bottom:5px;\"><b>Nonapeptide</b> — a nine-amino-acid hormone; oxytocin and vasopressin (ADH) are the classics.</li><li style=\"margin-bottom:5px;\"><b>Nonuplets</b> — nine babies from one pregnancy (exceedingly rare).</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176835,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::deca-}} means {{c2::ten}}.",
+  "Back Extra": "Ex: decagram = measurement of 10 grams<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Decapeptide</b> — a ten-amino-acid peptide; angiotensin I and GnRH are classic examples.</li><li style=\"margin-bottom:5px;\"><b>Decamethonium</b> — a ten-carbon depolarizing paralytic (neuromuscular blocker).</li><li style=\"margin-bottom:5px;\"><b>Decade</b> — a ten-year span; note deca- = ten, but deci- = one-tenth, as in mg/dL.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176886,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::ambi-}} means {{c2::both}}.",
+  "Back Extra": "Ex: ambidextrous = able to use either hand equally well<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Ambidextrous</b> — able to use both hands equally well; the clinician who can start an IV or suture from either side.</li><li style=\"margin-bottom:5px;\"><b>Ambivalent</b> — pulled both ways at once; the patient who simultaneously wants help and refuses transport.</li><li style=\"margin-bottom:5px;\"><b>Ambiguous genitalia</b> — external genitalia not clearly male or female, showing features of both sexes; classic newborn finding in congenital adrenal hyperplasia.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176935,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-al}} means {{c2::pertaining to}}.",
+  "Back Extra": "Ex: syncopal = pertaining to syncope<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Pleural</b> — pertaining to the pleura lining the lung; a \"pleural effusion\" is fluid collecting around the lung.</li><li style=\"margin-bottom:5px;\"><b>Brachial</b> — pertaining to the arm; the brachial artery is where you check a pulse and BP on an infant.</li><li style=\"margin-bottom:5px;\"><b>Cervical</b> — pertaining to the neck; a cervical collar stabilizes the C-spine after trauma.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030176986,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-algia}} means {{c2::pertaining to pain}}.",
+  "Back Extra": "Ex: arthralgia = joint pain<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Myalgia</b> — muscle pain; the diffuse body aches a febrile flu patient reports.</li><li style=\"margin-bottom:5px;\"><b>Neuralgia</b> — nerve pain; trigeminal neuralgia fires sudden electric-shock pain across the face.</li><li style=\"margin-bottom:5px;\"><b>Arthralgia</b> — joint pain; charted when knees and wrists ache without visible swelling.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177037,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-asthenia}} means {{c2::weakness}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Myasthenia gravis</b> — autoimmune weakness of voluntary muscles; droopy eyelids and double vision that worsen with use.</li><li style=\"margin-bottom:5px;\"><b>Neurasthenia</b> — older diagnosis of \"nervous weakness,\" persistent fatigue and exhaustion.</li><li style=\"margin-bottom:5px;\"><b>Psychasthenia</b> — a classic term for mental weakness and anxiety; one of the original MMPI clinical scales.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177086,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-blast}} means {{c2::immature cell}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Osteoblast</b> — immature bone-building cell; multiplies to knit a fractured bone back together.</li><li style=\"margin-bottom:5px;\"><b>Myeloblast</b> — immature marrow cell; floods the blood in acute myeloid leukemia (AML).</li><li style=\"margin-bottom:5px;\"><b>Lymphoblast</b> — immature lymphocyte; the malignant cell of acute lymphoblastic leukemia (ALL).</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177136,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-cele}} means {{c2::pertaining to a tumor or swelling}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Hydrocele</b> — fluid-filled swelling around a testicle; a soft scrotal mass that glows when transilluminated.</li><li style=\"margin-bottom:5px;\"><b>Cystocele</b> — bladder bulging into the vaginal wall; causes pelvic pressure and urine leaking.</li><li style=\"margin-bottom:5px;\"><b>Meningocele</b> — meninges protruding through a spinal defect in spina bifida.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177186,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-centesis}} means {{c2::surgical puncture to withdraw fluid}}.",
+  "Back Extra": "Meaning: pertaining to puncturing an organ or body cavity, often to drain fluid or obtain a sample.<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Thoracentesis</b> — needle drains fluid from the pleural space to relieve a pleural effusion.</li><li style=\"margin-bottom:5px;\"><b>Pericardiocentesis</b> — emergency needle drains the pericardium to relieve cardiac tamponade.</li><li style=\"margin-bottom:5px;\"><b>Paracentesis</b> — needle taps ascites fluid off a distended, swollen abdomen.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177234,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-cyte}} means {{c2::cell}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Erythrocyte</b> — red blood cell; the oxygen carrier counted on a CBC.</li><li style=\"margin-bottom:5px;\"><b>Leukocyte</b> — white blood cell; the count climbs when the body fights infection.</li><li style=\"margin-bottom:5px;\"><b>Thrombocyte</b> — platelet; the clotting cell that plugs a bleeding vessel.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177287,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-ectomy}} means {{c2::surgical removal of}}.",
+  "Back Extra": "Ex: appendectomy = surgical removal of the appendix<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Appendectomy</b> — surgical removal of an inflamed appendix in appendicitis.</li><li style=\"margin-bottom:5px;\"><b>Cholecystectomy</b> — removal of the gallbladder for stones or infection.</li><li style=\"margin-bottom:5px;\"><b>Splenectomy</b> — removal of a ruptured spleen after blunt abdominal trauma.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177335,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-emesis}} means {{c2::vomiting}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Hematemesis</b> — vomiting frank blood; a red flag for an upper GI bleed.</li><li style=\"margin-bottom:5px;\"><b>Hyperemesis gravidarum</b> — severe, dehydrating vomiting of pregnancy, far beyond normal morning sickness.</li><li style=\"margin-bottom:5px;\"><b>Emesis</b> — the clinical word for vomiting itself; charted as \"two episodes of bilious emesis en route.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177385,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-emia}} means {{c2::a blood condition}}.",
+  "Back Extra": "Meaning: pertaining to the presence of a substance in the blood (eg, hyperkalemia).<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Anemia</b> — too few red blood cells; drives fatigue, pallor, and shortness of breath.</li><li style=\"margin-bottom:5px;\"><b>Hypoglycemia</b> — dangerously low blood sugar; altered mental status that reverses with glucose.</li><li style=\"margin-bottom:5px;\"><b>Bacteremia</b> — bacteria circulating in the bloodstream; can spiral into sepsis.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177435,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-esthesia}} means {{c2::pertaining to sensation or perception}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Anesthesia</b> — complete loss of sensation; what a local or general anesthetic produces for a procedure.</li><li style=\"margin-bottom:5px;\"><b>Paresthesia</b> — abnormal \"pins-and-needles\" tingling; classic with a pinched nerve or stroke.</li><li style=\"margin-bottom:5px;\"><b>Hyperesthesia</b> — heightened, often painful sensitivity to touch; seen in neuropathy and shingles.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177485,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-genic}} means {{c2::causing}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Cardiogenic shock</b> — shock caused by the heart failing to pump, as after a massive heart attack.</li><li style=\"margin-bottom:5px;\"><b>Iatrogenic</b> — caused by medical care itself, like a pneumothorax from placing a central line.</li><li style=\"margin-bottom:5px;\"><b>Carcinogenic</b> — cancer-causing; how tobacco smoke and asbestos are described.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177534,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-gram}} means {{c2::record}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Electrocardiogram (ECG)</b> — the tracing of the heart's electrical activity; your 12-lead in chest pain.</li><li style=\"margin-bottom:5px;\"><b>Mammogram</b> — the X-ray record of breast tissue used to screen for cancer.</li><li style=\"margin-bottom:5px;\"><b>Angiogram</b> — the contrast X-ray record of blood vessels; pinpoints the blocked coronary artery.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177585,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-graph}} means {{c2::a recording instrument or record}}.",
+  "Back Extra": "Meaning: a record, or the instrument used to create the record.<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Electrocardiograph</b> — the machine that records the ECG (the -graph is the device; the -gram is its printout).</li><li style=\"margin-bottom:5px;\"><b>Electroencephalograph</b> — the instrument that records brain-wave activity as an EEG.</li><li style=\"margin-bottom:5px;\"><b>Polygraph</b> — an instrument recording several body signals (pulse, respiration, BP) at once.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177635,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-ia}} means {{c2::condition of}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Tachycardia</b> — the condition of an abnormally fast heart rate, over 100 bpm.</li><li style=\"margin-bottom:5px;\"><b>Pneumonia</b> — the condition of lung infection and inflammation; fever, cough, and crackles.</li><li style=\"margin-bottom:5px;\"><b>Hypothermia</b> — the condition of dangerously low core body temperature.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177686,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-ic}} means {{c2::pertaining to}}.",
+  "Back Extra": "Ex: diaphoretic = pertaining to diaphoresis<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Thoracic</b> — pertaining to the chest; the thoracic spine, or thoracic trauma from a steering-wheel impact.</li><li style=\"margin-bottom:5px;\"><b>Gastric</b> — pertaining to the stomach; gastric distension after aggressive bag-valve-mask ventilation.</li><li style=\"margin-bottom:5px;\"><b>Hypoxic</b> — pertaining to low oxygen; the confused, cyanotic hypoxic patient who needs oxygen now.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177735,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-itis}} means {{c2::inflammation}}.",
+  "Back Extra": "Ex: epiglottitis = inflammation of the epiglottis<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Appendicitis</b> — inflammation of the appendix; the classic RLQ pain that began near the navel.</li><li style=\"margin-bottom:5px;\"><b>Meningitis</b> — inflammation of the meninges; fever with a stiff neck and photophobia.</li><li style=\"margin-bottom:5px;\"><b>Pericarditis</b> — inflammation of the sac around the heart; sharp chest pain that eases when leaning forward.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177787,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-lysis}} means {{c2::decline, disintegration, or destruction}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Hemolysis</b> — destruction of red blood cells; what happens in a mismatched transfusion reaction.</li><li style=\"margin-bottom:5px;\"><b>Rhabdomyolysis</b> — breakdown of skeletal muscle after a crush injury; releases myoglobin that can wreck the kidneys.</li><li style=\"margin-bottom:5px;\"><b>Thrombolysis</b> — drug destruction of a clot; the 'clot-buster' given in STEMI or ischemic stroke.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177835,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-megaly}} means {{c2::enlargement of}}.",
+  "Back Extra": "Ex: cardiomegaly = enlargement of the heart<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Cardiomegaly</b> — an enlarged heart; the oversized cardiac shadow on a chest x-ray in heart failure.</li><li style=\"margin-bottom:5px;\"><b>Hepatomegaly</b> — an enlarged liver; felt below the ribs in right-sided heart failure or liver disease.</li><li style=\"margin-bottom:5px;\"><b>Splenomegaly</b> — an enlarged spleen; in mono it can rupture, so patients are held out of contact sports.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177885,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-meter}} means {{c2::measuring instrument}}.",
+  "Back Extra": "Ex: sphygmomanometer = instrument to measure blood pressure<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Sphygmomanometer</b> — the blood-pressure cuff; the instrument that measures arterial pressure.</li><li style=\"margin-bottom:5px;\"><b>Thermometer</b> — measures body temperature; how you catch a fever or hypothermia.</li><li style=\"margin-bottom:5px;\"><b>Pulse oximeter</b> — measures oxygen saturation (SpO2); the finger clip reading your patient's sats.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177935,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-ology}} means {{c2::science or study of}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Cardiology</b> — the study of the heart; the specialty your STEMI patient heads to for the cath lab.</li><li style=\"margin-bottom:5px;\"><b>Neurology</b> — the study of the nervous system; where your stroke patient is admitted.</li><li style=\"margin-bottom:5px;\"><b>Toxicology</b> — the study of poisons and overdoses; the 'tox screen' and your poison-control call.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030177985,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-oma}} means {{c2::tumor}}.",
+  "Back Extra": "Ex: lymphoma = cancer of the lymphatic system<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Carcinoma</b> — a malignant tumor of epithelial (lining and gland) cells; the umbrella term for the most common cancers (lung, breast, colon).</li><li style=\"margin-bottom:5px;\"><b>Lipoma</b> — a benign fatty tumor; the soft, movable lump under the skin (a reminder that -oma isn't always cancer).</li><li style=\"margin-bottom:5px;\"><b>Melanoma</b> — a malignant tumor of pigment cells; the deadly skin cancer flagged by the ABCDE rule.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178036,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-osis}} means {{c2::an abnormal condition or disease process}}.",
+  "Back Extra": "Distinguish: see also -sis.<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Cyanosis</b> — an abnormal bluish condition from poor oxygenation; blue lips and nailbeds.</li><li style=\"margin-bottom:5px;\"><b>Thrombosis</b> — the abnormal condition of forming a clot; a deep vein thrombosis (DVT) in the leg.</li><li style=\"margin-bottom:5px;\"><b>Necrosis</b> — the abnormal condition of tissue death; the blackened, dead tissue of gangrene or frostbite.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178085,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-ostomy}} means {{c2::surgical creation of an opening}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Tracheostomy</b> — a surgical opening into the trachea; the 'trach' you manage for a patient's airway.</li><li style=\"margin-bottom:5px;\"><b>Colostomy</b> — a surgical opening from the colon to the abdominal wall; it drains into an ostomy bag.</li><li style=\"margin-bottom:5px;\"><b>Gastrostomy</b> — a surgical opening into the stomach; the 'G-tube' used for feeding.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178137,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-pathy}} means {{c2::disease or a system for treating disease}}.",
+  "Back Extra": "Ex: nephropathy = diseases of the kidneys<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Neuropathy</b> — disease of the peripheral nerves; the numb, tingling feet of diabetic neuropathy.</li><li style=\"margin-bottom:5px;\"><b>Cardiomyopathy</b> — disease of the heart muscle; a weakened pump that leads to heart failure.</li><li style=\"margin-bottom:5px;\"><b>Encephalopathy</b> — disease or dysfunction of the brain; the confusion of hepatic or hypertensive encephalopathy.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178185,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-phagia}} means {{c2::pertaining to eating or swallowing}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Dysphagia</b> — difficulty swallowing; a red flag after stroke that raises aspiration risk.</li><li style=\"margin-bottom:5px;\"><b>Polyphagia</b> — excessive hunger; one of the '3 P's' of new diabetes, with polyuria and polydipsia.</li><li style=\"margin-bottom:5px;\"><b>Odynophagia</b> — painful swallowing; seen with severe pharyngitis or an esophageal injury.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178235,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-phasia}} means {{c2::pertaining to speech}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Aphasia</b> — impaired or absent speech/language; a hallmark stroke sign (the 'S' in FAST).</li><li style=\"margin-bottom:5px;\"><b>Dysphasia</b> — partial difficulty with speech; trouble finding or forming words.</li><li style=\"margin-bottom:5px;\"><b>Expressive aphasia</b> — the patient understands but can't get the words out; a classic Broca's-area stroke.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178287,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-phobia}} means {{c2::pertaining to an irrational fear}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Photophobia</b> — painful sensitivity to light; a red flag in meningitis and migraine.</li><li style=\"margin-bottom:5px;\"><b>Hydrophobia</b> — the fear of water in advanced rabies, from painful throat spasms on swallowing.</li><li style=\"margin-bottom:5px;\"><b>Claustrophobia</b> — fear of enclosed spaces; why some patients panic in an MRI or strapped to a backboard.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178334,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-plasty}} means {{c2::plastic surgery}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Angioplasty</b> — surgical repair of a blood vessel; the balloon that reopens a blocked coronary artery.</li><li style=\"margin-bottom:5px;\"><b>Arthroplasty</b> — surgical repair or replacement of a joint; a total hip or knee replacement.</li><li style=\"margin-bottom:5px;\"><b>Rhinoplasty</b> — surgical reshaping of the nose; the classic 'nose job.'</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178385,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-plegia}} means {{c2::paralysis}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Hemiplegia</b> — paralysis of one side of the body; a classic major-stroke presentation.</li><li style=\"margin-bottom:5px;\"><b>Paraplegia</b> — paralysis of both legs and the lower body; from a thoracic or lumbar spinal cord injury.</li><li style=\"margin-bottom:5px;\"><b>Quadriplegia</b> — paralysis of all four limbs; from a high cervical spinal cord injury.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178434,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-pnea}} means {{c2::pertaining to breathing}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Dyspnea</b> — difficulty breathing; the classic respiratory chief complaint you chart as SOB.</li><li style=\"margin-bottom:5px;\"><b>Apnea</b> — absence of breathing; an apneic patient needs you to ventilate with a BVM.</li><li style=\"margin-bottom:5px;\"><b>Orthopnea</b> — breathlessness when lying flat, relieved by sitting up; a hallmark of heart failure.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178486,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-ptosis}} means {{c2::drooping}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Blepharoptosis</b> — drooping of the upper eyelid; a red flag for Horner syndrome, myasthenia gravis, or a CN III palsy.</li><li style=\"margin-bottom:5px;\"><b>Nephroptosis</b> — a \"dropped\" or floating kidney that descends when the patient stands.</li><li style=\"margin-bottom:5px;\"><b>Gastroptosis</b> — downward sagging of the stomach below its normal position.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178535,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-rrhage}} means {{c2::abnormal or excessive flow or discharge}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Subarachnoid hemorrhage</b> — a sudden \"worst headache of my life\" from bleeding around the brain.</li><li style=\"margin-bottom:5px;\"><b>Postpartum hemorrhage</b> — excessive bleeding after childbirth; a leading cause of maternal death.</li><li style=\"margin-bottom:5px;\"><b>Subconjunctival hemorrhage</b> — a striking bright-red patch of blood in the white of the eye, usually harmless.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178585,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-rrhagia}} means {{c2::abnormal or excessive flow or discharge}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Menorrhagia</b> — abnormally heavy or prolonged menstrual bleeding.</li><li style=\"margin-bottom:5px;\"><b>Metrorrhagia</b> — uterine bleeding between periods (irregular, off-cycle).</li><li style=\"margin-bottom:5px;\"><b>Rhinorrhagia</b> — a profuse nosebleed (heavy epistaxis).</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178635,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-rrhaphy}} means {{c2::suture of; repair of}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Herniorrhaphy</b> — surgical repair (suturing) of a hernia; one of the most common operations.</li><li style=\"margin-bottom:5px;\"><b>Tenorrhaphy</b> — stitching a torn tendon back together, such as a ruptured Achilles.</li><li style=\"margin-bottom:5px;\"><b>Cardiorrhaphy</b> — suturing a stab or gunshot wound in the heart muscle in the OR.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178685,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-rrhea}} means {{c2::flow or discharge}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Diarrhea</b> — frequent loose, watery stools; watch for dehydration.</li><li style=\"margin-bottom:5px;\"><b>Rhinorrhea</b> — a runny nose; clear rhinorrhea after head trauma can be CSF leaking from a basilar skull fracture.</li><li style=\"margin-bottom:5px;\"><b>Amenorrhea</b> — absence of menstrual flow; in a woman of childbearing age, think pregnancy.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178734,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-scope}} means {{c2::instrument for examination}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Stethoscope</b> — the instrument you use to auscultate lung and heart sounds and to take a blood pressure.</li><li style=\"margin-bottom:5px;\"><b>Laryngoscope</b> — the instrument that lifts the tongue to expose the vocal cords for intubation.</li><li style=\"margin-bottom:5px;\"><b>Otoscope</b> — the handheld instrument for looking at the eardrum in a suspected ear infection.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178788,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-scopy}} means {{c2::examination with an instrument}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Colonoscopy</b> — a scope exam of the colon to screen for polyps and cancer.</li><li style=\"margin-bottom:5px;\"><b>Bronchoscopy</b> — threading a scope down the airway to inspect the bronchi or retrieve an inhaled foreign body.</li><li style=\"margin-bottom:5px;\"><b>Arthroscopy</b> — inserting a camera into a joint (like the knee) to diagnose and repair it.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178835,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-sis}} means {{c2::a process, action, or condition}}.",
+  "Back Extra": "Distinguish: see also -osis.<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Diagnosis</b> — the process of working out which disease is producing the patient's signs and symptoms.</li><li style=\"margin-bottom:5px;\"><b>Prognosis</b> — the predicted course and outcome of a disease (what happens next).</li><li style=\"margin-bottom:5px;\"><b>Sepsis</b> — the whole-body condition of a dysregulated, life-threatening response to infection.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178886,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-stasis}} means {{c2::stopping or controlling flow}}.",
+  "Back Extra": "Meaning: slowing or stopping the normal flow of a fluid, such as blood (eg, hemostasis).<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Hemostasis</b> — the stopping of blood flow; what direct pressure or a tourniquet achieves on a bleed.</li><li style=\"margin-bottom:5px;\"><b>Cholestasis</b> — stoppage of bile flow that backs up and yellows the skin (jaundice).</li><li style=\"margin-bottom:5px;\"><b>Homeostasis</b> — the body holding its internal conditions (temperature, blood sugar, pH) in a steady, controlled balance.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178936,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-taxis}} means {{c2::order, arrangement of}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Chemotaxis</b> — the ordered movement of white blood cells toward chemical signals at a site of infection.</li><li style=\"margin-bottom:5px;\"><b>Phototaxis</b> — the directed movement of a cell or organism toward or away from light.</li><li style=\"margin-bottom:5px;\"><b>Thermotaxis</b> — the directed movement of cells or organisms along a temperature gradient.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030178986,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-trophic}} means {{c2::pertaining to nutrition}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Hypertrophic</b> — as in hypertrophic cardiomyopathy: overgrown heart muscle; a hidden cause of sudden cardiac arrest in young athletes.</li><li style=\"margin-bottom:5px;\"><b>Atrophic</b> — atrophic (wasted) muscle in a limb long immobilized in a cast or paralyzed after a stroke.</li><li style=\"margin-bottom:5px;\"><b>Dystrophic</b> — faulty tissue nourishment or development, as in muscular dystrophy or dystrophic calcification of damaged tissue.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179035,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-logy}} means {{c2::study of}}.",
+  "Back Extra": "Ex: cardiology = the study of the heart<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Cardiology</b> — the study and medicine of the heart (the cardiologist who catheterizes your STEMI patient).</li><li style=\"margin-bottom:5px;\"><b>Neurology</b> — the study of the nervous system: strokes, seizures, and neuropathies.</li><li style=\"margin-bottom:5px;\"><b>Toxicology</b> — the study of poisons and overdoses; the field behind the \"tox screen\" and Poison Control.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179086,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The suffix {{c1::-logist}} means {{c2::specialist}}.",
+  "Back Extra": "Ex: pulmonologist = specialist in diseases of the lung<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radiologist</b> — the specialist who reads your patient's X-rays, CT, and MRI.</li><li style=\"margin-bottom:5px;\"><b>Nephrologist</b> — the kidney specialist who manages dialysis patients.</li><li style=\"margin-bottom:5px;\"><b>Oncologist</b> — the cancer specialist who directs chemotherapy.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179136,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The directional term {{c1::anterior (ventral)}} means {{c2::toward the front surface of the body}}.",
+  "Back Extra": "Distinguish: opposite is posterior (dorsal)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Anterior STEMI</b> — ST elevation in V1–V4; the front wall of the heart (left ventricle) is infarcting.</li><li style=\"margin-bottom:5px;\"><b>Anterior shoulder dislocation</b> — the most common type (~95%); the humeral head slips forward off the socket.</li><li style=\"margin-bottom:5px;\"><b>Ventral hernia</b> — a bulge pushing through the anterior (ventral) abdominal wall, seen on the front of the belly.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179186,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The directional term {{c1::posterior (dorsal)}} means {{c2::toward the back surface of the body}}.",
+  "Back Extra": "Distinguish: opposite is anterior (ventral)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Log roll</b> — rolling the trauma patient to inspect and palpate the posterior chest and spine for hidden wounds.</li><li style=\"margin-bottom:5px;\"><b>Prone position</b> — the patient lies face-down, so the posterior (dorsal) surface of the body faces up; supine is the opposite.</li><li style=\"margin-bottom:5px;\"><b>Posterior STEMI</b> — ST depression in V1–V3 with tall R waves; confirm it with posterior leads V7–V9.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179235,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The directional term {{c1::superior}} means {{c2::closest to the head}}.",
+  "Back Extra": "Distinguish: opposite is inferior<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Superior vena cava (SVC)</b> — drains blood from everything above the heart: the head, neck, and arms.</li><li style=\"margin-bottom:5px;\"><b>Fowler's position</b> — sitting the patient up by raising the superior (head) end of the stretcher to ease breathing.</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Laceration 3 cm superior to the right eyebrow.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179286,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The directional term {{c1::inferior}} means {{c2::closest to the feet}}.",
+  "Back Extra": "Distinguish: opposite is superior<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Inferior STEMI</b> — ST elevation in II, III, and aVF; the bottom wall of the heart, classically the right coronary artery.</li><li style=\"margin-bottom:5px;\"><b>Inferior vena cava (IVC)</b> — the large vein returning blood from everything below the heart: legs, pelvis, and abdomen.</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Obvious deformity to the leg just inferior to the right knee.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179335,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The directional term {{c1::proximal}} means {{c2::closest to the point of attachment}}.",
+  "Back Extra": "Distinguish: opposite is distal<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Tourniquet placement</b> — goes 2–3 inches proximal to the wound (between the bleed and the trunk) to stop arterial flow.</li><li style=\"margin-bottom:5px;\"><b>Proximal humerus fracture</b> — a break near the shoulder end of the arm bone; classic after an elderly fall.</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Traumatic amputation of the left leg proximal to the knee.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179385,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The directional term {{c1::distal}} means {{c2::farthest from the point of attachment}}.",
+  "Back Extra": "Distinguish: opposite is proximal<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Distal PMS check</b> — after splinting, you reassess pulse, motor, and sensation distal to the injury to confirm circulation.</li><li style=\"margin-bottom:5px;\"><b>Distal radius fracture</b> — the classic Colles' fracture at the wrist end of the forearm after a fall on an outstretched hand.</li><li style=\"margin-bottom:5px;\"><b>Capillary refill</b> — pressed at the most distal point, the fingertip or nailbed; sluggish return signals poor perfusion.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179435,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The directional term {{c1::medial}} means {{c2::closest to the midline}}.",
+  "Back Extra": "Distinguish: opposite is lateral<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Medial malleolus</b> — the bony knob on the inner ankle (end of the tibia); tenderness here triggers the Ottawa ankle rules.</li><li style=\"margin-bottom:5px;\"><b>MCL sprain</b> — the medial collateral ligament on the inner knee, torn by a blow to the outer knee.</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Laceration to the medial aspect of the left thigh, near the groin.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179485,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The directional term {{c1::lateral}} means {{c2::farthest from the midline}}.",
+  "Back Extra": "Distinguish: opposite is medial<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Lateral malleolus</b> — the bump on the outer ankle (end of the fibula); the most common spot for sprain tenderness.</li><li style=\"margin-bottom:5px;\"><b>Left lateral recumbent (recovery) position</b> — rolling an unresponsive, breathing patient onto their side to protect the airway.</li><li style=\"margin-bottom:5px;\"><b>Lateral STEMI</b> — ST elevation in I, aVL, V5, and V6; the side wall of the left ventricle.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179536,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The directional term {{c1::deep}} means {{c2::farthest from the surface of the skin}}.",
+  "Back Extra": "Distinguish: opposite is superficial<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Deep vein thrombosis (DVT)</b> — a clot in the deep leg veins (not the surface ones); can break loose and cause a PE.</li><li style=\"margin-bottom:5px;\"><b>Deep tendon reflexes (DTRs)</b> — tapping the patellar tendon beneath the skin to test the reflex arc.</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Deep laceration to the forearm exposing muscle and fat.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179585,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The directional term {{c1::superficial}} means {{c2::closest to the surface of the skin}}.",
+  "Back Extra": "Distinguish: opposite is deep<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Superficial (first-degree) burn</b> — involves only the outer skin layer; red and painful like a sunburn, no blisters.</li><li style=\"margin-bottom:5px;\"><b>Superficial veins</b> — the surface arm veins just under the skin that you target when starting an IV.</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Superficial abrasion to the knee, no deep tissue involved.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ }
+]

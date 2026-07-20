@@ -1,0 +1,982 @@
+[
+ {
+  "noteId": 1783030179635,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical directional terms, 'right' and 'left' always refer to the {{c1::patient's}} perspective, not the provider's.",
+  "Back Extra": "Pitfall: when you face a patient, their right is on your left.<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Facing your patient:</b> their right side is on your left — a right-arm injury sits on your left as you look down at them.</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"laceration to the patient's left cheek\" — you document their left, never your own across the stretcher.</li><li style=\"margin-bottom:5px;\"><b>RLQ pain:</b> the right lower quadrant is the patient's right — where you'd suspect appendicitis, not the side facing you.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179685,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::1°}} means {{c2::first, first degree, primary}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Burns:</b> \"1° burn to Ⓛ forearm, red and painful, no blisters.\"</li><li style=\"margin-bottom:5px;\"><b>ECG:</b> \"1° AV block, PR interval 0.24 sec.\"</li><li style=\"margin-bottom:5px;\"><b>Assessment:</b> \"1° HTN, no secondary cause found.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179736,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::2°}} means {{c2::secondary, second degree}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Burns:</b> \"2° burn to Ⓡ palm, blistered and weeping.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Resp distress 2° to CHF exacerbation.\"</li><li style=\"margin-bottom:5px;\"><b>ECG:</b> \"2° AV block, Mobitz II, dropped QRS.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179787,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::↑}} means {{c2::increase(d)}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Vitals:</b> \"↑ BP 184/102 with ↑ HR 112.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Pt c/o ↑ SOB over the past 2 days.\"</li><li style=\"margin-bottom:5px;\"><b>Pain:</b> \"↑ abd pain with palpation, guarding.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179835,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::↓}} means {{c2::decrease(d)}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Neuro:</b> \"↓ LOC, GCS 8, responds to pain only.\"</li><li style=\"margin-bottom:5px;\"><b>Lung exam:</b> \"↓ breath sounds at Ⓛ base.\"</li><li style=\"margin-bottom:5px;\"><b>Vitals:</b> \"↓ BP to 88/50 after nitro.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179887,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::Ⓡ}} means {{c2::right}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Trauma:</b> \"Deformity to Ⓡ wrist, distal pulses intact.\"</li><li style=\"margin-bottom:5px;\"><b>Stroke alert:</b> \"Ⓡ facial droop with arm drift.\"</li><li style=\"margin-bottom:5px;\"><b>Lung exam:</b> \"↓ breath sounds Ⓡ upper lobe.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179934,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::Ⓛ}} means {{c2::left}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Cardiac:</b> \"Substernal CP radiating to Ⓛ arm and jaw.\"</li><li style=\"margin-bottom:5px;\"><b>Abdomen:</b> \"Tenderness in Ⓛ lower quadrant, guarding.\"</li><li style=\"margin-bottom:5px;\"><b>Trauma:</b> \"Swelling and deformity to Ⓛ ankle.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030179985,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::μ}} means {{c2::micro}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Dosing:</b> \"Fentanyl 50 μg IV for pain.\"</li><li style=\"margin-bottom:5px;\"><b>CBC:</b> \"WBC 12,000/μL with left shift.\"</li><li style=\"margin-bottom:5px;\"><b>Chem panel:</b> \"Creatinine 90 μmol/L.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180034,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::α}} means {{c2::alpha}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Pharm:</b> \"α-blocker (tamsulosin) started for BPH.\"</li><li style=\"margin-bottom:5px;\"><b>Onc labs:</b> \"↑ α-fetoprotein, workup for hepatocellular ca.\"</li><li style=\"margin-bottom:5px;\"><b>Pulm:</b> \"α1-antitrypsin deficiency, early emphysema.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180087,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::β}} means {{c2::beta}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Cardiac:</b> \"β-blocker (metoprolol) to ↓ rate in AFib.\"</li><li style=\"margin-bottom:5px;\"><b>OB labs:</b> \"β-hCG positive, r/o ectopic.\"</li><li style=\"margin-bottom:5px;\"><b>Resp:</b> \"β2-agonist (albuterol) neb for wheezing.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180134,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::~}} means {{c2::approximately}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Trauma:</b> \"EBL ~500 mL on scene.\"</li><li style=\"margin-bottom:5px;\"><b>Cardiac:</b> \"CP onset ~45 min prior to arrival.\"</li><li style=\"margin-bottom:5px;\"><b>Peds:</b> \"Wt ~20 kg, dosing by weight.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180185,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::N}} means {{c2::normal}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Neuro:</b> \"Neuro N, PERRL, moving all 4 extremities.\"</li><li style=\"margin-bottom:5px;\"><b>Extremities:</b> \"Distal pulses, motor, sensory all N.\"</li><li style=\"margin-bottom:5px;\"><b>Cardiac:</b> \"Heart sounds N, regular rate and rhythm.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180236,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::×2}} means {{c2::times two}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Mental status:</b> \"A&amp;O ×2, knows name and place, not date.\"</li><li style=\"margin-bottom:5px;\"><b>Access:</b> \"18g IV ×2 established, both patent.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Pt vomited ×2 en route.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180285,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::/}} means {{c2::per}}.",
+  "Back Extra": "Pitfall: the slash is NOT recommended by the ISMP (easily mistaken for a numeral 1).<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Oxygen:</b> \"O2 at 15 L/min via non-rebreather.\"</li><li style=\"margin-bottom:5px;\"><b>Peds dosing:</b> \"Acetaminophen 15 mg/kg PO.\"</li><li style=\"margin-bottom:5px;\"><b>IV fluids:</b> \"NS maintenance at 125 mL/hr.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180337,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::≠}} means {{c2::not equal}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Pupils:</b> \"Pupils ≠, Ⓡ 6 mm fixed, Ⓛ 3 mm reactive.\"</li><li style=\"margin-bottom:5px;\"><b>Lung exam:</b> \"Chest rise ≠, ↓ on Ⓛ, ? pneumothorax.\"</li><li style=\"margin-bottom:5px;\"><b>Vascular:</b> \"Radial pulses ≠, weaker on Ⓛ.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180386,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::&gt;}} means {{c2::greater than}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Neuro:</b> \"Weakness Ⓡ &gt; Ⓛ, facial droop present.\"</li><li style=\"margin-bottom:5px;\"><b>Vitals:</b> \"Persistent BP &gt; 200 systolic.\"</li><li style=\"margin-bottom:5px;\"><b>Labs:</b> \"K+ &gt; 6.0, peaked T waves.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180436,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::&lt;}} means {{c2::less than}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Vitals:</b> \"SBP &lt;90, hypotensive — started fluid bolus.\"</li><li style=\"margin-bottom:5px;\"><b>Blood glucose:</b> \"BGL &lt;60, gave oral glucose per hypoglycemia protocol.\"</li><li style=\"margin-bottom:5px;\"><b>Renal:</b> \"UOP &lt;30 mL/hr, flagging poor perfusion.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180486,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::?}} means {{c2::questionable, possible}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Assessment:</b> \"Chest pain, ?MI — 12-lead obtained, ASA given.\"</li><li style=\"margin-bottom:5px;\"><b>Impression:</b> \"Deformity to L wrist, ?fracture, splinted and iced.\"</li><li style=\"margin-bottom:5px;\"><b>Triage:</b> \"Fever + AMS, ?sepsis, blood cultures drawn.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180535,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::Δ}} means {{c2::change}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Neuro:</b> \"Acute ΔMS, new confusion per family — checked glucose.\"</li><li style=\"margin-bottom:5px;\"><b>Reassessment:</b> \"No Δ in breathing after neb, still labored.\"</li><li style=\"margin-bottom:5px;\"><b>12-lead:</b> \"No Δ from prior ECG, no acute ST elevation.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180586,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::−}} means {{c2::negative}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Trauma note:</b> \"Fall from standing, −LOC, ambulatory on scene.\"</li><li style=\"margin-bottom:5px;\"><b>Labs:</b> \"Troponin −, serial enzymes pending.\"</li><li style=\"margin-bottom:5px;\"><b>Neuro exam:</b> \"Babinski −, no focal deficits.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180635,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::♀}} means {{c2::female}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"En route with 34 y/o ♀, chest pain, vitals stable.\"</li><li style=\"margin-bottom:5px;\"><b>Triage:</b> \"22 y/o ♀ c/o LLQ pain, LMP 6 wks ago — HCG ordered.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Found 78 y/o ♀ supine, A&amp;Ox4, denies pain.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180686,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "In medical shorthand, the symbol {{c1::♂}} means {{c2::male}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Bringing in 55 y/o ♂, crushing chest pain, diaphoretic.\"</li><li style=\"margin-bottom:5px;\"><b>Triage:</b> \"19 y/o ♂ c/o RLQ pain, ?appendicitis.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"41 y/o ♂ in MVC, GCS 15, c/o neck pain.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180735,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::A&amp;P}} stands for {{c2::anatomy and physiology}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Course prereq:</b> \"A&amp;P I and II required before starting EMT clinical rotations.\"</li><li style=\"margin-bottom:5px;\"><b>Studying:</b> \"Reviewing the A&amp;P of the heart's conduction system before the cardiac block.\"</li><li style=\"margin-bottom:5px;\"><b>Instructor:</b> \"You can't understand shock without the A&amp;P behind blood pressure.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180787,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::ā}} stands for {{c2::before}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Pt took own nitro x1 ā our arrival.\"</li><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Draw vancomycin trough level ā next dose.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Vomiting began ā the onset of headache.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180835,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::AAA}} stands for {{c2::abdominal aortic aneurysm}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Hypotensive elderly male, pulsatile abdominal mass, concern for ruptured AAA.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"74 y/o M, known 5.5 cm AAA, now c/o sudden tearing flank pain.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Possible AAA, BP 78/40, two large-bore IVs in, surgery notified.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180887,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::abd}} stands for {{c2::abdomen}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"abd soft, non-tender, non-distended, bowel sounds present.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Diffuse abd tenderness with guarding, worst in RLQ.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Blunt abd trauma from MVC, seatbelt sign across lower abd.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180935,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::ABC, ABCs}} stands for {{c2::airway, breathing, circulation}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"On arrival ABCs intact; pt alert, speaking in full sentences.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Unresponsive on scene, addressed ABCs first, airway now patent.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Working the ABCs, airway compromised, suctioning and bagging now.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030180986,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::ac}} stands for {{c2::before meals}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Regular insulin sliding scale, check glucose ac and hs.\"</li><li style=\"margin-bottom:5px;\"><b>Med list:</b> \"Glipizide 5 mg PO ac breakfast and dinner.\"</li><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Sucralfate 1 g PO ac and hs.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181035,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::ACLS}} stands for {{c2::advanced cardiac life support}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Cardiac arrest, running ACLS, third round of epi, en route.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"20 minutes of ACLS on scene, ROSC achieved before transport.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"ACLS protocol initiated for V-fib arrest, defibrillated x2.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181086,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::ADL, ADLs}} stands for {{c2::activity/activities of daily living}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Normally independent with all ADLs, now unable to dress since the fall.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Post-stroke, requires assistance with ADLs including bathing and feeding.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Elderly pt, declining ADLs over the past month per family.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181135,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::ad lib}} stands for {{c2::as desired}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Advance diet ad lib as tolerated.\"</li><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Activity ad lib, no restrictions.\"</li><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Clear fluids ad lib post-procedure.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181186,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::AED}} stands for {{c2::automated external defibrillator}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"AED applied on scene, one shock advised and delivered.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Bystander CPR in progress, AED applied before our arrival.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"AED analyzed twice, no shock advised, continued compressions.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181236,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::AF, A-fib}} stands for {{c2::atrial fibrillation}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Hx of chronic A-fib, takes apixaban and metoprolol.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Irregularly irregular, rate 150, looks like A-fib with RVR.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"New-onset AF on the monitor, rate-controlled with a dilt drip.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181285,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::AICD}} stands for {{c2::automated implantable cardioverter defibrillator}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Pt reports AICD fired x2 today prior to our arrival.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Palpable AICD in left upper chest, EP notified for interrogation.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Hx of cardiomyopathy with AICD placed 2 years ago.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181336,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::AIDS}} stands for {{c2::acquired immunodeficiency syndrome}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"36 y/o M with AIDS, CD4 &lt;200, presenting with fever and cough.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Known AIDS pt, concern for opportunistic PCP pneumonia.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Hx of HIV progressed to AIDS, non-compliant with antiretrovirals.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181386,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::AK}} stands for {{c2::above the knee}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Left AK prosthesis removed and secured for transport.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Skin breakdown noted on the AK residual limb.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Right AK amputee at baseline, prosthesis fits well, ambulates with walker.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181435,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::AKA}} stands for {{c2::above-the-knee amputation}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"PMH includes right AKA secondary to diabetic PVD.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"S/p left AKA 3 years ago, now with stump infection.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Bilateral AKA, wheelchair-bound at baseline.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181485,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::ALTE}} stands for {{c2::apparent life-threatening event}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"6-wk-old, reported ALTE: apnea with cyanosis x~20 sec, resolved with stimulation.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Responding to infant s/p ALTE, now pink and breathing, mother witnessed the apnea.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"2-mo-old in for ALTE, now alert and feeding, sepsis workup pending.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181535,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::AMA}} stands for {{c2::against medical advice}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Pt refused transport, signed AMA form after risks of refusal explained.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Pt refusing care, will be an AMA, requesting online medical control.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Pt trying to leave AMA before troponin results are back.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181585,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::amb}} stands for {{c2::ambulatory}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Pt found amb at scene, steady gait, denies LOC.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Pt now amb to bathroom with standby assist, tolerating well.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Pt amb x150 ft in hallway without SOB or chest pain.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181635,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::AMI}} stands for {{c2::acute myocardial infarction}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"STEMI alert — 62 y/o M, anterior AMI on 12-lead, transmitting now.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"ECG c/w AMI, ASA 324 mg given, nitro started.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Ruled in for AMI, troponin positive, cath lab activated.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181686,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::ant}} stands for {{c2::anterior}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Abrasion to ant surface of R shin, no deformity.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"ST elevation in ant leads V3–V4 — anterior wall involvement.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Partial-thickness burns to ant chest and abdomen, ~18% TBSA.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181735,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::AO × 4, A/O × 4}} stands for {{c2::alert and oriented to person, place, time, and self}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Pt AO x4, GCS 15, moving all extremities.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Pt A/O x4, no focal deficits, denies LOC.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Arrived AO x4, now only AO x2 — mental status declining.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181785,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "As a medical abbreviation, AP can stand for {{c1::anteroposterior, front-to-back, action potential, angina pectoris, anterior pituitary, arterial pressure}}.",
+  "Back Extra": "Pitfall: this abbreviation has several distinct meanings; read it in context.<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>As an X-ray view:</b> \"AP chest film\" — anteroposterior, the beam shoots front-to-back; the standard portable view on a supine trauma patient.</li><li style=\"margin-bottom:5px;\"><b>As chest pain:</b> AP = angina pectoris — crushing substernal pain from cardiac ischemia; give aspirin and get a 12-lead.</li><li style=\"margin-bottom:5px;\"><b>As physiology:</b> AP = action potential — the electrical impulse firing down a neuron or sweeping across the myocardium.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181836,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::ARDS}} stands for {{c2::adult respiratory distress syndrome}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Intubated for ARDS, on high PEEP, sats marginal at 89%.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Bilateral diffuse infiltrates on CXR c/w ARDS.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Septic pt developing ARDS, P/F ratio worsening.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181886,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::ASA}} stands for {{c2::aspirin (acetylsalicylic acid)}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Give ASA 324 mg — have pt chew four 81 mg tabs.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"324 mg ASA administered PO for chest pain en route.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"ASA and nitro given prehospital, CP down from 8 to 3.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181935,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::ASHD}} stands for {{c2::arteriosclerotic or atherosclerotic heart disease}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"PMH: HTN, DM, ASHD.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Elderly pt with known ASHD, now c/o new-onset chest pain.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Hx ASHD s/p CABG x3, on ASA and a statin.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030181986,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::BGL}} stands for {{c2::blood glucose level}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"AMS pt, BGL 40, treating for hypoglycemia.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"BGL 512, fruity breath and deep rapid respirations.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Initial BGL 38, repeat after glucose now 96, pt alert.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182034,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::bid/b.i.d./BID}} stands for {{c2::twice daily}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Home meds: metoprolol 25 mg PO BID.\"</li><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Amoxicillin 500 mg b.i.d. x7 days.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Pt on metformin 500 mg BID for type 2 DM.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182084,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::BKA}} stands for {{c2::below-the-knee amputation}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"L BKA with prosthesis, ambulates with walker.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Diabetic s/p R BKA, now with stump infection and fever.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"PMH: PVD, poorly controlled DM, BKA.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182134,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::BLS}} stands for {{c2::basic life support}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"BLS on scene, requesting ALS intercept for chest pain.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"BLS care: O2 via NC, position of comfort, serial vitals.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Managed with BLS only, no ALS interventions needed.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182184,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::BM}} stands for {{c2::bowel movement}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Pt reports last BM 4 days ago, abdomen distended.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"No BM x5 days with N/V, r/o bowel obstruction.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Large dark tarry BM this AM — concern for GI bleed.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182235,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::BP, B/P}} stands for {{c2::blood pressure}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"B/P 88/50, HR 120, skin cool and clammy.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Initial BP 190/110, recheck 172/98 after meds.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"BP trending down to 90/60, watching for shock.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182287,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::BPM}} stands for {{c2::beats per minute}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"HR 130 BPM, regular, patient pale and diaphoretic.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Sinus brady at 44 BPM, patient asymptomatic, no pacing needed.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Rate came down to 78 BPM after the diltiazem.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182334,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::BRUE}} stands for {{c2::brief resolved unexplained event}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"2-month-old, brief apnea and color change per mom, now well-appearing, possible BRUE.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"4-month-old, brief episode of cyanosis that self-resolved: low-risk BRUE.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Infant with a BRUE, currently asymptomatic, needs peds workup.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182385,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "As a medical abbreviation, BS can stand for {{c1::blood sugar, breath sounds, bowel sounds, bachelor of science (degree)}}.",
+  "Back Extra": "Pitfall: this abbreviation has several distinct meanings; read it in context.<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>As blood sugar:</b> \"BS 42, patient diaphoretic and confused\" — hypoglycemia; give oral glucose or D10.</li><li style=\"margin-bottom:5px;\"><b>As breath sounds:</b> \"BS clear and equal bilaterally\" — charting lung auscultation; note wheezes, crackles, or absent sounds.</li><li style=\"margin-bottom:5px;\"><b>As bowel sounds:</b> \"BS hypoactive in all four quadrants\" — abdominal exam; absent sounds suggest ileus or obstruction.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182435,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::BSA}} stands for {{c2::body surface area}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Partial-thickness burns to ~18% BSA, chest and right arm.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Estimated 27% BSA burned by rule of nines.\"</li><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Start Parkland fluid resuscitation based on %BSA burned.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182486,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::BVM}} stands for {{c2::bag-valve mask}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Patient apneic, ventilating with BVM at 10/min, good chest rise.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Assisted ventilations with BVM, sats improved from 82% to 95%.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"On the BVM with an OPA in place, good chest rise and compliance.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182535,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::bx}} stands for {{c2::biopsy}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Suspicious pigmented skin lesion, derm to bx.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Admitted for lymph node bx to rule out lymphoma.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Colonoscopy with polyp bx, path pending.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182585,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::c̄}} stands for {{c2::with}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"CP c̄ diaphoresis and SOB on exertion.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Ambulates c̄ walker, gait steady.\"</li><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Ibuprofen 400 mg PO c̄ food.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182637,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::°C}} stands for {{c2::degrees Celsius (centigrade)}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Temp 38.9°C, febrile and flushed.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Core temp 27°C, severe hypothermia, handling patient gently.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Fever peaked at 40.1°C, gave acetaminophen.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182685,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "As a medical abbreviation, CA can stand for {{c1::cancer, cardiac arrest, chronologic age, coronary artery, cold agglutinin}}.",
+  "Back Extra": "Pitfall: this abbreviation has several distinct meanings; read it in context.<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>As cardiac arrest:</b> \"witnessed CA, CPR in progress\" — pulseless, apneic patient; start compressions and attach the AED.</li><li style=\"margin-bottom:5px;\"><b>As cancer:</b> \"metastatic CA\" (often written Ca) — carcinoma; a malignant tumor, e.g., lung or breast Ca.</li><li style=\"margin-bottom:5px;\"><b>As coronary artery:</b> the CA in CABG (coronary artery bypass graft) — surgically routing around a blocked heart vessel.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182735,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::CABG}} stands for {{c2::coronary artery bypass graft}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"PMH significant for CABG x3 back in 2019.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Midline sternotomy scar noted, hx CABG.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Chest pain in a patient s/p CABG, transmitting the 12-lead.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182785,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::CAD}} stands for {{c2::coronary artery disease}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"PMH: CAD, HTN, DM2.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Chest pain, known CAD, s/p stent last year.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Multiple CAD risk factors, first troponin pending.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182834,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::CBC}} stands for {{c2::complete blood cell count}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Draw CBC, BMP, and troponin on arrival.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"CBC shows WBC 15.2 with a left shift, concern for infection.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"CBC pending, IV started in the left AC.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182886,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::CC or C/C}} stands for {{c2::chief complaint}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"CC: chest pain x1 hour, radiating to the jaw.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"68 y/o male, C/C is shortness of breath.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Presenting CC was abdominal pain, now controlled.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182935,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::CCU}} stands for {{c2::coronary care unit}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Admitting to CCU for post-STEMI monitoring.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Transferred to CCU after the cath lab.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"CCU bed requested for unstable angina.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030182985,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::C diff}} stands for {{c2::Clostridium difficile}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Profuse watery diarrhea x3 days, r/o C diff.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"C diff positive, contact precautions, started on PO vanc.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Recent course of clindamycin, stool sent for C diff.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183036,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::CHF}} stands for {{c2::congestive heart failure}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"SOB, known CHF, crackles to the bases, sats 87%.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"CHF exacerbation, +JVD and pitting edema to the knees.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"CHF, gave nitro and put on CPAP, breathing easier now.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183084,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::cm}} stands for {{c2::centimeter}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"4 cm laceration to the forehead, controlled with direct pressure.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Cervix 6 cm dilated, contractions 3 min apart.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"AAA measured at 5 cm on bedside ultrasound.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183135,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::CN}} stands for {{c2::cyanide}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Pulled from house fire, soot in airway, unresponsive — treating for CN toxicity.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Closed-space fire victim, lactate 12, giving hydroxocobalamin for suspected CN poisoning.\"</li><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Hydroxocobalamin 5 g IV now for CN exposure from smoke inhalation.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183185,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::CNS}} stands for {{c2::central nervous system}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Pinpoint pupils, RR 6 — CNS depression c/w opioid OD, naloxone given.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Fever, neck stiffness, photophobia — working up CNS infection, LP pending.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"No focal CNS deficits, GCS 15, moving all four extremities equally.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183234,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::c/o}} stands for {{c2::complaining of}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"42 y/o M c/o crushing chest pain radiating to left arm x30 min.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Pt c/o sudden 'worst headache of my life,' vomited once en route.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Now c/o only mild nausea, chest pain resolved after nitro.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183286,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "As a medical abbreviation, CO can stand for {{c1::cardiac output, carbon monoxide}}.",
+  "Back Extra": "Pitfall: this abbreviation has several distinct meanings; read it in context.<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>As carbon monoxide:</b> CO poisoning — whole household with headache and nausea from a bad furnace; the pulse ox reads falsely normal.</li><li style=\"margin-bottom:5px;\"><b>As cardiac output:</b> CO = heart rate x stroke volume — the blood pumped per minute; it plummets in cardiogenic shock.</li><li style=\"margin-bottom:5px;\"><b>As cardiac output:</b> \"low CO state\" — weak, thready pulses and cool, mottled skin from poor forward flow.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183335,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::CO2}} stands for {{c2::carbon dioxide}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"EtCO2 waveform present, 38 mmHg — confirms ET tube placement.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"COPD pt obtunded, likely CO2 retention, bagging and prepping BiPAP.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"ABG back — CO2 68, pH 7.26, started on noninvasive vent.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183385,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::COLD}} stands for {{c2::chronic obstructive lung disease}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"PMH: COLD, on home O2 2 L/min via nasal cannula.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Long history of COLD, here with acute exacerbation and productive cough.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Barrel chest and pursed-lip breathing consistent with known COLD.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183435,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::COPD}} stands for {{c2::chronic obstructive pulmonary disease}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"68 y/o M, known COPD, c/o worsening SOB and green sputum x3 days.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"COPD exacerbation, diffuse wheezing, sats 88%, duoneb running.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"COPD flare improved post-treatment, sats up to 94% on 2 L.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183486,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "As a medical abbreviation, CP can stand for {{c1::chest pain, chemically pure, cerebral palsy}}.",
+  "Back Extra": "Pitfall: this abbreviation has several distinct meanings; read it in context.<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>As chest pain:</b> \"52 y/o M c/o CP radiating to the left arm\" — the classic cardiac complaint; aspirin, 12-lead, nitro.</li><li style=\"margin-bottom:5px;\"><b>As cerebral palsy:</b> CP — a nonprogressive motor disorder from perinatal brain injury; expect baseline spasticity and contractures.</li><li style=\"margin-bottom:5px;\"><b>As chemically pure:</b> \"CP grade\" — a reagent-purity label on a chemical or pharmaceutical container.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183536,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::CPAP}} stands for {{c2::continuous positive airway pressure}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Flash pulmonary edema, crackles to the apices, starting CPAP en route.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Placed on CPAP 10 cm H2O for acute CHF, work of breathing improving.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Uses home CPAP nightly for obstructive sleep apnea.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183586,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::CPR}} stands for {{c2::cardiopulmonary resuscitation}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Witnessed arrest, bystander CPR in progress, ETA 4 minutes.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"CPR started immediately, compressions 110/min, AED applied.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"ROSC after 12 minutes of CPR and two defibrillations.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183636,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::CRNA}} stands for {{c2::certified registered nurse anesthetist}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"CRNA managed the airway in the OR, extubated without complication.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"CRNA at bedside providing sedation for the cardioversion.\"</li><li style=\"margin-bottom:5px;\"><b>Note:</b> \"Difficult airway — CRNA paged, secured the tube on first pass.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183685,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "As a medical abbreviation, CRT can stand for {{c1::capillary refill time, cathode ray tube}}.",
+  "Back Extra": "Pitfall: this abbreviation has several distinct meanings; read it in context.<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>As capillary refill time:</b> \"CRT &lt; 2 seconds\" — press the nail bed, release; brisk pink return means good perfusion.</li><li style=\"margin-bottom:5px;\"><b>As capillary refill time:</b> delayed CRT in a cold, floppy toddler — a key sign of pediatric dehydration or shock.</li><li style=\"margin-bottom:5px;\"><b>As cathode ray tube:</b> a CRT monitor — the bulky glass display on older ECG and ultrasound machines.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183736,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::CSF}} stands for {{c2::cerebrospinal fluid}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Clear rhinorrhea after facial trauma — concern for CSF leak, basilar skull fx.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"LP done, CSF cloudy, cell count pending — covering for bacterial meningitis.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Halo sign on gauze from ear drainage, suspicious for CSF otorrhea.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183785,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::CT}} stands for {{c2::computed tomography}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Non-contrast head CT to rule out bleed before tPA.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"CT abd/pelvis showed grade III splenic laceration.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Trauma activation inbound, will need pan-scan CT on arrival.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183835,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::CVA}} stands for {{c2::cerebrovascular accident}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Facial droop, slurred speech, left arm drift — stroke alert for possible CVA.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Last known well 0800, deficits concerning for acute CVA.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"PMH significant for prior CVA with residual right-sided weakness.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183885,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::DM}} stands for {{c2::diabetes mellitus}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Hx of type 1 DM, glucose 412, ketones positive — early DKA.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Poorly controlled DM, here with an infected foot ulcer.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Known DM, found unresponsive, glucose 38, pushing D50.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183935,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::DNR}} stands for {{c2::do not resuscitate}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Valid DNR on file, comfort measures only.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Family produced signed DNR, resuscitation withheld per patient wishes.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Cardiac arrest but confirmed DNR present, not initiating CPR.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030183986,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::DOA}} stands for {{c2::dead on arrival}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Pulseless, apneic, dependent lividity present — DOA.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Obvious signs of death, patient DOA, requesting no transport.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Pronounced DOA in the field, ME notified.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030184034,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::DOE}} stands for {{c2::dyspnea on exertion}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"68 y/o F with progressive DOE and pedal edema, suspect CHF exacerbation.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Pt c/o DOE climbing one flight of stairs, now sleeps on two pillows.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Known COPD with worsening DOE over two days, started on nebs and steroids.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030184084,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::DON}} stands for {{c2::director of nursing}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"SNF DON reports pt febrile and confused since this morning.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Per facility DON, pt is full code, family notified.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"DON at the nursing home states no advance directive on file.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030184135,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "As a medical abbreviation, DPT can stand for {{c1::diphtheria and tetanus toxoids and pertussis vaccine, doctor of physical therapy}}.",
+  "Back Extra": "Pitfall: this abbreviation has several distinct meanings; read it in context.<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>As the vaccine:</b> DPT — the childhood diphtheria-pertussis-tetanus shot (now given as acellular DTaP).</li><li style=\"margin-bottom:5px;\"><b>As the vaccine:</b> the P in DPT is pertussis (whooping cough) — the component that protects infants from deadly coughing fits.</li><li style=\"margin-bottom:5px;\"><b>As the credential:</b> DPT — Doctor of Physical Therapy, who runs rehab after a stroke or joint replacement.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030184188,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::DSD}} stands for {{c2::dry sterile dressing}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Hemorrhage controlled with direct pressure, laceration covered with DSD.\"</li><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Cleanse abrasion and apply DSD, recheck in 24 hours.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Left forearm avulsion covered with DSD, distal pulses intact.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030184236,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::DtaP}} stands for {{c2::diphtheria and tetanus toxoids and acellular pertussis vaccine}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Immunizations current, last DTaP at the 4-year well-child visit.\"</li><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Administer DTaP #4 at the 15-month visit per CDC schedule.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Child behind on the DTaP series per mom, otherwise well-appearing.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030184286,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::DTP}} stands for {{c2::diphtheria and tetanus toxoids and pertussis vaccine}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Childhood records list DTP x4, completed before the switch to DTaP.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Overseas immunization card shows DTP, no acellular formulation given.\"</li><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Confirm prior DTP/DTaP doses before today's booster.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030184335,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::DTs}} stands for {{c2::delirium tremens}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Chronic ETOH, last drink 3 days ago, tremulous and hallucinating, concerned for DTs.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Pt diaphoretic, tachycardic, seeing bugs on the wall; DTs suspected, benzos started.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Admitted for alcohol withdrawal, monitoring for progression to DTs and seizures.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030184386,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::DVT}} stands for {{c2::deep vein thrombosis}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Unilateral left calf swelling, warmth, and tenderness, rule out DVT.\"</li><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"Post-op pt with sudden SOB and a swollen leg, concerned for DVT throwing a PE.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"DVT confirmed on ultrasound, heparin drip started.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030184435,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::Dx}} stands for {{c2::diagnosis}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Working Dx: acute coronary syndrome pending troponin.\"</li><li style=\"margin-bottom:5px;\"><b>Handoff:</b> \"Admitting Dx is community-acquired pneumonia.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"Differential Dx includes DVT, cellulitis, and ruptured Baker's cyst.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030184486,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The abbreviation {{c1::ECG}} stands for {{c2::electrocardiogram}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHEN YOU'D USE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Radio report:</b> \"12-lead ECG shows ST elevation in II, III, aVF, activating the cath lab.\"</li><li style=\"margin-bottom:5px;\"><b>Charting:</b> \"12-lead ECG obtained within 10 minutes of contact and transmitted to the ED.\"</li><li style=\"margin-bottom:5px;\"><b>Order:</b> \"Repeat ECG if chest pain recurs or the rhythm changes.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ }
+]

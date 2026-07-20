@@ -1,0 +1,982 @@
+[
+ {
+  "noteId": 1783030169835,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::heter/o}} means {{c2::other, different}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Heterogeneous</b> — made of differing parts; on ultrasound or CT a mass with mixed textures reads 'heterogeneous.'</li><li style=\"margin-bottom:5px;\"><b>Heterograft (xenograft)</b> — a graft from a different species, like a porcine heart valve.</li><li style=\"margin-bottom:5px;\"><b>Heterozygous</b> — carrying two different gene versions; one sickle and one normal allele means carrier, not disease.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030169885,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::hom/o}} means {{c2::the same}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Homonymous hemianopia</b> — loss of the same half of the visual field in both eyes; a classic stroke finding, e.g., a right-sided defect after a left-brain CVA.</li><li style=\"margin-bottom:5px;\"><b>Homograft (allograft)</b> — a graft from the same species, like donor skin on a burn patient.</li><li style=\"margin-bottom:5px;\"><b>Homozygous</b> — carrying two of the same gene version; two sickle alleles means actual sickle cell disease.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030169936,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::hydr/o}} means {{c2::water}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Dehydration</b> — loss of body water; the dry mucous membranes and tenting skin of the elderly patient.</li><li style=\"margin-bottom:5px;\"><b>Hydrocephalus</b> — water (CSF) built up in the brain; why an infant's head circumference and a shunt malfunction matter.</li><li style=\"margin-bottom:5px;\"><b>Hydronephrosis</b> — urine backing up and swelling the kidney with fluid, often behind an obstructing stone.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030169986,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::idi/o}} means {{c2::person, self}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Idiopathic</b> — a condition that arises on its own with no identifiable cause; the label we use when the full workup finds no why.</li><li style=\"margin-bottom:5px;\"><b>Idiosyncratic (drug reaction)</b> — an unusual reaction peculiar to one individual, unpredictable from the dose.</li><li style=\"margin-bottom:5px;\"><b>Idioventricular rhythm</b> — a slow escape rhythm from the ventricle's own intrinsic pacemaker when higher pacemakers fail; the heart beating on its own.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170034,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::lact/o}} means {{c2::milk}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Lactation</b> — the production of milk; relevant to breastfeeding and postpartum assessment.</li><li style=\"margin-bottom:5px;\"><b>Lactose intolerance</b> — inability to digest milk sugar; the cramping and diarrhea after dairy.</li><li style=\"margin-bottom:5px;\"><b>Prolactin</b> — the hormone that stimulates milk production; a pituitary tumor can raise it and cause galactorrhea.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170088,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::leuk/o}} means {{c2::white}}.",
+  "Back Extra": "Ex: leukocyte = white blood cells that fight infection<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Leukocyte</b> — a white blood cell; a high count on labs points you toward infection.</li><li style=\"margin-bottom:5px;\"><b>Leukemia</b> — cancer of the white blood cells; suspect it with easy bruising, fatigue, and infections.</li><li style=\"margin-bottom:5px;\"><b>Leukoplakia</b> — a white patch on the oral mucosa that can't be wiped off; a potentially precancerous lesion, classically in tobacco users.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170134,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::lingu/o}} means {{c2::tongue}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Sublingual</b> — under the tongue; how nitroglycerin is dosed for chest pain to absorb fast.</li><li style=\"margin-bottom:5px;\"><b>Lingual frenulum</b> — the tissue tethering the tongue to the floor of the mouth; 'tongue-tie' when too tight.</li><li style=\"margin-bottom:5px;\"><b>Lingual nerve</b> — supplies sensation to the tongue; the nerve numbed during dental blocks.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170186,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::mal/o}} means {{c2::abnormal, bad}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Malaise</b> — a vague, all-over feeling of being unwell; one of the most common chief complaints.</li><li style=\"margin-bottom:5px;\"><b>Malignant</b> — \"bad\" or cancerous, as in a malignant melanoma that invades and spreads.</li><li style=\"margin-bottom:5px;\"><b>Malunion</b> — a fracture that heals in a bad, crooked position (orthopedics).</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170235,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::medi/o}} means {{c2::middle}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Medial</b> — toward the midline; the medial malleolus is the bony bump on the inner ankle.</li><li style=\"margin-bottom:5px;\"><b>Mediastinum</b> — the middle chest compartment between the lungs; a widened one on X-ray suggests aortic dissection.</li><li style=\"margin-bottom:5px;\"><b>Median nerve</b> — runs down the middle of the forearm; pinched in carpal tunnel syndrome.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170285,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::melan/o}} means {{c2::black, dark}}.",
+  "Back Extra": "Ex: melena = black, tarry stool typically caused by upper gastrointestinal bleeding<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Melanoma</b> — the deadliest skin cancer, from dark pigment cells; watch a mole that turns asymmetric and dark.</li><li style=\"margin-bottom:5px;\"><b>Melena</b> — black, tarry stool from digested blood; a red flag for upper GI bleeding.</li><li style=\"margin-bottom:5px;\"><b>Melanin</b> — the dark pigment coloring skin and hair; missing in albinism.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170335,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::men/o}} means {{c2::month, menstruation}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Amenorrhea</b> — absence of menstrual periods; in a woman of childbearing age, think pregnancy first.</li><li style=\"margin-bottom:5px;\"><b>Menorrhagia</b> — abnormally heavy or prolonged menstrual bleeding; can lead to anemia.</li><li style=\"margin-bottom:5px;\"><b>Dysmenorrhea</b> — painful menstrual cramps; a common cause of lower abdominal pain in young women.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170385,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::mening/o}} means {{c2::usually refers to the meninges}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Meningitis</b> — inflammation of the meninges, often infectious; classic fever, stiff neck, and altered mental status.</li><li style=\"margin-bottom:5px;\"><b>Meningioma</b> — usually benign tumor of the meninges that can compress the brain as it grows.</li><li style=\"margin-bottom:5px;\"><b>Meningocele</b> — a sac of meninges bulging through a spinal defect, a form of spina bifida.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170435,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::myel/o}} means {{c2::marrow or spinal cord}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Osteomyelitis</b> — infection of bone and its marrow; suspect it in a deep wound that reaches bone (marrow).</li><li style=\"margin-bottom:5px;\"><b>Multiple myeloma</b> — cancer of plasma cells in the bone marrow, causing bone pain and easy fractures (marrow).</li><li style=\"margin-bottom:5px;\"><b>Myelopathy</b> — disease of the spinal cord; cervical myelopathy can weaken all four limbs (cord).</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170485,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::my/o}} means {{c2::muscle}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Myocardial infarction</b> — death of heart muscle from a blocked coronary artery; the classic heart attack.</li><li style=\"margin-bottom:5px;\"><b>Myalgia</b> — muscle aches; a hallmark of the flu and many viral illnesses.</li><li style=\"margin-bottom:5px;\"><b>Rhabdomyolysis</b> — breakdown of skeletal muscle that can crash the kidneys; seen after a crush injury or long-lie fall.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170536,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::nephr/o}} means {{c2::kidney}}.",
+  "Back Extra": "Ex: nephropathy = disease of the kidney<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Nephrolithiasis</b> — kidney stones; sudden, severe flank pain that radiates to the groin.</li><li style=\"margin-bottom:5px;\"><b>Nephropathy</b> — kidney disease; diabetic nephropathy is a leading cause of kidney failure.</li><li style=\"margin-bottom:5px;\"><b>Nephrectomy</b> — surgical removal of a kidney, as for cancer or a non-functioning organ.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170585,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::neur/o}} means {{c2::nerve}}.",
+  "Back Extra": "Ex: neurologist = physician who specializes in diseases of the nervous system<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Neuropathy</b> — nerve damage; diabetic peripheral neuropathy causes numb, tingling feet.</li><li style=\"margin-bottom:5px;\"><b>Neuralgia</b> — sharp nerve pain; trigeminal neuralgia causes lightning-like facial jabs.</li><li style=\"margin-bottom:5px;\"><b>Neurogenic shock</b> — lost sympathetic nerve tone after spinal cord injury; low BP with a slow heart rate.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170636,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::ocul/o}} means {{c2::eye}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Oculomotor nerve (CN III)</b> — moves the eye and constricts the pupil; a fixed, \"blown\" pupil warns of rising brain pressure.</li><li style=\"margin-bottom:5px;\"><b>Intraocular pressure</b> — the fluid pressure inside the eye; dangerously high in acute glaucoma.</li><li style=\"margin-bottom:5px;\"><b>Extraocular movements</b> — the \"EOMs\" you check by having a patient follow your finger in an H.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170686,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::ophthalm/o}} means {{c2::eye}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Ophthalmoscope</b> — the handheld light for viewing the retina and optic disc through the pupil.</li><li style=\"margin-bottom:5px;\"><b>Exophthalmos</b> — bulging, protruding eyeballs; a classic sign of Graves' hyperthyroidism.</li><li style=\"margin-bottom:5px;\"><b>Ophthalmology</b> — the eye-care specialty; where you'd refer a globe injury or sudden vision loss.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170735,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::oste/o}} means {{c2::bone}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Osteoporosis</b> — porous, brittle bones; why an elderly patient can fracture a hip from a low fall.</li><li style=\"margin-bottom:5px;\"><b>Osteoarthritis</b> — \"wear-and-tear\" breakdown of joint cartilage and bone; the most common chronic joint pain.</li><li style=\"margin-bottom:5px;\"><b>Osteomyelitis</b> — bone infection; suspect it in a diabetic foot ulcer that probes down to bone.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170786,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::ot/o}} means {{c2::ear}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Otitis media</b> — middle ear infection; the classic ear pain and fever in a fussy toddler.</li><li style=\"margin-bottom:5px;\"><b>Otoscope</b> — the lighted instrument you use to inspect the eardrum.</li><li style=\"margin-bottom:5px;\"><b>Otorrhea</b> — drainage from the ear; clear fluid after head trauma suggests a basilar skull fracture.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170835,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::ov/o}} means {{c2::egg}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Ovum</b> — the female egg cell; fertilized by sperm to begin a pregnancy.</li><li style=\"margin-bottom:5px;\"><b>Ovulation</b> — the monthly release of an egg; mid-cycle pain from it is called mittelschmerz.</li><li style=\"margin-bottom:5px;\"><b>Ovary</b> — the gland that stores and releases eggs; ovarian torsion is a sudden-pain emergency.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170884,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::palpate}} means {{c2::to examine by touch}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Palpation</b> — examining by pressing with your fingertips; you palpate the abdomen for tenderness or a pulsatile mass.</li><li style=\"margin-bottom:5px;\"><b>Palpable</b> — able to be felt by hand; a palpable distal pulse confirms blood flow to the limb.</li><li style=\"margin-bottom:5px;\"><b>Bimanual palpation</b> — feeling a structure between both hands, as when assessing the uterus or kidneys.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170936,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::path/o}} means {{c2::disease}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Pathogen</b> — a disease-causing microbe; the bacteria and viruses you glove and mask up against.</li><li style=\"margin-bottom:5px;\"><b>Neuropathy</b> — disease of the nerves; diabetic neuropathy leaves feet numb, so injuries go unnoticed.</li><li style=\"margin-bottom:5px;\"><b>Cardiomyopathy</b> — disease of the heart muscle; a weakened pump behind many heart-failure calls.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030170988,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::ped/o}} means {{c2::child or foot}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Pediatrics</b> — the care of children (ped = child); the 'peds' patient who needs weight-based dosing.</li><li style=\"margin-bottom:5px;\"><b>Pedal edema</b> — swelling of the feet and ankles (ped = foot); pitting edema pooling at the feet in heart failure.</li><li style=\"margin-bottom:5px;\"><b>Orthopedics</b> — literally 'straight child'; the bone specialty born from correcting kids' deformities.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171034,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::percuss}} means {{c2::to examine by striking}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Chest percussion</b> — tapping the chest wall; hollow hyperresonance over a pneumothorax, dullness over pneumonia.</li><li style=\"margin-bottom:5px;\"><b>CVA percussion</b> — a firm fist-thump at the flank; reproduced pain flags kidney infection (pyelonephritis).</li><li style=\"margin-bottom:5px;\"><b>Abdominal percussion</b> — tapping the abdominal wall; tympany over gas-filled bowel, shifting dullness when ascites pools.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171084,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::phag/o}} means {{c2::eat}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Dysphagia</b> — difficulty swallowing; a stroke red flag that raises aspiration risk on the airway.</li><li style=\"margin-bottom:5px;\"><b>Macrophage</b> — a 'big eater' immune cell that engulfs bacteria and cellular debris.</li><li style=\"margin-bottom:5px;\"><b>Polyphagia</b> — excessive hunger; the third 'P' with polyuria and polydipsia in new diabetes.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171134,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::pharyng/o}} means {{c2::throat}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Pharyngitis</b> — inflammation of the throat; strep pharyngitis is the classic sore-throat complaint.</li><li style=\"margin-bottom:5px;\"><b>Oropharyngeal airway (OPA)</b> — a rigid adjunct seated in the throat to hold it open in an unresponsive patient.</li><li style=\"margin-bottom:5px;\"><b>Nasopharynx</b> — the upper throat behind the nose; the target of a deep swab for flu or COVID.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171183,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::phot/o}} means {{c2::light}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Photophobia</b> — painful sensitivity to light; a red flag paired with meningitis or migraine.</li><li style=\"margin-bottom:5px;\"><b>Phototherapy</b> — blue-light treatment that breaks down bilirubin in a jaundiced newborn.</li><li style=\"margin-bottom:5px;\"><b>Photosensitivity</b> — an exaggerated sunburn reaction; a warning on drugs like doxycycline.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171237,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::pleur/o}} means {{c2::rib, side}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Pleurisy</b> — inflamed pleura; a sharp 'catch' of pain that worsens with every breath.</li><li style=\"margin-bottom:5px;\"><b>Pleural effusion</b> — fluid collecting between lung and chest wall; causes dullness and breathlessness.</li><li style=\"margin-bottom:5px;\"><b>Pleuritic chest pain</b> — the charting term for sharp pain worse on inspiration; points away from cardiac.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171285,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::pneum(at)/o}} means {{c2::lungs, air}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Pneumothorax</b> — air trapped in the pleural space collapsing the lung; a tension emergency in trauma.</li><li style=\"margin-bottom:5px;\"><b>Pneumaturia</b> — gas bubbles passed in the urine; a clue to a bowel-to-bladder fistula.</li><li style=\"margin-bottom:5px;\"><b>Pneumatosis intestinalis</b> — air within the bowel wall; an ominous finding on abdominal imaging.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171336,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::pneumo(n)/o}} means {{c2::lung}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Pneumonia</b> — infection inflaming the lung's air sacs; fever, wet cough, and crackles.</li><li style=\"margin-bottom:5px;\"><b>Pneumonectomy</b> — surgical removal of an entire lung, often for lung cancer.</li><li style=\"margin-bottom:5px;\"><b>Pneumonitis</b> — non-infectious lung inflammation, as in aspiration or chemical pneumonitis.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171385,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::pod(i)}} means {{c2::foot}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Podiatry</b> — the medical specialty of the foot; where the diabetic foot ulcer gets managed.</li><li style=\"margin-bottom:5px;\"><b>Podagra</b> — acute gout in the big-toe joint; the classic hot, exquisitely tender foot.</li><li style=\"margin-bottom:5px;\"><b>Tripod position</b> — leaning forward propped on the arms (literally 'three-footed'); a sign of respiratory distress.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171435,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::pseud/o}} means {{c2::false}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Pseudoseizure</b> — an event that mimics a seizure but has no true epileptic brain activity.</li><li style=\"margin-bottom:5px;\"><b>Pseudomembranous colitis</b> — C. diff infection forming a 'false membrane' over the colon lining.</li><li style=\"margin-bottom:5px;\"><b>Pseudoaneurysm</b> — a false aneurysm; a contained arterial leak, not a true vessel-wall bulge.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171485,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::psych/o}} means {{c2::mind}}.",
+  "Back Extra": "Ex: psychology = study of the mind<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Psychosis</b> — a break from reality with hallucinations and delusions; a frequent psych emergency.</li><li style=\"margin-bottom:5px;\"><b>Psychiatry</b> — the branch of medicine treating the mind; the referral for a psych hold or eval.</li><li style=\"margin-bottom:5px;\"><b>Psychotropic</b> — a drug that acts on the mind; antipsychotics and antidepressants are psychotropics.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171535,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::pto}} means {{c2::fall}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Ptosis</b> — a drooping eyelid; a clue to Horner's syndrome, CN III palsy, or myasthenia gravis.</li><li style=\"margin-bottom:5px;\"><b>Apoptosis</b> — programmed cell death, cells 'falling away' on cue; central to cancer biology.</li><li style=\"margin-bottom:5px;\"><b>Nephroptosis</b> — a 'dropped' or floating kidney that descends when the patient stands.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171585,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::ptyal/o}} means {{c2::saliva}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Ptyalism</b> — excessive drooling; the salivation of a cholinergic (organophosphate) poisoning.</li><li style=\"margin-bottom:5px;\"><b>Ptyalin</b> — salivary amylase; the enzyme in spit that starts digesting starch in the mouth.</li><li style=\"margin-bottom:5px;\"><b>Aptyalism</b> — absence of saliva (dry mouth); seen in Sjogren's syndrome or after radiation.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171634,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::pulmon/o}} means {{c2::lungs}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Pulmonary embolism (PE)</b> — a clot lodged in the lung's arteries; sudden SOB and pleuritic chest pain.</li><li style=\"margin-bottom:5px;\"><b>Pulmonary edema</b> — fluid flooding the lungs; the crackles and pink frothy sputum of heart failure.</li><li style=\"margin-bottom:5px;\"><b>Cardiopulmonary resuscitation (CPR)</b> — the heart-and-lung resuscitation performed in cardiac arrest.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171687,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::pur, py}} means {{c2::pus}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Pyuria</b> — pus (white cells) in the urine; a classic sign of a urinary tract infection.</li><li style=\"margin-bottom:5px;\"><b>Empyema</b> — a pocket of pus in a body cavity, classically the pleural space around the lung.</li><li style=\"margin-bottom:5px;\"><b>Purulent</b> — pus-filled; \"purulent drainage\" from a wound points to infection (note the pur- spelling).</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171735,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::pyr/o}} means {{c2::fire, heat}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Pyrexia</b> — fever; an abnormally elevated body temperature.</li><li style=\"margin-bottom:5px;\"><b>Antipyretic</b> — a fever-reducer like acetaminophen or ibuprofen (anti- + heat).</li><li style=\"margin-bottom:5px;\"><b>Pyromania</b> — the compulsive urge to set fires; a psychiatric impulse disorder.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171786,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::quadr/o; quar}} means {{c2::four}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Quadriplegia</b> — paralysis of all four limbs, from a high cervical spinal cord injury.</li><li style=\"margin-bottom:5px;\"><b>Quadrant</b> — one of the four regions of the abdomen (RUQ, LUQ, RLQ, LLQ) you palpate.</li><li style=\"margin-bottom:5px;\"><b>Quadriceps</b> — the four-headed muscle on the front of the thigh.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171836,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::ren/o}} means {{c2::kidney}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Renal failure</b> — the kidneys stop filtering waste, letting toxins and potassium build up.</li><li style=\"margin-bottom:5px;\"><b>Renal colic</b> — waves of severe flank pain as a kidney stone passes.</li><li style=\"margin-bottom:5px;\"><b>Adrenal gland</b> — the gland sitting on top of the kidney (ad- = near); source of epinephrine.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171886,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::rhin/o}} means {{c2::nose}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Rhinorrhea</b> — a runny nose; clear CSF rhinorrhea can signal a basilar skull fracture.</li><li style=\"margin-bottom:5px;\"><b>Rhinitis</b> — inflammation of the nasal lining, as in allergic rhinitis (hay fever).</li><li style=\"margin-bottom:5px;\"><b>Rhinoplasty</b> — surgical reshaping of the nose, a \"nose job.\"</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171935,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::sangui(n)o}} means {{c2::blood}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Sanguineous</b> — bloody; \"sanguineous drainage\" is frank blood from a wound or drain.</li><li style=\"margin-bottom:5px;\"><b>Exsanguination</b> — bleeding out; catastrophic blood loss from major trauma (ex- = out).</li><li style=\"margin-bottom:5px;\"><b>Consanguinity</b> — being related by blood, which raises the risk of inherited disease.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030171985,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::scler/o}} means {{c2::hard}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Atherosclerosis</b> — hardening of the arteries with fatty plaque; the root of most heart attacks.</li><li style=\"margin-bottom:5px;\"><b>Multiple sclerosis</b> — hardened scar plaques scattered through the CNS as myelin is destroyed.</li><li style=\"margin-bottom:5px;\"><b>Sclera</b> — the tough white outer coat of the eye; it yellows (scleral icterus) in jaundice.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172034,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::sebum}} means {{c2::fatty secretion of the sebaceous glands}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Sebaceous gland</b> — the skin's oil gland that secretes sebum to lubricate hair and skin.</li><li style=\"margin-bottom:5px;\"><b>Seborrheic dermatitis</b> — flaky, oily, red skin from excess sebum; dandruff and cradle cap.</li><li style=\"margin-bottom:5px;\"><b>Sebaceous hyperplasia</b> — benign overgrowth of the oil (sebaceous) glands; small soft yellow bumps on the face, common with age.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172086,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::sect/o}} means {{c2::cut}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Resection</b> — surgically cutting out a segment of tissue, as in a bowel resection or tumor resection.</li><li style=\"margin-bottom:5px;\"><b>Cesarean section</b> — delivering a baby by surgically cutting through the abdomen and uterus.</li><li style=\"margin-bottom:5px;\"><b>Transection</b> — a complete cut across a structure, as in a spinal cord transection.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172135,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::sept/o}} means {{c2::wall, divider; also seven}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Nasal septum</b> — the wall of cartilage and bone dividing the two nostrils; it can deviate.</li><li style=\"margin-bottom:5px;\"><b>Ventricular septal defect</b> — a hole in the wall between the heart's two ventricles (a VSD).</li><li style=\"margin-bottom:5px;\"><b>Septuplets</b> — seven babies from one pregnancy; here sept- carries its \"seven\" meaning.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172185,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::serum}} means {{c2::clear portion of blood}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Serous</b> — thin and watery like serum; \"serous drainage\" is clear, straw-colored wound fluid.</li><li style=\"margin-bottom:5px;\"><b>Serology</b> — blood testing of the serum for antibodies, as in HIV or hepatitis screening.</li><li style=\"margin-bottom:5px;\"><b>Serum sickness</b> — a delayed immune reaction to a foreign serum or drug protein.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172236,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::sinus}} means {{c2::cavity, channel, or hollow space}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Sinusitis</b> — inflammation of the air-filled paranasal sinuses in the skull.</li><li style=\"margin-bottom:5px;\"><b>Coronary sinus</b> — the large venous channel on the back of the heart that empties collected blood into the right atrium.</li><li style=\"margin-bottom:5px;\"><b>Pilonidal sinus</b> — a channel or tract in the skin near the tailbone that gets infected.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172285,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::som(at)}} means {{c2::body}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Somatic pain</b> — well-localized pain from the body wall (skin, muscle, bone), unlike vague visceral pain.</li><li style=\"margin-bottom:5px;\"><b>Psychosomatic</b> — real physical body symptoms driven by psychological stress.</li><li style=\"margin-bottom:5px;\"><b>Somatotropin</b> — growth hormone, which drives growth of the body's tissues.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172336,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::spir/o}} means {{c2::coil, to breathe}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Spirometry</b> — a breathing test that measures how much and how fast you exhale (asthma, COPD).</li><li style=\"margin-bottom:5px;\"><b>Inspiration / expiration</b> — breathing air in and out; the two phases of respiration.</li><li style=\"margin-bottom:5px;\"><b>Spirochete</b> — a coiled, spiral-shaped bacterium, like those causing syphilis and Lyme disease.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172386,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::stern/o}} means {{c2::sternum (breastbone)}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Sternal rub</b> — grinding a knuckle on the breastbone to test responsiveness (the P in AVPU).</li><li style=\"margin-bottom:5px;\"><b>Median sternotomy</b> — sawing through the sternum to open the chest for heart surgery.</li><li style=\"margin-bottom:5px;\"><b>Sternocleidomastoid</b> — neck muscle anchored to the sternum; its use signals respiratory distress.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172435,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::stomat/o}} means {{c2::mouth}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Stomatitis</b> — general inflammation of the mouth lining; the mucositis chemo patients get, or sores under ill-fitting dentures.</li><li style=\"margin-bottom:5px;\"><b>Aphthous stomatitis</b> — the clinical name for the recurrent canker sores that crop up inside the mouth.</li><li style=\"margin-bottom:5px;\"><b>Angular stomatitis</b> — cracked, sore corners of the mouth, often pointing to a B-vitamin or iron deficiency.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172486,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::thorac/o}} means {{c2::chest}}.",
+  "Back Extra": "Ex: thoracic = pertaining to the chest or thorax<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Thoracostomy</b> — placing a chest tube to drain air or blood, as in a pneumothorax or hemothorax.</li><li style=\"margin-bottom:5px;\"><b>Thoracentesis</b> — sliding a needle into the pleural space to drain fluid off the chest (a large effusion).</li><li style=\"margin-bottom:5px;\"><b>Thoracotomy</b> — surgically opening the chest; the resuscitative thoracotomy done in penetrating-trauma arrest.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172535,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::tom/o}} means {{c2::cut}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Computed tomography (CT)</b> — imaging that reconstructs the body in cross-sectional slices, each one a 'cut' through you.</li><li style=\"margin-bottom:5px;\"><b>Tracheotomy</b> — surgically cutting into the windpipe (trachea) to open an airway.</li><li style=\"margin-bottom:5px;\"><b>Laparotomy</b> — a surgical cut into the abdomen, like an exploratory lap after blunt trauma.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172585,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::toxic/o}} means {{c2::poisonous}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Toxicology</b> — the study of poisons and overdoses; the 'tox screen' ordered in the ED.</li><li style=\"margin-bottom:5px;\"><b>Toxidrome</b> — a poisoning 'syndrome' pattern (opioid, cholinergic, sympathomimetic) that guides EMS treatment.</li><li style=\"margin-bottom:5px;\"><b>Hepatotoxic</b> — poisonous to the liver, the danger in an acetaminophen (Tylenol) overdose.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172635,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::trich/o}} means {{c2::hair}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Trichotillomania</b> — the compulsive urge to pull out one's own hair (a psychiatric condition).</li><li style=\"margin-bottom:5px;\"><b>Trichiasis</b> — eyelashes turned inward that scrape the eyeball, causing irritation and tearing.</li><li style=\"margin-bottom:5px;\"><b>Trichobezoar</b> — a mass of swallowed hair stuck in the stomach, seen in chronic hair-eaters.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172686,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::ur/o}} means {{c2::urine}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Hematuria</b> — blood in the urine, flagged with kidney stones, trauma, or a UTI.</li><li style=\"margin-bottom:5px;\"><b>Oliguria</b> — abnormally low urine output, an early warning of shock or kidney injury.</li><li style=\"margin-bottom:5px;\"><b>Urosepsis</b> — life-threatening sepsis arising from a urinary infection, common in the elderly.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172734,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::uter/o}} means {{c2::uterus, womb}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Intrauterine pregnancy (IUP)</b> — a pregnancy sited inside the uterus; confirming it helps rule out an ectopic.</li><li style=\"margin-bottom:5px;\"><b>Uterine atony</b> — a soft, non-contracting uterus, the leading cause of postpartum hemorrhage.</li><li style=\"margin-bottom:5px;\"><b>Uterotonic</b> — a drug like oxytocin that clamps the uterus down to stop bleeding.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172786,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::varic/o}} means {{c2::dilated vein}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Varicose veins</b> — dilated, ropy, twisted veins, usually bulging in the legs.</li><li style=\"margin-bottom:5px;\"><b>Esophageal varices</b> — swollen veins in the esophagus from liver cirrhosis; they can rupture into massive GI bleeding.</li><li style=\"margin-bottom:5px;\"><b>Varicocele</b> — a tangle of dilated veins in the scrotum, classically felt as a 'bag of worms.'</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172836,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::vas/o}} means {{c2::blood vessel}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Vasoconstriction</b> — blood vessels narrowing; the body's shock response, and how epinephrine raises blood pressure.</li><li style=\"margin-bottom:5px;\"><b>Vasodilation</b> — blood vessels widening; nitroglycerin does this to relieve cardiac chest pain.</li><li style=\"margin-bottom:5px;\"><b>Vasovagal syncope</b> — fainting from a sudden reflex drop in vascular tone (the classic 'passed out at the sight of blood').</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172885,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::viscer/o}} means {{c2::internal organs}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Evisceration</b> — abdominal organs protruding out through a wound; cover with a moist sterile dressing in the field.</li><li style=\"margin-bottom:5px;\"><b>Visceral pain</b> — dull, cramping, poorly localized pain from an internal organ, like early appendicitis.</li><li style=\"margin-bottom:5px;\"><b>Visceral pericardium</b> — the inner membrane layer lying directly against the surface of the heart.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172935,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::xen/o}} means {{c2::foreign (material)}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Xenograft</b> — tissue grafted from another species, such as a porcine (pig) heart valve.</li><li style=\"margin-bottom:5px;\"><b>Xenotransplantation</b> — transplanting animal organs into humans, as in the recent pig-kidney transplants.</li><li style=\"margin-bottom:5px;\"><b>Xenobiotic</b> — any chemical foreign to the body (a drug, toxin, or pollutant); a core toxicology term.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030172985,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::xer/o}} means {{c2::dry}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Xerostomia</b> — dry mouth, from anticholinergic meds, dehydration, or Sjogren's syndrome.</li><li style=\"margin-bottom:5px;\"><b>Xerophthalmia</b> — chronically dry eyes; in severe vitamin A deficiency it can scar the cornea.</li><li style=\"margin-bottom:5px;\"><b>Xerosis</b> — abnormally dry, flaky skin, common in the elderly and in eczema.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173034,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::poli/o}} means {{c2::gray}}.",
+  "Back Extra": "Ex: poliomyelitis = acute viral disease that attacks the motor neurons of the central nervous system<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Poliomyelitis</b> — inflammation of the spinal cord's gray matter; the poliovirus attacks it and causes paralysis.</li><li style=\"margin-bottom:5px;\"><b>Polioencephalitis</b> — viral inflammation of the gray matter of the brain.</li><li style=\"margin-bottom:5px;\"><b>Poliosis</b> — a patch of gray or white hair from pigment loss (seen in vitiligo and Waardenburg syndrome).</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173084,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The word root {{c1::chlor/o}} means {{c2::green}}.",
+  "Back Extra": "Ex: chlorophyll = green pigment in leaves used in photosynthesis<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Chloroma</b> — a green-tinged tumor of myeloid leukemia cells, green from the enzyme myeloperoxidase.</li><li style=\"margin-bottom:5px;\"><b>Chlorosis</b> — an old name for iron-deficiency anemia, from the greenish skin tint ('green sickness').</li><li style=\"margin-bottom:5px;\"><b>Chloropsia</b> — a visual disturbance in which everything looks tinged green.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173135,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::a-}} means {{c2::without, lack of}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Apnea</b> — literally 'no breathing'; an apneic overdose patient needs you bagging them now.</li><li style=\"margin-bottom:5px;\"><b>Asystole</b> — 'no contraction,' the flatline; ACLS says confirm it in two leads before calling it.</li><li style=\"margin-bottom:5px;\"><b>Aphasia</b> — 'without speech'; sudden aphasia is a red-flag stroke sign.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173184,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::ab-}} means {{c2::away from}}.",
+  "Back Extra": "Ex: abduction = away from the point of reference<br><br>Distinguish: opposite is ad- (toward)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Abduction</b> — moving a limb away from the body's midline, like raising your arm out to the side.</li><li style=\"margin-bottom:5px;\"><b>Abrasion</b> — skin scraped away by friction; the road rash of a motorcycle crash.</li><li style=\"margin-bottom:5px;\"><b>Abnormal</b> — away from the normal or expected, like an abnormal lab value or ECG.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173236,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::ad-}} means {{c2::to, toward}}.",
+  "Back Extra": "Ex: adduction = toward the center<br><br>Distinguish: opposite is ab- (away from)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Adduction</b> — moving a limb toward the midline; bringing the arm back to the side (opposite of abduction).</li><li style=\"margin-bottom:5px;\"><b>Adrenal gland</b> — the gland perched toward/atop the kidney (ad- + renal); it pumps out adrenaline.</li><li style=\"margin-bottom:5px;\"><b>Adhesion</b> — tissue stuck to a neighboring structure; abdominal adhesions can kink the bowel.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173286,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::an-}} means {{c2::without, lack of}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Anemia</b> — 'without enough blood'; too few red cells to carry oxygen, leaving the patient pale and fatigued.</li><li style=\"margin-bottom:5px;\"><b>Anuria</b> — 'without urine'; the kidneys have essentially stopped, a renal-failure red flag.</li><li style=\"margin-bottom:5px;\"><b>Anesthesia</b> — 'without sensation'; the drugs that erase pain before a procedure.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173335,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::ana-}} means {{c2::up, back, again}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Anabolism</b> — the 'building-up' phase of metabolism; anabolic steroids build muscle up.</li><li style=\"margin-bottom:5px;\"><b>Anatomy</b> — literally 'to cut up/apart'; the body's structure learned by dissection.</li><li style=\"margin-bottom:5px;\"><b>Anaplasia</b> — ana- 'backward' + -plasia 'formation'; the loss of cell differentiation that marks aggressive, malignant tumors (anaplastic carcinoma).</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173386,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::ante-}} means {{c2::before, forward}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Anterior</b> — the front/forward surface; the sternum lies on the anterior chest wall.</li><li style=\"margin-bottom:5px;\"><b>Antecubital</b> — the front of the elbow (the AC fossa), your first-choice site to start an IV.</li><li style=\"margin-bottom:5px;\"><b>Antepartum</b> — before delivery; the antepartum period is pregnancy up until birth.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173435,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::anti-}} means {{c2::against, opposed to}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Anticoagulant</b> — acts against clotting; heparin and warfarin keep blood from coagulating.</li><li style=\"margin-bottom:5px;\"><b>Antipyretic</b> — acts against fever; acetaminophen brings a high temperature down.</li><li style=\"margin-bottom:5px;\"><b>Antiemetic</b> — acts against vomiting; ondansetron (Zofran) calms nausea.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173486,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::auto-}} means {{c2::self}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Autoimmune</b> — the immune system attacking one's own tissue, as in lupus or type 1 diabetes.</li><li style=\"margin-bottom:5px;\"><b>Autonomic nervous system</b> — the self-governing control of heart rate, blood pressure, and digestion.</li><li style=\"margin-bottom:5px;\"><b>Autograft</b> — a graft taken from the patient's own body, like skin moved to cover a burn.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173535,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::bi-}} means {{c2::two}}.",
+  "Back Extra": "Ex: bilateral = pertaining to both sides<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Bilateral</b> — on both (two) sides; you check for bilateral breath sounds, left and right.</li><li style=\"margin-bottom:5px;\"><b>Bicuspid (mitral) valve</b> — the two-flap valve between the left atrium and left ventricle.</li><li style=\"margin-bottom:5px;\"><b>Bifurcation</b> — a split into two; the trachea bifurcates into the two mainstem bronchi at the carina.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173585,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::brady-}} means {{c2::slow}}.",
+  "Back Extra": "Ex: bradypnea = slow breathing<br><br>Distinguish: opposite is tachy- (rapid)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Bradycardia</b> — a slow heart rate under 60; symptomatic bradycardia may get atropine.</li><li style=\"margin-bottom:5px;\"><b>Bradypnea</b> — a slow respiratory rate; a warning sign after an opioid overdose.</li><li style=\"margin-bottom:5px;\"><b>Bradykinesia</b> — slowness of movement, a hallmark of Parkinson's disease.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173635,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::circum-}} means {{c2::around, about}}.",
+  "Back Extra": "Ex: circumferential burn = a burn around an entire area<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Circumoral cyanosis</b> — blueness around the mouth; a sign of hypoxia (low blood oxygen), watched for in children.</li><li style=\"margin-bottom:5px;\"><b>Circumduction</b> — moving a limb in a circle around its joint, like a shoulder roll.</li><li style=\"margin-bottom:5px;\"><b>Circumcision</b> — cutting around and removing the foreskin.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173687,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::contra-}} means {{c2::against, opposite}}.",
+  "Back Extra": "Ex: contraindicated = something that is not indicated<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Contraindication</b> — a reason against a treatment; recent Viagra contraindicates nitroglycerin.</li><li style=\"margin-bottom:5px;\"><b>Contralateral</b> — on the opposite side; a right-brain stroke weakens the contralateral (left) body.</li><li style=\"margin-bottom:5px;\"><b>Contraception</b> — acting against conception; birth control.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173734,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::de-}} means {{c2::down from, away}}.",
+  "Back Extra": "Ex: decay = to waste away<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Defibrillation</b> — removing fibrillation with a shock; it stops a quivering V-fib heart.</li><li style=\"margin-bottom:5px;\"><b>Dehydration</b> — water taken away from the body; think dry mucous membranes and low blood pressure.</li><li style=\"margin-bottom:5px;\"><b>Decubitus ulcer</b> — de- 'down' (lying down) + cubitus; a pressure sore (bedsore) from lying in one position too long.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173785,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::di-}} means {{c2::twice, double}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Carbon dioxide (CO2)</b> — two oxygen atoms bound to one carbon; the gas you monitor as EtCO2 on capnography.</li><li style=\"margin-bottom:5px;\"><b>Dizygotic twins</b> — grown from two separate zygotes; fraternal, non-identical twins.</li><li style=\"margin-bottom:5px;\"><b>Disaccharide</b> — a sugar built from two units; sucrose is glucose plus fructose.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173836,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::dia-}} means {{c2::through, completely}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Diaphoresis</b> — sweating through the skin; 'cool, pale, and diaphoretic' points to shock or MI.</li><li style=\"margin-bottom:5px;\"><b>Diarrhea</b> — watery stool flowing through and out of the gut.</li><li style=\"margin-bottom:5px;\"><b>Dialysis</b> — cleaning blood by passing it through a filtering membrane in kidney failure.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173886,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::dys-}} means {{c2::difficult, painful, abnormal}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Dyspnea</b> — difficult, labored breathing; the single most-charted EMS respiratory complaint.</li><li style=\"margin-bottom:5px;\"><b>Dysphagia</b> — difficulty swallowing; a red flag after stroke and a real aspiration risk.</li><li style=\"margin-bottom:5px;\"><b>Dysuria</b> — painful urination; the hallmark symptom pointing you toward a UTI.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173935,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::ect(o)-}} means {{c2::out, outside}}.",
+  "Back Extra": "Ex: ectopic pregnancy = pregnancy where the embryo attaches outside of the uterus<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Ectopic pregnancy</b> — an embryo implanted OUTSIDE the uterus (usually a tube); rupture is a true shock emergency.</li><li style=\"margin-bottom:5px;\"><b>Ectoderm</b> — the OUTERmost of the three embryonic germ layers; it becomes the skin's surface and the entire nervous system.</li><li style=\"margin-bottom:5px;\"><b>Ectoparasite</b> — a bug living ON the outside of the body, such as lice, scabies mites, or ticks.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030173985,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::end(o)-}} means {{c2::within}}.",
+  "Back Extra": "Ex: endoscopy = examining inside someone's body<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Endotracheal tube</b> — the breathing tube passed WITHIN the trachea to secure a definitive airway.</li><li style=\"margin-bottom:5px;\"><b>Endocarditis</b> — infection of the lining WITHIN the heart and its valves; think IV drug use.</li><li style=\"margin-bottom:5px;\"><b>Endoscopy</b> — scoping WITHIN a hollow organ, like hunting the source of a GI bleed.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174034,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::epi-}} means {{c2::upon, over, above}}.",
+  "Back Extra": "Ex: epigastric = above or over the stomach<br><br>Distinguish: opposite is sub-/hypo- (below)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Epidermis</b> — the outer skin layer sitting UPON the dermis; the burn layer you assess first.</li><li style=\"margin-bottom:5px;\"><b>Epigastric</b> — the region OVER the stomach; epigastric pain can mean an MI, not just heartburn.</li><li style=\"margin-bottom:5px;\"><b>Epiglottis</b> — the flap ABOVE the glottis that shields the airway; it swells shut in epiglottitis.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174084,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::eu-}} means {{c2::easy, good, normal}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Eupnea</b> — normal, easy breathing; what you chart when respirations are calm and unlabored.</li><li style=\"margin-bottom:5px;\"><b>Euglycemia</b> — a normal blood glucose; the goal sitting between hypo- and hyperglycemia.</li><li style=\"margin-bottom:5px;\"><b>Euthymia</b> — a normal, stable mood; the psych baseline between depression and mania.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174135,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::ex(o)-}} means {{c2::outside, away from}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Exhalation</b> — moving air OUT of the lungs; the passive phase of every breath you count.</li><li style=\"margin-bottom:5px;\"><b>Exophthalmos</b> — eyeballs bulging OUTward, the classic look of Graves' hyperthyroidism.</li><li style=\"margin-bottom:5px;\"><b>Excision</b> — cutting a lesion OUT; what a surgeon does to remove a suspicious mole.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174184,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::extra-}} means {{c2::outside, in addition}}.",
+  "Back Extra": "Ex: extraneous = outside the organism and not belonging to it<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Extravasation</b> — IV fluid or drug leaking OUTSIDE the vein into tissue; why you recheck a running line.</li><li style=\"margin-bottom:5px;\"><b>Extracellular fluid</b> — the fluid OUTSIDE the cells (plasma and interstitial); where your IV bolus first lands.</li><li style=\"margin-bottom:5px;\"><b>Extraocular movements</b> — eye motions run by muscles OUTSIDE the eyeball; you chart them as 'EOMI' on a neuro exam.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174235,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::hemi-}} means {{c2::half}}.",
+  "Back Extra": "Ex: hemiplegia = paralysis on one side of the body<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Hemiplegia</b> — paralysis of one HALF (one side) of the body; a hallmark of stroke.</li><li style=\"margin-bottom:5px;\"><b>Hemithorax</b> — one HALF of the chest; you note absent breath sounds in the left hemithorax with a pneumothorax.</li><li style=\"margin-bottom:5px;\"><b>Hemicolectomy</b> — surgical removal of HALF the colon, often for cancer or diverticulitis.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174284,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::hyper-}} means {{c2::over, excessive, high}}.",
+  "Back Extra": "Ex: hyperventilation = fast ventilations<br><br>Distinguish: opposite is hypo- (under/below)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Hypertension</b> — HIGH blood pressure; the 'silent killer' vital you flag on nearly every reading.</li><li style=\"margin-bottom:5px;\"><b>Hyperglycemia</b> — excessively HIGH blood sugar; it drives DKA in a diabetic emergency.</li><li style=\"margin-bottom:5px;\"><b>Hyperthermia</b> — dangerously HIGH body temperature, as in heat stroke on a hot call.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174335,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::hypo-}} means {{c2::under, below normal}}.",
+  "Back Extra": "Ex: hypoperfusion = below-normal blood flow to vital organs<br><br>Distinguish: opposite is hyper- (over/excessive)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Hypoglycemia</b> — blood sugar BELOW normal; a classic cause of altered mental status you fix with dextrose.</li><li style=\"margin-bottom:5px;\"><b>Hypoxia</b> — oxygen BELOW normal in the tissues; what a dropping pulse-ox is warning you about.</li><li style=\"margin-bottom:5px;\"><b>Hypodermic</b> — literally UNDER the skin; the hypodermic needle delivers a subcutaneous injection.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174386,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::in-}} means {{c2::in, into, not, without}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Inhalation</b> — breathing air IN; the active phase of ventilation and a route for nebulized meds.</li><li style=\"margin-bottom:5px;\"><b>Incision</b> — a surgical cut INTO tissue; you dress and protect a fresh one as a wound.</li><li style=\"margin-bottom:5px;\"><b>Incontinence</b> — here in- flips to 'not': NOT able to control the bladder or bowel, common after a seizure or stroke.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174435,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::infra-}} means {{c2::below, under}}.",
+  "Back Extra": "Ex: infraclavicular = below the clavicle<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Infraorbital</b> — BELOW the eye socket; the infraorbital rim is a key landmark when checking for facial fractures.</li><li style=\"margin-bottom:5px;\"><b>Infraspinatus</b> — the rotator-cuff muscle BELOW the scapular spine; a common shoulder-injury culprit.</li><li style=\"margin-bottom:5px;\"><b>Infrarenal aorta</b> — the aorta BELOW the kidney arteries, the usual site of an abdominal aortic aneurysm.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174485,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::inter-}} means {{c2::between}}.",
+  "Back Extra": "Distinguish: opposite is intra- (within)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Intercostal muscles</b> — the muscles BETWEEN the ribs; you watch for intercostal retractions in respiratory distress.</li><li style=\"margin-bottom:5px;\"><b>Intervertebral disc</b> — the cushion BETWEEN two vertebrae; it can herniate and pinch a nerve root.</li><li style=\"margin-bottom:5px;\"><b>Interphalangeal joint</b> — the joint BETWEEN finger bones; a common spot for a finger dislocation.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174536,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::intra-}} means {{c2::inside, within}}.",
+  "Back Extra": "Ex: intrauterine = within the uterus<br><br>Distinguish: opposite is inter- (between)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Intravenous (IV)</b> — WITHIN a vein; the route for most fluids and emergency drugs you push.</li><li style=\"margin-bottom:5px;\"><b>Intraosseous (IO)</b> — WITHIN the bone; the drill-in access you use when you can't get an IV.</li><li style=\"margin-bottom:5px;\"><b>Intracranial hemorrhage</b> — bleeding WITHIN the skull; the rising intracranial pressure is a brain emergency.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174586,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::ipsi-}} means {{c2::same}}.",
+  "Back Extra": "Ex: ipsilateral = on or affecting the same side<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Ipsilateral blown pupil</b> — a dilated pupil on the SAME side as an expanding brain bleed (CN III compression in herniation).</li><li style=\"margin-bottom:5px;\"><b>Ipsilateral breath sounds</b> — in a tension pneumothorax they're absent on the SAME side as the injury, while the trachea shifts away.</li><li style=\"margin-bottom:5px;\"><b>Ipsilateral weakness</b> — a spinal cord hemisection (Brown-Sequard) weakens the SAME side below the level of injury.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174635,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::iso-}} means {{c2::equal}}.",
+  "Back Extra": "<div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Isotonic</b> — an IV fluid with the same (equal) osmolarity as blood; normal saline and LR won't shift water across cells, making them your workhorse resuscitation fluids.</li><li style=\"margin-bottom:5px;\"><b>Isocoria</b> — equal pupil size, the normal finding you chart; its opposite, anisocoria, flags a head injury.</li><li style=\"margin-bottom:5px;\"><b>Isoelectric line</b> — equal (balanced) electrical charge, seen as the flat ECG baseline; asystole is a completely isoelectric line.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ },
+ {
+  "noteId": 1783030174685,
+  "deck": "all::EMT::Chapter 5::claude review",
+  "model": "AnKing Cloze",
+  "Text": "The prefix {{c1::macro-}} means {{c2::large}}.",
+  "Back Extra": "Distinguish: opposite is micro- (small)<br><br><div class=\"clinical-ex\" style=\"margin-top:12px;text-align:left;\"><div style=\"font-size:0.78em;letter-spacing:0.04em;opacity:0.6;margin-bottom:5px;\">WHERE YOU'LL SEE IT</div><ol style=\"margin:0;padding-left:1.25em;line-height:1.55;\"><li style=\"margin-bottom:5px;\"><b>Macrocytic anemia</b> — red cells that are abnormally large (high MCV), classic for B12 or folate deficiency.</li><li style=\"margin-bottom:5px;\"><b>Macrosomia</b> — an abnormally large newborn (over 4 kg), which raises the risk of shoulder dystocia at delivery.</li><li style=\"margin-bottom:5px;\"><b>Macrophage</b> — the 'big eater' immune cell that engulfs bacteria and cellular debris.</li></ol></div>",
+  "tags": [
+   "ch5"
+  ]
+ }
+]

@@ -74,20 +74,39 @@ LIST_MARKERS = re.compile(r"<br\s*/?>|(?:^|\s)\d+\.\s|:\s*$", re.I)
 
 
 def first_letter_hint_leaks(text):
-    """R11: a hint that is just the leading letter(s) of its own answer, with NO
-    spelled acronym visible in the stem (which would license it as a mnemonic)."""
+    """R11: a hint that is just the leading letter(s) of its own answer is a giveaway
+    UNLESS the card is teaching a spelled mnemonic. The mere PRESENCE of an acronym in
+    the stem licenses nothing (EMT/EMS/CPR sit in half this book's stems): the group's
+    hint letters, joined in document order, must actually spell INTO a token visible in
+    the stem — 'sample' into SAMPLE, 'dcapbtls' into DCAP-BTLS. Otherwise ::D/::B/::C
+    on a plain list is the copout Parker ranted about, whatever else the stem mentions."""
     stem_plain = re.sub(r"<[^>]+>", " ", CLOZE.sub(lambda m: " ", text))
-    has_acronym = bool(ACRONYM.search(stem_plain))
-    if has_acronym:
-        return []  # SAMPLE/DCAP-BTLS style — first-letter hints are licensed
-    leaks = []
+    tokens = [re.sub(r"[^a-z]", "", t.lower()) for t in ACRONYM.findall(stem_plain)]
+    tokens = [t for t in tokens if len(t) >= 3]
+    letter_hints = {}  # cloze group -> [(answer, hint, normalized letters)] in order
     for m in CLOZE.finditer(text):
         ans, hint = m.group(2), (m.group(3) or "")
         h = re.sub(r"[^a-z]", "", norm(hint))
         a = re.sub(r"[^a-z]", "", norm(ans))
         # a genuine forced-choice hint contains "/" or " or " (len guards those out)
         if 1 <= len(h) <= 2 and a.startswith(h) and "/" not in hint and " or " not in hint.lower():
-            leaks.append((ans, hint))
+            letter_hints.setdefault(m.group(1), []).append((ans, hint, h))
+    def _subseq(needle, hay):
+        it = iter(hay)
+        return all(ch in it for ch in needle)
+
+    leaks = []
+    for g, items in letter_hints.items():
+        joined = "".join(h for _, _, h in items)
+        # licensed only if these letters, in order, spell into a stem token: a
+        # contiguous run of >=2 (SAMPLE's 'sam'), or an in-order subsequence of >=3
+        # (CHART's C-H-A-T, whose Rx item breaks contiguity). A lone letter never
+        # self-licenses off e.g. 'EMT' — and when the acronym itself is co-clozed
+        # (hidden), a letter hint leaks its spelling, so hidden answers are not tokens.
+        licensed = any((len(joined) >= 3 and _subseq(joined, t)) or
+                       (len(joined) >= 2 and joined in t) for t in tokens)
+        if not licensed:
+            leaks.extend((ans, hint) for ans, hint, _ in items)
     return leaks
 
 
@@ -195,7 +214,7 @@ def main():
             warn.append(f"#{i}: parenthetical right after a cloze — verify it is NOT the answer's definition (leak risk)")
         # WARN: first-letter hint on a non-mnemonic list (R11, the ::r/::k/::s leak)
         for ans, hint in first_letter_hint_leaks(t):
-            warn.append(f"#{i}: hint '::{hint}' is the first letter of its answer '{ans}' with no acronym in the stem — first-letter leak (card-rules #18)")
+            warn.append(f"#{i}: hint '::{hint}' is the first letter of its answer '{ans}' and does not spell into any acronym in the stem — first-letter leak (card-rules #18)")
         # WARN: all-blanks-at-once husk — mutually-dependent spans under one number (R10)
         for g in husk_groups(t):
             warn.append(f"#{i}: cloze c{g} hides 2-3 multi-word spans in an inline template — possible husk; verify each blank is answerable with the other shown, else split into c1/c2 (card-rules #17)")

@@ -1,0 +1,95 @@
+{
+ "verdicts": [
+  {
+   "noteId": 1782755633709,
+   "verdict": "REWRITE",
+   "reason": "leak: appositive paraphrased hidden answer",
+   "fix": {
+    "Text": "A {{c1::patient advocate::role}} is someone who acts {{c2::in the patient's best interest}}."
+   },
+   "needs_human_check": false
+  },
+  {
+   "noteId": 1782755633107,
+   "verdict": "REWRITE",
+   "reason": "R10 synonym-equation husk: all 4 synonym spans under c1",
+   "fix": {
+    "Text": "Medical control comes in two forms, authorized by the medical director:&lt;br&gt;{{c1::Off-line}} = also called {{c2::indirect}}&lt;br&gt;{{c3::Online}} = also called {{c4::direct}}"
+   },
+   "needs_human_check": false
+  },
+  {
+   "noteId": 1782755632558,
+   "verdict": "REWRITE",
+   "reason": "numeric flag + stem smoothing",
+   "fix": {
+    "Text": "The &lt;b&gt;AEMT&lt;/b&gt; course typically runs {{c1::200 to 400 hours::range}}."
+   },
+   "needs_human_check": true
+  },
+  {
+   "noteId": 1782755632508,
+   "verdict": "REWRITE",
+   "reason": "R10 husk: limited ALS care + paramedics not available both under c1",
+   "fix": {
+    "Text": "The &lt;b&gt;AEMT&lt;/b&gt; level exists to bring {{c1::limited ALS care}} to regions where {{c2::paramedics are not available}}, focusing on the assessment and intervention skills shown to improve outcomes."
+   },
+   "needs_human_check": false
+  },
+  {
+   "noteId": 1782941718052,
+   "verdict": "REWRITE",
+   "reason": "R10 husk: 4 attributes under c1; split c1/c2/c3, utility poles visible as anchor",
+   "fix": {
+    "Text": "When power lines are down, mark off a {{c1::danger zone::zone type}} around the lines and keep it a {{c2::restricted::access}} area.&lt;br&gt;&lt;br&gt;Using the utility poles as landmarks, the safety zone extends {{c3::one span of the poles' distance::how far}}."
+   },
+   "needs_human_check": false
+  },
+  {
+   "noteId": 1782941719154,
+   "verdict": "REWRITE",
+   "reason": "R9 open-set + whole-sentence cloze; situation visible, cloze only 'responsible person'",
+   "fix": {
+    "Text": "A critically ill patient asks you to notify his family but cannot help you locate them. You need not do it yourself, as long as you ensure a {{c1::responsible person::who}} makes the effort to locate them.",
+    "Back Extra": "Why: assuring the patient that someone will make the notifications is itself part of patient care, because the reassurance helps calm the patient.&lt;br&gt;&lt;br&gt;Pitfall: the duty is to ensure the effort is made, not to personally track the family down."
+   },
+   "needs_human_check": false
+  },
+  {
+   "noteId": 1782941722327,
+   "verdict": "REWRITE",
+   "reason": "R11 letter-hint copout removed; 4 negligence elements grouped under c1, no hints",
+   "fix": {
+    "Text": "For negligence liability, all &lt;b&gt;four&lt;/b&gt; elements must be present:&lt;br&gt;1. {{c1::Duty}}&lt;br&gt;2. {{c1::Breach of duty}}&lt;br&gt;3. {{c1::Damages}}&lt;br&gt;4. {{c1::Causation}}"
+   },
+   "needs_human_check": false
+  },
+  {
+   "noteId": 1784513278552,
+   "verdict": "REWRITE",
+   "reason": "3 spans co-hidden under c1; split to crisp c1/c2",
+   "fix": {
+    "Text": "You cannot make yourself understood to a hard-of-hearing patient. One clever fix is to have the patient put a {{c1::stethoscope::device}} in his or her ears while you speak softly into the {{c2::diaphragm::part}} to amplify the sound."
+   },
+   "needs_human_check": false
+  },
+  {
+   "noteId": 1784513280504,
+   "verdict": "REWRITE",
+   "reason": "R10 husk: both contrast halves under c1; split c1/c2",
+   "fix": {
+    "Text": "A handover's verbal report should carry {{c1::only the immediately critical information}}, with the numerous other details transferring via {{c2::a paper or electronic report}}."
+   },
+   "needs_human_check": false
+  },
+  {
+   "noteId": 1783030165334,
+   "verdict": "REWRITE",
+   "reason": "Wrong meaning: angin/o glossed as 'blood vessel' but that is angi/o (separate correct card 1783030165284). angin/o = 'choking, to choke' (Latin angere); its own 3 clinical examples (angina pectoris, stable/unstable angina) are choking chest pain. Matches Parker's memory suspicion.",
+   "fix": {
+    "Text": "The word root {{c1::angin/o}} means {{c2::choking, to choke}}."
+   },
+   "needs_human_check": true
+  }
+ ]
+}
