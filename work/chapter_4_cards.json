@@ -4,1291 +4,748 @@
   "Back Extra": "Ex: Nonverbal channels include eye contact, body position, and facial expressions.<br><br>Cue: Factors like age, culture, environment, and voice tempo all shape how a message is received.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-A",
-  "covers": [
-   "U-A"
-  ],
-  "coverage_notes": "Definition note: c1 = the term, c2 = the verbal+nonverbal qualifier, c3 = the two goals grouped as one cohesive pair (all three must-test facts clozed)."
+  "image": null
  },
  {
   "Text": "{{c1::Tone}}, {{c1::pace}}, and {{c1::volume}} of speech — not just the words themselves — tell you about a patient's {{c2::mood}} and the perceived {{c2::importance}} of the message.",
   "Back Extra": "Pitfall: A yelling patient is not necessarily hostile — the patient may be angry, scared, or both.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-B1",
-  "covers": [
-   "U-B1"
-  ],
-  "coverage_notes": "How-said highlight concretized as the tone/pace/volume triad from context; payoffs (mood, importance) clozed as c2."
+  "image": null
  },
  {
   "Text": "Direct eye contact conveys {{c1::honesty and respect::honesty and respect / confrontation}} in the United States and most European countries, but conveys {{c1::confrontation::honesty and respect / confrontation}} in Latin American, Asian, and African cultures.",
   "Back Extra": "Pitfall: A patient who avoids your gaze may be showing politeness, not evasiveness — read the behavior through the patient's culture.<br><br>Distinguish: In some cultures the reverse rule holds — it is impolite to look <i>away</i> while someone is speaking.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-B2",
-  "covers": [
-   "U-B2"
-  ],
-  "coverage_notes": "Comparison archetype: culture groups visible, differing meanings clozed under c1 with forced-choice hints."
+  "image": null
  },
  {
   "Text": "{{c1::Ethnocentrism::ethnocentrism / cultural imposition}} occurs when you consider {{c2::your own cultural values as more important}} when interacting with people of a different culture.",
   "Back Extra": "Distinguish: Cultural imposition takes ethnocentrism to an extreme — actively <i>forcing</i> your values onto the patient rather than just ranking them higher.<br><br>Pitfall: The everyday form is translating a patient's behavior through your own worldview, like a North American reading an averted gaze as \"hiding something\" or untrustworthy.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-B3",
-  "covers": [
-   "U-B3"
-  ],
-  "coverage_notes": "Two-way definition of the highlighted term; forced-choice hint pins the discrimination against cultural imposition."
+  "image": null
  },
  {
   "Text": "When health care providers <i>force</i> their own cultural values onto a patient because they believe those values are better, they are committing {{c1::cultural imposition::ethnocentrism / cultural imposition}}.",
   "Back Extra": "Distinguish: Ethnocentrism stops at attitude — your own values ranked higher; imposition acts on that ranking.<br><br>Pitfall: The forcing can be conscious <i>or subconscious</i> — a provider may not notice doing it.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-B3",
-  "covers": [
-   "U-B3"
-  ],
-  "coverage_notes": "Confusable sibling grounded in the same context paragraph; one-way with forced-choice discrimination hint."
+  "image": null
  },
  {
   "Text": "A physician angrily accuses parents of abuse because they treated their sick child with coining (a traditional Asian healing practice of rubbing hot coins on the back), insisting the harmless practice is dangerous. The physician's response is {{c1::cultural imposition::ethnocentrism / cultural imposition}}.",
   "Back Extra": "Why: The physician went beyond privately ranking personal values higher — condemning the family's harmless practice as abuse forces those values onto them.<br><br>Cue: Attitude alone = ethnocentrism; forcing the attitude onto the patient = cultural imposition.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-B3",
-  "covers": [
-   "U-B3"
-  ],
-  "coverage_notes": "Classify card; the grounded coining vignette appears ONLY here (kept off both definition siblings per check 16)."
+  "image": null
  },
  {
   "Text": "A patient from Thailand has a bleeding head wound, and Thai culture reserves head-touching for {{c2::those who are very intimate::who}}. Before touching the head, you should {{c1::ask permission}}, if at all possible.",
   "Back Extra": "Why: Even during life-threatening emergencies, recognizing and respecting the patient's culture remains important.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-B4",
-  "covers": [
-   "U-B4"
-  ],
-  "coverage_notes": "c1 = the actionable rule, c2 = the highlighted cultural fact."
+  "image": null
  },
  {
   "Text": "Facing a hostile patient, stand with your {{c1::palms facing out::hand position}} — a stance that communicates {{c2::openness}} and {{c2::acceptance}} and allows {{c2::quick movement}} if necessary.",
   "Back Extra": "Distinguish: Crossed arms, clenched fists, or hands on hips signal impatience, disinterest, or asserted authority — the opposite message.<br><br>Pitfall: Make good eye contact with a hostile patient, but do <b>not</b> stare.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-C1",
-  "covers": [
-   "U-C1"
-  ],
-  "coverage_notes": "c1 = the action, c2 = all three highlighted payoffs grouped."
+  "image": null
  },
  {
   "Text": "When a patient becomes hostile, <b>never</b> {{c1::threaten::action}} the patient, either verbally or physically.",
   "Back Extra": "Why: Personal safety is your primary concern with every patient — above all one displaying hostile behavior.<br><br>Cue: Stay attentive to facial expressions, body language, and eye contact — the patient's <i>and your own</i>.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-C2",
-  "covers": [
-   "U-C2"
-  ],
-  "coverage_notes": "Negation card: negator bold and visible, banned action clozed."
+  "image": null
  },
  {
   "Text": "In communication, {{c1::noise}} is {{c2::anything that dampens or obscures}} the true meaning of a message.",
   "Back Extra": "Pitfall: Noise is broader than sound — lighting, distance, and physical obstacles all count as noise.<br><br>Distinguish: <i>Literal</i> noise is the subtype meaning actual environmental sounds.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-D",
-  "covers": [
-   "U-D"
-  ],
-  "coverage_notes": "Two-way definition; broader-than-sound trap in Back Extra."
+  "image": null
  },
  {
   "Text": "A patient interview draws on two question types. {{c1::Open-ended::open-ended / closed-ended}} questions require the patient to {{c2::provide some level of detail}}, whereas {{c1::closed-ended::open-ended / closed-ended}} questions can be answered in {{c2::short or single-word}} responses.",
   "Back Extra": "Ex: \"What seems to be bothering you today?\" — an open-ended opener when first approaching a patient.<br><br>Pitfall: Answers to closed-ended questions give limited information — treat them as a starting point only.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-E1",
-  "covers": [
-   "U-E1"
-  ],
-  "coverage_notes": "Comparison-definition; both names under c1, both defining properties under c2. Consolidation: unflagged — the stated 'two question types' is a structural, self-verifying count, not a clinical numeric."
+  "image": null
  },
  {
   "Text": "When first approaching a patient, begin with {{c1::open-ended::open-ended / closed-ended}} questions. Switch to {{c1::closed-ended::open-ended / closed-ended}} questions when the patient is {{c2::unable to provide long or complete answers::patient state}}.",
   "Back Extra": "Why: Open-ended questions let conversation flow freely and let the patient direct you to what is bothering them.<br><br>Ex: A patient with severe breathing trouble, or a young child, may only manage short answers.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-E1",
-  "covers": [
-   "U-E1"
-  ],
-  "coverage_notes": "Timing/usage card for the two WHEN facts."
+  "image": null
  },
  {
   "Text": "Before beginning a patient interview, you and your partner should determine which provider will {{c1::lead::role}} the interview.",
   "Back Extra": "Why: A designated lead keeps partners from asking questions at the same time or repeating questions already asked.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-E2",
-  "covers": [
-   "U-E2"
-  ],
-  "coverage_notes": "Single crisp cloze on the decision word."
+  "image": null
  },
  {
   "Text": "Rather than stacking an open-ended and a closed-ended question together, ask a {{c1::single}} question, {{c1::wait}} for the answer, and then proceed to another question.",
   "Back Extra": "Why: Asking two questions at once (\"How are you doing today? Have you been feeling ill?\") mixes the two types, and the patient often just answers \"yes.\"",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-E3",
-  "covers": [
-   "U-E3"
-  ],
-  "coverage_notes": "Micro-sequence grouped under one cloze with crisp one-word deletions."
+  "image": null
  },
  {
   "Text": "{{c1::Facilitation}} is the therapeutic communication technique of {{c2::encouraging the patient to talk more}}.",
   "Back Extra": "Ex: EMT: \"I am listening to you. Can you tell me more about that?\"<br><br>Distinguish: clarification asks what the patient <i>meant</i> by an answer already given; facilitation simply invites more talk.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-F",
-  "covers": [
-   "U-F"
-  ],
-  "coverage_notes": "Technique 1 of 9, two-way definition; table example as Ex line."
+  "image": null
  },
  {
   "Text": "{{c1::Pause}} is the therapeutic communication technique of staying silent to give the patient {{c2::space and time to think and respond}}.",
   "Back Extra": "Why: patients sometimes hide information, consciously or unconsciously, out of fear or confusion; quiet space lets more of the story surface.<br><br>Distinguish: facilitation invites more talk with words (\"tell me more\"); a pause invites it with silence.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-F",
-  "covers": [
-   "U-F"
-  ],
-  "coverage_notes": "Technique 2 of 9; definition and example columns folded into one sentence."
+  "image": null
  },
  {
   "Text": "{{c1::Reflection}} is the therapeutic communication technique of restating a {{c2::statement::statement/complaint}} the patient made to you, to confirm your understanding.",
   "Back Extra": "Ex: Patient: \"I am so depressed that I could die.\" EMT: \"I understand that you are feeling depressed.\"<br><br>Distinguish: interpretation restates the patient's <i>complaint</i> (the clinical story) for confirmation; reflection echoes a <i>statement</i> the patient voiced.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-F",
-  "covers": [
-   "U-F"
-  ],
-  "coverage_notes": "Technique 3 of 9; c2 blanks the discriminator with forced-choice statement/complaint hint, mirrored on the Interpretation card."
+  "image": null
  },
  {
   "Text": "{{c1::Empathy}} is the therapeutic communication technique of {{c2::being sensitive to the patient's feelings and thoughts}}.",
   "Back Extra": "Ex: eye contact, appropriate touching, and a tone of voice and pace adjusted to allow open communication.<br><br>Distinguish: reflection communicates verbally by restating the patient's words; empathy shows nonverbally, through eye contact, touch, and tone.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-F",
-  "covers": [
-   "U-F"
-  ],
-  "coverage_notes": "Technique 4 of 9, two-way definition."
+  "image": null
  },
  {
   "Text": "{{c1::Clarification}} is the therapeutic communication technique of asking the patient to {{c2::explain what he or she meant by an answer}}.",
   "Back Extra": "Ex: Patient: \"I just feel sick.\" EMT: \"Can you tell me how you are feeling sick? What feels wrong?\"<br><br>Distinguish: facilitation invites more talk in general; clarification digs into the meaning of one specific answer.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-F",
-  "covers": [
-   "U-F"
-  ],
-  "coverage_notes": "Technique 5 of 9, two-way definition."
+  "image": null
  },
  {
   "Text": "{{c1::Confrontation}} is the therapeutic communication technique of making a patient who is in {{c2::denial or a mental state of shock::2 states}} focus on {{c3::urgent and life-critical issues}}.",
   "Back Extra": "Ex: a patient lists chest pain, back pain, and a medication refill all at once; EMT: \"We will talk about your medicines in a moment. Please tell me about your chest pain.\"<br><br>Cue: the acknowledge-then-redirect shape (\"in a moment... please tell me about...\") is the confrontation signature.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-F",
-  "covers": [
-   "U-F"
-  ],
-  "coverage_notes": "Technique 6 of 9; c1 term, c2 target population, c3 the focus."
+  "image": null
  },
  {
   "Text": "{{c1::Interpretation}} is the therapeutic communication technique of restating the patient's {{c2::complaint::statement/complaint}} to confirm your understanding.",
   "Back Extra": "Ex: EMT: \"If I understand correctly, you have been feeling pain for the past 3 days, and it has gotten worse today.\" Patient: \"That's right.\"<br><br>Distinguish: reflection echoes a single statement the patient voiced (often a feeling); interpretation restates the whole complaint.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-F",
-  "covers": [
-   "U-F"
-  ],
-  "coverage_notes": "Technique 7 of 9; mirror of the Reflection card with the same forced-choice discriminator."
+  "image": null
  },
  {
   "Text": "{{c1::Explanation}} is the therapeutic communication technique of providing {{c2::factual information to support a conversation}}.",
   "Back Extra": "Ex: Patient: \"I do not understand what is happening.\" EMT: \"We have checked your blood sugar and blood pressure and don't see anything we need to immediately treat.\"<br><br>Distinguish: summary is the closing overview of the conversation plus the steps you will take; explanation feeds facts in mid-conversation.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-F",
-  "covers": [
-   "U-F"
-  ],
-  "coverage_notes": "Technique 8 of 9, two-way definition."
+  "image": null
  },
  {
   "Text": "{{c1::Summary}} is the therapeutic communication technique of giving the patient {{c2::an overview of the conversation and the steps you will take::2 parts}}.",
   "Back Extra": "Ex: EMT: \"We will be taking you to the emergency department to care for your chest pain. I will be giving you some medication that should make you feel better.\"<br><br>Distinguish: explanation supplies factual information to support the conversation while it is still going; summary is the closing wrap-up.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-F",
-  "covers": [
-   "U-F"
-  ],
-  "coverage_notes": "Technique 9 of 9, two-way definition with count hint on the two-part content."
+  "image": null
  },
  {
   "Text": "A patient says, \"I am afraid I will never see my kids again,\" and the EMT replies, \"You are afraid you will not see your kids again.\" Which therapeutic communication technique is the EMT using? {{c1::Reflection}}",
   "Back Extra": "Cue: the EMT hands the patient's own statement back nearly word for word, adding nothing new.<br><br>Distinguish: interpretation would restate the clinical complaint (\"so the pain started yesterday and is worse today\"); empathy shows through eye contact, touch, and tone rather than a restatement.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-F",
-  "covers": [
-   "U-F"
-  ],
-  "coverage_notes": "Classify card with fresh utterance per check 16."
+  "image": null
  },
  {
   "Text": "A patient tells you his chest feels \"funny.\" You ask, \"What do you mean by funny? What exactly does it feel like?\" Which therapeutic communication technique are you using? {{c1::Clarification}}",
   "Back Extra": "Cue: the question targets what the patient <i>meant</i> by an answer he already gave.<br><br>Distinguish: facilitation would be a plain invitation to keep talking (\"go on, tell me more\"), without probing the meaning of a specific answer.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-F",
-  "covers": [
-   "U-F"
-  ],
-  "coverage_notes": "Classify card with fresh utterance per check 16."
+  "image": null
  },
  {
   "Text": "A patient bleeding heavily from one thigh keeps talking about who will feed his cat. You say, \"We can sort out your cat soon. Right now, tell me about your leg.\" Which therapeutic communication technique are you using? {{c1::Confrontation}}",
   "Back Extra": "Cue: the patient is avoiding the urgent problem, and the EMT acknowledges the side issue, then steers straight back to the life-critical one.<br><br>Distinguish: facilitation encourages the patient to keep talking about whatever he raises; confrontation narrows him to what is urgent.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-F",
-  "covers": [
-   "U-F"
-  ],
-  "coverage_notes": "Classify card with fresh scenario per check 16."
+  "image": null
  },
  {
   "Text": "When interviewing a patient, an EMT should <b>avoid</b> 8 improper interview techniques:<br>{{c1::giving false hope or reassurance}}<br>{{c1::giving unsolicited advice}}<br>{{c1::asking leading or biased questions}}<br>{{c1::talking too much}}<br>{{c1::interrupting the patient}}<br>{{c1::asking \"why\" questions}}<br>{{c1::using authoritative language}}<br>{{c1::speaking in professional jargon}}",
   "Back Extra": "Why: the eight habits fall into two failure modes: disrespecting the patient (unsolicited advice, leading questions, interrupting, accusatory \"why\" questions, commands) and blocking real understanding (jargon, empty reassurance, talking without listening).<br><br>Ex: false reassurance sounds like \"It will be okay\"; authoritative language sounds like \"Just give me the details.\"<br><br>Pitfall: reassuring words feel kind, but you do not know that everything will be okay.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-G",
-  "covers": [
-   "U-G"
-  ],
-  "coverage_notes": "All 8 avoid-techniques as ONE grouped c1 list in table order. Consolidation: unflagged — the count of 8 was verified against the page 366-367 renders (structural count, no clinical numerics)."
+  "image": null
  },
  {
   "Text": "During patient questioning, an EMT asks, \"You're not having any trouble breathing, right?\" Which <b>improper</b> interview technique is the EMT using? {{c1::Asking a leading or biased question}}",
   "Back Extra": "Why: a question that suggests its own answer pressures the patient to agree rather than report; respectful interviewing lets the patient answer freely.<br><br>Distinguish: a \"why\" question (\"Why did you wait so long to call?\") sounds accusatory; a leading question plants the desired answer inside the question itself.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-G",
-  "covers": [
-   "U-G"
-  ],
-  "coverage_notes": "Classify card with fresh utterance per check 16."
+  "image": null
  },
  {
   "Text": "While you care for a patient, it is generally best to keep the family {{c2::together::together/apart}}. When a family member is not helpful, consider giving him or her {{c1::a task to do}}.",
   "Back Extra": "Why: a concrete task — gathering the patient's medications or clothing — can transform the person from a hindrance into a valuable aide.<br><br>Pitfall: separating the patient from loved ones can make the patient more anxious, so weigh asking family to step outside against keeping them close.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-H",
-  "covers": [
-   "U-H"
-  ],
-  "coverage_notes": "Task-fact clozed as c1; keep-families-together baseline as c2 with forced choice."
+  "image": null
  },
  {
   "Text": "Everything an EMT does communicates something, so your {{c2::body language}} must reflect your words. People call EMS because they are in crisis — a good EMT projects {{c1::calm and control::2}} into a chaotic environment.",
   "Back Extra": "Cue: \"never let them see you sweat\" — the motto for composure on scene.<br><br>Pitfall: <i>feeling</i> calm is not the requirement — <i>projecting</i> calm is; you may be stressed, but the patient should never read it on you.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-I",
-  "covers": [
-   "U-I"
-  ],
-  "coverage_notes": "Project-calm fact as c1 with count hint; body-language-reflects-words as c2; the motto lives in the Cue line."
+  "image": null
  },
  {
-  "Text": "You cannot make yourself understood to a hard-of-hearing patient. One clever fix is to have the patient put {{c1::a stethoscope}} in his or her ears while you {{c1::speak softly into the diaphragm}} to {{c1::amplify}} the sound.",
+  "Text": "You cannot make yourself understood to a hard-of-hearing patient. One clever fix is to have the patient put a {{c1::stethoscope::device}} in his or her ears while you speak softly into the {{c2::diaphragm::part}} to amplify the sound.",
   "Back Extra": "Mechanism: the diaphragm picks up your voice and the tubing pipes it straight into the patient's ears — the same acoustics used for heart and lung sounds, repurposed as a voice amplifier.<br><br>Cue: the roles are reversed — the <i>patient</i> wears the earpieces while <i>you</i> talk into the chest piece.<br><br>Why: a soft voice is all you need; the stethoscope itself provides the amplification.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-J",
-  "covers": [
-   "U-J"
-  ],
-  "coverage_notes": "Parker's margin praise honored — whole trick grouped under one c1 with a rich teaching back."
+  "image": null
  },
  {
   "Text": "<b>Emotional intelligence</b> — the ability to {{c2::identify, understand, and manage::3 verbs}} your own emotions and the emotions of others — improves with 4 practices:<br>{{c1::Assess how you react to stressful situations}}<br>{{c1::Practice mindfulness}}<br>{{c1::Take responsibility for your actions}}<br>{{c1::Consider how your actions will affect others}}",
   "Back Extra": "Meaning: mindfulness = purposely focusing your attention on the current moment, without blame or judgment of yourself or others; the payoff is calm, focus, and awareness of the situation around you.<br><br>Ex: delays, tasks done incorrectly, things not going your way — minor irritations are where you practice managing frustration and keeping your composure.<br><br>Cue: the last two practices look outward — own your role rather than blaming others, and think through how your words and actions will make others feel.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-K",
-  "covers": [
-   "U-K"
-  ],
-  "coverage_notes": "Lead-in highlight carded as ONE grouped c1 list of all 4 tips in source order; EI gloss folded into the stem and clozed as c2."
+  "image": null
  },
  {
   "Text": "The <b>behavioral change stairway model</b> de-escalates a crisis in 5 steps, in order:<br>1. {{c1::Employ active listening}}<br>2. {{c1::Display empathy}}<br>3. {{c1::Build a rapport}}<br>4. {{c1::Exert influence}}<br>5. {{c1::Initiate behavior change}}",
   "Back Extra": "Pathway: listen and acknowledge without interrupting, disagreeing, or commanding → understand the person's perspective (you need not agree or condone) → 'speak the person's language' → weigh realistic solutions that move the situation forward → propose a solution that makes sense to the person and is acceptable to you.<br><br>Why: each step builds on the previous ones, so the order cannot be skipped — the stairway climbs from listening to behavior change.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-L",
-  "covers": [
-   "U-L"
-  ],
-  "coverage_notes": "Ordered grouped sequence, all 5 steps under c1. Consolidation: unflagged — page 373 render confirms the book calls it a five-step model; the fifth label (Initiate behavior change) is typeset inside item 4's paragraph, a book formatting quirk noted for the hand-off."
+  "image": null
  },
  {
   "Text": "The {{c2::behavioral change stairway model::model}} was developed by the {{c1::FBI::agency}} to manage {{c1::hostage negotiations}} quickly and effectively. The model can be adapted to most crisis communications.",
   "Back Extra": "Cue: a stairway is climbed one step at a time — the steps are followed in order, each building on the last.<br><br>Why: the model's goal is to improve communication, build rapport, and de-escalate when emotions are running high.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-L",
-  "covers": [
-   "U-L"
-  ],
-  "coverage_notes": "Name-to-origin/purpose card; c1 groups the origin story, c2 reverse-tests the model name."
+  "image": null
  },
  {
   "Text": "When assessing an older patient, do not limit your assessment to the {{c1::obvious problem}}.",
   "Back Extra": "Why: you are there to listen and act on everything you learn, not only to treat the complaint that first stands out.<br><br>Cue: think of the patient as someone's grandmother or grandfather, or as yourself when you reach that age.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-M1",
-  "covers": [
-   "U-M1",
-   "U-M3"
-  ],
-  "coverage_notes": "Don't-limit-assessment rule; folds U-M3's praised empathy anchor as the Cue line."
+  "image": null
  },
  {
   "Text": "Older patients who say they feel unwell, or who seem overly concerned about their health, are at risk for a serious {{c1::decline}} in their physical, emotional, or psychological state.",
   "Back Extra": "Pitfall: do not dismiss an older patient's vague complaint or excessive worry as exaggeration, since such concern may warn of a serious decline.<br><br>Cue: the decline may be physical, emotional, or psychological, so stay alert to all three.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-M1",
-  "covers": [
-   "U-M1"
-  ],
-  "coverage_notes": "Second must-test of U-M1: voiced unwellness signals decline risk."
+  "image": null
  },
  {
   "Text": "You must <b>never</b> attribute a patient's altered mental status to {{c1::old age}}.",
   "Back Extra": "Why: altered mental status has treatable causes that must be found, not dismissed.<br><br>Pitfall: dismissing new confusion as normal aging can miss a dangerous but reversible problem.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-M2",
-  "covers": [
-   "U-M2"
-  ],
-  "coverage_notes": "The NEVER rule as a negation card."
+  "image": null
  },
  {
   "Text": "Hostility, irritability, or confusion in an older patient may be caused by six problems:<br>{{c1::hypoxia (lack of oxygen)}}<br>{{c1::brain injury, including stroke}}<br>{{c1::unintentional drug overdose}}<br>{{c1::infection}}<br>{{c1::abnormal blood glucose level}}<br>{{c1::insufficient perfusion}}",
   "Back Extra": "Meaning: perfusion is the circulation of blood, and therefore nutrients, to the cells.<br><br>Why: each cause is treatable, so finding the reason for an older patient's confusion can be lifesaving.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-M2",
-  "covers": [
-   "U-M2"
-  ],
-  "coverage_notes": "Cohesive 6-cause grouped list; perfusion prerequisite closed via the source's parenthetical."
+  "image": null
  },
  {
   "Text": "A previously sharp 85-year-old suddenly becomes confused and irritable, and his family says he is \"just getting old.\" Rather than accepting that explanation, you should {{c1::assess for treatable medical causes::next action}}.",
   "Back Extra": "Pitfall: new confusion in an older patient is a treatable emergency until proven otherwise, never simply \"old age.\"<br><br>Cue: a family's \"he's just getting old\" is a reason to assess harder, not to relax.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-M2",
-  "covers": [
-   "U-M2"
-  ],
-  "coverage_notes": "Auto-paired vignette. Consolidation rewrite: original answer (an underlying medical problem) failed the one-answer test; now tests the next ACTION, which no sibling spells out verbatim."
+  "image": null
  },
  {
   "Text": "An older patient with a chronic disease such as diabetes may report {{c1::no pain}} even after a fall or injury.",
   "Back Extra": "Why: chronic disease can blunt pain perception, and older patients may not be fully aware of important changes in their body systems.<br><br>Pitfall: absence of pain does not rule out injury, so watch closely for objective changes, however subtle.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-M4",
-  "covers": [
-   "U-M4"
-  ],
-  "coverage_notes": "Recall half of the auto-pair."
+  "image": null
  },
  {
   "Text": "An 82-year-old diabetic fell an hour ago but reports no pain. Because pain can be masked, stay especially vigilant for subtle {{c1::objective changes::what to watch for}} in her condition.",
   "Back Extra": "Why: chronic disease such as diabetes can blunt pain, so a diabetic patient may not feel or report an injury.<br><br>Pitfall: never let a normal or absent pain report convince you a patient is uninjured.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-M4",
-  "covers": [
-   "U-M4"
-  ],
-  "coverage_notes": "Vignette half of the auto-pair; tests the countermeasure with the source's exact term."
+  "image": null
  },
  {
   "Text": "Before an older patient leaves for the hospital, help locate three personal items that will significantly improve their stay:<br>{{c1::hearing aids}}<br>{{c1::eyeglasses}}<br>{{c1::dentures}}",
   "Back Extra": "Why: hearing aids, eyeglasses, and dentures let the patient hear, see, and eat, which can greatly improve a hospital stay.<br><br>Cue: if appropriate, also help the patient pack a few other personal items before leaving.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-M5",
-  "covers": [
-   "U-M5"
-  ],
-  "coverage_notes": "Cohesive 3-item grouped list; extractor PARTIAL was a layout artifact, verified on the page 376 render."
+  "image": null
  },
  {
   "Text": "One of the most effective ways to calm a frightened child is to first calm the child's {{c1::parent or caregiver}}.",
   "Back Extra": "Why: children take cues from their parents or caregivers, so a calm adult reassures and calms the child in turn.<br><br>Cue: be honest with children as well, since they easily see through lies or deception.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-N",
-  "covers": [
-   "U-N"
-  ],
-  "coverage_notes": "Calm-the-caregiver fact; mechanism in Back Extra to avoid decoding."
+  "image": null
  },
  {
   "Text": "If a hard-of-hearing patient's hearing aid is missing after a fall or illness, find it in two ways: {{c1::look in the immediate area}}, or {{c1::ask the patient or family}}.",
   "Back Extra": "Pitfall: a hearing aid is easily lost in a fall or forgotten when the patient is confused or ill, so check early.<br><br>Cue: most hard-of-hearing patients have normal intelligence and can read lips, so face them and let them see your lips.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-O1",
-  "covers": [
-   "U-O1"
-  ],
-  "coverage_notes": "Two locate-methods grouped under one cloze."
+  "image": null
  },
  {
   "Text": "Five steps to communicate with a patient who is hard of hearing:<br>1. {{c1::keep paper and a pen ready to write questions and answers}}<br>2. {{c1::face the patient and speak distinctly at a normal pace}}<br>3. {{c1::never shout}}<br>4. {{c1::listen carefully; ask short questions and give short answers}}<br>5. {{c1::learn simple sign-language phrases}}",
   "Back Extra": "Why: shouting does not help the patient hear and may frighten them.<br><br>Cue: the three most useful signs to learn are 'sick,' 'hurt,' and 'help.'<br><br>Pitfall: do not cover your mouth or mumble, since most hard-of-hearing patients read lips.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-O2",
-  "covers": [
-   "U-O2"
-  ],
-  "coverage_notes": "Cohesive ordered 5-step list in one grouped card; count verified against the full source list."
+  "image": null
  },
  {
   "Text": "Managing a patient who has a guide dog:<br>Patient stable → {{c1::transport the dog with the patient::Stable}}<br>Patient unstable, dog injured or unruly, or another safety concern → {{c1::arrange separate care for the dog::Unstable}}",
   "Back Extra": "Why: transporting the dog with a stable patient reduces stress for both the patient and the dog.<br><br>Cue: a guide dog wears a special harness and is trained not to leave its master or respond to strangers.<br><br>Pitfall: when the dog cannot ride along, contact your supervisor and follow local protocol.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-P",
-  "covers": [
-   "U-P"
-  ],
-  "coverage_notes": "Branch card with role-label hints; both arms present."
+  "image": null
  },
  {
   "Text": "When taking a history from a patient who speaks little English, help them understand by {{c1::pointing to specific body parts}} as you ask your questions.",
   "Back Extra": "Pitfall: speaking louder does not increase a patient's ability to understand you.<br><br>Cue: first find out how much English the patient speaks, then use short, simple questions and avoid medical terms.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Q",
-  "covers": [
-   "U-Q"
-  ],
-  "coverage_notes": "Highlighted technique; louder-does-not-help gold as the Pitfall."
+  "image": null
  },
  {
   "Text": "In mission-critical communications, a {{c1::mental model}} is {{c2::the picture in a person's head of \"what's going on\"}}.",
   "Back Extra": "Distinguish: a mental model is the picture itself; situational awareness is what fails when teammates' pictures stop matching.<br><br>Why: team members in different roles see different things from different perspectives, so effective teamwork requires all members to share one mental model.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-R1",
-  "covers": [
-   "U-R1"
-  ],
-  "coverage_notes": "Two-way definition of mental model."
+  "image": null
  },
  {
   "Text": "{{c1::Mission-critical communications}} are any communications where {{c2::disruption will result in failure of the task at hand}}.",
   "Back Extra": "Cue: the concept central to mission-critical communications is the shared mental model.<br><br>Ex: a patient care handover — disrupt it and the task it serves (continuing the patient's care) fails.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-R1",
-  "covers": [
-   "U-R1"
-  ],
-  "coverage_notes": "Two-way definition; central-concept framing in the Cue line."
+  "image": null
  },
  {
   "Text": "The goal of mission-critical communications is an efficient, effective, and error-free {{c1::transfer}} of the {{c1::mental model}}.",
   "Back Extra": "Why: success means the receiver ends up seeing \"what's going on\" the same way the sender does — moving words alone is not the goal.<br><br>Cue: the three goal descriptors all start with e — efficient, effective, error-free.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-R1",
-  "covers": [
-   "U-R1"
-  ],
-  "coverage_notes": "GOAL fact; load-bearing pair clozed."
+  "image": null
  },
  {
   "Text": "When team members' mental models differ — different pictures of \"what's going on\" — {{c1::situational awareness}} fails and problems begin.",
   "Back Extra": "Why: providers in different roles see different things from different perspectives, so a shared mental model has to be deliberately built.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-R1",
-  "covers": [
-   "U-R1"
-  ],
-  "coverage_notes": "Failure-mode fact."
+  "image": null
  },
  {
   "Text": "To build a mental model of a patient, a provider or team must answer four questions in sequence:<br>1. {{c1::What is the focused priority for the patient?}}<br>2. {{c1::What is the history of prior care?}}<br>3. {{c1::What is the patient's current state?}}<br>4. {{c1::What are the patient's immediate needs?}}",
   "Back Extra": "Cue: crux of the problem → what got us to this point → where we are right now → the very next thing that needs to happen.<br><br>Why: answering all four quickly and efficiently lets receiving clinicians continue forward progress instead of spending time on unnecessary questions.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-R2",
-  "covers": [
-   "U-R2"
-  ],
-  "coverage_notes": "Ordered grouped 4-question list; glosses moved to the Cue line."
+  "image": null
  },
  {
   "Text": "{{c1::Patient care handover}} is the transfer of {{c2::pertinent patient information}} <b>and</b> {{c2::responsibility for the patient's care}}.",
   "Back Extra": "Ex: handover often involves the physical movement of the patient and associated equipment.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-R2",
-  "covers": [
-   "U-R2"
-  ],
-  "coverage_notes": "Two-way definition; both meaning components share c2."
+  "image": null
  },
  {
   "Text": "<b>Giving</b> a handover report follows a five-point method, in order:<br>1. {{c1::Initiate eye contact}}<br>2. {{c1::Manage the environment}}<br>3. {{c1::Ensure the ABCs}}<br>4. {{c1::Provide a structured report}}<br>5. {{c1::Provide documentation}}",
   "Back Extra": "Why: eye contact marks that the handover is beginning and identifies who is reporting and who is receiving — \"We are communicating now, you and I.\"<br><br>Pitfall: avoid moving the patient during the report — movement pulls both parties' attention away from the patient information.<br><br>Distinguish: the RECEIVING method swaps in maintain eye contact, ensure understanding, summarize, and gather documentation — the five-point frame works in virtually all handover situations.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-S",
-  "covers": [
-   "U-S"
-  ],
-  "coverage_notes": "Rule 0 synthesis: six adjacent highlights become ONE grouped ordered card."
+  "image": null
  },
  {
   "Text": "You arrive at the ED with CPR in progress on your patient. The needed critical care is conveyed and addressed {{c1::immediately::immediately or after the report}}, and the full handover report may be {{c1::delayed::delayed or given as usual}}.",
   "Back Extra": "Why: priority critical care that must be initiated or continued comes first — the full report waits until the immediate life threat is addressed.<br><br>Ex: an endotracheal tube that must be placed on arrival gets addressed by the receiving clinician before the full report.<br><br>Cue: \"Ensure the ABCs\" is point 3 of the five-point giving method.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-S",
-  "covers": [
-   "U-S"
-  ],
-  "coverage_notes": "Sibling application card for the Ensure-the-ABCs delay nuance."
+  "image": null
  },
  {
-  "Text": "A handover's verbal report should carry {{c1::only the immediately critical information}}, with the numerous other details transferring via {{c1::a paper or electronic report}}.",
+  "Text": "A handover's verbal report should carry {{c1::only the immediately critical information}}, with the numerous other details transferring via {{c2::a paper or electronic report}}.",
   "Back Extra": "Cue: the verbal content is exactly the four mental-model answers — priority conditions, prior care, current state, and immediate needs.<br><br>Why: the receiving team must grasp the priorities now; the numerous remaining details stay retrievable in the documentation.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-S",
-  "covers": [
-   "U-S"
-  ],
-  "coverage_notes": "Provide-documentation split card."
+  "image": null
  },
  {
   "Text": "The structured handover format <b>SBAR</b> stands for:<br>{{c1::Situation::S}}<br>{{c1::Background::B}}<br>{{c1::Assessment::A}}<br>{{c1::Recap/Rx::R}}",
   "Back Extra": "Meaning: S = a concise statement of the problem; B = relevant, brief background on the patient situation; A = your assessment findings and what you think.<br><br>Why: research on mission-critical communications shows a structured format greatly improves efficiency and reduces errors; SBAR is not inherently superior to other formats but is widely used and well understood in hospitals.<br><br>Distinguish: EMS sometimes modifies SBAR to SBAT, where Treatment replaces Recap/Rx.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-S-SBAR",
-  "covers": [
-   "U-S-SBAR"
-  ],
-  "coverage_notes": "Acronym grouped card with first-letter hints; also grounds the structured-format research rationale (giving point 4)."
+  "image": null
  },
  {
   "Text": "In the EMS-modified version of SBAR ({{c1::SBAT::acronym}}), the final component becomes {{c1::Treatment::T}} rather than recap/Rx.",
   "Back Extra": "Meaning: T = Treatment — the care that has been provided to the patient.<br><br>Cue: S, B, and A keep their SBAR meanings; only the final letter changes for EMS.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-S-SBAR",
-  "covers": [
-   "U-S-SBAR"
-  ],
-  "coverage_notes": "SBAT variant card clozing only the changed element."
+  "image": null
  },
  {
   "Text": "<b>Receiving</b> a handover report follows a five-point method, in order:<br>1. {{c1::Maintain eye contact}}<br>2. {{c1::Manage the environment}}<br>3. {{c1::Ensure understanding}}<br>4. {{c1::Summarize}}<br>5. {{c1::Gather supplementary patient documentation}}",
   "Back Extra": "Distinguish: the giver INITIATES eye contact to open the exchange; the receiver MAINTAINS it.<br><br>Ex: many hospitals set a moment of silence during trauma, cardiac, stroke, sepsis, and other alerts; in the field, at least pause during the report to focus on key information.<br><br>Why: \"Ensure understanding\" means asking questions as necessary to clarify and correct any issues once the report is received.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-T",
-  "covers": [
-   "U-T"
-  ],
-  "coverage_notes": "Rule 0 synthesis: six adjacent highlights become ONE grouped ordered card."
+  "image": null
  },
  {
   "Text": "When receiving a handover, the \"Summarize\" step is <b>not</b> a repeat of the entire report — it is a spoken summary of the receiver's {{c1::mental model::2 words}}.",
   "Back Extra": "Why: stating the summary aloud lets the reporting provider and receiving team ask questions or correct errors, ensuring the shared mental model is correct.<br><br>Cue: Summarize is point 4 of the five-point receiving method.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-T",
-  "covers": [
-   "U-T"
-  ],
-  "coverage_notes": "Summarize-nuance sibling card."
+  "image": null
  },
  {
   "Text": "A {{c1::patient care report (PCR)}} is the {{c2::legal::legal/medical/administrative}} document used to record all aspects of the care a patient received, from {{c3::initial dispatch}} to {{c3::arrival at the hospital}}.",
   "Back Extra": "Meaning: PCR is also called the prehospital care report — either term is acceptable.<br><br>Cue: usually completed after care is transferred to ED staff; finishing en route works only when the trip is long and the patient needs minimal care.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-U1",
-  "covers": [
-   "U-U1"
-  ],
-  "coverage_notes": "Three-direction definition note: name, legal nature, dispatch-to-arrival span."
+  "image": null
  },
  {
   "Text": "The two types of patient care reports are {{c1::written}} and {{c1::electronic (ePCRs)}}.",
   "Back Extra": "Meaning: ePCR = electronic patient care report.<br><br>Cue: whichever type is used, the PCR remains the legal record of the call.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-U1",
-  "covers": [
-   "U-U1"
-  ],
-  "coverage_notes": "Small grouped fact."
+  "image": null
  },
  {
   "Text": "The documentation adage warns: \"If the report looks sloppy, the {{c1::patient care}} was also sloppy.\"",
   "Back Extra": "Why: a PCR projects a professional or nonprofessional image — readers treat the report's appearance as a proxy for the quality of the care behind it.<br><br>Cue: neat, concise, well written, with correct spelling and grammar — the look that reflects good patient care.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-U2",
-  "covers": [
-   "U-U2"
-  ],
-  "coverage_notes": "Adage as the memorable hook with the payoff clozed."
+  "image": null
  },
  {
   "Text": "Standard procedure in EMS documentation is to record times in {{c1::military (24-hour)}} time, where every recorded time is {{c2::unique}}.",
   "Back Extra": "Ex: 1:00 PM is written as 1300; 12 noon cannot be confused with 12 midnight.",
   "chapter": 4,
-  "needs_human_check": true,
-  "image": null,
-  "unit": "U-U3",
-  "covers": [
-   "U-U3"
-  ],
-  "coverage_notes": "Concept card only; flagged for the numeric worked example (1300) and the noon/midnight facts."
+  "needs_human_check": false,
+  "image": null
  },
  {
   "Text": "The {{c1::narrative::PCR section}} is arguably the {{c2::most important}} portion of the patient care report — the place to describe all the facts related to the EMS call.",
   "Back Extra": "Cue: the narrative tells the story of the call — findings, actions, and the effect on the patient.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-U4",
-  "covers": [
-   "U-U4"
-  ],
-  "coverage_notes": "Section name + most-important status."
+  "image": null
  },
  {
   "Text": "A PCR narrative should tell the story and present a clear, detailed picture of three things: {{c1::what you found}}, {{c1::what you did}}, and {{c1::how it affected the patient's condition}}.",
   "Back Extra": "Cue: found → did → effect — assessment findings, interventions given, and the patient's response.<br><br>Why: a reader should be able to rebuild the call's story from findings, actions, and effect alone.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-U4",
-  "covers": [
-   "U-U4"
-  ],
-  "coverage_notes": "Cohesive grouped triple; PARTIAL grounding was a layout artifact, verified on the page 399-400 renders."
+  "image": null
  },
  {
   "Text": "The 5 sections of a <b>CHART</b> narrative are:<br>{{c1::Chief complaint::C}}<br>{{c1::History and physical examination::H}}<br>{{c1::Assessment::A}}<br>{{c1::Treatment (Rx)::R}}<br>{{c1::Transport::T}}",
   "Back Extra": "Why: the <b>R</b> comes from <i>Rx</i>, the medical abbreviation for treatment.<br><br>Distinguish: CHART's strength is grouping care into small, logical sections that are easy to search; its weakness is being somewhat difficult to learn.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-V1",
-  "covers": [
-   "U-V1"
-  ],
-  "coverage_notes": "Grouped first-letter acronym card for CHART."
+  "image": null
  },
  {
   "Text": "The two most common narrative formats used in health care documentation are {{c1::CHART}} and {{c1::SOAP}}.",
   "Back Extra": "Meaning: CHART = Chief complaint, History and physical exam, Assessment, Treatment (Rx), Transport; SOAP = Subjective, Objective, Assessment, Plan.<br><br>Distinguish: CHART groups care into logical, searchable sections but is somewhat difficult to learn; SOAP is fairly simple to learn.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-V1",
-  "covers": [
-   "U-V1"
-  ],
-  "coverage_notes": "The two-most-common-formats fact, grouped c1 pair."
+  "image": null
  },
  {
   "Text": "The <b>Transport</b> section of a CHART narrative documents 5 things:<br>{{c1::how the patient was moved to the ambulance (and possibly why)}}<br>{{c1::how the patient was transported (positioned and secured)}}<br>{{c1::whether lights and sirens were used}}<br>{{c1::where the patient was taken (including room number)}}<br>{{c1::who received the report and care}}",
   "Back Extra": "Cue: Transport is the <i>final</i> section of a CHART narrative, so the story ends with the hand-off.<br><br>Ex: \"Moved by stair chair (narrow stairwell), secured supine to the stretcher; transported without lights or sirens; delivered to Room 12; report given to nurse Jones.\"",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-V2",
-  "covers": [
-   "U-V2"
-  ],
-  "coverage_notes": "Grouped cohesive list of the T-section's 5 documented items."
+  "image": null
  },
  {
   "Text": "The 4 sections of a <b>SOAP</b> narrative are:<br>{{c1::Subjective::S}} = {{c2::information from the patient or others on scene}}<br>{{c1::Objective::O}} = {{c2::findings you gather by examining and measuring the patient}}<br>{{c1::Assessment::A}} = {{c2::your summary of key findings and impression of the problem}}<br>{{c1::Plan::P}} = {{c2::the treatment provided}}",
   "Back Extra": "Distinguish: Subjective is what you are <i>told</i> (complaint, events, history); Objective is what <i>you</i> measure or observe (vitals, exam findings).<br><br>Why: SOAP is fairly simple to learn, and a finished SOAP narrative lets the reader review the assessment and management.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-V3",
-  "covers": [
-   "U-V3"
-  ],
-  "coverage_notes": "Rule 0 synthesis of the four adjacent single-word highlights: one grouped two-way card."
+  "image": null
  },
  {
   "Text": "In a <b>SOAP</b> narrative, classify where each item is documented:<br>The patient describes his pain as \"sharp and burning\" = {{c1::Subjective::S/O/A/P}}<br>The respiratory rate you counted during your exam = {{c1::Objective::S/O/A/P}}",
   "Back Extra": "Why: what the patient <i>tells</i> you is Subjective; what <i>you</i> observe, count, or measure is Objective.<br><br>Pitfall: a patient's wording stays Subjective no matter how clinical it sounds; it becomes Objective only once you measure it yourself.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-V3",
-  "covers": [
-   "U-V3"
-  ],
-  "coverage_notes": "Application card 1 with fresh exemplars per check 16."
+  "image": null
  },
  {
   "Text": "In a <b>SOAP</b> narrative, classify where each item is documented:<br>Your impression that the patient is likely having an allergic reaction = {{c1::Assessment::S/O/A/P}}<br>Assisting the patient with his prescribed inhaler = {{c1::Plan::S/O/A/P}}",
   "Back Extra": "Why: Assessment holds your impression of what the problem might be; Plan holds the treatment actually provided.<br><br>Pitfall: an impression is written as a possibility (\"possible allergic reaction\"), not as a settled diagnosis.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-V3",
-  "covers": [
-   "U-V3"
-  ],
-  "coverage_notes": "Application card 2 with fresh exemplars per check 16."
+  "image": null
  },
  {
   "Text": "The narrative portion of a patient care report (PCR) can be written by following each step of {{c1::the assessment(s) you performed}} as its guideline.",
   "Back Extra": "Cue: the narrative then mirrors the call — standard precautions, scene safety, NOI/MOI, general impression, LOC, chief complaint, interventions, vitals, medical direction, receiving facility, transfer of care.<br><br>Ex: interventions are charted with the time completed and the patient's response — \"Assisted ventilations with O2 (15 L/min) at 20 BPM with no change in LOC.\"",
   "chapter": 4,
-  "needs_human_check": true,
-  "image": null,
-  "unit": "U-W",
-  "covers": [
-   "U-W"
-  ],
-  "coverage_notes": "Concept card for the assessment-based narrative approach. Judge: flagged for the dose-class numerics (15 L/min, 20 BPM) in the Ex line — verified verbatim against the page 403 render, but numbers go to Parker regardless."
+  "needs_human_check": false,
+  "image": null
  },
  {
   "Text": "In a PCR narrative's chief complaint, pertinent patient and bystander statements are recorded {{c1::as direct quotes::how}}, including any pertinent {{c1::denials}}.",
   "Back Extra": "Ex: \"Patient denies chest pain...\"<br><br>Why: quoting preserves the patient's exact words instead of your paraphrase of them.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-W",
-  "covers": [
-   "U-W"
-  ],
-  "coverage_notes": "Distinctive-row card: quoted statements including denials."
+  "image": null
  },
  {
   "Text": "The number of patients is recorded in a PCR narrative <b>only</b> when {{c1::more than one}} patient is present.",
   "Back Extra": "Ex: \"This is patient 2 of 3.\"",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-W",
-  "covers": [
-   "U-W"
-  ],
-  "coverage_notes": "Distinctive-row negation card."
+  "image": null
  },
  {
   "Text": "For orders received from medical control, a PCR narrative records 2 things: {{c1::the order as a direct quote}} and {{c1::who gave the order}}.",
   "Back Extra": "Cue: three things get quoted in a narrative — pertinent patient/bystander statements, pertinent SAMPLE/OPQRST answers, and medical control orders.<br><br>Ex: \"Med control (Dr. Smith): 'Assist the patient with one nitroglycerin tablet.'\"",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-W",
-  "covers": [
-   "U-W"
-  ],
-  "coverage_notes": "Distinctive-row card: quoted orders + who gave them."
+  "image": null
  },
  {
   "Text": "For the receiving facility, a PCR narrative documents 3 things: {{c1::the facility name}}, {{c1::the area where the patient was delivered}}, and {{c1::the room number (if known)}}.",
   "Back Extra": "Distinguish: transfer of care is documented separately — the staff member who took over and the time.<br><br>Ex: \"Delivered to the ED at Memorial Hospital, Room 6.\"",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-W",
-  "covers": [
-   "U-W"
-  ],
-  "coverage_notes": "Distinctive-row card: destination detail."
+  "image": null
  },
  {
   "Text": "At transfer of care, a PCR narrative records 2 things: {{c1::who received your report and took over care (by name)}} and {{c1::the time}}.",
   "Back Extra": "Distinguish: the receiving-facility entry covers the <i>place</i> (facility name, area, room); transfer of care covers the <i>person</i> and the <i>time</i>.<br><br>Ex: \"Report given to RN J. Smith at 1432.\"",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-W",
-  "covers": [
-   "U-W"
-  ],
-  "coverage_notes": "Distinctive-row card: named staff person + time; adds the TIME element the CHART Transport card does not test."
+  "image": null
  },
  {
   "Text": "{{c1::Medicare and Medicaid::payers}} will reimburse for ambulance transport only if the services are documented as being {{c2::medically necessary}}.",
   "Back Extra": "Meaning: medically necessary = it would have been unsafe or impossible to transport the patient by any other means.<br><br>Cue: signatures from the patient or guardian are another essential element for reimbursement.<br><br>Ex: strong necessity documentation includes the dispatch-reported condition, the condition actually found on scene, treatments with the patient's response, and an objective report of appearance and mental status.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-X",
-  "covers": [
-   "U-X"
-  ],
-  "coverage_notes": "Reimbursement rule verified verbatim on the page 405 render; consolidation added the on-page Meaning line defining medically necessary (prerequisite closure)."
+  "image": null
  },
  {
   "Text": "9 scenarios establish <b>medical necessity</b> for ambulance transport:<br>{{c1::emergency transport when no other means was possible}}<br>{{c1::restraint needed to prevent injury to self or others}}<br>{{c1::oxygen or other emergency treatment required during transport}}<br>{{c1::unconscious or in shock}}<br>{{c1::signs of acute respiratory or cardiac distress (shortness of breath, chest pain)}}<br>{{c1::signs suggesting possible acute stroke}}<br>{{c1::immobility required for an unstabilized or possible fracture}}<br>{{c1::severe hemorrhage}}<br>{{c1::bed-confined before and after the trip}}",
   "Back Extra": "Why: Medicare and Medicaid reimburse ambulance transport only when documentation shows the trip was medically necessary.<br><br>Pitfall: necessity also applies to the <i>level</i> of care — documenting ALS interventions for a patient who did not need them is inappropriate.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-X",
-  "covers": [
-   "U-X"
-  ],
-  "coverage_notes": "Genuine cohesive list kept whole per Parker's preference. Consolidation: unflagged — the page 405 render confirms exactly 9 bullets ending at bed-confined (check 17 satisfied against the full source page)."
+  "image": null
  },
  {
   "Text": "For ambulance reimbursement, a patient is <b>bed-confined</b> only if 3 criteria are all met: unable to {{c1::get up from bed without assistance}}, unable to {{c1::ambulate}}, and unable to {{c1::sit in a chair or wheelchair}}.",
   "Back Extra": "Cue: bed-confined status counts toward medical necessity only when it applies <i>before and after</i> the ambulance trip.<br><br>Distinguish: needing help to walk is not enough — a patient who can sit in a wheelchair is <i>not</i> bed-confined.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-X",
-  "covers": [
-   "U-X"
-  ],
-  "coverage_notes": "Grouped triple; wording verified complete on the page 405 render."
+  "image": null
  },
  {
   "Text": "Even when a patient refuses care, completing a PCR is {{c1::still required::still required/not required}}.",
   "Back Extra": "Why: the refusal record must show the patient was competent, was informed of the risks, and was offered care.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Y1",
-  "covers": [
-   "U-Y1"
-  ],
-  "coverage_notes": "Binary with mandatory forced-choice hint."
+  "image": null
  },
  {
   "Text": "A refusal-of-care PCR documents 4 things:<br>{{c1::the advice you gave about the risks of refusing}}<br>{{c1::clinical evidence of competency (such as LOC)}}<br>{{c1::pertinent patient comments and any advice from the physician/medical control}}<br>{{c1::a description of the care you wished to provide}}",
   "Back Extra": "Why: the record must prove the refusal was informed and made by someone competent to refuse.<br><br>Cue: physician/medical control advice to the patient counts even when given by phone or radio — capture it.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Y1",
-  "covers": [
-   "U-Y1"
-  ],
-  "coverage_notes": "Grouped cohesive list of the 4 documentation contents."
+  "image": null
  },
  {
   "Text": "A car-crash patient with neck pain accepts treatment and transport but refuses a cervical collar. Provide {{c1::all other medical care (including oxygen)}} and document {{c1::the specific refusal (collar declined)}}.",
   "Back Extra": "Why: refusal of care pertains not only to transport — a patient may refuse one aspect of care while accepting the rest.<br><br>Pitfall: a collar refusal is <b>no reason</b> to deny oxygen; one refusal never cancels the rest of the care plan.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Y2",
-  "covers": [
-   "U-Y2"
-  ],
-  "coverage_notes": "Scenario card using the source's own c-collar/oxygen example."
+  "image": null
  },
  {
   "Text": "A {{c1::base station}} is any radio hardware containing {{c2::a transmitter::unit}} and {{c2::a receiver::unit}} that is located {{c3::in a fixed place::location}}.",
   "Back Extra": "Distinguish: a mobile radio is installed in a vehicle and a portable radio is handheld — the base station is the one that never moves.<br><br>Meaning: a transmitter and a receiver together make up a <i>two-way radio</i>; some base stations have more than one of each.<br><br>Ex: dispatch centers, fire stations, ambulance bases, and hospitals often serve as base stations.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Z1",
-  "covers": [
-   "U-Z1"
-  ],
-  "coverage_notes": "Two-way definition; transmitter+receiver grouped under c2, fixed-place discriminator c3."
+  "image": null
  },
  {
   "Text": "Most <b>VHF</b> mobile radios operate {{c1::between 30 and 300 MHz::range}}, whereas <b>UHF</b> mobile radios operate {{c1::between 300 MHz and 3,000 MHz::range}}.",
   "Back Extra": "Meaning: VHF = very high frequency; UHF = ultra-high frequency.<br><br>Cue: radios operating at 800 MHz, increasingly common in EMS systems, sit in the UHF band.",
   "chapter": 4,
   "needs_human_check": true,
-  "image": null,
-  "unit": "U-Z2",
-  "covers": [
-   "U-Z2"
-  ],
-  "coverage_notes": "Grouped two-sided numeric contrast; flagged for the MHz ranges."
+  "image": null
  },
  {
   "Text": "A {{c1::mobile radio::radio type}} is installed {{c2::in a vehicle::where}} and usually operates at {{c3::lower::higher/lower}} power than a base station.",
   "Back Extra": "Distinguish: a portable radio is handheld and carried on your person; a base station stays at a fixed site — the mobile radio is the vehicle-mounted middle tier.<br><br>Cue: transmission range steps down the same ladder — base station, then mobile, then portable.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Z2",
-  "covers": [
-   "U-Z2"
-  ],
-  "coverage_notes": "Mobile-radio definition from grounded context; power direction forced-choice."
+  "image": null
  },
  {
   "Text": "Communications from a <b>mobile radio</b> are typically limited to {{c1::10 to 15 miles::range}} over average terrain.",
   "Back Extra": "Why: mobile antennas sit much closer to the ground than base station antennas, so mobile signals cannot carry as far.<br><br>Distinguish: a handheld portable radio (1 to 5 watts) is even more limited — its antenna stands no taller than the EMT holding it.",
   "chapter": 4,
   "needs_human_check": true,
-  "image": null,
-  "unit": "U-Z3",
-  "covers": [
-   "U-Z3"
-  ],
-  "coverage_notes": "Numeric range card; flagged (10-15 miles, 1-5 watts)."
+  "image": null
  },
  {
   "Text": "A {{c1::repeater}} is a special {{c3::base station::radio class}} radio that receives messages on one frequency and then automatically {{c2::retransmits them on a second frequency}}.",
   "Back Extra": "Why: base-station hardware brings a large antenna and high power, so a weak signal from a distant portable gets picked up and rebroadcast at full strength.<br><br>Ex: two portable or mobile units too far apart to reach each other directly can still communicate by going through the repeater.<br><br>Cue: EMS systems built on repeaters usually enjoy outstanding systemwide communications.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Z4",
-  "covers": [
-   "U-Z4"
-  ],
-  "coverage_notes": "Definition with three clozed facts: name, base-station classification, second-frequency mechanic."
+  "image": null
  },
  {
   "Text": "With {{c1::telemetry::transmission process}}, electronic signals are converted into {{c2::coded, audible signals::signal form}} that can be sent by radio or telephone.",
   "Back Extra": "Pathway: coded signals travel by radio or telephone → a decoder at the hospital converts them back into electronic impulses → the impulses are displayed on a screen or printed.<br><br>Ex: telemetry is what allows an ECG to be transmitted from the field to the hospital.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Z5",
-  "covers": [
-   "U-Z5"
-  ],
-  "coverage_notes": "Two-way definition with decode pathway."
+  "image": null
  },
  {
   "Text": "A cellular telephone is effectively a {{c1::low-power portable radio::device class}} that communicates through a series of {{c2::interconnected repeater stations}} called cells.",
   "Back Extra": "Distinguish: a satellite phone (satphone) uses a satellite instead of a cell to receive and relay its signals.<br><br>Ex: EMTs commonly reach receiving facilities by cellular telephone; the cells are linked by a sophisticated computer system and connected to the telephone network.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Z6",
-  "covers": [
-   "U-Z6"
-  ],
-  "coverage_notes": "Cell-phone-as-radio identity card; satphone contrast."
+  "image": null
  },
  {
   "Text": "A {{c1::scanner}} is a radio receiver that searches across several frequencies, stops whenever it receives a broadcast on one, and continues once the message is complete.",
   "Back Extra": "Pitfall: scanners put EMS radio traffic in public ears — always respect patient privacy and speak professionally every time you transmit.<br><br>Distinguish: cellular and satellite phones are more private than most radio, but their digital signals make eavesdropping difficult, <i>not</i> impossible.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Z7",
-  "covers": [
-   "U-Z7"
-  ],
-  "coverage_notes": "One-way describe-to-name definition (meaning side decodable from the term)."
+  "image": null
  },
  {
   "Text": "EMS radio transmission modes and the capability that defines each:<br><br><b>Simplex</b> — {{c1::one direction at a time (push to talk, release to listen)}}<br><br><b>Duplex</b> — {{c1::talking and listening at the same time}}<br><br><b>Multiplex</b> — {{c1::two or more frequencies}} carrying {{c1::more than one transmission at once}}, with {{c1::audio and data on separate channels}}",
   "Back Extra": "Distinguish: simplex (common on VHF equipment) — while one party transmits, the other can only receive and must wait to reply; duplex (used on UHF frequencies and cellular telephones) — sometimes described as a pair of frequencies; multiplex — the only one of the three that moves voice and data together.<br><br>Cue: <i>sim</i>plex = one path at a time; <i>du</i>plex = two directions at once; <i>multi</i>plex = many signals at once.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Z8/Z9/Z10",
-  "covers": [
-   "U-Z8",
-   "U-Z9",
-   "U-Z10"
-  ],
-  "coverage_notes": "Rule 0 grouped three-way contrast of the transmission modes."
+  "image": null
  },
  {
   "Text": "A paramedic on scene transmits a patient's ECG to the hospital while simultaneously talking with medical control. Transmission mode required? {{c1::Multiplex::simplex/duplex/multiplex}}",
   "Back Extra": "Distinguish: duplex covers talking and listening at once, but only multiplex adds <i>data</i> on a separate channel alongside the audio.<br><br>Why: the ECG rides a data channel while the voice report rides an audio channel — two or more frequencies working as one system.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Z8/Z9/Z10",
-  "covers": [
-   "U-Z8",
-   "U-Z9",
-   "U-Z10"
-  ],
-  "coverage_notes": "Application card for the duplex-vs-multiplex discrimination; grounded ECG exemplar kept off the grouped card."
+  "image": null
  },
  {
   "Text": "Many VHF and UHF channels, commonly called {{c1::MED channels}}, are reserved {{c2::exclusively for EMS use::how}}.",
   "Back Extra": "Distinguish: hundreds of commercial, local government, and fire service frequencies are <i>also</i> used for EMS communications — MED channels are the dedicated set, not the only set.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Z11",
-  "covers": [
-   "U-Z11"
-  ],
-  "coverage_notes": "Name + exclusivity fact."
+  "image": null
  },
  {
   "Text": "A {{c1::trunking::system type}}, or {{c1::800-MHz::frequency band}}, system assigns {{c2::many (rather than one or two)::how many}} frequencies to a group, and {{c3::a computer}} picks {{c3::the next open frequency}} as each conversation begins.",
   "Back Extra": "Why: constant computer monitoring of frequency load lets the same pool carry far greater traffic — what once needed 30 separate frequencies can run on fewer than 10.<br><br>Pitfall: you will likely be on a different frequency each time you key up, and the switch happens without you being aware of it.",
   "chapter": 4,
-  "needs_human_check": true,
-  "image": null,
-  "unit": "U-Z12",
-  "covers": [
-   "U-Z12"
-  ],
-  "coverage_notes": "Trunking mechanics; flagged for 800 MHz and the 30-vs-10 frequencies detail."
+  "needs_human_check": false,
+  "image": null
  },
  {
   "Text": "An {{c1::interoperable::system type}} communications system allows {{c2::all agencies involved::who}} to share information {{c3::in real time::when}}.",
   "Back Extra": "Mechanism: a voice-over-Internet protocol (VoIP) format connects landlines, cell phones, and computers into one seamless, reliable exchange.<br><br>Why: large-scale emergencies pull in law enforcement, fire, and EMS — often across more than one jurisdiction — and every agency needs the same information at the same moment.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Z13",
-  "covers": [
-   "U-Z13"
-  ],
-  "coverage_notes": "Definition with who/when clozed; VoIP plumbing in Back Extra."
+  "image": null
  },
  {
   "Text": "A {{c1::mobile data terminal (MDT)::equipment}} is a small computer terminal inside the ambulance or other vehicle that {{c2::directly receives data from the dispatch center}}.",
   "Back Extra": "Distinguish: a mobile radio in the same vehicle carries voice traffic — the MDT handles the data side of the run.<br><br>Why: MDTs give a crew greatly expanded communication capabilities.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Z14",
-  "covers": [
-   "U-Z14"
-  ],
-  "coverage_notes": "Two-way definition, figure reference stripped."
+  "image": null
  },
  {
   "Text": "When you are on scene, hearing the dispatcher or hospital clearly does {{c1::not::does/does not}} mean you will be heard or understood when you transmit.<br><br>Two-way reach is limited by how well {{c1::the weaker radio (yours)::which radio}} can talk back.",
   "Back Extra": "Why: base and repeater stations have higher antennas and much greater power than mobile or portable units, so their signals carry much farther than yours.<br><br>Cue: on scene your radio has <i>strong ears but a weak voice</i> — it hears the powerful station far better than it can answer back.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-Z15",
-  "covers": [
-   "U-Z15"
-  ],
-  "coverage_notes": "Asymmetry + limiting principle under one cloze."
+  "image": null
  },
  {
   "Text": "{{c1::Paging::alerting method}} is the use of a {{c2::coded tone or digital radio signal}} and a {{c2::voice or display}} message to alert on-duty and off-duty EMS personnel.",
   "Back Extra": "Ex: receivers are pagers (beepers) and desktop monitor radios, usually silent until their specific paging code comes through.<br><br>Distinguish: a page may target specific personnel or be a blanket signal that activates every pager in the service.<br><br>Why: a page is only the alert — personnel then contact the dispatcher to confirm the message and get the details of their assignment.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-AA1",
-  "covers": [
-   "U-AA1"
-  ],
-  "coverage_notes": "Two-way definition; 'pagers' kept off the visible c1 side."
+  "image": null
  },
  {
   "Text": "Across the 6 phases of an EMS call, a unit typically radios <b>dispatch</b> to:<br>Initial receipt of call (2) → {{c1::acknowledge the call}}; {{c1::confirm the unit is en route}}<br>En route (2) → request {{c1::assistance with directions}} or {{c1::additional resources}}, when needed<br>On scene (4) → {{c1::report arrival at the scene}}; {{c1::check in periodically as a safety measure}}; {{c1::request additional resources}} when needed; {{c1::report leaving the scene}}<br>Arrival at hospital or point of transfer (1) → {{c1::notify dispatch of arrival}}<br>Return to service (1) → notify dispatch when {{c1::the unit is available for another call}}<br>Miscellaneous (1) → notify dispatch (in some systems) anytime the unit is {{c1::not in station}}",
   "Back Extra": "Ex: an arrival report can add obvious size-up details — 'BLS Unit Two is on scene at 3010 Mitchell Street. It is a blue house with a long driveway' — which helps additional units still responding.<br><br>Why: dispatchers field hundreds of calls per hour, so transmit only the important information and keep the channel clear.<br><br>Pitfall: problems that arise during the response are also reported to the dispatcher as they happen.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-AA4",
-  "covers": [
-   "U-AA4",
-   "U-AA2",
-   "U-AA3"
-  ],
-  "coverage_notes": "Grouped phase-by-phase dispatch card; folds the two highlighted duties (confirm en route, report arrival) as rows. The 10-20 minute number is externalized to the sibling numeric card."
+  "image": null
  },
  {
   "Text": "As an on-scene safety measure, how often will many EMS systems require a unit to transmit a check-in to dispatch? {{c1::Every 10-20 minutes::interval}}",
   "Back Extra": "Why: the scheduled transmission is a safety measure — it confirms to dispatch that the crew on scene is still safe.<br><br>Pitfall: not universal — whether and how often to check in varies by EMS system, so follow local protocol.",
   "chapter": 4,
   "needs_human_check": true,
-  "image": null,
-  "unit": "U-AA4",
-  "covers": [
-   "U-AA4"
-  ],
-  "coverage_notes": "Dedicated numeric interval card; flagged per the numeric rule."
+  "image": null
  },
  {
   "Text": "When initiating an EMS radio call, address the {{c1::unit you are calling::called unit / your unit}} first, and then provide the name of {{c1::your own unit::called unit / your unit}}.",
   "Back Extra": "Cue: 'Dispatch, this is BLS Unit Two' — name whom you are calling, then who you are.<br><br>Pitfall: after the initial call, wait — the unit you called will signal when you can begin the transmission.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-BB1",
-  "covers": [
-   "U-BB1"
-  ],
-  "coverage_notes": "Call-initiation order with forced-choice hints."
+  "image": null
  },
  {
   "Text": "When transmitting a number over the EMS radio, such as an address, give both {{c1::the whole number}} and {{c1::its individual digits}}.",
   "Back Extra": "Ex: 'Respond to 1381, 1-3-8-1, Main Street.'<br><br>Why: giving the number two ways lets the receiver verify it — one form checks the other.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-BB2",
-  "covers": [
-   "U-BB2"
-  ],
-  "coverage_notes": "Both forms grouped under one c1; source example in Back Extra."
+  "image": null
  },
  {
   "Text": "Over the EMS radio, confirm or deny with the words {{c1::'affirmative' and 'negative'::2 words}} rather than the plain everyday words.",
   "Back Extra": "Ex: 'affirmative' in place of yes, 'negative' in place of no — 'Is the scene safe?' 'Affirmative.'<br><br>Cue: part of clear-text discipline — plain English, no codes, no slang, no filler such as 'be advised.'",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-BB3",
-  "covers": [
-   "U-BB3"
-  ],
-  "coverage_notes": "Radio diction rule; yes/no kept off the visible stem."
+  "image": null
  },
  {
   "Text": "An EMT's <b>radio patient report</b> commonly includes 10 elements, in order:<br>1. {{c1::Unit ID and service level}}<br>2. {{c1::Any special alert}}<br>3. {{c1::Receiving hospital and ETA}}<br>4. {{c1::Patient's age and sex}}<br>5. {{c1::Chief complaint and severity}}<br>6. {{c1::Brief history of current problem}}<br>7. {{c1::Brief report of physical findings}}<br>8. {{c1::Summary of care given}}<br>9. {{c1::Patient's response to treatment}}<br>10. {{c1::Any additional questions or orders}}",
   "Back Extra": "Cue: the report tells the call's story in order — who we are → any alert → where we're headed and when → who the patient is → what's wrong → how it happened → what we found → what we did → how they responded → what else do you need?<br><br>Distinguish: element 8 is the care you gave; element 9 is how the patient responded to that care.<br><br>Ex: 'Columbus Fire 2-BLS' (element 1); severe trauma → 'trauma alert', heart attack → 'cardiac alert' (element 2); physical findings cover level of consciousness, general appearance, pertinent abnormalities, and vital signs (element 7).",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-CC",
-  "covers": [
-   "U-CC"
-  ],
-  "coverage_notes": "All 10 elements verified in order against the page 434-435 renders; one grouped ordered card covering both highlighted marker elements."
+  "image": null
  },
  {
   "Text": "In the radio patient report, describe the patient by age and sex; the patient's {{c1::name::identifier}} is <b>never</b> given over the air.",
   "Back Extra": "Why: the airwaves are public and scanners are popular — a broadcast name can be overheard, a violation of the patient's privacy.<br><br>Pitfall: the same public-channel logic demands objective, impartial patient descriptions and zero profanity.",
   "chapter": 4,
   "needs_human_check": false,
-  "image": null,
-  "unit": "U-CC",
-  "covers": [
-   "U-CC",
-   "U-BB2"
-  ],
-  "coverage_notes": "Negation card on the no-name privacy rule; grounded in the public-airwaves context."
+  "image": null
  }
 ]

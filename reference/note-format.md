@@ -33,7 +33,8 @@ Open every Back Extra line with one of: `Meaning:` `Why:` `Mechanism:` `Distingu
 **Separate distinct components with a paragraph break `<br><br>`, not a single `<br>`** (Parker's preference, 2026-07-02) — each labeled line sits in its own block with white space around it so his eye can jump between parts. `anki_write.py` normalizes any run of `<br>` in Back Extra to exactly `<br><br>` at write time, so this is guaranteed even for a card drafted with single breaks. Example: `Distinguish: ...<br><br>Pitfall: ...`.
 
 ## HTML
-- Allowed: `<b>`, `<i>`, `<br>`, `<img>`. Nothing else (no `<u>`, no escaped entities). One note per object. Bold/italics are for *selective* emphasis only — the load-bearing word, not whole phrases (Parker's gold cards use italics for contrast; keep it sparing).
+- Allowed on newly generated cards: `<b>`, `<i>`, `<br>`, `<img>`. Nothing else (no `<u>`, no escaped entities). One note per object. Bold/italics are for *selective* emphasis only — the load-bearing word, not whole phrases (Parker's gold cards use italics for contrast; keep it sparing).
+- **Rich pre-existing cards are a known exception.** Some cards already in Parker's deck legitimately carry richer HTML he added himself — embedded reference images/links (`<a><img></a>`), a formatted comparison `<table>`, `<div>`-wrapped lists — and the Ch5 medical-terminology cards carry `clinical-ex` `<div>` blocks plus `[sound:…]` TTS audio. Never strip these. When *verifying* existing cards (an audit/refinement pass, not fresh generation), run `python3 scripts/check_cards.py --audit <file>`: `--audit` skips the minimal-HTML gate (so rich cards pass structural verification) while keeping every meaningful check — cloze presence, leaks, husks, first-letter hints, numeric flags. The default (no flag) stays strict so newly generated cards are still held to `<b>/<i>/<br>/<img>`.
 
 ## Card object (what the writer produces, what `anki_write.py` consumes)
 ```json
