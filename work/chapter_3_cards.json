@@ -21,8 +21,8 @@
   "image": null
  },
  {
-  "Text": "{{c1::Expressed::consent type}} consent, also called {{c3::actual::synonym}} consent, is given when the patient {{c2::specifically acknowledges wanting care or transport}}.",
-  "Back Extra": "Ex: Verbal — the patient says yes when you ask to check his blood pressure; nonverbal — the patient nods yes or extends an arm toward you.<br><br>Distinguish: <i>implied</i> consent is assumed for a patient unable to consent when life or limb is threatened.",
+  "Text": "{{c1::Expressed::consent type}} consent, also called {{c2::actual::synonym}} consent, is given when the patient {{c3::specifically acknowledges wanting care or transport}}.",
+  "Back Extra": "Ex: verbal expressed consent is the patient saying yes when you ask to check his blood pressure.<br><br>Distinguish: <i>implied</i> consent is assumed for a patient unable to consent when life or limb is threatened.",
   "chapter": 3,
   "needs_human_check": false,
   "image": null
@@ -49,21 +49,21 @@
   "image": null
  },
  {
-  "Text": "In many states a minor is considered {{c2::emancipated::legal status}}, meaning {{c3::legally treated as an adult despite being under the legal age}}, based on four common circumstances:<br>{{c1::marriage}}<br>{{c1::membership in the armed services}}<br>{{c1::parenthood}}<br>{{c1::living away from parents and self-supporting}}",
+  "Text": "In many states a minor is considered {{c2::emancipated::legal status}}, meaning {{c3::legally treated as an adult::meaning}} despite being under the legal age, based on four common circumstances:<br>{{c1::marriage}}<br>{{c1::membership in the armed services}}<br>{{c1::parenthood}}<br>{{c1::living away from parents and self-supporting}}",
   "Back Extra": "Mnemonic: the 4 M's — <b>M</b>arried, <b>M</b>ilitary, <b>M</b>om/Dad (is a parent), <b>M</b>oved out (self-supporting).<br><br>Ex: a court order can also declare a minor emancipated, but that route is uncommon.<br><br>Pitfall: emancipation is state law and the exact circumstances vary — know your state's rules.",
   "chapter": 3,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "If a minor is injured at a school or camp and no parent or guardian is available, {{c3::teachers and school officials::roles}} may legally consent to the minor's treatment by acting {{c1::in loco parentis::legal term}}, which means {{c2::in the position or place of a parent}}.",
+  "Text": "If a minor is injured at a school or camp and no parent or guardian is available, {{c3::teachers and school officials::roles}} may legally consent to the minor's treatment by acting {{c1::in loco parentis::legal term}}, which means {{c2::in the place of a parent::meaning}}.",
   "Back Extra": "Pitfall: still attempt to reach the actual parent or legal guardian whenever possible — in loco parentis is the fallback, not the first choice.<br><br>Distinguish: with no parent available AND a true emergency, no one's permission is needed at all — the minor's consent is implied, just as with an adult.<br><br> [sound:hypertts-9e95fbc0627e694ec42c3c85c4d394f22c601e67e49b6dc294d25e6a.mp3]",
   "chapter": 3,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "When caring for patients with {{c2::terminal illnesses::patient population}}, you may encounter {{c1::POLST::form acronym}} and {{c1::MOLST::form acronym}} forms, which explicitly describe {{c3::acceptable interventions}} in the form of {{c3::medical orders}}.",
+  "Text": "When caring for patients with {{c2::terminal illnesses::patient population}}, you may encounter {{c1::POLST}} and {{c1::MOLST}} forms, which explicitly describe the patient's {{c3::acceptable interventions}} in the form of medical orders.",
   "Back Extra": "Distinguish: a DNR addresses resuscitation only; POLST/MOLST forms go further, spelling out which interventions the patient accepts.<br><br>Cue: expect them on hospice and other end-of-life calls.",
   "chapter": 3,
   "needs_human_check": false,
@@ -84,7 +84,7 @@
   "image": null
  },
  {
-  "Text": "{{c1::Algor mortis::postmortem sign}} is the {{c2::cooling of the body until it matches the ambient temperature}}.",
+  "Text": "{{c1::Algor mortis::postmortem sign}} is the {{c2::cooling of the body to ambient temperature::meaning}}.",
   "Back Extra": "Distinguish: rigor mortis is stiffening of the muscles and dependent lividity is skin discoloration from pooled blood — both are separate postmortem signs of death. <br><br>[sound:hypertts-529d4bff2697b099d221cdb63f87a2240bf94d61946a078cadf54f08.mp3]",
   "chapter": 3,
   "needs_human_check": false,
@@ -105,35 +105,35 @@
   "image": null
  },
  {
-  "Text": "Treat a potential <b>organ donor</b> {{c1::the same as any other patient::how}}, using {{c1::all means necessary}} to keep the patient alive — and give {{c2::oxygen::treatment}} at all times, or commonly donated organs (kidney, heart, liver) will be {{c2::damaged and become useless::consequence}}.",
+  "Text": "Treat a potential <b>organ donor</b> {{c1::the same as any other patient::how}}, using all means necessary to keep the patient alive — and give {{c2::oxygen::treatment}} at all times, or commonly donated organs (kidney, heart, liver) become {{c3::damaged and useless::consequence}}.",
   "Back Extra": "Why: the priority is saving the patient's life, not preserving organs — never scale back treatment because the patient may become a donor.<br><br>Pitfall: protocols for special situations like organ donation vary — learn your area's specific rules.<br><br>Cue: donor care = normal patient care + oxygen, always.",
   "chapter": 3,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "An EMT who {{c1::carries out procedures they are not authorized to perform::conduct}} is practicing outside their {{c2::scope of practice::legal concept}}, which may be considered {{c3::negligence}} or, in some states, even a {{c3::criminal offense}}.",
+  "Text": "An EMT who performs procedures they are {{c1::not authorized::authorized/not authorized}} to perform is acting outside their {{c2::scope of practice::legal concept}}, which may be considered {{c3::negligence}} or, in some states, a {{c3::criminal offense}}.",
   "Back Extra": "Why: an EMT's authorization comes through medical direction, either online (telephone/radio orders) or offline (standing orders and protocols); a procedure beyond that authorization has no legal cover.<br><br>Distinguish: <i>scope of practice</i> = what you are authorized to do; <i>standard of care</i> = how you must act or behave. The two should not be confused.",
   "chapter": 3,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "A {{c1::standard of care::legal concept}} is {{c2::the manner in which you must act or behave}} as an EMT.",
+  "Text": "A {{c1::standard of care::legal concept}} is {{c2::how you must act or behave::meaning}} as an EMT.",
   "Back Extra": "Distinguish: <i>scope of practice</i> = which procedures you are authorized to perform; a standard of care is about your conduct, not your authorization.<br><br>Why: the law requires concern for the safety and welfare of others whenever your behavior or activities could cause them injury or harm.<br><br>Ex: standards of care are established by local customs, statutes, ordinances, protocols, medical literature, and case law.",
   "chapter": 3,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "{{c1::Duty to act::legal concept}} is {{c2::an individual's responsibility to provide patient care}}.",
+  "Text": "{{c1::Duty to act::legal concept}} is an individual's {{c2::responsibility to provide patient care::meaning}}.",
   "Back Extra": "Distinguish: a bystander has <i>no</i> duty to act — no obligation to assist a stranger in distress.<br><br>Why: a duty to act arises from either statute or function.",
   "chapter": 3,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "In EMS law, {{c1::negligence::legal concept}} is the failure to provide {{c2::the same care that a person with similar training would provide}} in the same or a similar situation.",
+  "Text": "In EMS law, {{c1::negligence::legal concept}} is the failure to provide {{c2::the care a similarly trained person would give::meaning}} in the same situation.",
   "Back Extra": "Distinguish: <i>breach of duty</i> is only one element of a negligence claim — not acting within the expected and reasonable standard of care.<br><br>Pitfall: harm alone is not negligence — duty, breach of duty, damages, and causation must all be present.",
   "chapter": 3,
   "needs_human_check": false,
@@ -169,7 +169,7 @@
  },
  {
   "Text": "In EMS law, {{c1::false imprisonment::legal term}} is the {{c2::unauthorized confinement}} of a person that lasts for {{c3::an appreciable period of time::how long}}.",
-  "Back Extra": "Distinguish: kidnapping requires force (seizing or carrying away); false imprisonment does not, and it is the far more likely civil claim against an EMT.<br><br>Ex: refusing to let a patient out of the ambulance after they rescind consent mid-transport.",
+  "Back Extra": "Distinguish: kidnapping requires force (seizing or carrying away); false imprisonment does not, and it is the far more likely civil claim against an EMT.<br><br>Pitfall: even a good-faith transport can become false imprisonment once the patient withdraws consent.",
   "chapter": 3,
   "needs_human_check": false,
   "image": null
@@ -183,13 +183,13 @@
  },
  {
   "Text": "{{c1::Libel}} is defamation that is {{c2::written::written or spoken}}, whereas {{c1::slander}} is defamation that is {{c2::spoken::written or spoken}}.",
-  "Back Extra": "Cue: <i>s</i>lander = <i>s</i>poken — both start with <i>s</i>.<br><br>Ex: a false statement written on a run report would be libel; a false \"war story\" told aloud to friends would be slander.&nbsp; <br><br>[sound:hypertts-02a5098d728d853d028c71c4dca1d41ff961dc3bde16d0d937bf37a4.mp3]",
+  "Back Extra": "Cue: <i>s</i>lander = <i>s</i>poken — both start with <i>s</i>.<br><br>Ex: a false statement written on a run report would be libel; a false \"war story\" told aloud to friends would be slander.<br><br>[sound:hypertts-02a5098d728d853d028c71c4dca1d41ff961dc3bde16d0d937bf37a4.mp3]",
   "chapter": 3,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "{{c1::Gross negligence::legal term}} is conduct that constitutes a {{c2::willful or reckless}} disregard for a {{c2::duty or standard of care}}.",
+  "Text": "{{c1::Gross negligence::legal term}} is conduct that constitutes a {{c2::willful or reckless::how}} disregard for a duty or standard of care.",
   "Back Extra": "Distinguish: <i>ordinary</i> negligence is just failing to provide the care a similarly trained provider would give in the same situation; no willful or reckless element is required.<br><br>Pitfall: gross negligence voids an EMS provider's legal protection. State immunity laws give no protection when injury or damage is caused by gross negligence or <i>willful misconduct</i>.",
   "chapter": 3,
   "needs_human_check": false,
@@ -203,7 +203,7 @@
   "image": null
  },
  {
-  "Text": "{{c1::Morality}} is {{c2::a code of conduct}} that defines {{c2::right versus wrong}} and can be set by {{c3::society, religion, or a person::sources}}.",
+  "Text": "{{c1::Morality}} is {{c2::a code of conduct::meaning}} defining right versus wrong, set by {{c3::society, religion, or a person::sources}}.",
   "Back Extra": "Distinguish: Ethics is the philosophy that studies right and wrong; morality is the code of conduct itself.<br><br>Cue: Morality shapes a person's character and conscience.",
   "chapter": 3,
   "needs_human_check": false,
@@ -224,14 +224,14 @@
   "image": null
  },
  {
-  "Text": "The {{c1::statute of limitations::lawsuit defense}} is {{c2::the time within which a claim must be initiated}}.",
+  "Text": "The {{c1::statute of limitations::lawsuit defense}} is {{c2::the deadline to initiate a claim::meaning}}.",
   "Back Extra": "Ex: in many states a negligence claim must be initiated within 3 years of the event; a case filed later is barred.<br><br>Pitfall: most states extend the window for children, sometimes until the injured child's 21st birthday.",
   "chapter": 3,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "{{c1::Contributory negligence::defense}} is a lawsuit defense raised when {{c2::the plaintiff's own conduct helped cause the injuries or damages}}.",
+  "Text": "{{c1::Contributory negligence::defense}} is a lawsuit defense raised when {{c2::the plaintiff's own conduct contributed to the harm::meaning}}.",
   "Back Extra": "Distinguish: statute of limitations attacks a late filing, governmental immunity turns on who operates the service, contributory negligence points at the plaintiff's own conduct.<br><br>Cue: \"the patient did something wrong too.\"",
   "chapter": 3,
   "needs_human_check": false,
@@ -259,15 +259,71 @@
   "image": null
  },
  {
-  "Text": "Before acting on a tough ethical call, an EMT can run the six yes/no questions of the ethical decision-making checklist:<br>{{c1::Would you agree to the same decision if you were the patient?}}<br>{{c1::Is the decision in the best interests of the patient?}}<br>{{c1::Is it based on logic and reason rather than emotion?}}<br>{{c1::Does it protect the patient's rights?}}<br>{{c1::Would you make the same decision again in similar circumstances?}}<br>{{c1::Can you defend the decision to others?}}",
-  "Back Extra": "<div style=\"max-width:660px;margin:6px auto 0;text-align:left;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;\"><div style=\"border:1px solid rgba(128,128,128,.22);border-radius:12px;padding:14px 16px;background:rgba(128,128,128,.06);\"><div style=\"display:flex;align-items:baseline;gap:11px;flex-wrap:wrap;\"><span style=\"font-size:10.5px;letter-spacing:2.5px;text-transform:uppercase;opacity:.5;font-weight:700;\">Mnemonic</span><span style=\"font-size:27px;font-weight:800;letter-spacing:7px;\">ETHICS</span></div><div style=\"font-size:12.5px;opacity:.6;margin-top:3px;\">The word spells itself. Read the letters top to bottom.</div><table style=\"border-collapse:collapse;width:100%;margin-top:12px;\"><tbody><tr><td style=\"width:40px;padding:5px 0;vertical-align:middle;\"><span style=\"display:inline-block;width:30px;height:30px;line-height:30px;text-align:center;border-radius:8px;background:#0b7285;color:#fff;font-weight:800;font-size:16px;\">E</span></td><td style=\"padding:5px 0 5px 11px;vertical-align:middle;\"><span style=\"font-weight:700;font-size:14.5px;\">Empathy</span><div style=\"opacity:.62;font-size:12.5px;margin-top:1px;\">Would I agree if <i>I</i> were the patient?</div></td></tr><tr><td style=\"width:40px;padding:5px 0;vertical-align:middle;\"><span style=\"display:inline-block;width:30px;height:30px;line-height:30px;text-align:center;border-radius:8px;background:#0b7285;color:#fff;font-weight:800;font-size:16px;\">T</span></td><td style=\"padding:5px 0 5px 11px;vertical-align:middle;\"><span style=\"font-weight:700;font-size:14.5px;\">Their best interest</span><div style=\"opacity:.62;font-size:12.5px;margin-top:1px;\">Is it best for the patient?</div></td></tr><tr><td style=\"width:40px;padding:5px 0;vertical-align:middle;\"><span style=\"display:inline-block;width:30px;height:30px;line-height:30px;text-align:center;border-radius:8px;background:#3b5bdb;color:#fff;font-weight:800;font-size:16px;\">H</span></td><td style=\"padding:5px 0 5px 11px;vertical-align:middle;\"><span style=\"font-weight:700;font-size:14.5px;\">Head over heart</span><div style=\"opacity:.62;font-size:12.5px;margin-top:1px;\">Logic and reason, not emotion?</div></td></tr><tr><td style=\"width:40px;padding:5px 0;vertical-align:middle;\"><span style=\"display:inline-block;width:30px;height:30px;line-height:30px;text-align:center;border-radius:8px;background:#0b7285;color:#fff;font-weight:800;font-size:16px;\">I</span></td><td style=\"padding:5px 0 5px 11px;vertical-align:middle;\"><span style=\"font-weight:700;font-size:14.5px;\">Individual's rights</span><div style=\"opacity:.62;font-size:12.5px;margin-top:1px;\">Does it protect the patient's rights?</div></td></tr><tr><td style=\"width:40px;padding:5px 0;vertical-align:middle;\"><span style=\"display:inline-block;width:30px;height:30px;line-height:30px;text-align:center;border-radius:8px;background:#3b5bdb;color:#fff;font-weight:800;font-size:16px;\">C</span></td><td style=\"padding:5px 0 5px 11px;vertical-align:middle;\"><span style=\"font-weight:700;font-size:14.5px;\">Consistent</span><div style=\"opacity:.62;font-size:12.5px;margin-top:1px;\">Would I decide the same again next time?</div></td></tr><tr><td style=\"width:40px;padding:5px 0;vertical-align:middle;\"><span style=\"display:inline-block;width:30px;height:30px;line-height:30px;text-align:center;border-radius:8px;background:#a61e4d;color:#fff;font-weight:800;font-size:16px;\">S</span></td><td style=\"padding:5px 0 5px 11px;vertical-align:middle;\"><span style=\"font-weight:700;font-size:14.5px;\">Stand behind it</span><div style=\"opacity:.62;font-size:12.5px;margin-top:1px;\">Can I defend it to others?</div></td></tr></tbody></table><div style=\"display:flex;gap:16px;flex-wrap:wrap;margin-top:13px;padding-top:11px;border-top:1px solid rgba(128,128,128,.22);font-size:12px;opacity:.9;\"><span style=\"white-space:nowrap;\"><span style=\"display:inline-block;width:9px;height:9px;border-radius:50%;background:#0b7285;margin-right:5px;vertical-align:middle;\"></span><b>Patient</b>&nbsp; E · T · I</span><span style=\"white-space:nowrap;\"><span style=\"display:inline-block;width:9px;height:9px;border-radius:50%;background:#3b5bdb;margin-right:5px;vertical-align:middle;\"></span><b>Reasoning</b>&nbsp; H · C</span><span style=\"white-space:nowrap;\"><span style=\"display:inline-block;width:9px;height:9px;border-radius:50%;background:#a61e4d;margin-right:5px;vertical-align:middle;\"></span><b>Accountability</b>&nbsp; S</span></div></div><div style=\"margin-top:12px;padding:10px 13px;border-left:3px solid #e8590c;background:rgba(232,89,12,.10);border-radius:5px;font-size:13px;line-height:1.5;\"><b>Pitfall.</b> Don't wrestle a hard ethical call alone; involve online medical control in the decision.</div></div>",
+  "Text": "In end-of-life orders, <b>POLST</b> stands for {{c1::Physician Orders for Life-Sustaining Treatment}} and <b>MOLST</b> stands for {{c2::Medical Orders for Life-Sustaining Treatment}}.",
+  "Back Extra": "Cue: the two expansions differ only in the first word — <i>P</i>hysician vs <i>M</i>edical; both end in Orders for Life-Sustaining Treatment.<br><br>Why: because they are written as medical orders, they tell EMS explicitly which interventions the patient accepts.",
   "chapter": 3,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "In negligence cases, punitive damages are {{c1::not commonly::commonly/not commonly}} awarded. Punitive damages require conduct that was {{c1::intentional::conduct type}} or showed {{c1::reckless disregard for the safety of the public::conduct type}}.",
+  "Text": "Two legal presumptions attach to EMS reports and records:<br>An action <b>not</b> recorded on the written report is presumed {{c1::not performed::performed/not performed}}.<br>An incomplete or untidy report is evidence of {{c2::incomplete or inexpert::2 care flaws}} emergency medical care.",
+  "Back Extra": "Why: without a record you must testify from memory alone, which is wholly inadequate and embarrassing under aggressive cross-examination.<br><br>Cue: \"not documented, not done\" and \"sloppy chart, sloppy care.\"<br><br>Pitfall: \"I did it but didn't chart it\" fails in court; the only defense against both presumptions is a complete, accurate report on every patient contact.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null
+ },
+ {
+  "Text": "In negligence cases, punitive damages are {{c1::not commonly::commonly/not commonly}} awarded, because they require {{c2::intentional::conduct type}} conduct or {{c2::reckless disregard::conduct type}} for public safety.",
   "Back Extra": "Distinguish: compensatory damages repay the plaintiff for injuries sustained; punitive damages respond to how the defendant acted.<br><br>Why: a negligence claim alleges careless rather than intentional conduct, so the punitive threshold is rarely met.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null
+ },
+ {
+  "Text": "To <b>forcibly restrain</b> a combative patient who poses a physical danger to himself or others, an EMT should typically consult {{c1::medical control}} for authorization or contact {{c2::law enforcement}}.",
+  "Back Extra": "Distinguish: medical control grants <i>you</i> authorization to restrain; law enforcement personnel carry the legal authority to restrain people themselves.<br><br>Why: restraint without legal authority exposes you to civil and criminal penalties.<br><br>Pitfall: in some states only a police officer may forcibly restrain a person, so know your local laws.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null
+ },
+ {
+  "Text": "For emergency care of a mentally incompetent adult, consent should be obtained from someone {{c1::legally responsible}} for the patient, such as a {{c2::guardian}} or {{c2::conservator}}.",
+  "Back Extra": "Pitfall: a guardian's permission is often not readily obtainable, and many states have protective custody statutes letting law enforcement take the patient to a medical facility.<br><br>Ex: under certain conditions, law enforcement and prison officials are also legally permitted to give consent.<br><br>Distinguish: if the injury is an immediate life threat and no guardian is reachable, care proceeds under implied consent.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null
+ },
+ {
+  "Text": "On every call where a patient refuses treatment, you should involve {{c1::online medical control::who}} and {{c2::document that consultation::action}}.",
+  "Back Extra": "Why: refusal-of-care calls pose a real litigation risk in EMS and require you to proceed cautiously.<br><br>Cue: be familiar with your local policies on refusal of care.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null
+ },
+ {
+  "Text": "An adult patient who is mentally incompetent {{c1::cannot::can/cannot}} give informed consent, a situation legally similar to consent involving {{c2::a minor::patient category}}.",
+  "Back Extra": "Ex: patients who are mentally ill, developmentally delayed, or in behavioral (psychological) crisis may lack the capacity to consent.<br><br>Meaning: consent granted on a mentally incompetent patient's behalf is called involuntary consent.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null
+ },
+ {
+  "Text": "When multiple patients are in close proximity, such as in the back of one ambulance, PHI protections {{c1::still apply::still apply/are relaxed}}, whether or not the patients are {{c2::family::relationship}}.",
+  "Back Extra": "Meaning: PHI = protected health information.<br><br>Why: confidential details may go only to providers directly involved in that patient's care, so a nearby patient has no right to hear them.<br><br>Pitfall: never leave electronic devices or patient reports containing PHI unattended.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null
+ },
+ {
+  "Text": "Using a personal electronic device, such as a cell phone, to capture information from a call is {{c1::prohibited::permitted/prohibited}}.<br>Photos of a patient's injuries or vehicle, and crew recordings during a call, are considered {{c2::PHI::classification}} and a {{c2::confidential::status}} part of the patient report.",
+  "Back Extra": "Pitfall: never post PHI on social media.<br><br>Distinguish: patient information may be used for internal quality improvement and training, but only after <i>all</i> identifying information is removed.<br><br>Pitfall: a legitimate-sounding purpose (such as documentation) does not make personal-device photos allowed.",
+  "chapter": 3,
+  "needs_human_check": false,
+  "image": null
+ },
+ {
+  "Text": "Before a tough ethical call, an EMT can run the six-question ethical decision-making checklist (mnemonic <b>ETHICS</b>):<br>Would you agree if you were the {{c1::patient}}?<br>Is it in the patient's {{c1::best interest}}?<br>Is it based on {{c1::logic and reason}} rather than emotion?<br>Does it protect the patient's {{c1::rights}}?<br>Would you make the same decision {{c1::again}} in similar circumstances?<br>Can you {{c1::defend}} the decision to others?",
+  "Back Extra": "Mnemonic: <b>ETHICS</b> —<br><br>E = Empathy (agree if I were the patient?)<br><br>T = Their best interest?<br><br>H = Head over heart (logic, not emotion?)<br><br>I = Individual's rights protected?<br><br>C = Consistent (decide the same again?)<br><br>S = Stand behind it (defend to others?)<br><br>Pitfall: don't wrestle a hard ethical call alone — involve online medical control in the decision.",
   "chapter": 3,
   "needs_human_check": false,
   "image": null
@@ -315,24 +371,10 @@
   "image": null
  },
  {
-  "Text": "When determining a patient's <b>decision-making capacity</b>, consider 8 factors:<div><br>{{c1::Impaired intellect (mental limitation or dementia)}}</div><div><br>{{c1::Legal age (18 in most states)}}</div><div><br>{{c1::Alcohol or drug intoxication, or serious injury or illness}}</div><div><br>{{c1::Significant pain}}</div><div><br>{{c1::A significant distracting injury (may mask a more serious one)}}</div><div><br>{{c1::Hearing or visual problems}}</div><div><br>{{c1::A language barrier}}</div><div><br>{{c1::Apparent understanding (asks rational questions)}}</div>",
+  "Text": "When determining a patient's <b>decision-making capacity</b>, consider 8 factors:<br>{{c1::Impaired intellect (mental limitation or dementia)}}<br>{{c1::Legal age (18 in most states)}}<br>{{c1::Alcohol or drug intoxication, or serious injury or illness}}<br>{{c1::Significant pain}}<br>{{c1::A significant distracting injury (may mask a more serious one)}}<br>{{c1::Hearing or visual problems}}<br>{{c1::A language barrier}}<br>{{c1::Apparent understanding (asks rational questions)}}",
   "Back Extra": "Why: Decision-making capacity is the foundation of consent — an adult who is conscious, rational, and capable of an informed decision may legally refuse care, so these factors decide whose refusal stands.<br><br>Cue: Sweep the conversation head to toe — mind, age, chemicals, pain, senses, language, comprehension.",
   "chapter": 3,
   "needs_human_check": true,
-  "image": null
- },
- {
-  "Text": "For emergency care of a mentally incompetent adult, consent should be obtained from someone {{c1::legally responsible}} for the patient, such as a {{c1::guardian}} or {{c1::conservator}}.",
-  "Back Extra": "Pitfall: a guardian's permission is often not readily obtainable, and many states have protective custody statutes letting law enforcement take the patient to a medical facility.<br><br>Ex: under certain conditions, law enforcement and prison officials are also legally permitted to give consent.<br><br>Distinguish: if the injury is an immediate life threat and no guardian is reachable, care proceeds under implied consent.",
-  "chapter": 3,
-  "needs_human_check": false,
-  "image": null
- },
- {
-  "Text": "On every call where a patient refuses treatment, you should involve {{c1::online medical control::who}} and {{c1::document that consultation::what should you do?}}.",
-  "Back Extra": "Why: refusal-of-care calls pose a real litigation risk in EMS and require you to proceed cautiously.<br><br>Cue: be familiar with your local policies on refusal of care.",
-  "chapter": 3,
-  "needs_human_check": false,
   "image": null
  },
  {
@@ -343,21 +385,14 @@
   "image": null
  },
  {
-  "Text": "Before you transfer care or leave a patient, ask yourself <b>8</b> general self-check questions:<br>{{c1::What problems may develop from your actions?}}<br>{{c1::How might the patient's condition worsen if you leave?}}<br>{{c1::Does the patient need care?}}<br>{{c1::Are you neglecting your duty to your patient?}}<br>{{c1::Is the person assuming care capable of providing the level of care needed by the patient?}}<br>{{c1::Are you abandoning the patient if you leave the scene?}}<br>{{c1::Are you violating a standard of care?}}<br>{{c1::Are you acting prudently?}}",
+  "Text": "Before you transfer care or leave a patient, run <b>8</b> self-check questions:<br>What {{c1::problems}} may develop from your actions?<br>How might the patient's condition {{c1::worsen}} if you leave?<br>Does the patient {{c1::need care}}?<br>Are you neglecting your {{c1::duty}}?<br>Is the person assuming care {{c1::capable}}?<br>Are you {{c1::abandoning}} the patient?<br>Are you violating a {{c1::standard of care}}?<br>Are you acting {{c1::prudently}}?",
   "Back Extra": "Cue: chunk the eight into consequences (problems, worsening), the patient (need for care), the receiver (capable?), and your own conduct (duty, abandonment, standard of care, prudence).<br><br>Why: each question tests whether leaving would breach the duty you assumed the moment care began.",
   "chapter": 3,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "Two legal presumptions attach to EMS reports and records:<br>An action or procedure <b>not</b> recorded on the written report is presumed {{c1::not performed::performed/not performed}}.<br>An {{c1::incomplete or untidy::2 report flaws}} report is evidence of {{c1::incomplete or inexpert::2 care flaws}} emergency medical care.",
-  "Back Extra": "Why: without a record you must testify from memory alone, which is wholly inadequate and embarrassing under aggressive cross-examination.<br><br>Cue: \"not documented, not done\" and \"sloppy chart, sloppy care.\"<br><br>Pitfall: \"I did it but didn't chart it\" fails in court; the only defense against both presumptions is a complete, accurate report on every patient contact.",
-  "chapter": 3,
-  "needs_human_check": false,
-  "image": null
- },
- {
-  "Text": "Before leaving the scene where a patient has refused care, you should:<br>{{c1::Encourage the patient, up to three times if the situation allows, to permit treatment}}<br>{{c1::Remind the patient to call 9-1-1 if they change their mind or the condition worsens}}<br>{{c1::Advise the patient to contact a personal physician as soon as possible}}",
+  "Text": "Before leaving the scene of a refusal, you should:<br>{{c1::encourage the patient again, up to three times, to permit treatment}}<br>{{c1::remind them to call 9-1-1 if they change their mind or worsen}}<br>{{c1::advise them to contact a personal physician}}",
   "Back Extra": "Why: your documentation must show every effort you made to obtain consent.<br><br>Cue: also get the refusal form signed and document the refusal thoroughly before you clear the scene.<br><br>Pitfall: never endanger yourself to care for a refusing patient; use law enforcement if needed for your own safety.",
   "chapter": 3,
   "needs_human_check": true,
@@ -420,7 +455,7 @@
   "image": null
  },
  {
-  "Text": "A patient being treated under implied consent who {{c1::regains consciousness}} and appears {{c1::capable of making an informed decision}} is {{c2::no longer::still/no longer}} covered by the doctrine.",
+  "Text": "A patient being treated under implied consent who {{c1::regains consciousness}} and can make an informed decision is {{c2::no longer::still/no longer}} covered by the doctrine.",
   "Back Extra": "Ex: classic on diabetic-emergency, overdose, syncope, and seizure calls — the patient wakes up mid-treatment.<br><br>Why: implied consent only substitutes for the decision of a patient who cannot make one; once capacity returns, the patient decides for himself.<br><br>Meaning: from that moment, care and transport continue only with the patient's own consent.",
   "chapter": 3,
   "needs_human_check": false,
@@ -435,7 +470,7 @@
  },
  {
   "Text": "In EMS law, {{c1::assault::legal term}} is unlawfully placing a person in {{c2::fear of immediate bodily harm}}.",
-  "Back Extra": "Distinguish: battery requires actual unlawful touching; assault is complete with fear alone, no contact needed.<br><br>Ex: threatening to restrain a patient who does not want to be transported could be considered assault.",
+  "Back Extra": "Distinguish: battery requires actual unlawful touching; assault is complete with fear alone, no contact needed.<br><br>Pitfall: no injury or contact is required — putting the patient in fear of imminent harm is enough.",
   "chapter": 3,
   "needs_human_check": false,
   "image": null
@@ -483,43 +518,8 @@
   "image": null
  },
  {
-  "Text": "An adult patient who is mentally incompetent {{c1::cannot::can/cannot}} give informed consent, a situation legally similar to consent involving {{c1::a minor::patient category}}.",
-  "Back Extra": "Ex: patients who are mentally ill, developmentally delayed, or in behavioral (psychological) crisis may lack the capacity to consent.<br><br>Meaning: consent granted on a mentally incompetent patient's behalf is called involuntary consent.",
-  "chapter": 3,
-  "needs_human_check": false,
-  "image": null
- },
- {
-  "Text": "When multiple patients are in close proximity, such as in the back of one ambulance, PHI protections {{c1::still apply::still apply / are relaxed}}, whether or not the patients are {{c1::family::relationship}}.",
-  "Back Extra": "Meaning: PHI = protected health information.<br><br>Why: confidential details may go only to providers directly involved in that patient's care, so a nearby patient has no right to hear them.<br><br>Pitfall: never leave electronic devices or patient reports containing PHI unattended.",
-  "chapter": 3,
-  "needs_human_check": false,
-  "image": null
- },
- {
-  "Text": "Using a personal electronic device, such as a cell phone, to capture information from a call is {{c1::prohibited::permitted / prohibited}}.<br>Photos of a patient's injuries or vehicle, and recordings made by crew members during a call, are {{c1::PHI::classification}} and a {{c1::confidential::status}} part of the {{c1::patient report::document}}.",
-  "Back Extra": "Pitfall: never post PHI on social media.<br><br>Distinguish: patient information may be used for internal quality improvement and training, but only after <i>all</i> identifying information is removed.<br><br>Pitfall: a legitimate-sounding purpose (such as documentation) does not make personal-device photos allowed.",
-  "chapter": 3,
-  "needs_human_check": false,
-  "image": null
- },
- {
-  "Text": "A head-injured patient becomes combative and swings at rescuers, though he clearly needs treatment and transport.<br>Because he poses a risk to the rescuers, the advisable move is to {{c1::wait for law enforcement to arrive on scene}} before attempting to treat him.",
+  "Text": "A head-injured patient becomes combative and swings at rescuers, though he clearly needs treatment and transport.<br>Because he poses a risk to the rescuers, the advisable move is to {{c1::wait for law enforcement::next step}} to arrive on scene before treating him.",
   "Back Extra": "Why: restraint may be used only in circumstances of risk to the patient or others, and law enforcement personnel have the authority to restrain people.<br><br>Ex: combative behavior may result from a psychiatric or behavioral condition, drugs, or a medical condition such as a head injury or hypoxia.",
-  "chapter": 3,
-  "needs_human_check": false,
-  "image": null
- },
- {
-  "Text": "In end-of-life orders, <b>POLST</b> stands for {{c1::Physician Orders for Life-Sustaining Treatment}} and <b>MOLST</b> stands for {{c1::Medical Orders for Life-Sustaining Treatment}}.",
-  "Back Extra": "Cue: the two expansions differ only in the first word — <i>P</i>hysician vs <i>M</i>edical; both end in Orders for Life-Sustaining Treatment.<br><br>Why: because they are written as medical orders, they tell EMS explicitly which interventions the patient accepts.",
-  "chapter": 3,
-  "needs_human_check": false,
-  "image": null
- },
- {
-  "Text": "To <b>forcibly restrain</b> a combative patient who poses a physical danger to himself or others, an EMT should typically consult {{c1::medical control}} for authorization or contact {{c1::law enforcement}}.",
-  "Back Extra": "Distinguish: medical control grants <i>you</i> authorization to restrain; law enforcement personnel carry the legal authority to restrain people themselves.<br><br>Why: restraint without legal authority exposes you to civil and criminal penalties.<br><br>Pitfall: in some states only a police officer may forcibly restrain a person, so know your local laws.",
   "chapter": 3,
   "needs_human_check": false,
   "image": null

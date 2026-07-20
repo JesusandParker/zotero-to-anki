@@ -7,28 +7,28 @@
   "image": null
  },
  {
-  "Text": "The {{c1::emergency medical responder (EMR)::EMS level}} is trained to {{c2::manage the scene and start lifesaving care before the ambulance arrives}}.",
+  "Text": "The {{c1::emergency medical responder (EMR)::EMS level}} is trained to {{c2::start lifesaving care before the ambulance arrives}}.",
   "Back Extra": "Distinguish: an EMR works under more advanced providers and focuses on scene management, not advanced clinical skills.<br><br>Cue: the EMR is the <i>pre-ambulance</i> provider — the first, lowest of the four levels.",
   "chapter": 1,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "Every EMS system's {{c1::medical director::role}} is a {{c2::physician (MD or DO)}} who {{c3::authorizes the service's EMTs to provide medical care in the field}}.",
+  "Text": "Every EMS system's {{c1::medical director::role}} is a {{c2::physician}} who {{c3::authorizes its EMTs to provide medical care}}.",
   "Back Extra": "Distinguish: the medical director must be a <i>physician</i>, not a nurse, senior EMT, supervisor, or agency administrator.<br><br>Why: EMTs are not independently licensed, so they act as an extension of the medical director's license.",
   "chapter": 1,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "A {{c1::standing order::term}} is {{c2::a part of an EMS system's protocols designating what an EMT must do for a specific complaint or condition}}, carried out {{c3::without::with or without?}} first contacting a physician.",
+  "Text": "A {{c1::standing order::term}} is {{c2::a preset protocol for a specific complaint}}, carried out {{c3::without::with or without?}} first contacting a physician.",
   "Back Extra": "Distinguish: an online (direct) order is the opposite - it must be obtained live from a physician before acting.<br><br>Pitfall: standing orders still come <i>from</i> the medical director; they are written in advance, not a skipping of physician oversight.",
   "chapter": 1,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "{{c1::Mobile integrated health care (MIH)::care model}} is {{c2::a care model that delivers prehospital-level resources to the patient within the community}}, by an integrated team that includes EMS providers.",
+  "Text": "{{c1::Mobile integrated health care (MIH)::care model}} is {{c2::prehospital-level care delivered within the community}}, by an integrated team that includes EMS providers.",
   "Back Extra": "Distinguish: an ambulance ride is a single transport; MIH is an ongoing model that links the patient to broader resources like social services.<br><br>Cue: \"mobile\" + \"integrated\" = care brought to the patient and woven into a wider team.",
   "chapter": 1,
   "needs_human_check": false,
@@ -77,7 +77,7 @@
   "image": null
  },
  {
-  "Text": "{{c1::Licensure::legal status}} is {{c2::the legal authority to practice in one's state}}.",
+  "Text": "{{c1::Licensure::legal status}} is {{c2::the state's legal authority to practice}}.",
   "Back Extra": "Distinguish: certification (passing the NREMT) verifies competency and comes first; licensure is the legal authority to practice that follows.<br><br>Pitfall: licensure is not an unrestricted right to practice; the next step, <i>credentialing</i>, is a service or medical director verifying you may work for them.",
   "chapter": 1,
   "needs_human_check": false,
@@ -106,20 +106,20 @@
  },
  {
   "Text": "The six EMS functions represented by the bars of the <b>Star of Life</b>, in order, are:<br>1. {{c1::Detection}}<br>2. {{c1::Reporting}}<br>3. {{c1::Response}}<br>4. {{c1::On-scene care}}<br>5. {{c1::Care in transit}}<br>6. {{c1::Transfer to definitive care}}",
-  "Back Extra": "Cue: the six bars trace one EMS call end to end, from spotting the emergency (Detection) through hospital handoff (Transfer to definitive care).<br><br>Why: the symbol was adapted from the AMA's Medical Identification Symbol to mark EMS as a public-service emblem.<br><br><a href=\"https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStar_of_Life&amp;ved=0CBUQjRxqFwoTCJDamISLtZUDFQAAAAAdAAAAABAF&amp;opi=89978449\"><img alt=\"Star of Life - Wikipedia\" src=\"250px-Star_of_life2.svg.png\"></a>",
+  "Back Extra": "Cue: the six bars trace one EMS call end to end, from spotting the emergency (Detection) through hospital handoff (Transfer to definitive care).<br><br>Why: the symbol was adapted from the AMA's Medical Identification Symbol to mark EMS as a public-service emblem.<br><br><img alt=\"Star of Life\" src=\"250px-Star_of_life2.svg.png\">",
   "chapter": 1,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "{{c1::Credentialing::process}} is {{c2::a specific agency or medical director verifying a provider's qualifications}} before letting them work there.",
+  "Text": "{{c1::Credentialing::process}} is {{c2::an agency's verification of a provider's qualifications}} before letting them work there.",
   "Back Extra": "Distinguish: licensure is granted by the <i>state</i>; credentialing is granted by the <i>employing agency or system</i>.<br><br>Cue: the order runs certification, then licensure, then credentialing.",
   "chapter": 1,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "{{c1::Scene size-up::call phase}} is {{c2::getting an overview of the situation and an awareness of the presence and level of safety threats}}, done before you reach the patient.",
+  "Text": "{{c1::Scene size-up::call phase}} is {{c2::an overview of the scene and its safety threats}}, done before you reach the patient.",
   "Back Extra": "Distinguish: scene size-up is about the scene and your safety; patient assessment is about figuring out what is wrong with the patient.<br><br>Cue: overview, safety, resources, approach - decide these up front so you don't become a second patient.",
   "chapter": 1,
   "needs_human_check": false,
@@ -133,28 +133,28 @@
   "image": null
  },
  {
-  "Text": "{{c1::Continuous quality improvement (CQI)::process}} is {{c2::a quality-management process in which team members at every level repeatedly evaluate how they are doing and how to do better}}.",
+  "Text": "{{c1::Continuous quality improvement (CQI)::process}} is {{c2::continual self-evaluation and improvement at every level}}.",
   "Back Extra": "Distinguish: a <i>just culture</i> balances fairness and accountability when errors happen; CQI is the ongoing process of measuring and improving care.<br><br>Cue: the giveaway is <i>every level</i> - CQI is everyone's job, not just management's.",
   "chapter": 1,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "{{c1::Primary prevention::prevention type}} is {{c2::strategies that stop an event (illness or injury) from ever happening}}.",
+  "Text": "{{c1::Primary prevention::prevention type}} is {{c2::stopping an event before it ever happens}}.",
   "Back Extra": "Distinguish: <i>primary</i> prevention acts <i>before</i> the event occurs (a vaccine, teaching CPR, a pool-safety program); <i>secondary</i> prevention acts after the event has already begun.<br><br>Ex: a polio vaccine is primary prevention - it virtually eliminated polio within one generation.",
   "chapter": 1,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "{{c1::Online (direct)::type of medical control}} medical control is {{c2::live orders given over the phone or radio while you are treating the patient}}, from the medical director or a designated physician.",
+  "Text": "{{c1::Online (direct)::type of medical control}} medical control is {{c2::live orders given by phone or radio}}, from the medical director or a designated physician.",
   "Back Extra": "Distinguish: off-line (indirect) control is the standing orders and protocols written ahead of time, with no live contact during the call.<br><br>Pitfall: the order may be relayed by a designee (e.g. a base-station physician), so it need not come from the medical director personally.",
   "chapter": 1,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "{{c1::Secondary prevention::prevention type}} is {{c2::strategies used after an event has already happened, to decrease its effects}}.",
+  "Text": "{{c1::Secondary prevention::prevention type}} is {{c2::reducing an event's effects after it happens}}.",
   "Back Extra": "Distinguish: <i>primary</i> prevention stops the event from ever happening; <i>secondary</i> prevention accepts it happened and limits the damage.<br><br>Ex: helmets and seat belts do not stop the crash, but they prevent serious injury once it occurs.",
   "chapter": 1,
   "needs_human_check": false,
@@ -182,7 +182,7 @@
   "image": null
  },
  {
-  "Text": "Mobile integrated health care (MIH) evolved to improve {{c1::access to health care at an affordable price}}, especially for patients who struggle to reach a clinic.",
+  "Text": "Mobile integrated health care (MIH) evolved to improve {{c1::access}} to health care at an {{c1::affordable price}}, especially for patients who struggle to reach a clinic.",
   "Back Extra": "Distinguish: the aim is better access and lower cost, not faster emergency response.<br><br>Why: it brings care to where the patient already is.",
   "chapter": 1,
   "needs_human_check": false,

@@ -1,6 +1,6 @@
 [
  {
-  "Text": "When a patient's religious convictions oppose medications, blood, and blood products, respecting the refusal is not enough; you must also {{c1::report it to the next level of care::duty}}.",
+  "Text": "When a patient's religious convictions oppose medications, blood, and blood products, respecting the refusal is not enough; you must also report it to the {{c1::next level of care::whom}}.",
   "Back Extra": "Why: the objection is only honored after handoff if the information travels with the patient, so respecting it yourself is not enough.<br><br>Ex: other religious needs to respect in the field include patients clinging to medals or charms (especially if you try to remove them), or asking for religious counsel, baptism, or last rites when death is imminent - try to accommodate these.",
   "chapter": 2,
   "needs_human_check": false,
@@ -28,7 +28,7 @@
   "image": null
  },
  {
-  "Text": "An {{c1::infectious disease::disease type}} is a medical condition caused by {{c2::the growth and spread of harmful organisms within the body}}.",
+  "Text": "An {{c1::infectious disease::disease type}} is a condition caused by the {{c2::growth and spread of harmful organisms}}.",
   "Back Extra": "Distinguish: a communicable disease can pass to another person or species, whereas infectious is the broader category that also includes diseases not easily spread to others.<br><br>Ex: Salmonella causes infectious food poisoning but is not communicable to others.",
   "chapter": 2,
   "needs_human_check": false,
@@ -70,7 +70,7 @@
   "image": null
  },
  {
-  "Text": "{{c1::Bloodborne pathogens}} are {{c2::microorganisms present in human blood that can cause disease}}.",
+  "Text": "{{c1::Bloodborne pathogens}} are {{c2::disease-causing microorganisms in human blood}}.",
   "Back Extra": "Why: controlling a patient's bleeding is a direct-contact exposure risk because bloodborne pathogens travel in blood.<br><br>Ex: hepatitis B can move from a patient's blood into a cut on the EMT's hand.<br><br>Pitfall: even a small, unnoticed cut can let a bloodborne pathogen enter the provider.",
   "chapter": 2,
   "needs_human_check": false,
@@ -98,14 +98,14 @@
   "image": null
  },
  {
-  "Text": "{{c1::Prophylaxis::term}} is {{c2::preventive treatment or measures taken against disease}}.&nbsp;",
+  "Text": "{{c1::Prophylaxis::term}} is {{c2::preventive treatment or measures against disease}}.",
   "Back Extra": "Ex: Postexposure prophylaxis (PEP) is preventive care started after a significant exposure to keep infection from taking hold.<br><br>Cue: <i>pro-</i> (before) + <i>phylaxis</i> (guarding) = guarding against disease before it develops.<br><br>[sound:hypertts-2c0af771b49db9e5f5d118fbc2677295cd5bde03974063f6f981edf4.mp3]",
   "chapter": 2,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "After a hepatitis B exposure in an EMT who lacks antibodies, post-exposure prophylaxis is {{c1::hepatitis B immune globulin}}, which gives only {{c2::temporary::duration}} protection, followed by the {{c3::three}}-shot hepatitis B vaccine series.&nbsp;",
+  "Text": "After a hepatitis B exposure in an EMT who lacks antibodies, post-exposure prophylaxis is {{c1::hepatitis B immune globulin}}, which gives only {{c2::temporary::duration}} protection, followed by the {{c3::three}}-shot hepatitis B vaccine series.",
   "Back Extra": "Mechanism: The globulin's ready-made antibodies attack the virus immediately, buying time until the vaccine series takes effect.<br><br>Distinguish: An EMT who already has hepatitis B antibodies (previously vaccinated) needs no treatment.<br><br>[sound:hypertts-8c7451bcbd70c48412754a8268e324dfff84bab4da2f0f841b9e820d.mp3]",
   "chapter": 2,
   "needs_human_check": false,
@@ -168,8 +168,22 @@
   "image": null
  },
  {
+  "Text": "Because of the commotion an emergency scene brings for a child, a {{c1::relative or responsible adult::who}} should accompany the child {{c2::at all times::how often}}, to {{c3::relieve anxiety}} and {{c3::assist in care}} as appropriate.",
+  "Back Extra": "Pitfall: don't send the parent away to reduce scene commotion — separating the child from a familiar adult deepens the very anxiety you are trying to relieve.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null
+ },
+ {
+  "Text": "When cleaning and disinfecting the ambulance, wear {{c1::heavy-duty utility::glove type}} gloves. <b>Never</b> use {{c2::lightweight latex or vinyl::2 glove types}} gloves for cleaning.",
+  "Back Extra": "Distinguish: lightweight latex and vinyl gloves are the patient-care gloves — the cleaning job gets its own dedicated heavy-duty pair.<br><br>Pitfall: change any gloves exposed to motor oil, gasoline, or any petroleum-based product, and never use petroleum jelly with latex gloves.",
+  "chapter": 2,
+  "needs_human_check": false,
+  "image": null
+ },
+ {
   "Text": "Inhaling cyanide, a toxic gas produced by fire, prevents {{c1::cells from using oxygen}}.<br>At high concentrations, inhaled cyanide produces {{c2::shock}} and {{c2::severe hypoxia}}, ultimately leading to {{c2::death}}.",
-  "Back Extra": "Why: the result is cellular hypoxia — the tissues are starved of usable oxygen even though oxygen is still present.<br><br>Cue: cyanide comes from combustion, so suspect it in enclosed-space fire and smoke-inhalation victims.<br><br><a href=\"https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;url=https%3A%2F%2Fcpraedcourse.com%2Fblog%2Fwhat-is-hypoxia%2F&amp;ved=0CBYQjRxqFwoTCLi3sLnI3JUDFQAAAAAdAAAAABA4&amp;opi=89978449\"><img alt=\"A Guide to Recognize Common Symptoms of Hypoxia\" src=\"Common-symptoms-of-hypoxia-and-how-to-recognize-them-post-img.webp\"></a>",
+  "Back Extra": "Why: the result is cellular hypoxia — the tissues are starved of usable oxygen even though oxygen is still present.<br><br>Cue: cyanide comes from combustion, so suspect it in enclosed-space fire and smoke-inhalation victims.<br><br><img alt=\"A Guide to Recognize Common Symptoms of Hypoxia\" src=\"Common-symptoms-of-hypoxia-and-how-to-recognize-them-post-img.webp\">",
   "chapter": 2,
   "needs_human_check": false,
   "image": null
@@ -177,13 +191,6 @@
  {
   "Text": "Carbon dioxide is a {{c1::colorless, odorless::sensory}} gas.<br>Exposure to carbon dioxide causes {{c2::increased respirations}}, {{c2::dizziness}}, and {{c2::sweating}}.",
   "Back Extra": "Distinguish: unlike carbon monoxide (which binds hemoglobin and blocks oxygen transport), carbon dioxide harms mainly by <i>displacing</i> oxygen in the air — both gases are colorless and odorless.<br><br>Pitfall: neither gas warns you by sight or smell, so rely on scene clues and detectors.",
-  "chapter": 2,
-  "needs_human_check": false,
-  "image": null
- },
- {
-  "Text": "Because of the commotion an emergency scene brings for a child, a {{c1::relative or responsible adult::who}} should accompany the child {{c1::at all times::how often}}, to {{c2::relieve anxiety}} and {{c2::assist in care}} as appropriate.",
-  "Back Extra": "Pitfall: don't send the parent away to reduce scene commotion — separating the child from a familiar adult deepens the very anxiety you are trying to relieve.",
   "chapter": 2,
   "needs_human_check": false,
   "image": null
@@ -210,7 +217,7 @@
   "image": null
  },
  {
-  "Text": "{{c1::Wellness}} is the {{c2::active pursuit of a state of good health}}.",
+  "Text": "{{c1::Wellness}} is the {{c2::active pursuit of good health}}.",
   "Back Extra": "Distinguish: resilience is the capacity to cope with and recover from distress — don't swap the two terms.<br><br>Pitfall: good physical fitness alone is not enough — wellness is multifaceted.<br><br>Why: EMS providers must work at wellness the same way they work to maintain their knowledge, skills, and attitudes.",
   "chapter": 2,
   "needs_human_check": false,
@@ -224,8 +231,8 @@
   "image": null
  },
  {
-  "Text": "You should wear a {{c1::helmet::PPE}} anytime you work in a {{c2::fall zone::hazard area}}, an area where you are likely to encounter falling objects.",
-  "Back Extra": "Pitfall: objects often fall one after another — if the chin strap is not secure, the first falling object can knock the helmet off before the next one hits.<br><br>Cue: the helmet needs <i>top and side</i> impact protection plus a secure chin strap.",
+  "Text": "You should wear a {{c1::helmet::PPE}} anytime you work in a {{c2::fall zone::hazard area}}.",
+  "Back Extra": "Meaning: a fall zone is an area where you are likely to encounter falling objects.<br><br>Pitfall: objects often fall one after another — if the chin strap is not secure, the first falling object can knock the helmet off before the next one hits.<br><br>Cue: the helmet needs <i>top and side</i> impact protection plus a secure chin strap.",
   "chapter": 2,
   "needs_human_check": false,
   "image": null
@@ -252,7 +259,7 @@
   "image": null
  },
  {
-  "Text": "{{c1::Foodborne transmission::route}} is the {{c2::contamination of food or water with a disease-causing organism}}.",
+  "Text": "{{c1::Foodborne transmission::route}} is the {{c2::contamination of food or water}} with a disease-causing organism.",
   "Back Extra": "Why: Raw meat can carry bacteria that contaminate other foods on contact, so raw meats are kept away from other foods during prep.<br><br>Ex: Proper food storage and cleaning prep surfaces before and after use also cut foodborne spread.",
   "chapter": 2,
   "needs_human_check": false,
@@ -364,7 +371,7 @@
   "image": null
  },
  {
-  "Text": "{{c1::Contamination::term}} is the presence of {{c2::pathogens or foreign bodies on or in an object}}.",
+  "Text": "{{c1::Contamination::term}} is the presence of {{c2::pathogens or foreign bodies}} on or in an object.",
   "Back Extra": "Distinguish: contamination describes the <i>object</i> (pathogens or foreign bodies on or in it); exposure describes the <i>person</i> (contact with blood, body fluids, or airborne particles that may transmit disease).<br><br>Ex: contaminated items include dressings, water, food, needles, wounds, or the patient's body.",
   "chapter": 2,
   "needs_human_check": false,
@@ -441,7 +448,7 @@
   "image": null
  },
  {
-  "Text": "A {{c1::communicable disease::disease type}} is a disease that can be {{c2::spread from one person or species to another}}.",
+  "Text": "A {{c1::communicable disease::disease type}} is a disease that can be {{c2::spread to another person or species}}.",
   "Back Extra": "Distinguish: communicable is a subset of infectious — every communicable disease is infectious, but not every infectious disease is communicable.<br><br>Ex: hepatitis B is infectious and communicable, whereas Salmonella is infectious but not communicable to others.",
   "chapter": 2,
   "needs_human_check": false,
@@ -492,13 +499,6 @@
  {
   "Text": "When a lightning strike is imminent, a <b>low crouch</b> exposes {{c1::only your feet}} to the ground current, whereas sitting exposes {{c1::your feet and your buttocks}}.",
   "Back Extra": "Why: ground current travels along the earth's surface, so every body surface touching the ground becomes a path for current.<br><br>Cue: the nonconductive blanket under your feet insulates the one contact you cannot remove.",
-  "chapter": 2,
-  "needs_human_check": false,
-  "image": null
- },
- {
-  "Text": "When cleaning and disinfecting the ambulance, wear {{c1::heavy-duty utility::glove type}} gloves. <b>Never</b> use {{c1::lightweight latex or vinyl::2 glove types}} gloves for cleaning.",
-  "Back Extra": "Distinguish: lightweight latex and vinyl gloves are the patient-care gloves — the cleaning job gets its own dedicated heavy-duty pair.<br><br>Pitfall: change any gloves exposed to motor oil, gasoline, or any petroleum-based product, and never use petroleum jelly with latex gloves.",
   "chapter": 2,
   "needs_human_check": false,
   "image": null
@@ -560,7 +560,7 @@
   "image": null
  },
  {
-  "Text": "A patient is close to death, and his wife is grieving at the scene while you provide reassurance and emotional care. One simple, supportive thing you can do for her is {{c1::ask whether there is anything you can do to help::what to ask}}.",
+  "Text": "A patient is close to death and his wife is grieving at the scene. One simple, supportive thing you can do for her is {{c1::ask whether you can help::what to do}}.",
   "Back Extra": "Ex: Offer to call a relative or a religious advisor for her.<br><br>Cue: With any grieving patient or bystander, do helpful things and make simple suggestions.",
   "chapter": 2,
   "needs_human_check": false,

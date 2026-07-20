@@ -126,7 +126,7 @@
   "image": null
  },
  {
-  "Text": "{{c1::Clarification}} is the therapeutic communication technique of asking the patient to {{c2::explain what he or she meant by an answer}}.",
+  "Text": "{{c1::Clarification}} is the therapeutic communication technique of asking the patient to {{c2::explain what an answer meant}}.",
   "Back Extra": "Ex: Patient: \"I just feel sick.\" EMT: \"Can you tell me how you are feeling sick? What feels wrong?\"<br><br>Distinguish: facilitation invites more talk in general; clarification digs into the meaning of one specific answer.",
   "chapter": 4,
   "needs_human_check": false,
@@ -154,7 +154,7 @@
   "image": null
  },
  {
-  "Text": "{{c1::Summary}} is the therapeutic communication technique of giving the patient {{c2::an overview of the conversation and the steps you will take::2 parts}}.",
+  "Text": "{{c1::Summary}} is the therapeutic communication technique of giving the patient {{c2::an overview of the conversation plus your next steps::2 parts}}.",
   "Back Extra": "Ex: EMT: \"We will be taking you to the emergency department to care for your chest pain. I will be giving you some medication that should make you feel better.\"<br><br>Distinguish: explanation supplies factual information to support the conversation while it is still going; summary is the closing wrap-up.",
   "chapter": 4,
   "needs_human_check": false,
@@ -329,14 +329,14 @@
   "image": null
  },
  {
-  "Text": "In mission-critical communications, a {{c1::mental model}} is {{c2::the picture in a person's head of \"what's going on\"}}.",
+  "Text": "In mission-critical communications, a {{c1::mental model}} is {{c2::the picture of \"what's going on\"}}.",
   "Back Extra": "Distinguish: a mental model is the picture itself; situational awareness is what fails when teammates' pictures stop matching.<br><br>Why: team members in different roles see different things from different perspectives, so effective teamwork requires all members to share one mental model.",
   "chapter": 4,
   "needs_human_check": false,
   "image": null
  },
  {
-  "Text": "{{c1::Mission-critical communications}} are any communications where {{c2::disruption will result in failure of the task at hand}}.",
+  "Text": "{{c1::Mission-critical communications}} are any communications where {{c2::disruption causes the task to fail}}.",
   "Back Extra": "Cue: the concept central to mission-critical communications is the shared mental model.<br><br>Ex: a patient care handover — disrupt it and the task it serves (continuing the patient's care) fails.",
   "chapter": 4,
   "needs_human_check": false,
