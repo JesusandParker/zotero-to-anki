@@ -134,6 +134,28 @@ CASES = [
                   {"Text": "{{c1::Licensure}} is the legal authority granted by the state to practice as an EMS provider.",
                    "Back Extra": "Distinguish: not certification.", "chapter": 1}],
     },
+    # --- R12: bloated single blank — a fuzzy scenario clause (R8) or a two-way-def c2
+    #         side too long to recall verbatim (crisp-c2, card-recipes §4). Added
+    #         2026-07-19 after the ch1-5 audit found ~30 two-way defs with 8-21-word c2. ---
+    {
+        "id": "r12_bad_bloated_c2",
+        "warn": "in ONE blank", "present": True,
+        "cards": [{"Text": "{{c1::Continuous quality improvement (CQI)}} is {{c2::a quality-management process in which team members continuously review responses to find and fix system weaknesses over time}}.",
+                   "Back Extra": "Distinguish: not a one-time review.", "chapter": 1}],
+    },
+    {
+        "id": "r12_good_crisp_c2",
+        "warn": "in ONE blank", "present": False,
+        "cards": [{"Text": "{{c1::Licensure::authority}} is {{c2::the legal authority to practice}}.",
+                   "Back Extra": "Distinguish: certification attests skill; licensure grants the legal right.", "chapter": 1}],
+    },
+    {
+        "id": "r12_good_grouped_list_long_items",
+        "warn": "in ONE blank", "present": False,
+        "cards": [{"Text": "Medical necessity for ambulance transport is established when the patient is {{c1::unconscious or in shock}}, {{c1::in acute respiratory or cardiac distress}}, or {{c1::bed-confined before and after the trip}}.",
+                   "Back Extra": "Cue: transport must be the only safe option.", "chapter": 4}],
+        "note": "long items under the SAME number are a grouped list, not a single fuzzy blank — must not flag",
+    },
 ]
 
 

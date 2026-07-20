@@ -8,11 +8,27 @@ judge's job; this catches structure, format, literal leaks, missing flags, and
 in-batch duplicates — including the exact shapes that have bitten us before
 (see reference/regression-cases.md).
 
-Usage: python3 scripts/check_cards.py work/chapter_N_cards.json
+Three ways to run it:
+  * GATE (default) — check a staged JSON file and, on a HARD-clean pass, write a
+    `.verified` stamp so anki_write.py will let the file be staged. Strict HTML gate.
+        python3 scripts/check_cards.py work/chapter_N_cards.json
+  * AUDIT a file (--audit) — same, but for PRE-EXISTING/rich cards: skip the
+    minimal-HTML HARD gate (embedded reference images/links, tables, the Ch5
+    clinical-ex blocks) while keeping every meaningful check.
+        python3 scripts/check_cards.py --audit work/chapter_5_cards.json
+  * LIVE AUDIT (--live) — pull cards straight from the Anki deck and check them, so
+    cards HAND-EDITED in Anki (Mac + iPhone) still get audited. Relaxed HTML like
+    --audit. Diagnostic only — it never stamps or writes.
+        python3 scripts/check_cards.py --live 3          # one chapter
+        python3 scripts/check_cards.py --live all        # every EMT chapter
+    (Added 2026-07-19 after a live audit found <a> anchor tags that had drifted
+    into two cards via mobile paste-edits — the gate had never seen them because
+    it only ever checked the pre-staging JSON.)
+
 Exit 1 on any HARD error (blocks staging). WARNINGS print but don't block —
 they are routed to the LLM judge / Parker.
 """
-import hashlib, json, os, re, sys, unicodedata
+import argparse, hashlib, json, os, re, sys, unicodedata, urllib.request
 from difflib import SequenceMatcher
 
 
@@ -23,12 +39,15 @@ def stamp_path(cards_json):
 def file_hash(path):
     return hashlib.sha256(open(path, "rb").read()).hexdigest()
 
+ANKI = "http://localhost:8765"
 ALLOWED_TAGS = {"b", "i", "br", "img"}
 CLOZE = re.compile(r"\{\{c(\d+)::(.*?)(?:::(.*?))?\}\}")
 TAG = re.compile(r"</?([a-zA-Z0-9]+)[^>]*>")
 # a real VALUE/dose/threshold (number + unit, comparison, or range) — NOT a bare
 # list ordinal like "1. Detection" or a year inside a name.
-VALUE = re.compile(r"[<>≤≥]\s*\d|\d+\s*(?:mg|mcg|g|mmHg|mL|%|/min|bpm|hours?|minutes?|seconds?)\b|\d+\s*(?:to|-|–)\s*\d+", re.I)
+VALUE = re.compile(r"[<>≤≥]\s*\d|\d+\s*(?:mg|mcg|g|mmHg|mL|%|/min|bpm|hours?|minutes?|seconds?|"
+                   r"mph|miles?|feet|ft|inch|in|MHz|watts?|L/min|°|degrees?)\b|"
+                   r"\d+\s*(?:to|-|–)\s*\d+", re.I)
 # "N <list-noun>" where the card should then cloze exactly N items. A mismatch means
 # the card states one count but tests another number of items — the exact shape of the
 # Ch3 "consider 7 factors" bug (source had 8). Catch it mechanically.
@@ -37,8 +56,15 @@ NUMWORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
 LIST_NOUNS = (r"factors|signs|steps|elements|questions|items|types|ways|routes|hazards|"
               r"circumstances|stages|consequences|forms|principles|functions|components|"
               r"categories|reasons|examples|cases|situations|conditions|features|actions|"
-              r"criteria|rights|duties|methods|phases|properties|kinds")
+              r"criteria|rights|duties|methods|phases|properties|kinds|zones|levels|classes")
 COUNT_RE = re.compile(r"\b(\d+|" + "|".join(NUMWORDS) + r")\s+(?:\w+\s+){0,2}?(?:" + LIST_NOUNS + r")\b", re.I)
+# a single blank hiding this many words is almost never recallable verbatim: it is
+# either a fuzzy scenario→action clause (R8) or a bloated two-way-definition c2 side
+# that should be tightened to a crisp discriminator (card-recipes §4, parker-preferences).
+LONG_CLOZE_WORDS = 9
+# double-escaped markup that renders as literal "&lt;br&gt;" text (a real bug); &amp;
+# inside a URL and &nbsp; are legitimate and NOT flagged.
+BAD_ENTITY = re.compile(r"&(?:lt|gt);")
 
 
 def readable(t):
@@ -129,7 +155,13 @@ def husk_groups(text):
     therapeutic communication) is the CONNECTIVE between the two blanks: a coordinate
     pair is joined by 'and'/'or'/',' (~0 content words between them) and stays; a husk
     has a substantial templating phrase between the spans ('applies only to EMS systems
-    operated by' = 5 content words). Also excludes <br>-listed or counted sets."""
+    operated by' = 5 content words). Also excludes <br>-listed or counted sets.
+
+    Deliberately GENEROUS on multi-number contrast cards (cover/concealment, women one
+    drink/men two drinks): it may flag a group whose sibling cloze number would anchor
+    it. Suppressing those risks a FALSE NEGATIVE — a real husk that merely coexists with
+    an unrelated cloze — which is the costly error on the exact class Parker rants about.
+    So the checker over-flags and the LLM judge (editor #19) clears the benign ones."""
     if LIST_MARKERS.search(text):
         return []
     if COUNT_RE.search(readable(text)):
@@ -162,7 +194,6 @@ def equation_husk_groups(text):
     length or count (the off-line/indirect + online/direct card, and the Expressed =
     actual consent card). Blank the group; if a synonym connective ends up flanked by
     two blanks, flag it.
-
     Deliberately GENEROUS: it cannot tell 'the two hidden spans are synonyms of each
     other' (a real husk) from 'they are different things each anchored by a visible
     label' (an acronym card, POLST/MOLST stands-for; a grouped two-way def, SOAP
@@ -179,81 +210,152 @@ def equation_husk_groups(text):
     return hits
 
 
-def main():
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    flags = {a for a in sys.argv[1:] if a.startswith("--")}
-    if not args:
-        sys.exit("usage: check_cards.py [--audit] <cards.json>")
-    # --audit: verifying PRE-EXISTING cards, which may legitimately carry rich HTML the
-    # generation pipeline forbids (embedded reference images/links, formatted tables, the
-    # Ch5 clinical-ex blocks). Skip the minimal-HTML gate; keep every meaningful check.
-    # Default (no flag) stays strict, so NEW generated cards are still held to <b>/<i>/<br>/<img>.
-    audit = "--audit" in flags
-    cards = json.load(open(args[0]))
+def per_card(idx, c, strict_html=True):
+    """All per-card mechanical checks. Returns (hard_list, warn_list) of message
+    strings. `strict_html=False` (set by --audit and --live) downgrades the
+    disallowed-HTML check from HARD to a warning, because pre-existing / hand-edited
+    cards (esp. Chapter 5's clinical-example blocks, or a reference image Parker pasted)
+    legitimately carry richer HTML; the default strict gate keeps NEW generated cards on
+    b/i/br/img."""
+    t, be = c.get("Text", ""), c.get("Back Extra", "")
     hard, warn = [], []
-    reads = []
+    # disallowed HTML
+    bad = [g for g in (TAG.findall(t) + TAG.findall(be)) if g.lower() not in ALLOWED_TAGS]
+    if bad:
+        msg = f"#{idx}: disallowed HTML tag(s): {sorted(set(bad))}"
+        if strict_html:
+            hard.append(msg)
+        else:
+            warn.append(msg + " (rich/pre-existing: verify it renders; the generator must stay on b/i/br/img)")
+    # must contain a cloze
+    if not CLOZE.search(t):
+        hard.append(f"#{idx}: no cloze markup in Text")
+    # empty/whitespace cloze answer
+    for m in CLOZE.finditer(t):
+        if not m.group(2).strip():
+            hard.append(f"#{idx}: empty cloze c{m.group(1)}")
+    # double-escaped markup rendering as literal text
+    if BAD_ENTITY.search(t) or BAD_ENTITY.search(be):
+        warn.append(f"#{idx}: contains &lt;/&gt; — markup may be double-escaped and rendering as literal text")
+    # literal answer visible in the stem (a leak)
+    for g in {m.group(1) for m in CLOZE.finditer(t)}:
+        stem = norm(visible_stem(t, g))
+        for m in CLOZE.finditer(t):
+            if m.group(1) == g:
+                a = norm(m.group(2))
+                if a and len(a.split()) <= 4 and re.search(r"\b" + re.escape(a) + r"\b", stem):
+                    warn.append(f"#{idx}: answer '{m.group(2)}' is visible in its own stem (leak)")
+    # parenthetical hanging right off a cloze (the pathway-card leak shape)
+    if re.search(r"\}\}\s*\(", t):
+        warn.append(f"#{idx}: parenthetical right after a cloze — verify it is NOT the answer's definition (leak risk)")
+    # first-letter hint on a non-mnemonic list (R11, the ::r/::k/::s leak)
+    for ans, hint in first_letter_hint_leaks(t):
+        warn.append(f"#{idx}: hint '::{hint}' is the first letter of its answer '{ans}' with no acronym in the stem — first-letter leak (card-rules #18)")
+    # all-blanks-at-once husk — mutually-dependent spans under one number (R10)
+    for g in husk_groups(t):
+        warn.append(f"#{idx}: cloze c{g} hides 2 multi-word spans in an inline template — possible husk; verify each blank is answerable with the other shown, else split into c1/c2 (card-rules #17)")
+    # synonym-equation husk — both sides of 'X = also called Y' under one number (R10)
+    for g in equation_husk_groups(t):
+        warn.append(f"#{idx}: cloze c{g} hides BOTH sides of a synonym/equation ('___ = also called ___') — husk; renumber so each card shows one side as the anchor (card-rules #17)")
+    # a single blank hiding a whole clause — fuzzy (R8) or a bloated two-way-def c2 side
+    by_group = {}
+    for m in CLOZE.finditer(t):
+        by_group.setdefault(m.group(1), []).append(m.group(2))
+    for g, answers in by_group.items():
+        if len(answers) == 1 and len(answers[0].split()) >= LONG_CLOZE_WORDS:
+            warn.append(f"#{idx}: cloze c{g} hides {len(answers[0].split())} words in ONE blank — hard to recall verbatim; "
+                        f"tighten to the load-bearing words (R8), or if this is a two-way definition, crisp up the c2 meaning side (card-recipes §4)")
+    # looks numeric but not flagged
+    if VALUE.search(readable(t)) and not c.get("needs_human_check"):
+        warn.append(f"#{idx}: looks numeric/dose but needs_human_check is false")
+    # stated list-count != number of clozed items (the "7 vs 8 factors" bug)
+    m = COUNT_RE.search(readable(t))
+    if m:
+        stated = NUMWORDS.get(m.group(1).lower(), None)
+        if stated is None:
+            try:
+                stated = int(m.group(1))
+            except ValueError:
+                stated = None
+        if stated and 2 <= stated <= 20:
+            # Count members of the dominant cloze group (the list group) and warn only
+            # on an UNDERCOUNT — fewer clozed items than the stated number (a dropped
+            # list item). An OVERCOUNT is almost always a branch/alternative and is safe.
+            gc = {}
+            for cm in CLOZE.finditer(t):
+                gc[cm.group(1)] = gc.get(cm.group(1), 0) + 1
+            dom = max(gc.values()) if gc else 0
+            if dom > 1 and dom < stated:
+                warn.append(f"#{idx}: says '{m.group(0)}' but clozes only {dom} items "
+                            f"— a list item may be missing; verify against the full source page")
+    return hard, warn
+
+
+def load_live(which):
+    """Pull cards from the live Anki deck(s) for a --live audit."""
+    def call(action, **params):
+        req = urllib.request.Request(
+            ANKI, data=json.dumps({"action": action, "version": 6, "params": params}).encode(),
+            headers={"Content-Type": "application/json"})
+        try:
+            res = json.loads(urllib.request.urlopen(req, timeout=30).read())
+        except Exception as e:
+            sys.exit(f"ERROR: cannot reach AnkiConnect at {ANKI}. Is Anki open? ({e})")
+        if res.get("error"):
+            raise RuntimeError(res["error"])
+        return res["result"]
+    query = 'deck:all::EMT::*' if which == "all" else f'deck:"all::EMT::Chapter {which}"'
+    ids = call("findNotes", query=query)
+    notes = call("notesInfo", notes=ids)
+    cards = []
+    for n in notes:
+        f = n["fields"]
+        text = f.get("Text", {}).get("value", "")
+        cards.append({"noteId": n["noteId"], "Text": text,
+                      "Back Extra": f.get("Back Extra", {}).get("value", ""),
+                      "needs_human_check": bool(VALUE.search(readable(text)))})
+    return cards
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Deterministic gate / live audit for EMT cards.")
+    ap.add_argument("cards_json", nargs="?", help="staged JSON file to gate (default mode)")
+    ap.add_argument("--live", metavar="N|all", help="audit live Anki cards instead of a file (diagnostic; no stamp)")
+    ap.add_argument("--audit", action="store_true",
+                    help="verifying PRE-EXISTING/rich cards: skip the minimal-HTML HARD gate (keep every other "
+                         "check). Default (no flag) stays strict so NEW generated cards are held to b/i/br/img.")
+    args = ap.parse_args()
+    if not args.cards_json and not args.live:
+        sys.exit("usage: check_cards.py [--audit] <cards.json>   |   check_cards.py --live <N|all>")
+
+    live = bool(args.live)
+    strict_html = not (args.audit or live)  # rich pre-existing / hand-edited cards relax the HTML gate
+    if live:
+        cards = load_live(args.live)
+        label = [str(c["noteId"]) for c in cards]  # identify by noteId in live mode
+    else:
+        cards = json.load(open(args.cards_json))
+        label = None
+
+    hard, warn, reads = [], [], []
     for i, c in enumerate(cards):
-        t, be = c.get("Text", ""), c.get("Back Extra", "")
-        # HARD: legal HTML (strict mode only)
-        bad = [g for g in (TAG.findall(t) + TAG.findall(be)) if g.lower() not in ALLOWED_TAGS]
-        if bad and not audit:
-            hard.append(f"#{i}: disallowed HTML tag(s): {sorted(set(bad))}")
-        # HARD: must contain a cloze
-        if not CLOZE.search(t):
-            hard.append(f"#{i}: no cloze markup in Text")
-        # WARN: literal answer visible in the stem (a leak)
-        for g in {m.group(1) for m in CLOZE.finditer(t)}:
-            stem = norm(visible_stem(t, g))
-            for m in CLOZE.finditer(t):
-                if m.group(1) == g:
-                    a = norm(m.group(2))
-                    if a and len(a.split()) <= 4 and re.search(r"\b" + re.escape(a) + r"\b", stem):
-                        warn.append(f"#{i}: answer '{m.group(2)}' is visible in its own stem (leak)")
-        # WARN: parenthetical hanging right off a cloze (the pathway-card leak shape)
-        if re.search(r"\}\}\s*\(", t):
-            warn.append(f"#{i}: parenthetical right after a cloze — verify it is NOT the answer's definition (leak risk)")
-        # WARN: first-letter hint on a non-mnemonic list (R11, the ::r/::k/::s leak)
-        for ans, hint in first_letter_hint_leaks(t):
-            warn.append(f"#{i}: hint '::{hint}' is the first letter of its answer '{ans}' and does not spell into any acronym in the stem — first-letter leak (card-rules #18)")
-        # WARN: all-blanks-at-once husk — mutually-dependent spans under one number (R10)
-        for g in husk_groups(t):
-            warn.append(f"#{i}: cloze c{g} hides 2-3 multi-word spans in an inline template — possible husk; verify each blank is answerable with the other shown, else split into c1/c2 (card-rules #17)")
-        # WARN: synonym-equation husk — both sides of 'X = also called Y' under one number (R10)
-        for g in equation_husk_groups(t):
-            warn.append(f"#{i}: cloze c{g} hides BOTH sides of a synonym/equation ('___ = also called ___') — husk; renumber so each card shows one side as the anchor (card-rules #17)")
-        # WARN: looks numeric but not flagged
-        if VALUE.search(readable(t)) and not c.get("needs_human_check"):
-            warn.append(f"#{i}: looks numeric/dose but needs_human_check is false")
-        # WARN: stated list-count != number of clozed items (the "7 vs 8 factors" bug)
-        m = COUNT_RE.search(readable(t))
-        if m:
-            stated = NUMWORDS.get(m.group(1).lower(), None)
-            if stated is None:
-                try: stated = int(m.group(1))
-                except ValueError: stated = None
-            if stated and 2 <= stated <= 20:
-                # Count members of the dominant cloze group (the list group) and warn only
-                # on an UNDERCOUNT — fewer clozed items than the stated number, i.e. a
-                # dropped list item (the real "7 vs 8 factors" bug). An OVERCOUNT is almost
-                # always a branch/alternative ("recovery, or exhaustion" = one stage, two
-                # outcomes) and is safe, so it isn't flagged (avoids false positives).
-                by_group = {}
-                for cm in CLOZE.finditer(t):
-                    by_group.setdefault(cm.group(1), 0)
-                    by_group[cm.group(1)] += 1
-                dom = max(by_group.values()) if by_group else 0
-                if dom > 1 and dom < stated:
-                    warn.append(f"#{i}: says '{m.group(0)}' but clozes only {dom} items "
-                                f"— a list item may be missing; verify against the full source page")
-        reads.append(readable(t))
-    # WARN: in-batch near-duplicates
+        ident = label[i] if label else i
+        h, w = per_card(ident, c, strict_html=strict_html)
+        hard += h
+        warn += w
+        reads.append(readable(c.get("Text", "")))
+    # in-batch near-duplicates
     for i in range(len(reads)):
         for j in range(i + 1, len(reads)):
+            if len(reads[i]) < 20 or len(reads[j]) < 20:
+                continue
             r = SequenceMatcher(None, norm(reads[i]), norm(reads[j])).ratio()
-            if r > 0.80:
-                warn.append(f"#{i} & #{j}: {r:.0%} similar Text — possible duplicate")
+            if r > 0.82:
+                a = label[i] if label else i
+                b = label[j] if label else j
+                warn.append(f"#{a} & #{b}: {r:.0%} similar Text — possible duplicate")
 
-    print(f"checked {len(cards)} cards")
+    print(f"checked {len(cards)} cards" + (f" (live: {args.live})" if live else ""))
     if hard:
         print("HARD ERRORS (block staging):")
         for h in hard:
@@ -265,12 +367,15 @@ def main():
     if not hard and not warn:
         print("  deterministic checks clean")
 
+    if live:
+        sys.exit(0)  # diagnostic only: never stamp, never block
+
     # Verification stamp: on a HARD-clean pass, write a hash of THIS exact file so
     # anki_write.py can confirm the file it's about to stage is the one that passed
     # the gate. This makes Stage 2.75 physically unskippable (the writer refuses an
     # unstamped/edited file) without any global hook. Warnings don't block the stamp
     # — they're routed to the judge/human, per the pipeline contract.
-    src = args[0]
+    src = args.cards_json
     sp = stamp_path(src)
     if hard:
         if os.path.exists(sp):

@@ -24,6 +24,7 @@ Once a chapter's cards exist, this is the primary use. A fresh Claude session wi
 
 1. **Read the standards first** — `reference/regression-cases.md` (every flaw caught before + how it's caught; his issue is usually a known class), then `reference/card-rules.md` and `reference/parker-preferences.md`.
 2. **Find the card** — it's in Anki under `all::EMT::Chapter <N>::claude review` (or `...::Book Highlights` if Parker already promoted it) via AnkiConnect at `localhost:8765` (Anki must be running; search by a distinctive phrase) and in `work/chapter_<N>_cards.json`.
+   - **To sweep for the whole class mechanically, audit the LIVE deck:** `python3 scripts/check_cards.py --live <N>` (one chapter) or `--live all`. This runs the deterministic gate against the cards as they actually exist in Anki — the only way to catch defects that entered by hand-editing in Anki (Parker edits on Mac + iPhone), which never pass back through the file gate. Diagnostic only; it never writes or stamps.
 3. **Diagnose honestly — one-off or systemic?** If it's a *kind* of mistake (not a typo), assume systemic: the rules would let it recur, so fix the rules, not just the card.
 4. **Fix the card(s)** in Anki and in the JSON.
 5. **If systemic:** encode the rule (`card-rules.md` / `editor-checklist.md` / `parker-preferences.md`), AND add a case to `reference/regression-cases.md` (a BAD card the checks must catch + a GOOD card they must NOT over-flag), AND extend `scripts/check_cards.py` if it can be mechanized.
