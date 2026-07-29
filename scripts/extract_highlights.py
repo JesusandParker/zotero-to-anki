@@ -2,7 +2,7 @@
 """
 extract_highlights.py — Stage 1 of the EMT card pipeline.
 
-Pulls Parker's GREEN (#5fb236) highlights from the EMT textbook in Zotero for a
+Pulls Parker's YELLOW (#ffd400) highlights from the EMT textbook in Zotero for a
 given chapter, grounds each one in its surrounding page paragraph, and emits a
 clean JSON work-file the card-writer reads.
 
@@ -20,7 +20,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SKILL = os.path.dirname(HERE)
 ZOTERO_DB = os.path.expanduser("~/Zotero/zotero.sqlite")
 PDF = "/Users/parkerregner/Zotero/storage/Z98PW7AT/Pollak et al. - 2021 - Emergency care and transportation of the sick and injured.pdf"
-GREEN = ("#5fb236", "#7cc868")  # both palette greens = "make a card"
+# Yellow = "make a card". Parker highlighted Ch1-7 in green under the old scheme,
+# then switched to yellow around p526; on 2026-07-29 the whole book was normalized
+# so yellow = memorize and blue = everything else. Both palette yellows are matched
+# (#ffd400 is Zotero's own; #facd5a is the alternate palette from externally
+# annotated PDFs). Any other color, blue included, is deliberately ignored.
+YELLOW = ("#ffd400", "#facd5a")
 CHAPTER_MAP = os.path.join(SKILL, "reference", "chapter_pages.json")
 CTX_CHARS = 450  # paragraph context grabbed on each side of the highlight
 # A list lead-in (a highlight that introduces an enumerated list, e.g. "...consider
@@ -58,10 +63,10 @@ def resolve_attachment(cur):
     row = cur.fetchone()
     if row:
         return row[0]
-    # fallback: whichever attachment actually holds the most green annotations
+    # fallback: whichever attachment actually holds the most yellow annotations
     cur.execute(
         "SELECT parentItemID FROM itemAnnotations WHERE type=1 AND color IN (?,?) "
-        "GROUP BY parentItemID ORDER BY COUNT(*) DESC LIMIT 1", GREEN)
+        "GROUP BY parentItemID ORDER BY COUNT(*) DESC LIMIT 1", YELLOW)
     row = cur.fetchone()
     return row[0] if row else 2459  # known fallback (attachment key Z98PW7AT)
 
@@ -149,7 +154,7 @@ def main():
     cur.execute(
         "SELECT pageLabel, position, text, comment, color, sortIndex "
         "FROM itemAnnotations WHERE parentItemID=? AND type=1 AND color IN (?,?) ORDER BY sortIndex",
-        (att, GREEN[0], GREEN[1]),
+        (att, YELLOW[0], YELLOW[1]),
     )
     rows = cur.fetchall()
     con.close()
@@ -200,7 +205,7 @@ def main():
 
     found = sum(1 for i in items if i["grounding"] in ("EXACT", "PARTIAL"))
     missing = [i["page"] for i in items if i["grounding"] == "NOT_FOUND"]
-    print(f"Chapter {target_chap}: {len(items)} green highlights")
+    print(f"Chapter {target_chap}: {len(items)} yellow highlights")
     print(f"  grounded: {found}/{len(items)}  (EXACT/PARTIAL)")
     if missing:
         print(f"  NOT located (handle manually / image): pages {missing}")

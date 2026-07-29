@@ -1,13 +1,15 @@
 ---
 name: emt-card-maker
-description: Make and maintain Parker's EMT Anki cloze cards from his green Zotero highlights. Use (1) to GENERATE cards when he's done highlighting a chapter ("make my Chapter 1 cards", "I finished highlighting chapter 3"), AND (2) to FIX/REVIEW/IMPROVE existing cards or the card-maker itself when he reports a problem while studying ("I noticed an issue with an EMT card", "this EMT flashcard is wrong / the hint gives it away", "fix the EMT card maker", "the cards keep doing X"), AND (3) to BATCH-PROCESS the complaints Parker types into the hidden "Card Feedback" field during review ("go look at my card feedback", "process my complaints", "go through the cards I ranted about / flagged", "harvest my Anki feedback") — this spans his EMT and Liberty course cards. On any single-card issue follow the "If Parker reports an issue" procedure below; for a batch, follow "Processing card feedback (batch)".
+description: Make and maintain Parker's EMT Anki cloze cards from his yellow Zotero highlights. Use (1) to GENERATE cards when he's done highlighting a chapter ("make my Chapter 1 cards", "I finished highlighting chapter 3"), AND (2) to FIX/REVIEW/IMPROVE existing cards or the card-maker itself when he reports a problem while studying ("I noticed an issue with an EMT card", "this EMT flashcard is wrong / the hint gives it away", "fix the EMT card maker", "the cards keep doing X"), AND (3) to BATCH-PROCESS the complaints Parker types into the hidden "Card Feedback" field during review ("go look at my card feedback", "process my complaints", "go through the cards I ranted about / flagged", "harvest my Anki feedback") — this spans his EMT and Liberty course cards. On any single-card issue follow the "If Parker reports an issue" procedure below; for a batch, follow "Processing card feedback (batch)".
 ---
 
 # EMT Card Maker
 
-Turns the things Parker green-highlights (`#5fb236`) in his EMT textbook (Zotero) into excellent Anki cloze cards, grounded in the real page text, quality-checked, and staged into the chapter's `all::EMT::Chapter <N>::claude review` subdeck for him to approve and promote.
+Turns the things Parker yellow-highlights (`#ffd400`) in his EMT textbook (Zotero) into excellent Anki cloze cards, grounded in the real page text, quality-checked, and staged into the chapter's `all::EMT::Chapter <N>::claude review` subdeck for him to approve and promote.
 
-This replaces his old ChatGPT "v60" system. The old EMT deck was deleted on purpose; this rebuild fixes what that deck got wrong (see `reference/card-rules.md` Layer B for the specific failures). **The green highlight is Parker's "this matters" signal — he has already chosen what's important. Your job is to turn it into the best possible card(s), not to re-decide importance.**
+**Highlight colors:** yellow = "I want to memorize this" = make a card. Blue = everything else, and is ignored. Those are the only two colors in the book. (History: he highlighted the early chapters in green and switched to yellow around p526; on 2026-07-29 the whole book was normalized to yellow/blue. If you ever see green, something has gone wrong — do not silently skip it, tell him.)
+
+This replaces his old ChatGPT "v60" system. The old EMT deck was deleted on purpose; this rebuild fixes what that deck got wrong (see `reference/card-rules.md` Layer B for the specific failures). **The yellow highlight is Parker's "this matters" signal — he has already chosen what's important. Your job is to turn it into the best possible card(s), not to re-decide importance.**
 
 ## Three rules that override everything
 
