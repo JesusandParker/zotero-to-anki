@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-check_cards.py — deterministic pre-flight GATE for EMT cards.
+check_cards.py — deterministic pre-flight GATE for generated cards (any source).
 
 Runs the checks that CAN be mechanical, so they can never be skipped or
 forgotten. Semantic checks (under-clozing, yield, subtle leaks) are the LLM
@@ -11,16 +11,16 @@ in-batch duplicates — including the exact shapes that have bitten us before
 Three ways to run it:
   * GATE (default) — check a staged JSON file and, on a HARD-clean pass, write a
     `.verified` stamp so anki_write.py will let the file be staged. Strict HTML gate.
-        python3 scripts/check_cards.py work/chapter_N_cards.json
+        python3 scripts/check_cards.py work/<source>/<file>_cards.json
   * AUDIT a file (--audit) — same, but for PRE-EXISTING/rich cards: skip the
     minimal-HTML HARD gate (embedded reference images/links, tables, the Ch5
     clinical-ex blocks) while keeping every meaningful check.
-        python3 scripts/check_cards.py --audit work/chapter_5_cards.json
+        python3 scripts/check_cards.py --audit work/emt/chapter_5_cards.json
   * LIVE AUDIT (--live) — pull cards straight from the Anki deck and check them, so
     cards HAND-EDITED in Anki (Mac + iPhone) still get audited. Relaxed HTML like
     --audit. Diagnostic only — it never stamps or writes.
-        python3 scripts/check_cards.py --live 3          # one chapter
-        python3 scripts/check_cards.py --live all        # every EMT chapter
+        python3 scripts/check_cards.py --live 3   --source emt   # one segment
+        python3 scripts/check_cards.py --live all --source emt   # the whole source
     (Added 2026-07-19 after a live audit found <a> anchor tags that had drifted
     into two cards via mobile paste-edits — the gate had never seen them because
     it only ever checked the pre-staging JSON.)
@@ -30,6 +30,8 @@ they are routed to the LLM judge / Parker.
 """
 import argparse, hashlib, json, os, re, sys, unicodedata, urllib.request
 from difflib import SequenceMatcher
+
+import sources as S
 
 
 def stamp_path(cards_json):
@@ -291,8 +293,13 @@ def per_card(idx, c, strict_html=True):
     return hard, warn
 
 
-def load_live(which):
-    """Pull cards from the live Anki deck(s) for a --live audit."""
+def load_live(which, source_id):
+    """Pull cards from the live Anki deck(s) for a --live audit.
+
+    The deck to sweep comes from the source registry, so this works for any registered
+    source, not just the EMT textbook. `--live all` sweeps the whole source root;
+    `--live N` sweeps that segment INCLUDING both the staging deck and the deck Parker
+    promotes into, since hand-edit drift happens in whichever one he is studying."""
     def call(action, **params):
         req = urllib.request.Request(
             ANKI, data=json.dumps({"action": action, "version": 6, "params": params}).encode(),
@@ -304,7 +311,15 @@ def load_live(which):
         if res.get("error"):
             raise RuntimeError(res["error"])
         return res["result"]
-    query = 'deck:all::EMT::*' if which == "all" else f'deck:"all::EMT::Chapter {which}"'
+    src = S.get_source(source_id)
+    if which == "all":
+        query = f'deck:{src["deck_root"]}::*'
+    else:
+        try:
+            seg = int(which)
+        except ValueError:
+            sys.exit(f"ERROR: --live expects a segment number or 'all', got {which!r}")
+        query = f'deck:"{S.audit_deck(src, seg)}"'
     ids = call("findNotes", query=query)
     notes = call("notesInfo", notes=ids)
     cards = []
@@ -318,20 +333,27 @@ def load_live(which):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Deterministic gate / live audit for EMT cards.")
+    ap = argparse.ArgumentParser(description="Deterministic gate / live audit for generated cards.")
     ap.add_argument("cards_json", nargs="?", help="staged JSON file to gate (default mode)")
     ap.add_argument("--live", metavar="N|all", help="audit live Anki cards instead of a file (diagnostic; no stamp)")
+    ap.add_argument("--source", default=None,
+                    help="source id for --live (see: sources.py list). Defaults to the "
+                         "cards' own 'source' field in file mode.")
     ap.add_argument("--audit", action="store_true",
                     help="verifying PRE-EXISTING/rich cards: skip the minimal-HTML HARD gate (keep every other "
                          "check). Default (no flag) stays strict so NEW generated cards are held to b/i/br/img.")
     args = ap.parse_args()
     if not args.cards_json and not args.live:
-        sys.exit("usage: check_cards.py [--audit] <cards.json>   |   check_cards.py --live <N|all>")
+        sys.exit("usage: check_cards.py [--audit] <cards.json>   |   "
+                 "check_cards.py --live <N|all> --source <id>")
 
     live = bool(args.live)
     strict_html = not (args.audit or live)  # rich pre-existing / hand-edited cards relax the HTML gate
     if live:
-        cards = load_live(args.live)
+        if not args.source:
+            sys.exit("ERROR: --live needs --source <id> so it knows which deck to sweep.\n"
+                     "See: python3 scripts/sources.py list")
+        cards = load_live(args.live, args.source)
         label = [str(c["noteId"]) for c in cards]  # identify by noteId in live mode
     else:
         cards = json.load(open(args.cards_json))

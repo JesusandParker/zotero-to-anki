@@ -1,0 +1,47 @@
+{
+ "version": 1,
+ "_comment": "The source registry: every Zotero item Parker can point Claude at, and where its cards go. Add a source with `python3 scripts/add_source.py`, which proposes the deck path and asks him once. See reference/sources.md for the field reference.",
+ "defaults": {
+  "colors": [
+   "#ffd400",
+   "#facd5a"
+  ],
+  "model": "AnKing Cloze",
+  "staging": "{root}::claude review",
+  "promote": "{root}::Keepers",
+  "profile": "default",
+  "segment_noun": "Section"
+ },
+ "sources": {
+  "emt": {
+   "label": "EMT — AAOS Emergency Care & Transportation of the Sick and Injured, 12e (Pollak)",
+   "attachment_key": "Z98PW7AT",
+   "path_match": "Pollak",
+   "kind": "textbook",
+   "segments": "reference/maps/emt.json",
+   "segment_noun": "Chapter",
+   "deck_root": "all::EMT",
+   "staging": "{root}::Chapter {segment}::claude review",
+   "promote": "{root}::Chapter {segment}::Book Highlights",
+   "tags": [
+    "ch{segment}"
+   ],
+   "profile": "emt",
+   "notes": "The original source this pipeline was built on. Deck names are case-exact and predate the registry — 'Chapter <N>'/'Book Highlights' Title Case, 'claude review' lowercase. Do not restyle them; 899 existing notes live under this structure."
+  },
+  "isaacs17": {
+   "label": "Genetics — Isaacs lecture, Chapter 17 (Gene Regulation)",
+   "attachment_key": "4SANPBYU",
+   "kind": "lecture",
+   "segment_noun": "Chapter",
+   "deck_root": "all::LIBERTY::Genetics::Isaacs 17 Gene Regulation",
+   "staging": "{root}::claude review",
+   "promote": "{root}::Keepers",
+   "tags": [
+    "isaacs17"
+   ],
+   "profile": "science",
+   "notes": "PROVISIONAL deck path — proposed by Claude 2026-07-29, not yet confirmed by Parker. Confirm or correct deck_root before the first anki_write run. Slides are marked with yellow UNDERLINE, not highlight."
+  }
+ }
+}

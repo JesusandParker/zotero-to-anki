@@ -1,51 +1,61 @@
 #!/usr/bin/env python3
 """
-extract_highlights.py — Stage 1 of the EMT card pipeline.
+extract_highlights.py — Stage 1: pull the highlights Parker marked "card me" out of ANY
+registered Zotero source, ground each one in its surrounding page paragraph, and emit
+the JSON work-file the card-writer reads.
 
-Pulls Parker's YELLOW (#ffd400) highlights from the EMT textbook in Zotero for a
-given chapter, grounds each one in its surrounding page paragraph, and emits a
-clean JSON work-file the card-writer reads.
+Which PDF, which highlight colors, and which page->segment map all come from the source
+registry (reference/sources.json), so this one script serves the EMT textbook, an Arabic
+textbook, a lecture PowerPoint, or anything else Parker registers.
 
-READ-ONLY against Zotero: it copies the live DB and reads the copy in immutable
-mode; it never touches the original DB or PDF.
+Parker's color convention (normalized 2026-07-29): YELLOW = memorize this, everything
+else (blue especially) = ordinary reading emphasis, deliberately ignored. Both palette
+yellows are matched by default — #ffd400 is Zotero's own, #facd5a comes from externally
+annotated PDFs — and a source may override `colors` when its book uses a different scheme.
+
+READ-ONLY against Zotero: it copies the live DB and reads the copy in immutable mode; it
+never touches the original DB or the PDF.
 
 Usage:
-    python3 extract_highlights.py --chapter 1
-    python3 extract_highlights.py --chapter 1 --out /path/to/ch1.json
-    python3 extract_highlights.py --all
+    python3 extract_highlights.py --source emt --segment 6         # one chapter
+    python3 extract_highlights.py --source emt --all               # every highlight
+    python3 extract_highlights.py --source isaacs16                # a flat source, whole doc
+    python3 extract_highlights.py --source arabic --pages 40-58    # an explicit page range
 """
-import argparse, json, os, re, shutil, sqlite3, subprocess, sys, tempfile, unicodedata
+import argparse, json, os, re, shutil, subprocess, sys, unicodedata
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-SKILL = os.path.dirname(HERE)
-ZOTERO_DB = os.path.expanduser("~/Zotero/zotero.sqlite")
-PDF = "/Users/parkerregner/Zotero/storage/Z98PW7AT/Pollak et al. - 2021 - Emergency care and transportation of the sick and injured.pdf"
-# Yellow = "make a card". Parker highlighted Ch1-7 in green under the old scheme,
-# then switched to yellow around p526; on 2026-07-29 the whole book was normalized
-# so yellow = memorize and blue = everything else. Both palette yellows are matched
-# (#ffd400 is Zotero's own; #facd5a is the alternate palette from externally
-# annotated PDFs). Any other color, blue included, is deliberately ignored.
-YELLOW = ("#ffd400", "#facd5a")
-CHAPTER_MAP = os.path.join(SKILL, "reference", "chapter_pages.json")
+import sources as S
+
+# Zotero annotation types. "Card me" is decided by COLOR, not by markup style: Parker
+# HIGHLIGHTS in the EMT textbook but UNDERLINES on lecture slides, and both mean exactly
+# the same thing to him. Reading only type=1 is why a lecture deck would come back empty
+# (Isaacs Ch17: six yellow underlines, zero highlights).
+TEXT_TYPES = (1, 5)    # highlight, underline -> a grounded span of source text
+IMAGE_TYPES = (3,)     # area selection      -> a figure/diagram to crop and card
+NOTE_TYPES = (6,)      # standalone note     -> Parker's own words, no source span
+SKIP_TYPES = (2, 4)    # sticky note, ink    -> no cardable content
+KIND = {**{t: "text" for t in TEXT_TYPES}, **{t: "image" for t in IMAGE_TYPES},
+        **{t: "note" for t in NOTE_TYPES}}
+
 CTX_CHARS = 450  # paragraph context grabbed on each side of the highlight
-# A list lead-in (a highlight that introduces an enumerated list, e.g. "...consider
-# the following factors:") needs MUCH more forward context, or the list gets cut off
+# A list lead-in (a highlight that introduces an enumerated list, e.g. "...consider the
+# following factors:") needs MUCH more forward context, or the list gets cut off
 # mid-enumeration and the card-writer completes it from memory (ungrounded) or
-# undercounts. This bit Ch3 card 4: the 450-char window caught only 4 of 8
+# undercounts. This bit EMT Ch3 card 4: the 450-char window caught only 4 of 8
 # decision-making-capacity factors. When we detect a lead-in, grab the whole list.
 LIST_FWD_CHARS = 1700
 LIST_LEADIN = re.compile(r"(:\s*$|\bfollowing\b|\binclude[sd]?\b|\bare[:]?\s*$|\bconsider\b)", re.I)
 
 
 def norm(s):
-    """Normalize text so highlight (DB) and page (pdftotext) can be matched."""
+    """Normalize text so a highlight (from the DB) and page text (from pdftotext) match."""
     if not s:
         return ""
     s = unicodedata.normalize("NFKC", s)
     s = s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
     s = s.replace("—", "-").replace("–", "-").replace("−", "-")
     s = s.replace("­", "")          # soft hyphen
-    s = s.replace(" ", " ")         # nbsp
+    s = s.replace(" ", " ")         # nbsp
     s = re.sub(r"-\s*\n\s*", "", s)      # de-hyphenate across line breaks
     s = re.sub(r"\s+", " ", s)
     return s.strip()
@@ -56,29 +66,14 @@ def norm_loose(s):
     return re.sub(r"\s*-\s*", "-", s)
 
 
-def resolve_attachment(cur):
-    # Must be the Pollak PDF we also extract page text from (NOT the epub copies,
-    # NOT the other emergency-care PDF). Path LIKE 'Pollak%.pdf' isolates it.
-    cur.execute("SELECT itemID FROM itemAttachments WHERE path LIKE '%Pollak%' AND path LIKE '%.pdf' LIMIT 1")
-    row = cur.fetchone()
-    if row:
-        return row[0]
-    # fallback: whichever attachment actually holds the most yellow annotations
-    cur.execute(
-        "SELECT parentItemID FROM itemAnnotations WHERE type=1 AND color IN (?,?) "
-        "GROUP BY parentItemID ORDER BY COUNT(*) DESC LIMIT 1", YELLOW)
-    row = cur.fetchone()
-    return row[0] if row else 2459  # known fallback (attachment key Z98PW7AT)
-
-
-def page_text(page_label):
-    """pdftotext -layout for a single physical page (pageLabel == physical page in this book)."""
+def page_text(pdf, page_label):
+    """pdftotext -layout for a single physical page."""
     try:
-        p = int(re.sub(r"[^0-9]", "", page_label))
-    except ValueError:
+        p = int(re.sub(r"[^0-9]", "", str(page_label)))
+    except (TypeError, ValueError):
         return ""
     out = subprocess.run(
-        ["pdftotext", "-layout", "-f", str(p), "-l", str(p), PDF, "-"],
+        ["pdftotext", "-layout", "-f", str(p), "-l", str(p), pdf, "-"],
         capture_output=True, text=True, timeout=60,
     )
     return out.stdout
@@ -112,7 +107,6 @@ def locate_context(hl_text, raw_page):
     fwd = LIST_FWD_CHARS if LIST_LEADIN.search(hln) else CTX_CHARS
     start = max(0, ni - CTX_CHARS)
     end = min(len(page_n), ni + len(hln) + fwd)
-    # snap to word boundaries
     if start > 0:
         start = page_n.find(" ", start) + 1
     if end < len(page_n):
@@ -124,91 +118,227 @@ def is_list_leadin(hl_text):
     return bool(LIST_LEADIN.search(norm(hl_text)))
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    g = ap.add_mutually_exclusive_group(required=True)
-    g.add_argument("--chapter", type=int, help="chapter number to extract")
-    g.add_argument("--all", action="store_true", help="extract all highlighted chapters")
-    ap.add_argument("--out", help="output JSON path (default: <skill>/work/chapter_<n>_highlights.json)")
-    args = ap.parse_args()
+def clean_comment(c):
+    """Parker's margin comments can carry HTML (he bolds/italicizes inside them) and
+    non-breaking spaces. Flatten to plain text so the card-writer reads his intent, not
+    markup."""
+    if not c:
+        return None
+    c = re.sub(r"<br\s*/?>", "\n", c, flags=re.I)
+    c = re.sub(r"<[^>]+>", "", c)
+    c = c.replace("\xa0", " ")
+    c = re.sub(r"\n{3,}", "\n\n", c)
+    return c.strip() or None
 
-    chap_map = json.load(open(CHAPTER_MAP))
 
-    def chapter_of(page_label):
-        try:
-            p = int(re.sub(r"[^0-9]", "", page_label))
-        except ValueError:
-            return None, None
-        for c in chap_map.values():
-            if c["start"] <= p <= c["end"]:
-                return c["chapter_num"], c["chapter_name"]
+def assert_pdf(path, source_id):
+    """Zotero's contentType is not trustworthy: 'Isaacs Chapter 16.pptx' is registered as
+    application/pdf but is really a zip. Poppler would emit garbage rather than fail, so
+    check the magic bytes and stop with an actionable message instead."""
+    try:
+        with open(path, "rb") as f:
+            magic = f.read(5)
+    except OSError as e:
+        sys.exit(f"ERROR: cannot read the file for source '{source_id}': {e}")
+    if magic != b"%PDF-":
+        kind = "a PowerPoint/zip file" if magic[:2] == b"PK" else f"magic {magic!r}"
+        sys.exit(
+            f"ERROR: the attachment for source '{source_id}' is not a PDF — it is {kind}:\n"
+            f"  {path}\n"
+            f"Zotero's stored contentType can be wrong. Text extraction needs a real PDF.\n"
+            f"Fix: open the file, export/print it to PDF, attach THAT to the Zotero item, "
+            f"re-highlight it, and point the source at the new attachment key.")
+
+
+def parse_rects(position):
+    """(pageIndex, [x1,y1,x2,y2]) for an area annotation, in PDF points (origin
+    bottom-left). Zotero stores this as JSON: {"pageIndex":8,"rects":[[...]]}"""
+    try:
+        p = json.loads(position) if isinstance(position, str) else (position or {})
+        rects = p.get("rects") or []
+        if not rects:
+            return p.get("pageIndex"), None
+        xs0 = min(r[0] for r in rects); ys0 = min(r[1] for r in rects)
+        xs1 = max(r[2] for r in rects); ys1 = max(r[3] for r in rects)
+        return p.get("pageIndex"), [xs0, ys0, xs1, ys1]
+    except (json.JSONDecodeError, TypeError, KeyError, IndexError, ValueError):
         return None, None
 
-    # copy DB and read immutable
-    tmp = tempfile.mkdtemp(prefix="emtcards_")
-    db_copy = os.path.join(tmp, "z.sqlite")
-    shutil.copy2(ZOTERO_DB, db_copy)
-    con = sqlite3.connect(f"file:{db_copy}?immutable=1", uri=True)
-    cur = con.cursor()
-    att = resolve_attachment(cur)
-    cur.execute(
-        "SELECT pageLabel, position, text, comment, color, sortIndex "
-        "FROM itemAnnotations WHERE parentItemID=? AND type=1 AND color IN (?,?) ORDER BY sortIndex",
-        (att, YELLOW[0], YELLOW[1]),
-    )
-    rows = cur.fetchall()
-    con.close()
-    shutil.rmtree(tmp, ignore_errors=True)
 
-    items = []
-    page_cache = {}
-    for page_label, position, text, comment, color, sort in rows:
-        cnum, cname = chapter_of(page_label)
-        if not args.all and cnum != args.chapter:
+def work_path(source, label, kind):
+    """work/<source>/<label>_<kind>.json — per-source subdirectories, so a growing
+    library of books and lectures never collides in one flat folder."""
+    d = os.path.join(S.SKILL, "work", source["id"])
+    os.makedirs(d, exist_ok=True)
+    return os.path.join(d, f"{label}_{kind}.json")
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Extract 'card me' highlights from a registered Zotero source.")
+    ap.add_argument("--source", required=True, help="source id from reference/sources.json (see: sources.py list)")
+    g = ap.add_mutually_exclusive_group()
+    g.add_argument("--segment", type=int, help="segment number (chapter/unit/lesson) for a mapped source")
+    g.add_argument("--pages", help="explicit physical page range, e.g. 515-680")
+    g.add_argument("--all", action="store_true", help="every highlight in the document")
+    ap.add_argument("--out", help="output JSON path (default: work/<source>/<label>_highlights.json)")
+    args = ap.parse_args()
+
+    src = S.get_source(args.source)
+    item_id, pdf = S.resolve_attachment(src)
+    if not os.path.exists(pdf):
+        sys.exit(f"ERROR: the PDF for source '{src['id']}' is not on disk:\n  {pdf}\n"
+                 f"(Is the attachment stored locally in Zotero, or is it a linked file?)")
+    assert_pdf(pdf, src["id"])
+    wanted = S.colors(src)
+    noun = S.segment_noun(src)
+    has_map = S.load_segments(src) is not None
+
+    # ---- what page window are we pulling?
+    lo = hi = None
+    if args.segment is not None:
+        lo, hi, seg_name = S.segment_range(src, args.segment)
+        label = f"{noun.lower()}_{args.segment}"
+        scope = f"{noun} {args.segment}" + (f" — {seg_name}" if seg_name else "") + f" (p{lo}-{hi})"
+    elif args.pages:
+        m = re.match(r"^\s*(\d+)\s*-\s*(\d+)\s*$", args.pages)
+        if not m:
+            sys.exit("ERROR: --pages expects a range like 515-680")
+        lo, hi = int(m.group(1)), int(m.group(2))
+        label = f"p{lo}-{hi}"
+        scope = f"pages {lo}-{hi}"
+    else:
+        if has_map and not args.all:
+            sys.exit(f"ERROR: source '{src['id']}' is segmented into {noun.lower()}s. "
+                     f"Pass --segment N, --pages A-B, or --all.")
+        label = "all"
+        scope = "the whole document"
+
+    # ---- pull annotations (read-only copy of the DB)
+    con, tmp = S._open_db()
+    try:
+        cur = con.cursor()
+        types = TEXT_TYPES + IMAGE_TYPES + NOTE_TYPES
+        cur.execute(
+            "SELECT pageLabel, position, text, comment, color, sortIndex, type "
+            f"FROM itemAnnotations WHERE parentItemID=? "
+            f"AND type IN ({','.join('?' * len(types))}) "
+            f"AND color IN ({','.join('?' * len(wanted))}) ORDER BY sortIndex",
+            (item_id, *types, *wanted))
+        rows = cur.fetchall()
+    finally:
+        con.close()
+        shutil.rmtree(tmp, ignore_errors=True)
+
+    items, page_cache = [], {}
+    for page_label, position, text, comment, color, sort, atype in rows:
+        try:
+            pnum = int(re.sub(r"[^0-9]", "", str(page_label)))
+        except (TypeError, ValueError):
+            pnum = None
+        if lo is not None and (pnum is None or not (lo <= pnum <= hi)):
             continue
+
+        kind = KIND.get(atype, "text")
+        note = clean_comment(comment)
+
+        # An AREA selection has no source text — the fact lives in the figure. Record the
+        # crop box so render_page.py can cut it out, and let the card-writer author from
+        # the image. This is Parker's "I want to memorize this diagram" case.
+        if kind == "image":
+            page_index, rect = parse_rects(position)
+            items.append({
+                "source": src["id"], "kind": "image",
+                "segment": S.segment_of_page(src, page_label)[0],
+                "segment_name": S.segment_of_page(src, page_label)[1],
+                "page": page_label, "color": color, "highlight": "",
+                "context": "", "grounding": "IMAGE",
+                "crop": {"page_index": page_index, "rect": rect},
+                "list_lead_in": False, "user_comment": note, "sort": sort,
+            })
+            continue
+
+        # A standalone NOTE is Parker's own words with no underlying source span, so it
+        # cannot be grounded the usual way. Surface it rather than card it blindly.
+        if kind == "note":
+            items.append({
+                "source": src["id"], "kind": "note",
+                "segment": S.segment_of_page(src, page_label)[0],
+                "segment_name": S.segment_of_page(src, page_label)[1],
+                "page": page_label, "color": color, "highlight": note or "",
+                "context": "", "grounding": "NOTE",
+                "list_lead_in": False, "user_comment": note, "sort": sort,
+            })
+            continue
+
         if page_label not in page_cache:
-            page_cache[page_label] = page_text(page_label)
+            page_cache[page_label] = page_text(pdf, page_label)
         page_src = page_cache[page_label]
-        # A list lead-in whose enumeration spills onto the NEXT page (e.g. the
-        # decision-making-capacity factors run 272->273) would be truncated if we
-        # only read one page. For lead-ins, append the next page so the whole list
-        # is in context. (This is the real cause of the Ch3 "7 vs 8 factors" bug.)
+        # A list lead-in whose enumeration spills onto the NEXT page would be truncated
+        # if we only read one page, so for lead-ins append the next page. (This is the
+        # real cause of the EMT Ch3 "7 vs 8 factors" bug.)
         if is_list_leadin(text):
             try:
-                nxt = str(int(re.sub(r"[^0-9]", "", page_label)) + 1)
+                nxt = str(int(re.sub(r"[^0-9]", "", str(page_label))) + 1)
                 if nxt not in page_cache:
-                    page_cache[nxt] = page_text(nxt)
+                    page_cache[nxt] = page_text(pdf, nxt)
                 page_src = page_src + " " + page_cache[nxt]
-            except ValueError:
+            except (TypeError, ValueError):
                 pass
+
         status, ctx = locate_context(text, page_src)
+        seg_n, seg_name = S.segment_of_page(src, page_label)
         items.append({
-            "chapter_num": cnum,
-            "chapter_name": cname,
+            "source": src["id"],
+            "kind": "text",
+            "segment": seg_n,
+            "segment_name": seg_name,
             "page": page_label,
             "color": color,
             "highlight": norm(text),
             "context": ctx,
             "grounding": status,
-            # true = this highlight introduces an enumerated list; the writer/editor
-            # MUST count the list against the full page (not just this context) and
-            # test every item — this is where undercounting/ungrounded completion hides.
+            # true = this highlight introduces an enumerated list; the writer/editor MUST
+            # count the list against the full page (not just this context) and test every
+            # item — this is where undercounting / ungrounded completion hides.
             "list_lead_in": is_list_leadin(text),
-            "user_comment": (comment or "").strip() or None,
+            "user_comment": note,
             "sort": sort,
         })
 
-    target_chap = "all" if args.all else str(args.chapter)
-    out = args.out or os.path.join(SKILL, "work", f"chapter_{target_chap}_highlights.json")
+    out = args.out or work_path(src, label, "highlights")
     os.makedirs(os.path.dirname(out), exist_ok=True)
-    json.dump(items, open(out, "w"), indent=1, ensure_ascii=False)
+    with open(out, "w") as f:
+        json.dump(items, f, indent=1, ensure_ascii=False)
 
-    found = sum(1 for i in items if i["grounding"] in ("EXACT", "PARTIAL"))
-    missing = [i["page"] for i in items if i["grounding"] == "NOT_FOUND"]
-    print(f"Chapter {target_chap}: {len(items)} yellow highlights")
-    print(f"  grounded: {found}/{len(items)}  (EXACT/PARTIAL)")
+    txt = [i for i in items if i["kind"] == "text"]
+    imgs = [i for i in items if i["kind"] == "image"]
+    notes = [i for i in items if i["kind"] == "note"]
+    found = sum(1 for i in txt if i["grounding"] in ("EXACT", "PARTIAL"))
+    exact = sum(1 for i in txt if i["grounding"] == "EXACT")
+    missing = [i["page"] for i in txt if i["grounding"] == "NOT_FOUND"]
+    comments = [i for i in items if i["user_comment"]]
+    print(f"{src['label']}")
+    print(f"  scope:  {scope}")
+    print(f"  colors: {', '.join(wanted)}")
+    print(f"  {len(items)} marked item(s): {len(txt)} text, {len(imgs)} figure, {len(notes)} standalone note")
+    if txt:
+        print(f"  text grounded {found}/{len(txt)} ({exact} EXACT)")
     if missing:
-        print(f"  NOT located (handle manually / image): pages {missing}")
+        print(f"  NOT located (handle manually / render the page): pages {missing}")
+    if imgs:
+        print(f"  {len(imgs)} figure selection(s) — crop each and author from the image:")
+        for i in imgs:
+            print(f"     p{i['page']}:  python3 scripts/render_page.py --source {src['id']} "
+                  f"{i['page']} --crop-from work/{src['id']}/{label}_highlights.json")
+    if notes:
+        print(f"  {len(notes)} standalone note(s) — Parker's own words, NOT source text. "
+              f"Ground them before carding, or flag needs_human_check:")
+        for i in notes:
+            print(f"     p{i['page']}: {i['highlight'][:90]}")
+    if comments:
+        print(f"  {len(comments)} margin comment(s) — Parker talking to you. Obey them; answer any question at hand-off:")
+        for c in comments:
+            print(f"     p{c['page']}: {c['user_comment'][:100]}")
     print(f"  -> {out}")
 
 

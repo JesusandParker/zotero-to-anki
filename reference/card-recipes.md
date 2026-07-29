@@ -4,6 +4,8 @@ The master playbook for picking and executing the right card pattern for any EMT
 
 Note type is 2-field: **Text** (the cloze) + **Back Extra** (the teaching half, lines open with `Cue:`/`Distinguish:`/`Pitfall:`/`Why:`/`Mechanism:`/`Ex:`/`Pathway:`/`Mnemonic:`/`Meaning:`). HTML allowed: `<b>`, `<i>`, `<br>`, `<img>` only (selective emphasis; no `<u>`).
 
+*The worked examples below are mostly EMT, because that is the source this pipeline was built and proven on. The **patterns** are subject-independent — read them as "here is how a comparison card is built," not "here is what your cards are about." The per-subject emphasis lives in `reference/profiles/`.*
+
 ---
 
 ## 1. How to choose an archetype
@@ -23,27 +25,14 @@ Do **Rule 0 first** (card-rules): if the highlight is one leg of a connected set
 
 **Decision shortcuts.** Distinctive short cue → one answer = buzzword. Needs 2-4 clues to be solvable = vignette. Several coordinate members = list. Arrow / "because" / "then" / direction word doing the work = sequence/comparison, not list. Could be answered by a *number* but not a sentence = numeric. A term you'd recognize AND produce = two-way definition.
 
-**EMT default bias:** the NREMT is an *application* exam. Most clinical highlights should become a decision, not a factoid. When a highlight is a sign / threshold / finding, also emit a short **vignette** card that forces the field decision (§9). If fewer than ~1 in 4 cards for a clinical chapter makes Parker *decide* something, the batch is too factoid-heavy.
+**The archetype MIX is per-subject, and it lives in the source's profile** (`reference/profiles/<name>.md`, selected by the source registry). Read that profile before drafting: it says what the material is for, which archetypes should dominate, and the subject's specific traps. The recipes below (§2–§11) are universal — how to execute each archetype well, whatever the subject.
 
-### Target archetype mix per clinical chapter (Airway, Shock, Cardiac, Trauma, Assessment push application even higher)
-- ~30% scenario / application (§9)
-- ~20% indication / contraindication / "when do you do X" trigger (§10, §9)
-- ~15% sign/symptom → field impression (§9)
-- ~15% assessment-sequence & treatment-order (§7)
-- ~10% normal ranges + dose/quantity facts (§5)
-- ~7% definitions, action-changing only (§4)
-- ~3% anatomy / mechanism / "why" (§7, §11)
+- `profiles/emt.md` — NREMT application bias, the scenario auto-pair rule, dose safety.
+- `profiles/science.md` — mechanism-heavy, lecture margin-comments as the top signal.
+- `profiles/language.md` — production over recognition, script/RTL handling.
+- `profiles/default.md` — no forced bias; let the source decide.
 
-**Recall-heavy chapters flip toward definitions/rules:** EMS Operations, Medical/Legal, Lifting & Moving, Ambulance Ops (consent types, negligence components, hazmat zones, triage, scope-of-practice). Less scenario there.
-
-**EMT-native patterns the AnKing Step/MCAT decks don't emphasize — build these on purpose:**
-1. **Contraindication pairs** — indication AND contraindication together so they don't blur (§10).
-2. **"When do you do X" triggers** — one card per intervention, framed as the field trigger (§9).
-3. **Age-banded vital ranges** — a tight grouped sub-set (adult / child / infant), anchor to one source (the AAOS/course numbers) (§5, §6).
-4. **The finite EMT drug box** — the 5 rights + indication + contraindication + exact dose; skip mechanism of action (§5).
-5. **Scope-of-practice boundaries** — EMT-B vs AEMT vs Paramedic; "can an EMT do X" (§9/§10).
-
-**Default flips vs a med deck:** drug → rights/indication/contra/**dose** (not MOA); condition → field S/S → impression → BLS treatment + transport (not pathophys); number → number **+ the action it triggers**; anatomy → occlude only assessment-relevant figures; legal/ethical concept → **card it** (med decks skip these, they're easy NREMT points); MOI → index-of-suspicion card. Don't over-card: a finite syllabus + application exam means *hundreds* of dense decision-cards, not tens of thousands of trivia.
+If a highlight's best shape genuinely conflicts with the profile's mix, follow the highlight. The mix is a check against monotony, not a quota to fill.
 
 ---
 

@@ -1,0 +1,253 @@
+{
+ "source": "emt",
+ "noun": "Chapter",
+ "note": "Page numbers are PHYSICAL PDF pages. In this book pageLabel == physical page (no front-matter offset).",
+ "segments": [
+  {
+   "n": 1,
+   "name": "EMS Systems",
+   "start": 67,
+   "end": 129
+  },
+  {
+   "n": 2,
+   "name": "Workforce Safety and Wellness",
+   "start": 130,
+   "end": 266
+  },
+  {
+   "n": 3,
+   "name": "Medical, Legal, and Ethical Issues",
+   "start": 267,
+   "end": 349
+  },
+  {
+   "n": 4,
+   "name": "Communications and Documentation",
+   "start": 350,
+   "end": 454
+  },
+  {
+   "n": 5,
+   "name": "Medical Terminology",
+   "start": 455,
+   "end": 514
+  },
+  {
+   "n": 6,
+   "name": "The Human Body",
+   "start": 515,
+   "end": 680
+  },
+  {
+   "n": 7,
+   "name": "Life Span Development",
+   "start": 681,
+   "end": 737
+  },
+  {
+   "n": 8,
+   "name": "Lifting and Moving Patients",
+   "start": 738,
+   "end": 867
+  },
+  {
+   "n": 9,
+   "name": "The Team Approach to Health Care",
+   "start": 868,
+   "end": 913
+  },
+  {
+   "n": 10,
+   "name": "Patient Assessment",
+   "start": 914,
+   "end": 1101
+  },
+  {
+   "n": 11,
+   "name": "Airway Management",
+   "start": 1102,
+   "end": 1308
+  },
+  {
+   "n": 12,
+   "name": "Principles of Pharmacology",
+   "start": 1309,
+   "end": 1387
+  },
+  {
+   "n": 13,
+   "name": "Shock",
+   "start": 1388,
+   "end": 1445
+  },
+  {
+   "n": 14,
+   "name": "BLS Resuscitation",
+   "start": 1446,
+   "end": 1579
+  },
+  {
+   "n": 15,
+   "name": "Medical Overview",
+   "start": 1580,
+   "end": 1631
+  },
+  {
+   "n": 16,
+   "name": "Respiratory Emergencies",
+   "start": 1632,
+   "end": 1744
+  },
+  {
+   "n": 17,
+   "name": "Cardiovascular Emergencies",
+   "start": 1745,
+   "end": 1859
+  },
+  {
+   "n": 18,
+   "name": "Neurologic Emergencies",
+   "start": 1860,
+   "end": 1934
+  },
+  {
+   "n": 19,
+   "name": "Gastrointestinal and Urologic Emergencies",
+   "start": 1935,
+   "end": 1987
+  },
+  {
+   "n": 20,
+   "name": "Endocrine and Hematologic Emergencies",
+   "start": 1988,
+   "end": 2052
+  },
+  {
+   "n": 21,
+   "name": "Allergy and Anaphylaxis",
+   "start": 2053,
+   "end": 2096
+  },
+  {
+   "n": 22,
+   "name": "Toxicology",
+   "start": 2097,
+   "end": 2170
+  },
+  {
+   "n": 23,
+   "name": "Behavioral Health Emergencies",
+   "start": 2171,
+   "end": 2235
+  },
+  {
+   "n": 24,
+   "name": "Gynecologic Emergencies",
+   "start": 2236,
+   "end": 2275
+  },
+  {
+   "n": 25,
+   "name": "Trauma Overview",
+   "start": 2276,
+   "end": 2357
+  },
+  {
+   "n": 26,
+   "name": "Bleeding",
+   "start": 2358,
+   "end": 2434
+  },
+  {
+   "n": 27,
+   "name": "Soft-Tissue Injuries",
+   "start": 2435,
+   "end": 2549
+  },
+  {
+   "n": 28,
+   "name": "Face and Neck Injuries",
+   "start": 2550,
+   "end": 2646
+  },
+  {
+   "n": 29,
+   "name": "Head and Spine Injuries",
+   "start": 2647,
+   "end": 2797
+  },
+  {
+   "n": 30,
+   "name": "Chest Injuries",
+   "start": 2798,
+   "end": 2860
+  },
+  {
+   "n": 31,
+   "name": "Abdominal and Genitourinary Injuries",
+   "start": 2861,
+   "end": 2928
+  },
+  {
+   "n": 32,
+   "name": "Orthopaedic Injuries",
+   "start": 2929,
+   "end": 3083
+  },
+  {
+   "n": 33,
+   "name": "Environmental Emergencies",
+   "start": 3084,
+   "end": 3197
+  },
+  {
+   "n": 34,
+   "name": "Obstetrics and Neonatal Care",
+   "start": 3198,
+   "end": 3295
+  },
+  {
+   "n": 35,
+   "name": "Pediatric Emergencies",
+   "start": 3296,
+   "end": 3473
+  },
+  {
+   "n": 36,
+   "name": "Geriatric Emergencies",
+   "start": 3474,
+   "end": 3576
+  },
+  {
+   "n": 37,
+   "name": "Patients With Special Challenges",
+   "start": 3577,
+   "end": 3653
+  },
+  {
+   "n": 38,
+   "name": "Transport Operations",
+   "start": 3654,
+   "end": 3758
+  },
+  {
+   "n": 39,
+   "name": "Vehicle Extrication and Special Rescue",
+   "start": 3759,
+   "end": 3812
+  },
+  {
+   "n": 40,
+   "name": "Incident Management",
+   "start": 3813,
+   "end": 3918
+  },
+  {
+   "n": 41,
+   "name": "Terrorism Response and Disaster Management",
+   "start": 3919,
+   "end": 4471
+  }
+ ]
+}

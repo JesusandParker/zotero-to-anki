@@ -1,31 +1,91 @@
-# EMT Card Maker (Claude skill)
+# zotero-to-anki (Claude skill)
 
-Parker's system for turning yellow Zotero highlights from his EMT textbook into excellent Anki cloze cards. Built 2026-06-29 to replace the old ChatGPT "v60" pipeline.
+Parker's system for turning **anything he marks in yellow in Zotero** into excellent Anki
+cloze cards — a textbook chapter, an Arabic unit, a lecture PDF, a paper.
 
-**Yellow = "make a card." Blue = ignored.** Those are the only two highlight colors in the book (normalized 2026-07-29; the early chapters were originally green).
+Built 2026-06-29 as an EMT-only card maker to replace an old ChatGPT "v60" pipeline;
+generalized to any Zotero source on 2026-07-29 once the card craft had converged.
+
+**Yellow = "make a card."** Every other color is ordinary reading emphasis and is ignored by
+design. Color decides, not markup style: highlighting in a textbook and *underlining* on
+lecture slides mean the same thing, and an area-selected figure becomes an image card.
 
 ## How to use it
-In Claude Code, say something like **"make my Chapter 1 EMT cards"** (or "I finished highlighting chapter 3"). The skill runs:
 
-1. **Extract** your yellow (`#ffd400`) highlights for that chapter from Zotero, each grounded in its surrounding page paragraph.
-2. **Draft → Edit** each highlight into card(s): classify the fact, write it against the rules, then run an adversarial Editor pass that kills vague / tautological / under-clozed / low-yield cards.
-3. **Stage** the survivors into that chapter's `all::EMT::Chapter <N>::claude review` deck in Anki (tagged `ch<N>`), where you review, edit, and promote the keepers into the sibling `Book Highlights` deck yourself.
+Say what you want in plain language:
 
-Anki must be **open** for the write step.
+- *"make cards from chapter 6 of my EMT book"*
+- *"I finished highlighting the first Arabic unit"*
+- *"I highlighted something in that genetics lecture I want to memorize"*
+- *"add my organic chem textbook"* — registers a new source (asks you once where its cards go)
+- *"I noticed an issue with a card"* — the fix loop
+- *"go look at my card feedback"* — batch-process the complaints you typed while studying
+
+The pipeline: **extract** the marks (grounded in the real page paragraph) → **draft** each
+into card(s) using the archetype playbook → **adversarial edit** → **global consolidation** →
+**a deterministic gate that cannot be skipped** → **stage** into that source's review deck,
+where you promote the keepers yourself.
+
+**Anki must be open** for anything that touches cards.
+
+## Sources
+
+```bash
+python3 scripts/sources.py list            # what's registered
+python3 scripts/sources.py show emt        # one source, fully resolved
+python3 scripts/add_source.py --search "Alif Baa"   # find something new in Zotero
+```
+
+Everything source-specific — which PDF, which colors, the page→chapter map, the Anki decks,
+the tags, the subject profile — lives in `reference/sources.json`. Adding a book is a
+one-time setup; after that you just point at it. See `reference/sources.md`.
 
 ## What's where
-- `SKILL.md` — the operating instructions Claude follows.
-- `reference/card-rules.md` — the card standard (form rules + the editorial judgment rules the old deck lacked).
-- `reference/editor-checklist.md` — the 11-point "try to break this card" pass.
-- `reference/note-format.md` — exact Anki note type, syntax, deck targets.
-- `reference/cloze-mastery.md` — your 2,391-example AnKing field guide (the gold standard cards imitate).
-- `reference/chapter_pages.json` — textbook page→chapter map.
-- `scripts/extract_highlights.py` — Zotero yellow highlights → grounded JSON (read-only on Zotero).
-- `scripts/render_page.py` — render a table/figure page to an image for visual cards.
-- `scripts/anki_write.py` — safe, one-at-a-time write into `all::EMT::Chapter <N>::claude review` (per chapter).
+
+**Operating instructions**
+- `SKILL.md` — what Claude follows, start to finish.
+- `CLAUDE.md` — the version-control workflow for this repo.
+
+**The universal card standard** (subject-independent; this is the valuable part)
+- `reference/card-rules.md` — Layer A form + Layer B judgment, including the **Cold-Solve Gate**.
+- `reference/editor-checklist.md` — the 20-point "try to break this card" adversarial pass.
+- `reference/card-recipes.md` — the archetype playbook: which card shape, and the exact template.
+- `reference/cloze-mastery.md` — 2,391 annotated AnKing exemplars.
+- `reference/note-format.md` — note type, cloze/MathJax/image syntax, write targets.
+- `reference/parker-preferences.md` — Parker's living tastes; overrides the rules on conflict.
+
+**The reliability harness** (why quality doesn't regress)
+- `reference/regression-cases.md` — R1–R12, every flaw ever caught, with the BAD card it must
+  catch *and* the GOOD card it must not over-flag.
+- `scripts/test_regressions.py` — makes that library **executable**. Run after any rule or
+  checker change.
+- `scripts/check_cards.py` — the deterministic gate; writes the `.verified` stamp that
+  `anki_write.py` refuses to stage without.
+- `reference/feedback-log.md` — the running history of what Parker caught and how it was fixed.
+
+**Per-subject emphasis**
+- `reference/profiles/{emt,science,language,default}.md` — what the material is *for*, which
+  archetypes dominate, subject traps. A thin overlay, never a second rulebook.
+
+**Scripts**
+- `scripts/sources.py` — the registry resolver (source → PDF, colors, segments, decks).
+- `scripts/add_source.py` — register a new source; search Zotero, dump a TOC, build a map.
+- `scripts/extract_highlights.py` — marks → grounded JSON (read-only on Zotero).
+- `scripts/render_page.py` — render a page, or crop exactly to an area selection.
+- `scripts/anki_write.py` — safe, one-at-a-time write into the source's staging deck.
+- `scripts/feedback_harvest.py` — collect and clear the hidden `Card Feedback` complaints.
 
 ## Design notes
-- **Greenfield:** the old EMT deck was exported to iCloud and deleted, so there's no dedup step — every card is new.
-- **The star piece** is the Editor stage: the old system was a great *formatter* with no *editor*; this adds the editor.
-- **Backup:** this skill's source is mirrored to Google Drive, but the *live* skill must stay in `~/.claude/skills/` to work.
-- The first chapter is run slowly and interactively to tune the rules to Parker's taste; later chapters run with less hand-holding.
+
+- **The star piece is the Editor stage.** The old system was a great *formatter* with no
+  *editor*; the adversarial pass is what makes these cards better than a one-shot transform.
+- **Reliability is a harness, not a promise.** Every flaw Parker catches gets named as a rule,
+  mechanized in the checker, and frozen as a two-directional regression test. That's why the
+  honest claim is *monotonic convergence* — nothing found recurs — rather than perfection.
+- **The two-deck promotion gate is universal.** The pipeline only ever writes to
+  `…::claude review`; Parker promotes keepers himself. Deck *names* are per-source.
+- **Card craft is subject-independent; emphasis is not.** Generalizing meant separating those
+  two, which is what `reference/profiles/` is.
+- **Related skill:** `course-to-anki` is the *scoring* pipeline — it decides what deserves a
+  card when nothing is highlighted. This skill is for when Parker has already decided, by
+  marking it. They share this repo's card-craft canon.

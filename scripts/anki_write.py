@@ -1,45 +1,38 @@
 #!/usr/bin/env python3
 """
-anki_write.py — final stage: write finished cards into the Anki review subdeck.
+anki_write.py — final stage: write finished cards into the source's staging deck.
 
-Reads a JSON list of cards and adds each one as a cloze note via AnkiConnect,
-safely:
+Reads a JSON list of cards and adds each one as a cloze note via AnkiConnect, safely:
+  * refuses to run unless check_cards.py stamped THESE exact bytes (the unskippable gate)
   * checks Anki is actually running (fails loud if not)
-  * ensures the target deck and the note type exist
+  * resolves the target deck, note type, and tags from the SOURCE REGISTRY
+  * ensures the staging deck AND Parker's promotion deck exist before writing
   * validates every Text field contains cloze markup ({{c1::...}})
   * pre-flights each note with canAddNotesWithErrorDetail
   * writes ONE note at a time (never a batch) so one bad card can't roll back the rest
-  * tags every card 'ch<N>' (chapter only) so a chapter's batch is filterable
   * does NOT auto-sync to AnkiWeb (Parker syncs deliberately)
 
+Every source keeps the two-deck promotion gate: the pipeline writes ONLY to the staging
+deck ("claude review"), and Parker promotes keepers into the sibling himself. The deck
+NAMES come from the registry, so a lecture doesn't inherit book-shaped naming.
+
 Card JSON shape (list of objects):
-  {"Text": "...{{c1::answer::hint}}...", "Back Extra": "Cue: ...", "chapter": 1,
+  {"Text": "...{{c1::answer::hint}}...", "Back Extra": "Cue: ...",
+   "source": "emt", "segment": 1,
    "image": "/abs/path/to/page.png"  (optional; added to media and <img>-embedded)}
+`chapter` is still accepted as a synonym for `segment` (the original EMT canon files).
 
 Usage:
-    python3 anki_write.py cards.json
-    python3 anki_write.py cards.json --deck "all::EMT::Chapter 1::claude review" --dry-run
+    python3 anki_write.py work/emt/chapter_6_cards.json
+    python3 anki_write.py work/emt/chapter_6_cards.json --dry-run
+    python3 anki_write.py cards.json --source arabic
+    python3 anki_write.py cards.json --deck "all::Other::languages::arabic::claude review"
 """
 import argparse, base64, hashlib, json, os, re, sys, urllib.request
 
+import sources as S
+
 ANKI = "http://localhost:8765"
-# 2026-07-01: Parker's homemade cloze cards migrated to "AnKing Cloze" during the
-# 2026-06-29 styling session (the old "01_Cloze - Parkers Note Type" was deleted).
-# AnKing Cloze fields: Text, Back Extra, Lecture Notes, Missed Questions,
-# Additional Resources — we fill only the first two; the rest are Parker's own
-# study-time fields and stay empty.
-MODEL = "AnKing Cloze"
-# Per-chapter staging structure (Parker's system, adopted 2026-07-02, replacing the
-# single flat "all::EMT::_Review" dumping ground that ballooned). For each chapter:
-#   all::EMT::Chapter <N>::claude review    <- the pipeline dumps every new card HERE
-#   all::EMT::Chapter <N>::Book Highlights  <- Parker PROMOTES keepers here himself,
-#                                              after his first review pass
-# The writer only ever writes to "claude review"; it also creates the "Book Highlights"
-# sibling so Parker's promotion target exists. "Chapter <N>" / "Book Highlights" are
-# Title Case; "claude review" is lowercase — match Parker's exact deck names.
-DECK_ROOT = "all::EMT"
-def claude_review_deck(ch):   return f"{DECK_ROOT}::Chapter {ch}::claude review"
-def book_highlights_deck(ch): return f"{DECK_ROOT}::Chapter {ch}::Book Highlights"
 CLOZE_RE = re.compile(r"\{\{c\d+::")
 
 # Parker wants a full paragraph break BETWEEN Back Extra components (e.g. a Distinguish
@@ -49,6 +42,8 @@ CLOZE_RE = re.compile(r"\{\{c\d+::")
 # already authored with <br><br> are untouched. This is the mechanical guarantee behind
 # the rule, so the spacing holds even if a card is drafted with single <br>s.
 _BR_RUN = re.compile(r"(?:\s*<br\s*/?>\s*)+", re.I)
+
+
 def paragraphize(back_extra):
     if not back_extra:
         return back_extra
@@ -70,12 +65,20 @@ def call(action, **params):
     return res["result"]
 
 
+def seg_of(card):
+    """Segment number for a card, accepting the legacy 'chapter' key."""
+    v = card.get("segment", card.get("chapter"))
+    return v
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("cards_json")
+    ap.add_argument("--source", default=None,
+                    help="source id (default: read from the cards' 'source' field)")
     ap.add_argument("--deck", default=None,
-                    help="override target deck (default: all::EMT::Chapter <N>::claude review, "
-                         "derived per card from its 'chapter' field)")
+                    help="override the target deck entirely (default: from the registry, "
+                         "per card, using its segment)")
     ap.add_argument("--dry-run", action="store_true", help="validate only, write nothing")
     ap.add_argument("--force", action="store_true",
                     help="stage even if the verification stamp is missing/stale (escape hatch)")
@@ -101,56 +104,74 @@ def main():
                 f"re-run check_cards to re-stamp. Use --force only to deliberately bypass.")
 
     cards = json.load(open(args.cards_json))
-    call("version")  # liveness check (exits if Anki closed)
-    if MODEL not in call("modelNames"):
-        sys.exit(f"ERROR: note type '{MODEL}' not found in collection. Parker's cards live on "
-                 f"this model since 2026-06-29; if it was renamed, update MODEL here to match "
-                 f"whatever cloze type his current EMT cards use (check notesInfo on deck:all::EMT::*).")
+    if not cards:
+        sys.exit(f"ERROR: {args.cards_json} contains no cards.")
 
-    # Create each chapter's full substructure so BOTH our target ("claude review")
-    # and Parker's promotion target ("Book Highlights") exist before we write.
+    # ---- which source? explicit flag, else the cards' own field, else fail loudly.
+    source_id = args.source or next((c.get("source") for c in cards if c.get("source")), None)
+    if not source_id and not args.deck:
+        sys.exit("ERROR: cannot tell which source these cards belong to.\n"
+                 "Add a \"source\": \"<id>\" field to the cards, or pass --source <id> "
+                 "(see: python3 scripts/sources.py list), or pass --deck to route manually.")
+    src = S.get_source(source_id) if source_id else None
+    model = S.model(src) if src else "AnKing Cloze"
+
+    call("version")  # liveness check (exits if Anki closed)
+    if model not in call("modelNames"):
+        sys.exit(f"ERROR: note type '{model}' not found in collection. Parker's cards live on "
+                 f"this model since 2026-06-29; if it was renamed, update the source's "
+                 f"\"model\" in reference/sources.json (or the registry default) to match "
+                 f"whatever cloze type his current cards use.")
+
+    # ---- create each segment's full substructure so BOTH our target ("claude review")
+    # and Parker's promotion target exist before we write.
     if args.deck:
         call("createDeck", deck=args.deck)
+        new_decks = [args.deck]
     else:
-        run_chapters = sorted({c.get("chapter") for c in cards if c.get("chapter")})
-        new_subdecks = []
-        for ch in run_chapters:
-            call("createDeck", deck=claude_review_deck(ch))
-            call("createDeck", deck=book_highlights_deck(ch))
-            new_subdecks += [claude_review_deck(ch), book_highlights_deck(ch)]
-        # Fresh subdecks default to Anki's "Default" preset (bury-siblings OFF); the
-        # two-way definition cards need bury-siblings ON so the name-it/define-it halves
-        # space across days. Copy the EMT parent's preset onto the subdecks we just made
-        # (the "EMT" preset created 2026-07-02 has bury on). Non-fatal if it's missing.
+        segs = sorted({seg_of(c) for c in cards}, key=lambda v: (v is None, v))
+        new_decks = []
+        for seg in segs:
+            staging, promote = S.deck_names(src, seg)
+            call("createDeck", deck=staging)
+            call("createDeck", deck=promote)
+            new_decks += [staging, promote]
+    # Fresh subdecks default to Anki's "Default" preset (bury-siblings OFF); two-way
+    # definition cards need bury-siblings ON so the name-it/define-it halves space across
+    # days. Copy the source root's preset onto the subdecks we just made. Non-fatal.
+    if src:
         try:
-            emt_cfg_id = call("getDeckConfig", deck=DECK_ROOT)["id"]
-            call("setDeckConfigId", decks=new_subdecks, configId=emt_cfg_id)
+            root_cfg = call("getDeckConfig", deck=src["deck_root"])["id"]
+            call("setDeckConfigId", decks=new_decks, configId=root_cfg)
         except Exception:
             pass
 
     added, skipped = 0, []
+    targets = set()
     for i, c in enumerate(cards):
         text = c.get("Text", "")
         if not CLOZE_RE.search(text):
             skipped.append((i, "no cloze markup in Text")); continue
-        # route each card to its chapter's "claude review" subdeck
-        ch = c.get("chapter")
-        deck = args.deck or (claude_review_deck(ch) if ch else None)
+
+        seg = seg_of(c)
+        if args.deck:
+            deck, tags = args.deck, (S.tags_for(src, seg) if src else [])
+        else:
+            deck, _promote = S.deck_names(src, seg)
+            tags = S.tags_for(src, seg)
         if not deck:
-            skipped.append((i, "card has no 'chapter' and no --deck override")); continue
+            skipped.append((i, "no deck could be derived (missing segment and no --deck)")); continue
+        targets.add(deck)  # record the INTENDED target, even if the card is skipped below
 
         # optional page image -> store in Anki media and embed
         if c.get("image") and os.path.exists(c["image"]):
-            fn = f"emt_{os.path.basename(c['image'])}"
+            fn = f"{(src or {}).get('id','z2a')}_{os.path.basename(c['image'])}"
             call("storeMediaFile", filename=fn,
                  data=base64.b64encode(open(c["image"], "rb").read()).decode())
             text = text + f'<br><img src="{fn}">'
 
-        # Chapter tag only (Parker removed the old 'claude_generated' marker 2026-07-02;
-        # the per-chapter deck structure now identifies each batch).
-        tags = [f"ch{ch}"] if ch else []
         note = {
-            "deckName": deck, "modelName": MODEL,
+            "deckName": deck, "modelName": model,
             "fields": {"Text": text, "Back Extra": paragraphize(c.get("Back Extra", ""))},
             "tags": tags,
             "options": {"allowDuplicate": False, "duplicateScope": "deck"},
@@ -163,12 +184,16 @@ def main():
         call("addNote", note=note)
         added += 1
 
-    if args.deck:
-        target = args.deck
-    else:
-        chs = sorted({c.get("chapter") for c in cards if c.get("chapter")})
-        target = ", ".join(claude_review_deck(ch) for ch in chs) or "(per-chapter claude review)"
-    print(f"{'[dry-run] would add' if args.dry_run else 'added'}: {added}/{len(cards)} -> {target}")
+    print(f"{'[dry-run] would add' if args.dry_run else 'added'}: {added}/{len(cards)}")
+    for t in sorted(targets):
+        print(f"  -> {t}")
+    if not targets:
+        print("  (no target deck resolved — every card lacked a segment and no --deck was given)")
+    if src and not args.deck:
+        segs = sorted({seg_of(c) for c in cards}, key=lambda v: (v is None, v))
+        for seg in segs:
+            _s, promote = S.deck_names(src, seg)
+            print(f"  (promote keepers into: {promote})")
     if skipped:
         print(f"skipped {len(skipped)}:")
         for i, why in skipped:

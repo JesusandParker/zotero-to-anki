@@ -1,4 +1,4 @@
-# EMT Card Rules
+# Card Rules
 
 The standard every generated card must meet. Two layers:
 
@@ -19,7 +19,7 @@ The audit of the old deck showed these were already near-perfect (deixis 0.4%, s
    - Never start a sentence or a Back Extra line with *This / That / These / It / They / Here / There*. Repeat the noun instead.
    - No source artifacts: never reference a source medium — "figure, table, chart, graph, diagram, label, image, picture, slide, chapter, page, recap, summary, review" — or position words "above / below / shown here / as shown / the following." The figure/table is the *source* of a fact, never something Parker must see or recall; anchor on the concept ("IgG antibody functions"), not the medium ("the antibody table").
 3. **Human-flow sentences.** Write like a tutor speaking, not note-shorthand. First line is a complete sentence with a real verb. Prefer "X is/does…" over "X: …". Colons only in the sequence format "Process Name (Step N): …".
-4. **Hints are slot-labels, never the answer.** `{{c1::answer::hint}}` where the hint names the *category/form* of the answer ("enzyme", "year", "organ", "T/F", "protective or risk"), never a synonym, definition, or paraphrase. **Hint-leak check:** if the hint could replace the answer and mean the same thing, it's invalid — fix or omit. A direction/binary blank (increase/decrease, indicated/contraindicated, can/cannot) MUST carry a forced-choice `::option/option` hint — an unhinted coin-flip is unanswerable. (Full EMT hint flavors: `card-recipes.md` §2.)
+4. **Hints are slot-labels, never the answer.** `{{c1::answer::hint}}` where the hint names the *category/form* of the answer ("enzyme", "year", "organ", "T/F", "protective or risk"), never a synonym, definition, or paraphrase. **Hint-leak check:** if the hint could replace the answer and mean the same thing, it's invalid — fix or omit. A direction/binary blank (increase/decrease, indicated/contraindicated, can/cannot) MUST carry a forced-choice `::option/option` hint — an unhinted coin-flip is unanswerable. (Full hint flavors: `card-recipes.md` §2.)
 5. **Back Extra is required and must add something new.** 1–3 labeled lines, each opening with one of: `Meaning:` `Why:` `Mechanism:` `Distinguish:` `Pitfall:` `Ex:` `Cue:` `Pathway:` `Mnemonic:`. **Separate distinct components with a paragraph break `<br><br>`, never a single `<br>`** (Parker's aesthetic, 2026-07-02 — real white space so his eye jumps between parts; `anki_write.py` enforces it at write time). It must teach an edge the Text doesn't already state. For a definition card, Back Extra may NOT re-define the term (use Distinguish / Pitfall / Ex / Cue). Priority when choosing: Distinguish/Pitfall > Mechanism/Why > Ex > Cue > Pathway > Mnemonic.
 6. **Length.** Aim 12–35 words; hard max 60. Over that, split. Max 2 sentences, no semicolon run-ons.
 7. **Zero guessing.** If the source text is unreadable, ambiguous, or you'd have to invent a fact to finish the card — STOP. Flag it (see Layer B rule 9). Never fabricate. (Especially true for anything clinical.)
@@ -63,7 +63,7 @@ Each rule below cites a real failure so the reason is concrete. **Rule 0 gets re
 7. **Under-clozing check.** Within the highlighted passage, every *distinct testable* fact gets tested somewhere (this card or a sibling). Don't leave a clozable fact sitting in plain text.
    *v60 failure (the "didn't cloze cytosine" bug):* 82.5% of long old cards clozed only one thing.
 
-8. **Card-type variety.** Where the content supports it, go beyond fill-in-the-blank: definition, comparison (X vs Y), mechanism/causal chain, ordered steps, classification, **clinical vignette/application**, negation/exception. EMT is an *application* exam; rehearse reasoning, not just recognition. **Pick the archetype with `card-recipes.md`** (the playbook), then drill into `cloze-mastery.md` for more exemplars.
+8. **Card-type variety.** Where the content supports it, go beyond fill-in-the-blank: definition, comparison (X vs Y), mechanism/causal chain, ordered steps, classification, **vignette/application**, negation/exception. **Pick the archetype with `card-recipes.md`** (the playbook) and the mix with the source's profile (`reference/profiles/`), then drill into `cloze-mastery.md` for more exemplars. Where the material is assessed by *applying* it rather than reciting it, rehearse reasoning, not just recognition.
    *v60 failure:* 88% were single-cloze factoids; zero vignette/compare/reasoning cards.
    Note (encoding specificity): retrieval practice does NOT reliably train the *untested* direction, so if both directions are real goals, make both — this is why definitions are two-way (parker-preferences.md), while facts needed only one way (scenarios, numbers, lists) are not reversed.
 
