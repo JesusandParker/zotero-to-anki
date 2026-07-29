@@ -1,0 +1,249 @@
+[
+ {
+  "card": 0,
+  "verdict": "PASS"
+ },
+ {
+  "card": 1,
+  "verdict": "PASS"
+ },
+ {
+  "card": 2,
+  "verdict": "PASS"
+ },
+ {
+  "card": 3,
+  "verdict": "PASS"
+ },
+ {
+  "card": 4,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 5,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 6,
+  "verdict": "PASS"
+ },
+ {
+  "card": 7,
+  "verdict": "PASS"
+ },
+ {
+  "card": 8,
+  "verdict": "PASS"
+ },
+ {
+  "card": 9,
+  "verdict": "PASS"
+ },
+ {
+  "card": 10,
+  "verdict": "PASS"
+ },
+ {
+  "card": 11,
+  "verdict": "PASS"
+ },
+ {
+  "card": 12,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 13,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 14,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 15,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 16,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 17,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 18,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 19,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 20,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 21,
+  "verdict": "REWRITE",
+  "checks_failed": [
+   1,
+   6
+  ],
+  "why": "c3 hides a bare direction word ('slight') that many equivalents fill (limited/minimal/slight), and it re-tests the exact fact card 8 already carries ('a symphysis permits only slight motion'), so the two cards duplicate by meaning; c2 is also a 7-word clause, past the crisp 3-6 word meaning side a two-way definition needs (R12). Fix: fold the limited-motion property into the visible stem as situational context, crisp c2 down to the discriminating word 'cartilaginous joint', and drop c3. Nothing is lost: card 8 still tests the slight-motion property, and the Cue line links the specific joint back to the general term.",
+  "revised_Text": "The {{c1::pubic symphysis}} is the {{c2::cartilaginous joint}} that joins the left and right pubic bones and limits their movement.",
+  "revised_Back_Extra": "Distinguish: the pubic symphysis sits at the midline of the lowermost abdomen and closes the front of the pelvic ring, which the sacrum, ilium, ischium, pubis, and acetabulum complete.<br><br>Cue: <i>symphysis</i> is the general name for any joint that permits only slight motion.",
+  "needs_human_check": true
+ },
+ {
+  "card": 22,
+  "verdict": "PASS"
+ },
+ {
+  "card": 23,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 24,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 25,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 26,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 27,
+  "verdict": "PASS"
+ },
+ {
+  "card": 28,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 29,
+  "verdict": "PASS"
+ },
+ {
+  "card": 30,
+  "verdict": "PASS"
+ },
+ {
+  "card": 31,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 32,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 33,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 34,
+  "verdict": "PASS"
+ },
+ {
+  "card": 35,
+  "verdict": "PASS"
+ },
+ {
+  "card": 36,
+  "verdict": "PASS"
+ },
+ {
+  "card": 37,
+  "verdict": "PASS"
+ },
+ {
+  "card": 38,
+  "verdict": "PASS"
+ },
+ {
+  "card": 39,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 40,
+  "verdict": "PASS"
+ },
+ {
+  "card": 41,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 42,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 43,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 44,
+  "verdict": "PASS"
+ },
+ {
+  "card": 45,
+  "verdict": "PASS"
+ },
+ {
+  "card": 46,
+  "verdict": "PASS"
+ },
+ {
+  "card": 47,
+  "verdict": "PASS"
+ },
+ {
+  "card": 48,
+  "verdict": "REWRITE",
+  "checks_failed": [
+   4
+  ],
+  "why": "under-clozing (R1): highlight 45 carries TWO facts — minute volume is the air moved in and out of the lungs in 1 minute, AND the equation — but only the equation is clozed, and the definition is tested by no sibling anywhere in the batch (it sits in this card's Back Extra and in card 43's Distinguish, both answer-side only). Fix: keep the whole formula in one blank per the equation recipe, but anchor it to a clozed definition sentence so both facts are tested; the Back Extra still defines each variable.",
+  "revised_Text": "{{c1::Minute volume}} is the amount of air moved in and out of the lungs in 1 minute, and it equals {{c2::respiratory rate × tidal volume}}.",
+  "revised_Back_Extra": "Meaning: respiratory rate is the number of breaths in 1 minute and tidal volume is the air moved in a single breath, so their product is a volume per minute.<br><br>Pitfall: a normal rate paired with a tiny tidal volume still gives a dangerously low minute volume, so judge depth as well as rate.",
+  "needs_human_check": true
+ },
+ {
+  "card": 49,
+  "verdict": "PASS",
+  "needs_human_check": true
+ },
+ {
+  "card": 50,
+  "verdict": "PASS"
+ },
+ {
+  "card": 51,
+  "verdict": "PASS"
+ }
+]

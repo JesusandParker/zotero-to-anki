@@ -1,0 +1,2475 @@
+[
+ {
+  "Text": "{{c1::Pathophysiology}} is the study of the {{c2::functional changes}} that accompany a particular disease or syndrome.",
+  "Back Extra": "Distinguish: anatomy is the study of the body's physical structure, and physiology is the study of its normal functions and activities.<br><br>Why: spotting an abnormal finding in the field depends on first knowing what normal structure and normal function look like.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   0
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "The {{c1::coronal (frontal) plane}} runs vertically through the body and divides it into {{c2::front and back}} sections.",
+  "Back Extra": "Distinguish: the sagittal (lateral) plane also runs vertically but splits left from right, while the transverse (axial) plane runs horizontally and splits top from bottom.<br><br>Mnemonic: <i>corona</i> means crown, and a crown sits across the head from ear to ear, the same line the coronal plane follows.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   1
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "The {{c1::sagittal (lateral) plane}} runs vertically and divides the body into {{c2::left and right}} sections that need not be equal.",
+  "Back Extra": "Distinguish: a sagittal cut can sit off center, while the midsagittal (midline) plane is the sagittal plane drawn exactly at midline for equal halves.<br><br>Cue: the coronal (frontal) plane is the other vertical plane, and it separates front from back instead.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   2
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "The {{c1::midsagittal (midline) plane}} is the subtype of the sagittal plane that divides the body into {{c2::equal left and right halves}}.",
+  "Back Extra": "Cue: the nose and the umbilicus both lie along the midsagittal line, which makes them quick surface landmarks for it.<br><br>Distinguish: an ordinary sagittal plane also separates left from right, but its two sections need not be equal.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   3
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "The {{c1::axial}} skeleton comprises the {{c2::skull}}, {{c2::facial bones}}, {{c2::thoracic cage}}, and {{c2::vertebral column}}.",
+  "Back Extra": "Cue: the axial skeleton forms the body's longitudinal axis, running in a straight line from the skull down to the coccyx, or tailbone.<br><br>Distinguish: the appendicular skeleton is the limbs plus their attachment points, and the pelvis contributes to both divisions.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   4
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "The {{c1::appendicular}} skeleton is the arms and legs plus their points of attachment to the axial skeleton, while the {{c2::pelvis}} includes portions of both skeletons.",
+  "Back Extra": "Ex: the shoulder is one of those attachment points, joining an upper limb to the axial skeleton.<br><br>Cue: all 206 bones of the skeleton fall into the axial or the appendicular division, with the pelvis straddling both.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   4
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "A {{c1::joint}} is {{c2::where two bones meet}}, and its name usually combines {{c3::the names of the two adjoining bones}}.",
+  "Back Extra": "Ex: the sternoclavicular joint is the articulation between the sternum and the clavicle.<br><br>Why: reading a joint name backward names the two bones involved, so the sacroiliac joint is where the sacrum meets the iliac bones.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   5
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "{{c1::Ligaments}} connect {{c2::bone to bone}}, {{c1::tendons}} connect {{c2::muscle to bone}}, and {{c1::cartilage}} is the {{c2::cushion between bones}}.",
+  "Back Extra": "Why: how firmly the ligaments hold the bone ends, together with the shape of the bones themselves, sets how far a joint can move.<br><br>Pitfall: cartilage connects nothing and only cushions, so ligaments and tendons are the two true connectors.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   6,
+   7
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "A {{c1::symphysis}} is a joint at which {{c2::only slight motion}} is possible.",
+  "Back Extra": "Distinguish: most joints permit a broad range of motion, while a few are fused into solid, immobile bone, such as the cranial bones of the skull.<br><br>Ex: the pubic symphysis, which closes the front of the pelvic ring, is named for this limited-motion class of joint.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   8
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "The bone ends of a joint are held together by a fibrous sac called the {{c1::joint capsule}}, which is composed of {{c2::connective tissue}}.",
+  "Back Extra": "Why: the capsule is lax and thin where the joint must move and thick where it must resist stretching and bending.<br><br>Ex: the sacroiliac joint is ringed by tough, thick ligaments and barely moves, while the shoulder has fewer ligaments, moves in almost any direction, and dislocates more easily.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   9
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "In moving joints, the bone ends are covered by a thin, pearly white layer called {{c1::articular cartilage}}, which lets them {{c2::glide easily}}.",
+  "Back Extra": "Distinguish: articular cartilage is the smooth surface on the bone end, while synovial fluid is the lubricant that runs between those surfaces.<br><br>Pitfall: cartilage in general is the cushion between bones, but <i>articular</i> cartilage is specifically the thin gliding layer inside a joint that moves.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   10
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "The joint capsule's inner lining, the {{c1::synovial membrane}}, makes {{c1::synovial fluid}}, a thick, oil-like lubricant.",
+  "Back Extra": "Why: synovial fluid lets the bone ends glide over each other instead of rubbing and grating.<br><br>Distinguish: the joint capsule is the fibrous sac holding the bone ends together, and the synovial membrane is the tissue lining its inside.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   11
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "The cranium is formed by the {{c1::frontal}}, {{c1::temporal}}, {{c1::parietal}}, {{c1::occipital}}, {{c1::ethmoid}}, and {{c1::sphenoid}} bones.",
+  "Back Extra": "Why: fused together, the cranial bones form a rigid vault that encases and protects the brain.<br><br>Cue: the skull's 28 bones fall into three groups, the cranium, the facial bones, and three small bones in the ear.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   12
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "The {{c2::14}} facial bones include the upper jawbones, or {{c1::maxillae}}, the lower jawbone, or {{c1::mandible}}, and the cheek bones, or {{c1::zygomas}}.",
+  "Back Extra": "Pitfall: the orbit, or eye socket, is not a bone at all, but a cavity formed where several facial bones join.<br><br>Cue: only the upper third of the nose is bone, the short nasal bones that form the bridge, while the lower two-thirds are flexible cartilage.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   13
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "The vertebral (spinal) column consists of {{c1::33}} vertebrae in five sections:<br><br>cervical {{c1::7}}<br>thoracic {{c1::12}}<br>lumbar {{c1::5}}<br>sacrum {{c1::5}}<br>coccyx {{c1::4}}",
+  "Back Extra": "Cue: the five sacral vertebrae fuse into the sacrum and the last four fuse into the coccyx, or tailbone, so those two sections move as single bones.<br><br>Ex: vertebrae are numbered from the top down within each section, so the neck runs C1 through C7.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   14
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "The skull rests on and attaches to the first cervical vertebra, the {{c1::atlas}}, and the second cervical vertebra, the {{c1::axis}}.",
+  "Back Extra": "Mnemonic: the Titan Atlas held up the world, so the atlas is the top vertebra the skull sits on, with the axis directly beneath it.<br><br>Cue: the cervical spine is the first seven vertebrae, C1 through C7, and they fit together yet move separately so the head can turn in multiple directions.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   15
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "In the thoracic spine, {{c1::one pair}} of ribs attaches to each vertebra, so the thorax has {{c1::12}} pairs of ribs in all.",
+  "Back Extra": "Cue: the thoracic spine is the 12 vertebrae T1 through T12, which is why the rib pairs match it one for one.<br><br>Ex: the thorax those ribs enclose holds the heart, lungs, esophagus, and the great vessels, meaning the aorta and the superior and inferior venae cavae.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   16
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "The sternum (breastbone) has three main parts, from top to bottom: the {{c1::manubrium}}, the {{c1::body}}, and the {{c1::xiphoid process}}.",
+  "Back Extra": "Cue: the superior edge of the manubrium forms the landmark called the sternal notch.<br><br>Distinguish: the body is the largest bony section of the sternum, while the xiphoid process is only a narrow, cartilaginous tip.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   17
+  ],
+  "_block": "A_planes_axial_skeleton"
+ },
+ {
+  "Text": "The {{c2::carpals}} are the {{c1::eight}} bones that form the wrist, and the {{c2::metacarpals}} are the {{c1::five}} bones that form the palm of the hand.",
+  "Back Extra": "Distinguish: beyond the metacarpals come the phalanges, with two in the thumb (proximal and distal) and three in each of the other four digits.<br><br>Cue: wrist to fingertip runs carpals, then metacarpals, then phalanges.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   18
+  ],
+  "_block": "B_appendicular_muscle"
+ },
+ {
+  "Text": "The pelvic girdle consists of two large hip bones called the {{c1::coxae}}, together with the {{c1::sacrum}} and the {{c1::coccyx}}.",
+  "Back Extra": "Distinguish: the pelvis is the one region built from <b>both</b> skeletons, because the axial skeleton runs all the way down to the coccyx while the pelvic girdle itself is appendicular.<br><br>Cue: the pelvic girdle connects the legs to the axial skeleton, mirroring the pectoral (shoulder) girdle that anchors the arms.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   19
+  ],
+  "_block": "B_appendicular_muscle"
+ },
+ {
+  "Text": "Each coxa (hip bone) is formed by the fusion of three bones: {{c1::the ilium}}, {{c1::the ischium}}, and {{c1::the pubis}}.",
+  "Back Extra": "Distinguish: the ilium, ischium, and pubis fuse into one solid coxa, so each adult hip bone is a single bone rather than three separate ones.<br><br>Cue: the three bones meet on the lateral pelvis at the acetabulum, the depression the femoral head fits snugly into.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   20
+  ],
+  "_block": "B_appendicular_muscle"
+ },
+ {
+  "Text": "The {{c1::pubic symphysis}} is the {{c2::cartilaginous joint}} that joins the left and right pubic bones and limits their movement.",
+  "Back Extra": "Distinguish: the pubic symphysis sits at the midline of the lowermost abdomen and closes the front of the pelvic ring, which the sacrum, ilium, ischium, pubis, and acetabulum complete.<br><br>Cue: <i>symphysis</i> is the general name for any joint that permits only slight motion.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   21
+  ],
+  "_block": "B_appendicular_muscle"
+ },
+ {
+  "Text": "The {{c1::femoral head}} is the {{c2::rounded superior end of the femur}}, and it seats into the acetabulum of the pelvis as a {{c3::ball-and-socket}} joint.",
+  "Back Extra": "Distinguish: immediately inferior and lateral to the femoral head lies the narrowed femoral neck.<br><br>Cue: the femur (thighbone) is the longest and one of the strongest bones in the body.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   22
+  ],
+  "_block": "B_appendicular_muscle"
+ },
+ {
+  "Text": "At the proximal femur, the {{c2::greater}} trochanter projects from the {{c1::lateral::lateral or medial}} side, whereas the {{c2::lesser}} trochanter projects from the {{c1::medial::lateral or medial}} side just inferior to the femoral neck.",
+  "Back Extra": "Distinguish: the <b>greater</b> trochanter is the <b>lateral</b> bony prominence of the proximal thigh, sitting just distal to the hip joint, while the <b>lesser</b> trochanter is the <b>medial</b> projection on the superior portion of the femur.<br><br>Why: both trochanters serve as anchor points for the major muscles of the thigh.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   23,
+   24
+  ],
+  "_block": "B_appendicular_muscle"
+ },
+ {
+  "Text": "The foot's {{c1::seven}} tarsals include the large {{c2::calcaneus}}, or heel bone, and the {{c2::talus}}, which articulates with the tibia and fibula to form the ankle.",
+  "Back Extra": "Distinguish: the tarsals sit between the lower leg bones (tibia and fibula) and the metatarsals, just as the carpals sit between the forearm and the metacarpals of the palm.<br><br>Pitfall: \"include\" means the calcaneus and talus are only two of the seven tarsals, not the whole set.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   25
+  ],
+  "_block": "B_appendicular_muscle"
+ },
+ {
+  "Text": "On the foot, the {{c1::plantar}} surface is the {{c2::bottom, or sole}}, while the {{c1::dorsum (dorsal surface)}} is the {{c2::top}}.",
+  "Back Extra": "Cue: the dorsalis pedis artery runs across the dorsum of the foot, between the first and second metatarsals.<br><br>Distinguish: five metatarsals form the middle of the foot, and 14 phalanges form the five toes.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   26
+  ],
+  "_block": "B_appendicular_muscle"
+ },
+ {
+  "Text": "Skeletal muscles often work in {{c1::antagonistic pairs}}. The {{c2::biceps}} on the anterior humerus {{c3::flexes::flexes or extends}} the lower arm, while the {{c2::triceps}} on the posterior humerus {{c3::extends::flexes or extends}} it.",
+  "Back Extra": "Why: a muscle acting alone gives no control over the speed of a movement, so the body makes opposing groups compete to produce smooth, fine motion.<br><br>Cue: the triceps is the three-headed muscle at the back of the arm, and without it you would slap yourself in the face every time you bent your arm.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   27,
+   28
+  ],
+  "_block": "B_appendicular_muscle"
+ },
+ {
+  "Text": "On the anterior thorax the {{c1::pectoralis}} {{c2::flexes::flexes or extends}} and rotates the arm, while on the posterior thorax the {{c1::latissimus dorsi}} {{c2::extends::flexes or extends}} and rotates it.",
+  "Back Extra": "Distinguish: both thorax muscles rotate the arm, so flex-versus-extend is the only action separating the anterior pectoralis from the posterior latissimus dorsi.<br><br>Cue: <i>dorsi</i> points to the back, the same root as the dorsal surface, so the latissimus dorsi is the posterior partner.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   28
+  ],
+  "_block": "B_appendicular_muscle"
+ },
+ {
+  "Text": "On the anterior femur the {{c1::quadriceps}} {{c2::extends::flexes or extends}} the lower leg, while on the posterior femur the {{c1::biceps femoris}} {{c2::flexes::flexes or extends}} it.",
+  "Back Extra": "Pitfall: the thigh <b>reverses</b> the arm's pattern, because here the anterior muscle extends and the posterior muscle flexes.<br><br>Distinguish: the quadriceps is four separate muscles acting as one group, and the biceps femoris behind the femur is a different muscle from the biceps of the upper arm.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   28
+  ],
+  "_block": "B_appendicular_muscle"
+ },
+ {
+  "Text": "On the tibia, the {{c1::tibialis anterior}} points the foot {{c2::toward::toward or away from}} the head, while the {{c1::gastrocnemius}} on the posterior side points it {{c2::away from::toward or away from}} the head.",
+  "Back Extra": "Distinguish: the tibialis anterior lies on the anterior tibia and pulls the foot up toward the head, while the gastrocnemius lies on the posterior tibia and points it down and away.<br><br>Cue: the ankle is a hinge joint, so these two muscles simply flex and extend the foot.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   28
+  ],
+  "_block": "B_appendicular_muscle"
+ },
+ {
+  "Text": "The {{c1::rectus abdominis}} lies on the anterior abdomen and acts on the spine to {{c2::flex and rotate}} it.",
+  "Back Extra": "Distinguish: the rectus abdominis acts on the spine, whereas the pectoralis just superior to it on the anterior thorax acts on the arm.<br><br>Cue: flexing and rotating the spine is a trunk motion, so the rectus abdominis is one of the few major muscles that moves neither an arm nor a leg.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   28
+  ],
+  "_block": "B_appendicular_muscle"
+ },
+ {
+  "Text": "The {{c1::gluteus}} muscles cover the posterior pelvis and buttocks and act to {{c2::extend and rotate the thigh}}.",
+  "Back Extra": "Cue: the gluteus is three separate muscles working as one group, the same way the quadriceps is four.<br><br>Distinguish: the gluteus moves the whole thigh, whereas the biceps femoris on the posterior femur moves the lower leg.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   28
+  ],
+  "_block": "B_appendicular_muscle"
+ },
+ {
+  "Text": "The upper airway runs, in descending order, through the three sections of the pharynx and ends at the {{c2::larynx (voice box)}}:<br><br>{{c1::Nasopharynx}} \u2014 above the soft palate<br>{{c1::Oropharynx}} \u2014 from the soft palate down to the hyoid bone<br>{{c1::Laryngopharynx}} \u2014 the lowest section, where food and air part ways",
+  "Back Extra": "Distinguish: The larynx is <i>not</i> one of the pharynx's sections \u2014 the pharynx is only the nasopharynx, oropharynx, and laryngopharynx.<br><br>Pathway: At the laryngopharynx, food and liquid pass backward into the esophagus while air continues forward into the larynx and trachea.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   29,
+   30
+  ],
+  "_block": "C_resp_anatomy_control"
+ },
+ {
+  "Text": "The right lung has {{c1::three}} lobes \u2014 {{c1::upper, middle, and lower}} \u2014 while the left lung has {{c1::two}}, an {{c1::upper and a lower}} lobe.",
+  "Back Extra": "Cue: Each lobe divides further into segments.<br><br>Mnemonic: Only the right lung has a middle lobe \u2014 that one lobe is the whole difference between the sides.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   31
+  ],
+  "_block": "C_resp_anatomy_control"
+ },
+ {
+  "Text": "The lungs are covered by {{c1::visceral::visceral or parietal}} pleura and the inside of the chest wall is lined by {{c1::parietal::visceral or parietal}} pleura. Between the two layers sits a small amount of {{c2::fluid}}, which lets them glide smoothly over each other.",
+  "Back Extra": "Distinguish: <i>Visceral</i> goes with the viscera, the organ itself; <i>parietal</i> goes with the wall of the cavity.<br><br>Why: The lungs contain no muscle tissue of their own, so the pleural layers are what make them follow the chest wall as it expands.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   32
+  ],
+  "_block": "C_resp_anatomy_control"
+ },
+ {
+  "Text": "The pleural space, between the parietal and visceral pleura, is a {{c1::potential space}} \u2014 meaning {{c2::it does not exist under normal conditions}}.",
+  "Back Extra": "Pitfall: The pleural space becomes a real space only when blood or air leaks in and forces the two pleural surfaces apart.<br><br>Mechanism: A thin film of fluid seals the layers to one another, which is why the lung is dragged outward whenever the chest wall expands.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   33
+  ],
+  "_block": "C_resp_anatomy_control"
+ },
+ {
+  "Text": "During inhalation, the diaphragm and intercostal muscles both {{c1::contract::contract or relax}}. The diaphragm moves {{c1::down::up or down}}, enlarging the thoracic cage from top to bottom, while the intercostals move the ribs {{c1::up and out::up and out or down and in}}.",
+  "Back Extra": "Mechanism: A bigger chest cavity means lower pressure inside it, so air is sucked in \u2014 negative-pressure breathing, and the only active, muscular half of the cycle.<br><br>Distinguish: Exhalation is the mirror image and is normally passive \u2014 both muscle groups relax, the thorax shrinks in every dimension, and air is pushed out.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   34
+  ],
+  "_block": "C_resp_anatomy_control"
+ },
+ {
+  "Text": "Breathing is controlled by the {{c1::brainstem}}. A buildup of {{c2::carbon dioxide}} pushes the pH of the cerebrospinal fluid {{c2::down::up or down}}, and the {{c2::medulla oblongata}} answers by stimulating the {{c2::phrenic nerve}} to speed up the diaphragm.",
+  "Back Extra": "Mechanism: The medulla oblongata is the pH-sensitive portion of the brainstem, so it reads the acid shift in the cerebrospinal fluid rather than measuring oxygen directly.<br><br>Pitfall: A person breathes mainly to unload carbon dioxide, not to take in oxygen.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   35,
+   36,
+   37
+  ],
+  "_block": "C_resp_anatomy_control"
+ },
+ {
+  "Text": "The body's backup respiratory drive, the {{c1::hypoxic drive}}, stimulates breathing when the oxygen level falls, using oxygen sensors in three places \u2014 the {{c2::brain}}, the walls of the {{c2::aorta}}, and the {{c2::carotid arteries}}.",
+  "Back Extra": "Distinguish: The primary drive is read in the brainstem and responds to rising carbon dioxide; the hypoxic drive responds to falling oxygen.<br><br>Cue: Two of the three sensor sites are arterial walls, not brain tissue.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   38
+  ],
+  "_block": "C_resp_anatomy_control"
+ },
+ {
+  "Text": "Compared with the carbon dioxide sensors in the brainstem, the hypoxic drive is much {{c1::less sensitive and less powerful}} as a control on breathing.",
+  "Back Extra": "Why: The oxygen sensors are easily satisfied by minimal levels of oxygen in the arterial blood, so a poor alarm makes a poor drive.<br><br>Pitfall: The primary reason a person breathes is to lower carbon dioxide, not to raise oxygen \u2014 the hypoxic drive is only the backup.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   38
+  ],
+  "_block": "C_resp_anatomy_control"
+ },
+ {
+  "Text": "The {{c1::pons}}, an area of the brainstem, augments breathing during emotional or physical stress by changing the {{c2::depth}} of inspiration, expiration, or both.",
+  "Back Extra": "Distinguish: The medulla initiates each inspiration and sets the base rhythm; the pons only adjusts how deep those breaths are.<br><br>Cue: The pons does this work through two areas, and pons and medulla together deliver the right amount of air when demand rises.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   39
+  ],
+  "_block": "C_resp_anatomy_control"
+ },
+ {
+  "Text": "Total lung capacity is about {{c1::6,000 mL}} in an adult man, and an adult woman has about {{c2::one-third::fraction}} less because her lungs are smaller.",
+  "Back Extra": "Cue: 6,000 mL is three 2-liter soda bottles' worth of air.<br><br>Distinguish: total lung capacity is everything the lungs can hold, while only about 500 mL of that moves during one normal breath.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   40
+  ],
+  "_block": "D_lung_volumes"
+ },
+ {
+  "Text": "{{c1::Tidal volume}} is the air moved {{c2::in or out during a single breath}}, generally {{c3::500 mL}} in an adult.",
+  "Back Extra": "Distinguish: tidal volume is one breath's worth of air, while minute volume is what those breaths add up to in one minute.<br><br>Pitfall: a normal respiratory rate with a barely-moving chest means a low tidal volume, and that patient still needs ventilations.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   41
+  ],
+  "_block": "D_lung_volumes"
+ },
+ {
+  "Text": "After a normal breath, the deepest breath you can still take in is the {{c1::inspiratory reserve volume}}, and the most air you can forcibly breathe out is the {{c2::expiratory reserve volume}}.",
+  "Back Extra": "Distinguish: tidal volume is the normal breath itself, while the two reserve volumes are the extra air available on top of it in each direction.<br><br>Pitfall: even after a maximal forced exhalation, gas stays behind in the lungs, and that leftover is the residual volume.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   42,
+   43
+  ],
+  "_block": "D_lung_volumes"
+ },
+ {
+  "Text": "{{c1::Residual volume}} is the gas that stays in the lungs after exhalation, which {{c2::keeps the lungs open}}.",
+  "Back Extra": "Distinguish: expiratory reserve volume is extra air you can still force out on purpose, so residual volume is the part no voluntary effort can empty.<br><br>Ex: a person hit in the chest who has the wind knocked out of them has lost residual volume.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   43
+  ],
+  "_block": "D_lung_volumes"
+ },
+ {
+  "Text": "{{c1::Dead space}} is the portion of the respiratory system with {{c2::no alveoli, so little or no gas exchange}} \u2014 the {{c3::mouth}}, {{c3::trachea}}, {{c3::bronchi}}, and {{c3::bronchioles}}.",
+  "Back Extra": "Why: exchange happens only where alveoli sit against blood, so the air that stops short in the mouth and large airways is wasted on every breath.<br><br>Pitfall: dead space is normal anatomy present in every healthy person, not a sign of injury or disease.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   44
+  ],
+  "_block": "D_lung_volumes"
+ },
+ {
+  "Text": "Ventilating a patient with any device creates <b>more</b> dead space, because {{c1::gas must first fill the device itself}}.",
+  "Back Extra": "Pitfall: part of every breath you deliver only refills the device, so less air reaches the alveoli than you push in.<br><br>Distinguish: the mouth and large airways are dead space no matter what, and a ventilation device simply adds to that baseline.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   44
+  ],
+  "_block": "D_lung_volumes"
+ },
+ {
+  "Text": "{{c1::Minute volume}} is the amount of air moved in and out of the lungs in 1 minute, and it equals {{c2::respiratory rate \u00d7 tidal volume}}.",
+  "Back Extra": "Meaning: respiratory rate is the number of breaths in 1 minute and tidal volume is the air moved in a single breath, so their product is a volume per minute.<br><br>Pitfall: a normal rate paired with a tiny tidal volume still gives a dangerously low minute volume, so judge depth as well as rate.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   45
+  ],
+  "_block": "D_lung_volumes"
+ },
+ {
+  "Text": "The normal respiratory rate is {{c1::12 to 20 breaths/min::range}} in adults, {{c1::12 to 40 breaths/min::range}} in children, and {{c1::30 to 60 breaths/min::range}} in infants.",
+  "Back Extra": "Pitfall: rate alone is only half the assessment, since an adult breathing 20 times a minute with a barely-moving chest is still in trouble.<br><br>Distinguish: the child range starts at the same low end as the adult range but runs far higher, so a number means nothing until you know the patient's age.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   46
+  ],
+  "_block": "D_lung_volumes"
+ },
+ {
+  "Text": "Occasional gasping breaths in a patient in cardiac arrest are called {{c1::agonal gasps}}, and they occur because the respiratory center in the brain {{c2::keeps signaling the breathing muscles}}.",
+  "Back Extra": "Pitfall: agonal gasps are inadequate because they come at a slow rate and are generally shallow, so they move almost no air.<br><br>Distinguish: normal breathing is a smooth, regular flow of air, while agonal gasps are occasional and irregular.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   47
+  ],
+  "_block": "D_lung_volumes"
+ },
+ {
+  "Text": "An unresponsive patient with no pulse appears to be breathing, taking occasional gasping breaths. What is your treatment? {{c1::artificial ventilations plus chest compressions}}",
+  "Back Extra": "Cue: occasional gasping breaths in a pulseless patient are agonal gasps, and agonal gasps are not breathing.<br><br>Pitfall: mistaking agonal gasps for real breathing is a classic reason ventilations and compressions get delayed.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   47
+  ],
+  "_block": "D_lung_volumes"
+ },
+ {
+  "Text": "The heart's {{c1::septum}} is the wall that divides it down the middle into {{c2::right and left}} sides.",
+  "Back Extra": "Distinguish: the septum's division is lengthwise, right from left; each of those sides is then divided again crosswise into an upper atrium and a lower ventricle.<br><br>Why: the left side is the more muscular, high-pressure pump because it serves the whole body, while the low-pressure right side only has to reach the lungs.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   48
+  ],
+  "_block": "E_heart_vessels"
+ },
+ {
+  "Text": "The adult <b>heart rate</b> depends on the situation:<br><br>at rest, {{c1::60 to 100 beats/min}}<br>at rest in a well-conditioned athlete, {{c1::45 to 60 beats/min}}<br>during vigorous physical activity, {{c1::as fast as 180 beats/min}}",
+  "Back Extra": "Pitfall: 45 to 60 beats/min in a well-conditioned athlete is explicitly a <i>normal</i> resting rate, not an abnormally slow one.<br><br>Cue: the 180 beats/min ceiling holds only until the activity stops.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   49,
+   50,
+   51
+  ],
+  "_block": "E_heart_vessels"
+ },
+ {
+  "Text": "{{c1::Stroke volume (SV)}} is the amount of blood the heart moves {{c2::in one beat}}, which for an adult is {{c3::70 to 80 mL}}.",
+  "Back Extra": "Distinguish: stroke volume is the per-beat volume, cardiac output the per-minute volume.<br><br>Mechanism: cardiac output = heart rate \u00d7 stroke volume, so a falling stroke volume keeps cardiac output steady only if the heart rate rises.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   52,
+   53
+  ],
+  "_block": "E_heart_vessels"
+ },
+ {
+  "Text": "{{c1::Cardiac output (CO)}} is the amount of blood the heart moves {{c2::in 1 minute}}, enough to circulate the entire blood volume of {{c3::5 to 6 L}} through all the vessels.",
+  "Back Extra": "Mechanism: cardiac output = heart rate \u00d7 stroke volume (CO = HR \u00d7 SV).<br><br>Ex: 70 beats/min \u00d7 75 mL/beat = 5,250 mL/min, or 5.25 L/min.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   54,
+   55
+  ],
+  "_block": "E_heart_vessels"
+ },
+ {
+  "Text": "{{c1::Depolarization}} is the first of the two electrical processes in a heart contraction, during which the muscle cell's surface charge {{c2::changes from positive to negative}}.",
+  "Back Extra": "Distinguish: repolarization is the second process, restoring the positive surface charge as the heart returns to its resting state.<br><br>Why: current flowing through the heart's conduction network is what produces its smooth, coordinated contractions.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   56
+  ],
+  "_block": "E_heart_vessels"
+ },
+ {
+  "Text": "{{c1::Repolarization}} is the second electrical process in a heart contraction, during which the heart returns to its {{c2::resting state}} and the {{c2::positive}} charge is restored to the muscle cell surface.",
+  "Back Extra": "Distinguish: depolarization comes first and flips the cell surface from positive to negative; repolarization puts the positive charge back.<br><br>Pitfall: both processes belong to a single mechanical contraction, so repolarization is a reset, not a second beat.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   56
+  ],
+  "_block": "E_heart_vessels"
+ },
+ {
+  "Text": "Arteries {{c1::contract::contract or dilate}} to accommodate a loss of blood volume, which {{c2::increases::increases or decreases}} blood pressure.",
+  "Back Extra": "Mechanism: constricting the arteries shrinks the container holding the blood, and the same volume in a smaller container is under higher pressure.<br><br>Ex: arteries also redirect flow where it is needed, sending more blood to the digestive system after a meal and more to the leg muscles when jogging.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   57
+  ],
+  "_block": "E_heart_vessels"
+ },
+ {
+  "Text": "The {{c1::tunica media}} is the {{c2::middle}} layer of the artery, formed from {{c2::smooth muscle}} that can contract and dilate to change the diameter of the blood vessel.",
+  "Back Extra": "Why: because the middle layer is muscular, an artery can narrow or widen on demand, sending blood where the body needs it and defending pressure when volume is lost.<br><br>Cue: <i>media</i> means middle, the same root as median.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   58
+  ],
+  "_block": "E_heart_vessels"
+ },
+ {
+  "Text": "Name the branch of the <b>aorta</b> that supplies each organ:<br><br>heart: {{c1::coronary}}<br>head: {{c1::carotid}}<br>liver: {{c1::hepatic}}<br>kidneys: {{c1::renal}}<br>digestive system: {{c1::mesenteric}}",
+  "Back Extra": "Cue: three of the five names are simply the organ's own adjective, hepatic for liver, renal for kidney, and mesenteric for the mesentery of the digestive tract.<br><br>Distinguish: the aorta divides at the level of the umbilicus into the two common iliac arteries, which feed the lower extremities.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   59
+  ],
+  "_block": "E_heart_vessels"
+ },
+ {
+  "Text": "A {{c1::pulse}}, palpated most easily at the {{c2::neck}}, {{c2::wrist}}, or {{c2::groin}}, is created by the forceful pumping of blood out of the heart's {{c3::left ventricle}} into the major arteries.",
+  "Back Extra": "Why: a pulse is felt only where a larger artery lies near the skin and can be pushed against a solid structure such as a bone or a large muscle.<br><br>Cue: the pulse is present throughout the entire arterial system, so the neck, wrist, and groin are simply its easiest windows.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   60
+  ],
+  "_block": "E_heart_vessels"
+ },
+ {
+  "Text": "{{c1::Systemic vascular resistance (SVR)}} is {{c2::how dilated or constricted the blood vessels are}}, measured across every vessel in the body except {{c3::the pulmonary vessels}}.",
+  "Back Extra": "Mechanism: the higher the systemic vascular resistance, the smaller the container the blood must fill, so the pressure inside the vessels is higher.<br><br>Pitfall: SVR describes the vessels' state, not how much blood is in them, so it can change while the blood volume stays exactly the same.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   61,
+   69
+  ],
+  "_block": "E_heart_vessels"
+ },
+ {
+  "Text": "Most carbon dioxide is carried in the blood as {{c1::bicarbonate dissolved in the plasma}}, while only a tiny amount is carried by {{c2::hemoglobin}}.",
+  "Back Extra": "Distinguish: oxygen is the mirror image, since most of it is bound to hemoglobin in the red blood cells and very little is dissolved in the plasma.<br><br>Meaning: hemoglobin is the protein inside red blood cells responsible for carrying oxygen, so it does double duty for a small share of the carbon dioxide.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   62
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "Water makes up {{c1::92%}} of plasma and proteins make up {{c1::7%}}, which is why plasma is said to be about 99% water and proteins.",
+  "Back Extra": "Meaning: plasma is the liquid portion of the blood that carries the blood cells, hormones, and nutrients.<br><br>Cue: the small protein fraction does heavy work, since it holds albumin, the clotting factors, enzymes, and some hormones.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   63
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "The majority of the protein in plasma is {{c1::albumin}}, which helps control {{c2::water movement into and out of the circulation}}.",
+  "Back Extra": "Cue: plasma proteins also include the clotting factors, enzymes, and some hormones, but albumin is the bulk of them.<br><br>Distinguish: albumin's job is water balance, while the clotting factors in the plasma handle coagulation.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   63
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "Plasma carries three dissolved gases, {{c1::oxygen}}, {{c1::carbon dioxide}}, and {{c1::nitrogen}}, the last of which makes up roughly {{c2::78%}} of the air we breathe.",
+  "Back Extra": "Ex: plasma also carries nutrients as fuel for the cells, cellular wastes such as lactic acid, and hormones.<br><br>Pitfall: 78% is nitrogen's share of the air we inhale, not its share of the plasma.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   63
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "Red blood cells have a life span of about {{c1::120 days::duration}}, after which they are filtered from the bloodstream and digested in {{c2::the spleen and liver::two organs}}.",
+  "Back Extra": "Cue: the hemoglobin from worn-out red blood cells is recycled rather than discarded.<br><br>Why: clearing aged red blood cells is why the spleen, a lymphatic organ, plays a supporting role for the circulatory system.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   64
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "{{c1::Systole}} is the phase of the cardiac cycle in which the left ventricle {{c2::contracts and pumps blood into the aorta}}, while {{c1::diastole}} is the phase in which it {{c2::relaxes and refills}}.",
+  "Back Extra": "Distinguish: systole and diastole name the two phases of the cardiac cycle, while the systolic and diastolic <i>blood pressures</i> are the arterial pressures measured during each phase.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   65,
+   66
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "Blood pressure is measured with a {{c1::sphygmomanometer (blood pressure cuff)}}, reported in {{c2::millimeters of mercury (mm Hg)::unit}}, and written as {{c3::the systolic number over the diastolic number}}.",
+  "Back Extra": "Distinguish: the systolic number is the arterial pressure while the heart is contracting, and the diastolic number is the arterial pressure while the heart is at rest.<br><br>Pitfall: both values are pressures inside the arteries, not pressures inside the heart itself.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   67,
+   68
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "{{c1::Preload}} is {{c2::the volume of blood returning to the heart}}, while {{c1::afterload}} is {{c2::the aortic pressure the left ventricle must overcome}}.",
+  "Back Extra": "Distinguish: too little preload and the blood pressure falls, while too much preload leaves the heart unable to move blood effectively.<br><br>Cue: the diastolic blood pressure is the same value as afterload.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   69
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "Cardiac output is the product of two values: {{c1::heart rate}} and {{c1::stroke volume}}.",
+  "Back Extra": "Mechanism: written out, CO = HR \u00d7 SV, so 70 beats/min \u00d7 75 mL/beat gives 5,250 mL/min, or 5.25 L/min.<br><br>Distinguish: stroke volume is the per-beat volume moved by the left ventricle, while cardiac output is the per-minute volume.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   69
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "{{c1::Pulse pressure}} is {{c2::the systolic pressure minus the diastolic pressure}}.",
+  "Back Extra": "Why: the gap between the two numbers shows the relationship between them and gives information about the body's response to stress.<br><br>Distinguish: pulse pressure is a subtraction between the two blood pressure numbers, while mean arterial pressure is the average pressure across the whole cardiac cycle.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   69
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "Of the two blood pressure numbers, the {{c1::systolic::systolic or diastolic}} indicates how effectively the heart is pumping, and the {{c1::diastolic::systolic or diastolic}} indicates how much blood is within the blood vessels.",
+  "Back Extra": "Cue: the diastolic number also indicates whether the heart is relaxing adequately between heartbeats.<br><br>Why: the systolic value is produced by left ventricular force, which is why it is read as a measure of the pump itself.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   69
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "The average adult holds about {{c1::6 L}} of blood, a child holds {{c1::2 to 3 L}} depending on age and size, and an infant holds about {{c1::300 mL}}.",
+  "Back Extra": "Why: because an infant's total volume is so small, a blood loss that would be insignificant in an adult can be fatal in an infant.<br><br>Pitfall: a child's volume is a range rather than a fixed number, since it varies with age and body size.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   70
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "{{c1::Perfusion}} is {{c2::blood circulating through an organ or tissue}}, and it is adequate when the cells' {{c3::metabolic}} needs are met.",
+  "Back Extra": "Pathway: blood enters an organ or tissue through the arteries and leaves it through the veins.<br><br>Why: the nervous system constantly resizes the arteries and veins so the vessels hold exactly the blood available, which is how every part of the system stays supplied.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   71
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "A loss of normal blood pressure indicates that blood is {{c1::no longer circulating efficiently}} to every organ in the body.",
+  "Back Extra": "Pitfall: the reverse does not hold, because a good blood pressure does not prove that blood is reaching all parts of the body.<br><br>Why: when perfusion fails, organs, tissues, and cells stop receiving oxygen and fuel while wastes accumulate, and cells, tissues, and whole organs may die.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   72
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "{{c1::Shock}} is the name for {{c2::hypoperfusion (inadequate perfusion) affecting the entire body}}.",
+  "Back Extra": "Distinguish: hypoperfusion can be limited to one region, such as an arm with an arterial blockage, but shock is always systemic.<br><br>Cue: when multiple body systems are affected, the terms <i>shock</i> and <i>hypoperfusion</i> may be used interchangeably.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   73
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "As blood pressure falls after blood loss, the pulse {{c1::increases::increases or decreases}} in order to hold cardiac output constant at {{c2::5 to 6 L per minute::volume per time}}.",
+  "Back Extra": "Mechanism: the vessels constrict to make a smaller bed for the reduced volume while the heart pumps faster, and the whole adjustment happens within minutes of the loss.<br><br>Pitfall: if the blood loss is too great, the compensation fails and the patient goes into shock.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   74
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "{{c1::Mean arterial pressure (MAP)}} is {{c2::the average arterial pressure during systole and diastole}}, and automated blood pressure monitors display it as a measure of perfusion that can detect {{c3::shock}}.",
+  "Back Extra": "Distinguish: pulse pressure is the systolic minus the diastolic, while mean arterial pressure is the average pressure across the whole cardiac cycle.<br><br>Cue: mean arterial pressure is usually read straight off the monitor rather than calculated in the field.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   75
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "The equation for mean arterial pressure is {{c1::MAP = (HR \u00d7 SV) \u00d7 SVR}}, which simplifies to {{c2::MAP = CO \u00d7 SVR}}.",
+  "Back Extra": "Meaning: HR is heart rate, SV is stroke volume, CO is cardiac output, and SVR is systemic vascular resistance, so heart rate \u00d7 stroke volume is what collapses into cardiac output.<br><br>Mechanism: significant blood loss cuts stroke volume, so the body raises heart rate and systemic vascular resistance to hold mean arterial pressure up.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   75
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "Inside a capillary, {{c1::hydrostatic}} pressure {{c3::pushes fluid out of}} the capillary, while {{c1::oncotic}} pressure, created by {{c2::proteins in the blood plasma}}, {{c3::pulls water back into}} it.",
+  "Back Extra": "Distinguish: hydrostatic pressure and oncotic pressure are opposing forces inside the same capillary, and the balance between them decides which way fluid moves.<br><br>Mechanism: on the arterial side hydrostatic pressure is higher, so water carrying nutrients leaves the capillary; by the venous side that pressure has fallen, so oncotic pressure wins and water carrying cellular wastes is drawn back in.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   76,
+   77
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "Match each function of the blood to the component that carries it out:<br>Fights infection \u2192 {{c1::white blood cells}}<br>Transports oxygen \u2192 {{c1::red blood cells (hemoglobin)}}<br>Transports carbon dioxide \u2192 {{c1::plasma}}<br>Controls (buffers) pH \u2192 {{c1::chemicals within the plasma}}<br>Transports wastes and nutrients \u2192 {{c1::plasma (water)}}<br>Clotting (coagulation) \u2192 {{c1::platelets and clotting factors in the plasma}}",
+  "Back Extra": "Cue: plasma is the workhorse, since it carries the carbon dioxide, buffers the pH, moves the wastes and nutrients, and holds the clotting factors.<br><br>Mechanism: clotting happens when a chemical process builds small fibers near the injured vessel that trap red blood cells, which is why platelets and clotting factors are the components in use.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   78
+  ],
+  "_block": "F_blood_bp_perfusion"
+ },
+ {
+  "Text": "Give the site, the effect of stimulation, and the result for each <b>sympathetic</b> (adrenergic) receptor:<br><br><b>Alpha-1</b>: {{c1::blood vessels}} \u2192 {{c1::constrict::constrict or dilate}} \u2192 {{c1::blood pressure rises}}<br><br><b>Beta-1</b>: {{c2::heart}} \u2192 {{c2::rate and force both increase::increase or decrease}} \u2192 {{c2::cardiac output rises}}<br><br><b>Beta-2</b>: {{c3::lungs}} \u2192 {{c3::bronchi dilate::constrict or dilate}} \u2192 {{c3::more oxygen reaches the cells}}",
+  "Back Extra": "Mechanism: the sympathetic nerves tell the adrenal glands to release epinephrine and norepinephrine, and those two hormones are what stimulate the adrenergic receptors.<br><br>Cue: beta-1 = one heart, beta-2 = two lungs.<br><br>Pitfall: alpha and beta-2 pull in opposite directions, so the vessels clamp shut while the airways open wide.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   79,
+   80,
+   81,
+   82
+  ],
+  "_block": "G_autonomic_cv"
+ },
+ {
+  "Text": "A surge of <b>alpha-1</b> stimulation shuts down flow through the skin's vessels, so the skin becomes {{c1::pale}}, {{c1::cool}}, and {{c1::clammy}}.",
+  "Back Extra": "Why: constricted vessels shunt blood away from the skin, so less warmth radiates from the surface and the color drains out of it.<br><br>Cue: pale, cool, clammy skin is the visible fingerprint of a sympathetic surge, so it is what you see when the body is fighting to hold its blood pressure up.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   82
+  ],
+  "_block": "G_autonomic_cv"
+ },
+ {
+  "Text": "Unlike the adrenergic receptors of the sympathetic side, the <b>parasympathetic</b> division reaches the heart through {{c1::muscarinic::receptor type}} receptors, making it beat {{c2::more slowly::faster or more slowly}} and {{c2::more weakly::more strongly or more weakly}}.",
+  "Back Extra": "Distinguish: beta-1 stimulation hits the same organ from the sympathetic side and does the exact opposite, driving rate and force up.<br><br>Mechanism: the parasympathetic supply to the heart runs mostly along the vagus nerve and works through acetylcholine.<br><br>Why: the two divisions oppose each other, yet the opposition is called complementary rather than antagonistic, because the net result is a body that can change gears in a fraction of a second.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   82
+  ],
+  "_block": "G_autonomic_cv"
+ },
+ {
+  "Text": "{{c1::Baroreceptors::sensor type}} are the sensors that keep the brain informed about {{c2::blood pressure}}, and the main ones sit in the {{c3::arch of the aorta}} and the {{c3::carotid arteries}}.",
+  "Back Extra": "Why: the cardiovascular system's main job is to perfuse the whole body, so the brain must know the pressure driving that flow before it can adjust anything.<br><br>Cue: the aortic arch reads pressure right where blood leaves the heart, and the carotid arteries read it right where blood climbs toward the brain, the two organs that cannot survive without oxygen.<br><br>Distinguish: the aortic and carotid walls also hold oxygen sensors for the hypoxic drive, but baroreceptors at those sites track pressure, not oxygen.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   83,
+   84
+  ],
+  "_block": "G_autonomic_cv"
+ },
+ {
+  "Text": "The nervous system divides into the {{c1::central nervous system (CNS)}}, which is the {{c2::brain and spinal cord}}, and the {{c1::peripheral nervous system (PNS)}}, which is {{c2::every nerve outside the brain and spinal cord}}.",
+  "Back Extra": "Why: the peripheral nerves are the wiring that links the central nervous system to organs throughout the body.<br><br>Cue: the whole system amounts to the brain, the spinal cord, and thousands of nerves spread throughout the body.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   85
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The peripheral nervous system splits into the {{c1::somatic}} nervous system, which runs {{c2::voluntary}} activities such as walking and talking, and the {{c1::autonomic}} nervous system, which runs {{c2::involuntary}} ones such as digestion and sweating.",
+  "Back Extra": "Ex: the autonomic side also controls the dilation and constriction of blood vessels.<br><br>Mnemonic: autonomic = automatic, because those functions occur autonomously, without you deciding to do them.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   86,
+   87,
+   88
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The {{c1::cerebrum::brain subdivision}} is the largest part of the brain, about {{c2::three-fourths}} of it, and it runs the brain's higher functions: {{c3::sensory interpretation}}, {{c3::speech}}, {{c3::reasoning and learning}}, {{c3::fine motor control}}, and {{c3::managing emotions}}.",
+  "Back Extra": "Distinguish: higher thought belongs to the cerebrum, balance and coordination to the cerebellum, and involuntary life-sustaining functions to the brainstem.<br><br>Cue: <i>fine motor control</i> means the control of precise muscle movements.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   89,
+   91
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The surface of the cerebrum is the {{c1::cortex}}, built from {{c2::neuron (nerve cell) bodies}} whose gray-brown color is why the cerebrum is sometimes called the {{c3::gray matter}}.",
+  "Back Extra": "Distinguish: the cortex is only the cerebrum's outer surface, while the cerebrum as a whole is the brain's largest subdivision and its seat of higher thought.<br><br>Cue: the electrical impulse for a voluntary movement is generated by the cerebral cortex before it travels down a nerve to the muscle.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   90
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The cerebrum divides into right and left {{c1::hemispheres}}, which divide further into {{c2::lobes}}, and in general each {{c1::hemisphere}} controls the {{c3::opposite::same or opposite}} side of the body.",
+  "Back Extra": "Mechanism: nerve fibers from the spinal cord cross from one side to the other before connecting with the brain, which is why control crosses over.<br><br>Ex: the left half of the cerebrum controls the movements of the right leg.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   92
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "Each cerebral hemisphere carries four lobes: the {{c1::frontal}}, {{c1::parietal}}, {{c1::temporal}}, and {{c1::occipital}}.",
+  "Back Extra": "Cue: no single lobe operates entirely on its own, but each is recognized for the set of duties it controls most.<br><br>Mnemonic: the four lobe names are also four of the cranial bone names, frontal, temporal, parietal, and occipital.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   93
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The <b>frontal lobe</b> governs {{c1::personality}}, {{c1::planning}}, {{c1::problem solving}}, {{c1::concentration}}, {{c1::self-awareness}}, and {{c1::voluntary muscle control}}, while the <b>prefrontal</b> area handles {{c2::judgment}}, {{c2::predicting the consequences of actions}}, and {{c2::abstract intellectual functions}}.",
+  "Back Extra": "Distinguish: the chapter's own text credits judgment to the frontal lobe broadly, while the prefrontal area is the region named for it precisely.<br><br>Cue: the frontal lobe also stores the memories of the voluntary movements it controls.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   94,
+   104
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The {{c2::parietal lobe::cerebral lobe}} senses {{c1::touch and texture}}, recognizes {{c1::spatial relationships}}, and {{c1::integrates the body's sensory information}} into our perception of the world.",
+  "Back Extra": "Pathway: sensory impulses from the extremities travel up the spinal cord, passing neuron to neuron, until they reach the parietal lobe.<br><br>Cue: the parietal lobe also stores the touch and texture memories it builds.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   95,
+   104
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The {{c2::temporal lobe::cerebral lobe}} handles {{c1::hearing}}, {{c1::taste}}, {{c1::smell}}, {{c1::language}}, and the {{c1::storage of sound and odor memories}}.",
+  "Back Extra": "Distinguish: hearing and language are temporal, vision is occipital, and touch and spatial sense are parietal.<br><br>Pitfall: taste belongs to the temporal lobe, not to the parietal lobe that handles the rest of body sensation.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   97,
+   104
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The {{c2::occipital lobe::cerebral lobe}} is responsible for {{c1::vision}} and for the {{c1::storage of visual memories}}.",
+  "Back Extra": "Pathway: the optic nerve carries visual information from the retina of the eye straight to the occipital lobe, without passing through the spinal cord.<br><br>Distinguish: vision is occipital, while hearing, taste, smell, and language belong to the temporal lobe.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   96,
+   104
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The {{c2::limbic system::brain region}} is the seat of {{c1::basic emotions}} and of {{c1::basic reflexes}} such as chewing and swallowing.",
+  "Back Extra": "Distinguish: the hypothalamus also handles emotions, but adds temperature control and the interface with the endocrine system.<br><br>Distinguish: judgment and abstract reasoning belong to the prefrontal area, not to the limbic system.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   104
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The {{c2::thalamus::diencephalon division}} acts as the brain's {{c1::relay center}}, filtering {{c1::important signals from routine ones}}.",
+  "Back Extra": "Distinguish: the brainstem is also called a relay center, but it connects the cerebrum and cerebellum down to the spinal cord.<br><br>Distinguish: the hypothalamus is the other division of the diencephalon, and it runs emotions, temperature, and hormones.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   104
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The {{c2::hypothalamus::diencephalon division}} runs {{c1::emotions}} and {{c1::temperature control}}, and is the brain's interface with the {{c1::endocrine system}} for hormone control.",
+  "Back Extra": "Distinguish: the thalamus is the diencephalon's other division, and it works as a signal-filtering relay center.<br><br>Cue: the hypothalamus is the bridge between the nervous and endocrine systems, steering the body with hormones as well as nerves.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   104
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The {{c2::cerebellum::brain subdivision}}, which lies beneath the cerebrum, controls {{c1::balance}}, {{c1::muscle coordination}}, and {{c1::posture}}.",
+  "Back Extra": "Why: without the cerebellum, highly specialized muscular activities such as writing would be impossible.<br><br>Distinguish: the cerebrum supplies the fine motor control of precise movements, while the cerebellum coordinates and balances them.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   98
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The {{c2::brainstem::brain subdivision}} is the {{c1::relay center}} connecting the cerebrum and cerebellum to the {{c1::spinal cord}}, and it controls virtually all {{c1::involuntary, life-sustaining}} functions.",
+  "Back Extra": "Ex: heart rate, breathing, temperature regulation, digestion, vomiting, swallowing, coughing, and the wake/sleep cycle.<br><br>Cue: the brainstem is the most primitive part of the central nervous system, and it sits deep and well protected within the cranium.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   99
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The <b>brainstem</b> has three parts:<br>{{c2::Midbrain}} controls {{c1::level of consciousness, muscle tone, and posture}}<br>{{c2::Pons}} controls {{c1::respiratory patterning and depth}}<br>{{c2::Medulla oblongata}} controls {{c1::heart rate, blood pressure, and respiratory rate}}",
+  "Back Extra": "Cue: the reticular activating system sits in the midbrain, which is why the midbrain is the part that governs level of consciousness.<br><br>Distinguish: the pons sets the pattern and depth of breathing, while the medulla oblongata sets the rate.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   100,
+   104
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The {{c1::reticular activating system (RAS)}}, a network of neurons inside the brainstem, regulates consciousness by {{c2::waking the cerebral cortex}}, which is why a {{c3::concussion}} causes immediate loss of consciousness when it momentarily interrupts that network.",
+  "Back Extra": "Why: without the reticular activating system, wakefulness and awareness would not be possible at all.<br><br>Cue: much like a computer, the network has to reboot before the patient regains conscious awareness.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   101,
+   102,
+   103
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "{{c1::Cerebrospinal fluid (CSF)}} both filters out {{c2::impurities and toxins}} and {{c2::absorbs shocks}} delivered to the head.",
+  "Back Extra": "Mechanism: when significant force is applied to the head, cerebrospinal fluid lets the brain shift inside the skull without being damaged.<br><br>Pitfall: some skull fractures allow cerebrospinal fluid to leak from the ears or nose, which is a significant finding.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   105
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The {{c1::spinal cord}}, an extension of the {{c2::brainstem}}, handles {{c4::reflexes}} and {{c4::relays messages between the brain and the body}}, and it terminates at the {{c3::second lumbar vertebra (L2)}}.",
+  "Back Extra": "Pathway: the cord leaves the cranium through the foramen magnum, then runs inside the vertebral column through the spinal canal.<br><br>Distinguish: the brainstem relays between brain regions inside the cranium, while the spinal cord carries those messages down to and up from the body.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   106,
+   107,
+   104
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The autonomic nervous system splits into the {{c1::sympathetic}} branch, which drives the {{c2::fight-or-flight}} response under stress, and the {{c1::parasympathetic}} branch, which {{c2::returns the body to its resting state}}.",
+  "Back Extra": "Ex: sympathetic stimulation dilates the pupils, shunts more blood to skeletal muscle, and causes sweating.<br><br>Distinguish: parasympathetic effects mirror those, constricting the pupils and promoting digestion.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   108,
+   109
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "{{c1::Sensory nerves::nerve type}} sit in the eyes, ears, skin, muscles, joints, lungs, and other organs, and when one is stimulated it {{c2::transmits a message to the brain}}.",
+  "Back Extra": "Distinguish: sensory nerves carry information to the brain, while motor nerves carry commands from the brain out to the muscles.<br><br>Cue: each sensory nerve uses specialized endings for a single kind of sensation, such as heat, cold, position, pressure, pain, balance, light, taste, or smell.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   110,
+   111
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "Every skeletal muscle has its own {{c1::motor nerve::nerve type}}, which carries information {{c2::from the brain to the muscles::direction}}.",
+  "Back Extra": "Distinguish: sensory nerves run the opposite way, carrying information from the body to the brain.<br><br>Cue: the peripheral nervous system uses only two kinds of nerve, sensory and motor.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   112
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The cell bodies of the motor neurons that drive skeletal muscle reside in the {{c1::spinal cord::structure}}.",
+  "Back Extra": "Distinguish: the impulse for a voluntary movement is generated up in the cerebral cortex, while the motor neuron's cell body sits down in the spinal cord.<br><br>Cue: the cord holds nerve cell bodies, but a larger portion of it is made of the extensions reaching out from those bodies.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   113
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "A motor neuron extends an {{c1::axon}} out to a skeletal muscle, and an impulse generated by the {{c2::cerebral cortex}} travels down it to make that muscle {{c3::contract}}.",
+  "Back Extra": "Pathway: the cerebral cortex generates the impulse, the axon carries it out to the skeletal muscle, and the muscle contracts.<br><br>Meaning: an axon is the long fiber a neuron extends to reach the target it controls.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   114
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "{{c1::Cranial nerves::PNS nerve type}} are the special peripheral nerves that run from the {{c2::brainstem}} to the {{c2::head and neck}} and connect directly to body parts.",
+  "Back Extra": "Distinguish: ordinary peripheral nerves route brain to spinal cord to body part, while cranial nerves connect the brainstem directly to their targets.<br><br>Cue: a cranial nerve still belongs to the peripheral nervous system even though it starts inside the skull.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   104
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "A peripheral nerve runs from the brain through the {{c1::spinal cord}} to a body part, so it both {{c2::receives stimulus from the body}} and {{c2::sends commands to the body}}.",
+  "Back Extra": "Distinguish: cranial nerves skip the spinal cord and link the brainstem directly to the head and neck.<br><br>Cue: peripheral nerves come in two kinds, sensory and motor, which is how one pathway carries traffic in both directions.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   104
+  ],
+  "_block": "H_nervous_system"
+ },
+ {
+  "Text": "The innermost layer of the epidermis, the {{c1::germinal layer}}, has two jobs: continuously producing the {{c2::new cells}} that gradually ascend through the other skin layers, and housing the cells that make {{c3::pigment granules}}.",
+  "Back Extra": "Why: the pigment granules made in the germinal layer are what give the skin its color.<br><br>Cue: 'germinal' points to germinating \u2014 the epidermis grows from the bottom up, so every cell at the surface started in the germinal layer.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   115,
+   116
+  ],
+  "_block": "I_skin"
+ },
+ {
+  "Text": "The exposed surface layer of the epidermis is the {{c1::stratum corneum}}.",
+  "Back Extra": "Distinguish: the germinal layer sits at the opposite end of the epidermis, producing the new cells that rise to become the stratum corneum.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   117
+  ],
+  "_block": "I_skin"
+ },
+ {
+  "Text": "Within the epidermis, the germinal layer {{c1::is::is or is not}} supplied with blood, while the stratum corneum {{c1::is not::is or is not}}.",
+  "Back Extra": "Why: with no blood supply of its own, the cells of the stratum corneum are dead, so they are continually shed and replaced by new cells arriving from the layers below.<br><br>Pitfall: the skin's blood vessels actually lie in the dermis, and only small branches extend up as far as the germinal layer.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   118
+  ],
+  "_block": "I_skin"
+ },
+ {
+  "Text": "How long does a newly produced skin cell take to travel from the germinal layer to the skin surface? {{c1::about 4 weeks::duration}}",
+  "Back Extra": "Distinguish: the trip runs bottom to top, from the germinal layer (the innermost epidermal layer) up to the stratum corneum (the exposed surface).<br><br>Why: corneum cells are dead and continually shed, so the germinal layer has to keep replacements moving up the whole time.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   119
+  ],
+  "_block": "I_skin"
+ },
+ {
+  "Text": "Directly beneath the epidermis lies the {{c1::dermis}}, home to five structures:<br><br>{{c2::sweat glands}}<br>{{c2::sebaceous (oil) glands}}<br>{{c2::hair follicles}}<br>{{c2::blood vessels}}<br>{{c2::nerve endings}}",
+  "Back Extra": "Why: the dermal structures are the working parts of the skin \u2014 nerve endings sense the environment, sweat glands cool the body, and blood vessels feed the layers above.<br><br>Cue: a small muscle attached to each hair follicle pulls the hair erect when triggered by cold air or fright.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   120
+  ],
+  "_block": "I_skin"
+ },
+ {
+  "Text": "{{c1::Sebaceous glands}} lie next to the hair follicles and secrete {{c1::sebum}}, an oily substance that travels along the follicle to reach the skin surface.",
+  "Back Extra": "Why: sebum seals the skin surface, waterproofing it and keeping it from drying and cracking.<br><br>Distinguish: sweat gets out through its own pores, or ducts, that run from the dermis up through the epidermis, while sebum has no pore of its own and rides the hair follicle instead.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   121
+  ],
+  "_block": "I_skin"
+ },
+ {
+  "Text": "Wrinkles form with age because the {{c1::loss of subcutaneous tissue}} leaves the skin with less support from below.",
+  "Back Extra": "Why: subcutaneous tissue is mostly fat, and it anchors the skin to the muscles and skeleton underneath, so losing it removes the skin's underlying support.<br><br>Cue: the subcutaneous fat layer also insulates the body and stores energy, and its thickness varies greatly from person to person.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   122
+  ],
+  "_block": "I_skin"
+ },
+ {
+  "Text": "The <b>digestive system</b>, also called the gastrointestinal system, is composed of 10 structures:<br><br>{{c1::the gastrointestinal tract (stomach and intestines)}}, {{c1::mouth}}, {{c1::salivary glands}}, {{c1::pharynx}}, {{c1::esophagus}}, {{c1::liver}}, {{c1::gallbladder}}, {{c1::pancreas}}, {{c1::rectum}}, and {{c1::anus}}.",
+  "Back Extra": "Why: every one of those structures serves a single job, digestion, the processing of food that nourishes the individual cells of the body.<br><br>Cue: most of the digestive organs sit inside the abdomen, the second major body cavity, which holds the major organs of digestion and excretion.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   123
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "The abdomen is divided into <b>quadrants</b>, four equal areas, by two imaginary lines that intersect at {{c1::right angles}} at the {{c2::umbilicus::landmark}}.",
+  "Back Extra": "Why: pain or injury in a given quadrant usually arises from or involves the organs lying in that quadrant, which is how quadrants point to an injured or diseased organ.<br><br>Pitfall: the quadrants are drawn on the anterior abdominal wall, while the abdomen's lower boundary is an imaginary plane running from the pubic symphysis to the sacrum.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   124
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "In the <b>right upper quadrant (RUQ)</b>, the major organs are the {{c1::liver}}, the {{c1::gallbladder}}, and {{c1::a portion of the colon}}.",
+  "Back Extra": "Pitfall: a quadrant's list of major organs is not its full inventory, because the pancreas reaches into both upper quadrants from behind the abdominal cavity and parts of the small intestine lie in all four.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   125
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "Most of the <b>liver</b> lies in the right upper quadrant, almost entirely under the protection of the {{c1::8th to 12th::rib numbers}} ribs.<br><br>The liver fills the entire {{c2::anteroposterior::directional term}} depth of the right upper quadrant, which puts the liver at risk for injury.",
+  "Back Extra": "Pitfall: rib protection cuts both ways, since the same lower ribs that shield the liver can be driven into it when they fracture.<br><br>Meaning: anteroposterior means front-to-back, so the liver spans the full thickness of the abdomen from front to back rather than sitting only against the front wall.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   125,
+   126
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "In the <b>left upper quadrant (LUQ)</b>, the major organs are the {{c1::stomach}}, the {{c1::spleen}}, and {{c1::a portion of the colon}}.",
+  "Back Extra": "Pitfall: only some of a quadrant's organs stay put, because the spleen is fixed under the left rib cage while the stomach's position changes with how full it is.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   127
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "The <b>spleen</b> lies in the lateral and posterior part of the left upper quadrant, under the diaphragm and immediately in front of the {{c1::9th to 11th::rib numbers}} ribs.<br><br>The <b>stomach</b>, by contrast, can sag well down into the {{c2::left lower quadrant::which quadrant}} when it is full.",
+  "Back Extra": "Distinguish: the spleen sits almost entirely under the protection of the left rib cage and never leaves its quadrant, whereas a hollow organ like the stomach shifts with how full it is.<br><br>Pitfall: organ position is not fixed in general, since some organs sit in the abdomen or in the pelvis depending on the patient's posture.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   128,
+   129
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "A patient with blunt trauma to the left flank has fractures of the lower left ribs. Which abdominal organ should you suspect is injured? {{c1::the spleen::organ}}",
+  "Back Extra": "Why: the spleen sits immediately behind the 9th to 11th ribs on the left, so fractured rib ends are driven straight into it, making splenic injury common with left lower rib fractures.<br><br>Distinguish: the mirror mechanism on the right threatens the liver, which lies under the 8th to 12th ribs.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   129
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "The <b>right lower quadrant (RLQ)</b> contains two portions of the large intestine: the {{c1::cecum}} and the {{c1::ascending colon}}.",
+  "Back Extra": "Cue: the appendix rides on the lower border of the cecum, which places the appendix in the right lower quadrant as well.<br><br>Pitfall: the two named portions are not everything in the quadrant, because parts of the small intestine lie in all four quadrants, the right lower one included.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   130
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "The <b>cecum</b> is the first portion of the large intestine, the part into which the {{c1::small intestine (ileum)::structure}} opens, and the {{c2::appendix::organ}} is a small tubular structure attached to the cecum's lower border.",
+  "Back Extra": "Cue: the cecum is the handoff point where contents pass from the small bowel into the large intestine.<br><br>Distinguish: the cecum and ascending colon are segments of the large intestine itself, whereas the appendix is a separate small tube hanging off the cecum rather than a colon segment.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   130
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "In the <b>left lower quadrant (LLQ)</b> lie the {{c1::descending}} and {{c1::sigmoid}} portions of the colon.",
+  "Back Extra": "Cue: the left lower quadrant's named contents are colon only, but the quadrant is not colon-exclusive, since the urinary bladder reaches into it and a full stomach can sag down into it from the left upper quadrant.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   131
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "Parts of both intestines lie in <b>all four</b> abdominal quadrants: the <b>small</b> intestine occupies the central abdomen around the {{c1::umbilicus::landmark}}, and the <b>large</b> intestine begins in the {{c2::right lower quadrant}} and ends in the {{c2::left lower quadrant}}.",
+  "Back Extra": "Distinguish: the small intestine sits centrally, packed around the middle of the abdomen, whereas the large intestine frames it, starting at the cecum and finishing as the sigmoid colon.<br><br>Pitfall: neither intestine is confined to one quadrant, so quadrant location narrows down a solid organ far better than it narrows down bowel.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   132,
+   134
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "The <b>pancreas</b> lies just behind the abdominal cavity, on the posterior abdominal wall, in {{c1::both upper quadrants::which quadrants}}.",
+  "Back Extra": "Pitfall: quadrant location pins the pancreas down poorly, because the pancreas stretches across both upper quadrants instead of sitting in one.<br><br>Why: pain or injury in a quadrant usually involves the organs lying in that quadrant, so a pancreatic problem can surface on either side above the umbilicus.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   133
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "The <b>urinary bladder</b> lies just behind the {{c1::pubic symphysis::bony landmark}} in the middle of the abdomen, which places it in {{c2::both lower quadrants and the pelvis::two quadrants plus a cavity}}.",
+  "Back Extra": "Cue: the pubic symphysis also anchors the imaginary plane that separates the abdomen from the pelvis, which is why the bladder straddles both.<br><br>Pitfall: some organs sit in the abdomen or in the pelvis depending on the patient's posture, so that boundary is not fixed.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   135
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "The {{c1::kidneys and pancreas}} are called {{c2::retroperitoneal::classification}} organs because they lie {{c3::behind the abdominal cavity}}, above the level of the umbilicus and extending from the {{c4::11th rib to the third lumbar vertebra::span}} on each side.",
+  "Back Extra": "Pitfall: the pancreas counts as retroperitoneal even though it also lies across both upper quadrants, because retroperitoneal describes how deep an organ sits, not which quadrant it occupies.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   136
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "The <b>kidneys</b> are approximately {{c1::5 inches (13 cm)::length}} long and lie just anterior to the {{c2::costovertebral angle::landmark}}.",
+  "Back Extra": "Distinguish: the kidneys and the pancreas both lie behind the abdominal cavity, but only the kidneys sit paired against the costovertebral angle, one on each side.<br><br>Cue: the kidneys sit above the level of the umbilicus, so they are upper-abdominal and flank structures rather than lower-abdominal ones.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   137
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "The {{c1::costovertebral angle::landmark}} is the posterior junction where the {{c2::lower rib cage meets the spine::two structures}}.",
+  "Back Extra": "Mnemonic: costo- means rib and vertebral means spine, so the name itself names the two structures that form the angle.<br><br>Cue: the costovertebral angle is a posterior landmark, found on the patient's back rather than anywhere on the abdominal wall.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   137
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "A patient struck in the flank is tender at the junction of the lower rib cage and the spine. Name the organ lying just deep to that junction. {{c1::the kidney::organ}}",
+  "Back Extra": "Cue: the rib-cage-and-spine junction is the costovertebral angle, and the kidneys lie just anterior to it, which is what makes flank tenderness a kidney concern.<br><br>Pitfall: the kidneys are retroperitoneal, lying behind the abdominal cavity rather than within it.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   137
+  ],
+  "_block": "J_abdomen_quadrants"
+ },
+ {
+  "Text": "In the roof of the mouth, the <b>hard palate</b> is a {{c1::bony plate}} lying {{c1::anteriorly}}, whereas the <b>soft palate</b> is a fold of {{c2::mucous membrane and muscle}} that extends {{c2::posteriorly}} into the throat.",
+  "Back Extra": "Distinguish: only the hard palate contains bone. The soft palate is muscle wrapped in the same mucous membrane that lines the rest of the mouth.<br><br>Cue: slide your tongue backward along the roof of your mouth. Where firm bone gives way to soft, movable tissue is the hard palate meeting the soft palate.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   138
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "During eating, the <b>soft palate</b> has two functions: {{c1::holding chewed food inside the mouth}} and {{c1::helping initiate swallowing}}.",
+  "Back Extra": "Pitfall: the soft palate only <i>initiates</i> swallowing. Once food is moving, muscular contractions in the wall of the esophagus are what propel it to the stomach.<br><br>Distinguish: the hard palate is a fixed bony plate at the front of the roof of the mouth and does none of this work.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   139
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "The <b>salivary glands</b> come in two sets:<br>one set {{c1::under the tongue}}, on each side of the mouth<br>the other set {{c1::in front of each ear}}",
+  "Back Extra": "Why: saliva binds chewed food into a mass that can be swallowed, lubricates the mouth, and carries digestive enzymes, so digestion begins before food ever leaves the mouth.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   140
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "The salivary glands produce nearly {{c1::1.5 L}} of saliva daily, and saliva is approximately {{c2::98%}} water, with the remaining {{c2::2%}} made of {{c3::mucus}}, {{c3::salts}}, and {{c3::organic compounds}}.",
+  "Back Extra": "Distinguish: 1.5 L a day is <i>saliva</i>. The stomach separately makes about 1.5 L of gastric juice a day, and 1.5 L of blood flows through the liver every minute. Three different fluids, one number.<br><br>Pitfall: water is 98% of saliva, but the 2% that is not water is what binds the food and starts digestion.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   141,
+   142
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "The {{c1::oropharynx}} is the tubular structure that extends vertically from the back of the mouth down to the {{c2::esophagus and trachea}}.",
+  "Back Extra": "Distinguish: the oropharynx is where the food path and the air path are still one shared tube. They separate only at its lower end, into a swallowing tube and a breathing tube.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   143
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "Swallowing sets off an automatic sequence that protects the airway:<br><br>the pharynx lifts the {{c1::larynx}} \u2192 the {{c2::epiglottis}} closes over it \u2192 liquids and solids are moved into the {{c3::esophagus}} and away from the {{c3::trachea}}",
+  "Back Extra": "Pitfall: the pharynx lifts the <i>larynx</i> up to the epiglottis. The epiglottis does not reach down for it.<br><br>Why: the oropharynx opens into both the esophagus and the trachea, so every swallow must seal one of the two rather than simply steer the food.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   144
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "The <b>esophagus</b> is a {{c1::collapsible::rigid or collapsible}} tube about {{c2::10 inches (25 cm)}} long that runs from the end of the pharynx to the stomach, lying just {{c3::anterior::anterior or posterior}} to the spinal column in the chest.",
+  "Back Extra": "Why: muscular contractions in the esophageal wall propel food down to the stomach, while liquids pass with very little assistance.<br><br>Distinguish: the esophagus and the duodenum are nearly the same length, so a figure in inches is easy to attach to the wrong tube.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   145
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "The stomach produces about {{c1::1.5 L}} of gastric juice daily, which together with muscular contractions converts ingested food into {{c2::chyme}}, a thoroughly mixed semisolid mass.",
+  "Back Extra": "Distinguish: 1.5 L/day here is <i>gastric juice</i>. The salivary glands separately make about 1.5 L of saliva a day, and the pancreas about 2 L of pancreatic juice.<br><br>Pitfall: 1.5 L is what the stomach MAKES in a day, not how much the stomach holds.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   146
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "Muscular contraction moves one meal's semisolid food mass out of the stomach and into the duodenum, the first part of the small intestine, within {{c1::1 to 3 hours}}.",
+  "Back Extra": "Why: the stomach's job is to receive food in large amounts intermittently, store it, then release it into the small bowel in regular small amounts. The 1 to 3 hours is what buys that slow, steady release.<br><br>Pitfall: 1 to 3 hours is how long ONE meal takes to leave the stomach, not how long digestion takes overall.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   147
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "The <b>pancreas</b> is a flat, solid organ lying below and behind the {{c1::liver and stomach}} and behind the {{c2::peritoneum}}, fixed deep in the abdomen where it is not easily damaged.",
+  "Back Extra": "Distinguish: lying behind the peritoneum puts the pancreas in the retroperitoneal space, not free inside the abdominal cavity. The aorta and inferior vena cava lie in that same space.<br><br>Cue: one organ, two kinds of gland, and they are intertwined through it rather than sitting in separate halves.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   148
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "The <b>exocrine</b> portion of the pancreas secretes nearly {{c1::2 L}} of pancreatic juice daily, whose enzymes digest {{c2::fat}}, {{c2::starch}}, and {{c2::protein}}, and it drains straight into the duodenum through the {{c3::pancreatic ducts}}.",
+  "Back Extra": "Distinguish: the pancreas is two intertwined glands in one organ. The exocrine half sends juice down a duct into the gut; the endocrine half releases hormones straight into the blood.<br><br>Pitfall: 2 L a day is <i>pancreatic juice</i>. The stomach makes about 1.5 L of gastric juice and the liver 0.5 to 1 L of bile.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   149,
+   150
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "The {{c1::islets of Langerhans}} are the <b>endocrine</b> portion of the pancreas, producing the hormones {{c2::insulin}} and {{c2::glucagon}}, which regulate the amount of {{c3::glucose}} in the blood.",
+  "Back Extra": "Distinguish: endocrine output (insulin and glucagon) leaves the pancreas by the bloodstream, while the exocrine output (pancreatic juice) leaves by a duct into the duodenum.<br><br>Cue: an <i>islet</i> is a little island, which is what these are: small islands of hormone-making tissue scattered through an otherwise digestive gland.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   151
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "Besides rendering harmless the poisons produced by digestion, the <b>liver</b>:<br>forms the factors needed for {{c1::blood clotting}} and for normal {{c1::plasma}}<br>makes bile that digests {{c1::fat}}<br>is the body's primary store of {{c1::sugar or starch}} for immediate energy<br>produces factors that regulate {{c1::immune responses}}",
+  "Back Extra": "Why: the liver sits directly in the path of blood returning from the intestine, so everything absorbed from a meal, nutrients and poisons alike, is worked on there before it reaches the rest of the body.<br><br>Distinguish: the liver STORES the body's sugar, while the pancreas only regulates how much sugar is circulating in the blood.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   152,
+   153,
+   154,
+   155
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "In the course of a day, the <b>liver</b> produces {{c1::0.5 to 1 L}} of bile.",
+  "Back Extra": "Distinguish: that daily half-liter to liter of bile comes from the LIVER. The gallbladder makes none of it and holds only about 60 to 90 mL at a time.<br><br>Pitfall: three daily digestive volumes are easy to swap. Bile 0.5 to 1 L, gastric juice about 1.5 L, pancreatic juice about 2 L.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   153
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "Ordinarily about {{c1::25%}} of the cardiac output, roughly {{c2::1.5 L}} of blood, passes through the <b>liver</b> each minute.",
+  "Back Extra": "Distinguish: 1.5 L here is per MINUTE. The 1.5 L of saliva and the 1.5 L of gastric juice are daily totals.<br><br>Why: all blood pumped to the gastrointestinal tract passes through the liver by way of the portal vein before returning to the heart, on top of the liver's own generous arterial supply.<br><br>Cue: the kidneys take a comparable but slightly smaller share of the heart's output each minute.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   156
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "The {{c1::gallbladder}} is a small pouch off the bile ducts that both {{c2::stores}} and {{c2::concentrates}} the bile made in the liver.",
+  "Back Extra": "Meaning: the bile ducts and the gallbladder together are called the biliary system, the liver's connection to the intestine.<br><br>Distinguish: the bile ducts are the plumbing running from liver to intestine; the gallbladder is a side pouch hanging off that plumbing, not part of the main channel.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   157
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "When food reaches the {{c1::duodenum}}, the gallbladder contracts and discharges its stored, concentrated bile into it through the {{c2::common bile duct}}.",
+  "Back Extra": "Mechanism: the duodenum is both the trigger and the destination. Food arriving there makes the gallbladder squeeze, and the bile released lands in that same stretch of bowel.<br><br>Why: bile's major job is digesting fat, so releasing it exactly when a meal arrives puts it where the fat is.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   158,
+   159
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "The <b>gallbladder</b> usually contains about {{c1::60 to 90 mL}} of concentrated bile at any one time.",
+  "Back Extra": "Distinguish: the gallbladder holds 60 to 90 mL at a time, while the liver makes 0.5 to 1 L of bile every day. The pouch keeps a small working store, never the day's output.<br><br>Pitfall: the gallbladder's store is measured in milliliters, while the daily digestive volumes (saliva, gastric juice, pancreatic juice, bile) all run in liters.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   160
+  ],
+  "_block": "K_digestive_mouth_to_liver"
+ },
+ {
+  "Text": "More than {{c1::90%::%}} of the products of digestion, plus {{c2::water}}, ingested {{c2::vitamins}}, and {{c2::minerals}}, are absorbed across the wall of the lower end of the small intestine.",
+  "Back Extra": "Distinguish: the colon absorbs only the final 5% to 10% of food and water, so nearly all absorption is already finished before the large intestine.<br><br>Pathway: what the small intestine absorbs enters veins that carry it straight to the liver.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   161
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "The three basic products of digestion are {{c1::simple sugars}}, {{c1::fatty acids}}, and {{c1::amino acids}}, and the small intestine is the major site of the {{c2::chemical}} breakdown that produces them.",
+  "Back Extra": "Distinguish: the mouth and stomach begin the breakdown mechanically; the small intestine is where the chemical breakdown is completed.<br><br>Cue: the three products line up with the three fuel classes, with simple sugars from carbohydrates, fatty acids from fats, and amino acids from proteins.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   161,
+   173
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "Name the three parts of the small intestine in order, from the stomach end toward the large intestine:<br><br>{{c1::duodenum}} \u2192 {{c1::jejunum}} \u2192 {{c1::ileum}}",
+  "Back Extra": "Cue: the order follows the food, so the duodenum takes it from the stomach and the ileum passes it on to the cecum, the first part of the large intestine.<br><br>Mnemonic: <i>D</i>uodenum, <i>J</i>ejunum, <i>I</i>leum reads like Dow Jones Industrial, in that order.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   162
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "The duodenum, the part of the small intestine that receives food from the stomach, is about {{c1::12 inches (30 cm)}} long.",
+  "Back Extra": "Distinguish: 12 inches (30 cm) covers the duodenum alone; the jejunum and ileum together add more than 20 feet (6 m).<br><br>Mnemonic: <i>duodenum</i> means twelve, matching its roughly 12-inch length.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   163
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "In the {{c1::duodenum}}, food arriving from the stomach is mixed with secretions from the {{c2::pancreas and liver}} for further digestion.",
+  "Back Extra": "Distinguish: the liver's contribution is bile, which the gallbladder only stores until the duodenum needs it.<br><br>Why: the stomach only partly breaks food down, so the pancreatic and liver secretions delivered into the duodenum carry digestion the rest of the way.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   164
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "Bile is produced by the {{c1::liver}}, stored in the {{c1::gallbladder}}, and emptied as needed into the {{c1::duodenum}}, where its major function is the digestion of {{c2::fat}}.",
+  "Back Extra": "Pitfall: bile is emptied only <i>as needed</i>, not continuously, so between deliveries it sits in the gallbladder.<br><br>Distinguish: fat is bile's target, while the enzymes that break down starch and protein come from the pancreas.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   165,
+   167
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "Bile is {{c1::green-black::color}}, but changes during digestion make it give feces their typical brown color.",
+  "Back Extra": "Cue: bile itself never looks brown, so the brown of stool is what digestion does to bile along the way.<br><br>Distinguish: color is a separate fact from function, and bile's major job is fat digestion.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   166
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "The jejunum and ileum together measure more than {{c1::20 feet (6 m)}} on average, making up the rest of the small intestine.",
+  "Back Extra": "Distinguish: the duodenum, the first segment, is only about 12 inches (30 cm), so nearly all of the small intestine's length is jejunum and ileum.<br><br>Cue: the lower end of the small intestine, meaning the ileum, is where more than 90% of the products of digestion are absorbed.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   168
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "Trace the three parts of the large intestine in order, from the end of the ileum onward:<br><br>{{c1::cecum}} \u2192 {{c1::colon}} \u2192 {{c1::rectum}}",
+  "Back Extra": "Distinguish: the colon is one <i>part</i> of the large intestine, not another name for the whole organ.<br><br>Cue: the order follows the stool, with the cecum taking over from the ileum and the rectum holding the stool until it passes out through the anus.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   169
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "The large intestine is about {{c1::5 feet (1.5 m)}} long and encircles the outer border of the abdomen around the {{c2::small intestine}}.",
+  "Back Extra": "Distinguish: the small intestine it frames is far longer, at more than 20 feet (6 m).<br><br>Cue: the textbook also calls the small intestine the <i>small bowel</i>, and the large intestine frames it like a border around a picture.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   170
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "The major function of the colon is to absorb the final {{c1::5% to 10%::%}} of digested food and water to form {{c2::solid stool}}. The large intestine also carries out {{c3::bacterial}} digestion of food.",
+  "Back Extra": "Distinguish: the small intestine has already absorbed more than 90%, so the colon only reclaims what is left.<br><br>Why: because the colon's job is reclaiming water, prolonged diarrhea costs the body a great deal of fluid.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   171,
+   173
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "The appendix is a tube only {{c1::3 to 4 inches (8 to 10 cm)}} long, attached to the cecum in the right lower quadrant.",
+  "Back Extra": "Cue: the appendix opens into the cecum, the first part of the large intestine, so its trouble is felt in the right lower quadrant.<br><br>Distinguish: the appendix is a blind tube hanging off the cecum, not a segment of the colon itself.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   172
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "The appendix easily becomes {{c1::obstructed}} and, as a result, inflamed and infected \u2014 appendicitis, one of the major causes of severe abdominal distress.",
+  "Back Extra": "Distinguish: obstruction comes first, so the inflammation and infection are consequences of the blockage rather than its cause.<br><br>Cue: the appendix opens into the cecum in the right lower quadrant, so its distress is felt low on the right side of the abdomen.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   172
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "The rectum, the last portion of the large intestine, is adapted to {{c2::store feces}} until expulsion, and circular muscles called {{c1::sphincters}} control what is released through the anus.",
+  "Back Extra": "Distinguish: the sphincters control liquids, gases, and solids, and they work both voluntarily and automatically.<br><br>Cue: the anus at the rectum's terminal end is a 2-inch (5-cm) canal lined with skin.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   173
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "Trace the route the basic products of digestion take from the intestine to the heart:<br><br>wall of the intestine \u2192 {{c1::portal vein}} \u2192 {{c1::liver}} \u2192 {{c1::veins draining the liver}} \u2192 heart",
+  "Back Extra": "Pathway: from the heart the nutrients are pumped through the arteries to the capillaries, where they cross the capillary walls to nourish individual cells.<br><br>Why: everything absorbed from the gut reaches the liver before any other organ, so the liver gets first pass at it.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   174,
+   175
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "In the liver, the absorbed products of digestion are {{c2::processed further}} and then either {{c1::stored}} or {{c1::transported to the heart}}.",
+  "Back Extra": "Why: the liver acts as the body's staging area, holding nutrients back or releasing them into the circulation as the body needs them.<br><br>Distinguish: blood leaves the liver through the veins draining it, not through the portal vein, which only carries blood in.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   175
+  ],
+  "_block": "L_intestines"
+ },
+ {
+  "Text": "Lymph is a thin, {{c1::straw-colored::color}} fluid that transports materials from lymph tissue into the {{c2::central venous circulation}} via the {{c3::thoracic ducts}}.",
+  "Back Extra": "Mechanism: the lymphatic system has no pump \u2014 muscle contractions and movements of the body are what keep lymph flowing.<br><br>Distinguish: lymph nodes are the tiny, oval structures strung along the lymph vessels that filter lymph, while the thoracic ducts are the final drainage route back into the veins.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   176,
+   177
+  ],
+  "_block": "M_lymph_endo_uro_repro"
+ },
+ {
+  "Text": "The {{c1::adrenal glands}}, which sit {{c2::above the kidneys}}, drive the {{c3::stress (fight-or-flight) response}} by releasing {{c3::epinephrine, norepinephrine, and cortisol}}.",
+  "Back Extra": "Why: fright makes the brain signal the adrenal gland to release epinephrine and norepinephrine, which raises heart rate and blood pressure.<br><br>Distinguish: the adrenal glands sit on top of the kidneys but are endocrine \u2014 they release hormones into the bloodstream rather than filtering it.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   178
+  ],
+  "_block": "M_lymph_endo_uro_repro"
+ },
+ {
+  "Text": "The {{c1::thyroid gland}} sits in the neck over the {{c2::larynx}} and regulates {{c3::metabolism}} through the hormone {{c1::thyroxine}}.",
+  "Back Extra": "Distinguish: the parathyroid glands sit right behind and beside the thyroid in the same neck region, but they regulate serum calcium, not metabolism.<br><br>Pitfall: thyroid and thyroxine sound alike and travel together \u2014 the thyroid is the gland, thyroxine is the hormone it releases into the bloodstream.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   178
+  ],
+  "_block": "M_lymph_endo_uro_repro"
+ },
+ {
+  "Text": "The {{c1::parathyroid glands}} sit in the neck behind and beside the thyroid, regulate {{c2::serum calcium}}, and secrete {{c1::parathyroid hormone}}.",
+  "Back Extra": "Cue: there are three to five parathyroid glands rather than a single one, tucked behind and beside the much larger thyroid.<br><br>Distinguish: the thyroid they hide behind sets metabolism, whereas the parathyroids handle only calcium in the blood.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   178
+  ],
+  "_block": "M_lymph_endo_uro_repro"
+ },
+ {
+  "Text": "The {{c1::pituitary gland}}, at the {{c2::base of the skull}}, is the endocrine gland whose target is {{c3::the other endocrine glands}} rather than an organ, tissue, or process.",
+  "Back Extra": "Distinguish: the brain still sits above the whole endocrine system, controlling hormone release through feedback loops that keep the body's systems in balance.<br><br>Cue: the pituitary releases multiple hormones rather than one signature hormone, because it has several glands to answer for.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   178
+  ],
+  "_block": "M_lymph_endo_uro_repro"
+ },
+ {
+  "Text": "The {{c1::pancreas}} lies in the {{c2::retroperitoneal space}} and regulates {{c3::glucose metabolism}} through the hormones {{c3::insulin and glucagon}}.",
+  "Back Extra": "Distinguish: the pancreas is two glands in one \u2014 an exocrine portion pouring digestive juice into the duodenum, and an endocrine portion (the islets of Langerhans) releasing insulin and glucagon into the blood.<br><br>Why: in type 1 diabetes mellitus insulin production is deficient, so glucose cannot move into cells quickly and blood glucose climbs.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   178
+  ],
+  "_block": "M_lymph_endo_uro_repro"
+ },
+ {
+  "Text": "The endocrine glands that regulate sexual function, characteristics, and reproduction are the {{c1::ovaries}}, in the {{c2::female pelvis}}, producing {{c3::estrogen}}, and the {{c1::testes}}, in the {{c2::male scrotum}}, producing {{c3::testosterone}}.",
+  "Back Extra": "Cue: ovaries and testes are the paired sex glands \u2014 the same endocrine job, mirrored across the sexes.<br><br>Distinguish: the ovaries sit within the pelvis, while the testes hang outside the pelvic cavity in the scrotum.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   178
+  ],
+  "_block": "M_lymph_endo_uro_repro"
+ },
+ {
+  "Text": "The kidneys lie on the {{c1::posterior::anterior or posterior}} muscular wall of the abdomen, in the {{c2::retroperitoneal space::body region}}.",
+  "Back Extra": "Meaning: retroperitoneal means behind the peritoneum, so the whole urinary system sits behind the organs of the digestive system.<br><br>Distinguish: the pancreas occupies that same space, which is why it is fixed deep in the abdomen and not easily damaged.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   179
+  ],
+  "_block": "M_lymph_endo_uro_repro"
+ },
+ {
+  "Text": "Blood flow through the kidneys is high \u2014 nearly {{c1::20%}} of the blood pumped out by the heart passes through the kidneys each minute.",
+  "Back Extra": "Distinguish: the liver takes an even larger share of the cardiac output each minute.<br><br>Why: the kidneys filter continuously to clear toxic waste and hold the balance of water and salts, so they need an outsized share of the circulation.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   180
+  ],
+  "_block": "M_lymph_endo_uro_repro"
+ },
+ {
+  "Text": "The {{c1::renal pelvis::kidney structure}} is the {{c2::cone-shaped collecting area inside the kidney}}, where the urine-carrying tubes unite before funneling urine through the {{c3::ureter}} into the bladder.",
+  "Back Extra": "Pathway: kidney tubules \u2192 renal pelvis \u2192 ureter \u2192 urinary bladder \u2192 urethra \u2192 outside the body.<br><br>Cue: each kidney normally drains into just one ureter, and the two ureters enter the bladder posteriorly at its base.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   181
+  ],
+  "_block": "M_lymph_endo_uro_repro"
+ },
+ {
+  "Text": "{{c1::Peristalsis}} is the {{c2::wavelike contraction of smooth muscle}} that moves urine through the ureters into the bladder.",
+  "Back Extra": "Distinguish: peristalsis also drives the digestive tract, where the same wave moves food along; in the urinary system the squeezing is done by the ureters.<br><br>Why: the ureters are narrow, hollow, muscular tubes \u2014 the muscle in their walls is what actively drives urine toward the bladder.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   182
+  ],
+  "_block": "M_lymph_endo_uro_repro"
+ },
+ {
+  "Text": "The <b>male reproductive system</b> consists of six organs:<br>{{c1::testicles}}<br>{{c1::epididymis}}<br>{{c1::vasa deferentia}}<br>{{c1::prostate gland}}<br>{{c1::seminal vesicles}}<br>{{c1::penis}}",
+  "Back Extra": "Cue: only the prostate gland and the seminal vesicles lie inside the pelvic cavity \u2014 the rest of the male genitalia lie outside it.<br><br>Pathway: immature sperm leave the testicles \u2192 epididymis to develop \u2192 vasa deferentia \u2192 seminal vesicles for storage \u2192 urethra at ejaculation.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   183
+  ],
+  "_block": "M_lymph_endo_uro_repro"
+ },
+ {
+  "Text": "The <b>female reproductive system</b> consists of five organs:<br>{{c1::ovaries}}<br>{{c1::fallopian tubes}}<br>{{c1::uterus}}<br>{{c1::cervix}}<br>{{c1::vagina}}",
+  "Back Extra": "Pathway: a mature egg leaves an ovary \u2192 fallopian tube, where fertilization normally occurs \u2192 uterus; the cervix is the narrow opening from the uterus into the vagina.<br><br>Cue: apart from the clitoris and labia, the female genitalia sit entirely within the pelvis.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   184
+  ],
+  "_block": "M_lymph_endo_uro_repro"
+ },
+ {
+  "Text": "{{c1::Aerobic metabolism::process}} is {{c2::energy production that uses oxygen::meaning}}, and its waste products are {{c3::carbon dioxide and water}}.",
+  "Back Extra": "Distinguish: anaerobic metabolism, literally <i>without air</i>, runs with no oxygen, yields far less energy, and leaves lactic acid, the burn felt in muscles during heavy lifting.<br><br>Cue: aerobic literally means <i>with air</i>, so the oxygen requirement is built into the name.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   185
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "Aerobic metabolism supplies a cell with about {{c1::15 times::multiple}} more ATP than the same cell can make without oxygen.",
+  "Back Extra": "Why: with oxygen the cell can run nutrients all the way down to carbon dioxide and water, while without oxygen it stops at lactic acid and captures only a fraction of the energy.<br><br>Meaning: ATP (adenosine triphosphate) is the molecule cells use to store and spend energy.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   185
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "Most cells can run on anaerobic metabolism, which makes energy without oxygen, for only about {{c1::1 to 3 minutes::duration}}, while {{c2::heart and brain::2 organs}} cells cannot survive without a constant supply of oxygen.",
+  "Back Extra": "Distinguish: brain cells are the strictest of all, beginning to die after only 4 to 6 minutes without oxygen.<br><br>Why: as lactic acid and other wastes pile up around the cells the area turns toxic, cells die, whole organs fail, and the patient can go into cardiac arrest.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   186
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "Deprived of oxygen, brain cells begin to die after only {{c1::4 to 6 minutes::duration}}.",
+  "Back Extra": "Distinguish: ordinary cells can hold out on anaerobic metabolism for about 1 to 3 minutes, while heart and brain cells cannot survive any interruption in oxygen supply.<br><br>Cue: 4 to 6 minutes is the number behind every airway-and-breathing-first habit in EMS.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   186
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "Blood carries carbon dioxide by combining it with water into {{c1::carbonic acid::compound}}, and plasma neutralizes that acid with alkaline {{c2::sodium bicarbonate::compound}}.",
+  "Back Extra": "Why: carbonic acid dissolves in plasma far more readily than carbon dioxide gas does, so the conversion is what lets blood carry the waste at all.<br><br>Mechanism: the lungs then set blood pH by how much carbon dioxide they blow off, since less carbon dioxide leaves less carbonic acid behind.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   187,
+   188
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "{{c1::Respiratory compromise::condition}} is {{c2::the inability to move gas effectively::meaning}}, leaving the patient hypoxic, hypercapnic, or both.",
+  "Back Extra": "Mechanism: breathing has two halves, ventilation (moving air between the lungs and the environment) and respiration (gas exchange at the membrane), and working out which half failed is what points to the cause.<br><br>Distinguish: hypoxic means the oxygen level has fallen, hypercapnic means the carbon dioxide level has risen, and either one alone is enough to call it compromise.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   189
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "Respiratory compromise produces {{c1::hypoxia::condition}}, which is {{c2::a decreased oxygen level in the body::meaning}}.",
+  "Back Extra": "Distinguish: hypercapnia is the opposite pole of the same problem, an elevated carbon dioxide level, and a compromised patient can have one, the other, or both.<br><br>Mechanism: starved of oxygen, cells drop from aerobic to anaerobic metabolism and start pouring out lactic acid.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   189
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "Respiratory compromise produces {{c1::hypercapnia::condition}}, which is {{c2::an elevated carbon dioxide level in the body::meaning}}.",
+  "Back Extra": "Distinguish: hypoxia is the opposite pole of the same problem, a decreased oxygen level, and a compromised patient can have one, the other, or both.<br><br>Mechanism: rising carbon dioxide means more carbonic acid in the blood, which is why the brainstem answers it by driving faster, deeper breathing.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   189
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "Of everything that can block a patient's airway, the most common is the {{c1::tongue::structure}}.",
+  "Back Extra": "Mechanism: when a patient loses consciousness the tongue relaxes and sags posteriorly, and the relaxed tongue can cover the opening of the trachea.<br><br>Pitfall: nobody actually <i>swallows</i> his tongue, and because the blockage is purely positional a manual airway maneuver alone reopens it.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   190
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "An adult is found unconscious and face-up with no trauma and nothing visible in his mouth, yet his own tongue is obstructing his airway. What relieves it? {{c1::a manual airway maneuver::technique}}",
+  "Back Extra": "Why: an unconscious patient loses the muscle tone that holds the tongue forward, so the tongue sags back over the opening of the trachea.<br><br>Pitfall: nobody actually swallows the tongue, and because the blockage is purely positional a manual technique alone relieves it.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   190
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "Trauma can stop a patient's breathing by injuring the {{c1::phrenic nerve::nerve}}, which drives the {{c2::diaphragm::muscle}} to contract and start inspiration, or by damaging the {{c3::brainstem::brain region}}.",
+  "Back Extra": "Distinguish: the phrenic nerve is the wire and the brainstem is the command center, so cutting either one leaves perfectly healthy lungs unventilated.<br><br>Pitfall: neuromuscular disease such as cerebral palsy interrupts the same brain-to-diaphragm signalling with no injury at all.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   191
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "A soccer player is knocked unconscious by a blow to the head and has no chest or airway injury. Which half of breathing is directly threatened? {{c1::ventilation::ventilation or respiration}}",
+  "Back Extra": "Why: a depressed level of consciousness by itself impairs the movement of air, so any condition that renders a patient unconscious has a direct effect on ventilation.<br><br>Distinguish: respiration is the other half of breathing, gas crossing the alveolar membrane, and it can fail even while the patient is moving plenty of air.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   191
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "Gas exchange is blocked when {{c1::fluid}} fills the alveoli and when the {{c1::mucus and pus}} of pneumonia coat them, because in neither case does gas reach the alveolar surface.",
+  "Back Extra": "Mechanism: fluid in the interstitial space between the lung cells does the damage differently, widening the gap from alveolus to capillary so gas still crosses but far too slowly.<br><br>Pitfall: air can be moving in and out perfectly well while gas exchange fails, because the barrier sits at the membrane rather than in the airway.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   192
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "When a clot plugs a branch of the pulmonary arteries, that lung segment is still {{c1::ventilated::ventilated or perfused}} but no longer {{c1::perfused::ventilated or perfused}}, so it exchanges no gas.",
+  "Back Extra": "Distinguish: pulmonary contusion is the mirror image, where blood still flows past a bruised, fluid-filled segment that can no longer be ventilated.<br><br>Why: gas exchange needs air on one side of the membrane and blood on the other, so losing either one makes that segment contribute nothing.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   193
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "Respiratory function is summed up by the {{c1::ventilation/perfusion (V/Q) ratio::measurement}}, which sets the gas actually moved through the lungs against the blood actually flowing past the alveoli.",
+  "Back Extra": "Meaning: the <b>V</b> is ventilation, the gas moved through the lungs, and the <b>Q</b> is perfusion, the blood flowing around the alveoli.<br><br>Pitfall: a mismatch means only one of the two has gone wrong, so a lung segment can be beautifully ventilated and still exchange nothing when no blood reaches it.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": true,
+  "image": null,
+  "from_idx": [
+   194
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "Sort each cause of respiratory compromise into its category:<br>Injury to the chest wall is a {{c1::ventilation::ventilation / respiration / oxygenation}} problem<br>Fluid filling the alveoli is a {{c1::respiration::ventilation / respiration / oxygenation}} problem<br>Toxins in the inhaled air are an {{c1::oxygenation::ventilation / respiration / oxygenation}} problem",
+  "Back Extra": "Distinguish: ventilation is moving air in and out, respiration is gas crossing the alveolar membrane, and oxygenation is the quality of the air the patient is breathing.<br><br>Pitfall: weakened respiratory muscles land under ventilation too, even though nothing is wrong with the lungs themselves.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   195
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "Respiratory compromise from an <b>oxygenation</b> problem starts in the air itself: too little {{c1::oxygen}}, too much {{c1::carbon dioxide}}, or {{c1::toxins}}.",
+  "Back Extra": "Distinguish: too little oxygen or too much carbon dioxide slows diffusion across the membrane, while inhaled toxins instead wreck the blood's ability to carry oxygen at all.<br><br>Ex: a fire displaces the oxygen out of the air and high altitude lowers its pressure, and both starve the alveoli before the lungs themselves are touched.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   195
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "A patient who cannot {{c1::exhale::inhale or exhale}} effectively builds up carbon dioxide in the blood, while a patient who cannot {{c1::inhale::inhale or exhale}} effectively has falling blood oxygen.",
+  "Back Extra": "Mechanism: exhaling is how carbon dioxide leaves the body, so trapping it raises the blood level, and inhaling is how fresh oxygen arrives, so failing to draw it in drops the blood level.<br><br>Distinguish: damage to the brain's breathing centers produces neither pattern cleanly and instead makes the rate and pattern erratic.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   195
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ },
+ {
+  "Text": "In <b>shock</b> (systemic hypoperfusion), too little blood volume or a heart that pumps poorly is failure of the {{c1::central::central or peripheral}} circulation, while an inability to control blood vessel size is failure of the {{c1::peripheral::central or peripheral}} circulation.",
+  "Back Extra": "Mechanism: oxygen delivery rests on red blood cell (hemoglobin) concentration, oxygen saturation, and cardiac output, and impairing any one of the three produces shock.<br><br>Why: poor delivery starves cells of oxygen, which forces anaerobic metabolism, lactic acid production, and finally organ dysfunction.",
+  "source": "emt",
+  "segment": 6,
+  "needs_human_check": false,
+  "image": null,
+  "from_idx": [
+   196
+  ],
+  "_block": "N_metabolism_resp_compromise"
+ }
+]

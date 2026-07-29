@@ -195,6 +195,20 @@ Writes `work/<source>/<label>_highlights.json` (marked items + grounded `context
   (card-rules #14).
 - **`kind: "image"`** — crop it and author from the figure:
   `python3 scripts/render_page.py --source <id> --crop-from work/<source>/<label>_highlights.json`
+- **A highlighted TABLE CAPTION means "card the table's CONTENT."** Two traps, both hit in
+  Chapter 6 (2026-07-29):
+  1. **The body is often a rendered image**, so `pdftotext` returns the caption plus a bare
+     "Description" stub and *silently yields no rows*. Three of Chapter 6's tables (6-9, 6-10,
+     6-12) were image-only. If a table's rows don't come back as text, **render the page and
+     read it** (`python3 scripts/render_page.py --source <id> <page> --dpi 170`) before
+     drafting — otherwise the content is quietly lost.
+  2. **`grounding: EXACT` on such an item is misleading** — it matched the *caption*, not the
+     body. A verifier that only greps page text will wrongly condemn correct table-derived
+     cards as fabricated. Render before judging them.
+
+  Also dedupe hard afterward: a table is usually a **recap** of prose the neighbouring
+  highlights already cover, so table rows are the single most common source of same-fact
+  duplicates (card-rules #12). Card what the table *adds*, not what it repeats.
 - **`kind: "note"`** — Parker's own words with no source span. Ground it against the page
   before carding, or flag `needs_human_check`. Never card an ungrounded note silently.
 - **`user_comment`** is Parker talking directly to you. Obey it:

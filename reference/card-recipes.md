@@ -114,9 +114,14 @@ Distinguish: nitroglycerin is 0.4 mg SL — a different drug and number; do not 
 ```
 ```
 Text: What is the normal respiratory rate range for an adult at rest? {{c1::12-20/min::rate}}
-Back Extra: Distinguish: child 15-30/min; infant 25-50/min.
+Back Extra: Distinguish: child 12-40/min; infant 30-60/min.
 Pitfall: rate alone is not enough — also judge depth and effort.
 ```
+> **Take the numbers from the source, never from this file.** These pediatric rates match
+> AAOS 12e TABLE 6-4; an earlier draft of this recipe carried different ones (child 15-30,
+> infant 25-50) that contradicted the book, and because this file is read before drafting
+> *every* chapter, a stale example here can seed a wrong card anywhere. The recipe teaches
+> the card SHAPE; the digits always come from the page you are carding.
 
 ---
 
