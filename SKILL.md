@@ -7,7 +7,13 @@ description: Make and maintain Parker's EMT Anki cloze cards from his yellow Zot
 
 Turns the things Parker yellow-highlights (`#ffd400`) in his EMT textbook (Zotero) into excellent Anki cloze cards, grounded in the real page text, quality-checked, and staged into the chapter's `all::EMT::Chapter <N>::claude review` subdeck for him to approve and promote.
 
-**Highlight colors:** yellow = "I want to memorize this" = make a card. Blue = everything else, and is ignored. Those are the only two colors in the book. (History: he highlighted the early chapters in green and switched to yellow around p526; on 2026-07-29 the whole book was normalized to yellow/blue. If you ever see green, something has gone wrong — do not silently skip it, tell him.)
+## Highlight colors — yellow is the only input
+
+**Yellow (`#ffd400`) is the ONLY thing that becomes a card.** Every other color is noise to this pipeline, by design.
+
+**Blue (`#2ea8e5`) means "Parker found this interesting, but does not want to memorize it."** It is a personal note to himself, not an omission and not a to-do. Example: the body armor line on p221 — he marked it because *maybe I should get some body armor*, not because he needs to recall that some EMS responders wear it. Treat blue as deliberately, silently out of scope: **never card it, never flag it, never ask about it, never count it as missed coverage.** If Parker asks why some passage has no card, "it's blue, so you told me not to" is the correct answer.
+
+This is a decision he may revisit — someday blue (or another color) may get its own meaning. Until he says so, the mapping is exactly: **yellow = memorize, everything else = his own notes.** These are the only two colors in the book; if you ever see green, something has gone wrong — do not silently skip it, tell him. (History: the early chapters were highlighted green and he switched to yellow around p526; the whole book was normalized to yellow/blue on 2026-07-29.)
 
 This replaces his old ChatGPT "v60" system. The old EMT deck was deleted on purpose; this rebuild fixes what that deck got wrong (see `reference/card-rules.md` Layer B for the specific failures). **The yellow highlight is Parker's "this matters" signal — he has already chosen what's important. Your job is to turn it into the best possible card(s), not to re-decide importance.**
 
