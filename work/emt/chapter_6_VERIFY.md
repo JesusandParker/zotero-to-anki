@@ -1,0 +1,81 @@
+# EMT Chapter 6 — cards to verify before promoting
+
+72 of 202 staged cards state a number, measurement, range, percentage, or time window.
+Each digit was verified verbatim against the source page twice (by the drafting agent and
+again by an independent judge), so this is a confirmation pass, not a list of suspected errors.
+Answers are shown in **bold**. Page numbers are physical PDF pages.
+
+---
+
+- **[p524]** The **appendicular** skeleton is the arms and legs plus their points of attachment to the axial skeleton, while the **pelvis** includes portions of both skeletons.
+- **[p524]** The **axial** skeleton comprises the **skull**, **facial bones**, **thoracic cage**, and **vertebral column**.
+- **[p530]** The cranium is formed by the **frontal**, **temporal**, **parietal**, **occipital**, **ethmoid**, and **sphenoid** bones.
+- **[p531]** The **14** facial bones include the upper jawbones, or **maxillae**, the lower jawbone, or **mandible**, and the cheek bones, or **zygomas**.
+- **[p531]** The vertebral (spinal) column consists of **33** vertebrae in five sections: /  / cervical **7** / thoracic **12** / lumbar **5** / sacrum **5** / coccyx **4**
+- **[p533]** In the thoracic spine, **one pair** of ribs attaches to each vertebra, so the thorax has **12** pairs of ribs in all.
+- **[p533]** The skull rests on and attaches to the first cervical vertebra, the **atlas**, and the second cervical vertebra, the **axis**.
+- **[p533]** The sternum (breastbone) has three main parts, from top to bottom: the **manubrium**, the **body**, and the **xiphoid process**.
+- **[p536]** The **carpals** are the **eight** bones that form the wrist, and the **metacarpals** are the **five** bones that form the palm of the hand.
+- **[p537]** Each coxa (hip bone) is formed by the fusion of three bones: **the ilium**, **the ischium**, and **the pubis**.
+- **[p537]** The **pubic symphysis** is the **cartilaginous joint** that joins the left and right pubic bones and limits their movement.
+- **[p537]** The pelvic girdle consists of two large hip bones called the **coxae**, together with the **sacrum** and the **coccyx**.
+- **[p539]** At the proximal femur, the **greater** trochanter projects from the **lateral** side, whereas the **lesser** trochanter projects from the **medial** side just inferior to the femoral neck.
+- **[p541]** The foot's **seven** tarsals include the large **calcaneus**, or heel bone, and the **talus**, which articulates with the tibia and fibula to form the ankle.
+- **[p543]** On the foot, the **plantar** surface is the **bottom, or sole**, while the **dorsum (dorsal surface)** is the **top**.
+- **[p547-548]** Skeletal muscles often work in **antagonistic pairs**. The **biceps** on the anterior humerus **flexes** the lower arm, while the **triceps** on the posterior humerus **extends** it.
+- **[p548]** On the anterior femur the **quadriceps** **extends** the lower leg, while on the posterior femur the **biceps femoris** **flexes** it.
+- **[p548]** The **gluteus** muscles cover the posterior pelvis and buttocks and act to **extend and rotate the thigh**.
+- **[p552]** The upper airway runs, in descending order, through the three sections of the pharynx and ends at the **larynx (voice box)**: /  / **Nasopharynx** — above the soft palate / **Oropharynx** — from the soft palate down to the hyoid bone / **Laryngopharynx** — the lowest section, where food and air part ways
+- **[p553]** The right lung has **three** lobes — **upper, middle, and lower** — while the left lung has **two**, an **upper and a lower** lobe.
+- **[p565]** The body's backup respiratory drive, the **hypoxic drive**, stimulates breathing when the oxygen level falls, using oxygen sensors in three places — the **brain**, the walls of the **aorta**, and the **carotid arteries**.
+- **[p567]** The **pons**, an area of the brainstem, augments breathing during emotional or physical stress by changing the **depth** of inspiration, expiration, or both.
+- **[p568]** Total lung capacity is about **6,000 mL** in an adult man, and an adult woman has about **one-third** less because her lungs are smaller.
+- **[p569]** **Tidal volume** is the air moved **in or out during a single breath**, generally **500 mL** in an adult.
+- **[p570]** **Minute volume** is the amount of air moved in and out of the lungs in 1 minute, and it equals **respiratory rate × tidal volume**.
+- **[p571]** The normal respiratory rate is **12 to 20 breaths/min** in adults, **12 to 40 breaths/min** in children, and **30 to 60 breaths/min** in infants.
+- **[p580]** The adult heart rate depends on the situation: /  / at rest, **60 to 100 beats/min** / at rest in a well-conditioned athlete, **45 to 60 beats/min** / during vigorous physical activity, **as fast as 180 beats/min**
+- **[p581]** **Cardiac output (CO)** is the amount of blood the heart moves **in 1 minute**, enough to circulate the entire blood volume of **5 to 6 L** through all the vessels.
+- **[p581]** **Stroke volume (SV)** is the amount of blood the heart moves **in one beat**, which for an adult is **70 to 80 mL**.
+- **[p590]** Plasma carries three dissolved gases, **oxygen**, **carbon dioxide**, and **nitrogen**, the last of which makes up roughly **78%** of the air we breathe.
+- **[p590]** Red blood cells have a life span of about **120 days**, after which they are filtered from the bloodstream and digested in **the spleen and liver**.
+- **[p590]** Water makes up **92%** of plasma and proteins make up **7%**, which is why plasma is said to be about 99% water and proteins.
+- **[p592]** Cardiac output is the product of two values: **heart rate** and **stroke volume**.
+- **[p593]** A loss of normal blood pressure indicates that blood is **no longer circulating efficiently** to every organ in the body.
+- **[p593]** The average adult holds about **6 L** of blood, a child holds **2 to 3 L** depending on age and size, and an infant holds about **300 mL**.
+- **[p596]** As blood pressure falls after blood loss, the pulse **increases** in order to hold cardiac output constant at **5 to 6 L per minute**.
+- **[p596]** The equation for mean arterial pressure is **MAP = (HR × SV) × SVR**, which simplifies to **MAP = CO × SVR**.
+- **[p601]** A surge of alpha-1 stimulation shuts down flow through the skin's vessels, so the skin becomes **pale**, **cool**, and **clammy**.
+- **[p601]** Unlike the adrenergic receptors of the sympathetic side, the parasympathetic division reaches the heart through **muscarinic** receptors, making it beat **more slowly** and **more weakly**.
+- **[p605]** The **cerebrum** is the largest part of the brain, about **three-fourths** of it, and it runs the brain's higher functions: **sensory interpretation**, **speech**, **reasoning and learning**, **fine motor control**, and **managing emotions**.
+- **[p607-608]** The **spinal cord**, an extension of the **brainstem**, handles **reflexes** and **relays messages between the brain and the body**, and it terminates at the **second lumbar vertebra (L2)**.
+- **[p614]** How long does a newly produced skin cell take to travel from the germinal layer to the skin surface? **about 4 weeks**
+- **[p622]** A patient with blunt trauma to the left flank has fractures of the lower left ribs. Which abdominal organ should you suspect is injured? **the spleen**
+- **[p622]** In the left lower quadrant (LLQ) lie the **descending** and **sigmoid** portions of the colon.
+- **[p622]** Most of the liver lies in the right upper quadrant, almost entirely under the protection of the **8th to 12th** ribs. /  / The liver fills the entire **anteroposterior** depth of the right upper quadrant, which puts the liver at risk for injury.
+- **[p622]** The spleen lies in the lateral and posterior part of the left upper quadrant, under the diaphragm and immediately in front of the **9th to 11th** ribs. /  / The stomach, by contrast, can sag well down into the **left lower quadrant** when it is full.
+- **[p623]** The **kidneys and pancreas** are called **retroperitoneal** organs because they lie **behind the abdominal cavity**, above the level of the umbilicus and extending from the **11th rib to the third lumbar vertebra** on each side.
+- **[p623]** The kidneys are approximately **5 inches (13 cm)** long and lie just anterior to the **costovertebral angle**.
+- **[p624]** During eating, the soft palate has two functions: **holding chewed food inside the mouth** and **helping initiate swallowing**.
+- **[p625]** The esophagus is a **collapsible** tube about **10 inches (25 cm)** long that runs from the end of the pharynx to the stomach, lying just **anterior** to the spinal column in the chest.
+- **[p625]** The salivary glands produce nearly **1.5 L** of saliva daily, and saliva is approximately **98%** water, with the remaining **2%** made of **mucus**, **salts**, and **organic compounds**.
+- **[p625]** The stomach produces about **1.5 L** of gastric juice daily, which together with muscular contractions converts ingested food into **chyme**, a thoroughly mixed semisolid mass.
+- **[p626]** In the course of a day, the liver produces **0.5 to 1 L** of bile.
+- **[p626]** Muscular contraction moves one meal's semisolid food mass out of the stomach and into the duodenum, the first part of the small intestine, within **1 to 3 hours**.
+- **[p626]** The exocrine portion of the pancreas secretes nearly **2 L** of pancreatic juice daily, whose enzymes digest **fat**, **starch**, and **protein**, and it drains straight into the duodenum through the **pancreatic ducts**.
+- **[p627]** More than **90%** of the products of digestion, plus **water**, ingested **vitamins**, and **minerals**, are absorbed across the wall of the lower end of the small intestine.
+- **[p627]** Ordinarily about **25%** of the cardiac output, roughly **1.5 L** of blood, passes through the liver each minute.
+- **[p627]** The duodenum, the part of the small intestine that receives food from the stomach, is about **12 inches (30 cm)** long.
+- **[p627]** The gallbladder usually contains about **60 to 90 mL** of concentrated bile at any one time.
+- **[p627]** The jejunum and ileum together measure more than **20 feet (6 m)** on average, making up the rest of the small intestine.
+- **[p628]** The appendix is a tube only **3 to 4 inches (8 to 10 cm)** long, attached to the cecum in the right lower quadrant.
+- **[p628]** The large intestine is about **5 feet (1.5 m)** long and encircles the outer border of the abdomen around the **small intestine**.
+- **[p628]** The major function of the colon is to absorb the final **5% to 10%** of digested food and water to form **solid stool**. The large intestine also carries out **bacterial** digestion of food.
+- **[p628]** The rectum, the last portion of the large intestine, is adapted to **store feces** until expulsion, and circular muscles called **sphincters** control what is released through the anus.
+- **[p634]** The **parathyroid glands** sit in the neck behind and beside the thyroid, regulate **serum calcium**, and secrete **parathyroid hormone**.
+- **[p638]** Blood flow through the kidneys is high — nearly **20%** of the blood pumped out by the heart passes through the kidneys each minute.
+- **[p638]** The **renal pelvis** is the **cone-shaped collecting area inside the kidney**, where the urine-carrying tubes unite before funneling urine through the **ureter** into the bladder.
+- **[p638]** The kidneys lie on the **posterior** muscular wall of the abdomen, in the **retroperitoneal space**.
+- **[p645]** Aerobic metabolism supplies a cell with about **15 times** more ATP than the same cell can make without oxygen.
+- **[p645]** Deprived of oxygen, brain cells begin to die after only **4 to 6 minutes**.
+- **[p645]** Most cells can run on anaerobic metabolism, which makes energy without oxygen, for only about **1 to 3 minutes**, while **heart and brain** cells cannot survive without a constant supply of oxygen.
+- **[p650]** Respiratory function is summed up by the **ventilation/perfusion (V/Q) ratio**, which sets the gas actually moved through the lungs against the blood actually flowing past the alveoli.
