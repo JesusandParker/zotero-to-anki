@@ -205,3 +205,17 @@ The mirror-image failure, fixed with it: **`attach_figures.py` wrote the figure 
 - **MUST CATCH:** a card asserting a fact that is absent from its cited caption-mark's context and carries no visual evidence.
 - **MUST NOT OVER-FLAG:** a card whose fact *is* in the widened context (the six Chapter 4 cards) → clean; a card carrying an attached figure as `visual_source` → clean.
 - **Catch test (both ways):** re-extract Chapters 4 and 6 and gate them — both must reach **0 hard errors** and stamp. Before the fix Ch4 had 6. `smoke_test.sh` asserts the ch4 gate.
+
+## R19 — A figure that is merely NEARBY, not about the card
+**Rule:** a plate must depict the card's SUBJECT, not merely share its topic or its page. **Caught by:** the zero-coverage block in `match_figures.py` + the mandatory judge pass (`scripts/judge_figures.py`, SKILL.md Stage 2.95). Found 2026-07-30 by Parker while studying Chapter 4 — the first defect this feature produced in his actual review.
+
+Word overlap can tell you a figure and a card share vocabulary. It cannot tell you the figure *depicts* what the card is about, and that is the only question that matters. Parker's test is the standard: *"if I see a picture and my first thought is 'why in the world is that picture there?' it leads me to a root of confusion instead of a root of actually succeeding."*
+
+Two distinct causes, and only one of them is mechanically catchable:
+
+1. **Pure page adjacency.** FIGURE 4-2 (*"the effectiveness of body language. A. Happy. B. Angry. C. Sad."* — three faces including a crying baby) attached to *"Facing a hostile patient, stand with your {{c1::palms facing out}}"*. **Coverage 0.00, matched terms `[]`.** It qualified only because it sat on the same page. The rule that allowed this — "the book put the plate beside the sentence" — was wrong reasoning: a page holds many paragraphs and the figure illustrates ONE. **Now blocked outright: zero shared vocabulary never qualifies.**
+2. **Domain wallpaper.** FIGURE 4-17 (control centre → tower → ambulance) attached to *"A cellular telephone is effectively a {{c1::low-power portable radio}}…"* on the strength of `radio` and `repeater`. Both are genuinely *distinctive* terms (each in ≤4 of 66 figures), so **no frequency/IDF weighting catches this** — it was measured and rejected. The plate shows a base station; the card is about a phone. **Only looking at the picture catches it.** Hence the judge stage.
+
+- **MUST CATCH:** a proposal with zero shared vocabulary (mechanical); a proposal whose plate depicts a different subject from the card (judge).
+- **MUST NOT OVER-FLAG:** **low coverage is not the defect.** Chapter 4's two BEST matches scored near the bottom — the guide dog at 0.17, the sign-language panel at 0.12 — and both were kept. Congruent-but-unnecessary is fine and wanted (the developmental age-group photos). The defect is *incongruent*, at any score.
+- **Catch test (both ways):** on EMT ch4, FIGURE 4-2 → palms card and FIGURE 4-17 → cellular card must both be absent from the proposals; FIGURE 4-8 → guide-dog card and FIGURE 4-7 → hard-of-hearing card must both survive. Verified live: after the fix both flagged cards carry no figure, and ch4 went 31 → 17 attached.

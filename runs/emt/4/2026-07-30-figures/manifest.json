@@ -20,7 +20,8 @@
   "coverage_pct": 29,
   "cards_with_visual_source_recorded": 32,
   "hard_errors_before": 6,
-  "hard_errors_after": 0
+  "hard_errors_after": 0,
+  "attached_after_judge_ch4": 17
  },
  "new_hazards_found": [
   {
@@ -70,6 +71,12 @@
    "what": "attach_figures wrote the figure to Anki but not to the canon cards file, so the gate could block a card for lacking evidence that was already on it",
    "mechanizable": true,
    "regression_id": "R18"
+  },
+  {
+   "id": "FIG-9",
+   "what": "figures attached that were merely NEARBY or same-topic, not about the card (Parker caught FIGURE 4-2 on a palms-out card at coverage 0.00, and FIGURE 4-17 base-station on a cellular-telephone card); word overlap cannot judge depiction",
+   "mechanizable": true,
+   "regression_id": "R19"
   }
  ],
  "still_open": [

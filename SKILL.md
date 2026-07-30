@@ -331,12 +331,48 @@ a card's answers can be tested against. It is accepted only when it corroborates
 caption; a description that shares no vocabulary with its caption is the wrong one and is
 dropped rather than believed.
 
-**Be generous (Parker's call: "I'd rather overshoot with pictures than undershoot").**
-Coverage and archetype decide how STRONG a match is, not whether it happens: a figure on
-the card's own page attaches as `context` even at zero coverage. `--strict` restores the
-conservative all-three-signals rule. **The one thing that does not loosen:** a
-zero-coverage match requires SAME-PAGE proximity — a wrong picture is the only outcome
-worse than no picture.
+**Be generous, but the axis is CONGRUENT vs INCONGRUENT — not necessary vs unnecessary.**
+Parker is happy to carry a figure he does not strictly need (the developmental age-group
+photos: *"there's no problem with having those pictures in the back extra"*). What he will
+not carry is a picture that makes him ask *"why in the world is that picture there?"* —
+*"it leads me to a root of confusion instead of a root of actually succeeding, because I'm
+sitting here questioning what this picture has to do with the flashcard."* A teenager on a
+card about teenagers costs nothing; a crying baby on a card about hand position costs
+attention. So coverage and archetype grade how STRONG a match is, not whether it happens —
+but **zero shared vocabulary is never enough, not even on the card's own page.** A page
+holds many paragraphs and the figure illustrates ONE of them. `--strict` restores the
+conservative all-three-signals rule.
+
+### Stage 2.95 — JUDGE the figures (mandatory; word overlap cannot do this)
+Matching can tell you a figure and a card share vocabulary. It cannot tell you the figure
+**depicts** what the card is about, and that is the only question that matters. Two real
+misses, both caught by Parker while studying:
+
+- FIGURE 4-2 (*"the effectiveness of body language: happy / angry / sad"*, three faces) on
+  a card about holding your **palms out** toward a hostile patient — **zero** shared words;
+  it matched on page adjacency alone.
+- FIGURE 4-17 (a radio transmission diagram: control centre → tower → ambulance) on
+  *"a cellular telephone is a low-power portable radio"* — shared `radio` and `repeater`,
+  both genuinely distinctive words, so no frequency trick catches it. The plate shows a
+  base station; the card is about a phone.
+
+So the figure pipeline gets the same shape Stage 2.75 gives cards: a deterministic gate,
+then an **independent pass that actually looks.**
+
+```
+python3 scripts/judge_figures.py --source <id> --segment <N> --emit  work/<src>/ch<N>_judge_worklist.json
+#   LOOK at every figure. Fill in `depicts` (what it really shows) and mark each card keep/drop.
+python3 scripts/judge_figures.py --source <id> --segment <N> --apply work/<src>/ch<N>_judge_verdicts.json --strip-live
+```
+
+The worklist is **one entry per distinct FIGURE, not per proposal** (a chapter has ~15–40
+plates against ~25–100 proposals), so you describe each plate once and judge all its cards
+from that — 2–3× less looking for the same answer. `--strip-live` **reconciles** the deck
+to the surviving set, not just the judge's rejects: proposals also vanish when the matcher
+tightens, and those are equally wrong to leave on a card. Parker's own pasted images are
+never touched. The `depicts` text is written back into `figure_index.json` as
+`seen_description` — permanently, because it is the description the publisher never
+supplied for most plates, and it makes the *next* match smarter.
 
 **Figures go on the BACK.** A plate labels its own anatomy, so the figures most worth
 attaching are exactly the ones whose labels ARE the cloze answers; on the front they answer
