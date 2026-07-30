@@ -55,13 +55,15 @@ one-time setup; after that you just point at it. See `reference/sources.md`.
 - `reference/parker-preferences.md` — Parker's living tastes; overrides the rules on conflict.
 
 **The reliability harness** (why quality doesn't regress)
-- `reference/regression-cases.md` — R1–R12, every flaw ever caught, with the BAD card it must
+- `reference/regression-cases.md` — R1–R13, every flaw ever caught, with the BAD card it must
   catch *and* the GOOD card it must not over-flag.
 - `scripts/test_regressions.py` — makes that library **executable**. Run after any rule or
   checker change.
 - `scripts/check_cards.py` — the deterministic gate; writes the `.verified` stamp that
   `anki_write.py` refuses to stage without.
 - `reference/feedback-log.md` — the running history of what Parker caught and how it was fixed.
+- `reference/provenance.md` — how every card stays traceable, and the run store.
+- `scripts/check_hazards.py` — a run may not discover a problem and only write prose about it.
 
 **Per-subject emphasis**
 - `reference/profiles/{emt,science,language,default}.md` — what the material is *for*, which
@@ -74,6 +76,10 @@ one-time setup; after that you just point at it. See `reference/sources.md`.
 - `scripts/render_page.py` — render a page, or crop exactly to an area selection.
 - `scripts/anki_write.py` — safe, one-at-a-time write into the source's staging deck.
 - `scripts/feedback_harvest.py` — collect and clear the hidden `Card Feedback` complaints.
+- `scripts/run_store.py` — the permanent record of every run; `trace <noteId>` for one card's whole story.
+- `scripts/verify_report.py` — derives `needs_human_check`; splits verification into must-check vs may-skim.
+- `scripts/sync_report.py` — what Parker changed after staging: rejections and edits as feedback.
+- `scripts/smoke_test.sh` — 31 end-to-end checks; run after any structural change.
 
 ## Design notes
 
@@ -82,6 +88,12 @@ one-time setup; after that you just point at it. See `reference/sources.md`.
 - **Reliability is a harness, not a promise.** Every flaw Parker catches gets named as a rule,
   mechanized in the checker, and frozen as a two-directional regression test. That's why the
   honest claim is *monotonic convergence* — nothing found recurs — rather than perfection.
+- **Grounding is now machine-checked (R13).** Rule 1 — "always ground in the page paragraph" —
+  was honor-system for the system's entire life, because `grounding: EXACT` only ever meant
+  "I found your marked text." Cards now carry provenance, so every claim can be tested against
+  the source it cites; material that only exists as an image passes by carrying the crop.
+- **Every run is kept.** `runs/` holds the inputs, outputs, decisions, and dropped cards of
+  each run, so you can work backwards from any card and ask why it exists.
 - **The two-deck promotion gate is universal.** The pipeline only ever writes to
   `…::claude review`; Parker promotes keepers himself. Deck *names* are per-source.
 - **Card craft is subject-independent; emphasis is not.** Generalizing meant separating those

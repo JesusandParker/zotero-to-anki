@@ -1,0 +1,27 @@
+{
+ "run_id": "2026-07-29T13-09-backfill",
+ "source": "emt",
+ "segment": 6,
+ "started": "2026-07-30T11:03:37",
+ "skill_sha": "8e3ac8068f9c063790d66e6eb27b191b4df39029",
+ "note": "Backfill: provenance + visual evidence reconstructed from the 2026-07-29 Ch6 run, which computed from_idx/_block and discarded them.",
+ "status": "complete",
+ "finished": "2026-07-30T11:04:04",
+ "counts": {
+  "highlights": 197,
+  "cards": 202,
+  "dropped": 1
+ },
+ "new_hazards_found": [
+  {
+   "summary": "A highlighted TABLE/FIGURE caption grounds as EXACT while the body it points at is on the next page or in an image, so cards were built from material never present in the extracted context.",
+   "regression_id": "R13"
+  },
+  {
+   "summary": "needs_human_check meant 'contains a digit' and fired on 35% of this chapter, so it stopped functioning as triage.",
+   "regression_id": null,
+   "mechanizable": false,
+   "why": "Not a card defect but a reporting one: fixed by deriving the flag from verified_against in verify_report.py, which splits the report into must-check and may-skim. No card shape to regress against."
+  }
+ ]
+}

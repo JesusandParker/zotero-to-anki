@@ -89,6 +89,22 @@ Every flaw Parker has caught becomes a permanent test here: a **BAD** card the c
 - **MUST NOT OVER-FLAG:** a genuine grouped list keeps its long items under the SAME cloze number (several spans in one group), which is NOT a single fuzzy blank — the medical-necessity scenarios (`{{c1::unconscious or in shock}}, {{c1::in acute respiratory or cardiac distress}}, …`) must stay whole (Parker's "big lists stay whole"). The checker only flags a group with exactly ONE span, so grouped lists are safe.
 - **Catch test:** a single-span cloze answer is a crisp term/number/short phrase, not a whole clause; a two-way def's c2 side is a few discriminating words, not a sentence.
 
+## R13 — Ungrounded claim: a fact that is in no source the card cites
+**Rule:** card-rules Rule 1 (always ground in the page paragraph) + SKILL.md's "zero guessing". **Caught by:** `check_cards.py` grounding check (needs `from_idx` provenance) + the LLM judge. Surfaced 2026-07-29 by a post-mortem of the EMT Chapter 6 run.
+
+This is the first MECHANICAL enforcement of the system's #1 rule. For its entire life, Rule 1 was honor-system: `grounding: EXACT` only ever answered *"did I locate your marked text?"*, never *"are this card's claims supported?"* — and nothing compared the two. The gap became visible on table captions but is general: it covers figures, image-only pages, multi-page lists, and anything a caption merely points at.
+
+- **BAD:** a card whose highlight is `TABLE 6-3 Muscles: Locations and Functions` (a caption; the body is on the NEXT page and, for some tables, is a rendered image with no text layer at all) and which asserts `the {{c1::pectoralis}} {{c2::flexes}} and rotates the arm`. The word "pectoralis" appears nowhere in the context the card cites. The fact happened to be correct — an agent went and read the page — but **nothing in the artifacts recorded that**, so it was indistinguishable from a fabrication after the fact. 23 Chapter 6 cards were in this state.
+- **GOOD (two valid shapes):**
+  1. The extractor now widens a caption's context onto the next page, so the body arrives as text and the claim is grounded normally. (EMT TABLE 6-3's context went 271 → 716 characters and gained the real muscle rows.)
+  2. When the material genuinely only exists as an image, the card carries **visual evidence** — `image` or `visual_source` — which both satisfies the check and makes the grounding auditable forever.
+- **MUST NOT OVER-FLAG (three precisions, all found by testing the detector against real cards):**
+  - **Morphology.** The source says "symphyses", the card answers "symphysis". Naive suffix-stripping called a correctly-grounded card ungrounded. Matching allows a ≥5-character prefix, which absorbs the whole class.
+  - **Paraphrase is not fabrication.** House style rewrites source prose into human-flow sentences, so partial overlap is normal and healthy. Only a *zero-overlap* answer on a mark the extractor has already flagged `needs_visual` is HARD-blocked; every other shortfall is a warning routed to the judge. Measured on Chapter 6: 47 hard blocks, 94% of them citing a `needs_visual` mark.
+  - **Legacy batches.** A cards file where NO card carries `from_idx` is pre-provenance; it emits one explanatory warning and is not blocked. Only files that already carry provenance are held to it.
+- **Catch test (both ways):** a card asserting a fact absent from its cited context, on a `needs_visual` mark, with no `image`/`visual_source` → HARD. The same card with visual evidence attached → PASS. A paraphrase with partial overlap → warning, never a block.
+
+
 ---
 
 *To add a case: when Parker catches something new, record the BAD card, the GOOD fix, the rule it enforces, and the concrete catch test. Then confirm the checker or judge actually catches it before considering it closed.*

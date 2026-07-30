@@ -45,10 +45,20 @@ Open every Back Extra line with one of: `Meaning:` `Why:` `Mechanism:` `Distingu
   "Back Extra": "Cue: Main stem bronchi branch into smaller airways inside the lungs.",
   "source": "emt",
   "segment": 1,
+  "from_idx": [94, 104],
+  "block": "H_nervous_system",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
   "needs_human_check": false,
+  "visual_source": null,
   "image": null
 }
 ```
+`from_idx` (the marks this card was built from) is **required for new runs** — it is what
+lets the gate verify Rule 1 and what lets any card in Anki be traced back to its source.
+`needs_human_check` is **derived, never asserted** (`scripts/verify_report.py`). Full field
+reference and the run store: `reference/provenance.md`.
 
 ## Write target & tags
 

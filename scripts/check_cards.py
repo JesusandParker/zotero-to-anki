@@ -293,6 +293,152 @@ def per_card(idx, c, strict_html=True):
     return hard, warn
 
 
+# --- R13: the grounding check — the first mechanical enforcement of Rule 1 -----------
+# "Always ground in the page paragraph" has been the system's #1 rule since day one and
+# has never been machine-checked: `grounding: EXACT` only ever meant "I found your marked
+# text," never "the claims on this card are supported." A card carrying provenance
+# (`from_idx`) can finally be tested against the very context it claims to come from.
+#
+# The escape valve is deliberate and important: material that lives in an image (a table
+# with no text layer, an anatomy plate, a hazmat placard) is legitimately ungroundable in
+# text. Such a card passes ONLY if it carries visual evidence — `image` or `visual_source`
+# — which is also what makes the grounding auditable months later instead of requiring
+# archaeology through agent logs.
+
+GROUND_STOP = set("""a an the of to and or but in on at by for with as is are was were be been being
+that this these those it its their his her they you your we our not only also both either
+each any some such other more most less least than then when while which who whom whose
+into onto from over under above below between within during through across about
+can could will would shall should may might must do does did done have has had
+very much many few several one two three first second next last same different""".split())
+
+
+def _stem(w):
+    for suf in ("ies", "ing", "es", "ed", "s"):
+        if len(w) > 4 and w.endswith(suf):
+            return w[: -len(suf)]
+    return w
+
+
+def _content_set(s):
+    s = re.sub(r"<[^>]+>", " ", s)
+    return {_stem(w) for w in re.findall(r"[a-zA-Z]{3,}", s.lower()) if w not in GROUND_STOP}
+
+
+PREFIX_MIN = 5
+
+
+def _supported(word, pool, pool_prefixes):
+    """Is this answer-word present in the source pool, allowing for morphology?
+
+    Deliberately GENEROUS. This detector HARD-blocks, so a false positive stops good
+    work, while a false negative merely falls through to the LLM judge and the human —
+    the same review-not-block contract the husk detectors use. Naive suffix stripping
+    already produced one: the source says 'symphyses', the card answers 'symphysis',
+    and a strict compare called a correctly-grounded card ungrounded. Prefix matching
+    at >=5 characters absorbs that whole class of morphological variation while still
+    catching the real target, where the answer word is absent from the source entirely
+    ('pectoralis' nowhere in a table CAPTION's context)."""
+    if word in pool:
+        return True
+    if len(word) >= PREFIX_MIN:
+        head = word[:PREFIX_MIN]
+        if head in pool_prefixes:
+            return True
+    return False
+
+
+def highlights_for(cards, explicit=None):
+    """Find the highlights file these cards were generated from."""
+    if explicit:
+        return json.load(open(explicit)), explicit
+    src_id = next((c.get("source") for c in cards if c.get("source")), None)
+    if not src_id:
+        return None, None
+    seg = next((c.get("segment", c.get("chapter")) for c in cards
+                if c.get("segment") is not None or c.get("chapter") is not None), None)
+    try:
+        src = S.get_source(src_id)
+    except SystemExit:
+        return None, None
+    noun = S.segment_noun(src).lower()
+    label = f"{noun}_{seg}" if seg is not None else "all"
+    path = os.path.join(S.SKILL, "work", src_id, f"{label}_highlights.json")
+    if os.path.exists(path):
+        return json.load(open(path)), path
+    return None, None
+
+
+def grounding_check(cards, highlights, require_provenance=False):
+    """(hard, warn) — is every claim supported by the source it cites?"""
+    hard, warn = [], []
+    if highlights is None:
+        return hard, warn
+    have_prov = [c for c in cards if c.get("from_idx")]
+    if not have_prov:
+        if require_provenance:
+            hard.append("no card in this file carries `from_idx` — provenance is required "
+                        "(see reference/provenance.md). Regenerate with the run store.")
+        else:
+            warn.append(f"{len(cards)} card(s) carry no `from_idx`, so Rule 1 (grounding) "
+                        f"CANNOT be verified for this file — legacy pre-provenance batch")
+        return hard, warn
+
+    for i, c in enumerate(cards):
+        idxs = c.get("from_idx")
+        if not idxs:
+            msg = f"#{i}: no `from_idx` — grounding unverifiable in a file that otherwise has provenance"
+            (hard if require_provenance else warn).append(msg)
+            continue
+        visual = bool(c.get("image") or c.get("visual_source"))
+        src_text = []
+        for j in idxs:
+            if isinstance(j, int) and 0 <= j < len(highlights):
+                h = highlights[j]
+                src_text.append(h.get("context", ""))
+                src_text.append(h.get("highlight", ""))
+        pool = _content_set(" ".join(src_text))
+        pool_prefixes = {w[:PREFIX_MIN] for w in pool if len(w) >= PREFIX_MIN}
+        if not pool and not visual:
+            hard.append(f"#{i}: cites highlight(s) {idxs} whose context is EMPTY and carries no "
+                        f"visual evidence — nothing grounds this card (card-rules Rule 1)")
+            continue
+        # Does this card cite a mark the extractor already KNOWS is text-insufficient?
+        # That is the high-precision case: the material provably lives in an image, so an
+        # unsupported claim means the agent read it visually and left no proof. Anything
+        # else is a paraphrase judgement call, which belongs to the LLM judge, not a
+        # hard block — the same review-not-block contract the husk detectors use.
+        cites_visual_gap = any(
+            highlights[j].get("needs_visual")
+            for j in idxs if isinstance(j, int) and 0 <= j < len(highlights))
+
+        for m in CLOZE.finditer(c.get("Text", "")):
+            ans = m.group(2)
+            aset = _content_set(ans)
+            if not aset:
+                continue
+            support = sum(1 for w in aset if _supported(w, pool, pool_prefixes)) / len(aset)
+            if support > 0 and support >= 0.5:
+                continue
+            if visual:
+                continue  # grounded in an image, and the card carries the proof
+            if support == 0 and cites_visual_gap:
+                hard.append(
+                    f"#{i}: answer {ans[:58]!r} is absent from the text of the mark(s) it cites "
+                    f"({idxs}), and that mark is flagged `needs_visual` — the material lives in a "
+                    f"table/figure image. Render the page, confirm the fact, and attach the crop "
+                    f"via `image`/`visual_source` so the grounding is auditable (Rule 1, R13)")
+            elif support == 0:
+                warn.append(
+                    f"#{i}: answer {ans[:48]!r} appears nowhere in its cited context ({idxs}) "
+                    f"— verify it is a paraphrase and not an addition (R13)")
+            else:
+                warn.append(
+                    f"#{i}: answer {ans[:48]!r} is only {support:.0%} supported by its cited "
+                    f"context — verify it is a paraphrase and not an addition (R13)")
+    return hard, warn
+
+
 def load_live(which, source_id):
     """Pull cards from the live Anki deck(s) for a --live audit.
 
@@ -342,6 +488,14 @@ def main():
     ap.add_argument("--audit", action="store_true",
                     help="verifying PRE-EXISTING/rich cards: skip the minimal-HTML HARD gate (keep every other "
                          "check). Default (no flag) stays strict so NEW generated cards are held to b/i/br/img.")
+    ap.add_argument("--highlights", default=None,
+                    help="highlights JSON for the R13 grounding check (default: resolved from the "
+                         "cards' source+segment)")
+    ap.add_argument("--require-provenance", action="store_true",
+                    help="HARD-fail cards missing `from_idx`. Default is lenient so the pre-provenance "
+                         "chapter canons still gate; every NEW run should pass this.")
+    ap.add_argument("--no-grounding", action="store_true",
+                    help="skip the R13 grounding check (escape hatch; do not use for a real run)")
     args = ap.parse_args()
     if not args.cards_json and not args.live:
         sys.exit("usage: check_cards.py [--audit] <cards.json>   |   "
@@ -366,6 +520,21 @@ def main():
         hard += h
         warn += w
         reads.append(readable(c.get("Text", "")))
+    # R13 — grounding: every claim supported by the source the card cites (file mode only;
+    # a live audit has no provenance link back to the extractor's output).
+    ground_note = ""
+    if not live and not args.no_grounding:
+        hl, hlpath = highlights_for(cards, args.highlights)
+        if hl is None:
+            ground_note = "  (grounding check skipped: no highlights file found for these cards)"
+            if args.require_provenance:
+                hard.append("--require-provenance was set but no highlights file could be resolved")
+        else:
+            gh, gw = grounding_check(cards, hl, args.require_provenance)
+            hard += gh
+            warn += gw
+            ground_note = f"  (grounding checked against {os.path.basename(hlpath)})"
+
     # in-batch near-duplicates
     for i in range(len(reads)):
         for j in range(i + 1, len(reads)):
@@ -378,6 +547,8 @@ def main():
                 warn.append(f"#{a} & #{b}: {r:.0%} similar Text — possible duplicate")
 
     print(f"checked {len(cards)} cards" + (f" (live: {args.live})" if live else ""))
+    if ground_note:
+        print(ground_note)
     if hard:
         print("HARD ERRORS (block staging):")
         for h in hard:

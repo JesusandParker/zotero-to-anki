@@ -21,7 +21,10 @@ pass=0; fail=0
 chk(){ if eval "$2" >/dev/null 2>&1; then echo "  PASS  $1"; pass=$((pass+1)); else echo "  FAIL  $1"; fail=$((fail+1)); fi; }
 
 echo "--- card craft must be untouched ---"
-chk "regression suite 20/20" "python3 scripts/test_regressions.py 2>&1 | grep -q '20/20 regression cases pass'"
+chk "regression suite all green" "python3 scripts/test_regressions.py 2>&1 | grep -qE '^[0-9]+/[0-9]+ regression cases pass' && ! python3 scripts/test_regressions.py 2>&1 | grep -q FAIL"
+
+echo "--- no run may leave a discovered hazard open ---"
+chk "every recorded hazard is closed"  "python3 scripts/check_hazards.py"
 
 echo "--- registry ---"
 chk "sources.py list works"            "python3 scripts/sources.py list"
@@ -52,6 +55,11 @@ echo "--- the universal path (a lecture, not a textbook) ---"
 chk "isaacs17 extracts 6 marks"     "python3 scripts/extract_highlights.py --source isaacs17 2>&1 | grep -q '6 marked item'"
 chk "isaacs17 grounds all 6"        "python3 scripts/extract_highlights.py --source isaacs17 2>&1 | grep -q 'grounded 6/6'"
 chk "isaacs17 surfaces 6 comments"  "python3 scripts/extract_highlights.py --source isaacs17 2>&1 | grep -q '6 margin comment'"
+
+echo "--- grounding (R13): Rule 1 is now machine-checked ---"
+chk "ch6 grounding clean (evidence attached)" "python3 scripts/check_cards.py --audit work/emt/chapter_6_cards.json 2>&1 | grep -qv 'R13'"
+chk "ch6 carries provenance"                  "python3 -c \"import json;d=json.load(open('work/emt/chapter_6_cards.json'));assert all(c.get('from_idx') is not None for c in d)\""
+chk "a run record exists for ch6"             "python3 scripts/run_store.py list emt | grep -q 'seg 6'"
 
 echo "--- writer routing ---"
 chk "ch1 dry-run targets the right deck" "python3 scripts/anki_write.py work/emt/chapter_1_cards.json --dry-run 2>&1 | grep -q 'all::EMT::Chapter 1::claude review'"

@@ -193,6 +193,18 @@ Writes `work/<source>/<label>_highlights.json` (marked items + grounded `context
   widens its context and pulls the next page, but you MUST still read the whole list off the
   source page and test EVERY item — lists that span a page break are where items get dropped
   (card-rules #14).
+- **`needs_visual: true`** — the text layer does NOT contain what this mark points at. Two
+  causes, both common: the mark is a **table/figure caption** (`content: CAPTION_ONLY`) whose
+  body sits on the next page or in a rendered image, or it sits on an **image-heavy page**
+  (`content: SPARSE_PAGE`). Render the page, read it, and **attach the crop** to the card via
+  `image`/`visual_source`. This is not optional politeness: `check_cards.py` HARD-blocks a card
+  whose claims are absent from its cited text and which carries no visual evidence (R13).
+  ```
+  python3 scripts/render_page.py --source <id> <page>
+  ```
+  *Read `grounding` and `content` as two different questions.* `grounding: EXACT` means only
+  "I found your marked text" — it says nothing about whether the material is present. EMT
+  TABLE 4-4 was `EXACT` with a context paragraph about not touching a patient's torso.
 - **`kind: "image"`** — crop it and author from the figure:
   `python3 scripts/render_page.py --source <id> --crop-from work/<source>/<label>_highlights.json`
 - **A highlighted TABLE CAPTION means "card the table's CONTENT."** Two traps, both hit in
@@ -252,7 +264,11 @@ Writes `work/<source>/<label>_highlights.json` (marked items + grounded `context
    number/dose/threshold or weak grounding.
 
 4. Keep survivors as card objects in the shape from `reference/note-format.md` — including
-   `"source": "<id>"` and `"segment": <N>`, which is how the writer routes them.
+   `"source"`, `"segment"`, and **`"from_idx"`: the indices of the mark(s) this card was built
+   from**. Provenance is required (`reference/provenance.md`): it is what lets the gate verify
+   Rule 1, and what lets a future session ask any card in Anki why it exists. Record
+   `verified_against` / `verified_by` for every number you check, and `visual_source` for
+   anything you read off a rendered page.
 
 **Generate DECOMPOSED, never hand-crafted in one pass.** Work one unit at a time, each
 getting its own fact-pass → draft → *independent* adversarial edit. Do NOT draft a whole
@@ -271,11 +287,17 @@ the balance.
 
 ### Stage 2.75 — Verify (a mandatory gate, never skip)
 Reliability is a harness, not a promise to be careful.
+0. `python3 scripts/verify_report.py work/<source>/<file>_cards.json` — derives
+   `needs_human_check` from what was actually verified (rather than "contains a digit") and
+   writes `<file>_VERIFY.md` split into **Section A: needs your eyes** and **Section B:
+   verified, skim**. Run it BEFORE the gate; it rewrites the file, which invalidates any stamp.
 1. `python3 scripts/check_cards.py work/<source>/<file>.json` — the deterministic gate (legal
    HTML + cloze-present = HARD block; literal-answer-in-stem, parenthetical-after-cloze,
    husks, first-letter-hint leaks, bloated single blanks, numeric-without-flag, in-batch
-   duplicates = warnings). Fix HARD errors; route every warning to the judge. On a HARD-clean
-   pass it writes a `<file>.verified` stamp (a hash of the exact file).
+   duplicates = warnings). **R13 grounding** is checked here too: every cloze answer is tested
+   against the context of the mark(s) the card cites. An answer absent from a `needs_visual`
+   mark with no attached evidence is a HARD block — attach the crop. Fix HARD errors; route
+   every warning to the judge. On a HARD-clean pass it writes a `<file>.verified` stamp.
 2. The independent LLM judge runs the FULL `reference/editor-checklist.md` on every card
    (run, never eyeballed).
 3. Both are calibrated against `reference/regression-cases.md`. Whenever a rule, the checker,
@@ -287,8 +309,10 @@ exists as a deliberate escape hatch only.
 
 ### Stage 3 — Stage into Anki (once per segment)
 ```
-python3 scripts/anki_write.py work/<source>/<file>_cards.json
+python3 scripts/anki_write.py work/<source>/<file>_cards.json --run runs/<source>/<seg>/<run_id>
 ```
+Pass `--run` so each staged card's Anki noteId is written back into the run's
+`provenance.jsonl`; that link is what makes `run_store.py trace <noteId>` work later.
 (Add `--dry-run` first to validate without writing — dry-run skips the stamp gate.) Each card
 goes to its source's staging deck, derived from its `source` + `segment`, on the registry's
 note type, with the registry's tags, one at a time, with pre-flight validation. The writer
@@ -306,6 +330,16 @@ Tell Parker:
 Margin comments are Parker's voice on the page; a hand-off that ignores one has failed even
 if the cards are perfect.
 
+### Stage 5 — Close the run (required)
+Finish the run record: `run_store.finish(run, cards=…, counts=…, hazards=[…])`.
+
+**If this run discovered a new failure mode, it must be closed, not just described.** Every
+entry in `new_hazards_found` needs either a `regression_id` naming the case that now catches
+it, or `mechanizable: false` with a `why`. `scripts/check_hazards.py` enforces this and
+`smoke_test.sh` runs it. This exists because the pattern has recurred: a run finds a real
+hazard, writes a paragraph about it, ships the affected cards, and reports itself verified.
+Naming a hazard is step one of *name it, mechanize it, test it* — not the whole job.
+
 ---
 
 ## Reference files (load on demand)
@@ -320,7 +354,8 @@ if the cards are perfect.
 - `reference/editor-checklist.md` — the 20-point adversarial Editor pass. Read before editing.
 - `reference/note-format.md` — note type, cloze/MathJax/image syntax, Back Extra vocabulary,
   write targets.
-- `reference/regression-cases.md` — R1–R12, the failure library. Read FIRST on any bug report.
+- `reference/regression-cases.md` — R1–R13, the failure library. Read FIRST on any bug report.
+- `reference/provenance.md` — the card provenance schema, the run store, and the hazard rule.
 - `reference/feedback-log.md` — the running history of what Parker caught and how it was fixed.
 - `reference/cloze-mastery.md` — 2,391 annotated AnKing exemplars. **Large — open only the
   section for the card type you're writing.**

@@ -82,6 +82,10 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="validate only, write nothing")
     ap.add_argument("--force", action="store_true",
                     help="stage even if the verification stamp is missing/stale (escape hatch)")
+    ap.add_argument("--run", default=None,
+                    help="run directory from run_store.start_run(); the returned Anki noteIds are "
+                         "written back into its provenance.jsonl so any card in Anki can be traced "
+                         "to its mark, page, block, agent and judge verdict")
     args = ap.parse_args()
 
     # Verification gate: refuse to stage a file that check_cards.py didn't pass clean.
@@ -148,6 +152,7 @@ def main():
 
     added, skipped = 0, []
     targets = set()
+    note_ids = []   # (card_index, ankiNoteId) -> written back into the run's provenance
     for i, c in enumerate(cards):
         text = c.get("Text", "")
         if not CLOZE_RE.search(text):
@@ -181,7 +186,9 @@ def main():
             skipped.append((i, chk.get("error", "canAdd=false"))); continue
         if args.dry_run:
             added += 1; continue
-        call("addNote", note=note)
+        nid = call("addNote", note=note)
+        if nid:
+            note_ids.append((i, nid))
         added += 1
 
     print(f"{'[dry-run] would add' if args.dry_run else 'added'}: {added}/{len(cards)}")
@@ -194,6 +201,20 @@ def main():
         for seg in segs:
             _s, promote = S.deck_names(src, seg)
             print(f"  (promote keepers into: {promote})")
+    # Link every staged card back to its run record. The link lives in the REPO, not as a
+    # tag on the note: Parker had the `claude_generated` tag stripped from every card as
+    # noise and keeps `ch<N>` only, so traceability must not cost him deck clutter.
+    if args.run and note_ids and not args.dry_run:
+        try:
+            import run_store as R
+            n = R.attach_note_ids(args.run, note_ids)
+            print(f"  linked {n} card(s) to their provenance in {os.path.basename(args.run)}")
+            print(f"  trace any of them later with:  python3 scripts/run_store.py trace <noteId>")
+        except Exception as e:
+            print(f"  WARNING: could not write note ids into the run record ({e})")
+    elif note_ids and not args.dry_run:
+        print("  NOTE: no --run given, so these cards have no traceable provenance record.")
+
     if skipped:
         print(f"skipped {len(skipped)}:")
         for i, why in skipped:

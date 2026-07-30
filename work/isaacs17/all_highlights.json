@@ -9,9 +9,14 @@
   "highlight": "Why is gene regulation necessary?",
   "context": "Gene Regulation Why is gene regulation necessary? All gene products are not needed at all times. More efficient if they are made when needed and turned off when not needed.",
   "grounding": "EXACT",
+  "content": "FULL",
+  "page_text_chars": 199,
+  "next_page_text_chars": null,
   "list_lead_in": false,
   "user_comment": "sometimes genes are messed up, sometimes they are just NOT there \n\nor you have it but you just DONT read it\n\nintrons are the big regulators",
-  "sort": "00002|000014|00101"
+  "sort": "00002|000014|00101",
+  "page_sparse": false,
+  "needs_visual": false
  },
  {
   "source": "isaacs17",
@@ -23,9 +28,14 @@
   "highlight": "All gene products are not needed at all times. More efficient if they are made when needed and turned off when not needed.",
   "context": "Gene Regulation Why is gene regulation necessary? All gene products are not needed at all times. More efficient if they are made when needed and turned off when not needed.",
   "grounding": "EXACT",
+  "content": "FULL",
+  "page_text_chars": 199,
+  "next_page_text_chars": null,
   "list_lead_in": false,
   "user_comment": "this is like if we get a virus and we need to make the defenders and if we always did this we would be so metabolically tired.\n\nwe rise to the occasion\n\nor maybe if were getting something we stop making our own.",
-  "sort": "00002|000081|00255"
+  "sort": "00002|000081|00255",
+  "page_sparse": false,
+  "needs_visual": false
  },
  {
   "source": "isaacs17",
@@ -37,9 +47,14 @@
   "highlight": "Regulation",
   "context": "Gene Regulation Housekeeping genes are expressed constitutively. (rRNAs, structural proteins, tRNAs) Regulated genes usually have specialized functions. growth defense mechanism Induced genes - characteristic of catabolic pathways (lactose, galactose, arabinose utilization) Repressed genes - characteristic of anabolic pathways (tryptophan biosynthesis) Regulator genes control the expression of these induced/repressed genes.",
   "grounding": "EXACT",
+  "content": "FULL",
+  "page_text_chars": 481,
+  "next_page_text_chars": null,
   "list_lead_in": false,
   "user_comment": "genes that change, genes that we control or that idk change?",
-  "sort": "00004|000004|00053"
+  "sort": "00004|000004|00053",
+  "page_sparse": false,
+  "needs_visual": false
  },
  {
   "source": "isaacs17",
@@ -51,9 +66,14 @@
   "highlight": "Housekeeping genes are expressed constitutively. (rRNAs, structural proteins, tRNAs)",
   "context": "Gene Regulation Housekeeping genes are expressed constitutively. (rRNAs, structural proteins, tRNAs) Regulated genes usually have specialized functions. growth defense mechanism Induced genes - characteristic of catabolic pathways (lactose, galactose, arabinose utilization) Repressed genes - characteristic of anabolic pathways (tryptophan biosynthesis) Regulator genes control the expression of these induced/repressed genes.",
   "grounding": "EXACT",
+  "content": "FULL",
+  "page_text_chars": 481,
+  "next_page_text_chars": null,
   "list_lead_in": false,
   "user_comment": "if these changed the cell would DIE so they are always expressed bc if they werent u would die",
-  "sort": "00004|000014|00095"
+  "sort": "00004|000014|00095",
+  "page_sparse": false,
+  "needs_visual": false
  },
  {
   "source": "isaacs17",
@@ -65,9 +85,14 @@
   "highlight": "Regulated genes usually have specialized functions. growth defense mechanism",
   "context": "Gene Regulation Housekeeping genes are expressed constitutively. (rRNAs, structural proteins, tRNAs) Regulated genes usually have specialized functions. growth defense mechanism Induced genes - characteristic of catabolic pathways (lactose, galactose, arabinose utilization) Repressed genes - characteristic of anabolic pathways (tryptophan biosynthesis) Regulator genes control the expression of these induced/repressed genes.",
   "grounding": "EXACT",
+  "content": "FULL",
+  "page_text_chars": 481,
+  "next_page_text_chars": null,
   "list_lead_in": false,
   "user_comment": "these are always changing, eat a ton of food etc, A TUMOR MAYBE",
-  "sort": "00004|000090|00161"
+  "sort": "00004|000090|00161",
+  "page_sparse": false,
+  "needs_visual": false
  },
  {
   "source": "isaacs17",
@@ -79,8 +104,13 @@
   "highlight": "Induced genes - characteristic of catabolic pathways (lactose, galactose, arabinose utilization) Repressed genes - characteristic of anabolic pathways (tryptophan biosynthesis)",
   "context": "Gene Regulation Housekeeping genes are expressed constitutively. (rRNAs, structural proteins, tRNAs) Regulated genes usually have specialized functions. growth defense mechanism Induced genes - characteristic of catabolic pathways (lactose, galactose, arabinose utilization) Repressed genes - characteristic of anabolic pathways (tryptophan biosynthesis) Regulator genes control the expression of these induced/repressed genes.",
   "grounding": "EXACT",
+  "content": "FULL",
+  "page_text_chars": 481,
+  "next_page_text_chars": null,
   "list_lead_in": false,
   "user_comment": "these are subjective so dont just mem \n\ninduced is going to change the expression, it gets induced it goes up\n\n- tearing down\n\nrepressed is the opp, gene exp is up up up and then it goes down and stops its expression and the gene will go down \n\n- building up",
-  "sort": "00004|000244|00363"
+  "sort": "00004|000244|00363",
+  "page_sparse": false,
+  "needs_visual": false
  }
 ]

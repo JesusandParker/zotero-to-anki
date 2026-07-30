@@ -156,6 +156,52 @@ CASES = [
                    "Back Extra": "Cue: transport must be the only safe option.", "chapter": 4}],
         "note": "long items under the SAME number are a grouped list, not a single fuzzy blank — must not flag",
     },
+
+    # --- R13: grounding — the first mechanical enforcement of Rule 1 (2026-07-29) ---
+    {
+        "id": "r13_bad_caption_claim_no_evidence",
+        "warn": "R13", "present": True, "scope": "hard",
+        "highlights": json.loads('''[{"page": "548", "highlight": "TABLE 6-3 Muscles: Locations and Functions",
+      "context": "There are more than 600 muscles in the musculoskeletal system. FIGURE 6-15 and TABLE 6-3 show the major muscles, their locations, and their functions.",
+      "grounding": "EXACT", "content": "CAPTION_ONLY", "needs_visual": true}]'''),
+        "cards": [{"Text": "On the anterior thorax the {{c1::pectoralis}} flexes and rotates the arm.",
+                   "Back Extra": "Cue: it pulls the arm across the chest.",
+                   "source": "emt", "segment": 6, "from_idx": [0]}],
+        "note": "the mark is a TABLE caption flagged needs_visual; 'pectoralis' is in the table BODY, not the cited context, and no crop is attached",
+    },
+    {
+        "id": "r13_good_caption_claim_with_visual_evidence",
+        "warn": "R13", "present": False, "scope": "hard",
+        "highlights": json.loads('''[{"page": "548", "highlight": "TABLE 6-3 Muscles: Locations and Functions",
+      "context": "There are more than 600 muscles in the musculoskeletal system. FIGURE 6-15 and TABLE 6-3 show the major muscles, their locations, and their functions.",
+      "grounding": "EXACT", "content": "CAPTION_ONLY", "needs_visual": true}]'''),
+        "cards": [{"Text": "On the anterior thorax the {{c1::pectoralis}} flexes and rotates the arm.",
+                   "Back Extra": "Cue: it pulls the arm across the chest.",
+                   "source": "emt", "segment": 6, "from_idx": [0],
+                   "visual_source": {"page": 549, "figure": "figures/p549_table_6-3.png"}}],
+        "note": "same claim, but the crop proving it was read is attached -> legitimately grounded",
+    },
+    {
+        "id": "r13_good_morphology_not_a_false_positive",
+        "warn": "R13", "present": False, "scope": "hard",
+        "highlights": json.loads('''[{"page": "527", "highlight": "In other joints, called symphyses, only slight motion is possible.",
+      "context": "The fibrous tissues that connect bone to bone are called ligaments. In other joints, called symphyses, only slight motion is possible.",
+      "grounding": "EXACT", "content": "FULL", "needs_visual": false}]'''),
+        "cards": [{"Text": "A joint that permits only slight motion is a {{c1::symphysis}}.",
+                   "Back Extra": "Ex: the pubic symphysis joins the left and right pubic bones.",
+                   "source": "emt", "segment": 6, "from_idx": [0]}],
+        "note": "source says 'symphyses', card answers 'symphysis' — naive stemming called this ungrounded",
+    },
+    {
+        "id": "r13_good_legacy_batch_not_blocked",
+        "warn": "R13", "present": False, "scope": "hard",
+        "highlights": json.loads('''[{"page": "527", "highlight": "In other joints, called symphyses, only slight motion is possible.",
+      "context": "The fibrous tissues that connect bone to bone are called ligaments. In other joints, called symphyses, only slight motion is possible.",
+      "grounding": "EXACT", "content": "FULL", "needs_visual": false}]'''),
+        "cards": [{"Text": "A joint that permits only slight motion is a {{c1::symphysis}}.",
+                   "Back Extra": "Ex: the pubic symphysis.", "source": "emt", "segment": 6}],
+        "note": "no from_idx anywhere = a pre-provenance batch; warn, never block",
+    },
 ]
 
 
@@ -163,9 +209,21 @@ def run_case(case, tmpdir):
     path = os.path.join(tmpdir, case["id"] + ".json")
     with open(path, "w") as f:
         json.dump(case["cards"], f)
-    out = subprocess.run([sys.executable, CHECKER, path],
-                         capture_output=True, text=True).stdout
-    hit = case["warn"].lower() in out.lower()
+    cmd = [sys.executable, CHECKER, path]
+    # R13 needs the extractor output the cards claim to come from, so a case may ship
+    # its own highlights fixture.
+    if case.get("highlights") is not None:
+        hp = os.path.join(tmpdir, case["id"] + "_highlights.json")
+        with open(hp, "w") as f:
+            json.dump(case["highlights"], f)
+        cmd += ["--highlights", hp]
+    out = subprocess.run(cmd, capture_output=True, text=True).stdout
+    # scope="hard" asserts only on BLOCKING errors, so a case can require "this must not
+    # be blocked" while still allowing an advisory warning (the paraphrase contract).
+    scope = out
+    if case.get("scope") == "hard":
+        scope = "\n".join(l for l in out.splitlines() if l.strip().startswith("x "))
+    hit = case["warn"].lower() in scope.lower()
     return hit == case["present"], hit, out
 
 

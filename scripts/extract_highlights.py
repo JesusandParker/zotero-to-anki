@@ -45,6 +45,18 @@ CTX_CHARS = 450  # paragraph context grabbed on each side of the highlight
 # decision-making-capacity factors. When we detect a lead-in, grab the whole list.
 LIST_FWD_CHARS = 1700
 LIST_LEADIN = re.compile(r"(:\s*$|\bfollowing\b|\binclude[sd]?\b|\bare[:]?\s*$|\bconsider\b)", re.I)
+# A highlighted TABLE/FIGURE/BOX title is a POINTER, not content: the material Parker
+# wants is the body, which sits below the caption or on the next page, and is often a
+# rendered image with no text layer at all. Locating the caption tells you nothing about
+# whether you have the body — that conflation is what let 31 title highlights across
+# ch1-6 be handed to the card-writer with a context paragraph about something else
+# entirely (EMT ch4 TABLE 4-4: grounding EXACT, context about not touching a patient's
+# torso). These get the same next-page widening as a list lead-in, plus a content flag.
+CAPTION_TITLE = re.compile(r"^\s*(TABLE|FIGURE|BOX|SKILL\s+DRILL|CHART|APPENDIX)\s+[\dA-Z][\d\-.]*\b", re.I)
+# A page whose text layer is far thinner than this source's typical page is mostly image.
+# Relative, not absolute, so it adapts on its own: a 2,000-char textbook page and a
+# 300-char lecture slide are both "normal" for their own source.
+SPARSE_PAGE_RATIO = 0.40
 
 
 def norm(s):
@@ -116,6 +128,15 @@ def locate_context(hl_text, raw_page):
 
 def is_list_leadin(hl_text):
     return bool(LIST_LEADIN.search(norm(hl_text)))
+
+
+def is_caption_title(hl_text):
+    return bool(CAPTION_TITLE.match(norm(hl_text)))
+
+
+def wants_next_page(hl_text):
+    """Both list lead-ins and caption titles continue past their own page."""
+    return is_list_leadin(hl_text) or is_caption_title(hl_text)
 
 
 def clean_comment(c):
@@ -274,14 +295,18 @@ def main():
             page_cache[page_label] = page_text(pdf, page_label)
         page_src = page_cache[page_label]
         # A list lead-in whose enumeration spills onto the NEXT page would be truncated
-        # if we only read one page, so for lead-ins append the next page. (This is the
-        # real cause of the EMT Ch3 "7 vs 8 factors" bug.)
-        if is_list_leadin(text):
+        # if we only read one page, so append the next page. (This is the real cause of
+        # the EMT Ch3 "7 vs 8 factors" bug.) A caption title gets the same treatment: a
+        # table's body routinely starts on the following page — EMT TABLE 6-3's caption
+        # is on p548 and its 1,293-character body is on p549, which was never fetched.
+        next_chars = None
+        if wants_next_page(text):
             try:
                 nxt = str(int(re.sub(r"[^0-9]", "", str(page_label))) + 1)
                 if nxt not in page_cache:
                     page_cache[nxt] = page_text(pdf, nxt)
                 page_src = page_src + " " + page_cache[nxt]
+                next_chars = len(page_cache[nxt])
             except (TypeError, ValueError):
                 pass
 
@@ -296,7 +321,13 @@ def main():
             "color": color,
             "highlight": norm(text),
             "context": ctx,
+            # `grounding` answers ONE question: did I find your marked text? It does NOT
+            # mean the material you were pointing at is present. `content` answers that
+            # second question, and the card-writer must read BOTH — see below.
             "grounding": status,
+            "content": "CAPTION_ONLY" if is_caption_title(text) else "FULL",
+            "page_text_chars": len(page_cache.get(page_label, "")),
+            "next_page_text_chars": next_chars,
             # true = this highlight introduces an enumerated list; the writer/editor MUST
             # count the list against the full page (not just this context) and test every
             # item — this is where undercounting / ungrounded completion hides.
@@ -304,6 +335,26 @@ def main():
             "user_comment": note,
             "sort": sort,
         })
+
+    # ---- sufficiency post-pass: which marks point at material we do NOT actually have?
+    # Done after the loop because "sparse" is relative to THIS source's typical page. A
+    # 2,000-char textbook page and a 300-char lecture slide are each normal for their own
+    # document; only the ratio is meaningful.
+    densities = sorted(v for v in (len(t) for t in page_cache.values()) if v > 0)
+    median = densities[len(densities) // 2] if densities else 0
+    floor = median * SPARSE_PAGE_RATIO
+    for it in items:
+        sparse = bool(median) and 0 <= it.get("page_text_chars", 0) < floor
+        it["page_sparse"] = sparse
+        if sparse and it.get("content") == "FULL":
+            it["content"] = "SPARSE_PAGE"
+        # needs_visual = "the text layer does not contain what this mark points at, so
+        # render the page and READ it — and attach the crop as evidence you did."
+        it["needs_visual"] = bool(
+            it.get("kind") == "image"
+            or it.get("content") in ("CAPTION_ONLY", "SPARSE_PAGE")
+            or it.get("grounding") == "NOT_FOUND"
+        )
 
     out = args.out or work_path(src, label, "highlights")
     os.makedirs(os.path.dirname(out), exist_ok=True)
@@ -325,6 +376,21 @@ def main():
         print(f"  text grounded {found}/{len(txt)} ({exact} EXACT)")
     if missing:
         print(f"  NOT located (handle manually / render the page): pages {missing}")
+    needs_vis = [i for i in items if i.get("needs_visual")]
+    if needs_vis:
+        caps = [i for i in needs_vis if i.get("content") == "CAPTION_ONLY"]
+        sparse = [i for i in needs_vis if i.get("content") == "SPARSE_PAGE"]
+        print(f"  *** {len(needs_vis)} mark(s) NEED A VISUAL READ — the text layer does not")
+        print(f"      contain what they point at. Render the page, read it, and attach the")
+        print(f"      crop to the card ('image'/'visual_source'); check_cards.py HARD-blocks")
+        print(f"      a card whose claims are unsupported by text AND carry no visual proof.")
+        if caps:
+            print(f"      {len(caps)} table/figure CAPTION (body is elsewhere): pages "
+                  f"{[c['page'] for c in caps][:12]}")
+        if sparse:
+            print(f"      {len(sparse)} on an image-heavy page: pages "
+                  f"{[c['page'] for c in sparse][:12]}")
+        print(f"      python3 scripts/render_page.py --source {src['id']} <page>")
     if imgs:
         print(f"  {len(imgs)} figure selection(s) — crop each and author from the image:")
         for i in imgs:
