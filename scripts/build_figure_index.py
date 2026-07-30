@@ -204,21 +204,50 @@ def save_art(doc, art, page_no, out_png, rerender):
     return None, "unavailable"
 
 
-def study_copy(src_path, out_dir, max_px=1400, quality=88):
+def matte_color(path):
+    """The plate's own background, sampled from a corner.
+
+    Almost every figure in this book sits on white, but a few do not, and padding a
+    dark-ground plate with white would frame it in a bright halo. Sampling means the
+    margin always continues the picture's own background."""
+    try:
+        out = subprocess.run(
+            ["magick", path + "[1x1+0+0]", "-format", "%[pixel:p{0,0}]", "info:"],
+            check=True, capture_output=True, text=True).stdout.strip()
+        return out or "white"
+    except Exception:
+        return "white"
+
+
+def study_copy(src_path, out_dir, max_px=1400, quality=88, pad_pct=4.0):
     """A study-sized derivative — this is what actually gets attached to a card.
 
     The native plate is the archive: 2133px and ~3 MB for the skull. On a phone that is
     ~20x more pixels than the screen can show and it would push a whole book past a
     gigabyte of media. Re-encoded at 1400px it is ~160 KB with every label still crisp,
     which is what makes it cheap enough to attach figures generously rather than
-    rationing them."""
+    rationing them.
+
+    It is also MATTED. Extraction cuts exactly to the artwork bounds, so a label like
+    "Parietal bone" ends flush against the image edge and the card looks cramped — the
+    thing Parker got for free when he screenshotted a region of the page. So: trim to the
+    true content box (plates carry inconsistent built-in whitespace, and normalising first
+    is what makes the final margin uniform), scale, then add a border of `pad_pct` of the
+    NORMALISED long edge. Because every study copy is scaled to the same long edge, that
+    percentage yields the same absolute margin on every figure, wide or tall, rather than
+    a margin that drifts with aspect ratio."""
     os.makedirs(out_dir, exist_ok=True)
     out = os.path.join(out_dir, os.path.splitext(os.path.basename(src_path))[0] + ".jpg")
     if os.path.exists(out) and os.path.getmtime(out) >= os.path.getmtime(src_path):
         return out
+    pad = int(round(max_px * pad_pct / 100.0))
+    matte = matte_color(src_path)
     try:
-        subprocess.run(["magick", src_path, "-resize", f"{max_px}x{max_px}>",
-                        "-background", "white", "-alpha", "remove", "-alpha", "off",
+        subprocess.run(["magick", src_path,
+                        "-background", matte, "-alpha", "remove", "-alpha", "off",
+                        "-fuzz", "2%", "-trim", "+repage",
+                        "-resize", f"{max_px}x{max_px}>",
+                        "-bordercolor", matte, "-border", str(pad),
                         "-strip", "-quality", str(quality), out],
                        check=True, capture_output=True)
     except Exception:
@@ -259,6 +288,8 @@ def main():
     ap.add_argument("--dpi", type=int, default=300, help="only for vector figures")
     ap.add_argument("--max-px", type=int, default=1400,
                     help="long edge of the study-size copy that gets attached to cards")
+    ap.add_argument("--pad-pct", type=float, default=4.0,
+                    help="matte around the study copy, %% of the normalised long edge")
     args = ap.parse_args()
 
     src = S.get_source(args.source)
@@ -297,7 +328,8 @@ def main():
                 continue
             desc = long_description(doc, page, cap["bbox"], cap["title"])
             base = os.path.join(S.SKILL, "work", src["id"])
-            study = study_copy(path, os.path.join(outdir, "study"), args.max_px)
+            study = study_copy(path, os.path.join(outdir, "study"), args.max_px,
+                               pad_pct=args.pad_pct)
             recs.append({
                 "label": cap["label"],
                 "title": cap["title"],

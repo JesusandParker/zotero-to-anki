@@ -62,7 +62,42 @@ def main():
                     help="which proposal tiers to attach (default: both)")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--undo", help="revert a previous run from its undo file")
+    ap.add_argument("--refresh-media", action="store_true",
+                    help="re-upload the image files only, leaving every note untouched")
     args = ap.parse_args()
+
+    if args.refresh_media:
+        # Rebuilding the study copies (a new matte, a different size) changes the FILES
+        # but not their names, and the notes already reference those names. So replacing
+        # the media is the whole job — re-running the attach would correctly skip all of
+        # them as already-present and the cards would keep the stale images forever.
+        if not args.source or args.segment is None:
+            sys.exit("--refresh-media needs --source and --segment.")
+        src = S.get_source(args.source)
+        work = os.path.join(S.SKILL, "work", src["id"])
+        props_p = args.proposals or os.path.join(
+            work, f"ch{args.segment}_figure_proposals.json")
+        props = json.load(open(props_p))
+        seen, n, missing = set(), 0, []
+        for t in ("teaches", "context"):
+            for r in props.get(t, []):
+                path = os.path.join(work, r["file"])
+                fn = re.sub(r"[^A-Za-z0-9._-]+", "_",
+                            f"{src['id']}_{os.path.basename(path)}")
+                if fn in seen:
+                    continue
+                seen.add(fn)
+                if not os.path.exists(path):
+                    missing.append(fn); continue
+                if not args.dry_run:
+                    call("storeMediaFile", filename=fn,
+                         data=base64.b64encode(open(path, "rb").read()).decode())
+                n += 1
+        verb = "would replace" if args.dry_run else "replaced"
+        print(f"{verb} {n} media file(s); notes untouched")
+        if missing:
+            print(f"  MISSING on disk ({len(missing)}): {missing[:5]}")
+        return
 
     if args.undo:
         recs = json.load(open(args.undo))

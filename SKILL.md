@@ -344,6 +344,21 @@ the card. Set `"image_side": "front"` only when the picture IS the question (*id
 structure*). Attach the **`study_file`** (1400px, ~150 KB), not the native archive — that
 is what keeps a whole book to ~0.25 GB of media instead of 1.75 GB.
 
+**Every study copy is MATTED (`--pad-pct`, default 4%).** Extraction cuts exactly to the
+artwork bounds, so without this a label like *"Parietal bone"* ends flush against the image
+edge and the card looks cramped — the breathing room Parker got for free when he
+screenshotted a region of the page, and which he asks for by name. The copy is trimmed to
+its true content box first (plates carry inconsistent built-in whitespace; normalising is
+what makes the final margin uniform), then bordered by 4% of the **normalised** long edge —
+since every study copy is scaled to the same long edge, that is the same absolute margin on
+every figure, wide or tall. The border colour is **sampled from the plate's own corner**, so
+a figure on a dark ground is not framed in a white halo.
+
+**Rebuilding the study copies changes the FILES but not their names**, and the notes already
+reference those names — so after any `--pad-pct` / `--max-px` change on an already-attached
+segment, push the new images with `attach_figures.py --refresh-media`. A plain re-run would
+correctly skip every card as already-attached and leave the stale images in place forever.
+
 For a segment not yet written to Anki, put the chosen `study_file` in each card's `image`
 field and let Stage 3 do the rest. **For a segment already staged, do NOT re-run
 `anki_write.py`** — it ADDS notes and would duplicate the whole chapter. Update the live
