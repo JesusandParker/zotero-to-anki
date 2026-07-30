@@ -116,7 +116,19 @@ do this end-to-end from this skill alone. When he says *"I noticed an issue with
      never pass back through the file gate. Diagnostic only; it never writes or stamps.
 3. **Diagnose honestly — one-off or systemic?** If it's a *kind* of mistake (not a typo),
    assume systemic: the rules would let it recur, so fix the rules, not just the card.
-4. **Fix the card(s)** in Anki and in the JSON.
+4. **Fix the card(s)** in Anki and in the JSON — but FIRST check who wrote what:
+   ```
+   python3 scripts/authorship.py check --source <id> --note <noteId>
+   ```
+   **Never overwrite a field this system did not author.** Parker adds mnemonics he
+   invented, images he pasted, TTS audio and notes to himself, and none of it is visible
+   to the pipeline. `owned` may be rewritten; **`edited` and `unknown` may not** — read the
+   live value, carry his additions into the new version, or ask him. `authorship.guard()`
+   enforces this in code; verified whitespace-only repairs still pass.
+   *Also:* content that is **not in the source is not automatically a fabrication** — it may
+   be Parker's. Check authorship before concluding a past run invented something.
+   (2026-07-30: a session deleted a mnemonic he wrote himself and called it a caught
+   fabrication. See `parker-preferences.md`.)
 5. **If systemic:** encode the rule (`card-rules.md` / `editor-checklist.md` /
    `parker-preferences.md`, or the source's `profiles/<name>.md` if it's subject-specific),
    AND add a case to `reference/regression-cases.md` (a BAD card the checks must catch + a

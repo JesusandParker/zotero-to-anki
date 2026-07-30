@@ -31,6 +31,7 @@ Usage:
 import argparse, base64, hashlib, json, os, re, sys, urllib.request
 
 import sources as S
+import authorship
 
 ANKI = "http://localhost:8765"
 CLOZE_RE = re.compile(r"\{\{c\d+::")
@@ -178,6 +179,7 @@ def main():
     added, skipped = 0, []
     targets = set()
     note_ids = []   # (card_index, ankiNoteId) -> written back into the run's provenance
+    own = authorship.load(source_id or "unknown")   # fingerprints of what WE write
     for i, c in enumerate(cards):
         text = c.get("Text", "")
         if not CLOZE_RE.search(text):
@@ -231,8 +233,14 @@ def main():
         nid = call("addNote", note=note)
         if nid:
             note_ids.append((i, nid))
+            # Record EXACTLY what we wrote, so a later pass can tell our text from
+            # Parker's edits and never overwrite his (see scripts/authorship.py).
+            authorship.record(source_id or "unknown", nid, note["fields"],
+                              run=args.run, store=own)
         added += 1
 
+    if not args.dry_run:
+        authorship.save(source_id or "unknown", own)
     print(f"{'[dry-run] would add' if args.dry_run else 'added'}: {added}/{len(cards)}")
     for t in sorted(targets):
         print(f"  -> {t}")

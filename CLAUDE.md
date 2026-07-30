@@ -10,6 +10,14 @@ low-friction for him.
 ## If Parker reports a card issue (the main ongoing loop)
 Follow **`SKILL.md` → "If Parker reports an issue with a card"** (read `reference/regression-cases.md` first — the history of every flaw class). Decide one-off vs systemic; if systemic, encode the rule + add a regression test + extend `scripts/check_cards.py`; re-run the checker AND `scripts/test_regressions.py`; log it in `reference/feedback-log.md`; then commit + push. A fresh session needs no prior context — everything is in this repo.
 
+## Parker's own edits are sacred
+He constantly adds his own work to these cards — mnemonics he invented, pasted images, TTS
+audio, notes to himself. **Never overwrite a field this system did not write.** Check first
+with `python3 scripts/authorship.py check --source <id> --note <noteId>`; `edited` and
+`unknown` are protected, and `unknown` covers everything predating the store. Content that
+is not in the textbook may be *his*, not a fabrication — verify before "correcting" it.
+Run `python3 scripts/authorship.py self-test` after touching that module.
+
 ## Version-control workflow
 - After meaningful changes here, **commit and push** so the work is saved and
   backed up: `git -C . add -A && git commit -m "<clear message>" && git push`

@@ -368,8 +368,8 @@
   "image": null
  },
  {
-  "Text": "Before a hard ethical call, an EMT can run a six-question checklist on the decision:<br><br>Is it {{c1::in the patient's best interests}}?<br><br>Is it {{c1::based on logic and reason rather than emotion}}?<br><br>Does it {{c1::protect the patient's rights}}?<br><br>Would you {{c1::agree to it if you were the patient}}?<br><br>Would you {{c1::make the same decision again in similar circumstances}}?<br><br>Can you {{c1::defend it to others}}?",
-  "Back Extra": "Why: a checklist keeps a hard call from turning on how you happen to feel in the moment.<br><br>Pitfall: don't wrestle a hard ethical call alone — involve online medical control in your decision making.",
+  "Text": "Before a tough ethical call, an EMT can run the six-question ethical decision-making checklist (mnemonic <b>ETHICS</b>):<br><br>Would you agree if you were the {{c1::patient}}?<br><br>Is it in the patient's {{c1::best interest}}?<br><br>Is it based on {{c1::logic and reason}} rather than emotion?<br><br>Does it protect the patient's {{c1::rights}}?<br><br>Would you make the same decision {{c1::again}} in similar circumstances?<br><br>Can you {{c1::defend}} the decision to others?",
+  "Back Extra": "Mnemonic: <b>ETHICS</b> —<br><br>E = Empathy (agree if I were the patient?)<br><br>T = Their best interest?<br><br>H = Head over heart (logic, not emotion?)<br><br>I = Individual's rights protected?<br><br>C = Consistent (decide the same again?)<br><br>S = Stand behind it (defend to others?)<br><br>Pitfall: don't wrestle a hard ethical call alone — involve online medical control in the decision.",
   "source": "emt",
   "segment": 3,
   "needs_human_check": false,
