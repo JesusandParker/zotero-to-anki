@@ -24,8 +24,10 @@ The number decides how many cards a note makes and which blanks share a card. Se
 - **One-time check:** the first MathJax card you make, glance at it in Anki to confirm it renders (storage is verified; visual render was never headlessly confirmable).
 
 ## Images (tables / figures / anatomy)
-- For a mark whose fact lives in a table or figure, run `scripts/render_page.py --source <id> <page>` to get a PNG, then pass its path as the card's `image` field.
-- When Parker **area-selected** the figure himself (extractor `kind: "image"`), crop exactly to his box: `scripts/render_page.py --source <id> --crop-from work/<source>/<label>_highlights.json`. His box IS the card — author from the crop rather than describing the figure in words. `anki_write.py` stores it in Anki media and appends `<img src="...">` to the Text.
+- **The book's own plates come from `scripts/build_figure_index.py`, not from rendering pages.** Each figure is already a discrete embedded raster at full publisher resolution; extracting it beats cropping a render by ~2× linear resolution and needs no crop bounds at all. See SKILL.md Stage 2.9. Attach the index's **`study_file`** (1400px, ~150 KB), not the native archive.
+- For a mark whose fact lives in a table or figure and you just need to *read* it, `scripts/render_page.py --source <id> <page>` still gives you the page.
+- When Parker **area-selected** the figure himself (extractor `kind: "image"`), crop exactly to his box: `scripts/render_page.py --source <id> --crop-from work/<source>/<label>_highlights.json`. His box IS the card — author from the crop rather than describing the figure in words.
+- **`image_side` decides which face it lands on, and the default is `back`.** `anki_write.py` stores the file in Anki media and appends `<img src="...">` to **Back Extra**. A labelled plate on the FRONT of a cloze is an answer key — the skull figure labels *frontal / parietal / temporal / occipital*, which are the very answers of the cranium card. Set `"image_side": "front"` only when the picture IS the question (*identify this structure*), where it leaks nothing. Counter-intuitively, **higher answer-coverage is a stronger reason to put the image on the back.**
 - Use this for: the hazmat placard diagram (text-impossible), vital-signs-by-age tables, anatomy figures.
 
 ## Back Extra vocabulary

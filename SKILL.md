@@ -307,6 +307,57 @@ Reliability is a harness, not a promise to be careful.
 current `.verified` stamp, and editing the JSON after the check invalidates it. `--force`
 exists as a deliberate escape hatch only.
 
+### Stage 2.9 — Attach figures (once per segment)
+A textbook's plates are half of what it teaches, and the pipeline used to render them,
+read them, and throw the pixels away. Build the index once per segment, then propose:
+
+```
+.venv/bin/python scripts/build_figure_index.py --source <id> --segment <N>
+.venv/bin/python scripts/match_figures.py --source <id> --segment <N> \
+    --json work/<src>/ch<N>_figure_proposals.json
+```
+
+**Extract, never crop.** In a real publisher PDF each plate is already a discrete embedded
+raster at its ORIGINAL resolution (EMT's skull is 2133×1035, ~336 dpi). Rendering the page
+and cutting it out discards roughly 2× linear resolution. This also dissolves the
+figure-spans-two-pages problem: a plate straddling a page break is ONE image object placed
+twice, and extracting returns it whole — **splitting is a property of pagination, not of
+the picture.** `render_page.py` is still the right tool for *reading* a page; it is the
+wrong tool for *harvesting* art.
+
+The index also captures the book's accessibility **long description** — prose naming
+everything labelled in the plate — which is what turns "what is in this picture" into text
+a card's answers can be tested against. It is accepted only when it corroborates its own
+caption; a description that shares no vocabulary with its caption is the wrong one and is
+dropped rather than believed.
+
+**Be generous (Parker's call: "I'd rather overshoot with pictures than undershoot").**
+Coverage and archetype decide how STRONG a match is, not whether it happens: a figure on
+the card's own page attaches as `context` even at zero coverage. `--strict` restores the
+conservative all-three-signals rule. **The one thing that does not loosen:** a
+zero-coverage match requires SAME-PAGE proximity — a wrong picture is the only outcome
+worse than no picture.
+
+**Figures go on the BACK.** A plate labels its own anatomy, so the figures most worth
+attaching are exactly the ones whose labels ARE the cloze answers; on the front they answer
+the card. Set `"image_side": "front"` only when the picture IS the question (*identify this
+structure*). Attach the **`study_file`** (1400px, ~150 KB), not the native archive — that
+is what keeps a whole book to ~0.25 GB of media instead of 1.75 GB.
+
+For a segment not yet written to Anki, put the chosen `study_file` in each card's `image`
+field and let Stage 3 do the rest. **For a segment already staged, do NOT re-run
+`anki_write.py`** — it ADDS notes and would duplicate the whole chapter. Update the live
+notes instead:
+
+```
+python3 scripts/attach_figures.py --source <id> --segment <N> --dry-run
+python3 scripts/attach_figures.py --source <id> --segment <N>
+python3 scripts/attach_figures.py --undo work/<src>/figure_attach_undo.json
+```
+
+It matches live notes by Text, is idempotent, writes an undo record, and **never strips an
+image Parker pasted himself** — it reports that card so he can choose.
+
 ### Stage 3 — Stage into Anki (once per segment)
 ```
 python3 scripts/anki_write.py work/<source>/<file>_cards.json --run runs/<source>/<seg>/<run_id>
