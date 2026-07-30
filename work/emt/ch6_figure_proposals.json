@@ -436,23 +436,6 @@
    "tier": "teaches"
   },
   {
-   "card_index": 8,
-   "text": "A {{c1::symphysis}} is a joint at which {{c2::only slight motion}} is possible.",
-   "figure": "FIGURE 6-5",
-   "file": "figures/study/FIGURE_6_5.jpg",
-   "native_file": "figures/FIGURE_6_5.png",
-   "coverage": 0.5,
-   "page_dist": 1,
-   "matched_terms": [
-    "motion",
-    "only"
-   ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "teaches"
-  },
-  {
    "card_index": 9,
    "text": "The bone ends of a joint are held together by a fibrous sac called the {{c1::joint capsule}}, which is compose",
    "figure": "FIGURE 6-3",
@@ -665,28 +648,6 @@
    "tier": "teaches"
   },
   {
-   "card_index": 82,
-   "text": "Give the site, the effect of stimulation, and the result for each  sympathetic  (adrenergic) receptor:   Alpha",
-   "figure": "FIGURE 6-31",
-   "file": "figures/study/FIGURE_6_31.jpg",
-   "native_file": "figures/FIGURE_6_31.png",
-   "coverage": 0.389,
-   "page_dist": 2,
-   "matched_terms": [
-    "blood",
-    "cardiac",
-    "heart",
-    "increase",
-    "output",
-    "pressure",
-    "rate"
-   ],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": true,
-   "tier": "teaches"
-  },
-  {
    "card_index": 4,
    "text": "The {{c1::axial}} skeleton comprises the {{c2::skull}}, {{c2::facial bones}}, {{c2::thoracic cage}}, and {{c2:",
    "figure": "FIGURE 6-2",
@@ -741,22 +702,6 @@
    "tier": "context"
   },
   {
-   "card_index": 39,
-   "text": "Compared with the carbon dioxide sensors in the brainstem, the hypoxic drive is much {{c1::less sensitive and ",
-   "figure": "FIGURE 6-22",
-   "file": "figures/study/FIGURE_6_22.jpg",
-   "native_file": "figures/FIGURE_6_22.png",
-   "coverage": 0.333,
-   "page_dist": 0,
-   "matched_terms": [
-    "less"
-   ],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
    "card_index": 112,
    "text": "The innermost layer of the epidermis, the {{c1::germinal layer}}, has two jobs: continuously producing the {{c",
    "figure": "FIGURE 6-36",
@@ -807,24 +752,6 @@
    "tier": "context"
   },
   {
-   "card_index": 93,
-   "text": "The {{c2::parietal lobe::cerebral lobe}} senses {{c1::touch and texture}}, recognizes {{c1::spatial relationsh",
-   "figure": "FIGURE 6-33",
-   "file": "figures/study/FIGURE_6_33.jpg",
-   "native_file": "figures/FIGURE_6_33.png",
-   "coverage": 0.3,
-   "page_dist": 0,
-   "matched_terms": [
-    "body",
-    "information",
-    "sensory"
-   ],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
    "card_index": 22,
    "text": "The {{c1::femoral head}} is the {{c2::rounded superior end of the femur}}, and it seats into the acetabulum of",
    "figure": "FIGURE 6-11",
@@ -835,58 +762,6 @@
    "matched_terms": [
     "femoral",
     "superior"
-   ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 85,
-   "text": "{{c1::Baroreceptors::sensor type}} are the sensors that keep the brain informed about {{c2::blood pressure}}, ",
-   "figure": "FIGURE 6-31",
-   "file": "figures/study/FIGURE_6_31.jpg",
-   "native_file": "figures/FIGURE_6_31.png",
-   "coverage": 0.286,
-   "page_dist": 2,
-   "matched_terms": [
-    "blood",
-    "pressure"
-   ],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 37,
-   "text": "Breathing is controlled by the {{c1::brainstem}}. A buildup of {{c2::carbon dioxide}} pushes the pH of the cer",
-   "figure": "FIGURE 6-21",
-   "file": "figures/study/FIGURE_6_21.jpg",
-   "native_file": "figures/FIGURE_6_21.png",
-   "coverage": 0.25,
-   "page_dist": 0,
-   "matched_terms": [
-    "carbon",
-    "dioxide"
-   ],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 88,
-   "text": "The {{c1::cerebrum::brain subdivision}} is the largest part of the brain, about {{c2::three-fourths}} of it, a",
-   "figure": "FIGURE 6-33",
-   "file": "figures/study/FIGURE_6_33.jpg",
-   "native_file": "figures/FIGURE_6_33.png",
-   "coverage": 0.25,
-   "page_dist": 0,
-   "matched_terms": [
-    "control",
-    "motor",
-    "sensory"
    ],
    "archetype": true,
    "why": "spatial/structural fact",
@@ -910,41 +785,6 @@
    "tier": "context"
   },
   {
-   "card_index": 92,
-   "text": "The  frontal lobe  governs {{c1::personality}}, {{c1::planning}}, {{c1::problem solving}}, {{c1::concentration",
-   "figure": "FIGURE 6-33",
-   "file": "figures/study/FIGURE_6_33.jpg",
-   "native_file": "figures/FIGURE_6_33.png",
-   "coverage": 0.25,
-   "page_dist": 0,
-   "matched_terms": [
-    "actions",
-    "control",
-    "functions",
-    "voluntary"
-   ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 107,
-   "text": "Every skeletal muscle has its own {{c1::motor nerve::nerve type}}, which carries information {{c2::from the br",
-   "figure": "FIGURE 6-36",
-   "file": "figures/study/FIGURE_6_36.jpg",
-   "native_file": "figures/FIGURE_6_36.png",
-   "coverage": 0.25,
-   "page_dist": 0,
-   "matched_terms": [
-    "muscles"
-   ],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
    "card_index": 3,
    "text": "The {{c1::midsagittal (midline) plane}} is the subtype of the sagittal plane that divides the body into {{c2::",
    "figure": "FIGURE 6-1",
@@ -958,22 +798,6 @@
    "archetype": true,
    "why": "spatial/structural fact",
    "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 58,
-   "text": "The {{c1::tunica media}} is the {{c2::middle}} layer of the artery, formed from {{c2::smooth muscle}} that can",
-   "figure": "FIGURE 6-29",
-   "file": "figures/study/FIGURE_6_29.jpg",
-   "native_file": "figures/FIGURE_6_29.png",
-   "coverage": 0.2,
-   "page_dist": 0,
-   "matched_terms": [
-    "muscle"
-   ],
-   "archetype": false,
-   "why": "abstract/procedural fact",
-   "has_description": false,
    "tier": "context"
   },
   {
@@ -1025,23 +849,6 @@
    "tier": "context"
   },
   {
-   "card_index": 81,
-   "text": "Match each function of the blood to the component that carries it out:  Fights infection \u2192 {{c1::white blood c",
-   "figure": "FIGURE 6-32",
-   "file": "figures/study/FIGURE_6_32.jpg",
-   "native_file": "figures/FIGURE_6_32.png",
-   "coverage": 0.167,
-   "page_dist": 0,
-   "matched_terms": [
-    "cells",
-    "plasma"
-   ],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
    "card_index": 98,
    "text": "The {{c2::hypothalamus::diencephalon division}} runs {{c1::emotions}} and {{c1::temperature control}}, and is ",
    "figure": "TABLE 6-10",
@@ -1083,54 +890,6 @@
    "page_dist": 0,
    "matched_terms": [
     "perfusion"
-   ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 89,
-   "text": "The surface of the cerebrum is the {{c1::cortex}}, built from {{c2::neuron (nerve cell) bodies}} whose gray-br",
-   "figure": "FIGURE 6-33",
-   "file": "figures/study/FIGURE_6_33.jpg",
-   "native_file": "figures/FIGURE_6_33.png",
-   "coverage": 0.143,
-   "page_dist": 0,
-   "matched_terms": [
-    "nerve"
-   ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 134,
-   "text": "The {{c1::costovertebral angle::landmark}} is the posterior junction where the {{c2::lower rib cage meets the ",
-   "figure": "FIGURE 6-38",
-   "file": "figures/study/FIGURE_6_38.jpg",
-   "native_file": "figures/FIGURE_6_38.png",
-   "coverage": 0.143,
-   "page_dist": 0,
-   "matched_terms": [
-    "lower"
-   ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 136,
-   "text": "In the roof of the mouth, the  hard palate  is a {{c1::bony plate}} lying {{c1::anteriorly}}, whereas the  sof",
-   "figure": "FIGURE 6-38",
-   "file": "figures/study/FIGURE_6_38.jpg",
-   "native_file": "figures/FIGURE_6_38.png",
-   "coverage": 0.143,
-   "page_dist": 0,
-   "matched_terms": [
-    "bony"
    ],
    "archetype": true,
    "why": "spatial/structural fact",
@@ -1184,6 +943,266 @@
    "why": "spatial/structural fact",
    "has_description": false,
    "tier": "context"
+  }
+ ],
+ "skipped": [],
+ "mode": "generous",
+ "judged": true,
+ "rejected": [
+  {
+   "card_index": 8,
+   "text": "A {{c1::symphysis}} is a joint at which {{c2::only slight motion}} is possible.",
+   "figure": "FIGURE 6-5",
+   "file": "figures/study/FIGURE_6_5.jpg",
+   "native_file": "figures/FIGURE_6_5.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "motion",
+    "only"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "a hinge joint moving freely through one plane, the opposite of a symphysis that barely moves"
+  },
+  {
+   "card_index": 82,
+   "text": "Give the site, the effect of stimulation, and the result for each  sympathetic  (adrenergic) receptor:   Alpha",
+   "figure": "FIGURE 6-31",
+   "file": "figures/study/FIGURE_6_31.jpg",
+   "native_file": "figures/FIGURE_6_31.png",
+   "coverage": 0.389,
+   "page_dist": 2,
+   "matched_terms": [
+    "blood",
+    "cardiac",
+    "heart",
+    "increase",
+    "output",
+    "pressure",
+    "rate"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": true,
+   "tier": "teaches",
+   "rejected_because": "an equation flowchart with no adrenergic receptors, sites or effects on it"
+  },
+  {
+   "card_index": 39,
+   "text": "Compared with the carbon dioxide sensors in the brainstem, the hypoxic drive is much {{c1::less sensitive and ",
+   "figure": "FIGURE 6-22",
+   "file": "figures/study/FIGURE_6_22.jpg",
+   "native_file": "figures/FIGURE_6_22.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "less"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": true,
+   "tier": "context",
+   "rejected_because": "a child-versus-adult airway comparison, nothing about hypoxic drive or chemoreceptors"
+  },
+  {
+   "card_index": 93,
+   "text": "The {{c2::parietal lobe::cerebral lobe}} senses {{c1::touch and texture}}, recognizes {{c1::spatial relationsh",
+   "figure": "FIGURE 6-33",
+   "file": "figures/study/FIGURE_6_33.jpg",
+   "native_file": "figures/FIGURE_6_33.png",
+   "coverage": 0.3,
+   "page_dist": 0,
+   "matched_terms": [
+    "body",
+    "information",
+    "sensory"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": true,
+   "tier": "context",
+   "rejected_because": "an organizational flowchart with no cerebral lobes on it"
+  },
+  {
+   "card_index": 85,
+   "text": "{{c1::Baroreceptors::sensor type}} are the sensors that keep the brain informed about {{c2::blood pressure}}, ",
+   "figure": "FIGURE 6-31",
+   "file": "figures/study/FIGURE_6_31.jpg",
+   "native_file": "figures/FIGURE_6_31.png",
+   "coverage": 0.286,
+   "page_dist": 2,
+   "matched_terms": [
+    "blood",
+    "pressure"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": true,
+   "tier": "context",
+   "rejected_because": "no baroreceptors, aortic arch or carotids appear; only the BP algebra"
+  },
+  {
+   "card_index": 37,
+   "text": "Breathing is controlled by the {{c1::brainstem}}. A buildup of {{c2::carbon dioxide}} pushes the pH of the cer",
+   "figure": "FIGURE 6-21",
+   "file": "figures/study/FIGURE_6_21.jpg",
+   "native_file": "figures/FIGURE_6_21.png",
+   "coverage": 0.25,
+   "page_dist": 0,
+   "matched_terms": [
+    "carbon",
+    "dioxide"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "a pie chart of exhaled gases, not the brainstem, medulla or phrenic nerve the card is about"
+  },
+  {
+   "card_index": 88,
+   "text": "The {{c1::cerebrum::brain subdivision}} is the largest part of the brain, about {{c2::three-fourths}} of it, a",
+   "figure": "FIGURE 6-33",
+   "file": "figures/study/FIGURE_6_33.jpg",
+   "native_file": "figures/FIGURE_6_33.png",
+   "coverage": 0.25,
+   "page_dist": 0,
+   "matched_terms": [
+    "control",
+    "motor",
+    "sensory"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "context",
+   "rejected_because": "the brain appears only as a small icon; no cerebrum or its functions are shown"
+  },
+  {
+   "card_index": 92,
+   "text": "The  frontal lobe  governs {{c1::personality}}, {{c1::planning}}, {{c1::problem solving}}, {{c1::concentration",
+   "figure": "FIGURE 6-33",
+   "file": "figures/study/FIGURE_6_33.jpg",
+   "native_file": "figures/FIGURE_6_33.png",
+   "coverage": 0.25,
+   "page_dist": 0,
+   "matched_terms": [
+    "actions",
+    "control",
+    "functions",
+    "voluntary"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "context",
+   "rejected_because": "no frontal lobe or prefrontal area appears on this systems chart"
+  },
+  {
+   "card_index": 107,
+   "text": "Every skeletal muscle has its own {{c1::motor nerve::nerve type}}, which carries information {{c2::from the br",
+   "figure": "FIGURE 6-36",
+   "file": "figures/study/FIGURE_6_36.jpg",
+   "native_file": "figures/FIGURE_6_36.png",
+   "coverage": 0.25,
+   "page_dist": 0,
+   "matched_terms": [
+    "muscles"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": true,
+   "tier": "context",
+   "rejected_because": "a skin cross-section whose only nerve is labelled sensory, not a motor nerve to skeletal muscle"
+  },
+  {
+   "card_index": 58,
+   "text": "The {{c1::tunica media}} is the {{c2::middle}} layer of the artery, formed from {{c2::smooth muscle}} that can",
+   "figure": "FIGURE 6-29",
+   "file": "figures/study/FIGURE_6_29.jpg",
+   "native_file": "figures/FIGURE_6_29.png",
+   "coverage": 0.2,
+   "page_dist": 0,
+   "matched_terms": [
+    "muscle"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "a map of pulse points, not the layered wall of an artery the card describes"
+  },
+  {
+   "card_index": 81,
+   "text": "Match each function of the blood to the component that carries it out:  Fights infection \u2192 {{c1::white blood c",
+   "figure": "FIGURE 6-32",
+   "file": "figures/study/FIGURE_6_32.jpg",
+   "native_file": "figures/FIGURE_6_32.png",
+   "coverage": 0.167,
+   "page_dist": 0,
+   "matched_terms": [
+    "cells",
+    "plasma"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": true,
+   "tier": "context",
+   "rejected_because": "a capillary fluid-shift diagram, not the blood components and their jobs"
+  },
+  {
+   "card_index": 89,
+   "text": "The surface of the cerebrum is the {{c1::cortex}}, built from {{c2::neuron (nerve cell) bodies}} whose gray-br",
+   "figure": "FIGURE 6-33",
+   "file": "figures/study/FIGURE_6_33.jpg",
+   "native_file": "figures/FIGURE_6_33.png",
+   "coverage": 0.143,
+   "page_dist": 0,
+   "matched_terms": [
+    "nerve"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "context",
+   "rejected_because": "no cortex or gray matter is depicted"
+  },
+  {
+   "card_index": 134,
+   "text": "The {{c1::costovertebral angle::landmark}} is the posterior junction where the {{c2::lower rib cage meets the ",
+   "figure": "FIGURE 6-38",
+   "file": "figures/study/FIGURE_6_38.jpg",
+   "native_file": "figures/FIGURE_6_38.png",
+   "coverage": 0.143,
+   "page_dist": 0,
+   "matched_terms": [
+    "lower"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "an anterior view showing the costal arch; the costovertebral angle is posterior and not on it"
+  },
+  {
+   "card_index": 136,
+   "text": "In the roof of the mouth, the  hard palate  is a {{c1::bony plate}} lying {{c1::anteriorly}}, whereas the  sof",
+   "figure": "FIGURE 6-38",
+   "file": "figures/study/FIGURE_6_38.jpg",
+   "native_file": "figures/FIGURE_6_38.png",
+   "coverage": 0.143,
+   "page_dist": 0,
+   "matched_terms": [
+    "bony"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "an abdominal plate on a card about the hard and soft palate in the mouth"
   },
   {
    "card_index": 101,
@@ -1199,9 +1218,8 @@
    "archetype": true,
    "why": "spatial/structural fact",
    "has_description": true,
-   "tier": "context"
+   "tier": "context",
+   "rejected_because": "the brainstem and its midbrain, pons and medulla are not on this chart"
   }
- ],
- "skipped": [],
- "mode": "generous"
+ ]
 }

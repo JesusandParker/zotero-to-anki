@@ -1,0 +1,811 @@
+{
+ "source": "emt",
+ "segment": 6,
+ "figures": [
+  {
+   "figure": "FIGURE 6-1",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_1.jpg",
+   "caption": "FIGURE 6-1 Anatomic planes of the body.",
+   "publisher_description": "located just opposite to the costal margin near the midline of the body.",
+   "depicts": "A standing woman in a swimsuit with three transparent colored planes cutting through her, labelled frontal (coronal) plane, transverse (axial) plane and sagittal (lateral) plane.",
+   "cards": [
+    {
+     "card_index": 3,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "The {{c1::midsagittal (midline) plane}} is the subtype of the sagittal plane that divides the body into {{c2::",
+     "verdict": "keep",
+     "why": "the plate is the anatomic-planes diagram and labels the sagittal plane the card subdivides"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-10",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_10.jpg",
+   "caption": "FIGURE 6-10 The major bones in the wrist and hand include the carpals, the metacarpals, and the phalanges.",
+   "publisher_description": "There are five fingers or phalanges labeled thumb, index, long, ring, and small. The bones in the palm are labeled metacarpals. They meet the carpals of the wrist at the carpometacarpal joint. The radius and ulna are also shown.",
+   "depicts": "A dorsal view of the bones of the hand and wrist, with the thumb, index, long, ring and small fingers named, brackets marking the phalanges, metacarpals and carpals, and the carpometacarpal joint, radius and ulna labelled.",
+   "cards": [
+    {
+     "card_index": 18,
+     "tier": "teaches",
+     "coverage": 0.75,
+     "text": "The {{c2::carpals}} are the {{c1::eight}} bones that form the wrist, and the {{c2::metacarpals}} are the {{c1:",
+     "verdict": "keep",
+     "why": "the carpals and metacarpals the card names are both bracketed and labelled"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-11",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_11.jpg",
+   "caption": "FIGURE 6-11 The pelvis is a closed, bony ring that consists of the sacrum, ilium, ischium, pubis, acetabulum, and pubic symphysis.",
+   "publisher_description": "The wing-shaped ilium with the superior crest labeled ilium crest; the triangular sacrum at the base of the vertebral column; the concave of the acetabulum; the ischium and ischial tuberosity meeting at the pubis and pubic symphysis; the inferior vena cava and the descending aorta continuing as the femoral artery and the femoral vein are shown.",
+   "depicts": "An anterior view of the bony pelvic ring labelling the iliac crest, ilium, sacrum, pubis, pubic symphysis, ischium, ischial tuberosity and acetabulum, with the coccyx drawn below the sacrum and the inferior vena cava, descending aorta, femoral artery and femoral vein crossing it.",
+   "cards": [
+    {
+     "card_index": 19,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The pelvic girdle consists of two large hip bones called the {{c1::coxae}}, together with the {{c1::sacrum}} a",
+     "verdict": "keep",
+     "why": "the sacrum, coccyx and the two hip bones of the pelvic girdle are all shown"
+    },
+    {
+     "card_index": 20,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Each coxa (hip bone) is formed by the fusion of three bones: {{c1::the ilium}}, {{c1::the ischium}}, and {{c1:",
+     "verdict": "keep",
+     "why": "ilium, ischium and pubis are each labelled on the coxa"
+    },
+    {
+     "card_index": 21,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "The {{c1::pubic symphysis}} is the {{c2::cartilaginous joint}} that joins the left and right pubic bones and l",
+     "verdict": "keep",
+     "why": "the pubic symphysis is labelled between the two pubic bones"
+    },
+    {
+     "card_index": 22,
+     "tier": "context",
+     "coverage": 0.286,
+     "text": "The {{c1::femoral head}} is the {{c2::rounded superior end of the femur}}, and it seats into the acetabulum of",
+     "verdict": "keep",
+     "why": "the acetabulum the femoral head seats into is labelled, showing the socket half of the joint"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-12",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_12.jpg",
+   "caption": "FIGURE 6-12 The major parts of the lower extremities include the femur, femoral head, greater and lesser trochanters, patella, tibia, and fibula.",
+   "publisher_description": "The femoral head is joined with the pelvis at the hip. The femur in the thigh with the greater trochanter and lesser trochanter near the femoral head; patella or kneecap at the knee; fibula and tibia or shinbone of the lower leg; tarsals at the ankle; the foot with metatarsals and phalanges are shown.",
+   "depicts": "An anterior view of the whole lower limb from pelvis to toes, labelling the femoral head, greater trochanter, lesser trochanter, femur, patella, fibula, tibia, tarsals, metatarsals and phalanges, with brackets marking the hip, thigh, knee, leg, ankle and foot.",
+   "cards": [
+    {
+     "card_index": 23,
+     "tier": "teaches",
+     "coverage": 0.75,
+     "text": "At the proximal femur, the {{c2::greater}} trochanter projects from the {{c1::lateral::lateral or medial}} sid",
+     "verdict": "keep",
+     "why": "the greater and lesser trochanters are labelled on the proximal femur"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-13",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_13.jpg",
+   "caption": "FIGURE 6-13 A. The surface landmarks of the foot, including the talus, the calcaneus, and the phalanges. B. Soft tissue of the ankle.",
+   "publisher_description": "A: Phalanges in the toes; metatarsal in the sole; calcaneus at the heel; talus, navicular, and medial cuneiform between metatarsal and calcaneus; medial malleolus at the end of tibia; and the Achilles tendon extending from calcaneus are shown. B: There are several cartilages and muscles surrounding the foot.",
+   "depicts": "A. a lateral view of the foot skeleton labelling the Achilles tendon, medial malleolus, talus, navicular, medial cuneiform, calcaneus, a metatarsal and the phalanges; B. the same foot showing the ligaments, tendons and muscles of the ankle.",
+   "cards": [
+    {
+     "card_index": 24,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "The foot's {{c1::seven}} tarsals include the large {{c2::calcaneus}}, or heel bone, and the {{c2::talus}}, whi",
+     "verdict": "keep",
+     "why": "the calcaneus and talus are labelled among the tarsal bones"
+    },
+    {
+     "card_index": 25,
+     "tier": "teaches",
+     "coverage": 0.4,
+     "text": "On the foot, the {{c1::plantar}} surface is the {{c2::bottom, or sole}}, while the {{c1::dorsum (dorsal surfac",
+     "verdict": "keep",
+     "why": "a lateral view of the foot showing the sole and the top surfaces the card names"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-18",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_18.jpg",
+   "caption": "FIGURE 6-18 The pleura lining the chest wall and covering the lungs is an essential part of the breathing mechanism. The pleural space is not an actual space until blood or air leaks into it, causing the pleural surfaces to separate.",
+   "publisher_description": null,
+   "depicts": "An anterior view of both lungs in the chest, labelling the upper, middle and lower lobes, the visceral pleura, the parietal pleura, the pleural space between them, the mediastinum with the trachea, and the diaphragm.",
+   "cards": [
+    {
+     "card_index": 35,
+     "tier": "context",
+     "coverage": 0.143,
+     "text": "The pleural space, between the parietal and visceral pleura, is a {{c1::potential space}} \u2014 meaning {{c2::it d",
+     "verdict": "keep",
+     "why": "the pleural space is labelled between the parietal and visceral pleura"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-2",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_2.jpg",
+   "caption": "FIGURE 6-2 The 206 bones of the skeleton give the body its form, protect the vital organs, and allow the body to move. The axial skeleton runs in a straight line from the skull to the base of the spine (ie, the coccyx, or tailbone). The appendicular skeleton is made up of the arms and legs and their points of attachment to the axial skeleton (ie, the shoulder and",
+   "publisher_description": null,
+   "depicts": "A full anterior skeleton inside a body outline, with brackets marking the shoulder girdle, upper extremity and lower extremity and a label pointing to the pelvis; the skull, thoracic cage and vertebral column are drawn, with the sternum, costal cartilages and intervertebral discs tinted blue.",
+   "cards": [
+    {
+     "card_index": 5,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "The {{c1::appendicular}} skeleton is the arms and legs plus their points of attachment to the axial skeleton, ",
+     "verdict": "keep",
+     "why": "the upper extremity, lower extremity, shoulder girdle and pelvis are the labelled brackets"
+    },
+    {
+     "card_index": 4,
+     "tier": "teaches",
+     "coverage": 0.375,
+     "text": "The {{c1::axial}} skeleton comprises the {{c2::skull}}, {{c2::facial bones}}, {{c2::thoracic cage}}, and {{c2:",
+     "verdict": "keep",
+     "why": "the whole skeleton is drawn, including the skull, thoracic cage and vertebral column the card lists"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-21",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_21.jpg",
+   "caption": "FIGURE 6-21 The components of exhaled air include oxygen, carbon dioxide, and nitrogen.",
+   "publisher_description": null,
+   "depicts": "A cutaway of the head, airway and lungs beside a pie chart of exhaled air showing nitrogen 79 percent, oxygen 16 percent and carbon dioxide 3 to 5 percent.",
+   "cards": [
+    {
+     "card_index": 37,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "Breathing is controlled by the {{c1::brainstem}}. A buildup of {{c2::carbon dioxide}} pushes the pH of the cer",
+     "verdict": "drop",
+     "why": "a pie chart of exhaled gases, not the brainstem, medulla or phrenic nerve the card is about"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-22",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_22.jpg",
+   "caption": "FIGURE 6-22 The respiratory system of a child is proportionally smaller and less rigid than that of an adult.",
+   "publisher_description": "The pharynx of the child is smaller and less deeply curved. The tongue occupies more space in a child\u2019s mouth than in an adult\u2019s mouth. The larynx and lungs are also smaller in the child.",
+   "depicts": "Two supine figures compared side by side, a child above and an adult below, showing that the child's tongue fills proportionally more of the mouth, with the nasal cavity, trachea and lungs drawn and arrows tracing airflow.",
+   "cards": [
+    {
+     "card_index": 39,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "Compared with the carbon dioxide sensors in the brainstem, the hypoxic drive is much {{c1::less sensitive and ",
+     "verdict": "drop",
+     "why": "a child-versus-adult airway comparison, nothing about hypoxic drive or chemoreceptors"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-29",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_29.jpg",
+   "caption": "FIGURE 6-29 The central and peripheral pulses can be felt where the large arteries are near the skin.",
+   "publisher_description": null,
+   "depicts": "A full-body figure with the heart and major arteries drawn in and white starbursts marking the pulse points, labelled superficial temporal, external maxillary, carotid, brachial, radial, ulnar, femoral, posterior tibial and dorsalis pedis.",
+   "cards": [
+    {
+     "card_index": 58,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "The {{c1::tunica media}} is the {{c2::middle}} layer of the artery, formed from {{c2::smooth muscle}} that can",
+     "verdict": "drop",
+     "why": "a map of pulse points, not the layered wall of an artery the card describes"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-3",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_3.jpg",
+   "caption": "FIGURE 6-3 A joint consists of bone ends, a fibrous joint capsule, synovial membranes, and ligaments. The degree to which a joint can move is determined by how the ligaments hold the bone ends and by the configuration of the bones themselves.",
+   "publisher_description": null,
+   "depicts": "Two sagittal cutaways of the knee: the left labels the femur, tibia, patella, joint capsule, synovium, articular cartilage, meniscus and joint space; the right labels the quadriceps muscle, quadriceps tendon, patellar tendon, a ligament and the joint capsule.",
+   "cards": [
+    {
+     "card_index": 6,
+     "tier": "teaches",
+     "coverage": 0.6,
+     "text": "A {{c1::joint}} is {{c2::where two bones meet}}, and its name usually combines {{c3::the names of the two adjo",
+     "verdict": "keep",
+     "why": "the knee is shown as the femur and tibia meeting, both labelled"
+    },
+    {
+     "card_index": 9,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "The bone ends of a joint are held together by a fibrous sac called the {{c1::joint capsule}}, which is compose",
+     "verdict": "keep",
+     "why": "the joint capsule is labelled in both panels"
+    },
+    {
+     "card_index": 7,
+     "tier": "teaches",
+     "coverage": 0.429,
+     "text": "{{c1::Ligaments}} connect {{c2::bone to bone}}, {{c1::tendons}} connect {{c2::muscle to bone}}, and {{c1::cart",
+     "verdict": "keep",
+     "why": "ligament, tendons and articular cartilage are all labelled on this plate"
+    },
+    {
+     "card_index": 11,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "The joint capsule's inner lining, the {{c1::synovial membrane}}, makes {{c1::synovial fluid}}, a thick, oil-li",
+     "verdict": "keep",
+     "why": "the synovium lining the joint capsule is labelled"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-30",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_30.jpg",
+   "caption": "FIGURE 6-30 Blood enters an organ or tissue through the arteries and leaves through the veins. This process, called perfusion, provides adequate blood flow to the tissue to meet the cells\u2019 needs.",
+   "publisher_description": null,
+   "depicts": "A vascular bed threading through an organ or tissue, labelling the artery branching into arterioles, then the capillaries surrounding the tissue cells, then the venules joining into a vein.",
+   "cards": [
+    {
+     "card_index": 74,
+     "tier": "teaches",
+     "coverage": 0.714,
+     "text": "{{c1::Perfusion}} is {{c2::blood circulating through an organ or tissue}}, and it is adequate when the cells' ",
+     "verdict": "keep",
+     "why": "shows blood flowing artery to capillaries to vein through an organ or tissue"
+    },
+    {
+     "card_index": 76,
+     "tier": "context",
+     "coverage": 0.143,
+     "text": "{{c1::Shock}} is the name for {{c2::hypoperfusion (inadequate perfusion) affecting the entire body}}.",
+     "verdict": "keep",
+     "why": "depicts the tissue perfusion whose failure the card defines as shock"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-31",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_31.jpg",
+   "caption": "FIGURE 6-31 Significant blood loss results in reduced stroke volume (SV). To compensate, the body increases heart rate (HR) and systemic vascular resistance to maintain mean arterial pressure (MAP).",
+   "publisher_description": "M A P equals C O times P V R. Mean or average B P equals Cardiac output times Peripheral vascular resistance. Cardiac output equals H R times S V, that is, 80 per minute times 70 milliliters per beat which is 5600 milliliters per minute or 5.6 liters per minute. Mean or average B P equals H R times S V times Peripheral vascular resistance. A massive hemorrhage reduces stroke volume. In order to maintain B P, Vascular resistance and H R must increase.",
+   "depicts": "A flow diagram of the blood-pressure equation: MAP = CO x PVR (mean/average BP = cardiac output x peripheral vascular resistance), with CO = HR x SV worked as 80/min x 70 mL/beat = 5,600 mL/min or 5.6 L/min, and arrows showing that when massive hemorrhage reduces stroke volume, heart rate and vascular resistance must increase to maintain BP.",
+   "cards": [
+    {
+     "card_index": 78,
+     "tier": "teaches",
+     "coverage": 0.556,
+     "text": "{{c1::Mean arterial pressure (MAP)}} is {{c2::the average arterial pressure during systole and diastole}}, and",
+     "verdict": "keep",
+     "why": "the plate is built around MAP = CO x PVR"
+    },
+    {
+     "card_index": 79,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "The equation for mean arterial pressure is {{c1::MAP = (HR \u00d7 SV) \u00d7 SVR}}, which simplifies to {{c2::MAP = CO \u00d7",
+     "verdict": "keep",
+     "why": "the equation on the card is exactly the equation diagrammed"
+    },
+    {
+     "card_index": 82,
+     "tier": "teaches",
+     "coverage": 0.389,
+     "text": "Give the site, the effect of stimulation, and the result for each  sympathetic  (adrenergic) receptor:   Alpha",
+     "verdict": "drop",
+     "why": "an equation flowchart with no adrenergic receptors, sites or effects on it"
+    },
+    {
+     "card_index": 77,
+     "tier": "context",
+     "coverage": 1.0,
+     "text": "As blood pressure falls after blood loss, the pulse {{c1::increases::increases or decreases}} in order to hold",
+     "verdict": "keep",
+     "why": "shows hemorrhage lowering stroke volume with HR forced up, and the 5.6 L/min figure"
+    },
+    {
+     "card_index": 85,
+     "tier": "context",
+     "coverage": 0.286,
+     "text": "{{c1::Baroreceptors::sensor type}} are the sensors that keep the brain informed about {{c2::blood pressure}}, ",
+     "verdict": "drop",
+     "why": "no baroreceptors, aortic arch or carotids appear; only the BP algebra"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-32",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_32.jpg",
+   "caption": "FIGURE 6-32 Fluid movement from capillaries to interstitial space and back.",
+   "publisher_description": "A capillary with venous side and arterial side is located below cells with Interstitial space between them. There are plasma proteins in the capillary. In the arterial side of the capillary, hydrostatic pressure is greater than plasma oncotic pressure which equals Fluid leaves capillary. In the venous side of the capillary, Hydrostatic pressure is lesser than plasma oncotic pressure, which equals Fluid enters capillary.",
+   "depicts": "A magnified capillary running beneath tissue cells, with the arterial side annotated 'hydrostatic pressure > plasma oncotic pressure = fluid leaves capillary' and the venous side 'hydrostatic pressure < plasma oncotic pressure = fluid enters capillary', plus plasma proteins, red blood cells, the interstitial space and arrows for fluid movement.",
+   "cards": [
+    {
+     "card_index": 80,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "Inside a capillary, {{c1::hydrostatic}} pressure {{c3::pushes fluid out of}} the capillary, while {{c1::oncoti",
+     "verdict": "keep",
+     "why": "hydrostatic versus oncotic pressure and the plasma proteins are annotated on both sides of the capillary"
+    },
+    {
+     "card_index": 81,
+     "tier": "context",
+     "coverage": 0.167,
+     "text": "Match each function of the blood to the component that carries it out:  Fights infection \u2192 {{c1::white blood c",
+     "verdict": "drop",
+     "why": "a capillary fluid-shift diagram, not the blood components and their jobs"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-33",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_33.jpg",
+   "caption": "FIGURE 6-33 The basic configuration of the nervous system.",
+   "publisher_description": "At the top of the diagram is central nervous system or C N S with brain and spinal cord. Then comes the peripheral nervous system with nerves that connect all parts of the body to the brain and motor division, which is made up of motor fibers that conduct nerve impulses from C N S to muscles and glands. The motor division is divided into two, autonomic nervous system that conducts nerve impulses from C N S to organs and glands and the somatic nervous system that conducts nerve impulses from C N S to muscles; voluntary control. Then comes the sympathetic division that activates body during emergency situations and the parasympathetic division that controls nonemergency functions. The sensory division conducts sensory information from sense organs and other internal organs to C N S through the peripheral nervous system, which has nerves that connect all parts of the body to the brain, that is, the central nervous system or C N S with brain and spinal cord.",
+   "depicts": "A flowchart of nervous-system organization: the central nervous system (brain and spinal cord) processing information from the body and commanding it to action, above the peripheral nervous system, which branches into the somatic nervous system controlling voluntary muscles and the autonomic nervous system splitting into parasympathetic (feed or breed) and sympathetic (fight or flight); no brain regions or lobes are labelled.",
+   "cards": [
+    {
+     "card_index": 87,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The peripheral nervous system splits into the {{c1::somatic}} nervous system, which runs {{c2::voluntary}} act",
+     "verdict": "keep",
+     "why": "the somatic and autonomic branches of the PNS are the labelled split"
+    },
+    {
+     "card_index": 86,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "The nervous system divides into the {{c1::central nervous system (CNS)}}, which is the {{c2::brain and spinal ",
+     "verdict": "keep",
+     "why": "the CNS and PNS boxes with their contents are the whole chart"
+    },
+    {
+     "card_index": 111,
+     "tier": "teaches",
+     "coverage": 0.429,
+     "text": "A peripheral nerve runs from the brain through the {{c1::spinal cord}} to a body part, so it both {{c2::receiv",
+     "verdict": "keep",
+     "why": "shows the two-way loop, information from the body up and commands back down through peripheral nerves"
+    },
+    {
+     "card_index": 93,
+     "tier": "context",
+     "coverage": 0.3,
+     "text": "The {{c2::parietal lobe::cerebral lobe}} senses {{c1::touch and texture}}, recognizes {{c1::spatial relationsh",
+     "verdict": "drop",
+     "why": "an organizational flowchart with no cerebral lobes on it"
+    },
+    {
+     "card_index": 88,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "The {{c1::cerebrum::brain subdivision}} is the largest part of the brain, about {{c2::three-fourths}} of it, a",
+     "verdict": "drop",
+     "why": "the brain appears only as a small icon; no cerebrum or its functions are shown"
+    },
+    {
+     "card_index": 92,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "The  frontal lobe  governs {{c1::personality}}, {{c1::planning}}, {{c1::problem solving}}, {{c1::concentration",
+     "verdict": "drop",
+     "why": "no frontal lobe or prefrontal area appears on this systems chart"
+    },
+    {
+     "card_index": 89,
+     "tier": "context",
+     "coverage": 0.143,
+     "text": "The surface of the cerebrum is the {{c1::cortex}}, built from {{c2::neuron (nerve cell) bodies}} whose gray-br",
+     "verdict": "drop",
+     "why": "no cortex or gray matter is depicted"
+    },
+    {
+     "card_index": 101,
+     "tier": "context",
+     "coverage": 0.062,
+     "text": "The  brainstem  has three parts:  {{c2::Midbrain}} controls {{c1::level of consciousness, muscle tone, and pos",
+     "verdict": "drop",
+     "why": "the brainstem and its midbrain, pons and medulla are not on this chart"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-34",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_34.jpg",
+   "caption": "FIGURE 6-34 The brain lies well protected within the skull. Its major subdivisions are the cerebrum, the cerebellum, and the brainstem.",
+   "publisher_description": "The brain is surrounded by the skull. The cerebrum, the cerebellum at the back of the head, and the brainstem between the cerebral hemispheres and spinal cord are shown.",
+   "depicts": "A midsagittal cutaway of the head showing the brain inside the skull, with only three labels: cerebrum, cerebellum and brainstem.",
+   "cards": [
+    {
+     "card_index": 100,
+     "tier": "teaches",
+     "coverage": 0.429,
+     "text": "The {{c2::brainstem::brain subdivision}} is the {{c1::relay center}} connecting the cerebrum and cerebellum to",
+     "verdict": "keep",
+     "why": "the brainstem is labelled between the cerebrum, cerebellum and spinal cord"
+    },
+    {
+     "card_index": 110,
+     "tier": "teaches",
+     "coverage": 0.4,
+     "text": "{{c1::Cranial nerves::PNS nerve type}} are the special peripheral nerves that run from the {{c2::brainstem}} t",
+     "verdict": "keep",
+     "why": "shows the labelled brainstem inside the head, the origin and region the card names"
+    },
+    {
+     "card_index": 90,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "The cerebrum divides into right and left {{c1::hemispheres}}, which divide further into {{c2::lobes}}, and in ",
+     "verdict": "keep",
+     "why": "the cerebrum, the structure being divided, is labelled"
+    },
+    {
+     "card_index": 99,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "The {{c2::cerebellum::brain subdivision}}, which lies beneath the cerebrum, controls {{c1::balance}}, {{c1::mu",
+     "verdict": "keep",
+     "why": "the cerebellum is labelled beneath the cerebrum"
+    },
+    {
+     "card_index": 102,
+     "tier": "context",
+     "coverage": 0.125,
+     "text": "The {{c1::reticular activating system (RAS)}}, a network of neurons inside the brainstem, regulates consciousn",
+     "verdict": "keep",
+     "why": "the brainstem that houses the RAS is labelled"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-35",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_35.jpg",
+   "caption": "FIGURE 6-35 The spinal cord is a continuation of the brainstem. It exits the skull at the foramen magnum and extends down to the level of the second lumbar vertebra.",
+   "publisher_description": "The brain has the cerebrum, cerebellum, and brain stem. The spinal cord extends from the brain stem through foramen magnum at the base of the skull and down the back. There are several spinal nerves on the spinal cord.",
+   "depicts": "A posterior view of a man's head and back with the brain and spinal cord drawn in, labelling the cerebrum, cerebellum, brain stem, foramen magnum, spinal cord and the spinal nerves branching off it down to the sacrum.",
+   "cards": [
+    {
+     "card_index": 104,
+     "tier": "teaches",
+     "coverage": 0.636,
+     "text": "The {{c1::spinal cord}}, an extension of the {{c2::brainstem}}, handles {{c4::reflexes}} and {{c4::relays mess",
+     "verdict": "keep",
+     "why": "the spinal cord is traced from the brain stem down past the foramen magnum to the lumbar level"
+    },
+    {
+     "card_index": 106,
+     "tier": "teaches",
+     "coverage": 0.4,
+     "text": "{{c1::Sensory nerves::nerve type}} sit in the eyes, ears, skin, muscles, joints, lungs, and other organs, and ",
+     "verdict": "keep",
+     "why": "the spinal nerves running between the body and the cord are labelled"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-36",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_36.jpg",
+   "caption": "FIGURE 6-36 The layers of the skin can be divided between the epidermis and the dermis. Below the skin is a layer of subcutaneous tissue.",
+   "publisher_description": "The epidermis: The top most layer has Hair and pore, and below that a germinal layer of epidermis. The Dermis: The hair follicle with the sebaceous gland and arrector pili muscle attached to it; sweat gland; blood vessel, and sensory nerves lie in the dermis. Subcutaneous tissue: Subcutaneous fat below the dermis and layers of fascia and muscles lie in the subcutaneous tissue.",
+   "depicts": "A block cutaway of skin labelling the epidermis, dermis and subcutaneous tissue, and within them the hair, pore, germinal layer of epidermis, sebaceous gland, arrector pili muscle, sensory nerve, sweat gland, hair follicle, blood vessel, subcutaneous fat, fascia and muscle.",
+   "cards": [
+    {
+     "card_index": 118,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "Wrinkles form with age because the {{c1::loss of subcutaneous tissue}} leaves the skin with less support from ",
+     "verdict": "keep",
+     "why": "the subcutaneous tissue and fat under the skin are labelled"
+    },
+    {
+     "card_index": 116,
+     "tier": "teaches",
+     "coverage": 0.455,
+     "text": "Directly beneath the epidermis lies the {{c1::dermis}}, home to five structures:  {{c2::sweat glands}}  {{c2::",
+     "verdict": "keep",
+     "why": "all five dermal structures the card lists are labelled in the dermis"
+    },
+    {
+     "card_index": 112,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "The innermost layer of the epidermis, the {{c1::germinal layer}}, has two jobs: continuously producing the {{c",
+     "verdict": "keep",
+     "why": "the germinal layer of the epidermis is labelled"
+    },
+    {
+     "card_index": 117,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "{{c1::Sebaceous glands}} lie next to the hair follicles and secrete {{c1::sebum}}, an oily substance that trav",
+     "verdict": "keep",
+     "why": "the sebaceous gland is labelled beside the hair follicle"
+    },
+    {
+     "card_index": 107,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "Every skeletal muscle has its own {{c1::motor nerve::nerve type}}, which carries information {{c2::from the br",
+     "verdict": "drop",
+     "why": "a skin cross-section whose only nerve is labelled sensory, not a motor nerve to skeletal muscle"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-37",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_37.jpg",
+   "caption": "FIGURE 6-37 The boundaries of the abdomen are the anterior and posterior abdominal cavity walls, the diaphragm, and an imaginary plane from the pubic symphysis to the sacrum. The region below the plane is called the pelvic cavity. A. Anterior view. B. Lateral view.",
+   "publisher_description": "A: Anterior view. Chest cavity from the base of neck to the diaphragm. The abdominal cavity surrounded by the abdominal wall extends from the diaphragm to the plane from sacrum to pubic symphysis. The horizontal plane is drawn through the sacrum at the base of the spine and pubis at the anterior of the pelvic bone. B: Chest cavity from the base of the neck to the diaphragm. The abdominal cavity surrounded by the abdominal wall extends from the diaphragm to the plane from sacrum to pubic symphysis. The horizontal plane is drawn through the sacrum at the base of the spine and pubis symphysis in a slightly slanted plane. The pelvic cavity lies beneath the plane.",
+   "depicts": "A. an anterior view of the torso and B. a lateral view, each shading the chest cavity and the abdominal cavity and marking the diaphragm, the abdominal wall, the sacrum and pubis, and the tilted plane from sacrum to pubic symphysis, with the pelvic cavity labelled below that plane in B.",
+   "cards": [
+    {
+     "card_index": 131,
+     "tier": "teaches",
+     "coverage": 0.6,
+     "text": "The  urinary bladder  lies just behind the {{c1::pubic symphysis::bony landmark}} in the middle of the abdomen",
+     "verdict": "keep",
+     "why": "the pubic symphysis and the pelvic cavity, the two landmarks the card places the bladder by, are labelled"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-38",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_38.jpg",
+   "caption": "FIGURE 6-38 A. In the abdomen, quadrants are the easiest system for identifying areas. Major bony landmarks are also shown. B. Several of the organs in the abdomen lie in more than one quadrant.",
+   "publisher_description": null,
+   "depicts": "A. an anterior torso divided into right and left upper and lower quadrants with the costal arch, umbilicus, iliac crest, anterior superior iliac spine, inguinal ligament and pubic symphysis labelled; B. the same torso with the quadrant lines drawn over the organs - esophagus, diaphragm, stomach, spleen, liver, gallbladder, bile duct, small intestine, appendix, large intestine and rectum.",
+   "cards": [
+    {
+     "card_index": 124,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The  spleen  lies in the lateral and posterior part of the left upper quadrant, under the diaphragm and immedi",
+     "verdict": "keep",
+     "why": "the spleen and stomach are drawn against the labelled quadrant lines"
+    },
+    {
+     "card_index": 130,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The  pancreas  lies just behind the abdominal cavity, on the posterior abdominal wall, in {{c1::both upper qua",
+     "verdict": "keep",
+     "why": "the upper quadrants the card asks for are the labelled framework of the plate"
+    },
+    {
+     "card_index": 129,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "Parts of both intestines lie in  all four  abdominal quadrants: the  small  intestine occupies the central abd",
+     "verdict": "keep",
+     "why": "small intestine, large intestine and umbilicus are labelled across the four quadrants"
+    },
+    {
+     "card_index": 134,
+     "tier": "context",
+     "coverage": 0.143,
+     "text": "The {{c1::costovertebral angle::landmark}} is the posterior junction where the {{c2::lower rib cage meets the ",
+     "verdict": "drop",
+     "why": "an anterior view showing the costal arch; the costovertebral angle is posterior and not on it"
+    },
+    {
+     "card_index": 136,
+     "tier": "context",
+     "coverage": 0.143,
+     "text": "In the roof of the mouth, the  hard palate  is a {{c1::bony plate}} lying {{c1::anteriorly}}, whereas the  sof",
+     "verdict": "drop",
+     "why": "an abdominal plate on a card about the hard and soft palate in the mouth"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-39",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_39.jpg",
+   "caption": "FIGURE 6-39 The major organs of the retroperitoneal space lie behind the abdominal cavity, above the level of the umbilicus, and extend from the 11th rib to the 3rd lumbar vertebra. The bladder, inferior vena cava, and aorta also lie in this space.",
+   "publisher_description": "Both the kidneys with the adrenal gland at their apex, the pancreas and the duodenum between the kidneys; The ureters connecting the kidneys to the urinary bladder; Inferior vena cava and aorta running down the middle of the abdomen are also shown.",
+   "depicts": "An anterior torso showing the retroperitoneal organs - both kidneys with an adrenal gland on each, the pancreas and duodenum between them, the ureters running down to the urinary bladder, and the aorta and inferior vena cava.",
+   "cards": [
+    {
+     "card_index": 132,
+     "tier": "teaches",
+     "coverage": 0.9,
+     "text": "The {{c1::kidneys and pancreas}} are called {{c2::retroperitoneal::classification}} organs because they lie {{",
+     "verdict": "keep",
+     "why": "the kidneys and pancreas are labelled in the retroperitoneal space"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-40",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_40.jpg",
+   "caption": "FIGURE 6-40 The endocrine system controls the production and release of hormones in the body.",
+   "publisher_description": null,
+   "depicts": "A male and a female figure side by side with the endocrine glands drawn in place and labelled: hypothalamus, pineal gland, pituitary, thyroid, parathyroids, thymus, adrenal glands, pancreas, ovaries and testes.",
+   "cards": [
+    {
+     "card_index": 174,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "The {{c1::pituitary gland}}, at the {{c2::base of the skull}}, is the endocrine gland whose target is {{c3::th",
+     "verdict": "keep",
+     "why": "the pituitary is labelled at the base of the brain"
+    },
+    {
+     "card_index": 173,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "The {{c1::parathyroid glands}} sit in the neck behind and beside the thyroid, regulate {{c2::serum calcium}}, ",
+     "verdict": "keep",
+     "why": "the parathyroids are labelled on the thyroid in the neck"
+    },
+    {
+     "card_index": 171,
+     "tier": "context",
+     "coverage": 0.111,
+     "text": "The {{c1::adrenal glands}}, which sit {{c2::above the kidneys}}, drive the {{c3::stress (fight-or-flight) resp",
+     "verdict": "keep",
+     "why": "the adrenal glands are labelled sitting on top of the kidneys"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-42",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_42.jpg",
+   "caption": "FIGURE 6-42 The urinary system lies in the retroperitoneal (behind the peritoneum) space behind the organs of the digestive system. The urinary system in men and women includes the kidneys, ureters, bladder, and urethra. This diagram shows the male urinary system.",
+   "publisher_description": "The bean-shaped kidneys are connected to the bladder with long tubes of the ureter. The ureters open into the bladder at the Ureter opening. The Prostate gland lies beneath the bladder with the Urethra passing through it. The Urethra continues down through the penis and ends at the External urethral opening at the tip of the penis.",
+   "depicts": "The male urinary tract isolated from the body: both kidneys, the ureters descending to a cutaway bladder showing the ureter openings, and the prostate gland, urethra, penis and external urethral opening.",
+   "cards": [
+    {
+     "card_index": 177,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "The kidneys lie on the {{c1::posterior::anterior or posterior}} muscular wall of the abdomen, in the {{c2::ret",
+     "verdict": "keep",
+     "why": "the kidneys are the subject of the plate"
+    },
+    {
+     "card_index": 179,
+     "tier": "context",
+     "coverage": 0.125,
+     "text": "The {{c1::renal pelvis::kidney structure}} is the {{c2::cone-shaped collecting area inside the kidney}}, where",
+     "verdict": "keep",
+     "why": "shows the collecting path out of the kidney through the ureter into the bladder"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-43",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_43.jpg",
+   "caption": "FIGURE 6-43 The male reproductive system consists of the testicles, epididymis, vasa deferentia, prostate gland, seminal vesicles, and penis.",
+   "publisher_description": "Front view: The ureters are connected to the pear-shaped urinary bladder. The testis lies posterior to the bladder on either side. The testes are connected by the Epididymis to the tubular Vasa deferentia, which extend to the urinary bladder. Prostate gland lies beneath the bladder. The urethra passes through the Prostate gland and the penis. The enlarged tip of the penis is labeled Glans penis. Side view: The pubic bone lies between the Urinary bladder and the front abdominal wall. Prostate gland lies between the bladder and the penis. The sac of the scrotum is posterior to the penis with the testis within. Epididymis at the top of the testis connects it to the tube of the Vasa deferentia, which extends to the bladder. Urethra runs down the middle of the penis and prostate gland.",
+   "depicts": "The male reproductive organs in front view and side view, labelling the ureter, urinary bladder, vasa deferentia, prostate gland, urethra, epididymis, testis, penis, glans penis, scrotum and pubic bone.",
+   "cards": [
+    {
+     "card_index": 181,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The  male reproductive system  consists of six organs:  {{c1::testicles}}  {{c1::epididymis}}  {{c1::vasa defe",
+     "verdict": "keep",
+     "why": "the male reproductive organs the card lists are labelled in both views"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-44",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_44.jpg",
+   "caption": "FIGURE 6-44 The female reproductive system consists of the ovaries, fallopian tubes, uterus, cervix, and vagina.",
+   "publisher_description": "Front view: The Uterus is connected to the ovary on either side by the uterine, fallopian tube. Cervix is at the mouth of the uterus and continues down as the vagina. Side view: Uterus with the uterine, fallopian tube running above to the ovary; cervix at the mouth of the uterus facing the posterior abdominal wall; and vagina are shown.",
+   "depicts": "The female reproductive organs in front view and side view, labelling the ovary, uterine (fallopian) tube, uterus, cervix and vagina.",
+   "cards": [
+    {
+     "card_index": 182,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The  female reproductive system  consists of five organs:  {{c1::ovaries}}  {{c1::fallopian tubes}}  {{c1::ute",
+     "verdict": "keep",
+     "why": "all five female reproductive organs the card lists are labelled"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-5",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_5.jpg",
+   "caption": "FIGURE 6-5 The elbow joints are hinge joints, which allow motion in only one plane (flexion and extension).",
+   "publisher_description": null,
+   "depicts": "A flexed elbow showing the humerus meeting the radius and ulna, beside two blue mechanical models of a hinge joint with an arrow showing motion in a single plane.",
+   "cards": [
+    {
+     "card_index": 8,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "A {{c1::symphysis}} is a joint at which {{c2::only slight motion}} is possible.",
+     "verdict": "drop",
+     "why": "a hinge joint moving freely through one plane, the opposite of a symphysis that barely moves"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-6",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_6.jpg",
+   "caption": "FIGURE 6-6 The skull. A. Anterior view. B. Inferior view.",
+   "publisher_description": "A: Anterior view of skull. Parietal bone at the roof of the skull, the frontal bone at the forehead, the temporal bone behind the ear, nasal bone, Zygomatic bone at the cheekbones, maxillae at the upper jaw, and the mandible at the lower jaw are labeled. B: Inferior view of skull. Upper jaw, occipital bone at the base of the skull with a circular hole labeled Foramen magnum are shown.",
+   "depicts": "A. an anterior view of the skull labelling the parietal, frontal, temporal, zygomatic and nasal bones, the maxillae and the mandible; B. an inferior view labelling the maxilla, the foramen magnum and the occipital bone, with each bone tinted a different color.",
+   "cards": [
+    {
+     "card_index": 12,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "The cranium is formed by the {{c1::frontal}}, {{c1::temporal}}, {{c1::parietal}}, {{c1::occipital}}, {{c1::eth",
+     "verdict": "keep",
+     "why": "frontal, temporal, parietal and occipital bones are labelled on the cranium"
+    },
+    {
+     "card_index": 13,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "The {{c2::14}} facial bones include the upper jawbones, or {{c1::maxillae}}, the lower jawbone, or {{c1::mandi",
+     "verdict": "keep",
+     "why": "the maxillae, mandible and zygomatic bone are labelled"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 6-8",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_6_8.jpg",
+   "caption": "FIGURE 6-8 The thorax.",
+   "publisher_description": null,
+   "depicts": "An anterior view of the thorax with the ribs numbered 1 through 12, labelling the sternal notch and the manubrium, body and xiphoid process of the sternum, plus the anterior ribs and the costal arch.",
+   "cards": [
+    {
+     "card_index": 17,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "The sternum (breastbone) has three main parts, from top to bottom: the {{c1::manubrium}}, the {{c1::body}}, an",
+     "verdict": "keep",
+     "why": "the manubrium, body and xiphoid process are bracketed as the sternum"
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 6-10",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/TABLE_6_10.jpg",
+   "caption": "TABLE 6-10 Structures of the Nervous System and General Functions",
+   "publisher_description": null,
+   "depicts": "A four-column table (System, Major Structure, Subdivision, General Function) listing the occipital, parietal, temporal and frontal lobes, the prefrontal area, limbic system, thalamus and hypothalamus, then the midbrain, pons and medulla oblongata of the brainstem, the spinal cord, and the cranial and peripheral nerves, each with its general function.",
+   "cards": [
+    {
+     "card_index": 96,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "The {{c2::limbic system::brain region}} is the seat of {{c1::basic emotions}} and of {{c1::basic reflexes}} su",
+     "verdict": "keep",
+     "why": "the table has the limbic system row with basic emotions and reflexes"
+    },
+    {
+     "card_index": 98,
+     "tier": "context",
+     "coverage": 0.167,
+     "text": "The {{c2::hypothalamus::diencephalon division}} runs {{c1::emotions}} and {{c1::temperature control}}, and is ",
+     "verdict": "keep",
+     "why": "the table has the diencephalon (hypothalamus) row the card is drawn from"
+    }
+   ]
+  }
+ ]
+}

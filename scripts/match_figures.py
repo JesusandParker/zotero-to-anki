@@ -18,16 +18,20 @@ Three signals are measured:
 
 DEFAULT IS GENEROUS, by Parker's call: "I'd rather overshoot with pictures than
 undershoot." Coverage and archetype decide how STRONG a match is, not whether it happens
-at all. A figure on the card's own page is attached as CONTEXT even at zero coverage —
-the developmental-stage photos are the case he had in mind: he already knows what a
-teenager looks like, but a picture on the back of the card costs him nothing. Attaching
-lives on the back, so a merely-decorative plate cannot leak an answer, and a study-size
-copy is ~150 KB, so the whole book is ~0.25 GB.
+at all — the developmental-stage photos are the case he had in mind: he already knows what
+a teenager looks like, but a picture on the back of the card costs him nothing.
 
-The ONE thing that does not loosen: never attach a picture that is about something else.
-A zero-coverage match therefore requires SAME-PAGE proximity. A figure two pages away
-with no shared vocabulary is a different subject, and a wrong picture teaches a wrong
-thing — that is the only failure mode here that is worse than no picture at all.
+But the axis is CONGRUENT vs INCONGRUENT, not necessary vs unnecessary. A figure he does
+not need is free; a figure about something else is expensive, because it sends him hunting
+for a connection that is not there — "it leads me to a root of confusion instead of a root
+of actually succeeding." So **zero shared vocabulary never qualifies**, not even on the
+card's own page: a page holds many paragraphs and the figure illustrates ONE of them.
+
+And note what this canNOT do. Word overlap proves shared vocabulary, never shared SUBJECT.
+A radio-transmission diagram matched "a cellular telephone is a low-power portable radio"
+on `radio` + `repeater` — both distinctive enough that no frequency weighting catches it —
+while showing a base station and no phone. Deciding that needs eyes on the picture, which
+is why **`judge_figures.py` is a mandatory stage after this one**, not an optional polish.
 
 Pass --strict for the conservative rule (all three signals must agree).
 
@@ -130,6 +134,8 @@ def main():
     ap.add_argument("--json", help="write proposals here")
     ap.add_argument("--min-coverage", type=float, default=0.34)
     ap.add_argument("--max-page-dist", type=int, default=2)
+    ap.add_argument("--force", action="store_true",
+                    help="overwrite an already-judged proposals file (then re-judge)")
     ap.add_argument("--strict", action="store_true",
                     help="require all three signals (the conservative rule)")
     args = ap.parse_args()
@@ -224,6 +230,21 @@ def main():
             print(f"\n  [{r['coverage']:.2f}] {r['figure']}  (±{r['page_dist']}p) — {r['why']}")
             print(f"    {r['text']}")
     if args.json:
+        # Never silently overwrite a JUDGED proposals file. judge_figures.py rewrites this
+        # same path with only the survivors and marks it `judged`; re-matching on top would
+        # discard a human-reviewed vision pass and quietly re-introduce every rejected
+        # pairing, with nothing in the output to say so.
+        if os.path.exists(args.json) and not args.force:
+            try:
+                prev = json.load(open(args.json))
+            except Exception:
+                prev = {}
+            if prev.get("judged"):
+                sys.exit(
+                    f"REFUSING to overwrite {args.json}: it has already been judged "
+                    f"({len(prev.get('rejected') or [])} pairing(s) rejected).\n"
+                    f"Re-matching would silently restore them. Either write somewhere else "
+                    f"with --json <other>, or pass --force and re-run the judge afterwards.")
         json.dump({"teaches": strong, "context": context, "skipped": no,
                    "mode": "strict" if args.strict else "generous"},
                   open(args.json, "w"), indent=1)

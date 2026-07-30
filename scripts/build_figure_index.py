@@ -370,6 +370,19 @@ def main():
     doc = fitz.open(pdf)
     outdir = os.path.join(S.SKILL, "work", src["id"], "figures")
     recs, skipped = [], []
+    # What the judge SAW is the most valuable text about a plate — it is the description
+    # the publisher never supplied for most of them, and it cost a human-reviewed vision
+    # pass. Carry it across rebuilds and fold it into the match terms, or every rebuild
+    # silently throws that work away and the next match is no smarter than the last.
+    seen = {}
+    _idx_p = os.path.join(S.SKILL, "work", src["id"], "figure_index.json")
+    if os.path.exists(_idx_p):
+        try:
+            for f in json.load(open(_idx_p)).get("figures", []):
+                if f.get("seen_description"):
+                    seen[f["label"]] = f["seen_description"]
+        except Exception:
+            pass
 
     for pno in range(first, min(last, doc.page_count)):
         page = doc[pno - 1]
@@ -404,7 +417,8 @@ def main():
                 "extraction": how,
                 "description": desc,
                 "crossrefs": xref,
-                "terms": terms_of(cap["title"], desc, xref),
+                "seen_description": seen.get(cap["label"]),
+                "terms": terms_of(cap["title"], desc, xref, seen.get(cap["label"])),
             })
 
     label = f"segment_{args.segment}" if args.segment is not None else f"pages_{first}_{last}"
