@@ -6,7 +6,7 @@ Not every card is better with a picture. A dose, a legal definition, or an etymo
 nothing from art, while "where is the occipital bone" is barely a card without it. This
 proposes attachments and shows its reasoning; it never writes to Anki.
 
-A figure is proposed only when THREE independent signals agree:
+Three signals are measured:
 
   1. PROXIMITY  the figure sits on (or beside) the page the card's mark came from, so it
                 is the plate the book itself put next to that sentence.
@@ -16,11 +16,24 @@ A figure is proposed only when THREE independent signals agree:
   3. ARCHETYPE  the fact is spatial/structural (where a thing is, what it looks like, how
                 parts connect) rather than numeric, procedural, or definitional.
 
-Anything that clears 1+2 but not 3, or is close on coverage, is reported as a MAYBE for a
-human call rather than silently attached or silently dropped.
+DEFAULT IS GENEROUS, by Parker's call: "I'd rather overshoot with pictures than
+undershoot." Coverage and archetype decide how STRONG a match is, not whether it happens
+at all. A figure on the card's own page is attached as CONTEXT even at zero coverage —
+the developmental-stage photos are the case he had in mind: he already knows what a
+teenager looks like, but a picture on the back of the card costs him nothing. Attaching
+lives on the back, so a merely-decorative plate cannot leak an answer, and a study-size
+copy is ~150 KB, so the whole book is ~0.25 GB.
+
+The ONE thing that does not loosen: never attach a picture that is about something else.
+A zero-coverage match therefore requires SAME-PAGE proximity. A figure two pages away
+with no shared vocabulary is a different subject, and a wrong picture teaches a wrong
+thing — that is the only failure mode here that is worse than no picture at all.
+
+Pass --strict for the conservative rule (all three signals must agree).
 
 Usage
     python3 match_figures.py --source emt --segment 6
+    python3 match_figures.py --source emt --segment 6 --strict
     python3 match_figures.py --source emt --segment 6 --json proposals.json
 """
 import argparse, json, os, re, sys
@@ -114,6 +127,8 @@ def main():
     ap.add_argument("--json", help="write proposals here")
     ap.add_argument("--min-coverage", type=float, default=0.34)
     ap.add_argument("--max-page-dist", type=int, default=2)
+    ap.add_argument("--strict", action="store_true",
+                    help="require all three signals (the conservative rule)")
     args = ap.parse_args()
 
     src = S.get_source(args.source)
@@ -129,7 +144,7 @@ def main():
     marks = json.load(open(marks_p)) if os.path.exists(marks_p) else []
     figs = json.load(open(index_p))["figures"]
 
-    yes, maybe, no = [], [], []
+    strong, context, no = [], [], []
     for ci, c in enumerate(cards):
         pages = card_pages(c, marks)
         if not pages:
@@ -141,44 +156,62 @@ def main():
                 continue
             if bs is None or (s["coverage"], -s["page_dist"]) > (bs["coverage"], -bs["page_dist"]):
                 best, bs = f, s
-        if not best or bs["coverage"] <= 0:
+        if not best:
+            continue
+        # Zero shared vocabulary is only safe on the card's OWN page, where the book
+        # itself placed the plate beside the sentence. Further away it is a different
+        # subject, and the wrong picture is the one outcome worse than none.
+        if bs["coverage"] <= 0 and bs["page_dist"] > 0:
             continue
         arch, why = archetype(c)
         rec = {"card_index": ci, "text": strip_html(c["Text"])[:110],
-               "figure": best["label"], "file": best["file"],
+               "figure": best["label"],
+               "file": best.get("study_file") or best["file"],
+               "native_file": best["file"],
                "coverage": bs["coverage"], "page_dist": bs["page_dist"],
                "matched_terms": bs["matched"], "archetype": arch, "why": why,
                "has_description": bool(best.get("description"))}
-        if bs["coverage"] >= args.min_coverage and arch is True:
-            yes.append(rec)
-        elif bs["coverage"] >= args.min_coverage or arch is True:
-            maybe.append(rec)
+        teaches = bs["coverage"] >= args.min_coverage and arch is not False
+        if args.strict:
+            if bs["coverage"] >= args.min_coverage and arch is True:
+                rec["tier"] = "teaches"; strong.append(rec)
+            else:
+                no.append(rec)
+            continue
+        if teaches:
+            rec["tier"] = "teaches"; strong.append(rec)
         else:
-            no.append(rec)
+            rec["tier"] = "context"; context.append(rec)
 
-    yes.sort(key=lambda r: -r["coverage"])
-    maybe.sort(key=lambda r: -r["coverage"])
-    print(f"{len(cards)} cards | {len(figs)} figures indexed\n")
-    print(f"  ATTACH  {len(yes):>3}   coverage>={args.min_coverage} AND spatial fact")
-    print(f"  MAYBE   {len(maybe):>3}   one signal only — needs a human call")
-    print(f"  SKIP    {len(no):>3}   matched a figure but earns no picture")
-    print(f"  (cards with no nearby figure at all: {len(cards)-len(yes)-len(maybe)-len(no)})\n")
+    strong.sort(key=lambda r: -r["coverage"])
+    context.sort(key=lambda r: -r["coverage"])
+    total = len(strong) + len(context)
+    mode = "STRICT (all three signals)" if args.strict else "GENEROUS (default)"
+    print(f"{len(cards)} cards | {len(figs)} figures indexed | mode: {mode}\n")
+    print(f"  TEACHES  {len(strong):>3}   the plate shows the answer he must produce")
+    if not args.strict:
+        print(f"  CONTEXT  {len(context):>3}   the book put this plate beside the passage; free to include")
+    else:
+        print(f"  SKIPPED  {len(no):>3}   did not clear all three signals")
+    print(f"  none     {len(cards)-total-len(no):>3}   no relevant figure nearby\n")
+    print(f"  -> {total} of {len(cards)} cards get a picture ({100*total//max(1,len(cards))}%)\n")
     print("=" * 78)
-    print("ATTACH — strongest first")
-    for r in yes[:18]:
+    print("TEACHES — strongest first")
+    for r in strong[:15]:
         print(f"\n  [{r['coverage']:.2f}] {r['figure']}  (±{r['page_dist']}p)"
               f"{'' if r['has_description'] else '  [no long-desc]'}")
         print(f"    {r['text']}")
         print(f"    shows: {', '.join(r['matched_terms'][:9])}")
-    if maybe:
+    if context:
         print("\n" + "=" * 78)
-        print("MAYBE — first 8")
-        for r in maybe[:8]:
-            print(f"\n  [{r['coverage']:.2f}] {r['figure']}  — {r['why']}")
+        print("CONTEXT — the book's own illustration for this passage")
+        for r in context[:10]:
+            print(f"\n  [{r['coverage']:.2f}] {r['figure']}  (±{r['page_dist']}p) — {r['why']}")
             print(f"    {r['text']}")
-            print(f"    shows: {', '.join(r['matched_terms'][:9])}")
     if args.json:
-        json.dump({"attach": yes, "maybe": maybe, "skip": no}, open(args.json, "w"), indent=1)
+        json.dump({"teaches": strong, "context": context, "skipped": no,
+                   "mode": "strict" if args.strict else "generous"},
+                  open(args.json, "w"), indent=1)
         print(f"\nwrote {args.json}")
 
 

@@ -22,7 +22,7 @@ Usage
 Writes work/<source>/figures/*.png and work/<source>/figure_index.json.
 Needs the skill venv (PyMuPDF):  .venv/bin/python scripts/build_figure_index.py ...
 """
-import argparse, json, os, re, sys
+import argparse, json, os, re, subprocess, sys
 
 try:
     import fitz  # PyMuPDF
@@ -204,6 +204,28 @@ def save_art(doc, art, page_no, out_png, rerender):
     return None, "unavailable"
 
 
+def study_copy(src_path, out_dir, max_px=1400, quality=88):
+    """A study-sized derivative — this is what actually gets attached to a card.
+
+    The native plate is the archive: 2133px and ~3 MB for the skull. On a phone that is
+    ~20x more pixels than the screen can show and it would push a whole book past a
+    gigabyte of media. Re-encoded at 1400px it is ~160 KB with every label still crisp,
+    which is what makes it cheap enough to attach figures generously rather than
+    rationing them."""
+    os.makedirs(out_dir, exist_ok=True)
+    out = os.path.join(out_dir, os.path.splitext(os.path.basename(src_path))[0] + ".jpg")
+    if os.path.exists(out) and os.path.getmtime(out) >= os.path.getmtime(src_path):
+        return out
+    try:
+        subprocess.run(["magick", src_path, "-resize", f"{max_px}x{max_px}>",
+                        "-background", "white", "-alpha", "remove", "-alpha", "off",
+                        "-strip", "-quality", str(quality), out],
+                       check=True, capture_output=True)
+    except Exception:
+        return None
+    return out
+
+
 def render_region(doc, page_no, rect, out_png, dpi=300):
     """Rasterize a page region — used for vector figures with no embedded bitmap."""
     os.makedirs(os.path.dirname(out_png), exist_ok=True)
@@ -235,6 +257,8 @@ def main():
     ap.add_argument("--pages", help="explicit physical page range, e.g. 515-680")
     ap.add_argument("--rerender", action="store_true")
     ap.add_argument("--dpi", type=int, default=300, help="only for vector figures")
+    ap.add_argument("--max-px", type=int, default=1400,
+                    help="long edge of the study-size copy that gets attached to cards")
     args = ap.parse_args()
 
     src = S.get_source(args.source)
@@ -272,12 +296,15 @@ def main():
                 skipped.append({"label": cap["label"], "page": pno, "why": "no art located"})
                 continue
             desc = long_description(doc, page, cap["bbox"], cap["title"])
+            base = os.path.join(S.SKILL, "work", src["id"])
+            study = study_copy(path, os.path.join(outdir, "study"), args.max_px)
             recs.append({
                 "label": cap["label"],
                 "title": cap["title"],
                 "caption_page": pno,
                 "art_page": art_page,
-                "file": os.path.relpath(path, os.path.join(S.SKILL, "work", src["id"])),
+                "file": os.path.relpath(path, base),                       # native archive
+                "study_file": os.path.relpath(study, base) if study else None,  # what gets attached
                 "px": list(art["px"]) if art and art.get("px") else None,
                 "extraction": how,
                 "description": desc,
