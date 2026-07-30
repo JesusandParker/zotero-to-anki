@@ -87,9 +87,15 @@ def main():
             print(f"No area selections in {args.crop_from} — nothing to crop.")
             return
         outdir = os.path.join(S.SKILL, "work", src["id"])
-        for i in imgs:
+        for n, i in enumerate(imgs, 1):
             page = int(re.sub(r"[^0-9]", "", str(i["page"])))
-            out = os.path.join(outdir, f"figure_p{page}.png")
+            # Name by page AND ordinal: two area selections on the same page are common
+            # (a figure and the table beside it), and keying on the page alone made the
+            # second crop silently overwrite the first.
+            same = [j for j in imgs
+                    if int(re.sub(r"[^0-9]", "", str(j["page"]))) == page]
+            suffix = f"_{same.index(i) + 1}" if len(same) > 1 else ""
+            out = os.path.join(outdir, f"figure_p{page}{suffix}.png")
             crop(pdf, page, i["crop"]["rect"], out, args.dpi)
             note = i.get("user_comment")
             print(f"  p{page} -> {out}" + (f"   (Parker's note: {note[:70]})" if note else ""))

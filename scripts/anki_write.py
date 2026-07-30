@@ -204,16 +204,33 @@ def main():
             skipped.append((i, "no deck could be derived (missing segment and no --deck)")); continue
         targets.add(deck)  # record the INTENDED target, even if the card is skipped below
 
-        # optional page image -> store in Anki media and embed
+        # optional figure -> store in Anki media and embed
+        #
+        # It goes on the BACK by default. A textbook plate labels its own anatomy, so the
+        # very figures worth attaching are the ones whose labels ARE the cloze answers —
+        # put the labeled skull on the front of "the cranium is formed by the
+        # {{c1::frontal}}, {{c1::temporal}}..." and the card answers itself. On the back it
+        # reinforces instead: he produces the words, then sees where they live.
+        # Set "image_side": "front" only for a card that ASKS about the picture (identify
+        # this structure), where the image is the question and leaks nothing.
+        back = paragraphize(c.get("Back Extra", ""))
         if c.get("image") and os.path.exists(c["image"]):
-            fn = f"{(src or {}).get('id','z2a')}_{os.path.basename(c['image'])}"
+            # Keep the stored name free of anything that needs escaping inside an
+            # attribute. A source id or figure basename containing a space would
+            # otherwise emit <img src="a b.png"> and silently render as a broken image.
+            raw = f"{(src or {}).get('id','z2a')}_{os.path.basename(c['image'])}"
+            fn = re.sub(r"[^A-Za-z0-9._-]+", "_", raw)
             call("storeMediaFile", filename=fn,
                  data=base64.b64encode(open(c["image"], "rb").read()).decode())
-            text = text + f'<br><img src="{fn}">'
+            tag = f'<img src="{fn}">'
+            if c.get("image_side") == "front":
+                text = text + "<br>" + tag
+            else:
+                back = (back + "<br><br>" + tag) if back.strip() else tag
 
         note = {
             "deckName": deck, "modelName": model,
-            "fields": {"Text": listify(text), "Back Extra": paragraphize(c.get("Back Extra", ""))},
+            "fields": {"Text": listify(text), "Back Extra": back},
             "tags": tags,
             "options": {"allowDuplicate": False, "duplicateScope": "deck"},
         }
