@@ -22,7 +22,7 @@ Every write is recorded to an undo file, so the whole pass is reversible:
 
     python3 attach_figures.py --source emt --segment 6 --dry-run
     python3 attach_figures.py --source emt --segment 6
-    python3 attach_figures.py --undo work/emt/figure_attach_undo.json
+    python3 attach_figures.py --undo work/emt/figure_attach_undo_seg6.json
 
 Anki must be running.
 """
@@ -64,6 +64,10 @@ def main():
     ap.add_argument("--undo", help="revert a previous run from its undo file")
     ap.add_argument("--refresh-media", action="store_true",
                     help="re-upload the image files only, leaving every note untouched")
+    ap.add_argument("--allow-multiple", action="store_true",
+                    help="let a card carry more than one pipeline figure")
+    ap.add_argument("--replace", action="store_true",
+                    help="swap a card's existing pipeline figure for the current best")
     args = ap.parse_args()
 
     if args.refresh_media:
@@ -126,6 +130,11 @@ def main():
             sys.exit(f"ERROR: missing {p}")
     props = json.load(open(props_p))
     cards = json.load(open(cards_p))
+    idx_p = os.path.join(work, "figure_index.json")
+    figpage = {}
+    if os.path.exists(idx_p):
+        figpage = {f["label"]: f.get("art_page") or f.get("caption_page")
+                   for f in json.load(open(idx_p)).get("figures", [])}
     tiers = [t.strip() for t in args.tiers.split(",") if t.strip()]
     todo = [r for t in tiers for r in props.get(t, [])]
 
@@ -141,7 +150,7 @@ def main():
     print(f"{len(todo)} proposal(s) over tiers {tiers}")
     print(f"{len(infos)} live notes in {staging}\n")
 
-    writes, skipped, unmatched, had_own = [], [], [], []
+    writes, skipped, unmatched, had_own, superseded = [], [], [], [], []
     for r in todo:
         c = cards[r["card_index"]]
         key = norm(c["Text"])
@@ -159,17 +168,32 @@ def main():
         if fn in back:
             skipped.append(r)                       # already attached; idempotent
             continue
+        # A card gets ONE pipeline figure. Guarding only on "this exact file" is too weak:
+        # improve the matcher, re-run, and any card whose best figure CHANGED silently
+        # gains a second picture instead of swapping. That is clutter arrived at by
+        # accident rather than by decision. (Six Chapter 6 cards did exactly this after
+        # the crossref change.) --allow-multiple opts in deliberately.
+        if not args.allow_multiple and re.search(rf'<img src="{re.escape(src["id"])}_', back):
+            existing = re.findall(rf'<img src="({re.escape(src["id"])}_[^"]+)"', back)
+            superseded.append((r, note["noteId"], existing, fn))
+            continue
         if "<img" in back.lower():
             had_own.append((r, note["noteId"]))     # his own paste — keep it, report it
         tag = f'<img src="{fn}">'
         appended = ("<br><br>" + tag) if back.strip() else tag
         writes.append({"noteId": note["noteId"], "figure": r["figure"], "file": path,
-                       "media": fn, "appended": appended,
+                       "media": fn, "appended": appended, "card_index": r["card_index"],
+                       "fig_page": r.get("page_dist") is not None and figpage.get(r["figure"]),
                        "new_back": back + appended, "tier": r.get("tier")})
 
     print(f"  to attach : {len(writes)}")
     print(f"  already ok: {len(skipped)} (idempotent skip)")
     print(f"  unmatched : {len(unmatched)}")
+    if superseded:
+        print(f"  superseded: {len(superseded)} card(s) already carry a different figure "
+              f"(kept; --replace to swap, --allow-multiple to add)")
+        for r, nid, have, want in superseded[:6]:
+            print(f"      note {nid}: has {have}, matcher now prefers {want}")
     if unmatched:
         for r, why in unmatched[:6]:
             print(f"      {r['figure']}: {why}")
@@ -195,10 +219,52 @@ def main():
              "fields": {"Back Extra": w["new_back"]}})
         ok += 1
 
-    undo_p = os.path.join(work, f"figure_attach_undo.json")
-    json.dump({"deck": staging, "writes": [
-        {k: w[k] for k in ("noteId", "figure", "media", "appended", "tier")} for w in writes]},
-        open(undo_p, "w"), indent=1)
+    # The undo record ACCUMULATES. Because the attach is idempotent, a second run only
+    # ever carries the handful of cards that newly qualified — so overwriting would
+    # silently shrink the record to those few and strand every earlier write as
+    # unrevertable. (Seen for real: a re-run after a matcher improvement replaced 99
+    # entries with 7.) Keyed by note+media so a repeat is not double-recorded.
+    # Record the attachment in the CANON cards file too, not just in Anki. The gate reads
+    # the file, so a figure that exists only in the deck is invisible to R13 — which then
+    # HARD-blocks a card for lacking the very evidence now sitting on it. (EMT ch4 #105
+    # cites an image-only table, carries FIGURE 4-20 in Anki, and was still blocked.)
+    canon_touched = 0
+    for w in writes:
+        c = cards[w["card_index"]]
+        vs = c.get("visual_source") or {}
+        figs = list(vs.get("figures") or [])
+        rel = os.path.relpath(w["file"], work)
+        if rel not in figs:
+            figs.append(rel)
+        pages = sorted({str(p) for p in (vs.get("pages") or [])} | {str(w["fig_page"])})
+        c["visual_source"] = {
+            "pages": pages, "figures": figs, "labels":
+                sorted(set((vs.get("labels") or []) + [w["figure"]])),
+            "note": "figure extracted from the source PDF and attached to this card "
+                    "(scripts/attach_figures.py); the plate is the visual evidence.",
+        }
+        canon_touched += 1
+    if canon_touched:
+        json.dump(cards, open(cards_p, "w"), indent=1)
+        stamp = cards_p + ".verified"
+        if os.path.exists(stamp):
+            os.remove(stamp)     # the file changed; the gate must be re-run before staging
+        print(f"  recorded visual_source on {canon_touched} card(s) in {os.path.basename(cards_p)}")
+        print("  .verified stamp cleared — re-run check_cards.py")
+
+    undo_p = os.path.join(work, f"figure_attach_undo_seg{args.segment}.json")
+    prior = []
+    if os.path.exists(undo_p):
+        try:
+            prior = json.load(open(undo_p)).get("writes", [])
+        except Exception:
+            prior = []
+    merged = {(w["noteId"], w["media"]): w for w in prior}
+    merged.update({(w["noteId"], w["media"]):
+                   {k: w[k] for k in ("noteId", "figure", "media", "appended", "tier")}
+                   for w in writes})
+    json.dump({"deck": staging, "writes": list(merged.values())},
+              open(undo_p, "w"), indent=1)
     print(f"\nattached {ok} figure(s) to {len({w['noteId'] for w in writes})} note(s)")
     print(f"  distinct media files stored: {len(media_done)}")
     print(f"  undo record -> {undo_p}")

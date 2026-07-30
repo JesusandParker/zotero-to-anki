@@ -44,6 +44,13 @@ CTX_CHARS = 450  # paragraph context grabbed on each side of the highlight
 # undercounts. This bit EMT Ch3 card 4: the 450-char window caught only 4 of 8
 # decision-making-capacity factors. When we detect a lead-in, grab the whole list.
 LIST_FWD_CHARS = 1700
+# A caption needs MORE forward reach than a list. Its body is a whole table, and the
+# caption often sits at the TOP of a page — so the remainder of that page alone can eat a
+# list-sized budget before the body is reached. EMT TABLE 4-7's caption is on p403 (1,704
+# chars) and the "receiving facility / room number" row is on p404, which a 1,700-char
+# window could never see. Sized to span the caption's page plus the next, which is the
+# widest a single table runs in this book.
+CAPTION_FWD_CHARS = 3800
 LIST_LEADIN = re.compile(r"(:\s*$|\bfollowing\b|\binclude[sd]?\b|\bare[:]?\s*$|\bconsider\b)", re.I)
 # A highlighted TABLE/FIGURE/BOX title is a POINTER, not content: the material Parker
 # wants is the body, which sits below the caption or on the next page, and is often a
@@ -115,8 +122,22 @@ def locate_context(hl_text, raw_page):
     if ni < 0:
         ni = max(0, int(idx * len(page_n) / max(1, len(page_loose))))
     hln = norm(hl_text)
-    # a list lead-in gets a wide forward window so the WHOLE enumerated list is captured
-    fwd = LIST_FWD_CHARS if LIST_LEADIN.search(hln) else CTX_CHARS
+    # A list lead-in gets a wide forward window so the WHOLE enumerated list is captured —
+    # and so does a TABLE/FIGURE caption, for exactly the same reason: the thing being
+    # pointed at is the body that follows, and a table's body is long.
+    #
+    # These two had drifted apart. `wants_next_page()` already treats a caption like a list
+    # lead-in and fetches the following page, but this window did not — so the extra page
+    # was fetched and then immediately discarded by a 450-character cut. EMT TABLE 4-3's
+    # context stopped mid-table at "Reflection", four rows short of Empathy, Clarification,
+    # Confrontation and Interpretation, and the four cards built from those rows were
+    # HARD-blocked by R13 as ungrounded — while their text sat, verbatim, just past the cut.
+    if is_caption_title(hl_text):
+        fwd = CAPTION_FWD_CHARS
+    elif LIST_LEADIN.search(hln):
+        fwd = LIST_FWD_CHARS
+    else:
+        fwd = CTX_CHARS
     start = max(0, ni - CTX_CHARS)
     end = min(len(page_n), ni + len(hln) + fwd)
     if start > 0:

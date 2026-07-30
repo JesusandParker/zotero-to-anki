@@ -22,6 +22,7 @@ chk(){ if eval "$2" >/dev/null 2>&1; then echo "  PASS  $1"; pass=$((pass+1)); e
 
 echo "--- card craft must be untouched ---"
 chk "regression suite all green" "python3 scripts/test_regressions.py 2>&1 | grep -qE '^[0-9]+/[0-9]+ regression cases pass' && ! python3 scripts/test_regressions.py 2>&1 | grep -q FAIL"
+chk "figure regression suite all green" "PY=.venv/bin/python; [ -x \$PY ] || PY=python3; \$PY scripts/test_figures.py 2>&1 | grep -qE '^[0-9]+/[0-9]+ figure regression cases pass' && ! \$PY scripts/test_figures.py 2>&1 | grep -q FAIL"
 
 echo "--- no run may leave a discovered hazard open ---"
 chk "every recorded hazard is closed"  "python3 scripts/check_hazards.py"

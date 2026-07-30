@@ -188,14 +188,64 @@ def husk_groups(text):
 
 
 ROW_RESIDUE_MAX = 8
+BR_RUN = re.compile(r"(?:\s*<br\s*/?>\s*)+", re.I)
+
+
+def _row_residue(seg):
+    residue = re.sub(r"\s+", " ", CLOZE.sub("", seg)).strip()
+    return re.sub(r"^\s*(?:\d+[.)]|[-•*])\s*", "", residue)  # ordinals/bullets are layout
 
 
 def _is_list_row(seg):
     if not CLOZE.search(seg):
         return False
-    residue = re.sub(r"\s+", " ", CLOZE.sub("", seg)).strip()
-    residue = re.sub(r"^\s*(?:\d+[.)]|[-•*])\s*", "", residue)  # ordinals/bullets are layout
-    return len(residue.split()) <= ROW_RESIDUE_MAX
+    return len(_row_residue(seg).split()) <= ROW_RESIDUE_MAX
+
+
+def _is_header_lead_in(seg):
+    """A lead-in that ends in a colon announces the list that follows."""
+    return bool(re.search(r":\s*(?:</[a-zA-Z]+>\s*)*$", seg.strip()))
+
+
+def segments(text):
+    return [s.strip() for s in BR_RUN.split(text) if s.strip()]
+
+
+def list_shaped(text):
+    """Is this <br>-separated Text a LIST of things to produce, or prose?
+
+    TWO independent signals. The second is the original rule; the FIRST was added
+    2026-07-30 to close a real hole: requiring EVERY line to be a short row let ONE
+    long line veto the whole card, so `listify()` and this checker both went silent on
+    12 genuinely list-shaped live cards — including the EMS-radio card Parker
+    complained about (3 of its 6 rows were "too wordy") and the ETHICS checklist
+    (5 of 6 rows qualified; one 9-word row killed it).
+      1. a colon-terminated lead-in heading >=2 lines that ALL carry a cloze — the
+         author literally announced a list, so trust that over a word count; or
+      2. every line after the lead-in is a short cloze-row (a list with no header).
+    Prose that merely uses <br> between sentences satisfies neither: it has no colon
+    header, and its lines carry too much residue to be rows."""
+    segs = segments(text)
+    if len(segs) < 2:
+        return False
+    body = segs[1:]
+    if _is_header_lead_in(segs[0]) and len(body) >= 2 and all(CLOZE.search(s) for s in body):
+        return True
+    return (sum(1 for s in segs if _is_list_row(s)) >= 2
+            and all(_is_list_row(s) for s in body))
+
+
+def _has_single_br_separator(text):
+    """True if ANY separator joining two non-empty segments is a lone <br>.
+
+    Replaces a coarser "contains no <br><br> anywhere" test, which let a MIXED card
+    (one spaced gap + two packed ones — EMT's upper-airway card) pass as already-spaced."""
+    for m in BR_RUN.finditer(text):
+        if not text[:m.start()].strip() or not text[m.end():].strip():
+            continue   # a leading/trailing break, not a separator between rows
+        if len(re.findall(r"<br", m.group(0), re.I)) < 2:
+            return True
+    return False
 
 
 def packed_list_layout(text):
@@ -204,16 +254,133 @@ def packed_list_layout(text):
 
     Parker studies these to answer "how many things do I owe?" — the count should be
     visible at a glance, and single-<br> rows hide it. `anki_write.listify()` repairs this
-    at write time, so this is a WARNING that tells the drafter to author it correctly,
+    at write time (it imports `list_shaped` from here, so the repairer and the warning can
+    never drift apart), so this is a WARNING that tells the drafter to author it correctly,
     not a block. Prose that merely uses <br> between sentences is deliberately untouched."""
     if not text or "<img" in text.lower() or not re.search(r"<br", text, re.I):
         return False
-    segs = [s.strip() for s in re.split(r"(?:\s*<br\s*/?>\s*)+", text, flags=re.I) if s.strip()]
-    if len(segs) < 2 or sum(1 for s in segs if _is_list_row(s)) < 2:
+    return list_shaped(text) and _has_single_br_separator(text)
+
+
+# ---------------------------------------------------------------------------
+# The row-level Cold-Solve detectors (R15/R16/R17, added 2026-07-30).
+#
+# The Cold-Solve Gate (card-rules #16-18) was written and enforced at CARD
+# granularity. Two of the three complaints that created these rules are ROW-level
+# failures on cards that look fine whole — which is exactly how they slipped a
+# 20-point human-agent pass and a green checker. These three run per ROW.
+# ---------------------------------------------------------------------------
+
+ROW_CONNECTIVE = r"(?:→|->|=|—|–)"
+ROW_LABEL = re.compile(r"^\s*(?:<[^>]+>\s*)*([^{}<>]{3,80}?)\s*(?:\(\d+\)\s*)?"
+                       + ROW_CONNECTIVE + r"\s*(?=.*\{\{c)")
+# A classify/match/sort card's visible side is a DESCRIPTION that legitimately cues the
+# answer — that is the archetype, not a leak. Its lead-in says so in the imperative.
+CLASSIFY_LEAD = re.compile(r"\b(classif|sort|match|name the|name each|identify|which of|"
+                           r"label each|where each|each \w+ (?:matches|belongs))", re.I)
+
+
+def _stems(s):
+    return {w[:5] for w in _content_words(s) if len(w) > 3}
+
+
+def row_label_tautology(text):
+    """R15: in a `LABEL → {{answer}}` row, the visible label restates its own hidden
+    answer, so the label that is supposed to CUE the blank instead hands it over.
+
+    Parker, 2026-07-30, on the EMS-radio card: "the return to service is the thing I'm
+    supposed to say, so you're giving away the answer while trying to give me a hint."
+
+    Deliberately GENEROUS, like the husk detectors: a shared word stem is evidence, not
+    proof (`Initial receipt of call → acknowledge the call` shares "call" but still tests
+    "acknowledge"). It fires ~8 times across a 1,100-card deck, so the cost of routing
+    those to the judge is trivial and the cost of missing a real one is a card Parker
+    cannot learn from. It is NOT suppressed on classify/match cards — the clotting row of
+    EMT's blood-components card (`Clotting (coagulation) → platelets and clotting
+    factors`) is a real leak sitting inside an otherwise legitimate match card."""
+    hits = []
+    for seg in BR_RUN.split(text):
+        m = ROW_LABEL.match(seg)
+        if not m:
+            continue
+        label = _stems(m.group(1))
+        if not label:
+            continue
+        for a in CLOZE.finditer(seg):
+            shared = label & _stems(a.group(2))
+            if shared:
+                hits.append((m.group(1).strip(), a.group(2), sorted(shared)))
+    return hits
+
+
+ABSOLUTE = re.compile(r"\b(never|always|only|must not|do not|don't|cannot|can't|"
+                      r"should not|shouldn't)\b", re.I)
+CONTRAST_TAIL = re.compile(r"\b(not|rather than|instead of|never)\b", re.I)
+
+
+def open_set_absolute(text):
+    """R16: a mechanical proxy for the highest-frequency corner of R9 (open-set cloze) —
+    an absolute/prohibition sentence whose ONE unhinted blank is the thing prohibited.
+
+    "You must never attribute a patient's altered mental status to {{c1::old age}}."
+    Parker: "there are a lot of things I could fit in that blank… since there was no
+    hint, no other cues, nothing else, how am I supposed to know it?"
+
+    R9 has always been judge-only ("no reliable mechanical proxy"), and that is precisely
+    why it walked back into Chapters 4 and 6 after being ruled out in July. This does not
+    decide R9 in general; it closes the one shape that keeps recurring, and the fix it
+    asks for is the one Parker asked for himself: a slot-label hint, or a visible
+    contrast that forces the answer.
+
+    Exempted: a hinted blank (the drafter constrained the slot), a numeric answer
+    (self-constraining, and already numeric-flagged), and a contrast anchor AFTER the
+    blank that names the rejected alternative — "'right' and 'left' always refer to the
+    {{c1::patient's}} perspective, not the provider's" is forced, not open."""
+    spans = list(CLOZE.finditer(text))
+    if len(spans) != 1:
+        return False           # a sibling cloze can anchor the blank
+    m = spans[0]
+    if m.group(3) or re.search(r"\d", m.group(2)):
         return False
-    if not all(_is_list_row(s) for s in segs[1:]):
+    visible = re.sub(r"<[^>]+>", " ", CLOZE.sub(" ", text))
+    if not ABSOLUTE.search(visible):
         return False
-    return not re.search(r"<br\s*/?>\s*<br", text, re.I)   # already spaced = fine
+    return not CONTRAST_TAIL.search(re.sub(r"<[^>]+>", " ", text[m.end():]))
+
+
+def fragment_clozed_list(text):
+    """R17: a card that announces a list of things to produce, shows every item, and
+    hides only a filler word inside each one — so it drills recognition of the frames
+    while never training the recall that matters.
+
+    Parker, 2026-07-30, on the 8-self-check-questions card: "I can pretty much guess most
+    of these and get it right… it doesn't actually help me remember this card, it just
+    helps me remember the CONTEXT of the card." The knowledge is *which 8 questions to
+    ask*; all 8 question-frames are visible and one obvious word per row is hidden.
+
+    Two exemptions keep the legitimate neighbours safe:
+      * a classify/match lead-in — there the visible description IS the intended cue;
+      * a row that LEADS with its cloze (`{{c1::Nasopharynx}} — above the soft palate`,
+        every SAMPLE/SBAR mnemonic row) — there the item itself is the answer.
+    What is left is the genuine inversion: a prose frame carrying the knowledge with a
+    fragment punched out of it."""
+    segs = segments(text)
+    if len(segs) < 4:                                   # a lead-in + >=3 rows
+        return False
+    if CLASSIFY_LEAD.search(re.sub(r"<[^>]+>", " ", segs[0])):
+        return False
+    rows = [s for s in segs[1:] if CLOZE.search(s)]
+    if len(rows) < 3:
+        return False
+    frag = 0
+    for r in rows:
+        if re.match(r"^\s*(?:<[^>]+>\s*)*\{\{c", r):
+            continue                                    # the item IS the answer
+        hidden = sum(len(m.group(2).split()) for m in CLOZE.finditer(r))
+        visible = len(_row_residue(r).split())
+        if visible >= 2 and hidden < visible:
+            frag += 1
+    return frag >= 3 and frag >= 0.6 * len(rows)
 
 
 EQ_CONNECTIVE = re.compile(r"=|also called|also known as|\baka\b|stands for", re.I)
@@ -290,6 +457,22 @@ def per_card(idx, c, strict_html=True):
         warn.append(f"#{idx}: Text is a LIST of things to produce but its rows are packed with a "
                     f"single <br> — separate them with <br><br> so the number of answers owed is "
                     f"visible at a glance (card-rules #19; anki_write.listify() repairs it at write time)")
+    # row-label restates its own answer — the label meant to CUE the blank leaks it (R15)
+    for label, ans, shared in row_label_tautology(t):
+        warn.append(f"#{idx}: row label '{label}' shares {shared} with its own answer "
+                    f"'{readable(ans)}' — the label leaks the blank it is supposed to cue; "
+                    f"re-word the label, or test what the label does NOT already say "
+                    f"(card-rules #20)")
+    # absolute statement whose lone unhinted blank is wide open (R16 — proxy for R9)
+    if open_set_absolute(t):
+        warn.append(f"#{idx}: an absolute/prohibition sentence with ONE unhinted blank — "
+                    f"many true things may fit it; add a slot-label ::hint or a visible "
+                    f"contrast that forces exactly one answer (card-rules #21)")
+    # an announced list whose items are visible and only a filler word is clozed (R17)
+    if fragment_clozed_list(t):
+        warn.append(f"#{idx}: the rows of this list are VISIBLE and only a word inside each "
+                    f"is hidden — this drills the frames, not the recall; cloze the unit of "
+                    f"knowledge or change the archetype (card-rules #22)")
     # synonym-equation husk — both sides of 'X = also called Y' under one number (R10)
     for g in equation_husk_groups(t):
         warn.append(f"#{idx}: cloze c{g} hides BOTH sides of a synonym/equation ('___ = also called ___') — husk; renumber so each card shows one side as the anchor (card-rules #17)")

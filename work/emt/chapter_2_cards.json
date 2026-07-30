@@ -584,7 +584,7 @@
   "image": null
  },
  {
-  "Text": "Classify each scenario's <b>contact-transmission</b> route:<br>You touch the weeping skin lesion of a contagious patient with an ungloved hand = {{c1::direct::direct/indirect}}<br>You reuse a stethoscope on the next patient without cleaning it = {{c1::indirect::direct/indirect}}",
+  "Text": "Classify each scenario's <b>contact-transmission</b> route:<br><br>You touch the weeping skin lesion of a contagious patient with an ungloved hand = {{c1::direct::direct/indirect}}<br><br>You reuse a stethoscope on the next patient without cleaning it = {{c1::indirect::direct/indirect}}",
   "Back Extra": "Distinguish: direct = person-to-person touch with no intermediary; indirect = through a contaminated object (a fomite).<br><br>Cue: if a nonliving object carries the germ between people, the route is indirect.",
   "source": "emt",
   "segment": 2,

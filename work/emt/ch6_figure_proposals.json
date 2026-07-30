@@ -1,6 +1,24 @@
 {
  "teaches": [
   {
+   "card_index": 19,
+   "text": "The pelvic girdle consists of two large hip bones called the {{c1::coxae}}, together with the {{c1::sacrum}} a",
+   "figure": "FIGURE 6-11",
+   "file": "figures/study/FIGURE_6_11.jpg",
+   "native_file": "figures/FIGURE_6_11.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "coccyx",
+    "coxae",
+    "sacrum"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "teaches"
+  },
+  {
    "card_index": 20,
    "text": "Each coxa (hip bone) is formed by the fusion of three bones: {{c1::the ilium}}, {{c1::the ischium}}, and {{c1:",
    "figure": "FIGURE 6-11",
@@ -16,6 +34,59 @@
    "archetype": true,
    "why": "spatial/structural fact",
    "has_description": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 87,
+   "text": "The peripheral nervous system splits into the {{c1::somatic}} nervous system, which runs {{c2::voluntary}} act",
+   "figure": "FIGURE 6-33",
+   "file": "figures/study/FIGURE_6_33.jpg",
+   "native_file": "figures/FIGURE_6_33.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "autonomic",
+    "involuntary",
+    "somatic",
+    "voluntary"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 124,
+   "text": "The  spleen  lies in the lateral and posterior part of the left upper quadrant, under the diaphragm and immedi",
+   "figure": "FIGURE 6-38",
+   "file": "figures/study/FIGURE_6_38.jpg",
+   "native_file": "figures/FIGURE_6_38.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "lower",
+    "quadrant"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 130,
+   "text": "The  pancreas  lies just behind the abdominal cavity, on the posterior abdominal wall, in {{c1::both upper qua",
+   "figure": "FIGURE 6-38",
+   "file": "figures/study/FIGURE_6_38.jpg",
+   "native_file": "figures/FIGURE_6_38.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "quadrants",
+    "upper"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
    "tier": "teaches"
   },
   {
@@ -106,17 +177,17 @@
    "tier": "teaches"
   },
   {
-   "card_index": 87,
-   "text": "The peripheral nervous system splits into the {{c1::somatic}} nervous system, which runs {{c2::voluntary}} act",
-   "figure": "FIGURE 6-33",
-   "file": "figures/study/FIGURE_6_33.jpg",
-   "native_file": "figures/FIGURE_6_33.png",
+   "card_index": 23,
+   "text": "At the proximal femur, the {{c2::greater}} trochanter projects from the {{c1::lateral::lateral or medial}} sid",
+   "figure": "FIGURE 6-12",
+   "file": "figures/study/FIGURE_6_12.jpg",
+   "native_file": "figures/FIGURE_6_12.png",
    "coverage": 0.75,
-   "page_dist": 1,
+   "page_dist": 2,
    "matched_terms": [
-    "autonomic",
-    "somatic",
-    "voluntary"
+    "greater",
+    "lesser",
+    "medial"
    ],
    "archetype": true,
    "why": "spatial/structural fact",
@@ -237,6 +308,23 @@
    "tier": "teaches"
   },
   {
+   "card_index": 129,
+   "text": "Parts of both intestines lie in  all four  abdominal quadrants: the  small  intestine occupies the central abd",
+   "figure": "FIGURE 6-38",
+   "file": "figures/study/FIGURE_6_38.jpg",
+   "native_file": "figures/FIGURE_6_38.png",
+   "coverage": 0.667,
+   "page_dist": 1,
+   "matched_terms": [
+    "lower",
+    "quadrant"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
    "card_index": 177,
    "text": "The kidneys lie on the {{c1::posterior::anterior or posterior}} muscular wall of the abdomen, in the {{c2::ret",
    "figure": "FIGURE 6-42",
@@ -273,6 +361,24 @@
    "archetype": true,
    "why": "spatial/structural fact",
    "has_description": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 6,
+   "text": "A {{c1::joint}} is {{c2::where two bones meet}}, and its name usually combines {{c3::the names of the two adjo",
+   "figure": "FIGURE 6-3",
+   "file": "figures/study/FIGURE_6_3.jpg",
+   "native_file": "figures/FIGURE_6_3.png",
+   "coverage": 0.6,
+   "page_dist": 1,
+   "matched_terms": [
+    "bones",
+    "joint",
+    "meet"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
    "tier": "teaches"
   },
   {
@@ -329,6 +435,23 @@
    "tier": "teaches"
   },
   {
+   "card_index": 17,
+   "text": "The sternum (breastbone) has three main parts, from top to bottom: the {{c1::manubrium}}, the {{c1::body}}, an",
+   "figure": "FIGURE 6-8",
+   "file": "figures/study/FIGURE_6_8.jpg",
+   "native_file": "figures/FIGURE_6_8.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "process",
+    "xiphoid"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
    "card_index": 21,
    "text": "The {{c1::pubic symphysis}} is the {{c2::cartilaginous joint}} that joins the left and right pubic bones and l",
    "figure": "FIGURE 6-11",
@@ -339,23 +462,6 @@
    "matched_terms": [
     "pubic",
     "symphysis"
-   ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": true,
-   "tier": "teaches"
-  },
-  {
-   "card_index": 23,
-   "text": "At the proximal femur, the {{c2::greater}} trochanter projects from the {{c1::lateral::lateral or medial}} sid",
-   "figure": "FIGURE 6-12",
-   "file": "figures/study/FIGURE_6_12.jpg",
-   "native_file": "figures/FIGURE_6_12.png",
-   "coverage": 0.5,
-   "page_dist": 2,
-   "matched_terms": [
-    "greater",
-    "lesser"
    ],
    "archetype": true,
    "why": "spatial/structural fact",
@@ -396,38 +502,6 @@
    "archetype": true,
    "why": "spatial/structural fact",
    "has_description": true,
-   "tier": "teaches"
-  },
-  {
-   "card_index": 124,
-   "text": "The  spleen  lies in the lateral and posterior part of the left upper quadrant, under the diaphragm and immedi",
-   "figure": "FIGURE 6-38",
-   "file": "figures/study/FIGURE_6_38.jpg",
-   "native_file": "figures/FIGURE_6_38.png",
-   "coverage": 0.5,
-   "page_dist": 0,
-   "matched_terms": [
-    "quadrant"
-   ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "teaches"
-  },
-  {
-   "card_index": 130,
-   "text": "The  pancreas  lies just behind the abdominal cavity, on the posterior abdominal wall, in {{c1::both upper qua",
-   "figure": "FIGURE 6-38",
-   "file": "figures/study/FIGURE_6_38.jpg",
-   "native_file": "figures/FIGURE_6_38.png",
-   "coverage": 0.5,
-   "page_dist": 1,
-   "matched_terms": [
-    "quadrants"
-   ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
    "tier": "teaches"
   },
   {
@@ -487,23 +561,6 @@
    "tier": "teaches"
   },
   {
-   "card_index": 6,
-   "text": "A {{c1::joint}} is {{c2::where two bones meet}}, and its name usually combines {{c3::the names of the two adjo",
-   "figure": "FIGURE 6-3",
-   "file": "figures/study/FIGURE_6_3.jpg",
-   "native_file": "figures/FIGURE_6_3.png",
-   "coverage": 0.4,
-   "page_dist": 1,
-   "matched_terms": [
-    "bones",
-    "joint"
-   ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "teaches"
-  },
-  {
    "card_index": 25,
    "text": "On the foot, the {{c1::plantar}} surface is the {{c2::bottom, or sole}}, while the {{c1::dorsum (dorsal surfac",
    "figure": "FIGURE 6-13",
@@ -552,6 +609,23 @@
    "archetype": true,
    "why": "spatial/structural fact",
    "has_description": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 131,
+   "text": "The  urinary bladder  lies just behind the {{c1::pubic symphysis::bony landmark}} in the middle of the abdomen",
+   "figure": "FIGURE 6-38",
+   "file": "figures/study/FIGURE_6_38.jpg",
+   "native_file": "figures/FIGURE_6_38.png",
+   "coverage": 0.4,
+   "page_dist": 1,
+   "matched_terms": [
+    "lower",
+    "quadrants"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
    "tier": "teaches"
   },
   {
@@ -609,22 +683,6 @@
    "tier": "context"
   },
   {
-   "card_index": 19,
-   "text": "The pelvic girdle consists of two large hip bones called the {{c1::coxae}}, together with the {{c1::sacrum}} a",
-   "figure": "FIGURE 6-11",
-   "file": "figures/study/FIGURE_6_11.jpg",
-   "native_file": "figures/FIGURE_6_11.png",
-   "coverage": 0.333,
-   "page_dist": 1,
-   "matched_terms": [
-    "sacrum"
-   ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
    "card_index": 39,
    "text": "Compared with the carbon dioxide sensors in the brainstem, the hypoxic drive is much {{c1::less sensitive and ",
    "figure": "FIGURE 6-22",
@@ -674,15 +732,16 @@
    "tier": "context"
   },
   {
-   "card_index": 129,
-   "text": "Parts of both intestines lie in  all four  abdominal quadrants: the  small  intestine occupies the central abd",
-   "figure": "FIGURE 6-38",
-   "file": "figures/study/FIGURE_6_38.jpg",
-   "native_file": "figures/FIGURE_6_38.png",
+   "card_index": 174,
+   "text": "The {{c1::pituitary gland}}, at the {{c2::base of the skull}}, is the endocrine gland whose target is {{c3::th",
+   "figure": "FIGURE 6-40",
+   "file": "figures/study/FIGURE_6_40.jpg",
+   "native_file": "figures/FIGURE_6_40.png",
    "coverage": 0.333,
    "page_dist": 1,
    "matched_terms": [
-    "quadrant"
+    "endocrine",
+    "glands"
    ],
    "archetype": true,
    "why": "spatial/structural fact",
@@ -809,6 +868,25 @@
    "tier": "context"
   },
   {
+   "card_index": 92,
+   "text": "The  frontal lobe  governs {{c1::personality}}, {{c1::planning}}, {{c1::problem solving}}, {{c1::concentration",
+   "figure": "FIGURE 6-33",
+   "file": "figures/study/FIGURE_6_33.jpg",
+   "native_file": "figures/FIGURE_6_33.png",
+   "coverage": 0.25,
+   "page_dist": 2,
+   "matched_terms": [
+    "actions",
+    "control",
+    "functions",
+    "voluntary"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "context"
+  },
+  {
    "card_index": 107,
    "text": "Every skeletal muscle has its own {{c1::motor nerve::nerve type}}, which carries information {{c2::from the br",
    "figure": "FIGURE 6-36",
@@ -838,6 +916,22 @@
    "archetype": true,
    "why": "spatial/structural fact",
    "has_description": true,
+   "tier": "context"
+  },
+  {
+   "card_index": 58,
+   "text": "The {{c1::tunica media}} is the {{c2::middle}} layer of the artery, formed from {{c2::smooth muscle}} that can",
+   "figure": "FIGURE 6-29",
+   "file": "figures/study/FIGURE_6_29.jpg",
+   "native_file": "figures/FIGURE_6_29.png",
+   "coverage": 0.2,
+   "page_dist": 2,
+   "matched_terms": [
+    "muscle"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
    "tier": "context"
   },
   {
@@ -873,37 +967,19 @@
    "tier": "context"
   },
   {
-   "card_index": 131,
-   "text": "The  urinary bladder  lies just behind the {{c1::pubic symphysis::bony landmark}} in the middle of the abdomen",
-   "figure": "FIGURE 6-38",
-   "file": "figures/study/FIGURE_6_38.jpg",
-   "native_file": "figures/FIGURE_6_38.png",
+   "card_index": 173,
+   "text": "The {{c1::parathyroid glands}} sit in the neck behind and beside the thyroid, regulate {{c2::serum calcium}}, ",
+   "figure": "FIGURE 6-40",
+   "file": "figures/study/FIGURE_6_40.jpg",
+   "native_file": "figures/FIGURE_6_40.png",
    "coverage": 0.2,
    "page_dist": 1,
    "matched_terms": [
-    "quadrants"
+    "glands"
    ],
    "archetype": true,
    "why": "spatial/structural fact",
    "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 92,
-   "text": "The  frontal lobe  governs {{c1::personality}}, {{c1::planning}}, {{c1::problem solving}}, {{c1::concentration",
-   "figure": "FIGURE 6-33",
-   "file": "figures/study/FIGURE_6_33.jpg",
-   "native_file": "figures/FIGURE_6_33.png",
-   "coverage": 0.188,
-   "page_dist": 2,
-   "matched_terms": [
-    "control",
-    "functions",
-    "voluntary"
-   ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": true,
    "tier": "context"
   },
   {
@@ -933,22 +1009,6 @@
    "page_dist": 0,
    "matched_terms": [
     "system"
-   ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 174,
-   "text": "The {{c1::pituitary gland}}, at the {{c2::base of the skull}}, is the endocrine gland whose target is {{c3::th",
-   "figure": "FIGURE 6-41",
-   "file": "figures/study/FIGURE_6_41.jpg",
-   "native_file": "figures/FIGURE_6_41.png",
-   "coverage": 0.167,
-   "page_dist": 0,
-   "matched_terms": [
-    "endocrine"
    ],
    "archetype": true,
    "why": "spatial/structural fact",
@@ -1022,17 +1082,17 @@
   {
    "card_index": 134,
    "text": "The {{c1::costovertebral angle::landmark}} is the posterior junction where the {{c2::lower rib cage meets the ",
-   "figure": "FIGURE 6-39",
-   "file": "figures/study/FIGURE_6_39.jpg",
-   "native_file": "figures/FIGURE_6_39.png",
+   "figure": "FIGURE 6-38",
+   "file": "figures/study/FIGURE_6_38.jpg",
+   "native_file": "figures/FIGURE_6_38.png",
    "coverage": 0.143,
    "page_dist": 1,
    "matched_terms": [
-    "rib"
+    "lower"
    ],
    "archetype": true,
    "why": "spatial/structural fact",
-   "has_description": true,
+   "has_description": false,
    "tier": "context"
   },
   {
@@ -1101,15 +1161,31 @@
    "tier": "context"
   },
   {
+   "card_index": 171,
+   "text": "The {{c1::adrenal glands}}, which sit {{c2::above the kidneys}}, drive the {{c3::stress (fight-or-flight) resp",
+   "figure": "FIGURE 6-40",
+   "file": "figures/study/FIGURE_6_40.jpg",
+   "native_file": "figures/FIGURE_6_40.png",
+   "coverage": 0.111,
+   "page_dist": 1,
+   "matched_terms": [
+    "glands"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
    "card_index": 101,
    "text": "The  brainstem  has three parts:  {{c2::Midbrain}} controls {{c1::level of consciousness, muscle tone, and pos",
-   "figure": "FIGURE 6-35",
-   "file": "figures/study/FIGURE_6_35.jpg",
-   "native_file": "figures/FIGURE_6_35.png",
+   "figure": "FIGURE 6-33",
+   "file": "figures/study/FIGURE_6_33.jpg",
+   "native_file": "figures/FIGURE_6_33.png",
    "coverage": 0.062,
    "page_dist": 2,
    "matched_terms": [
-    "level"
+    "blood"
    ],
    "archetype": true,
    "why": "spatial/structural fact",
@@ -1141,7 +1217,7 @@
    "matched_terms": [],
    "archetype": true,
    "why": "spatial/structural fact",
-   "has_description": false,
+   "has_description": true,
    "tier": "context"
   },
   {
@@ -1155,7 +1231,7 @@
    "matched_terms": [],
    "archetype": true,
    "why": "spatial/structural fact",
-   "has_description": false,
+   "has_description": true,
    "tier": "context"
   },
   {
@@ -1169,7 +1245,7 @@
    "matched_terms": [],
    "archetype": true,
    "why": "spatial/structural fact",
-   "has_description": false,
+   "has_description": true,
    "tier": "context"
   },
   {
@@ -1183,7 +1259,7 @@
    "matched_terms": [],
    "archetype": true,
    "why": "spatial/structural fact",
-   "has_description": false,
+   "has_description": true,
    "tier": "context"
   },
   {
@@ -1197,7 +1273,7 @@
    "matched_terms": [],
    "archetype": true,
    "why": "spatial/structural fact",
-   "has_description": false,
+   "has_description": true,
    "tier": "context"
   },
   {
@@ -1295,20 +1371,6 @@
    "matched_terms": [],
    "archetype": null,
    "why": "neither clearly spatial nor clearly abstract",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 58,
-   "text": "The {{c1::tunica media}} is the {{c2::middle}} layer of the artery, formed from {{c2::smooth muscle}} that can",
-   "figure": "FIGURE 6-28",
-   "file": "figures/study/FIGURE_6_28.jpg",
-   "native_file": "figures/FIGURE_6_28.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": false,
-   "why": "abstract/procedural fact",
    "has_description": false,
    "tier": "context"
   },
@@ -1537,36 +1599,8 @@
    "tier": "context"
   },
   {
-   "card_index": 171,
-   "text": "The {{c1::adrenal glands}}, which sit {{c2::above the kidneys}}, drive the {{c3::stress (fight-or-flight) resp",
-   "figure": "FIGURE 6-41",
-   "file": "figures/study/FIGURE_6_41.jpg",
-   "native_file": "figures/FIGURE_6_41.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
    "card_index": 172,
    "text": "The {{c1::thyroid gland}} sits in the neck over the {{c2::larynx}} and regulates {{c3::metabolism}} through th",
-   "figure": "FIGURE 6-41",
-   "file": "figures/study/FIGURE_6_41.jpg",
-   "native_file": "figures/FIGURE_6_41.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 173,
-   "text": "The {{c1::parathyroid glands}} sit in the neck behind and beside the thyroid, regulate {{c2::serum calcium}}, ",
    "figure": "FIGURE 6-41",
    "file": "figures/study/FIGURE_6_41.jpg",
    "native_file": "figures/FIGURE_6_41.png",

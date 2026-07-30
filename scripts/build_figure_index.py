@@ -37,9 +37,30 @@ import sources as S
 # a figure ("FIGURE 6-15 and TABLE 6-3 show the major muscles...") matches this too, which
 # is why a hit only counts as a caption once CREDIT_LINE corroborates it.
 CAPTION = re.compile(r"^\s*(FIGURE|TABLE|BOX|SKILL\s+DRILL|CHART)\s+([\dA-Z][\d\-.]*)\b", re.I)
-# Every genuine caption in this book is trailed by the publisher credit and an
-# accessibility "Description" stub. That pairing is what separates a caption from prose.
-CREDIT_LINE = re.compile(r"^\s*(©|\(c\))\s*\S", re.I)
+# A genuine caption is trailed by a rights line (and often an accessibility "Description"
+# stub); that is what separates a caption from prose that merely opens with "FIGURE 4-9".
+#
+# The rights line is NOT always a copyright symbol. Illustration-heavy chapters use
+# "© Jones & Bartlett Learning." (27 of 42 sampled), but PHOTO-heavy chapters credit the
+# photographer instead -- "Courtesy of the Guide Dog Foundation for the Blind." -- and
+# multi-panel photos lead with the panel letters, "A, C: © Photodisc; B: ...". Matching
+# only on © silently lost EMT FIGURE 4-8 and 4-12, and would lose more of any chapter
+# built on photographs rather than diagrams.
+#
+# Two tiers, because they need different guards. A block OPENING with © is a rights line
+# no matter what follows it -- the extractor routinely welds the credit to the next
+# paragraph (EMT p370 hands back a 643-char block that begins "© Jones & Bartlett
+# Learning. 7. Always speak slowly..."), so length-capping this tier drops real figures.
+CREDIT_STRICT = re.compile(r"^\s*(?:©|\(c\))", re.I)
+# These could plausibly open a sentence of body prose, so they only count on a SHORT
+# block -- a photo credit is a fragment, never a paragraph.
+CREDIT_LOOSE = re.compile(
+    r"^\s*(?:Courtesy\s+(?:of|from)\b"
+    r"|Source\s*:"
+    r"|(?:Reproduced|Adapted|Modified|Data)\s+(?:from|with|by)\b"
+    r"|Photograph(?:ed)?\s+by\b"
+    r"|[A-Z](?:\s*[,–-]\s*[A-Z])*\s*:\s*\S{0,3}\s*(?:©|\(c\)))", re.I)
+CREDIT_MAX_CHARS = 200
 DESC_STUB = "Description"
 MIN_ART_PT = 40           # ignore rules, bullets, icons
 CAPTION_GAP_PT = 60       # how far under the art a caption may sit
@@ -76,6 +97,14 @@ def art_on(page):
     return out
 
 
+def is_credit(x):
+    """Is this block a figure's rights line? (R15 — exercised by test_figures.py)"""
+    if not x:
+        return False
+    return bool(CREDIT_STRICT.match(x)) or (
+        len(x) <= CREDIT_MAX_CHARS and bool(CREDIT_LOOSE.match(x)))
+
+
 def find_captions(page):
     """Caption blocks on a page, corroborated by the trailing credit/Description stub."""
     bl = blocks(page)
@@ -87,11 +116,11 @@ def find_captions(page):
         # look ahead a few blocks for the credit line or the Description stub; a caption
         # may wrap onto a second block before the credit appears.
         tail = [x[0] for x in bl[i + 1:i + 5]]
-        if not any(CREDIT_LINE.match(x) or x == DESC_STUB for x in tail):
+        if not any(is_credit(x) or x == DESC_STUB for x in tail):
             continue
         title = t
         for nxt, _ in bl[i + 1:i + 3]:          # stitch a wrapped caption line
-            if CREDIT_LINE.match(nxt) or nxt == DESC_STUB:
+            if is_credit(nxt) or nxt == DESC_STUB:
                 break
             title += " " + nxt
         found.append({
@@ -188,9 +217,42 @@ def terms_of(*texts):
     return sorted({w for w in ws if w not in STOPWORDS})
 
 
+def crossrefs(doc, label, first, last, cap_page):
+    """Sentences in the body that point AT this figure — "...as shown in (FIGURE 4-1)".
+
+    Only 2 of Chapter 4's 21 figures carry a publisher long description, because its
+    plates are photographs with nothing labelled to describe. That leaves the matcher
+    seeing FIGURE 4-1 as just {shannon, weaver, communication, model} and blind to the
+    Noise / Encoding / Decoding boxes drawn inside it — so the card that figure actually
+    illustrates ("noise is anything that dampens or obscures a message") scored zero
+    against it.
+
+    The prose that cites a figure is where the book explains it, and it is sitting in the
+    text layer for free. Harvesting it recovers the vocabulary the picture contains but
+    the caption never says. Cheap, deterministic, and it needs no vision pass."""
+    num = label.split(None, 1)[1] if " " in label else label
+    kind = label.split(None, 1)[0]
+    pat = re.compile(rf"\b{kind}\s+{re.escape(num)}\b", re.I)
+    out = []
+    lo, hi = max(1, cap_page - 3), min(doc.page_count, cap_page + 4)
+    for pno in range(max(first, lo), min(last, hi)):
+        for t, _bb in blocks(doc[pno - 1]):
+            if not pat.search(t) or CAPTION.match(t):
+                continue      # the caption itself is already indexed
+            for sent in re.split(r"(?<=[.!?])\s+", t):
+                if pat.search(sent) and len(sent) < 400:
+                    out.append(pat.sub(" ", sent).strip())
+    return " ".join(dict.fromkeys(out))[:900] or None
+
+
 def save_art(doc, art, page_no, out_png, rerender):
     """Write the plate. Prefer the ORIGINAL embedded bytes (no resample, no recompress);
     fall back to rendering the placed region for vector art or exotic colorspaces."""
+    # Check for art BEFORE reusing the cache. Reversed, a caption whose art no longer
+    # resolves silently adopts whatever file a previous (buggier) run left at that path,
+    # so the count stays flat while the index quietly points at the wrong picture.
+    if not art:
+        return None, "unavailable"
     if os.path.exists(out_png) and not rerender:
         return out_png, "cached"
     os.makedirs(os.path.dirname(out_png), exist_ok=True)
@@ -327,6 +389,7 @@ def main():
                 skipped.append({"label": cap["label"], "page": pno, "why": "no art located"})
                 continue
             desc = long_description(doc, page, cap["bbox"], cap["title"])
+            xref = crossrefs(doc, cap["label"], first, last, pno)
             base = os.path.join(S.SKILL, "work", src["id"])
             study = study_copy(path, os.path.join(outdir, "study"), args.max_px,
                                pad_pct=args.pad_pct)
@@ -340,7 +403,8 @@ def main():
                 "px": list(art["px"]) if art and art.get("px") else None,
                 "extraction": how,
                 "description": desc,
-                "terms": terms_of(cap["title"], desc),
+                "crossrefs": xref,
+                "terms": terms_of(cap["title"], desc, xref),
             })
 
     label = f"segment_{args.segment}" if args.segment is not None else f"pages_{first}_{last}"

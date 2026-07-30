@@ -1,0 +1,81 @@
+{
+ "run_id": "2026-07-30-figures",
+ "source": "emt",
+ "segment": 4,
+ "started": "2026-07-30T12:50",
+ "finished": "2026-07-30T13:35",
+ "skill_sha": "02d9814d7d1ca360cc8e9517600bf3224336b6fa",
+ "status": "complete",
+ "note": "Figure pass over an ALREADY-STAGED chapter, run as a rehearsal before Chapter 7. Cards were not regenerated; from_idx was backfilled and figures attached. Full write-up in REPORT.md.",
+ "stage": "figures",
+ "counts": {
+  "marks": 81,
+  "cards_canon": 107,
+  "cards_live": 105,
+  "figures_indexed": 21,
+  "figures_with_publisher_description": 2,
+  "proposals": 32,
+  "attached": 31,
+  "distinct_plates": 16,
+  "coverage_pct": 29,
+  "cards_with_visual_source_recorded": 32,
+  "hard_errors_before": 6,
+  "hard_errors_after": 0
+ },
+ "new_hazards_found": [
+  {
+   "id": "FIG-1",
+   "what": "caption detection required a \u00a9 credit line, so photo-credited figures (\"Courtesy of\u2026\") were silently missed",
+   "mechanizable": true,
+   "regression_id": "R15"
+  },
+  {
+   "id": "FIG-2",
+   "what": "length-capping the credit line dropped real figures, because the extractor welds the credit onto the next paragraph",
+   "mechanizable": true,
+   "regression_id": "R15"
+  },
+  {
+   "id": "FIG-3",
+   "what": "save_art returned a cached file before checking that art was found, so a caption adopted a stale image",
+   "mechanizable": true,
+   "regression_id": "R16"
+  },
+  {
+   "id": "FIG-4",
+   "what": "the attach undo record was not segment-scoped; ch4 overwrote ch6",
+   "mechanizable": false,
+   "why": "filesystem naming, not card content: no card artifact to assert against. Guarded by the per-segment filename and a reconstruct-from-deck recipe in REPORT.md."
+  },
+  {
+   "id": "FIG-5",
+   "what": "the undo record replaced instead of accumulating, shrinking 99 entries to 7 on a re-run",
+   "mechanizable": false,
+   "why": "same: a property of the run record, not of any card. Fixed by merging on (noteId, media)."
+  },
+  {
+   "id": "FIG-6",
+   "what": "re-running after a matcher change added a SECOND figure rather than swapping",
+   "mechanizable": true,
+   "regression_id": "R17"
+  },
+  {
+   "id": "FIG-7",
+   "what": "a TABLE/FIGURE caption's context was never widened forward, so the next page was fetched and then discarded by a 450-char cut; 6 correct ch4 cards were HARD-blocked as ungrounded",
+   "mechanizable": true,
+   "regression_id": "R18"
+  },
+  {
+   "id": "FIG-8",
+   "what": "attach_figures wrote the figure to Anki but not to the canon cards file, so the gate could block a card for lacking evidence that was already on it",
+   "mechanizable": true,
+   "regression_id": "R18"
+  }
+ ],
+ "still_open": [
+  "per-figure reverse matching",
+  "3 cards left from_idx=null",
+  "vector figures untested",
+  "photo chapters may need their own profile"
+ ]
+}

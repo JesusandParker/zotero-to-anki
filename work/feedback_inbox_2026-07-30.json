@@ -1,0 +1,29 @@
+[
+  {
+    "noteId": 1784513284017,
+    "model": "AnKing Cloze",
+    "deck": "all::EMT::Chapter 4::claude review",
+    "front_field": "Text",
+    "front": "Across the 6 phases of an EMS call, a unit typically radios <b>dispatch</b> to:<br>Initial receipt of call (2) → {{c1::acknowledge the call}}; {{c1::confirm the unit is en route}}<br>En route (2) → request {{c1::assistance with directions}} or {{c1::additional resources}}, when needed<br>On scene (4) → {{c1::report arrival at the scene}}; {{c1::check in periodically as a safety measure}}; {{c1::request additional resources}} when needed; {{c1::report leaving the scene}}<br>Arrival at hospital or point of transfer (1) → {{c1::notify dispatch of arrival}}<br>Return to service (1) → notify dispatch when {{c1::the unit is available for another call}}<br>Miscellaneous (1) → notify dispatch (in some systems) anytime the unit is {{c1::not in station}}",
+    "back_extra": "Ex: an arrival report can add obvious size-up details — 'BLS Unit Two is on scene at 3010 Mitchell Street. It is a blue house with a long driveway' — which helps additional units still responding.<br><br>Why: dispatchers field hundreds of calls per hour, so transmit only the important information and keep the channel clear.<br><br>Pitfall: problems that arise during the response are also reported to the dispatcher as they happen.",
+    "feedback": "This car definitely isn't the best because the last three are just one thing that you're guessing like for example this one that says return to service and it's just giving me one thing to guess the return to service is the thing I'm supposed to say so you're giving away the answer while trying to give me a hint"
+  },
+  {
+    "noteId": 1784513279031,
+    "model": "AnKing Cloze",
+    "deck": "all::EMT::Chapter 4::claude review",
+    "front_field": "Text",
+    "front": "You must <b>never</b> attribute a patient's altered mental status to {{c1::old age}}.",
+    "back_extra": "Why: altered mental status has treatable causes that must be found, not dismissed.<br><br>Pitfall: dismissing new confusion as normal aging can miss a dangerous but reversible problem.",
+    "feedback": "So I feel like there are a lot of things I could fit in the blank here I knew the answer was old age, but only because I had seen the card before, but I must never attribute a patient’s mental status to them being kind of sad… Or I should never attribute a patient’s altered mental status to their skin color you know there’s a lot of things that I could fit in that blank that would definitely work, and since there was no hint, no other cues nothing else how am I supposed to know it except for the fact that I’ve obviously shouldn’t assume a patient’s mental status by the fact that they’re Asian or something and the old age is probably the best one I feel like it’s not a very good card and I feel like there’s gonna get a hint or something that you could add that we just make it a little bit better without giving away the answer"
+  },
+  {
+    "noteId": 1782941722678,
+    "model": "AnKing Cloze",
+    "deck": "all::EMT::Chapter 3::claude review",
+    "front_field": "Text",
+    "front": "Before you transfer care or leave a patient, run <b>8</b> self-check questions:<br><br>What {{c1::problems}} may develop from your actions?<br><br>How might the patient's condition {{c1::worsen}} if you leave?<br><br>Does the patient {{c1::need care}}?<br><br>Are you neglecting your {{c1::duty}}?<br><br>Is the person assuming care {{c1::capable}}?<br><br>Are you {{c1::abandoning}} the patient?<br><br>Are you violating a {{c1::standard of care}}?<br><br>Are you acting {{c1::prudently}}?",
+    "back_extra": "Cue: chunk the eight into consequences (problems, worsening), the patient (need for care), the receiver (capable?), and your own conduct (duty, abandonment, standard of care, prudence).<br><br>Why: each question tests whether leaving would breach the duty you assumed the moment care began.",
+    "feedback": "my only worry with this card is that it gives away the answer just a little bit too easily like I can pretty much guess most of these and get it right and I think the main issue is that it doesn't actually help me remember this card but it just helps me try to remember the context of the card and I know this is a complicated medium between actually being able to recall what's on the card and I'm just giving away the answer so I'm not sure what to do about that"
+  }
+]

@@ -57,34 +57,23 @@ def paragraphize(back_extra):
 # the Text-field twin of paragraphize() above, and the same contract: a rule in the docs
 # AND a mechanical guarantee here, so the spacing holds even if a card is drafted tight.
 #
-# It fires ONLY on genuine list layouts. A row is a line that contains a cloze and carries
-# almost no prose of its own (ordinals and bullets don't count as prose); a card qualifies
-# when it has >=2 such rows and everything after the lead-in is a row. Multi-sentence cards
-# that merely use <br> to separate flowing sentences are deliberately untouched.
+# It fires ONLY on genuine list layouts, and "is this a list?" has exactly ONE definition:
+# check_cards.list_shaped(). It lives there (the rules module) and is imported here so the
+# REPAIRER and the WARNING can never disagree. They previously held separate copies of the
+# same predicate and therefore the same bug — an all()-veto that let one long row silence
+# both — which is how 12 packed cards reached Parker's review (2026-07-30).
 _CLOZE_ANY = re.compile(r"\{\{c\d+::(.*?)(?:::(.*?))?\}\}")
-ROW_RESIDUE_MAX = 8
 
-
-def _is_row(seg):
-    if not _CLOZE_ANY.search(seg):
-        return False
-    residue = re.sub(r"\s+", " ", _CLOZE_ANY.sub("", seg)).strip()
-    residue = re.sub(r"^\s*(?:\d+[.)]|[-•*])\s*", "", residue)  # "1." / "-" are layout, not prose
-    return len(residue.split()) <= ROW_RESIDUE_MAX
+from check_cards import list_shaped  # noqa: E402  (same dir; no import-time side effects)
 
 
 def listify(text):
     """Blank line between the rows of a list-shaped Text. Idempotent; leaves prose alone."""
     if not text or "<img" in text.lower() or not re.search(r"<br", text, re.I):
         return text
-    segs = [s.strip() for s in _BR_RUN.split(text) if s.strip()]
-    if len(segs) < 2:
+    if not list_shaped(text):
         return text
-    if sum(1 for s in segs if _is_row(s)) < 2:
-        return text
-    if not all(_is_row(s) for s in segs[1:]):   # a lead-in may head the list; nothing else
-        return text
-    return "<br><br>".join(segs)
+    return "<br><br>".join(s.strip() for s in _BR_RUN.split(text) if s.strip())
 
 
 def call(action, **params):

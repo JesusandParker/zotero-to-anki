@@ -1,0 +1,529 @@
+{
+ "teaches": [
+  {
+   "card_index": 52,
+   "text": "{{c1::Patient care handover}} is the transfer of {{c2::pertinent patient information}}  and  {{c2::responsibil",
+   "figure": "FIGURE 4-9",
+   "file": "figures/study/FIGURE_4_9.jpg",
+   "native_file": "figures/FIGURE_4_9.jpg",
+   "coverage": 0.667,
+   "page_dist": 2,
+   "matched_terms": [
+    "care",
+    "handover",
+    "patient",
+    "responsibility"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 29,
+   "text": "Everything an EMT does communicates something, so your {{c2::body language}} must reflect your words. People c",
+   "figure": "FIGURE 4-4",
+   "file": "figures/study/FIGURE_4_4.jpg",
+   "native_file": "figures/FIGURE_4_4.jpg",
+   "coverage": 0.5,
+   "page_dist": 2,
+   "matched_terms": [
+    "body",
+    "language"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 57,
+   "text": "In the EMS-modified version of SBAR ({{c1::SBAT::acronym}}), the final component becomes {{c1::Treatment::comp",
+   "figure": "FIGURE 4-9",
+   "file": "figures/study/FIGURE_4_9.jpg",
+   "native_file": "figures/FIGURE_4_9.jpg",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "sbat"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 86,
+   "text": "A {{c1::mobile radio::radio type}} is installed {{c2::in a vehicle::where}} and usually operates at {{c3::lowe",
+   "figure": "FIGURE 4-15",
+   "file": "figures/study/FIGURE_4_15.jpg",
+   "native_file": "figures/FIGURE_4_15.jpg",
+   "coverage": 0.5,
+   "page_dist": 2,
+   "matched_terms": [
+    "mobile",
+    "radio"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 88,
+   "text": "A {{c1::repeater}} is a special {{c3::base station::radio class}} radio that receives messages on one frequenc",
+   "figure": "FIGURE 4-17",
+   "file": "figures/study/FIGURE_4_17.jpg",
+   "native_file": "figures/FIGURE_4_17.jpg",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "base",
+    "repeater",
+    "station"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 97,
+   "text": "A {{c1::mobile data terminal (MDT)::equipment}} is a small computer terminal inside the ambulance or other veh",
+   "figure": "FIGURE 4-18",
+   "file": "figures/study/FIGURE_4_18.jpg",
+   "native_file": "figures/FIGURE_4_18.jpg",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "data",
+    "mdt",
+    "mobile",
+    "terminal"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  }
+ ],
+ "context": [
+  {
+   "card_index": 60,
+   "text": "A {{c1::patient care report (PCR)}} is the {{c2::legal::legal/medical/administrative}} document used to record",
+   "figure": "FIGURE 4-9",
+   "file": "figures/study/FIGURE_4_9.jpg",
+   "native_file": "figures/FIGURE_4_9.jpg",
+   "coverage": 0.444,
+   "page_dist": 2,
+   "matched_terms": [
+    "care",
+    "hospital",
+    "patient",
+    "report"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 83,
+   "text": "A car-crash patient with neck pain accepts treatment and transport but refuses a cervical collar. Provide {{c1",
+   "figure": "FIGURE 4-14",
+   "file": "figures/study/FIGURE_4_14.jpg",
+   "native_file": "figures/FIGURE_4_14.png",
+   "coverage": 0.375,
+   "page_dist": 1,
+   "matched_terms": [
+    "care",
+    "medical",
+    "refusal"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": true,
+   "tier": "context"
+  },
+  {
+   "card_index": 64,
+   "text": "The {{c1::narrative::PCR section}} is arguably the {{c2::most important}} portion of the patient care report \u2014",
+   "figure": "FIGURE 4-11",
+   "file": "figures/study/FIGURE_4_11.jpg",
+   "native_file": "figures/FIGURE_4_11.jpg",
+   "coverage": 0.333,
+   "page_dist": 2,
+   "matched_terms": [
+    "narrative"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 90,
+   "text": "A cellular telephone is effectively a {{c1::low-power portable radio::device class}} that communicates through",
+   "figure": "FIGURE 4-17",
+   "file": "figures/study/FIGURE_4_17.jpg",
+   "native_file": "figures/FIGURE_4_17.jpg",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "radio",
+    "repeater"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 38,
+   "text": "A previously sharp 85-year-old suddenly becomes confused and irritable, and his family says he is \"just gettin",
+   "figure": "FIGURE 4-5",
+   "file": "figures/study/FIGURE_4_5.jpg",
+   "native_file": "figures/FIGURE_4_5.jpg",
+   "coverage": 0.25,
+   "page_dist": 1,
+   "matched_terms": [
+    "medical"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 105,
+   "text": "An EMT's  radio patient report  commonly includes 10 elements, in order:  1. {{c1::Unit ID and service level}}",
+   "figure": "FIGURE 4-20",
+   "file": "figures/study/FIGURE_4_20.jpg",
+   "native_file": "figures/FIGURE_4_20.jpg",
+   "coverage": 0.207,
+   "page_dist": 0,
+   "matched_terms": [
+    "chief",
+    "complaint",
+    "given",
+    "patient",
+    "receiving",
+    "report"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 53,
+   "text": " Giving  a handover report follows a five-point method, in order:  1. {{c1::Initiate eye contact}}  2. {{c1::M",
+   "figure": "FIGURE 4-9",
+   "file": "figures/study/FIGURE_4_9.jpg",
+   "native_file": "figures/FIGURE_4_9.jpg",
+   "coverage": 0.182,
+   "page_dist": 2,
+   "matched_terms": [
+    "report",
+    "structured"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 45,
+   "text": "Managing a patient who has a guide dog: Patient stable \u2192 {{c1::transport the dog with the patient::Stable}} Pa",
+   "figure": "FIGURE 4-8",
+   "file": "figures/study/FIGURE_4_8.jpg",
+   "native_file": "figures/FIGURE_4_8.jpg",
+   "coverage": 0.167,
+   "page_dist": 0,
+   "matched_terms": [
+    "dog"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 82,
+   "text": "A refusal-of-care PCR documents 4 things:  {{c1::the advice you gave about the risks of refusing}}  {{c1::clin",
+   "figure": "FIGURE 4-14",
+   "file": "figures/study/FIGURE_4_14.jpg",
+   "native_file": "figures/FIGURE_4_14.png",
+   "coverage": 0.15,
+   "page_dist": 0,
+   "matched_terms": [
+    "care",
+    "medical",
+    "patient"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": true,
+   "tier": "context"
+  },
+  {
+   "card_index": 55,
+   "text": "A handover's verbal report should carry {{c1::only the immediately critical information}}, with the numerous o",
+   "figure": "FIGURE 4-9",
+   "file": "figures/study/FIGURE_4_9.jpg",
+   "native_file": "figures/FIGURE_4_9.jpg",
+   "coverage": 0.143,
+   "page_dist": 2,
+   "matched_terms": [
+    "report"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 44,
+   "text": "Five steps to communicate with a patient who is hard of hearing:  1. {{c1::keep paper and a pen ready to write",
+   "figure": "FIGURE 4-7",
+   "file": "figures/study/FIGURE_4_7.jpg",
+   "native_file": "figures/FIGURE_4_7.jpg",
+   "coverage": 0.125,
+   "page_dist": 1,
+   "matched_terms": [
+    "learn",
+    "phrases",
+    "simple"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 0,
+   "text": "{{c1::Therapeutic communication::approach}} uses both {{c2::verbal}} and {{c2::nonverbal}} techniques to encou",
+   "figure": "FIGURE 4-1",
+   "file": "figures/study/FIGURE_4_1.jpg",
+   "native_file": "figures/FIGURE_4_1.png",
+   "coverage": 0.1,
+   "page_dist": 2,
+   "matched_terms": [
+    "communication"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 100,
+   "text": "Across the 6 phases of an EMS call, a unit typically radios  dispatch  to: Initial receipt of call (2) \u2192 {{c1:",
+   "figure": "FIGURE 4-19",
+   "file": "figures/study/FIGURE_4_19.jpg",
+   "native_file": "figures/FIGURE_4_19.jpg",
+   "coverage": 0.087,
+   "page_dist": 1,
+   "matched_terms": [
+    "call",
+    "unit"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 58,
+   "text": " Receiving  a handover report follows a five-point method, in order:  1. {{c1::Maintain eye contact}}  2. {{c1",
+   "figure": "FIGURE 4-9",
+   "file": "figures/study/FIGURE_4_9.jpg",
+   "native_file": "figures/FIGURE_4_9.jpg",
+   "coverage": 0.083,
+   "page_dist": 1,
+   "matched_terms": [
+    "patient"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 92,
+   "text": "EMS radio transmission modes and the capability that defines each:   Simplex  \u2014 {{c1::one direction at a time ",
+   "figure": "FIGURE 4-18",
+   "file": "figures/study/FIGURE_4_18.jpg",
+   "native_file": "figures/FIGURE_4_18.jpg",
+   "coverage": 0.059,
+   "page_dist": 2,
+   "matched_terms": [
+    "data"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 31,
+   "text": " Emotional intelligence  \u2014 the ability to {{c2::identify, understand, and manage::3 verbs}} your own emotions ",
+   "figure": "FIGURE 4-4",
+   "file": "figures/study/FIGURE_4_4.jpg",
+   "native_file": "figures/FIGURE_4_4.jpg",
+   "coverage": 0.053,
+   "page_dist": 2,
+   "matched_terms": [
+    "your"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 26,
+   "text": "When interviewing a patient, an EMT should  avoid  8 improper interview techniques:  {{c1::giving false hope o",
+   "figure": "FIGURE 4-3",
+   "file": "figures/study/FIGURE_4_3.jpg",
+   "native_file": "figures/FIGURE_4_3.jpg",
+   "coverage": 0.045,
+   "page_dist": 0,
+   "matched_terms": [
+    "using"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 7,
+   "text": "Facing a hostile patient, stand with your {{c1::palms facing out::hand position}} \u2014 a stance that communicates",
+   "figure": "FIGURE 4-2",
+   "file": "figures/study/FIGURE_4_2.jpg",
+   "native_file": "figures/FIGURE_4_2.jpg",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": true,
+   "tier": "context"
+  },
+  {
+   "card_index": 27,
+   "text": "During patient questioning, an EMT asks, \"You're not having any trouble breathing, right?\" Which  improper  in",
+   "figure": "FIGURE 4-3",
+   "file": "figures/study/FIGURE_4_3.jpg",
+   "native_file": "figures/FIGURE_4_3.jpg",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 46,
+   "text": "When taking a history from a patient who speaks little English, help them understand by {{c1::pointing to spec",
+   "figure": "FIGURE 4-8",
+   "file": "figures/study/FIGURE_4_8.jpg",
+   "native_file": "figures/FIGURE_4_8.jpg",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 65,
+   "text": "A PCR narrative should tell the story and present a clear, detailed picture of three things: {{c1::what you fo",
+   "figure": "FIGURE 4-12",
+   "file": "figures/study/FIGURE_4_12.jpg",
+   "native_file": "figures/FIGURE_4_12.jpg",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 85,
+   "text": "Most  VHF  mobile radios operate {{c1::between 30 and 300 MHz::range}}, whereas  UHF  mobile radios operate {{",
+   "figure": "FIGURE 4-15",
+   "file": "figures/study/FIGURE_4_15.jpg",
+   "native_file": "figures/FIGURE_4_15.jpg",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 87,
+   "text": "Communications from a  mobile radio  are typically limited to {{c1::10 to 15 miles::range}} over average terra",
+   "figure": "FIGURE 4-15",
+   "file": "figures/study/FIGURE_4_15.jpg",
+   "native_file": "figures/FIGURE_4_15.jpg",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 89,
+   "text": "With {{c1::telemetry::transmission process}}, electronic signals are converted into {{c2::coded, audible signa",
+   "figure": "FIGURE 4-17",
+   "file": "figures/study/FIGURE_4_17.jpg",
+   "native_file": "figures/FIGURE_4_17.jpg",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 98,
+   "text": "When you are on scene, hearing the dispatcher or hospital clearly does {{c1::not::does/does not}} mean you wil",
+   "figure": "FIGURE 4-18",
+   "file": "figures/study/FIGURE_4_18.jpg",
+   "native_file": "figures/FIGURE_4_18.jpg",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 99,
+   "text": "{{c1::Paging::alerting method}} is the use of a {{c2::coded tone or digital radio signal}} and a {{c2::voice o",
+   "figure": "FIGURE 4-19",
+   "file": "figures/study/FIGURE_4_19.jpg",
+   "native_file": "figures/FIGURE_4_19.jpg",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  }
+ ],
+ "skipped": [],
+ "mode": "generous"
+}

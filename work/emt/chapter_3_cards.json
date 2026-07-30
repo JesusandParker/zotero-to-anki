@@ -288,7 +288,7 @@
   "image": null
  },
  {
-  "Text": "A winning plaintiff can be awarded two types of damages:<br>{{c1::Compensatory::type}} damages address the plaintiff's own {{c2::economic}} and {{c2::noneconomic}} losses.<br>{{c1::Punitive::type}} damages are reserved for a defendant's intentional or reckless conduct.",
+  "Text": "A winning plaintiff can be awarded two types of damages:<br><br>{{c1::Compensatory::type}} damages address the plaintiff's own {{c2::economic}} and {{c2::noneconomic}} losses.<br><br>{{c1::Punitive::type}} damages are reserved for a defendant's intentional or reckless conduct.",
   "Back Extra": "Meaning: compensatory damages repay the plaintiff for the injuries sustained.<br><br>Ex: economic losses = medical bills, damaged personal property, lost earnings.<br><br>Ex: noneconomic losses = physical or emotional pain and suffering. <br><br>[sound:hypertts-9946013622e307e9f0fad8642aed8b888fdf1a183ebaf68da0706395.mp3]",
   "source": "emt",
   "segment": 3,
@@ -304,7 +304,7 @@
   "image": null
  },
  {
-  "Text": "Two legal presumptions attach to EMS reports and records:<br>An action <b>not</b> recorded on the written report is presumed {{c1::not performed::performed/not performed}}.<br>An incomplete or untidy report is evidence of {{c2::incomplete or inexpert::2 care flaws}} emergency medical care.",
+  "Text": "Two legal presumptions attach to EMS reports and records:<br><br>An action <b>not</b> recorded on the written report is presumed {{c1::not performed::performed/not performed}}.<br><br>An incomplete or untidy report is evidence of {{c2::incomplete or inexpert::2 care flaws}} emergency medical care.",
   "Back Extra": "Why: without a record you must testify from memory alone, which is wholly inadequate and embarrassing under aggressive cross-examination.<br><br>Cue: \"not documented, not done\" and \"sloppy chart, sloppy care.\"<br><br>Pitfall: \"I did it but didn't chart it\" fails in court; the only defense against both presumptions is a complete, accurate report on every patient contact.",
   "source": "emt",
   "segment": 3,
@@ -368,7 +368,7 @@
   "image": null
  },
  {
-  "Text": "Before a tough ethical call, an EMT can run the six-question ethical decision-making checklist (mnemonic <b>ETHICS</b>):<br>Would you agree if you were the {{c1::patient}}?<br>Is it in the patient's {{c1::best interest}}?<br>Is it based on {{c1::logic and reason}} rather than emotion?<br>Does it protect the patient's {{c1::rights}}?<br>Would you make the same decision {{c1::again}} in similar circumstances?<br>Can you {{c1::defend}} the decision to others?",
+  "Text": "Before a tough ethical call, an EMT can run the six-question ethical decision-making checklist (mnemonic <b>ETHICS</b>):<br><br>Would you agree if you were the {{c1::patient}}?<br><br>Is it in the patient's {{c1::best interest}}?<br><br>Is it based on {{c1::logic and reason}} rather than emotion?<br><br>Does it protect the patient's {{c1::rights}}?<br><br>Would you make the same decision {{c1::again}} in similar circumstances?<br><br>Can you {{c1::defend}} the decision to others?",
   "Back Extra": "Mnemonic: <b>ETHICS</b> —<br><br>E = Empathy (agree if I were the patient?)<br><br>T = Their best interest?<br><br>H = Head over heart (logic, not emotion?)<br><br>I = Individual's rights protected?<br><br>C = Consistent (decide the same again?)<br><br>S = Stand behind it (defend to others?)<br><br>Pitfall: don't wrestle a hard ethical call alone — involve online medical control in the decision.",
   "source": "emt",
   "segment": 3,
@@ -440,12 +440,15 @@
   "image": null
  },
  {
-  "Text": "Before you transfer care or leave a patient, run <b>8</b> self-check questions:<br><br>What {{c1::problems}} may develop from your actions?<br><br>How might the patient's condition {{c1::worsen}} if you leave?<br><br>Does the patient {{c1::need care}}?<br><br>Are you neglecting your {{c1::duty}}?<br><br>Is the person assuming care {{c1::capable}}?<br><br>Are you {{c1::abandoning}} the patient?<br><br>Are you violating a {{c1::standard of care}}?<br><br>Are you acting {{c1::prudently}}?",
-  "Back Extra": "Cue: chunk the eight into consequences (problems, worsening), the patient (need for care), the receiver (capable?), and your own conduct (duty, abandonment, standard of care, prudence).<br><br>Why: each question tests whether leaving would breach the duty you assumed the moment care began.",
+  "Text": "You turn two injured patients over to an untrained passerby so you can reach a second crash. This may be {{c1::abandonment::the legal claim}}, because the test is not whether you left, but whether the person assuming care was {{c2::trained and competent for those patients' needs}}.",
+  "Back Extra": "Cue: before you transfer care or leave, ask — what problems may develop from your actions? How might the condition worsen if you leave? Does the patient need care? Are you neglecting your duty? Is the person assuming care capable? Are you abandoning the patient? Are you violating a standard of care? Are you acting prudently?<br><br>Pitfall: abandonment can also happen at the ED, by failing to give receiving staff a report of your findings and the care you provided.",
   "source": "emt",
   "segment": 3,
   "needs_human_check": false,
-  "image": null
+  "image": null,
+  "from_idx": [
+   48
+  ]
  },
  {
   "Text": "Before leaving the scene of a refusal, you should:<br><br>{{c1::encourage the patient again, up to three times, to permit treatment}}<br><br>{{c1::remind them to call 9-1-1 if they change their mind or worsen}}<br><br>{{c1::advise them to contact a personal physician}}",
@@ -480,7 +483,7 @@
   "image": null
  },
  {
-  "Text": "Name the negligence element each description matches:<br>An obligation to provide care per the standard set by training and local protocols = {{c1::duty}}<br>Not acting within an expected and reasonable standard of care = {{c1::breach of duty}}<br>Noticeable physical or psychological harm to the patient = {{c1::damages}}<br>A reasonable cause-and-effect link between the failure in care and the harm suffered = {{c1::causation}}",
+  "Text": "Name the negligence element each description matches:<br><br>An obligation to provide care per the standard set by training and local protocols = {{c1::duty}}<br><br>Not acting within an expected and reasonable standard of care = {{c1::breach of duty}}<br><br>Noticeable physical or psychological harm to the patient = {{c1::damages}}<br><br>A reasonable cause-and-effect link between the failure in care and the harm suffered = {{c1::causation}}",
   "Back Extra": "Ex: dropping a patient during lifting and fracturing his leg — the drop directly causes the fracture, tying the elements together.<br><br>Distinguish: <i>damages</i> is the harm itself; <i>causation</i> is the link between the substandard act and that harm.",
   "source": "emt",
   "segment": 3,

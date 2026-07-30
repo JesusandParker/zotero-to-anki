@@ -231,6 +231,106 @@ CASES = [
                    "Back Extra": "Why: reversing on a live roadway is the highest-risk manoeuvre.", "chapter": 2}],
         "note": "two flowing sentences separated by <br> — must stay untouched",
     },
+    # --- R14 (2026-07-30 hole): one long row must not veto the whole list ---
+    {
+        "id": "r14_bad_one_long_row_does_not_veto",
+        "warn": "LIST of things to produce", "present": True,
+        "cards": [{"Text": "Before a tough ethical call, an EMT can run the six-question checklist:<br>Would you agree if you were the {{c1::patient}}?<br>Is it in the patient's {{c1::best interest}}?<br>Is it based on {{c1::logic and reason}} rather than emotion?<br>Would you make the same decision {{c1::again}} in similar circumstances?<br>Can you {{c1::defend}} the decision to others?",
+                   "Back Extra": "Mnemonic: ETHICS.", "chapter": 3}],
+        "note": "row 4 carries 9 residual words; the old all()-veto let it silence the whole card",
+    },
+    {
+        "id": "r14_bad_mixed_spacing_is_still_packed",
+        "warn": "LIST of things to produce", "present": True,
+        "cards": [{"Text": "The upper airway ends at the {{c2::larynx}}:<br><br>{{c1::Nasopharynx}} — above the soft palate<br>{{c1::Oropharynx}} — down to the hyoid bone<br>{{c1::Laryngopharynx}} — the lowest section",
+                   "Back Extra": "Cue: nose, mouth, voice box.", "chapter": 6}],
+        "note": "one spaced gap + two packed ones — the old 'contains <br><br>' test called this fine",
+    },
+    {
+        "id": "r14_good_colon_lead_in_with_one_row_only",
+        "warn": "LIST of things to produce", "present": False,
+        "cards": [{"Text": "The EMT's first duty at any scene is simple:<br>confirm the scene is {{c1::safe}} before you approach.",
+                   "Back Extra": "Why: a second patient helps no one.", "chapter": 2}],
+        "note": "a colon lead-in heading ONE line is not a list — signal 1 needs >=2 rows",
+    },
+    # --- R15: a row label that restates its own answer (Parker 2026-07-30, radio card) ---
+    {
+        "id": "r15_bad_label_restates_answer",
+        "warn": "row label", "present": True,
+        "cards": [{"Text": "Across the phases of an EMS call, a unit radios <b>dispatch</b> to:<br><br>Arrival at hospital or point of transfer → {{c1::notify dispatch of arrival}}<br><br>En route → request {{c1::assistance with directions}}",
+                   "Back Extra": "Why: keep the channel clear.", "chapter": 4}],
+        "note": "the label IS the answer — 'you're giving away the answer while trying to give me a hint'",
+    },
+    {
+        "id": "r15_good_match_row_label_is_a_real_cue",
+        "warn": "row label", "present": False,
+        "cards": [{"Text": "Name the negligence element each description matches:<br><br>An obligation to provide care per the standard set by training = {{c1::duty}}<br><br>Noticeable physical or psychological harm to the patient = {{c1::damages}}",
+                   "Back Extra": "Pitfall: all four elements must be present at once.", "chapter": 3}],
+        "note": "a classify row's description legitimately CUES the answer without restating it",
+    },
+    {
+        "id": "r15_good_two_way_definition_has_no_row_label",
+        "warn": "row label", "present": False,
+        "cards": [{"Text": "{{c1::Licensure::term}} is {{c2::the legal authority to practice}}.",
+                   "Back Extra": "Distinguish: certification attests to training.", "chapter": 1}],
+    },
+    # --- R16: absolute statement + lone unhinted blank (Parker 2026-07-30, 'old age') ---
+    {
+        "id": "r16_bad_absolute_open_blank",
+        "warn": "absolute/prohibition", "present": True,
+        "cards": [{"Text": "You must <b>never</b> attribute a patient's altered mental status to {{c1::old age}}.",
+                   "Back Extra": "Why: altered mental status has treatable causes that must be found.", "chapter": 4}],
+        "note": "'sad', 'skin color', 'being tired' all fit the blank — nothing visible forces old age",
+    },
+    {
+        "id": "r16_good_contrast_tail_forces_the_answer",
+        "warn": "absolute/prohibition", "present": False,
+        "cards": [{"Text": "In medical directional terms, 'right' and 'left' always refer to the {{c1::patient's}} perspective, not the provider's.",
+                   "Back Extra": "Pitfall: the patient's right is on your left.", "chapter": 5}],
+        "note": "'not the provider's' names the rejected alternative — the blank is forced, not open",
+    },
+    {
+        "id": "r16_good_slot_label_hint_constrains_it",
+        "warn": "absolute/prohibition", "present": False,
+        "cards": [{"Text": "You must <b>never</b> attribute a patient's altered mental status to {{c1::old age::a patient characteristic}}.",
+                   "Back Extra": "Why: altered mental status has treatable causes that must be found.", "chapter": 4}],
+        "note": "the fix Parker asked for himself — a hint that labels the slot without leaking it",
+    },
+    {
+        "id": "r16_good_sibling_cloze_anchors_it",
+        "warn": "absolute/prohibition", "present": False,
+        "cards": [{"Text": "In an older patient with altered mental status, always assume {{c1::an underlying treatable cause}} — never {{c2::normal aging}}.",
+                   "Back Extra": "Pitfall: dismissing new confusion as aging misses a reversible problem.", "chapter": 4}],
+    },
+    # --- R17: an announced list whose items are visible, with a filler word clozed ---
+    {
+        "id": "r17_bad_visible_frames_fragment_clozed",
+        "warn": "rows of this list are VISIBLE", "present": True,
+        "cards": [{"Text": "Before you transfer care or leave a patient, run <b>8</b> self-check questions:<br><br>What {{c1::problems}} may develop from your actions?<br><br>How might the patient's condition {{c1::worsen}} if you leave?<br><br>Does the patient {{c1::need care}}?<br><br>Are you neglecting your {{c1::duty}}?<br><br>Is the person assuming care {{c1::capable}}?<br><br>Are you {{c1::abandoning}} the patient?<br><br>Are you violating a {{c1::standard of care}}?<br><br>Are you acting {{c1::prudently}}?",
+                   "Back Extra": "Why: each question tests whether leaving would breach your duty.", "chapter": 3}],
+        "note": "all 8 questions visible; one obvious word punched out of each — recognition, not recall",
+    },
+    {
+        "id": "r17_good_mnemonic_rows_are_the_answers",
+        "warn": "rows of this list are VISIBLE", "present": False,
+        "cards": [{"Text": "To take a <b>SAMPLE</b> history, gather:<br><br>{{c1::Signs and symptoms::S}}<br><br>{{c1::Allergies::A}}<br><br>{{c1::Medications::M}}<br><br>{{c1::Pertinent past medical history::P}}",
+                   "Back Extra": "Cue: the letters spell SAMPLE.", "chapter": 10}],
+        "note": "each row LEADS with its cloze — the item itself is the answer",
+    },
+    {
+        "id": "r17_good_classify_card_visible_side_is_the_cue",
+        "warn": "rows of this list are VISIBLE", "present": False,
+        "cards": [{"Text": "In a <b>SOAP</b> narrative, classify where each item is documented:<br><br>The patient describes his pain as sharp and burning = {{c1::Subjective::S/O/A/P}}<br><br>The respiratory rate you counted during your exam = {{c1::Objective::S/O/A/P}}<br><br>Your impression that he is having an allergic reaction = {{c1::Assessment::S/O/A/P}}",
+                   "Back Extra": "Pitfall: your impression is Assessment, not Objective.", "chapter": 4}],
+        "note": "a classify lead-in — the visible description IS the intended cue",
+    },
+    {
+        "id": "r17_good_item_and_descriptor_rows",
+        "warn": "rows of this list are VISIBLE", "present": False,
+        "cards": [{"Text": "The upper airway runs, in descending order:<br><br>{{c1::Nasopharynx}} — above the soft palate<br><br>{{c1::Oropharynx}} — from the soft palate to the hyoid bone<br><br>{{c1::Laryngopharynx}} — where food and air part ways",
+                   "Back Extra": "Cue: nose, mouth, then the split.", "chapter": 6}],
+        "note": "item-then-descriptor rows: the structure names ARE the recall target",
+    },
 ]
 
 

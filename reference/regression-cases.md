@@ -114,7 +114,94 @@ Parker answers a list card by first seeing **how many things he owes**, then pro
 - **GOOD:** the same card with `<br><br>` between every row, so four distinct answers are visible at a glance.
 - **MUST NOT OVER-FLAG — prose is not a list.** `At a vehicle crash, the first risk to consider is {{c1::traffic::hazard}}.<br>Ideally, park the ambulance so you can easily {{c2::leave::action}} the scene.` uses `<br>` to separate two flowing sentences. The discriminator is whether the lines after the lead-in are *rows*: a line carrying a cloze and almost no prose of its own (≤8 residual words; numbering and bullets count as layout, not prose). Measured across the live EMT deck: 43 cards restructured, 41 cards containing `<br>` correctly left alone.
 - **Catch test (both ways):** a lead-in plus ≥2 cloze-rows joined by single `<br>` → flag and repair; the same card already spaced → silent; multi-sentence prose using `<br>` → silent.
+- **R14b — the all()-veto hole (found 2026-07-30, hours after R14 shipped).** The first implementation asked `all(_is_list_row(s) for s in segs[1:])`, where a row is ≤8 residual words. **One long row therefore vetoed the entire card**, and because `listify()` and `packed_list_layout()` each held their own copy of the predicate, the repairer AND the warning went silent together — the defect was invisible from both directions. Twelve genuinely list-shaped live cards stayed packed, including the EMS-radio card Parker complained about the same day (3 of its 6 rows were "too wordy") and the ETHICS checklist (5 of 6 rows qualified; one 9-word row killed it). Reported as "43 restructured, 41 correctly left alone" — but some of that 41 were lists, not prose.
+  **Fix, three parts:** (1) a second, independent signal — a **colon-terminated lead-in heading ≥2 cloze-bearing lines** is a list, because the author literally announced one, and that beats any word count; (2) `_has_single_br_separator` replaces "contains no `<br><br>` anywhere", which had let a MIXED card (one spaced gap, two packed) pass as already-spaced; (3) `anki_write.listify()` now **imports `list_shaped` from `check_cards`** so the repairer and the warning can never drift apart again. **MUST NOT OVER-FLAG:** a colon lead-in heading only ONE row is not a list; prose with `<br>` between sentences still has no colon header and too much residue.
+  *Lesson:* a duplicated predicate is a single point of failure that reports itself as two independent confirmations. When code repairs something AND warns about it, both must read from one definition.
+
+---
+
+# Figure pipeline (R15–R17)
+
+These do not describe a bad *card* — they describe a way the figure pipeline can quietly
+produce the wrong picture, or none. They are executable in **`scripts/test_figures.py`**
+(run it alongside `test_regressions.py`; `smoke_test.sh` runs both). All three were found
+during the Chapter 4 figure run, 2026-07-30 — see `runs/emt/4/2026-07-30-figures/REPORT.md`.
+
+## R15 — Caption detection assumed a © credit line
+**Rule:** a caption only counts once a trailing rights line corroborates it, otherwise body prose opening *"FIGURE 4-9 shows…"* is indexed as a figure. **Caught by:** `build_figure_index.is_credit()`.
+
+Chapter 6 is illustrations, credited `© Jones & Bartlett Learning.` Chapter 4 is **photographs**, credited *"Courtesy of the Guide Dog Foundation for the Blind."* Matching only on `©` silently lost FIGURE 4-8 and 4-12 — and would lose more of any photo-heavy chapter.
+
+The obvious fix then caused a second regression. The looser wordings need a length guard so a sentence of prose cannot pose as a credit — but applying that guard to the `©` tier **dropped FIGURE 4-4**, because the extractor welds the credit onto the following paragraph (EMT p370 returns a 643-character block beginning `© Jones & Bartlett Learning. 7. Always speak slowly…`). Hence two tiers: a block **opening** with `©` is a credit at any length; the ambiguous forms are capped at 200 characters.
+
+- **MUST CATCH:** `© Jones & Bartlett Learning.` · the same welded to 600+ characters of body text · `Courtesy of…` · `Source:…` · `Modified from…` · panel-letter credits (`A, C: © Photodisc; B: …`).
+- **MUST NOT OVER-FLAG:** ordinary body prose · a long sentence that merely begins with the word *"Courtesy"* · a caption line itself.
+- **Catch test (both ways):** in `test_figures.py`, 7 credit forms must match and 4 non-credits must not.
+
+## R16 — A cached image adopted by a caption that has no art
+**Rule:** no art located means no index record — never fall back to whatever file already sits at that name. **Caught by:** `build_figure_index.save_art()` checking art *before* the cache.
+
+`save_art` returned a cached path whenever a file existed at that path, **even when no art was found**. So after any change that altered which captions resolve, a caption whose art stopped resolving silently inherited a stale image from the previous run: the figure count stayed flat while the index pointed at the wrong picture. This produced a phantom "47 figures" for Chapter 6 (the honest number is 45) and is the most dangerous class here, because it is invisible in every summary.
+
+- **MUST CATCH:** `save_art(art=None)` with a file already present at the target path → must return `None`, not the stale file.
+- **MUST NOT OVER-FLAG:** `save_art` with real art and a valid cached file → must still reuse the cache (rebuilding 45 plates per chapter is expensive).
+- **Catch test (both ways):** both directions asserted in `test_figures.py` against a temp file.
+
+## R17 — A re-run stacks a second figure instead of swapping
+**Rule:** a card carries ONE pipeline figure; improving the matcher and re-running must swap, never accumulate. **Caught by:** the "already carries a pipeline figure" guard in `attach_figures.py` (`--allow-multiple` / `--replace` opt in).
+
+Attaching is idempotent on *"is this exact file already here"*, which is too weak. After the crossref improvement changed which figure scored best, **six Chapter 6 cards silently gained a second picture** rather than exchanging one for the other. The outcome is only clutter — Parker's standing preference is to overshoot — but it was arrived at by accident rather than by decision, and that is the defect.
+
+- **MUST CATCH:** a Back Extra already containing `<img src="emt_…">` → do not append a different figure.
+- **MUST NOT OVER-FLAG:** a Back Extra containing only **Parker's own** pasted screenshot is *not* an existing pipeline figure — his image is never stripped, and it must not block the pipeline from adding its own (this is exactly the cranium card). A Back Extra with no image at all is untouched.
+- **Catch test (both ways):** all three states asserted in `test_figures.py`.
+
+## R15 — Row label restates its own answer (the label that leaks the blank it should cue)
+**Rule:** card-rules #20 + editor check #22. **Caught by:** `check_cards.py row_label_tautology` + the judge. Surfaced 2026-07-30 by Parker, studying EMT Chapter 4.
+
+In a `LABEL → {{answer}}` row the label is the blank's ONLY cue. When the label and the answer say the same thing, the row is a freebie wearing a hint's clothes.
+
+- **BAD:** `Arrival at hospital or point of transfer (1) → {{c1::notify dispatch of arrival}}` — the answer is the label with a verb bolted on. Same card, same defect: `Return to service (1) → notify dispatch when {{c1::the unit is available for another call}}` (returning to service *means* being available). Parker: "the return to service is the thing I'm supposed to say, so you're giving away the answer while trying to give me a hint."
+- **The mirror failure on the same card:** `Miscellaneous (1) → notify dispatch anytime the unit is {{c1::not in station}}` — a label that cues NOTHING is R9 open-set. Both live on one card, which is why the row is the right unit of review.
+- **GOOD:** keep only the rows whose message is not derivable from the label — `En route → request {{c1::assistance with directions}} or {{c1::additional resources}}`; `On scene → {{c1::check in periodically as a safety measure}}` — and drop the self-answering ones.
+- **MUST NOT OVER-FLAG:** a classify/match row whose visible description legitimately CUES the answer without restating it (`An obligation to provide care per the standard set by training = {{c1::duty}}`); and a two-way definition, which has no row label at all.
+- **Deliberately generous, and NOT suppressed on classify cards.** A shared word stem is evidence, not proof (`Initial receipt of call → acknowledge the call` shares "call" but still tests "acknowledge"), so this is a warning the judge clears. It stays live on match cards because a real leak can sit inside a correct one — EMT's blood-components card is a good match card with one bad row: `Clotting (coagulation) → {{c1::platelets and clotting factors in the plasma}}`.
+- **Catch test (both ways):** a row whose label shares a content-word stem with its own answer → flag; a classify row whose description merely points at the answer → silent.
+
+## R16 — Absolute statement with a lone unhinted blank (the first mechanical proxy for R9)
+**Rule:** card-rules #21 + editor check #23. **Caught by:** `check_cards.py open_set_absolute` + the judge. Surfaced 2026-07-30 by Parker, studying EMT Chapter 4.
+
+**Why this case exists at all:** R9 (open-set) was ruled mechanically undetectable in July — "no reliable mechanical proxy… enforced by the LLM judge + the cold-solve test" — and was therefore the ONE Cold-Solve rule with no code behind it. Chapters 4 and 6 were generated after that decision and the class walked straight back in. A rule that only a judge enforces is a rule that recurs. This does not decide R9 in general; it closes its highest-frequency disguise.
+
+- **BAD:** `You must never attribute a patient's altered mental status to {{c1::old age}}.` A *never / always / only* stem names a rule without constraining what the rule is about. Parker: "there are a lot of things I could fit in that blank… since there was no hint, no other cues, nothing else, how am I supposed to know it?" — *sadness*, *skin color*, *being tired* all fit.
+- **GOOD (three shapes, weakest to strongest):** a slot-label hint — `{{c1::old age::a patient characteristic}}` (the fix Parker proposed himself); a visible contrast naming the rejected alternative — `'right' and 'left' always refer to the {{c1::patient's}} perspective, not the provider's`; or the positive flip with the negation as a sibling cloze — `always assume {{c1::an underlying treatable cause}} — never {{c2::normal aging}}`.
+- **MUST NOT OVER-FLAG:** a hinted blank (the drafter constrained the slot), a numeric answer (self-constraining, and numeric-flagged separately), a sibling cloze that anchors the blank, and a contrast anchor AFTER the blank.
+- **Catch test (both ways):** one unhinted non-numeric blank in a sentence carrying an absolute, with no post-blank contrast → flag; any of the four anchors present → silent.
+
+## R17 — Fragment-clozed list (the items are visible; only filler is hidden)
+**Rule:** card-rules #22 + editor check #24. **Caught by:** `check_cards.py fragment_clozed_list` + the judge. Surfaced 2026-07-30 by Parker, studying EMT Chapter 3.
+
+The inverse of under-clozing (R1). R1 is a must-test fact left visible by oversight; this is the card **inverting** cue and answer on purpose — the knowledge is *which items are on the list*, all items are shown, and one guessable word is punched out of each. It trains recognition of frames Parker will never be asked to reproduce.
+
+- **BAD:** `run 8 self-check questions:` + all 8 questions visible, each missing a word — `Are you {{c1::abandoning}} the patient?`, `Are you neglecting your {{c1::duty}}?`, `Is the person assuming care {{c1::capable}}?`. Parker: "I can pretty much guess most of these and get it right… it doesn't actually help me remember this card, it just helps me remember the CONTEXT of the card." Its twin is the ETHICS six-question checklist.
+- **GOOD, in order:** cloze the items themselves if they are crisp (the SAMPLE shape); if they are too long to reproduce verbatim, **change the archetype** — test the organizing structure that makes the set derivable and keep the full list in the Back Extra; add 1–2 application vignettes on the highest-yield members.
+- **MUST NOT OVER-FLAG (two real neighbours):** a **classify/match** card (`description = {{c1::category}}`) — there the visible description IS the intended cue, and the lead-in says so in the imperative; and an **item-then-descriptor** row (`{{c1::Nasopharynx}} — above the soft palate`, every SAMPLE/SBAR mnemonic row) — there the row leads with its cloze, so the item already is the answer.
+- **Catch test (both ways):** ≥3 rows, none leading with its cloze, each hiding fewer words than it shows, no classify lead-in → flag; a mnemonic list, a classify card, or an item-then-descriptor list → silent.
 
 ---
 
 *To add a case: when Parker catches something new, record the BAD card, the GOOD fix, the rule it enforces, and the concrete catch test. Then confirm the checker or judge actually catches it before considering it closed.*
+
+## R18 — A caption's body is out of reach, so correct cards read as ungrounded
+**Rule:** Rule 1 (always ground in the page paragraph) + R13. **Caught by:** `check_cards.py` R13 grounding, once the context actually contains the body. Found 2026-07-30 when backfilled provenance turned R13 on for Chapter 4 for the first time.
+
+A highlighted TABLE/FIGURE caption is a *pointer*; the material is the body below it. Two separate cuts kept that body out of the mark's context, and both produced the same symptom: a **correct** card, whose text sits verbatim in the source, HARD-blocked as ungrounded.
+
+1. **The forward window was never widened for a caption.** `wants_next_page()` already treated a caption exactly like a list lead-in and fetched the following page — but `locate_context()` did not, so the extra page was fetched and then discarded by the 450-character default. EMT TABLE 4-3's context stopped mid-table at "Reflection", four rows short of the Empathy / Clarification / Confrontation / Interpretation rows that four blocked cards were built from.
+2. **A caption needs MORE reach than a list.** Raising it to the list budget (1,700) still blocked TABLE 4-7, whose caption sits at the top of p403: that page's own remaining 1,704 characters consume the whole budget before p404's "document the name of the facility… and the room number" row is reached. Captions now get `CAPTION_FWD_CHARS = 3800` — a caption's body is a whole table and routinely crosses a page break.
+
+The mirror-image failure, fixed with it: **`attach_figures.py` wrote the figure to Anki but not to the canon cards file.** The gate reads the file, so a card could be HARD-blocked for lacking precisely the visual evidence already sitting on it in the deck. It now writes `visual_source` back and clears the `.verified` stamp so the gate re-runs.
+
+- **MUST CATCH:** a card asserting a fact that is absent from its cited caption-mark's context and carries no visual evidence.
+- **MUST NOT OVER-FLAG:** a card whose fact *is* in the widened context (the six Chapter 4 cards) → clean; a card carrying an attached figure as `visual_source` → clean.
+- **Catch test (both ways):** re-extract Chapters 4 and 6 and gate them — both must reach **0 hard errors** and stamp. Before the fix Ch4 had 6. `smoke_test.sh` asserts the ch4 gate.

@@ -49,7 +49,19 @@
   "block": "A_planes_axial_skeleton",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "521"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_1.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-1"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The {{c1::axial}} skeleton comprises the {{c2::skull}}, {{c2::facial bones}}, {{c2::thoracic cage}}, and {{c2::vertebral column}}.",
@@ -62,7 +74,19 @@
   "block": "A_planes_axial_skeleton",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "526"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_2.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-2"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The {{c1::appendicular}} skeleton is the arms and legs plus their points of attachment to the axial skeleton, while the {{c2::pelvis}} includes portions of both skeletons.",
@@ -75,7 +99,19 @@
   "block": "A_planes_axial_skeleton",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "526"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_2.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-2"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "A {{c1::joint}} is {{c2::where two bones meet}}, and its name usually combines {{c3::the names of the two adjoining bones}}.",
@@ -88,7 +124,19 @@
   "block": "A_planes_axial_skeleton",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "527"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_3.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "{{c1::Ligaments}} connect {{c2::bone to bone}}, {{c1::tendons}} connect {{c2::muscle to bone}}, and {{c1::cartilage}} is the {{c2::cushion between bones}}.",
@@ -102,7 +150,19 @@
   "block": "A_planes_axial_skeleton",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "527"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_3.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "A {{c1::symphysis}} is a joint at which {{c2::only slight motion}} is possible.",
@@ -115,7 +175,19 @@
   "block": "A_planes_axial_skeleton",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "529"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_4.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-4"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The bone ends of a joint are held together by a fibrous sac called the {{c1::joint capsule}}, which is composed of {{c2::connective tissue}}.",
@@ -128,7 +200,19 @@
   "block": "A_planes_axial_skeleton",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "527"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_3.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "In moving joints, the bone ends are covered by a thin, pearly white layer called {{c1::articular cartilage}}, which lets them {{c2::glide easily}}.",
@@ -154,7 +238,19 @@
   "block": "A_planes_axial_skeleton",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "527"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_3.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The cranium is formed by the {{c1::frontal}}, {{c1::temporal}}, {{c1::parietal}}, {{c1::occipital}}, {{c1::ethmoid}}, and {{c1::sphenoid}} bones.",
@@ -167,7 +263,19 @@
   "block": "A_planes_axial_skeleton",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "531"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_6.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-6"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The {{c2::14}} facial bones include the upper jawbones, or {{c1::maxillae}}, the lower jawbone, or {{c1::mandible}}, and the cheek bones, or {{c1::zygomas}}.",
@@ -180,7 +288,19 @@
   "block": "A_planes_axial_skeleton",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "531"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_6.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-6"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The vertebral (spinal) column consists of {{c1::33}} vertebrae in five sections:<br><br>cervical {{c1::7}}<br><br>thoracic {{c1::12}}<br><br>lumbar {{c1::5}}<br><br>sacrum {{c1::5}}<br><br>coccyx {{c1::4}}",
@@ -232,7 +352,19 @@
   "block": "A_planes_axial_skeleton",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "534"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_8.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-8"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The {{c2::carpals}} are the {{c1::eight}} bones that form the wrist, and the {{c2::metacarpals}} are the {{c1::five}} bones that form the palm of the hand.",
@@ -249,9 +381,12 @@
     "536"
    ],
    "figures": [
-    "figures/p536.png"
+    "figures/study/FIGURE_6_10.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-10"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -267,7 +402,19 @@
   "block": "B_appendicular_muscle",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "538"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_11.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-11"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "Each coxa (hip bone) is formed by the fusion of three bones: {{c1::the ilium}}, {{c1::the ischium}}, and {{c1::the pubis}}.",
@@ -280,7 +427,19 @@
   "block": "B_appendicular_muscle",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "538"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_11.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-11"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The {{c1::pubic symphysis}} is the {{c2::cartilaginous joint}} that joins the left and right pubic bones and limits their movement.",
@@ -293,7 +452,19 @@
   "block": "B_appendicular_muscle",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "538"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_11.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-11"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The {{c1::femoral head}} is the {{c2::rounded superior end of the femur}}, and it seats into the acetabulum of the pelvis as a {{c3::ball-and-socket}} joint.",
@@ -310,9 +481,12 @@
     "538"
    ],
    "figures": [
-    "figures/p538.png"
+    "figures/study/FIGURE_6_11.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-11"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -330,12 +504,15 @@
   "image": null,
   "visual_source": {
    "pages": [
-    "539"
+    "541"
    ],
    "figures": [
-    "figures/p539.png"
+    "figures/study/FIGURE_6_12.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-12"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -351,7 +528,19 @@
   "block": "B_appendicular_muscle",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "542"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_13.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-13"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "On the foot, the {{c1::plantar}} surface is the {{c2::bottom, or sole}}, while the {{c1::dorsum (dorsal surface)}} is the {{c2::top}}.",
@@ -364,7 +553,19 @@
   "block": "B_appendicular_muscle",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "542"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_13.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-13"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "Skeletal muscles often work in {{c1::antagonistic pairs}}. The {{c2::biceps}} on the anterior humerus {{c3::flexes::flexes or extends}} the lower arm, while the {{c2::triceps}} on the posterior humerus {{c3::extends::flexes or extends}} it.",
@@ -379,12 +580,15 @@
   "image": null,
   "visual_source": {
    "pages": [
-    "548"
+    "546"
    ],
    "figures": [
-    "figures/p548.png"
+    "figures/study/FIGURE_6_14.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-14"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -404,9 +608,12 @@
     "548"
    ],
    "figures": [
-    "figures/p548.png"
+    "figures/study/FIGURE_6_15.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-15"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -426,9 +633,12 @@
     "548"
    ],
    "figures": [
-    "figures/p548.png"
+    "figures/study/FIGURE_6_15.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-15"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -448,9 +658,12 @@
     "548"
    ],
    "figures": [
-    "figures/p548.png"
+    "figures/study/FIGURE_6_15.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-15"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -470,9 +683,12 @@
     "548"
    ],
    "figures": [
-    "figures/p548.png"
+    "figures/study/FIGURE_6_15.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-15"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -492,15 +708,18 @@
     "548"
    ],
    "figures": [
-    "figures/p548.png"
+    "figures/study/FIGURE_6_15.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-15"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
  },
  {
-  "Text": "The upper airway runs, in descending order, through the three sections of the pharynx and ends at the {{c2::larynx (voice box)}}:<br><br>{{c1::Nasopharynx}} — above the soft palate<br>{{c1::Oropharynx}} — from the soft palate down to the hyoid bone<br>{{c1::Laryngopharynx}} — the lowest section, where food and air part ways",
+  "Text": "The upper airway runs, in descending order, through the three sections of the pharynx and ends at the {{c2::larynx (voice box)}}:<br><br>{{c1::Nasopharynx}} — above the soft palate<br><br>{{c1::Oropharynx}} — from the soft palate down to the hyoid bone<br><br>{{c1::Laryngopharynx}} — the lowest section, where food and air part ways",
   "Back Extra": "Distinguish: The larynx is <i>not</i> one of the pharynx's sections — the pharynx is only the nasopharynx, oropharynx, and laryngopharynx.<br><br>Pathway: At the laryngopharynx, food and liquid pass backward into the esophagus while air continues forward into the larynx and trachea.",
   "source": "emt",
   "segment": 6,
@@ -550,7 +769,19 @@
   "block": "C_resp_anatomy_control",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "557"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_18.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-18"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "During inhalation, the diaphragm and intercostal muscles both {{c1::contract::contract or relax}}. The diaphragm moves {{c1::down::up or down}}, enlarging the thoracic cage from top to bottom, while the intercostals move the ribs {{c1::up and out::up and out or down and in}}.",
@@ -578,7 +809,19 @@
   "block": "C_resp_anatomy_control",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "564"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_21.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-21"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The body's backup respiratory drive, the {{c1::hypoxic drive}}, stimulates breathing when the oxygen level falls, using oxygen sensors in three places — the {{c2::brain}}, the walls of the {{c2::aorta}}, and the {{c2::carotid arteries}}.",
@@ -604,7 +847,19 @@
   "block": "C_resp_anatomy_control",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "566"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_22.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-22"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The {{c1::pons}}, an area of the brainstem, augments breathing during emotional or physical stress by changing the {{c2::depth}} of inspiration, expiration, or both.",
@@ -647,9 +902,12 @@
     "569"
    ],
    "figures": [
-    "figures/p569.png"
+    "figures/study/FIGURE_6_23.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-23"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": true,
   "needs_human_check": true
@@ -670,9 +928,12 @@
     "569"
    ],
    "figures": [
-    "figures/p569.png"
+    "figures/study/FIGURE_6_23.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-23"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -762,7 +1023,19 @@
   "block": "D_lung_volumes",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "572"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_24.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-24"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "An unresponsive patient with no pulse appears to be breathing, taking occasional gasping breaths. What is your treatment? {{c1::artificial ventilations plus chest compressions}}",
@@ -775,7 +1048,19 @@
   "block": "D_lung_volumes",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "572"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_24.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-24"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The heart's {{c1::septum}} is the wall that divides it down the middle into {{c2::right and left}} sides.",
@@ -788,7 +1073,19 @@
   "block": "E_heart_vessels",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "575"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_25.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-25"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The adult <b>heart rate</b> depends on the situation:<br><br>at rest, {{c1::60 to 100 beats/min}}<br><br>at rest in a well-conditioned athlete, {{c1::45 to 60 beats/min}}<br><br>during vigorous physical activity, {{c1::as fast as 180 beats/min}}",
@@ -803,7 +1100,19 @@
   "block": "E_heart_vessels",
   "image": null,
   "numeric": true,
-  "needs_human_check": true
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "580"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_27.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-27"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "{{c1::Stroke volume (SV)}} is the amount of blood the heart moves {{c2::in one beat}}, which for an adult is {{c3::70 to 80 mL}}.",
@@ -870,7 +1179,19 @@
   "block": "E_heart_vessels",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "583"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_28.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-28"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The {{c1::tunica media}} is the {{c2::middle}} layer of the artery, formed from {{c2::smooth muscle}} that can contract and dilate to change the diameter of the blood vessel.",
@@ -883,7 +1204,19 @@
   "block": "E_heart_vessels",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "586"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_29.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-29"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "Name the branch of the <b>aorta</b> that supplies each organ:<br><br>heart: {{c1::coronary}}<br><br>head: {{c1::carotid}}<br><br>liver: {{c1::hepatic}}<br><br>kidneys: {{c1::renal}}<br><br>digestive system: {{c1::mesenteric}}",
@@ -896,7 +1229,19 @@
   "block": "E_heart_vessels",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "583"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_28.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-28"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "A {{c1::pulse}}, palpated most easily at the {{c2::neck}}, {{c2::wrist}}, or {{c2::groin}}, is created by the forceful pumping of blood out of the heart's {{c3::left ventricle}} into the major arteries.",
@@ -1148,7 +1493,19 @@
   "block": "F_blood_bp_perfusion",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "595"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_30.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-30"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "A loss of normal blood pressure indicates that blood is {{c1::no longer circulating efficiently}} to every organ in the body.",
@@ -1174,7 +1531,19 @@
   "block": "F_blood_bp_perfusion",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "595"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_30.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-30"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "As blood pressure falls after blood loss, the pulse {{c1::increases::increases or decreases}} in order to hold cardiac output constant at {{c2::5 to 6 L per minute::volume per time}}.",
@@ -1187,7 +1556,19 @@
   "block": "F_blood_bp_perfusion",
   "image": null,
   "numeric": true,
-  "needs_human_check": true
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "597"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_31.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-31"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "{{c1::Mean arterial pressure (MAP)}} is {{c2::the average arterial pressure during systole and diastole}}, and automated blood pressure monitors display it as a measure of perfusion that can detect {{c3::shock}}.",
@@ -1200,7 +1581,19 @@
   "block": "F_blood_bp_perfusion",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "597"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_31.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-31"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The equation for mean arterial pressure is {{c1::MAP = (HR × SV) × SVR}}, which simplifies to {{c2::MAP = CO × SVR}}.",
@@ -1213,7 +1606,19 @@
   "block": "F_blood_bp_perfusion",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "597"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_31.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-31"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "Inside a capillary, {{c1::hydrostatic}} pressure {{c3::pushes fluid out of}} the capillary, while {{c1::oncotic}} pressure, created by {{c2::proteins in the blood plasma}}, {{c3::pulls water back into}} it.",
@@ -1227,7 +1632,19 @@
   "block": "F_blood_bp_perfusion",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "599"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_32.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-32"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "Match each function of the blood to the component that carries it out:<br><br>Fights infection → {{c1::white blood cells}}<br><br>Transports oxygen → {{c1::red blood cells (hemoglobin)}}<br><br>Transports carbon dioxide → {{c1::plasma}}<br><br>Controls (buffers) pH → {{c1::chemicals within the plasma}}<br><br>Transports wastes and nutrients → {{c1::plasma (water)}}<br><br>Clotting (coagulation) → {{c1::platelets and clotting factors in the plasma}}",
@@ -1244,9 +1661,12 @@
     "599"
    ],
    "figures": [
-    "figures/p599.png"
+    "figures/study/FIGURE_6_32.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-32"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1266,12 +1686,15 @@
   "image": null,
   "visual_source": {
    "pages": [
-    "601"
+    "599"
    ],
    "figures": [
-    "figures/p601.png"
+    "figures/study/FIGURE_6_32.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-32"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1291,9 +1714,12 @@
     "601"
    ],
    "figures": [
-    "figures/p601.png"
+    "figures/study/TABLE_6_9.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "TABLE 6-9"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1313,9 +1739,12 @@
     "601"
    ],
    "figures": [
-    "figures/p601.png"
+    "figures/study/TABLE_6_9.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "TABLE 6-9"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1332,7 +1761,19 @@
   "block": "G_autonomic_cv",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "599"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_32.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-32"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The nervous system divides into the {{c1::central nervous system (CNS)}}, which is the {{c2::brain and spinal cord}}, and the {{c1::peripheral nervous system (PNS)}}, which is {{c2::every nerve outside the brain and spinal cord}}.",
@@ -1345,7 +1786,19 @@
   "block": "H_nervous_system",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "604"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_33.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-33"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The peripheral nervous system splits into the {{c1::somatic}} nervous system, which runs {{c2::voluntary}} activities such as walking and talking, and the {{c1::autonomic}} nervous system, which runs {{c2::involuntary}} ones such as digestion and sweating.",
@@ -1360,7 +1813,19 @@
   "block": "H_nervous_system",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "604"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_33.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-33"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The {{c1::cerebrum::brain subdivision}} is the largest part of the brain, about {{c2::three-fourths}} of it, and it runs the brain's higher functions: {{c3::sensory interpretation}}, {{c3::speech}}, {{c3::reasoning and learning}}, {{c3::fine motor control}}, and {{c3::managing emotions}}.",
@@ -1374,7 +1839,19 @@
   "block": "H_nervous_system",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "604"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_33.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-33"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The surface of the cerebrum is the {{c1::cortex}}, built from {{c2::neuron (nerve cell) bodies}} whose gray-brown color is why the cerebrum is sometimes called the {{c3::gray matter}}.",
@@ -1387,7 +1864,19 @@
   "block": "H_nervous_system",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "604"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_33.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-33"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The cerebrum divides into right and left {{c1::hemispheres}}, which divide further into {{c2::lobes}}, and in general each {{c1::hemisphere}} controls the {{c3::opposite::same or opposite}} side of the body.",
@@ -1400,7 +1889,19 @@
   "block": "H_nervous_system",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "605"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_34.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-34"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "Each cerebral hemisphere carries four lobes: the {{c1::frontal}}, {{c1::parietal}}, {{c1::temporal}}, and {{c1::occipital}}.",
@@ -1428,12 +1929,15 @@
   "image": null,
   "visual_source": {
    "pages": [
-    "607"
+    "604"
    ],
    "figures": [
-    "figures/p607.png"
+    "figures/study/FIGURE_6_33.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-33"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1451,12 +1955,15 @@
   "image": null,
   "visual_source": {
    "pages": [
-    "607"
+    "604"
    ],
    "figures": [
-    "figures/p607.png"
+    "figures/study/FIGURE_6_33.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-33"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1477,9 +1984,12 @@
     "607"
    ],
    "figures": [
-    "figures/p607.png"
+    "figures/study/TABLE_6_10.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "TABLE 6-10"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1500,9 +2010,12 @@
     "607"
    ],
    "figures": [
-    "figures/p607.png"
+    "figures/study/TABLE_6_10.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "TABLE 6-10"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1522,9 +2035,12 @@
     "607"
    ],
    "figures": [
-    "figures/p607.png"
+    "figures/study/TABLE_6_10.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "TABLE 6-10"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1544,9 +2060,12 @@
     "607"
    ],
    "figures": [
-    "figures/p607.png"
+    "figures/study/TABLE_6_10.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "TABLE 6-10"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1566,9 +2085,12 @@
     "607"
    ],
    "figures": [
-    "figures/p607.png"
+    "figures/study/TABLE_6_10.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "TABLE 6-10"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1584,7 +2106,19 @@
   "block": "H_nervous_system",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "605"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_34.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-34"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The {{c2::brainstem::brain subdivision}} is the {{c1::relay center}} connecting the cerebrum and cerebellum to the {{c1::spinal cord}}, and it controls virtually all {{c1::involuntary, life-sustaining}} functions.",
@@ -1597,7 +2131,19 @@
   "block": "H_nervous_system",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "605"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_34.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-34"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The <b>brainstem</b> has three parts:<br><br>{{c2::Midbrain}} controls {{c1::level of consciousness, muscle tone, and posture}}<br><br>{{c2::Pons}} controls {{c1::respiratory patterning and depth}}<br><br>{{c2::Medulla oblongata}} controls {{c1::heart rate, blood pressure, and respiratory rate}}",
@@ -1612,12 +2158,15 @@
   "image": null,
   "visual_source": {
    "pages": [
-    "607"
+    "604"
    ],
    "figures": [
-    "figures/p607.png"
+    "figures/study/FIGURE_6_33.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-33"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1635,7 +2184,19 @@
   "block": "H_nervous_system",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "605"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_34.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-34"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "{{c1::Cerebrospinal fluid (CSF)}} both filters out {{c2::impurities and toxins}} and {{c2::absorbs shocks}} delivered to the head.",
@@ -1652,9 +2213,12 @@
     "607"
    ],
    "figures": [
-    "figures/p607.png"
+    "figures/study/TABLE_6_10.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "TABLE 6-10"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1673,12 +2237,15 @@
   "image": null,
   "visual_source": {
    "pages": [
-    "607"
+    "609"
    ],
    "figures": [
-    "figures/p607.png"
+    "figures/study/FIGURE_6_35.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-35"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1709,7 +2276,19 @@
   "block": "H_nervous_system",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "609"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_35.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-35"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "Every skeletal muscle has its own {{c1::motor nerve::nerve type}}, which carries information {{c2::from the brain to the muscles::direction}}.",
@@ -1722,7 +2301,19 @@
   "block": "H_nervous_system",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "613"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_36.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-36"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The cell bodies of the motor neurons that drive skeletal muscle reside in the {{c1::spinal cord::structure}}.",
@@ -1762,12 +2353,15 @@
   "image": null,
   "visual_source": {
    "pages": [
-    "607"
+    "605"
    ],
    "figures": [
-    "figures/p607.png"
+    "figures/study/FIGURE_6_34.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-34"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1784,12 +2378,15 @@
   "image": null,
   "visual_source": {
    "pages": [
-    "607"
+    "605"
    ],
    "figures": [
-    "figures/p607.png"
+    "figures/study/FIGURE_6_34.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-34"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -1806,7 +2403,19 @@
   "block": "I_skin",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "613"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_36.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-36"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The exposed surface layer of the epidermis is the {{c1::stratum corneum}}.",
@@ -1858,7 +2467,19 @@
   "block": "I_skin",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "613"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_36.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-36"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "{{c1::Sebaceous glands}} lie next to the hair follicles and secrete {{c1::sebum}}, an oily substance that travels along the follicle to reach the skin surface.",
@@ -1871,7 +2492,19 @@
   "block": "I_skin",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "613"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_36.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-36"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "Wrinkles form with age because the {{c1::loss of subcutaneous tissue}} leaves the skin with less support from below.",
@@ -1884,7 +2517,19 @@
   "block": "I_skin",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "613"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_36.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-36"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The <b>digestive system</b>, also called the gastrointestinal system, is composed of 10 structures:<br><br>{{c1::the gastrointestinal tract (stomach and intestines)}}, {{c1::mouth}}, {{c1::salivary glands}}, {{c1::pharynx}}, {{c1::esophagus}}, {{c1::liver}}, {{c1::gallbladder}}, {{c1::pancreas}}, {{c1::rectum}}, and {{c1::anus}}.",
@@ -1910,7 +2555,19 @@
   "block": "J_abdomen_quadrants",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "620"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_37.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-37"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "In the <b>right upper quadrant (RUQ)</b>, the major organs are the {{c1::liver}}, the {{c1::gallbladder}}, and {{c1::a portion of the colon}}.",
@@ -1923,7 +2580,19 @@
   "block": "J_abdomen_quadrants",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "622"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_38.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-38"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "Most of the <b>liver</b> lies in the right upper quadrant, almost entirely under the protection of the {{c1::8th to 12th::rib numbers}} ribs.<br><br>The liver fills the entire {{c2::anteroposterior::directional term}} depth of the right upper quadrant, which puts the liver at risk for injury.",
@@ -1937,7 +2606,19 @@
   "block": "J_abdomen_quadrants",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "622"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_38.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-38"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "In the <b>left upper quadrant (LUQ)</b>, the major organs are the {{c1::stomach}}, the {{c1::spleen}}, and {{c1::a portion of the colon}}.",
@@ -1950,7 +2631,19 @@
   "block": "J_abdomen_quadrants",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "622"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_38.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-38"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The <b>spleen</b> lies in the lateral and posterior part of the left upper quadrant, under the diaphragm and immediately in front of the {{c1::9th to 11th::rib numbers}} ribs.<br><br>The <b>stomach</b>, by contrast, can sag well down into the {{c2::left lower quadrant::which quadrant}} when it is full.",
@@ -1964,7 +2657,19 @@
   "block": "J_abdomen_quadrants",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "622"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_38.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-38"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "A patient with blunt trauma to the left flank has fractures of the lower left ribs. Which abdominal organ should you suspect is injured? {{c1::the spleen::organ}}",
@@ -1977,7 +2682,19 @@
   "block": "J_abdomen_quadrants",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "622"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_38.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-38"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The <b>right lower quadrant (RLQ)</b> contains two portions of the large intestine: the {{c1::cecum}} and the {{c1::ascending colon}}.",
@@ -1990,7 +2707,19 @@
   "block": "J_abdomen_quadrants",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "622"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_38.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-38"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The <b>cecum</b> is the first portion of the large intestine, the part into which the {{c1::small intestine (ileum)::structure}} opens, and the {{c2::appendix::organ}} is a small tubular structure attached to the cecum's lower border.",
@@ -2003,7 +2732,19 @@
   "block": "J_abdomen_quadrants",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "622"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_38.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-38"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "In the <b>left lower quadrant (LLQ)</b> lie the {{c1::descending}} and {{c1::sigmoid}} portions of the colon.",
@@ -2020,9 +2761,12 @@
     "622"
    ],
    "figures": [
-    "figures/p622.png"
+    "figures/study/FIGURE_6_38.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-38"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": true
@@ -2039,7 +2783,19 @@
   "block": "J_abdomen_quadrants",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "622"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_38.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-38"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The <b>pancreas</b> lies just behind the abdominal cavity, on the posterior abdominal wall, in {{c1::both upper quadrants::which quadrants}}.",
@@ -2052,7 +2808,19 @@
   "block": "J_abdomen_quadrants",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "622"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_38.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-38"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The <b>urinary bladder</b> lies just behind the {{c1::pubic symphysis::bony landmark}} in the middle of the abdomen, which places it in {{c2::both lower quadrants and the pelvis::two quadrants plus a cavity}}.",
@@ -2065,7 +2833,19 @@
   "block": "J_abdomen_quadrants",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "622"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_38.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-38"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The {{c1::kidneys and pancreas}} are called {{c2::retroperitoneal::classification}} organs because they lie {{c3::behind the abdominal cavity}}, above the level of the umbilicus and extending from the {{c4::11th rib to the third lumbar vertebra::span}} on each side.",
@@ -2078,7 +2858,19 @@
   "block": "J_abdomen_quadrants",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "624"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_39.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-39"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The <b>kidneys</b> are approximately {{c1::5 inches (13 cm)::length}} long and lie just anterior to the {{c2::costovertebral angle::landmark}}.",
@@ -2104,7 +2896,19 @@
   "block": "J_abdomen_quadrants",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "622"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_38.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-38"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "A patient struck in the flank is tender at the junction of the lower rib cage and the spine. Name the organ lying just deep to that junction. {{c1::the kidney::organ}}",
@@ -2130,7 +2934,19 @@
   "block": "K_digestive_mouth_to_liver",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "622"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_38.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-38"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "During eating, the <b>soft palate</b> has two functions: {{c1::holding chewed food inside the mouth}} and {{c1::helping initiate swallowing}}.",
@@ -2143,10 +2959,22 @@
   "block": "K_digestive_mouth_to_liver",
   "image": null,
   "numeric": false,
-  "needs_human_check": true
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "624"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_39.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-39"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
-  "Text": "The <b>salivary glands</b> come in two sets:<br>one set {{c1::under the tongue}}, on each side of the mouth<br>the other set {{c1::in front of each ear}}",
+  "Text": "The <b>salivary glands</b> come in two sets:<br><br>one set {{c1::under the tongue}}, on each side of the mouth<br><br>the other set {{c1::in front of each ear}}",
   "Back Extra": "Why: saliva binds chewed food into a mass that can be swallowed, lubricates the mouth, and carries digestive enzymes, so digestion begins before food ever leaves the mouth.",
   "source": "emt",
   "segment": 6,
@@ -2278,7 +3106,7 @@
   "needs_human_check": false
  },
  {
-  "Text": "Besides rendering harmless the poisons produced by digestion, the <b>liver</b>:<br>forms the factors needed for {{c1::blood clotting}} and for normal {{c1::plasma}}<br>makes bile that digests {{c1::fat}}<br>is the body's primary store of {{c1::sugar or starch}} for immediate energy<br>produces factors that regulate {{c1::immune responses}}",
+  "Text": "Besides rendering harmless the poisons produced by digestion, the <b>liver</b>:<br><br>forms the factors needed for {{c1::blood clotting}} and for normal {{c1::plasma}}<br><br>makes bile that digests {{c1::fat}}<br><br>is the body's primary store of {{c1::sugar or starch}} for immediate energy<br><br>produces factors that regulate {{c1::immune responses}}",
   "Back Extra": "Why: the liver sits directly in the path of blood returning from the intestine, so everything absorbed from a meal, nutrients and poisons alike, is worked on there before it reaches the rest of the body.<br><br>Distinguish: the liver STORES the body's sugar, while the pancreas only regulates how much sugar is circulating in the blood.",
   "source": "emt",
   "segment": 6,
@@ -2624,12 +3452,15 @@
   "image": null,
   "visual_source": {
    "pages": [
-    "634"
+    "633"
    ],
    "figures": [
-    "figures/p634.png"
+    "figures/study/FIGURE_6_40.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-40"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -2649,9 +3480,12 @@
     "634"
    ],
    "figures": [
-    "figures/p634.png"
+    "figures/study/FIGURE_6_41.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-41"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -2668,12 +3502,15 @@
   "image": null,
   "visual_source": {
    "pages": [
-    "634"
+    "633"
    ],
    "figures": [
-    "figures/p634.png"
+    "figures/study/FIGURE_6_40.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-40"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -2690,12 +3527,15 @@
   "image": null,
   "visual_source": {
    "pages": [
-    "634"
+    "633"
    ],
    "figures": [
-    "figures/p634.png"
+    "figures/study/FIGURE_6_40.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-40"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -2715,9 +3555,12 @@
     "634"
    ],
    "figures": [
-    "figures/p634.png"
+    "figures/study/FIGURE_6_41.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-41"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -2737,9 +3580,12 @@
     "634"
    ],
    "figures": [
-    "figures/p634.png"
+    "figures/study/FIGURE_6_41.jpg"
    ],
-   "note": "table/figure body is not in the PDF text layer; the fact was read from the rendered page. Crop retained as evidence."
+   "labels": [
+    "FIGURE 6-41"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
   },
   "numeric": false,
   "needs_human_check": false
@@ -2755,7 +3601,19 @@
   "block": "M_lymph_endo_uro_repro",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "638"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_42.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-42"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "Blood flow through the kidneys is high — nearly {{c1::20%}} of the blood pumped out by the heart passes through the kidneys each minute.",
@@ -2781,7 +3639,19 @@
   "block": "M_lymph_endo_uro_repro",
   "image": null,
   "numeric": false,
-  "needs_human_check": true
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "638"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_42.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-42"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "{{c1::Peristalsis}} is the {{c2::wavelike contraction of smooth muscle}} that moves urine through the ureters into the bladder.",
@@ -2807,7 +3677,19 @@
   "block": "M_lymph_endo_uro_repro",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "642"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_43.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-43"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "The <b>female reproductive system</b> consists of five organs:<br><br>{{c1::ovaries}}<br><br>{{c1::fallopian tubes}}<br><br>{{c1::uterus}}<br><br>{{c1::cervix}}<br><br>{{c1::vagina}}",
@@ -2820,7 +3702,19 @@
   "block": "M_lymph_endo_uro_repro",
   "image": null,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "643"
+   ],
+   "figures": [
+    "figures/study/FIGURE_6_44.jpg"
+   ],
+   "labels": [
+    "FIGURE 6-44"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "{{c1::Aerobic metabolism::process}} is {{c2::energy production that uses oxygen::meaning}}, and its waste products are {{c3::carbon dioxide and water}}.",
