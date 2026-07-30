@@ -84,6 +84,25 @@ Each rule below cites a real failure so the reason is concrete. **Rule 0 gets re
 15. **Scenario→action cards: cloze the load-bearing words, not the whole clause.** A "what do you do next" vignette tends to hide an entire sentence (`{{c1::Park a heavy vehicle so it blocks traffic in that lane}}`) — an answer no one can recall verbatim (violates rule 5, crisp-cloze). Keep the situational stem visible and delete only the 1–3 words that carry the decision (`park a {{c1::heavy vehicle}}`).
     *Failure that created this rule (2026-07-01):* several Ch2 scenario cards (highway blocker, orient-the-patient, let-parents-hold-the-child) hid whole sentences. Fixed to crisp keyword clozes.
 
+19. **A list of things to produce must LOOK like a list — one item per line, blank line between.**
+    When a card's Text is a list of items Parker must produce (a lead-in, then the members), lay
+    the rows out with `<br><br>` between them, not a single `<br>`. Packed rows render as one grey
+    block and hide the single most useful piece of information on the front: **how many answers he
+    owes.** He answers these by first counting the blanks, then producing them.
+    - **BAD:** `The structured handover format <b>SBAR</b> stands for:<br>{{c1::Situation::S}}<br>{{c1::Background::B}}<br>{{c1::Assessment::A}}<br>{{c1::Recap/Rx::R}}`
+    - **GOOD:** the same card with `<br><br>` between every row, so four distinct blanks are visible at a glance.
+    - **Applies to** any layout where the lines after the lead-in are *rows* — a line carrying a
+      cloze and almost no prose of its own (numbering and bullets are layout, not prose). Numbered
+      protocols, grouped-reveal sets, mnemonic expansions, and contrast pairs all qualify.
+    - **Does NOT apply to prose.** A card that uses `<br>` to separate two flowing sentences is not
+      a list; leave it alone. The test is whether the lines are *parallel members of a set*.
+    - Mechanically guaranteed by `listify()` in `anki_write.py` (the Text-field twin of
+      `paragraphize()` for Back Extra), and warned by `check_cards.py`, so the spacing holds even
+      if a card is drafted tight. Regression **R14**.
+    *Preference that created this rule (2026-07-30):* Parker showed before/after screenshots of the
+    SBAR card — "for me to be able to be prompted to guess these questions and then immediately see
+    in a very clear way how many things I need to guess."
+
 ---
 
 ## The Cold-Solve Gate (rules 16–18) — read together, they are the anti-ambiguity core

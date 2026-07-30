@@ -183,7 +183,7 @@
   "needs_human_check": false
  },
  {
-  "Text": "The vertebral (spinal) column consists of {{c1::33}} vertebrae in five sections:<br><br>cervical {{c1::7}}<br>thoracic {{c1::12}}<br>lumbar {{c1::5}}<br>sacrum {{c1::5}}<br>coccyx {{c1::4}}",
+  "Text": "The vertebral (spinal) column consists of {{c1::33}} vertebrae in five sections:<br><br>cervical {{c1::7}}<br><br>thoracic {{c1::12}}<br><br>lumbar {{c1::5}}<br><br>sacrum {{c1::5}}<br><br>coccyx {{c1::4}}",
   "Back Extra": "Cue: the five sacral vertebrae fuse into the sacrum and the last four fuse into the coccyx, or tailbone, so those two sections move as single bones.<br><br>Ex: vertebrae are numbered from the top down within each section, so the neck runs C1 through C7.",
   "source": "emt",
   "segment": 6,
@@ -791,7 +791,7 @@
   "needs_human_check": false
  },
  {
-  "Text": "The adult <b>heart rate</b> depends on the situation:<br><br>at rest, {{c1::60 to 100 beats/min}}<br>at rest in a well-conditioned athlete, {{c1::45 to 60 beats/min}}<br>during vigorous physical activity, {{c1::as fast as 180 beats/min}}",
+  "Text": "The adult <b>heart rate</b> depends on the situation:<br><br>at rest, {{c1::60 to 100 beats/min}}<br><br>at rest in a well-conditioned athlete, {{c1::45 to 60 beats/min}}<br><br>during vigorous physical activity, {{c1::as fast as 180 beats/min}}",
   "Back Extra": "Pitfall: 45 to 60 beats/min in a well-conditioned athlete is explicitly a <i>normal</i> resting rate, not an abnormally slow one.<br><br>Cue: the 180 beats/min ceiling holds only until the activity stops.",
   "source": "emt",
   "segment": 6,
@@ -886,7 +886,7 @@
   "needs_human_check": false
  },
  {
-  "Text": "Name the branch of the <b>aorta</b> that supplies each organ:<br><br>heart: {{c1::coronary}}<br>head: {{c1::carotid}}<br>liver: {{c1::hepatic}}<br>kidneys: {{c1::renal}}<br>digestive system: {{c1::mesenteric}}",
+  "Text": "Name the branch of the <b>aorta</b> that supplies each organ:<br><br>heart: {{c1::coronary}}<br><br>head: {{c1::carotid}}<br><br>liver: {{c1::hepatic}}<br><br>kidneys: {{c1::renal}}<br><br>digestive system: {{c1::mesenteric}}",
   "Back Extra": "Cue: three of the five names are simply the organ's own adjective, hepatic for liver, renal for kidney, and mesenteric for the mesentery of the digestive tract.<br><br>Distinguish: the aorta divides at the level of the umbilicus into the two common iliac arteries, which feed the lower extremities.",
   "source": "emt",
   "segment": 6,
@@ -1230,7 +1230,7 @@
   "needs_human_check": false
  },
  {
-  "Text": "Match each function of the blood to the component that carries it out:<br>Fights infection → {{c1::white blood cells}}<br>Transports oxygen → {{c1::red blood cells (hemoglobin)}}<br>Transports carbon dioxide → {{c1::plasma}}<br>Controls (buffers) pH → {{c1::chemicals within the plasma}}<br>Transports wastes and nutrients → {{c1::plasma (water)}}<br>Clotting (coagulation) → {{c1::platelets and clotting factors in the plasma}}",
+  "Text": "Match each function of the blood to the component that carries it out:<br><br>Fights infection → {{c1::white blood cells}}<br><br>Transports oxygen → {{c1::red blood cells (hemoglobin)}}<br><br>Transports carbon dioxide → {{c1::plasma}}<br><br>Controls (buffers) pH → {{c1::chemicals within the plasma}}<br><br>Transports wastes and nutrients → {{c1::plasma (water)}}<br><br>Clotting (coagulation) → {{c1::platelets and clotting factors in the plasma}}",
   "Back Extra": "Cue: plasma is the workhorse, since it carries the carbon dioxide, buffers the pH, moves the wastes and nutrients, and holds the clotting factors.<br><br>Mechanism: clotting happens when a chemical process builds small fibers near the injured vessel that trap red blood cells, which is why platelets and clotting factors are the components in use.",
   "source": "emt",
   "segment": 6,
@@ -1600,7 +1600,7 @@
   "needs_human_check": false
  },
  {
-  "Text": "The <b>brainstem</b> has three parts:<br>{{c2::Midbrain}} controls {{c1::level of consciousness, muscle tone, and posture}}<br>{{c2::Pons}} controls {{c1::respiratory patterning and depth}}<br>{{c2::Medulla oblongata}} controls {{c1::heart rate, blood pressure, and respiratory rate}}",
+  "Text": "The <b>brainstem</b> has three parts:<br><br>{{c2::Midbrain}} controls {{c1::level of consciousness, muscle tone, and posture}}<br><br>{{c2::Pons}} controls {{c1::respiratory patterning and depth}}<br><br>{{c2::Medulla oblongata}} controls {{c1::heart rate, blood pressure, and respiratory rate}}",
   "Back Extra": "Cue: the reticular activating system sits in the midbrain, which is why the midbrain is the part that governs level of consciousness.<br><br>Distinguish: the pons sets the pattern and depth of breathing, while the medulla oblongata sets the rate.",
   "source": "emt",
   "segment": 6,
@@ -1848,7 +1848,7 @@
   "needs_human_check": false
  },
  {
-  "Text": "Directly beneath the epidermis lies the {{c1::dermis}}, home to five structures:<br><br>{{c2::sweat glands}}<br>{{c2::sebaceous (oil) glands}}<br>{{c2::hair follicles}}<br>{{c2::blood vessels}}<br>{{c2::nerve endings}}",
+  "Text": "Directly beneath the epidermis lies the {{c1::dermis}}, home to five structures:<br><br>{{c2::sweat glands}}<br><br>{{c2::sebaceous (oil) glands}}<br><br>{{c2::hair follicles}}<br><br>{{c2::blood vessels}}<br><br>{{c2::nerve endings}}",
   "Back Extra": "Why: the dermal structures are the working parts of the skin — nerve endings sense the environment, sweat glands cool the body, and blood vessels feed the layers above.<br><br>Cue: a small muscle attached to each hair follicle pulls the hair erect when triggered by cold air or fright.",
   "source": "emt",
   "segment": 6,
@@ -2797,7 +2797,7 @@
   "needs_human_check": false
  },
  {
-  "Text": "The <b>male reproductive system</b> consists of six organs:<br>{{c1::testicles}}<br>{{c1::epididymis}}<br>{{c1::vasa deferentia}}<br>{{c1::prostate gland}}<br>{{c1::seminal vesicles}}<br>{{c1::penis}}",
+  "Text": "The <b>male reproductive system</b> consists of six organs:<br><br>{{c1::testicles}}<br><br>{{c1::epididymis}}<br><br>{{c1::vasa deferentia}}<br><br>{{c1::prostate gland}}<br><br>{{c1::seminal vesicles}}<br><br>{{c1::penis}}",
   "Back Extra": "Cue: only the prostate gland and the seminal vesicles lie inside the pelvic cavity — the rest of the male genitalia lie outside it.<br><br>Pathway: immature sperm leave the testicles → epididymis to develop → vasa deferentia → seminal vesicles for storage → urethra at ejaculation.",
   "source": "emt",
   "segment": 6,
@@ -2810,7 +2810,7 @@
   "needs_human_check": false
  },
  {
-  "Text": "The <b>female reproductive system</b> consists of five organs:<br>{{c1::ovaries}}<br>{{c1::fallopian tubes}}<br>{{c1::uterus}}<br>{{c1::cervix}}<br>{{c1::vagina}}",
+  "Text": "The <b>female reproductive system</b> consists of five organs:<br><br>{{c1::ovaries}}<br><br>{{c1::fallopian tubes}}<br><br>{{c1::uterus}}<br><br>{{c1::cervix}}<br><br>{{c1::vagina}}",
   "Back Extra": "Pathway: a mature egg leaves an ovary → fallopian tube, where fertilization normally occurs → uterus; the cervix is the narrow opening from the uterus into the vagina.<br><br>Cue: apart from the clitoris and labia, the female genitalia sit entirely within the pelvis.",
   "source": "emt",
   "segment": 6,
@@ -3019,7 +3019,7 @@
   "needs_human_check": true
  },
  {
-  "Text": "Sort each cause of respiratory compromise into its category:<br>Injury to the chest wall is a {{c1::ventilation::ventilation / respiration / oxygenation}} problem<br>Fluid filling the alveoli is a {{c1::respiration::ventilation / respiration / oxygenation}} problem<br>Toxins in the inhaled air are an {{c1::oxygenation::ventilation / respiration / oxygenation}} problem",
+  "Text": "Sort each cause of respiratory compromise into its category:<br><br>Injury to the chest wall is a {{c1::ventilation::ventilation / respiration / oxygenation}} problem<br><br>Fluid filling the alveoli is a {{c1::respiration::ventilation / respiration / oxygenation}} problem<br><br>Toxins in the inhaled air are an {{c1::oxygenation::ventilation / respiration / oxygenation}} problem",
   "Back Extra": "Distinguish: ventilation is moving air in and out, respiration is gas crossing the alveolar membrane, and oxygenation is the quality of the air the patient is breathing.<br><br>Pitfall: weakened respiratory muscles land under ventilation too, even though nothing is wrong with the lungs themselves.",
   "source": "emt",
   "segment": 6,

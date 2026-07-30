@@ -32,7 +32,7 @@
   "image": null
  },
  {
-  "Text": "To be valid, a patient's consent must be {{c1::informed}} consent, meaning you explained all <b>5</b> things:<br>{{c2::the nature of the treatment}}<br>{{c2::potential risks}}<br>{{c2::benefits}}<br>{{c2::alternatives to treatment}}<br>{{c2::potential consequences of refusing treatment}}",
+  "Text": "To be valid, a patient's consent must be {{c1::informed}} consent, meaning you explained all <b>5</b> things:<br><br>{{c2::the nature of the treatment}}<br><br>{{c2::potential risks}}<br><br>{{c2::benefits}}<br><br>{{c2::alternatives to treatment}}<br><br>{{c2::potential consequences of refusing treatment}}",
   "Back Extra": "Pitfall: Informed consent does not have to be written — it is valid when given only <i>verbally</i>.<br><br>Why: The prehospital environment often requires obtaining consent more quickly than in the hospital setting.",
   "source": "emt",
   "segment": 3,
@@ -56,7 +56,7 @@
   "image": null
  },
  {
-  "Text": "In many states a minor is considered {{c2::emancipated::legal status}}, meaning {{c3::legally treated as an adult::meaning}} despite being under the legal age, based on four common circumstances:<br>{{c1::marriage}}<br>{{c1::membership in the armed services}}<br>{{c1::parenthood}}<br>{{c1::living away from parents and self-supporting}}",
+  "Text": "In many states a minor is considered {{c2::emancipated::legal status}}, meaning {{c3::legally treated as an adult::meaning}} despite being under the legal age, based on four common circumstances:<br><br>{{c1::marriage}}<br><br>{{c1::membership in the armed services}}<br><br>{{c1::parenthood}}<br><br>{{c1::living away from parents and self-supporting}}",
   "Back Extra": "Mnemonic: the 4 M's — <b>M</b>arried, <b>M</b>ilitary, <b>M</b>om/Dad (is a parent), <b>M</b>oved out (self-supporting).<br><br>Ex: a court order can also declare a minor emancipated, but that route is uncommon.<br><br>Pitfall: emancipation is state law and the exact circumstances vary — know your state's rules.",
   "source": "emt",
   "segment": 3,
@@ -392,7 +392,7 @@
   "image": null
  },
  {
-  "Text": "The eight presumptive signs of death are:<br>{{c1::Unresponsiveness to painful stimuli}}<br>{{c1::Lack of a carotid pulse or heartbeat}}<br>{{c1::Absence of chest rise and fall}}<br>{{c1::No deep tendon or corneal reflexes}}<br>{{c1::Absence of pupillary reactivity}}<br>{{c1::No systolic blood pressure}}<br>{{c1::Profound cyanosis}}<br>{{c1::Lowered or decreased body temperature}}",
+  "Text": "The eight presumptive signs of death are:<br><br>{{c1::Unresponsiveness to painful stimuli}}<br><br>{{c1::Lack of a carotid pulse or heartbeat}}<br><br>{{c1::Absence of chest rise and fall}}<br><br>{{c1::No deep tendon or corneal reflexes}}<br><br>{{c1::Absence of pupillary reactivity}}<br><br>{{c1::No systolic blood pressure}}<br><br>{{c1::Profound cyanosis}}<br><br>{{c1::Lowered or decreased body temperature}}",
   "Back Extra": "Distinguish: presumptive signs only <i>suggest</i> death, whereas definitive (conclusive) signs — such as obvious mortal damage or decapitation — are clear even to nonmedical people.<br><br>Pitfall: no single sign confirms death; in sudden death (hypothermia, poisoning, cardiac arrest) more evidence is needed and resuscitation may be warranted.",
   "source": "emt",
   "segment": 3,
@@ -400,7 +400,7 @@
   "image": null
  },
  {
-  "Text": "For negligence liability, all <b>four</b> elements must be present:<br>1. {{c1::Duty}}<br>2. {{c1::Breach of duty}}<br>3. {{c1::Damages}}<br>4. {{c1::Causation}}",
+  "Text": "For negligence liability, all <b>four</b> elements must be present:<br><br>1. {{c1::Duty}}<br><br>2. {{c1::Breach of duty}}<br><br>3. {{c1::Damages}}<br><br>4. {{c1::Causation}}",
   "Back Extra": "Why: when all four are proven, the EMT, the agency, and/or the medical director may be sued for negligence.<br><br>Cue: causation is often called <i>proximate causation</i> — the breach must be the direct cause of the injury.",
   "source": "emt",
   "segment": 3,
@@ -408,7 +408,7 @@
   "image": null
  },
  {
-  "Text": "A patient's decision to accept or refuse treatment should be based on information that you provide, including:<br>{{c1::what you think might be wrong (your assessment)}}<br>{{c1::the treatment you think is necessary}}<br>{{c1::any possible risks of that treatment}}<br>{{c1::the availability of alternative treatments}}<br>{{c1::the possible consequences of refusing treatment}}",
+  "Text": "A patient's decision to accept or refuse treatment should be based on information that you provide, including:<br><br>{{c1::what you think might be wrong (your assessment)}}<br><br>{{c1::the treatment you think is necessary}}<br><br>{{c1::any possible risks of that treatment}}<br><br>{{c1::the availability of alternative treatments}}<br><br>{{c1::the possible consequences of refusing treatment}}",
   "Back Extra": "Pitfall: giving the information is not enough. Be sure the patient understands everything and encourage questions.<br><br>Cue: all of this information belongs in your PCR, and many jurisdictions use preprinted refusal forms so every item is documented or acknowledged.<br><br>Distinguish: nearly the same list as the informed-consent elements (nature, risks, benefits, alternatives, consequences) — the refusal version adds your assessment of what might be wrong.",
   "source": "emt",
   "segment": 3,
@@ -424,7 +424,7 @@
   "image": null
  },
  {
-  "Text": "When determining a patient's <b>decision-making capacity</b>, consider 8 factors:<br>{{c1::Impaired intellect (mental limitation or dementia)}}<br>{{c1::Legal age (18 in most states)}}<br>{{c1::Alcohol or drug intoxication, or serious injury or illness}}<br>{{c1::Significant pain}}<br>{{c1::A significant distracting injury (may mask a more serious one)}}<br>{{c1::Hearing or visual problems}}<br>{{c1::A language barrier}}<br>{{c1::Apparent understanding (asks rational questions)}}",
+  "Text": "When determining a patient's <b>decision-making capacity</b>, consider 8 factors:<br><br>{{c1::Impaired intellect (mental limitation or dementia)}}<br><br>{{c1::Legal age (18 in most states)}}<br><br>{{c1::Alcohol or drug intoxication, or serious injury or illness}}<br><br>{{c1::Significant pain}}<br><br>{{c1::A significant distracting injury (may mask a more serious one)}}<br><br>{{c1::Hearing or visual problems}}<br><br>{{c1::A language barrier}}<br><br>{{c1::Apparent understanding (asks rational questions)}}",
   "Back Extra": "Why: Decision-making capacity is the foundation of consent — an adult who is conscious, rational, and capable of an informed decision may legally refuse care, so these factors decide whose refusal stands.<br><br>Cue: Sweep the conversation head to toe — mind, age, chemicals, pain, senses, language, comprehension.",
   "source": "emt",
   "segment": 3,
@@ -440,7 +440,7 @@
   "image": null
  },
  {
-  "Text": "Before you transfer care or leave a patient, run <b>8</b> self-check questions:<br>What {{c1::problems}} may develop from your actions?<br>How might the patient's condition {{c1::worsen}} if you leave?<br>Does the patient {{c1::need care}}?<br>Are you neglecting your {{c1::duty}}?<br>Is the person assuming care {{c1::capable}}?<br>Are you {{c1::abandoning}} the patient?<br>Are you violating a {{c1::standard of care}}?<br>Are you acting {{c1::prudently}}?",
+  "Text": "Before you transfer care or leave a patient, run <b>8</b> self-check questions:<br><br>What {{c1::problems}} may develop from your actions?<br><br>How might the patient's condition {{c1::worsen}} if you leave?<br><br>Does the patient {{c1::need care}}?<br><br>Are you neglecting your {{c1::duty}}?<br><br>Is the person assuming care {{c1::capable}}?<br><br>Are you {{c1::abandoning}} the patient?<br><br>Are you violating a {{c1::standard of care}}?<br><br>Are you acting {{c1::prudently}}?",
   "Back Extra": "Cue: chunk the eight into consequences (problems, worsening), the patient (need for care), the receiver (capable?), and your own conduct (duty, abandonment, standard of care, prudence).<br><br>Why: each question tests whether leaving would breach the duty you assumed the moment care began.",
   "source": "emt",
   "segment": 3,
@@ -448,7 +448,7 @@
   "image": null
  },
  {
-  "Text": "Before leaving the scene of a refusal, you should:<br>{{c1::encourage the patient again, up to three times, to permit treatment}}<br>{{c1::remind them to call 9-1-1 if they change their mind or worsen}}<br>{{c1::advise them to contact a personal physician}}",
+  "Text": "Before leaving the scene of a refusal, you should:<br><br>{{c1::encourage the patient again, up to three times, to permit treatment}}<br><br>{{c1::remind them to call 9-1-1 if they change their mind or worsen}}<br><br>{{c1::advise them to contact a personal physician}}",
   "Back Extra": "Why: your documentation must show every effort you made to obtain consent.<br><br>Cue: also get the refusal form signed and document the refusal thoroughly before you clear the scene.<br><br>Pitfall: never endanger yourself to care for a refusing patient; use law enforcement if needed for your own safety.",
   "source": "emt",
   "segment": 3,

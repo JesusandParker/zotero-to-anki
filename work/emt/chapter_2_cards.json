@@ -280,7 +280,7 @@
   "image": null
  },
  {
-  "Text": "Long-term <b>sleep deprivation</b> in EMS providers can lead to 5 chronic conditions (among others):<br>{{c1::hypertension}}<br>{{c1::sleep apnea}}<br>{{c1::respiratory issues}}<br>{{c1::diabetes}}<br>{{c1::depression}}",
+  "Text": "Long-term <b>sleep deprivation</b> in EMS providers can lead to 5 chronic conditions (among others):<br><br>{{c1::hypertension}}<br><br>{{c1::sleep apnea}}<br><br>{{c1::respiratory issues}}<br><br>{{c1::diabetes}}<br><br>{{c1::depression}}",
   "Back Extra": "Distinguish: <i>short-term</i> fatigue causes acute harm (medical errors, vehicle crashes); <i>long-term</i> deprivation causes chronic disease.<br><br>Why: sleep deprivation and stress form a vicious cycle, each worsening the other, compounded in high-workload EMS systems.",
   "source": "emt",
   "segment": 2,
@@ -304,7 +304,7 @@
   "image": null
  },
  {
-  "Text": "When <b>donning</b> PPE, put the items on in this order:<br><br>1. {{c1::Gown (secure the ties at neck and waist)}}<br>2. {{c1::N95 mask (ensure a tight seal)}}<br>3. {{c1::Eye protection (wraparound eyewear, goggles, or full face shield)}}<br>4. {{c1::Gloves}}",
+  "Text": "When <b>donning</b> PPE, put the items on in this order:<br><br>1. {{c1::Gown (secure the ties at neck and waist)}}<br><br>2. {{c1::N95 mask (ensure a tight seal)}}<br><br>3. {{c1::Eye protection (wraparound eyewear, goggles, or full face shield)}}<br><br>4. {{c1::Gloves}}",
   "Back Extra": "Distinguish: doffing is not simply the reverse; whatever doffing process is used, the mask is the <i>last</i> item removed.<br><br>Why: departmental policy sets the exact order; always don PPE in the same order every time.<br><br>Pitfall: donning or doffing alone; have a partner observe and assist to ensure the process is done properly.",
   "source": "emt",
   "segment": 2,
@@ -328,7 +328,7 @@
   "image": null
  },
  {
-  "Text": "At a scene involving <b>hazardous materials</b>, the general guidelines are:<br>{{c1::Do not enter if there is evidence of hazardous materials}}<br>{{c1::Remain upwind and uphill}}<br>{{c1::Keep your distance (retreat if you learn the true nature of the situation)}}<br>{{c1::Quickly contact dispatch and request additional resources}}<br>{{c1::Do not enter until instructed by trained hazardous materials responders}}",
+  "Text": "At a scene involving <b>hazardous materials</b>, the general guidelines are:<br><br>{{c1::Do not enter if there is evidence of hazardous materials}}<br><br>{{c1::Remain upwind and uphill}}<br><br>{{c1::Keep your distance (retreat if you learn the true nature of the situation)}}<br><br>{{c1::Quickly contact dispatch and request additional resources}}<br><br>{{c1::Do not enter until instructed by trained hazardous materials responders}}",
   "Back Extra": "Why: vapors drift downwind and liquid runoff flows downhill, so staying upwind and uphill keeps the material moving away from you.<br><br>Cue: the DOT <i>Emergency Response Guidebook</i> lists hazardous materials and the proper scene-control and patient-care procedures.",
   "source": "emt",
   "segment": 2,
@@ -336,7 +336,7 @@
   "image": null
  },
  {
-  "Text": "If caught in the open as a lightning strike becomes imminent, make yourself the smallest possible target with four actions:<br>{{c1::drop equipment (especially metal) that projects above your body}}<br>{{c1::avoid fences and other metal objects}}<br>{{c1::get into a low crouch}}<br>{{c1::place nonconductive material (such as a blanket) under your feet}}",
+  "Text": "If caught in the open as a lightning strike becomes imminent, make yourself the smallest possible target with four actions:<br><br>{{c1::drop equipment (especially metal) that projects above your body}}<br><br>{{c1::avoid fences and other metal objects}}<br><br>{{c1::get into a low crouch}}<br><br>{{c1::place nonconductive material (such as a blanket) under your feet}}",
   "Back Extra": "Why: metal projecting above your body invites the initial strike and can transmit the strike's current over a long distance; nonconductive material insulates your feet from ground current.<br><br>Pitfall: stay away from projections from the ground, such as a single tree.<br><br>Ex: a vehicle is safe shelter — get inside your car or unit if possible.",
   "source": "emt",
   "segment": 2,
@@ -344,7 +344,7 @@
   "image": null
  },
  {
-  "Text": "The <b>seven</b> common hazards at a fire scene are:<br>{{c1::Smoke}}<br>{{c1::Oxygen deficiency}}<br>{{c1::High temperatures}}<br>{{c1::Toxic gases}}<br>{{c1::Building collapse}}<br>{{c1::Equipment}}<br>{{c1::Explosions}}",
+  "Text": "The <b>seven</b> common hazards at a fire scene are:<br><br>{{c1::Smoke}}<br><br>{{c1::Oxygen deficiency}}<br><br>{{c1::High temperatures}}<br><br>{{c1::Toxic gases}}<br><br>{{c1::Building collapse}}<br><br>{{c1::Equipment}}<br><br>{{c1::Explosions}}",
   "Back Extra": "Cue: three in the air (smoke, oxygen deficiency, toxic gases) + one you feel (high temperatures) + three that strike (building collapse, equipment, explosions).<br><br>Ex: firefighters carry a self-contained breathing apparatus (SCBA) at fire scenes to protect against the airborne hazards.",
   "source": "emt",
   "segment": 2,
@@ -360,7 +360,7 @@
   "image": null
  },
  {
-  "Text": "The three stages of the <b>general adaptation syndrome</b>, in order, are:<br>1. {{c1::alarm response}}<br>2. {{c1::reaction and resistance}}<br>3. {{c1::recovery}}, or {{c1::exhaustion}} if the stress is prolonged",
+  "Text": "The three stages of the <b>general adaptation syndrome</b>, in order, are:<br><br>1. {{c1::alarm response}}<br><br>2. {{c1::reaction and resistance}}<br><br>3. {{c1::recovery}}, or {{c1::exhaustion}} if the stress is prolonged",
   "Back Extra": "Mechanism: The stages are physiologic — the endocrine and nervous systems interacting, known as the fight-or-flight response.<br><br>Cue: The same three stages follow any stressor, whether emotional, physical, or environmental, and whether the stress is positive (exercise) or negative (losing a patient).",
   "source": "emt",
   "segment": 2,
@@ -400,7 +400,7 @@
   "image": null
  },
  {
-  "Text": "To avoid injury from lightning <b>ground current</b>, stay away from four features:<br>{{c1::drainage ditches}}<br>{{c1::moist areas}}<br>{{c1::small depressions}}<br>{{c1::wet ropes}}",
+  "Text": "To avoid injury from lightning <b>ground current</b>, stay away from four features:<br><br>{{c1::drainage ditches}}<br><br>{{c1::moist areas}}<br><br>{{c1::small depressions}}<br><br>{{c1::wet ropes}}",
   "Back Extra": "Why: after the bolt hits, current drains along the earth following the most conductive pathway — wet, low features carry it to you.<br><br>Distinguish: avoid <i>high ground</i> for the direct-strike risk; avoid low, wet features for the <i>ground-current</i> risk.",
   "source": "emt",
   "segment": 2,
@@ -488,7 +488,7 @@
   "image": null
  },
  {
-  "Text": "A typical building fire emits a number of toxic gases, including:<br>{{c1::carbon monoxide}}<br>{{c1::cyanide}}<br>{{c1::carbon dioxide}}",
+  "Text": "A typical building fire emits a number of toxic gases, including:<br><br>{{c1::carbon monoxide}}<br><br>{{c1::cyanide}}<br><br>{{c1::carbon dioxide}}",
   "Back Extra": "Distinguish: of the three, carbon <i>monoxide</i> is the deadliest — a colorless, odorless gas responsible for more fire deaths each year than any other by-product of combustion.<br><br>Pitfall: gases are not a fire's only respiratory threat — fire also consumes the available oxygen (worst in confined spaces), and superheated air itself can damage the airway.",
   "source": "emt",
   "segment": 2,

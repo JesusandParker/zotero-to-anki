@@ -202,6 +202,35 @@ CASES = [
                    "Back Extra": "Ex: the pubic symphysis.", "source": "emt", "segment": 6}],
         "note": "no from_idx anywhere = a pre-provenance batch; warn, never block",
     },
+
+    # --- R14: list layout — the count of answers must be visible (Parker 2026-07-30) ---
+    {
+        "id": "r14_bad_packed_sbar_list",
+        "warn": "LIST of things to produce", "present": True,
+        "cards": [{"Text": "The structured handover format <b>SBAR</b> stands for:<br>{{c1::Situation::S}}<br>{{c1::Background::B}}<br>{{c1::Assessment::A}}<br>{{c1::Recap/Rx::R}}",
+                   "Back Extra": "Meaning: S = a concise statement of the problem.", "chapter": 4}],
+        "note": "the exact card Parker screenshotted; four blanks packed into one grey block",
+    },
+    {
+        "id": "r14_good_spaced_sbar_list",
+        "warn": "LIST of things to produce", "present": False,
+        "cards": [{"Text": "The structured handover format <b>SBAR</b> stands for:<br><br>{{c1::Situation::S}}<br><br>{{c1::Background::B}}<br><br>{{c1::Assessment::A}}<br><br>{{c1::Recap/Rx::R}}",
+                   "Back Extra": "Meaning: S = a concise statement of the problem.", "chapter": 4}],
+    },
+    {
+        "id": "r14_good_numbered_rows_spaced",
+        "warn": "LIST of things to produce", "present": False,
+        "cards": [{"Text": "The six EMS functions on the <b>Star of Life</b>, in order:<br><br>1. {{c1::Detection}}<br><br>2. {{c1::Reporting}}<br><br>3. {{c1::Response}}",
+                   "Back Extra": "Mnemonic: the six bars run in call order.", "chapter": 1}],
+        "note": "ordinals are layout, not prose — a numbered list is still a list",
+    },
+    {
+        "id": "r14_good_prose_is_not_a_list",
+        "warn": "LIST of things to produce", "present": False,
+        "cards": [{"Text": "At a vehicle crash, the first risk to consider is {{c1::traffic::hazard}}.<br>Ideally, park the ambulance so you can easily {{c2::leave::action}} the scene without reversing.",
+                   "Back Extra": "Why: reversing on a live roadway is the highest-risk manoeuvre.", "chapter": 2}],
+        "note": "two flowing sentences separated by <br> — must stay untouched",
+    },
 ]
 
 

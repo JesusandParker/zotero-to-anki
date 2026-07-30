@@ -64,7 +64,7 @@
   "image": null
  },
  {
-  "Text": "Medical control comes in two forms, authorized by the medical director:<br>{{c1::Off-line}} = also called {{c2::indirect}}<br>{{c3::Online}} = also called {{c4::direct}}",
+  "Text": "Medical control comes in two forms, authorized by the medical director:<br><br>{{c1::Off-line}} = also called {{c2::indirect}}<br><br>{{c3::Online}} = also called {{c4::direct}}",
   "Back Extra": "Cue: <i>on</i>line means you are <i>on the line</i> (live contact) = <i>direct</i>; off-line is arranged in advance, so it reaches you <i>indirectly</i>.<br><br>Distinguish: both are authorized by the same medical director, just delivered differently.",
   "source": "emt",
   "segment": 1,
@@ -104,7 +104,7 @@
   "image": null
  },
  {
-  "Text": "Beyond the EMT level, the <b>AEMT</b> adds four specific aspects of advanced life support (ALS):<br>{{c1::IV (intravenous) therapy}}<br>{{c1::IO (intraosseous) therapy}}<br>{{c1::advanced airway adjuncts}}<br>{{c1::administering a <i>limited</i> number of medications}}",
+  "Text": "Beyond the EMT level, the <b>AEMT</b> adds four specific aspects of advanced life support (ALS):<br><br>{{c1::IV (intravenous) therapy}}<br><br>{{c1::IO (intraosseous) therapy}}<br><br>{{c1::advanced airway adjuncts}}<br><br>{{c1::administering a <i>limited</i> number of medications}}",
   "Back Extra": "Distinguish: the AEMT does only <i>selected/limited</i> ALS; the paramedic has full ALS scope including emergency pharmacology and cardiac-rhythm interpretation.<br><br>Pitfall: AEMT medications are a <i>limited</i> set, not the paramedic's full drug formulary.",
   "source": "emt",
   "segment": 1,
@@ -120,7 +120,7 @@
   "image": null
  },
  {
-  "Text": "The six EMS functions represented by the bars of the <b>Star of Life</b>, in order, are:<br>1. {{c1::Detection}}<br>2. {{c1::Reporting}}<br>3. {{c1::Response}}<br>4. {{c1::On-scene care}}<br>5. {{c1::Care in transit}}<br>6. {{c1::Transfer to definitive care}}",
+  "Text": "The six EMS functions represented by the bars of the <b>Star of Life</b>, in order, are:<br><br>1. {{c1::Detection}}<br><br>2. {{c1::Reporting}}<br><br>3. {{c1::Response}}<br><br>4. {{c1::On-scene care}}<br><br>5. {{c1::Care in transit}}<br><br>6. {{c1::Transfer to definitive care}}",
   "Back Extra": "Cue: the six bars trace one EMS call end to end, from spotting the emergency (Detection) through hospital handoff (Transfer to definitive care).<br><br>Why: the symbol was adapted from the AMA's Medical Identification Symbol to mark EMS as a public-service emblem.<br><br><img alt=\"Star of Life\" src=\"250px-Star_of_life2.svg.png\">",
   "source": "emt",
   "segment": 1,
@@ -232,7 +232,7 @@
   "image": null
  },
  {
-  "Text": "In most states, people who work in emergency medical care are licensed at four levels (lowest to highest training):<br>{{c1::Emergency medical responder (EMR)}}<br>{{c1::Emergency medical technician (EMT)}}<br>{{c1::Advanced EMT (AEMT)}}<br>{{c1::Paramedic}}",
+  "Text": "In most states, people who work in emergency medical care are licensed at four levels (lowest to highest training):<br><br>{{c1::Emergency medical responder (EMR)}}<br><br>{{c1::Emergency medical technician (EMT)}}<br><br>{{c1::Advanced EMT (AEMT)}}<br><br>{{c1::Paramedic}}",
   "Back Extra": "Cue: listed lowest to highest level of training and scope of practice; paramedic is the only level with no two-letter abbreviation.<br><br>Why: each level has a different scope of practice and requires different education and training.",
   "source": "emt",
   "segment": 1,

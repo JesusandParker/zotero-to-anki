@@ -105,6 +105,16 @@ This is the first MECHANICAL enforcement of the system's #1 rule. For its entire
 - **Catch test (both ways):** a card asserting a fact absent from its cited context, on a `needs_visual` mark, with no `image`/`visual_source` → HARD. The same card with visual evidence attached → PASS. A paraphrase with partial overlap → warning, never a block.
 
 
+## R14 — Packed list layout: a list of things to produce, crammed into one block
+**Rule:** card-rules #19 + editor check #21. **Caught by:** `check_cards.py` packed-list warning; **repaired mechanically** by `listify()` in `anki_write.py`. Surfaced 2026-07-30 by Parker, with before/after screenshots of the SBAR card.
+
+Parker answers a list card by first seeing **how many things he owes**, then producing them. Rows separated by a single `<br>` render as one grey block, which hides the count — the single most useful piece of information on the front. This is the Text-field twin of the 2026-07-02 Back Extra paragraph-break preference, and gets the same treatment: a rule, a warning, and a mechanical guarantee at write time.
+
+- **BAD:** `The structured handover format <b>SBAR</b> stands for:<br>{{c1::Situation::S}}<br>{{c1::Background::B}}<br>{{c1::Assessment::A}}<br>{{c1::Recap/Rx::R}}` — four blanks packed into a block.
+- **GOOD:** the same card with `<br><br>` between every row, so four distinct answers are visible at a glance.
+- **MUST NOT OVER-FLAG — prose is not a list.** `At a vehicle crash, the first risk to consider is {{c1::traffic::hazard}}.<br>Ideally, park the ambulance so you can easily {{c2::leave::action}} the scene.` uses `<br>` to separate two flowing sentences. The discriminator is whether the lines after the lead-in are *rows*: a line carrying a cloze and almost no prose of its own (≤8 residual words; numbering and bullets count as layout, not prose). Measured across the live EMT deck: 43 cards restructured, 41 cards containing `<br>` correctly left alone.
+- **Catch test (both ways):** a lead-in plus ≥2 cloze-rows joined by single `<br>` → flag and repair; the same card already spaced → silent; multi-sentence prose using `<br>` → silent.
+
 ---
 
 *To add a case: when Parker catches something new, record the BAD card, the GOOD fix, the rule it enforces, and the concrete catch test. Then confirm the checker or judge actually catches it before considering it closed.*

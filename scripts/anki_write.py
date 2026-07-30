@@ -51,6 +51,42 @@ def paragraphize(back_extra):
     return re.sub(r"^(?:<br>)+|(?:<br>)+$", "", be)  # trim any stray leading/trailing break
 
 
+# When a Text field is a LIST of things to produce, Parker wants each item on its own line
+# with a blank line between them, so that a glance tells him HOW MANY answers he owes
+# (2026-07-30). Packed single-<br> rows read as one grey block and hide the count. This is
+# the Text-field twin of paragraphize() above, and the same contract: a rule in the docs
+# AND a mechanical guarantee here, so the spacing holds even if a card is drafted tight.
+#
+# It fires ONLY on genuine list layouts. A row is a line that contains a cloze and carries
+# almost no prose of its own (ordinals and bullets don't count as prose); a card qualifies
+# when it has >=2 such rows and everything after the lead-in is a row. Multi-sentence cards
+# that merely use <br> to separate flowing sentences are deliberately untouched.
+_CLOZE_ANY = re.compile(r"\{\{c\d+::(.*?)(?:::(.*?))?\}\}")
+ROW_RESIDUE_MAX = 8
+
+
+def _is_row(seg):
+    if not _CLOZE_ANY.search(seg):
+        return False
+    residue = re.sub(r"\s+", " ", _CLOZE_ANY.sub("", seg)).strip()
+    residue = re.sub(r"^\s*(?:\d+[.)]|[-•*])\s*", "", residue)  # "1." / "-" are layout, not prose
+    return len(residue.split()) <= ROW_RESIDUE_MAX
+
+
+def listify(text):
+    """Blank line between the rows of a list-shaped Text. Idempotent; leaves prose alone."""
+    if not text or "<img" in text.lower() or not re.search(r"<br", text, re.I):
+        return text
+    segs = [s.strip() for s in _BR_RUN.split(text) if s.strip()]
+    if len(segs) < 2:
+        return text
+    if sum(1 for s in segs if _is_row(s)) < 2:
+        return text
+    if not all(_is_row(s) for s in segs[1:]):   # a lead-in may head the list; nothing else
+        return text
+    return "<br><br>".join(segs)
+
+
 def call(action, **params):
     req = urllib.request.Request(
         ANKI, data=json.dumps({"action": action, "version": 6, "params": params}).encode(),
@@ -177,7 +213,7 @@ def main():
 
         note = {
             "deckName": deck, "modelName": model,
-            "fields": {"Text": text, "Back Extra": paragraphize(c.get("Back Extra", ""))},
+            "fields": {"Text": listify(text), "Back Extra": paragraphize(c.get("Back Extra", ""))},
             "tags": tags,
             "options": {"allowDuplicate": False, "duplicateScope": "deck"},
         }

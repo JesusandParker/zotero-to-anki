@@ -131,9 +131,10 @@ Pitfall: rate alone is not enough — also judge depth and effort.
 
 **Template — grouped reveal (default):** every member shares ONE cloze number so the whole set blanks together and Parker must produce all of it.
 ```
-The components of <b>SAMPLE</b> history are:<br>
-{{c1::Signs/Symptoms::S}}<br>{{c1::Allergies::A}}<br>{{c1::Medications::M}}<br>{{c1::Past history::P}}<br>{{c1::Last oral intake::L}}<br>{{c1::Events leading up::E}}
+The components of <b>SAMPLE</b> history are:<br><br>
+{{c1::Signs/Symptoms::S}}<br><br>{{c1::Allergies::A}}<br><br>{{c1::Medications::M}}<br><br>{{c1::Past history::P}}<br><br>{{c1::Last oral intake::L}}<br><br>{{c1::Events leading up::E}}
 ```
+**Rows get a BLANK LINE between them (`<br><br>`), never a single `<br>`** — Parker answers a list by first seeing how many items he owes, and packed rows hide the count (card-rules #19).
 Name the parent AND its count in the stem. Keep each blank atomic (1-3 words). For a 2-way contrast list, give BOTH sides the same option-pair hint (`::arterial/venous`). For a sort-into-category list, the binary hint repeats on every line (`::basic/advanced`).
 
 **This is Parker's "big lists stay whole" rule:** a genuine cohesive list goes in ONE grouped card no matter the length (Star of Life = 6 functions, EMS Agenda 2050 = 6 principles). Only split into *sibling cards* (one per item, different numbers) when the items are genuinely independent facts that merely happen to be listed. Never `{{c1::A}}, B, C` (tests A, gives away the rest).

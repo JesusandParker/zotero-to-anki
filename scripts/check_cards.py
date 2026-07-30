@@ -187,6 +187,35 @@ def husk_groups(text):
     return hits
 
 
+ROW_RESIDUE_MAX = 8
+
+
+def _is_list_row(seg):
+    if not CLOZE.search(seg):
+        return False
+    residue = re.sub(r"\s+", " ", CLOZE.sub("", seg)).strip()
+    residue = re.sub(r"^\s*(?:\d+[.)]|[-•*])\s*", "", residue)  # ordinals/bullets are layout
+    return len(residue.split()) <= ROW_RESIDUE_MAX
+
+
+def packed_list_layout(text):
+    """R14: a Text that is a LIST of things to produce, but whose rows are packed with a
+    single <br> so they read as one block.
+
+    Parker studies these to answer "how many things do I owe?" — the count should be
+    visible at a glance, and single-<br> rows hide it. `anki_write.listify()` repairs this
+    at write time, so this is a WARNING that tells the drafter to author it correctly,
+    not a block. Prose that merely uses <br> between sentences is deliberately untouched."""
+    if not text or "<img" in text.lower() or not re.search(r"<br", text, re.I):
+        return False
+    segs = [s.strip() for s in re.split(r"(?:\s*<br\s*/?>\s*)+", text, flags=re.I) if s.strip()]
+    if len(segs) < 2 or sum(1 for s in segs if _is_list_row(s)) < 2:
+        return False
+    if not all(_is_list_row(s) for s in segs[1:]):
+        return False
+    return not re.search(r"<br\s*/?>\s*<br", text, re.I)   # already spaced = fine
+
+
 EQ_CONNECTIVE = re.compile(r"=|also called|also known as|\baka\b|stands for", re.I)
 
 
@@ -256,6 +285,11 @@ def per_card(idx, c, strict_html=True):
     # all-blanks-at-once husk — mutually-dependent spans under one number (R10)
     for g in husk_groups(t):
         warn.append(f"#{idx}: cloze c{g} hides 2 multi-word spans in an inline template — possible husk; verify each blank is answerable with the other shown, else split into c1/c2 (card-rules #17)")
+    # packed list layout — a list of things to produce, crammed into one block (R14)
+    if packed_list_layout(t):
+        warn.append(f"#{idx}: Text is a LIST of things to produce but its rows are packed with a "
+                    f"single <br> — separate them with <br><br> so the number of answers owed is "
+                    f"visible at a glance (card-rules #19; anki_write.listify() repairs it at write time)")
     # synonym-equation husk — both sides of 'X = also called Y' under one number (R10)
     for g in equation_husk_groups(t):
         warn.append(f"#{idx}: cloze c{g} hides BOTH sides of a synonym/equation ('___ = also called ___') — husk; renumber so each card shows one side as the anchor (card-rules #17)")
