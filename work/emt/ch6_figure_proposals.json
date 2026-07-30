@@ -7,7 +7,7 @@
    "file": "figures/study/FIGURE_6_11.jpg",
    "native_file": "figures/FIGURE_6_11.png",
    "coverage": 1.0,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "coccyx",
     "coxae",
@@ -25,7 +25,7 @@
    "file": "figures/study/FIGURE_6_11.jpg",
    "native_file": "figures/FIGURE_6_11.png",
    "coverage": 1.0,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "ilium",
     "ischium",
@@ -43,7 +43,7 @@
    "file": "figures/study/FIGURE_6_33.jpg",
    "native_file": "figures/FIGURE_6_33.png",
    "coverage": 1.0,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "autonomic",
     "involuntary",
@@ -79,7 +79,7 @@
    "file": "figures/study/FIGURE_6_38.jpg",
    "native_file": "figures/FIGURE_6_38.png",
    "coverage": 1.0,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "quadrants",
     "upper"
@@ -96,7 +96,7 @@
    "file": "figures/study/FIGURE_6_43.jpg",
    "native_file": "figures/FIGURE_6_43.png",
    "coverage": 1.0,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "deferentia",
     "epididymis",
@@ -120,7 +120,7 @@
    "file": "figures/study/FIGURE_6_44.jpg",
    "native_file": "figures/FIGURE_6_44.png",
    "coverage": 1.0,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "cervix",
     "fallopian",
@@ -141,7 +141,7 @@
    "file": "figures/study/FIGURE_6_39.jpg",
    "native_file": "figures/FIGURE_6_39.png",
    "coverage": 0.9,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "abdominal",
     "behind",
@@ -183,7 +183,7 @@
    "file": "figures/study/FIGURE_6_12.jpg",
    "native_file": "figures/FIGURE_6_12.png",
    "coverage": 0.75,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "greater",
     "lesser",
@@ -201,7 +201,7 @@
    "file": "figures/study/FIGURE_6_30.jpg",
    "native_file": "figures/FIGURE_6_30.png",
    "coverage": 0.714,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "blood",
     "organ",
@@ -221,7 +221,7 @@
    "file": "figures/study/FIGURE_6_6.jpg",
    "native_file": "figures/FIGURE_6_6.png",
    "coverage": 0.667,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "frontal",
     "occipital",
@@ -257,7 +257,7 @@
    "file": "figures/study/FIGURE_6_13.jpg",
    "native_file": "figures/FIGURE_6_13.png",
    "coverage": 0.667,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "calcaneus",
     "talus"
@@ -274,7 +274,7 @@
    "file": "figures/study/FIGURE_6_33.jpg",
    "native_file": "figures/FIGURE_6_33.png",
    "coverage": 0.667,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "brain",
     "central",
@@ -297,7 +297,7 @@
    "file": "figures/study/FIGURE_6_36.jpg",
    "native_file": "figures/FIGURE_6_36.png",
    "coverage": 0.667,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "subcutaneous",
     "tissue"
@@ -314,7 +314,7 @@
    "file": "figures/study/FIGURE_6_38.jpg",
    "native_file": "figures/FIGURE_6_38.png",
    "coverage": 0.667,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "lower",
     "quadrant"
@@ -348,7 +348,7 @@
    "file": "figures/study/FIGURE_6_35.jpg",
    "native_file": "figures/FIGURE_6_35.png",
    "coverage": 0.636,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "brain",
     "brainstem",
@@ -370,7 +370,7 @@
    "file": "figures/study/FIGURE_6_3.jpg",
    "native_file": "figures/FIGURE_6_3.png",
    "coverage": 0.6,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "bones",
     "joint",
@@ -382,13 +382,31 @@
    "tier": "teaches"
   },
   {
+   "card_index": 131,
+   "text": "The  urinary bladder  lies just behind the {{c1::pubic symphysis::bony landmark}} in the middle of the abdomen",
+   "figure": "FIGURE 6-37",
+   "file": "figures/study/FIGURE_6_37.jpg",
+   "native_file": "figures/FIGURE_6_37.png",
+   "coverage": 0.6,
+   "page_dist": 2,
+   "matched_terms": [
+    "pelvis",
+    "pubic",
+    "symphysis"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "teaches"
+  },
+  {
    "card_index": 78,
    "text": "{{c1::Mean arterial pressure (MAP)}} is {{c2::the average arterial pressure during systole and diastole}}, and",
    "figure": "FIGURE 6-31",
    "file": "figures/study/FIGURE_6_31.jpg",
    "native_file": "figures/FIGURE_6_31.png",
    "coverage": 0.556,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "arterial",
     "average",
@@ -408,12 +426,29 @@
    "file": "figures/study/FIGURE_6_2.jpg",
    "native_file": "figures/FIGURE_6_2.png",
    "coverage": 0.5,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "appendicular"
    ],
    "archetype": null,
    "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 8,
+   "text": "A {{c1::symphysis}} is a joint at which {{c2::only slight motion}} is possible.",
+   "figure": "FIGURE 6-5",
+   "file": "figures/study/FIGURE_6_5.jpg",
+   "native_file": "figures/FIGURE_6_5.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "motion",
+    "only"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
    "has_description": false,
    "tier": "teaches"
   },
@@ -424,7 +459,7 @@
    "file": "figures/study/FIGURE_6_3.jpg",
    "native_file": "figures/FIGURE_6_3.png",
    "coverage": 0.5,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "capsule",
     "joint"
@@ -441,7 +476,7 @@
    "file": "figures/study/FIGURE_6_8.jpg",
    "native_file": "figures/FIGURE_6_8.png",
    "coverage": 0.5,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "process",
     "xiphoid"
@@ -458,7 +493,7 @@
    "file": "figures/study/FIGURE_6_11.jpg",
    "native_file": "figures/FIGURE_6_11.png",
    "coverage": 0.5,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "pubic",
     "symphysis"
@@ -475,7 +510,7 @@
    "file": "figures/study/FIGURE_6_31.jpg",
    "native_file": "figures/FIGURE_6_31.png",
    "coverage": 0.5,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "map"
    ],
@@ -491,7 +526,7 @@
    "file": "figures/study/FIGURE_6_32.jpg",
    "native_file": "figures/FIGURE_6_32.png",
    "coverage": 0.5,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "fluid",
     "hydrostatic",
@@ -511,7 +546,7 @@
    "file": "figures/study/FIGURE_6_36.jpg",
    "native_file": "figures/FIGURE_6_36.png",
    "coverage": 0.455,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "blood",
     "dermis",
@@ -549,9 +584,27 @@
    "file": "figures/study/FIGURE_6_34.jpg",
    "native_file": "figures/FIGURE_6_34.png",
    "coverage": 0.429,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "brainstem",
+    "cord",
+    "spinal"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 111,
+   "text": "A peripheral nerve runs from the brain through the {{c1::spinal cord}} to a body part, so it both {{c2::receiv",
+   "figure": "FIGURE 6-33",
+   "file": "figures/study/FIGURE_6_33.jpg",
+   "native_file": "figures/FIGURE_6_33.png",
+   "coverage": 0.429,
+   "page_dist": 1,
+   "matched_terms": [
+    "body",
     "cord",
     "spinal"
    ],
@@ -567,7 +620,7 @@
    "file": "figures/study/FIGURE_6_13.jpg",
    "native_file": "figures/FIGURE_6_13.png",
    "coverage": 0.4,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "sole",
     "surface"
@@ -584,7 +637,7 @@
    "file": "figures/study/FIGURE_6_35.jpg",
    "native_file": "figures/FIGURE_6_35.png",
    "coverage": 0.4,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "brain",
     "nerves"
@@ -601,7 +654,7 @@
    "file": "figures/study/FIGURE_6_34.jpg",
    "native_file": "figures/FIGURE_6_34.png",
    "coverage": 0.4,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "brainstem",
     "head"
@@ -612,20 +665,25 @@
    "tier": "teaches"
   },
   {
-   "card_index": 131,
-   "text": "The  urinary bladder  lies just behind the {{c1::pubic symphysis::bony landmark}} in the middle of the abdomen",
-   "figure": "FIGURE 6-38",
-   "file": "figures/study/FIGURE_6_38.jpg",
-   "native_file": "figures/FIGURE_6_38.png",
-   "coverage": 0.4,
-   "page_dist": 1,
+   "card_index": 82,
+   "text": "Give the site, the effect of stimulation, and the result for each  sympathetic  (adrenergic) receptor:   Alpha",
+   "figure": "FIGURE 6-31",
+   "file": "figures/study/FIGURE_6_31.jpg",
+   "native_file": "figures/FIGURE_6_31.png",
+   "coverage": 0.389,
+   "page_dist": 2,
    "matched_terms": [
-    "lower",
-    "quadrants"
+    "blood",
+    "cardiac",
+    "heart",
+    "increase",
+    "output",
+    "pressure",
+    "rate"
    ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": true,
    "tier": "teaches"
   },
   {
@@ -635,7 +693,7 @@
    "file": "figures/study/FIGURE_6_2.jpg",
    "native_file": "figures/FIGURE_6_2.png",
    "coverage": 0.375,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "axial",
     "bones",
@@ -655,7 +713,7 @@
    "file": "figures/study/FIGURE_6_31.jpg",
    "native_file": "figures/FIGURE_6_31.png",
    "coverage": 1.0,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "increases",
     "minute",
@@ -673,7 +731,7 @@
    "file": "figures/study/FIGURE_6_3.jpg",
    "native_file": "figures/FIGURE_6_3.png",
    "coverage": 0.333,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "synovial"
    ],
@@ -689,7 +747,7 @@
    "file": "figures/study/FIGURE_6_22.jpg",
    "native_file": "figures/FIGURE_6_22.png",
    "coverage": 0.333,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "less"
    ],
@@ -705,7 +763,7 @@
    "file": "figures/study/FIGURE_6_36.jpg",
    "native_file": "figures/FIGURE_6_36.png",
    "coverage": 0.333,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "germinal",
     "layer"
@@ -722,7 +780,7 @@
    "file": "figures/study/FIGURE_6_36.jpg",
    "native_file": "figures/FIGURE_6_36.png",
    "coverage": 0.333,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "sebaceous"
    ],
@@ -738,7 +796,7 @@
    "file": "figures/study/FIGURE_6_40.jpg",
    "native_file": "figures/FIGURE_6_40.png",
    "coverage": 0.333,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "endocrine",
     "glands"
@@ -755,7 +813,7 @@
    "file": "figures/study/FIGURE_6_33.jpg",
    "native_file": "figures/FIGURE_6_33.png",
    "coverage": 0.3,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "body",
     "information",
@@ -784,35 +842,19 @@
    "tier": "context"
   },
   {
-   "card_index": 111,
-   "text": "A peripheral nerve runs from the brain through the {{c1::spinal cord}} to a body part, so it both {{c2::receiv",
-   "figure": "FIGURE 6-34",
-   "file": "figures/study/FIGURE_6_34.jpg",
-   "native_file": "figures/FIGURE_6_34.png",
+   "card_index": 85,
+   "text": "{{c1::Baroreceptors::sensor type}} are the sensors that keep the brain informed about {{c2::blood pressure}}, ",
+   "figure": "FIGURE 6-31",
+   "file": "figures/study/FIGURE_6_31.jpg",
+   "native_file": "figures/FIGURE_6_31.png",
    "coverage": 0.286,
    "page_dist": 2,
    "matched_terms": [
-    "cord",
-    "spinal"
+    "blood",
+    "pressure"
    ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 8,
-   "text": "A {{c1::symphysis}} is a joint at which {{c2::only slight motion}} is possible.",
-   "figure": "FIGURE 6-4",
-   "file": "figures/study/FIGURE_6_4.jpg",
-   "native_file": "figures/FIGURE_6_4.png",
-   "coverage": 0.25,
-   "page_dist": 2,
-   "matched_terms": [
-    "motion"
-   ],
-   "archetype": true,
-   "why": "spatial/structural fact",
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
    "has_description": true,
    "tier": "context"
   },
@@ -840,7 +882,7 @@
    "file": "figures/study/FIGURE_6_33.jpg",
    "native_file": "figures/FIGURE_6_33.png",
    "coverage": 0.25,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "control",
     "motor",
@@ -874,7 +916,7 @@
    "file": "figures/study/FIGURE_6_33.jpg",
    "native_file": "figures/FIGURE_6_33.png",
    "coverage": 0.25,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "actions",
     "control",
@@ -893,7 +935,7 @@
    "file": "figures/study/FIGURE_6_36.jpg",
    "native_file": "figures/FIGURE_6_36.png",
    "coverage": 0.25,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "muscles"
    ],
@@ -909,7 +951,7 @@
    "file": "figures/study/FIGURE_6_1.jpg",
    "native_file": "figures/FIGURE_6_1.png",
    "coverage": 0.2,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "midline"
    ],
@@ -925,7 +967,7 @@
    "file": "figures/study/FIGURE_6_29.jpg",
    "native_file": "figures/FIGURE_6_29.png",
    "coverage": 0.2,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "muscle"
    ],
@@ -957,7 +999,7 @@
    "file": "figures/study/FIGURE_6_34.jpg",
    "native_file": "figures/FIGURE_6_34.png",
    "coverage": 0.2,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "cerebellum"
    ],
@@ -973,7 +1015,7 @@
    "file": "figures/study/FIGURE_6_40.jpg",
    "native_file": "figures/FIGURE_6_40.png",
    "coverage": 0.2,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "glands"
    ],
@@ -1038,7 +1080,7 @@
    "file": "figures/study/FIGURE_6_30.jpg",
    "native_file": "figures/FIGURE_6_30.png",
    "coverage": 0.143,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "perfusion"
    ],
@@ -1048,29 +1090,13 @@
    "tier": "context"
   },
   {
-   "card_index": 85,
-   "text": "{{c1::Baroreceptors::sensor type}} are the sensors that keep the brain informed about {{c2::blood pressure}}, ",
-   "figure": "FIGURE 6-32",
-   "file": "figures/study/FIGURE_6_32.jpg",
-   "native_file": "figures/FIGURE_6_32.png",
-   "coverage": 0.143,
-   "page_dist": 2,
-   "matched_terms": [
-    "pressure"
-   ],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
    "card_index": 89,
    "text": "The surface of the cerebrum is the {{c1::cortex}}, built from {{c2::neuron (nerve cell) bodies}} whose gray-br",
    "figure": "FIGURE 6-33",
    "file": "figures/study/FIGURE_6_33.jpg",
    "native_file": "figures/FIGURE_6_33.png",
    "coverage": 0.143,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "nerve"
    ],
@@ -1086,7 +1112,7 @@
    "file": "figures/study/FIGURE_6_38.jpg",
    "native_file": "figures/FIGURE_6_38.png",
    "coverage": 0.143,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "lower"
    ],
@@ -1102,7 +1128,7 @@
    "file": "figures/study/FIGURE_6_38.jpg",
    "native_file": "figures/FIGURE_6_38.png",
    "coverage": 0.143,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "bony"
    ],
@@ -1118,7 +1144,7 @@
    "file": "figures/study/FIGURE_6_34.jpg",
    "native_file": "figures/FIGURE_6_34.png",
    "coverage": 0.125,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "cerebral"
    ],
@@ -1144,30 +1170,13 @@
    "tier": "context"
   },
   {
-   "card_index": 82,
-   "text": "Give the site, the effect of stimulation, and the result for each  sympathetic  (adrenergic) receptor:   Alpha",
-   "figure": "FIGURE 6-32",
-   "file": "figures/study/FIGURE_6_32.jpg",
-   "native_file": "figures/FIGURE_6_32.png",
-   "coverage": 0.111,
-   "page_dist": 1,
-   "matched_terms": [
-    "cells",
-    "pressure"
-   ],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
    "card_index": 171,
    "text": "The {{c1::adrenal glands}}, which sit {{c2::above the kidneys}}, drive the {{c3::stress (fight-or-flight) resp",
    "figure": "FIGURE 6-40",
    "file": "figures/study/FIGURE_6_40.jpg",
    "native_file": "figures/FIGURE_6_40.png",
    "coverage": 0.111,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "glands"
    ],
@@ -1183,461 +1192,13 @@
    "file": "figures/study/FIGURE_6_33.jpg",
    "native_file": "figures/FIGURE_6_33.png",
    "coverage": 0.062,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "blood"
    ],
    "archetype": true,
    "why": "spatial/structural fact",
    "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 26,
-   "text": "Skeletal muscles often work in {{c1::antagonistic pairs}}. The {{c2::biceps}} on the anterior humerus {{c3::fl",
-   "figure": "FIGURE 6-14",
-   "file": "figures/study/FIGURE_6_14.jpg",
-   "native_file": "figures/FIGURE_6_14.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 27,
-   "text": "On the anterior thorax the {{c1::pectoralis}} {{c2::flexes::flexes or extends}} and rotates the arm, while on ",
-   "figure": "FIGURE 6-15",
-   "file": "figures/study/FIGURE_6_15.jpg",
-   "native_file": "figures/FIGURE_6_15.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 28,
-   "text": "On the anterior femur the {{c1::quadriceps}} {{c2::extends::flexes or extends}} the lower leg, while on the po",
-   "figure": "FIGURE 6-15",
-   "file": "figures/study/FIGURE_6_15.jpg",
-   "native_file": "figures/FIGURE_6_15.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 29,
-   "text": "On the tibia, the {{c1::tibialis anterior}} points the foot {{c2::toward::toward or away from}} the head, whil",
-   "figure": "FIGURE 6-15",
-   "file": "figures/study/FIGURE_6_15.jpg",
-   "native_file": "figures/FIGURE_6_15.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 30,
-   "text": "The {{c1::rectus abdominis}} lies on the anterior abdomen and acts on the spine to {{c2::flex and rotate}} it.",
-   "figure": "FIGURE 6-15",
-   "file": "figures/study/FIGURE_6_15.jpg",
-   "native_file": "figures/FIGURE_6_15.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 31,
-   "text": "The {{c1::gluteus}} muscles cover the posterior pelvis and buttocks and act to {{c2::extend and rotate the thi",
-   "figure": "FIGURE 6-15",
-   "file": "figures/study/FIGURE_6_15.jpg",
-   "native_file": "figures/FIGURE_6_15.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 42,
-   "text": "{{c1::Tidal volume}} is the air moved {{c2::in or out during a single breath}}, generally {{c3::500 mL}} in an",
-   "figure": "FIGURE 6-23",
-   "file": "figures/study/FIGURE_6_23.jpg",
-   "native_file": "figures/FIGURE_6_23.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": false,
-   "why": "numeric fact \u2014 a picture does not teach a value",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 43,
-   "text": "After a normal breath, the deepest breath you can still take in is the {{c1::inspiratory reserve volume}}, and",
-   "figure": "FIGURE 6-23",
-   "file": "figures/study/FIGURE_6_23.jpg",
-   "native_file": "figures/FIGURE_6_23.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 49,
-   "text": "Occasional gasping breaths in a patient in cardiac arrest are called {{c1::agonal gasps}}, and they occur beca",
-   "figure": "FIGURE 6-24",
-   "file": "figures/study/FIGURE_6_24.jpg",
-   "native_file": "figures/FIGURE_6_24.jpg",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 50,
-   "text": "An unresponsive patient with no pulse appears to be breathing, taking occasional gasping breaths. What is your",
-   "figure": "FIGURE 6-24",
-   "file": "figures/study/FIGURE_6_24.jpg",
-   "native_file": "figures/FIGURE_6_24.jpg",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 51,
-   "text": "The heart's {{c1::septum}} is the wall that divides it down the middle into {{c2::right and left}} sides.",
-   "figure": "FIGURE 6-25",
-   "file": "figures/study/FIGURE_6_25.jpg",
-   "native_file": "figures/FIGURE_6_25.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 52,
-   "text": "The adult  heart rate  depends on the situation:  at rest, {{c1::60 to 100 beats/min}}  at rest in a well-cond",
-   "figure": "FIGURE 6-27",
-   "file": "figures/study/FIGURE_6_27.jpg",
-   "native_file": "figures/FIGURE_6_27.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": false,
-   "why": "numeric fact \u2014 a picture does not teach a value",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 57,
-   "text": "Arteries {{c1::contract::contract or dilate}} to accommodate a loss of blood volume, which {{c2::increases::in",
-   "figure": "FIGURE 6-28",
-   "file": "figures/study/FIGURE_6_28.jpg",
-   "native_file": "figures/FIGURE_6_28.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 59,
-   "text": "Name the branch of the  aorta  that supplies each organ:  heart: {{c1::coronary}}  head: {{c1::carotid}}  live",
-   "figure": "FIGURE 6-28",
-   "file": "figures/study/FIGURE_6_28.jpg",
-   "native_file": "figures/FIGURE_6_28.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 83,
-   "text": "A surge of  alpha-1  stimulation shuts down flow through the skin's vessels, so the skin becomes {{c1::pale}},",
-   "figure": "TABLE 6-9",
-   "file": "figures/study/TABLE_6_9.jpg",
-   "native_file": "figures/TABLE_6_9.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 84,
-   "text": "Unlike the adrenergic receptors of the sympathetic side, the  parasympathetic  division reaches the heart thro",
-   "figure": "TABLE 6-9",
-   "file": "figures/study/TABLE_6_9.jpg",
-   "native_file": "figures/TABLE_6_9.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 94,
-   "text": "The {{c2::temporal lobe::cerebral lobe}} handles {{c1::hearing}}, {{c1::taste}}, {{c1::smell}}, {{c1::language",
-   "figure": "TABLE 6-10",
-   "file": "figures/study/TABLE_6_10.jpg",
-   "native_file": "figures/TABLE_6_10.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 95,
-   "text": "The {{c2::occipital lobe::cerebral lobe}} is responsible for {{c1::vision}} and for the {{c1::storage of visua",
-   "figure": "TABLE 6-10",
-   "file": "figures/study/TABLE_6_10.jpg",
-   "native_file": "figures/TABLE_6_10.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 97,
-   "text": "The {{c2::thalamus::diencephalon division}} acts as the brain's {{c1::relay center}}, filtering {{c1::importan",
-   "figure": "TABLE 6-10",
-   "file": "figures/study/TABLE_6_10.jpg",
-   "native_file": "figures/TABLE_6_10.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 103,
-   "text": "{{c1::Cerebrospinal fluid (CSF)}} both filters out {{c2::impurities and toxins}} and {{c2::absorbs shocks}} de",
-   "figure": "TABLE 6-10",
-   "file": "figures/study/TABLE_6_10.jpg",
-   "native_file": "figures/TABLE_6_10.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 120,
-   "text": "The abdomen is divided into  quadrants , four equal areas, by two imaginary lines that intersect at {{c1::righ",
-   "figure": "FIGURE 6-37",
-   "file": "figures/study/FIGURE_6_37.jpg",
-   "native_file": "figures/FIGURE_6_37.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 121,
-   "text": "In the  right upper quadrant (RUQ) , the major organs are the {{c1::liver}}, the {{c1::gallbladder}}, and {{c1",
-   "figure": "FIGURE 6-38",
-   "file": "figures/study/FIGURE_6_38.jpg",
-   "native_file": "figures/FIGURE_6_38.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 122,
-   "text": "Most of the  liver  lies in the right upper quadrant, almost entirely under the protection of the {{c1::8th to",
-   "figure": "FIGURE 6-38",
-   "file": "figures/study/FIGURE_6_38.jpg",
-   "native_file": "figures/FIGURE_6_38.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 123,
-   "text": "In the  left upper quadrant (LUQ) , the major organs are the {{c1::stomach}}, the {{c1::spleen}}, and {{c1::a ",
-   "figure": "FIGURE 6-38",
-   "file": "figures/study/FIGURE_6_38.jpg",
-   "native_file": "figures/FIGURE_6_38.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 125,
-   "text": "A patient with blunt trauma to the left flank has fractures of the lower left ribs. Which abdominal organ shou",
-   "figure": "FIGURE 6-38",
-   "file": "figures/study/FIGURE_6_38.jpg",
-   "native_file": "figures/FIGURE_6_38.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 126,
-   "text": "The  right lower quadrant (RLQ)  contains two portions of the large intestine: the {{c1::cecum}} and the {{c1:",
-   "figure": "FIGURE 6-38",
-   "file": "figures/study/FIGURE_6_38.jpg",
-   "native_file": "figures/FIGURE_6_38.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 127,
-   "text": "The  cecum  is the first portion of the large intestine, the part into which the {{c1::small intestine (ileum)",
-   "figure": "FIGURE 6-38",
-   "file": "figures/study/FIGURE_6_38.jpg",
-   "native_file": "figures/FIGURE_6_38.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 128,
-   "text": "In the  left lower quadrant (LLQ)  lie the {{c1::descending}} and {{c1::sigmoid}} portions of the colon.",
-   "figure": "FIGURE 6-38",
-   "file": "figures/study/FIGURE_6_38.jpg",
-   "native_file": "figures/FIGURE_6_38.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 137,
-   "text": "During eating, the  soft palate  has two functions: {{c1::holding chewed food inside the mouth}} and {{c1::hel",
-   "figure": "FIGURE 6-39",
-   "file": "figures/study/FIGURE_6_39.jpg",
-   "native_file": "figures/FIGURE_6_39.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 172,
-   "text": "The {{c1::thyroid gland}} sits in the neck over the {{c2::larynx}} and regulates {{c3::metabolism}} through th",
-   "figure": "FIGURE 6-41",
-   "file": "figures/study/FIGURE_6_41.jpg",
-   "native_file": "figures/FIGURE_6_41.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 175,
-   "text": "The {{c1::pancreas}} lies in the {{c2::retroperitoneal space}} and regulates {{c3::glucose metabolism}} throug",
-   "figure": "FIGURE 6-41",
-   "file": "figures/study/FIGURE_6_41.jpg",
-   "native_file": "figures/FIGURE_6_41.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 176,
-   "text": "The endocrine glands that regulate sexual function, characteristics, and reproduction are the {{c1::ovaries}},",
-   "figure": "FIGURE 6-41",
-   "file": "figures/study/FIGURE_6_41.jpg",
-   "native_file": "figures/FIGURE_6_41.png",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": false,
    "tier": "context"
   }
  ],

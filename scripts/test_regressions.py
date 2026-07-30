@@ -297,6 +297,13 @@ CASES = [
         "note": "the fix Parker asked for himself — a hint that labels the slot without leaking it",
     },
     {
+        "id": "r16_good_absolute_only_inside_quoted_speech",
+        "warn": "absolute/prohibition", "present": False,
+        "cards": [{"Text": "A patient says, \"I am afraid I will never see my kids again,\" and the EMT replies, \"You are afraid you will not see your kids again.\" Which therapeutic communication technique is the EMT using? {{c1::Reflection}}",
+                   "Back Extra": "Cue: the EMT hands the patient's own statement back nearly word for word.", "chapter": 4}],
+        "note": "the 'never' is dialogue in a vignette, not a rule — and 'which technique?' forces one answer",
+    },
+    {
         "id": "r16_good_sibling_cloze_anchors_it",
         "warn": "absolute/prohibition", "present": False,
         "cards": [{"Text": "In an older patient with altered mental status, always assume {{c1::an underlying treatable cause}} — never {{c2::normal aging}}.",

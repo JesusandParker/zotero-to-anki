@@ -480,7 +480,7 @@
   "provenance_backfilled": true
  },
  {
-  "Text": "When assessing an older patient, do not limit your assessment to the {{c1::obvious problem}}.",
+  "Text": "An older patient who merely says he is {{c1::not well}}, or who seems overly concerned about his health, may be at risk of {{c2::a serious decline}} — which is why your assessment must not stop at the obvious problem.",
   "Back Extra": "Why: you are there to listen and act on everything you learn, not only to treat the complaint that first stands out.<br><br>Cue: think of the patient as someone's grandmother or grandfather, or as yourself when you reach that age.",
   "source": "emt",
   "segment": 4,
@@ -1102,7 +1102,7 @@
   "provenance_backfilled": true
  },
  {
-  "Text": "The number of patients is recorded in a PCR narrative <b>only</b> when {{c1::more than one}} patient is present.",
+  "Text": "The number of patients is recorded in a PCR narrative <b>only</b> when {{c1::more than one::how many}} patient is present.",
   "Back Extra": "Ex: \"This is patient 2 of 3.\"",
   "source": "emt",
   "segment": 4,

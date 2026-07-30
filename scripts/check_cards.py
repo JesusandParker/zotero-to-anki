@@ -333,9 +333,12 @@ def open_set_absolute(text):
     contrast that forces the answer.
 
     Exempted: a hinted blank (the drafter constrained the slot), a numeric answer
-    (self-constraining, and already numeric-flagged), and a contrast anchor AFTER the
-    blank that names the rejected alternative — "'right' and 'left' always refer to the
-    {{c1::patient's}} perspective, not the provider's" is forced, not open."""
+    (self-constraining, and already numeric-flagged), a contrast anchor AFTER the blank
+    that names the rejected alternative — "'right' and 'left' always refer to the
+    {{c1::patient's}} perspective, not the provider's" is forced, not open — and an
+    absolute that occurs only inside QUOTED SPEECH, which is dialogue in a vignette, not
+    a rule the card is stating ("I am afraid I will never see my kids again" → which
+    therapeutic technique is this? is a forced question, not an open blank)."""
     spans = list(CLOZE.finditer(text))
     if len(spans) != 1:
         return False           # a sibling cloze can anchor the blank
@@ -343,6 +346,7 @@ def open_set_absolute(text):
     if m.group(3) or re.search(r"\d", m.group(2)):
         return False
     visible = re.sub(r"<[^>]+>", " ", CLOZE.sub(" ", text))
+    visible = re.sub(r"[\"“][^\"”]*[\"”]", " ", visible)   # drop quoted dialogue
     if not ABSOLUTE.search(visible):
         return False
     return not CONTRAST_TAIL.search(re.sub(r"<[^>]+>", " ", text[m.end():]))

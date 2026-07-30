@@ -84,7 +84,10 @@ def card_pages(card, marks):
             p = re.sub(r"[^0-9]", "", str(marks[i].get("page", "")))
             if p:
                 out.add(int(p))
-    vs = card.get("visual_source") or {}
+    # `visual_source` is a dict now, but pre-provenance batches sometimes wrote a bare
+    # note string. Read defensively rather than crashing a whole segment on one legacy row.
+    vs = card.get("visual_source")
+    vs = vs if isinstance(vs, dict) else {}
     for p in vs.get("pages") or []:
         p = re.sub(r"[^0-9]", "", str(p))
         if p:
@@ -158,10 +161,22 @@ def main():
                 best, bs = f, s
         if not best:
             continue
-        # Zero shared vocabulary is only safe on the card's OWN page, where the book
-        # itself placed the plate beside the sentence. Further away it is a different
-        # subject, and the wrong picture is the one outcome worse than none.
-        if bs["coverage"] <= 0 and bs["page_dist"] > 0:
+        # ZERO shared vocabulary is never enough — not even on the card's own page.
+        #
+        # This used to be allowed, reasoning "the book put the plate beside the sentence."
+        # That reasoning is wrong: a page holds many paragraphs and the figure illustrates
+        # ONE of them. Parker caught it live — FIGURE 4-2 ("body language: happy / angry /
+        # sad", three faces) landed on a card about holding your PALMS OUT toward a hostile
+        # patient, with literally nothing in common but the page number. His test is the
+        # right one: a picture that makes him ask "why is that here?" costs more than no
+        # picture, because it sends him hunting for a connection that does not exist.
+        #
+        # Note this is NOT a retreat from overshooting. He is happy to carry a figure he
+        # does not strictly need (the developmental age-group photos). The distinction is
+        # CONGRUENT vs INCONGRUENT, not necessary vs unnecessary: a teenager on a card
+        # about teenagers costs nothing; a crying baby on a card about hand position costs
+        # attention.
+        if bs["coverage"] <= 0:
             continue
         arch, why = archetype(c)
         rec = {"card_index": ci, "text": strip_html(c["Text"])[:110],

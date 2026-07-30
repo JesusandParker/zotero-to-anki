@@ -7,7 +7,7 @@
    "file": "figures/study/FIGURE_4_9.jpg",
    "native_file": "figures/FIGURE_4_9.jpg",
    "coverage": 0.667,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "care",
     "handover",
@@ -26,7 +26,7 @@
    "file": "figures/study/FIGURE_4_4.jpg",
    "native_file": "figures/FIGURE_4_4.jpg",
    "coverage": 0.5,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "body",
     "language"
@@ -43,7 +43,7 @@
    "file": "figures/study/FIGURE_4_9.jpg",
    "native_file": "figures/FIGURE_4_9.jpg",
    "coverage": 0.5,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "sbat"
    ],
@@ -59,7 +59,7 @@
    "file": "figures/study/FIGURE_4_15.jpg",
    "native_file": "figures/FIGURE_4_15.jpg",
    "coverage": 0.5,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "mobile",
     "radio"
@@ -76,7 +76,7 @@
    "file": "figures/study/FIGURE_4_17.jpg",
    "native_file": "figures/FIGURE_4_17.jpg",
    "coverage": 0.5,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "base",
     "repeater",
@@ -94,7 +94,7 @@
    "file": "figures/study/FIGURE_4_18.jpg",
    "native_file": "figures/FIGURE_4_18.jpg",
    "coverage": 0.5,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "data",
     "mdt",
@@ -109,32 +109,13 @@
  ],
  "context": [
   {
-   "card_index": 60,
-   "text": "A {{c1::patient care report (PCR)}} is the {{c2::legal::legal/medical/administrative}} document used to record",
-   "figure": "FIGURE 4-9",
-   "file": "figures/study/FIGURE_4_9.jpg",
-   "native_file": "figures/FIGURE_4_9.jpg",
-   "coverage": 0.444,
-   "page_dist": 2,
-   "matched_terms": [
-    "care",
-    "hospital",
-    "patient",
-    "report"
-   ],
-   "archetype": false,
-   "why": "abstract/procedural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
    "card_index": 83,
    "text": "A car-crash patient with neck pain accepts treatment and transport but refuses a cervical collar. Provide {{c1",
    "figure": "FIGURE 4-14",
    "file": "figures/study/FIGURE_4_14.jpg",
    "native_file": "figures/FIGURE_4_14.png",
    "coverage": 0.375,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "care",
     "medical",
@@ -152,29 +133,12 @@
    "file": "figures/study/FIGURE_4_11.jpg",
    "native_file": "figures/FIGURE_4_11.jpg",
    "coverage": 0.333,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "narrative"
    ],
    "archetype": false,
    "why": "abstract/procedural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 90,
-   "text": "A cellular telephone is effectively a {{c1::low-power portable radio::device class}} that communicates through",
-   "figure": "FIGURE 4-17",
-   "file": "figures/study/FIGURE_4_17.jpg",
-   "native_file": "figures/FIGURE_4_17.jpg",
-   "coverage": 0.333,
-   "page_dist": 1,
-   "matched_terms": [
-    "radio",
-    "repeater"
-   ],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
    "has_description": false,
    "tier": "context"
   },
@@ -185,7 +149,7 @@
    "file": "figures/study/FIGURE_4_5.jpg",
    "native_file": "figures/FIGURE_4_5.jpg",
    "coverage": 0.25,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "medical"
    ],
@@ -222,7 +186,7 @@
    "file": "figures/study/FIGURE_4_9.jpg",
    "native_file": "figures/FIGURE_4_9.jpg",
    "coverage": 0.182,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "report",
     "structured"
@@ -234,7 +198,7 @@
   },
   {
    "card_index": 45,
-   "text": "Managing a patient who has a guide dog: Patient stable \u2192 {{c1::transport the dog with the patient::Stable}} Pa",
+   "text": "Managing a patient who has a guide dog:  Patient stable \u2192 {{c1::transport the dog with the patient::Stable}}  ",
    "figure": "FIGURE 4-8",
    "file": "figures/study/FIGURE_4_8.jpg",
    "native_file": "figures/FIGURE_4_8.jpg",
@@ -273,7 +237,7 @@
    "file": "figures/study/FIGURE_4_9.jpg",
    "native_file": "figures/FIGURE_4_9.jpg",
    "coverage": 0.143,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "report"
    ],
@@ -289,7 +253,7 @@
    "file": "figures/study/FIGURE_4_7.jpg",
    "native_file": "figures/FIGURE_4_7.jpg",
    "coverage": 0.125,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "learn",
     "phrases",
@@ -301,46 +265,13 @@
    "tier": "context"
   },
   {
-   "card_index": 0,
-   "text": "{{c1::Therapeutic communication::approach}} uses both {{c2::verbal}} and {{c2::nonverbal}} techniques to encou",
-   "figure": "FIGURE 4-1",
-   "file": "figures/study/FIGURE_4_1.jpg",
-   "native_file": "figures/FIGURE_4_1.png",
-   "coverage": 0.1,
-   "page_dist": 2,
-   "matched_terms": [
-    "communication"
-   ],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 100,
-   "text": "Across the 6 phases of an EMS call, a unit typically radios  dispatch  to: Initial receipt of call (2) \u2192 {{c1:",
-   "figure": "FIGURE 4-19",
-   "file": "figures/study/FIGURE_4_19.jpg",
-   "native_file": "figures/FIGURE_4_19.jpg",
-   "coverage": 0.087,
-   "page_dist": 1,
-   "matched_terms": [
-    "call",
-    "unit"
-   ],
-   "archetype": false,
-   "why": "abstract/procedural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
    "card_index": 58,
    "text": " Receiving  a handover report follows a five-point method, in order:  1. {{c1::Maintain eye contact}}  2. {{c1",
    "figure": "FIGURE 4-9",
    "file": "figures/study/FIGURE_4_9.jpg",
    "native_file": "figures/FIGURE_4_9.jpg",
    "coverage": 0.083,
-   "page_dist": 1,
+   "page_dist": 0,
    "matched_terms": [
     "patient"
    ],
@@ -350,20 +281,97 @@
    "tier": "context"
   },
   {
+   "card_index": 100,
+   "text": "A unit uses the radio to communicate with  dispatch  at six points in a call:  {{c1::initial receipt of the ca",
+   "figure": "FIGURE 4-19",
+   "file": "figures/study/FIGURE_4_19.jpg",
+   "native_file": "figures/FIGURE_4_19.jpg",
+   "coverage": 0.083,
+   "page_dist": 1,
+   "matched_terms": [
+    "call"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  }
+ ],
+ "skipped": [],
+ "mode": "generous",
+ "judged": true,
+ "rejected": [
+  {
+   "card_index": 60,
+   "text": "A {{c1::patient care report (PCR)}} is the {{c2::legal::legal/medical/administrative}} document used to record",
+   "figure": "FIGURE 4-9",
+   "file": "figures/study/FIGURE_4_9.jpg",
+   "native_file": "figures/FIGURE_4_9.jpg",
+   "coverage": 0.444,
+   "page_dist": 0,
+   "matched_terms": [
+    "care",
+    "hospital",
+    "patient",
+    "report"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "the card defines the PCR document; this is a handover scene. FIGURE 4-11/4-12 are the PCR plates."
+  },
+  {
+   "card_index": 90,
+   "text": "A cellular telephone is effectively a {{c1::low-power portable radio::device class}} that communicates through",
+   "figure": "FIGURE 4-17",
+   "file": "figures/study/FIGURE_4_17.jpg",
+   "native_file": "figures/FIGURE_4_17.jpg",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "radio",
+    "repeater"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "Parker's example. Towers and an ambulance, no telephone anywhere; the card is about cellular phones. Shared words 'radio'/'repeater' are domain wallpaper."
+  },
+  {
+   "card_index": 0,
+   "text": "{{c1::Therapeutic communication::approach}} uses both {{c2::verbal}} and {{c2::nonverbal}} techniques to encou",
+   "figure": "FIGURE 4-1",
+   "file": "figures/study/FIGURE_4_1.jpg",
+   "native_file": "figures/FIGURE_4_1.png",
+   "coverage": 0.1,
+   "page_dist": 0,
+   "matched_terms": [
+    "communication"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "abstract signal-flow model; the card is about therapeutic communication technique. Same topic, different subject \u2014 and this plate's real home is the 'noise' card, which the matcher never reached."
+  },
+  {
    "card_index": 92,
    "text": "EMS radio transmission modes and the capability that defines each:   Simplex  \u2014 {{c1::one direction at a time ",
    "figure": "FIGURE 4-18",
    "file": "figures/study/FIGURE_4_18.jpg",
    "native_file": "figures/FIGURE_4_18.jpg",
    "coverage": 0.059,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "data"
    ],
    "archetype": null,
    "why": "neither clearly spatial nor clearly abstract",
    "has_description": false,
-   "tier": "context"
+   "tier": "context",
+   "rejected_because": "the card is simplex/duplex transmission modes; a data terminal shows none of that."
   },
   {
    "card_index": 31,
@@ -372,14 +380,15 @@
    "file": "figures/study/FIGURE_4_4.jpg",
    "native_file": "figures/FIGURE_4_4.jpg",
    "coverage": 0.053,
-   "page_dist": 2,
+   "page_dist": 0,
    "matched_terms": [
     "your"
    ],
    "archetype": null,
    "why": "neither clearly spatial nor clearly abstract",
    "has_description": false,
-   "tier": "context"
+   "tier": "context",
+   "rejected_because": "the card is emotional intelligence (naming and managing emotions); the plate is posture."
   },
   {
    "card_index": 26,
@@ -395,135 +404,8 @@
    "archetype": null,
    "why": "neither clearly spatial nor clearly abstract",
    "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 7,
-   "text": "Facing a hostile patient, stand with your {{c1::palms facing out::hand position}} \u2014 a stance that communicates",
-   "figure": "FIGURE 4-2",
-   "file": "figures/study/FIGURE_4_2.jpg",
-   "native_file": "figures/FIGURE_4_2.jpg",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": true,
-   "tier": "context"
-  },
-  {
-   "card_index": 27,
-   "text": "During patient questioning, an EMT asks, \"You're not having any trouble breathing, right?\" Which  improper  in",
-   "figure": "FIGURE 4-3",
-   "file": "figures/study/FIGURE_4_3.jpg",
-   "native_file": "figures/FIGURE_4_3.jpg",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": false,
-   "why": "abstract/procedural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 46,
-   "text": "When taking a history from a patient who speaks little English, help them understand by {{c1::pointing to spec",
-   "figure": "FIGURE 4-8",
-   "file": "figures/study/FIGURE_4_8.jpg",
-   "native_file": "figures/FIGURE_4_8.jpg",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 65,
-   "text": "A PCR narrative should tell the story and present a clear, detailed picture of three things: {{c1::what you fo",
-   "figure": "FIGURE 4-12",
-   "file": "figures/study/FIGURE_4_12.jpg",
-   "native_file": "figures/FIGURE_4_12.jpg",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 85,
-   "text": "Most  VHF  mobile radios operate {{c1::between 30 and 300 MHz::range}}, whereas  UHF  mobile radios operate {{",
-   "figure": "FIGURE 4-15",
-   "file": "figures/study/FIGURE_4_15.jpg",
-   "native_file": "figures/FIGURE_4_15.jpg",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": true,
-   "why": "spatial/structural fact",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 87,
-   "text": "Communications from a  mobile radio  are typically limited to {{c1::10 to 15 miles::range}} over average terra",
-   "figure": "FIGURE 4-15",
-   "file": "figures/study/FIGURE_4_15.jpg",
-   "native_file": "figures/FIGURE_4_15.jpg",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 89,
-   "text": "With {{c1::telemetry::transmission process}}, electronic signals are converted into {{c2::coded, audible signa",
-   "figure": "FIGURE 4-17",
-   "file": "figures/study/FIGURE_4_17.jpg",
-   "native_file": "figures/FIGURE_4_17.jpg",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 98,
-   "text": "When you are on scene, hearing the dispatcher or hospital clearly does {{c1::not::does/does not}} mean you wil",
-   "figure": "FIGURE 4-18",
-   "file": "figures/study/FIGURE_4_18.jpg",
-   "native_file": "figures/FIGURE_4_18.jpg",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": false,
-   "tier": "context"
-  },
-  {
-   "card_index": 99,
-   "text": "{{c1::Paging::alerting method}} is the use of a {{c2::coded tone or digital radio signal}} and a {{c2::voice o",
-   "figure": "FIGURE 4-19",
-   "file": "figures/study/FIGURE_4_19.jpg",
-   "native_file": "figures/FIGURE_4_19.jpg",
-   "coverage": 0.0,
-   "page_dist": 0,
-   "matched_terms": [],
-   "archetype": null,
-   "why": "neither clearly spatial nor clearly abstract",
-   "has_description": false,
-   "tier": "context"
+   "tier": "context",
+   "rejected_because": "touch as reassurance; the card is a list of improper INTERVIEW techniques. Unrelated."
   }
- ],
- "skipped": [],
- "mode": "generous"
+ ]
 }

@@ -1,0 +1,316 @@
+{
+ "source": "emt",
+ "segment": 4,
+ "figures": [
+  {
+   "figure": "FIGURE 4-1",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_1.jpg",
+   "caption": "FIGURE 4-1 Shannon\u2013Weaver communication model.",
+   "publisher_description": null,
+   "depicts": "An abstract signal-flow diagram: Sender -> Encoding -> Message -> Decoding -> Receiver, with a Noise box interfering and a Feedback loop returning. No people, no EMS setting.",
+   "cards": [
+    {
+     "card_index": 0,
+     "tier": "context",
+     "coverage": 0.1,
+     "text": "{{c1::Therapeutic communication::approach}} uses both {{c2::verbal}} and {{c2::nonverbal}} techniques to encou",
+     "verdict": "drop",
+     "why": "abstract signal-flow model; the card is about therapeutic communication technique. Same topic, different subject \u2014 and this plate's real home is the 'noise' card, which the matcher never reached."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 4-11",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_11.jpg",
+   "caption": "FIGURE 4-11 Filing a PCR is a critical part of your responsibilities as an EMT. A. Proper documentation. B. Improper documentation.",
+   "publisher_description": null,
+   "depicts": "A completed handwritten incident report / PCR form, with a long hand-written narrative filling the lower half.",
+   "cards": [
+    {
+     "card_index": 64,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "The {{c1::narrative::PCR section}} is arguably the {{c2::most important}} portion of the patient care report \u2014",
+     "verdict": "keep",
+     "why": "the plate IS a PCR with its handwritten narrative filling the page."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 4-14",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_14.jpg",
+   "caption": "FIGURE 4-14 Even though competent adult patients with decision-making capacity have the right to refuse medical treatment, ask them if they would be willing to sign a refusal form to document their informed refusal. Reprinted with permission from the Maryland Institute for Emergency Medical Services",
+   "publisher_description": "The text in the document reads as follows. Patient Name: Doe, John; Primary Care Giver: John Smith, N R E M T \u2013 P; Agency: BALTIMORE COUNTY FIRE DEPARTMENT; Incident hash: 1122141; e MEDS hash: 00314105399; Unit hash: Medic 14; I n c Date Entered: 11/22/2016; I n c Time Entered: 1824 hours. I (or my guardian) have been informed regarding the state of my present physical condition to the extent I allowed an examination, and I (or my guardian) hereby refuse to accept such medical care and/or transportation as recommended by representatives of the E M S System above. I (or my guardian) do hereby for myself, my heirs, executors, and administrators and assigns forever release and fully discharge said E M S system, its officers, employees, medical consultants, hospitals, borrowed servants, or agents from any and all conceivable liability that might arise from this refusal of care and/or transportation, and I (and my guardian) therefore agree to hold them completely harmless. I (or my guardian) have been informed that a refusal of care and/or transportation for an evaluation may cause me to suffer PAIN, DISABILITY, LOSS of FUNCTION, WORSENING of my CONDITION, or even DEATH as a result of my illness/injury. As a competent adult, I (or my guardian) fully understand all of the above, and am/is capable of determining a rational decision on my own behalf. Providers: When encountering a patient who is attempting to refuse E M S treatment or transport, access his or her condition, and record whether the patient screening reveals any lack of medical decision-making capability (1 to 3,4 a or b) or high-risk criteria (5 to 8). 1) Medical Capacity: Was the patient disoriented to person? If yes, transport; Yes, No (tick). 2) Medical Capacity: Was the patient disoriented to place? If yes, transport; Yes, No (tick). 3) Medical Capacity: Was the patient disoriented to time? If yes, transport; Yes, No (tick). 4) Medical Capacity: Was the patient disoriented to situation? If yes, transport; Yes No (tick). 5) Medical Capacity: Did the patient show altered level of consciousness? If yes, transport; Yes, No (tick). 6) Medical Capacity: Alcohol or drug ingestion by history or exam with slurred speech? If yes, transport; Yes, No (tick). 7) Medical Capacity: Alcohol or drug ingestion by history or exam with unsteady gait? If yes, transport; Yes, No (tick). 8) Medical Capacity: Patient does not understand the nature of illness and potential for bad outcome? If yes, transport; Yes, No (tick). 9) At Risk Criteria (Abnormal vital signs): For adults. Pulse greater than 120 or less than 60? If yes, consult; Yes, No (tick). 10) At Risk Criteria (Abnormal vital signs): For adults. Systolic BP less than 90? If yes, consult; Yes, No (tick). 11) At Risk Criteria (Abnormal vital signs): For adults. Respirations greater than 30 or less than 10? If yes, consult; Yes, No (tick). 12) At Risk Criteria (Abnormal vital signs): For minor/pediatric patients. Age inappropriate H R? If yes, consult; Yes, No (tick). 13) At Risk Criteria (Abnormal vital signs): For minor/pediatric patients. Age inappropriate R R? If yes, consult; Yes, No (tick). 14) At Risk Criteria (Abnormal vital signs): For minor/pediatric patients. Age inappropriate B",
+   "depicts": "A blank printed patient-refusal form: checkbox risk acknowledgements and a space for the patient's own words about why care was refused.",
+   "cards": [
+    {
+     "card_index": 83,
+     "tier": "context",
+     "coverage": 0.375,
+     "text": "A car-crash patient with neck pain accepts treatment and transport but refuses a cervical collar. Provide {{c1",
+     "verdict": "keep",
+     "why": "a patient-refusal form, on a refusal-of-care scenario."
+    },
+    {
+     "card_index": 82,
+     "tier": "context",
+     "coverage": 0.15,
+     "text": "A refusal-of-care PCR documents 4 things:  {{c1::the advice you gave about the risks of refusing}}  {{c1::clin",
+     "verdict": "keep",
+     "why": "the form shows the very fields the card lists as required documentation."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 4-15",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_15.jpg",
+   "caption": "FIGURE 4-15 Some ambulances have more than one mobile radio to allow communications with hospitals, mutual aid jurisdictions, and other agencies.",
+   "publisher_description": null,
+   "depicts": "Two EMTs seated in an ambulance cab; one holds a vehicle-mounted radio handset to her mouth.",
+   "cards": [
+    {
+     "card_index": 86,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "A {{c1::mobile radio::radio type}} is installed {{c2::in a vehicle::where}} and usually operates at {{c3::lowe",
+     "verdict": "keep",
+     "why": "a vehicle-mounted radio being used in an ambulance cab \u2014 exactly a mobile radio."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 4-17",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_17.jpg",
+   "caption": "FIGURE 4-17 A message is sent from the control center to the transmitter by a landline. The radio carrier wave is picked up by the repeater for rebroadcast to outlying units. Return radio traffic is picked up by the repeater and rebroadcast to the control center.",
+   "publisher_description": null,
+   "depicts": "A cartoon landscape of the radio transmission path: a control building, two towers emitting radio waves, and an ambulance receiving them. No telephone appears.",
+   "cards": [
+    {
+     "card_index": 88,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "A {{c1::repeater}} is a special {{c3::base station::radio class}} radio that receives messages on one frequenc",
+     "verdict": "keep",
+     "why": "the plate is the base-station/repeater transmission path this card defines."
+    },
+    {
+     "card_index": 90,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "A cellular telephone is effectively a {{c1::low-power portable radio::device class}} that communicates through",
+     "verdict": "drop",
+     "why": "Parker's example. Towers and an ambulance, no telephone anywhere; the card is about cellular phones. Shared words 'radio'/'repeater' are domain wallpaper."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 4-18",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_18.jpg",
+   "caption": "FIGURE 4-18 A mobile data terminal.",
+   "publisher_description": null,
+   "depicts": "A close-up of a mobile data terminal mounted in a vehicle, showing a street map, with a hand using a stylus on the screen.",
+   "cards": [
+    {
+     "card_index": 97,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "A {{c1::mobile data terminal (MDT)::equipment}} is a small computer terminal inside the ambulance or other veh",
+     "verdict": "keep",
+     "why": "the plate is literally a mobile data terminal."
+    },
+    {
+     "card_index": 92,
+     "tier": "context",
+     "coverage": 0.059,
+     "text": "EMS radio transmission modes and the capability that defines each:   Simplex  \u2014 {{c1::one direction at a time ",
+     "verdict": "drop",
+     "why": "the card is simplex/duplex transmission modes; a data terminal shows none of that."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 4-19",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_19.jpg",
+   "caption": "FIGURE 4-19 You will be assigned to a call by the dispatcher.",
+   "publisher_description": null,
+   "depicts": "A dispatcher wearing a headset at a communications console with several monitors showing maps and CAD screens.",
+   "cards": [
+    {
+     "card_index": 100,
+     "tier": "context",
+     "coverage": 0.083,
+     "text": "A unit uses the radio to communicate with  dispatch  at six points in a call:  {{c1::initial receipt of the ca",
+     "verdict": "keep",
+     "why": "a dispatcher at a console, on a card about radio contact with dispatch."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 4-20",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_20.jpg",
+   "caption": "FIGURE 4-20 The patient report should be given in an objective, accurate, and professional manner.",
+   "publisher_description": null,
+   "depicts": "An EMT in uniform speaking into a handheld portable radio.",
+   "cards": [
+    {
+     "card_index": 105,
+     "tier": "context",
+     "coverage": 0.207,
+     "text": "An EMT's  radio patient report  commonly includes 10 elements, in order:  1. {{c1::Unit ID and service level}}",
+     "verdict": "keep",
+     "why": "an EMT giving a report over a portable radio, on the radio-report card."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 4-3",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_3.jpg",
+   "caption": "FIGURE 4-3 Using touch conveys a sense of caring and compassion.",
+   "publisher_description": null,
+   "depicts": "An EMT in an ambulance holding the hand of a patient who is on oxygen and ECG leads \u2014 touch as reassurance.",
+   "cards": [
+    {
+     "card_index": 26,
+     "tier": "context",
+     "coverage": 0.045,
+     "text": "When interviewing a patient, an EMT should  avoid  8 improper interview techniques:  {{c1::giving false hope o",
+     "verdict": "drop",
+     "why": "touch as reassurance; the card is a list of improper INTERVIEW techniques. Unrelated."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 4-4",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_4.jpg",
+   "caption": "FIGURE 4-4 Watch your body language, because patients may misinterpret your gestures, movements, and stance.",
+   "publisher_description": null,
+   "depicts": "A responder standing outdoors with both arms open and palms visible, gesturing while speaking to a seated person.",
+   "cards": [
+    {
+     "card_index": 29,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "Everything an EMT does communicates something, so your {{c2::body language}} must reflect your words. People c",
+     "verdict": "keep",
+     "why": "open arms and visible palms, on a card about your own body language."
+    },
+    {
+     "card_index": 31,
+     "tier": "context",
+     "coverage": 0.053,
+     "text": " Emotional intelligence  \u2014 the ability to {{c2::identify, understand, and manage::3 verbs}} your own emotions ",
+     "verdict": "drop",
+     "why": "the card is emotional intelligence (naming and managing emotions); the plate is posture."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 4-5",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_5.jpg",
+   "caption": "FIGURE 4-5 You need a great deal of compassion and patience when caring for older patients. Never assume that a patient is senile or confused.",
+   "publisher_description": null,
+   "depicts": "An EMT crouched on a staircase beside a seated older woman, a hand on her arm, talking with her.",
+   "cards": [
+    {
+     "card_index": 38,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "A previously sharp 85-year-old suddenly becomes confused and irritable, and his family says he is \"just gettin",
+     "verdict": "keep",
+     "why": "an EMT working with an older patient, on an older-patient assessment card."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 4-7",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_7.jpg",
+   "caption": "FIGURE 4-7 Learn simple phrases in sign language. Signing requires movement and is best learned by attending a sign language class. A. Sick. B. Hurt. C. Help.",
+   "publisher_description": null,
+   "depicts": "Three panels of an EMT demonstrating sign language: A. Sick, B. Hurt, C. Help.",
+   "cards": [
+    {
+     "card_index": 44,
+     "tier": "context",
+     "coverage": 0.125,
+     "text": "Five steps to communicate with a patient who is hard of hearing:  1. {{c1::keep paper and a pen ready to write",
+     "verdict": "keep",
+     "why": "sign language demonstrated, on the hard-of-hearing communication card."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 4-8",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_8.jpg",
+   "caption": "FIGURE 4-8 A guide dog is easily identified by its special harness.",
+   "publisher_description": null,
+   "depicts": "A guide dog in a rigid harness walking a handler across a street.",
+   "cards": [
+    {
+     "card_index": 45,
+     "tier": "context",
+     "coverage": 0.167,
+     "text": "Managing a patient who has a guide dog:  Patient stable \u2192 {{c1::transport the dog with the patient::Stable}}  ",
+     "verdict": "keep",
+     "why": "a guide dog in harness, on the guide-dog card."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 4-9",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_9.jpg",
+   "caption": "FIGURE 4-9 Once you arrive at the hospital, a staff member will take a patient handover report and responsibility for the patient from you.",
+   "publisher_description": null,
+   "depicts": "A hospital handover: an EMT and a nurse on either side of a patient seated in a wheelchair in a treatment room.",
+   "cards": [
+    {
+     "card_index": 52,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "{{c1::Patient care handover}} is the transfer of {{c2::pertinent patient information}}  and  {{c2::responsibil",
+     "verdict": "keep",
+     "why": "the handover scene itself, on the handover definition."
+    },
+    {
+     "card_index": 57,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "In the EMS-modified version of SBAR ({{c1::SBAT::acronym}}), the final component becomes {{c1::Treatment::comp",
+     "verdict": "keep",
+     "why": "a handover in progress, on a handover-format card. Congruent, if not strictly needed."
+    },
+    {
+     "card_index": 60,
+     "tier": "context",
+     "coverage": 0.444,
+     "text": "A {{c1::patient care report (PCR)}} is the {{c2::legal::legal/medical/administrative}} document used to record",
+     "verdict": "drop",
+     "why": "the card defines the PCR document; this is a handover scene. FIGURE 4-11/4-12 are the PCR plates."
+    },
+    {
+     "card_index": 53,
+     "tier": "context",
+     "coverage": 0.182,
+     "text": " Giving  a handover report follows a five-point method, in order:  1. {{c1::Initiate eye contact}}  2. {{c1::M",
+     "verdict": "keep",
+     "why": "giving a handover, on the giving-a-handover method."
+    },
+    {
+     "card_index": 55,
+     "tier": "context",
+     "coverage": 0.143,
+     "text": "A handover's verbal report should carry {{c1::only the immediately critical information}}, with the numerous o",
+     "verdict": "keep",
+     "why": "handover in progress, on what a verbal handover should carry."
+    },
+    {
+     "card_index": 58,
+     "tier": "context",
+     "coverage": 0.083,
+     "text": " Receiving  a handover report follows a five-point method, in order:  1. {{c1::Maintain eye contact}}  2. {{c1",
+     "verdict": "keep",
+     "why": "receiving a handover, on the receiving-a-handover method."
+    }
+   ]
+  }
+ ]
+}
