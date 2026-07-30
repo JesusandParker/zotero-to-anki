@@ -38,6 +38,7 @@ supplied for 37 of 66 plates, and it feeds back into matching.
 """
 import argparse, json, os, re, sys
 import sources as S
+import authorship
 
 
 def norm(s):
@@ -168,7 +169,8 @@ def main():
             for r in kept[tier]:
                 allowed.setdefault(norm(cards[r["card_index"]]["Text"]), set()).add(
                     media_for(r["figure"]))
-        removed, cleaned = 0, 0
+        removed, cleaned, refused = 0, 0, []
+        store = authorship.load(src["id"])
         for note in infos:
             back = note["fields"]["Back Extra"]["value"]
             here = re.findall(rf'<img src="({re.escape(src["id"])}_[^"]+)"', back)
@@ -182,11 +184,24 @@ def main():
             for m in drop_these:
                 new = re.sub(rf'(?:<br>\s*)*<img src="{re.escape(m)}">', "", new)
             new = re.sub(r"(<br>\s*){3,}", "<br><br>", new).strip()
+            # Same guard as attaching. Removing a figure is surgical, but the field may
+            # carry Parker's own work; `figure_only` passes only when nothing else moved.
+            okw, report = authorship.guard(src["id"], note["noteId"],
+                                           {"Back Extra": back}, {"Back Extra": new},
+                                           figure_only=True, store=store)
+            if not okw:
+                refused.append(report)
+                continue
             call("updateNoteFields", note={"id": note["noteId"],
                                            "fields": {"Back Extra": new}})
+            authorship.record(src["id"], note["noteId"], {"Back Extra": new}, store=store)
             removed += len(drop_these); cleaned += 1
+        authorship.save(src["id"], store)
         print(f"  reconciled the live deck: removed {removed} unjustified figure(s) "
               f"from {cleaned} note(s)")
+        if refused:
+            print(f"  {len(refused)} strip(s) REFUSED by the authorship guard "
+                  f"(the field carries work this system did not author)")
 
 
 if __name__ == "__main__":

@@ -219,3 +219,27 @@ Two distinct causes, and only one of them is mechanically catchable:
 - **MUST CATCH:** a proposal with zero shared vocabulary (mechanical); a proposal whose plate depicts a different subject from the card (judge).
 - **MUST NOT OVER-FLAG:** **low coverage is not the defect.** Chapter 4's two BEST matches scored near the bottom — the guide dog at 0.17, the sign-language panel at 0.12 — and both were kept. Congruent-but-unnecessary is fine and wanted (the developmental age-group photos). The defect is *incongruent*, at any score.
 - **Catch test (both ways):** on EMT ch4, FIGURE 4-2 → palms card and FIGURE 4-17 → cellular card must both be absent from the proposals; FIGURE 4-8 → guide-dog card and FIGURE 4-7 → hard-of-hearing card must both survive. Verified live: after the fix both flagged cards carry no figure, and ch4 went 31 → 17 attached.
+
+## R20 — Provenance recovery assumed card order, and the chapter restates itself
+**Rule:** a card's page must be recoverable without assuming generation order, and the page it is recovered to must be where the material was TAUGHT, not where the chapter recapped it. **Caught by:** `backfill_provenance.py` pass 3 (direct page location) + the earliest-among-ties rule, cross-checked against pass 1/2. Found 2026-07-30 on EMT Chapter 1.
+
+Passes 1–2 anchor a card to a mark by text overlap and then interpolate between anchors, which needs card order to track mark order. That is true of a freshly generated chapter and of Chapter 4 (67 anchors, 59 in one consistent run, 104/107 resolved). **Chapter 1 collapsed to a 6-anchor spine and 12 of 32 resolved** — not because its anchors were wrong (they verify by hand) but because its cards were reordered by heavy consolidation: `0→30, 1→3, 2→20, 4→8`. The assumption, not the matching, was the defect.
+
+The matcher never wanted the mark; it wanted the **page**. Pass 3 scores each page of the chapter against the card's own text — no ordering assumption, identical behaviour on legacy and fresh chapters. Ch1: **29/32 located vs 12/32 via marks.**
+
+That introduced its own failure. A chapter **restates itself at the end** — the glossary and the "Ready for Review" recap condense every definition — so a definition card ties exactly with the summary. Three Ch1 cards landed on the p125 glossary (*"credentialing — An established process to determine the qualifications…"*) instead of the body page that taught them, at 0.73 vs 0.73. **Ties break toward the EARLIEST page:** the body always precedes the recap, and it is the body that has a figure beside it.
+
+- **MUST CATCH:** a chapter whose card order is scrambled must still resolve its pages (Ch1 ≥ 25/32); a definition card must not resolve to the glossary.
+- **MUST NOT OVER-FLAG:** the earliest-among-ties rule must not disturb chapters that were already correct — Ch4 and Ch6 agreement between the two methods stayed at 91/4 and 174/5.
+- **Catch test (both ways):** run the backfill on ch1, ch4 and ch6 and read the printed cross-check. 96–97% agreement on ch4/ch6 is the corroboration; Ch1's disagreements must each be a card scoring far higher against the located page than against its mark's page (0.45–0.77 vs 0.05–0.29), i.e. the mark is the wrong one.
+
+## R21 — The figure writers could clobber Parker's own work
+**Rule:** nothing writes a field this system did not author. **Caught by:** `authorship.guard(..., figure_only=True)` in `attach_figures.py` and `judge_figures.py --strip-live`; `authorship.py self-test`.
+
+The authorship store treats every card predating it as `unknown` and protects it — deliberately, since the incident it exists for was a pass confidently overwriting Parker's own ETHICS mnemonic. But `attach_figures.py` and the `--strip-live` reconciliation both write `Back Extra` on live notes and **consulted none of it**, so they had been running unguarded over the whole existing deck.
+
+A strict guard would have blocked the figure stages entirely, since no card predating the store is `owned`. The answer is a **second verified predicate, not a bypass**: `is_figure_only_change()` strips every pipeline-owned `<img src="<source>_…">` from both sides, normalises the break runs they sat in, and requires the residue to be identical. Attaching or stripping a pipeline figure passes; anything else does not.
+
+- **MUST CATCH:** removing an image **Parker** pasted (his files never carry the `<source>_` prefix); any text change riding along with an image change; an ordinary field rewrite that merely sets `figure_only=True`.
+- **MUST NOT OVER-FLAG:** attaching a pipeline figure to a field carrying his own screenshot and his own prose; stripping a pipeline figure back off it.
+- **Catch test (both ways):** five cases in `authorship.self_test()` (8 → 13 total), including the one that matters most — stripping his own pasted screenshot must be REFUSED.

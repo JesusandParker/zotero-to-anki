@@ -27,7 +27,7 @@ R13.
     python3 backfill_provenance.py --source emt --segment 4 --dry-run
     python3 backfill_provenance.py --source emt --segment 4
 """
-import argparse, bisect, json, os, re, sys
+import argparse, bisect, json, os, re, subprocess, sys
 import sources as S
 
 WORD = re.compile(r"[A-Za-z][A-Za-z\-]{2,}")
@@ -64,6 +64,8 @@ def main():
     ap.add_argument("--source", required=True)
     ap.add_argument("--segment", type=int, required=True)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--no-pages", action="store_true",
+                    help="skip the direct page-location pass (pass 3)")
     args = ap.parse_args()
 
     src = S.get_source(args.source)
@@ -133,6 +135,54 @@ def main():
             resolved[i] = inwin[0][2]
     n_total = sum(r is not None for r in resolved)
 
+    # ---- pass 3: locate the PAGE directly, independent of card order
+    #
+    # Passes 1-2 lean on the generator having walked the chapter in order. That held for
+    # Chapter 4 (67 anchors, 59 of them one consistent run) and collapses for Chapter 1,
+    # whose cards were reordered by heavy consolidation: its anchors are all CORRECT yet
+    # run 0->30, 1->3, 2->20, 4->8 — no monotone structure to interpolate along, so the
+    # spine fell to 6 and only 12 of 32 cards resolved.
+    #
+    # But the matcher does not actually need the mark. It needs the PAGE. That can be read
+    # straight off the source by asking which page's text this card's content best matches
+    # — no ordering assumption, and it works the same on a legacy chapter and a fresh one.
+    # So `source_page` is resolved for EVERY card, and `from_idx` stays whatever passes 1-2
+    # could prove.
+    pages = {}
+    if not args.no_pages:
+        first, last, _n = S.segment_range(src, args.segment)
+        _id, pdf = S.resolve_attachment(src)
+        page_words = {}
+        for pno in range(first, last + 1):
+            txt = subprocess.run(["pdftotext", "-layout", "-f", str(pno), "-l", str(pno),
+                                  pdf, "-"], capture_output=True, text=True,
+                                 timeout=60).stdout
+            w = words(txt)
+            if w:
+                page_words[pno] = w
+        for i, c in enumerate(cards):
+            cw = words(c.get("Text", ""))
+            if not cw:
+                continue
+            ranked = sorted(((len(cw & pw) / len(cw), pno)
+                             for pno, pw in page_words.items()), reverse=True)
+            if not ranked:
+                continue
+            best_s = ranked[0][0]
+            # BREAK TIES TOWARD THE EARLIEST PAGE. A chapter restates itself at the end —
+            # the glossary and the "Ready for Review" recap condense every definition — so
+            # a definition card matches those as well as the prose that introduced it. On
+            # EMT ch1 that produced exact ties (0.73 vs 0.73) where the runner-up was the
+            # real body page and the winner was the p125 glossary. The body always precedes
+            # the recap, so the earliest page among near-equals is the one that taught it —
+            # and it is the one that has a figure beside it.
+            near = [pno for s, pno in ranked if best_s - s <= 0.03]
+            best_p = min(near)
+            # A card's own wording is a rewrite of the page, so overlap is partial by
+            # design; require a real majority before believing it.
+            if best_s >= 0.55:
+                pages[i] = (best_p, round(best_s, 2))
+
     unresolved = [i for i, r in enumerate(resolved) if r is None]
     print(f"{len(cards)} cards | {len(hls)} marks")
     print(f"  pass 1 anchors          : {n_anchor}  (monotonic spine: {n_spine})")
@@ -144,13 +194,25 @@ def main():
         for i in unresolved[:12]:
             print(f"    #{i}: {re.sub(r'<[^>]+>', '', cards[i]['Text'])[:88]}")
 
-    pages = {}
+    print(f"  pass 3 page-located     : {len(pages)}/{len(cards)}  "
+          f"(direct text match, order-independent)")
+    frommark = {}
     for i, r in enumerate(resolved):
         if r is not None:
-            pages[i] = hls[r].get("page")
-    if pages:
-        ps = sorted({int(re.sub(r"[^0-9]", "", str(v)) or 0) for v in pages.values()})
-        print(f"\n  page span covered: {ps[0]}-{ps[-1]}")
+            frommark[i] = hls[r].get("page")
+    # Where BOTH methods spoke, do they agree? A disagreement means one of them is wrong,
+    # and silently preferring either would hide it.
+    agree = dis = 0
+    for i, (pg, _sc) in pages.items():
+        fm = frommark.get(i)
+        if fm is None:
+            continue
+        if abs(int(re.sub(r"[^0-9]", "", str(fm)) or 0) - pg) <= 1:
+            agree += 1
+        else:
+            dis += 1
+    if agree or dis:
+        print(f"  cross-check: {agree} agree, {dis} disagree (mark-page vs located-page)")
 
     if args.dry_run:
         print("\n--dry-run: nothing written.")
@@ -158,6 +220,8 @@ def main():
     for i, r in enumerate(resolved):
         cards[i]["from_idx"] = [r] if r is not None else None
         cards[i]["provenance_backfilled"] = True
+        if i in pages:
+            cards[i]["source_page"] = pages[i][0]
     json.dump(cards, open(cards_p, "w"), indent=1)
     stamp = cards_p + ".verified"
     if os.path.exists(stamp):

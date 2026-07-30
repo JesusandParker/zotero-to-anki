@@ -116,15 +116,42 @@ def is_whitespace_only(before, after):
     return strip(before) == strip(after)
 
 
-def guard(source, note_id, live_fields, new_fields, safe_transform=False, store=None):
+def is_figure_only_change(before, after, source_id):
+    """True if the ONLY difference is pipeline-attached <img> tags coming or going.
+
+    Attaching a figure and stripping one are surgical: they add or remove a single
+    `<img src="<source_id>_...">` and touch nothing else. But they are content
+    changes, so `is_whitespace_only` correctly refuses them, and every card
+    predating the store is `unknown` — which would leave the figure stages unable
+    to run on the existing deck at all.
+
+    The answer is a SECOND verified predicate, not a bypass: delete every
+    pipeline-owned <img> from both sides, normalise the break runs those tags sat
+    in, and require the residue to be identical. Anything Parker added — his own
+    pasted images (which never carry the `<source_id>_` prefix), his mnemonics,
+    his `[sound:]` audio — survives into the residue, so if he touched a single
+    character of it the comparison fails and the guard blocks, exactly as it should.
+    """
+    pat = re.compile(rf'<img src="{re.escape(source_id)}_[^"]*">', re.I)
+    def residue(s):
+        s = pat.sub("", s or "")
+        s = re.sub(r"(?:\s*<br\s*/?>\s*)+", "<br>", s, flags=re.I)
+        return re.sub(r"\s+", " ", s).strip(" ").strip("<br>").strip()
+    return residue(before) == residue(after)
+
+
+def guard(source, note_id, live_fields, new_fields, safe_transform=False, store=None,
+          figure_only=False):
     """(ok, report). ok is False when a write would clobber a field this system
-    did not author. `safe_transform` is VERIFIED, not trusted."""
+    did not author. `safe_transform` / `figure_only` are VERIFIED, not trusted."""
     status = check(source, note_id, {k: live_fields.get(k, "") for k in new_fields}, store)
     blocked = []
     for name, new in new_fields.items():
         if status[name] == "owned":
             continue
         if safe_transform and is_whitespace_only(live_fields.get(name, ""), new):
+            continue
+        if figure_only and is_figure_only_change(live_fields.get(name, ""), new, source):
             continue
         blocked.append((name, status[name]))
     if not blocked:
@@ -187,9 +214,29 @@ def self_test():
     eq("safe_transform does NOT license a content change",
        guard(S, 99, {"Text": "a<br>b"}, {"Text": "a<br><br>c"},
              safe_transform=True, store=store)[0], False)
+    # figure_only: attaching / stripping a pipeline <img> and nothing else
+    HIS = 'Why: fused bones.<br><br><img src="Screenshot 2026-07-30.png">'
+    eq("figure_only allows ATTACHING a pipeline image on an unknown field",
+       guard(S, 99, {"Back Extra": HIS},
+             {"Back Extra": HIS + '<br><br><img src="t_FIGURE_6_6.jpg">'},
+             figure_only=True, store=store)[0], True)
+    eq("figure_only allows STRIPPING a pipeline image on an unknown field",
+       guard(S, 99, {"Back Extra": HIS + '<br><br><img src="t_FIGURE_6_6.jpg">'},
+             {"Back Extra": HIS}, figure_only=True, store=store)[0], True)
+    eq("figure_only does NOT license removing PARKER'S OWN image",
+       guard(S, 99, {"Back Extra": HIS}, {"Back Extra": "Why: fused bones."},
+             figure_only=True, store=store)[0], False)
+    eq("figure_only does NOT license a text change alongside the image",
+       guard(S, 99, {"Back Extra": HIS},
+             {"Back Extra": 'Why: REWRITTEN.<br><br><img src="Screenshot 2026-07-30.png">'
+                            '<br><br><img src="t_FIGURE_6_6.jpg">'},
+             figure_only=True, store=store)[0], False)
+    eq("figure_only does not leak into an ordinary write",
+       guard(S, 99, {"Back Extra": HIS}, {"Back Extra": "something else"},
+             figure_only=True, store=store)[0], False)
     for m in fails:
         print("FAIL " + m)
-    print(f"{8 - len(fails)}/8 authorship guard checks pass")
+    print(f"{13 - len(fails)}/13 authorship guard checks pass")
     return 1 if fails else 0
 
 

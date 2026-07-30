@@ -1,0 +1,19 @@
+{
+ "deck": "all::EMT::Chapter 1::claude review",
+ "writes": [
+  {
+   "noteId": 1782755632307,
+   "figure": "FIGURE 1-3",
+   "media": "emt_FIGURE_1_3.jpg",
+   "appended": "<br><br><img src=\"emt_FIGURE_1_3.jpg\">",
+   "tier": "teaches"
+  },
+  {
+   "noteId": 1782755632109,
+   "figure": "FIGURE 1-2",
+   "media": "emt_FIGURE_1_2.jpg",
+   "appended": "<br><br><img src=\"emt_FIGURE_1_2.jpg\">",
+   "tier": "context"
+  }
+ ]
+}

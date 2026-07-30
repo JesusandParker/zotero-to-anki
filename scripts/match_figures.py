@@ -96,6 +96,15 @@ def card_pages(card, marks):
         p = re.sub(r"[^0-9]", "", str(p))
         if p:
             out.add(int(p))
+    # `source_page` is located by matching the card's text against the chapter's pages
+    # directly, with no dependence on card order. On a chapter whose cards were reordered
+    # by consolidation it is the ONLY reliable signal — EMT ch1 resolves 29/32 pages this
+    # way against 12/32 via marks, and every remaining disagreement there is a case where
+    # the mark is demonstrably wrong (the card scores 0.05-0.29 against the mark's page and
+    # 0.45-0.77 against the located one). Where both methods speak on a chapter with sound
+    # provenance they corroborate each other: ch4 91 agree / 4 disagree, ch6 174 / 5.
+    if card.get("source_page"):
+        out.add(int(card["source_page"]))
     return out
 
 

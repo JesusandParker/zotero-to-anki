@@ -1,0 +1,81 @@
+{
+ "source": "emt",
+ "segment": 1,
+ "figures": [
+  {
+   "figure": "FIGURE 1-2",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_1_2.jpg",
+   "caption": "FIGURE 1-2 In the classroom, you will learn both didactic and practical skills to prepare you for various types of calls.",
+   "publisher_description": null,
+   "depicts": "A classroom: an instructor in uniform addressing two seated students at tables, with a training manikin on a table behind them.",
+   "cards": [
+    {
+     "card_index": 23,
+     "tier": "context",
+     "coverage": 0.6,
+     "text": "{{c1::Certification::pathway step}} is the process that verifies a provider has met the minimum required {{c2:",
+     "verdict": "keep",
+     "why": "a training classroom on a card about verifying that training was completed; congruent, if not strictly needed."
+    },
+    {
+     "card_index": 29,
+     "tier": "context",
+     "coverage": 0.222,
+     "text": "In most states, people who work in emergency medical care are licensed at four levels (lowest to highest train",
+     "verdict": "drop",
+     "why": "the card is the four named licensure LEVELS; one classroom photo depicts no hierarchy of levels."
+    },
+    {
+     "card_index": 1,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "The {{c1::emergency medical responder (EMR)::EMS level}} is trained to {{c2::start lifesaving care before the ",
+     "verdict": "drop",
+     "why": "the card defines the EMR specifically; FIGURE 1-4 is the EMR plate, this is a generic classroom."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 1-3",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_1_3.jpg",
+   "caption": "FIGURE 1-3 Hierarchies of the 2019 National EMS Scope of Practice Model.",
+   "publisher_description": "Image of three intersecting circles. Inside the first circle, is written, medical direction day to day. Inside the second circle is written, State EMS offices, EMS administration, regulatory role, legislative liaison role. Third circle reads, National EMS scope of practice model theoretical foundation.",
+   "depicts": "A three-circle Venn diagram of who governs EMS practice: Medical direction (day to day), State EMS offices (administration, regulatory role, legislative liaison), and the National EMS Scope of Practice Model (theoretical foundation).",
+   "cards": [
+    {
+     "card_index": 30,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Because licensure is a {{c1::state::federal or state?}} function, the laws regulating how EMS providers operat",
+     "verdict": "keep",
+     "why": "the diagram labels 'State EMS offices \u2014 regulatory role' outright, which is exactly the card's answer."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 1-4",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_1_4.jpg",
+   "caption": "FIGURE 1-4 Emergency medical responders, such as law enforcement officers, are trained to provide immediate basic life support until EMTs arrive on the scene.",
+   "publisher_description": null,
+   "depicts": "A law enforcement officer kneeling over a patient lying on pavement, providing care while a child looks on \u2014 an emergency medical responder at work.",
+   "cards": [
+    {
+     "card_index": 24,
+     "tier": "context",
+     "coverage": 0.667,
+     "text": "A medical director {{c1::can::can or cannot}}  limit  an EMT's scope of practice but {{c1::cannot::can or cann",
+     "verdict": "drop",
+     "why": "a responder giving care does not depict a medical director's authority over scope of practice."
+    },
+    {
+     "card_index": 9,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "The  AEMT  level exists to bring {{c1::limited ALS care}} to regions where {{c2::paramedics are not available}",
+     "verdict": "drop",
+     "why": "the plate shows an EMR (law enforcement); the card is about the AEMT level. Wrong certification level \u2014 misleading, not merely unrelated."
+    }
+   ]
+  }
+ ]
+}

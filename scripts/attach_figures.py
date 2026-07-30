@@ -28,6 +28,7 @@ Anki must be running.
 """
 import argparse, base64, json, os, re, sys, urllib.request
 import sources as S
+import authorship
 
 ANKI = "http://localhost:8765"
 
@@ -184,7 +185,8 @@ def main():
         writes.append({"noteId": note["noteId"], "figure": r["figure"], "file": path,
                        "media": fn, "appended": appended, "card_index": r["card_index"],
                        "fig_page": r.get("page_dist") is not None and figpage.get(r["figure"]),
-                       "new_back": back + appended, "tier": r.get("tier")})
+                       "new_back": back + appended, "live_back": back,
+                       "tier": r.get("tier")})
 
     print(f"  to attach : {len(writes)}")
     print(f"  already ok: {len(skipped)} (idempotent skip)")
@@ -209,15 +211,35 @@ def main():
         return
 
     media_done = set()
-    ok = 0
+    ok, refused = 0, []
+    store = authorship.load(src["id"])
     for w in writes:
+        # Attaching is additive, but it still writes a field this system may not have
+        # authored. `figure_only` is a VERIFIED predicate, not a bypass: it passes only
+        # when the sole difference is pipeline `<img>` tags. If Parker has touched the
+        # rest of the field, the guard blocks and we leave his work alone.
+        live = {"Back Extra": w["live_back"]}
+        okw, report = authorship.guard(src["id"], w["noteId"], live,
+                                       {"Back Extra": w["new_back"]},
+                                       figure_only=True, store=store)
+        if not okw:
+            refused.append((w, report))
+            continue
         if w["media"] not in media_done:
             call("storeMediaFile", filename=w["media"],
                  data=base64.b64encode(open(w["file"], "rb").read()).decode())
             media_done.add(w["media"])
         call("updateNoteFields", note={"id": w["noteId"],
              "fields": {"Back Extra": w["new_back"]}})
+        authorship.record(src["id"], w["noteId"], {"Back Extra": w["new_back"]},
+                          store=store)
         ok += 1
+    authorship.save(src["id"], store)
+    if refused:
+        print(f"\n  {len(refused)} write(s) REFUSED by the authorship guard:")
+        for w, report in refused[:3]:
+            print("    " + report.splitlines()[0])
+        print("    (the field changed in a way that is not just a pipeline figure)")
 
     # The undo record ACCUMULATES. Because the attach is idempotent, a second run only
     # ever carries the handful of cards that newly qualified — so overwriting would

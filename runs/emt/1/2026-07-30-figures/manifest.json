@@ -1,0 +1,48 @@
+{
+ "run_id": "2026-07-30-figures",
+ "source": "emt",
+ "segment": 1,
+ "stage": "figures",
+ "started": "2026-07-30T14:20",
+ "finished": "2026-07-30T15:05",
+ "skill_sha": "ab1c99cf9216acaa725e39f42def172245505bde",
+ "status": "complete",
+ "note": "Third figure pass, on an already-staged chapter. Cards not regenerated. See REPORT.md.",
+ "counts": {
+  "cards": 32,
+  "marks": 36,
+  "figures_indexed": 9,
+  "proposals": 6,
+  "kept_after_judge": 2,
+  "attached": 2,
+  "pages_located": 29,
+  "pages_via_marks": 12
+ },
+ "new_hazards_found": [
+  {
+   "id": "FIG-10",
+   "what": "backfill assumed card order tracks mark order; ch1's cards were reordered by consolidation so the spine collapsed to 6 and only 12/32 resolved, despite the anchors being correct",
+   "mechanizable": true,
+   "regression_id": "R20"
+  },
+  {
+   "id": "FIG-11",
+   "what": "page-location tied between the body page and the chapter GLOSSARY/recap, which restates every definition; picked the glossary (p125 over p97)",
+   "mechanizable": true,
+   "regression_id": "R20"
+  },
+  {
+   "id": "FIG-12",
+   "what": "attach_figures and judge_figures --strip-live wrote Back Extra on live notes without consulting the authorship guard, so they could have clobbered Parker's own work",
+   "mechanizable": true,
+   "regression_id": "R21"
+  }
+ ],
+ "still_open": [
+  "per-figure reverse matching",
+  "chapters 2/3/5 unprocessed",
+  "vector figures untested",
+  "3 ch1 cards unlocated",
+  "the mark-vs-page cross-check is printed but not enforced"
+ ]
+}

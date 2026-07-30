@@ -1,0 +1,81 @@
+{
+ "source": "emt",
+ "segment": 1,
+ "figures": [
+  {
+   "figure": "FIGURE 1-2",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_1_2.jpg",
+   "caption": "FIGURE 1-2 In the classroom, you will learn both didactic and practical skills to prepare you for various types of calls.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 23,
+     "tier": "context",
+     "coverage": 0.6,
+     "text": "{{c1::Certification::pathway step}} is the process that verifies a provider has met the minimum required {{c2:",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 29,
+     "tier": "context",
+     "coverage": 0.222,
+     "text": "In most states, people who work in emergency medical care are licensed at four levels (lowest to highest train",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 1,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "The {{c1::emergency medical responder (EMR)::EMS level}} is trained to {{c2::start lifesaving care before the ",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 1-3",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_1_3.jpg",
+   "caption": "FIGURE 1-3 Hierarchies of the 2019 National EMS Scope of Practice Model.",
+   "publisher_description": "Image of three intersecting circles. Inside the first circle, is written, medical direction day to day. Inside the second circle is written, State EMS offices, EMS administration, regulatory role, legislative liaison role. Third circle reads, National EMS scope of practice model theoretical foundation.",
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 30,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Because licensure is a {{c1::state::federal or state?}} function, the laws regulating how EMS providers operat",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 1-4",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_1_4.jpg",
+   "caption": "FIGURE 1-4 Emergency medical responders, such as law enforcement officers, are trained to provide immediate basic life support until EMTs arrive on the scene.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 24,
+     "tier": "context",
+     "coverage": 0.667,
+     "text": "A medical director {{c1::can::can or cannot}}  limit  an EMT's scope of practice but {{c1::cannot::can or cann",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 9,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "The  AEMT  level exists to bring {{c1::limited ALS care}} to regions where {{c2::paramedics are not available}",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  }
+ ]
+}
