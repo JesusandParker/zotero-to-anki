@@ -11,3 +11,8 @@ __pycache__/
 # skill venv (PyMuPDF for figure extraction) — recreate with:
 #   python3 -m venv .venv && .venv/bin/pip install PyMuPDF pillow
 .venv/
+
+# Figure extraction cache — every plate in a segment, regenerable from the PDF:
+#   .venv/bin/python scripts/build_figure_index.py --source <id> --segment <N>
+# figure_index.json IS tracked (small, and it carries the descriptions/terms).
+work/*/figures/

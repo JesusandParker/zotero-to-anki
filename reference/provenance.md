@@ -70,6 +70,20 @@ consolidation stage's judgement.
 **What is deliberately NOT stored:** full-page renders. They regenerate from the PDF in a
 second. Only crops attached to a card are kept, because those are evidence.
 
+**Nor is the figure cache.** `work/<source>/figures/` holds every plate
+`build_figure_index.py` pulled out of a segment, whether or not any card ended up using
+one — Chapter 6 alone is 44 MB, and this book has 41 chapters. It is a deterministic
+function of the PDF plus the script, so it is gitignored and rebuilt on demand:
+
+```
+.venv/bin/python scripts/build_figure_index.py --source <id> --segment <N>
+```
+
+`figure_index.json` IS tracked: it is small, and it is the part that carries judgement —
+the caption, the corroborated long description, and the terms a card is matched against.
+A figure that actually reaches a card stops being a cache entry at that point: it lives in
+Anki's media folder, and the run's `figures/` keeps its evidence copy.
+
 ### The link back to Anki
 `anki_write.py --run <dir>` writes each returned noteId into `provenance.jsonl`. The link
 lives **in the repo, not as a tag on the card** — Parker had the `claude_generated` tag
