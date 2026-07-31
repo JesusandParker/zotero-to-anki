@@ -374,6 +374,18 @@ but **zero shared vocabulary is never enough, not even on the card's own page.**
 holds many paragraphs and the figure illustrates ONE of them. `--strict` restores the
 conservative all-three-signals rule.
 
+**The matcher scores a card by its CLOZE ANSWERS ONLY — never its visible text.** This is
+the single most counter-intuitive thing about the stage and it inverts the obvious advice.
+A card can be squarely on topic, say the subject three times in plain prose, and still
+score **0.00** and be zero-coverage-blocked; conversely a card earns a plate by *hiding*
+the word. On EMT ch7 the fontanelle definition card matched FIGURE 7-2 at 0.375 because
+`{{c1::Fontanelles}}` was its answer, while the two neighbouring fontanelle cards — whose
+answers are months, and *depressed*/*bulging* — scored 0.00 despite naming fontanelles in
+every line. So: **never write a card to feed the matcher.** Answer quality decides the
+wording; if the right card then scores zero and the plate genuinely belongs on it, add the
+proposal by hand and judge it like any other (`forced: true`), which is what Parker's
+margin request for FIGURE 7-2 "on the flashcards relating to the fontanelles" required.
+
 ### Stage 2.95 — JUDGE the figures (mandatory; word overlap cannot do this)
 Matching can tell you a figure and a card share vocabulary. It cannot tell you the figure
 **depicts** what the card is about, and that is the only question that matters. Two real

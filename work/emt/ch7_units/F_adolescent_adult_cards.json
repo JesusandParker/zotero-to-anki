@@ -1,0 +1,54 @@
+[
+ {
+  "Text": "The adolescent <b>growth spurt</b> lasts {{c2::2 to 3 years::duration}} and proceeds in a fixed order:<br><br>{{c1::hands and feet}} → {{c1::long bones of the extremities}} → {{c1::torso}}",
+  "Back Extra": "Cue: growth runs periphery-inward — the parts farthest from the trunk enlarge first, and the trunk finishes last.<br><br>Why: the spurt is what brings the body to adult size — by its end, muscle mass and bone density have nearly reached adult levels.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [37],
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Girls finish the adolescent growth spurt by about {{c1::16 years}}, whereas boys typically reach their growth peak by {{c1::18 years}} and generally become {{c1::taller::taller or shorter}} than girls.",
+  "Back Extra": "Why: girls enter the growth spurt at an earlier age than boys, so they finish sooner even though boys ultimately grow taller.<br><br>Pitfall: finishing by about 16 years ends the growth <i>spurt</i>, not adolescence, which runs 12 to 18 years.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [37],
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The adolescent milestone called {{c1::menarche}} is {{c2::the first menstrual bleeding}}, and reaching it before the adolescent years is {{c3::not uncommon::uncommon or not uncommon}}.",
+  "Back Extra": "Pitfall: a girl who is already menstruating may still be younger than 12, so menarche does not confirm she has reached adolescence.<br><br>Why: menarche signals the maturing reproductive system — by the middle of adolescence the body gains the capacity for reproduction, producing sperm in males and eggs (oocytes) in females.<br><br>Ex: the other secondary sexual developments of adolescence are enlargement of the external reproductive organs, pubic and axillary hair, vocal changes, and adipose deposits in the breasts and thighs.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [37, 38],
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The leading cause of death changes with age:<br><br>All age groups younger than 44 years → {{c1::unintentional injury}}<br><br>Ages 45 to 64 years → {{c2::cancer}}, not heart disease",
+  "Back Extra": "Pitfall: middle adults may already have diabetes or hypertension without knowing it, so a denied medical history does not rule them out.<br><br>Cue: rising cholesterol, decreasing cardiac efficiency, and harder weight control mark these years, though proper exercise and a healthy diet blunt much of the effect.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [39],
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ }
+]

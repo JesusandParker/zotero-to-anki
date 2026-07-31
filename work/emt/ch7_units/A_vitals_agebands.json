@@ -1,0 +1,42 @@
+[
+ {
+  "source": "emt",
+  "kind": "text",
+  "segment": 7,
+  "segment_name": "Life Span Development",
+  "page": "683",
+  "color": "#ffd400",
+  "highlight": "TABLE 7-1 Vital Signs at Various Agesa",
+  "context": "rate of 140 beats/min and a respiratory rate of 60 breaths/min is usually normal for an infant. However, for a 30-year-old adult, the same values would likely signal the presence of a life-threatening condition. Normal blood pressure values also vary widely between different age groups, but unlike pulse and respiratory rates, blood pressure values tend to increase with age. TABLE 7-1 lists approximate normal vital signs for various age groups. TABLE 7-1 Vital Signs at Various Agesa Description a Vital sign ranges may vary in different sources. \u00a9 Jones & Bartlett Learning.",
+  "grounding": "EXACT",
+  "content": "CAPTION_ONLY",
+  "page_text_chars": 1001,
+  "next_page_text_chars": 138,
+  "list_lead_in": false,
+  "user_comment": null,
+  "sort": "00682|000802|00479",
+  "page_sparse": false,
+  "needs_visual": true,
+  "_idx": 0
+ },
+ {
+  "source": "emt",
+  "kind": "text",
+  "segment": 7,
+  "segment_name": "Life Span Development",
+  "page": "685",
+  "color": "#ffd400",
+  "highlight": "From birth to 1 month of age, a person is called a neonate.",
+  "context": "Neonates (Birth to 1 Month) and Infants (1 Month to 1 Year) Unmatched by any other phase of life, the list of developmental changes occurring in the first year is long and substantial. These 12 months are often divided into two stages: neonate and infant. From birth to 1 month of age, a person is called a neonate. An in-depth discussion of the neonatal period is included in Chapter 34, Obstetrics and Neonatal Care. From 1 month to 1 year of age, a person is identified as an infant (FIGURE 7-1).",
+  "grounding": "EXACT",
+  "content": "SPARSE_PAGE",
+  "page_text_chars": 501,
+  "next_page_text_chars": null,
+  "list_lead_in": false,
+  "user_comment": null,
+  "sort": "00684|000210|00187",
+  "page_sparse": true,
+  "needs_visual": true,
+  "_idx": 1
+ }
+]

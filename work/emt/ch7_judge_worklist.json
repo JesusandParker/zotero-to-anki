@@ -1,0 +1,158 @@
+{
+ "source": "emt",
+ "segment": 7,
+ "figures": [
+  {
+   "figure": "FIGURE 7-1",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_7_1.jpg",
+   "caption": "FIGURE 7-1 An infant is 1 month to 1 year of age.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 4,
+     "tier": "context",
+     "coverage": 0.4,
+     "text": "The nine life-span age groups and the ages each one covers:  Neonate \u2014 {{c1::birth to 1 month}}  Infant \u2014 {{c1",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 7,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "A neonate's body weight follows a predictable course:  At birth: {{c1::6 to 8 lb (3 to 3.5 kg)}}  First week: ",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 7-12",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_7_12.jpg",
+   "caption": "FIGURE 7-12 An older adult is 61 years of age or older.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 40,
+     "tier": "context",
+     "coverage": 1.0,
+     "text": "More than {{c1::60%::percentage}} of people older than {{c1::65 years::age}} have atherosclerotic disease.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 7-14",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_7_14.jpg",
+   "caption": "FIGURE 7-14 Age-related atrophy or shrinkage of the brain creates space between the brain and dura mater (subdural space). When the bridging veins are stretched and torn, blood may accumulate in this area.",
+   "publisher_description": "The brain of the younger adult appears normal. The brain of the older adult shows subdural hemorrhage between the brain and the meninges or dura mater, within the skull. A magnified view of the area shows the meninges, dura mater, and torn or stretched bridging vein.",
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 57,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "In an older adult, age-related {{c1::shrinkage}} of the brain opens a void between the brain and the  outermos",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 7-2",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_7_2.jpg",
+   "caption": "FIGURE 7-2 Fontanelles.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 17,
+     "tier": "teaches",
+     "coverage": 0.375,
+     "text": "{{c1::Fontanelles::structures}} are the {{c2::flexible fibrous gaps between cranial bones}}, and they let the ",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 7-3",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_7_3.jpg",
+   "caption": "FIGURE 7-3 Children develop a sense of mistrust if they perceive their parents or caregivers will not provide an organized, predictable environment.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 24,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "The psychosocial stage of {{c1::trust versus mistrust}} begins at {{c2::birth}} and concludes at approximately",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 7-5",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_7_5.jpg",
+   "caption": "FIGURE 7-5 A preschooler is 3 to 6 years of age.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 29,
+     "tier": "context",
+     "coverage": 0.5,
+     "text": "Most children have mastered basic language skills by the age of {{c1::36 months::age}}, and understand full se",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 7-8",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_7_8.jpg",
+   "caption": "FIGURE 7-8 An adolescent is 12 to 18 years of age.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 36,
+     "tier": "context",
+     "coverage": 0.5,
+     "text": "Girls finish the adolescent growth spurt by about {{c1::16 years}}, whereas boys typically reach their growth ",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 35,
+     "tier": "context",
+     "coverage": 0.143,
+     "text": "The adolescent  growth spurt  lasts {{c2::2 to 3 years::duration}} and proceeds in a fixed order:  {{c1::hands",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 7-1",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/TABLE_7_1.jpg",
+   "caption": "TABLE 7-1 Vital Signs at Various Ages a",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 6,
+     "tier": "context",
+     "coverage": 0.5,
+     "text": "A pulse of 140 beats/min is a {{c1::normal::normal or life-threatening}} finding in an  infant , but the same ",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  }
+ ]
+}

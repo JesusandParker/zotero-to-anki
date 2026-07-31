@@ -1,0 +1,54 @@
+{
+ "run_id": "2026-07-31T10-40",
+ "source": "emt",
+ "segment": 7,
+ "started": "2026-07-31T10:40:19",
+ "skill_sha": "1ea3d3677dcc7e467216f20d19be15a509452b8e",
+ "note": "Chapter 7 Life Span Development — 8-unit fan-out, independent per-unit editors, two batch judges",
+ "status": "complete",
+ "finished": "2026-07-31T10:43:07",
+ "counts": {
+  "marks": 53,
+  "marks_covered": 52,
+  "marks_uncarded": {
+   "18": "FIGURE 7-2 caption — the plate itself is the deliverable, attached to three fontanelle cards per Parker's margin request"
+  },
+  "notes": 59,
+  "anki_cards": 91,
+  "notes_drafted": 63,
+  "notes_after_edit_and_consolidation": 59,
+  "figures_attached": 16,
+  "distinct_plates": 8,
+  "needs_human_check": 22,
+  "agents": {
+   "drafters": 8,
+   "independent_unit_editors": 8,
+   "batch_judges": 2
+  }
+ },
+ "new_hazards_found": [
+  {
+   "summary": "the numeric safety flag silently missed every bare percentage (a trailing \\b after '%' can never match), every age stated in months/years, and every rate written '140 beats/min' — so cards hand-asserting numeric were derived back to needs_human_check:false and filed under 'verified, skim'",
+   "regression_id": "R24"
+  },
+  {
+   "summary": "check_cards and verify_report disagreed about verified_against, so every verified table-derived card carried a standing false 'looks numeric' warning — the duplicated-predicate smell R14b was written about",
+   "regression_id": "R24"
+  },
+  {
+   "summary": "match_figures scores coverage from a card's CLOZE ANSWERS only, never its visible text, so an on-topic card can score 0.00 while a card that merely hides the word matches; this misled the run brief into telling drafters to put matcher-bait in visible prose",
+   "mechanizable": false,
+   "why": "not a detector defect but a property of the scorer, and the desirable one — scoring visible text would let a card's scenery pull in plates. The failure mode is a human writing cards to feed the matcher. Fixed as documentation in SKILL.md Stage 2.9, plus the sanctioned escape hatch of a hand-added forced proposal that still goes through the judge."
+  },
+  {
+   "summary": "figure_run --report counts figures on LIVE notes, so on the fresh-segment (--to-cards) route it reports a false 'proposals kept but 0 notes carry a figure' anomaly until anki_write has run",
+   "mechanizable": false,
+   "why": "the report is a point-in-time view of the deck and is correct for the live route it was built for; the fresh route simply has to be reported AFTER staging, which SKILL.md Stage 2.85 already prescribes ('run it before the figure stages and again when they are done'). Teaching it to read the cards file would make it report on intent rather than on what Parker actually has."
+  },
+  {
+   "summary": "AAOS 12e contradicts itself on infant respirations: the p683 prose calls 60 breaths/min 'usually normal for an infant' while TABLE 7-1 caps the infant band at 25 to 50 (60 is the neonate band)",
+   "mechanizable": false,
+   "why": "a defect in the SOURCE, not in the pipeline — no check can adjudicate a textbook against itself. Handled by rewording the affected card off the disputed digit and surfacing the conflict to Parker at hand-off."
+  }
+ ]
+}

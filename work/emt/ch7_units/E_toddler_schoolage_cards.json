@@ -1,0 +1,157 @@
+[
+ {
+  "Text": "A toddler's and preschooler's lungs keep adding terminal bronchioles and alveoli, but the {{c1::musculature}} of those lungs is still poorly developed, so they cannot sustain {{c2::deep or rapid respirations::breathing pattern}} for long.",
+  "Back Extra": "Why: the extra terminal bronchioles and alveoli are being added to meet a growing body's ever-increasing oxygen demand.<br><br>Pitfall: the ceiling is muscular, not structural — a hard-breathing toddler runs out of <i>power</i>, not out of gas-exchange surface.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   23
+  ],
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In toddlers the loss of {{c1::passive immunity}} plus constant exposure to other children brings frequent viral colds, which often show up as {{c2::upper respiratory symptoms}} or {{c2::gastrointestinal distress}}. The antibodies those repeated infections generate become {{c3::acquired immunity}}.",
+  "Back Extra": "Why: the loss of passive immunity is called out as one of the <i>most important</i> physiologic changes of the toddler years, and it lands exactly when the child starts spending time around other children.<br><br>Distinguish: passive immunity is the protection the toddler is <i>losing</i>; acquired immunity is what replaces it.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   23,
+   24
+  ],
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "By the end of the preschooler stage (3 to 6 years), a child's brain weighs roughly {{c1::90%::percentage}} of its adult weight.",
+  "Back Extra": "Cue: the preschool brain is nearly finished growing — the same stage in which play shifts from purely gross motor (grabbing an object with the whole palm) to fine motor (picking up a crayon with thumb and forefinger).",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   23,
+   25
+  ],
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Toddlers have the neuromuscular ability to control the bladder by {{c1::12 to 15 months::age range}}, but many are not <i>psychologically</i> ready for toilet training until {{c2::18 to 30 months::age range}}. On average, toilet training is complete at {{c3::28 months::age}}.",
+  "Back Extra": "Why: toilet training is the outward sign of renal-system maturation and the establishing of elimination patterns.<br><br>Cue: alongside speech development, it is one of the milestones by which a toddler wins the self-sufficiency at stake in the autonomy-versus-shame-and-doubt stage.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   26,
+   27
+  ],
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Most children have mastered basic language skills by the age of {{c1::36 months::age}}, and understand full sentences by {{c2::3 or 4 years::age}}.",
+  "Back Extra": "Cue: once the basics are in place, language stops being only a tool for asking for what they want and starts being used creatively and playfully.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   29
+  ],
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Toddlers begin to understand the concept of cause and effect at about {{c1::18 to 24 months::age range}}.",
+  "Back Extra": "Cue: cause-and-effect lands in the same stretch as this age group's social gains — becoming more interactive with other children is what teaches a toddler to control their own behavior, follow rules, and be competitive.<br><br>Ex: by observing their role models, toddlers of this age also learn to recognize gender differences.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   30
+  ],
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "You are treating a severely injured child when the father, overwhelmed by fear, begins to panic and can no longer answer your questions. On this call the father has become a {{c1::secondary patient::role on scene}}.",
+  "Back Extra": "Cue: on any call for a severely sick or injured child, look for the second patient on scene — a parent.<br><br>Pitfall: the parent's distress adds to an already intense situation and makes the task of treating the child much more difficult.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   31
+  ],
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Each year a school-age child (6 to 12 years) gains about {{c1::4 pounds (2 kg)::weight}} and grows about {{c2::2.5 inches (6 cm)::height}}.",
+  "Back Extra": "Cue: the same 6-to-12 stretch also swaps baby teeth for permanent teeth and brings a significant rise in brain activity in <i>both</i> hemispheres.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   32
+  ],
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "School-age children develop moral reasoning in three levels, each answering to a different influence:<br><br>{{c1::Preconventional}} → {{c2::external forces such as parental discipline}}<br><br>{{c1::Conventional}} → {{c2::the approval of peers and society}}<br><br>{{c1::Postconventional}} → {{c2::an internalized moral compass (conscience)}}",
+  "Back Extra": "Distinguish: under <b>preconventional</b> reasoning an act is right or wrong by its consequences — punishment or incentive. <b>Conventional</b> reasoning still accepts the rules of authority figures, but now because those rules are seen as necessary for positive relationships and acceptance. <b>Postconventional</b> reasoning turns abstract and answers to conscience alone.<br><br>Cue: the order tracks who is in charge — the punisher, then the group, then the self. Postconventional reasoning keeps developing through adolescence.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   33,
+   34,
+   35
+  ],
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Self-concept}} is {{c2::our perception of ourselves}}, whereas {{c1::self-esteem}} is {{c2::how we feel about ourselves}} and how we fit in with our peers.",
+  "Back Extra": "Distinguish: self-concept is the <i>picture</i> you hold of yourself; self-esteem is the <i>verdict</i> on that picture.<br><br>Cue: both begin to take shape during the school-age years, the same stage in which the three levels of moral reasoning develop.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   36
+  ],
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ }
+]

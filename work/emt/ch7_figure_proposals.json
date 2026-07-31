@@ -1,0 +1,280 @@
+{
+ "teaches": [
+  {
+   "card_index": 57,
+   "text": "In an older adult, age-related {{c1::shrinkage}} of the brain opens a void between the brain and the  outermos",
+   "figure": "FIGURE 7-14",
+   "file": "figures/study/FIGURE_7_14.jpg",
+   "native_file": "figures/FIGURE_7_14.png",
+   "coverage": 1.0,
+   "page_dist": 2,
+   "matched_terms": [
+    "bridging",
+    "shrinkage",
+    "veins"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 17,
+   "text": "{{c1::Fontanelles::structures}} are the {{c2::flexible fibrous gaps between cranial bones}}, and they let the ",
+   "figure": "FIGURE 7-2",
+   "file": "figures/study/FIGURE_7_2.jpg",
+   "native_file": "figures/FIGURE_7_2.png",
+   "coverage": 0.375,
+   "page_dist": 0,
+   "matched_terms": [
+    "change",
+    "fontanelles",
+    "shape"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 18,
+   "text": "The fontanelles do not close at the same age:<br><br>Posterior fontanelle \u2192 closes by {{c1::the third month}}<",
+   "figure": "FIGURE 7-2",
+   "file": "figures/study/FIGURE_7_2.jpg",
+   "native_file": "figures/FIGURE_7_2.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "force-added: Parker asked by margin comment for this plate on the fontanelle cards",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 19,
+   "text": "In an infant with an open fontanelle, a {{c1::depressed::depressed or bulging}} fontanelle may indicate {{c2::",
+   "figure": "FIGURE 7-2",
+   "file": "figures/study/FIGURE_7_2.jpg",
+   "native_file": "figures/FIGURE_7_2.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "force-added: Parker asked by margin comment for this plate on the fontanelle cards",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  }
+ ],
+ "context": [
+  {
+   "card_index": 40,
+   "text": "More than {{c1::60%::percentage}} of people older than {{c1::65 years::age}} have atherosclerotic disease.",
+   "figure": "FIGURE 7-12",
+   "file": "figures/study/FIGURE_7_12.jpg",
+   "native_file": "figures/FIGURE_7_12.jpg",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "years"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 6,
+   "text": "A pulse of 140 beats/min is a {{c1::normal::normal or life-threatening}} finding in an  infant , but the same ",
+   "figure": "TABLE 7-1",
+   "file": "figures/study/TABLE_7_1.jpg",
+   "native_file": "figures/TABLE_7_1.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "normal"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 29,
+   "text": "Most children have mastered basic language skills by the age of {{c1::36 months::age}}, and understand full se",
+   "figure": "FIGURE 7-5",
+   "file": "figures/study/FIGURE_7_5.jpg",
+   "native_file": "figures/FIGURE_7_5.jpg",
+   "coverage": 0.5,
+   "page_dist": 2,
+   "matched_terms": [
+    "years"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 36,
+   "text": "Girls finish the adolescent growth spurt by about {{c1::16 years}}, whereas boys typically reach their growth ",
+   "figure": "FIGURE 7-8",
+   "file": "figures/study/FIGURE_7_8.jpg",
+   "native_file": "figures/FIGURE_7_8.jpg",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "years"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 4,
+   "text": "The nine life-span age groups and the ages each one covers:  Neonate \u2014 {{c1::birth to 1 month}}  Infant \u2014 {{c1",
+   "figure": "FIGURE 7-1",
+   "file": "figures/study/FIGURE_7_1.jpg",
+   "native_file": "figures/FIGURE_7_1.jpg",
+   "coverage": 0.4,
+   "page_dist": 1,
+   "matched_terms": [
+    "month",
+    "year"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 7,
+   "text": "A neonate's body weight follows a predictable course:  At birth: {{c1::6 to 8 lb (3 to 3.5 kg)}}  First week: ",
+   "figure": "FIGURE 7-1",
+   "file": "figures/study/FIGURE_7_1.jpg",
+   "native_file": "figures/FIGURE_7_1.jpg",
+   "coverage": 0.2,
+   "page_dist": 1,
+   "matched_terms": [
+    "year"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 24,
+   "text": "The psychosocial stage of {{c1::trust versus mistrust}} begins at {{c2::birth}} and concludes at approximately",
+   "figure": "FIGURE 7-3",
+   "file": "figures/study/FIGURE_7_3.jpg",
+   "native_file": "figures/FIGURE_7_3.jpg",
+   "coverage": 0.2,
+   "page_dist": 0,
+   "matched_terms": [
+    "mistrust"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 35,
+   "text": "The adolescent  growth spurt  lasts {{c2::2 to 3 years::duration}} and proceeds in a fixed order:  {{c1::hands",
+   "figure": "FIGURE 7-8",
+   "file": "figures/study/FIGURE_7_8.jpg",
+   "native_file": "figures/FIGURE_7_8.jpg",
+   "coverage": 0.143,
+   "page_dist": 0,
+   "matched_terms": [
+    "years"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 0,
+   "text": "Normal <b>pulse rate</b> in beats/min, by age group:<br><br>Neonate \u2014 {{c1::100 to 180}}<br><br>Infant \u2014 {{c1:",
+   "figure": "TABLE 7-1",
+   "file": "figures/study/TABLE_7_1.jpg",
+   "native_file": "figures/TABLE_7_1.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "force-added: this card's cited visual evidence \u2014 the table its values were read from",
+   "has_description": false,
+   "tier": "context",
+   "forced": true
+  },
+  {
+   "card_index": 1,
+   "text": "Normal <b>respiratory rate</b> in breaths/min, by age group:<br><br>Neonate \u2014 {{c1::30 to 60}}<br><br>Infant \u2014",
+   "figure": "TABLE 7-1",
+   "file": "figures/study/TABLE_7_1.jpg",
+   "native_file": "figures/TABLE_7_1.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "force-added: this card's cited visual evidence \u2014 the table its values were read from",
+   "has_description": false,
+   "tier": "context",
+   "forced": true
+  },
+  {
+   "card_index": 2,
+   "text": "Normal <b>systolic blood pressure</b> in mm Hg, by age group:<br><br>Neonate \u2014 {{c1::50 to 70}}<br><br>Infant ",
+   "figure": "TABLE 7-1",
+   "file": "figures/study/TABLE_7_1.jpg",
+   "native_file": "figures/TABLE_7_1.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "force-added: this card's cited visual evidence \u2014 the table its values were read from",
+   "has_description": false,
+   "tier": "context",
+   "forced": true
+  },
+  {
+   "card_index": 3,
+   "text": "Normal <b>body temperature</b> by age group:<br><br>Neonate \u2014 {{c1::98\u00b0F to 100\u00b0F (37\u00b0C to 38\u00b0C)}}<br><br>Infa",
+   "figure": "TABLE 7-1",
+   "file": "figures/study/TABLE_7_1.jpg",
+   "native_file": "figures/TABLE_7_1.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "force-added: this card's cited visual evidence \u2014 the table its values were read from",
+   "has_description": false,
+   "tier": "context",
+   "forced": true
+  },
+  {
+   "card_index": 4,
+   "text": "The nine life-span age groups and the ages each one covers:<br><br>Neonate \u2014 {{c1::birth to 1 month}}<br><br>I",
+   "figure": "TABLE 7-1",
+   "file": "figures/study/TABLE_7_1.jpg",
+   "native_file": "figures/TABLE_7_1.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "force-added: this card's cited visual evidence \u2014 the table its values were read from",
+   "has_description": false,
+   "tier": "context",
+   "forced": true
+  }
+ ],
+ "skipped": [],
+ "mode": "generous",
+ "judged": true,
+ "rejected": []
+}

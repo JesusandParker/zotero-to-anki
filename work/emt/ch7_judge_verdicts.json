@@ -1,0 +1,139 @@
+{
+ "source": "emt",
+ "segment": 7,
+ "figures": [
+  {
+   "figure": "FIGURE 7-14",
+   "depicts": "Two coronal brain sections compared. In the younger adult the brain fills the cranial vault; in the older adult it is shrunken, with a wide dark subdural space and a large subdural hemorrhage, and an inset magnifies a torn/stretched bridging vein running to the dura mater. Labelled: subdural space, meninges (dura mater), torn/stretched bridging vein, subdural hemorrhage, skull, brain.",
+   "cards": [
+    {
+     "card_index": 57,
+     "verdict": "keep",
+     "why": "depicts exactly the card's mechanism \u2014 shrinkage, the opened subdural space, and the torn bridging vein"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 7-2",
+   "depicts": "Two labelled line drawings of a newborn skull. A top-down view labels the anterior fontanelle where the sutures cross and the posterior fontanelle at the back; a lateral view labels the anterior, mastoid and sphenoidal fontanelles. The soft gaps are tinted blue between the cranial bones.",
+   "cards": [
+    {
+     "card_index": 17,
+     "verdict": "keep",
+     "why": "the plate IS the structure the card defines; labels sit on the back so they cue nothing"
+    },
+    {
+     "card_index": 18,
+     "verdict": "keep",
+     "why": "Parker asked for this plate on the fontanelle cards; it shows the two the card times, and the answers are months so nothing leaks"
+    },
+    {
+     "card_index": 19,
+     "verdict": "keep",
+     "why": "Parker asked for this plate on the fontanelle cards; it shows where to palpate, and the answers are depressed/bulging so nothing leaks"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 7-12",
+   "depicts": "A colour photograph of an older woman seated in an armchair. An age-group portrait.",
+   "cards": [
+    {
+     "card_index": 40,
+     "verdict": "keep",
+     "why": "age-group portrait of the over-65 population the card's statistic is about"
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 7-1",
+   "depicts": "The complete Vital Signs at Various Ages grid \u2014 nine age rows from neonate to older adult against four columns: pulse rate, respirations, systolic blood pressure and temperature.",
+   "cards": [
+    {
+     "card_index": 6,
+     "verdict": "keep",
+     "why": "the source grid behind the card's own comparison, on the back where it teaches"
+    },
+    {
+     "card_index": 0,
+     "verdict": "keep",
+     "why": "the card's cited visual evidence \u2014 the grid its pulse ladder was read from"
+    },
+    {
+     "card_index": 1,
+     "verdict": "keep",
+     "why": "the card's cited visual evidence \u2014 the grid its respiratory ladder was read from"
+    },
+    {
+     "card_index": 2,
+     "verdict": "keep",
+     "why": "the card's cited visual evidence \u2014 the grid its systolic ladder was read from"
+    },
+    {
+     "card_index": 3,
+     "verdict": "keep",
+     "why": "the card's cited visual evidence \u2014 the grid its temperature ladder was read from"
+    },
+    {
+     "card_index": 4,
+     "verdict": "keep",
+     "why": "the card's cited visual evidence \u2014 the Age column of the grid is this card's list"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 7-5",
+   "depicts": "A colour photograph of a small girl in a denim pinafore standing on a path outdoors. An age-group portrait; no anatomy or process is shown.",
+   "cards": [
+    {
+     "card_index": 29,
+     "verdict": "keep",
+     "why": "a small child on a card about when small children master language; congruent"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 7-8",
+   "depicts": "A colour photograph of a teenage girl leaning against a wooden wall with her arms folded. An age-group portrait.",
+   "cards": [
+    {
+     "card_index": 36,
+     "verdict": "keep",
+     "why": "age-group portrait of the adolescent band the card's ages belong to"
+    },
+    {
+     "card_index": 35,
+     "verdict": "keep",
+     "why": "age-group portrait of the adolescent whose growth spurt the card sequences"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 7-1",
+   "depicts": "A colour photograph of a sleeping newborn in a white onesie on a pastel blanket, knees drawn up. A plain age-group portrait \u2014 it shows what a baby looks like and labels no anatomy.",
+   "cards": [
+    {
+     "card_index": 4,
+     "verdict": "keep",
+     "why": "age-group portrait of the infant band; congruent, and the class Parker named as worth carrying"
+    },
+    {
+     "card_index": 7,
+     "verdict": "keep",
+     "why": "the card is the newborn weight course and the plate is a newborn; congruent"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 7-3",
+   "depicts": "A colour photograph of a young child in a red coat, head tipped back and mouth wide open crying, held in an adult's arms. The book's own illustration for the trust-versus-mistrust passage.",
+   "cards": [
+    {
+     "card_index": 24,
+     "verdict": "keep",
+     "why": "the book's own illustration for trust versus mistrust \u2014 the distressed child IS this passage's picture"
+    }
+   ]
+  }
+ ]
+}

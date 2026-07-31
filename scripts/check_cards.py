@@ -47,7 +47,20 @@ CLOZE = re.compile(r"\{\{c(\d+)::(.*?)(?:::(.*?))?\}\}")
 TAG = re.compile(r"</?([a-zA-Z0-9]+)[^>]*>")
 # a real VALUE/dose/threshold (number + unit, comparison, or range) — NOT a bare
 # list ordinal like "1. Detection" or a year inside a name.
-VALUE = re.compile(r"[<>≤≥]\s*\d|\d+\s*(?:mg|mcg|g|mmHg|mL|%|/min|bpm|hours?|minutes?|seconds?|"
+VALUE = re.compile(r"[<>≤≥]\s*\d|"
+                   # a percentage gets its own branch: "%" is not a word character, so a
+                   # trailing \b after it can never match and every percentage in the book
+                   # escaped the numeric flag silently (found on ch7, 2026-07-31).
+                   r"\d+\s*%|"
+                   # a measured decimal (98.6 °F) — a bare "98.6" carries no unit word.
+                   r"\d+\.\d|"
+                   # rates written with the counted noun inline: 140 beats/min, 60 breaths/min.
+                   r"\d+\s*[a-z]*\s*/\s*min|"
+                   r"\d+\s*(?:mg|mcg|g|mmHg|mL|bpm|hours?|minutes?|seconds?|"
+                   # ages and durations: this book states developmental facts as
+                   # "28 months", "61 years and older", which are values, not ordinals.
+                   r"days?|weeks?|months?|years?|"
+                   r"pounds?|lbs?|kg|ounces?|oz|"
                    r"mph|miles?|feet|ft|inch|in|MHz|watts?|L/min|°|degrees?)\b|"
                    r"\d+\s*(?:to|-|–)\s*\d+", re.I)
 # "N <list-noun>" where the card should then cloze exactly N items. A mismatch means
@@ -488,8 +501,14 @@ def per_card(idx, c, strict_html=True):
         if len(answers) == 1 and len(answers[0].split()) >= LONG_CLOZE_WORDS:
             warn.append(f"#{idx}: cloze c{g} hides {len(answers[0].split())} words in ONE blank — hard to recall verbatim; "
                         f"tighten to the load-bearing words (R8), or if this is a two-way definition, crisp up the c2 meaning side (card-recipes §4)")
-    # looks numeric but not flagged
-    if VALUE.search(readable(t)) and not c.get("needs_human_check"):
+    # looks numeric but not flagged. A card that RECORDS what it was verified against is
+    # the one legitimate exception, and it is not a bypass: verify_report.py derives the
+    # same exemption (`(numeric or weak) and not verified`) and still lists the card in
+    # "Section B: verified, skim", so Parker sees it either way. Without this the two
+    # scripts disagree on every verified table-derived card and the checker emits a
+    # standing false warning — the duplicated-predicate smell R14b was written about.
+    if (VALUE.search(readable(t)) and not c.get("needs_human_check")
+            and not c.get("verified_against")):
         warn.append(f"#{idx}: looks numeric/dose but needs_human_check is false")
     # stated list-count != number of clozed items (the "7 vs 8 factors" bug)
     m = COUNT_RE.search(readable(t))

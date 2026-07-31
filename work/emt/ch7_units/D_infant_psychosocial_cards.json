@@ -1,0 +1,54 @@
+[
+ {
+  "Text": "Match each characteristic to the age at which it typically appears in an infant:<br><br>Reaches arms out to people; drools → {{c1::4 months}}<br><br>Sleeps throughout the night; distinguishes family members from strangers → {{c1::5 months}}<br><br>Recognizes familiar faces; uses the eyes to track objects and people → {{c1::2 months}}<br><br>Begins teething; sits upright; speaks one-syllable words → {{c1::6 months}}<br><br>Brings objects to the mouth; smiles and frowns → {{c1::3 months}}",
+  "Back Extra": "Distinguish: bringing objects to the mouth is the 3-month characteristic, while deliberately exploring objects by placing them in the mouth comes months later; in the same way, sitting upright at 6 months precedes sitting alone.<br><br>Cue: the first half-year develops outward from the eyes, running recognizing and tracking first, then the hands and mouth (reaching, drooling, mouthing), then the trunk and the first one-syllable words.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [20],
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Match each infant characteristic to the age at which it typically appears:<br><br>Pulls self up to stand; explores objects by placing them in the mouth → {{c1::9 months}}<br><br><i>Knows</i> his or her name; walks → {{c1::12 months}}<br><br>Afraid of strangers; displays mood swings → {{c1::7 months}}<br><br><i>Begins</i> to walk without assistance; becomes frustrated by restrictions → {{c1::11 months}}<br><br>Responds to \"no\"; can sit alone; plays peek-a-boo → {{c1::8 months}}<br><br><i>Responds to</i> his or her name; crawls efficiently → {{c1::10 months}}",
+  "Back Extra": "Distinguish: two look-alike pairs split by degree. An infant <i>responds to</i> his or her name at 10 months but <i>knows</i> it at 12, and <i>begins</i> to walk without assistance at 11 months but simply walks at 12.<br><br>Cue: the second half-year is one long mobility ladder, sitting alone, then pulling up to stand, then crawling, then walking, and it opens with the social shift at 7 months when the infant first becomes afraid of strangers.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [20],
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In older infants, {{c1::separation anxiety}} is common, marked by {{c2::clingy behavior}} and {{c2::fear of unfamiliar places and people}}, and typically peaking between {{c3::10 and 18 months}} of age.",
+  "Back Extra": "Distinguish: an infant who instead shows little emotional response to a caregiver and treats that caregiver like a stranger is showing anxious-avoidant attachment, which results from recurring rejection.<br><br>Cue: crying as a means of protest is normal at this age, so an infant who clings and cries when a parent steps out of the room is behaving as expected.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [20, 21, 28],
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The psychosocial stage of {{c1::trust versus mistrust}} begins at {{c2::birth}} and concludes at approximately {{c2::18 months}} of age.",
+  "Back Extra": "Meaning: trust versus mistrust is the stretch of infancy in which children learn whether the people around them can be relied on.<br><br>Mechanism: infants depend entirely on their caregivers, so the crucial element is the quality of care. Needs met consistently in a stable environment build trust, while caregivers who are inconsistent, emotionally unavailable, or rejecting build mistrust.<br><br>Pitfall: an environment too unpredictable for the infant can trigger despair and withdrawal, and the resulting trust issues may surface later in life.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [21, 22],
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ }
+]

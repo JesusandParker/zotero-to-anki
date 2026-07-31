@@ -1,0 +1,192 @@
+[
+ {
+  "Text": "Normal <b>pulse rate</b> in beats/min, by age group:<br><br>Neonate — {{c1::100 to 180}}<br><br>Infant — {{c1::100 to 160}}<br><br>Toddler — {{c1::90 to 150}}<br><br>Preschool age — {{c1::80 to 140}}<br><br>School age — {{c1::70 to 120}}<br><br>Adolescent through older adult — {{c1::60 to 100}}",
+  "Back Extra": "Pitfall: age cuts both ways — a neonate's ceiling of 180 beats/min is baseline rather than distress, while an older adult gets no allowance at all and is held to the same 60 to 100 as a 20-year-old.<br><br>Cue: the lower bound walks down in clean tens — 100 for the neonate and infant, then 90, 80, 70, and 60 from adolescence on.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   0
+  ],
+  "numeric": true,
+  "verified_against": "TABLE 7-1 (p683-684)",
+  "verified_by": "rendered plate figures/TABLE_7_1.png",
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "683",
+    "684"
+   ],
+   "figures": [
+    "figures/TABLE_7_1.png"
+   ],
+   "labels": [
+    "TABLE 7-1"
+   ],
+   "note": "TABLE 7-1 'Vital Signs at Various Ages' — caption on p683, body is a rendered image on p684 with no text layer. Every value on this card was read off the extracted plate work/emt/figures/TABLE_7_1.png."
+  },
+  "image": null
+ },
+ {
+  "Text": "Normal <b>respiratory rate</b> in breaths/min, by age group:<br><br>Neonate — {{c1::30 to 60}}<br><br>Infant — {{c1::25 to 50}}<br><br>Toddler — {{c1::20 to 30}}<br><br>Preschool age — {{c1::20 to 25}}<br><br>School age — {{c1::15 to 20}}<br><br>Adolescent through older adult — {{c1::12 to 20}}",
+  "Back Extra": "Pitfall: an infant breathing 40 breaths/min is normal, but the identical rate in an adult is double the adult ceiling of 20 — a respiratory rate means nothing until the patient's age is known.<br><br>Cue: a neonate's slowest normal breathing, 30 breaths/min, is still faster than an adult's fastest normal, 20 — the two bands never overlap.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   0
+  ],
+  "numeric": true,
+  "verified_against": "TABLE 7-1 (p683-684)",
+  "verified_by": "rendered plate figures/TABLE_7_1.png",
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "683",
+    "684"
+   ],
+   "figures": [
+    "figures/TABLE_7_1.png"
+   ],
+   "labels": [
+    "TABLE 7-1"
+   ],
+   "note": "TABLE 7-1 'Vital Signs at Various Ages' — caption on p683, body is a rendered image on p684 with no text layer. Every value on this card was read off the extracted plate work/emt/figures/TABLE_7_1.png."
+  },
+  "image": null
+ },
+ {
+  "Text": "Normal <b>systolic blood pressure</b> in mm Hg, by age group:<br><br>Neonate — {{c1::50 to 70}}<br><br>Infant — {{c1::70 to 95}}<br><br>Toddler and preschool age — {{c1::80 to 100}}<br><br>School age — {{c1::80 to 110}}<br><br>Adolescent — {{c1::90 to 110}}<br><br>Early, middle, and older adult — {{c1::90 to 130}}",
+  "Back Extra": "Distinguish: systolic pressure is the only one of the four vital signs that climbs with age — a neonate's floor of 50 mm Hg is little more than half the adult floor of 90.<br><br>Pitfall: an adolescent reaches adult pulse and respiratory values but not adult pressure — the systolic ceiling holds at 110 until age 19, then rises to 130.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   0
+  ],
+  "numeric": true,
+  "verified_against": "TABLE 7-1 (p683-684)",
+  "verified_by": "rendered plate figures/TABLE_7_1.png",
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "683",
+    "684"
+   ],
+   "figures": [
+    "figures/TABLE_7_1.png"
+   ],
+   "labels": [
+    "TABLE 7-1"
+   ],
+   "note": "TABLE 7-1 'Vital Signs at Various Ages' — caption on p683, body is a rendered image on p684 with no text layer. Every value on this card was read off the extracted plate work/emt/figures/TABLE_7_1.png."
+  },
+  "image": null
+ },
+ {
+  "Text": "Normal <b>body temperature</b> by age group:<br><br>Neonate — {{c1::98°F to 100°F (37°C to 38°C)}}<br><br>Infant and toddler — {{c1::96.8°F to 99.6°F (36°C to 37.5°C)}}<br><br>Preschool age through older adult — {{c1::98.6°F (37°C)}}",
+  "Back Extra": "Distinguish: temperature is the one vital sign with no steady climb or fall across the age groups — its own band for the first three years, then a fixed 98.6°F (37°C) from preschool age onward.<br><br>Cue: the neonate is the only group whose normal reaches 100°F (38°C), and the infant and toddler are the only ones whose normal dips below 98°F.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   0
+  ],
+  "numeric": true,
+  "verified_against": "TABLE 7-1 (p683-684)",
+  "verified_by": "rendered plate figures/TABLE_7_1.png",
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "683",
+    "684"
+   ],
+   "figures": [
+    "figures/TABLE_7_1.png"
+   ],
+   "labels": [
+    "TABLE 7-1"
+   ],
+   "note": "TABLE 7-1 'Vital Signs at Various Ages' — caption on p683, body is a rendered image on p684 with no text layer. Every value on this card was read off the extracted plate work/emt/figures/TABLE_7_1.png."
+  },
+  "image": null
+ },
+ {
+  "Text": "The nine life-span age groups and the ages each one covers:<br><br>Neonate — {{c1::birth to 1 month}}<br><br>Infant — {{c1::1 month to 1 year}}<br><br>Toddler — {{c1::1 to 3 years}}<br><br>Preschool age — {{c1::3 to 6 years}}<br><br>School age — {{c1::6 to 12 years}}<br><br>Adolescent — {{c1::12 to 18 years}}<br><br>Early adult — {{c1::19 to 40 years}}<br><br>Middle adult — {{c1::41 to 60 years}}<br><br>Older adult — {{c1::61 years and older}}",
+  "Back Extra": "Why: no other phase of life changes as fast as the first year, which is why those 12 months alone carry two names — neonate for the first month, infant for the remaining eleven.<br><br>Pitfall: the childhood bands share a boundary year, so one age can sit in two groups — a 12-year-old is both school age and adolescent — while the adult bands do not overlap, since adolescence ends at 18 and early adulthood starts at 19.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   0,
+   1
+  ],
+  "numeric": true,
+  "verified_against": "TABLE 7-1 (p683-684)",
+  "verified_by": "rendered plate figures/TABLE_7_1.png",
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "683",
+    "684"
+   ],
+   "figures": [
+    "figures/TABLE_7_1.png"
+   ],
+   "labels": [
+    "TABLE 7-1"
+   ],
+   "note": "TABLE 7-1 'Vital Signs at Various Ages' — caption on p683, body is a rendered image on p684 with no text layer. Every value on this card was read off the extracted plate work/emt/figures/TABLE_7_1.png."
+  },
+  "image": null
+ },
+ {
+  "Text": "As a person gets older, <b>pulse rate</b> and <b>respiratory rate</b> {{c1::decrease::increase or decrease}}, whereas <b>systolic blood pressure</b> tends to {{c1::increase::increase or decrease}}.",
+  "Back Extra": "Pitfall: the climb has a ceiling — systolic pressure stops rising once it reaches 90 to 130 in early adulthood and is identical in middle and older adults, so a high reading in a 70-year-old is a finding, not an age effect.<br><br>Cue: the same 70 mm Hg that is an infant's healthy floor sits 20 mm Hg below the adult floor of 90 — which is exactly why the ranges have to be age-banded at all.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   0
+  ],
+  "numeric": false,
+  "verified_against": "TABLE 7-1 (p683-684)",
+  "verified_by": "rendered plate figures/TABLE_7_1.png",
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "683",
+    "684"
+   ],
+   "figures": [
+    "figures/TABLE_7_1.png"
+   ],
+   "labels": [
+    "TABLE 7-1"
+   ],
+   "note": "TABLE 7-1 'Vital Signs at Various Ages' — caption on p683, body is a rendered image on p684 with no text layer. Every value on this card was read off the extracted plate work/emt/figures/TABLE_7_1.png."
+  },
+  "image": null
+ },
+ {
+  "Text": "A pulse of 140 beats/min is a {{c1::normal::normal or life-threatening}} finding in an <b>infant</b>, but the same rate in a <b>30-year-old adult</b> signals a {{c1::life-threatening::normal or life-threatening}} condition.",
+  "Back Extra": "Why: 140 beats/min sits inside the infant's normal 100 to 160 but runs 40 beats/min past the adult ceiling of 100 — a vital sign has no meaning until the patient's age is known.<br><br>Pitfall: the trap runs both ways — a pulse of 70 beats/min is unremarkable in an adult but dangerously slow in a neonate, whose normal starts at 100.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [
+   0
+  ],
+  "numeric": true,
+  "verified_against": "p683 prose + TABLE 7-1 (p683-684)",
+  "verified_by": "p683 prose, verbatim: \"Finding a pulse rate of 140 beats/min ... is usually normal for an infant. However, for a 30-year-old adult, the same values would likely signal the presence of a life-threatening condition.\" Corroborated on the rendered plate figures/TABLE_7_1.png: infant pulse 100 to 160 (140 inside), adult pulse 60 to 100 (140 far outside), neonate pulse floor 100. The prose's companion figure of 60 breaths/min was REMOVED by the editor: TABLE 7-1 caps infant respirations at 50 and puts 60 only in the neonate band, so the book contradicts itself on that digit.",
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "683",
+    "684"
+   ],
+   "figures": [
+    "figures/TABLE_7_1.png"
+   ],
+   "labels": [
+    "TABLE 7-1"
+   ],
+   "note": "The pulse of 140 beats/min and the infant-vs-30-year-old comparison come from the p683 prose in mark 0's own context (grounding EXACT). The ranges quoted in the Back Extra (infant 100 to 160, adult 60 to 100, neonate floor 100) were read off the extracted plate work/emt/figures/TABLE_7_1.png, whose body is a rendered image on p684 with no text layer."
+  },
+  "image": null
+ }
+]

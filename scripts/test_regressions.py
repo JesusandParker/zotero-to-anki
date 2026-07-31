@@ -338,6 +338,45 @@ CASES = [
                    "Back Extra": "Cue: nose, mouth, then the split.", "chapter": 6}],
         "note": "item-then-descriptor rows: the structure names ARE the recall target",
     },
+    # --- R24: values the numeric safety flag used to walk straight past (ch7, 2026-07-31) ---
+    {
+        "id": "r24_bad_percentage_escapes_numeric_flag",
+        "warn": "looks numeric", "present": True,
+        "cards": [{"Text": "At birth the head accounts for about {{c1::25%}} of a neonate's total body weight.",
+                   "Back Extra": "Why: the head leads in a fall, so neonates land headfirst.", "chapter": 7}],
+        "note": "'%' is not a word char, so the old trailing \\b made the percentage branch dead",
+    },
+    {
+        "id": "r24_bad_age_in_months_escapes_numeric_flag",
+        "warn": "looks numeric", "present": True,
+        "cards": [{"Text": "The average age at which toddlers complete toilet training is {{c1::28 months}}.",
+                   "Back Extra": "Distinguish: bladder control is possible far earlier, at 12 to 15 months.", "chapter": 7}],
+        "note": "this book states developmental facts as ages in months/years, not as ranges",
+    },
+    {
+        "id": "r24_bad_rate_with_inline_noun_escapes_numeric_flag",
+        "warn": "looks numeric", "present": True,
+        "cards": [{"Text": "A resting pulse of {{c1::140 beats/min}} is a normal finding in an infant.",
+                   "Back Extra": "Pitfall: the same rate in an adult is far above the 60 to 100 range.", "chapter": 7}],
+        "note": "'140 beats/min' — the counted noun sits between the digits and '/min'",
+    },
+    {
+        "id": "r24_good_list_ordinal_is_not_a_value",
+        "warn": "looks numeric", "present": False,
+        "cards": [{"Text": "The stages of grief begin with {{c1::denial}} and end with {{c1::acceptance}}.",
+                   "Back Extra": "Cue: the order is not fixed; people move back and forth.", "chapter": 7}],
+        "note": "no digit at all — widening VALUE must not start flagging ordinary prose",
+    },
+    {
+        "id": "r24_good_verified_card_is_exempt",
+        "warn": "looks numeric", "present": False,
+        "cards": [{"Text": "Normal <b>pulse rate</b> in beats/min, by age group:<br><br>Neonate — {{c1::100 to 180}}<br><br>Infant — {{c1::100 to 160}}",
+                   "Back Extra": "Cue: the lower bound walks down in tens.", "chapter": 7,
+                   "verified_against": "TABLE 7-1 (p683-684)",
+                   "verified_by": "rendered plate figures/TABLE_7_1.png"}],
+        "note": "a card that RECORDS what it was checked against is exempt — the same "
+                "exemption verify_report.py derives, so the two scripts cannot disagree",
+    },
 ]
 
 

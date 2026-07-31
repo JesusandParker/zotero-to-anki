@@ -1,0 +1,80 @@
+[
+ {
+  "Text": "In a healthy, full-term newborn, four reflexes are present at birth:<br><br>{{c1::Moro (startle)}}<br><br>{{c1::palmar grasp}}<br><br>{{c1::rooting}}<br><br>{{c1::sucking}}",
+  "Back Extra": "Ex: an object placed in the newborn's palm makes the hand close around it — that is the palmar grasp; stroking the lips prompts the baby to latch on — that is the sucking reflex.<br><br>Cue: rooting and sucking are the two reflexes that serve feeding.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [10, 11, 12, 13],
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Name the newborn reflex from how it presents:<br><br>The arms fly open wide and the fingers spread, as if grabbing at something = the {{c1::Moro}} reflex<br><br>Something touches the cheek and the head turns toward the touch = the {{c1::rooting}} reflex",
+  "Back Extra": "Cue: the Moro reflex is more often called the <i>startle</i> reflex.<br><br>Why: the newborn nervous system is well established at birth but not yet mature, which is why a healthy, full-term infant already produces these responses reliably.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [10, 12],
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Fontanelles::structures}} are the {{c2::flexible fibrous gaps between cranial bones}}, and they let the newborn's head {{c3::change shape}} as it passes through the narrow birth canal.",
+  "Back Extra": "Why: in the months after birth the cranial bones grow together and fuse into a unified, rigid structure, so a fontanelle is a temporary finding.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [14, 15],
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The fontanelles do not close at the same age:<br><br>Posterior fontanelle → closes by {{c1::the third month}}<br><br>Anterior fontanelle → closes between {{c1::9 and 18 months}}",
+  "Back Extra": "Cue: the anterior fontanelle stays open far longer than the posterior one, so beyond early infancy it is the only fontanelle left to assess.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [15, 16, 17],
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In an infant with an open fontanelle, a {{c1::depressed::depressed or bulging}} fontanelle may indicate {{c2::dehydration}}, whereas a {{c1::bulging::depressed or bulging}} fontanelle often signals {{c2::increased intracranial pressure}}.",
+  "Back Extra": "Mnemonic: a sunken fontanelle is a low tank — think fluid loss.<br><br>Pitfall: a fontanelle reads this way only while it is still open, so the sign is gone once it has closed.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [17],
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "<b>Teething</b> (baby teeth breaking through the gums) can be {{c1::painful}} and is sometimes accompanied by a {{c1::low-grade}} fever.",
+  "Back Extra": "Pitfall: teething accounts only for a <i>low-grade</i> fever, so a higher fever in an infant is not explained by teething.",
+  "source": "emt",
+  "segment": 7,
+  "from_idx": [19],
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ }
+]
