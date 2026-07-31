@@ -6434,7 +6434,19 @@
   "image": null,
   "from_idx": null,
   "provenance_backfilled": "source_page only \u2014 mark-level provenance was too weak to assert (57% cross-check)",
-  "source_page": 458
+  "source_page": 458,
+  "visual_source": {
+   "pages": [
+    "460"
+   ],
+   "figures": [
+    "figures/study/TABLE_5_1.jpg"
+   ],
+   "labels": [
+    "TABLE 5-1"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py); the plate is the visual evidence."
+  }
  },
  {
   "Text": "A {{c1::prefix}} is attached to the {{c2::beginning}} of a term and generally describes {{c3::location and intensity}}.",

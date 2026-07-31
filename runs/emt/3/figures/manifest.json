@@ -1,0 +1,26 @@
+{
+ "run_id": "figures",
+ "source": "emt",
+ "segment": 3,
+ "stage": "figures",
+ "status": "complete",
+ "counts": {
+  "marks": 73,
+  "cards": 84,
+  "cards_placeable": 80,
+  "figures_indexed": 13,
+  "proposed": 18,
+  "judged": true,
+  "kept": 4,
+  "rejected": 14,
+  "attached_notes": 4,
+  "distinct_plates": 4,
+  "doubled": 0,
+  "leaks": 0
+ },
+ "anomalies": [
+  "the judge rejected 14/18 \u2014 that much attrition usually means the matcher is proposing on proximity alone."
+ ],
+ "skill_sha": "683739cb2ace77f1d51067448335037eccf7324d",
+ "new_hazards_found": []
+}

@@ -158,7 +158,12 @@
    "why": "spatial/structural fact",
    "has_description": true,
    "tier": "context"
-  },
+  }
+ ],
+ "skipped": [],
+ "mode": "generous",
+ "judged": true,
+ "rejected": [
   {
    "card_index": 292,
    "text": "The directional term {{c1::deep}} means {{c2::farthest from the surface of the skin}}.",
@@ -173,9 +178,8 @@
    "archetype": true,
    "why": "spatial/structural fact",
    "has_description": true,
-   "tier": "context"
+   "tier": "context",
+   "rejected_because": "the plate has no deep/superficial axis; every other directional pair is drawn, this one is not."
   }
- ],
- "skipped": [],
- "mode": "generous"
+ ]
 }

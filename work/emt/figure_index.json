@@ -1,9 +1,9 @@
 {
  "source": "emt",
- "scope": "segment_1+segment_2+segment_3+segment_4+segment_5+segment_6",
+ "scope": "segment_1+segment_2+segment_3+segment_4+segment_5+segment_6+segment_7",
  "pages": [
-  515,
-  680
+  681,
+  737
  ],
  "figures": [
   {
@@ -3784,7 +3784,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "Examples of some word roots are shown in    .",
-   "seen_description": null,
+   "seen_description": "A two-column reference table of common medical word roots and their meanings (cardi/o = heart, derm/o = skin, and so on), rendered as an image.",
    "terms": [
     "common",
     "examples",
@@ -3939,7 +3939,7 @@
    "extraction": "cached",
    "description": "A man stands with his legs slightly apart, his arms slightly abducted, and his palms facing forward. The directional terms indicating distance with direction from the midline are as follows. Anterior: Front side of the body; posterior: rear side of the body; Superior: toward the head; Inferior: away from the head; medial: toward the midline of the body; lateral: away from the midline of the body; proximal: nearest point of attachment to limb; distal: farthest away from attachment or origin.",
    "crossrefs": "When discussing where an injury is located or how pain radiates in the body, you need to know the correct directional terms (   ).",
-   "seen_description": null,
+   "seen_description": "A full-body anatomical figure in the standard position, annotated with arrows for every directional pair: Medial/Lateral across the midline, Superior (nearer the head)/Inferior (away from the head), Anterior (front)/Posterior (rear), and Proximal/Distal along the arm. Patient's right and left are marked. It does NOT show deep vs superficial.",
    "terms": [
     "abducted",
     "anterior",
@@ -6141,23 +6141,545 @@
     "vagina",
     "wall"
    ]
+  },
+  {
+   "label": "TABLE 7-1",
+   "title": "TABLE 7-1 Vital Signs at Various Ages a",
+   "caption_page": 683,
+   "art_page": 684,
+   "file": "figures/TABLE_7_1.png",
+   "study_file": "figures/study/TABLE_7_1.jpg",
+   "px": [
+    2229,
+    1103
+   ],
+   "extraction": "native",
+   "description": null,
+   "crossrefs": "lists approximate normal vital signs for various age groups.",
+   "seen_description": null,
+   "terms": [
+    "age",
+    "ages",
+    "approximate",
+    "groups",
+    "lists",
+    "normal",
+    "signs",
+    "table",
+    "various",
+    "vital"
+   ]
+  },
+  {
+   "label": "FIGURE 7-1",
+   "title": "FIGURE 7-1 An infant is 1 month to 1 year of age.",
+   "caption_page": 686,
+   "art_page": 686,
+   "file": "figures/FIGURE_7_1.jpg",
+   "study_file": "figures/study/FIGURE_7_1.jpg",
+   "px": [
+    1046,
+    1394
+   ],
+   "extraction": "native",
+   "description": null,
+   "crossrefs": "From 1 month to 1 year of age, a person is identified as an  infant  (   ).",
+   "seen_description": null,
+   "terms": [
+    "age",
+    "identified",
+    "infant",
+    "month",
+    "person",
+    "year"
+   ]
+  },
+  {
+   "label": "FIGURE 7-2",
+   "title": "FIGURE 7-2 Fontanelles.",
+   "caption_page": 690,
+   "art_page": 690,
+   "file": "figures/FIGURE_7_2.png",
+   "study_file": "figures/study/FIGURE_7_2.jpg",
+   "px": [
+    2177,
+    887
+   ],
+   "extraction": "native",
+   "description": null,
+   "crossrefs": "fontanelles , allow the newborn\u2019s head to change shape slightly as it passes through the narrow birth canal (   ).",
+   "seen_description": null,
+   "terms": [
+    "allow",
+    "birth",
+    "canal",
+    "change",
+    "fontanelles",
+    "head",
+    "narrow",
+    "newborn",
+    "passes",
+    "shape",
+    "slightly",
+    "through"
+   ]
+  },
+  {
+   "label": "FIGURE 7-3",
+   "title": "FIGURE 7-3 Children develop a sense of mistrust if they perceive their parents or caregivers will not provide an organized, predictable environment.",
+   "caption_page": 693,
+   "art_page": 693,
+   "file": "figures/FIGURE_7_3.jpg",
+   "study_file": "figures/study/FIGURE_7_3.jpg",
+   "px": [
+    1046,
+    661
+   ],
+   "extraction": "native",
+   "description": null,
+   "crossrefs": "Conversely, if their parents/caregivers are inconsistent, emotionally unavailable, or rejecting, children may develop a sense of mistrust (   ).",
+   "seen_description": null,
+   "terms": [
+    "caregivers",
+    "children",
+    "conversely",
+    "develop",
+    "emotionally",
+    "environment",
+    "inconsistent",
+    "may",
+    "mistrust",
+    "not",
+    "organized",
+    "parents",
+    "perceive",
+    "predictable",
+    "provide",
+    "rejecting",
+    "sense",
+    "their",
+    "they",
+    "unavailable",
+    "will"
+   ]
+  },
+  {
+   "label": "FIGURE 7-4",
+   "title": "FIGURE 7-4 A toddler is 1 to 3 years of age.",
+   "caption_page": 697,
+   "art_page": 696,
+   "file": "figures/FIGURE_7_4.jpg",
+   "study_file": "figures/study/FIGURE_7_4.jpg",
+   "px": [
+    1045,
+    1452
+   ],
+   "extraction": "native",
+   "description": null,
+   "crossrefs": "preschooler  (ages 3 to 6 years) is not dramatically different from that of an adult (    and  FIGURE 7-5 ).",
+   "seen_description": null,
+   "terms": [
+    "adult",
+    "age",
+    "ages",
+    "different",
+    "dramatically",
+    "not",
+    "preschooler",
+    "toddler",
+    "years"
+   ]
+  },
+  {
+   "label": "FIGURE 7-5",
+   "title": "FIGURE 7-5 A preschooler is 3 to 6 years of age.",
+   "caption_page": 699,
+   "art_page": 699,
+   "file": "figures/FIGURE_7_5.jpg",
+   "study_file": "figures/study/FIGURE_7_5.jpg",
+   "px": [
+    1045,
+    1627
+   ],
+   "extraction": "native",
+   "description": null,
+   "crossrefs": null,
+   "seen_description": null,
+   "terms": [
+    "age",
+    "preschooler",
+    "years"
+   ]
+  },
+  {
+   "label": "FIGURE 7-6",
+   "title": "FIGURE 7-6 A toddler learns to walk, one of the major milestones in life.",
+   "caption_page": 701,
+   "art_page": 701,
+   "file": "figures/FIGURE_7_6.jpg",
+   "study_file": "figures/study/FIGURE_7_6.jpg",
+   "px": [
+    1046,
+    1528
+   ],
+   "extraction": "native",
+   "description": null,
+   "crossrefs": "By performing activities such as walking, running, jumping, and playing catch, toddlers and preschoolers learn to use their muscles and expansive nervous system (   ).",
+   "seen_description": null,
+   "terms": [
+    "activities",
+    "catch",
+    "expansive",
+    "jumping",
+    "learn",
+    "learns",
+    "life",
+    "major",
+    "milestones",
+    "muscles",
+    "nervous",
+    "one",
+    "performing",
+    "playing",
+    "preschoolers",
+    "running",
+    "such",
+    "system",
+    "their",
+    "toddler",
+    "toddlers",
+    "use",
+    "walk",
+    "walking"
+   ]
+  },
+  {
+   "label": "FIGURE 7-7",
+   "title": "FIGURE 7-7 A school-age child is 6 to 12 years of age.",
+   "caption_page": 705,
+   "art_page": 705,
+   "file": "figures/FIGURE_7_7.jpg",
+   "study_file": "figures/study/FIGURE_7_7.jpg",
+   "px": [
+    1045,
+    1509
+   ],
+   "extraction": "native",
+   "description": null,
+   "crossrefs": "From ages 6 to 12 years, a  school-age  child\u2019s physical traits and functions continue to mature at a relatively rapid pace (   ).",
+   "seen_description": null,
+   "terms": [
+    "age",
+    "ages",
+    "child",
+    "continue",
+    "functions",
+    "mature",
+    "pace",
+    "physical",
+    "rapid",
+    "relatively",
+    "school-age",
+    "traits",
+    "years"
+   ]
+  },
+  {
+   "label": "FIGURE 7-8",
+   "title": "FIGURE 7-8 An adolescent is 12 to 18 years of age.",
+   "caption_page": 708,
+   "art_page": 708,
+   "file": "figures/FIGURE_7_8.jpg",
+   "study_file": "figures/study/FIGURE_7_8.jpg",
+   "px": [
+    1045,
+    1509
+   ],
+   "extraction": "native",
+   "description": null,
+   "crossrefs": "In the  adolescent  (ages 12 to 18 years), vital signs begin to level off within the adult ranges, with a systolic blood pressure generally between 90 and 110 mm Hg, a pulse rate between 60 and 100 beats/min, and respirations that range from 12 to 20 breaths/min (   ).",
+   "seen_description": null,
+   "terms": [
+    "adolescent",
+    "adult",
+    "age",
+    "ages",
+    "beats",
+    "begin",
+    "blood",
+    "breaths",
+    "generally",
+    "level",
+    "min",
+    "off",
+    "pressure",
+    "pulse",
+    "range",
+    "ranges",
+    "rate",
+    "respirations",
+    "signs",
+    "systolic",
+    "vital",
+    "within",
+    "years"
+   ]
+  },
+  {
+   "label": "FIGURE 7-9",
+   "title": "FIGURE 7-9 Adolescents want to fit in and may struggle to create their identities.",
+   "caption_page": 709,
+   "art_page": 709,
+   "file": "figures/FIGURE_7_9.jpg",
+   "study_file": "figures/study/FIGURE_7_9.jpg",
+   "px": [
+    942,
+    743
+   ],
+   "extraction": "native",
+   "description": null,
+   "crossrefs": "Most begin spending more time with friends and struggling to create a sense of identity (   ).",
+   "seen_description": null,
+   "terms": [
+    "adolescents",
+    "begin",
+    "create",
+    "fit",
+    "friends",
+    "identities",
+    "identity",
+    "may",
+    "more",
+    "most",
+    "sense",
+    "spending",
+    "struggle",
+    "struggling",
+    "their",
+    "time",
+    "want"
+   ]
+  },
+  {
+   "label": "FIGURE 7-10",
+   "title": "FIGURE 7-10 An early adult is 19 to 40 years of age.",
+   "caption_page": 714,
+   "art_page": 713,
+   "file": "figures/FIGURE_7_10.jpg",
+   "study_file": "figures/study/FIGURE_7_10.jpg",
+   "px": [
+    1045,
+    1455
+   ],
+   "extraction": "native",
+   "description": null,
+   "crossrefs": "Following adolescence, a person is classified as an  early adult  (age 19 to 40 years) (   ).",
+   "seen_description": null,
+   "terms": [
+    "adolescence",
+    "adult",
+    "age",
+    "classified",
+    "early",
+    "following",
+    "person",
+    "years"
+   ]
+  },
+  {
+   "label": "FIGURE 7-11",
+   "title": "FIGURE 7-11 A middle adult is 41 to 60 years of age.",
+   "caption_page": 716,
+   "art_page": 716,
+   "file": "figures/FIGURE_7_11.jpg",
+   "study_file": "figures/study/FIGURE_7_11.jpg",
+   "px": [
+    1045,
+    1353
+   ],
+   "extraction": "native",
+   "description": null,
+   "crossrefs": "For a  middle adult  (age 41 to 60 years) (   ), the aging process continues to take its toll.",
+   "seen_description": null,
+   "terms": [
+    "adult",
+    "age",
+    "aging",
+    "continues",
+    "middle",
+    "process",
+    "take",
+    "toll",
+    "years"
+   ]
+  },
+  {
+   "label": "FIGURE 7-12",
+   "title": "FIGURE 7-12 An older adult is 61 years of age or older.",
+   "caption_page": 719,
+   "art_page": 719,
+   "file": "figures/FIGURE_7_12.jpg",
+   "study_file": "figures/study/FIGURE_7_12.jpg",
+   "px": [
+    1046,
+    754
+   ],
+   "extraction": "native",
+   "description": null,
+   "crossrefs": "As a result, more and more people will live to become an  older adult  (age 61 years and older) (   ).",
+   "seen_description": null,
+   "terms": [
+    "adult",
+    "age",
+    "become",
+    "live",
+    "more",
+    "older",
+    "people",
+    "result",
+    "will",
+    "years"
+   ]
+  },
+  {
+   "label": "FIGURE 7-13",
+   "title": "FIGURE 7-13 Older people are often prescribed multiple medications to help them stay active.",
+   "caption_page": 720,
+   "art_page": 720,
+   "file": "figures/FIGURE_7_13.jpg",
+   "study_file": "figures/study/FIGURE_7_13.jpg",
+   "px": [
+    1046,
+    703
+   ],
+   "extraction": "native",
+   "description": null,
+   "crossrefs": "Thanks to medical advances, they are often able to overcome numerous medical conditions, but may need multiple medications to do so (   ).",
+   "seen_description": null,
+   "terms": [
+    "able",
+    "active",
+    "advances",
+    "but",
+    "conditions",
+    "help",
+    "may",
+    "medical",
+    "medications",
+    "multiple",
+    "need",
+    "numerous",
+    "often",
+    "older",
+    "overcome",
+    "people",
+    "prescribed",
+    "stay",
+    "thanks",
+    "them",
+    "they"
+   ]
+  },
+  {
+   "label": "FIGURE 7-14",
+   "title": "FIGURE 7-14 Age-related atrophy or shrinkage of the brain creates space between the brain and dura mater (subdural space). When the bridging veins are stretched and torn, blood may accumulate in this area.",
+   "caption_page": 726,
+   "art_page": 726,
+   "file": "figures/FIGURE_7_14.png",
+   "study_file": "figures/study/FIGURE_7_14.jpg",
+   "px": [
+    1017,
+    1447
+   ],
+   "extraction": "native",
+   "description": "The brain of the younger adult appears normal. The brain of the older adult shows subdural hemorrhage between the brain and the meninges or dura mater, within the skull. A magnified view of the area shows the meninges, dura mater, and torn or stretched bridging vein.",
+   "crossrefs": "The resulting space gives the brain room to move inside the cranium (   ).",
+   "seen_description": null,
+   "terms": [
+    "accumulate",
+    "adult",
+    "age-related",
+    "appears",
+    "area",
+    "atrophy",
+    "blood",
+    "brain",
+    "bridging",
+    "cranium",
+    "creates",
+    "dura",
+    "gives",
+    "hemorrhage",
+    "inside",
+    "magnified",
+    "mater",
+    "may",
+    "meninges",
+    "move",
+    "normal",
+    "older",
+    "resulting",
+    "room",
+    "shrinkage",
+    "skull",
+    "space",
+    "stretched",
+    "subdural",
+    "torn",
+    "vein",
+    "veins",
+    "when",
+    "within",
+    "younger"
+   ]
+  },
+  {
+   "label": "FIGURE 7-15",
+   "title": "FIGURE 7-15 A small percentage of older adults live in assisted living facilities.",
+   "caption_page": 728,
+   "art_page": 727,
+   "file": "figures/FIGURE_7_15.jpg",
+   "study_file": "figures/study/FIGURE_7_15.jpg",
+   "px": [
+    1046,
+    716
+   ],
+   "extraction": "native",
+   "description": null,
+   "crossrefs": "These facilities allow older adults to live in campus-based communities with people in their own age group, while enjoying the independence and privacy of their own apartment and the security of nursing care, maintenance, and food preparation, if desired (   ).",
+   "seen_description": null,
+   "terms": [
+    "adults",
+    "age",
+    "allow",
+    "apartment",
+    "assisted",
+    "campus-based",
+    "care",
+    "communities",
+    "desired",
+    "enjoying",
+    "facilities",
+    "food",
+    "group",
+    "independence",
+    "live",
+    "living",
+    "maintenance",
+    "nursing",
+    "older",
+    "own",
+    "people",
+    "percentage",
+    "preparation",
+    "privacy",
+    "security",
+    "small",
+    "their",
+    "these",
+    "while"
+   ]
   }
  ],
- "skipped": [
-  {
-   "label": "TABLE 6-2",
-   "page": 527,
-   "why": "no art located"
-  },
-  {
-   "label": "FIGURE 6-15",
-   "page": 548,
-   "why": "no art located"
-  },
-  {
-   "label": "FIGURE 6-31",
-   "page": 597,
-   "why": "no art located"
-  }
- ]
+ "skipped": []
 }

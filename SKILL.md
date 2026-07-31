@@ -319,6 +319,25 @@ Reliability is a harness, not a promise to be careful.
 current `.verified` stamp, and editing the JSON after the check invalidates it. `--force`
 exists as a deliberate escape hatch only.
 
+### Stage 2.85 — Preflight, and the post-mortem afterwards
+Run this before the figure stages and again when they're done. It exists because the
+evidence for a figure run ends up spread across an index, a proposals file, a verdicts
+file, an undo record and the live deck — fine while one session holds it in mind, useless
+the next day.
+
+```
+python3 scripts/figure_run.py --source <id> --segment <N> --preflight
+python3 scripts/figure_run.py --source <id> --segment <N> --report --write-run
+```
+
+`--preflight` asserts the things that have silently broken before: the venv, ImageMagick,
+Anki, a modern-schema highlights file, enough cards placeable on a page for the matcher to
+work, a study copy for every figure. `--report` prints every stage's count and a list of
+**ANOMALIES** — each one a defect that actually happened (unjudged proposals, a card
+carrying two figures, an image on the question side, a judge rejecting most of what it was
+given, a figure count that moved against its baseline). It caught a real one immediately:
+Chapter 5's proposals had been silently un-judged by a `--force` re-match.
+
 ### Stage 2.9 — Attach figures (once per segment)
 A textbook's plates are half of what it teaches, and the pipeline used to render them,
 read them, and throw the pixels away. Build the index once per segment, then propose:
