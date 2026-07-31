@@ -1,0 +1,33 @@
+{
+ "deck": "all::EMT::Chapter 3::claude review",
+ "writes": [
+  {
+   "noteId": 1782941721879,
+   "figure": "FIGURE 3-6",
+   "media": "emt_FIGURE_3_6.jpg",
+   "appended": "<br><br><img src=\"emt_FIGURE_3_6.jpg\">",
+   "tier": "teaches"
+  },
+  {
+   "noteId": 1782941721477,
+   "figure": "FIGURE 3-4",
+   "media": "emt_FIGURE_3_4.jpg",
+   "appended": "<br><br><img src=\"emt_FIGURE_3_4.jpg\">",
+   "tier": "context"
+  },
+  {
+   "noteId": 1782941723680,
+   "figure": "FIGURE 3-12",
+   "media": "emt_FIGURE_3_12.jpg",
+   "appended": "<br><br><img src=\"emt_FIGURE_3_12.jpg\">",
+   "tier": "context"
+  },
+  {
+   "noteId": 1782941721978,
+   "figure": "FIGURE 3-7",
+   "media": "emt_FIGURE_3_7.jpg",
+   "appended": "<br><br><img src=\"emt_FIGURE_3_7.jpg\">",
+   "tier": "context"
+  }
+ ]
+}

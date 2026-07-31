@@ -243,3 +243,25 @@ A strict guard would have blocked the figure stages entirely, since no card pred
 - **MUST CATCH:** removing an image **Parker** pasted (his files never carry the `<source>_` prefix); any text change riding along with an image change; an ordinary field rewrite that merely sets `figure_only=True`.
 - **MUST NOT OVER-FLAG:** attaching a pipeline figure to a field carrying his own screenshot and his own prose; stripping a pipeline figure back off it.
 - **Catch test (both ways):** five cases in `authorship.self_test()` (8 → 13 total), including the one that matters most — stripping his own pasted screenshot must be REFUSED.
+
+## R22 — The fresh-segment route must refuse unjudged proposals
+**Rule:** no figure reaches a card without a judge verdict. **Caught by:** the `judged` check in `attach_figures.py --to-cards`.
+
+There are two ways to attach, and they are not interchangeable. A chapter already staged gets its LIVE notes updated; a fresh chapter (7 onward) gets figures written into the **cards file**, which `anki_write.py` then embeds as it creates the notes. Re-running `anki_write.py` on an already-staged chapter would ADD 202 duplicate notes instead of 202 pictures.
+
+The fresh route is the dangerous one, because nothing stands between it and a brand-new deck. If it accepted unjudged proposals, every merely-nearby figure — the whole R19 class the judge exists to catch — would ship straight into the chapter with no human ever looking at a picture.
+
+- **MUST CATCH:** `--to-cards` against a proposals file with no `judged: true`.
+- **MUST NOT OVER-FLAG:** a judged file must pass, including one whose kept list is empty (a chapter can legitimately earn no figures).
+- **Catch test (both ways):** both asserted in `test_figures.py` by invoking the real script.
+
+## R23 — A table split across a page break, and provenance too weak to assert
+**Rule:** a TABLE title with no body under it has its body on the next page; and provenance is only recorded when it can be trusted. **Caught by:** `find_captions(page, next_page)` + the `pair_art` table fallback; the `from_idx` decision is a judgement recorded per segment. Found 2026-07-30 on EMT Chapter 5.
+
+**The split table.** House style titles a table ABOVE its body, so a title near the foot of a page leaves the body — and the credit line that corroborates it — on the page after. Two independent checks each blocked it: `find_captions` looked for corroboration only on the caption's own page, and `pair_art`'s next-page fallback required the title to sit in the bottom 140pt, which is wrong for a reflowed PDF (TABLE 5-1's title lands at y=324 on a 792pt page with nothing beneath it but white space). Together they lost **all twelve of Chapter 5's terminology tables** — the entire source of a 587-card chapter. Fixed: corroboration may come from the top of the next page when the caption is among the last blocks, and a table with no body on its own page always looks to the next. Book-wide effect: 127 → 135 figures, every chapter gaining.
+
+**Provenance too weak to assert.** Chapter 5 is 587 cards from 27 marks — 21.7 cards per mark — and the mark-vs-page cross-check agreed only **57%** (against 96–97% on ch4/ch6). Backfilling `from_idx` anyway turned R13 on and HARD-blocked ~166 **correct** cards whose word roots genuinely live in image-only tables. The backfill's own rule is that *a wrong `from_idx` is worse than a missing one*, so ch5 keeps `source_page` (located directly, order-independent, and what the matcher actually uses) and asserts no mark-level provenance.
+
+- **MUST CATCH:** a table whose title ends a page and whose body begins the next; a segment whose cross-check agreement is far below the ~95% the sound chapters show.
+- **MUST NOT OVER-FLAG:** tables that pair on their own page (EMT TABLE 6-9/6-10) must still pair there — the next-page branch is only reached after the same-page search comes up empty.
+- **Catch test (both ways):** rebuild all six chapter indexes; ch5 must index TABLE 5-1…5-6 with art on the FOLLOWING page, and ch6 must still index 47 with TABLE 6-9/6-10 paired on their own page.

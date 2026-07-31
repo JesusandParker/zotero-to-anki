@@ -1,0 +1,33 @@
+{
+ "run_id": "2026-07-30-figures",
+ "source": "emt",
+ "segment": 2,
+ "stage": "figures",
+ "started": "2026-07-30T15:10",
+ "finished": "2026-07-30T16:00",
+ "skill_sha": "220f3ca8c53c0c0fb94100ff2600713f75835b7e",
+ "status": "complete",
+ "note": "Figure pass over an already-staged chapter. Cards not regenerated.",
+ "counts": {
+  "cards": 89,
+  "marks": 86,
+  "figures": 34,
+  "proposals": 19,
+  "kept": 10,
+  "attached": 10,
+  "pages_located": 83,
+  "pages_via_marks": 31
+ },
+ "new_hazards_found": [
+  {
+   "id": "FIG-13",
+   "what": "FIGURE 2-5 (an infected fingertip = DIRECT contact) was proposed for the 'fomite' and 'indirect contact' cards, which it actively contradicts",
+   "mechanizable": false,
+   "why": "a plate that contradicts its card shares its vocabulary; only the judge stage catches it, and it did (R19)."
+  }
+ ],
+ "still_open": [
+  "per-figure reverse matching",
+  "vector figures untested"
+ ]
+}

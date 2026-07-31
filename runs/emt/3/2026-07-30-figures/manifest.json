@@ -1,0 +1,33 @@
+{
+ "run_id": "2026-07-30-figures",
+ "source": "emt",
+ "segment": 3,
+ "stage": "figures",
+ "started": "2026-07-30T15:10",
+ "finished": "2026-07-30T16:00",
+ "skill_sha": "220f3ca8c53c0c0fb94100ff2600713f75835b7e",
+ "status": "complete",
+ "note": "Figure pass over an already-staged chapter. Cards not regenerated.",
+ "counts": {
+  "cards": 84,
+  "marks": 73,
+  "figures": 13,
+  "proposals": 18,
+  "kept": 4,
+  "attached": 4,
+  "pages_located": 79,
+  "pages_via_marks": 37
+ },
+ "new_hazards_found": [
+  {
+   "id": "FIG-14",
+   "what": "the restraint plate (3-3) went to the two refusal cards while the two RESTRAINT cards got 3-2 \u2014 a concrete instance of per-card-only matching spending a plate on the wrong card",
+   "mechanizable": false,
+   "why": "needs the per-figure reverse pass, which is the standing top open item; no rule can fix it inside per-card matching."
+  }
+ ],
+ "still_open": [
+  "per-figure reverse matching",
+  "vector figures untested"
+ ]
+}

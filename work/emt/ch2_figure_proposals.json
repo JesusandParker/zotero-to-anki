@@ -1,0 +1,348 @@
+{
+ "teaches": [
+  {
+   "card_index": 25,
+   "text": "When cleaning and disinfecting the ambulance, wear {{c1::heavy-duty utility::glove type}} gloves.  Never  use ",
+   "figure": "FIGURE 2-10",
+   "file": "figures/study/FIGURE_2_10.jpg",
+   "native_file": "figures/FIGURE_2_10.jpg",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "heavy-duty",
+    "latex",
+    "lightweight",
+    "utility",
+    "vinyl"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 63,
+   "text": "You suspect a patient has an airborne- or droplet-spread disease such as tuberculosis, influenza, or COVID-19.",
+   "figure": "FIGURE 2-13",
+   "file": "figures/study/FIGURE_2_13.jpg",
+   "native_file": "figures/FIGURE_2_13.jpg",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "air",
+    "mask",
+    "particulate",
+    "respirator",
+    "surgical"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 16,
+   "text": "The {{c1::Emergency Response Guidebook (ERG)::resource name}} is the {{c2::US Department of Transportation (DO",
+   "figure": "FIGURE 2-21",
+   "file": "figures/study/FIGURE_2_21.jpg",
+   "native_file": "figures/FIGURE_2_21.png",
+   "coverage": 0.923,
+   "page_dist": 2,
+   "matched_terms": [
+    "care",
+    "control",
+    "department",
+    "emergency",
+    "erg",
+    "guidebook",
+    "hazardous",
+    "materials",
+    "patients",
+    "response",
+    "scene",
+    "transportation"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 32,
+   "text": "{{c1::Airborne transmission::route}} is the spread of an infectious agent through {{c2::droplets or dust}}.",
+   "figure": "FIGURE 2-6",
+   "file": "figures/study/FIGURE_2_6.jpg",
+   "native_file": "figures/FIGURE_2_6.jpg",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "airborne",
+    "droplets"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 47,
+   "text": "When handling used needles,  never  {{c1::recap}}, {{c1::break}}, or {{c1::bend}} them. Place each used needle",
+   "figure": "FIGURE 2-15",
+   "file": "figures/study/FIGURE_2_15.jpg",
+   "native_file": "figures/FIGURE_2_15.jpg",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "approved",
+    "closed",
+    "rigid"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 70,
+   "text": "Hazardous materials placards and labels are {{c1::colored, diamond-shaped::appearance}} safety markers. You sh",
+   "figure": "FIGURE 2-20",
+   "file": "figures/study/FIGURE_2_20.jpg",
+   "native_file": "figures/FIGURE_2_20.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "colored",
+    "diamond-shaped"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "teaches"
+  }
+ ],
+ "context": [
+  {
+   "card_index": 20,
+   "text": "When injuries or acute illness leave an emergency patient confused or unsettled, you should {{c1::orient::comm",
+   "figure": "FIGURE 2-30",
+   "file": "figures/study/FIGURE_2_30.jpg",
+   "native_file": "figures/FIGURE_2_30.jpg",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "orient"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 33,
+   "text": "You should wear a {{c1::helmet::PPE}} anytime you work in a {{c2::fall zone::hazard area}}.",
+   "figure": "FIGURE 2-27",
+   "file": "figures/study/FIGURE_2_27.jpg",
+   "native_file": "figures/FIGURE_2_27.jpg",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "helmet"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 7,
+   "text": "{{c1::Transmission}} is {{c2::how an infectious disease spreads}}.",
+   "figure": "FIGURE 2-6",
+   "file": "figures/study/FIGURE_2_6.jpg",
+   "native_file": "figures/FIGURE_2_6.jpg",
+   "coverage": 0.2,
+   "page_dist": 1,
+   "matched_terms": [
+    "disease"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 8,
+   "text": "{{c1::Direct contact::contact type}} transmission moves an organism from one person to another by {{c2::touchi",
+   "figure": "FIGURE 2-5",
+   "file": "figures/study/FIGURE_2_5.jpg",
+   "native_file": "figures/FIGURE_2_5.jpg",
+   "coverage": 0.2,
+   "page_dist": 1,
+   "matched_terms": [
+    "contact"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context"
+  }
+ ],
+ "skipped": [],
+ "mode": "generous",
+ "judged": true,
+ "rejected": [
+  {
+   "card_index": 79,
+   "text": "The CDC's 2016 standard-precautions recommendation is to assume that {{c1::every person::who}} is potentially ",
+   "figure": "FIGURE 2-7",
+   "file": "figures/study/FIGURE_2_7.jpg",
+   "native_file": "figures/FIGURE_2_7.jpg",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "person"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "the plate is good-versus-bad sneeze technique; the card is the standard-precautions assumption that every person is potentially infected. Same topic, different subject."
+  },
+  {
+   "card_index": 30,
+   "text": "During patient care,  never  use {{c1::petroleum jelly::ointment}} with {{c2::latex::glove material}} gloves.",
+   "figure": "FIGURE 2-10",
+   "file": "figures/study/FIGURE_2_10.jpg",
+   "native_file": "figures/FIGURE_2_10.jpg",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "latex"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "the card is petroleum jelly with latex exam gloves during patient care; this plate shows a cleaning glove and no ointment. Shared word 'gloves' only."
+  },
+  {
+   "card_index": 46,
+   "text": "Infectious diseases can be transmitted by four routes: {{c1::contact}}, {{c1::aerosolized}}, {{c1::foodborne}}",
+   "figure": "FIGURE 2-5",
+   "file": "figures/study/FIGURE_2_5.jpg",
+   "native_file": "figures/FIGURE_2_5.jpg",
+   "coverage": 0.25,
+   "page_dist": 2,
+   "matched_terms": [
+    "contact"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "the card is the four-route taxonomy; one infected finger depicts no list of routes."
+  },
+  {
+   "card_index": 9,
+   "text": "A {{c1::fomite}} is the {{c2::inanimate object that transmits the infection}} in indirect contact.&nbsp;",
+   "figure": "FIGURE 2-5",
+   "file": "figures/study/FIGURE_2_5.jpg",
+   "native_file": "figures/FIGURE_2_5.jpg",
+   "coverage": 0.2,
+   "page_dist": 0,
+   "matched_terms": [
+    "infection"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "a fomite is an inanimate object, and this plate shows infection passed by bare touch with no object. Actively contradicts the card."
+  },
+  {
+   "card_index": 36,
+   "text": "{{c1::Indirect contact::contact type}} transmission spreads infection from an infected patient to another pers",
+   "figure": "FIGURE 2-5",
+   "file": "figures/study/FIGURE_2_5.jpg",
+   "native_file": "figures/FIGURE_2_5.jpg",
+   "coverage": 0.2,
+   "page_dist": 0,
+   "matched_terms": [
+    "contact"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "indirect contact requires an inanimate object; the plate is a direct-contact infection. Misleading, not merely unrelated."
+  },
+  {
+   "card_index": 69,
+   "text": "A medical helicopter is landing at your emergency scene. While working near the landing and takeoff zone, wear",
+   "figure": "FIGURE 2-28",
+   "file": "figures/study/FIGURE_2_28.jpg",
+   "native_file": "figures/FIGURE_2_28.jpg",
+   "coverage": 0.2,
+   "page_dist": 1,
+   "matched_terms": [
+    "debris"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "the card's answer is a face shield or goggles near a helicopter; this plate is a boot. Wrong PPE item."
+  },
+  {
+   "card_index": 18,
+   "text": "When you need protection from projectiles (bullets, bottles, rocks) at a scene, {{c1::cover::term}} is the tac",
+   "figure": "FIGURE 2-24",
+   "file": "figures/study/FIGURE_2_24.jpg",
+   "native_file": "figures/FIGURE_2_24.jpg",
+   "coverage": 0.143,
+   "page_dist": 1,
+   "matched_terms": [
+    "you"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "a mass-casualty scene photo; the card contrasts cover with concealment, and no barrier or hiding place is shown."
+  },
+  {
+   "card_index": 41,
+   "text": "At a scene involving  hazardous materials , the general guidelines are:  {{c1::Do not enter if there is eviden",
+   "figure": "FIGURE 2-21",
+   "file": "figures/study/FIGURE_2_21.jpg",
+   "native_file": "figures/FIGURE_2_21.png",
+   "coverage": 0.077,
+   "page_dist": 0,
+   "matched_terms": [
+    "hazardous",
+    "materials"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "the card is the scene-approach guidelines (upwind, uphill, retreat, call dispatch); a book cover depicts none of them, and card 16 is this plate's real home."
+  },
+  {
+   "card_index": 42,
+   "text": "If caught in the open as a lightning strike becomes imminent, make yourself the smallest possible target with ",
+   "figure": "FIGURE 2-22",
+   "file": "figures/study/FIGURE_2_22.jpg",
+   "native_file": "figures/FIGURE_2_22.jpg",
+   "coverage": 0.053,
+   "page_dist": 0,
+   "matched_terms": [
+    "material"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "firefighters at a command vehicle; the card is lightning self-protection. Nothing in the plate is about a storm."
+  }
+ ]
+}

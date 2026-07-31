@@ -407,19 +407,40 @@ reference those names — so after any `--pad-pct` / `--max-px` change on an alr
 segment, push the new images with `attach_figures.py --refresh-media`. A plain re-run would
 correctly skip every card as already-attached and leave the stale images in place forever.
 
-For a segment not yet written to Anki, put the chosen `study_file` in each card's `image`
-field and let Stage 3 do the rest. **For a segment already staged, do NOT re-run
-`anki_write.py`** — it ADDS notes and would duplicate the whole chapter. Update the live
-notes instead:
+### Attaching: two routes, and picking the wrong one duplicates the chapter
+
+**A fresh segment (Chapter 7 onward) — figures go into the CARDS FILE, before staging:**
+
+```
+python3 scripts/attach_figures.py --source <id> --segment <N> --to-cards
+python3 scripts/check_cards.py work/<src>/chapter_<N>_cards.json     # re-stamp
+python3 scripts/anki_write.py   work/<src>/chapter_<N>_cards.json
+```
+
+This sets `image` + `image_side: "back"` on each kept card and lets Stage 3 embed them as it
+creates the notes. It **refuses to run on unjudged proposals** — word overlap alone attaches
+pictures that are merely nearby.
+
+**A segment already staged (Chapters 1–6) — update the live notes:**
 
 ```
 python3 scripts/attach_figures.py --source <id> --segment <N> --dry-run
 python3 scripts/attach_figures.py --source <id> --segment <N>
-python3 scripts/attach_figures.py --undo work/<src>/figure_attach_undo.json
+python3 scripts/attach_figures.py --undo work/<src>/figure_attach_undo_seg<N>.json
 ```
 
-It matches live notes by Text, is idempotent, writes an undo record, and **never strips an
-image Parker pasted himself** — it reports that card so he can choose.
+**Never re-run `anki_write.py` on an already-staged segment to add figures** — it ADDS
+notes, so it would produce 202 duplicates instead of 202 pictures. The live path matches
+notes by Text, is idempotent, accumulates an undo record, and gives each card exactly one
+pipeline figure (`--replace` / `--allow-multiple` to opt out).
+
+**Both routes are bound by the authorship guard.** `attach_figures` and
+`judge_figures --strip-live` write `Back Extra` on notes this system may not have authored,
+and everything predating the authorship store is `unknown` — protected. They pass
+`figure_only=True`, a **verified** predicate: the write is allowed only when stripping
+pipeline-owned `<img src="<source>_…">` from both sides leaves byte-identical residue.
+Parker's own pasted images never carry that prefix, so **removing one still fails the
+guard.** Never relax this to make a write succeed.
 
 ### Stage 3 — Stage into Anki (once per segment)
 ```

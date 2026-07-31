@@ -1,0 +1,336 @@
+{
+ "teaches": [
+  {
+   "card_index": 14,
+   "text": "In most states, the {{c2::medical examiner::official}} must be notified of a death when {{c1::trauma}} is a fa",
+   "figure": "FIGURE 3-6",
+   "file": "figures/study/FIGURE_3_6.jpg",
+   "native_file": "figures/FIGURE_3_6.jpg",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "criminal",
+    "examiner",
+    "medical",
+    "suspected",
+    "trauma",
+    "unusual"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  }
+ ],
+ "context": [
+  {
+   "card_index": 10,
+   "text": "Even with a  DNR  order in place, a patient who is  not  in {{c2::cardiac arrest::patient state}} must still r",
+   "figure": "FIGURE 3-4",
+   "file": "figures/study/FIGURE_3_4.jpg",
+   "native_file": "figures/FIGURE_3_4.png",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "arrest",
+    "cardiac"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": true,
+   "tier": "context"
+  },
+  {
+   "card_index": 31,
+   "text": "If you are served with the summons and complaint that begin a civil lawsuit, immediately notify {{c1::the head",
+   "figure": "FIGURE 3-12",
+   "file": "figures/study/FIGURE_3_12.jpg",
+   "native_file": "figures/FIGURE_3_12.jpg",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "your"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 15,
+   "text": "Treat a potential  organ donor  {{c1::the same as any other patient::how}}, using all means necessary to keep ",
+   "figure": "FIGURE 3-7",
+   "file": "figures/study/FIGURE_3_7.jpg",
+   "native_file": "figures/FIGURE_3_7.png",
+   "coverage": 0.2,
+   "page_dist": 1,
+   "matched_terms": [
+    "patient"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": true,
+   "tier": "context"
+  }
+ ],
+ "skipped": [],
+ "mode": "generous",
+ "judged": true,
+ "rejected": [
+  {
+   "card_index": 11,
+   "text": "{{c1::Rigor mortis::postmortem sign}} is the {{c2::stiffening of the body's muscles}}, developing {{c3::2 to 1",
+   "figure": "FIGURE 3-5",
+   "file": "figures/study/FIGURE_3_5.jpg",
+   "native_file": "figures/FIGURE_3_5.jpg",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "body",
+    "mortis",
+    "muscles",
+    "rigor",
+    "stiffening"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "teaches",
+   "rejected_because": "shows lividity (skin discoloration), not rigor mortis stiffening"
+  },
+  {
+   "card_index": 13,
+   "text": "{{c1::Putrefaction::postmortem sign}} is the {{c2::decomposition of body tissues}}, developing {{c3::40 to 96:",
+   "figure": "FIGURE 3-5",
+   "file": "figures/study/FIGURE_3_5.jpg",
+   "native_file": "figures/FIGURE_3_5.jpg",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "body",
+    "decomposition",
+    "putrefaction",
+    "tissues"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": true,
+   "tier": "teaches",
+   "rejected_because": "shows lividity, not putrefaction; would teach the wrong visual for decomposition"
+  },
+  {
+   "card_index": 37,
+   "text": "In end-of-life orders,  POLST  stands for {{c1::Physician Orders for Life-Sustaining Treatment}} and  MOLST  s",
+   "figure": "FIGURE 3-4",
+   "file": "figures/study/FIGURE_3_4.jpg",
+   "native_file": "figures/FIGURE_3_4.png",
+   "coverage": 0.6,
+   "page_dist": 0,
+   "matched_terms": [
+    "medical",
+    "orders",
+    "physician"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": true,
+   "tier": "teaches",
+   "rejected_because": "the forms shown are a DNR order and prehospital directive, not a POLST/MOLST form"
+  },
+  {
+   "card_index": 80,
+   "text": "When in doubt about a patient's ability to refuse care, {{c1::providing treatment::providing/failing to treat}",
+   "figure": "FIGURE 3-3",
+   "file": "figures/study/FIGURE_3_3.jpg",
+   "native_file": "figures/FIGURE_3_3.jpg",
+   "coverage": 0.5,
+   "page_dist": 2,
+   "matched_terms": [
+    "treatment"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "a restrained patient on a card about judging capacity to refuse care"
+  },
+  {
+   "card_index": 17,
+   "text": "A {{c1::standard of care::legal concept}} is {{c2::how you must act or behave::meaning}} as an EMT.",
+   "figure": "FIGURE 3-10",
+   "file": "figures/study/FIGURE_3_10.jpg",
+   "native_file": "figures/FIGURE_3_10.jpg",
+   "coverage": 0.571,
+   "page_dist": 2,
+   "matched_terms": [
+    "care",
+    "how",
+    "standard",
+    "you"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "street-scene photo of a crew working; nothing in it depicts the legal concept 'standard of care'"
+  },
+  {
+   "card_index": 43,
+   "text": "An adult patient who is mentally incompetent {{c1::cannot::can/cannot}} give informed consent, a situation leg",
+   "figure": "FIGURE 3-2",
+   "file": "figures/study/FIGURE_3_2.jpg",
+   "native_file": "figures/FIGURE_3_2.jpg",
+   "coverage": 0.5,
+   "page_dist": 2,
+   "matched_terms": [
+    "minor"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "shows a child with her mother; card is about a mentally incompetent ADULT"
+  },
+  {
+   "card_index": 12,
+   "text": "{{c1::Algor mortis::postmortem sign}} is the {{c2::cooling of the body to ambient temperature::meaning}}.",
+   "figure": "FIGURE 3-5",
+   "file": "figures/study/FIGURE_3_5.jpg",
+   "native_file": "figures/FIGURE_3_5.jpg",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "body",
+    "mortis"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": true,
+   "tier": "context",
+   "rejected_because": "cooling is not depicted; the card's own note lists lividity as a separate sign"
+  },
+  {
+   "card_index": 74,
+   "text": "A head-injured patient becomes combative and swings at rescuers, though he clearly needs treatment and transpo",
+   "figure": "FIGURE 3-2",
+   "file": "figures/study/FIGURE_3_2.jpg",
+   "native_file": "figures/FIGURE_3_2.jpg",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "law"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "calm pediatric assessment on a card about a combative head-injured patient and law enforcement"
+  },
+  {
+   "card_index": 5,
+   "text": "Implied consent (the law assumes a patient unable to consent would want care) may  never  be used unless a ser",
+   "figure": "FIGURE 3-1",
+   "file": "figures/study/FIGURE_3_1.jpg",
+   "native_file": "figures/FIGURE_3_1.jpg",
+   "coverage": 0.25,
+   "page_dist": 1,
+   "matched_terms": [
+    "life"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "generic patient-loading photo; card is the legal threshold for implied consent, and the pictured patient looks awake"
+  },
+  {
+   "card_index": 40,
+   "text": "To  forcibly restrain  a combative patient who poses a physical danger to himself or others, an EMT should typ",
+   "figure": "FIGURE 3-2",
+   "file": "figures/study/FIGURE_3_2.jpg",
+   "native_file": "figures/FIGURE_3_2.jpg",
+   "coverage": 0.25,
+   "page_dist": 1,
+   "matched_terms": [
+    "law"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "no restraint shown; card is about forcibly restraining a combative patient"
+  },
+  {
+   "card_index": 41,
+   "text": "For emergency care of a mentally incompetent adult, consent should be obtained from someone {{c1::legally resp",
+   "figure": "FIGURE 3-2",
+   "file": "figures/study/FIGURE_3_2.jpg",
+   "native_file": "figures/FIGURE_3_2.jpg",
+   "coverage": 0.25,
+   "page_dist": 2,
+   "matched_terms": [
+    "guardian"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "depicts a minor with her parent, not guardian/conservator consent for an incompetent adult"
+  },
+  {
+   "card_index": 51,
+   "text": "A patient's decision to accept or refuse treatment should be based on information that you provide, including:",
+   "figure": "FIGURE 3-3",
+   "file": "figures/study/FIGURE_3_3.jpg",
+   "native_file": "figures/FIGURE_3_3.jpg",
+   "coverage": 0.188,
+   "page_dist": 2,
+   "matched_terms": [
+    "necessary",
+    "treatment",
+    "you"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "restraint photo on a card listing the information required for informed refusal"
+  },
+  {
+   "card_index": 8,
+   "text": "If a minor is injured at a school or camp and no parent or guardian is available, {{c3::teachers and school of",
+   "figure": "FIGURE 3-2",
+   "file": "figures/study/FIGURE_3_2.jpg",
+   "native_file": "figures/FIGURE_3_2.jpg",
+   "coverage": 0.143,
+   "page_dist": 0,
+   "matched_terms": [
+    "parent"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "the parent IS present in the photo; card is the no-parent-available in loco parentis case"
+  },
+  {
+   "card_index": 49,
+   "text": "The eight presumptive signs of death are:  {{c1::Unresponsiveness to painful stimuli}}  {{c1::Lack of a caroti",
+   "figure": "FIGURE 3-5",
+   "file": "figures/study/FIGURE_3_5.jpg",
+   "native_file": "figures/FIGURE_3_5.jpg",
+   "coverage": 0.115,
+   "page_dist": 1,
+   "matched_terms": [
+    "blood",
+    "body",
+    "rise"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": true,
+   "tier": "context",
+   "rejected_because": "lividity is not one of the eight presumptive signs listed on the card"
+  }
+ ]
+}

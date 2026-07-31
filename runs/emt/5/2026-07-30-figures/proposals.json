@@ -1,0 +1,181 @@
+{
+ "teaches": [
+  {
+   "card_index": 289,
+   "text": "The directional term {{c1::distal}} means {{c2::farthest from the point of attachment}}.",
+   "figure": "FIGURE 5-1",
+   "file": "figures/study/FIGURE_5_1.jpg",
+   "native_file": "figures/FIGURE_5_1.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "attachment",
+    "distal",
+    "farthest",
+    "point"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 291,
+   "text": "The directional term {{c1::lateral}} means {{c2::farthest from the midline}}.",
+   "figure": "FIGURE 5-1",
+   "file": "figures/study/FIGURE_5_1.jpg",
+   "native_file": "figures/FIGURE_5_1.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "farthest",
+    "lateral",
+    "midline"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 288,
+   "text": "The directional term {{c1::proximal}} means {{c2::closest to the point of attachment}}.",
+   "figure": "FIGURE 5-1",
+   "file": "figures/study/FIGURE_5_1.jpg",
+   "native_file": "figures/FIGURE_5_1.png",
+   "coverage": 0.75,
+   "page_dist": 0,
+   "matched_terms": [
+    "attachment",
+    "point",
+    "proximal"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 286,
+   "text": "The directional term {{c1::superior}} means {{c2::closest to the head}}.",
+   "figure": "FIGURE 5-1",
+   "file": "figures/study/FIGURE_5_1.jpg",
+   "native_file": "figures/FIGURE_5_1.png",
+   "coverage": 0.667,
+   "page_dist": 0,
+   "matched_terms": [
+    "head",
+    "superior"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 290,
+   "text": "The directional term {{c1::medial}} means {{c2::closest to the midline}}.",
+   "figure": "FIGURE 5-1",
+   "file": "figures/study/FIGURE_5_1.jpg",
+   "native_file": "figures/FIGURE_5_1.png",
+   "coverage": 0.667,
+   "page_dist": 0,
+   "matched_terms": [
+    "medial",
+    "midline"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 284,
+   "text": "The directional term {{c1::anterior (ventral)}} means {{c2::toward the front surface of the body}}.",
+   "figure": "FIGURE 5-1",
+   "file": "figures/study/FIGURE_5_1.jpg",
+   "native_file": "figures/FIGURE_5_1.png",
+   "coverage": 0.6,
+   "page_dist": 0,
+   "matched_terms": [
+    "anterior",
+    "body",
+    "toward"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 285,
+   "text": "The directional term {{c1::posterior (dorsal)}} means {{c2::toward the back surface of the body}}.",
+   "figure": "FIGURE 5-1",
+   "file": "figures/study/FIGURE_5_1.jpg",
+   "native_file": "figures/FIGURE_5_1.png",
+   "coverage": 0.6,
+   "page_dist": 0,
+   "matched_terms": [
+    "body",
+    "posterior",
+    "toward"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "teaches"
+  }
+ ],
+ "context": [
+  {
+   "card_index": 578,
+   "text": "The {{c1::word root}} is the foundation of a medical term \u2014 its main part or stem, carrying the core meaning.",
+   "figure": "TABLE 5-1",
+   "file": "figures/study/TABLE_5_1.jpg",
+   "native_file": "figures/TABLE_5_1.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "word"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 287,
+   "text": "The directional term {{c1::inferior}} means {{c2::closest to the feet}}.",
+   "figure": "FIGURE 5-1",
+   "file": "figures/study/FIGURE_5_1.jpg",
+   "native_file": "figures/FIGURE_5_1.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "inferior"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "context"
+  },
+  {
+   "card_index": 292,
+   "text": "The directional term {{c1::deep}} means {{c2::farthest from the surface of the skin}}.",
+   "figure": "FIGURE 5-1",
+   "file": "figures/study/FIGURE_5_1.jpg",
+   "native_file": "figures/FIGURE_5_1.png",
+   "coverage": 0.25,
+   "page_dist": 0,
+   "matched_terms": [
+    "farthest"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "context"
+  }
+ ],
+ "skipped": [],
+ "mode": "generous"
+}

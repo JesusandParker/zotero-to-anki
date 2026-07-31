@@ -65,6 +65,9 @@ def main():
     ap.add_argument("--undo", help="revert a previous run from its undo file")
     ap.add_argument("--refresh-media", action="store_true",
                     help="re-upload the image files only, leaving every note untouched")
+    ap.add_argument("--to-cards", action="store_true",
+                    help="write the figures into the CARDS FILE (for a segment not yet "
+                         "staged) instead of updating live notes")
     ap.add_argument("--allow-multiple", action="store_true",
                     help="let a card carry more than one pipeline figure")
     ap.add_argument("--replace", action="store_true",
@@ -118,6 +121,54 @@ def main():
                  "fields": {"Back Extra": cur.replace(r["appended"], "")}})
             n += 1
         print(f"reverted {n}/{len(recs['writes'])} notes (the rest were already clean)")
+        return
+
+    if args.to_cards:
+        # A segment that has NOT been staged yet needs its figures in the cards FILE, so
+        # that anki_write.py embeds them when it creates the notes. Live-note updating
+        # (the default path below) is for a chapter whose notes already exist. Chapter 7
+        # and everything after it takes this route; chapters 1-6 took the other one.
+        if not args.source or args.segment is None:
+            sys.exit("--to-cards needs --source and --segment.")
+        src = S.get_source(args.source)
+        work = os.path.join(S.SKILL, "work", src["id"])
+        props = json.load(open(args.proposals or os.path.join(
+            work, f"ch{args.segment}_figure_proposals.json")))
+        cards_p = args.cards or os.path.join(work, f"chapter_{args.segment}_cards.json")
+        cards = json.load(open(cards_p))
+        if not props.get("judged"):
+            sys.exit("REFUSING: these proposals have not been judged. Run judge_figures.py "
+                     "first — word overlap alone attaches pictures that are merely nearby.")
+        idx_p = os.path.join(work, "figure_index.json")
+        figpage = {}
+        if os.path.exists(idx_p):
+            figpage = {f["label"]: f.get("art_page") or f.get("caption_page")
+                       for f in json.load(open(idx_p)).get("figures", [])}
+        n = 0
+        for tier in ("teaches", "context"):
+            for r in props.get(tier, []):
+                c = cards[r["card_index"]]
+                path = os.path.join(work, r["file"])
+                if not os.path.exists(path):
+                    continue
+                c["image"] = path
+                c["image_side"] = "back"     # a labelled plate on the front is an answer key
+                c["visual_source"] = {
+                    "pages": [str(figpage.get(r["figure"]))],
+                    "figures": [r["file"]], "labels": [r["figure"]],
+                    "note": "figure extracted from the source PDF and attached to this card "
+                            "(scripts/attach_figures.py --to-cards).",
+                }
+                n += 1
+        if args.dry_run:
+            print(f"--dry-run: would set image on {n} card(s) in {os.path.basename(cards_p)}")
+            return
+        json.dump(cards, open(cards_p, "w"), indent=1)
+        stamp = cards_p + ".verified"
+        if os.path.exists(stamp):
+            os.remove(stamp)
+        print(f"set image + image_side=back on {n} card(s) in {os.path.basename(cards_p)}")
+        print("  .verified stamp cleared — re-run check_cards.py, then anki_write.py")
         return
 
     if not args.source or args.segment is None:

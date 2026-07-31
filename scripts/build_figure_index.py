@@ -105,9 +105,18 @@ def is_credit(x):
         len(x) <= CREDIT_MAX_CHARS and bool(CREDIT_LOOSE.match(x)))
 
 
-def find_captions(page):
-    """Caption blocks on a page, corroborated by the trailing credit/Description stub."""
+def find_captions(page, next_page=None):
+    """Caption blocks on a page, corroborated by the trailing credit/Description stub.
+
+    `next_page` matters for TABLES. House style titles a table ABOVE its body, so a title
+    landing near the foot of a page leaves its body — and therefore its credit line — on
+    the following page. Looking for corroboration only on the caption's own page rejected
+    the title before `pair_art` (which already handles the split) ever ran. That silently
+    lost every one of EMT Chapter 5's twelve terminology tables: TABLE 5-1's title is the
+    LAST block on p459, its 1060x1062 body sits at the top of p460, and the credit follows
+    it there."""
     bl = blocks(page)
+    nxt = blocks(next_page) if next_page is not None else []
     found = []
     for i, (t, bb) in enumerate(bl):
         m = CAPTION.match(t)
@@ -116,13 +125,15 @@ def find_captions(page):
         # look ahead a few blocks for the credit line or the Description stub; a caption
         # may wrap onto a second block before the credit appears.
         tail = [x[0] for x in bl[i + 1:i + 5]]
+        if len(bl) - i <= 2 and nxt:          # near the foot: the body ran onto the next page
+            tail += [x[0] for x in nxt[:5]]
         if not any(is_credit(x) or x == DESC_STUB for x in tail):
             continue
         title = t
-        for nxt, _ in bl[i + 1:i + 3]:          # stitch a wrapped caption line
-            if is_credit(nxt) or nxt == DESC_STUB:
+        for cont, _ in bl[i + 1:i + 3]:         # stitch a wrapped caption line
+            if is_credit(cont) or cont == DESC_STUB:
                 break
-            title += " " + nxt
+            title += " " + cont
         found.append({
             "label": f"{m.group(1).upper().replace('  ', ' ')} {m.group(2)}",
             "title": re.sub(r"\s+", " ", title).strip(),
@@ -152,7 +163,13 @@ def pair_art(doc, pno, cap):
     # foot of a page has its body on the next.
     if above and cy0 < 140 and pno > 1:
         neigh, npno = doc[pno - 2], pno - 1
-    elif not above and cy1 > page.rect.height - 140 and pno < doc.page_count:
+    elif not above and pno < doc.page_count:
+        # A TABLE title with no body beneath it on this page has its body on the next one.
+        # This used to require the title to sit in the bottom 140pt, which is wrong for a
+        # reflowed PDF: EMT TABLE 5-1's title lands at y=324 on a 792pt page with nothing
+        # after it but white space, and that geometry test lost all twelve of Chapter 5's
+        # terminology tables. "No body under it here" is the actual condition — we only
+        # reach this branch once the same-page search has already come up empty.
         neigh, npno = doc[pno], pno + 1
     else:
         return None, None
@@ -386,7 +403,8 @@ def main():
 
     for pno in range(first, min(last, doc.page_count)):
         page = doc[pno - 1]
-        for cap in find_captions(page):
+        nxt = doc[pno] if pno < doc.page_count else None
+        for cap in find_captions(page, nxt):
             art, art_page = pair_art(doc, pno, cap)
             slug = re.sub(r"[^A-Za-z0-9]+", "_", cap["label"]).strip("_")
             target = os.path.join(outdir, f"{slug}.png")

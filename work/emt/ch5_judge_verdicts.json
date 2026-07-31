@@ -1,0 +1,87 @@
+{
+ "source": "emt",
+ "segment": 5,
+ "figures": [
+  {
+   "figure": "FIGURE 5-1",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_5_1.jpg",
+   "caption": "FIGURE 5-1 Directional terms indicate distance and direction from the midline.",
+   "publisher_description": "A man stands with his legs slightly apart, his arms slightly abducted, and his palms facing forward. The directional terms indicating distance with direction from the midline are as follows. Anterior: Front side of the body; posterior: rear side of the body; Superior: toward the head; Inferior: away from the head; medial: toward the midline of the body; lateral: away from the midline of the body; proximal: nearest point of attachment to limb; distal: farthest away from attachment or origin.",
+   "depicts": "A full-body anatomical figure in the standard position, annotated with arrows for every directional pair: Medial/Lateral across the midline, Superior (nearer the head)/Inferior (away from the head), Anterior (front)/Posterior (rear), and Proximal/Distal along the arm. Patient's right and left are marked. It does NOT show deep vs superficial.",
+   "cards": [
+    {
+     "card_index": 289,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The directional term {{c1::distal}} means {{c2::farthest from the point of attachment}}.",
+     "verdict": "keep",
+     "why": "'Distal' is labelled on the arm arrow."
+    },
+    {
+     "card_index": 291,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The directional term {{c1::lateral}} means {{c2::farthest from the midline}}.",
+     "verdict": "keep",
+     "why": "'Lateral' is labelled across the midline."
+    },
+    {
+     "card_index": 288,
+     "tier": "teaches",
+     "coverage": 0.75,
+     "text": "The directional term {{c1::proximal}} means {{c2::closest to the point of attachment}}.",
+     "verdict": "keep",
+     "why": "'Proximal' is labelled on the arm arrow."
+    },
+    {
+     "card_index": 286,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "The directional term {{c1::superior}} means {{c2::closest to the head}}.",
+     "verdict": "keep",
+     "why": "'Superior (nearer the head)' is labelled outright."
+    },
+    {
+     "card_index": 290,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "The directional term {{c1::medial}} means {{c2::closest to the midline}}.",
+     "verdict": "keep",
+     "why": "'Medial' is labelled at the midline."
+    },
+    {
+     "card_index": 284,
+     "tier": "teaches",
+     "coverage": 0.6,
+     "text": "The directional term {{c1::anterior (ventral)}} means {{c2::toward the front surface of the body}}.",
+     "verdict": "keep",
+     "why": "'Anterior (front)' is labelled on the torso."
+    },
+    {
+     "card_index": 285,
+     "tier": "teaches",
+     "coverage": 0.6,
+     "text": "The directional term {{c1::posterior (dorsal)}} means {{c2::toward the back surface of the body}}.",
+     "verdict": "keep",
+     "why": "'Posterior (rear)' is labelled with its arrow."
+    },
+    {
+     "card_index": 287,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "The directional term {{c1::inferior}} means {{c2::closest to the feet}}.",
+     "verdict": "keep",
+     "why": "'Inferior (away from the head)' is labelled outright."
+    },
+    {
+     "card_index": 292,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "The directional term {{c1::deep}} means {{c2::farthest from the surface of the skin}}.",
+     "verdict": "drop",
+     "why": "the plate has no deep/superficial axis; every other directional pair is drawn, this one is not."
+    }
+   ]
+  }
+ ]
+}

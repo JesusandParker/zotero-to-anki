@@ -1,0 +1,275 @@
+{
+ "source": "emt",
+ "segment": 2,
+ "figures": [
+  {
+   "figure": "FIGURE 2-10",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_10.jpg",
+   "caption": "FIGURE 2-10 Use heavy-duty utility gloves to clean the unit. You should not use lightweight latex or vinyl gloves for cleaning.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 25,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "When cleaning and disinfecting the ambulance, wear {{c1::heavy-duty utility::glove type}} gloves.  Never  use ",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 30,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "During patient care,  never  use {{c1::petroleum jelly::ointment}} with {{c2::latex::glove material}} gloves.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-13",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_13.jpg",
+   "caption": "FIGURE 2-13 Wear a particulate respirator to protect yourself from airborne disease transmission.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 63,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "You suspect a patient has an airborne- or droplet-spread disease such as tuberculosis, influenza, or COVID-19.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-15",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_15.jpg",
+   "caption": "FIGURE 2-15 Properly dispose of sharps in a closed, rigid, marked container.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 47,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "When handling used needles,  never  {{c1::recap}}, {{c1::break}}, or {{c1::bend}} them. Place each used needle",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-20",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_20.jpg",
+   "caption": "FIGURE 2-20 Hazardous materials safety placards and labels are colored and diamond- shaped.",
+   "publisher_description": "The labels are arranged in five rows and seven columns. Each label contains the following: The word Class followed by the respective class number on the top left; division and the division number on the top right; the label at the center displaying a pictogram where necessary and the name of the pictogram; hazard statements and precautionary statements at the bottom below the label. The labels in the format, Class-class number; division-the division number; pictogram and name of the label; statements, are shown as follows. Row 1: Class-1; Explosive-1.1, 1.2, 1.3; the label is orange colored and diamond-shaped\u2014an explosive sign is at the top, the word Explosive at the center, two asterisks followed by the number 1 at the bottom; the statement, include appropriate division number and compatibility group letter. Class-1; Explosive-1.4; the label is orange colored and diamond-shaped\u20141.4 at the top, the word Explosive at the center, one asterisk followed by the number 1 at the bottom; the statement, include appropriate compatibility group letter. Class-1; Explosive-1.5; the label is orange colored and diamond-shaped\u20141.5 at the top, the text Blasting agent at the center, one asterisk followed by the number 1 at the bottom; the statement, include appropriate compatibility group letter. Class-1; Explosive-1.6; the label is orange colored and diamond-shaped\u20141.6 at the top, the text Explosive at the center, one asterisk followed by the number 1 at the bottom; the statement, include appropriate compatibility group letter. Class-2; Division-2.1; the label is red colored and diamond-shaped\u2014a flame at the top, the text Flammable gas at the center, the number 2 at the bottom; Flammable gas. Class-2; Division-2.2; the label is green colored and diamond-shaped\u2014a slanting gas tank at the top, the text non-flammable gas at the center, the number 2 at the bottom; Non-flammable gas. Class-2; Division-2.2; the label is yellow colored and diamond-shaped\u2014a flame over circle at the top, the text Oxygen at the center, the number 2 at the bottom; Oxygen. Row 2: Class-2; Division-",
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 70,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "Hazardous materials placards and labels are {{c1::colored, diamond-shaped::appearance}} safety markers. You sh",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-21",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_21.jpg",
+   "caption": "FIGURE 2-21 The US Department of Transportation\u2019s Emergency Response Guidebook lists many hazardous materials and the proper procedures for scene control and emergency care of patients.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 16,
+     "tier": "teaches",
+     "coverage": 0.923,
+     "text": "The {{c1::Emergency Response Guidebook (ERG)::resource name}} is the {{c2::US Department of Transportation (DO",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 41,
+     "tier": "context",
+     "coverage": 0.077,
+     "text": "At a scene involving  hazardous materials , the general guidelines are:  {{c1::Do not enter if there is eviden",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-22",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_22.jpg",
+   "caption": "FIGURE 2-22 Wear a helmet made of a certified electrical nonconductor material, making sure that the chin strap is fastened securely.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 42,
+     "tier": "context",
+     "coverage": 0.053,
+     "text": "If caught in the open as a lightning strike becomes imminent, make yourself the smallest possible target with ",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-24",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_24.jpg",
+   "caption": "FIGURE 2-24 Several agencies may respond to a scene that involves a large number of people, such as the Boston Marathon bombings on April 15, 2013. It is important for you to know who is in command and will be issuing orders.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 18,
+     "tier": "context",
+     "coverage": 0.143,
+     "text": "When you need protection from projectiles (bullets, bottles, rocks) at a scene, {{c1::cover::term}} is the tac",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-27",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_27.jpg",
+   "caption": "FIGURE 2-27 A helmet with top and side impact protection.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 33,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "You should wear a {{c1::helmet::PPE}} anytime you work in a {{c2::fall zone::hazard area}}.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-28",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_28.jpg",
+   "caption": "FIGURE 2-28 Boots should cover and protect your ankles, keeping out stones, debris, and snow. Steel-toed boots are preferred.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 69,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "A medical helicopter is landing at your emergency scene. While working near the landing and takeoff zone, wear",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-30",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_30.jpg",
+   "caption": "FIGURE 2-30 Emergency situations can be confusing and frightening to patients.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 20,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "When injuries or acute illness leave an emergency patient confused or unsettled, you should {{c1::orient::comm",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-5",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_5.jpg",
+   "caption": "FIGURE 2-5 Finger infection resulting from not wearing gloves during contact with a patient.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 46,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "Infectious diseases can be transmitted by four routes: {{c1::contact}}, {{c1::aerosolized}}, {{c1::foodborne}}",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 8,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "{{c1::Direct contact::contact type}} transmission moves an organism from one person to another by {{c2::touchi",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 9,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "A {{c1::fomite}} is the {{c2::inanimate object that transmits the infection}} in indirect contact.&nbsp;",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 36,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "{{c1::Indirect contact::contact type}} transmission spreads infection from an infected patient to another pers",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-6",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_6.jpg",
+   "caption": "FIGURE 2-6 Coughing and sneezing create droplets and aerosols.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 32,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "{{c1::Airborne transmission::route}} is the spread of an infectious agent through {{c2::droplets or dust}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 7,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "{{c1::Transmission}} is {{c2::how an infectious disease spreads}}.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-7",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_7.jpg",
+   "caption": "FIGURE 2-7 Coughing and sneezing techniques. A. Poor coughing and sneezing technique allows for spread of germs. B. Acceptable coughing and sneezing technique limits the spread of germs somewhat. C. Best coughing and sneezing technique minimizes the extent to which germs can spread.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 79,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "The CDC's 2016 standard-precautions recommendation is to assume that {{c1::every person::who}} is potentially ",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,275 @@
+{
+ "source": "emt",
+ "segment": 2,
+ "figures": [
+  {
+   "figure": "FIGURE 2-10",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_10.jpg",
+   "caption": "FIGURE 2-10 Use heavy-duty utility gloves to clean the unit. You should not use lightweight latex or vinyl gloves for cleaning.",
+   "publisher_description": null,
+   "depicts": "A hand in a heavy-duty green rubber utility glove that reaches past the wrist, wiping down the counter inside an ambulance module with a germicidal wipe, beside a canister of PDI germicidal wipes and a wall-mounted suction canister.",
+   "cards": [
+    {
+     "card_index": 25,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "When cleaning and disinfecting the ambulance, wear {{c1::heavy-duty utility::glove type}} gloves.  Never  use ",
+     "verdict": "keep",
+     "why": "the plate is the heavy-duty utility glove being used to clean the unit, which is the card's answer."
+    },
+    {
+     "card_index": 30,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "During patient care,  never  use {{c1::petroleum jelly::ointment}} with {{c2::latex::glove material}} gloves.",
+     "verdict": "drop",
+     "why": "the card is petroleum jelly with latex exam gloves during patient care; this plate shows a cleaning glove and no ointment. Shared word 'gloves' only."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-13",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_13.jpg",
+   "caption": "FIGURE 2-13 Wear a particulate respirator to protect yourself from airborne disease transmission.",
+   "publisher_description": null,
+   "depicts": "Head-and-shoulders close-up of a responder wearing sealed wraparound safety goggles and a white 3M 8833 cup-style particulate respirator with an exhalation valve and red head straps.",
+   "cards": [
+    {
+     "card_index": 63,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "You suspect a patient has an airborne- or droplet-spread disease such as tuberculosis, influenza, or COVID-19.",
+     "verdict": "keep",
+     "why": "a responder wearing the N95 particulate respirator the card tells him to put on himself."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-15",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_15.jpg",
+   "caption": "FIGURE 2-15 Properly dispose of sharps in a closed, rigid, marked container.",
+   "publisher_description": null,
+   "depicts": "Purple-gloved hands holding a used syringe over an open red rigid plastic sharps collector marked DANGER / BIOHAZARD, about to drop the needle straight in.",
+   "cards": [
+    {
+     "card_index": 47,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "When handling used needles,  never  {{c1::recap}}, {{c1::break}}, or {{c1::bend}} them. Place each used needle",
+     "verdict": "keep",
+     "why": "a needle going straight into a closed, rigid, marked sharps container without recapping."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-20",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_20.jpg",
+   "caption": "FIGURE 2-20 Hazardous materials safety placards and labels are colored and diamond- shaped.",
+   "publisher_description": "The labels are arranged in five rows and seven columns. Each label contains the following: The word Class followed by the respective class number on the top left; division and the division number on the top right; the label at the center displaying a pictogram where necessary and the name of the pictogram; hazard statements and precautionary statements at the bottom below the label. The labels in the format, Class-class number; division-the division number; pictogram and name of the label; statements, are shown as follows. Row 1: Class-1; Explosive-1.1, 1.2, 1.3; the label is orange colored and diamond-shaped—an explosive sign is at the top, the word Explosive at the center, two asterisks followed by the number 1 at the bottom; the statement, include appropriate division number and compatibility group letter. Class-1; Explosive-1.4; the label is orange colored and diamond-shaped—1.4 at the top, the word Explosive at the center, one asterisk followed by the number 1 at the bottom; the statement, include appropriate compatibility group letter. Class-1; Explosive-1.5; the label is orange colored and diamond-shaped—1.5 at the top, the text Blasting agent at the center, one asterisk followed by the number 1 at the bottom; the statement, include appropriate compatibility group letter. Class-1; Explosive-1.6; the label is orange colored and diamond-shaped—1.6 at the top, the text Explosive at the center, one asterisk followed by the number 1 at the bottom; the statement, include appropriate compatibility group letter. Class-2; Division-2.1; the label is red colored and diamond-shaped—a flame at the top, the text Flammable gas at the center, the number 2 at the bottom; Flammable gas. Class-2; Division-2.2; the label is green colored and diamond-shaped—a slanting gas tank at the top, the text non-flammable gas at the center, the number 2 at the bottom; Non-flammable gas. Class-2; Division-2.2; the label is yellow colored and diamond-shaped—a flame over circle at the top, the text Oxygen at the center, the number 2 at the bottom; Oxygen. Row 2: Class-2; Division-",
+   "depicts": "A DOT wall chart titled 'Hazardous Materials Warning Labels': five rows of colored diamond-shaped placards by class (explosive, flammable gas, poison, radioactive, corrosive, and so on), package markings below, and the line 'Keep a copy of the DOT Emergency Response Guidebook handy!'",
+   "cards": [
+    {
+     "card_index": 70,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "Hazardous materials placards and labels are {{c1::colored, diamond-shaped::appearance}} safety markers. You sh",
+     "verdict": "keep",
+     "why": "the plate is the colored, diamond-shaped placards themselves."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-21",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_21.jpg",
+   "caption": "FIGURE 2-21 The US Department of Transportation’s Emergency Response Guidebook lists many hazardous materials and the proper procedures for scene control and emergency care of patients.",
+   "publisher_description": null,
+   "depicts": "The orange cover of the 2020 Emergency Response Guidebook, with four hazmat diamonds over a map of North America and the seals of the US DOT/PHMSA, Transport Canada, and Mexico's SCT.",
+   "cards": [
+    {
+     "card_index": 16,
+     "tier": "teaches",
+     "coverage": 0.923,
+     "text": "The {{c1::Emergency Response Guidebook (ERG)::resource name}} is the {{c2::US Department of Transportation (DO",
+     "verdict": "keep",
+     "why": "the plate is the DOT Emergency Response Guidebook cover, exactly the resource the card names."
+    },
+    {
+     "card_index": 41,
+     "tier": "context",
+     "coverage": 0.077,
+     "text": "At a scene involving  hazardous materials , the general guidelines are:  {{c1::Do not enter if there is eviden",
+     "verdict": "drop",
+     "why": "the card is the scene-approach guidelines (upwind, uphill, retreat, call dispatch); a book cover depicts none of them, and card 16 is this plate's real home."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-22",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_22.jpg",
+   "caption": "FIGURE 2-22 Wear a helmet made of a certified electrical nonconductor material, making sure that the chin strap is fastened securely.",
+   "publisher_description": null,
+   "depicts": "Two firefighters in structural turnout gear and helmets with fastened chin straps, both wearing N95 masks, working over a clipboard at the open tailgate of a fire command SUV.",
+   "cards": [
+    {
+     "card_index": 42,
+     "tier": "context",
+     "coverage": 0.053,
+     "text": "If caught in the open as a lightning strike becomes imminent, make yourself the smallest possible target with ",
+     "verdict": "drop",
+     "why": "firefighters at a command vehicle; the card is lightning self-protection. Nothing in the plate is about a storm."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-24",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_24.jpg",
+   "caption": "FIGURE 2-24 Several agencies may respond to a scene that involves a large number of people, such as the Boston Marathon bombings on April 15, 2013. It is important for you to know who is in command and will be issuing orders.",
+   "publisher_description": null,
+   "depicts": "The Boston Marathon bombing aftermath: dozens of police officers, EMS crews, and bystanders kneeling over blast victims on a bloodied sidewalk strewn with debris.",
+   "cards": [
+    {
+     "card_index": 18,
+     "tier": "context",
+     "coverage": 0.143,
+     "text": "When you need protection from projectiles (bullets, bottles, rocks) at a scene, {{c1::cover::term}} is the tac",
+     "verdict": "drop",
+     "why": "a mass-casualty scene photo; the card contrasts cover with concealment, and no barrier or hiding place is shown."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-27",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_27.jpg",
+   "caption": "FIGURE 2-27 A helmet with top and side impact protection.",
+   "publisher_description": null,
+   "depicts": "An EMS provider wearing a blue full-brim 'MED. TECH.' rescue helmet with goggles strapped around the shell and a white filter mask, standing in front of an ambulance.",
+   "cards": [
+    {
+     "card_index": 33,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "You should wear a {{c1::helmet::PPE}} anytime you work in a {{c2::fall zone::hazard area}}.",
+     "verdict": "keep",
+     "why": "a rescue helmet being worn, on the card that names the helmet as the PPE."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-28",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_28.jpg",
+   "caption": "FIGURE 2-28 Boots should cover and protect your ankles, keeping out stones, debris, and snow. Steel-toed boots are preferred.",
+   "publisher_description": null,
+   "depicts": "A close-up of a single black leather work boot, laced up over the ankle with a reinforced steel toe, planted on the diamond-plate step of an emergency vehicle.",
+   "cards": [
+    {
+     "card_index": 69,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "A medical helicopter is landing at your emergency scene. While working near the landing and takeoff zone, wear",
+     "verdict": "drop",
+     "why": "the card's answer is a face shield or goggles near a helicopter; this plate is a boot. Wrong PPE item."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-30",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_30.jpg",
+   "caption": "FIGURE 2-30 Emergency situations can be confusing and frightening to patients.",
+   "publisher_description": null,
+   "depicts": "A crash scene in which firefighters hold cervical collars on two frightened, wide-eyed teenage patients and hold an oxygen mask to a third, over a shattered windshield.",
+   "cards": [
+    {
+     "card_index": 20,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "When injuries or acute illness leave an emergency patient confused or unsettled, you should {{c1::orient::comm",
+     "verdict": "keep",
+     "why": "frightened, disoriented patients being cared for at a scene, on the card about orienting such a patient."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-5",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_5.jpg",
+   "caption": "FIGURE 2-5 Finger infection resulting from not wearing gloves during contact with a patient.",
+   "publisher_description": null,
+   "depicts": "A close-up of one fingertip that is red, shiny, and swollen with infection along the nail fold.",
+   "cards": [
+    {
+     "card_index": 46,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "Infectious diseases can be transmitted by four routes: {{c1::contact}}, {{c1::aerosolized}}, {{c1::foodborne}}",
+     "verdict": "drop",
+     "why": "the card is the four-route taxonomy; one infected finger depicts no list of routes."
+    },
+    {
+     "card_index": 8,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "{{c1::Direct contact::contact type}} transmission moves an organism from one person to another by {{c2::touchi",
+     "verdict": "keep",
+     "why": "an infection caught by ungloved touching, which is direct contact transmission itself."
+    },
+    {
+     "card_index": 9,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "A {{c1::fomite}} is the {{c2::inanimate object that transmits the infection}} in indirect contact.&nbsp;",
+     "verdict": "drop",
+     "why": "a fomite is an inanimate object, and this plate shows infection passed by bare touch with no object. Actively contradicts the card."
+    },
+    {
+     "card_index": 36,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "{{c1::Indirect contact::contact type}} transmission spreads infection from an infected patient to another pers",
+     "verdict": "drop",
+     "why": "indirect contact requires an inanimate object; the plate is a direct-contact infection. Misleading, not merely unrelated."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-6",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_6.jpg",
+   "caption": "FIGURE 2-6 Coughing and sneezing create droplets and aerosols.",
+   "publisher_description": null,
+   "depicts": "A side view of a man's open mouth mid-sneeze, throwing a bright plume of fine droplets several feet across a black background.",
+   "cards": [
+    {
+     "card_index": 32,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "{{c1::Airborne transmission::route}} is the spread of an infectious agent through {{c2::droplets or dust}}.",
+     "verdict": "keep",
+     "why": "a sneeze throwing a visible cloud of droplets, which is the airborne route the card defines."
+    },
+    {
+     "card_index": 7,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "{{c1::Transmission}} is {{c2::how an infectious disease spreads}}.",
+     "verdict": "keep",
+     "why": "an infectious agent visibly spreading through the air, on the card defining transmission."
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-7",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_2_7.jpg",
+   "caption": "FIGURE 2-7 Coughing and sneezing techniques. A. Poor coughing and sneezing technique allows for spread of germs. B. Acceptable coughing and sneezing technique limits the spread of germs somewhat. C. Best coughing and sneezing technique minimizes the extent to which germs can spread.",
+   "publisher_description": null,
+   "depicts": "Three stacked photos of sneezing technique: A, a man sneezing openly into the air; B, a woman sneezing into a tissue held to her nose; C, a woman sneezing into the crook of her elbow.",
+   "cards": [
+    {
+     "card_index": 79,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "The CDC's 2016 standard-precautions recommendation is to assume that {{c1::every person::who}} is potentially ",
+     "verdict": "drop",
+     "why": "the plate is good-versus-bad sneeze technique; the card is the standard-precautions assumption that every person is potentially infected. Same topic, different subject."
+    }
+   ]
+  }
+ ]
+}

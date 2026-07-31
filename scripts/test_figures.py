@@ -119,6 +119,37 @@ def r17():
 case("R17", "one pipeline figure per card; a re-run swaps, never stacks", r17)
 
 
+# ---------------------------------------------------------------- R22: judged gate
+# Two ways to attach, and the fresh-segment route (--to-cards) writes the cards FILE that
+# anki_write.py then stages. If it accepted unjudged proposals, every merely-nearby figure
+# the judge exists to catch would ship straight into a new chapter with nothing in between.
+def r22():
+    import json, subprocess, tempfile
+    bad = []
+    here = os.path.dirname(os.path.abspath(__file__))
+    with tempfile.TemporaryDirectory() as d:
+        unjudged = os.path.join(d, "p.json")
+        json.dump({"teaches": [], "context": []}, open(unjudged, "w"))
+        r = subprocess.run([sys.executable, os.path.join(here, "attach_figures.py"),
+                            "--source", "emt", "--segment", "1", "--to-cards",
+                            "--proposals", unjudged, "--dry-run"],
+                           capture_output=True, text=True)
+        if r.returncode == 0 or "not been judged" not in (r.stdout + r.stderr):
+            bad.append("--to-cards accepted proposals with no `judged` flag")
+        judged = os.path.join(d, "q.json")
+        json.dump({"teaches": [], "context": [], "judged": True}, open(judged, "w"))
+        r2 = subprocess.run([sys.executable, os.path.join(here, "attach_figures.py"),
+                             "--source", "emt", "--segment", "1", "--to-cards",
+                             "--proposals", judged, "--dry-run"],
+                            capture_output=True, text=True)
+        if r2.returncode != 0:
+            bad.append(f"--to-cards refused a JUDGED file: {(r2.stdout + r2.stderr)[:120]}")
+    return bad
+
+
+case("R22", "the fresh-segment route refuses unjudged proposals", r22)
+
+
 def main():
     fails = 0
     for cid, name, fn in CASES:
