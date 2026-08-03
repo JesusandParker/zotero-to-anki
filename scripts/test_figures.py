@@ -206,6 +206,58 @@ def r29():
 case("R29", "SKILL DRILLs: titled above, Step-corroborated, and multi-page", r29)
 
 
+# ------------------------------------- R31: a TEXT table must not adopt the art above it
+# Not every table is a raster. When a table is typeset as live text, `pair_art` correctly
+# finds nothing — and the fallback chain then decided what happened next. `vector_region`
+# searches ABOVE the caption, which is right for a FIGURE (captioned below its plate) and
+# exactly backwards for a TABLE (titled above its body). EMT TABLE 7-2 was handed the
+# "Special Populations" box sitting above its title, and that plate was one build away
+# from landing on the 11 live cards that carry TABLE 7-2 on their backs.
+def r31():
+    bad = []
+    src = open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                            "build_figure_index.py")).read()
+
+    # the text-table render must be attempted BEFORE the above-the-caption vector search
+    i_txt = src.find("text_table_render(doc, pno")
+    i_vec = src.find("vector_region(page, cap[\"bbox\"])")
+    if i_txt < 0 or i_vec < 0:
+        bad.append("could not locate the fallback chain")
+    elif i_txt > i_vec:
+        bad.append("vector_region runs before text_table_render — a TEXT table can adopt "
+                   "the art sitting ABOVE its title")
+    if "not is_titled_above" not in src:
+        bad.append("vector_region is not gated away from TABLE/CHART captions")
+
+    # a table caption is corroborated by a credit far below it, but only when it is a TITLE
+    class P:
+        def __init__(self, rows): self.rows = rows
+        def get_text(self, _):
+            return {"blocks": [{"type": 0, "bbox": (0, i * 10, 100, i * 10 + 9),
+                                "lines": [{"spans": [{"text": t}]}]}
+                               for i, t in enumerate(self.rows)]}
+    rows = ["TABLE 7-2 Noticeable Characteristics at Various Ages",
+            "Age Characteristic"] + [f"{m} months  a milestone" for m in range(2, 9)]
+    if not B.find_captions(P(rows), P(["9 months", "© Jones & Bartlett Learning."])):
+        bad.append("a text table whose credit lands on the next page was rejected")
+    # A realistic body page: the cross-reference sits MID-page with prose after it, so the
+    # pre-existing near-the-foot rule cannot fire and the widened TABLE window is what is
+    # actually under test. It must refuse, because the block is a sentence, not a title.
+    prose = ["The Muscular System",
+             "TABLE 6-3 and FIGURE 6-15 show the major muscles of the body, which are "
+             "described in detail throughout the remainder of this section and summarized "
+             "for review in the tables that follow this discussion of the skeleton.",
+             "Skeletal muscle is under voluntary control and attaches to bone by tendons.",
+             "Smooth muscle is found in the walls of hollow organs and is involuntary.",
+             "Cardiac muscle has its own automaticity and is found only in the heart."]
+    if B.find_captions(P(prose), P(["© Jones & Bartlett Learning."])):
+        bad.append("body prose cross-referencing a table was accepted as a caption")
+    return bad
+
+
+case("R31", "a TEXT table renders its own body, never the art above its title", r31)
+
+
 def main():
     fails = 0
     for cid, name, fn in CASES:

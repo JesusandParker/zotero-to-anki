@@ -138,6 +138,16 @@ def find_captions(page, next_page=None):
         # all four Parker highlighted. Found 2026-08-03.
         if not corroborated and m.group(1).upper().startswith("SKILL"):
             corroborated = any(STEP_HEAD.match(x[0]) for x in (bl[i + 1:] + nxt))
+        # A TABLE typeset as live TEXT fills its own page with row blocks, so its credit
+        # line lands far past the 5-block window — EMT TABLE 7-2's caption is on p691 and
+        # its credit is under the last row on p692. Widen the search for TABLE/CHART only,
+        # and only for a block short enough to be a TITLE: that is what keeps body prose
+        # opening "TABLE 6-3 and FIGURE 6-15 show the major muscles…" from qualifying,
+        # which is the whole reason the credit requirement exists (R15).
+        if (not corroborated and m.group(1).upper().startswith(("TABLE", "CHART"))
+                and len(t) <= 140):
+            corroborated = any(is_credit(x[0]) or x[0] == DESC_STUB
+                               for x in (bl[i + 1:] + nxt[:12]))
         if not corroborated:
             continue
         title = t
@@ -289,6 +299,85 @@ def skill_drill_composite(doc, cap_pno, out_png, dpi=150, cols=2, cap_bbox=None)
     os.makedirs(os.path.dirname(out_png), exist_ok=True)
     sheet.save(out_png)
     return out_png, step_pages
+
+
+TABLE_MAX_PAGES = 4
+
+
+def text_table_render(doc, cap_pno, cap_bbox, out_png, dpi=150):
+    """Render a TABLE that is live TEXT rather than an embedded raster.
+
+    Not every table in a publisher PDF is a picture. EMT's TABLE 7-2, 8-1, 8-3 and 6-11 are
+    typeset text with coloured row bands, so `pair_art` correctly finds no art and the
+    caption is recorded as "no locatable art" — which is honest but leaves the pipeline
+    with nothing to attach. That matters because Parker's rule-25 design puts the SOURCE
+    TABLE on the back of every per-key card: TABLE 7-2 is live on 11 of his cards.
+
+    Rendering the caption's own page region is the right answer for this class, and it is
+    what a human would do. The table's end is marked by its credit line (`is_credit`), the
+    same signal `find_captions` already trusts; if the credit does not appear before the
+    page ends, the body continues onto the next page and is followed there.
+
+    Written 2026-08-03 after the TABLE 7-2 plate was produced by a throwaway script and was
+    therefore not reproducible from the repo — a plate 11 live cards depended on."""
+    try:
+        from PIL import Image
+    except ImportError:
+        return None, []
+    regions, pages = [], []
+    y_from = cap_bbox[1] - 4
+    for step in range(TABLE_MAX_PAGES):
+        p = cap_pno + step
+        if p > doc.page_count:
+            break
+        page = doc[p - 1]
+        bl = blocks(page)
+        if step > 0:
+            # a NEW caption means the table already ended
+            if any(CAPTION.match(t) for t, _ in bl):
+                break
+            y_from = page.rect.y0
+        y_to, done = page.rect.y1, False
+        for t, bb in bl:
+            if bb[1] < y_from - 2:
+                continue
+            if is_credit(t):
+                y_to, done = bb[3] + 4, True
+                break
+        regions.append((p, y_from, y_to))
+        pages.append(p)
+        if done:
+            break
+    if not regions:
+        return None, []
+    tiles = []
+    for p, y0, y1 in regions:
+        pr = doc[p - 1].rect
+        pix = doc[p - 1].get_pixmap(dpi=dpi, clip=fitz.Rect(pr.x0, max(pr.y0, y0),
+                                                            pr.x1, min(pr.y1, y1)))
+        tmp = os.path.splitext(out_png)[0] + f"_t{p}.png"
+        pix.save(tmp)
+        im = Image.open(tmp).convert("RGB")
+        from PIL import ImageChops
+        bg = Image.new("RGB", im.size, im.getpixel((1, 1)))
+        bbox = ImageChops.difference(im, bg).convert("L").point(
+            lambda v: 255 if v > 18 else 0).getbbox()
+        if bbox:
+            im = im.crop(bbox)
+        tiles.append(im)
+        os.remove(tmp)
+    tiles = [t for t in tiles if t.width > 40 and t.height > 20]
+    if not tiles:
+        return None, []
+    W = max(t.width for t in tiles)
+    H = sum(t.height for t in tiles)
+    sheet = Image.new("RGB", (W, H), "white")
+    y = 0
+    for t in tiles:
+        sheet.paste(t, (0, y)); y += t.height
+    os.makedirs(os.path.dirname(out_png), exist_ok=True)
+    sheet.save(out_png)
+    return out_png, pages
 
 
 def _chunks(doc, first_page, span=2):
@@ -539,7 +628,19 @@ def main():
                     path, how = save_art(doc, art, art_page, target, args.rerender)
             else:
                 path, how = save_art(doc, art, art_page, target, args.rerender)
-            if not path:
+            is_titled_above = cap["label"].startswith(("TABLE", "CHART"))
+            if not path and is_titled_above:
+                # A table typeset as live TEXT has no raster to extract; render its body.
+                # This MUST come before vector_region, which searches ABOVE the caption —
+                # right for a figure, backwards for a table. EMT TABLE 7-2 was handed the
+                # "Special Populations" box sitting above its title, and that plate was
+                # one build away from landing on 11 live cards (2026-08-03).
+                tpath, tpages = text_table_render(doc, pno, cap["bbox"], target,
+                                                  dpi=args.dpi_steps)
+                if tpath:
+                    path, how = tpath, f"text-table-render({len(tpages)}p)"
+                    art, art_page = {"px": None, "bbox": None}, pno
+            if not path and not is_titled_above:
                 vr = vector_region(page, cap["bbox"])
                 if vr:
                     path = render_region(doc, pno, vr, target, args.dpi)
