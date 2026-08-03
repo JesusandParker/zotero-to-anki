@@ -168,6 +168,33 @@ CASES = [
                 "turn it into a value column",
     },
 
+    # --- R33: R13's visual exemption must be VERIFIED, not self-asserted ---
+    {
+        "id": "r33_bad_self_asserted_visual_evidence_does_not_exempt",
+        "warn": "needs_visual", "present": True, "scope": "hard",
+        "cards": [{"Text": "The answer is {{c1::zygomaticomaxillary buttress}}.",
+                   "Back Extra": "Cue: a facial buttress.", "source": "emt", "segment": 9,
+                   "from_idx": [0],
+                   "visual_source": {"pages": ["1"], "figures": [],
+                                     "note": "I read it off the rendered page"}}],
+        "highlights": [{"page": "1", "highlight": "x", "context": "the quick brown fox",
+                        "needs_visual": True}],
+        "note": "visual_source is free text the drafter writes itself; asserting evidence "
+                "must not switch off the only mechanical enforcement of Rule 1",
+    },
+    {
+        "id": "r33_good_a_real_attached_plate_does_exempt",
+        "warn": "needs_visual", "present": False, "scope": "hard",
+        "cards": [{"Text": "The answer is {{c1::zygomaticomaxillary buttress}}.",
+                   "Back Extra": "Cue: a facial buttress.", "source": "emt", "segment": 9,
+                   "from_idx": [0],
+                   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/"
+                            "figures/study/TABLE_7_1.jpg"}],
+        "highlights": [{"page": "1", "highlight": "x", "context": "the quick brown fox",
+                        "needs_visual": True}],
+        "note": "a plate that actually exists on disk is real evidence and still exempts",
+    },
+
     # --- R30: procedures are carded as decisions (evidence: 85,212 AnKing notes) ---
     {
         "id": "r30_bad_recites_steps_by_number",
@@ -365,8 +392,14 @@ CASES = [
         "cards": [{"Text": "On the anterior thorax the {{c1::pectoralis}} flexes and rotates the arm.",
                    "Back Extra": "Cue: it pulls the arm across the chest.",
                    "source": "emt", "segment": 6, "from_idx": [0],
-                   "visual_source": {"page": 549, "figure": "figures/p549_table_6-3.png"}}],
-        "note": "same claim, but the crop proving it was read is attached -> legitimately grounded",
+                   "visual_source": {"pages": ["549"],
+                                     "figures": ["figures/study/TABLE_7_1.jpg"],
+                                     "labels": ["TABLE 6-3"],
+                                     "note": "read off the extracted plate"}}],
+        "note": "same claim, but the crop proving it was read is REAL and resolves on disk -> "
+                "legitimately grounded. The path must exist: R33 made this exemption a "
+                "verified predicate, and this fixture previously named a file that never "
+                "existed, which is precisely the self-assertion R33 closes.",
     },
     {
         "id": "r13_good_morphology_not_a_false_positive",

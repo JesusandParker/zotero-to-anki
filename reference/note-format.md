@@ -42,6 +42,21 @@ Open every Back Extra line with one of: `Meaning:` `Why:` `Mechanism:` `Distingu
 - **Rich pre-existing cards are a known exception.** Some cards already in Parker's deck legitimately carry richer HTML he added himself — embedded reference images (`<img>`), a formatted comparison `<table>`, `<div>`-wrapped lists — and the Ch5 medical-terminology cards carry `clinical-ex` `<div>` blocks plus `[sound:…]` TTS audio. Never strip the content itself (the image, the table, the audio). (The one exception: a dead `<a href="google.com/url?…">` tracking wrapper around a pasted image is unwrapped — see the live-deck bullet below — because the `<a>` is inert junk, not content.) When *verifying* existing cards (an audit/refinement pass, not fresh generation), run `python3 scripts/check_cards.py --audit <file>`: `--audit` skips the minimal-HTML gate (so rich cards pass structural verification) while keeping every meaningful check — cloze presence, leaks, husks, first-letter hints, numeric flags. The default (no flag) stays strict so newly generated cards are still held to `<b>/<i>/<br>/<img>`.
 - **Auditing the LIVE deck (hand-edit drift).** Parker edits cards inside Anki on Mac and iPhone, and a mobile image paste can drag in an `<a href="google.com/url?…"><img></a>` wrapper — a dead Google-redirect tracking link around the image. **Keep the image; unwrap the dead anchor** (`<a><img></a>` → `<img>`): the image is the content Parker added (never strip it), but the `<a>` is inert junk and a disallowed tag. That is the one sanctioned edit to a pasted reference image — everything else he added (the image itself, `[sound:…]` audio, his own notes) stays untouched. The pre-staging file gate never sees hand-edits, so to sweep the deck as it actually exists, run `python3 scripts/check_cards.py --live <N|all>` — it pulls every card from Anki and runs the checks with the same relaxed HTML as `--audit` (diagnostic only; never stamps). This is how the two Star-of-Life / cyanide reference-image cards were caught and cleaned.
 
+## Recording that a WARNING was cleared
+
+`check_cards.py` warnings are routed to the judge, and several detectors are deliberately
+generous (`husk_groups`, `row_label_tautology`, `step_recitation`) precisely so a human or
+judge can clear them. **There is currently nowhere on the card to record that clearance** —
+a verdict lives only in the run's report, so the next session re-litigates it or "fixes" a
+card that was already adjudicated.
+
+Until there is a field for it, put the clearance in the run's `REPORT.md` and in the
+card's `verified_by`, naming the detector: `"husk_groups cleared: both blanks are
+cold-solvable with the other hidden"`. Do not silence a detector to make a warning go away.
+
+**`image_side` on an image-less card:** omit it. Chapter 7 does both, which is drift; the
+key only means something when `image` is set.
+
 ## Card object (what the writer produces, what `anki_write.py` consumes)
 ```json
 {

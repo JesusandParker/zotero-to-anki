@@ -62,7 +62,12 @@ Don't over-card: a finite syllabus plus an application exam means *hundreds* of 
 decision cards, not thousands of trivia.
 
 ## 6. Traps
-- **Every number, dose, threshold, and time window gets `needs_human_check: true`.** A
+- **Every number, dose, threshold, and time window gets `needs_human_check: true` — **unless it was
+verified verbatim against the page**, in which case record `verified_against` /
+`verified_by` and let `verify_report.py` derive the flag (it will derive `false`, and the
+card still appears in "Section B: verified, skim", so it reaches Parker either way).
+The flag is **derived, never asserted** (`note-format.md`); asserting it by hand and
+leaving the verification fields empty is what the derivation is there to catch.** A
   wrong digit on a dose is a safety error, not a typo. Verify it verbatim against the
   source page before flagging.
 - **Chapter 5 (Medical Terminology) is structurally different** — 587 word-root↔meaning

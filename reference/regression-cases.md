@@ -321,6 +321,29 @@ The card proved the leak in its own Back Extra, which taught the shortcut as a m
 - **Measured scope:** across his whole 4,340-note collection this fires on **9 cards**, every one a genuine value column — 7 hard (all in Chapter 7) and 2 warns. Chapters 1–5 are untouched.
 - **Catch test (both ways):** ≥4 keyed rows whose answers are values → HARD; a word-answer match card, a mostly-word direction panel, a 3-row non-trending set, or a single-value note → silent.
 
+## R33 — The grounding gate's visual exemption was self-asserted
+**Rule:** Rule 1, enforced by R13. **Caught by:** `check_cards.py _visual_evidence_exists`. Found 2026-08-03 by a drafting agent that read the checker while following the docs — the best kind of find, because it came from someone trying to *use* the system correctly.
+
+R13's HARD block is the only mechanical enforcement of Rule 1. It is skipped for a card carrying visual evidence, which is right: when the material genuinely lives in a picture, an unsupported answer is fine *provided the picture is attached*. But the test was `bool(card.get("image") or card.get("visual_source"))` — and `visual_source` is a **free-text field the drafter writes itself**. Any card could switch off the check on every one of its answers by asserting that it had looked. The one gate protecting the system's first rule could be disabled by the thing it was checking.
+
+The exemption is now a **verified predicate**: an `image` path that resolves on disk, or a `visual_source.figures` entry that resolves under the source's work directory. A `visual_source` carrying only prose proves nothing and exempts nothing.
+
+- **MUST CATCH:** a card whose answer is absent from a `needs_visual` mark's text and which asserts `visual_source` with no resolvable file.
+- **MUST NOT OVER-FLAG:** the same card with a real attached plate — that is genuine evidence and still exempts.
+- **This immediately invalidated an existing GOOD fixture**, which had named `figures/p549_table_6-3.png` — a file that never existed. The test had been asserting the hole rather than the behaviour. Repointed at a real plate.
+- **Catch test (both ways):** two cases in `test_regressions.py` (`r33_*`).
+
+## R32 — A rendered table can be cut by a page break; an extracted one cannot
+**Rule:** SKILL.md Stage 2.9's "extracting returns it whole — splitting is a property of pagination, not of the picture." **Caught by:** `test_figures.py` R32. Found 2026-08-03, the same day the render path was written.
+
+That guarantee is true for **embedded rasters** and false for **`text-table-render`**, which re-renders the page. EMT TABLE 8-3's last two situations and its credit line sit at the top of p804, *above* the Skill Drill 8-7 banner — and the render loop broke on "a caption appears on this page" before taking them. The plate showed **four of six situations**, which is worse than no plate at all, because it looks complete. A card built from it would have taught two-thirds of a list and told Parker it was the whole set.
+
+A new caption bounds a table's body from **below**, not from before: the continuation page is now clipped to the caption rather than abandoned.
+
+- **MUST CATCH:** a table whose remaining rows sit above a caption on the following page.
+- **MUST NOT OVER-FLAG:** a continuation page whose caption sits at the very top has nothing left of the table on it and is still skipped.
+- **The same error had reached the brief in prose:** the Chapter 8 run brief said TABLE 8-3 had "four situations," written from a render of p803 alone. It has six. Corrected, with a note to count the list against the mark's context rather than a single page render (card-rules #14, one content type further on).
+
 ## R30 — Reciting a procedure by step number (the shape professional decks never use)
 **Rule:** card-rules #26 + editor check #28 + recipes §12. **Caught by:** `check_cards.py step_recitation` (a WARNING the judge clears). Established 2026-08-03 by measuring Parker's own collection rather than by reasoning.
 
@@ -337,6 +360,14 @@ He asked how to card systematic, skill-based material without producing junk, an
 - **MUST NOT OVER-FLAG:** a decision table whose rows carry conditions; a single-blank vignette; ordinary prose comparing two procedures. The detector requires EVERY row's only cue to be an ordinal, so one condition-cued row exempts the card.
 - **Deliberately a WARNING, never a block.** A short ordered protocol whose order genuinely is the knowledge is legitimate, and Parker likes one of them (the five-point handover method). The detector cannot tell it from a recitation, so it warns and the judge clears it — and `test_regressions.py` asserts that the handover card *is* flagged, so the warn-not-block contract stays explicit rather than drifting into a block.
 - **Catch test (both ways):** five cases in `test_regressions.py` (`r30_*`). Live blast radius on the EMT deck: **5 of 1,223 notes**, all genuine short protocols.
+
+- **R30b — the first evidence pass was WRONG about psychomotor technique, and the correction matters more than the original claim (2026-08-03, same day).** A whole-population re-audit (all 85,212 notes dumped and analysed locally, rather than sampled) overturned two of the four findings:
+  - **"Psychomotor technique is never carded" was a VOCABULARY failure, not a fact.** `"place your hands"` → 0 because these decks do not write that way. They write `In BLS for infants the compression method is {{c1::2-3 fingers}}` — and there are **17 such cards**, a full parameter matrix covering six parameters across three patient populations. CPR, the archetypal psychomotor skill, is carded as a lookup table keyed by (population × parameter). Technique vocabulary the first pass never tried: `sniffing position` 5, `jaw thrust` 5, `cricoid` 30, `gauge` 44, `Tuohy` 5. **The corrected claim is narrower and more useful: the MOTION is never narrated, but the technique's discrete testable VALUES always are** — named end-position, numeric parameter, confirmation cue, failure mode.
+  - **"The more curated the deck, the tighter the cards" is false.** AnKing's own flagship *MCAT* deck is the loosest thing in the collection (31.6% single-span), looser than the "old" USMLE-Rx deck used as the negative example. What predicts tightness is the deliberately chosen **archetype** — `Card_Features::Rapid_Diagnosis` is 98.3% single-span against a 73.0% deck baseline.
+  - **A reported figure was also wrong:** AnKing Step Deck is **73.0%** single-span over the whole population, not the 89% the sample reported.
+  - **What survived, and got stronger:** the decision card is a *deliberate constraint*, not house style — next-step cards beat their own deck's baseline on every axis in two independently authored decks, and **0 of 419** carry ≥5 spans where the baselines predict ~5. And the decision table is not just a pattern but a *mechanized* one: AnKing's `Card_Features::Shuffle` tag (152 notes) randomizes row order at review so position can never become the cue.
+  - **Three shapes the first pass missed entirely**, now in recipes §12: the **parameter matrix** (above); the **step-scaffold**, where the ordinal is printed and only the content is clozed (120 notes, used for mechanisms and lab protocols and *never* for a clinical psychomotor procedure); and **image occlusion over a printed flowchart** — AnKing's `IO-one by one` note type has 5 notes, 1 template and **4 real uses, all four tagged `Card_Features::Algorithm`**. That note type was invisible to the first pass because its `Text` field is empty.
+  - *Lesson, and the reason this is recorded as a case rather than quietly patched:* **a keyword search proves a phrasing absent, never a concept absent.** The first pass drew a strong negative conclusion from zero hits on five phrases it chose itself. A negative claim needs a search designed by someone trying to *refute* it — which is exactly what the re-audit was, and what any future "X is never done" claim must get before it enters the canon.
 
 ## R29 — A SKILL DRILL is a multi-page procedure, and three things treated it as a plate
 **Rule:** a drill's banner is a title above its body, its corroboration is a `Step N` heading, and its steps run one per page. **Caught by:** `test_figures.py` R29 + the `skill-drill-composite(N steps)` extraction label in the index. Found 2026-08-03 while preparing EMT Chapter 8, which is mostly drills — **four of the five marks Parker made in that chapter are Skill Drills.**

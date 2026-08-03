@@ -16,11 +16,21 @@ in three places (R29); it is fixed and tested now, but it is the part of the run
 | Marks | **32**, all yellow, **32/32 grounded EXACT** |
 | Margin comments | **none** — no `user_comment` to honor this chapter |
 | Needs a visual read | **5**: TABLE 8-3 (p803) and Skill Drills 8-9, 8-10, 8-11, 8-12 |
-| Figures indexed | **39** for ch8 — 27 FIGUREs, 1 TABLE, **11 SKILL DRILL composites** |
-| No locatable art | TABLE 8-1 and TABLE 8-3 — **correct, not a defect**: both are live text in the PDF, not embedded rasters, and their bodies are in the extractor context |
+| Figures indexed | **42** for ch8 — 27 FIGUREs, **11 SKILL DRILL composites**, 3 TABLEs, 1 other |
+| No locatable art | **none** |
 
-TABLE 8-3's four bullets are confirmed present in mark 18's context, so cards from it
-ground normally and need no plate.
+TABLE 8-1 and TABLE 8-3 are typeset as live text rather than embedded rasters, so there is
+no plate to extract; `build_figure_index.py` renders them from the page instead
+(`text-table-render`). Both are attachable, which matters for TABLE 8-3 — it is mark 18,
+one of Parker's own marks, and rule 25 puts the source table on the back of anything split
+out of it. Its content is also present in the mark's context, so the cards ground normally
+either way.
+
+**TABLE 8-3 has SIX situations, not four.** The first draft of this brief said four, from a
+render of p803 alone — the last two ("the patient has a life-threatening condition", "the
+patient blocks your access to another seriously injured patient") sit at the top of p804,
+above the Skill Drill 8-7 banner. The mark's context has all six; trust it over the page
+render, and count the list before stating a number (card-rules #14).
 
 ## Skill Drills — what the pipeline now does
 
@@ -45,8 +55,8 @@ list, which is in the context text.
   note's back so the whole procedure stays in view.
 - **Rule 25 (value columns).** Watch for weight limits, patient/device capacities and
   lifting thresholds keyed by device — those are one note per key with the table on the back.
-- **Recipes §7 (sequences)** is the archetype for drills: arrows and connectives stay
-  visible outside the clozes, order is the knowledge.
+- **Recipes §12 (procedures)** is the archetype for drills — NOT §7. Card decisions and
+  values, never a recitation; §7 is for pathways whose order genuinely is the fact.
 - The **anchor-note trap** (rule 23's refinement): if you partition a drill into phases,
   the phase NAMES are yours, not the book's — keep them visible in each note's stem and do
   not cloze them. Test the order with a grounded "you have just done X, what comes next?"
@@ -56,7 +66,7 @@ list, which is in the context text.
 
 ```
 python3 scripts/extract_highlights.py --source emt --segment 8          # already run: 32 marks
-.venv/bin/python scripts/build_figure_index.py --source emt --segment 8 # already run: 39
+.venv/bin/python scripts/build_figure_index.py --source emt --segment 8 # already run: 42
 python3 scripts/figure_run.py --source emt --segment 8 --preflight
 #   ... draft per SKILL.md Stage 2, one unit at a time, independent editors ...
 python3 scripts/verify_report.py work/emt/chapter_8_cards.json
@@ -83,17 +93,21 @@ rather than from taste. Full evidence in `card-recipes.md` §12 and regression *
 Across **85,212 professionally-made notes** — the AnKing Step Deck, Ankisthesia,
 USMLE-Rx/First Aid, Dermki:
 
-- **"next step in management" cards are 93% single-span, 0% carry five or more, 95%
-  question-form.** The procedural workhorse of medicine is a vignette with ONE blank.
-- **Psychomotor technique is never carded.** `"place your hands"`, `"position your"`,
-  `"how do you perform"`, `"steps to perform"` return **zero hits** across all 85k notes,
-  including 10,907 anesthesia cards.
-- **Algorithms become decision TABLES**, cued by conditions, never by step numbers.
+- **Next-step cards beat their own deck's baseline on every axis, in two independently
+  authored decks, and 0 of 419 carry five or more blanks** where the baselines predict
+  about five. The decision card is a deliberate constraint, not house style.
+- **Technique IS carded — as VALUES, never as narrated motion.** CPR appears as a 17-card
+  parameter matrix keyed by patient population (`In BLS for infants you check the
+  {{c1::brachial}} pulse`). What no card in 85,212 does is narrate the movement.
+- **Algorithms become decision TABLES**, cued by conditions, never by step numbers —
+  AnKing even randomizes their row order (`Card_Features::Shuffle`) so position can never
+  become the cue.
 
 **So: do NOT card "recite the 8 steps of rapid extrication."** Card, per drill:
 
 1. **The indication** — when do you reach for this instead of the alternative? For rapid
-   extrication that is TABLE 8-3's four situations, which is a 4-item set and ships whole.
+   extrication that is TABLE 8-3's **six** situations, which is over the rule-23 cap: chunk
+   3 + 3 (scene hazards / patient factors), which is what the trial run did unprompted.
 2. **The discriminating comparison** — rapid extrication moves a seated patient in *1
    minute or less* where a vest device takes *6 to 8 minutes*, and buys that time at the
    cost of spinal protection. That trade-off is the whole reason the drill exists.

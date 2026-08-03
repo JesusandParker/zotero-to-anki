@@ -332,14 +332,22 @@ def text_table_render(doc, cap_pno, cap_bbox, out_png, dpi=150):
             break
         page = doc[p - 1]
         bl = blocks(page)
+        stop_at = None
         if step > 0:
-            # a NEW caption means the table already ended
-            if any(CAPTION.match(t) for t, _ in bl):
-                break
             y_from = page.rect.y0
-        y_to, done = page.rect.y1, False
+            # A new caption bounds the table from BELOW — the body's last rows and its
+            # credit line still sit ABOVE it on this page, so render down to the caption
+            # rather than abandoning the page. EMT TABLE 8-3's last two situations and its
+            # credit sit above the Skill Drill 8-7 banner on p804; breaking here first
+            # produced a plate showing four of its six situations (2026-08-03).
+            caps = [bb[1] for t, bb in bl if CAPTION.match(t)]
+            if caps:
+                stop_at = min(caps) - 4
+                if stop_at <= y_from + 8:
+                    break                      # the caption opens the page: nothing to take
+        y_to, done = (stop_at if stop_at is not None else page.rect.y1), stop_at is not None
         for t, bb in bl:
-            if bb[1] < y_from - 2:
+            if bb[1] < y_from - 2 or (stop_at is not None and bb[1] > stop_at):
                 continue
             if is_credit(t):
                 y_to, done = bb[3] + 4, True

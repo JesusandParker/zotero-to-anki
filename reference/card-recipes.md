@@ -320,77 +320,88 @@ Pitfall: bulky-dress AROUND the object; do not apply pressure on top of it.
 
 ---
 
-## 12. Procedures, protocols & skills — card the DECISION, never the recitation
+## 12. Procedures, protocols & skills — card the DECISION and the VALUES, never the narration
 
-**When:** the source teaches a *procedure* — a skill drill, an algorithm, a protocol, a "how to perform X" sequence. This is the hardest archetype to get right and the easiest to get catastrophically wrong, because the obvious card ("list the 8 steps") is the one professionals never make.
+**When:** the source teaches a *procedure* — a skill drill, an algorithm, a protocol, a "how to perform X" sequence. This is the hardest archetype to get right, and the obvious card ("list the 8 steps") is the one professionals never make.
 
-### The evidence (measured on Parker's own 85,212-note collection, 2026-08-03)
+### The evidence (Parker's own 85,212-note collection, measured 2026-08-03)
 
-This section is not a design opinion. It is what the AnKing Step Deck, Ankisthesia, USMLE-Rx/First Aid and Dermki actually do — decks built by physicians for the highest-stakes exams there are.
+Not a design opinion — this is what the AnKing Step Deck, Ankisthesia, USMLE-Rx/First Aid, Dermki and the AnKing MCAT deck actually do, counted over the **whole population**, not sampled.
 
-| deck | notes analyzed | one span per cloze number | ≥5 spans | carries an image |
+**The decision card is a deliberate constraint, not house style.** The only way to show that is to compare procedural cards against *their own deck's* baseline — and the effect replicates across two independently authored decks:
+
+| | 1 span | 1 cloze number | question-form | ≥5 spans |
 |---|---|---|---|---|
-| AnKing Step Deck (flagship) | 3,000 | **89%** | 1% | 59% |
-| Ankisthesia | 3,000 | 76% | 1% | 17% |
-| Dermki | 2,802 | 85% | 0% | 5% |
-| USMLE-Rx / First Aid *(older)* | 2,999 | 49% | 5% | 100% |
+| next-step cards **in AnKing Step Deck** | 84.8% | 98.4% | 74.1% | **0.0%** |
+| AnKing Step Deck baseline (28,648) | 73.0% | 81.7% | 35.6% | 1.1% |
+| next-step cards **in Ankisthesia** | 76.5% | 91.2% | 29.4% | **0.0%** |
+| Ankisthesia baseline (10,903) | 54.0% | 70.9% | 9.8% | 3.0% |
 
-And on the procedural subset specifically:
+**0 of 419** next-step cards carry five or more blanks, where the deck baselines predict about 5. Tighter still, AnKing's explicitly-tagged `Card_Features::Rapid_Diagnosis` class (669 notes) is **98.3% single-span**.
 
-| card family | n | one span | ≥5 spans | question-form stem |
-|---|---|---|---|---|
-| **"next step in management"** | 194 | **93%** | **0%** | 95% |
-| initial / first-line treatment | 449 | 77% | 1% | 59% |
-| ordered chains ("followed by", "in order") | 862 | 69% | 4% | 25% |
-| technique / procedure | 964 | 79% | 1% | 30% |
+**What predicts a tight card is the chosen ARCHETYPE, not the deck's polish.** AnKing's own flagship *MCAT* deck is the loosest thing in the collection at **31.6%** single-span — looser than the old USMLE-Rx deck. Archetype is the lever; curation is not.
 
-**Three findings decide this recipe.**
+**And Parker's own review log agrees with the professionals.** Measured on his EMT decks, scored on each card's first review: ordinary 1–2-blank cards failed 56%, 3–4-item groups 78%, 5–6-item groups 89%. The professional convention and his own performance data point the same way.
 
-1. **The unit is the DECISION, not the step.** The single most common procedural card in professional medicine is a rich situational vignette with exactly one blank on the action. Not "what are the steps" — "given *this* state of the world, what now?"
-2. **A whole algorithm becomes a DECISION TABLE, not an ordered list.** When they do put a procedure on one card, every row is cued by its own condition.
-3. **They do not card psychomotor technique at all.** Across all 85,212 notes — including 10,907 anesthesia cards, the most procedure-heavy specialty in medicine — the searches `"place your hands"`, `"position your"`, `"how do you perform"` and `"steps to perform"` return **zero**. `"insert the needle"` returns **one**. Physical skill is trained by doing it; the flashcard takes the part that is *decidable*.
+### The six shapes
 
-**Note the trend across decks:** the newer, more heavily curated the deck, the tighter the cards. The flagship Step Deck is 89% single-span; the older USMLE-Rx deck is 49%. Tightness is what curation converges on.
-
-### The four shapes, in order of preference
-
-**(a) Decision-point vignette — the workhorse.** Put the discriminating state in the stem; cloze only the action.
+**(a) Decision-point vignette — the workhorse.** Discriminating state in the stem, one blank on the action.
 ```
 What is the next step in management for a hemodynamically stable patient with
 penetrating abdominal trauma, rebound tenderness, and guarding?
 {{c1::Exploratory laparotomy}}
 ```
-Every clue that selects this answer is visible; nothing else is. This is also the answer to Parker's *"it should feel like a real-life scenario — real life does have context clues"*: the context clues ARE the stem, and they are the same ones he will have on the call.
+This is also the answer to Parker's *"it should feel like a real-life scenario — real life does have context clues"*: the clues ARE the stem, and they are the same ones he will have on the call.
 
-**(b) Decision table — for the algorithm as a whole.** All rows under ONE cloze number, each cued by its own condition. This is the shape that lets a genuine multi-branch protocol live on one card without becoming a recitation:
+**(b) Decision table — the algorithm as a whole.** condition → action rows under ONE cloze number, each row cued by its own condition. AnKing mechanically enforces this: the `Card_Features::Shuffle` tag (152 notes) **randomizes row order at review**, so position can never become the cue.
 ```
 Blunt abdominal trauma assessment:
-1) Peritonitis? {{c1::Ex-lap}}
-2) No peritonitis? {{c1::FAST}}
-3) FAST (+) and unstable? {{c1::Ex-lap}}
-4) FAST (+) and stable? {{c1::CT scan}}
-5) If FAST is not available? {{c1::Ex-lap}}
-6) If FAST is (-) or inconclusive? {{c1::Consider CT scan}}
+1) Peritonitis? {{c1::Ex-lap}}          2) No peritonitis? {{c1::FAST}}
+3) FAST (+) and unstable? {{c1::Ex-lap}} 4) FAST (+) and stable? {{c1::CT scan}}
 ```
-Six blanks, and not one of them is guessable from its neighbours — because the *condition* is the cue, not the position. Contrast a bare "list the 6 steps," where position is the only cue and there is nothing to reason from.
+Even an explicitly *temporal* set gets converted into a lookup keyed by something independent, rather than by position:
+```
+Put the extrapyramidal symptoms in the order in which they occur.
+Hours to days   → {{c1::Dystonia}}
+Days to months  → {{c1::Akathisia}} and/or {{c1::bradykinesia}}
+Months to years → {{c1::Tardive dyskinesia}}
+```
 
-**(c) The decidable residue — for a physical skill.** When the source teaches a psychomotor technique, do not try to card the motion. Card what a decision hangs on:
-- the **indication** (when do you reach for this instead of the alternative?)
-- the **landmark or number** (`The ideal site for a femoral nerve block is in the {{c1::inguinal crease}} at the lateral border of the femoral artery`)
-- the **contraindication** and the **complication**
-- the **one step people get wrong**, and what goes wrong when they do
-- the **comparison** that makes it worth knowing (rapid extrication takes under a minute where a vest device takes 6 to 8)
+**(c) Parameter matrix — how a PHYSICAL skill actually gets carded.** The motion is never narrated; the *discrete testable values* are, one per cell, keyed by (population × parameter). CPR — the archetypal psychomotor skill — is carded as a lookup table:
+```
+In BLS for infants you check the {{c1::brachial}} pulse
+In BLS for children you check the {{c1::carotid}} pulse
+In BLS for infants the compression method is {{c1::2-3 fingers}}
+In BLS for children the compression method is {{c1::heel of one hand}}
+In BLS for infants the compression/ventilation ratio is {{c1::30:2}}
+```
+Seventeen such cards cover six parameters across three patient populations. **This is rule 25's per-key split applied to technique** — and note it is `image_side: back` territory: attach the drill's own composite plate.
 
-**(d) Forward-chain — only when ORDER genuinely is the knowledge**, and the order is not derivable from the conditions. One note per transition, cued by its predecessor: *"you have just given the receiving hospital and your ETA — what comes next?"* Use sparingly; if the conditions determine the order, use (b) instead, because then order is a consequence rather than a fact.
+**(d) The decidable residue — everything else about a physical skill.** What survives when the motion is stripped out:
+- the **named end-position**: *"The sniffing position is achieved by {{c1::elevating}} the head and {{c1::extending}} the atlantooccipital joint"*
+- the **numeric parameter**: gauge, angle, depth, rate, ratio — *"the standard epidural needle is {{c1::17}} to {{c1::18}} gauge"*
+- the **confirmation cue**: *"correct needle placement is signaled by a sudden {{c1::loss of resistance}}"*, *"the gold standard for initial confirmation of ETT placement is {{c1::end-tidal CO2}}"*
+- the **indication, contraindication, complication**, and the **failure mode**: *"an endotracheal tube advanced too far will preferentially enter the {{c1::right}} mainstem bronchus"*
+
+All 22 cards under AnKing's explicit `Pulmonology::06_Procedures` namespace (intubation, cricothyrotomy, extubation) are of this kind. **Not one narrates how to perform the procedure.**
+
+**(e) Step-scaffold — for a CAUSAL or MECHANISTIC sequence.** The ordinal is *printed*, never recalled; the content is clozed. He never answers "which number is this step" — he answers "what goes in slot 3."
+```
+Give the three steps and the temperatures of each step in a PCR cycle:
+1. {{c1::Denaturation}} at {{c1::96}}°C  2. {{c1::Annealing}} at {{c1::55-65}}°C  3. {{c1::Extension}} at {{c1::72}}°C
+```
+120 notes use this, 64% under one cloze number. **Scope matters: it is used for mechanisms and lab protocols, and never for a clinical psychomotor procedure.** Long ones survive because AnKing pairs them with serial reveal — the `One by one` field (449 notes) shows one item at a time instead of blanking them all together.
+
+**(f) Roster + one card per component — for a non-psychomotor skill** (interviewing, counselling, handover). One roster card naming the components, then a card per component asking what it is and how it is done. 139 roster cards collection-wide, 79% under one cloze number.
+
+**(g) Image occlusion over the flowchart — the collection's answer for a printed algorithm.** AnKing's `IO-one by one` note type has 5 notes: one template and **four real uses, all four tagged `Card_Features::Algorithm`.** Each is a flowchart with its decision boxes occluded in a single mask group, revealed one at a time, with the entry condition in the header (*"Management for a patient with valvular heart disease requiring noncardiac surgery"*). The note type exists for this and nothing else. Worth reaching for when a source prints a real algorithm diagram.
 
 ### Do / Don't
 
-**Do:** attach the procedure's own plate to the back so the whole sequence stays visible (Parker: *"disconnected in the sense of memorizing, connected in the sense of the table"*). Put every discriminating clue in the stem. Prefer one decision per card.
-**Don't:** write "list the N steps of X" — it is the shape professionals never use and the shape rules 23–25 exist to stop. Don't cloze step *numbers* (position is not knowledge). Don't card the motion of a physical skill. Don't invent branch conditions the source doesn't give.
+**Do:** put every discriminating clue in the stem · prefer one decision per card · card the *values* of a technique (position, number, confirmation cue, failure mode) · attach the procedure's own plate to the back so the whole sequence stays visible · print ordinals rather than asking him to recall them.
+**Don't:** write "list the N steps of X" · cloze a step *number* (position is not knowledge) · narrate a motion — no card in 85,212 says "then advance the needle while withdrawing the plunger" · start a `(Step N)` card series you will not finish (Parker's deck has two orphaned Step 1 cards with no Step 2, made by this pipeline before the rule existed).
 
-**Back Extra:** `Pitfall:` (the step that gets skipped, the complication) and `Why:` (why this order, why this branch) are the highest-value lines here; `Distinguish:` against the neighbouring procedure. Attach the composite plate.
-
----
+**Back Extra:** `Pitfall:` (the step that gets skipped, the complication) and `Why:` (why this branch) are highest-value; `Distinguish:` against the neighbouring procedure. Attach the composite plate.
 
 ## 11. Teaching-half & mnemonics (lean front, rich back)
 

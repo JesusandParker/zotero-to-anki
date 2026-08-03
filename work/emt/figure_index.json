@@ -1,9 +1,9 @@
 {
  "source": "emt",
- "scope": "segment_1+segment_2+segment_3+segment_4+segment_5+segment_6+segment_7+segment_8+segment_8+segment_8+segment_8+segment_8+segment_7+segment_7+segment_8+segment_7",
+ "scope": "segment_1+segment_2+segment_3+segment_4+segment_5+segment_6+segment_7+segment_8+segment_8+segment_8+segment_8+segment_8+segment_7+segment_7+segment_8+segment_7+segment_8",
  "pages": [
-  681,
-  737
+  738,
+  867
  ],
  "figures": [
   {
@@ -7713,7 +7713,7 @@
    "file": "figures/TABLE_8_3.png",
    "study_file": "figures/study/TABLE_8_3.jpg",
    "px": null,
-   "extraction": "text-table-render(1p)",
+   "extraction": "text-table-render(2p)",
    "description": null,
    "crossrefs": "describes the situations in which you should use the rapid extrication technique.",
    "seen_description": null,

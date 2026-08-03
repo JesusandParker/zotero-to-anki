@@ -217,6 +217,18 @@ Writes `work/<source>/<label>_highlights.json` (marked items + grounded `context
   *Read `grounding` and `content` as two different questions.* `grounding: EXACT` means only
   "I found your marked text" — it says nothing about whether the material is present. EMT
   TABLE 4-4 was `EXACT` with a context paragraph about not touching a patient's torso.
+- **A marked `SKILL DRILL` caption is a PROCEDURE, and it gets two special treatments.**
+  (1) The extractor follows it across every page carrying a `Step N` heading, so its whole
+  step sequence is in `context` — but the step text is the *source*, not the card. **Card it
+  as decisions, never as a recitation** (card-rules #26, recipes §12): the indication, the
+  trade-off that justifies it, the contraindication, the step people get wrong, and a
+  decision-point vignette. `check_cards.py step_recitation` warns if you slip back into
+  numbering steps. (2) `build_figure_index.py` composites the drill's step panels into ONE
+  plate showing the whole procedure — attach that to the back, so the full sequence is
+  visible the moment he answers.
+- **A marked TABLE with no raster** (many are typeset as live text) is rendered from the page
+  by `build_figure_index.py` (`text-table-render`), so it is still attachable — Parker's
+  design puts the source table on the back of every card split out of it (rule 25).
 - **`kind: "image"`** — crop it and author from the figure:
   `python3 scripts/render_page.py --source <id> --crop-from work/<source>/<label>_highlights.json`
 - **A highlighted TABLE CAPTION means "card the table's CONTENT."** Two traps, both hit in
@@ -367,7 +379,11 @@ raster at its ORIGINAL resolution (EMT's skull is 2133×1035, ~336 dpi). Renderi
 and cutting it out discards roughly 2× linear resolution. This also dissolves the
 figure-spans-two-pages problem: a plate straddling a page break is ONE image object placed
 twice, and extracting returns it whole — **splitting is a property of pagination, not of
-the picture.** `render_page.py` is still the right tool for *reading* a page; it is the
+the picture.**
+**That guarantee covers embedded RASTERS only.** A table typeset as live text has no image
+object, so it is re-rendered from the page (`text-table-render`) and genuinely can be cut
+by a page break — EMT TABLE 8-3 lost two of its six rows that way. Check the row count of
+any `text-table-render` plate against the mark's context before trusting it (R32). `render_page.py` is still the right tool for *reading* a page; it is the
 wrong tool for *harvesting* art.
 
 The index also captures the book's accessibility **long description** — prose naming

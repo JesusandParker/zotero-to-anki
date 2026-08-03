@@ -893,7 +893,37 @@ def highlights_for(cards, explicit=None):
     return None, None
 
 
-def grounding_check(cards, highlights, require_provenance=False):
+def _visual_evidence_exists(card, source_root=None):
+    """Does this card's claimed visual evidence actually EXIST?
+
+    R13's HARD block is the only mechanical enforcement of Rule 1, and it is skipped for a
+    card that carries visual evidence — the material genuinely lives in a picture, so an
+    unsupported answer is fine *provided the picture is attached*. But `visual_source` is a
+    free-text field the drafter writes itself, so testing only for its presence let any
+    card switch off the check by asserting it had. The claim now has to be true: an `image`
+    path that resolves, or a `visual_source.figures` entry that resolves under the source's
+    work directory. A `visual_source` carrying only prose proves nothing and no longer
+    exempts anything."""
+    img = card.get("image")
+    if img and os.path.exists(img):
+        return True
+    vs = card.get("visual_source") or {}
+    if not isinstance(vs, dict):
+        return False
+    figs = vs.get("figures") or []
+    roots = [r for r in (source_root, os.getcwd()) if r]
+    for f in figs:
+        if not isinstance(f, str):
+            continue
+        if os.path.isabs(f) and os.path.exists(f):
+            return True
+        for r in roots:
+            if os.path.exists(os.path.join(r, f)):
+                return True
+    return False
+
+
+def grounding_check(cards, highlights, require_provenance=False, source_root=None):
     """(hard, warn) — is every claim supported by the source it cites?"""
     hard, warn = [], []
     if highlights is None:
@@ -914,7 +944,13 @@ def grounding_check(cards, highlights, require_provenance=False):
             msg = f"#{i}: no `from_idx` — grounding unverifiable in a file that otherwise has provenance"
             (hard if require_provenance else warn).append(msg)
             continue
-        visual = bool(c.get("image") or c.get("visual_source"))
+        # The visual exemption must be VERIFIED, not self-asserted. `visual_source` is a
+        # free-text field the drafter writes itself, so treating its mere presence as proof
+        # let any card opt out of R13's HARD block on every answer by typing a sentence —
+        # the one check that enforces Rule 1 could be switched off by the thing it checks.
+        # Now the claimed evidence must actually exist on disk (found 2026-08-03 by a
+        # drafting agent reading the checker while following the docs).
+        visual = _visual_evidence_exists(c, source_root)
         src_text = []
         for j in idxs:
             if isinstance(j, int) and 0 <= j < len(highlights):
@@ -1054,7 +1090,10 @@ def main():
             if args.require_provenance:
                 hard.append("--require-provenance was set but no highlights file could be resolved")
         else:
-            gh, gw = grounding_check(cards, hl, args.require_provenance)
+            _sid = next((c.get('source') for c in cards if c.get('source')), None)
+            gh, gw = grounding_check(
+                cards, hl, args.require_provenance,
+                source_root=os.path.join(S.SKILL, 'work', _sid) if _sid else None)
             hard += gh
             warn += gw
             ground_note = f"  (grounding checked against {os.path.basename(hlpath)})"

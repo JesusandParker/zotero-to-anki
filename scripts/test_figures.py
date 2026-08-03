@@ -258,6 +258,30 @@ def r31():
 case("R31", "a TEXT table renders its own body, never the art above its title", r31)
 
 
+# ------------------- R32: a text table's last rows can sit above the NEXT caption
+# EMT TABLE 8-3 runs onto p804, whose top carries its final two situations and its credit
+# line — and then the Skill Drill 8-7 banner. Breaking on "a caption appears on this page"
+# abandoned the page and produced a plate showing FOUR of the table's SIX situations, which
+# is worse than no plate: it looks complete. The caption bounds the body from BELOW.
+def r32():
+    bad = []
+    src = open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                            "build_figure_index.py")).read()
+    fn = src[src.index("def text_table_render"):src.index("def _chunks")]
+    if "stop_at" not in fn:
+        bad.append("text_table_render has no lower bound for a continuation page — a "
+                   "caption there will abandon the table's remaining rows")
+    if "min(caps)" not in fn:
+        bad.append("the continuation page is not clipped to the FIRST caption on it")
+    # the page must still be abandoned when the caption opens it (nothing of the table left)
+    if "<= y_from + 8" not in fn:
+        bad.append("a continuation page whose caption sits at the very top is not skipped")
+    return bad
+
+
+case("R32", "a text table's continuation page is clipped to the next caption, not skipped", r32)
+
+
 def main():
     fails = 0
     for cid, name, fn in CASES:
