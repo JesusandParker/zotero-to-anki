@@ -22,6 +22,7 @@ Do **Rule 0 first** (card-rules): if the highlight is one leg of a connected set
 | A hallmark sign/buzzword → one answer, OR a patient scenario → impression/action | **Buzzwords & Vignettes** | 9 |
 | "EXCEPT / never / contraindicated / do NOT / cannot" | **Negation & Exception** | 10 |
 | A standalone fact whose *value is the teaching context* (mechanism, contrast, mnemonic) | **Teaching-Half & Mnemonics** | 11 |
+| A **procedure, protocol, algorithm or skill drill** ("how to perform X", "the steps of Y") | **Procedures & Skills** | 12 |
 
 **Decision shortcuts.** Distinctive short cue → one answer = buzzword. Needs 2-4 clues to be solvable = vignette. Several coordinate members = list. Arrow / "because" / "then" / direction word doing the work = sequence/comparison, not list. Could be answered by a *number* but not a sentence = numeric. A term you'd recognize AND produce = two-way definition.
 
@@ -316,6 +317,78 @@ Text: You should control all external bleeding with direct pressure, <b>except</
 Back Extra: Why: removing it can trigger uncontrolled internal hemorrhage.
 Pitfall: bulky-dress AROUND the object; do not apply pressure on top of it.
 ```
+
+---
+
+## 12. Procedures, protocols & skills — card the DECISION, never the recitation
+
+**When:** the source teaches a *procedure* — a skill drill, an algorithm, a protocol, a "how to perform X" sequence. This is the hardest archetype to get right and the easiest to get catastrophically wrong, because the obvious card ("list the 8 steps") is the one professionals never make.
+
+### The evidence (measured on Parker's own 85,212-note collection, 2026-08-03)
+
+This section is not a design opinion. It is what the AnKing Step Deck, Ankisthesia, USMLE-Rx/First Aid and Dermki actually do — decks built by physicians for the highest-stakes exams there are.
+
+| deck | notes analyzed | one span per cloze number | ≥5 spans | carries an image |
+|---|---|---|---|---|
+| AnKing Step Deck (flagship) | 3,000 | **89%** | 1% | 59% |
+| Ankisthesia | 3,000 | 76% | 1% | 17% |
+| Dermki | 2,802 | 85% | 0% | 5% |
+| USMLE-Rx / First Aid *(older)* | 2,999 | 49% | 5% | 100% |
+
+And on the procedural subset specifically:
+
+| card family | n | one span | ≥5 spans | question-form stem |
+|---|---|---|---|---|
+| **"next step in management"** | 194 | **93%** | **0%** | 95% |
+| initial / first-line treatment | 449 | 77% | 1% | 59% |
+| ordered chains ("followed by", "in order") | 862 | 69% | 4% | 25% |
+| technique / procedure | 964 | 79% | 1% | 30% |
+
+**Three findings decide this recipe.**
+
+1. **The unit is the DECISION, not the step.** The single most common procedural card in professional medicine is a rich situational vignette with exactly one blank on the action. Not "what are the steps" — "given *this* state of the world, what now?"
+2. **A whole algorithm becomes a DECISION TABLE, not an ordered list.** When they do put a procedure on one card, every row is cued by its own condition.
+3. **They do not card psychomotor technique at all.** Across all 85,212 notes — including 10,907 anesthesia cards, the most procedure-heavy specialty in medicine — the searches `"place your hands"`, `"position your"`, `"how do you perform"` and `"steps to perform"` return **zero**. `"insert the needle"` returns **one**. Physical skill is trained by doing it; the flashcard takes the part that is *decidable*.
+
+**Note the trend across decks:** the newer, more heavily curated the deck, the tighter the cards. The flagship Step Deck is 89% single-span; the older USMLE-Rx deck is 49%. Tightness is what curation converges on.
+
+### The four shapes, in order of preference
+
+**(a) Decision-point vignette — the workhorse.** Put the discriminating state in the stem; cloze only the action.
+```
+What is the next step in management for a hemodynamically stable patient with
+penetrating abdominal trauma, rebound tenderness, and guarding?
+{{c1::Exploratory laparotomy}}
+```
+Every clue that selects this answer is visible; nothing else is. This is also the answer to Parker's *"it should feel like a real-life scenario — real life does have context clues"*: the context clues ARE the stem, and they are the same ones he will have on the call.
+
+**(b) Decision table — for the algorithm as a whole.** All rows under ONE cloze number, each cued by its own condition. This is the shape that lets a genuine multi-branch protocol live on one card without becoming a recitation:
+```
+Blunt abdominal trauma assessment:
+1) Peritonitis? {{c1::Ex-lap}}
+2) No peritonitis? {{c1::FAST}}
+3) FAST (+) and unstable? {{c1::Ex-lap}}
+4) FAST (+) and stable? {{c1::CT scan}}
+5) If FAST is not available? {{c1::Ex-lap}}
+6) If FAST is (-) or inconclusive? {{c1::Consider CT scan}}
+```
+Six blanks, and not one of them is guessable from its neighbours — because the *condition* is the cue, not the position. Contrast a bare "list the 6 steps," where position is the only cue and there is nothing to reason from.
+
+**(c) The decidable residue — for a physical skill.** When the source teaches a psychomotor technique, do not try to card the motion. Card what a decision hangs on:
+- the **indication** (when do you reach for this instead of the alternative?)
+- the **landmark or number** (`The ideal site for a femoral nerve block is in the {{c1::inguinal crease}} at the lateral border of the femoral artery`)
+- the **contraindication** and the **complication**
+- the **one step people get wrong**, and what goes wrong when they do
+- the **comparison** that makes it worth knowing (rapid extrication takes under a minute where a vest device takes 6 to 8)
+
+**(d) Forward-chain — only when ORDER genuinely is the knowledge**, and the order is not derivable from the conditions. One note per transition, cued by its predecessor: *"you have just given the receiving hospital and your ETA — what comes next?"* Use sparingly; if the conditions determine the order, use (b) instead, because then order is a consequence rather than a fact.
+
+### Do / Don't
+
+**Do:** attach the procedure's own plate to the back so the whole sequence stays visible (Parker: *"disconnected in the sense of memorizing, connected in the sense of the table"*). Put every discriminating clue in the stem. Prefer one decision per card.
+**Don't:** write "list the N steps of X" — it is the shape professionals never use and the shape rules 23–25 exist to stop. Don't cloze step *numbers* (position is not knowledge). Don't card the motion of a physical skill. Don't invent branch conditions the source doesn't give.
+
+**Back Extra:** `Pitfall:` (the step that gets skipped, the complication) and `Why:` (why this order, why this branch) are the highest-value lines here; `Distinguish:` against the neighbouring procedure. Attach the composite plate.
 
 ---
 

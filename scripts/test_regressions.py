@@ -168,6 +168,45 @@ CASES = [
                 "turn it into a value column",
     },
 
+    # --- R30: procedures are carded as decisions (evidence: 85,212 AnKing notes) ---
+    {
+        "id": "r30_bad_recites_steps_by_number",
+        "warn": "card-rules #26", "present": True,
+        "cards": [{"Text": "Perform the extremity lift with the following steps:<br><br>1. {{c1::Kneel behind the patient's head as your partner kneels at the feet}}<br><br>2. {{c1::Cross the patient's hands over the chest}}<br><br>3. {{c1::Grasp the wrists and pull the upper torso to sitting}}<br><br>4. {{c1::Your partner slips both hands under the knees}}",
+                   "Back Extra": "Pitfall: never use it on a suspected spinal injury.", "chapter": 8}],
+        "note": "every row cued only by its position — the shape 85k professional cards never use",
+    },
+    {
+        "id": "r30_good_decision_table_rows_cued_by_condition",
+        "warn": "card-rules #26", "present": False,
+        "cards": [{"Text": "Choosing a move for a patient still in the vehicle:<br><br>Scene is unsafe or there is a fire → {{c1::rapid extrication}}<br><br>Patient cannot be assessed in place → {{c1::rapid extrication}}<br><br>Stable, no spinal concern → {{c1::an ordinary non-urgent move}}<br><br>Stable with suspected spinal injury → {{c1::a vest-type extrication device}}",
+                   "Back Extra": "Why: rapid extrication takes under a minute where a vest device takes 6 to 8, and buys that time at the cost of some spinal protection.", "chapter": 8}],
+        "note": "the AnKing decision-table shape: each row cued by its CONDITION, not its position",
+    },
+    {
+        "id": "r30_good_decision_point_vignette",
+        "warn": "card-rules #26", "present": False,
+        "cards": [{"Text": "A patient is seated in a wrecked car that has begun to smoke, and you cannot assess him where he sits. What move do you use? {{c1::Rapid extrication}}",
+                   "Back Extra": "Pitfall: the speed is bought at the cost of spinal protection, so it needs a reason this specific.", "chapter": 8}],
+        "note": "the workhorse: discriminating state visible, one blank on the action",
+    },
+    {
+        "id": "r30_good_short_ordered_protocol_is_licensed",
+        "warn": "card-rules #26", "present": True,
+        "cards": [{"Text": "<b>Giving</b> a handover report follows a five-point method, in order:<br><br>1. {{c1::Initiate eye contact}}<br><br>2. {{c1::Manage the environment}}<br><br>3. {{c1::Ensure the ABCs}}<br><br>4. {{c1::Provide a structured report}}<br><br>5. {{c1::Provide documentation}}",
+                   "Back Extra": "Why: eye contact marks that the handover is beginning.", "chapter": 4}],
+        "note": "DELIBERATELY still flagged — Parker likes this card and rule 26 licenses a short "
+                "ordered protocol, but the detector cannot tell it from a recitation, so it warns "
+                "and the judge clears it. Asserted so the warn-not-block contract stays explicit.",
+    },
+    {
+        "id": "r30_good_prose_card_is_untouched",
+        "warn": "card-rules #26", "present": False,
+        "cards": [{"Text": "The <b>rapid extrication technique</b> moves a seated patient onto a backboard in {{c1::1 minute or less}}, where proper placement of a vest-type device takes {{c1::6 to 8 minutes}}.",
+                   "Back Extra": "Pitfall: the speed costs spinal protection, so it needs a specific indication.",
+                   "chapter": 8, "needs_human_check": True}],
+    },
+
     # --- R11: first-letter hints (Parker 2026-07-19, the ::r/::k/::s rant) ---
     {
         "id": "r11_bad_letters_original",

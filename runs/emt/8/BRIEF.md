@@ -74,11 +74,39 @@ Chapter 8 has never been staged, so it takes the **`--to-cards` fresh-segment ro
 Never run `anki_write.py` on an already-staged chapter — it adds notes rather than
 updating them.
 
-## Open question for Parker, worth settling before the run
+## How to card the drills — settled 2026-08-03 by measuring, not by choosing
 
-Skill Drill 8-7 (rapid extrication) is **8 steps** and TABLE 8-3 gives the 4 situations
-that call for it. Under rule 23 the 8-step procedure must be chunked. Ask whether he wants
-the drills carded as *procedures to reproduce* (heavier, chunked into phases) or as
-*recognition* cards (lighter: which drill, when to use it, the one or two steps that are
-easy to get wrong) with the composite plate carrying the rest. That choice sets the
-chapter's card count more than any other decision.
+The open question in the first draft of this brief ("procedures to reproduce, or
+recognition cards?") is **answered**, and the answer came from Parker's own AnKing decks
+rather than from taste. Full evidence in `card-recipes.md` §12 and regression **R30**.
+
+Across **85,212 professionally-made notes** — the AnKing Step Deck, Ankisthesia,
+USMLE-Rx/First Aid, Dermki:
+
+- **"next step in management" cards are 93% single-span, 0% carry five or more, 95%
+  question-form.** The procedural workhorse of medicine is a vignette with ONE blank.
+- **Psychomotor technique is never carded.** `"place your hands"`, `"position your"`,
+  `"how do you perform"`, `"steps to perform"` return **zero hits** across all 85k notes,
+  including 10,907 anesthesia cards.
+- **Algorithms become decision TABLES**, cued by conditions, never by step numbers.
+
+**So: do NOT card "recite the 8 steps of rapid extrication."** Card, per drill:
+
+1. **The indication** — when do you reach for this instead of the alternative? For rapid
+   extrication that is TABLE 8-3's four situations, which is a 4-item set and ships whole.
+2. **The discriminating comparison** — rapid extrication moves a seated patient in *1
+   minute or less* where a vest device takes *6 to 8 minutes*, and buys that time at the
+   cost of spinal protection. That trade-off is the whole reason the drill exists.
+3. **The contraindication / the step people get wrong**, and what goes wrong when they do.
+4. **A decision-point vignette or two** — a scene where the discriminating facts are
+   visible and the answer is which move to use.
+5. **The composite plate on the back of each**, so the full procedure stays in view.
+
+That collapses 12 drills from ~60 step-recitation cards into perhaps 25–35 cards that
+test what he will actually be asked, and it removes the rule-23 chunking problem for
+Skill Drill 8-7 entirely — its 8 steps were never going to be the card.
+
+`check_cards.py step_recitation` warns on any card whose rows are cued only by their step
+number (card-rules #26). It is a warning, not a block, because a short ordered protocol
+can be legitimate — but in this chapter, treat every one of those warnings as a real
+finding until proven otherwise.

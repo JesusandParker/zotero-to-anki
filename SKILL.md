@@ -269,7 +269,8 @@ Writes `work/<source>/<label>_highlights.json` (marked items + grounded `context
 
 1. **Classify the fact type, then open its recipe.** Definition · numeric value/dose/cutoff ·
    classification list · ordered sequence · comparison/direction-of-change · mechanism ·
-   indication/contraindication · trigger · buzzword/vignette · figure · ambiguous fragment.
+   indication/contraindication · trigger · buzzword/vignette · figure · **procedure/skill
+   drill** · ambiguous fragment.
    Then open the matching section of **`reference/card-recipes.md`** — the archetype playbook
    (when-to-use, exact template, hint + Back-Extra conventions, do's/don'ts). Drill into
    `reference/cloze-mastery.md` only for more exemplars.
@@ -530,10 +531,10 @@ Naming a hazard is step one of *name it, mechanize it, test it* — not the whol
   conflicts with card-rules, this wins.
 - `reference/card-recipes.md` — **the archetype playbook**: which card shape to use plus the
   exact template. The primary drafting reference; consult it every time.
-- `reference/editor-checklist.md` — the 27-point adversarial Editor pass. Read before editing.
+- `reference/editor-checklist.md` — the 28-point adversarial Editor pass. Read before editing.
 - `reference/note-format.md` — note type, cloze/MathJax/image syntax, Back Extra vocabulary,
   write targets.
-- `reference/regression-cases.md` — R1–R28, the failure library. Read FIRST on any bug report.
+- `reference/regression-cases.md` — R1–R30, the failure library. Read FIRST on any bug report.
 - `reference/provenance.md` — the card provenance schema, the run store, and the hazard rule.
 - `reference/feedback-log.md` — the running history of what Parker caught and how it was fixed.
 - `reference/cloze-mastery.md` — 2,391 annotated AnKing exemplars. **Large — open only the

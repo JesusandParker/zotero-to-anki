@@ -591,6 +591,45 @@ def sibling_split_leak(text):
     return sum(1 for s in rows if _is_list_row(s)) >= 4
 
 
+PROCEDURE_LEAD = re.compile(
+    r"\b(steps?|procedure|protocol|algorithm|technique|drill|perform(?:ing|ed)?|"
+    r"how to|method|sequence)\b", re.I)
+
+
+def step_recitation(text):
+    """R30: a card that asks him to RECITE a procedure's steps, cued only by their number.
+
+    Measured across Parker's own 85,212-note collection (2026-08-03), professional medical
+    decks essentially never do this: "next step in management" cards are 93% single-span
+    and 0% carry five or more, and `"how do you perform"` / `"steps to perform"` return
+    ZERO hits across all 85k notes including 10,907 anesthesia cards. What they card is the
+    DECISION — the state of the world in the stem, one action in the blank — or a decision
+    TABLE whose rows are cued by their conditions rather than by their positions.
+
+    A row cued only by "3." teaches position, which is not knowledge and is not what he
+    will be asked for on a call. A row cued by a CONDITION ("FAST (+) and unstable?") is a
+    different card entirely and is not flagged.
+
+    This is a WARNING, not a block: an ordered protocol short enough to hold, whose order
+    genuinely IS the knowledge, is a legitimate card — Parker's five-point handover method
+    is one, and card-rules #26 licenses the forward-chain shape. The judge clears those."""
+    segs = segments(text)
+    if len(segs) < 4:                                  # a lead-in + >=3 rows
+        return False
+    if not PROCEDURE_LEAD.search(re.sub(r"<[^>]+>", " ", segs[0])):
+        return False
+    rows = [s for s in segs[1:] if CLOZE.search(s)]
+    if len(rows) < 3:
+        return False
+    numbered = 0
+    for r in rows:
+        lead = re.sub(r"<[^>]+>", " ", CLOZE.split(r)[0])
+        if not re.match(r"^\s*(?:\d+[.)]|step\s+\d+\s*[:.)]?)\s*$", lead.strip(), re.I):
+            return False                               # some row carries a real cue
+        numbered += 1
+    return numbered >= 3
+
+
 EQ_CONNECTIVE = re.compile(r"=|also called|also known as|\baka\b|stands for", re.I)
 
 
@@ -700,6 +739,14 @@ def per_card(idx, c, strict_html=True):
             warn.append(f"#{idx}: {detail} — at the edge of one retrieval; keep it whole "
                         f"ONLY if a mnemonic or a derivable structure makes the set one "
                         f"chunk, else chunk it into separate notes (card-rules #23)")
+    # a procedure recited by step number rather than carded as decisions (R30)
+    if step_recitation(t):
+        warn.append(f"#{idx}: this recites a procedure with every row cued only by its step "
+                    f"NUMBER — position is not knowledge, and it is the one shape "
+                    f"professional decks never use. Prefer a decision-point vignette (the "
+                    f"state in the stem, one blank on the action) or a decision table whose "
+                    f"rows are cued by their CONDITIONS. Keep it only if the order genuinely "
+                    f"is the knowledge and the set is short (card-rules #26, recipes §12)")
     # a keyed column of NUMBERS that must become one note per key (R28)
     for g, rows in quantitative_panel(t):
         detail = (f"cloze c{g} is a keyed panel of {rows} numeric values hidden together")

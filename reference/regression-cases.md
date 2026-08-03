@@ -321,6 +321,23 @@ The card proved the leak in its own Back Extra, which taught the shortcut as a m
 - **Measured scope:** across his whole 4,340-note collection this fires on **9 cards**, every one a genuine value column — 7 hard (all in Chapter 7) and 2 warns. Chapters 1–5 are untouched.
 - **Catch test (both ways):** ≥4 keyed rows whose answers are values → HARD; a word-answer match card, a mostly-word direction panel, a 3-row non-trending set, or a single-value note → silent.
 
+## R30 — Reciting a procedure by step number (the shape professional decks never use)
+**Rule:** card-rules #26 + editor check #28 + recipes §12. **Caught by:** `check_cards.py step_recitation` (a WARNING the judge clears). Established 2026-08-03 by measuring Parker's own collection rather than by reasoning.
+
+He asked how to card systematic, skill-based material without producing junk, and pointed at his AnKing decks as the authority: *"let's use the evidence-based system that I already have built into my Anki."* So the rule was derived from **85,212 professionally-made notes** — the AnKing Step Deck, Ankisthesia, USMLE-Rx/First Aid and Dermki.
+
+**What the measurement found:**
+- **"next step in management" cards (n=194): 93% hide exactly ONE span, 99% use one cloze number, 0% hide five or more, 95% are question-form.** The procedural workhorse of medicine is a rich situational vignette with a single blank on the action.
+- **The flagship AnKing Step Deck is 89% single-span; 1% carry ≥5.** The older USMLE-Rx deck is 49% single-span — tightness is what curation converges on.
+- **Psychomotor technique is not carded at all.** Across all 85,212 notes, including 10,907 anesthesia cards: `"place your hands"` → 0, `"position your"` → 0, `"how do you perform"` → 0, `"steps to perform"` → 0, `"insert the needle"` → 1. What they card instead is the *decidable residue*: `The ideal site for a femoral nerve block is in the {{c1::inguinal crease}} at the lateral border of the femoral artery`.
+- **A whole algorithm becomes a DECISION TABLE**, cued by conditions rather than positions — the exemplar being AnKing's blunt-abdominal-trauma card, six blanks under one cloze number where every row is cued by its own condition (`FAST (+) and unstable? → Ex-lap`). Not one blank is guessable from its neighbours, because position carries no information and the condition carries all of it.
+
+- **BAD:** `Perform the extremity lift with the following steps:` + rows cued only by `1.`, `2.`, `3.`, `4.` Position is not knowledge, and it is not what he will be asked for on a call.
+- **GOOD (three shapes):** a decision-point vignette (state in the stem, one blank on the action); a decision table (rows cued by conditions); the decidable residue of a physical skill (indication, landmark, contraindication, complication, the step people get wrong).
+- **MUST NOT OVER-FLAG:** a decision table whose rows carry conditions; a single-blank vignette; ordinary prose comparing two procedures. The detector requires EVERY row's only cue to be an ordinal, so one condition-cued row exempts the card.
+- **Deliberately a WARNING, never a block.** A short ordered protocol whose order genuinely is the knowledge is legitimate, and Parker likes one of them (the five-point handover method). The detector cannot tell it from a recitation, so it warns and the judge clears it — and `test_regressions.py` asserts that the handover card *is* flagged, so the warn-not-block contract stays explicit rather than drifting into a block.
+- **Catch test (both ways):** five cases in `test_regressions.py` (`r30_*`). Live blast radius on the EMT deck: **5 of 1,223 notes**, all genuine short protocols.
+
 ## R29 — A SKILL DRILL is a multi-page procedure, and three things treated it as a plate
 **Rule:** a drill's banner is a title above its body, its corroboration is a `Step N` heading, and its steps run one per page. **Caught by:** `test_figures.py` R29 + the `skill-drill-composite(N steps)` extraction label in the index. Found 2026-08-03 while preparing EMT Chapter 8, which is mostly drills — **four of the five marks Parker made in that chapter are Skill Drills.**
 
