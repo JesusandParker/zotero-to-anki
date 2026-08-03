@@ -1,0 +1,44 @@
+[
+ {
+  "Text": "Six of the <b>digestive system</b>'s 10 structures form the route food travels. The first three, in order, are:<br><br>{{c1::mouth}} →<br><br>{{c1::pharynx}} →<br><br>{{c1::esophagus}}",
+  "Back Extra": "Mechanism: swallowing lifts the larynx so the epiglottis closes over it, steering liquids and solids into the esophagus and away from the trachea, and contractions of the muscle in the esophageal wall then propel food to the stomach.<br><br>Pathway: mouth → pharynx → esophagus → the gastrointestinal tract (stomach and intestines) → rectum → anus.<br><br>Roster: gastrointestinal tract (stomach and intestines), <b>mouth</b>, salivary glands, <b>pharynx</b>, <b>esophagus</b>, liver, gallbladder, pancreas, rectum, anus.",
+  "source": "emt",
+  "segment": 6,
+  "from_idx": [
+   123
+  ],
+  "block": "H_digestive_system",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": null,
+  "visual_source": null
+ },
+ {
+  "Text": "Six of the <b>digestive system</b>'s 10 structures form the route food travels. The last three, in order, are:<br><br>{{c1::the gastrointestinal tract (stomach and intestines)}} →<br><br>{{c1::rectum}} →<br><br>{{c1::anus}}",
+  "Back Extra": "Distinguish: gastrointestinal names two different things here, because the gastrointestinal system is the whole 10-structure system, while the gastrointestinal tract, counted as one of those 10 structures, means only the stomach and intestines.<br><br>Mechanism: the colon absorbs the final portion of digested food and water to form solid stool, which is stored in the rectum and passed out of the body through the anus.<br><br>Roster: <b>gastrointestinal tract (stomach and intestines)</b>, mouth, salivary glands, pharynx, esophagus, liver, gallbladder, pancreas, <b>rectum</b>, <b>anus</b>.",
+  "source": "emt",
+  "segment": 6,
+  "from_idx": [
+   123
+  ],
+  "block": "H_digestive_system",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": null,
+  "visual_source": null
+ },
+ {
+  "Text": "Four of the <b>digestive system</b>'s 10 structures carry no food themselves; they only supply secretions into the route food travels:<br><br>{{c1::salivary glands}}<br><br>{{c1::liver}}<br><br>{{c1::gallbladder}}<br><br>{{c1::pancreas}}",
+  "Back Extra": "Mechanism: saliva binds and lubricates chewed food and carries digestive enzymes, the liver makes bile, the gallbladder stores that bile and discharges it into the duodenum, and the pancreas sends pancreatic juice into the duodenum through the pancreatic ducts.<br><br>Pitfall: the pancreas is not purely digestive, because its islets of Langerhans are endocrine and produce insulin and glucagon, which regulate the amount of glucose in the blood.<br><br>Roster: gastrointestinal tract (stomach and intestines), mouth, <b>salivary glands</b>, pharynx, esophagus, <b>liver</b>, <b>gallbladder</b>, <b>pancreas</b>, rectum, anus.",
+  "source": "emt",
+  "segment": 6,
+  "from_idx": [
+   123
+  ],
+  "block": "H_digestive_system",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": null,
+  "visual_source": null
+ }
+]

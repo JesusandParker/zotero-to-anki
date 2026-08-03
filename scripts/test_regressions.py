@@ -20,6 +20,105 @@ CHECKER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "check_cards.
 # Each case: cards (a batch, usually one), the warning substring, and whether it
 # must be present (BAD shape) or absent (GOOD shape that must not be over-flagged).
 CASES = [
+    # --- R25/R26: retrieval load (Parker 2026-08-02, the 10-element radio report) ---
+    # The thresholds here are CALIBRATION, not taste: each of these four cases is a card
+    # Parker himself graded in the report that created the rule, and the detector has to
+    # reproduce his verdict. If a future change breaks one of these, the rule has drifted
+    # away from the person it exists to serve.
+    {
+        "id": "r25_bad_ten_uncued_items_is_unpassable",
+        "warn": "card-rules #23", "present": True, "scope": "hard",
+        "cards": [{"Text": "An EMT's <b>radio patient report</b> commonly includes 10 elements, in order:<br><br>1. {{c1::Unit ID and service level}}<br><br>2. {{c1::Any special alert}}<br><br>3. {{c1::Receiving hospital and ETA}}<br><br>4. {{c1::Patient's age and sex}}<br><br>5. {{c1::Chief complaint and severity}}<br><br>6. {{c1::Brief history of current problem}}<br><br>7. {{c1::Brief report of physical findings}}<br><br>8. {{c1::Summary of care given}}<br><br>9. {{c1::Patient's response to treatment}}<br><br>10. {{c1::Any additional questions or orders}}",
+                   "Back Extra": "Cue: the report tells the call's story in order.", "chapter": 4}],
+        "note": "Parker's prime example: 5 reviews, 5 Again, 54s each, never answered — must HARD block",
+    },
+    {
+        "id": "r25_bad_eight_uncued_items",
+        "warn": "card-rules #23", "present": True, "scope": "hard",
+        "cards": [{"Text": "The eight presumptive signs of death are:<br><br>{{c1::Unresponsiveness to painful stimuli}}<br><br>{{c1::Lack of a carotid pulse}}<br><br>{{c1::Absence of chest rise and fall}}<br><br>{{c1::No deep tendon reflexes}}<br><br>{{c1::No pupillary reactivity}}<br><br>{{c1::No systolic blood pressure}}<br><br>{{c1::Profound cyanosis}}<br><br>{{c1::Lowered or decreased body temperature}}",
+                   "Back Extra": "Pitfall: presumptive signs alone do not establish death.", "chapter": 3}],
+    },
+    {
+        "id": "r25_good_chart_acronym_is_one_chunk",
+        "warn": "card-rules #23", "present": False,
+        "cards": [{"Text": "The 5 sections of a <b>CHART</b> narrative are:<br><br>{{c1::Chief complaint::C}}<br><br>{{c1::History and physical examination::H}}<br><br>{{c1::Assessment::A}}<br><br>{{c1::Treatment (Rx)::R}}<br><br>{{c1::Transport::T}}",
+                   "Back Extra": "Mnemonic: C-H-A-R-T, with the R coming from Rx.", "chapter": 4}],
+        "note": "Parker named this one GOOD: the acronym IS the anchor and splitting it destroys that",
+    },
+    {
+        "id": "r25_good_five_step_protocol_under_cap",
+        "warn": "card-rules #23", "present": False,
+        "cards": [{"Text": "<b>Giving</b> a handover report follows a five-point method, in order:<br><br>1. {{c1::Initiate eye contact}}<br><br>2. {{c1::Manage the environment}}<br><br>3. {{c1::Ensure the ABCs}}<br><br>4. {{c1::Provide a structured report}}<br><br>5. {{c1::Provide documentation}}",
+                   "Back Extra": "Why: eye contact marks that the handover is beginning.", "chapter": 4}],
+        "note": "Parker named this one GOOD — 5 uncued sits under the warn threshold",
+    },
+    {
+        "id": "r25_good_dcap_btls_mnemonic_licenses_eight",
+        "warn": "card-rules #23", "present": False,
+        "cards": [{"Text": "The components of <b>DCAP-BTLS</b> (rapid trauma assessment) are:<br><br>{{c1::Deformities::D}}<br><br>{{c1::Contusions::C}}<br><br>{{c1::Abrasions::A}}<br><br>{{c1::Punctures/penetrations::P}}<br><br>{{c1::Burns::B}}<br><br>{{c1::Tenderness::T}}<br><br>{{c1::Lacerations::L}}<br><br>{{c1::Swelling::S}}",
+                   "Back Extra": "Mnemonic: DCAP-BTLS at every body region.", "chapter": 10}],
+        "note": "8 items but ONE chunk — the letters regenerate the set; must not warn OR block",
+    },
+    {
+        "id": "r25_good_cued_rows_are_not_one_wide_recall",
+        "warn": "card-rules #23", "present": False,
+        "cards": [{"Text": "Normal <b>pulse rate</b> in beats/min, by age group:<br><br>Neonate — {{c1::100 to 180}}<br><br>Infant — {{c1::100 to 160}}<br><br>Toddler — {{c1::90 to 150}}<br><br>Preschool age — {{c1::80 to 140}}<br><br>School age — {{c1::70 to 120}}<br><br>Adolescent — {{c1::60 to 100}}",
+                   "Back Extra": "Pitfall: rate alone is not enough — judge depth and effort too.",
+                   "chapter": 7, "needs_human_check": True}],
+        "note": "each row carries its own key, so this is 6 cued retrievals, not a 6-wide one",
+    },
+    {
+        "id": "r25_good_classify_card_rows_are_cued",
+        "warn": "card-rules #23", "present": False,
+        "cards": [{"Text": "Match each function of the blood to the component that carries it out:<br><br>Fights infection → {{c1::white blood cells}}<br><br>Transports oxygen → {{c1::red blood cells}}<br><br>Forms clots → {{c1::platelets}}<br><br>Carries the cells and nutrients → {{c1::plasma}}<br><br>Neutralizes toxins → {{c1::antibodies}}<br><br>Maintains fluid balance → {{c1::plasma proteins}}",
+                   "Back Extra": "Distinguish: plasma is the fluid; the cells ride in it.", "chapter": 6}],
+    },
+    {
+        "id": "r25_good_lead_in_colon_is_not_a_per_item_cue",
+        "warn": "card-rules #23", "present": True, "scope": "hard",
+        "cards": [{"Text": "The <b>digestive system</b> is composed of 10 structures: {{c1::the gastrointestinal tract}}, {{c1::mouth}}, {{c1::salivary glands}}, {{c1::esophagus}}, {{c1::stomach}}, {{c1::liver}}, {{c1::gallbladder}}, {{c1::pancreas}}, {{c1::small intestine}}, and {{c1::large intestine}}.",
+                   "Back Extra": "Pathway: mouth to anus, with accessory organs feeding in.", "chapter": 6}],
+        "note": "the card's own colon lead-in must NOT be read as a label for the first inline item",
+    },
+    {
+        "id": "r25_good_chunk_note_may_state_the_full_sets_count",
+        "warn": "may be missing", "present": False,
+        "cards": [{"Text": "<b>Phase 3 of 3</b> of an EMT's radio patient report is <b>care and close</b>, the last of its 10 elements, in order:<br><br>8. {{c1::a brief summary of the care you gave}}<br><br>9. {{c1::the patient's response to that care}}<br><br>10. {{c1::any additional questions or orders the hospital has}}",
+                   "Back Extra": "Distinguish: element 8 is what you <i>did</i>, element 9 is what it <i>changed</i>.<br><br>Roster: 1 unit identification and level of service, 2 any special alert, 3 receiving hospital and ETA, 4 patient age and sex, 5 chief complaint and its severity, 6 brief history of the current problem, 7 brief report of physical findings, 8 <b>summary of the care given</b>, 9 <b>the patient's response to that care</b>, 10 <b>any additional questions or orders</b>.",
+                   "chapter": 4}],
+        "note": "rules 14 and 23 must not fight: a chunk note states the FULL set's count "
+                "while clozing only its own members, and its Roster: line proves it is a chunk. "
+                "Without this the drafter is pushed into checker-shaped phrasing to dodge the regex.",
+    },
+    {
+        "id": "r7_bad_undercount_still_caught_without_a_roster",
+        "warn": "may be missing", "present": True,
+        "cards": [{"Text": "When determining decision-making capacity, consider 8 factors:<br><br>{{c1::Impaired intellect}}<br><br>{{c1::Legal age}}<br><br>{{c1::Intoxication}}<br><br>{{c1::Significant pain}}",
+                   "Back Extra": "Why: capacity is the foundation of consent.", "chapter": 3}],
+        "note": "the Roster exemption must not blanket-disable R7 — a genuine undercount with "
+                "no Roster line still flags",
+    },
+    {
+        "id": "r26_bad_list_split_across_sibling_numbers",
+        "warn": "card-rules #24", "present": True, "scope": "hard",
+        "cards": [{"Text": "An EMT's <b>radio patient report</b> opens with, in order:<br><br>1. {{c1::Unit ID and service level}}<br><br>2. {{c2::Any special alert}}<br><br>3. {{c3::Receiving hospital and ETA}}<br><br>4. {{c4::Patient's age and sex}}<br><br>5. {{c5::Chief complaint and severity}}",
+                   "Back Extra": "Cue: who we are, what alert, where we're headed.", "chapter": 4}],
+        "note": "the naive 'fix' for R25 — 5 cards each revealing the other 4 answers",
+    },
+    {
+        "id": "r26_good_two_way_definition_is_not_a_split_list",
+        "warn": "card-rules #24", "present": False,
+        "cards": [{"Text": "{{c1::Hypoxia::condition}} is {{c2::inadequate oxygen at the cellular level}}.",
+                   "Back Extra": "Distinguish: hypoxemia is low oxygen in the blood.", "chapter": 6}],
+    },
+    {
+        "id": "r26_good_multi_fact_card_with_three_numbers",
+        "warn": "card-rules #24", "present": False,
+        "cards": [{"Text": "{{c1::Public health}} examines the needs of {{c2::entire populations}}, with the goal of {{c3::preventing health problems}}.",
+                   "Back Extra": "Distinguish: clinical medicine treats the individual patient.", "chapter": 1}],
+        "note": "three numbers marking three distinct facts — not an enumerated list",
+    },
+
     # --- R11: first-letter hints (Parker 2026-07-19, the ::r/::k/::s rant) ---
     {
         "id": "r11_bad_letters_original",

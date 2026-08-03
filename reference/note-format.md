@@ -31,7 +31,9 @@ The number decides how many cards a note makes and which blanks share a card. Se
 - Use this for: the hazmat placard diagram (text-impossible), vital-signs-by-age tables, anatomy figures.
 
 ## Back Extra vocabulary
-Open every Back Extra line with one of: `Meaning:` `Why:` `Mechanism:` `Distinguish:` `Pitfall:` `Ex:` `Cue:` `Pathway:` `Mnemonic:`. (This matches the house style of the old deck and the AnKing Extra field.)
+Open every Back Extra line with one of: `Meaning:` `Why:` `Mechanism:` `Distinguish:` `Pitfall:` `Ex:` `Cue:` `Pathway:` `Mnemonic:` `Roster:`. (This matches the house style of the old deck and the AnKing Extra field.)
+
+**`Roster:` (added 2026-08-02) is required on every note born from a CHUNKED list** (card-rules #23): it carries the full set in order, with that note's own members in `<b>bold</b>`. When a 10-element list becomes four notes, the roster is what keeps the set from dissolving into four unrelated fragments — Parker asked for it directly ("seeing the part and the whole in each flash card"). It goes LAST in the Back Extra, after the teaching lines, since it is reference rather than instruction.
 
 **Separate distinct components with a paragraph break `<br><br>`, not a single `<br>`** (Parker's preference, 2026-07-02) — each labeled line sits in its own block with white space around it so his eye can jump between parts. `anki_write.py` normalizes any run of `<br>` in Back Extra to exactly `<br><br>` at write time, so this is guaranteed even for a card drafted with single breaks. Example: `Distinguish: ...<br><br>Pitfall: ...`.
 

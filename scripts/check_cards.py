@@ -400,6 +400,152 @@ def fragment_clozed_list(text):
     return frag >= 3 and frag >= 0.6 * len(rows)
 
 
+# ---------------------------------------------------------------------------
+# R25/R26 — retrieval load (added 2026-08-02).
+#
+# The Cold-Solve Gate asks whether a blank is ANSWERABLE. These two ask whether a
+# card is *passable*: a grouped reveal is graded all-or-nothing, so a card hiding N
+# items is only "Good" when every one of the N is produced. At a realistic 90% per
+# item that is 0.9^N — 59% at five items, 35% at ten — so a card can be built from
+# facts Parker knows cold and still fail forever. Anki then reschedules the WHOLE
+# card on its worst item, re-drilling nine known items to chase one unknown.
+#
+# Measured on his live collection, EMT decks only (same runs, same maturity), scored
+# on each card's FIRST review so new-card bias cannot explain it:
+#     ordinary (1-2 blanks)   1027 notes   56% failed first review   24.9 s/review
+#     3-4 items                 90 notes   78%                       33.3 s/review
+#     5-6 items                 34 notes   89%                       42.7 s/review
+#     7+ items                   7 notes   80%                       49.3 s/review
+# The 10-element radio-report card he reported: 5 reviews, 5 "Again", 54 s each —
+# never once answered correctly.
+# ---------------------------------------------------------------------------
+
+# How many answers a group may hide with NO per-item cue before it stops being one
+# retrieval. Cowan's working-memory estimate is 4±1 chunks; a spelled mnemonic buys
+# more because the letters regenerate the set, which is why licensing exists below.
+UNCUED_WARN = 6      # verify it is genuinely one chunk
+UNCUED_HARD = 8      # no legitimate card shape hides this many uncued answers at once
+
+
+def _spelled_mnemonic_license(text, group):
+    """Does a spelled acronym visible in the stem generate this group's items?
+
+    Reuses R11's rule exactly: the group's per-item first-letter hints, joined in
+    document order, must spell INTO a token that is VISIBLE in the stem (SAMPLE,
+    DCAP-BTLS). Such a set is ONE chunk however long it is — the acronym is the
+    retrieval handle, so the load cap does not apply to it."""
+    stem_plain = re.sub(r"<[^>]+>", " ", CLOZE.sub(lambda m: " ", text))
+    tokens = [re.sub(r"[^a-z]", "", t.lower()) for t in ACRONYM.findall(stem_plain)]
+    tokens = [t for t in tokens if len(t) >= 3]
+    letters = []
+    for m in CLOZE.finditer(text):
+        if m.group(1) != group:
+            continue
+        h = re.sub(r"[^a-z]", "", norm(m.group(3) or ""))
+        a = re.sub(r"[^a-z]", "", norm(m.group(2)))
+        if 1 <= len(h) <= 2 and a.startswith(h):
+            letters.append(h)
+    joined = "".join(letters)
+    if len(joined) < 2:
+        return False
+
+    def _subseq(needle, hay):
+        it = iter(hay)
+        return all(ch in it for ch in needle)
+
+    return any((len(joined) >= 3 and _subseq(joined, t)) or
+               (len(joined) >= 2 and joined in t) for t in tokens)
+
+
+CUE_CONNECTIVE = re.compile(r"(?:→|->|—|–|=|:)\s*$")
+
+
+def _cued_span(text, m):
+    """Does THIS span carry its own visible cue, or is it one of a bare set?
+
+    A match/classify row (`Transports oxygen → {{c1::red blood cells}}`), a keyed row
+    (`Neonate — {{c1::100 to 180}}`) and a trend-panel row (`Heart rate: {{c1::Increased}}`)
+    each hand the blank a private cue, so the card is N small independently-cued
+    retrievals rather than one N-wide recall. A bare row (`{{c1::Smoke}}`,
+    `3. {{c1::Receiving hospital and ETA}}`) has only the set's own name — numbering and
+    bullets are layout, not cues.
+
+    The trap this guards against: the card's LEAD-IN also ends in a colon ("…is composed
+    of 10 structures:"), so the first item of an inline list would inherit the
+    announcement as if it were a per-item label. A lead-in announces the set; it never
+    labels one member. So a label only counts inside a row of its own — never in the
+    same segment the card opens with."""
+    seg_start = 0
+    for sep in BR_RUN.finditer(text):
+        if sep.end() <= m.start():
+            seg_start = sep.end()
+    if seg_start == 0:
+        return False          # same segment as the lead-in: an announcement, not a label
+    seg = text[seg_start:m.start()]
+    if CLOZE.search(seg):
+        return False          # a later span on a row already spoken for by the first
+    label = re.sub(r"<[^>]+>", " ", seg)
+    label = re.sub(r"^\s*(?:\d+[.)]|[-•*])\s*", "", label)   # numbering/bullets are layout
+    label = re.sub(r"[\s→\->—–=:,;]+$", "", label).strip()
+    # Any word of row-local text is a cue: `Neonate — {{c1::100 to 180}}` and
+    # `cervical {{c1::7}}` both hand the blank something private to work from, with or
+    # without a connective between them. What is NOT a cue is an empty row
+    # (`{{c1::Smoke}}`) or bare numbering (`3. {{c1::Receiving hospital and ETA}}`).
+    return len(label.split()) >= 1
+
+
+def overloaded_group(text):
+    """R25: one cloze number hiding more parallel answers than a single retrieval can
+    carry, so the card is all-or-nothing on a set that must instead be CHUNKED.
+
+    Returns a list of (group, uncued_count, total_count, licensed) for any group at or
+    over UNCUED_WARN. Only UNCUED answers count: a per-row cue turns one N-wide recall
+    into N cued ones (see `_cued_span`), and a spelled mnemonic the card teaches makes
+    the whole set one chunk (see `_spelled_mnemonic_license`).
+
+    Deliberately NOT flagged: a long single blank (that is R12's fuzzy-clause case), a
+    two-way definition, and any group under the cap — the defect is retrieval LOAD, not
+    list length as such. Parker's own line: a real list stays whole; what he cannot do
+    is produce ten things at once and be graded on all ten."""
+    by_group = {}
+    for m in CLOZE.finditer(text):
+        by_group.setdefault(m.group(1), []).append(m)
+    hits = []
+    for g, spans in by_group.items():
+        if len(spans) < UNCUED_WARN:
+            continue
+        uncued = sum(1 for m in spans if not _cued_span(text, m))
+        if uncued < UNCUED_WARN:
+            continue
+        hits.append((g, uncued, len(spans), _spelled_mnemonic_license(text, g)))
+    return hits
+
+
+# The shape a naive "just split it up" fix produces, and the reason chunking must mean
+# separate NOTES. Parker named this himself before it was ever written down: "if it's a
+# hide-one-but-show-all-the-rest, I can just figure that out."
+def sibling_split_leak(text):
+    """R26: an enumerated list split across DIFFERENT cloze numbers on ONE note, so
+    every resulting card shows the rest of the list as free context.
+
+    card-rules #4 already banned `{{c1::A}}, B, C` (cloze one, reveal the rest). This is
+    the same defect wearing a fix's clothes: c1..cN over N rows generates N cards that
+    each reveal N-1 answers, which lets the whole set be recovered by elimination and
+    recognition instead of recall. The legitimate ways to split a list are separate
+    notes — never separate numbers on one note."""
+    by_group = {}
+    for m in CLOZE.finditer(text):
+        by_group.setdefault(m.group(1), []).append(m)
+    if len(by_group) < 4 or any(len(v) != 1 for v in by_group.values()):
+        return False
+    segs = segments(text)
+    rows = [s for s in segs[1:] if CLOZE.search(s)] if len(segs) > 1 else []
+    if len(rows) < 4:
+        return False
+    # every row must be a parallel MEMBER of one set, not a distinct prose fact
+    return sum(1 for s in rows if _is_list_row(s)) >= 4
+
+
 EQ_CONNECTIVE = re.compile(r"=|also called|also known as|\baka\b|stands for", re.I)
 
 
@@ -490,6 +636,31 @@ def per_card(idx, c, strict_html=True):
         warn.append(f"#{idx}: the rows of this list are VISIBLE and only a word inside each "
                     f"is hidden — this drills the frames, not the recall; cloze the unit of "
                     f"knowledge or change the archetype (card-rules #22)")
+    # too many uncued answers under one number — an all-or-nothing set (R25).
+    # A spelled-mnemonic license is a VERIFIED predicate (the hint letters demonstrably
+    # spell into a token visible in the stem), so a licensed group is silent, not
+    # re-flagged for a human to confirm what the code already proved — the duplicated-
+    # predicate smell R14b was written about.
+    for g, uncued, total, licensed in overloaded_group(t):
+        if licensed:
+            continue
+        detail = (f"cloze c{g} hides {uncued} answers with no per-item cue"
+                  + (f" (of {total} spans)" if total != uncued else ""))
+        if uncued >= UNCUED_HARD:
+            hard.append(f"#{idx}: {detail} — graded all-or-nothing, so this card fails "
+                        f"even when every fact on it is known. CHUNK it into separate "
+                        f"NOTES of <=4 (never c1..cN on one note, which reveals the rest) "
+                        f"and give each one the full set in Back Extra (card-rules #23)")
+        else:
+            warn.append(f"#{idx}: {detail} — at the edge of one retrieval; keep it whole "
+                        f"ONLY if a mnemonic or a derivable structure makes the set one "
+                        f"chunk, else chunk it into separate notes (card-rules #23)")
+    # a list split across cloze NUMBERS on one note — every card reveals the rest (R26)
+    if sibling_split_leak(t):
+        hard.append(f"#{idx}: an enumerated list is split across different cloze numbers on "
+                    f"ONE note, so each generated card shows the other answers as free "
+                    f"context — recoverable by elimination, not recall. Split a list into "
+                    f"separate NOTES instead (card-rules #24)")
     # synonym-equation husk — both sides of 'X = also called Y' under one number (R10)
     for g in equation_husk_groups(t):
         warn.append(f"#{idx}: cloze c{g} hides BOTH sides of a synonym/equation ('___ = also called ___') — husk; renumber so each card shows one side as the anchor (card-rules #17)")
@@ -510,8 +681,16 @@ def per_card(idx, c, strict_html=True):
     if (VALUE.search(readable(t)) and not c.get("needs_human_check")
             and not c.get("verified_against")):
         warn.append(f"#{idx}: looks numeric/dose but needs_human_check is false")
-    # stated list-count != number of clozed items (the "7 vs 8 factors" bug)
+    # stated list-count != number of clozed items (the "7 vs 8 factors" bug).
+    # A CHUNKED note (rule 23) legitimately states the FULL set's count while clozing only
+    # its own sub-group — "the report's 10 elements … 8. …, 9. …, 10. …" is correct, not an
+    # undercount. Its `Roster:` line is the reliable marker, because rule 23 requires one on
+    # every note born from a chunk. Without this exemption the two rules fight, and the
+    # drafter is pushed into checker-shaped phrasing ("10-element" to dodge the regex)
+    # instead of writing what is true — found while chunking the radio report, 2026-08-02.
     m = COUNT_RE.search(readable(t))
+    if m and re.search(r"(?:^|>|\s)Roster:", be):
+        m = None
     if m:
         stated = NUMWORDS.get(m.group(1).lower(), None)
         if stated is None:

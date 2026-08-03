@@ -1,0 +1,214 @@
+[
+ {
+  "Text": "Four of the improper interview techniques go wrong by <b>disrespecting the patient</b>, leaving the patient judged, rushed, or accused:<br><br>{{c1::giving unsolicited advice}}<br><br>{{c1::asking leading or biased questions}}<br><br>{{c1::interrupting the patient}}<br><br>{{c1::asking \"why\" questions}}",
+  "Back Extra": "Why: all four fail on how the patient is <i>treated</i> — unsolicited advice demeans the patient and makes you seem arrogant, a biased question denies the respectful communication the patient deserves, and interrupting or asking \"why\" makes you seem annoyed or accusing.<br><br>Pitfall: a \"why\" question sounds neutral, but it accuses the listener — the patient hears irritation that he or she called 9-1-1 at all.<br><br>Roster: disrespecting the patient — <b>unsolicited advice</b> · <b>leading or biased questions</b> · <b>interrupting</b> · <b>\"why\" questions</b>. Blocking open, honest communication — false hope or reassurance · talking too much · authoritative language · professional jargon.",
+  "source": "emt",
+  "segment": 4,
+  "from_idx": [
+   12
+  ],
+  "needs_human_check": false,
+  "image": null,
+  "provenance_backfilled": true,
+  "visual_source": {
+   "pages": [
+    "366",
+    "367"
+   ],
+   "figures": [],
+   "labels": [
+    "TABLE 4-4"
+   ],
+   "note": "TABLE 4-4's body was read off the rendered source pages (scripts/render_page.py); the page text layer carries only the caption and partial rows."
+  }
+ },
+ {
+  "Text": "Four of the improper interview techniques go wrong by <b>blocking open, honest communication</b>, so accurate information never gets through:<br><br>{{c1::providing false hope or reassurance}}<br><br>{{c1::talking too much}}<br><br>{{c1::using authoritative language}}<br><br>{{c1::speaking in professional jargon}}",
+  "Back Extra": "Why: all four stop accurate information from moving in one direction or the other — false reassurance promises what you cannot know, talking without listening wastes what the patient tells you, commands do not encourage open communication, and jargon simply confuses.<br><br>Pitfall: reassuring words feel kind, but you do not know that everything will be okay.<br><br>Roster: disrespecting the patient — unsolicited advice · leading or biased questions · interrupting · \"why\" questions. Blocking open, honest communication — <b>false hope or reassurance</b> · <b>talking too much</b> · <b>authoritative language</b> · <b>professional jargon</b>.",
+  "source": "emt",
+  "segment": 4,
+  "from_idx": [
+   12
+  ],
+  "needs_human_check": false,
+  "image": null,
+  "provenance_backfilled": true,
+  "visual_source": {
+   "pages": [
+    "366",
+    "367"
+   ],
+   "figures": [],
+   "labels": [
+    "TABLE 4-4"
+   ],
+   "note": "TABLE 4-4's body was read off the rendered source pages (scripts/render_page.py); the page text layer carries only the caption and partial rows."
+  }
+ },
+ {
+  "Text": "Name the improper interview technique in each line of EMT speech:<br><br>\"It will be okay.\" \"This is nothing to worry about.\" → {{c1::providing false hope or reassurance}}<br><br>\"Well, if I were you, I wouldn't have called the ambulance at all.\" → {{c1::giving unsolicited advice}}<br><br>\"Are you telling me that this cut is the only reason you called the ambulance?\" → {{c1::asking a leading or biased question}}<br><br>\"Tell me what is wrong with you.\" \"Just give me the details.\" → {{c1::using authoritative language}}",
+  "Back Extra": "Cue: read the line for what it does to the patient — a promise you cannot keep, an opinion nobody asked for, a question that answers itself, or an order instead of an invitation.<br><br>Pitfall: an improper line can still be seeking exactly the right information — \"Just give me the details\" asks for what you need, but the wording does not encourage open communication.<br><br>Roster: disrespecting the patient — <b>unsolicited advice</b> · <b>leading or biased questions</b> · interrupting · \"why\" questions. Blocking open, honest communication — <b>false hope or reassurance</b> · talking too much · <b>authoritative language</b> · professional jargon.",
+  "source": "emt",
+  "segment": 4,
+  "from_idx": [
+   12
+  ],
+  "needs_human_check": false,
+  "image": null,
+  "provenance_backfilled": true,
+  "visual_source": {
+   "pages": [
+    "366",
+    "367"
+   ],
+   "figures": [],
+   "labels": [
+    "TABLE 4-4"
+   ],
+   "note": "TABLE 4-4's body was read off the rendered source pages (scripts/render_page.py); the page text layer carries only the caption and partial rows."
+  }
+ },
+ {
+  "Text": "Two of the 9 medical-necessity scenarios say there was <b>no other way to move the patient</b>:<br><br>{{c1::an emergency with no other means of transport}}<br><br>{{c1::bed-confined before and after the trip}}",
+  "Back Extra": "Meaning: bed-confined is a three-part test — the patient cannot get up from bed without help, cannot walk, and cannot sit in a chair or wheelchair.<br><br>Distinguish: the other two groups turn on what the ride demanded or how sick the patient was, while a no-other-way scenario says the ambulance was the only vehicle that could have made the trip at all.<br><br>Roster: no other way to move the patient — <b>an emergency with no other means of transport</b> · <b>bed-confined before and after the trip</b>. Hands-on care needed en route — restraint to prevent injury · oxygen or emergency treatment during transport · immobility for a fracture. How unstable the patient was — unconscious or in shock · acute respiratory or cardiac distress · possible acute stroke · severe hemorrhage.",
+  "source": "emt",
+  "segment": 4,
+  "from_idx": [
+   54
+  ],
+  "needs_human_check": false,
+  "image": null,
+  "provenance_backfilled": true,
+  "visual_source": null
+ },
+ {
+  "Text": "Three of the 9 medical-necessity scenarios turn on <b>hands-on care needed en route</b>:<br><br>{{c1::restraint to prevent injury to self or others}}<br><br>{{c1::oxygen or other emergency treatment during transport}}<br><br>{{c1::immobility for an unstabilized or possible fracture}}",
+  "Back Extra": "Why: each of the three names something only an ambulance crew can do between the scene and the hospital door — hold the patient safely, treat during the ride, or keep a broken bone still.<br><br>Pitfall: medical necessity also covers the <i>level</i> of care — documenting advanced life support interventions for a patient who did not need them is inappropriate.<br><br>Roster: no other way to move the patient — an emergency with no other means of transport · bed-confined before and after the trip. Hands-on care needed en route — <b>restraint to prevent injury</b> · <b>oxygen or emergency treatment during transport</b> · <b>immobility for a fracture</b>. How unstable the patient was — unconscious or in shock · acute respiratory or cardiac distress · possible acute stroke · severe hemorrhage.",
+  "source": "emt",
+  "segment": 4,
+  "from_idx": [
+   54
+  ],
+  "needs_human_check": false,
+  "image": null,
+  "provenance_backfilled": true,
+  "visual_source": null
+ },
+ {
+  "Text": "Four of the 9 medical-necessity scenarios describe <b>how unstable the patient was</b>:<br><br>{{c1::unconscious or in shock}}<br><br>{{c1::acute respiratory or cardiac distress}}<br><br>{{c1::signs of a possible acute stroke}}<br><br>{{c1::severe hemorrhage}}",
+  "Back Extra": "Ex: acute respiratory or cardiac distress shows up as shortness of breath or chest pain.<br><br>Why: each of the four makes transport by any other vehicle <i>unsafe</i> rather than merely inconvenient, which is the test medical necessity turns on.<br><br>Roster: no other way to move the patient — an emergency with no other means of transport · bed-confined before and after the trip. Hands-on care needed en route — restraint to prevent injury · oxygen or emergency treatment during transport · immobility for a fracture. How unstable the patient was — <b>unconscious or in shock</b> · <b>acute respiratory or cardiac distress</b> · <b>possible acute stroke</b> · <b>severe hemorrhage</b>.",
+  "source": "emt",
+  "segment": 4,
+  "from_idx": [
+   54
+  ],
+  "needs_human_check": false,
+  "image": null,
+  "provenance_backfilled": true,
+  "visual_source": null
+ },
+ {
+  "Text": "You are transporting the 86-year-old woman who fell in her bathtub. Over the radio you have given your unit and level of service, called the trauma alert, named the receiving hospital with your ETA, and described her age and sex. What is the next element of the report?<br><br>{{c1::her chief complaint and how severe it is}}",
+  "Back Extra": "Cue: the report walks outward-in — first who is calling and where they are headed, then who the patient is and what is wrong, and last what was done and what is still needed.<br><br>Ex: \"Patient reports severe pelvic and less severe back pain\" — the complaint <i>and</i> its severity, not the complaint alone.<br><br>Pitfall: her name is never given over the air; the airwaves are public.<br><br>Roster: 1 unit identification and level of service, 2 any special alert, 3 receiving hospital and ETA, 4 patient age and sex, 5 <b>chief complaint and its severity</b>, 6 brief history of the current problem, 7 brief report of physical findings, 8 summary of the care given, 9 the patient's response to that care, 10 any additional questions or orders.",
+  "source": "emt",
+  "segment": 4,
+  "from_idx": [
+   79,
+   80
+  ],
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_20.jpg",
+  "visual_source": {
+   "pages": [
+    "434",
+    "435"
+   ],
+   "figures": [
+    "figures/study/FIGURE_4_20.jpg"
+   ],
+   "labels": [
+    "FIGURE 4-20"
+   ],
+   "note": "the 10-element list was read off the rendered source pages 434-435 (scripts/render_page.py); p434's text layer is sparse and carries only elements 1-2. FIGURE 4-20 was judged by looking at the plate and carried forward from the card this family replaces."
+  },
+  "image_side": "back"
+ },
+ {
+  "Text": "<b>Phase 1 of 3</b> of an EMT's radio patient report is the <b>dispatch header</b>, the first three elements of ten, in this order:<br><br>1. {{c1::your unit identification and level of service}}<br><br>2. {{c1::any special alert}}<br><br>3. {{c1::the receiving hospital and your ETA}}",
+  "Back Extra": "Ex: element 1 sounds like \"Columbus Fire 2-BLS\", the unit and its level of service in one phrase; element 3 like \"Columbus Community Hospital, ETA 10 minutes.\"<br><br>Cue: a severe traumatic injury makes the patient a \"trauma alert\" and a heart attack may call for a \"cardiac alert\"; some systems replace a plain ETA with a \"patient transport code\" set by local protocol.<br><br>Roster: 1 <b>unit identification and level of service</b>, 2 <b>any special alert</b>, 3 <b>receiving hospital and ETA</b>, 4 patient age and sex, 5 chief complaint and its severity, 6 brief history of the current problem, 7 brief report of physical findings, 8 summary of the care given, 9 the patient's response to that care, 10 any additional questions or orders.",
+  "source": "emt",
+  "segment": 4,
+  "from_idx": [
+   79,
+   80
+  ],
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_20.jpg",
+  "visual_source": {
+   "pages": [
+    "434",
+    "435"
+   ],
+   "figures": [
+    "figures/study/FIGURE_4_20.jpg"
+   ],
+   "labels": [
+    "FIGURE 4-20"
+   ],
+   "note": "the 10-element list was read off the rendered source pages 434-435 (scripts/render_page.py); p434's text layer is sparse and carries only elements 1-2. FIGURE 4-20 was judged by looking at the plate and carried forward from the card this family replaces."
+  },
+  "image_side": "back"
+ },
+ {
+  "Text": "<b>Phase 2 of 3</b> of an EMT's radio patient report is the <b>patient picture</b>, the middle four elements of ten, in this order:<br><br>4. {{c1::the patient's age and sex}}<br><br>5. {{c1::the chief complaint and its severity}}<br><br>6. {{c1::a brief history of the current problem}}<br><br>7. {{c1::a brief report of physical findings}}",
+  "Back Extra": "Meaning: \"physical findings\" (element 7) covers level of consciousness, general appearance, pertinent abnormalities, and vital signs.<br><br>Ex: element 4 sounds like \"an 86-year-old woman\"; element 5 like \"patient reports severe pelvic and less severe back pain\", the complaint <i>and</i> how bad it is; element 6 like \"patient fell into the bathtub at 0300 and was not able to get out\", plus history that bears on the problem, such as diabetes treated with insulin.<br><br>Roster: 1 unit identification and level of service, 2 any special alert, 3 receiving hospital and ETA, 4 <b>patient age and sex</b>, 5 <b>chief complaint and its severity</b>, 6 <b>brief history of the current problem</b>, 7 <b>brief report of physical findings</b>, 8 summary of the care given, 9 the patient's response to that care, 10 any additional questions or orders.",
+  "source": "emt",
+  "segment": 4,
+  "from_idx": [
+   79,
+   80
+  ],
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_20.jpg",
+  "visual_source": {
+   "pages": [
+    "434",
+    "435"
+   ],
+   "figures": [
+    "figures/study/FIGURE_4_20.jpg"
+   ],
+   "labels": [
+    "FIGURE 4-20"
+   ],
+   "note": "the 10-element list was read off the rendered source pages 434-435 (scripts/render_page.py); p434's text layer is sparse and carries only elements 1-2. FIGURE 4-20 was judged by looking at the plate and carried forward from the card this family replaces."
+  },
+  "image_side": "back"
+ },
+ {
+  "Text": "<b>Phase 3 of 3</b> of an EMT's radio patient report is <b>care and close</b>, the last three elements of ten, in this order:<br><br>8. {{c1::a brief summary of the care you gave}}<br><br>9. {{c1::the patient's response to that care}}<br><br>10. {{c1::any additional questions or orders the hospital has}}",
+  "Back Extra": "Distinguish: element 8 is what you <i>did</i>, element 9 is what it <i>changed</i> — the book counts the care given and the patient's response to it as two separate elements, so report both.<br><br>Ex: element 8 sounds like \"we have applied a cervical collar; she still has pulse, motor, and sensory function distally in all four extremities.\"<br><br>Roster: 1 unit identification and level of service, 2 any special alert, 3 receiving hospital and ETA, 4 patient age and sex, 5 chief complaint and its severity, 6 brief history of the current problem, 7 brief report of physical findings, 8 <b>summary of the care given</b>, 9 <b>the patient's response to that care</b>, 10 <b>any additional questions or orders</b>.",
+  "source": "emt",
+  "segment": 4,
+  "from_idx": [
+   79,
+   80
+  ],
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_4_20.jpg",
+  "visual_source": {
+   "pages": [
+    "434",
+    "435"
+   ],
+   "figures": [
+    "figures/study/FIGURE_4_20.jpg"
+   ],
+   "labels": [
+    "FIGURE 4-20"
+   ],
+   "note": "the 10-element list was read off the rendered source pages 434-435 (scripts/render_page.py); p434's text layer is sparse and carries only elements 1-2. FIGURE 4-20 was judged by looking at the plate and carried forward from the card this family replaces."
+  },
+  "image_side": "back"
+ }
+]

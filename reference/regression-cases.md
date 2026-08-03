@@ -266,6 +266,53 @@ The fresh route is the dangerous one, because nothing stands between it and a br
 - **MUST NOT OVER-FLAG:** tables that pair on their own page (EMT TABLE 6-9/6-10) must still pair there — the next-page branch is only reached after the same-page search comes up empty.
 - **Catch test (both ways):** rebuild all six chapter indexes; ch5 must index TABLE 5-1…5-6 with art on the FOLLOWING page, and ch6 must still index 47 with TABLE 6-9/6-10 paired on their own page.
 
+## R25 — Retrieval overload: a grouped reveal that cannot be passed even when known
+**Rule:** card-rules #23 + editor check #25. **Caught by:** `check_cards.py overloaded_group` (≥6 uncued warns, ≥8 uncued HARD) + the judge. Surfaced 2026-08-02 by Parker, studying EMT Chapter 4.
+
+Every earlier Cold-Solve case asks whether a blank is **answerable**. This one asks whether the card is **passable**. A grouped reveal is graded all-or-nothing — one button for the whole set — so a card hiding N items is "Good" only if every one of the N is produced. At a realistic 90% per item that is 0.9^N: 59% at five, 43% at eight, **35% at ten**. The card can therefore be built entirely from facts Parker knows cold and still fail forever, and Anki compounds it by rescheduling the whole card on its worst item. His response was not to fail it but to stop answering it: *"what I'll find myself doing is just skipping that flash card as I'm reviewing, because I know that I can't get it right — 10 things all at once."*
+
+**The measurement** (live collection, EMT decks only so generation run and maturity match, scored on each card's FIRST review so new-card bias cannot explain the gap):
+
+| group | notes | failed first review | again rate | sec/review |
+|---|---|---|---|---|
+| ordinary (1–2 blanks) | 1027 | 56% | 41% | 24.9 |
+| 3–4 items | 90 | 78% | 46% | 33.3 |
+| 5–6 items | 34 | 89% | 61% | 42.7 |
+| 7+ items | 7 | 80% | 63% | 49.3 |
+
+- **BAD:** the 10-element radio patient report under one `{{c1::}}` group. Live stats: **5 reviews, 5 "Again", 54 s each — never once answered correctly.**
+- **GOOD:** chunked into an anchor note (the three phases) plus three phase notes of 3/4/3, each with one cloze number and a `Roster:` line carrying all ten with its own members bolded.
+- **MUST NOT OVER-FLAG, three real neighbours** — and all three are what keep this from becoming a war on lists:
+  - **A spelled mnemonic the card teaches.** DCAP-BTLS is 8 items and is ONE chunk, because the letters regenerate the set. Licensing reuses R11's exact predicate (the group's hint letters must spell into a token *visible* in the stem), so the two detectors cannot disagree — and a licensed group is silent, not re-flagged for a human to confirm what the code already proved (the R14b duplicated-predicate lesson).
+  - **Cued rows.** `Neonate — {{c1::100 to 180}}` and `Transports oxygen → {{c1::red blood cells}}` are N independently-cued retrievals, not one N-wide recall. A keyed panel or match card is exempt at any length. The trap inside this exemption, found while calibrating: a card's own colon-terminated LEAD-IN ("…is composed of 10 structures:") would otherwise be read as a per-item label for the first inline item, so a label only counts inside a row of its own — never in the segment the card opens with.
+  - **Anything at or under the cap.** The defect is load, not list length as such; 4 uncued answers ship untouched.
+- **Calibration is the test.** The thresholds were set by checking the detector against Parker's OWN verdicts in the report that created the rule, all four of which it reproduces: the 10-element radio report → HARD; CHART (5, acronym) → clean; the five-point handover method → clean; the six-cause hostility card → warn, which is exactly the "you could argue it either way" he described. Live blast radius across 1158 EMT notes: **5 HARD, 8 warn.**
+- **Catch test (both ways):** a group hiding ≥8 uncued answers with no mnemonic license → HARD; the same count under a spelled mnemonic, or with per-row cues, or at ≤4 → silent.
+- **R25b — rules 14 and 23 fight over the stated count, and the drafter loses.** A chunked note legitimately states the FULL set's count while clozing only its own members ("the report's 10 elements … 8. …, 9. …, 10. …"), which is exactly the shape R7's undercount warning exists to catch. The first draft of the radio family dodged it by writing "10-element" instead of "10 elements" — a **checker-shaped word choice**, which is the smell that says two rules are in conflict and the human is absorbing it. Fixed by exempting any card carrying a `Roster:` line, since rule 23 requires one on every note born from a chunk. **MUST NOT OVER-FLAG in the other direction:** the exemption must not blanket-disable R7 — a genuine undercount with no `Roster:` line still flags. Both directions asserted in `test_regressions.py`.
+- **R25c — an anchor note must not cloze invented vocabulary.** The first draft's anchor hid "the dispatch header / the patient picture / care and close," three phrases that exist in no book; its own Back Extra admitted *"the three phases are a memory scaffold, not radio traffic."* A partition the pipeline invented is a scaffold, not content Parker will be asked to produce, so clozing it is simultaneously ungrounded (Rule 1), open-set (R9) and prerequisite-unclosed (rule 11). **The names stay visible in each sub-group note's stem; the extra note becomes a grounded order vignette instead** (*"you have already given X, Y and Z — what comes next?"*, built on the source's own running example). Caught by the human review pass, not by code — the drafter surfaced it honestly as a judgment call rather than burying it, which is the behaviour to reinforce.
+
+## R26 — The fix that recreates the disease: a list split across sibling cloze numbers
+**Rule:** card-rules #24 + editor check #26. **Caught by:** `check_cards.py sibling_split_leak` (HARD). Written the same day as R25, pre-emptively.
+
+This case exists because the obvious way to obey R25 is wrong, and a future pass would find it by reasoning rather than by malice. Renumbering an overloaded list `{{c1::A}} {{c2::B}} {{c3::C}}…` generates N cards that each display the other N−1 answers as free context, so the set is recovered by **elimination and recognition** instead of recall — every card feels learned while nothing is. Parker identified this himself, unprompted, in the same message that reported R25: *"I don't think that's what we need… if it's a hide-one-but-show-all-the-rest, I can just figure that out."*
+
+R25 and R26 are a matched pair and must be read together: R25 says *split it*, R26 says *split it the right way*. Fixing one by committing the other is the whole hazard.
+
+- **BAD:** the radio report renumbered c1…c10 — ten cards, each revealing nine answers.
+- **GOOD:** separate NOTES, each using a single cloze number for its own sub-set, so nothing on one note reveals another note's answers.
+- **MUST NOT OVER-FLAG:** a two-way definition (`{{c1::TERM}} is {{c2::meaning}}`); a contrast card whose entity anchors stay visible while the values hide (the R10 precision); any card whose numbers mark *different facts* rather than members of one enumerated set. The detector requires all four signals at once — ≥4 distinct numbers, exactly one span each, ≥4 parallel list ROWS — so ordinary c1/c2/c3 cards are untouched. Measured: **0 hits across 1158 live EMT notes**, i.e. no false positives on a deck built entirely under the old rules.
+- **Catch test (both ways):** an enumerated list fanned across ≥4 numbers on one note → HARD; a two-way definition, a contrast card, or a 3-number multi-fact card → silent.
+
+## R27 — Two process failures from the same run, both about STALE READS
+Not card defects — ways the *pipeline around* the cards went wrong on 2026-08-02. Recorded because both are cheap to repeat and neither is visible in any card.
+
+**a) A fan-out's output file was read, edited, and then re-read after the agent rewrote it.** Three drafting agents ran in parallel; the main loop reviewed each output, edited it (dropping anchor notes), and later re-read the same paths to stage. Two agents rewrote their files *after* that review, so the staging step silently picked up the pre-edit content and **three rejected cards were written into the live deck**. Caught only by comparing the staged files against canon afterward.
+- **The rule:** after a fan-out, treat every agent output as immutable input — copy it, or re-verify at the moment of use. **Reconcile what you staged against canon before declaring success**, since the staged file and the canon file are two reads of the same intent and they must agree.
+- **Catch test:** for each `retrieval_load_ch<N>_cards.json`, every note's Text must exist in `chapter_<N>_cards.json` AND in the live `claude review` deck. Run it after any staging.
+
+**b) A smoke-test assertion encoded a card COUNT, so staging cards broke the suite.** `live ch3 = 84 cards` went stale the moment six notes were staged. A green suite must mean *"the path works"*, never *"nobody has staged anything since this was written."* Rewritten to assert the live audit reaches the deck and reads a plausible chapter.
+- **MUST NOT OVER-CORRECT:** parity assertions that pin a genuinely fixed quantity (ch1 still extracts 36 marks; ch5 canon loads 587 notes) are correct as exact numbers — those describe the SOURCE, which does not change. Only counts of things the pipeline itself adds should be ranges.
+
 ## R24 — The numeric safety flag walked past percentages, ages, and inline-noun rates
 **Rule:** `profiles/emt.md` §6 — *every* number, dose, threshold and time window gets `needs_human_check: true`, because a wrong digit is a safety error, not a typo. **Caught by:** `check_cards.py VALUE` + `verify_report.py` (which derives the flag from it). Found 2026-07-31 during the Chapter 7 run, independently by two unit editors.
 

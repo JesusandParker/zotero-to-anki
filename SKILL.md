@@ -254,6 +254,15 @@ Writes `work/<source>/<label>_highlights.json` (marked items + grounded `context
    process — treat them as ONE unit and make a single unified card. Never fragment a
    connected set, and never drop a marked span as "thin." See `card-rules.md` Rule 0.
 
+0b. **Then size the unit (Rule 23 — the other half of Rule 0).** Rule 0 pulls a scattered set
+   TOGETHER; rule 23 decides how much of it fits on one card. Count the answers a single cloze
+   group would hide with no per-item cue: **≤4** ships as one card, **5–7** only with a real
+   retrieval handle (a spelled mnemonic the card teaches, or a structure that regenerates the
+   members), **≥8** must be chunked into named sub-groups on SEPARATE NOTES plus an anchor
+   note — never c1..cN on one note, which shows the rest of the list for free (rule 24). A
+   grouped reveal is graded all-or-nothing, so a ten-item card fails even when every fact on
+   it is known. `check_cards.py` HARD-blocks ≥8 uncued. See `card-rules.md` #23–24.
+
 1. **Classify the fact type, then open its recipe.** Definition · numeric value/dose/cutoff ·
    classification list · ordered sequence · comparison/direction-of-change · mechanism ·
    indication/contraindication · trigger · buzzword/vignette · figure · ambiguous fragment.
@@ -517,10 +526,10 @@ Naming a hazard is step one of *name it, mechanize it, test it* — not the whol
   conflicts with card-rules, this wins.
 - `reference/card-recipes.md` — **the archetype playbook**: which card shape to use plus the
   exact template. The primary drafting reference; consult it every time.
-- `reference/editor-checklist.md` — the 20-point adversarial Editor pass. Read before editing.
+- `reference/editor-checklist.md` — the 26-point adversarial Editor pass. Read before editing.
 - `reference/note-format.md` — note type, cloze/MathJax/image syntax, Back Extra vocabulary,
   write targets.
-- `reference/regression-cases.md` — R1–R13, the failure library. Read FIRST on any bug report.
+- `reference/regression-cases.md` — R1–R26, the failure library. Read FIRST on any bug report.
 - `reference/provenance.md` — the card provenance schema, the run store, and the hazard rule.
 - `reference/feedback-log.md` — the running history of what Parker caught and how it was fixed.
 - `reference/cloze-mastery.md` — 2,391 annotated AnKing exemplars. **Large — open only the

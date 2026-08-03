@@ -1,0 +1,34 @@
+{
+ "run_id": "2026-08-02-retrieval-load",
+ "source": "emt",
+ "segment": 6,
+ "started": "2026-08-03T00:26:02",
+ "skill_sha": "7d2a7e72a05ed0d4e0e80e7547fa310e2d328b10",
+ "note": "retrieval-load remediation (card-rules #23-24)",
+ "status": "complete",
+ "finished": "2026-08-03T00:28:04",
+ "counts": {
+  "replaced_overloaded_cards": 1,
+  "new_notes": 3,
+  "staged": 3
+ },
+ "new_hazards_found": [
+  {
+   "summary": "a grouped reveal is graded all-or-nothing, so a card hiding N uncued answers fails at ~0.9^N even when every fact on it is known",
+   "regression_id": "R25"
+  },
+  {
+   "summary": "the obvious fix for an overloaded list — renumbering it c1..cN on one note — makes N cards that each reveal the other N-1 answers",
+   "regression_id": "R26"
+  },
+  {
+   "summary": "a chunked note states the FULL set's count while clozing only its own members, which trips R7's undercount warning and pushes the drafter into checker-shaped phrasing",
+   "regression_id": "R25"
+  },
+  {
+   "summary": "an anchor note can cloze sub-group names the pipeline invented, which are in no source and cannot be produced cold",
+   "mechanizable": false,
+   "why": "requires knowing whether a phrase is the source's vocabulary or ours; R13 grounding cannot see it because the sub-group NAME is a synthesis over text that is itself well grounded. Caught by editor check #25/#26 and the human review pass, and stated as a worked rule in card-rules #23."
+  }
+ ]
+}

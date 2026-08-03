@@ -137,13 +137,34 @@ The components of <b>SAMPLE</b> history are:<br><br>
 **Rows get a BLANK LINE between them (`<br><br>`), never a single `<br>`** — Parker answers a list by first seeing how many items he owes, and packed rows hide the count (card-rules #19).
 Name the parent AND its count in the stem. Keep each blank atomic (1-3 words). For a 2-way contrast list, give BOTH sides the same option-pair hint (`::arterial/venous`). For a sort-into-category list, the binary hint repeats on every line (`::basic/advanced`).
 
-**This is Parker's "big lists stay whole" rule:** a genuine cohesive list goes in ONE grouped card no matter the length (Star of Life = 6 functions, EMS Agenda 2050 = 6 principles). Only split into *sibling cards* (one per item, different numbers) when the items are genuinely independent facts that merely happen to be listed. Never `{{c1::A}}, B, C` (tests A, gives away the rest).
+**Then check the LOAD before you ship it (card-rules #23).** Count the answers in the group that carry no per-item cue: **≤4** ships as one card; **5–7** ships whole only if a spelled mnemonic or a derivable structure regenerates the set; **≥8** must be chunked. A cohesive list is still ONE concept — that never changed — but one concept is not automatically one card, because a grouped reveal is graded all-or-nothing and 0.9^10 is 35%.
+
+**Chunking, in preference order** (full ladder in card-rules #23):
+1. **Semantic partition** — 2–3 *named* sub-groups of ≤4, each its own note, plus an **anchor note** teaching the skeleton and the count. The 10-element radio report becomes 3 + 4 + 3: the dispatch header, the patient picture, care and close.
+2. **Convert to cued rows** — give each item a natural key (`Neonate — {{c1::100 to 180}}`) and keep the set whole; a keyed panel is exempt from the cap at any length.
+3. **Change the archetype** — order is the knowledge → §7 sequence; the set is derivable → test the organizing principle and keep the list in Back Extra.
+
+**Every note from a chunked set carries the full set in Back Extra under `Roster:`**, with that note's own members in `<b>bold</b>` — Parker wants the part and the whole visible on every review.
+
+**Never chunk with sibling numbers (card-rules #24).** `{{c1::A}} {{c2::B}} {{c3::C}}` on one note makes N cards that each reveal the other answers — recoverable by elimination, not recall. Chunking always means separate NOTES. And never `{{c1::A}}, B, C` (tests A, gives away the rest).
 
 **Hint:** first-letter for acronyms (`::S`, `::Ca`); count when several items hide behind one blank (`::3`); category label when the answer class isn't obvious (`::treatment`). Direction legend for trend panels (`::↑↓`).
 
 **Back Extra:** `Mnemonic:` (the acronym expansion in order) is the single most useful line; then `Distinguish:` for contrast lists, `Pitfall:` for the trap (OPA needs NO gag reflex; NPA tolerates one).
 
-**Do:** name the set + count in the stem; preserve fixed mnemonic order even in a "flat" list (don't shuffle DCAP-BTLS); keep flat grouped lists to ~5-7 members. **Don't:** give list items separate numbers hoping for sequence; cloze the category label; dump a 12-item list into one note (split by logical subset); turn an open-ended "such as" list into a closed memorize-these card.
+**Do:** name the set + count in the stem; preserve fixed mnemonic order even in a "flat" list (don't shuffle DCAP-BTLS); keep flat *uncued* grouped lists to ≤4 members (≤7 with a mnemonic handle). **Don't:** give list items separate numbers hoping for sequence; cloze the category label; dump a big list into one note (chunk it by logical subset); turn an open-ended "such as" list into a closed memorize-these card.
+
+**Worked example — chunking a 10-item list (the radio patient report):**
+```
+ANCHOR   The radio patient report has 10 elements that run in three phases:<br><br>
+         {{c1::the dispatch header — who you are, any alert, where you're headed}}<br><br>
+         {{c1::the patient picture — who they are and what you found}}<br><br>
+         {{c1::care and close — what you did and what else is needed}}
+PHASE 1  ... 3 elements, one c1 group ...
+PHASE 2  ... 4 elements, one c1 group ...
+PHASE 3  ... 3 elements, one c1 group ...
+```
+Four notes, none hiding more than four uncued answers, and each phase note's Back Extra carries `Roster:` — all ten elements in order with its own three or four in `<b>bold</b>`.
 
 **Examples:**
 ```

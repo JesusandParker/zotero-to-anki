@@ -48,14 +48,14 @@ one-time setup; after that you just point at it. See `reference/sources.md`.
 
 **The universal card standard** (subject-independent; this is the valuable part)
 - `reference/card-rules.md` — Layer A form + Layer B judgment, including the **Cold-Solve Gate**.
-- `reference/editor-checklist.md` — the 20-point "try to break this card" adversarial pass.
+- `reference/editor-checklist.md` — the 26-point "try to break this card" adversarial pass.
 - `reference/card-recipes.md` — the archetype playbook: which card shape, and the exact template.
 - `reference/cloze-mastery.md` — 2,391 annotated AnKing exemplars.
 - `reference/note-format.md` — note type, cloze/MathJax/image syntax, write targets.
 - `reference/parker-preferences.md` — Parker's living tastes; overrides the rules on conflict.
 
 **The reliability harness** (why quality doesn't regress)
-- `reference/regression-cases.md` — R1–R13, every flaw ever caught, with the BAD card it must
+- `reference/regression-cases.md` — R1–R26, every flaw ever caught, with the BAD card it must
   catch *and* the GOOD card it must not over-flag.
 - `scripts/test_regressions.py` — makes that library **executable**. Run after any rule or
   checker change.

@@ -49,7 +49,11 @@ chk "ch5 gates clean + stamps" "python3 scripts/check_cards.py --audit work/emt/
 chk "unstamped file is REFUSED" "cp work/emt/chapter_1_cards.json /tmp/uns.json; ! python3 scripts/anki_write.py /tmp/uns.json 2>&1 | grep -q 'added:'"
 
 echo "--- live audit through the registry ---"
-chk "live ch3 = 84 cards"  "python3 scripts/check_cards.py --live 3 --source emt 2>&1 | grep -q 'checked 84 cards'"
+# Assert the live audit REACHES the deck and reads a plausible chapter, not an exact
+# count: staging new cards is normal and must not fail the suite. (It did, on 2026-08-02,
+# when the retrieval-load remediation added 6 notes to ch3 and the hardcoded 84 went stale
+# — a green suite should mean "the path works," never "nobody staged anything since.")
+chk "live ch3 audit reaches the deck" "python3 scripts/check_cards.py --live 3 --source emt 2>&1 | grep -qE 'checked ([2-9][0-9]|[1-9][0-9]{2,}) cards'"
 chk "live needs --source"  "! python3 scripts/check_cards.py --live 3 2>&1 | grep -q 'checked'"
 
 echo "--- the universal path (a lecture, not a textbook) ---"
