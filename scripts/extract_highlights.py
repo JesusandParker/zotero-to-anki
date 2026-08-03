@@ -160,6 +160,29 @@ def wants_next_page(hl_text):
     return is_list_leadin(hl_text) or is_caption_title(hl_text)
 
 
+SKILL_DRILL_TITLE = re.compile(r"^\s*SKILL\s+DRILL\b", re.I)
+STEP_HEAD_TXT = re.compile(r"\bStep\s+\d+\b", re.I)
+SKILL_DRILL_MAX_PAGES = 12
+
+
+def is_skill_drill(hl_text):
+    """A SKILL DRILL is a procedure whose steps run ONE PER PAGE, not a one-page body.
+
+    Every other caption's material sits on its own page or the next one, so a single
+    look-ahead covers it. A drill does not: EMT Skill Drill 8-11 has three steps across
+    three pages, and reading one next page returned 172 characters covering Steps 1 and 2
+    — a card built from that would silently drop the last step of the procedure. Found
+    2026-08-03 while preparing Chapter 8, whose drills are most of what Parker marked."""
+    return bool(SKILL_DRILL_TITLE.match(norm(hl_text)))
+
+
+def pages_forward(hl_text):
+    """How many pages past the caption's own to append."""
+    if is_skill_drill(hl_text):
+        return SKILL_DRILL_MAX_PAGES
+    return 1 if wants_next_page(hl_text) else 0
+
+
 def clean_comment(c):
     """Parker's margin comments can carry HTML (he bolds/italicizes inside them) and
     non-breaking spaces. Flatten to plain text so the card-writer reads his intent, not
@@ -321,13 +344,24 @@ def main():
         # table's body routinely starts on the following page — EMT TABLE 6-3's caption
         # is on p548 and its 1,293-character body is on p549, which was never fetched.
         next_chars = None
-        if wants_next_page(text):
+        want = pages_forward(text)
+        if want:
             try:
-                nxt = str(int(re.sub(r"[^0-9]", "", str(page_label))) + 1)
-                if nxt not in page_cache:
-                    page_cache[nxt] = page_text(pdf, nxt)
-                page_src = page_src + " " + page_cache[nxt]
-                next_chars = len(page_cache[nxt])
+                base = int(re.sub(r"[^0-9]", "", str(page_label)))
+                added = 0
+                for step in range(1, want + 1):
+                    nxt = str(base + step)
+                    if nxt not in page_cache:
+                        page_cache[nxt] = page_text(pdf, nxt)
+                    body = page_cache[nxt]
+                    # A drill walks forward only while pages keep carrying its steps, so
+                    # it stops at the procedure's end rather than swallowing the next
+                    # section. Every other caption takes exactly one page, as before.
+                    if step > 1 and not STEP_HEAD_TXT.search(body or ""):
+                        break
+                    page_src = page_src + " " + body
+                    added += len(body or "")
+                next_chars = added
             except (TypeError, ValueError):
                 pass
 

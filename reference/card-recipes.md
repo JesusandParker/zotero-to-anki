@@ -223,6 +223,13 @@ Pitfall: a normal BP does NOT rule out shock (compensated); a falling BP is a la
 ```
 Compared to <b>arterial</b> bleeding, <b>venous</b> bleeding is {{c1::lower::higher or lower}} pressure and {{c1::darker::darker or brighter}} red.
 ```
+**A panel of NUMBERS is different, and it does NOT stay whole (card-rules #25).** The moment a keyed panel's answers are *values* — vital signs by age band, milestones by month, thresholds by severity — split it into **one note per key**, with the source table attached as an image on the back. Two reasons: the rows all hide together so the card is graded all-or-nothing, and an ordered column of numbers gives itself away by interpolation (a knower reads the neighbours and derives the blank). The panel below is safe because its answers are *directions and descriptions*, not a value column.
+```
+What is the normal <b>pulse rate</b> for a <b>toddler</b>, in beats/min? {{c1::90 to 150::range}}
+   + image: TABLE_7_1.jpg, image_side: back
+```
+`check_cards.py` warns at 3 keyed numeric rows and HARD-blocks at 4.
+
 **Direction-of-change panel (the NREMT vital-trend template):** one condition, several vitals, all c1, every line legended.
 ```
 In <b>compensated shock</b>:<br>Heart rate: {{c1::Increased::Increased/Decreased/Normal}}<br>Systolic BP: {{c1::Normal::Increased/Decreased/Normal}}<br>Skin: {{c1::Pale, cool, clammy}}<br>Cap refill: {{c1::Delayed (>2 s)::Delayed or Normal}}

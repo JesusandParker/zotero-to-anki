@@ -1,0 +1,43 @@
+{
+ "run_id": "2026-08-03-ch7-audit",
+ "source": "emt",
+ "segment": 7,
+ "started": "2026-08-03T08:05:07",
+ "skill_sha": "31bf66cbd352129871f0632351404f08df890594",
+ "note": "ch7 adversarial audit + fixes before the ch8 run",
+ "status": "complete",
+ "finished": "2026-08-03T08:05:07",
+ "counts": {
+  "audited": 97,
+  "source_pages_reread": 22,
+  "numeric_mismatches": 0,
+  "confirmed_defects_fixed": 5,
+  "likely_defects_fixed": 3,
+  "judgment_calls_applied": 3,
+  "figures_rejudged": 8
+ },
+ "new_hazards_found": [
+  {
+   "summary": "a Back Extra can be copy-pasted onto a neighbouring card, where its pronouns lose their antecedent and it teaches the wrong fact",
+   "mechanizable": false,
+   "why": "duplicate Back Extra across two cards is detectable, but whether the text BELONGS on a card is semantic. The near-duplicate check compares Text, not Back Extra, and widening it would fire on every legitimate shared Distinguish. Caught by editor check #11 (Back Extra earns its place) and the audit pass."
+  },
+  {
+   "summary": "a verb can presuppose its own answer — 'remain ___' admits only 'unchanged', so grammar hands over a forced-choice blank",
+   "mechanizable": false,
+   "why": "requires judging which completions are idiomatic, which is exactly the cold-solve test the LLM judge owns (editor #18). No regex distinguishes 'remain unchanged' from 'are unchanged'."
+  },
+  {
+   "summary": "a SKILL DRILL is a multi-page procedure that three separate stages each treated as a single plate, indexing 1 of 12 on Chapter 8",
+   "regression_id": "R29"
+  },
+  {
+   "summary": "the extractor appends exactly one page after a caption, which truncates a drill's steps mid-procedure",
+   "regression_id": "R29"
+  },
+  {
+   "summary": "a long-running audit agent read a cards file that a parallel rebuild rewrote underneath it, so every index in its report was stale",
+   "regression_id": "R27"
+  }
+ ]
+}

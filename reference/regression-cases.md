@@ -303,6 +303,40 @@ R25 and R26 are a matched pair and must be read together: R25 says *split it*, R
 - **MUST NOT OVER-FLAG:** a two-way definition (`{{c1::TERM}} is {{c2::meaning}}`); a contrast card whose entity anchors stay visible while the values hide (the R10 precision); any card whose numbers mark *different facts* rather than members of one enumerated set. The detector requires all four signals at once — ≥4 distinct numbers, exactly one span each, ≥4 parallel list ROWS — so ordinary c1/c2/c3 cards are untouched. Measured: **0 hits across 1158 live EMT notes**, i.e. no false positives on a deck built entirely under the old rules.
 - **Catch test (both ways):** an enumerated list fanned across ≥4 numbers on one note → HARD; a two-way definition, a contrast card, or a 3-number multi-fact card → silent.
 
+## R28 — A keyed panel of NUMBERS: all-or-nothing grading plus an interpolable column
+**Rule:** card-rules #25 + editor check #27. **Caught by:** `check_cards.py quantitative_panel` (≥3 keyed numeric rows warns, ≥4 HARD). Surfaced 2026-08-03 by Parker — the card that gave him the idea behind R25 in the first place.
+
+**This case narrows R25, written the day before.** R25 *exempted* keyed panels at any length, reasoning that a per-item cue turns one N-wide recall into N independently-cued ones. That is true about **difficulty** and false about **grading**: every row still hides and reveals under one cloze number, so the card is graded all-or-nothing however well each row is cued. And for a *value column* it is doubly false, because the numbers give each other away. Parker: *"if I see infant heart rate, I can guess what the neonate heart rate is… it's already given me half of the solution."*
+
+The card proved the leak in its own Back Extra, which taught the shortcut as a mnemonic: *"the lower bound walks down in clean tens — 100, then 90, 80, 70, and 60."* A genuinely good memory hook and an exact recipe for answering without recall.
+
+- **BAD:** `Normal <b>pulse rate</b> in beats/min, by age group:<br><br>Neonate — {{c1::100 to 180}}<br><br>Infant — {{c1::100 to 160}}<br><br>Toddler — {{c1::90 to 150}}…` — six values, one grading event, monotonic column.
+- **Also BAD, and worse:** a match card whose answers are a *complete consecutive run* — the infant-milestone tables, answers 2–6 and 7–12 months. Once two rows are confident, the rest fall out by elimination and developmental ordering, so the card is solvable without recalling any single month.
+- **GOOD:** `What is the normal <b>pulse rate</b> for a <b>toddler</b>, in beats/min? {{c1::90 to 150::range}}` on its own note, with TABLE 7-1 attached (`image_side: "back"`). Parker's framing: *"the cards are disconnected in the sense of memorizing, but they're connected in the sense of the table."*
+- **MUST NOT OVER-FLAG, three neighbours:**
+  - **Word answers cannot interpolate.** `Transports oxygen → {{c1::red blood cells}}` is judged on load alone by rule 23. Scoping this rule to numeric answers is what keeps it from becoming a war on match cards.
+  - **A lone numeric row does not make a value column.** A direction-of-change panel (`Heart rate: increased · Systolic BP: normal · Cap refill: delayed (>2 s)`) is mostly words; the detector requires ≥80% of rows to be *both* keyed and quantitative.
+  - **Three rows is a warning, never a block.** The adult-heart-rate-by-situation card (at rest / athlete at rest / vigorous activity) has three values that do *not* trend with an ordered key, and is fine as it stands.
+- **Do not restate the other rows' values in Back Extra prose.** The table image carries them; prose restatement rebuilds the leak in the one place he looks after answering.
+- **Measured scope:** across his whole 4,340-note collection this fires on **9 cards**, every one a genuine value column — 7 hard (all in Chapter 7) and 2 warns. Chapters 1–5 are untouched.
+- **Catch test (both ways):** ≥4 keyed rows whose answers are values → HARD; a word-answer match card, a mostly-word direction panel, a 3-row non-trending set, or a single-value note → silent.
+
+## R29 — A SKILL DRILL is a multi-page procedure, and three things treated it as a plate
+**Rule:** a drill's banner is a title above its body, its corroboration is a `Step N` heading, and its steps run one per page. **Caught by:** `test_figures.py` R29 + the `skill-drill-composite(N steps)` extraction label in the index. Found 2026-08-03 while preparing EMT Chapter 8, which is mostly drills — **four of the five marks Parker made in that chapter are Skill Drills.**
+
+Chapters 1–7 contain almost no drills, so this whole content type reached Chapter 8 untested. Three independent defects stacked, and together they indexed **1 of 12** drills:
+
+1. **`find_captions` demanded a credit line.** A drill banner has none — its body is a run of step panels and the credit lands pages later — so 10 of 12 were rejected before `pair_art` ever ran. A drill's own corroboration is that a `Step N` heading follows, which is exactly as strong: body prose that merely name-drops a drill is never followed by one.
+2. **`pair_art` classed a drill with FIGURE**, i.e. caption-BELOW-art, so the search ran upward into the preceding prose. A drill banner is a title ABOVE its body, like a TABLE.
+3. **A drill is not one plate.** Its steps run **one per page**, so pairing a single art object returned Step 1 and silently dropped the rest of the procedure — a card about a four-step carry would carry a picture of its first move. Now composited into one plate showing the whole procedure, which is the artifact that belongs on the back of a procedure card.
+   - **And Step 1 sits on the banner's OWN page as often as on the next.** Starting the walk at `cap+1` lost the first step of **three of the four drills Parker marked**. The caption page is included when it carries a step heading, and its render is clipped to the banner so the section's body prose above it is not dragged in.
+
+**The extractor had the mirror bug.** `wants_next_page` appends exactly ONE page, which covers every other caption but not a drill: Skill Drill 8-11's context came back as **172 characters covering Steps 1–2 of 4**. A card built from that would state a procedure missing its last step — the R7 undercount class, one content type further on. A drill now walks forward while pages keep carrying step headings, stopping at the procedure's end. Measured: marks 19–22 went from 172–628 characters to 1,125–3,132, and all four now carry their complete step sequence.
+
+- **MUST CATCH:** a banner followed by `Step 1` is a caption; a drill is title-above-body; the walk includes the banner page when it carries a step, and follows the steps to their end.
+- **MUST NOT OVER-FLAG:** body prose merely naming a drill (`"As described in SKILL DRILL 8-9…"`) is not a caption; the walk stops at the next caption rather than swallowing the following section; FIGURE keeps caption-below orientation.
+- **Catch test (both ways):** four assertions in `test_figures.py` R29, plus the live check that EMT Chapter 8 indexes 11 drills with plausible step counts (was 1).
+
 ## R27 — Two process failures from the same run, both about STALE READS
 Not card defects — ways the *pipeline around* the cards went wrong on 2026-08-02. Recorded because both are cheap to repeat and neither is visible in any card.
 

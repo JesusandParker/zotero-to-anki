@@ -521,6 +521,51 @@ def overloaded_group(text):
     return hits
 
 
+# How many keyed numeric rows before a panel must become one note per key.
+QUANT_PANEL_WARN = 3
+QUANT_PANEL_HARD = 4
+
+
+def quantitative_panel(text):
+    """R28: a keyed panel of NUMBERS — 'Neonate — {{c1::100 to 180}}, Infant — {{c1::100 to
+    160}}, …' — which must become one NOTE PER KEY instead of one card hiding the column.
+
+    This is the correction to R25's cued-row exemption. A per-item cue makes each row
+    *answerable*, and R25 therefore excused keyed panels at any length. That was wrong,
+    for two independent reasons, and a quantitative panel is where both bite hardest:
+
+      1. **Grading.** Every row still hides and reveals together under one cloze number, so
+         the card is graded all-or-nothing on N values however well each row is cued. A cue
+         fixes cold-solve; it does nothing for passability.
+      2. **Interpolation.** Ordered keys with values that trend produce a column that gives
+         itself away. Parker: *"if I see infant heart rate, I can guess what the neonate
+         heart rate is… it's already given me half of the solution."* The card this rule
+         comes from proved it in its own Back Extra — *"the lower bound walks down in clean
+         tens — 100, then 90, 80, 70, and 60"* — an excellent mnemonic that is also an exact
+         recipe for answering without recall.
+
+    The fix is one note per key, each asking for a single value, with the SOURCE TABLE in
+    Back Extra so the set stays visible after he answers. Parker's own framing: *"the cards
+    are disconnected in the sense of memorizing, but they're connected in the sense of the
+    table."*
+
+    Deliberately scoped to NUMERIC answers. A match card whose answers are words (blood
+    function → component) cannot be interpolated and is not caught here; it is judged on
+    load alone by `overloaded_group`."""
+    hits = []
+    for g in {m.group(1) for m in CLOZE.finditer(text)}:
+        spans = [m for m in CLOZE.finditer(text) if m.group(1) == g]
+        if len(spans) < QUANT_PANEL_WARN:
+            continue
+        cued = sum(1 for m in spans if _cued_span(text, m))
+        numeric = sum(1 for m in spans if VALUE.search(m.group(2)))
+        # nearly every row must be BOTH keyed and quantitative: a panel with one stray
+        # numeric row is not a value column, and a bare numeric list has no keys to split on
+        if cued >= 0.8 * len(spans) and numeric >= 0.8 * len(spans):
+            hits.append((g, len(spans)))
+    return hits
+
+
 # The shape a naive "just split it up" fix produces, and the reason chunking must mean
 # separate NOTES. Parker named this himself before it was ever written down: "if it's a
 # hide-one-but-show-all-the-rest, I can just figure that out."
@@ -655,6 +700,19 @@ def per_card(idx, c, strict_html=True):
             warn.append(f"#{idx}: {detail} — at the edge of one retrieval; keep it whole "
                         f"ONLY if a mnemonic or a derivable structure makes the set one "
                         f"chunk, else chunk it into separate notes (card-rules #23)")
+    # a keyed column of NUMBERS that must become one note per key (R28)
+    for g, rows in quantitative_panel(t):
+        detail = (f"cloze c{g} is a keyed panel of {rows} numeric values hidden together")
+        if rows >= QUANT_PANEL_HARD:
+            hard.append(f"#{idx}: {detail} — graded all-or-nothing, and an ordered column of "
+                        f"numbers gives itself away by interpolation. Split it into one NOTE "
+                        f"PER KEY, each asking for a single value, and put the source table "
+                        f"in Back Extra so the set stays visible after he answers "
+                        f"(card-rules #25)")
+        else:
+            warn.append(f"#{idx}: {detail} — verify the values do not interpolate from one "
+                        f"another; if they trend with the key, split into one note per key "
+                        f"(card-rules #25)")
     # a list split across cloze NUMBERS on one note — every card reveals the rest (R26)
     if sibling_split_leak(t):
         hard.append(f"#{idx}: an enumerated list is split across different cloze numbers on "
@@ -954,16 +1012,29 @@ def main():
             warn += gw
             ground_note = f"  (grounding checked against {os.path.basename(hlpath)})"
 
-    # in-batch near-duplicates
+    # in-batch near-duplicates.
+    # Similar TEXT alone is not duplication. Rule 25 splits a value column into one note
+    # per key, which deliberately gives every sibling the SAME stem template and a
+    # different answer ("...for a neonate? 100 to 180" / "...for an infant? 100 to 160") —
+    # 18 such notes produced 33 false "possible duplicate" warnings on Chapter 7's vitals.
+    # The same shape is why Chapter 5's 587 word-root cards have always been noisy here.
+    # A real duplicate tests the same FACT, so require the answers to overlap too.
+    answers = [{norm(m.group(2)) for m in CLOZE.finditer(c.get("Text", ""))} for c in cards]
     for i in range(len(reads)):
         for j in range(i + 1, len(reads)):
             if len(reads[i]) < 20 or len(reads[j]) < 20:
                 continue
             r = SequenceMatcher(None, norm(reads[i]), norm(reads[j])).ratio()
-            if r > 0.82:
-                a = label[i] if label else i
-                b = label[j] if label else j
-                warn.append(f"#{a} & #{b}: {r:.0%} similar Text — possible duplicate")
+            if r <= 0.82:
+                continue
+            ai, aj = answers[i], answers[j]
+            shared = len(ai & aj) / max(1, min(len(ai), len(aj)))
+            if shared < 0.5:
+                continue          # same frame, different fact — a split family, not a dupe
+            a = label[i] if label else i
+            b = label[j] if label else j
+            warn.append(f"#{a} & #{b}: {r:.0%} similar Text and {shared:.0%} shared answers "
+                        f"— possible duplicate")
 
     print(f"checked {len(cards)} cards" + (f" (live: {args.live})" if live else ""))
     if ground_note:

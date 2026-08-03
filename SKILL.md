@@ -262,6 +262,10 @@ Writes `work/<source>/<label>_highlights.json` (marked items + grounded `context
    note — never c1..cN on one note, which shows the rest of the list for free (rule 24). A
    grouped reveal is graded all-or-nothing, so a ten-item card fails even when every fact on
    it is known. `check_cards.py` HARD-blocks ≥8 uncued. See `card-rules.md` #23–24.
+   **And if the answers are NUMBERS keyed by a label** — vitals by age, milestones by month —
+   it is one note PER KEY with the source table attached on the back, however few rows there
+   are: the column interpolates, so visible neighbours hand over the blank (rule 25, HARD at
+   4 rows).
 
 1. **Classify the fact type, then open its recipe.** Definition · numeric value/dose/cutoff ·
    classification list · ordered sequence · comparison/direction-of-change · mechanism ·
@@ -526,10 +530,10 @@ Naming a hazard is step one of *name it, mechanize it, test it* — not the whol
   conflicts with card-rules, this wins.
 - `reference/card-recipes.md` — **the archetype playbook**: which card shape to use plus the
   exact template. The primary drafting reference; consult it every time.
-- `reference/editor-checklist.md` — the 26-point adversarial Editor pass. Read before editing.
+- `reference/editor-checklist.md` — the 27-point adversarial Editor pass. Read before editing.
 - `reference/note-format.md` — note type, cloze/MathJax/image syntax, Back Extra vocabulary,
   write targets.
-- `reference/regression-cases.md` — R1–R26, the failure library. Read FIRST on any bug report.
+- `reference/regression-cases.md` — R1–R28, the failure library. Read FIRST on any bug report.
 - `reference/provenance.md` — the card provenance schema, the run store, and the hazard rule.
 - `reference/feedback-log.md` — the running history of what Parker caught and how it was fixed.
 - `reference/cloze-mastery.md` — 2,391 annotated AnKing exemplars. **Large — open only the

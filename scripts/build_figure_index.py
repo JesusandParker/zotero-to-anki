@@ -63,6 +63,8 @@ CREDIT_LOOSE = re.compile(
 CREDIT_MAX_CHARS = 200
 DESC_STUB = "Description"
 MIN_ART_PT = 40           # ignore rules, bullets, icons
+STEP_HEAD = re.compile(r"^\s*Step\s+\d+\b", re.I)
+SKILL_DRILL_MAX_PAGES = 12       # the longest drill in this book is well under this
 CAPTION_GAP_PT = 60       # how far under the art a caption may sit
 STOPWORDS = {
     "the", "and", "with", "from", "that", "this", "are", "for", "its", "into", "which",
@@ -127,7 +129,16 @@ def find_captions(page, next_page=None):
         tail = [x[0] for x in bl[i + 1:i + 5]]
         if len(bl) - i <= 2 and nxt:          # near the foot: the body ran onto the next page
             tail += [x[0] for x in nxt[:5]]
-        if not any(is_credit(x) or x == DESC_STUB for x in tail):
+        corroborated = any(is_credit(x) or x == DESC_STUB for x in tail)
+        # A SKILL DRILL banner carries no credit line — its body is a run of numbered step
+        # panels, and the credit (if any) lands pages later. Its own corroboration is that
+        # a `Step N` heading follows, which is exactly as strong a signal as a credit: body
+        # prose that merely name-drops a drill is never followed by one. Without this, 10 of
+        # EMT Chapter 8's 12 drills were rejected here before pair_art ever ran, including
+        # all four Parker highlighted. Found 2026-08-03.
+        if not corroborated and m.group(1).upper().startswith("SKILL"):
+            corroborated = any(STEP_HEAD.match(x[0]) for x in (bl[i + 1:] + nxt))
+        if not corroborated:
             continue
         title = t
         for cont, _ in bl[i + 1:i + 3]:         # stitch a wrapped caption line
@@ -147,10 +158,16 @@ def pair_art(doc, pno, cap):
 
     House style splits by kind: a FIGURE is captioned UNDERNEATH its plate, a TABLE is
     titled ABOVE its body. Getting this backwards is why the image-only tables (EMT
-    TABLE 6-9/6-10) look like they have no art at all."""
+    TABLE 6-9/6-10) look like they have no art at all.
+
+    A **SKILL DRILL** is titled above its body exactly like a table — its header is a
+    banner announcing the procedure, and the step panels follow it. Classifying it with
+    FIGURE (caption-below) made the pairing search upward into the preceding prose and
+    find nothing: on EMT Chapter 8 that lost **11 of 12 drills**, including all four
+    Parker had highlighted. Found 2026-08-03 while preparing that chapter."""
     page = doc[pno - 1]
     cx0, cy0, cx1, cy1 = cap["bbox"]
-    above = not cap["label"].startswith(("TABLE", "CHART"))
+    above = not cap["label"].startswith(("TABLE", "CHART", "SKILL"))
     best, bd = None, 1e9
     for a in art_on(page):
         ax0, ay0, ax1, ay1 = a["bbox"]
@@ -177,6 +194,101 @@ def pair_art(doc, pno, cap):
     if cands:
         return max(cands, key=lambda a: a["bbox"][3] - a["bbox"][1]), npno
     return None, None
+
+
+def skill_drill_pages(doc, cap_pno):
+    """The pages carrying a Skill Drill's step panels.
+
+    A Skill Drill is not one plate. In this reflowed PDF the procedure runs across
+    several pages, **one numbered step per page** (photo, then "Step N", then the step's
+    text). Pairing a single art object with the caption therefore yields one step and
+    silently drops the rest — a card about a four-step carry would carry a picture of its
+    first move.
+
+    **Step 1 sits on the caption's OWN page as often as on the next one.** EMT Skill Drill
+    8-9's banner ends its page with Step 1 overleaf, but 8-10, 8-11 and 8-12 all put Step 1
+    directly under their banner — so starting the walk at cap_pno+1 lost the first step of
+    three of the four drills Parker marked. The caption page is included only when it
+    actually carries a step heading, and is returned separately so the render can be
+    clipped to the banner rather than dragging in the section prose above it.
+
+    A page belongs to the drill while it opens a `Step N` heading and has not started a
+    NEW caption. That is the author's own marker, so it needs no geometry."""
+    pages = []
+    cap_texts = [t for t, _bb in blocks(doc[cap_pno - 1])]
+    starts_on_caption_page = any(STEP_HEAD.match(t) for t in cap_texts)
+    if starts_on_caption_page:
+        pages.append(cap_pno)
+    for p in range(cap_pno + 1, min(cap_pno + 1 + SKILL_DRILL_MAX_PAGES, doc.page_count + 1)):
+        texts = [t for t, _bb in blocks(doc[p - 1])]
+        if any(CAPTION.match(t) for t in texts):
+            break
+        if not any(STEP_HEAD.match(t) for t in texts):
+            break
+        pages.append(p)
+    return pages
+
+
+def skill_drill_composite(doc, cap_pno, out_png, dpi=150, cols=2, cap_bbox=None):
+    """Render a Skill Drill's steps into ONE plate showing the whole procedure.
+
+    Each step page is rendered, trimmed to its own content box (these pages are mostly
+    white below the panel), and tiled in reading order. The result is what belongs on the
+    back of a card about the procedure: the steps in order, in the book's own photographs
+    — the same part-and-whole design Parker asked for with tables."""
+    step_pages = skill_drill_pages(doc, cap_pno)
+    if not step_pages:
+        return None, []
+    try:
+        from PIL import Image
+    except ImportError:
+        return None, []
+    tiles = []
+    for p in step_pages:
+        # On the caption's own page, clip to the banner downward — everything above it is
+        # the section's body prose, not part of the procedure.
+        clip = None
+        if p == cap_pno and cap_bbox:
+            pr = doc[p - 1].rect
+            clip = fitz.Rect(pr.x0, max(pr.y0, cap_bbox[1] - 4), pr.x1, pr.y1)
+        pix = doc[p - 1].get_pixmap(dpi=dpi, clip=clip)
+        tmp = os.path.splitext(out_png)[0] + f"_p{p}.png"
+        pix.save(tmp)
+        im = Image.open(tmp).convert("RGB")
+        # Trim against the tile's OWN corner colour, not against white. A step panel sits
+        # on a cream background that runs to the foot of the page, so a white-threshold
+        # trim keeps a screenful of empty cream under every step.
+        from PIL import ImageChops
+        bg = Image.new("RGB", im.size, im.getpixel((1, 1)))
+        bbox = ImageChops.difference(im, bg).convert("L").point(
+            lambda v: 255 if v > 18 else 0).getbbox()
+        if bbox:
+            pad = 10
+            im = im.crop((max(0, bbox[0] - pad), max(0, bbox[1] - pad),
+                          min(im.width, bbox[2] + pad), min(im.height, bbox[3] + pad)))
+        tiles.append(im)
+        os.remove(tmp)
+    if not tiles:
+        return None, []
+    cols = 1 if len(tiles) == 1 else cols
+    rows = (len(tiles) + cols - 1) // cols
+    cw = max(t.width for t in tiles)
+    rh = [max(t.height for t in tiles[r * cols:(r + 1) * cols]) for r in range(rows)]
+    gap = max(12, cw // 60)
+    W = cols * cw + (cols + 1) * gap
+    H = sum(rh) + (rows + 1) * gap
+    from PIL import Image as _I
+    sheet = _I.new("RGB", (W, H), "white")
+    y = gap
+    for r in range(rows):
+        x = gap
+        for t in tiles[r * cols:(r + 1) * cols]:
+            sheet.paste(t, (x + (cw - t.width) // 2, y))
+            x += cw + gap
+        y += rh[r] + gap
+    os.makedirs(os.path.dirname(out_png), exist_ok=True)
+    sheet.save(out_png)
+    return out_png, step_pages
 
 
 def _chunks(doc, first_page, span=2):
@@ -365,6 +477,8 @@ def main():
     ap.add_argument("--pages", help="explicit physical page range, e.g. 515-680")
     ap.add_argument("--rerender", action="store_true")
     ap.add_argument("--dpi", type=int, default=300, help="only for vector figures")
+    ap.add_argument("--dpi-steps", type=int, default=150,
+                    help="render dpi per panel when compositing a multi-page SKILL DRILL")
     ap.add_argument("--max-px", type=int, default=1400,
                     help="long edge of the study-size copy that gets attached to cards")
     ap.add_argument("--pad-pct", type=float, default=4.0,
@@ -408,7 +522,23 @@ def main():
             art, art_page = pair_art(doc, pno, cap)
             slug = re.sub(r"[^A-Za-z0-9]+", "_", cap["label"]).strip("_")
             target = os.path.join(outdir, f"{slug}.png")
-            path, how = save_art(doc, art, art_page, target, args.rerender)
+            # A SKILL DRILL is a multi-page procedure, not a single plate: its steps run
+            # one per page after the banner. Composite them so the card carries the WHOLE
+            # procedure rather than its first move.
+            step_pages = []
+            if cap["label"].upper().startswith("SKILL"):
+                if args.rerender or not os.path.exists(target):
+                    cpath, step_pages = skill_drill_composite(
+                        doc, pno, target, dpi=args.dpi_steps, cap_bbox=cap["bbox"])
+                else:
+                    cpath, step_pages = target, skill_drill_pages(doc, pno)
+                if cpath:
+                    path, how = cpath, f"skill-drill-composite({len(step_pages)} steps)"
+                    art, art_page = {"px": None, "bbox": None}, (step_pages[0] if step_pages else pno)
+                else:
+                    path, how = save_art(doc, art, art_page, target, args.rerender)
+            else:
+                path, how = save_art(doc, art, art_page, target, args.rerender)
             if not path:
                 vr = vector_region(page, cap["bbox"])
                 if vr:

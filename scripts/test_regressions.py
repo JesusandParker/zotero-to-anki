@@ -119,6 +119,55 @@ CASES = [
         "note": "three numbers marking three distinct facts — not an enumerated list",
     },
 
+    # --- R28: quantitative keyed panels (Parker 2026-08-03, the pulse-rate-by-age card) ---
+    {
+        "id": "r28_bad_vitals_by_age_is_a_value_column",
+        "warn": "card-rules #25", "present": True, "scope": "hard",
+        "cards": [{"Text": "Normal <b>pulse rate</b> in beats/min, by age group:<br><br>Neonate — {{c1::100 to 180}}<br><br>Infant — {{c1::100 to 160}}<br><br>Toddler — {{c1::90 to 150}}<br><br>Preschool age — {{c1::80 to 140}}<br><br>School age — {{c1::70 to 120}}<br><br>Adolescent through older adult — {{c1::60 to 100}}",
+                   "Back Extra": "Cue: the lower bound walks down in clean tens.",
+                   "chapter": 7, "needs_human_check": True}],
+        "note": "the card Parker named: all six hide together AND the column interpolates",
+    },
+    {
+        "id": "r28_bad_milestones_are_a_consecutive_run",
+        "warn": "card-rules #25", "present": True, "scope": "hard",
+        "cards": [{"Text": "Match each infant characteristic to the age at which it typically appears:<br><br>Afraid of strangers → {{c1::7 months}}<br><br>Responds to \"no\" → {{c1::8 months}}<br><br>Pulls self up to stand → {{c1::9 months}}<br><br>Crawls efficiently → {{c1::10 months}}<br><br>Begins to walk → {{c1::11 months}}<br><br>Knows his or her name → {{c1::12 months}}",
+                   "Back Extra": "Cue: the second half-year is a mobility ladder.",
+                   "chapter": 7, "needs_human_check": True}],
+        "note": "a complete consecutive run of months is solvable by elimination",
+    },
+    {
+        "id": "r28_good_one_note_per_key",
+        "warn": "card-rules #25", "present": False,
+        "cards": [{"Text": "What is the normal <b>pulse rate</b> for a <b>toddler</b>, in beats/min? {{c1::90 to 150::range}}",
+                   "Back Extra": "Distinguish: a toddler's floor of 90 is still above an adult's ceiling of 100 only barely — age decides what counts as fast.",
+                   "chapter": 7, "needs_human_check": True}],
+        "note": "the fix: one value, one note, table on the back",
+    },
+    {
+        "id": "r28_good_word_answers_cannot_interpolate",
+        "warn": "card-rules #25", "present": False,
+        "cards": [{"Text": "Match each function of the blood to the component that carries it out:<br><br>Fights infection → {{c1::white blood cells}}<br><br>Transports oxygen → {{c1::red blood cells}}<br><br>Forms clots → {{c1::platelets}}<br><br>Carries the cells and nutrients → {{c1::plasma}}<br><br>Neutralizes toxins → {{c1::antibodies}}",
+                   "Back Extra": "Distinguish: plasma is the fluid; the cells ride in it.", "chapter": 6}],
+        "note": "a word-answer match card is judged on LOAD (rule 23), not as a value column",
+    },
+    {
+        "id": "r28_good_three_independent_values_only_warn",
+        "warn": "card-rules #25", "present": False, "scope": "hard",
+        "cards": [{"Text": "The adult <b>heart rate</b> depends on the situation:<br><br>at rest, {{c1::60 to 100 beats/min}}<br><br>at rest in a well-conditioned athlete, {{c1::45 to 60 beats/min}}<br><br>during vigorous physical activity, {{c1::as fast as 180 beats/min}}",
+                   "Back Extra": "Why: a trained heart moves more blood per beat, so it needs fewer beats.",
+                   "chapter": 7, "needs_human_check": True}],
+        "note": "3 rows is the warn band, never a block — the situations do not interpolate",
+    },
+    {
+        "id": "r28_good_a_lone_numeric_row_is_not_a_panel",
+        "warn": "card-rules #25", "present": False,
+        "cards": [{"Text": "In <b>compensated shock</b>:<br><br>Heart rate: {{c1::increased::increased/decreased/normal}}<br><br>Systolic BP: {{c1::normal::increased/decreased/normal}}<br><br>Skin: {{c1::pale, cool, clammy}}<br><br>Cap refill: {{c1::delayed (>2 s)::delayed or normal}}",
+                   "Back Extra": "Pitfall: a normal BP does NOT rule out shock.", "chapter": 8}],
+        "note": "a direction-of-change panel is mostly word answers — one numeric row must not "
+                "turn it into a value column",
+    },
+
     # --- R11: first-letter hints (Parker 2026-07-19, the ::r/::k/::s rant) ---
     {
         "id": "r11_bad_letters_original",

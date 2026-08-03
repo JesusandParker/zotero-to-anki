@@ -150,6 +150,62 @@ def r22():
 case("R22", "the fresh-segment route refuses unjudged proposals", r22)
 
 
+# ------------------------------------------------- R29: SKILL DRILLs are multi-page
+# A Skill Drill is a procedure whose steps run ONE PER PAGE, and three separate things
+# were wrong about it. On EMT Chapter 8 — a chapter that is mostly drills, and where four
+# of the five marks Parker made are drills — the three together indexed 1 of 12.
+def r29():
+    bad = []
+
+    # (a) A drill banner is titled ABOVE its body, like a TABLE. Classing it with FIGURE
+    #     (caption-below) made pair_art search upward into the preceding prose.
+    for label, want_above in (("SKILL DRILL 8-9", False), ("TABLE 5-1", False),
+                              ("CHART 2-1", False), ("FIGURE 7-2", True)):
+        above = not label.startswith(("TABLE", "CHART", "SKILL"))
+        if above != want_above:
+            bad.append(f"{label}: caption orientation should be "
+                       f"{'above' if want_above else 'title-above-body'}")
+
+    # (b) A drill banner has no credit line; a `Step N` heading is its corroboration.
+    class P:
+        def __init__(self, rows): self.rows = rows
+        def get_text(self, _):
+            return {"blocks": [{"type": 0, "bbox": (0, i * 10, 100, i * 10 + 9),
+                                "lines": [{"spans": [{"text": t}]}]}
+                               for i, t in enumerate(self.rows)]}
+    drill = P(["Skill Drill 8-9 Performing the Extremity Lift"])
+    steps = P(["Step 1", "The patient's hands are crossed over the chest."])
+    if not B.find_captions(drill, steps):
+        bad.append("a drill banner followed by 'Step 1' was not accepted as a caption")
+    prose = P(["As described in SKILL DRILL 8-9, the extremity lift is useful here."])
+    plain = P(["Other Carries", "Other carries are performed in the following manner:"])
+    if B.find_captions(prose, plain):
+        bad.append("body prose merely naming a drill was accepted as a caption")
+
+    # (c) Step 1 sits on the caption's OWN page as often as on the next one. Starting the
+    #     walk at cap+1 lost the first step of 3 of the 4 drills Parker marked.
+    class Doc:
+        def __init__(self, pages): self.pages = pages; self.page_count = len(pages)
+        def __getitem__(self, i): return P(self.pages[i])
+    d = Doc([["Skill Drill 8-11 Using a Scoop Stretcher", "Step 1", "Adjust the length."],
+             ["Step 2", "Lift the patient slightly."],
+             ["Step 3", "Lock the ends together."],
+             ["Other Carries", "Other carries are performed as follows:"]])
+    got = B.skill_drill_pages(d, 1)
+    if got != [1, 2, 3]:
+        bad.append(f"steps starting on the banner page: expected [1,2,3], got {got}")
+    d2 = Doc([["Skill Drill 8-9 Performing the Extremity Lift"],
+              ["Step 1", "Cross the hands."], ["Step 2", "Move between the legs."],
+              ["FIGURE 8-17 The draw sheet method.", "© Jones & Bartlett Learning."]])
+    got2 = B.skill_drill_pages(d2, 1)
+    if got2 != [2, 3]:
+        bad.append(f"banner alone on its page: expected [2,3], got {got2}")
+    return bad
+
+
+case("R29", "SKILL DRILLs: titled above, Step-corroborated, and multi-page", r29)
+
+
 def main():
     fails = 0
     for cid, name, fn in CASES:
