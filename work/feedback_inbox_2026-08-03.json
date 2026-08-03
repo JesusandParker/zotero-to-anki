@@ -1,0 +1,11 @@
+[
+  {
+    "noteId": 1785345035885,
+    "model": "AnKing Cloze",
+    "deck": "all::EMT::Chapter 6::claude review",
+    "front_field": "Text",
+    "front": "The {{c2::carpals}} are the {{c1::eight}} bones that form the wrist, and the {{c2::metacarpals}} are the {{c1::five}} bones that form the palm of the hand.",
+    "back_extra": "Distinguish: beyond the metacarpals come the phalanges, with two in the thumb (proximal and distal) and three in each of the other four digits.<br><br>Cue: wrist to fingertip runs carpals, then metacarpals, then phalanges.<br><br><img src=\"emt_FIGURE_6_10.jpg\">",
+    "feedback": "a good hint here would be something like {{c1::five::number of bones, that would make it so i can know what im guessing and how just say like \"long bones!\" or \"shoart bones!\"<br><br>so thats the best way to format all that and rem this is a STYMEATIC isssue so fix this in the git hub for all the cards and the next ones to come plz!!"
+  }
+]

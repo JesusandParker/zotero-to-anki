@@ -234,6 +234,56 @@ CASES = [
                    "chapter": 8, "needs_human_check": True}],
     },
 
+    # --- R34: a bare count in a slot that never says it wants a count (Parker 2026-08-03) ---
+    {
+        "id": "r34_bad_bare_count_before_the_noun_it_counts",
+        "warn": "card-rules #27", "present": True,
+        "cards": [{"Text": "The {{c2::carpals}} are the {{c1::eight}} bones that form the wrist, and the {{c2::metacarpals}} are the {{c1::five}} bones that form the palm of the hand.",
+                   "Back Extra": "Cue: wrist to fingertip runs carpals, then metacarpals, then phalanges.", "chapter": 6}],
+        "note": "Parker's card. 'the ___ bones that form the wrist' takes short/long/carpal as "
+                "readily as eight, and BOTH numbers are under c1 so neither cues the other.",
+    },
+    {
+        "id": "r34_good_the_slot_label_hint_he_asked_for",
+        "warn": "card-rules #27", "present": False,
+        "cards": [{"Text": "The {{c2::carpals}} are the {{c1::eight::number of bones}} bones that form the wrist, and the {{c2::metacarpals}} are the {{c1::five::number of bones}} bones that form the palm of the hand.",
+                   "Back Extra": "Cue: wrist to fingertip runs carpals, then metacarpals, then phalanges.", "chapter": 6}],
+        "note": "the fix, in his own words: 'a good hint here would be something like "
+                "{{c1::five::number of bones}}'",
+    },
+    {
+        "id": "r34_good_a_unit_after_the_blank_labels_the_slot",
+        "warn": "card-rules #27", "present": False,
+        "cards": [{"Text": "The normal <b>pulse rate</b> for a <b>toddler</b> is {{c1::90 to 150}} beats/min.",
+                   "Back Extra": "Pitfall: a toddler's rate overlaps an infant's at the top of the range.",
+                   "chapter": 7, "needs_human_check": True}],
+        "note": "nothing but a number fits before 'beats/min' — the slot is already labelled",
+    },
+    {
+        "id": "r34_good_a_content_word_before_the_blank_labels_it",
+        "warn": "card-rules #27", "present": False,
+        "cards": [{"Text": "Type {{c1::1}} diabetes mellitus is characterized by {{c2::insulin deficiency}}.",
+                   "Back Extra": "Distinguish: type 2 is insulin resistance, not deficiency.", "chapter": 6}],
+        "note": "an IDENTIFIER, not a count — 'Type' has already named what kind of number this is. "
+                "This is the class that made a first, looser draft fire 1,454 times across the "
+                "collection instead of 4 times in the deck this pipeline owns.",
+    },
+    {
+        "id": "r34_good_a_visible_parallel_number_shows_the_pattern",
+        "warn": "card-rules #27", "present": False,
+        "cards": [{"Text": "The right lung has {{c1::three}} lobes, while the left lung has {{c2::two}} lobes.",
+                   "Back Extra": "Mnemonic: only the right lung has a middle lobe.", "chapter": 6}],
+        "note": "c1 blanked still shows 'two', so the slot announces itself. The SAME card with "
+                "both counts under c1 announces nothing on either card, and does flag.",
+    },
+    {
+        "id": "r34_good_the_stem_asks_in_words",
+        "warn": "card-rules #27", "present": False,
+        "cards": [{"Text": "How many bones form the wrist? {{c1::Eight}}, together called the carpals.",
+                   "Back Extra": "Cue: wrist to fingertip runs carpals, then metacarpals, then phalanges.", "chapter": 6}],
+        "note": "'How many' is the announcement; a hint would be redundant",
+    },
+
     # --- R11: first-letter hints (Parker 2026-07-19, the ::r/::k/::s rant) ---
     {
         "id": "r11_bad_letters_original",

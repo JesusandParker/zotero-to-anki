@@ -278,7 +278,7 @@
   }
  },
  {
-  "Text": "The {{c2::14}} facial bones include the upper jawbones, or {{c1::maxillae}}, the lower jawbone, or {{c1::mandible}}, and the cheek bones, or {{c1::zygomas}}.",
+  "Text": "The {{c2::14::number of bones}} facial bones include the upper jawbones, or {{c1::maxillae}}, the lower jawbone, or {{c1::mandible}}, and the cheek bones, or {{c1::zygomas}}.",
   "Back Extra": "Pitfall: the orbit, or eye socket, is not a bone at all, but a cavity formed where several facial bones join.<br><br>Cue: only the upper third of the nose is bone, the short nasal bones that form the bridge, while the lower two-thirds are flexible cartilage.",
   "source": "emt",
   "segment": 6,
@@ -329,7 +329,7 @@
   "needs_human_check": false
  },
  {
-  "Text": "In the thoracic spine, {{c1::one pair}} of ribs attaches to each vertebra, so the thorax has {{c1::12}} pairs of ribs in all.",
+  "Text": "In the thoracic spine, {{c1::one pair}} of ribs attaches to each vertebra, so the thorax has {{c1::12::number of pairs}} pairs of ribs in all.",
   "Back Extra": "Cue: the thoracic spine is the 12 vertebrae T1 through T12, which is why the rib pairs match it one for one.<br><br>Ex: the thorax those ribs enclose holds the heart, lungs, esophagus, and the great vessels, meaning the aorta and the superior and inferior venae cavae.",
   "source": "emt",
   "segment": 6,
@@ -367,7 +367,7 @@
   }
  },
  {
-  "Text": "The {{c2::carpals}} are the {{c1::eight}} bones that form the wrist, and the {{c2::metacarpals}} are the {{c1::five}} bones that form the palm of the hand.",
+  "Text": "The {{c2::carpals}} are the {{c1::eight::number of bones}} bones that form the wrist, and the {{c2::metacarpals}} are the {{c1::five::number of bones}} bones that form the palm of the hand.",
   "Back Extra": "Distinguish: beyond the metacarpals come the phalanges, with two in the thumb (proximal and distal) and three in each of the other four digits.<br><br>Cue: wrist to fingertip runs carpals, then metacarpals, then phalanges.",
   "source": "emt",
   "segment": 6,
@@ -733,7 +733,7 @@
   "needs_human_check": false
  },
  {
-  "Text": "The right lung has {{c1::three}} lobes — {{c1::upper, middle, and lower}} — while the left lung has {{c1::two}}, an {{c1::upper and a lower}} lobe.",
+  "Text": "The right lung has {{c1::three::number of lobes}} lobes — {{c1::upper, middle, and lower}} — while the left lung has {{c1::two}}, an {{c1::upper and a lower}} lobe.",
   "Back Extra": "Cue: Each lobe divides further into segments.<br><br>Mnemonic: Only the right lung has a middle lobe — that one lobe is the whole difference between the sides.",
   "source": "emt",
   "segment": 6,

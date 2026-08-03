@@ -346,7 +346,10 @@ def open_set_absolute(text):
     contrast that forces the answer.
 
     Exempted: a hinted blank (the drafter constrained the slot), a numeric answer
-    (self-constraining, and already numeric-flagged), a contrast anchor AFTER the blank
+    (self-constraining HERE, because an absolute sentence is not the shape that fails —
+    but see `unlabeled_quantity_blank` below: that exemption was stated too broadly and
+    a whole class of bare counts walked through it until 2026-08-03), a contrast anchor
+    AFTER the blank
     that names the rejected alternative — "'right' and 'left' always refer to the
     {{c1::patient's}} perspective, not the provider's" is forced, not open — and an
     absolute that occurs only inside QUOTED SPEECH, which is dialogue in a vignette, not
@@ -363,6 +366,101 @@ def open_set_absolute(text):
     if not ABSOLUTE.search(visible):
         return False
     return not CONTRAST_TAIL.search(re.sub(r"<[^>]+>", " ", text[m.end():]))
+
+
+# --- R34: the numeric hole inside R16's exemption (added 2026-08-03) ---------------
+# `open_set_absolute` above exempts a numeric answer as "self-constraining, and already
+# numeric-flagged", and R16 records the same reasoning. It has a hole, and Parker walked
+# straight into it: a number is only self-constraining ONCE YOU KNOW THE SLOT WANTS A
+# NUMBER. A bare blank never says so, and an attributive slot takes adjectives just as
+# happily as counts — `the {{c1::eight}} bones that form the wrist` and `the
+# {{c1::short}} bones that form the wrist` are the SAME FRONT.
+
+# A pure quantity: digits or number-words, optionally a range or an approximator. An
+# answer carrying its own unit ("100 to 180 beats/min") is not bare — the unit travels
+# with the answer and the drafter has already said what kind of thing it is.
+BARE_QUANTITY = re.compile(
+    r"^(?:about|approximately|roughly|around|up to|at least|"
+    r"no more than|over|under|nearly)?\s*"
+    r"(?:\d{1,4}(?:\.\d+)?|" + "|".join(NUMWORDS) + r")"
+    r"(?:\s*(?:to|-|–|or)\s*(?:\d{1,4}(?:\.\d+)?|" + "|".join(NUMWORDS) + r"))?\s*$", re.I)
+
+# A UNIT immediately after the blank labels the slot on its own: nothing but a number
+# fits before "beats/min" or "mg". A plain head NOUN does not, which is the entire
+# complaint — "bones" takes short, long, carpal, sesamoid without blinking.
+UNIT_AFTER = re.compile(r"^\s*(?:%|°|mg|mcg|g|kg|mm|cm|mmHg|mL|L|bpm|beats|breaths|"
+                        r"hours?|minutes?|seconds?|days?|weeks?|months?|years?|"
+                        r"pounds?|lbs?|ounces?|oz|mph|miles?|feet|ft|inch(?:es)?|"
+                        r"MHz|watts?|percent|degrees?)\b", re.I)
+
+# A visible word that announces a quantity is being asked for.
+QUANTITY_ASKED = re.compile(r"\b(how many|how much|how long|how old|how often|"
+                            r"number|count|total|percent|percentage|dose|dosage|"
+                            r"ratio|fraction|amount|quantity)\b", re.I)
+
+# The defect is ATTRIBUTIVE — a count standing directly in front of the thing it counts,
+# which is the one position where an adjective fits just as comfortably ("the ___ bones").
+# So the blank only qualifies when a function word puts it in that slot. When a CONTENT
+# word precedes instead, that word has already named what kind of number this is and the
+# slot is labelled: `Type ___ diabetes`, `HPV ___`, `chromosome ___`, `a pKa of ___`,
+# `on day ___`. Anything unrecognized is treated as labelled, so the detector only fires
+# where it can see the attributive frame.
+COUNT_SLOT_LEAD = {"the", "a", "an", "is", "are", "was", "were", "has", "have", "had",
+                   "form", "forms", "contain", "contains", "include", "includes",
+                   "comprise", "comprises", "its", "their", "these", "those", "all",
+                   "only", "about", "approximately", "roughly", "some"}
+# and it must actually modify a noun — a word, not punctuation or the end of the card.
+NOUN_AFTER = re.compile(r"^\s*(?:<[^>]+>\s*)*[a-z][a-z\-]{2,}", re.I)
+
+
+def unlabeled_quantity_blank(text):
+    """R34: a blank whose answer is a bare quantity, with nothing visible telling Parker
+    that a quantity is what the slot wants.
+
+    Parker, 2026-08-03, on the carpals/metacarpals card: *"a good hint here would be
+    something like {{c1::five::number of bones}} — that would make it so i can know what
+    im guessing... just say like 'long bones!' or 'short bones!'"* He is describing the
+    front exactly: `the ___ bones that form the wrist` invites a bone CLASSIFICATION as
+    readily as a count, and he has no way to tell which the card wants.
+
+    Five things count as announcing the slot, and any one of them exempts the blank:
+      * a `::hint` — the canonical fix, and what Parker asked for by name;
+      * a UNIT immediately after the blank (`___ beats/min`, `___ mg`, `___ months`);
+      * a CONTENT WORD immediately before it, which has already named the kind of number
+        — `Type ___ diabetes`, `HPV ___`, `chromosome ___`, `a pKa of ___`, `on day ___`.
+        Only a function word ("the", "are", "form") leaves the slot genuinely attributive;
+      * a quantity word visible in the stem (`how many`, `the number of`, `the dose of`);
+      * another number left VISIBLE in a parallel slot, which shows the pattern —
+        `{{c1::eight}} bones … {{c2::five}} bones` announces itself on both cards, while
+        the same card with BOTH numbers under c1 announces nothing on either.
+
+    Deliberately a WARNING. The judge clears the cases where ordinary English already
+    forces a count ("there are ___ types of shock"), which is a real category this cannot
+    separate mechanically. Scoped to BARE quantities in an ATTRIBUTIVE slot for the same
+    reason R28 is scoped to numeric answers: it is what the evidence covers, and widening
+    it to every unhinted blank would be a war on cards rather than a fix for one."""
+    hits = []
+    for m in CLOZE.finditer(text):
+        if m.group(3):
+            continue                                   # hinted: the slot is labelled
+        ans = re.sub(r"<[^>]+>", " ", m.group(2)).strip()
+        if not BARE_QUANTITY.match(ans):
+            continue
+        after = re.sub(r"<[^>]+>", " ", text[m.end():]).lstrip()
+        if UNIT_AFTER.match(after):
+            continue                                   # "___ beats/min": only a number fits
+        if not NOUN_AFTER.match(after):
+            continue                                   # modifies nothing; not a count slot
+        before = re.sub(r"<[^>]+>", " ", text[:m.start()]).split()
+        if not before or before[-1].strip("(,;:—–-").lower() not in COUNT_SLOT_LEAD:
+            continue                                   # a content word already labelled it
+        stem = visible_stem(text, m.group(1))
+        if QUANTITY_ASKED.search(stem):
+            continue                                   # the stem asks in words
+        if re.search(r"\d|\b(?:" + "|".join(NUMWORDS) + r")\b", stem, re.I):
+            continue                                   # a visible number in a parallel slot
+        hits.append((m.group(1), ans))
+    return hits
 
 
 def fragment_clozed_list(text):
@@ -715,6 +813,13 @@ def per_card(idx, c, strict_html=True):
         warn.append(f"#{idx}: an absolute/prohibition sentence with ONE unhinted blank — "
                     f"many true things may fit it; add a slot-label ::hint or a visible "
                     f"contrast that forces exactly one answer (card-rules #21)")
+    # a bare number in a slot that never says it wants a number (R34 — closes the
+    # "numeric answers are self-constraining" exemption R16 above claims)
+    for g, ans in unlabeled_quantity_blank(t):
+        warn.append(f"#{idx}: cloze c{g} hides the bare quantity '{ans}' with nothing visible "
+                    f"saying a quantity is wanted — an attributive slot takes an adjective "
+                    f"just as readily ('the ___ bones' → short? long? eight?); add a "
+                    f"slot-label ::hint naming what is counted (card-rules #27)")
     # an announced list whose items are visible and only a filler word is clozed (R17)
     if fragment_clozed_list(t):
         warn.append(f"#{idx}: the rows of this list are VISIBLE and only a word inside each "

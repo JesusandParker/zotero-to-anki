@@ -140,10 +140,58 @@ def is_figure_only_change(before, after, source_id):
     return residue(before) == residue(after)
 
 
+CLOZE_SPAN = re.compile(r"\{\{c(\d+)::(.*?)(?:::(.*?))?\}\}")
+
+
+def is_hint_only_change(before, after):
+    """True if the ONLY difference is slot-label `::hint`s being ADDED to cloze spans.
+
+    The third verified predicate, and it exists for the same reason the second one
+    does: card-rules #27 (R34) repairs a whole class of live cards by adding a hint
+    that names what the blank wants, and every card predating the store is
+    `unknown` — so without this the rule Parker asked to have applied "for all the
+    cards" could not be applied to any of them.
+
+    Deliberately DIRECTIONAL. Adding a hint where there was none is licensed;
+    changing or removing an existing one is not, because a hint may be Parker's own
+    and there is no prefix to tell his apart from ours (the trick that makes
+    `is_figure_only_change` able to protect his pasted images). The repair never
+    needs to touch an existing hint anyway — a hinted blank is already exempt from
+    the rule — so the safe direction is also the sufficient one.
+
+    Everything else must be byte-identical: the prose between the spans, and every
+    span's cloze number and answer. If a single character of his content moved, the
+    residue differs and the guard blocks, exactly as it should.
+    """
+    b, a = list(CLOZE_SPAN.finditer(before or "")), list(CLOZE_SPAN.finditer(after or ""))
+    if len(b) != len(a):
+        return False
+
+    def skeleton(s, ms):                       # the card with every hint removed
+        out, pos = [], 0
+        for m in ms:
+            out.append(s[pos:m.start()])
+            out.append("{{c%s::%s}}" % (m.group(1), m.group(2)))
+            pos = m.end()
+        out.append(s[pos:])
+        return "".join(out)
+
+    if skeleton(before or "", b) != skeleton(after or "", a):
+        return False
+    for mb, ma in zip(b, a):
+        if mb.group(3) == ma.group(3):
+            continue                           # untouched
+        if mb.group(3) is None and ma.group(3):
+            continue                           # a hint ADDED where there was none
+        return False                           # changed or removed: not licensed
+    return True
+
+
 def guard(source, note_id, live_fields, new_fields, safe_transform=False, store=None,
-          figure_only=False):
+          figure_only=False, hint_only=False):
     """(ok, report). ok is False when a write would clobber a field this system
-    did not author. `safe_transform` / `figure_only` are VERIFIED, not trusted."""
+    did not author. `safe_transform` / `figure_only` / `hint_only` are VERIFIED,
+    not trusted."""
     status = check(source, note_id, {k: live_fields.get(k, "") for k in new_fields}, store)
     blocked = []
     for name, new in new_fields.items():
@@ -152,6 +200,8 @@ def guard(source, note_id, live_fields, new_fields, safe_transform=False, store=
         if safe_transform and is_whitespace_only(live_fields.get(name, ""), new):
             continue
         if figure_only and is_figure_only_change(live_fields.get(name, ""), new, source):
+            continue
+        if hint_only and is_hint_only_change(live_fields.get(name, ""), new):
             continue
         blocked.append((name, status[name]))
     if not blocked:
@@ -234,9 +284,32 @@ def self_test():
     eq("figure_only does not leak into an ordinary write",
        guard(S, 99, {"Back Extra": HIS}, {"Back Extra": "something else"},
              figure_only=True, store=store)[0], False)
+    # hint_only: adding a card-rules #27 slot label and nothing else (R34)
+    BARE = "The {{c2::carpals}} are the {{c1::eight}} bones that form the wrist."
+    HINTED = ("The {{c2::carpals}} are the {{c1::eight::number of bones}} bones "
+              "that form the wrist.")
+    eq("hint_only allows ADDING a slot label on an unknown field",
+       guard(S, 99, {"Text": BARE}, {"Text": HINTED}, hint_only=True, store=store)[0], True)
+    eq("hint_only does NOT license REMOVING a hint (it may be Parker's)",
+       guard(S, 99, {"Text": HINTED}, {"Text": BARE}, hint_only=True, store=store)[0], False)
+    eq("hint_only does NOT license REWRITING an existing hint",
+       guard(S, 99, {"Text": HINTED},
+             {"Text": HINTED.replace("number of bones", "how many")},
+             hint_only=True, store=store)[0], False)
+    eq("hint_only does NOT license a prose change riding along",
+       guard(S, 99, {"Text": BARE},
+             {"Text": HINTED.replace("form the wrist", "form the ANKLE")},
+             hint_only=True, store=store)[0], False)
+    eq("hint_only does NOT license changing the ANSWER",
+       guard(S, 99, {"Text": BARE},
+             {"Text": HINTED.replace("{{c1::eight::", "{{c1::seven::")},
+             hint_only=True, store=store)[0], False)
+    eq("hint_only does not leak into an ordinary write",
+       guard(S, 99, {"Text": BARE}, {"Text": "something else"},
+             hint_only=True, store=store)[0], False)
     for m in fails:
         print("FAIL " + m)
-    print(f"{13 - len(fails)}/13 authorship guard checks pass")
+    print(f"{19 - len(fails)}/19 authorship guard checks pass")
     return 1 if fails else 0
 
 
