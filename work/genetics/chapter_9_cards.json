@@ -61,7 +61,8 @@
   "verified_by": "agent, read from page text this run",
   "needs_human_check": false,
   "visual_source": null,
-  "image": null
+  "image": "figures/study/FIGURE_9_1.jpg",
+  "image_side": "back"
  },
  {
   "Text": "{{c1::Oswald Avery, Colin MacLeod, and Maclyn McCarty::three researchers}} showed that {{c2::DNA::molecule}} is the only component of Type IIIS cells able to transform Type IIR cells into Type IIIS.",
@@ -77,7 +78,8 @@
   "verified_by": null,
   "needs_human_check": false,
   "visual_source": null,
-  "image": null
+  "image": "figures/study/FIGURE_9_2.jpg",
+  "image_side": "back"
  },
  {
   "Text": "To rule out protein contamination of their DNA extract, Avery's team used specific enzymes to destroy one candidate molecule at a time: transforming activity survived {{c1::protease}} and {{c1::RNase}} treatment but was eliminated entirely by {{c1::DNase}}.",
@@ -94,7 +96,8 @@
   "verified_by": null,
   "needs_human_check": false,
   "visual_source": null,
-  "image": null
+  "image": "figures/study/FIGURE_9_2.jpg",
+  "image_side": "back"
  },
  {
   "Text": "A cell-free bacterial extract carries genetic information of unknown molecular identity. Treating it with DNase destroys the activity, while protease and RNase leave it intact. The information is stored in {{c1::DNA::molecule}}.",
@@ -111,7 +114,8 @@
   "verified_by": null,
   "needs_human_check": false,
   "visual_source": null,
-  "image": null
+  "image": "figures/study/FIGURE_9_2.jpg",
+  "image_side": "back"
  },
  {
   "Text": "Proof that DNA is the genetic material of bacteriophage T2 was published in {{c1::1952::year}} by {{c1::Alfred Hershey and Martha Chase::two researchers}}.",
@@ -138,7 +142,7 @@
    ],
    "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
   },
-  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_3.jpg",
+  "image": "figures/study/FIGURE_9_3.jpg",
   "image_side": "back"
  },
  {
@@ -166,7 +170,7 @@
    ],
    "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
   },
-  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_3.jpg",
+  "image": "figures/study/FIGURE_9_3.jpg",
   "image_side": "back"
  },
  {
@@ -195,7 +199,7 @@
    ],
    "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
   },
-  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_3.jpg",
+  "image": "figures/study/FIGURE_9_3.jpg",
   "image_side": "back"
  },
  {
@@ -223,7 +227,7 @@
    ],
    "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
   },
-  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_3.jpg",
+  "image": "figures/study/FIGURE_9_3.jpg",
   "image_side": "back"
  },
  {
@@ -241,7 +245,8 @@
   "verified_by": null,
   "needs_human_check": false,
   "visual_source": null,
-  "image": null
+  "image": "figures/study/FIGURE_9_3.jpg",
+  "image_side": "back"
  },
  {
   "Text": "Most living organisms store their genetic information in {{c1::DNA}}; some viruses instead store it in {{c2::RNA}}.",
@@ -268,7 +273,7 @@
    ],
    "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
   },
-  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_4.jpg",
+  "image": "figures/study/FIGURE_9_4.jpg",
   "image_side": "back"
  },
  {
@@ -285,7 +290,8 @@
   "verified_by": "agent, read from page text this run",
   "needs_human_check": false,
   "visual_source": null,
-  "image": null
+  "image": "figures/study/FIGURE_9_4.jpg",
+  "image_side": "back"
  },
  {
   "Text": "Fraenkel-Conrat reconstituted hybrid TMV particles from the {{c1::protein coat}} of one strain and the {{c1::RNA}} of a different strain; the progeny viruses were always identical to the strain that donated the {{c2::RNA::protein coat or RNA}}.",
@@ -312,7 +318,7 @@
    ],
    "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
   },
-  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_4.jpg",
+  "image": "figures/study/FIGURE_9_4.jpg",
   "image_side": "back"
  },
  {
@@ -604,7 +610,7 @@
   "verified_by": null,
   "needs_human_check": false,
   "visual_source": null,
-  "image": null,
+  "image": "figures/study/FIGURE_9_3.jpg",
   "kind": "lexicon",
   "lexicon": {
    "term": "Bacteriophage T2",
@@ -613,7 +619,8 @@
     "method": "glossary",
     "page": "607"
    }
-  }
+  },
+  "image_side": "back"
  },
  {
   "Text": "<b>Tobacco mosaic virus (TMV)</b> is {{c1::a plant virus: RNA in a protein coat}}.",
@@ -640,7 +647,7 @@
    ],
    "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
   },
-  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_4.jpg",
+  "image": "figures/study/FIGURE_9_4.jpg",
   "kind": "lexicon",
   "lexicon": {
    "term": "tobacco mosaic virus (TMV)",

@@ -1,1 +1,737 @@
-111
+[
+ {
+  "Text": "Chromosomes are composed of two types of macromolecules: {{c1::nucleic acids}} and {{c1::proteins}}.",
+  "Back Extra": "Why: the classic 1940s–50s experiments (Avery's transformation work, Hershey–Chase) established that the genetic information lives in the nucleic acids, not the proteins.<br><br>Cue: the two kinds of nucleic acid are DNA and RNA.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   1
+  ],
+  "block": "A_proof_transformation",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In Griffith's experiment, mice injected with a mix of heat-killed virulent Type IIIS and living avirulent Type IIR pneumococci {{c1::died of pneumonia}}, and {{c1::living Type IIIS}} cells were recovered from their carcasses.",
+  "Back Extra": "Cue: neither part alone kills — the IIIS cells are dead and the living IIR strain is avirulent.<br><br>Why: something heritable must have passed from the dead IIIS cells into the living IIR cells.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   6
+  ],
+  "block": "A_proof_transformation",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The unknown agent from heat-killed Type IIIS cells that converted living Type IIR cells into Type IIIS was named the {{c1::“transforming principle”::historic term}} — the conversion changed the cells' {{c2::hereditary material::what kind of material}}.",
+  "Back Extra": "Distinguish: the conversion is genetic, not a temporary change in appearance — the transformed cells breed true as Type IIIS.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   9
+  ],
+  "block": "A_proof_transformation",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In {{c1::1931::year}}, {{c1::Richard Sia and Martin Dawson::two researchers}} showed that pneumococcal transformation happens {{c2::in vitro — the mice played no role::where}}.",
+  "Back Extra": "Why: Griffith's original experiment ran inside mice; showing the same conversion in a culture dish proved the animal contributed nothing.<br><br>Cue: their in vitro system set the stage for Avery, MacLeod, and McCarty.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   10
+  ],
+  "block": "A_proof_transformation",
+  "numeric": false,
+  "verified_against": "p212",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": "figures/study/FIGURE_9_1.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::Oswald Avery, Colin MacLeod, and Maclyn McCarty::three researchers}} showed that {{c2::DNA::molecule}} is the only component of Type IIIS cells able to transform Type IIR cells into Type IIIS.",
+  "Back Extra": "Distinguish: Griffith discovered THAT transformation happens; Avery's team identified WHAT does the transforming.<br><br>Cue: the purified transforming extract kept working after protein and RNA were destroyed — only destroying DNA stopped it.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   12
+  ],
+  "block": "A_proof_transformation",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": "figures/study/FIGURE_9_2.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "To rule out protein contamination of their DNA extract, Avery's team used specific enzymes to destroy one candidate molecule at a time: transforming activity survived {{c1::protease}} and {{c1::RNase}} treatment but was eliminated entirely by {{c1::DNase}}.",
+  "Back Extra": "Why: each enzyme degrades exactly one macromolecule, so the treatment that kills the activity names the molecule carrying it.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   13,
+   17
+  ],
+  "block": "A_proof_transformation",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": "figures/study/FIGURE_9_2.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "A cell-free bacterial extract carries genetic information of unknown molecular identity. Treating it with DNase destroys the activity, while protease and RNase leave it intact. The information is stored in {{c1::DNA::molecule}}.",
+  "Back Extra": "Cue: the logic runs backward from destruction — whichever single enzyme abolishes the activity, its substrate is the carrier.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   13,
+   17
+  ],
+  "block": "A_proof_transformation",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": "figures/study/FIGURE_9_2.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Proof that DNA is the genetic material of bacteriophage T2 was published in {{c1::1952::year}} by {{c1::Alfred Hershey and Martha Chase::two researchers}}.",
+  "Back Extra": "Cue: Hershey went on to win the 1969 Nobel Prize.<br><br>Distinguish: Avery's team proved it by transformation in pneumococcus; Hershey and Chase proved it by radioactive labeling of a phage.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   18
+  ],
+  "block": "B_hershey_chase",
+  "numeric": false,
+  "verified_against": "p213",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "214"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_3.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "figures/study/FIGURE_9_3.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "The Hershey–Chase labeling strategy exploits one chemical difference: {{c1::phosphorus::element}} is found in DNA but virtually absent from protein, while {{c1::sulfur::element}} is found in protein but absent from DNA.",
+  "Back Extra": "Why: with an element unique to each macromolecule, a radioactive isotope of that element tags one molecule cleanly.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   21
+  ],
+  "block": "B_hershey_chase",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "214"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_3.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "figures/study/FIGURE_9_3.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "In the Hershey–Chase experiment, growing phage in medium with radioactive {{c1::³²P::isotope}} labeled the phage {{c2::DNA}}, and growing them with radioactive {{c1::³⁵S::isotope}} labeled the phage {{c2::protein coats}}.",
+  "Back Extra": "Why: DNA contains phosphorus but no sulfur; protein contains sulfur but virtually no phosphorus.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   22,
+   21
+  ],
+  "block": "B_hershey_chase",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "214"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_3.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "figures/study/FIGURE_9_3.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Hershey and Chase found that the phage's {{c1::DNA}} entered the E. coli cell, while most of the phage's {{c1::protein}} remained adsorbed to the outside of the cell.",
+  "Back Extra": "Why: progeny viruses are assembled inside the cell, so whatever entered must carry the instructions for building them — the genetic material is the DNA.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   20
+  ],
+  "block": "B_hershey_chase",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "214"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_3.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_3.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "In the Hershey–Chase experiment, shearing ³⁵S-labeled infected cells in a blender removed most of the radioactivity {{c1::without affecting::with or without affecting}} progeny phage production.",
+  "Back Extra": "Why: the sheared-off material was empty protein coats — reproduction runs entirely on the DNA already inside the cell.<br><br>Distinguish: with ³²P-labeled phage, essentially all the radioactivity stayed inside the cells and could not be sheared away.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   22,
+   20
+  ],
+  "block": "B_hershey_chase",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": "figures/study/FIGURE_9_3.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Most living organisms store their genetic information in {{c1::DNA}}; some viruses instead store it in {{c2::RNA}}.",
+  "Back Extra": "Cue: those viruses contain RNA and proteins but no DNA at all.<br><br>Why: every organism studied stores its genetic information in a nucleic acid — never in protein.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   23
+  ],
+  "block": "C_rna_viruses",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "215"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_4.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.4"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "figures/study/FIGURE_9_4.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "RNA was established as the genetic material of RNA viruses by the {{c1::reconstitution}} experiment of {{c1::Heinz Fraenkel-Conrat::researcher}} and coworkers, published in {{c1::1957::year}}.",
+  "Back Extra": "Cue: the experiment mixed and matched the two components of tobacco mosaic virus — protein coat from one strain, RNA from another.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   24
+  ],
+  "block": "C_rna_viruses",
+  "numeric": false,
+  "verified_against": "p215",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": "figures/study/FIGURE_9_4.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Fraenkel-Conrat reconstituted hybrid TMV particles from the {{c1::protein coat}} of one strain and the {{c1::RNA}} of a different strain; the progeny viruses were always identical to the strain that donated the {{c2::RNA::protein coat or RNA}}.",
+  "Back Extra": "Why: offspring follow the nucleic acid, not the coat — so TMV's genes are its RNA.<br><br>Cue: TMV contains no DNA at all, just one RNA molecule in a protein coat.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   28
+  ],
+  "block": "C_rna_viruses",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "answer_in_stem cleared: c2 is a forced choice between the two components the stem must name; recall is which one, not the word",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "215"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_4.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.4"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "figures/study/FIGURE_9_4.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "A <b>chromosome</b> is {{c1::one packaged unit of a cell's DNA}}.",
+  "Back Extra": "Ex: “<b>Chromosomes</b> are composed of two types of large organic molecules (macromolecules): nucleic acids and proteins.”<br><br>Distinguish: chromatin is the DNA–protein material in its loose working form; a chromosome is the organized, countable package.<br><br>Formal: “darkly staining nucleoprotein bodies observed in cells during division; each carries a linear array of genes.”",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   0
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "chromosome",
+   "term_key": "chromosom",
+   "anchor": {
+    "method": "glossary",
+    "page": "609"
+   }
+  }
+ },
+ {
+  "Text": "A <b>nucleic acid</b> is {{c1::an information-carrying macromolecule built of nucleotide chains}}.",
+  "Back Extra": "Ex: “Chromosomes are composed of two types of large organic molecules: <b>nucleic acids</b> and proteins.”<br><br>Cue: the two kinds are DNA and RNA.<br><br>Formal: “a macromolecule composed of phosphoric acid, pentose sugar, and organic bases.”",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   2
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "nucleic acids",
+   "term_key": "nucl_acid",
+   "anchor": {
+    "method": "glossary",
+    "page": "619"
+   }
+  }
+ },
+ {
+  "Text": "A <b>protein</b> is {{c1::a macromolecule made of amino-acid (polypeptide) chains}}.",
+  "Back Extra": "Ex: “Chromosomes are composed of two types of large organic molecules: nucleic acids and <b>proteins</b>.”<br><br>Distinguish: in chromosomes, proteins do the packaging — the nucleic acids carry the genetic information.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   3
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "proteins",
+   "term_key": "protein",
+   "anchor": {
+    "method": "glossary",
+    "page": "622"
+   }
+  }
+ },
+ {
+  "Text": "<b>DNA (deoxyribonucleic acid)</b> is {{c1::the usually double-stranded nucleic acid storing genetic information}}.",
+  "Back Extra": "Ex: “There are two types of nucleic acids: <b>deoxyribonucleic acid (DNA)</b> and ribonucleic acid (RNA).”<br><br>Distinguish: RNA is usually single-stranded, uses the sugar ribose, and swaps thymine for uracil.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   4
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "deoxyribonucleic acid (DNA)",
+   "term_key": "deoxyribonucl_acid_dna",
+   "anchor": {
+    "method": "glossary",
+    "page": "611"
+   }
+  }
+ },
+ {
+  "Text": "<b>RNA (ribonucleic acid)</b> is {{c1::a usually single-stranded nucleic acid}}.",
+  "Back Extra": "Ex: “There are two types of nucleic acids: deoxyribonucleic acid (DNA) and <b>ribonucleic acid (RNA)</b>.”<br><br>Distinguish: DNA is double-stranded, uses deoxyribose, and keeps thymine where RNA uses uracil.<br><br>Cue: in some viruses, RNA — not DNA — is the genetic material.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   5
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "ribonucleic acid (RNA)",
+   "term_key": "ribonucl_acid_rna",
+   "anchor": {
+    "method": "glossary",
+    "page": "623"
+   }
+  }
+ },
+ {
+  "Text": "In the pneumococcus transformation experiments, <b>Type IIIS</b> is {{c1::the virulent, capsule-bearing strain}}.",
+  "Back Extra": "Ex: “heat-killed <b>Type IIIS</b> bacteria (virulent when alive)…”<br><br>Distinguish: Type IIR = no capsule, avirulent. The capsule is what makes IIIS deadly — and what shows up as smooth colonies.<br><br>Cue: S strains killed the mice; R strains alone did not.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   7
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "Type IIIS",
+   "term_key": "type_iiis",
+   "anchor": {
+    "method": "in_source",
+    "page": "212"
+   }
+  }
+ },
+ {
+  "Text": "In the pneumococcus transformation experiments, <b>Type IIR</b> is {{c1::the avirulent strain lacking a capsule}}.",
+  "Back Extra": "Ex: “…and living <b>Type IIR</b> bacteria (avirulent) into mice…”<br><br>Distinguish: Type IIIS = capsule, virulent. IIR is the safe strain that the transforming principle converts into a killer.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   8
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "Type IIR",
+   "term_key": "type_iir",
+   "anchor": {
+    "method": "in_source",
+    "page": "212"
+   }
+  }
+ },
+ {
+  "Text": "<b>In vitro</b> means {{c1::“within glass” — outside a living organism}}.",
+  "Back Extra": "Ex: “In 1931, Richard Sia and Martin Dawson analyzed this genetic transformation <b>in vitro</b>, and showed that the mice played no role.”<br><br>Parts: in (in) + vitro (glass) — done in labware.<br><br>Distinguish: in vivo = inside the living organism.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   11
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "in vitro",
+   "term_key": "in_vitr",
+   "anchor": {
+    "method": "glossary",
+    "page": "616"
+   }
+  }
+ },
+ {
+  "Text": "<b>Deoxyribonuclease (DNase)</b> is {{c1::an enzyme that cuts up DNA}}.",
+  "Back Extra": "Ex: “…treated with the enzymes (1) <b>deoxyribonuclease (DNase)</b>, which degrades DNA…”<br><br>Parts: deoxyribo- (DNA's sugar) + nucle- (nucleic acid) + -ase (enzyme).<br><br>Formal: “any enzyme that hydrolyzes DNA.”",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   14
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "deoxyribonuclease (DNase)",
+   "term_key": "deoxyribonucleas_dnas",
+   "anchor": {
+    "method": "glossary",
+    "page": "611"
+   }
+  }
+ },
+ {
+  "Text": "<b>Ribonuclease (RNase)</b> is {{c1::an enzyme that cuts up RNA}}.",
+  "Back Extra": "Ex: “…(2) <b>ribonuclease (RNase)</b>, which degrades RNA…”<br><br>Parts: ribo- (RNA's sugar) + nucle- + -ase (enzyme).<br><br>Formal: “any enzyme that hydrolyzes RNA.”",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   15
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "ribonuclease (RNase)",
+   "term_key": "ribonucleas_rnas",
+   "anchor": {
+    "method": "glossary",
+    "page": "623"
+   }
+  }
+ },
+ {
+  "Text": "A <b>protease</b> is {{c1::an enzyme that cuts up proteins}}.",
+  "Back Extra": "Ex: “…or (3) <b>protease</b>, which degrades proteins…”<br><br>Parts: prote- (protein) + -ase (enzyme) — the -ase family names the enzyme by its target.<br><br>Formal: “any enzyme that hydrolyzes proteins.”",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   16
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "protease",
+   "term_key": "proteas",
+   "anchor": {
+    "method": "glossary",
+    "page": "622"
+   }
+  }
+ },
+ {
+  "Text": "<b>Bacteriophage T2</b> is {{c1::a virus that infects E. coli bacteria}}.",
+  "Back Extra": "Ex: “<b>Bacteriophage T2</b> infects the common colon bacterium E. coli and is similar to bacteriophage T4.”<br><br>Parts: bacterio- (bacteria) + -phage (eater).<br><br>Cue: about 50% DNA and 50% protein — the two-part composition that made the Hershey–Chase labeling possible.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   19
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": "figures/study/FIGURE_9_3.jpg",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "Bacteriophage T2",
+   "term_key": "bacteriophag_t2",
+   "anchor": {
+    "method": "glossary",
+    "page": "607"
+   }
+  },
+  "image_side": "back"
+ },
+ {
+  "Text": "<b>Tobacco mosaic virus (TMV)</b> is {{c1::a plant virus: RNA in a protein coat}}.",
+  "Back Extra": "Ex: “Their simple, but definitive, experiment was done with <b>tobacco mosaic virus (TMV)</b>, a small virus composed of a single molecule of RNA encapsulated in a protein coat.”<br><br>Cue: no DNA at all — which is why TMV could prove RNA can be genetic material.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   25
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "215"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_4.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.4"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "figures/study/FIGURE_9_4.jpg",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "tobacco mosaic virus (TMV)",
+   "term_key": "tobacc_mosa_viru_tmv",
+   "anchor": {
+    "method": "in_source",
+    "page": "215"
+   }
+  },
+  "image_side": "back"
+ },
+ {
+  "Text": "<b>Phenotypically</b> means {{c1::in terms of observable traits}}.",
+  "Back Extra": "Ex: “…the progeny viruses were always <b>phenotypically</b> and genotypically identical to the parent strain from which the RNA had been obtained.”<br><br>Parts: pheno- (to show/appear) + -typically.<br><br>Distinguish: genotypically = in terms of genetic makeup — what the genes say, not what shows.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   26
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "phenotypically",
+   "term_key": "phenotypicall",
+   "anchor": {
+    "method": "glossary",
+    "page": "621"
+   }
+  }
+ },
+ {
+  "Text": "<b>Genotypically</b> means {{c1::in terms of genetic makeup}}.",
+  "Back Extra": "Ex: “…the progeny viruses were always phenotypically and <b>genotypically</b> identical to the parent strain from which the RNA had been obtained.”<br><br>Parts: geno- (gene) + -typically.<br><br>Distinguish: phenotypically = in terms of what is observable — the traits the genes produce.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   27
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "genotypically",
+   "term_key": "genotypicall",
+   "anchor": {
+    "method": "glossary",
+    "page": "614"
+   }
+  }
+ },
+ {
+  "Text": "<b>Chromatin</b> is {{c1::the DNA–protein complex that chromosomes are made of}}.",
+  "Back Extra": "Ex: “…studies of isolated <b>chromatin</b> — the complex of DNA, proteins, and other material present in nuclei…”<br><br>Distinguish: a chromosome is the organized package; chromatin is the material it is packaged from. Heterochromatin = tightly packed, euchromatin = loose.<br><br>Formal: “the complex of DNA and proteins in eukaryotic chromosomes.”",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   29
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": "p225 context + glossary p609",
+  "verified_by": "agent, verified against page text and glossary quote this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "chromatin",
+   "term_key": "chromatin",
+   "anchor": {
+    "method": "glossary",
+    "page": "609"
+   }
+  }
+ }
+]
