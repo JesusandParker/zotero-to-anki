@@ -311,11 +311,21 @@ def main():
 
     items, page_cache = [], {}
     for page_label, position, text, comment, color, sort, atype in rows:
-        try:
-            pnum = int(re.sub(r"[^0-9]", "", str(page_label)))
-        except (TypeError, ValueError):
-            pnum = None
-        if lo is not None and (pnum is None or not (lo <= pnum <= hi)):
+        # Zotero's pageLabel is the PRINTED page number; position.pageIndex is the
+        # 0-based PHYSICAL page. Everything in this pipeline speaks physical pages
+        # (segment maps, pdftotext, render_page, the figure stages), so derive the
+        # physical page from pageIndex and keep the label for display only. The EMT
+        # book's zero offset made the two identical and hid this distinction; the
+        # genetics book (printed = physical - 22) is what exposed it.
+        pidx, _ = parse_rects(position)
+        if pidx is not None:
+            phys = int(pidx) + 1
+        else:
+            try:
+                phys = int(re.sub(r"[^0-9]", "", str(page_label)))
+            except (TypeError, ValueError):
+                phys = None
+        if lo is not None and (phys is None or not (lo <= phys <= hi)):
             continue
 
         kind = KIND.get(atype, "text")
@@ -328,9 +338,9 @@ def main():
         if is_lex and kind != "text":
             items.append({
                 "source": src["id"], "kind": "unsupported_purple", "purple_kind": kind,
-                "segment": S.segment_of_page(src, page_label)[0],
-                "segment_name": S.segment_of_page(src, page_label)[1],
-                "page": page_label, "color": color, "highlight": note or "",
+                "segment": S.segment_of_page(src, phys)[0],
+                "segment_name": S.segment_of_page(src, phys)[1],
+                "page": phys, "page_label": str(page_label), "color": color, "highlight": note or "",
                 "context": "", "grounding": "UNSUPPORTED",
                 "list_lead_in": False, "user_comment": note, "sort": sort,
             })
@@ -343,9 +353,9 @@ def main():
             page_index, rect = parse_rects(position)
             items.append({
                 "source": src["id"], "kind": "image",
-                "segment": S.segment_of_page(src, page_label)[0],
-                "segment_name": S.segment_of_page(src, page_label)[1],
-                "page": page_label, "color": color, "highlight": "",
+                "segment": S.segment_of_page(src, phys)[0],
+                "segment_name": S.segment_of_page(src, phys)[1],
+                "page": phys, "page_label": str(page_label), "color": color, "highlight": "",
                 "context": "", "grounding": "IMAGE",
                 "crop": {"page_index": page_index, "rect": rect},
                 "list_lead_in": False, "user_comment": note, "sort": sort,
@@ -357,17 +367,17 @@ def main():
         if kind == "note":
             items.append({
                 "source": src["id"], "kind": "note",
-                "segment": S.segment_of_page(src, page_label)[0],
-                "segment_name": S.segment_of_page(src, page_label)[1],
-                "page": page_label, "color": color, "highlight": note or "",
+                "segment": S.segment_of_page(src, phys)[0],
+                "segment_name": S.segment_of_page(src, phys)[1],
+                "page": phys, "page_label": str(page_label), "color": color, "highlight": note or "",
                 "context": "", "grounding": "NOTE",
                 "list_lead_in": False, "user_comment": note, "sort": sort,
             })
             continue
 
-        if page_label not in page_cache:
-            page_cache[page_label] = page_text(pdf, page_label)
-        page_src = page_cache[page_label]
+        if phys not in page_cache:
+            page_cache[phys] = page_text(pdf, phys)
+        page_src = page_cache[phys]
         # A list lead-in whose enumeration spills onto the NEXT page would be truncated
         # if we only read one page, so append the next page. (This is the real cause of
         # the EMT Ch3 "7 vs 8 factors" bug.) A caption title gets the same treatment: a
@@ -379,10 +389,10 @@ def main():
         want = 0 if is_lex else pages_forward(text)
         if want:
             try:
-                base = int(re.sub(r"[^0-9]", "", str(page_label)))
+                base = phys
                 added = 0
                 for step in range(1, want + 1):
-                    nxt = str(base + step)
+                    nxt = base + step
                     if nxt not in page_cache:
                         page_cache[nxt] = page_text(pdf, nxt)
                     body = page_cache[nxt]
@@ -398,7 +408,7 @@ def main():
                 pass
 
         status, ctx = locate_context(text, page_src)
-        seg_n, seg_name = S.segment_of_page(src, page_label)
+        seg_n, seg_name = S.segment_of_page(src, phys)
 
         # ---- the LEXICON lane: a purple word -> a plain-language definition card.
         # The context is kept for the SENSE CHECK and the card's `Ex:` line, NOT as the
@@ -422,12 +432,12 @@ def main():
             items.append({
                 "source": src["id"], "kind": "lexicon",
                 "segment": seg_n, "segment_name": seg_name,
-                "page": page_label, "color": color,
+                "page": phys, "page_label": str(page_label), "color": color,
                 "highlight": norm(text), "context": ctx,
                 "term_raw": norm(text), "term": term, "term_key": L.term_key(term),
                 "flags": {"multiword": len(words) > 4, "midword": midword},
                 "grounding": status, "content": "FULL",
-                "page_text_chars": len(page_cache.get(page_label, "")),
+                "page_text_chars": len(page_cache.get(phys, "")),
                 "next_page_text_chars": None,
                 "list_lead_in": False, "user_comment": note, "sort": sort,
             })
@@ -438,7 +448,8 @@ def main():
             "kind": "text",
             "segment": seg_n,
             "segment_name": seg_name,
-            "page": page_label,
+            "page": phys,
+            "page_label": str(page_label),
             "color": color,
             "highlight": norm(text),
             "context": ctx,
@@ -476,6 +487,19 @@ def main():
             or it.get("content") in ("CAPTION_ONLY", "SPARSE_PAGE")
             or it.get("grounding") == "NOT_FOUND"
         )
+
+    # Make a printed-vs-physical offset visible whenever one exists, so nobody ever
+    # again reads "0 marked items" at face value on an offset book.
+    offsets = set()
+    for it in items:
+        try:
+            offsets.add(int(it["page"]) - int(re.sub(r"[^0-9]", "", it.get("page_label", ""))))
+        except (TypeError, ValueError):
+            pass
+    if offsets - {0}:
+        off = ", ".join(f"+{o}" if o > 0 else str(o) for o in sorted(offsets))
+        print(f"  note: printed page labels differ from physical pages (offset {off}); "
+              f"physical pages are used throughout, labels kept in page_label.")
 
     out = args.out or work_path(src, label, "highlights")
     os.makedirs(os.path.dirname(out), exist_ok=True)

@@ -1,0 +1,151 @@
+{
+ "source": "genetics",
+ "noun": "Chapter",
+ "note": "Page numbers are PHYSICAL PDF pages.",
+ "segments": [
+  {
+   "n": 1,
+   "name": "The Science of Genetics",
+   "start": 23,
+   "end": 39
+  },
+  {
+   "n": 2,
+   "name": "Cellular Reproduction",
+   "start": 40,
+   "end": 61
+  },
+  {
+   "n": 3,
+   "name": "Mendelism: The Basic Principles of Inheritance",
+   "start": 62,
+   "end": 83
+  },
+  {
+   "n": 4,
+   "name": "Extensions of Mendelism",
+   "start": 84,
+   "end": 109
+  },
+  {
+   "n": 5,
+   "name": "The Chromosomal Basis of Mendelism",
+   "start": 110,
+   "end": 130
+  },
+  {
+   "n": 6,
+   "name": "Variation in Chromosome Number and Structure",
+   "start": 131,
+   "end": 154
+  },
+  {
+   "n": 7,
+   "name": "Linkage, Crossing Over, and Chromosome Mapping in Eukaryotes",
+   "start": 155,
+   "end": 182
+  },
+  {
+   "n": 8,
+   "name": "The Genetics of Bacteria and Their Viruses",
+   "start": 183,
+   "end": 210
+  },
+  {
+   "n": 9,
+   "name": "DNA and the Molecular Structure of Chromosomes",
+   "start": 211,
+   "end": 238
+  },
+  {
+   "n": 10,
+   "name": "Replication of DNA and Chromosomes",
+   "start": 239,
+   "end": 273
+  },
+  {
+   "n": 11,
+   "name": "Transcription and RNA Processing",
+   "start": 274,
+   "end": 301
+  },
+  {
+   "n": 12,
+   "name": "Translation and the Genetic Code",
+   "start": 302,
+   "end": 334
+  },
+  {
+   "n": 13,
+   "name": "Mutation, DNA Repair, and Recombination",
+   "start": 335,
+   "end": 371
+  },
+  {
+   "n": 14,
+   "name": "The Techniques of Molecular Genetics",
+   "start": 372,
+   "end": 400
+  },
+  {
+   "n": 15,
+   "name": "Genomics",
+   "start": 401,
+   "end": 438
+  },
+  {
+   "n": 16,
+   "name": "Applications of Molecular Genetics",
+   "start": 439,
+   "end": 480
+  },
+  {
+   "n": 17,
+   "name": "Regulation of Gene Expression in Prokaryotes",
+   "start": 481,
+   "end": 505
+  },
+  {
+   "n": 18,
+   "name": "Regulation of Gene Expression in Eukaryotes",
+   "start": 506,
+   "end": 532
+  },
+  {
+   "n": 19,
+   "name": "Inheritance of Complex Traits",
+   "start": 533,
+   "end": 562
+  },
+  {
+   "n": 20,
+   "name": "Population Genetics",
+   "start": 563,
+   "end": 584
+  },
+  {
+   "n": 21,
+   "name": "Transposable Genetic Elements",
+   "start": 650,
+   "end": 676
+  },
+  {
+   "n": 22,
+   "name": "The Genetic Control of Animal Development",
+   "start": 677,
+   "end": 699
+  },
+  {
+   "n": 23,
+   "name": "The Genetic Basis of Cancer",
+   "start": 700,
+   "end": 724
+  },
+  {
+   "n": 24,
+   "name": "Evolutionary Genetics",
+   "start": 725,
+   "end": 773
+  }
+ ]
+}

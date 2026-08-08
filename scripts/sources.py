@@ -201,11 +201,17 @@ def segment_noun(source):
 # ----------------------------------------------------------------------- deck routing
 
 def _fill(template, source, segment):
-    return (template
-            .replace("{root}", source.get("deck_root", "all"))
-            .replace("{segment}", "" if segment is None else str(segment))
-            .replace("{segment_noun}", segment_noun(source))
-            .replace("{id}", source.get("id", "")))
+    out = (template
+           .replace("{root}", source.get("deck_root", "all"))
+           .replace("{segment}", "" if segment is None else str(segment))
+           .replace("{segment_noun}", segment_noun(source))
+           .replace("{id}", source.get("id", "")))
+    if "{segment_name}" in out:
+        name = ""
+        if segment is not None and source.get("segments"):
+            _, _, name = segment_range(source, segment)
+        out = out.replace("{segment_name}", name)
+    return out
 
 
 def deck_names(source, segment=None):

@@ -31,7 +31,10 @@
     "ch{segment}"
    ],
    "profile": "emt",
-   "glossary_pages": [4002, 4152],
+   "glossary_pages": [
+    4002,
+    4152
+   ],
    "notes": "The original source this pipeline was built on. Deck names are case-exact and predate the registry — 'Chapter <N>'/'Book Highlights' Title Case, 'claude review' lowercase. Do not restyle them; 899 existing notes live under this structure. glossary_pages measured 2026-08-08 (physical pages; Index starts 4153)."
   },
   "isaacs17": {
@@ -47,6 +50,25 @@
    ],
    "profile": "science",
    "notes": "PROVISIONAL deck path — proposed by Claude 2026-07-29, not yet confirmed by Parker. Confirm or correct deck_root before the first anki_write run. Slides are marked with yellow UNDERLINE, not highlight."
+  },
+  "genetics": {
+   "label": "Genetics — Principles of Genetics, 7e (Snustad & Simmons)",
+   "attachment_key": "4JYSPKBJ",
+   "kind": "textbook",
+   "segments": "reference/maps/genetics.json",
+   "segment_noun": "Chapter",
+   "deck_root": "all::LIBERTY::LIBERTY FALL 2026::BIOL 301 - Genetics",
+   "staging": "{root}::Chapter {segment} - {segment_name}::claude review",
+   "promote": "{root}::Chapter {segment} - {segment_name}::Book Highlights",
+   "tags": [
+    "genetics-ch{segment}"
+   ],
+   "profile": "science",
+   "notes": "BIOL 301 course textbook. Deck names carry the chapter title via {segment_name} to match Parker's live 'Chapter 9 - DNA and the Molecular Structure of Chromosomes' deck (created by him 2026-08). Bonus chapters 21-24 sit AFTER the glossary/index physically (map reflects it). Printed page = physical - 22 for ch 1-20.",
+   "glossary_pages": [
+    606,
+    628
+   ]
   }
  }
 }

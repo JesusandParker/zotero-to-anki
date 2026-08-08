@@ -36,6 +36,12 @@ Write it with `python3 scripts/add_source.py` (never by hand, unless fixing a ty
 - `{root}` → `deck_root`
 - `{segment}` → the segment number (empty for a flat source)
 - `{segment_noun}` → e.g. `Chapter`
+- `{segment_name}` → the segment's `name` from the map (empty for a flat source). Use when
+  Parker's live decks carry the chapter title, e.g.
+  `{root}::Chapter {segment} - {segment_name}::claude review` →
+  `…::Chapter 9 - DNA and the Molecular Structure of Chromosomes::claude review`. The map
+  name must match the live deck name EXACTLY (dash style, spacing) or anki_write creates a
+  sibling deck.
 - `{id}` → the source id
 
 ---
