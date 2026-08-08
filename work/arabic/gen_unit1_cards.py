@@ -97,12 +97,12 @@ VOCAB = [
  ("اسمي",("my name",None),"ismii",
   "arabic_vocab_u1_06_ismi_formal.mp3","arabic_vocab_u1_06_ismi_masri.mp3","arabic_vocab_u1_06_ismi_shaami.mp3",
   "Egyptian and Levantine both say <i>ismi</i> (short final i)."),
- ("مِن",("from",None),"min",
+ ("مِن",("from",'"I am ___ the city of…"'),"min",
   "arabic_vocab_u1_07_min_formal.mp3","arabic_vocab_u1_07_min_masri.mp3","arabic_vocab_u1_07_min_shaami.mp3",None),
  ("مدينة",("the city of …",None),"madiinat",
   "arabic_vocab_u1_08_madiinat_formal.mp3","arabic_vocab_u1_08_madiinat_masri.mp3","arabic_vocab_u1_08_madiinat_shaami.mp3",
   "Egyptian <i>midiinit</i> · Levantine <i>madiinit</i>."),
- ("في",("in",None),"fii",
+ ("في",("in",'the last slot of the intro: "from the city of X, ___ Y"'),"fii",
   "arabic_vocab_u1_09_fii_formal.mp3","arabic_vocab_u1_09_fii_masri.mp3","arabic_vocab_u1_09_fii_shaami.mp3",
   "Levantine often uses <i>bi-</i> instead."),
 ]
@@ -129,13 +129,13 @@ def add(text, back, block, from_idx, image=None, image_side=None, numeric=False,
 
 # --- A. letters (28 notes, 2 cards each: c1 = write the glyph, c2 = name+sound)
 for glyph, name, sound, video, fam in LETTERS:
-    text = (f"{{{{c1::{glyph}}}}}<br>"
+    text = ("‎" + f"{{{{c1::{glyph}}}}}<br>"
             f"Name: {{{{c2::{name}}}}}<br>"
             f"Sound: {{{{c2::{sound}}}}}")
-    lines = [f"Cue: hear it and watch the mouth — [sound:{video}]"]
+    lines = []  # video lives in the Audio field — no duplicate play button, no filler cue
     if fam != "solo":
         f_glyphs, f_note = FAMILIES[fam]
-        lines.append(f"Distinguish: {f_glyphs}<br>{f_note}.")
+        lines.append(f"Distinguish: {f_note}.")
     back = "<br><br>".join(lines)
     add(text, back, "A_letters", [1,12,15] + ([13] if glyph in "اوي" else []),
         image="src_alphabet_chart.png",
@@ -146,16 +146,15 @@ for glyph, name, sound, video, fam in LETTERS:
 # --- B. symbols (14 notes)
 for shown, name, sound in SYMBOLS:
     if sound:
-        text = (f"{{{{c1::{shown}}}}}<br>"
+        text = ("‎" + f"{{{{c1::{shown}}}}}<br>"
                 f"Name: {{{{c2::{name}}}}}<br>"
                 f"Sound: {{{{c2::{sound}}}}}")
     else:
-        text = (f"{{{{c1::{shown}}}}}<br>"
+        text = ("‎" + f"{{{{c1::{shown}}}}}<br>"
                 f"Name: {{{{c2::{name}}}}}")
-    back = ("Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation "
-            "symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).")
+    back = ""
     if shown.startswith("ب"):
-        back += "<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol."
+        back = "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark."
     add(text, back, "B_symbols", [2] + ([13,15] if name in ("fatHa","Damma","kasra") else []),
         image="src_symbols_chart.png",
         verified_against="p17 symbols chart (rendered)" + ("; p26 vowel chart" if name in ("fatHa","Damma","kasra") else "") + ("; p26 consonant chart (glottal stop)" if name=="hamza" else ""),
@@ -175,8 +174,8 @@ add("One consonant is, for historical reasons, NOT in the 28-letter alphabet cha
 for arabic, meaning, translit, a_formal, a_masri, a_shaami, extra in VOCAB:
     core, qual = meaning
     mline = f"{{{{c2::{core}}}}}" + (f" — {qual}" if qual else "")
-    text = (f"{{{{c1::{arabic}}}}}<br>" + mline)
-    lines = [f"Cue: MSA (Formal/written) — <i>{translit}</i> [sound:{a_formal}]"]
+    text = ("‎" + f"{{{{c1::{arabic}}}}}<br>" + mline)
+    lines = [f"Cue: MSA — <i>{translit}</i>"]  # formal clip autoplays from the Audio field
     dial = []
     if a_masri: dial.append(f"Egyptian [sound:{a_masri}]")
     if a_shaami: dial.append(f"Levantine [sound:{a_shaami}]")
@@ -272,7 +271,7 @@ for country, capital in COUNTRIES:
     else:
         text = f"Arab country: <b>{country}</b> — capital {{{{c1::{capital}}}}}."
     add(text,
-        "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+        "",
         "G_countries", [16], image="src_arab_map.png",
         verified_against="p27 map legend (rendered)",
         verified_by="country/capital pairs transcribed from map legend render 2026-08-08",

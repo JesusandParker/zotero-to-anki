@@ -23,7 +23,20 @@ importance.** The purple mark is the same contract for vocabulary: he has alread
 he didn't know the word — never re-decide that either (its only licensed skips are
 integrity ones, always surfaced: card-rules #28).
 
-## Three rules that override everything
+## Four rules that override everything
+
+0. **Cards come ONLY from Parker's marks. Never select content for him — no matter how
+   sparse the marking.** His vision for this pipeline, stated 2026-08-08: *"every day I
+   might read 10 pages in the textbook and you're able to go in and create perfect
+   amazing really good solid flashcards off of those 10 pages"* — the marks on those
+   pages, nothing more. A lightly-marked chapter is a SMALL batch, not a delegation:
+   "I've only highlighted a little bit, please do this for me" means *run the pipeline
+   on the little bit*. If unmarked content ever seems worth carding, SAY SO at hand-off
+   and stop — never draft it, not even clearly labeled (the 2026-08-08 "coverage lane"
+   labeled every synthetic mark `selected_by: "claude"` and was still 80 retracted
+   cards and two wasted hours). Spend the whole effort budget making HIS marks'
+   cards excellent instead. Enforced: `check_cards.synthetic_marks_check` HARD-blocks
+   any card citing a non-extractor mark (card-rules #29, R40).
 
 1. **Always ground in the page paragraph.** Never write a card from the bare marked
    sentence. Use the `context` paragraph the extractor provides. Every claim on a card must

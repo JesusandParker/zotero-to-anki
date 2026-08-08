@@ -1,7 +1,7 @@
 [
  {
-  "Text": "{{c1::ا}}<br>Name: {{c2::alif}}<br>Sound: {{c2::long vowel <i>aa</i> — ranges from <i>e</i> in <i>bet</i> to <i>a</i> in <i>father</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_01_alif.mp4]",
+  "Text": "‎{{c1::ا}}<br>Name: {{c2::alif}}<br>Sound: {{c2::long vowel <i>aa</i> — ranges from <i>e</i> in <i>bet</i> to <i>a</i> in <i>father</i>}}",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -20,8 +20,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ب}}<br>Name: {{c2::baa}}<br>Sound: {{c2::<i>b</i> as in <i>bet</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_02_baa.mp4]<br><br>Distinguish: ب ت ث<br>one skeleton, dots decide — baa 1 below, taa 2 above, thaa 3 above.",
+  "Text": "‎{{c1::ب}}<br>Name: {{c2::baa}}<br>Sound: {{c2::<i>b</i> as in <i>bet</i>}}",
+  "Back Extra": "Distinguish: one skeleton, dots decide — baa 1 below, taa 2 above, thaa 3 above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -39,8 +39,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ت}}<br>Name: {{c2::taa}}<br>Sound: {{c2::<i>t</i> as in <i>tip</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_03_taa.mp4]<br><br>Distinguish: ب ت ث<br>one skeleton, dots decide — baa 1 below, taa 2 above, thaa 3 above.",
+  "Text": "‎{{c1::ت}}<br>Name: {{c2::taa}}<br>Sound: {{c2::<i>t</i> as in <i>tip</i>}}",
+  "Back Extra": "Distinguish: one skeleton, dots decide — baa 1 below, taa 2 above, thaa 3 above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -58,8 +58,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ث}}<br>Name: {{c2::thaa}}<br>Sound: {{c2::<i>th</i> as in <i>three</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_04_thaa.mp4]<br><br>Distinguish: ب ت ث<br>one skeleton, dots decide — baa 1 below, taa 2 above, thaa 3 above.",
+  "Text": "‎{{c1::ث}}<br>Name: {{c2::thaa}}<br>Sound: {{c2::<i>th</i> as in <i>three</i>}}",
+  "Back Extra": "Distinguish: one skeleton, dots decide — baa 1 below, taa 2 above, thaa 3 above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -77,8 +77,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ج}}<br>Name: {{c2::jiim}}<br>Sound: {{c2::<i>j</i> or <i>g</i>, varies according to region}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_05_jiim.mp4]<br><br>Distinguish: ج ح خ<br>one skeleton — jiim dot below, Haa no dot, khaa dot above.",
+  "Text": "‎{{c1::ج}}<br>Name: {{c2::jiim}}<br>Sound: {{c2::<i>j</i> or <i>g</i>, varies according to region}}",
+  "Back Extra": "Distinguish: one skeleton — jiim dot below, Haa no dot, khaa dot above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -96,8 +96,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ح}}<br>Name: {{c2::Haa}}<br>Sound: {{c2::a raspy, breathy <i>h</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_06_Haa.mp4]<br><br>Distinguish: ج ح خ<br>one skeleton — jiim dot below, Haa no dot, khaa dot above.",
+  "Text": "‎{{c1::ح}}<br>Name: {{c2::Haa}}<br>Sound: {{c2::a raspy, breathy <i>h</i>}}",
+  "Back Extra": "Distinguish: one skeleton — jiim dot below, Haa no dot, khaa dot above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -115,8 +115,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::خ}}<br>Name: {{c2::khaa}}<br>Sound: {{c2::like a German or Hebrew <i>ch</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_07_khaa.mp4]<br><br>Distinguish: ج ح خ<br>one skeleton — jiim dot below, Haa no dot, khaa dot above.",
+  "Text": "‎{{c1::خ}}<br>Name: {{c2::khaa}}<br>Sound: {{c2::like a German or Hebrew <i>ch</i>}}",
+  "Back Extra": "Distinguish: one skeleton — jiim dot below, Haa no dot, khaa dot above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -134,8 +134,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::د}}<br>Name: {{c2::daal}}<br>Sound: {{c2::<i>d</i> as in <i>dip</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_08_daal.mp4]<br><br>Distinguish: د ذ<br>same shape — daal plain, dhaal dot above.",
+  "Text": "‎{{c1::د}}<br>Name: {{c2::daal}}<br>Sound: {{c2::<i>d</i> as in <i>dip</i>}}",
+  "Back Extra": "Distinguish: same shape — daal plain, dhaal dot above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -153,8 +153,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ذ}}<br>Name: {{c2::dhaal}}<br>Sound: {{c2::<i>th</i> in <i>the</i> and <i>other</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_09_dhaal.mp4]<br><br>Distinguish: د ذ<br>same shape — daal plain, dhaal dot above.",
+  "Text": "‎{{c1::ذ}}<br>Name: {{c2::dhaal}}<br>Sound: {{c2::<i>th</i> in <i>the</i> and <i>other</i>}}",
+  "Back Extra": "Distinguish: same shape — daal plain, dhaal dot above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -172,8 +172,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ر}}<br>Name: {{c2::raa}}<br>Sound: {{c2::like Spanish or Italian <i>r</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_10_raa.mp4]<br><br>Distinguish: ر ز<br>same shape — raa plain, zaay dot above.",
+  "Text": "‎{{c1::ر}}<br>Name: {{c2::raa}}<br>Sound: {{c2::like Spanish or Italian <i>r</i>}}",
+  "Back Extra": "Distinguish: same shape — raa plain, zaay dot above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -191,8 +191,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ز}}<br>Name: {{c2::zaay}}<br>Sound: {{c2::<i>z</i> as in <i>zip</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_11_zaay.mp4]<br><br>Distinguish: ر ز<br>same shape — raa plain, zaay dot above.",
+  "Text": "‎{{c1::ز}}<br>Name: {{c2::zaay}}<br>Sound: {{c2::<i>z</i> as in <i>zip</i>}}",
+  "Back Extra": "Distinguish: same shape — raa plain, zaay dot above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -210,8 +210,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::س}}<br>Name: {{c2::siin}}<br>Sound: {{c2::<i>s</i> as in <i>sip</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_12_seen.mp4]<br><br>Distinguish: س ش<br>same shape — siin plain, shiin 3 dots above.",
+  "Text": "‎{{c1::س}}<br>Name: {{c2::siin}}<br>Sound: {{c2::<i>s</i> as in <i>sip</i>}}",
+  "Back Extra": "Distinguish: same shape — siin plain, shiin 3 dots above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -229,8 +229,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ش}}<br>Name: {{c2::shiin}}<br>Sound: {{c2::<i>sh</i> as in <i>she</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_13_sheen.mp4]<br><br>Distinguish: س ش<br>same shape — siin plain, shiin 3 dots above.",
+  "Text": "‎{{c1::ش}}<br>Name: {{c2::shiin}}<br>Sound: {{c2::<i>sh</i> as in <i>she</i>}}",
+  "Back Extra": "Distinguish: same shape — siin plain, shiin 3 dots above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -248,8 +248,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ص}}<br>Name: {{c2::Saad}}<br>Sound: {{c2::emphatic S — similar to <i>s</i> in <i>subtle</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_14_Saad.mp4]<br><br>Distinguish: ص ض<br>same shape — Saad plain, Daad dot above.",
+  "Text": "‎{{c1::ص}}<br>Name: {{c2::Saad}}<br>Sound: {{c2::emphatic S — similar to <i>s</i> in <i>subtle</i>}}",
+  "Back Extra": "Distinguish: same shape — Saad plain, Daad dot above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -267,8 +267,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ض}}<br>Name: {{c2::Daad}}<br>Sound: {{c2::emphatic D — close to the <i>d</i> in <i>duh!</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_15_Daad.mp4]<br><br>Distinguish: ص ض<br>same shape — Saad plain, Daad dot above.",
+  "Text": "‎{{c1::ض}}<br>Name: {{c2::Daad}}<br>Sound: {{c2::emphatic D — close to the <i>d</i> in <i>duh!</i>}}",
+  "Back Extra": "Distinguish: same shape — Saad plain, Daad dot above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -286,8 +286,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ط}}<br>Name: {{c2::Taa}}<br>Sound: {{c2::emphatic T — similar to <i>t</i> in <i>bottle</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_16_Taaa.mp4]<br><br>Distinguish: ط ظ<br>same shape — Taa plain, DHaa dot above.",
+  "Text": "‎{{c1::ط}}<br>Name: {{c2::Taa}}<br>Sound: {{c2::emphatic T — similar to <i>t</i> in <i>bottle</i>}}",
+  "Back Extra": "Distinguish: same shape — Taa plain, DHaa dot above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -305,8 +305,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ظ}}<br>Name: {{c2::DHaa}}<br>Sound: {{c2::emphatic DH — close to <i>th</i> in <i>thy</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_17_Dhaa.mp4]<br><br>Distinguish: ط ظ<br>same shape — Taa plain, DHaa dot above.",
+  "Text": "‎{{c1::ظ}}<br>Name: {{c2::DHaa}}<br>Sound: {{c2::emphatic DH — close to <i>th</i> in <i>thy</i>}}",
+  "Back Extra": "Distinguish: same shape — Taa plain, DHaa dot above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -324,8 +324,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ع}}<br>Name: {{c2::cayn}}<br>Sound: {{c2::a sound produced deep in the throat}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_18_ayn.mp4]<br><br>Distinguish: ع غ<br>same shape — cayn plain, ghayn dot above.",
+  "Text": "‎{{c1::ع}}<br>Name: {{c2::cayn}}<br>Sound: {{c2::a sound produced deep in the throat}}",
+  "Back Extra": "Distinguish: same shape — cayn plain, ghayn dot above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -343,8 +343,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::غ}}<br>Name: {{c2::ghayn}}<br>Sound: {{c2::like French or Hebrew <i>r</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_19_ghayn.mp4]<br><br>Distinguish: ع غ<br>same shape — cayn plain, ghayn dot above.",
+  "Text": "‎{{c1::غ}}<br>Name: {{c2::ghayn}}<br>Sound: {{c2::like French or Hebrew <i>r</i>}}",
+  "Back Extra": "Distinguish: same shape — cayn plain, ghayn dot above.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -362,8 +362,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ف}}<br>Name: {{c2::faa}}<br>Sound: {{c2::<i>f</i> as in <i>fun</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_20_faa.mp4]<br><br>Distinguish: ف ق<br>one dot above vs two dots above (qaaf also sits deeper in the throat).",
+  "Text": "‎{{c1::ف}}<br>Name: {{c2::faa}}<br>Sound: {{c2::<i>f</i> as in <i>fun</i>}}",
+  "Back Extra": "Distinguish: one dot above vs two dots above (qaaf also sits deeper in the throat).",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -381,8 +381,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ق}}<br>Name: {{c2::qaaf}}<br>Sound: {{c2::like <i>k</i> but deeper in the throat}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_21_qaaf.mp4]<br><br>Distinguish: ف ق<br>one dot above vs two dots above (qaaf also sits deeper in the throat).",
+  "Text": "‎{{c1::ق}}<br>Name: {{c2::qaaf}}<br>Sound: {{c2::like <i>k</i> but deeper in the throat}}",
+  "Back Extra": "Distinguish: one dot above vs two dots above (qaaf also sits deeper in the throat).",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -400,8 +400,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ك}}<br>Name: {{c2::kaaf}}<br>Sound: {{c2::<i>k</i> as in <i>keep</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_22_kaaf.mp4]",
+  "Text": "‎{{c1::ك}}<br>Name: {{c2::kaaf}}<br>Sound: {{c2::<i>k</i> as in <i>keep</i>}}",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -419,8 +419,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ل}}<br>Name: {{c2::laam}}<br>Sound: {{c2::like Spanish or Italian <i>l</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_23_laam.mp4]",
+  "Text": "‎{{c1::ل}}<br>Name: {{c2::laam}}<br>Sound: {{c2::like Spanish or Italian <i>l</i>}}",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -438,8 +438,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::م}}<br>Name: {{c2::miim}}<br>Sound: {{c2::<i>m</i> as in <i>mat</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_24_miim.mp4]",
+  "Text": "‎{{c1::م}}<br>Name: {{c2::miim}}<br>Sound: {{c2::<i>m</i> as in <i>mat</i>}}",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -457,8 +457,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ن}}<br>Name: {{c2::nuun}}<br>Sound: {{c2::<i>n</i> as in <i>neat</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_25_nuun.mp4]",
+  "Text": "‎{{c1::ن}}<br>Name: {{c2::nuun}}<br>Sound: {{c2::<i>n</i> as in <i>neat</i>}}",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -476,8 +476,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ه}}<br>Name: {{c2::haa}}<br>Sound: {{c2::<i>h</i> as in <i>aha!</i>}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_26_ha.mp4]",
+  "Text": "‎{{c1::ه}}<br>Name: {{c2::haa}}<br>Sound: {{c2::<i>h</i> as in <i>aha!</i>}}",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -495,8 +495,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::و}}<br>Name: {{c2::waaw}}<br>Sound: {{c2::<i>w</i> as in <i>wow!</i> — also long vowel <i>uu</i> (<i>oo</i> in <i>poodle</i>)}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_27_waaw.mp4]",
+  "Text": "‎{{c1::و}}<br>Name: {{c2::waaw}}<br>Sound: {{c2::<i>w</i> as in <i>wow!</i> — also long vowel <i>uu</i> (<i>oo</i> in <i>poodle</i>)}}",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -515,8 +515,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ي}}<br>Name: {{c2::yaa}}<br>Sound: {{c2::<i>y</i> as in <i>yes</i> — also long vowel <i>ii</i> (<i>ie</i> in <i>piece</i>)}}",
-  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_28_yaa.mp4]",
+  "Text": "‎{{c1::ي}}<br>Name: {{c2::yaa}}<br>Sound: {{c2::<i>y</i> as in <i>yes</i> — also long vowel <i>ii</i> (<i>ie</i> in <i>piece</i>)}}",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -535,8 +535,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::بَ}}<br>Name: {{c2::fatHa}}<br>Sound: {{c2::short <i>a</i> (vowel chart: <i>e</i> in <i>bet</i> to <i>a</i> in <i>father</i>)}}",
-  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "Text": "‎{{c1::بَ}}<br>Name: {{c2::fatHa}}<br>Sound: {{c2::short <i>a</i> (vowel chart: <i>e</i> in <i>bet</i> to <i>a</i> in <i>father</i>)}}",
+  "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -554,8 +554,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::بُ}}<br>Name: {{c2::Damma}}<br>Sound: {{c2::short <i>u</i> (<i>oo</i> in <i>poodle</i>, short)}}",
-  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "Text": "‎{{c1::بُ}}<br>Name: {{c2::Damma}}<br>Sound: {{c2::short <i>u</i> (<i>oo</i> in <i>poodle</i>, short)}}",
+  "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -573,8 +573,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::بِ}}<br>Name: {{c2::kasra}}<br>Sound: {{c2::short <i>i</i> (<i>i</i> as in <i>bit</i>)}}",
-  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "Text": "‎{{c1::بِ}}<br>Name: {{c2::kasra}}<br>Sound: {{c2::short <i>i</i> (<i>i</i> as in <i>bit</i>)}}",
+  "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -592,8 +592,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::بً}}<br>Name: {{c2::tanwiin al-fatH}}",
-  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "Text": "‎{{c1::بً}}<br>Name: {{c2::tanwiin al-fatH}}",
+  "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -609,8 +609,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::بٌ}}<br>Name: {{c2::tanwiin aD-Damm}}",
-  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "Text": "‎{{c1::بٌ}}<br>Name: {{c2::tanwiin aD-Damm}}",
+  "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -626,8 +626,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::بٍ}}<br>Name: {{c2::tanwiin al-kasr}}",
-  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "Text": "‎{{c1::بٍ}}<br>Name: {{c2::tanwiin al-kasr}}",
+  "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -643,8 +643,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::بْ}}<br>Name: {{c2::sukuun}}",
-  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "Text": "‎{{c1::بْ}}<br>Name: {{c2::sukuun}}",
+  "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -660,8 +660,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::بّ}}<br>Name: {{c2::shadda}}",
-  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "Text": "‎{{c1::بّ}}<br>Name: {{c2::shadda}}",
+  "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -677,8 +677,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ٱ}}<br>Name: {{c2::waSla}}",
-  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).",
+  "Text": "‎{{c1::ٱ}}<br>Name: {{c2::waSla}}",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -694,8 +694,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::هٰ}}<br>Name: {{c2::dagger alif}}",
-  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).",
+  "Text": "‎{{c1::هٰ}}<br>Name: {{c2::dagger alif}}",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -711,8 +711,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::آ}}<br>Name: {{c2::alif madda}}",
-  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).",
+  "Text": "‎{{c1::آ}}<br>Name: {{c2::alif madda}}",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -728,8 +728,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ى}}<br>Name: {{c2::alif maqSuura}}",
-  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).",
+  "Text": "‎{{c1::ى}}<br>Name: {{c2::alif maqSuura}}",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -745,8 +745,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ء}}<br>Name: {{c2::hamza}}<br>Sound: {{c2::the sound you hear between vowels in <i>uh-oh!</i> (glottal stop)}}",
-  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).",
+  "Text": "‎{{c1::ء}}<br>Name: {{c2::hamza}}<br>Sound: {{c2::the sound you hear between vowels in <i>uh-oh!</i> (glottal stop)}}",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -762,8 +762,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::ة}}<br>Name: {{c2::taa marbuuTa}}",
-  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).",
+  "Text": "‎{{c1::ة}}<br>Name: {{c2::taa marbuuTa}}",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -796,8 +796,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::السَّلامُ عَلَيكُم}}<br>{{c2::Greetings!}} — the Islamic greeting",
-  "Back Extra": "Cue: MSA (Formal/written) — <i>assalaamu calaykum</i> [sound:arabic_vocab_u1_01_salaam_alaykum_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_01_salaam_alaykum_masri.mp3] · Levantine [sound:arabic_vocab_u1_01_salaam_alaykum_shaami.mp3]<br><br>Distinguish: Egyptian <i>issalaamu calaykum</i> (initial i-).",
+  "Text": "‎{{c1::السَّلامُ عَلَيكُم}}<br>{{c2::Greetings!}} — the Islamic greeting",
+  "Back Extra": "Cue: MSA — <i>assalaamu calaykum</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_01_salaam_alaykum_masri.mp3] · Levantine [sound:arabic_vocab_u1_01_salaam_alaykum_shaami.mp3]<br><br>Distinguish: Egyptian <i>issalaamu calaykum</i> (initial i-).",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -813,8 +813,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::أَهلاً}}<br>{{c2::Hello! or Hi!}} — used more in Egypt than in the Levant",
-  "Back Extra": "Cue: MSA (Formal/written) — <i>ahlan</i> [sound:arabic_vocab_u1_02_ahlan_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_02_ahlan_masri.mp3] · Levantine [sound:arabic_vocab_u1_02_ahlan_shaami.mp3]<br><br>Distinguish: Levantine drops the final -n: <i>ahla</i>.",
+  "Text": "‎{{c1::أَهلاً}}<br>{{c2::Hello! or Hi!}} — used more in Egypt than in the Levant",
+  "Back Extra": "Cue: MSA — <i>ahlan</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_02_ahlan_masri.mp3] · Levantine [sound:arabic_vocab_u1_02_ahlan_shaami.mp3]<br><br>Distinguish: Levantine drops the final -n: <i>ahla</i>.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -830,8 +830,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::أَهلاً وسَهلاً}}<br>{{c2::Hello!}} — the fuller two-word greeting",
-  "Back Extra": "Cue: MSA (Formal/written) — <i>ahlan wa sahlan</i> [sound:arabic_vocab_u1_03_ahlan_wa_sahlan_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_03_ahlan_wa_sahlan_masri.mp3] · Levantine [sound:arabic_vocab_u1_03_ahlan_wa_sahlan_shaami.mp3]<br><br>Distinguish: Levantine: <i>ahla w sahla</i>.",
+  "Text": "‎{{c1::أَهلاً وسَهلاً}}<br>{{c2::Hello!}} — the fuller two-word greeting",
+  "Back Extra": "Cue: MSA — <i>ahlan wa sahlan</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_03_ahlan_wa_sahlan_masri.mp3] · Levantine [sound:arabic_vocab_u1_03_ahlan_wa_sahlan_shaami.mp3]<br><br>Distinguish: Levantine: <i>ahla w sahla</i>.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -847,8 +847,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::مَرحَباً}}<br>{{c2::Hello!}} — used in the Levant",
-  "Back Extra": "Cue: MSA (Formal/written) — <i>marHaban</i> [sound:arabic_vocab_u1_04_marhaba_formal.mp3]<br><br>Ex: Levantine [sound:arabic_vocab_u1_04_marhaba_shaami.mp3]<br><br>Distinguish: Levantine says <i>marHaba</i>; no Egyptian column in the book for this one.",
+  "Text": "‎{{c1::مَرحَباً}}<br>{{c2::Hello!}} — used in the Levant",
+  "Back Extra": "Cue: MSA — <i>marHaban</i><br><br>Ex: Levantine [sound:arabic_vocab_u1_04_marhaba_shaami.mp3]<br><br>Distinguish: Levantine says <i>marHaba</i>; no Egyptian column in the book for this one.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -864,8 +864,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::أَنا}}<br>{{c2::I}}",
-  "Back Extra": "Cue: MSA (Formal/written) — <i>ana</i> [sound:arabic_vocab_u1_05_ana_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_05_ana_masri.mp3] · Levantine [sound:arabic_vocab_u1_05_ana_shaami.mp3]",
+  "Text": "‎{{c1::أَنا}}<br>{{c2::I}}",
+  "Back Extra": "Cue: MSA — <i>ana</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_05_ana_masri.mp3] · Levantine [sound:arabic_vocab_u1_05_ana_shaami.mp3]",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -881,8 +881,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::اسمي}}<br>{{c2::my name}}",
-  "Back Extra": "Cue: MSA (Formal/written) — <i>ismii</i> [sound:arabic_vocab_u1_06_ismi_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_06_ismi_masri.mp3] · Levantine [sound:arabic_vocab_u1_06_ismi_shaami.mp3]<br><br>Distinguish: Egyptian and Levantine both say <i>ismi</i> (short final i).",
+  "Text": "‎{{c1::اسمي}}<br>{{c2::my name}}",
+  "Back Extra": "Cue: MSA — <i>ismii</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_06_ismi_masri.mp3] · Levantine [sound:arabic_vocab_u1_06_ismi_shaami.mp3]<br><br>Distinguish: Egyptian and Levantine both say <i>ismi</i> (short final i).",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -898,8 +898,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::مِن}}<br>{{c2::from}}",
-  "Back Extra": "Cue: MSA (Formal/written) — <i>min</i> [sound:arabic_vocab_u1_07_min_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_07_min_masri.mp3] · Levantine [sound:arabic_vocab_u1_07_min_shaami.mp3]",
+  "Text": "‎{{c1::مِن}}<br>{{c2::from}} — \"I am ___ the city of…\"",
+  "Back Extra": "Cue: MSA — <i>min</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_07_min_masri.mp3] · Levantine [sound:arabic_vocab_u1_07_min_shaami.mp3]",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -915,8 +915,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::مدينة}}<br>{{c2::the city of …}}",
-  "Back Extra": "Cue: MSA (Formal/written) — <i>madiinat</i> [sound:arabic_vocab_u1_08_madiinat_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_08_madiinat_masri.mp3] · Levantine [sound:arabic_vocab_u1_08_madiinat_shaami.mp3]<br><br>Distinguish: Egyptian <i>midiinit</i> · Levantine <i>madiinit</i>.",
+  "Text": "‎{{c1::مدينة}}<br>{{c2::the city of …}}",
+  "Back Extra": "Cue: MSA — <i>madiinat</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_08_madiinat_masri.mp3] · Levantine [sound:arabic_vocab_u1_08_madiinat_shaami.mp3]<br><br>Distinguish: Egyptian <i>midiinit</i> · Levantine <i>madiinit</i>.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -932,8 +932,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::في}}<br>{{c2::in}}",
-  "Back Extra": "Cue: MSA (Formal/written) — <i>fii</i> [sound:arabic_vocab_u1_09_fii_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_09_fii_masri.mp3] · Levantine [sound:arabic_vocab_u1_09_fii_shaami.mp3]<br><br>Distinguish: Levantine often uses <i>bi-</i> instead.",
+  "Text": "‎{{c1::في}}<br>{{c2::in}} — the last slot of the intro: \"from the city of X, ___ Y\"",
+  "Back Extra": "Cue: MSA — <i>fii</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_09_fii_masri.mp3] · Levantine [sound:arabic_vocab_u1_09_fii_shaami.mp3]<br><br>Distinguish: Levantine often uses <i>bi-</i> instead.",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1228,7 +1228,7 @@
  },
  {
   "Text": "Arab country: <b>Morocco</b> — capital {{c1::Rabat}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1245,7 +1245,7 @@
  },
  {
   "Text": "Arab country: <b>Mauritania</b> — capital {{c1::Nouakchott}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1262,7 +1262,7 @@
  },
  {
   "Text": "Arab country: <b>Algeria</b> — capital {{c1::Algiers}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1279,7 +1279,7 @@
  },
  {
   "Text": "Arab country: <b>Tunisia</b> — capital {{c1::Tunis}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1296,7 +1296,7 @@
  },
  {
   "Text": "Arab country: <b>Libya</b> — capital {{c1::Tripoli}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1313,7 +1313,7 @@
  },
  {
   "Text": "Arab country: <b>Egypt</b> — capital {{c1::Cairo}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1330,7 +1330,7 @@
  },
  {
   "Text": "Arab country: <b>Sudan</b> — capital {{c1::Khartoum}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1347,7 +1347,7 @@
  },
  {
   "Text": "Arab country: <b>Somalia</b> — capital {{c1::Mogadishu}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1364,7 +1364,7 @@
  },
  {
   "Text": "Arab country: <b>Jordan</b> — capital {{c1::Amman}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1381,7 +1381,7 @@
  },
  {
   "Text": "Arab country: <b>Israel/Palestine</b> — capital {{c1::Jerusalem}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1398,7 +1398,7 @@
  },
  {
   "Text": "Arab country: <b>Lebanon</b> — capital {{c1::Beirut}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1415,7 +1415,7 @@
  },
  {
   "Text": "Arab country: <b>Syria</b> — capital {{c1::Damascus}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1432,7 +1432,7 @@
  },
  {
   "Text": "Arab country: <b>Iraq</b> — capital {{c1::Baghdad}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1449,7 +1449,7 @@
  },
  {
   "Text": "Arab country whose capital city shares the country's name: {{c1::Kuwait}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1466,7 +1466,7 @@
  },
  {
   "Text": "Arab country: <b>Saudi Arabia</b> — capital {{c1::Riyadh}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1483,7 +1483,7 @@
  },
  {
   "Text": "Arab country: <b>Qatar</b> — capital {{c1::Doha}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1500,7 +1500,7 @@
  },
  {
   "Text": "Arab country: <b>Bahrain</b> — capital {{c1::Manama}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1517,7 +1517,7 @@
  },
  {
   "Text": "Arab country: <b>United Arab Emirates</b> — capital {{c1::Abu Dhabi}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1534,7 +1534,7 @@
  },
  {
   "Text": "Arab country: <b>Oman</b> — capital {{c1::Muscat}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1551,7 +1551,7 @@
  },
  {
   "Text": "Arab country: <b>Yemen</b> — capital {{c1::Sanaa}}.",
-  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "Back Extra": "",
   "source": "arabic",
   "segment": 1,
   "from_idx": [

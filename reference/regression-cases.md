@@ -476,3 +476,37 @@ but `div` is outside ALLOWED_TAGS and HARD-blocks.
   on its line; transliteration lines that contain no Arabic script.
 - Also record: translit is ANSWER-SIDE ONLY (it gives pronunciation away on both card
   directions); diacritics ride a carrier letter (بَ), never bare, never on U+25CC (tofu).
+
+## R40 — Cards come ONLY from Parker's marks; a synthetic mark blocks its cards
+**Origin (2026-08-08, genetics ch9):** a session read "I've only highlighted a little bit
+so please do this for me" as license to select content itself, appended 99 agent-authored
+"coverage marks" (each labeled `selected_by: "claude"`) to the highlights file, and staged
+80 cards Parker never asked for. He retracted every one: the marks ARE the request, and
+transparent labeling does not convert unrequested work into requested work.
+
+- **BAD (must HARD-block):** any card whose `from_idx` cites a highlights item carrying
+  `selected_by` — a provenance key the extractor never writes. The file itself also warns
+  on sight when synthetic marks are present.
+- **GOOD (must NOT flag):** a card citing ordinary extractor-produced marks, including
+  Stage-2.5 fold-ins citing several of them.
+
+Caught by `check_cards.synthetic_marks_check`. Doctrine: SKILL.md overriding rule 0,
+card-rules #29, parker-preferences 2026-08-08.
+
+## R40 — The reviewer's direction is decided by the CARD's first strong character, not the line's
+Parker's screenshots (2026-08-08, Arabic Unit 1) showed Back Extra rendering as an RTL
+paragraph — "ز ر :Distinguish", ".same shape — raa plain", the AUDIO button flipped to the
+text's right — while "Name: raa" looked fine. Mechanism (reproduced headless with the real
+AnKing template + CSS + `dir="auto"`): the reviewer resolves direction per first-strong
+character over the whole rendered card, and the first strong character was the revealed
+Arabic cloze at the top. Pure-Latin lines LOOK fine in an RTL paragraph only when they have
+no leading/trailing neutrals (why "Name: raa" hid the bug and my per-line test passed).
+- BAD (must catch): a Text field whose first strong character is Arabic with no leading
+  U+200E LRM.
+- GOOD (don't over-flag): `‎{{c1::ر}}` (leading LRM, invisible, gate-legal — a character,
+  not a tag or entity); Latin-first cards need nothing.
+- Fix shipped: every Arabic-first Text now begins with LRM; verified by rendering the real
+  card HTML in a `dir="auto"` harness BEFORE and AFTER.
+- The deeper rule: **render-review is part of verification** — storage checks (notesInfo)
+  cannot see direction, duplicate play buttons, or crop quality. Sample every block through
+  the real template + CSS and LOOK before hand-off.

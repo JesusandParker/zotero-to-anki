@@ -1106,6 +1106,35 @@ def grounding_check(cards, highlights, require_provenance=False, source_root=Non
     return hard, warn
 
 
+def synthetic_marks_check(cards, highlights):
+    """(hard, warn) — cards may cite ONLY extractor-produced marks (R40).
+
+    2026-08-08: a session read Parker's "I've only highlighted a little bit so please
+    do this for me" as license to SELECT content itself, appended 99 agent-authored
+    'coverage marks' to the highlights file (labeled selected_by: "claude"), and staged
+    80 cards he never asked for. He retracted every one: the marks ARE the request —
+    yellow says card it, purple says define it, and nothing else is card material,
+    however sparse the marking. Sparse marking is a small batch, not a delegation.
+    Any mark carrying a provenance key the extractor never writes is synthetic, and a
+    card citing it is blocked outright."""
+    hard, warn = [], []
+    if highlights is None:
+        return hard, warn
+    synth = {j for j, h in enumerate(highlights) if h.get("selected_by")}
+    if not synth:
+        return hard, warn
+    warn.append(f"highlights file contains {len(synth)} synthetic (non-extractor) mark(s) "
+                f"— the extractor never writes `selected_by`; regenerate the file "
+                f"(card-rules #29, R40)")
+    for i, c in enumerate(cards):
+        bad = [j for j in (c.get("from_idx") or []) if j in synth]
+        if bad:
+            hard.append(f"#{i}: cites synthetic mark(s) {bad} — cards come ONLY from "
+                        f"Parker's own marks; the agent never selects content for him "
+                        f"(card-rules #29, R40)")
+    return hard, warn
+
+
 def _lexicon_evidence(source_root):
     """work/<source>/lexicon_evidence.json, produced by lexicon.py --find. {} if absent."""
     if not source_root:
@@ -1327,6 +1356,11 @@ def main():
             lh, lw = lexicon_check(cards, hl, source_root=_root)
             hard += lh
             warn += lw
+            # Cards come ONLY from Parker's marks — a synthetic (agent-authored) mark
+            # in the highlights file blocks every card citing it (card-rules #29, R40).
+            sh, sw = synthetic_marks_check(cards, hl)
+            hard += sh
+            warn += sw
             ground_note = f"  (grounding checked against {os.path.basename(hlpath)})"
 
     # in-batch near-duplicates.

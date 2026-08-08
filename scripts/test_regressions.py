@@ -123,6 +123,29 @@ CASES = [
                    "lexicon": {"term": "diaphoresis", "term_key": "diaphor",
                                "anchor": {"method": "in_source"}}}],
     },
+    # --- R40: cards come ONLY from Parker's marks (2026-08-08, the retracted
+    # 80-card "coverage lane") — a synthetic agent-authored mark blocks its cards ---
+    {
+        "id": "r40_bad_card_from_synthetic_coverage_mark",
+        "warn": "cites synthetic mark", "present": True, "scope": "hard",
+        "highlights": LEX_MARKS + [
+            {"kind": "text", "page": 220, "selected_by": "claude",
+             "highlight": "Adenine is always paired with thymine.",
+             "context": "Adenine is always paired with thymine, and guanine with cytosine."}],
+        "cards": [{"Text": "Adenine always pairs with {{c1::thymine}}.",
+                   "Back Extra": "Cue: A–T and G–C.",
+                   "source": "_regression", "segment": 1, "from_idx": [3]}],
+        "note": "the agent selected the passage itself; Parker retracted all 80 such cards",
+    },
+    {
+        "id": "r40_good_card_from_real_mark_passes",
+        "warn": "cites synthetic mark", "present": False, "scope": "hard",
+        "highlights": LEX_MARKS,
+        "cards": [{"Text": "In early shock the skin turns {{c1::pale, cool, and moist}}.",
+                   "Back Extra": "Cue: blood shunts to the core.",
+                   "source": "_regression", "segment": 1, "from_idx": [2]}],
+        "note": "an extractor-produced mark must never trip the synthetic block",
+    },
     # --- R25/R26: retrieval load (Parker 2026-08-02, the 10-element radio report) ---
     # The thresholds here are CALIBRATION, not taste: each of these four cases is a card
     # Parker himself graded in the report that created the rule, and the detector has to

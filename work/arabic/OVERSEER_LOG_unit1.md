@@ -73,3 +73,44 @@ canon (rules / profile / scripts / GitHub) next session**. 90 notes → 146 card
 - The `Formal:`-style pronunciation line uses `Cue:`/`Ex:`/`Distinguish:` labels; a dedicated
   `Variants:`/`Pronunciation:` Back-Extra label is worth adding to the house list.
 - needs_human_check: 0 cards (all numeric facts verified against context or renders).
+
+---
+
+## POST-REVIEW REMEDIATION (same day) — Parker's card review found what my verification missed
+
+He was right: the run shipped with defects my checks were structurally unable to see.
+**Root cause of the whole class: I verified STORAGE (notesInfo field text), never RENDERING.**
+The card as Parker sees it — template + CSS + bidi + media — was never once looked at.
+
+What he flagged, and what each turned out to be:
+1. **Weird crops** → my crop QA accepted boxes containing sliced neighbor text; I even
+   viewed the alphabet crop, saw cut-off header words, and accepted it. New standard:
+   a crop passes only with ZERO sliced text and exact table bounds; ALL crops re-cut and
+   re-reviewed as a contact sheet before storing.
+2. **Two play buttons** → I put the same video in the Audio field AND Back Extra (features
+   designed at different moments, never reconciled against the final card). Rule: media
+   lives in EXACTLY ONE place; Audio field wins; Back Extra sound tags only for clips NOT
+   in the Audio field (dialect variants).
+3. **Reversed/RTL-looking lines** → R40. First-strong-direction of the whole card; fixed
+   with a leading LRM on every Arabic-first Text; PROVEN by before/after render in a
+   dir="auto" harness with the real template.
+4. **"Cue: hear it and watch the mouth"** → boilerplate filler. Rule: no templated cue
+   lines that restate what the card obviously does; every Back Extra line must carry
+   load-bearing information or not exist. (Same for the 14-symbol boilerplate sentence and
+   the 20× country boilerplate — all removed.)
+5. **"in" card unanswerable** → bare function-word meaning sides give production cards no
+   grip. Rule: function words get a visible usage FRAME (blank-style so the answer word
+   never appears): fii = "the last slot of the intro: 'from the city of X, ___ Y'".
+
+Pipeline changes queued for canon (in addition to the morning list):
+15. **Render-review gate (NEW, the big one):** after staging, pull `cardsInfo` answer HTML
+    for ≥1 card per block, wrap in the model CSS + `dir="auto"`, screenshot headless, and
+    LOOK. R40 exists because this stage didn't. Mechanizable: a `render_check.py` that
+    diffs first-strong direction + counts replay buttons + flags `<img>` whose file has
+    extreme aspect ratio vs its block siblings.
+16. **Crop contact-sheet QA:** all crops assembled into one sheet and reviewed together
+    before media store; acceptance = zero sliced text.
+17. **LRM rule:** generator prefixes U+200E to any Text whose first strong char is Arabic
+    (mechanized in the future language-profile checks alongside R38/R39).
+18. **Media single-home rule** (Audio field vs Back Extra), see #2 above.
+19. **Function-word frame rule** for language vocab, see #5 above.
