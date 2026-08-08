@@ -332,17 +332,23 @@ REGION_OF = {c: r for r, ms in REGIONS for c in ms}
 
 for country, capital in COUNTRIES:
     region = REGION_OF[country]
-    # Region stays VISIBLE scaffolding, not a blank: 20 blanks drawing on only 5 answers is a
-    # weak retrieval, and the roster lane already teaches region <-> members in both
-    # directions. Here the region's job is to keep the member inside the set's structure.
+    # TWO-WAY, and the property rides on BOTH directions:
+    #   c1 hidden -> capital + region shown, produce the COUNTRY
+    #   c2 hidden -> country shown, produce its CAPITAL
+    # Region stays VISIBLE scaffolding on both (a blank there would be 20 blanks over 5
+    # answers — a weak retrieval the duplicate checker rightly flags; region <-> members is
+    # the roster lane's job).
     if country == capital:
-        text = ("Among the Arabic-speaking countries of "
-                f"{region}, the one whose capital city carries the same name as the country: "
-                "{{c1::Kuwait}}")
+        # both sides are the same word, so a two-way pairing leaks in both directions;
+        # the fact worth testing is that the names coincide.
+        text = ("Arabic-speaking country whose capital city carries the same name as the "
+                "country: {{c1::Kuwait}}<br>"
+                f"its place in the Arabic-speaking world: {region}")
         back = "Cue: the country, its capital, and the Gulf it sits on all carry the name."
     else:
-        text = (f"The Arabic-speaking country of {region} whose capital is <b>{capital}</b>: "
-                f"{{{{c1::{country}}}}}")
+        text = (f"Arabic-speaking country: {{{{c1::{country}}}}}<br>"
+                f"its capital: {{{{c2::{capital}}}}}<br>"
+                f"its place in the Arabic-speaking world: {region}")
         back = ""
     add(text, (back + "<br><br>" if back else "") + roster_line([country]),
         "G_countries", [16], **CGROUND)

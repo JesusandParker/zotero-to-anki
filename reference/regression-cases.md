@@ -600,3 +600,26 @@ speaking country."* Three distinct harms, all from the same omission:
   gave 20 blanks drawing on 5 answers — a weak retrieval that the checker flagged as
   near-duplicates. The set's structure belongs in the roster lane; on a member note it is
   visible scaffolding, not a blank.
+
+## R50 — A fix must not regress a requirement an earlier fix established
+Arabic Unit 1, 2026-08-08, across four rounds of Parker's feedback. The country member cards
+went: one-way (capital asked, country given) → **two-way** → one-way again, because the
+round-3 fix for R49 (name the "Arabic-speaking" property) also collapsed the pairing to a
+single direction to avoid duplicating his geography deck. Every round satisfied the newly
+named defect and silently dropped an earlier one. Parker: *"why aren't you quizzing me both
+ways… you're getting so close but I feel like you're still far away."*
+The root cause is not any single card: **requirements lived in past conversation, not in an
+artifact the next rebuild had to satisfy.**
+- Fix: `scripts/check_block_spec.py` — a cumulative, append-only requirements checker run in
+  Stage 2.75 alongside `check_cards.py`. Each rule records the date and the feedback that
+  created it.
+- BAD (must catch): a regenerated cards file that no longer satisfies a rule an earlier
+  session added.
+- GOOD: the current file satisfying all accumulated rules; new preferences appended as new
+  rules in the session Parker states them.
+- **Sub-lesson, learned the hard way while writing it:** the first version of the two-way
+  rule applied only when `"its capital:"` appeared in the Text — the exact string the
+  regression removes — so it passed the regressed file silently. **A rule's applies-to
+  predicate must be structural and independent of the feature under test.** Always verify a
+  new rule against a reconstruction of the defect it was written for; a checker that has
+  never failed has never been tested.

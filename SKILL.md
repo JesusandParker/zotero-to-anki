@@ -376,6 +376,14 @@ Reliability is a harness, not a promise to be careful.
    `needs_human_check` from what was actually verified (rather than "contains a digit") and
    writes `<file>_VERIFY.md` split into **Section A: needs your eyes** and **Section B:
    verified, skim**. Run it BEFORE the gate; it rewrites the file, which invalidates any stamp.
+0b. `python3 scripts/check_block_spec.py work/<source>/<file>_cards.json` — the **cumulative
+   requirements** check. `check_cards.py` asks *is this card well-formed?*; this asks *does it
+   still satisfy every requirement Parker has ever established for its block?* Requirements
+   only ever get ADDED to it, so a later fix can never silently undo an earlier one (the
+   failure that created it: country cards went one-way → two-way → one-way again across three
+   rounds of his feedback). **Any new preference he states becomes a rule here, in the same
+   session he states it.** When writing a rule, make its *applies-to* predicate structural —
+   a predicate that keys on the feature being tested cannot catch that feature's removal.
 1. `python3 scripts/check_cards.py work/<source>/<file>.json` — the deterministic gate (legal
    HTML + cloze-present = HARD block; literal-answer-in-stem, parenthetical-after-cloze,
    husks, first-letter-hint leaks, bloated single blanks, numeric-without-flag, in-batch

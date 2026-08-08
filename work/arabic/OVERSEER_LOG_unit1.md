@@ -167,3 +167,14 @@ and there were two independent causes:
     scaffolding rather than a 20-blank/5-answer cluster the checker rightly flagged.
     **The test to run on every derived card: would this be IDENTICAL if it came from a
     different source about a different topic?** If yes, the reason for the mark was stripped.
+29. **R50 — the meta-failure, and the one that explains all the others.** Four rounds of
+    feedback, four fixes, and each one regressed an earlier requirement (country cards:
+    one-way → two-way → one-way). Requirements lived in conversation, not in any artifact a
+    rebuild had to satisfy. Fix: `scripts/check_block_spec.py`, an append-only cumulative
+    requirements checker now wired into Stage 2.75. 13 requirements recorded so far, each
+    tagged with the date and the feedback that created it.
+    **Two rules for writing rules, both learned by getting them wrong here:**
+    (a) a rule's applies-to predicate must be STRUCTURAL — my first two-way rule keyed on
+    `"its capital:"`, the very string the regression deletes, so it passed the bad file;
+    (b) verify every new rule against a RECONSTRUCTION of the defect it was written for.
+    A checker that has never failed has never been tested.
