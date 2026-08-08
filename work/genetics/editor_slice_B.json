@@ -1,0 +1,327 @@
+[
+  {
+    "idx": 16,
+    "verdict": "REWRITE",
+    "issues": [
+      "leak: visible tail 'what we now call nucleic acid' near-spells hidden c2 'nuclein' (check 2/15)",
+      "'pus-cell nuclei' over-specifies the cited context ('pus cells') and also cues c2"
+    ],
+    "fix": {
+      "Text": "In {{c1::1868::year}}, {{c1::Johann Friedrich Miescher::person}} isolated an acidic, phosphorus-rich substance from pus cells and named it {{c2::“nuclein”}}.",
+      "Back Extra": "Meaning: Miescher’s “nuclein” is what we now call nucleic acid — 1868 marks its first isolation.<br><br>Cue: a skeptical journal editor repeated the experiments himself, delaying publication until 1871.<br><br>Why: nitrogen and phosphorus together was an oddity — at the time the pair was known to coexist only in certain fats."
+    }
+  },
+  {
+    "idx": 17,
+    "verdict": "REWRITE",
+    "issues": [
+      "duplicate fact (rule 12): 1953 double-helix year is also clozed on card 26; re-anchored to 1944 with 1953 visible"
+    ],
+    "fix": {
+      "Text": "The role of nucleic acids in storing and transmitting genetic information was not established until {{c1::1944::year}}; the double-helix structure itself followed in 1953."
+    }
+  },
+  {
+    "idx": 18,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 19,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 20,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 21,
+    "verdict": "REWRITE",
+    "issues": [
+      "R14 (check 21): four produce-items packed inline; a list of things to produce gets one row per item with <br><br>"
+    ],
+    "fix": {
+      "Text": "The four bases commonly found in DNA are:<br><br>{{c1::adenine (A)}}<br><br>{{c1::guanine (G)}}<br><br>{{c1::thymine (T)}}<br><br>{{c1::cytosine (C)}}"
+    }
+  },
+  {
+    "idx": 22,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 23,
+    "verdict": "REWRITE",
+    "issues": [
+      "under-clozing (check 4 / rule 7): class name 'purines' rides visible and the ring-count↔class binding is untested anywhere in the batch; added c2"
+    ],
+    "fix": {
+      "Text": "The double-ring bases, called {{c2::purines}}, are {{c1::adenine and guanine::2 bases}}."
+    }
+  },
+  {
+    "idx": 24,
+    "verdict": "REWRITE",
+    "issues": [
+      "under-clozing (check 4 / rule 7): class name 'pyrimidines' rides visible untested; added c2 (mirror of card 23)"
+    ],
+    "fix": {
+      "Text": "The single-ring bases, called {{c2::pyrimidines}}, are {{c1::cytosine, thymine, and uracil::3 bases}}."
+    }
+  },
+  {
+    "idx": 25,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 26,
+    "verdict": "REWRITE",
+    "issues": [
+      "duplicate fact (rule 12): right-handedness is also clozed on card 41 c2 (B-form panel is its natural home); dropped c2, left 'right-handed' visible"
+    ],
+    "fix": {
+      "Text": "In {{c1::1953::year}}, {{c1::James Watson and Francis Crick::two researchers}} deduced that DNA is a right-handed double helix — two polynucleotide chains coiled about one another in a spiral."
+    }
+  },
+  {
+    "idx": 27,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 28,
+    "verdict": "REWRITE",
+    "issues": [
+      "Layer A #3: verbless colon-shorthand opening ('Chargaff's chemical analysis…:'); recast as a human-flow sentence, clozes unchanged"
+    ],
+    "fix": {
+      "Text": "When Erwin Chargaff analyzed DNA from many different organisms, the concentration of thymine always equaled that of {{c1::adenine}}, the concentration of cytosine always equaled that of {{c1::guanine}}, and total purines always equaled total {{c2::pyrimidines}}."
+    }
+  },
+  {
+    "idx": 29,
+    "verdict": "REWRITE",
+    "issues": [
+      "Layer A #2: second sentence opens with the pronoun 'Its'; merged into one self-contained sentence (17% and Pathway kept — verified against the book's worked answer)"
+    ],
+    "fix": {
+      "Text": "Double-stranded DNA that is 33% guanine has an adenine content of {{c1::17%::percent}}."
+    }
+  },
+  {
+    "idx": 30,
+    "verdict": "REWRITE",
+    "issues": [
+      "leak (check 2/15): visible tail 'there is no strict base pairing' decodes the single/double binary (no pairing ⇒ not double); moved to Back Extra"
+    ],
+    "fix": {
+      "Text": "Chargaff-style base arithmetic (%A from %G) fails for the DNA packaged in phage ΦX174, because that DNA is {{c1::single::single or double}}-stranded.",
+      "Back Extra": "Why: with only one strand there is no strict A=T / G=C base pairing to compute from.<br><br>Pitfall: exam stems love this trap — check WHETHER the nucleic acid is double-stranded before using A=T and G=C."
+    }
+  },
+  {
+    "idx": 31,
+    "verdict": "REWRITE",
+    "issues": [
+      "duplicate fact (rule 12): 0.34 nm is also clozed on card 37 (the structural-parameter card, its natural home); dropped c2, number left visible as anchor"
+    ],
+    "fix": {
+      "Text": "The X-ray diffraction data behind the double-helix model came from {{c1::Maurice Wilkins and Rosalind Franklin::two researchers}}, and showed a highly ordered, two-stranded structure with repeats every 0.34 nm along the axis."
+    }
+  },
+  {
+    "idx": 32,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 33,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 34,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 35,
+    "verdict": "REWRITE",
+    "issues": [
+      "Layer A #2: Back Extra references the source medium ('Chapter 10' is on the banned source-artifact list)"
+    ],
+    "fix": {
+      "Back Extra": "Why: complementarity is what makes DNA uniquely suited to store and transmit genetic information — each strand can serve as the template for rebuilding the other during replication."
+    }
+  },
+  {
+    "idx": 36,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 37,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 38,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 39,
+    "verdict": "REWRITE",
+    "issues": [
+      "echo leak (rule 3): visible 'adjacent stacked pairs' contains the hidden answer's own root ('base-stacking forces'); book's own phrase 'adjacent base pairs' keeps the key without the echo"
+    ],
+    "fix": {
+      "Text": "Double-helix stability comes from two forces: the many weak {{c1::hydrogen bonds}} between paired bases, and the hydrophobic {{c1::base-stacking forces}} between adjacent base pairs."
+    }
+  },
+  {
+    "idx": 40,
+    "verdict": "REWRITE",
+    "issues": [
+      "hard tautology (check 2): the answer word 'groove' is printed visible in the stem tail ('some bind one groove, others the other')",
+      "the low-value word 'grooves' was the only test while the major/minor discrimination (the passage's real fact) went untested; re-shaped to test major/minor keyed by width"
+    ],
+    "fix": {
+      "Text": "Of the two unequal grooves on the DNA double helix’s surface, the much wider one is the {{c1::major}} groove and the narrower is the {{c1::minor}} groove.",
+      "Back Extra": "Why: the width difference matters for protein–DNA recognition — some proteins that regulate gene expression bind the major groove; others bind the minor groove."
+    }
+  },
+  {
+    "idx": 41,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 42,
+    "verdict": "REWRITE",
+    "issues": [
+      "Layer A #5: 'Why it matters in vivo:' is not a blessed Back Extra label; normalized to 'Why:' with the same grounded content"
+    ],
+    "fix": {
+      "Back Extra": "Why: pure DNA almost never adopts the A form in vivo — but DNA–RNA heteroduplexes and RNA–RNA duplexes take a very similar structure, which is A-DNA’s real biological relevance."
+    }
+  },
+  {
+    "idx": 43,
+    "verdict": "REWRITE",
+    "issues": [
+      "leak (check 15): on the c1 card 'named for the zigzag path' sits visible and decodes the hidden 'Z'; moved 'zigzag' into c1 so letter and eponym hide together (anchored by the visible 'left-handed')",
+      "rule 7: Z's 12 bp/turn (Table 9.3) was back-only while B=10 and A=11 are tested; added c4 (12 verified in HL 60 context, 1.8 nm in HL 55/60)"
+    ],
+    "fix": {
+      "Text": "{{c1::Z}}-DNA is the {{c2::left::right or left}}-handed double-helical form — named for the {{c1::zigzag}} path of its backbone — occurring in {{c3::G:C-rich}} sequences with alternating purines and pyrimidines, with {{c4::12::bp per turn}} base pairs per turn.",
+      "Back Extra": "Pitfall: Z-DNA’s function in living cells is still unclear.<br><br>Cue: one single deep groove, and the thinnest helix (1.8 nm) of the three DNA forms."
+    }
+  },
+  {
+    "idx": 44,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 45,
+    "verdict": "REWRITE",
+    "issues": [
+      "parenthetical-synonym leak (rule 3 / R10 family): positive↔overwound and negative↔underwound are mutually defining, but sat under different numbers — each card showed the other pair as the hidden answer's own label; merged all four under c1 (two keyed pairs, load 4)"
+    ],
+    "fix": {
+      "Text": "Twisting cut DNA in the same direction as the helix winds produces a {{c1::positive::positive or negative}} supercoil ({{c1::overwound::overwound or underwound}} DNA); twisting opposite to the winding produces a {{c1::negative}} supercoil ({{c1::underwound}} DNA)."
+    }
+  },
+  {
+    "idx": 46,
+    "verdict": "REWRITE",
+    "issues": [
+      "grounding (check 3): Back Extra's Archaea exception and the replication/recombination/gene-expression triple appear in NO context string in the batch (HL 64 cuts mid-parenthetical at 'The DNA of some viruses'); trimmed to grounded wording",
+      "set needs_human_check: the Archaea specifics are likely the page's own continuation — restore only after a p222 page check"
+    ],
+    "fix": {
+      "Back Extra": "Pitfall: “almost all” is deliberate — the DNA of certain viruses is the noted exception.<br><br>Why: many of a chromosome’s biological functions can be carried out only when its DNA is negatively supercoiled."
+    }
+  },
+  {
+    "idx": 47,
+    "verdict": "REWRITE",
+    "issues": [
+      "grounding (check 3): Vibrio cholerae's second chromosome and plasmids appear nowhere in the batch's contexts and the card carries no verified_by; replaced with the passage's own grounded examples (MS2 4 genes / 3569 nt; T2 and pox ~150 genes, HL 65)"
+    ],
+    "fix": {
+      "Back Extra": "Ex: bacteriophage MS2 packs its whole genome — 4 genes — into one 3569-nucleotide RNA molecule, while the largest DNA viruses (phage T2, the animal pox viruses) carry about 150 genes."
+    }
+  },
+  {
+    "idx": 48,
+    "verdict": "REWRITE",
+    "issues": [
+      "duplicate fact (rule 12): c2 ('single'-stranded ΦX174) is exactly card 30's tested blank; dropped c2 so 30 and 48 form complementary directions (30: phage→form, 48: form→phage)"
+    ],
+    "fix": {
+      "Text": "Not every DNA genome is double-stranded: bacteriophage {{c1::ΦX174::phage}} packages its genome as single-stranded DNA."
+    }
+  },
+  {
+    "idx": 49,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 50,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 51,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 52,
+    "verdict": "REWRITE",
+    "issues": [
+      "Layer A #3: verbless shorthand lead-in ('Probing the folded genome:'); first line must carry a real verb — rows and clozes unchanged"
+    ],
+    "fix": {
+      "Text": "Enzyme probes dissect the bacterial folded genome:<br><br>One single-strand DNase nick → relaxes {{c1::only the nicked domain::one domain or all}}<br><br>RNase → {{c1::unfolds the loops; supercoiling unchanged}}"
+    }
+  },
+  {
+    "idx": 53,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 54,
+    "verdict": "REWRITE",
+    "issues": [
+      "grounding (check 3): 'nonhistone fraction varies with the isolation procedure' appears nowhere in the marks and diverges from the book's actual claim — it varies among CELL TYPES (HL 82); replaced with grounded contrast (histone:DNA equivalence, HL 75)"
+    ],
+    "fix": {
+      "Back Extra": "Distinguish: histone content tracks DNA content — a constant, conserved histone:DNA ratio across eukaryotes — while the nonhistone fraction varies widely among cell types.<br><br>Cue: chromatin is the DNA–protein complex present in nuclei."
+    }
+  },
+  {
+    "idx": 55,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": -1,
+    "verdict": "SUMMARY",
+    "issues": [
+      "19 PASS / 21 REWRITE / 0 DROP",
+      "Same-fact duplicates found and consolidated: 1953 (cards 17 vs 26 — 17 re-anchored to 1944); right-handedness (26 c2 vs 41 c2 — dropped from 26); 0.34 nm (31 c2 vs 37 — dropped from 31); ΦX174 single-strandedness (48 c2 vs 30 — dropped from 48). Hydrogen bonds answer on both 32 c2 and 39 c1 was KEPT: distinct claims (what holds the strands vs the two stability forces), but worth watching.",
+      "Numbers verified against contexts: 0.34 nm; 10 vs intracellular 10.4 bp/turn; A=11; Z=12 (now tested via 43 c4); A–T=2 vs G–C=3 H-bonds; 4.6 million bp; 1500 μm vs 1–2 μm cell; Chargaff worked example 33% G → 17% A (book's own answer). Card 51's '50 to 100' domains matches its cited p224 sentence, but the book disagrees with itself (Figure 9.15 caption: 'actually 40 to 50 loops'; Key Points: 'about 50 domains') — worth a human glance.",
+      "Unsupported Back-Extra content trimmed pending page verification: 46 (Archaea positive-supercoiling exception — context cuts mid-parenthetical; set needs_human_check), 47 (Vibrio cholerae/plasmids — nowhere in marks), 54 (isolation-procedure variability — contradicts HL 82's cell-type claim).",
+      "Scope note: indices 53–55 are block I_cov_chromatin although the brief listed blocks D–H; judged anyway per the explicit index range 16–55.",
+      "All recorded verified_by clearances were respected; none found factually wrong (rewrites touching verified cards preserve every verified value — e.g. 26 keeps 1953, 31 keeps 0.34 nm visible, 29 keeps 17%)."
+    ]
+  }
+]

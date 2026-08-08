@@ -1,0 +1,236 @@
+[
+ {
+  "file": "arabic_vocab_u1_01_salaam_alaykum_masri.mp3",
+  "row": 1,
+  "dialect": "masri",
+  "uuid": "2f823f09-779b-44b4-8eca-8bb3206bdf69",
+  "http": "200",
+  "bytes": 12261,
+  "origin_file": "AB3e_U1VE-01.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_01_salaam_alaykum_shaami.mp3",
+  "row": 1,
+  "dialect": "shaami",
+  "uuid": "d7090ed3-12de-4dd3-9b16-44687de36fde",
+  "http": "200",
+  "bytes": 13695,
+  "origin_file": "AB3e_U1VS-01.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_01_salaam_alaykum_formal.mp3",
+  "row": 1,
+  "dialect": "formal",
+  "uuid": "7a28bd01-917c-4ba8-b221-5f1bb856dbda",
+  "http": "200",
+  "bytes": 12391,
+  "origin_file": "AB3e_U1VSt-01.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_02_ahlan_masri.mp3",
+  "row": 2,
+  "dialect": "masri",
+  "uuid": "e398edb4-3664-43a5-94d3-e7f573a870a1",
+  "http": "200",
+  "bytes": 8342,
+  "origin_file": "AB3e_U1VE-02.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_02_ahlan_shaami.mp3",
+  "row": 2,
+  "dialect": "shaami",
+  "uuid": "742393a0-a75e-4cde-9e0f-69d9704cf658",
+  "http": "200",
+  "bytes": 8601,
+  "origin_file": "AB3e_U1VS-02.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_02_ahlan_formal.mp3",
+  "row": 2,
+  "dialect": "formal",
+  "uuid": "ef283a56-0280-453b-bad5-18b0ee19ea89",
+  "http": "200",
+  "bytes": 7428,
+  "origin_file": "AB3e_U1VSt-02.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_03_ahlan_wa_sahlan_masri.mp3",
+  "row": 3,
+  "dialect": "masri",
+  "uuid": "6623e4e1-230c-4132-b93f-f6316081893a",
+  "http": "200",
+  "bytes": 10432,
+  "origin_file": "AB3e_U1VE-03.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_03_ahlan_wa_sahlan_shaami.mp3",
+  "row": 3,
+  "dialect": "shaami",
+  "uuid": "4412352d-05d2-403c-a7cc-731f149615e0",
+  "http": "200",
+  "bytes": 11083,
+  "origin_file": "AB3e_U1VS-03.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_03_ahlan_wa_sahlan_formal.mp3",
+  "row": 3,
+  "dialect": "formal",
+  "uuid": "11da4edd-5279-4be6-803b-f12ec6334a48",
+  "http": "200",
+  "bytes": 10432,
+  "origin_file": "AB3e_U1VSt-03.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_04_marhaba_shaami.mp3",
+  "row": 4,
+  "dialect": "shaami",
+  "uuid": "dc408834-5874-44e7-a44c-b41df507cb6a",
+  "http": "200",
+  "bytes": 9255,
+  "origin_file": "AB3e_U1VS-04.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_04_marhaba_formal.mp3",
+  "row": 4,
+  "dialect": "formal",
+  "uuid": "49a7a309-3b43-4fd1-bf46-222d46cb0306",
+  "http": "200",
+  "bytes": 8865,
+  "origin_file": "AB3e_U1VSt-04.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_05_ana_masri.mp3",
+  "row": 5,
+  "dialect": "masri",
+  "uuid": "ea333bf1-83da-4f18-afd3-a101999e7287",
+  "http": "200",
+  "bytes": 8212,
+  "origin_file": "AB3e_U1VE-05.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_05_ana_shaami.mp3",
+  "row": 5,
+  "dialect": "shaami",
+  "uuid": "3c07d86c-d252-474a-b1ff-3092f6313c35",
+  "http": "200",
+  "bytes": 7818,
+  "origin_file": "AB3e_U1VS-05.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_05_ana_formal.mp3",
+  "row": 5,
+  "dialect": "formal",
+  "uuid": "29d2c281-4060-477d-8f45-dec1195d7d97",
+  "http": "200",
+  "bytes": 8603,
+  "origin_file": "AB3e_U1VSt-05.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_06_ismi_masri.mp3",
+  "row": 6,
+  "dialect": "masri",
+  "uuid": "c2c85449-2904-41e2-a4be-a76253964acb",
+  "http": "200",
+  "bytes": 8603,
+  "origin_file": "AB3e_U1VE-06.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_06_ismi_shaami.mp3",
+  "row": 6,
+  "dialect": "shaami",
+  "uuid": "9c12db98-cee1-496b-a745-eaa7fe9ad257",
+  "http": "200",
+  "bytes": 8993,
+  "origin_file": "AB3e_U1VS-06.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_06_ismi_formal.mp3",
+  "row": 6,
+  "dialect": "formal",
+  "uuid": "bb7dc702-9eb4-4b75-921d-c6eb9ed0f9c2",
+  "http": "200",
+  "bytes": 9387,
+  "origin_file": "AB3e_U1VSt-06.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_07_min_masri.mp3",
+  "row": 7,
+  "dialect": "masri",
+  "uuid": "d0035e3d-1294-4365-ae2a-43144dd2dbcc",
+  "http": "200",
+  "bytes": 7950,
+  "origin_file": "AB3e_U1VE-07.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_07_min_shaami.mp3",
+  "row": 7,
+  "dialect": "shaami",
+  "uuid": "daf1fecd-0253-426a-8ac5-7cf6f39cf79c",
+  "http": "200",
+  "bytes": 7295,
+  "origin_file": "AB3e_U1VS-07.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_07_min_formal.mp3",
+  "row": 7,
+  "dialect": "formal",
+  "uuid": "33af2134-ad05-4aa7-91f7-be2b9fdb0b73",
+  "http": "200",
+  "bytes": 8212,
+  "origin_file": "AB3e_U1VSt-07.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_08_madiinat_masri.mp3",
+  "row": 8,
+  "dialect": "masri",
+  "uuid": "22d9a275-cc38-49d7-9522-28300b0e4c45",
+  "http": "200",
+  "bytes": 10824,
+  "origin_file": "AB3e_U1VE-08.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_08_madiinat_shaami.mp3",
+  "row": 8,
+  "dialect": "shaami",
+  "uuid": "45a6abfb-46d5-4d4e-a968-56bb92e0a714",
+  "http": "200",
+  "bytes": 8471,
+  "origin_file": "AB3e_U1VS-08.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_08_madiinat_formal.mp3",
+  "row": 8,
+  "dialect": "formal",
+  "uuid": "bd20cf49-33be-40d1-ad0e-3f30375d7ce6",
+  "http": "200",
+  "bytes": 9779,
+  "origin_file": "AB3e_U1VSt-08.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_09_fii_masri.mp3",
+  "row": 9,
+  "dialect": "masri",
+  "uuid": "1177b417-8d64-4df1-815b-2e86a82b9bc7",
+  "http": "200",
+  "bytes": 9648,
+  "origin_file": "AB3e_U1VE-09.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_09_fii_shaami.mp3",
+  "row": 9,
+  "dialect": "shaami",
+  "uuid": "711ac255-d297-492f-89de-78accace3f8d",
+  "http": "200",
+  "bytes": 7818,
+  "origin_file": "AB3e_U1VS-09.mp3"
+ },
+ {
+  "file": "arabic_vocab_u1_09_fii_formal.mp3",
+  "row": 9,
+  "dialect": "formal",
+  "uuid": "dde838e8-4943-4dce-bf6f-1a7d5f6d27f9",
+  "http": "200",
+  "bytes": 8212,
+  "origin_file": "AB3e_U1VSt-09.mp3"
+ }
+]

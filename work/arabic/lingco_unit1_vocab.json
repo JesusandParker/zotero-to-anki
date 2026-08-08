@@ -1,0 +1,148 @@
+{
+ "source": "class.lingco.io /api/content/lessons/8174 (course 4839 'Alif Baa: Independent Learners')",
+ "fetched": "2026-08-08",
+ "note": "Publisher Unicode + official AB3e audio. Audio UUID->word map + origin filenames in lingco_audio_manifest.json (U1VE=Egyptian, U1VS=Levantine, U1VSt=Formal).",
+ "rows": [
+  {
+   "row": 1,
+   "meaning": "Greetings! (Islamic greeting)",
+   "formal": {
+    "ar": "السَّلامُ عَلَيكُم",
+    "translit": "assalaamu calaykum"
+   },
+   "masri": {
+    "ar": "السَّلامُ عَلَيكُم",
+    "translit": "issalaamu calaykum"
+   },
+   "shaami": {
+    "ar": "السَّلامُ عَلَيكُم",
+    "translit": "assalaamu calaykum"
+   }
+  },
+  {
+   "row": 2,
+   "meaning": "Hello! or Hi! (used more in Egypt than in the Levant)",
+   "formal": {
+    "ar": "أَهلاً",
+    "translit": "ahlan"
+   },
+   "masri": {
+    "ar": "أَهلاً",
+    "translit": "ahlan"
+   },
+   "shaami": {
+    "ar": "أَهلا",
+    "translit": "ahla"
+   }
+  },
+  {
+   "row": 3,
+   "meaning": "Hello!",
+   "formal": {
+    "ar": "أَهلاً وسَهلاً",
+    "translit": "ahlan wa sahlan"
+   },
+   "masri": {
+    "ar": "أَهلاً وسَهلاً",
+    "translit": "ahlan wa sahlan"
+   },
+   "shaami": {
+    "ar": "أَهلا وسَهلا",
+    "translit": "ahla w sahla"
+   }
+  },
+  {
+   "row": 4,
+   "meaning": "Hello! (used in the Levant)",
+   "formal": {
+    "ar": "مَرحَباً",
+    "translit": "marHaban"
+   },
+   "masri": null,
+   "shaami": {
+    "ar": "مَرحَبا",
+    "translit": "marHaba"
+   }
+  },
+  {
+   "row": 5,
+   "meaning": "I",
+   "formal": {
+    "ar": "أَنا",
+    "translit": "ana"
+   },
+   "masri": {
+    "ar": "أَنا",
+    "translit": "ana"
+   },
+   "shaami": {
+    "ar": "أَنا",
+    "translit": "ana"
+   }
+  },
+  {
+   "row": 6,
+   "meaning": "my name",
+   "formal": {
+    "ar": "اسمي",
+    "translit": "ismii"
+   },
+   "masri": {
+    "ar": "اسمي",
+    "translit": "ismi"
+   },
+   "shaami": {
+    "ar": "اسمي",
+    "translit": "ismi"
+   }
+  },
+  {
+   "row": 7,
+   "meaning": "from",
+   "formal": {
+    "ar": "مِن",
+    "translit": "min"
+   },
+   "masri": {
+    "ar": "مِن",
+    "translit": "min"
+   },
+   "shaami": {
+    "ar": "مِن",
+    "translit": "min"
+   }
+  },
+  {
+   "row": 8,
+   "meaning": "the city of …",
+   "formal": {
+    "ar": "مدينة",
+    "translit": "madiinat"
+   },
+   "masri": {
+    "ar": "مدينة",
+    "translit": "midiinit"
+   },
+   "shaami": {
+    "ar": "مدينة",
+    "translit": "madiinit"
+   }
+  },
+  {
+   "row": 9,
+   "meaning": "in",
+   "formal": {
+    "ar": "في",
+    "translit": "fii"
+   },
+   "masri": {
+    "ar": "في",
+    "translit": "fi"
+   },
+   "shaami": {
+    "ar": "بِـ",
+    "translit": "bi"
+   }
+  }
+ ]
+}

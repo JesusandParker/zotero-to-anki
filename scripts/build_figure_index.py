@@ -36,7 +36,12 @@ import sources as S
 # A caption STARTS a block: "FIGURE 6-6  The skull." Body text that merely cross-references
 # a figure ("FIGURE 6-15 and TABLE 6-3 show the major muscles...") matches this too, which
 # is why a hit only counts as a caption once CREDIT_LINE corroborates it.
-CAPTION = re.compile(r"^\s*(FIGURE|TABLE|BOX|SKILL\s+DRILL|CHART)\s+([\dA-Z][\d\-.]*)\b", re.I)
+CAPTION = re.compile(r"^\s*(?:[◾■▪●]\s*)?(FIGURE|TABLE|BOX|SKILL\s+DRILL|CHART)\s+([\dA-Z][\d\-.]*)\b", re.I)
+# Some books (Snustad's genetics) prefix every true caption with a marker glyph and set
+# the keyword in ALL CAPS ("◾ FIGURE 9.1 …"), while inline cross-references are Title
+# Case inside parentheses ("(◾ Figure 9.1)"). Marker + caps is therefore as strong a
+# corroboration as a credit line — and those line-art figures carry no credit at all.
+CAPTION_MARKED = re.compile(r"^\s*[◾■▪●]\s*(?:FIGURE|TABLE|BOX|SKILL\s+DRILL|CHART)\b")
 # A genuine caption is trailed by a rights line (and often an accessibility "Description"
 # stub); that is what separates a caption from prose that merely opens with "FIGURE 4-9".
 #
@@ -130,6 +135,17 @@ def find_captions(page, next_page=None):
         if len(bl) - i <= 2 and nxt:          # near the foot: the body ran onto the next page
             tail += [x[0] for x in nxt[:5]]
         corroborated = any(is_credit(x) or x == DESC_STUB for x in tail)
+        # Marker-glyph + ALL-CAPS keyword is a caption by the book's own typography
+        # (Snustad); inline references are Title Case, so they can never take this path.
+        if not corroborated and CAPTION_MARKED.match(t):
+            corroborated = True
+        # A block that IS the bare label ("TABLE 9.1") is a table header in books whose
+        # tables carry no credit line (Snustad) — prose never opens a block with the bare
+        # label and nothing else, so this cannot promote a cross-reference (R15 intact).
+        if (not corroborated and m.group(1).isupper()
+                and m.group(1).upper().startswith(("TABLE", "CHART"))
+                and len(t.strip()) <= 16):
+            corroborated = True
         # A SKILL DRILL banner carries no credit line — its body is a run of numbered step
         # panels, and the credit (if any) lands pages later. Its own corroboration is that
         # a `Step N` heading follows, which is exactly as strong a signal as a credit: body
@@ -186,6 +202,13 @@ def pair_art(doc, pno, cap):
             best, bd = a, gap
     if best:
         return best, pno
+    # Margin-caption layouts (Snustad) put the caption beside its plate, outside the
+    # vertical-gap window. When the page carries exactly ONE art object there is no
+    # ambiguity about which plate the caption means — pair them. Multi-art pages keep
+    # the strict geometry so a caption can never grab a neighbour's plate.
+    solo = art_on(page)
+    if len(solo) == 1:
+        return solo[0], pno
     # A full-page plate pushes its caption onto the next page's top; a table titled at the
     # foot of a page has its body on the next.
     if above and cy0 < 140 and pno > 1:

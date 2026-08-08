@@ -449,3 +449,30 @@ A `glossary`/`in_source` anchor exempts a lexicon card from the external-tier fl
 - **BAD:** `anchor.method: "in_source"` for a term_key with no evidence entry → must HARD-block.
 - **GOOD (must not over-flag):** the same claim for a term_key whose entry resolves (permanent fixture: `work/_regression/lexicon_evidence.json`) → passes.
 - **Catch test:** executable — `r37_*` in `test_regressions.py`.
+
+## R38 — A page can be densely OCR'd and still be missing the TARGET LANGUAGE entirely
+The Arabic textbook (source `arabic`, 2026-08-08) is a scan whose OCR captured only the
+English: all 251 pages together contain ZERO Arabic codepoints, yet every Unit 1 mark came
+back `grounding: EXACT` / `content: FULL` because the English prose around each mark is
+dense. The `needs_visual` heuristic (CAPTION_ONLY / SPARSE_PAGE) never fired — the pages
+are not sparse, they are missing one script. Every Arabic-bearing card had to be grounded
+by page-render transcription + external authority (Lingco publisher JSON) instead.
+- BAD (must catch): a card whose cloze answer contains codepoints from a script that appears
+  NOWHERE in the cited context, shipped with no `visual_source`/`image`/external evidence.
+- GOOD (don't over-flag): the same card carrying a back-side source crop (`image`) or a
+  `verified_against` naming an external authority snapshot in `work/<source>/`.
+- Mechanization direction (next session): per-source `force_visual` flag in the registry +
+  a script-mismatch check in `check_cards.py` (answer-script ∉ context-script ⇒ require evidence).
+
+## R39 — RTL text: a MIXED line scrambles; a PURE line is safe (and `<div dir>` is not the fix)
+Verified in-browser 2026-08-08 (Alif Baa run): Arabic and Latin on ONE line reorder
+unpredictably around neutrals (parens, `=`, digits); a line that is 100% one script renders
+correctly inside Anki's LTR field with gate-legal HTML only. `<div dir="rtl">` also fixes it
+but `div` is outside ALLOWED_TAGS and HARD-blocks.
+- BAD (must catch): a Text or Back Extra LINE (between `<br>`s) mixing Arabic codepoints with
+  Latin words/digits — except single bare glyphs in a name-keyed Distinguish list, whose
+  visual reversal is harmless because the explanation keys on letter NAMES, not positions.
+- GOOD (don't over-flag): pure-Arabic line followed by pure-Latin line; `{{c1::أَهلاً}}` alone
+  on its line; transliteration lines that contain no Arabic script.
+- Also record: translit is ANSWER-SIDE ONLY (it gives pronunciation away on both card
+  directions); diacritics ride a carrier letter (بَ), never bare, never on U+25CC (tofu).

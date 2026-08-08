@@ -1,0 +1,213 @@
+[
+ {
+  "idx": 0,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 1,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 2,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 3,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 4,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 5,
+  "verdict": "REWRITE",
+  "issues": [
+   "3-enzyme panel fanned across c1/c2 on one note: on the c2 card the visible survived pair (protease, RNase) plus the closed three-candidate design hands DNase over by pure elimination — recall by elimination, the rule-24 defect at N=3 (checks 15/18/26)",
+   "fix groups all three enzymes under c1, each role-cued by survived vs eliminated; 3 uncued answers is within load (check 25)"
+  ],
+  "fix": {
+   "Text": "To rule out protein contamination of their DNA extract, Avery's team used specific enzymes to destroy one candidate molecule at a time: transforming activity survived {{c1::protease}} and {{c1::RNase}} treatment but was eliminated entirely by {{c1::DNase}}.",
+   "Back Extra": "Why: each enzyme degrades exactly one macromolecule, so the treatment that kills the activity names the molecule carrying it."
+  }
+ },
+ {
+  "idx": 6,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 7,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 8,
+  "verdict": "REWRITE",
+  "issues": [
+   "qualifier swap vs source (check 3): the book says DNA contains NO sulfur while proteins contain VIRTUALLY NO phosphorus; the card hedged the wrong sides ('sulfur ... virtually absent from DNA', 'phosphorus ... not protein') — the asymmetry is chemically meaningful for the labeling logic and would be drilled inverted"
+  ],
+  "fix": {
+   "Text": "The Hershey–Chase labeling strategy exploits one chemical difference: {{c1::phosphorus::element}} is found in DNA but virtually absent from protein, while {{c1::sulfur::element}} is found in protein but absent from DNA.",
+   "Back Extra": "Why: with an element unique to each macromolecule, a radioactive isotope of that element tags one molecule cleanly."
+  }
+ },
+ {
+  "idx": 9,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 10,
+  "verdict": "PASS",
+  "issues": [
+   "Ex line's fact (progeny carried some of the parental ³²P, none of the ³⁵S) is grounded only in mark 126's context, which this card does not cite — fact verified true against mark 126; recommend integrator add 126 to from_idx (metadata change outside editor's license)"
+  ]
+ },
+ {
+  "idx": 11,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 12,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 13,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 14,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 15,
+  "verdict": "REWRITE",
+  "issues": [
+   "the strain-A/strain-B assignment of protein coat vs RNA is arbitrary figure convention, not knowledge — with c1 hidden, the swapped assignment is equally producible, so the exact per-slot answers are not forced cold (checks 1/18); symmetric 'one strain / a different strain' labels remove the false distinguishability and match the book's own wording",
+   "recorded clearance on c2 (forced choice between the two components the stem must name) respected and preserved"
+  ],
+  "fix": {
+   "Text": "Fraenkel-Conrat reconstituted hybrid TMV particles from the {{c1::protein coat}} of one strain and the {{c1::RNA}} of a different strain; the progeny viruses were always identical to the strain that donated the {{c2::RNA::protein coat or RNA}}.",
+   "Back Extra": "Why: offspring follow the nucleic acid, not the coat — so TMV's genes are its RNA.<br><br>Cue: TMV contains no DNA at all, just one RNA molecule in a protein coat."
+  }
+ },
+ {
+  "idx": 95,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 96,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 97,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 98,
+  "verdict": "REWRITE",
+  "issues": [
+   "check 30 FAITHFUL: answer asserts 'the double-stranded nucleic acid' unhedged; the source says DNA is USUALLY double-stranded, and sibling cards in this same deck drill the ΦX174 single-stranded-DNA exception — the unhedged gloss is the comfortable-overbroad definition this lane exists to prevent, and it would collide with the deck's own Pitfall cards"
+  ],
+  "fix": {
+   "Text": "<b>DNA (deoxyribonucleic acid)</b> is {{c1::the usually double-stranded nucleic acid storing genetic information}}.",
+   "Back Extra": "Ex: “There are two types of nucleic acids: <b>deoxyribonucleic acid (DNA)</b> and ribonucleic acid (RNA).”<br><br>Distinguish: RNA is usually single-stranded, uses the sugar ribose, and swaps thymine for uracil."
+  }
+ },
+ {
+  "idx": 99,
+  "verdict": "REWRITE",
+  "issues": [
+   "cross-card giveaway: the visible rider '— and the genetic material of some viruses' binds the answer of card idx 13's c2 (some viruses store genetic information in RNA) to the term on a permanently visible face, and parks a testable fact as face scenery (checks 4/16); moved to a Back Extra Cue — the fact stays taught and is tested by card 13",
+   "anchor quote is a cross-reference stub ('Ribonucleic acid: See RNA.') — agreement is unverifiable against it; definition verified instead against chapter text (RNA usually exists as a single-stranded polymer); recommend repointing the anchor to the glossary's real RNA entry"
+  ],
+  "fix": {
+   "Text": "<b>RNA (ribonucleic acid)</b> is {{c1::a usually single-stranded nucleic acid}}.",
+   "Back Extra": "Ex: “There are two types of nucleic acids: deoxyribonucleic acid (DNA) and <b>ribonucleic acid (RNA)</b>.”<br><br>Distinguish: DNA is double-stranded, uses deoxyribose, and keeps thymine where RNA uses uracil.<br><br>Cue: in some viruses, RNA — not DNA — is the genetic material."
+  }
+ },
+ {
+  "idx": 100,
+  "verdict": "PASS",
+  "issues": [
+   "Back Extra 'shows up as smooth colonies' is Chapter-8 carryover (S/R colony naming) not present in any chapter-9 mark context — verified true for S. pneumoniae, keep or trim at integration; 'capsule-bearing' in the answer IS supported by the page's Figure 9.1/9.2 text carried in adjacent marks (Heat-killed Type IIIS → Capsule)"
+  ]
+ },
+ {
+  "idx": 101,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 102,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 103,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 104,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 105,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 106,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 107,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 108,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 109,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 110,
+  "verdict": "PASS",
+  "issues": [
+   "cited mark 29 has grounding=PARTIAL and no recorded clearance — the safety overlay calls for needs_human_check: true on this card; definition, Ex line, and glossary-anchor agreement were all independently verified correct by this editor, so content itself is sound"
+  ]
+ },
+ {
+  "idx": -1,
+  "verdict": "SUMMARY",
+  "issues": [
+   "27 PASS / 5 REWRITE / 0 DROP",
+   "purple-lane integrity held: all 16 lexicon cards cite lexicon-kind marks (R36), every anchor has a live evidence entry (R37), Ex present and bolded on all 16, no term_key collisions in slice",
+   "accepted inherent interference (not exemplar reuse, no fix warranted): card 1's necessary virulent/avirulent setup pre-teaches the virulence halves of lexicon 100/101; card 12's face states the ³⁵S↔protein association card 9 tests; card 15's face states TMV's two components (lexicon 107's answer); cards 5↔6 are a deliberate evidence↔conclusion reciprocal pair, analogous to a two-way definition",
+   "evidence-file cruft: lexicon_evidence.json carries a stray whole-sentence term entry (occurrences 0) from mark 29's first extraction pass, and the ribonucl_acid_rna anchor is a 'See RNA' stub — neither blocks a card, both worth cleaning",
+   "PARTIAL-grounded marks in slice: mark 10 (card 3, cleared by recorded page-text verification, claims re-verified here) and mark 29 (card 110, flagged, needs_human_check recommended)",
+   "margin comment on mark 18 ('I wanna know the date and who did it') is honored exactly by card 7"
+  ]
+ }
+]

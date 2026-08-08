@@ -1,0 +1,335 @@
+[
+  {
+    "idx": 56,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 57,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 58,
+    "verdict": "REWRITE",
+    "issues": [
+      "20-30% is an in-span, verify-list number left visible and untested (check 4 / rule 7) - added c3; % after the blank announces the slot"
+    ],
+    "fix": {
+      "Text": "Histones are basic because {{c3::20 to 30::percent}}% of their amino acids are {{c1::arginine and lysine::2 amino acids}} — their positive charges grip DNA's negatively charged {{c2::phosphate}} backbone.",
+      "Back Extra": "Mechanism: exposed –NH₃⁺ groups make histones polycations; DNA is a polyanion — electrostatic attraction does the binding."
+    }
+  },
+  {
+    "idx": 59,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 60,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 61,
+    "verdict": "REWRITE",
+    "issues": [
+      "singular 'DNA molecule' visible after the blank plus a 'how many' hint grammatically forces 'one' - answer decodable by a non-knower (checks 2/15)",
+      "'continuous through the centromere' is mark 84's fact, not cited mark 83's - moved to card 62 where it is grounded",
+      "Back Extra's yeast end-to-end-sequencing claim is supported by no mark (check 3) - replaced with the grounded sequencing-gaps pitfall from mark 83"
+    ],
+    "fix": {
+      "Text": "Each eukaryotic chromosome consists of {{c1::one single, giant DNA molecule::how many DNA molecules}}.",
+      "Back Extra": "Pitfall: gaps in a chromosome's assembled sequence do not prove separate molecules — long repetitive arrays simply defeat current sequencing technology."
+    }
+  },
+  {
+    "idx": 62,
+    "verdict": "REWRITE",
+    "issues": [
+      "c2 hid 'one continuous DNA molecule' while its negated complement 'not segments glued by protein linkers' stayed visible - answer recoverable by negation (checks 2/18)",
+      "c2 also duplicated card 61's tested claim (rule 12) - re-scoped to what the pronase result ruled out",
+      "the cited mark's centromere-continuity finding was unused - added as a grounded Ex line"
+    ],
+    "fix": {
+      "Text": "Kavenoff and Zimm sized the largest Drosophila DNA by its stretch-relaxation behavior in solution; the result was unchanged by treatment with {{c1::pronase (a protein-degrading enzyme)::treatment}} — ruling out {{c2::separate DNA segments joined by protein linkers}}.",
+      "Back Extra": "Mechanism: the time a stretched DNA coil takes to relax scales with molecule size; the largest molecule matched the whole chromosome's DNA content — with or without its proteins.<br><br>Ex: a strain whose largest chromosome carried a relocated centromere gave the same result — the DNA molecule is continuous through the centromere."
+    }
+  },
+  {
+    "idx": 63,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 64,
+    "verdict": "PASS",
+    "issues": [
+      "safety overlay: cited marks 86/87 grounding=PARTIAL with no recorded verification - set needs_human_check"
+    ]
+  },
+  {
+    "idx": 65,
+    "verdict": "REWRITE",
+    "issues": [
+      "c2 'a histone octamer' was decodable from the visible appositive 'two molecules each of H2a, H2b, H3, and H4' (2 x 4 = 8; checks 2/15) - dropped the term blank, kept 'histone octamer' visible as scaffold, renumbered the composition c3 to c2"
+    ],
+    "fix": {
+      "Text": "The nucleosome core is {{c1::146::bp count}} nucleotide pairs of DNA wrapped around a histone octamer — two molecules each of {{c2::H2a, H2b, H3, and H4::4 histones}}.",
+      "Back Extra": "Cue: extensive nuclease digestion chews everything except this protected 146-bp core particle."
+    }
+  },
+  {
+    "idx": 66,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 67,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 68,
+    "verdict": "REWRITE",
+    "issues": [
+      "answer 'linker DNA' duplicates card 63's c2 (rule 12) and is semi-decodable from 'between nucleosome cores' (check 15)",
+      "the mark's real fact - length varies, 8-114 bp (a verify-list number) - sat visible and untested (checks 4/24) - blank re-scoped to the range"
+    ],
+    "fix": {
+      "Text": "The linker DNA between nucleosome cores varies in length from species to species and cell type to cell type — reported linkers run from {{c1::8 to 114::range, bp}} nucleotide pairs.",
+      "Back Extra": "Cue: the cores are invariant; the linkers are where the variability lives."
+    }
+  },
+  {
+    "idx": 69,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 70,
+    "verdict": "PASS",
+    "issues": [
+      "safety overlay: cited mark 95 grounding=PARTIAL with no recorded verification - set needs_human_check"
+    ]
+  },
+  {
+    "idx": 71,
+    "verdict": "REWRITE",
+    "issues": [
+      "Back Extra '2-nm naked DNA' is not supported by cited marks 98-100 (the only '2 nm' in the file is garbled figure-label OCR on other marks) (check 3) - replaced with the cited 10^3-10^5 um into a few um compression figures",
+      "safety overlay: cited marks 98/99 grounding=PARTIAL with no recorded verification - set needs_human_check"
+    ],
+    "fix": {
+      "Text": "Eukaryotic DNA is packaged through three levels of condensation:<br><br>Level 1 — DNA wound into nucleosomes → {{c1::the 11-nm interphase chromatin fiber}}<br><br>Level 2 — folding/supercoiling with histone H1 → {{c1::the 30-nm chromatin fiber}}<br><br>Level 3 — nonhistone scaffold → {{c1::supercoiled loops/domains of the metaphase chromosome}}",
+      "Back Extra": "Cue: naked DNA → 11-nm beads → 30-nm fiber → scaffold-anchored loops — packing 10³–10⁵ μm of DNA into a metaphase structure a few μm long.<br><br>Roster: Level 1 = 11-nm nucleosome fiber · Level 2 = 30-nm fiber (H1) · Level 3 = scaffold loops → metaphase chromosome."
+    }
+  },
+  {
+    "idx": 72,
+    "verdict": "REWRITE",
+    "issues": [
+      "Back Extra 'shaped like the chromosome' is not supported by cited marks 97/100 (check 3) - trimmed"
+    ],
+    "fix": {
+      "Text": "The central core of a metaphase chromosome — the {{c1::scaffold}} — is composed of {{c2::nonhistone::histone or nonhistone}} chromosomal proteins.",
+      "Back Extra": "Ex: strip the histones from an isolated metaphase chromosome and the scaffold remains, surrounded by a huge halo of DNA."
+    }
+  },
+  {
+    "idx": 73,
+    "verdict": "REWRITE",
+    "issues": [
+      "the two-item explanation list had item 1 ('human genes are larger') visible for free while only 'nongenic' was clozed - cloze-one-reveal-rest (rule 4 / check 5); both explanations now grouped under c2"
+    ],
+    "fix": {
+      "Text": "The human genome has about {{c1::700::factor}}× more DNA than E. coli's but only {{c1::4.5::factor}}× more genes — because {{c2::human genes are larger}} and {{c2::much human DNA is nongenic (not in genes)}}.",
+      "Back Extra": "Cue: the nongenic majority was once dismissed as “junk” DNA — now known to matter for chromosome structure."
+    }
+  },
+  {
+    "idx": 74,
+    "verdict": "REWRITE",
+    "issues": [
+      "definition card ran one-way with the composition clause visible and untested (check 4; Parker's default for definitions is two-way) - added c2 on the composition"
+    ],
+    "fix": {
+      "Text": "In density-gradient centrifugation, the genomic fractions that settle away from the main band (because they are G:C- or A:T-rich) are called {{c1::satellite DNAs}} — {{c2::short sequences repeated over and over::composition}}.",
+      "Back Extra": "Cue: from Latin satelles, “attendant” — side bands attending the main band."
+    }
+  },
+  {
+    "idx": 75,
+    "verdict": "REWRITE",
+    "issues": [
+      "c1 'lower' was doubly decodable: 'packs the molecule denser' (denser sinks) and the complement 'A:T-rich DNA rides higher' were both visible (checks 2/15)",
+      "c2 mechanism re-tested card 34's already-tested 2-vs-3 H-bond fact (rule 12) - moved to Back Extra as teaching",
+      "Back Extra melting-temperature claim is supported by no mark (check 3) - dropped"
+    ],
+    "fix": {
+      "Text": "In density-gradient centrifugation, G:C-rich DNA comes to rest {{c1::lower::higher or lower}} than typical DNA, and A:T-rich DNA {{c1::higher::higher or lower}}.",
+      "Back Extra": "Why: G:C pairs hold three hydrogen bonds to A:T's two — the tighter bonding makes G:C-rich DNA denser."
+    }
+  },
+  {
+    "idx": 76,
+    "verdict": "REWRITE",
+    "issues": [
+      "'near 100°C' is an in-span number left visible and untested (check 4 / rule 7) - added c2; the °C after the blank announces the slot"
+    ],
+    "fix": {
+      "Text": "Heating DNA to near {{c2::100}}°C separates its strands — {{c1::denaturation}}; cooling slowly lets complementary strands re-form double helices — {{c1::renaturation}}.",
+      "Back Extra": "Why: heat breaks the many weak hydrogen bonds; slow cooling gives complements time to find each other."
+    }
+  },
+  {
+    "idx": 77,
+    "verdict": "REWRITE",
+    "issues": [
+      "c1 'faster' was decodable from the visible reason 'more concentrated — present many times over' (checks 2/15)",
+      "c2's answer near-paraphrases the visible word 'repetitive' (present many times over = repetitive; rule 20 flavor / check 22) - reason moved to Back Extra"
+    ],
+    "fix": {
+      "Text": "In a renaturation experiment, repetitive DNA sequences re-form duplexes {{c1::faster::faster or slower}} than unique sequences do.",
+      "Back Extra": "Why: renaturation rate tracks concentration, and repeats are present many times over — relatively more concentrated than unique sequences.<br><br>Cue: the rate difference lets researchers isolate repetitive DNA and estimate its degree of repetition."
+    }
+  },
+  {
+    "idx": 78,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 79,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 80,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 81,
+    "verdict": "REWRITE",
+    "issues": [
+      "hidden span was a 6-word location phrase rather than the crisp term (rule 5 / check 6)",
+      "the bare 'where' hint admits the near-synonymous true answer 'in heterochromatin' (check 1) - blank tightened to 'centromeres' with a 'chromosome landmark' slot label"
+    ],
+    "fix": {
+      "Text": "Highly repetitive DNA is concentrated primarily in the regions around the {{c1::centromeres::chromosome landmark}} of eukaryotic chromosomes.",
+      "Back Extra": "Distinguish: less highly repetitive sequences sit out in the chromosome arms — some in tandem arrays, others dispersed (many of those dispersed ones are mobile transposons)."
+    }
+  },
+  {
+    "idx": 82,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 83,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 84,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 85,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 86,
+    "verdict": "REWRITE",
+    "issues": [
+      "5000-15,000 copies is an in-span, verify-list number left visible and untested (check 4 / rule 7) - added c3"
+    ],
+    "fix": {
+      "Text": "Human centromeres are built of long tandem arrays of the {{c1::alpha satellite}} sequence — a {{c2::171::bp count}}-bp repeat present in {{c3::5000 to 15,000::copy range}} copies per centromere.",
+      "Back Extra": "Cue: whole centromeres run 500,000 to 1.5 million bp — these massive repeat arrays are exactly why centromeric DNA resisted sequencing."
+    }
+  },
+  {
+    "idx": 87,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 88,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 89,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 90,
+    "verdict": "REWRITE",
+    "issues": [
+      "each row hid a 10-word clause - over the 9-word bloat line, three times (check 6 / R12) - rows tightened to 7-8 words",
+      "Back Extra 'broken (telomere-less) ends notoriously fuse' is not supported by cited mark 119 (check 3) - dropped",
+      "safety overlay: mark 119 grounding=PARTIAL with no recorded verification - set needs_human_check"
+    ],
+    "fix": {
+      "Text": "Telomeres serve three functions:<br><br>{{c1::block nuclease degradation of the chromosome ends}}<br><br>{{c1::prevent the ends from fusing with other DNA}}<br><br>{{c1::let the ends replicate without loss of material}}",
+      "Back Extra": "Cue: protect · don't stick · finish copying."
+    }
+  },
+  {
+    "idx": 91,
+    "verdict": "REWRITE",
+    "issues": [
+      "Back Extra pattern is factually garbled: 'T₁₄A₀₁G₁₈' renders the ranges 1-4 / 0-1 / 1-8 as 14 / 01 / 18 (source: 5' T1-4 A0-1 G1-8 3') - rewritten unambiguously"
+    ],
+    "fix": {
+      "Text": "The telomere repeat unit of humans — and vertebrates generally — is {{c1::TTAGGG::6 bases}}.",
+      "Back Extra": "Distinguish: Tetrahymena uses TTGGGG; Arabidopsis uses TTTAGGG — the general pattern is 5′ T(1–4) A(0–1) G(1–8) 3′.<br><br>Cue: conserved across 100+ vertebrate species, from fishes to mammals."
+    }
+  },
+  {
+    "idx": 92,
+    "verdict": "REWRITE",
+    "issues": [
+      "500-3000 repeats is an in-span, verify-list number left visible and untested (check 4 / rule 7) - added c3",
+      "Back Extra label 'Why it matters:' is off the blessed label set and '(Chapter 10 takes this up...)' is a source-artifact reference (Layer A #2/#5)",
+      "'telomerase' appears in no cited mark (check 3) - dropped; replaced with the mark's own variation fact"
+    ],
+    "fix": {
+      "Text": "Normal human somatic telomeres contain {{c3::500 to 3000::repeat count}} TTAGGG repeats and gradually {{c1::shorten::shorten or lengthen}} with age — but the telomeres of {{c2::germ-line cells and cancer cells::2 cell types}} do not.",
+      "Back Extra": "Why: gradual shortening ties telomere length to human aging.<br><br>Cue: repeat number varies by species, by chromosome, and even by cell type on the same chromosome."
+    }
+  },
+  {
+    "idx": 93,
+    "verdict": "PASS",
+    "issues": []
+  },
+  {
+    "idx": 94,
+    "verdict": "REWRITE",
+    "issues": [
+      "shelterin's stated six-protein count - a count inside the highlighted span - sat visible and untested (check 4 / rule 7) - added c3; '-protein complex' after the blank announces the slot"
+    ],
+    "fix": {
+      "Text": "Telomeric DNA is coated and protected by the {{c3::six::number of proteins}}-protein complex {{c1::shelterin}}: {{c2::TRF1 and TRF2}} bind the double-stranded repeats, while {{c2::POT1}} binds the single-stranded overhang.",
+      "Back Extra": "Cue: TIN2 and TPP1 tether POT1 to the TRFs, and TRF2-associated Rap1 helps regulate telomere length.<br><br>Why: shelterin shields telomeric DNA from degradation and from being “repaired” as damage."
+    }
+  },
+  {
+    "idx": -1,
+    "verdict": "SUMMARY",
+    "issues": [
+      "21 PASS / 18 REWRITE / 0 DROP",
+      "Duplicate facts found and fixed: 'one continuous DNA molecule' was tested on both 61 and 62 (62 re-scoped to the ruled-out protein-linker model); 'linker DNA' was the answer on both 63 and 68 (68 re-scoped to the 8-114 bp range); 75's c2 re-tested the 2-vs-3 H-bond fact card 34 already drills (moved to teaching)",
+      "Duplicates kept deliberately: 11 nm (63) and 30 nm (69) recur inside 71's hierarchy answers - part-and-whole reinforcement, not same-claim; octamer composition is tested once (65) and pre-taught in 56/57 Back Extras; 71's visible row label 'nonhistone scaffold' rehearses 72's tested scaffold=nonhistone association (cue-vs-test division - worth watching in review data)",
+      "Card 66's visible 'negative superhelix' is correctly left untested - card 46 already drills in-vivo negative supercoiling",
+      "Safety overlay: cards 64, 70, 71, 90 cite PARTIAL-grounded marks with no recorded verification - merger should set needs_human_check on those four",
+      "Numbers audit: 146, 1.65, 166, 8-114, 11 nm, 30 nm, 1:2:2:2:2, 20-30%, 125, 171, 5000-15,000, TTAGGG, 500-3000, 1938, 44%, 10^3-10^6 all match the cited contexts; the one factual error found was 91's Back-Extra subscript garble (T14/A01/G18 for T1-4/A0-1/G1-8), fixed"
+    ]
+  }
+]

@@ -1,0 +1,1569 @@
+[
+ {
+  "Text": "{{c1::ا}}<br>Name: {{c2::alif}}<br>Sound: {{c2::long vowel <i>aa</i> — ranges from <i>e</i> in <i>bet</i> to <i>a</i> in <i>father</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_01_alif.mp4]",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15,
+   13
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_01_alif.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ب}}<br>Name: {{c2::baa}}<br>Sound: {{c2::<i>b</i> as in <i>bet</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_02_baa.mp4]<br><br>Distinguish: ب ت ث<br>one skeleton, dots decide — baa 1 below, taa 2 above, thaa 3 above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_02_baa.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ت}}<br>Name: {{c2::taa}}<br>Sound: {{c2::<i>t</i> as in <i>tip</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_03_taa.mp4]<br><br>Distinguish: ب ت ث<br>one skeleton, dots decide — baa 1 below, taa 2 above, thaa 3 above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_03_taa.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ث}}<br>Name: {{c2::thaa}}<br>Sound: {{c2::<i>th</i> as in <i>three</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_04_thaa.mp4]<br><br>Distinguish: ب ت ث<br>one skeleton, dots decide — baa 1 below, taa 2 above, thaa 3 above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_04_thaa.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ج}}<br>Name: {{c2::jiim}}<br>Sound: {{c2::<i>j</i> or <i>g</i>, varies according to region}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_05_jiim.mp4]<br><br>Distinguish: ج ح خ<br>one skeleton — jiim dot below, Haa no dot, khaa dot above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_05_jiim.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ح}}<br>Name: {{c2::Haa}}<br>Sound: {{c2::a raspy, breathy <i>h</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_06_Haa.mp4]<br><br>Distinguish: ج ح خ<br>one skeleton — jiim dot below, Haa no dot, khaa dot above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_06_Haa.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::خ}}<br>Name: {{c2::khaa}}<br>Sound: {{c2::like a German or Hebrew <i>ch</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_07_khaa.mp4]<br><br>Distinguish: ج ح خ<br>one skeleton — jiim dot below, Haa no dot, khaa dot above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_07_khaa.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::د}}<br>Name: {{c2::daal}}<br>Sound: {{c2::<i>d</i> as in <i>dip</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_08_daal.mp4]<br><br>Distinguish: د ذ<br>same shape — daal plain, dhaal dot above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_08_daal.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ذ}}<br>Name: {{c2::dhaal}}<br>Sound: {{c2::<i>th</i> in <i>the</i> and <i>other</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_09_dhaal.mp4]<br><br>Distinguish: د ذ<br>same shape — daal plain, dhaal dot above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_09_dhaal.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ر}}<br>Name: {{c2::raa}}<br>Sound: {{c2::like Spanish or Italian <i>r</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_10_raa.mp4]<br><br>Distinguish: ر ز<br>same shape — raa plain, zaay dot above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_10_raa.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ز}}<br>Name: {{c2::zaay}}<br>Sound: {{c2::<i>z</i> as in <i>zip</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_11_zaay.mp4]<br><br>Distinguish: ر ز<br>same shape — raa plain, zaay dot above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_11_zaay.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::س}}<br>Name: {{c2::siin}}<br>Sound: {{c2::<i>s</i> as in <i>sip</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_12_seen.mp4]<br><br>Distinguish: س ش<br>same shape — siin plain, shiin 3 dots above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_12_seen.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ش}}<br>Name: {{c2::shiin}}<br>Sound: {{c2::<i>sh</i> as in <i>she</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_13_sheen.mp4]<br><br>Distinguish: س ش<br>same shape — siin plain, shiin 3 dots above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_13_sheen.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ص}}<br>Name: {{c2::Saad}}<br>Sound: {{c2::emphatic S — similar to <i>s</i> in <i>subtle</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_14_Saad.mp4]<br><br>Distinguish: ص ض<br>same shape — Saad plain, Daad dot above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_14_Saad.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ض}}<br>Name: {{c2::Daad}}<br>Sound: {{c2::emphatic D — close to the <i>d</i> in <i>duh!</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_15_Daad.mp4]<br><br>Distinguish: ص ض<br>same shape — Saad plain, Daad dot above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_15_Daad.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ط}}<br>Name: {{c2::Taa}}<br>Sound: {{c2::emphatic T — similar to <i>t</i> in <i>bottle</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_16_Taaa.mp4]<br><br>Distinguish: ط ظ<br>same shape — Taa plain, DHaa dot above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_16_Taaa.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ظ}}<br>Name: {{c2::DHaa}}<br>Sound: {{c2::emphatic DH — close to <i>th</i> in <i>thy</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_17_Dhaa.mp4]<br><br>Distinguish: ط ظ<br>same shape — Taa plain, DHaa dot above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_17_Dhaa.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ع}}<br>Name: {{c2::cayn}}<br>Sound: {{c2::a sound produced deep in the throat}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_18_ayn.mp4]<br><br>Distinguish: ع غ<br>same shape — cayn plain, ghayn dot above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_18_ayn.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::غ}}<br>Name: {{c2::ghayn}}<br>Sound: {{c2::like French or Hebrew <i>r</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_19_ghayn.mp4]<br><br>Distinguish: ع غ<br>same shape — cayn plain, ghayn dot above.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_19_ghayn.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ف}}<br>Name: {{c2::faa}}<br>Sound: {{c2::<i>f</i> as in <i>fun</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_20_faa.mp4]<br><br>Distinguish: ف ق<br>one dot above vs two dots above (qaaf also sits deeper in the throat).",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_20_faa.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ق}}<br>Name: {{c2::qaaf}}<br>Sound: {{c2::like <i>k</i> but deeper in the throat}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_21_qaaf.mp4]<br><br>Distinguish: ف ق<br>one dot above vs two dots above (qaaf also sits deeper in the throat).",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_21_qaaf.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ك}}<br>Name: {{c2::kaaf}}<br>Sound: {{c2::<i>k</i> as in <i>keep</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_22_kaaf.mp4]",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_22_kaaf.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ل}}<br>Name: {{c2::laam}}<br>Sound: {{c2::like Spanish or Italian <i>l</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_23_laam.mp4]",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_23_laam.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::م}}<br>Name: {{c2::miim}}<br>Sound: {{c2::<i>m</i> as in <i>mat</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_24_miim.mp4]",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_24_miim.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ن}}<br>Name: {{c2::nuun}}<br>Sound: {{c2::<i>n</i> as in <i>neat</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_25_nuun.mp4]",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_25_nuun.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ه}}<br>Name: {{c2::haa}}<br>Sound: {{c2::<i>h</i> as in <i>aha!</i>}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_26_ha.mp4]",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_26_ha.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::و}}<br>Name: {{c2::waaw}}<br>Sound: {{c2::<i>w</i> as in <i>wow!</i> — also long vowel <i>uu</i> (<i>oo</i> in <i>poodle</i>)}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_27_waaw.mp4]",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15,
+   13
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_27_waaw.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ي}}<br>Name: {{c2::yaa}}<br>Sound: {{c2::<i>y</i> as in <i>yes</i> — also long vowel <i>ii</i> (<i>ie</i> in <i>piece</i>)}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_28_yaa.mp4]",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1,
+   12,
+   15,
+   13
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_28_yaa.mp4",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::بَ}}<br>Name: {{c2::fatHa}}<br>Sound: {{c2::short <i>a</i> (vowel chart: <i>e</i> in <i>bet</i> to <i>a</i> in <i>father</i>)}}",
+  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   2,
+   13,
+   15
+  ],
+  "block": "B_symbols",
+  "numeric": false,
+  "verified_against": "p17 symbols chart (rendered); p26 vowel chart",
+  "verified_by": "symbol/name transcribed from page render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_17.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_symbols_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::بُ}}<br>Name: {{c2::Damma}}<br>Sound: {{c2::short <i>u</i> (<i>oo</i> in <i>poodle</i>, short)}}",
+  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   2,
+   13,
+   15
+  ],
+  "block": "B_symbols",
+  "numeric": false,
+  "verified_against": "p17 symbols chart (rendered); p26 vowel chart",
+  "verified_by": "symbol/name transcribed from page render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_17.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_symbols_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::بِ}}<br>Name: {{c2::kasra}}<br>Sound: {{c2::short <i>i</i> (<i>i</i> as in <i>bit</i>)}}",
+  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   2,
+   13,
+   15
+  ],
+  "block": "B_symbols",
+  "numeric": false,
+  "verified_against": "p17 symbols chart (rendered); p26 vowel chart",
+  "verified_by": "symbol/name transcribed from page render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_17.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_symbols_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::بً}}<br>Name: {{c2::tanwiin al-fatH}}",
+  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   2
+  ],
+  "block": "B_symbols",
+  "numeric": false,
+  "verified_against": "p17 symbols chart (rendered)",
+  "verified_by": "symbol/name transcribed from page render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_17.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_symbols_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::بٌ}}<br>Name: {{c2::tanwiin aD-Damm}}",
+  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   2
+  ],
+  "block": "B_symbols",
+  "numeric": false,
+  "verified_against": "p17 symbols chart (rendered)",
+  "verified_by": "symbol/name transcribed from page render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_17.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_symbols_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::بٍ}}<br>Name: {{c2::tanwiin al-kasr}}",
+  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   2
+  ],
+  "block": "B_symbols",
+  "numeric": false,
+  "verified_against": "p17 symbols chart (rendered)",
+  "verified_by": "symbol/name transcribed from page render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_17.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_symbols_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::بْ}}<br>Name: {{c2::sukuun}}",
+  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   2
+  ],
+  "block": "B_symbols",
+  "numeric": false,
+  "verified_against": "p17 symbols chart (rendered)",
+  "verified_by": "symbol/name transcribed from page render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_17.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_symbols_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::بّ}}<br>Name: {{c2::shadda}}",
+  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).<br><br>Cue: shown here on a carrier <i>baa</i> — the mark itself is the symbol.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   2
+  ],
+  "block": "B_symbols",
+  "numeric": false,
+  "verified_against": "p17 symbols chart (rendered)",
+  "verified_by": "symbol/name transcribed from page render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_17.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_symbols_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ٱ}}<br>Name: {{c2::waSla}}",
+  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   2
+  ],
+  "block": "B_symbols",
+  "numeric": false,
+  "verified_against": "p17 symbols chart (rendered)",
+  "verified_by": "symbol/name transcribed from page render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_17.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_symbols_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::هٰ}}<br>Name: {{c2::dagger alif}}",
+  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   2
+  ],
+  "block": "B_symbols",
+  "numeric": false,
+  "verified_against": "p17 symbols chart (rendered)",
+  "verified_by": "symbol/name transcribed from page render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_17.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_symbols_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::آ}}<br>Name: {{c2::alif madda}}",
+  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   2
+  ],
+  "block": "B_symbols",
+  "numeric": false,
+  "verified_against": "p17 symbols chart (rendered)",
+  "verified_by": "symbol/name transcribed from page render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_17.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_symbols_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ى}}<br>Name: {{c2::alif maqSuura}}",
+  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   2
+  ],
+  "block": "B_symbols",
+  "numeric": false,
+  "verified_against": "p17 symbols chart (rendered)",
+  "verified_by": "symbol/name transcribed from page render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_17.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_symbols_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ء}}<br>Name: {{c2::hamza}}<br>Sound: {{c2::the sound you hear between vowels in <i>uh-oh!</i> (glottal stop)}}",
+  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   2
+  ],
+  "block": "B_symbols",
+  "numeric": false,
+  "verified_against": "p17 symbols chart (rendered); p26 consonant chart (glottal stop)",
+  "verified_by": "symbol/name transcribed from page render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_17.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_symbols_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::ة}}<br>Name: {{c2::taa marbuuTa}}",
+  "Back Extra": "Cue: one of the 14 extra-alphabetical symbols — short vowels, pronunciation symbols, grammatical endings, spelling variants (each is taught fully in Units 2-10).",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   2
+  ],
+  "block": "B_symbols",
+  "numeric": false,
+  "verified_against": "p17 symbols chart (rendered)",
+  "verified_by": "symbol/name transcribed from page render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_17.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_symbols_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "One consonant is, for historical reasons, NOT in the 28-letter alphabet chart: {{c1::hamza}} — it appears in the extra-symbols chart instead.",
+  "Back Extra": "Pitfall: easy exam trap — the chart has 28 letters, but Arabic has this 29th consonant living among the symbols.<br><br>Cue: its sound is the glottal stop in <i>uh-oh!</i>",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   2
+  ],
+  "block": "B_symbols",
+  "numeric": false,
+  "verified_against": "p17 prose (text layer) + p26 consonant chart",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_17.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_symbols_chart.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::السَّلامُ عَلَيكُم}}<br>{{c2::Greetings!}} — the Islamic greeting",
+  "Back Extra": "Cue: MSA (Formal/written) — <i>assalaamu calaykum</i> [sound:arabic_vocab_u1_01_salaam_alaykum_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_01_salaam_alaykum_masri.mp3] · Levantine [sound:arabic_vocab_u1_01_salaam_alaykum_shaami.mp3]<br><br>Distinguish: Egyptian <i>issalaamu calaykum</i> (initial i-).",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   23
+  ],
+  "block": "C_vocab",
+  "numeric": false,
+  "verified_against": "Lingco lesson 8174 JSON (publisher Unicode + AB3e official audio, snapshot lingco_unit1_vocab.json)",
+  "verified_by": "Arabic text taken verbatim from Lingco lesson JSON 2026-08-08 (NOT read off the scan); audio mapping cross-confirmed by publisher origin filenames (U1VE/U1VS/U1VSt)",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_29.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_vocab_table.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::أَهلاً}}<br>{{c2::Hello! or Hi!}} — used more in Egypt than in the Levant",
+  "Back Extra": "Cue: MSA (Formal/written) — <i>ahlan</i> [sound:arabic_vocab_u1_02_ahlan_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_02_ahlan_masri.mp3] · Levantine [sound:arabic_vocab_u1_02_ahlan_shaami.mp3]<br><br>Distinguish: Levantine drops the final -n: <i>ahla</i>.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   23
+  ],
+  "block": "C_vocab",
+  "numeric": false,
+  "verified_against": "Lingco lesson 8174 JSON (publisher Unicode + AB3e official audio, snapshot lingco_unit1_vocab.json)",
+  "verified_by": "Arabic text taken verbatim from Lingco lesson JSON 2026-08-08 (NOT read off the scan); audio mapping cross-confirmed by publisher origin filenames (U1VE/U1VS/U1VSt)",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_29.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_vocab_table.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::أَهلاً وسَهلاً}}<br>{{c2::Hello!}} — the fuller two-word greeting",
+  "Back Extra": "Cue: MSA (Formal/written) — <i>ahlan wa sahlan</i> [sound:arabic_vocab_u1_03_ahlan_wa_sahlan_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_03_ahlan_wa_sahlan_masri.mp3] · Levantine [sound:arabic_vocab_u1_03_ahlan_wa_sahlan_shaami.mp3]<br><br>Distinguish: Levantine: <i>ahla w sahla</i>.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   23
+  ],
+  "block": "C_vocab",
+  "numeric": false,
+  "verified_against": "Lingco lesson 8174 JSON (publisher Unicode + AB3e official audio, snapshot lingco_unit1_vocab.json)",
+  "verified_by": "Arabic text taken verbatim from Lingco lesson JSON 2026-08-08 (NOT read off the scan); audio mapping cross-confirmed by publisher origin filenames (U1VE/U1VS/U1VSt)",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_29.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_vocab_table.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::مَرحَباً}}<br>{{c2::Hello!}} — used in the Levant",
+  "Back Extra": "Cue: MSA (Formal/written) — <i>marHaban</i> [sound:arabic_vocab_u1_04_marhaba_formal.mp3]<br><br>Ex: Levantine [sound:arabic_vocab_u1_04_marhaba_shaami.mp3]<br><br>Distinguish: Levantine says <i>marHaba</i>; no Egyptian column in the book for this one.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   23
+  ],
+  "block": "C_vocab",
+  "numeric": false,
+  "verified_against": "Lingco lesson 8174 JSON (publisher Unicode + AB3e official audio, snapshot lingco_unit1_vocab.json)",
+  "verified_by": "Arabic text taken verbatim from Lingco lesson JSON 2026-08-08 (NOT read off the scan); audio mapping cross-confirmed by publisher origin filenames (U1VE/U1VS/U1VSt)",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_29.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_vocab_table.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::أَنا}}<br>{{c2::I}}",
+  "Back Extra": "Cue: MSA (Formal/written) — <i>ana</i> [sound:arabic_vocab_u1_05_ana_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_05_ana_masri.mp3] · Levantine [sound:arabic_vocab_u1_05_ana_shaami.mp3]",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   23
+  ],
+  "block": "C_vocab",
+  "numeric": false,
+  "verified_against": "Lingco lesson 8174 JSON (publisher Unicode + AB3e official audio, snapshot lingco_unit1_vocab.json)",
+  "verified_by": "Arabic text taken verbatim from Lingco lesson JSON 2026-08-08 (NOT read off the scan); audio mapping cross-confirmed by publisher origin filenames (U1VE/U1VS/U1VSt)",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_29.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_vocab_table.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::اسمي}}<br>{{c2::my name}}",
+  "Back Extra": "Cue: MSA (Formal/written) — <i>ismii</i> [sound:arabic_vocab_u1_06_ismi_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_06_ismi_masri.mp3] · Levantine [sound:arabic_vocab_u1_06_ismi_shaami.mp3]<br><br>Distinguish: Egyptian and Levantine both say <i>ismi</i> (short final i).",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   23
+  ],
+  "block": "C_vocab",
+  "numeric": false,
+  "verified_against": "Lingco lesson 8174 JSON (publisher Unicode + AB3e official audio, snapshot lingco_unit1_vocab.json)",
+  "verified_by": "Arabic text taken verbatim from Lingco lesson JSON 2026-08-08 (NOT read off the scan); audio mapping cross-confirmed by publisher origin filenames (U1VE/U1VS/U1VSt)",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_29.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_vocab_table.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::مِن}}<br>{{c2::from}}",
+  "Back Extra": "Cue: MSA (Formal/written) — <i>min</i> [sound:arabic_vocab_u1_07_min_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_07_min_masri.mp3] · Levantine [sound:arabic_vocab_u1_07_min_shaami.mp3]",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   23
+  ],
+  "block": "C_vocab",
+  "numeric": false,
+  "verified_against": "Lingco lesson 8174 JSON (publisher Unicode + AB3e official audio, snapshot lingco_unit1_vocab.json)",
+  "verified_by": "Arabic text taken verbatim from Lingco lesson JSON 2026-08-08 (NOT read off the scan); audio mapping cross-confirmed by publisher origin filenames (U1VE/U1VS/U1VSt)",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_29.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_vocab_table.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::مدينة}}<br>{{c2::the city of …}}",
+  "Back Extra": "Cue: MSA (Formal/written) — <i>madiinat</i> [sound:arabic_vocab_u1_08_madiinat_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_08_madiinat_masri.mp3] · Levantine [sound:arabic_vocab_u1_08_madiinat_shaami.mp3]<br><br>Distinguish: Egyptian <i>midiinit</i> · Levantine <i>madiinit</i>.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   23
+  ],
+  "block": "C_vocab",
+  "numeric": false,
+  "verified_against": "Lingco lesson 8174 JSON (publisher Unicode + AB3e official audio, snapshot lingco_unit1_vocab.json)",
+  "verified_by": "Arabic text taken verbatim from Lingco lesson JSON 2026-08-08 (NOT read off the scan); audio mapping cross-confirmed by publisher origin filenames (U1VE/U1VS/U1VSt)",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_29.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_vocab_table.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::في}}<br>{{c2::in}}",
+  "Back Extra": "Cue: MSA (Formal/written) — <i>fii</i> [sound:arabic_vocab_u1_09_fii_formal.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u1_09_fii_masri.mp3] · Levantine [sound:arabic_vocab_u1_09_fii_shaami.mp3]<br><br>Distinguish: Levantine often uses <i>bi-</i> instead.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   23
+  ],
+  "block": "C_vocab",
+  "numeric": false,
+  "verified_against": "Lingco lesson 8174 JSON (publisher Unicode + AB3e official audio, snapshot lingco_unit1_vocab.json)",
+  "verified_by": "Arabic text taken verbatim from Lingco lesson JSON 2026-08-08 (NOT read off the scan); audio mapping cross-confirmed by publisher origin filenames (U1VE/U1VS/U1VSt)",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_29.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_vocab_table.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "The Arabic alphabet contains {{c1::twenty-eight}} letters — consonants and long vowels — plus {{c2::fourteen}} symbols that act as short vowels, pronunciation markers, or grammatical markers.",
+  "Back Extra": "Cue: letters carry the skeleton; the symbol layer rides above and below it.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   0
+  ],
+  "block": "D_system",
+  "numeric": false,
+  "verified_against": "p16 text layer (grounded EXACT)",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Arabic is written and read from {{c1::right to left}}.",
+  "Back Extra": "Cue: books and magazines open the \"other way\" from English ones.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   3
+  ],
+  "block": "D_system",
+  "numeric": false,
+  "verified_against": "p17 text layer",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Arabic letters are connected {{c1::in both print AND script}} — unlike Latin letters, which connect only in handwriting.",
+  "Back Extra": "Why: this is why letters change shape by position — they must join their neighbors.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   4
+  ],
+  "block": "D_system",
+  "numeric": false,
+  "verified_against": "p17 text layer",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "\"{{c1::Initial}} position\" = the letter is not connected to a previous letter; \"{{c2::medial}} position\" = the letter sits between two other letters.",
+  "Back Extra": "Cue: Unit 1 teaches only the independent (isolated) forms — position variants come in Units 2-10.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   5
+  ],
+  "block": "D_system",
+  "numeric": false,
+  "verified_against": "p17-18 text layer",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "The basic skeleton of an Arabic word is made of {{c1::the consonants and long vowels}}; short vowels and other markers are {{c1::a separate layer}} written above and below it.",
+  "Back Extra": "Cue: two layers — skeleton first, vowelling second.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   6
+  ],
+  "block": "D_system",
+  "numeric": false,
+  "verified_against": "p18 text layer",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "The vowelling layer (vocalization) is normally {{c1::omitted}} in written Arabic — readers recognize words {{c1::without it}}.",
+  "Back Extra": "Pitfall: your textbook prints vowels while you learn; newspapers will not.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   7,
+   8
+  ],
+  "block": "D_system",
+  "numeric": false,
+  "verified_against": "p18 text layer (+ p21 recap)",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "The Arabic writing system is regularly {{c1::phonetic}}: a one-to-one correspondence between sound and letter — words are written {{c1::the way they are pronounced}}.",
+  "Back Extra": "Distinguish: English spelling is the opposite — think <i>though / tough / through</i>.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   8,
+   9
+  ],
+  "block": "D_system",
+  "numeric": false,
+  "verified_against": "p21 text layer",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "In this book's transliteration, emphatic sounds are marked by {{c1::UPPERCASE letters (S vs s)}}, and long vowels by {{c1::doubled vowels (aa, ii, uu)}}.",
+  "Back Extra": "Ex: <i>S</i> = emphatic ص while <i>s</i> = plain س; <i>aa</i> is held longer than <i>a</i>.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   12
+  ],
+  "block": "D_system",
+  "numeric": false,
+  "verified_against": "p25 text layer + chart render",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_consonants1.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Transliteration is used only for words containing {{c1::letters you have not yet learned}} — and it does not replace {{c1::listening to the audio}}.",
+  "Back Extra": "Cue: the book drops transliteration for a word once its letters are all taught.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   17
+  ],
+  "block": "D_system",
+  "numeric": false,
+  "verified_against": "p27 text layer",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Formal Arabic has only {{c1::three::how many}} vowel qualities — {{c1::a, i, u}} — each short or long; spoken Arabic adds {{c2::e and o}}.",
+  "Back Extra": "Cue: vowel length distinguishes emphatic consonants from their plain counterparts — listen for it.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   13
+  ],
+  "block": "D_system",
+  "numeric": false,
+  "verified_against": "p26 text layer + vowel chart render",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_vowels.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Levantine pronunciation sometimes uses a very short, unstressed {{c1::schwa}} sound (ə).",
+  "Back Extra": "Ex: the <i>e</i> in <i>listen</i>.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   14
+  ],
+  "block": "D_system",
+  "numeric": false,
+  "verified_against": "p26 text layer",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Formal Arabic — also called {{c1::Modern Standard}} or {{c1::Classical}} Arabic — is learned {{c2::at school (not at home)}} and is more a {{c2::written}} register than a spoken one.",
+  "Back Extra": "Cue: you hear it on news broadcasts; educated speakers mix it with dialect in formal settings.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   10
+  ],
+  "block": "E_dialects",
+  "numeric": false,
+  "verified_against": "p22 text layer",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "The {{c1::Levantine}} dialect group covers the Syrian, Lebanese, Palestinian, and Jordanian dialects.",
+  "Back Extra": "Cue: the Levant = the eastern Mediterranean coast region.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   11
+  ],
+  "block": "E_dialects",
+  "numeric": false,
+  "verified_against": "p22 text layer",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "This book's two colloquial varieties: <i>shaami</i> = {{c1::Levantine}}, and <i>maSri</i> = {{c1::Egyptian}}.",
+  "Back Extra": "Cue: <i>shaami</i> can mean Syrian, Damascene, or Levantine.<br><br>Cue: the dialogues use one city's flavor of each — see the sibling card.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   20
+  ],
+  "block": "E_dialects",
+  "numeric": false,
+  "verified_against": "p28 text layer + Lingco lesson 8174 intro",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "The book's <i>shaami</i> dialogues use the dialect of {{c1::Damascus}}; its <i>maSri</i> is the dialect of {{c2::Cairo}}.",
+  "Back Extra": "Cue: one city stands in for each dialect group.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   18,
+   19
+  ],
+  "block": "E_dialects",
+  "numeric": false,
+  "verified_against": "p28 text layer",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Egyptian (maSri) pronunciation is marked by a hard {{c1::g}} where other dialects say <i>j</i>, and by stress on the {{c1::second-to-last}} syllable.",
+  "Back Extra": "Ex: <i>gamiil</i> for <i>jamiil</i>.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   21
+  ],
+  "block": "E_dialects",
+  "numeric": false,
+  "verified_against": "p28 text layer",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Levantine dialects are marked by a final {{c1::e}} vowel on certain nouns/adjectives where other dialects have <i>a</i>, and by a distinctive {{c1::intonation}}.",
+  "Back Extra": "Ex: Levantine <i>ahla</i> vs formal <i>ahlan</i>.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   22
+  ],
+  "block": "E_dialects",
+  "numeric": false,
+  "verified_against": "p28 text layer",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Polite behavior requires you to say hello to {{c1::everyone in a room or place you enter}} — including a loosely defined {{c1::\"space\" someone regularly occupies}}.",
+  "Back Extra": "Ex: an outdoor work area, or a guard's position outside a building.<br><br>Cue: entering = greeting; the room does not have to have walls.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   24,
+   25
+  ],
+  "block": "F_culture",
+  "numeric": false,
+  "verified_against": "p31 text layer (grounded EXACT; page is photo-heavy)",
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_31.png"
+ },
+ {
+  "Text": "Arab country: <b>Morocco</b> — capital {{c1::Rabat}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Mauritania</b> — capital {{c1::Nouakchott}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Algeria</b> — capital {{c1::Algiers}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Tunisia</b> — capital {{c1::Tunis}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Libya</b> — capital {{c1::Tripoli}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Egypt</b> — capital {{c1::Cairo}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Sudan</b> — capital {{c1::Khartoum}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Somalia</b> — capital {{c1::Mogadishu}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Jordan</b> — capital {{c1::Amman}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Israel/Palestine</b> — capital {{c1::Jerusalem}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Lebanon</b> — capital {{c1::Beirut}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Syria</b> — capital {{c1::Damascus}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Iraq</b> — capital {{c1::Baghdad}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country whose capital city shares the country's name: {{c1::Kuwait}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Saudi Arabia</b> — capital {{c1::Riyadh}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Qatar</b> — capital {{c1::Doha}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Bahrain</b> — capital {{c1::Manama}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>United Arab Emirates</b> — capital {{c1::Abu Dhabi}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Oman</b> — capital {{c1::Muscat}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Arab country: <b>Yemen</b> — capital {{c1::Sanaa}}.",
+  "Back Extra": "Cue: one of the 20 countries where Arabic is the main language of education and daily life.",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "G_countries",
+  "numeric": false,
+  "verified_against": "p27 map legend (rendered)",
+  "verified_by": "country/capital pairs transcribed from map legend render 2026-08-08",
+  "needs_human_check": false,
+  "visual_source": "work/arabic/page_27.png",
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_arab_map.png",
+  "image_side": "back"
+ }
+]

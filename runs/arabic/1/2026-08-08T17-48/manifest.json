@@ -1,0 +1,45 @@
+{
+ "run_id": "2026-08-08T17-48",
+ "source": "arabic",
+ "segment": 1,
+ "started": "2026-08-08T17:48:16",
+ "skill_sha": "bc2db68e408b86eecef601dc7f11bb696ad47d43",
+ "note": "Overseer run: Unit 1 full generation. External authority: Lingco lesson 8174 (publisher Unicode+audio); AB3e pronunciation videos from local archive. Scan has zero-Arabic text layer -> all Arabic visually/externally grounded.",
+ "status": "complete",
+ "finished": "2026-08-08T17:51:46",
+ "counts": {
+  "marks": 26,
+  "notes": 90,
+  "anki_cards": 146,
+  "media_files": 54,
+  "blocks": {
+   "letters": 28,
+   "symbols": 15,
+   "vocab": 9,
+   "system": 11,
+   "dialects": 6,
+   "culture": 1,
+   "countries": 20
+  }
+ },
+ "new_hazards_found": [
+  {
+   "hazard": "Dense-English OCR page with target language entirely absent passes grounding as EXACT (zero-Arabic text layer)",
+   "regression_id": "R38"
+  },
+  {
+   "hazard": "Mixed RTL/Latin line scrambles under bidi; div-based fix HARD-blocks on ALLOWED_TAGS",
+   "regression_id": "R39"
+  },
+  {
+   "hazard": "Overseer single-session drafting skipped per-card provenance.jsonl rows (anki_write --run linked 0 noteIds)",
+   "mechanizable": false,
+   "why": "process shape, not a card defect: cards carry from_idx and the stamped JSON is the provenance surface this run; next-session encoding will emit rows from the generator so --run links again"
+  },
+  {
+   "hazard": "from_idx assigned from memory of the Zotero dump was off-by-N for p17-p26; caught by printing the extractor idx table",
+   "mechanizable": false,
+   "why": "authoring discipline (always key assignments off the extractor table, now in OVERSEER_LOG); a mechanical check would need ground truth the marks themselves are"
+  }
+ ]
+}
