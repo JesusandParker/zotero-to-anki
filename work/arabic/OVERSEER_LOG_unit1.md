@@ -159,3 +159,11 @@ and there were two independent causes:
 27. **Still open (asked, not assumed):** should the 28 letters get alphabet-ORDER recitation
     cards? That is the letters-block equivalent of the membership lane, but recitation is a
     genuinely different pedagogical choice from recognition — Parker's call, not mine.
+28. **R49 / card-rules #31 — the property must ride on every card.** Even after the
+    membership lane landed, the per-country cards were `Lebanon / capital: Beirut` — generic
+    world geography, duplicating Parker's existing geography deck and never asserting
+    "Arabic-speaking" of the member. Every member card now names the property and retrieves
+    capital → country (the direction his other deck does not drill); the sub-group is visible
+    scaffolding rather than a 20-blank/5-answer cluster the checker rightly flagged.
+    **The test to run on every derived card: would this be IDENTICAL if it came from a
+    different source about a different topic?** If yes, the reason for the mark was stripped.

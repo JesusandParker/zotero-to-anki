@@ -1366,8 +1366,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Morocco}}<br>capital: {{c2::Rabat}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of North Africa whose capital is <b>Rabat</b>: {{c1::Morocco}}",
+  "Back Extra": "Roster: <b>Morocco</b> · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1383,8 +1383,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Mauritania}}<br>capital: {{c2::Nouakchott}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of North Africa whose capital is <b>Nouakchott</b>: {{c1::Mauritania}}",
+  "Back Extra": "Roster: Morocco · <b>Mauritania</b> · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1400,8 +1400,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Algeria}}<br>capital: {{c2::Algiers}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of North Africa whose capital is <b>Algiers</b>: {{c1::Algeria}}",
+  "Back Extra": "Roster: Morocco · Mauritania · <b>Algeria</b> · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1417,8 +1417,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Tunisia}}<br>capital: {{c2::Tunis}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of North Africa whose capital is <b>Tunis</b>: {{c1::Tunisia}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · <b>Tunisia</b> · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1434,8 +1434,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Libya}}<br>capital: {{c2::Tripoli}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of North Africa whose capital is <b>Tripoli</b>: {{c1::Libya}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · Tunisia · <b>Libya</b> · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1451,8 +1451,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Egypt}}<br>capital: {{c2::Cairo}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of the Nile and the Horn whose capital is <b>Cairo</b>: {{c1::Egypt}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · <b>Egypt</b> · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1468,8 +1468,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Sudan}}<br>capital: {{c2::Khartoum}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of the Nile and the Horn whose capital is <b>Khartoum</b>: {{c1::Sudan}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · <b>Sudan</b> · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1485,8 +1485,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Somalia}}<br>capital: {{c2::Mogadishu}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of the Nile and the Horn whose capital is <b>Mogadishu</b>: {{c1::Somalia}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · <b>Somalia</b> · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1502,8 +1502,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Jordan}}<br>capital: {{c2::Amman}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of the Levant whose capital is <b>Amman</b>: {{c1::Jordan}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · <b>Jordan</b> · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1519,8 +1519,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Israel/Palestine}}<br>capital: {{c2::Jerusalem}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of the Levant whose capital is <b>Jerusalem</b>: {{c1::Israel/Palestine}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · <b>Israel/Palestine</b> · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1536,8 +1536,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Lebanon}}<br>capital: {{c2::Beirut}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of the Levant whose capital is <b>Beirut</b>: {{c1::Lebanon}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · <b>Lebanon</b> · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1553,8 +1553,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Syria}}<br>capital: {{c2::Damascus}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of the Levant whose capital is <b>Damascus</b>: {{c1::Syria}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · <b>Syria</b> · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1570,8 +1570,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Iraq}}<br>capital: {{c2::Baghdad}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of Mesopotamia and the northern Gulf whose capital is <b>Baghdad</b>: {{c1::Iraq}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · <b>Iraq</b> · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1587,8 +1587,8 @@
   "image_side": "back"
  },
  {
-  "Text": "Which Arabic-speaking country shares its name with its capital city? {{c1::Kuwait}}.",
-  "Back Extra": "Cue: the country, its capital, and the Gulf it sits on all carry the name.",
+  "Text": "Among the Arabic-speaking countries of Mesopotamia and the northern Gulf, the one whose capital city carries the same name as the country: {{c1::Kuwait}}",
+  "Back Extra": "Cue: the country, its capital, and the Gulf it sits on all carry the name.<br><br>Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · <b>Kuwait</b> · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1604,8 +1604,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Saudi Arabia}}<br>capital: {{c2::Riyadh}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of Mesopotamia and the northern Gulf whose capital is <b>Riyadh</b>: {{c1::Saudi Arabia}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · <b>Saudi Arabia</b> · Qatar · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1621,8 +1621,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Qatar}}<br>capital: {{c2::Doha}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of southern and eastern Arabia whose capital is <b>Doha</b>: {{c1::Qatar}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · <b>Qatar</b> · Bahrain · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1638,8 +1638,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Bahrain}}<br>capital: {{c2::Manama}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of southern and eastern Arabia whose capital is <b>Manama</b>: {{c1::Bahrain}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · <b>Bahrain</b> · United Arab Emirates · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1655,8 +1655,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::United Arab Emirates}}<br>capital: {{c2::Abu Dhabi}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of southern and eastern Arabia whose capital is <b>Abu Dhabi</b>: {{c1::United Arab Emirates}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · <b>United Arab Emirates</b> · Oman · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1672,8 +1672,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Oman}}<br>capital: {{c2::Muscat}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of southern and eastern Arabia whose capital is <b>Muscat</b>: {{c1::Oman}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · <b>Oman</b> · Yemen",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1689,8 +1689,8 @@
   "image_side": "back"
  },
  {
-  "Text": "{{c1::Yemen}}<br>capital: {{c2::Sanaa}}",
-  "Back Extra": "",
+  "Text": "The Arabic-speaking country of southern and eastern Arabia whose capital is <b>Sanaa</b>: {{c1::Yemen}}",
+  "Back Extra": "Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · <b>Yemen</b>",
   "source": "arabic",
   "segment": 1,
   "from_idx": [

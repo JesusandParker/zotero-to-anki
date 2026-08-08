@@ -574,3 +574,29 @@ have decided to test it; nothing said you must test membership **at all**.
   its own answers and was caught by the existing `answer visible in its own stem` check.
 - The general question this failure forces onto every list: **"after these cards, can he
   PRODUCE the set — or only recognize relations among members he was handed?"**
+
+## R49 — The PROPERTY that defines a set must appear on every card derived from it
+Arabic Unit 1, 2026-08-08 (second pass). After R48 added a membership lane, the per-country
+cards were still `{{c1::Lebanon}} / capital: {{c2::Beirut}}` — pure world geography. Parker:
+*"they aren't establishing the fact that the reason I'm trying to memorize these is because
+they're Arabic speaking countries… I have other geography flashcards teaching me what the
+capital of the UAE is, but I don't have a card cementing the fact that that is an Arabic
+speaking country."* Three distinct harms, all from the same omission:
+  1. **Duplication** — the card is indistinguishable from one in his existing geography deck,
+     so the same question is drilled twice in two decks.
+  2. **The property is never learned** — "member of THIS set" is the fact the mark encodes,
+     and no card asserts it of the individual member.
+  3. **Interference** — two decks asking the same prompt with the same answer.
+- **The discriminating test:** *would this card be IDENTICAL if it came from a different
+  source about a different topic?* If yes, the property has been stripped. (Arabic letter
+  cards pass — a glyph card is inherently Arabic. Country→capital cards fail.)
+- BAD (must catch): a card derived from a property-defined set whose stem names neither the
+  property nor the set.
+- GOOD: `The Arabic-speaking country of southern and eastern Arabia whose capital is
+  <b>Abu Dhabi</b>: {{c1::the United Arab Emirates}}` — property in the stem, sub-group as
+  scaffolding, and the retrieved direction (capital → country) is the one his other deck
+  does not drill.
+- Corollary caught while fixing it: making the sub-group a SECOND blank on every member note
+  gave 20 blanks drawing on 5 answers — a weak retrieval that the checker flagged as
+  near-duplicates. The set's structure belongs in the roster lane; on a member note it is
+  visible scaffolding, not a blank.

@@ -322,17 +322,30 @@ for region, members in REGIONS:
         + roster_line(members),
         "G_countries", [16], **CGROUND)
 
-# --- G2. PAIRING: country <-> capital, both directions from one note
+# --- G2. PER-COUNTRY: every card CARRIES the property that made the set worth carding.
+# A bare `country -> capital` card is generic world geography: it would be identical coming
+# from an atlas, it duplicates Parker's existing geography deck, and it never attaches
+# "is an Arabic-speaking country" to the member. So the stem always names the property, the
+# retrieved direction is capital -> country (the one his geography deck does NOT drill), and
+# c2 places the country inside the set's own structure. (card-rules #31)
+REGION_OF = {c: r for r, ms in REGIONS for c in ms}
+
 for country, capital in COUNTRIES:
+    region = REGION_OF[country]
+    # Region stays VISIBLE scaffolding, not a blank: 20 blanks drawing on only 5 answers is a
+    # weak retrieval, and the roster lane already teaches region <-> members in both
+    # directions. Here the region's job is to keep the member inside the set's structure.
     if country == capital:
-        # both sides identical -> a plain pairing card leaks; test the shared-name fact itself
-        add("Which Arabic-speaking country shares its name with its capital city? "
-            "{{c1::Kuwait}}.",
-            "Cue: the country, its capital, and the Gulf it sits on all carry the name.",
-            "G_countries", [16], **CGROUND)
-        continue
-    add(f"{{{{c1::{country}}}}}<br>capital: {{{{c2::{capital}}}}}",
-        "", "G_countries", [16], **CGROUND)
+        text = ("Among the Arabic-speaking countries of "
+                f"{region}, the one whose capital city carries the same name as the country: "
+                "{{c1::Kuwait}}")
+        back = "Cue: the country, its capital, and the Gulf it sits on all carry the name."
+    else:
+        text = (f"The Arabic-speaking country of {region} whose capital is <b>{capital}</b>: "
+                f"{{{{c1::{country}}}}}")
+        back = ""
+    add(text, (back + "<br><br>" if back else "") + roster_line([country]),
+        "G_countries", [16], **CGROUND)
 
 out = os.path.join(W, "unit_1_cards.json")
 json.dump(cards, open(out, "w"), indent=1, ensure_ascii=False)

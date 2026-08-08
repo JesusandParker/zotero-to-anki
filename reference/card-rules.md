@@ -261,3 +261,23 @@ The Cold-Solve Gate asks whether each blank is *answerable*. These two ask a que
     revealed the country and asked for the capital. Parker: *"my goal with those cards was to
     memorize all of the countries that spoke Arabic… you gave me this thing as Arab country
     and then guessing just the capital."* Regression **R48**.
+
+31. **A set defined by a PROPERTY carries that property onto every card it produces (2026-08-08).**
+    Rule 30 says test membership before rows. This one governs the row cards themselves.
+    When a source groups items *because they share a property* — Arabic-speaking countries,
+    Schedule II drugs, essential amino acids — that property is the entire reason the set was
+    marked, and a row card that omits it is a generic domain card wearing the set's clothes.
+    - **The test:** *would this card be identical if it came from a different source about a
+      different topic?* If yes, the property has been stripped and the card is duplicating
+      knowledge Parker may already hold in another deck.
+    - **Name the property in the stem** of every member card, and prefer the retrieval
+      direction his other decks do NOT already drill (capital → country, not country →
+      capital).
+    - **Sub-group names are scaffolding on a member card, not a blank.** Clozing the group on
+      all N members yields N blanks drawing on a handful of answers — a weak retrieval and a
+      near-duplicate cluster. Region ↔ members belongs to the roster lane (rule 30).
+    - **This is not a licence to bloat the stem.** One clause naming the property is enough;
+      the roster on the back carries the rest.
+    *Failure that created this rule (2026-08-08):* Arabic-country cards that asked for
+    capitals with no mention of Arabic. Parker: *"I don't have a card cementing the fact that
+    that is an Arabic speaking country."* Regression **R49**.
