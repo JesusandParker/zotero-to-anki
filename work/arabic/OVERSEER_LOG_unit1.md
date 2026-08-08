@@ -178,3 +178,14 @@ and there were two independent causes:
     `"its capital:"`, the very string the regression deletes, so it passed the bad file;
     (b) verify every new rule against a RECONSTRUCTION of the defect it was written for.
     A checker that has never failed has never been tested.
+30. **R51 — the crop rule was wrong in a way I had asserted was safe.** I had written that
+    "rough box + auto-trim" made the box forgiving. It does the opposite for the failure
+    that matters: `-trim` can only SHRINK, so a box cutting through a table yields a
+    tidy-looking, silently incomplete crop. The alphabet chart shipped missing a column.
+    Fixes: (a) a no-clip ASSERTION in `make_crops.py` — the trimmed bbox may not touch any
+    window edge, fail loud otherwise; (b) `scripts/find_crop_boxes.py`, which MEASURES each
+    object's true bounds by fill-colour band segmentation instead of eyeballing them.
+    Recorded the rejected auto-grow approach and why, so a later session does not retry it.
+    **General lesson: when I claim a rule makes something safe, I must construct the failure
+    it is supposed to prevent and watch the rule catch it** — the same discipline R50 forced
+    for requirement rules, now applied to asset rules.

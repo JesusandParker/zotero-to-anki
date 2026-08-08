@@ -623,3 +623,27 @@ artifact the next rebuild had to satisfy.**
   predicate must be structural and independent of the feature under test.** Always verify a
   new rule against a reconstruction of the defect it was written for; a checker that has
   never failed has never been tested.
+
+## R51 — `-trim` can only SHRINK, so a crop box that cuts the object ships it lopsided
+Arabic Unit 1, 2026-08-08. The alphabet chart went out with its entire right-hand column
+(ا ج ذ ش ظ ق ن) sliced off and visibly asymmetric margins. Parker: *"the right side of this
+picture looks like it got totally cut off at the wrong spot like it's not symmetrical."*
+The R46 rule (rough box → auto-trim) was believed to make the box safe. It does not:
+**`-trim` shrinks to the ink inside the window and can never grow past it**, so a box that
+cuts through a table simply tightens around the clipped remains and produces something that
+looks deliberately cropped. Measured afterwards, the chart runs to x=0.656 and the box cut
+it at 0.625.
+- **The assertion that catches it:** after trimming, the ink bbox must NOT touch any edge of
+  the rough box. Untouched whitespace on all four sides is the proof nothing was clipped;
+  touching means the box cut the object. `make_crops.py` now FAILS LOUD on it.
+- **Find boxes by measuring, not by eye:** `scripts/find_crop_boxes.py` masks the table's
+  fill colour and segments the page into contiguous bands, printing each object's true
+  bounds as page fractions. It reproduced this defect in one command.
+- **Rejected alternative, recorded so it is not retried:** auto-GROWING the box until it
+  stops clipping. On these pages the gap between a table and neighbouring body text is no
+  larger than the gutters between the table's own cells, so no single probe distance can
+  distinguish "still inside the object" from "now touching the next paragraph" — small
+  probes stop in a gutter and drop a column, large ones swallow the page. Measure instead.
+- BAD (must catch): any crop whose trim bbox touches its source window edge.
+- GOOD: every crop with visible whitespace margin on all four sides, verified on a contact
+  sheet before it is stored as media.
