@@ -1,6 +1,6 @@
 # unit_1 — verification report
 
-2 of 90 cards state a value, dose, threshold, or time window, or rest on weak grounding.
+2 of 98 cards state a value, dose, threshold, or time window, or rest on weak grounding.
 
 ## Section A — needs your eyes
 

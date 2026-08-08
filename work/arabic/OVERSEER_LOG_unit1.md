@@ -143,3 +143,19 @@ and there were two independent causes:
 24. **Orphan check**: `consonants2_v2.png` was staged but attached to nothing (the second
     half of the consonant chart). Now on the transliteration card. Rule: staged media with
     zero references is either a missed attachment or wasted bytes — surface it, don't ship it.
+25. **R48 / card-rules #30 — the deepest defect of the run.** The 20 country cards each
+    handed over the country and asked for the capital, so the marked SET (which countries
+    speak Arabic — Parker's actual goal) was never testable. I carded the source's SHAPE
+    (a two-column table) instead of the knowledge the mark encoded. Rebuilt as a membership
+    lane (5 named regional roster notes + an anchor, `Roster:` on each) plus a TWO-WAY
+    pairing lane. Applied the same test to every other enumerated set in the unit: added a
+    set card for the book's "four major characteristics of Arabic script" and one for the
+    five kinds of extra-alphabetical symbol.
+    **The question to run on every list from now on: after these cards, can he PRODUCE the
+    set — or only recognize relations among members he was handed?**
+26. **Regression-ID collision.** A concurrent genetics session also claimed R40 the same day.
+    Mine renumbered to R44–R47 (+R48). IDs are allocated by hand and this will recur —
+    `test_regressions.py` should assert ID uniqueness, or IDs should be content-hashed.
+27. **Still open (asked, not assumed):** should the 28 letters get alphabet-ORDER recitation
+    cards? That is the letters-block equivalent of the membership lane, but recitation is a
+    genuinely different pedagogical choice from recognition — Parker's call, not mine.

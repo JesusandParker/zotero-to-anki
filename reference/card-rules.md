@@ -232,3 +232,32 @@ The Cold-Solve Gate asks whether each blank is *answerable*. These two ask a que
     - **If unmarked content genuinely seems exam-critical, the whole permitted move is one sentence at hand-off** ("pages X–Y are unmarked; want anything from them?") — and the answer must be his, in his words, before a single extra card exists.
     - *Caught by:* `check_cards.synthetic_marks_check` — a card citing any mark carrying a provenance key the extractor never writes (`selected_by`) is a **HARD block**, and a highlights file containing synthetic marks warns on sight.
     *Failure that created this rule (2026-08-08):* the genetics ch9 "coverage lane" — 99 agent-selected marks, 80 staged cards, retracted in full. Parker: *"never once did I ever instruct you to do that… you could've been spending all that time creating actually really perfect amazing well formatted triple checked high-quality flashcards from those three pages… that was all I asked you to do."* Regression **R40**.
+
+30. **A marked SET is carded for MEMBERSHIP first, then for its rows (2026-08-08).**
+    Rules 23–25 tell you how to chunk a set once you have decided to test it. This one says
+    what to test. When the source presents an enumerated set — a list of countries, a
+    numbered set of characteristics, a roster of categories — **the membership itself is
+    normally the primary fact**, and the relations among members are secondary.
+    - **Ask the question that decides it:** *after these cards, can Parker PRODUCE the set —
+      or only recognize relations among members he was handed?* If the second, the set was
+      never carded.
+    - **A two-column table is the classic trap.** Carding only `row-key → row-value` puts
+      every member on the visible side of some card, so the set can never be produced. The
+      pairing lane is fine and worth having; it is not sufficient.
+    - **Shape of the membership lane:** named sub-groups of ≤4–5 on separate notes (rule 23's
+      semantic partition, rule 24's separate-notes constraint), `Roster:` on every note with
+      that note's members bolded, plus an anchor note naming the groups **only when the source
+      names them or the partition is a stable public structure** (geography, the book's own
+      categories) — never when the grouping is one you invented (rule 23.1).
+    - **Make the row-pairing two-way** while you are there: `{{c1::Lebanon}}` /
+      `capital: {{c2::Beirut}}` tests both directions from one note, where a stem-visible key
+      tested only one.
+    - **Check the sub-group names for self-leaks** — a region named "Iraq and the northern
+      Gulf" hands over one of its own answers.
+    - **Degenerate rows get their own card, not a leaky pairing.** Kuwait's capital *is*
+      Kuwait, so the pairing leaks in both directions; the fact worth testing is that the
+      names coincide.
+    *Failure that created this rule (2026-08-08):* twenty Arabic-country cards that each
+    revealed the country and asked for the capital. Parker: *"my goal with those cards was to
+    memorize all of the countries that spoke Arabic… you gave me this thing as Arab country
+    and then guessing just the capital."* Regression **R48**.

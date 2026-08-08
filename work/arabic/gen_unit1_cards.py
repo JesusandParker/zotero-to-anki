@@ -108,13 +108,30 @@ VOCAB = [
 ]
 
 # ---------------------------------------------------------------- countries ---
-COUNTRIES = [  # map legend, p27 render (physical), numbered 1-20
+# map legend, p27 render (physical), numbered 1-20 roughly west -> east.
+COUNTRIES = [
  ("Morocco","Rabat"),("Mauritania","Nouakchott"),("Algeria","Algiers"),("Tunisia","Tunis"),
  ("Libya","Tripoli"),("Egypt","Cairo"),("Sudan","Khartoum"),("Somalia","Mogadishu"),
  ("Jordan","Amman"),("Israel/Palestine","Jerusalem"),("Lebanon","Beirut"),("Syria","Damascus"),
  ("Iraq","Baghdad"),("Kuwait","Kuwait"),("Saudi Arabia","Riyadh"),("Qatar","Doha"),
  ("Bahrain","Manama"),("United Arab Emirates","Abu Dhabi"),("Oman","Muscat"),("Yemen","Sanaa"),
 ]
+# THE MEMBERSHIP LANE (card-rules #23/24): the marked set itself is the fact — being able to
+# LIST which countries speak Arabic. Chunked into named geographic sub-groups on separate
+# notes + an anchor note that regenerates the group names. Every note carries the full
+# Roster: with its own members bolded, so the part and the whole are always visible.
+REGIONS = [
+ ("North Africa",              ["Morocco","Mauritania","Algeria","Tunisia","Libya"]),
+ ("the Nile and the Horn",     ["Egypt","Sudan","Somalia"]),
+ ("the Levant",                ["Jordan","Israel/Palestine","Lebanon","Syria"]),
+ ("Mesopotamia and the northern Gulf",["Iraq","Kuwait","Saudi Arabia"]),
+ ("southern and eastern Arabia",["Qatar","Bahrain","United Arab Emirates","Oman","Yemen"]),
+]
+
+def roster_line(members):
+    """Full 20 in map order, this note's members bolded (note-format.md `Roster:`)."""
+    parts = [f"<b>{c}</b>" if c in members else c for c, _ in COUNTRIES]
+    return "Roster: " + " · ".join(parts)
 
 IMG = lambda name: os.path.join(W, name)
 cards = []
@@ -161,6 +178,19 @@ for shown, name, sound in SYMBOLS:
         verified_by="symbol/name transcribed from page render 2026-08-08",
         visual_source="work/arabic/page_17.png")
 
+# --- symbols: what the fourteen ARE, as a set (membership lane)
+add("The fourteen extra-alphabetical symbols fall into these kinds: {{c1::short vowels}}, "
+    "{{c1::pronunciation symbols}}, {{c1::grammatical endings}}, {{c1::spelling variants}}, "
+    "and {{c1::one consonant that is not in the alphabet chart}}.",
+    "Cue: five kinds — the last one is hamza.<br><br>"
+    "Roster: <b>short vowels</b> fatHa · Damma · kasra — <b>grammatical endings</b> "
+    "tanwiin al-fatH · tanwiin aD-Damm · tanwiin al-kasr — <b>pronunciation</b> sukuun · "
+    "shadda · waSla — <b>spelling variants</b> alif madda · dagger alif · alif maqSuura · "
+    "taa marbuuTa — <b>consonant</b> hamza",
+    "B_symbols", [2], image="src_symbols_chart_v2.png",
+    verified_against="p16-17 prose naming the categories + p17 symbols chart (rendered)",
+    visual_source="work/arabic/page_17.png")
+
 # --- hamza gotcha
 add("One consonant is, for historical reasons, NOT in the 28-letter alphabet chart: "
     "{{c1::hamza}} — it appears in the extra-symbols chart instead.",
@@ -193,6 +223,13 @@ add("The Arabic alphabet contains {{c1::twenty-eight}} letters — consonants an
     "Cue: letters carry the skeleton; the symbol layer rides above and below it.",
     "D_system", [0], numeric=True,
     verified_against="p16 text layer (grounded EXACT)")
+add("The four major characteristics that set Arabic script apart from European ones: "
+    "{{c1::it is written right to left}}; {{c1::letters connect in both print and script}}; "
+    "{{c1::letters change shape by position (initial / medial / final)}}; "
+    "{{c1::the script has two layers — a consonant-and-long-vowel skeleton, plus the vowelling}}.",
+    "Cue: four — direction, connection, position, layers.",
+    "D_system", [3,4,5,6], image="src_alphabet_chart_v2.png",
+    verified_against="p17-18 numbered list (1)-(4), text layer")
 add("Arabic is written and read from {{c1::right to left}}.",
     "Cue: books and magazines open the \"other way\" from English ones.",
     "D_system", [3], verified_against="p17 text layer")
@@ -264,18 +301,38 @@ add("Polite behavior requires you to say hello to {{c1::everyone in a room or pl
     "F_culture", [24,25], verified_against="p31 text layer (grounded EXACT; page is photo-heavy)",
     visual_source="work/arabic/page_31.png")
 
-# --- G. countries (20 notes, map legend p27)
+# --- G1. MEMBERSHIP: which countries speak Arabic (the actual goal of the mark)
+CGROUND = dict(image="src_arab_map_v2.png",
+               verified_against="p27 map + legend (rendered)",
+               verified_by="country list transcribed from the map legend render 2026-08-08",
+               visual_source="work/arabic/page_27.png")
+
+add("The book's map shows {{c1::20::how many}} countries where Arabic is the main language "
+    "of education and daily life. Grouped west to east: {{c2::North Africa}}, "
+    "{{c2::the Nile and the Horn}}, {{c2::the Levant}}, {{c2::Mesopotamia and the northern Gulf}}, "
+    "and {{c2::southern and eastern Arabia}}.",
+    "Cue: five regions, west to east — the anchor for the five roster cards.<br><br>"
+    + roster_line([]),
+    "G_countries", [16], numeric=True, **CGROUND)
+
+for region, members in REGIONS:
+    blanks = ", ".join("{{c1::%s}}" % m for m in members)
+    add(f"Arabic-speaking countries in {region} ({len(members)}): {blanks}.",
+        f"Cue: {len(members)} of the 20 — go west to east across the map.<br><br>"
+        + roster_line(members),
+        "G_countries", [16], **CGROUND)
+
+# --- G2. PAIRING: country <-> capital, both directions from one note
 for country, capital in COUNTRIES:
     if country == capital:
-        text = f"Arab country whose capital city shares the country's name: {{{{c1::{country}}}}}."
-    else:
-        text = f"Arab country: <b>{country}</b> — capital {{{{c1::{capital}}}}}."
-    add(text,
-        "",
-        "G_countries", [16], image="src_arab_map_v2.png",
-        verified_against="p27 map legend (rendered)",
-        verified_by="country/capital pairs transcribed from map legend render 2026-08-08",
-        visual_source="work/arabic/page_27.png")
+        # both sides identical -> a plain pairing card leaks; test the shared-name fact itself
+        add("Which Arabic-speaking country shares its name with its capital city? "
+            "{{c1::Kuwait}}.",
+            "Cue: the country, its capital, and the Gulf it sits on all carry the name.",
+            "G_countries", [16], **CGROUND)
+        continue
+    add(f"{{{{c1::{country}}}}}<br>capital: {{{{c2::{capital}}}}}",
+        "", "G_countries", [16], **CGROUND)
 
 out = os.path.join(W, "unit_1_cards.json")
 json.dump(cards, open(out, "w"), indent=1, ensure_ascii=False)

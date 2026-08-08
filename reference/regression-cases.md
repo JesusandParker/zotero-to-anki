@@ -493,7 +493,7 @@ transparent labeling does not convert unrequested work into requested work.
 Caught by `check_cards.synthetic_marks_check`. Doctrine: SKILL.md overriding rule 0,
 card-rules #29, parker-preferences 2026-08-08.
 
-## R40 — The reviewer's direction is decided by the CARD's first strong character, not the line's
+## R44 — The reviewer's direction is decided by the CARD's first strong character, not the line's
 Parker's screenshots (2026-08-08, Arabic Unit 1) showed Back Extra rendering as an RTL
 paragraph — "ز ر :Distinguish", ".same shape — raa plain", the AUDIO button flipped to the
 text's right — while "Name: raa" looked fine. Mechanism (reproduced headless with the real
@@ -511,7 +511,7 @@ no leading/trailing neutrals (why "Name: raa" hid the bug and my per-line test p
   cannot see direction, duplicate play buttons, or crop quality. Sample every block through
   the real template + CSS and LOOK before hand-off.
 
-## R41 — Replacing media bytes under the SAME filename leaves the old image on screen
+## R45 — Replacing media bytes under the SAME filename leaves the old image on screen
 Arabic Unit 1, 2026-08-08: crops were re-cut and re-stored via AnkiConnect
 `deleteMediaFile` + `storeMediaFile` under their original names. Checksums on disk
 confirmed the NEW bytes were in `collection.media`, yet Parker — after a full sync —
@@ -525,7 +525,7 @@ synced devices).
   model CSS, images rewritten to `file://` paths into collection.media) and LOOK.
   Checksum-on-disk is NOT proof the reviewer will show it.
 
-## R42 — Hand-picked crop boxes are a defect source; rough box + auto-trim is the rule
+## R46 — Hand-picked crop boxes are a defect source; rough box + auto-trim is the rule
 Three successive hand-tuned percentage boxes each still shipped a defect (sliced caption,
 dead whitespace, and — worst — `consonants2` silently LOSING its last two table rows
 because the box was too short). Percentage eyeballing cannot find an artwork's true edge.
@@ -538,7 +538,7 @@ because the box was too short). Percentage eyeballing cannot find an artwork's t
 - Acceptance is VISUAL and mandatory: build the contact sheet, look at every crop, and
   re-cut any that shows sliced text — "content is present" is not the standard.
 
-## R43 — Media filename CASE breaks on the phone but not on the Mac
+## R47 — Media filename CASE breaks on the phone but not on the Mac
 Arabic Unit 1, 2026-08-08: five letter videos were referenced as `arabic_pron_14_Saad.mp4`
 while `collection.media` actually held `arabic_pron_14_saad.mp4`. macOS's case-insensitive
 filesystem plays them anyway, so the defect is invisible on the machine that made the cards
@@ -552,3 +552,25 @@ the emphatics (Haa, Saad, Daad, Taa, DHaa), i.e. the sounds most worth hearing.
 - Mechanization: a post-stage media audit — set(refs) − set(collection) must be empty, and
   no name may differ from its own `.lower()`. Cheap, deterministic, catches an entire class
   that a Mac-only visual check never will.
+
+## R48 — A marked SET needs a membership lane; row-pairings alone never teach the set
+Arabic Unit 1, 2026-08-08. Parker highlighted the book's list of the twenty countries where
+Arabic is spoken. The run produced twenty cards shaped `Arab country: <b>Jordan</b> —
+capital {{c1::Amman}}` — every one testing a CAPITAL with the country handed over in the
+stem. He could answer all twenty and still be unable to name a single Arabic-speaking
+country, which was his entire stated goal: *"my real goal is trying to list the countries
+that do speak Arabic."*
+The generator carded the SHAPE of the source (a two-column table) instead of the KNOWLEDGE
+the mark encodes (set membership). Rules 23–25 already govern how to chunk a set once you
+have decided to test it; nothing said you must test membership **at all**.
+- BAD (must catch): a marked enumerated set carded ONLY as per-row relation cards, where
+  every member appears visibly in a stem and no card asks the set to be produced.
+- GOOD (don't over-flag): the pairing lane PLUS a membership lane — named sub-groups of ≤4–5
+  on separate notes (rule 23/24), an anchor note naming the groups when the source or a
+  stable structure supplies them, and `Roster:` on every note.
+- Also fixed here: pairings became two-way (`{{c1::Lebanon}}` / `capital: {{c2::Beirut}}`),
+  so the relation is tested in both directions instead of one.
+- Watch the sub-group NAMES for self-leaks: "Iraq and the northern Gulf" contained one of
+  its own answers and was caught by the existing `answer visible in its own stem` check.
+- The general question this failure forces onto every list: **"after these cards, can he
+  PRODUCE the set — or only recognize relations among members he was handed?"**
