@@ -18,6 +18,8 @@ Write it with `python3 scripts/add_source.py` (never by hand, unless fixing a ty
 | `path_match` | no | Fallback filename substring if the key ever fails. |
 | `kind` | no | `textbook` · `lecture` · `article` · `reference`. Descriptive; helps a future session pick sensible defaults. |
 | `colors` | no | The hex colors that mean "card me". Defaults to the registry's yellows. Override when a book uses a different scheme. |
+| `lexicon_colors` | no | The colors that mean "define this word" — the purple lane (card-rules #28). Defaults to `#a28ae5` (Zotero purple) + `#c885da` (external-annotator purple). Override to `[]` to turn the lane off for a source, or when a book's previous owner used purple for something else. |
+| `glossary_pages` | no | `[start, end]` PHYSICAL pages of the book's own glossary. Lets `lexicon.py --find` anchor authored definitions at the strongest tier. Omit for sources without one (lectures, papers). |
 | `segments` | no | Path to a segment map (`reference/maps/<id>.json`). Omit for a flat source addressed whole. |
 | `segment_noun` | no | `Chapter` · `Unit` · `Lesson` · `Section`. Used in deck names and prose. |
 | `deck_root` | yes | The Anki deck this source lives under. |
@@ -108,3 +110,7 @@ prints a contents page. `--write-map` warns on overlapping ranges and refuses in
   Set `colors` per source rather than assuming.
 - **A source with zero marks is still worth registering** — it just means he hasn't read it
   yet, or it uses colors you haven't declared.
+- **Purple is a LANE, not emphasis.** A book whose previous owner marked in purple (the way
+  the orgo text carries a stranger's #facd5a) would flood the lexicon lane with someone
+  else's marks — check `add_source.py --search`'s per-color counts when registering, and
+  override `lexicon_colors` (or set it `[]`) for that source.

@@ -32,9 +32,11 @@ import argparse, base64, hashlib, json, os, re, sys, urllib.request
 
 import sources as S
 import authorship
+import lexicon as L
 
 ANKI = "http://localhost:8765"
 CLOZE_RE = re.compile(r"\{\{c\d+::")
+CLOZE_ANS = re.compile(r"\{\{c\d+::(.*?)(?:::.*?)?\}\}")
 
 # Parker wants a full paragraph break BETWEEN Back Extra components (e.g. a Distinguish
 # line and a Pitfall line) — real white space, not a tight single line break (2026-07-02).
@@ -219,11 +221,17 @@ def main():
             else:
                 back = (back + "<br><br>" + tag) if back.strip() else tag
 
+        # A lexicon card (the purple lane) dedups against the WHOLE collection, not one
+        # deck — the same word met again in Chapter 12 must find its Chapter 5 card. The
+        # real mechanism is the ledger (lexicon.py --dedup, consulted before drafting);
+        # this scope is the writer's backstop. Everything else keeps deck scope: rule 25
+        # legitimately gives sibling notes near-identical stems across a source.
         note = {
             "deckName": deck, "modelName": model,
             "fields": {"Text": listify(text), "Back Extra": back},
             "tags": tags,
-            "options": {"allowDuplicate": False, "duplicateScope": "deck"},
+            "options": {"allowDuplicate": False,
+                        "duplicateScope": "collection" if c.get("kind") == "lexicon" else "deck"},
         }
         chk = call("canAddNotesWithErrorDetail", notes=[note])[0]
         if not chk["canAdd"]:
@@ -237,6 +245,19 @@ def main():
             # Parker's edits and never overwrite his (see scripts/authorship.py).
             authorship.record(source_id or "unknown", nid, note["fields"],
                               run=args.run, store=own)
+            # The purple lane's memory: remember this word so the next purple mark of
+            # it dedups here instead of re-carding (lexicon.py --dedup). Repo-side,
+            # never a tag — Parker keeps cards at `ch<N>` only.
+            lex = c.get("lexicon") or {}
+            if c.get("kind") == "lexicon" and lex.get("term_key"):
+                first = CLOZE_ANS.search(text)
+                try:
+                    L.ledger_record(lex.get("term"), lex["term_key"], nid,
+                                    source_id or c.get("source"), seg_of(c),
+                                    first.group(1).strip() if first else "")
+                except OSError as e:
+                    print(f"  WARNING: lexicon ledger not updated for note {nid} ({e}) "
+                          f"— rebuild it from runs/*/provenance.jsonl if this persists")
         added += 1
 
     if not args.dry_run:

@@ -1,13 +1,16 @@
 ---
 name: zotero-to-anki
-description: Turn anything Parker marks in YELLOW in Zotero into excellent Anki cloze cards — any textbook, lecture PDF, or paper. Use (1) to GENERATE cards when he points at a source ("make cards from chapter 6 of my EMT book", "I finished highlighting the Arabic unit", "make cards from this genetics lecture", "I highlighted something in that PowerPoint I want to memorize"), AND (2) to REGISTER a new source he hasn't used before ("add my organic chem textbook", "point this at my Arabic book"), AND (3) to FIX/REVIEW/IMPROVE existing cards or the card-maker itself when he reports a problem while studying ("I noticed an issue with a card", "this flashcard is wrong / the hint gives it away", "fix the card maker", "the cards keep doing X"), AND (4) to BATCH-PROCESS the complaints he types into the hidden "Card Feedback" field during review ("go look at my card feedback", "process my complaints", "go through the cards I ranted about", "harvest my Anki feedback"). On any single-card issue follow the "If Parker reports an issue" procedure below; for a batch, follow "Processing card feedback (batch)".
+description: Turn anything Parker marks in YELLOW in Zotero into excellent Anki cloze cards — and any word he marks in PURPLE into a plain-language definition card (the lexicon lane) — from any textbook, lecture PDF, or paper. Use (1) to GENERATE cards when he points at a source ("make cards from chapter 6 of my EMT book", "I finished highlighting the Arabic unit", "make cards from this genetics lecture", "define the words I marked", "I purpled some words in chapter 8"), AND (2) to REGISTER a new source he hasn't used before ("add my organic chem textbook", "point this at my Arabic book"), AND (3) to FIX/REVIEW/IMPROVE existing cards or the card-maker itself when he reports a problem while studying ("I noticed an issue with a card", "this flashcard is wrong / the hint gives it away", "fix the card maker", "the cards keep doing X"), AND (4) to BATCH-PROCESS the complaints he types into the hidden "Card Feedback" field during review ("go look at my card feedback", "process my complaints", "go through the cards I ranted about", "harvest my Anki feedback"). On any single-card issue follow the "If Parker reports an issue" procedure below; for a batch, follow "Processing card feedback (batch)".
 ---
 
 # Zotero → Anki
 
-Parker marks what he wants to memorize in **yellow** while he reads. This turns those marks
-into Anki cloze cards: grounded in the real page text, quality-checked by an adversarial
-editor and a deterministic gate, and staged into a review deck he approves.
+Parker marks what he wants to memorize in **yellow** while he reads, and any word he
+doesn't know in **purple** (usually a purple underline — it stacks cleanly under a yellow
+highlight). This turns yellow marks into Anki cloze cards — grounded in the real page
+text, quality-checked by an adversarial editor and a deterministic gate, and staged into
+a review deck he approves — and purple marks into **plain-language definition cards** in
+the same segment's deck (the lexicon lane: card-rules #28, recipes §4b).
 
 It works on **any source registered in `reference/sources.json`** — the EMT textbook it was
 built on, an Arabic textbook, a genetics lecture PDF, a paper. Which PDF, which colors,
@@ -16,7 +19,9 @@ registry. Nothing in the pipeline is specific to one book.
 
 **The yellow mark is Parker's "this matters" signal — he has already decided what's
 important. Your job is to turn it into the best possible card(s), not to re-decide
-importance.**
+importance.** The purple mark is the same contract for vocabulary: he has already decided
+he didn't know the word — never re-decide that either (its only licensed skips are
+integrity ones, always surfaced: card-rules #28).
 
 ## Three rules that override everything
 
@@ -50,15 +55,19 @@ page→segment map, the Anki deck templates, the tags, and the **subject profile
 reference: `reference/sources.md`.
 
 ### What counts as "card me"
-**Color decides, not markup style.** Parker highlights in textbooks but *underlines* on
-lecture slides, and both mean the same thing to him. The extractor reads yellow (`#ffd400`
-and the alternate-palette `#facd5a`) across:
+**Color picks the LANE; markup style never matters.** Parker highlights in textbooks but
+*underlines* on lecture slides, and both mean the same thing to him. Two colors have
+meaning — **yellow** (`colors`, default `#ffd400`/`#facd5a`) = "this matters, card it";
+**purple** (`lexicon_colors`, default `#a28ae5`/`#c885da`) = "I don't know this word,
+define it plainly" (his habit: a purple underline, stacking cleanly under yellow):
 
-| Zotero markup | Extractor `kind` | What to do with it |
+| Mark | Extractor `kind` | What to do with it |
 |---|---|---|
-| highlight, underline | `text` | Normal grounded card. The main path. |
-| area selection | `image` | The figure IS the card — crop it and author from the image. |
-| standalone note | `note` | Parker's OWN words, no source span. Ground it before carding, or flag it. |
+| yellow highlight/underline | `text` | Normal grounded card. The main path. |
+| yellow area selection | `image` | The figure IS the card — crop it and author from the image. |
+| yellow standalone note | `note` | Parker's OWN words, no source span. Ground it before carding, or flag it. |
+| **purple highlight/underline** | `lexicon` | An unknown WORD → one authored plain-language definition card. Card-rules #28, recipes §4b — run `lexicon.py --find` + `--dedup` first. |
+| purple area selection / note | `unsupported_purple` | No defined meaning yet — surface it at hand-off and ask; never guess, never drop. |
 | sticky note, ink | *(skipped)* | No cardable content. |
 
 Any other color is deliberately ignored — blue is his ordinary reading emphasis, and on
@@ -247,6 +256,21 @@ Writes `work/<source>/<label>_highlights.json` (marked items + grounded `context
   duplicates (card-rules #12). Card what the table *adds*, not what it repeats.
 - **`kind: "note"`** — Parker's own words with no source span. Ground it against the page
   before carding, or flag `needs_human_check`. Never card an ungrounded note silently.
+- **`kind: "lexicon"`** — a PURPLE word: "define this plainly" (card-rules #28, recipes
+  §4b). The item carries `term`, `term_key`, and hygiene `flags` (`multiword` = probable
+  drag slip; `midword` = an edge clips a word — check the page, fix the term, and surface
+  the flag at hand-off). Before drafting ANY of them, run both:
+  ```
+  python3 scripts/lexicon.py --find <id> --terms-from work/<source>/<label>_highlights.json
+  python3 scripts/lexicon.py --dedup work/<source>/<label>_highlights.json   # Anki open
+  ```
+  `--find` hunts the source itself for each word's own definition (glossary first — the
+  book often defines it three chapters later) and writes the evidence file the gate
+  verifies (R37); `--dedup` says which words are already carded (ledger + live Anki
+  check). A duplicate key with the SAME sense = skip and report; a DIFFERENT sense
+  (hypoxia/hypoxemia collide by design) = a new card with a visible domain cue.
+- **`kind: "unsupported_purple"`** — a purple area-selection or standalone note. No
+  defined meaning yet: list it at hand-off and ask Parker what he wants; never guess.
 - **`user_comment`** is Parker talking directly to you. Obey it:
   - *"Know all of these!!"* → test every item exhaustively;
   - a **question** → answer it (grounded only in the source) and surface it at hand-off;
@@ -279,10 +303,10 @@ Writes `work/<source>/<label>_highlights.json` (marked items + grounded `context
    are: the column interpolates, so visible neighbours hand over the blank (rule 25, HARD at
    4 rows).
 
-1. **Classify the fact type, then open its recipe.** Definition · numeric value/dose/cutoff ·
-   classification list · ordered sequence · comparison/direction-of-change · mechanism ·
-   indication/contraindication · trigger · buzzword/vignette · figure · **procedure/skill
-   drill** · ambiguous fragment.
+1. **Classify the fact type, then open its recipe.** Definition · **lexicon (purple word
+   → recipes §4b)** · numeric value/dose/cutoff · classification list · ordered sequence ·
+   comparison/direction-of-change · mechanism · indication/contraindication · trigger ·
+   buzzword/vignette · figure · **procedure/skill drill** · ambiguous fragment.
    Then open the matching section of **`reference/card-recipes.md`** — the archetype playbook
    (when-to-use, exact template, hint + Back-Extra conventions, do's/don'ts). Drill into
    `reference/cloze-mastery.md` only for more exemplars.
@@ -322,6 +346,16 @@ cards). After all units are drafted and edited, run ONE pass with the WHOLE segm
 micro-cards down to the 1–2 high-yield ones, and **trim** genuine trivia — all WITHOUT
 dropping any must-test fact. Emit a transparent merge/collapse/cut log so Parker can audit
 the balance.
+
+**Cross-lane fold-in (purple × yellow).** When Parker purples a word AND the same batch
+carries a yellow card that already tests that term↔meaning (he yellowed the book's own
+definition of it), do NOT ship both: **fold the lexicon card into the grounded definition
+card** — keep the yellow card, make sure its meaning side reads plainly (the crisp-c2 rule
+already forces this), add the lexicon card's `Ex:`/`Parts:` lines to its Back Extra, and
+cite BOTH marks in `from_idx` (a fold-in must keep at least one yellow mark cited — the
+gate enforces it, R36). Log the fold in `decisions.jsonl`. Same-batch duplicate `term_key`s
+(the checker warns): merge same-sense repeats; sense-split true homonyms with a visible
+domain cue on each.
 
 ### Stage 2.75 — Verify (a mandatory gate, never skip)
 Reliability is a harness, not a promise to be careful.
@@ -518,7 +552,13 @@ so bury-siblings stays on for two-way definitions. **Anki must be open.**
 ### Stage 4 — Hand off
 Tell Parker:
 - how many cards landed where, and to promote keepers into the sibling deck;
-- the `needs_human_check` ones (doses/numbers/weak grounding) to verify;
+- the `needs_human_check` ones (doses/numbers/weak grounding) to verify — including the
+  **Vocabulary block**: every externally-anchored definition, term + gloss on one line
+  each (he met each word in context, so a wrong gloss takes seconds to spot);
+- **purple repeats** — words already carded that he marked again (rule 28: a repeat is
+  data — the first card isn't doing its job; offer the existing card for review);
+- **purple hygiene flags** (drag slips / clipped words) and any `unsupported_purple`
+  marks, with the question of what he wants them to mean;
 - **answers to any margin questions** he wrote, from the source, with what to double-check;
 - anything he flagged "look more into this," and the specific thing to look into;
 - anything you did NOT card because a margin comment excluded it.
@@ -550,7 +590,7 @@ Naming a hazard is step one of *name it, mechanize it, test it* — not the whol
 - `reference/editor-checklist.md` — the 28-point adversarial Editor pass. Read before editing.
 - `reference/note-format.md` — note type, cloze/MathJax/image syntax, Back Extra vocabulary,
   write targets.
-- `reference/regression-cases.md` — R1–R30, the failure library. Read FIRST on any bug report.
+- `reference/regression-cases.md` — R1–R37, the failure library. Read FIRST on any bug report.
 - `reference/provenance.md` — the card provenance schema, the run store, and the hazard rule.
 - `reference/feedback-log.md` — the running history of what Parker caught and how it was fixed.
 - `reference/cloze-mastery.md` — 2,391 annotated AnKing exemplars. **Large — open only the

@@ -49,3 +49,8 @@ because slides carry the professor's framing rather than the book's completeness
   relationship over the value, unless the professor emphasized the value itself.
 - **Diagrams beat prose** for anatomy and structure — use the image path, and remember
   image occlusion is the eventual home for these (see the Grant's Atlas work).
+- **Purple on a lecture PDF will usually anchor `external`** — slides use jargon without
+  defining it and have no glossary, so authored definitions landing in the verify
+  report's Vocabulary block is the NORMAL outcome here, not a warning sign. A purple word
+  on a slide is also often exactly the prerequisite card-rules #11 wants — one lane
+  feeds the other.

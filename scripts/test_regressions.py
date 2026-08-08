@@ -19,7 +19,110 @@ CHECKER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "check_cards.
 
 # Each case: cards (a batch, usually one), the warning substring, and whether it
 # must be present (BAD shape) or absent (GOOD shape that must not be over-flagged).
+
+# Shared fixtures for the purple-lane cases (R35–R37). The cards claim source
+# "_regression", whose evidence file is a PERMANENT fixture at
+# work/_regression/lexicon_evidence.json (diaphor resolves; syncop does not).
+LEX_MARKS = [
+    {"kind": "lexicon", "page": "612", "highlight": "diaphoretic",
+     "term": "diaphoretic", "term_key": "diaphor",
+     "context": "The patient was pale and diaphoretic, with a rapid, thready pulse."},
+    {"kind": "lexicon", "page": "690", "highlight": "syncope",
+     "term": "syncope", "term_key": "syncop",
+     "context": "Syncope was reported before the fall."},
+    {"kind": "text", "page": "612", "highlight": "Shock produces pale, cool, moist skin.",
+     "context": "Shock produces pale, cool, moist skin as blood is shunted to the core."},
+]
+
 CASES = [
+    # --- R35: an external-anchored authored definition must arrive FLAGGED -----------
+    {
+        "id": "r35_bad_external_definition_unflagged",
+        "warn": "external-anchored definition without needs_human_check",
+        "present": True, "scope": "hard",
+        "highlights": LEX_MARKS,
+        "cards": [{"Text": "<b>Syncope</b> is {{c1::a brief fainting spell}}.",
+                   "Back Extra": "Ex: \"<b>Syncope</b> was reported before the fall.\"",
+                   "kind": "lexicon", "source": "_regression", "segment": 1,
+                   "from_idx": [1], "needs_human_check": False,
+                   "lexicon": {"term": "syncope", "term_key": "syncop",
+                               "anchor": {"method": "external"}}}],
+        "note": "the authored definition the book can't confirm must reach Parker's eyes",
+    },
+    {
+        "id": "r35_good_external_definition_flagged",
+        "warn": "external-anchored definition without needs_human_check",
+        "present": False,
+        "highlights": LEX_MARKS,
+        "cards": [{"Text": "<b>Syncope</b> is {{c1::a brief fainting spell}}.",
+                   "Back Extra": "Ex: \"<b>Syncope</b> was reported before the fall.\"",
+                   "kind": "lexicon", "source": "_regression", "segment": 1,
+                   "from_idx": [1], "needs_human_check": True,
+                   "lexicon": {"term": "syncope", "term_key": "syncop",
+                               "anchor": {"method": "external"}}}],
+    },
+    # --- R36: the lane cannot be self-asserted (kind must match the marks' kind) -----
+    {
+        "id": "r36_bad_text_card_from_purple_marks_only",
+        "warn": "cites ONLY purple lexicon mark",
+        "present": True, "scope": "hard",
+        "highlights": LEX_MARKS,
+        "cards": [{"Text": "A diaphoretic patient shows {{c1::pale, sweaty skin}}.",
+                   "Back Extra": "Cue: classic early-shock skin signs.",
+                   "kind": "text", "source": "_regression", "segment": 1,
+                   "from_idx": [0]}],
+        "note": "a yellow-lane card built purely from purple marks dodges the lexicon contract",
+    },
+    {
+        "id": "r36_bad_lexicon_card_citing_yellow_mark",
+        "warn": "cites non-purple mark",
+        "present": True, "scope": "hard",
+        "highlights": LEX_MARKS,
+        "cards": [{"Text": "<b>Diaphoresis</b> is {{c1::heavy, drenching sweating}}.",
+                   "Back Extra": "Ex: \"The patient was pale and <b>diaphoretic</b>…\"",
+                   "kind": "lexicon", "source": "_regression", "segment": 1,
+                   "from_idx": [2],
+                   "lexicon": {"term": "diaphoresis", "term_key": "diaphor",
+                               "anchor": {"method": "in_source"}}}],
+        "note": "kind: lexicon citing a yellow mark would dodge R13's word-overlap block",
+    },
+    {
+        "id": "r36_good_foldin_cites_purple_plus_yellow",
+        "warn": "purple",
+        "present": False, "scope": "hard",
+        "highlights": LEX_MARKS,
+        "cards": [{"Text": "In early shock the skin turns {{c1::pale, cool, and moist}}.",
+                   "Back Extra": "Ex: \"The patient was pale and <b>diaphoretic</b>…\"",
+                   "kind": "text", "source": "_regression", "segment": 1,
+                   "from_idx": [0, 2]}],
+        "note": "a Stage-2.5 fold-in legitimately cites both lanes; must not block",
+    },
+    # --- R37: a claimed in-source anchor must RESOLVE to mechanical evidence ---------
+    {
+        "id": "r37_bad_claimed_anchor_without_evidence",
+        "warn": "no resolving entry",
+        "present": True, "scope": "hard",
+        "highlights": LEX_MARKS,
+        "cards": [{"Text": "<b>Syncope</b> is {{c1::a brief fainting spell}}.",
+                   "Back Extra": "Ex: \"<b>Syncope</b> was reported before the fall.\"",
+                   "kind": "lexicon", "source": "_regression", "segment": 1,
+                   "from_idx": [1],
+                   "lexicon": {"term": "syncope", "term_key": "syncop",
+                               "anchor": {"method": "in_source"}}}],
+        "note": "the R33 lesson: an exemption the drafter can assert is no exemption at all",
+    },
+    {
+        "id": "r37_good_resolving_anchor_passes",
+        "warn": "no resolving entry",
+        "present": False,
+        "highlights": LEX_MARKS,
+        "cards": [{"Text": "<b>Diaphoresis</b> is {{c1::heavy, drenching sweating}}.",
+                   "Back Extra": "Ex: \"The patient was pale and <b>diaphoretic</b>…\"",
+                   "kind": "lexicon", "source": "_regression", "segment": 1,
+                   "from_idx": [0],
+                   "lexicon": {"term": "diaphoresis", "term_key": "diaphor",
+                               "anchor": {"method": "in_source"}}}],
+    },
     # --- R25/R26: retrieval load (Parker 2026-08-02, the 10-element radio report) ---
     # The thresholds here are CALIBRATION, not taste: each of these four cases is a card
     # Parker himself graded in the report that created the rule, and the detector has to

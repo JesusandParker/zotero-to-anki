@@ -123,6 +123,31 @@ def colors(source):
     return list(source.get("colors", ["#ffd400", "#facd5a"]))
 
 
+def lexicon_colors(source):
+    """The colors that mean 'define this word for me' — the PURPLE lane (2026-08-08).
+
+    Parker marks an unknown word in purple while reading (his habit is a purple
+    UNDERLINE, which sits cleanly beneath a yellow highlight on the same span; color
+    decides, not markup style — same house rule as yellow). Each becomes a plain-language
+    definition card in that segment's deck. #a28ae5 is Zotero's own purple; #c885da is
+    the external-annotator purple, mirroring #facd5a in the yellow default. Per-source
+    override for books whose palette drifts or whose previous owner used purple."""
+    return list(source.get("lexicon_colors",
+                           ["#a28ae5", "#c885da"]))
+
+
+def glossary_pages(source):
+    """[start, end] PHYSICAL pages of the source's own glossary, or None.
+
+    Optional; used by lexicon.py to anchor an authored definition against the book's
+    formal one. A source without a glossary still works — the finder falls back to an
+    in-source definition scan, then to an external (flagged) definition."""
+    gp = source.get("glossary_pages")
+    if not gp:
+        return None
+    return [int(gp[0]), int(gp[1])]
+
+
 # ------------------------------------------------------------------------- segmenting
 
 def load_segments(source):
@@ -258,7 +283,9 @@ def main():
         print(json.dumps({
             "id": s["id"], "label": s.get("label"), "kind": s.get("kind"),
             "zotero_item_id": item_id, "pdf": pdf, "pdf_exists": os.path.exists(pdf),
-            "colors": colors(s), "profile": os.path.basename(profile_path(s)),
+            "colors": colors(s), "lexicon_colors": lexicon_colors(s),
+            "glossary_pages": glossary_pages(s),
+            "profile": os.path.basename(profile_path(s)),
             "segment_noun": segment_noun(s),
             "segments": (len(load_segments(s)["segments"]) if load_segments(s) else None),
             "staging_example": staging, "promote_example": promote,

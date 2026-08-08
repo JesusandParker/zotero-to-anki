@@ -31,7 +31,9 @@ The number decides how many cards a note makes and which blanks share a card. Se
 - Use this for: the hazmat placard diagram (text-impossible), vital-signs-by-age tables, anatomy figures.
 
 ## Back Extra vocabulary
-Open every Back Extra line with one of: `Meaning:` `Why:` `Mechanism:` `Distinguish:` `Pitfall:` `Ex:` `Cue:` `Pathway:` `Mnemonic:` `Roster:`. (This matches the house style of the old deck and the AnKing Extra field.)
+Open every Back Extra line with one of: `Meaning:` `Why:` `Mechanism:` `Distinguish:` `Pitfall:` `Ex:` `Cue:` `Pathway:` `Mnemonic:` `Roster:` `Parts:` `Formal:`. (This matches the house style of the old deck and the AnKing Extra field.)
+
+**`Parts:` and `Formal:` (added 2026-08-08) belong to the lexicon lane** (card-rules #28, recipes §4b). `Parts:` is a word-part breakdown (`dia- (through) + phor- (carry)`) — usable on any card whose term genuinely decomposes, typical on lexicon cards. `Formal:` quotes the source's own formal definition from the anchor evidence, and is licensed **on lexicon cards only**: there the plain authored answer is the taught form, so the formal register is new information, not a re-definition (the "never re-define the term" clause in card-rules #5 still governs ordinary definition cards).
 
 **`Roster:` (added 2026-08-02) is required on every note born from a CHUNKED list** (card-rules #23): it carries the full set in order, with that note's own members in `<b>bold</b>`. When a 10-element list becomes four notes, the roster is what keeps the set from dissolving into four unrelated fragments — Parker asked for it directly ("seeing the part and the whole in each flash card"). It goes LAST in the Back Extra, after the teaching lines, since it is reference rather than instruction.
 
@@ -78,6 +80,24 @@ key only means something when `image` is set.
 lets the gate verify Rule 1 and what lets any card in Anki be traced back to its source.
 `needs_human_check` is **derived, never asserted** (`scripts/verify_report.py`). Full field
 reference and the run store: `reference/provenance.md`.
+
+**A lexicon card (the purple lane) adds two fields** — `"kind": "lexicon"` plus its
+contract block, both HARD-checked by `check_cards.lexicon_check` (card-rules #28):
+```json
+{
+  "Text": "<b>Diaphoresis</b> is {{c1::heavy, drenching sweating}}.",
+  "Back Extra": "Ex: \"The patient was pale and <b>diaphoretic</b>…\"<br><br>Parts: dia- (through) + phor- (carry).",
+  "kind": "lexicon",
+  "lexicon": {
+    "term": "diaphoresis", "term_key": "diaphor",
+    "anchor": {"method": "in_source", "page": "612"}
+  },
+  "source": "emt", "segment": 12, "from_idx": [41]
+}
+```
+`anchor.method` is `glossary` / `in_source` (must resolve in `work/<source>/lexicon_evidence.json`,
+written by `lexicon.py --find` — R37) or `external` (must arrive with the derived
+`needs_human_check` — R35). The cited marks must themselves be `kind: lexicon` (R36).
 
 ## Write target & tags
 

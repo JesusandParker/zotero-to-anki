@@ -1,0 +1,37 @@
+{
+ "source": "emt",
+ "produced_by": "lexicon.py",
+ "terms": {
+  "diaphor": {
+   "term": "diaphoresis",
+   "method": "glossary",
+   "page": "4042",
+   "quote": "diaphoretic: Characterized by light or profuse sweating.",
+   "headword": "diaphoretic",
+   "occurrences": 11
+  },
+  "hypox": {
+   "term": "hypoxemia",
+   "method": "glossary",
+   "page": "4071",
+   "quote": "hypoxia: Deficient oxygen concentration in the tissues.",
+   "headword": "hypoxia",
+   "occurrences": 33
+  },
+  "xiphoid": {
+   "term": "xiphoid",
+   "method": "glossary",
+   "page": "4152",
+   "quote": "xiphoid process: The narrow, cartilaginous lower tip of the sternum.",
+   "headword": "xiphoid process",
+   "occurrences": 13
+  },
+  "crepit": {
+   "term": "crepitus",
+   "method": "glossary",
+   "page": "4036",
+   "quote": "crepitus: A grating or grinding sensation or sound caused by fractured bone ends or joints rubbing together.",
+   "occurrences": 31
+  }
+ }
+}

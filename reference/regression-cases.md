@@ -428,3 +428,24 @@ Not card defects — ways the *pipeline around* the cards went wrong on 2026-08-
 - **Deliberately NOT caught: the hyphenated patient descriptor** (`a 2-month-old`, `a 30-year-old adult`, `an 82-year-old`). The separator is a hyphen rather than whitespace, so the age branch does not reach it — and that is the wanted behaviour, not a residual hole. This form is how a **vignette names its patient**, and a vignette age is invented scene-setting, not a value Parker must check against the book. Flagging it would push every scenario card into "Section A: needs your eyes" and dilute the section that exists to concentrate his attention on real digits. The genuinely dangerous numbers — ranges, doses, percentages, and *stated* thresholds like `by age 75` — are all caught by other branches even when a descriptor sits on the same card. (Raised by the Chapter 7 judge as an R24 shortfall; resolved as a scope decision rather than a widening.)
 - **Catch test (both ways):** four cases in `test_regressions.py` (`r24_*`) — three values that must now flag, one ordinal-only card that must stay silent.
 - **Known, pre-existing, and harmless:** the range branch `\d+\s*(?:to|-|–)\s*\d+` also matches a figure label like `FIGURE 7-2`. Card text may never contain a source-artifact word (card-rules Layer A #2), so a legal card cannot trip it. Not introduced by this fix and deliberately left alone.
+
+## R35 — An authored definition the source can't confirm must arrive FLAGGED
+**Rule:** card-rules #28 (the purple lane). **Caught by:** `check_cards.lexicon_check` (HARD) + `verify_report.py` (which derives the flag — the gate enforces the two scripts agree).
+The purple lane is the first place the pipeline is LICENSED to author content the source never states (a plain-language definition). The license is conditional: an `external`-anchored definition must carry `needs_human_check` so it lands in the verify report's Vocabulary block under Parker's eyes. A card that authors a definition AND declares itself clean has stepped outside the license.
+- **BAD:** `kind: lexicon`, `anchor.method: "external"`, `needs_human_check: false` → must HARD-block.
+- **GOOD (must not over-flag):** the same card with the derived flag true → passes.
+- **Catch test:** executable — `r35_*` in `test_regressions.py`.
+
+## R36 — The lexicon lane cannot be SELF-asserted (kind must match the marks' kind)
+**Rule:** card-rules #28. **Caught by:** `check_cards.lexicon_check` (HARD, both directions).
+`kind` decides which grounding contract a card answers to — word-overlap (R13) or anchor (R35/R37) — so if the drafter could choose it freely, either contract could be dodged: a yellow-built card claiming `lexicon` escapes R13's support test; a purple-built card claiming `text` smuggles an authored definition past the anchor contract. The extractor sets each MARK's kind from its color, and the gate requires the card's claim to agree with the marks it cites. Same anti-self-assertion lesson as R33's visual exemption.
+- **BAD:** `kind: text` citing ONLY `kind: lexicon` marks → HARD. **BAD:** `kind: lexicon` citing a yellow mark → HARD.
+- **GOOD (must not over-flag):** a Stage-2.5 fold-in — `kind: text` citing purple AND yellow marks together — is the legitimate mixed case and must pass.
+- **Catch test:** executable — `r36_*` in `test_regressions.py`.
+
+## R37 — A claimed in-source anchor must RESOLVE to mechanically-extracted evidence
+**Rule:** card-rules #28. **Caught by:** `check_cards.lexicon_check` (HARD).
+A `glossary`/`in_source` anchor exempts a lexicon card from the external-tier flag, so the anchor is an exemption surface — and R33 taught that an exemption the drafter can assert by typing a sentence is no exemption at all. The evidence must exist in `work/<source>/lexicon_evidence.json` with a non-empty quote and page, and that file is written only by `lexicon.py --find`, which QUOTES the PDF itself.
+- **BAD:** `anchor.method: "in_source"` for a term_key with no evidence entry → must HARD-block.
+- **GOOD (must not over-flag):** the same claim for a term_key whose entry resolves (permanent fixture: `work/_regression/lexicon_evidence.json`) → passes.
+- **Catch test:** executable — `r37_*` in `test_regressions.py`.

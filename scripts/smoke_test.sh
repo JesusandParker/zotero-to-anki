@@ -27,6 +27,11 @@ chk "figure regression suite all green" "PY=.venv/bin/python; [ -x \$PY ] || PY=
 echo "--- no run may leave a discovered hazard open ---"
 chk "every recorded hazard is closed"  "python3 scripts/check_hazards.py"
 
+echo "--- the purple lane (lexicon) ---"
+chk "lexicon term-key self-test green" "python3 scripts/lexicon.py --self-test"
+chk "registry exposes lexicon colors"  "python3 scripts/sources.py show emt | grep -q '#a28ae5'"
+chk "R35-R37 fixtures present"         "test -f work/_regression/lexicon_evidence.json"
+
 echo "--- registry ---"
 chk "sources.py list works"            "python3 scripts/sources.py list"
 chk "emt resolves to its real PDF"     "python3 scripts/sources.py show emt | grep -q '\"pdf_exists\": true'"

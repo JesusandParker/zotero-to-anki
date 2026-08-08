@@ -55,3 +55,11 @@ Do NOT two-way a fixed phrase, an example sentence, or a grammar rule.
   is for.
 - **Don't invent example sentences.** Ground every example in the textbook page like any
   other claim (card-rules #10). If the book didn't give one, don't fabricate one.
+
+## 6. The purple lane in a language source
+A purple word here is vocabulary Parker met and couldn't read — which is this profile's
+CORE material, so §3's direction rule OVERRIDES §4b's one-way default: **two-way by
+default, and when only one direction is affordable, keep PRODUCTION** (meaning → word).
+The gloss is still authored-plain (card-rules #28) and still crisp — the §5 trap above
+("a dictionary gloss is not a definition") applies with full force. Keep the script rules
+(§4) for the term side; the `Ex:` line carries the sentence he met it in, per §4b.

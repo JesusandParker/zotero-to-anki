@@ -69,7 +69,15 @@ def main():
         text_plain = C.readable(c.get("Text", ""))
         numeric = bool(C.VALUE.search(text_plain))
         ground, needs_visual = cited_grounding(c, highlights) if highlights else ("EXACT", False)
-        weak = ground in ("PARTIAL", "NOT_FOUND")
+        # An externally-anchored lexicon definition IS weak grounding: the answer is an
+        # AUTHORED plain-language definition the source never states (card-rules #28), so
+        # it must compete for Parker's eyes exactly like a PARTIAL mark. The gate
+        # HARD-blocks such a card whose flag is false (R35) — this derivation is where
+        # the flag comes from, so the two scripts agree by construction.
+        lex_external = bool(
+            c.get("kind") == "lexicon"
+            and ((c.get("lexicon") or {}).get("anchor") or {}).get("method") == "external")
+        weak = ground in ("PARTIAL", "NOT_FOUND") or lex_external
         verified = bool(c.get("verified_against"))
 
         derived = bool((numeric or weak) and not verified)
@@ -86,7 +94,8 @@ def main():
         entry = {"i": i, "page": page, "text": text_plain,
                  "verified_against": c.get("verified_against"),
                  "verified_by": c.get("verified_by"),
-                 "ground": ground, "needs_visual": needs_visual}
+                 "ground": ground, "needs_visual": needs_visual,
+                 "lex_external": lex_external}
         (section_b if verified else section_a).append(entry)
 
     if not args.dry_run:
@@ -103,10 +112,20 @@ def main():
     if section_a:
         lines += [f"Nothing recorded a verification source for these {len(section_a)} cards. "
                   f"Check each digit against the page before promoting.", ""]
-        for e in section_a:
+        # Authored definitions read in seconds each — he met the word in context, so a
+        # wrong gloss jumps out — which is why they get their own compact block instead
+        # of hiding among the dose checks.
+        vocab = [e for e in section_a if e.get("lex_external")]
+        rest = [e for e in section_a if not e.get("lex_external")]
+        for e in rest:
             tag = " **[weak grounding]**" if e["ground"] != "EXACT" else ""
             tag += " **[from an image]**" if e["needs_visual"] else ""
             lines.append(f"- **[{e['page']}]**{tag} {e['text']}")
+        if vocab:
+            lines += ["", f"**Vocabulary — {len(vocab)} authored definition(s) the source "
+                          f"never states (glance at each):**", ""]
+            for e in vocab:
+                lines.append(f"- **[{e['page']}]** {e['text']}")
     else:
         lines += ["_Empty — every numeric card records the page its digits were checked against._"]
     lines += ["", "## Section B — verified, skim if you like", ""]

@@ -1,0 +1,14 @@
+{
+ "_comment": "Permanent fixture for the R37 regression pair (test_regressions.py). A real run's evidence lives in work/<source>/lexicon_evidence.json and is produced only by lexicon.py --find.",
+ "source": "_regression",
+ "produced_by": "lexicon.py",
+ "terms": {
+  "diaphor": {
+   "term": "diaphoresis",
+   "method": "in_source",
+   "page": "612",
+   "quote": "Diaphoresis is profuse sweating that accompanies shock states.",
+   "occurrences": 3
+  }
+ }
+}

@@ -6,6 +6,10 @@
    "#ffd400",
    "#facd5a"
   ],
+  "lexicon_colors": [
+   "#a28ae5",
+   "#c885da"
+  ],
   "model": "AnKing Cloze",
   "staging": "{root}::claude review",
   "promote": "{root}::Keepers",
@@ -27,7 +31,8 @@
     "ch{segment}"
    ],
    "profile": "emt",
-   "notes": "The original source this pipeline was built on. Deck names are case-exact and predate the registry — 'Chapter <N>'/'Book Highlights' Title Case, 'claude review' lowercase. Do not restyle them; 899 existing notes live under this structure."
+   "glossary_pages": [4002, 4152],
+   "notes": "The original source this pipeline was built on. Deck names are case-exact and predate the registry — 'Chapter <N>'/'Book Highlights' Title Case, 'claude review' lowercase. Do not restyle them; 899 existing notes live under this structure. glossary_pages measured 2026-08-08 (physical pages; Index starts 4153)."
   },
   "isaacs17": {
    "label": "Genetics — Isaacs lecture, Chapter 17 (Gene Regulation)",

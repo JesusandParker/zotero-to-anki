@@ -32,6 +32,7 @@ Beyond `Text` / `Back Extra` / `source` / `segment`:
 | `needs_human_check` | **Derived, never asserted:** `(numeric or weak grounding) and not verified_against`. |
 | `visual_source` | Proof a fact was read from an image: `{"pages": ["549"], "figures": [...], "note": "..."}` |
 | `image` | A crop attached to the card itself (renders in Anki). |
+| `kind` + `lexicon` | The purple lane's contract (card-rules #28): `kind: "lexicon"` plus `{term, term_key, anchor}`. The anchor is the authored definition's verification record — `glossary`/`in_source` must resolve to a mechanically-extracted quote in `work/<source>/lexicon_evidence.json` (R37); `external` must carry the derived `needs_human_check` (R35); the cited marks must themselves be purple (R36). |
 
 ### Why `visual_source` matters
 Some material genuinely only exists as an image — a table with no text layer, an anatomy
@@ -96,6 +97,15 @@ python3 scripts/run_store.py trace 1782941723577
 
 ...prints the run, the skill SHA, the block, the stage, the verification record, and every
 source mark with its page and Parker's margin note.
+
+### The lexicon ledger (same design, purple lane)
+`reference/lexicon-ledger.json` remembers every definition card ever staged
+(`term_key` → term, noteId, source, segment, definition), written by `anki_write.py` at
+the moment each lexicon note lands. It is a **cache of Anki, never an authority**:
+`lexicon.py --dedup` verifies each remembered noteId still exists live before it may
+block a re-card, and prunes entries whose cards Parker deleted. No tag is ever added —
+same reasoning as the noteId link above. If the ledger is lost, rebuild it from
+`runs/*/provenance.jsonl`.
 
 ---
 

@@ -15,6 +15,7 @@ Do **Rule 0 first** (card-rules): if the highlight is one leg of a connected set
 | If the highlight's point is… | Use | §  |
 |---|---|---|
 | A named label bound to its meaning (term ↔ definition) | **Definition** (two-way by default) | 4 |
+| A **PURPLE** mark (`kind: lexicon`) — a word Parker didn't know while reading | **Lexicon** (authored plain definition, one-way) | 4b |
 | A single number, cutoff, range, dose, timing, or equation | **Numbers & Equations** | 5 |
 | The members of a set / a mnemonic / a head-to-toe checklist | **Lists & Enumerations** | 6 |
 | An ordered protocol, pathway, or "what's the next step" sequence | **Sequences & Mechanisms** | 7 |
@@ -81,6 +82,45 @@ Cue: earliest reliable sign is altered mental status, NOT cyanosis (a late sign)
 Text: {{c1::Crepitus}} is the {{c2::grating sound of broken bone ends rubbing together}}.
 Back Extra: Distinguish: subcutaneous emphysema also crackles, but that is air under the skin, not bone-on-bone.
 Pitfall: never intentionally re-elicit it; it causes pain and further injury.
+```
+
+---
+
+## 4b. Lexicon (the PURPLE lane — an unknown word met while reading)
+
+**When:** the mark is PURPLE (extractor `kind: "lexicon"`): Parker met a word he did not know. This is deliberately NOT §4: a §4 definition cards a term the SOURCE teaches, grounded in its own context; §4b cards a word the source merely *uses*, and the answer is an **authored plain-language definition** — card-rules #28 carries the license and its three bars (**plain · crisp · faithful**), plus the anchor contract (`glossary` / `in_source` / `external`) and the integrity-only triage rule.
+
+**Direction — ONE-WAY by default, word → meaning.** The failure this lane fixes is recognition while reading, and parker-preferences already licenses exactly this single direction ("word→meaning"). Purple is a cheap, liberal mark; do not double its volume by reflex. The `language` profile flips the default (production is the game there); elsewhere flip only when the term is plainly a keyword of the chapter itself.
+
+**Template:**
+```
+A/An <b>TERM</b> is {{c1::plain definition}}.
+```
+- The term stays VISIBLE and bold; the definition hides. No hint by default — the term itself is the constraint. Add a domain frame ONLY when the term is sense-ambiguous: `In anatomy, a <b>process</b> is {{c1::a bony projection}}.`
+- Non-nouns phrase naturally: `<b>Virulent</b> means {{c1::causing severe disease}}.`
+- The answer is ≤ ~8 plain words carrying the DISCRIMINATOR (what separates this word from its nearest neighbor). Fuller nuance goes to the Back Extra, never into a bloated blank (R12).
+
+**Back Extra (priority order; `Ex:` is REQUIRED on every §4b card):**
+- `Ex:` — the sentence he met the word in, term in `<b>bold</b>`. Free, grounded, re-instates the encounter, and doubles as the SENSE RECORD the dedup check compares against.
+- `Parts:` — the word-part breakdown, when the term genuinely decomposes: `Parts: dia- (through) + phor- (carry) — sweat carried out through the skin.` This is the Ch5 word-roots lesson generalized: the parts transfer to every word built on them. Skip it when the decomposition is folk etymology or adds nothing.
+- `Distinguish:` — the nearest confusable, when one exists (virulent vs pathogenic; hypoxia vs hypoxemia). The highest-value line whenever it applies.
+- `Formal:` — the source's own formal definition, quoted from the anchor evidence, when it exists and reads meaningfully differently from the plain answer. **Licensed on §4b cards only:** here the plain answer is the taught form, so the formal register is NEW information (the phrasing exams use), not a re-definition. Layer A #5's "never re-define the term" still governs §4.
+
+**Do:** run `lexicon.py --find` BEFORE authoring (the book may define the word three chapters later — anchor to that); write the definition a smart 16-year-old parses on first read; keep the discriminator; check the sense against the `Ex:` sentence; give colliding senses a visible domain cue each. **An evidence entry carrying `headword` (the finder prints `SENSE-CHECK`) is PROVISIONAL:** the anchor came through a different family form. `diaphoresis` via `diaphoretic:` is safe; `hypoxemia` via `hypoxia:` is the trap — if the gloss does not fit the marked word's own sense, downgrade to `external`, author the correct definition, and put the neighbor in `Distinguish:`.
+**Don't:** copy the book's gnarly definition as the answer (if the book's own wording IS the best plain statement, quote it via the anchor and use it — that is the good case, not a violation); define jargon with jargon or with the term's own root ("hemolysis is lysis of blood" fails plain; "the rupture of red blood cells" passes); blend near-neighbors into one comfortable gloss ("causes disease and is severe" is neither *pathogenic* nor *virulent*); two-way by reflex; skip a purple mark as "too easy" — triage is integrity-only (rule 28).
+
+**Examples:**
+```
+Text: <b>Diaphoresis</b> is {{c1::heavy, drenching sweating}}.
+Back Extra: Ex: "The patient was pale and <b>diaphoretic</b>, with a rapid, thready pulse."
+Parts: dia- (through) + phor- (carry) — sweat carried out through the skin.
+Distinguish: diaphoresis is the abnormal SIGN; perspiration is the normal process.
+```
+```
+Text: A <b>chromosome</b> is {{c1::one packaged unit of a cell's DNA}}.
+Back Extra: Ex: "Each human somatic cell carries 46 <b>chromosomes</b>."
+Distinguish: chromatin is DNA in its loose working form; a chromosome is the condensed, countable package.
+Formal: "a threadlike structure of nucleic acids and protein that carries genetic information" — the exam-register phrasing.
 ```
 
 ---

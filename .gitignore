@@ -16,3 +16,8 @@ __pycache__/
 #   .venv/bin/python scripts/build_figure_index.py --source <id> --segment <N>
 # figure_index.json IS tracked (small, and it carries the descriptions/terms).
 work/*/figures/
+
+# Whole-book pdftotext cache for the lexicon evidence finder — large, regenerated on
+# demand by lexicon.py --find (mtime-keyed). lexicon_evidence.json IS tracked (small,
+# and it is the anchor record the gate verifies).
+work/_fulltext/

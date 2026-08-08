@@ -12,6 +12,9 @@ Parker's color convention (normalized 2026-07-29): YELLOW = memorize this, every
 else (blue especially) = ordinary reading emphasis, deliberately ignored. Both palette
 yellows are matched by default — #ffd400 is Zotero's own, #facd5a comes from externally
 annotated PDFs — and a source may override `colors` when its book uses a different scheme.
+PURPLE (`lexicon_colors`, default #a28ae5/#c885da) is the second lane: "define this word
+for me" — emitted as `kind: "lexicon"` with a cleaned `term` + dedup `term_key`, and
+carded per card-rules #28 / card-recipes §4b rather than the yellow contract.
 
 READ-ONLY against Zotero: it copies the live DB and reads the copy in immutable mode; it
 never touches the original DB or the PDF.
@@ -25,11 +28,21 @@ Usage:
 import argparse, json, os, re, shutil, subprocess, sys, unicodedata
 
 import sources as S
+import lexicon as L
 
 # Zotero annotation types. "Card me" is decided by COLOR, not by markup style: Parker
 # HIGHLIGHTS in the EMT textbook but UNDERLINES on lecture slides, and both mean exactly
 # the same thing to him. Reading only type=1 is why a lecture deck would come back empty
 # (Isaacs Ch17: six yellow underlines, zero highlights).
+#
+# COLOR picks the LANE, type picks the treatment within it (2026-08-08):
+#   yellow  -> the card lane ("this matters; make a card")
+#   purple  -> the LEXICON lane ("I don't know this word; define it plainly") — his
+#              habit is a purple UNDERLINE, which stacks cleanly under a yellow
+#              highlight; a purple highlight means exactly the same thing.
+# Purple is only defined for TEXT marks. A purple area-selection or standalone note has
+# no agreed meaning yet, so it is EMITTED with kind "unsupported_purple" and surfaced at
+# hand-off — never silently dropped (the no-silent-discard invariant).
 TEXT_TYPES = (1, 5)    # highlight, underline -> a grounded span of source text
 IMAGE_TYPES = (3,)     # area selection      -> a figure/diagram to crop and card
 NOTE_TYPES = (6,)      # standalone note     -> Parker's own words, no source span
@@ -255,6 +268,7 @@ def main():
                  f"(Is the attachment stored locally in Zotero, or is it a linked file?)")
     assert_pdf(pdf, src["id"])
     wanted = S.colors(src)
+    lex_wanted = [c for c in S.lexicon_colors(src) if c not in wanted]
     noun = S.segment_noun(src)
     has_map = S.load_segments(src) is not None
 
@@ -283,12 +297,13 @@ def main():
     try:
         cur = con.cursor()
         types = TEXT_TYPES + IMAGE_TYPES + NOTE_TYPES
+        all_colors = wanted + lex_wanted
         cur.execute(
             "SELECT pageLabel, position, text, comment, color, sortIndex, type "
             f"FROM itemAnnotations WHERE parentItemID=? "
             f"AND type IN ({','.join('?' * len(types))}) "
-            f"AND color IN ({','.join('?' * len(wanted))}) ORDER BY sortIndex",
-            (item_id, *types, *wanted))
+            f"AND color IN ({','.join('?' * len(all_colors))}) ORDER BY sortIndex",
+            (item_id, *types, *all_colors))
         rows = cur.fetchall()
     finally:
         con.close()
@@ -305,6 +320,21 @@ def main():
 
         kind = KIND.get(atype, "text")
         note = clean_comment(comment)
+        is_lex = color in lex_wanted
+
+        # Purple means "define this word" ONLY on a text mark (highlight/underline).
+        # A purple area-selection or standalone note has no defined semantic yet, so
+        # surface it verbatim for Parker rather than guessing — or dropping it silently.
+        if is_lex and kind != "text":
+            items.append({
+                "source": src["id"], "kind": "unsupported_purple", "purple_kind": kind,
+                "segment": S.segment_of_page(src, page_label)[0],
+                "segment_name": S.segment_of_page(src, page_label)[1],
+                "page": page_label, "color": color, "highlight": note or "",
+                "context": "", "grounding": "UNSUPPORTED",
+                "list_lead_in": False, "user_comment": note, "sort": sort,
+            })
+            continue
 
         # An AREA selection has no source text — the fact lives in the figure. Record the
         # crop box so render_page.py can cut it out, and let the card-writer author from
@@ -344,7 +374,9 @@ def main():
         # table's body routinely starts on the following page — EMT TABLE 6-3's caption
         # is on p548 and its 1,293-character body is on p549, which was never fetched.
         next_chars = None
-        want = pages_forward(text)
+        # A purple mark is a WORD, never a list lead-in or a caption pointer, so it
+        # takes the plain context window and no forward pages.
+        want = 0 if is_lex else pages_forward(text)
         if want:
             try:
                 base = int(re.sub(r"[^0-9]", "", str(page_label)))
@@ -367,6 +399,40 @@ def main():
 
         status, ctx = locate_context(text, page_src)
         seg_n, seg_name = S.segment_of_page(src, page_label)
+
+        # ---- the LEXICON lane: a purple word -> a plain-language definition card.
+        # The context is kept for the SENSE CHECK and the card's `Ex:` line, NOT as the
+        # definition's grounding — by definition the word appears here *undefined*; its
+        # anchor comes from lexicon.py --find (glossary / in_source / external).
+        if is_lex:
+            term = L.clean_term(text)
+            words = term.split()
+            # Hygiene flags, both surfaced at hand-off (integrity triage only — the
+            # purple mark itself is never vetoed):
+            #   multiword — >4 words is almost certainly a drag slip, not a term;
+            #   midword   — an edge falls inside a word ("iaphoresis"), so the term is
+            #               probably clipped; check the page before carding it.
+            midword = False
+            pn = norm(page_src)
+            pos = pn.lower().find(norm(text).lower())
+            if pos >= 0:
+                before = pn[pos - 1: pos]
+                after = pn[pos + len(norm(text)): pos + len(norm(text)) + 1]
+                midword = bool((before.isalpha()) or (after.isalpha()))
+            items.append({
+                "source": src["id"], "kind": "lexicon",
+                "segment": seg_n, "segment_name": seg_name,
+                "page": page_label, "color": color,
+                "highlight": norm(text), "context": ctx,
+                "term_raw": norm(text), "term": term, "term_key": L.term_key(term),
+                "flags": {"multiword": len(words) > 4, "midword": midword},
+                "grounding": status, "content": "FULL",
+                "page_text_chars": len(page_cache.get(page_label, "")),
+                "next_page_text_chars": None,
+                "list_lead_in": False, "user_comment": note, "sort": sort,
+            })
+            continue
+
         items.append({
             "source": src["id"],
             "kind": "text",
@@ -419,14 +485,17 @@ def main():
     txt = [i for i in items if i["kind"] == "text"]
     imgs = [i for i in items if i["kind"] == "image"]
     notes = [i for i in items if i["kind"] == "note"]
+    lex = [i for i in items if i["kind"] == "lexicon"]
+    unsup = [i for i in items if i["kind"] == "unsupported_purple"]
     found = sum(1 for i in txt if i["grounding"] in ("EXACT", "PARTIAL"))
     exact = sum(1 for i in txt if i["grounding"] == "EXACT")
     missing = [i["page"] for i in txt if i["grounding"] == "NOT_FOUND"]
     comments = [i for i in items if i["user_comment"]]
     print(f"{src['label']}")
     print(f"  scope:  {scope}")
-    print(f"  colors: {', '.join(wanted)}")
-    print(f"  {len(items)} marked item(s): {len(txt)} text, {len(imgs)} figure, {len(notes)} standalone note")
+    print(f"  colors: {', '.join(wanted)}  |  lexicon (purple): {', '.join(lex_wanted) or '(none)'}")
+    print(f"  {len(items)} marked item(s): {len(txt)} text, {len(imgs)} figure, "
+          f"{len(notes)} standalone note, {len(lex)} lexicon (purple)")
     if txt:
         print(f"  text grounded {found}/{len(txt)} ({exact} EXACT)")
     if missing:
@@ -456,6 +525,23 @@ def main():
               f"Ground them before carding, or flag needs_human_check:")
         for i in notes:
             print(f"     p{i['page']}: {i['highlight'][:90]}")
+    if lex:
+        junk = [i for i in lex if i["flags"]["multiword"] or i["flags"]["midword"]]
+        print(f"  {len(lex)} lexicon mark(s) — purple = 'define this word plainly' (card-rules #28).")
+        print(f"     Next: python3 scripts/lexicon.py --find {src['id']} --terms-from {out}")
+        print(f"           python3 scripts/lexicon.py --dedup {out}    (Anki must be open)")
+        for i in lex:
+            fl = []
+            if i["flags"]["multiword"]:
+                fl.append("MULTIWORD — probable drag slip")
+            if i["flags"]["midword"]:
+                fl.append("MIDWORD — edge clips a word")
+            print(f"     p{i['page']}: {i['term']}" + (f"   *** {'; '.join(fl)}" if fl else ""))
+    if unsup:
+        print(f"  *** {len(unsup)} PURPLE mark(s) of a kind with no defined meaning "
+              f"(area selection / standalone note) — ask Parker what he wants; never guess:")
+        for i in unsup:
+            print(f"     p{i['page']}: purple {i['purple_kind']}")
     if comments:
         print(f"  {len(comments)} margin comment(s) — Parker talking to you. Obey them; answer any question at hand-off:")
         for c in comments:

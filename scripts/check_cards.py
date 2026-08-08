@@ -1044,6 +1044,8 @@ def grounding_check(cards, highlights, require_provenance=False, source_root=Non
         return hard, warn
 
     for i, c in enumerate(cards):
+        if c.get("kind") == "lexicon":
+            continue  # the purple lane has its own contract — lexicon_check (R35–R37)
         idxs = c.get("from_idx")
         if not idxs:
             msg = f"#{i}: no `from_idx` — grounding unverifiable in a file that otherwise has provenance"
@@ -1101,6 +1103,124 @@ def grounding_check(cards, highlights, require_provenance=False, source_root=Non
                 warn.append(
                     f"#{i}: answer {ans[:48]!r} is only {support:.0%} supported by its cited "
                     f"context — verify it is a paraphrase and not an addition (R13)")
+    return hard, warn
+
+
+def _lexicon_evidence(source_root):
+    """work/<source>/lexicon_evidence.json, produced by lexicon.py --find. {} if absent."""
+    if not source_root:
+        return {}
+    p = os.path.join(source_root, "lexicon_evidence.json")
+    if not os.path.exists(p):
+        return {}
+    try:
+        return json.load(open(p)).get("terms", {}) or {}
+    except json.JSONDecodeError:
+        return {}
+
+
+def lexicon_check(cards, highlights, source_root=None):
+    """(hard, warn) — the PURPLE lane's own grounding contract (card-rules #28).
+
+    A lexicon card's answer is an AUTHORED plain-language definition (Parker: the book's
+    formal definition often overcomplicates the thing worth knowing), so R13's
+    word-overlap test is the wrong instrument — the source is precisely where the word
+    appears UNdefined. What can be mechanical, is:
+
+      * the lane cannot be SELF-asserted: a card's `kind` must agree with the kind of the
+        marks it cites, and the marks' kind was set by the EXTRACTOR from the color. A
+        yellow-mark card claiming `kind: lexicon` would be dodging R13's word-overlap
+        block; a pure-purple card claiming `kind: text` would smuggle an authored
+        definition past this contract. Both HARD (R36).
+      * a claimed glossary/in_source anchor must RESOLVE to mechanically-extracted
+        evidence (lexicon_evidence.json — quote + page written by lexicon.py, never
+        typed by the drafter). Same lesson the visual exemption learned (R33 → R37).
+      * an `external` anchor (the book never defines the word) must arrive with
+        `needs_human_check` — verify_report.py derives it; the gate enforces the two
+        scripts agree, so an authored definition can never land unflagged (R35).
+    """
+    hard, warn = [], []
+    if highlights is None:
+        return hard, warn
+    evidence = _lexicon_evidence(source_root)
+
+    def mark_kinds(idxs):
+        return [highlights[j].get("kind") for j in idxs
+                if isinstance(j, int) and 0 <= j < len(highlights)]
+
+    for i, c in enumerate(cards):
+        idxs = c.get("from_idx") or []
+        kinds = mark_kinds(idxs)
+        if c.get("kind") != "lexicon":
+            if kinds and all(k == "lexicon" for k in kinds):
+                hard.append(f"#{i}: cites ONLY purple lexicon mark(s) {idxs} but is not "
+                            f"kind: lexicon — a normal card may not be built purely from "
+                            f"purple marks (card-rules #28, R36). A fold-in must cite at "
+                            f"least one yellow mark.")
+            continue
+
+        # ---- kind: lexicon from here on
+        if not idxs:
+            hard.append(f"#{i}: lexicon card with no `from_idx` — the purple lane always "
+                        f"has provenance (card-rules #28)")
+            continue
+        if any(k != "lexicon" for k in kinds):
+            hard.append(f"#{i}: kind: lexicon but cites non-purple mark(s) {idxs} — the "
+                        f"lane is set by the extractor's color, never by the drafter "
+                        f"(card-rules #28, R36)")
+            continue
+        lex = c.get("lexicon") or {}
+        term, key = lex.get("term"), lex.get("term_key")
+        method = (lex.get("anchor") or {}).get("method")
+        if not (term and key and method):
+            hard.append(f"#{i}: lexicon card missing its contract block — needs "
+                        f"lexicon.term, lexicon.term_key, lexicon.anchor.method "
+                        f"(card-rules #28)")
+            continue
+        cited_keys = {highlights[j].get("term_key") for j in idxs
+                      if isinstance(j, int) and 0 <= j < len(highlights)}
+        if key not in cited_keys:
+            hard.append(f"#{i}: lexicon.term_key {key!r} does not match the cited "
+                        f"mark's term_key {sorted(k for k in cited_keys if k)} — "
+                        f"card/mark drift (card-rules #28)")
+            continue
+        if method in ("glossary", "in_source"):
+            ev = evidence.get(key)
+            if not (ev and ev.get("quote") and ev.get("page")):
+                hard.append(f"#{i}: anchor claims {method!r} but lexicon_evidence.json "
+                            f"has no resolving entry for {key!r} — evidence must be "
+                            f"mechanically extracted by lexicon.py --find, never "
+                            f"asserted (card-rules #28, R37)")
+            elif ev.get("method") != method:
+                warn.append(f"#{i}: anchor says {method!r} but the evidence entry says "
+                            f"{ev.get('method')!r} — use the evidence's own tier")
+        elif method == "external":
+            if not c.get("needs_human_check"):
+                hard.append(f"#{i}: external-anchored definition without "
+                            f"needs_human_check — an authored definition the source "
+                            f"cannot confirm must reach Parker's eyes; run "
+                            f"verify_report.py before the gate (card-rules #28, R35)")
+            if evidence.get(key):
+                warn.append(f"#{i}: anchor says external but an in-source definition "
+                            f"EXISTS for {key!r} (p{evidence[key].get('page')}) — anchor "
+                            f"to it, or record why it does not fit this sense")
+        else:
+            hard.append(f"#{i}: unknown lexicon anchor method {method!r} — must be "
+                        f"glossary, in_source, or external (card-rules #28)")
+
+    # In-batch duplicate keys: the consolidation stage must merge same-sense repeats or
+    # sense-split them with a visible domain cue — never ship both blind (card-rules #28).
+    seen = {}
+    for i, c in enumerate(cards):
+        k = (c.get("lexicon") or {}).get("term_key")
+        if not k:
+            continue
+        if k in seen:
+            warn.append(f"#{seen[k]} & #{i}: same lexicon term_key {k!r} in one batch — "
+                        f"merge if same sense, or add a domain cue to each if the senses "
+                        f"differ (card-rules #28)")
+        else:
+            seen[k] = i
     return hard, warn
 
 
@@ -1196,11 +1316,17 @@ def main():
                 hard.append("--require-provenance was set but no highlights file could be resolved")
         else:
             _sid = next((c.get('source') for c in cards if c.get('source')), None)
+            _root = os.path.join(S.SKILL, 'work', _sid) if _sid else None
             gh, gw = grounding_check(
-                cards, hl, args.require_provenance,
-                source_root=os.path.join(S.SKILL, 'work', _sid) if _sid else None)
+                cards, hl, args.require_provenance, source_root=_root)
             hard += gh
             warn += gw
+            # The purple lane's own contract (card-rules #28, R35–R37) — runs beside
+            # R13, never instead of it: lexicon cards skip word-overlap and answer to
+            # this; every other card must NOT be built purely from purple marks.
+            lh, lw = lexicon_check(cards, hl, source_root=_root)
+            hard += lh
+            warn += lw
             ground_note = f"  (grounding checked against {os.path.basename(hlpath)})"
 
     # in-batch near-duplicates.

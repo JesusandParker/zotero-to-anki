@@ -6,9 +6,13 @@ cloze cards — a textbook chapter, an Arabic unit, a lecture PDF, a paper.
 Built 2026-06-29 as an EMT-only card maker to replace an old ChatGPT "v60" pipeline;
 generalized to any Zotero source on 2026-07-29 once the card craft had converged.
 
-**Yellow = "make a card."** Every other color is ordinary reading emphasis and is ignored by
-design. Color decides, not markup style: highlighting in a textbook and *underlining* on
-lecture slides mean the same thing, and an area-selected figure becomes an image card.
+**Yellow = "make a card." Purple = "define this word"** (2026-08-08: the lexicon lane —
+an unknown word met while reading becomes ONE plain-language definition card in that
+chapter's deck, deduped across the whole collection by a term-key ledger; card-rules #28,
+recipes §4b). Every other color is ordinary reading emphasis and is ignored by design.
+Color decides, not markup style: highlighting in a textbook and *underlining* on lecture
+slides mean the same thing (Parker's purple habit is the underline), and an area-selected
+figure becomes an image card.
 
 ## How to use it
 
@@ -55,7 +59,7 @@ one-time setup; after that you just point at it. See `reference/sources.md`.
 - `reference/parker-preferences.md` — Parker's living tastes; overrides the rules on conflict.
 
 **The reliability harness** (why quality doesn't regress)
-- `reference/regression-cases.md` — R1–R30, every flaw ever caught, with the BAD card it must
+- `reference/regression-cases.md` — R1–R37, every flaw ever caught, with the BAD card it must
   catch *and* the GOOD card it must not over-flag.
 - `scripts/test_regressions.py` — makes that library **executable**. Run after any rule or
   checker change.
@@ -73,6 +77,9 @@ one-time setup; after that you just point at it. See `reference/sources.md`.
 - `scripts/sources.py` — the registry resolver (source → PDF, colors, segments, decks).
 - `scripts/add_source.py` — register a new source; search Zotero, dump a TOC, build a map.
 - `scripts/extract_highlights.py` — marks → grounded JSON (read-only on Zotero).
+- `scripts/lexicon.py` — the purple lane's toolbox: term keys, the in-source definition
+  finder (`--find`, writes the gate's evidence file), and the dedup ledger with its
+  live-Anki liveness check (`--dedup`).
 - `scripts/render_page.py` — render a page, or crop exactly to an area selection.
 - `scripts/anki_write.py` — safe, one-at-a-time write into the source's staging deck.
 - `scripts/feedback_harvest.py` — collect and clear the hidden `Card Feedback` complaints.
