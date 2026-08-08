@@ -61,7 +61,7 @@
   "verified_by": "agent, read from page text this run",
   "needs_human_check": false,
   "visual_source": null,
-  "image": "figures/study/FIGURE_9_1.jpg",
+  "image": "figures/study/FIGURE_9_1_v2.png",
   "image_side": "back"
  },
  {
@@ -78,7 +78,7 @@
   "verified_by": null,
   "needs_human_check": false,
   "visual_source": null,
-  "image": "figures/study/FIGURE_9_2.jpg",
+  "image": "figures/study/FIGURE_9_2_v2.png",
   "image_side": "back"
  },
  {
@@ -96,7 +96,7 @@
   "verified_by": null,
   "needs_human_check": false,
   "visual_source": null,
-  "image": "figures/study/FIGURE_9_2.jpg",
+  "image": "figures/study/FIGURE_9_2_v2.png",
   "image_side": "back"
  },
  {
@@ -114,7 +114,7 @@
   "verified_by": null,
   "needs_human_check": false,
   "visual_source": null,
-  "image": "figures/study/FIGURE_9_2.jpg",
+  "image": "figures/study/FIGURE_9_2_v2.png",
   "image_side": "back"
  },
  {
@@ -142,7 +142,7 @@
    ],
    "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
   },
-  "image": "figures/study/FIGURE_9_3.jpg",
+  "image": "figures/study/FIGURE_9_3_v2.png",
   "image_side": "back"
  },
  {
@@ -170,7 +170,7 @@
    ],
    "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
   },
-  "image": "figures/study/FIGURE_9_3.jpg",
+  "image": "figures/study/FIGURE_9_3_v2.png",
   "image_side": "back"
  },
  {
@@ -199,7 +199,7 @@
    ],
    "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
   },
-  "image": "figures/study/FIGURE_9_3.jpg",
+  "image": "figures/study/FIGURE_9_3_v2.png",
   "image_side": "back"
  },
  {
@@ -227,7 +227,7 @@
    ],
    "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
   },
-  "image": "figures/study/FIGURE_9_3.jpg",
+  "image": "figures/study/FIGURE_9_3_v2.png",
   "image_side": "back"
  },
  {
@@ -245,7 +245,7 @@
   "verified_by": null,
   "needs_human_check": false,
   "visual_source": null,
-  "image": "figures/study/FIGURE_9_3.jpg",
+  "image": "figures/study/FIGURE_9_3_v2.png",
   "image_side": "back"
  },
  {
@@ -273,7 +273,7 @@
    ],
    "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
   },
-  "image": "figures/study/FIGURE_9_4.jpg",
+  "image": "figures/study/FIGURE_9_4_v2.png",
   "image_side": "back"
  },
  {
@@ -290,7 +290,7 @@
   "verified_by": "agent, read from page text this run",
   "needs_human_check": false,
   "visual_source": null,
-  "image": "figures/study/FIGURE_9_4.jpg",
+  "image": "figures/study/FIGURE_9_4_v2.png",
   "image_side": "back"
  },
  {
@@ -318,7 +318,7 @@
    ],
    "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
   },
-  "image": "figures/study/FIGURE_9_4.jpg",
+  "image": "figures/study/FIGURE_9_4_v2.png",
   "image_side": "back"
  },
  {
@@ -610,7 +610,7 @@
   "verified_by": null,
   "needs_human_check": false,
   "visual_source": null,
-  "image": "figures/study/FIGURE_9_3.jpg",
+  "image": "figures/study/FIGURE_9_3_v2.png",
   "kind": "lexicon",
   "lexicon": {
    "term": "Bacteriophage T2",
@@ -647,7 +647,7 @@
    ],
    "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
   },
-  "image": "figures/study/FIGURE_9_4.jpg",
+  "image": "figures/study/FIGURE_9_4_v2.png",
   "kind": "lexicon",
   "lexicon": {
    "term": "tobacco mosaic virus (TMV)",

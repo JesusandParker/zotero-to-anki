@@ -135,3 +135,11 @@ and there were two independent causes:
 22. **Content-completeness check for table crops:** compare the crop's visible row count to
     the source table before storing. A crop can look tidy and still be missing data — that
     was the worst defect of the three and the only one that would have taught wrong material.
+23. **R43 — media filename case.** A post-fix audit (refs vs `getMediaFilesNames`) found 5
+    letter videos referenced with capitals while the collection held them lowercase —
+    silent on macOS, broken audio on iPhone, and it hit exactly the emphatic letters.
+    All media + all references normalized to lowercase. **Every run must end with a media
+    audit: every reference resolves byte-for-byte, and no filename contains uppercase.**
+24. **Orphan check**: `consonants2_v2.png` was staged but attached to nothing (the second
+    half of the consonant chart). Now on the transliteration card. Rule: staged media with
+    zero references is either a missed attachment or wasted bytes — surface it, don't ship it.

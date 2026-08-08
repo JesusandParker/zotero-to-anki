@@ -537,3 +537,18 @@ because the box was too short). Percentage eyeballing cannot find an artwork's t
 - GOOD: auto-trimmed output reviewed on a contact sheet before it is stored as media.
 - Acceptance is VISUAL and mandatory: build the contact sheet, look at every crop, and
   re-cut any that shows sliced text — "content is present" is not the standard.
+
+## R43 — Media filename CASE breaks on the phone but not on the Mac
+Arabic Unit 1, 2026-08-08: five letter videos were referenced as `arabic_pron_14_Saad.mp4`
+while `collection.media` actually held `arabic_pron_14_saad.mp4`. macOS's case-insensitive
+filesystem plays them anyway, so the defect is invisible on the machine that made the cards
+— but Anki's media DB, AnkiWeb sync, and case-sensitive mobile filesystems treat the two
+names as different files, so the audio is simply missing on the phone. Worst affected were
+the emphatics (Haa, Saad, Daad, Taa, DHaa), i.e. the sounds most worth hearing.
+- BAD (must catch): any `[sound:…]` / `<img src=…>` reference whose filename is not present
+  in `getMediaFilesNames` **byte-for-byte**, and any media filename containing uppercase.
+- GOOD: all pipeline media filenames normalized to lowercase at staging time; references
+  generated from the same normalized string.
+- Mechanization: a post-stage media audit — set(refs) − set(collection) must be empty, and
+  no name may differ from its own `.lower()`. Cheap, deterministic, catches an entire class
+  that a Mac-only visual check never will.
