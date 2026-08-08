@@ -138,7 +138,7 @@ for glyph, name, sound, video, fam in LETTERS:
         lines.append(f"Distinguish: {f_note}.")
     back = "<br><br>".join(lines)
     add(text, back, "A_letters", [1,12,15] + ([13] if glyph in "اوي" else []),
-        image="src_alphabet_chart.png",
+        image="src_alphabet_chart_v2.png",
         verified_against="p16 chart + p25/p26 sound charts (rendered) + AB3e official video "+video,
         verified_by="glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename",
         visual_source="work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png")
@@ -156,7 +156,7 @@ for shown, name, sound in SYMBOLS:
     if shown.startswith("ب"):
         back = "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark."
     add(text, back, "B_symbols", [2] + ([13,15] if name in ("fatHa","Damma","kasra") else []),
-        image="src_symbols_chart.png",
+        image="src_symbols_chart_v2.png",
         verified_against="p17 symbols chart (rendered)" + ("; p26 vowel chart" if name in ("fatHa","Damma","kasra") else "") + ("; p26 consonant chart (glottal stop)" if name=="hamza" else ""),
         verified_by="symbol/name transcribed from page render 2026-08-08",
         visual_source="work/arabic/page_17.png")
@@ -166,7 +166,7 @@ add("One consonant is, for historical reasons, NOT in the 28-letter alphabet cha
     "{{c1::hamza}} — it appears in the extra-symbols chart instead.",
     "Pitfall: easy exam trap — the chart has 28 letters, but Arabic has this 29th consonant "
     "living among the symbols.<br><br>Cue: its sound is the glottal stop in <i>uh-oh!</i>",
-    "B_symbols", [2], image="src_symbols_chart.png",
+    "B_symbols", [2], image="src_symbols_chart_v2.png",
     verified_against="p17 prose (text layer) + p26 consonant chart",
     visual_source="work/arabic/page_17.png")
 
@@ -182,7 +182,7 @@ for arabic, meaning, translit, a_formal, a_masri, a_shaami, extra in VOCAB:
     if dial: lines.append("Ex: " + " · ".join(dial))
     if extra: lines.append(f"Distinguish: {extra}")
     add(text, "<br><br>".join(lines), "C_vocab", [23],
-        image="src_vocab_table.png",
+        image="src_vocab_table_v2.png",
         verified_against="Lingco lesson 8174 JSON (publisher Unicode + AB3e official audio, snapshot lingco_unit1_vocab.json)",
         verified_by="Arabic text taken verbatim from Lingco lesson JSON 2026-08-08 (NOT read off the scan); audio mapping cross-confirmed by publisher origin filenames (U1VE/U1VS/U1VSt)",
         visual_source="work/arabic/page_29.png")
@@ -219,7 +219,7 @@ add("The Arabic writing system is regularly {{c1::phonetic}}: a one-to-one corre
 add("In this book's transliteration, emphatic sounds are marked by {{c1::UPPERCASE letters (S vs s)}}, "
     "and long vowels by {{c1::doubled vowels (aa, ii, uu)}}.",
     "Ex: <i>S</i> = emphatic ص while <i>s</i> = plain س; <i>aa</i> is held longer than <i>a</i>.",
-    "D_system", [12], image="src_consonants1.png",
+    "D_system", [12], image="src_consonants1_v2.png",
     verified_against="p25 text layer + chart render")
 add("Transliteration is used only for words containing {{c1::letters you have not yet learned}} — "
     "and it does not replace {{c1::listening to the audio}}.",
@@ -228,7 +228,7 @@ add("Transliteration is used only for words containing {{c1::letters you have no
 add("Formal Arabic has only {{c1::three::how many}} vowel qualities — {{c1::a, i, u}} — each short or long; "
     "spoken Arabic adds {{c2::e and o}}.",
     "Cue: vowel length distinguishes emphatic consonants from their plain counterparts — listen for it.",
-    "D_system", [13], numeric=True, image="src_vowels.png",
+    "D_system", [13], numeric=True, image="src_vowels_v2.png",
     verified_against="p26 text layer + vowel chart render")
 add("Levantine pronunciation sometimes uses a very short, unstressed {{c1::schwa}} sound (ə).",
     "Ex: the <i>e</i> in <i>listen</i>.",
@@ -272,7 +272,7 @@ for country, capital in COUNTRIES:
         text = f"Arab country: <b>{country}</b> — capital {{{{c1::{capital}}}}}."
     add(text,
         "",
-        "G_countries", [16], image="src_arab_map.png",
+        "G_countries", [16], image="src_arab_map_v2.png",
         verified_against="p27 map legend (rendered)",
         verified_by="country/capital pairs transcribed from map legend render 2026-08-08",
         visual_source="work/arabic/page_27.png")

@@ -510,3 +510,30 @@ no leading/trailing neutrals (why "Name: raa" hid the bug and my per-line test p
 - The deeper rule: **render-review is part of verification** — storage checks (notesInfo)
   cannot see direction, duplicate play buttons, or crop quality. Sample every block through
   the real template + CSS and LOOK before hand-off.
+
+## R41 — Replacing media bytes under the SAME filename leaves the old image on screen
+Arabic Unit 1, 2026-08-08: crops were re-cut and re-stored via AnkiConnect
+`deleteMediaFile` + `storeMediaFile` under their original names. Checksums on disk
+confirmed the NEW bytes were in `collection.media`, yet Parker — after a full sync —
+still saw the OLD crops. Anki's webview caches media by filename, so same-name
+replacement can serve a stale image indefinitely (and propagates that staleness to
+synced devices).
+- BAD (must catch): a corrective re-store that reuses an existing media filename.
+- GOOD: write the corrected asset under a NEW versioned name (`…_v2.png`), repoint every
+  note's `<img src>`, then delete the stale file so nothing can serve it.
+- Verification that actually proves it: re-render a real card (cardsInfo answer HTML +
+  model CSS, images rewritten to `file://` paths into collection.media) and LOOK.
+  Checksum-on-disk is NOT proof the reviewer will show it.
+
+## R42 — Hand-picked crop boxes are a defect source; rough box + auto-trim is the rule
+Three successive hand-tuned percentage boxes each still shipped a defect (sliced caption,
+dead whitespace, and — worst — `consonants2` silently LOSING its last two table rows
+because the box was too short). Percentage eyeballing cannot find an artwork's true edge.
+- The rule (`work/arabic/make_crops.py`): (1) generous rough box that contains the target
+  and no neighbour, (2) `-fuzz 12% -trim` to let the image find its own ink bounds,
+  (3) one uniform white mat, (4) versioned filename per R41.
+- BAD (must catch): a crop whose content is clipped relative to the source table's row
+  count, or that carries sliced text from a neighbouring block.
+- GOOD: auto-trimmed output reviewed on a contact sheet before it is stored as media.
+- Acceptance is VISUAL and mandatory: build the contact sheet, look at every crop, and
+  re-cut any that shows sliced text — "content is present" is not the standard.

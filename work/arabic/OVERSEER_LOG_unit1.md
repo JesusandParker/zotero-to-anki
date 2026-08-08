@@ -114,3 +114,24 @@ Pipeline changes queued for canon (in addition to the morning list):
     (mechanized in the future language-profile checks alongside R38/R39).
 18. **Media single-home rule** (Audio field vs Back Extra), see #2 above.
 19. **Function-word frame rule** for language vocab, see #5 above.
+
+## SECOND REMEDIATION — "still cropped weird after syncing" (same day)
+
+Parker re-checked a fully synced Anki and the bad crops were STILL there. He was right again,
+and there were two independent causes:
+
+20. **R41 — same-filename media replacement is invisible.** My first fix wrote correct bytes
+    into `collection.media` (verified by md5) but reused the original filenames. Anki's
+    webview caches media by name, so the stale images kept rendering even post-sync. Fix:
+    `_v2` filenames + repoint all 74 image-bearing notes + delete the stale files. **Never
+    "fix" a media asset in place — always version the name.**
+21. **R42 — hand-picked crop boxes were the real defect source.** Three rounds of eyeballed
+    percentage boxes each still shipped something: sliced caption (consonants1), dead
+    whitespace (consonants2), sliced sentence (vowels) — and critically, one box was short
+    enough to silently DROP the last two rows of the consonant table (the glottal-stop and
+    *m* rows). Replaced with a deterministic rule in `make_crops.py`: rough box → `-fuzz
+    12% -trim` (the image finds its own bounds) → uniform mat → versioned name. Rough boxes
+    now only need to avoid neighbours, not be pixel-accurate.
+22. **Content-completeness check for table crops:** compare the crop's visible row count to
+    the source table before storing. A crop can look tidy and still be missing data — that
+    was the worst defect of the three and the only one that would have taught wrong material.
