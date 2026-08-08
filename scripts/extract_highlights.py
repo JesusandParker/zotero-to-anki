@@ -458,7 +458,7 @@ def main():
             # second question, and the card-writer must read BOTH — see below.
             "grounding": status,
             "content": "CAPTION_ONLY" if is_caption_title(text) else "FULL",
-            "page_text_chars": len(page_cache.get(page_label, "")),
+            "page_text_chars": len(page_cache.get(phys, "")),
             "next_page_text_chars": next_chars,
             # true = this highlight introduces an enumerated list; the writer/editor MUST
             # count the list against the full page (not just this context) and test every
