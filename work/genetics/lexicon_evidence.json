@@ -1,0 +1,127 @@
+{
+ "source": "genetics",
+ "produced_by": "lexicon.py",
+ "terms": {
+  "chromosom": {
+   "term": "Chromosomes",
+   "method": "glossary",
+   "page": "609",
+   "quote": "Chromosomes: Darkly staining nucleoprotein bodies that are observed in cells during division. Each chromosome carries a linear array of genes.",
+   "occurrences": 336
+  },
+  "nucl_acid": {
+   "term": "nucleic acids",
+   "method": "glossary",
+   "page": "619",
+   "quote": "Nucleic acid: A macromolecule composed of phosphoric acid, pentose sugar, and organic bases; DNA and RNA.",
+   "headword": "Nucleic acid",
+   "occurrences": 15
+  },
+  "protein": {
+   "term": "proteins",
+   "method": "glossary",
+   "page": "622",
+   "quote": "Protein: A macromolecule composed of one to several polypeptides. Each polypeptide consists of a chain of amino acids linked together by peptide bonds.",
+   "headword": "Protein",
+   "occurrences": 255
+  },
+  "type_iiis": {
+   "term": "Type IIIS",
+   "method": "in_source",
+   "page": "212",
+   "quote": "Type IIIS (◾ Figure 9.2)",
+   "occurrences": 5
+  },
+  "type_iir": {
+   "term": "Type IIR",
+   "method": "in_source",
+   "page": "194",
+   "quote": "Type IIR is then degraded",
+   "occurrences": 5
+  },
+  "in_vitr": {
+   "term": "in vitro",
+   "method": "in_source",
+   "page": "469",
+   "quote": "in vitro is introduced into the genome 5' 3' copy 1 copy 2 3' 5'",
+   "occurrences": 53
+  },
+  "deoxyribonucleas_dnas": {
+   "term": "deoxyribonuclease (DNase",
+   "method": "glossary",
+   "page": "611",
+   "quote": "Deoxyribonuclease (DNase): Any enzyme that hydrolyzes DNA.",
+   "occurrences": 5
+  },
+  "deoxyribonucl_acid_dna": {
+   "term": "deoxyribonucleic acid (DNA",
+   "method": "glossary",
+   "page": "611",
+   "quote": "DNA: Deoxyribonucleic acid; the information-carrying genetic material that comprises the genes. DNA is a macromolecule composed of a long chain of deoxyribonucleotides joined by phosphodiester linkages. Each deoxyribonucleotide contains a phosphate group, the five-carbon sugar 2-deoxyribose, and a nitrog",
+   "headword": "DNA",
+   "occurrences": 3
+  },
+  "ribonucl_acid_rna": {
+   "term": "ribonucleic acid (RNA",
+   "method": "glossary",
+   "page": "623",
+   "quote": "Ribonucleic acid: See RNA.",
+   "headword": "Ribonucleic acid",
+   "occurrences": 2
+  },
+  "ribonucleas_rnas": {
+   "term": "ribonuclease (RNase",
+   "method": "glossary",
+   "page": "623",
+   "quote": "Ribonuclease (RNase): Any enzyme that hydrolyzes RNA.",
+   "occurrences": 4
+  },
+  "proteas": {
+   "term": "protease",
+   "method": "glossary",
+   "page": "622",
+   "quote": "Protease: Any enzyme that hydrolyzes proteins.",
+   "occurrences": 10
+  },
+  "bacteriophag_t2": {
+   "term": "Bacteriophage T2",
+   "method": "glossary",
+   "page": "607",
+   "quote": "Bacteriophage: A virus that attacks bacteria. Such viruses are called bacteriophages because they destroy their bacterial hosts.",
+   "headword": "Bacteriophage",
+   "occurrences": 7
+  },
+  "tobacc_mosa_viru_tmv": {
+   "term": "tobacco mosaic virus (TMV",
+   "method": "glossary",
+   "page": "619",
+   "quote": "Mosaic: An organism or part of an organism that is composed of cells of different genotypes.",
+   "headword": "Mosaic",
+   "occurrences": 4
+  },
+  "phenotypicall": {
+   "term": "phenotypically",
+   "method": "glossary",
+   "page": "621",
+   "quote": "Phenotype: The observable characteristics of an organism.",
+   "headword": "Phenotype",
+   "occurrences": 32
+  },
+  "genotypicall": {
+   "term": "genotypically",
+   "method": "glossary",
+   "page": "614",
+   "quote": "Genotype: The genetic constitution (gene makeup) of an organism (cf. Phenotype).",
+   "headword": "Genotype",
+   "occurrences": 12
+  },
+  "the_interphas_chromosom_of_eukaryot_are_usuall_not_visibl_with_the_light_microscop_however_chem_analy_electron_microscop_and_x_ray_diffract_stud_of_isolat_chromatin_the_complex_of_dna_protein_and_other_mater_pres_in_nucle_have_provid_valuabl_inform_about_their_structur": {
+   "term": "The interphase chromosomes of eukaryotes are usually not visible with the light microscope. However, chemical analysis, electron microscopy, and X-ray diffraction studies of isolated chromatin—the complex of DNA, proteins, and other material present in nuclei—have provided valuable information about their structure",
+   "method": "glossary",
+   "page": "609",
+   "quote": "Chromatin: The complex of DNA and proteins in eukaryotic chromosomes; originally named because of the readiness with which it stains with certain dyes.",
+   "headword": "Chromatin",
+   "occurrences": 0
+  }
+ }
+}

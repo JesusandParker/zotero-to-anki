@@ -229,7 +229,7 @@ def _def_patterns(term):
 _HEADWORD = re.compile(r"^([A-Za-z][\w /()'-]{0,60}?):\s*(.*)$")
 
 
-def _parse_glossary(pages, gp):
+def _parse_glossary(pages, gp, pdf=None):
     """{term_key(headword): {headword, page, gloss}} for the registered glossary range.
 
     Parsed as ONE continuous line stream across the whole range, not per page — a
@@ -263,6 +263,70 @@ def _parse_glossary(pages, gp):
             # overwrite would silently lose one of two real glossary entries.
             entries.setdefault(key, []).append(
                 {"headword": head, "page": str(pnum), "gloss": text[:300]})
+
+    # Second style: "Headword. Definition …" (Snustad's genetics glossary). The cached
+    # -layout text renders that glossary's two columns side by side, interleaving
+    # entries beyond repair, so this pass re-extracts the glossary range in raw reading
+    # order (no -layout) when it has the PDF path. Entries are blank-line-separated
+    # BLOCKS whose headword ends at the first period OUTSIDE parentheses — "Allele
+    # (allelomorph; adj., allelic, allelomorphic). One of a pair…" keeps its
+    # parenthetical periods inside the headword. A headword containing a colon is
+    # rejected so EMT-style "term: definition" blocks can never double-match here.
+    raw_pages = []
+    if pdf:
+        try:
+            out = subprocess.run(
+                ["pdftotext", "-f", str(gp[0]), "-l", str(gp[1]), pdf, "-"],
+                capture_output=True, text=True, timeout=120)
+            raw_pages = out.stdout.split("\f")
+        except (OSError, subprocess.SubprocessError):
+            raw_pages = []
+    def _head_split(text):
+        """(head, rest) at the first depth-0 '. ', or (None, None). The paren guard keeps
+        'Allele (allelomorph; adj., allelic…). One of…' whole through its inner periods."""
+        depth = 0
+        for i, ch in enumerate(text[:90]):
+            if ch == "(":
+                depth += 1
+            elif ch == ")":
+                depth = max(0, depth - 1)
+            elif ch == "." and depth == 0 and text[i + 1: i + 2] in ("", " "):
+                head, rest = text[:i].strip(), text[i + 1:].strip()
+                if (re.match(r"^[A-Z]", head) and ":" not in head
+                        and 2 <= len(head) <= 70 and len(head.split()) <= 8):
+                    return head, rest
+                return None, None
+        return None, None
+
+    # Entries are scanned LINE-WISE, not block-wise: a column break drops the previous
+    # entry's wrapped tail directly above the next headword with no blank line between,
+    # and a block scan glues that fragment onto the headword and rejects the pair —
+    # which is how Bacteriophage, Chromatin, and Phenotype all vanished on first try.
+    for off, ptext in enumerate(raw_pages):
+        pnum = gp[0] + off
+        lines = [l.strip() for l in (ptext or "").splitlines()]
+        starts = []
+        for li, line in enumerate(lines):
+            if not line or re.fullmatch(r"[A-Z]", line):
+                continue
+            h, _ = _head_split(_norm_ws(line))
+            if h:
+                starts.append(li)
+        for si, li in enumerate(starts):
+            stop = starts[si + 1] if si + 1 < len(starts) else len(lines)
+            chunk = [lines[li]]
+            for nxt in lines[li + 1: stop]:
+                if not nxt:            # blank line = end of this entry
+                    break
+                chunk.append(nxt)
+            text = re.sub(r"(\w)- (\w)", r"\1\2", _norm_ws(" ".join(chunk)))
+            head, rest = _head_split(text)
+            if not head or len(rest) < 6:
+                continue
+            key = term_key(head)
+            if key and not any(e["headword"] == head for e in entries.get(key, [])):
+                entries.setdefault(key, []).append(
+                    {"headword": head, "page": str(pnum), "gloss": rest[:300]})
     return entries
 
 
@@ -318,7 +382,7 @@ def find_evidence(source_id, terms):
         except json.JSONDecodeError:
             evidence = {}
 
-    glossary = _parse_glossary(pages, gp)
+    glossary = _parse_glossary(pages, gp, pdf=pdf)
     for term in terms:
         key = term_key(term)
         entry, occurrences = None, 0
@@ -330,7 +394,16 @@ def find_evidence(source_id, terms):
         if not g:
             tw = key.split("_")
             for gk, ges in glossary.items():
-                if tw and all(w in gk.split("_") for w in tw):
+                gw = gk.split("_")
+                contain = tw and all(w in gw for w in tw)      # marked "xiphoid" ⊆ "xiphoid process"
+                rcontain = gw and all(w in tw for w in gw)     # marked "Bacteriophage T2" ⊇ "Bacteriophage"
+                # Single-word morphological family the stemmer keys apart
+                # (phenotypicall ~ phenotyp). ≥6 shared chars so short stems can
+                # never cross-match the way type_iiis/type_iir would on raw prefixes.
+                family = (len(tw) == 1 and len(gw) == 1
+                          and (tw[0].startswith(gw[0]) or gw[0].startswith(tw[0]))
+                          and min(len(tw[0]), len(gw[0])) >= 6)
+                if contain or rcontain or family:
                     g = _pick_glossary_entry(term, ges)
                     break
         if g:
