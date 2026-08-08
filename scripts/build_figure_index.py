@@ -530,7 +530,7 @@ def matte_color(path):
         return "white"
 
 
-def study_copy(src_path, out_dir, max_px=1400, quality=88, pad_pct=4.0):
+def study_copy(src_path, out_dir, max_px=1400, quality=88, pad_pct=4.0, lossless=False):
     """A study-sized derivative — this is what actually gets attached to a card.
 
     The native plate is the archive: 2133px and ~3 MB for the skull. On a phone that is
@@ -546,21 +546,38 @@ def study_copy(src_path, out_dir, max_px=1400, quality=88, pad_pct=4.0):
     is what makes the final margin uniform), scale, then add a border of `pad_pct` of the
     NORMALISED long edge. Because every study copy is scaled to the same long edge, that
     percentage yields the same absolute margin on every figure, wide or tall, rather than
-    a margin that drifts with aspect ratio."""
+    a margin that drifts with aspect ratio.
+
+    Line art is different (Parker, 2026-08-08, genetics ch9): a vector render re-encoded
+    to JPEG grows ringing halos around every label and line, and downscaling throws away
+    resolution the PDF gives for free. So `lossless=True` (the vector-render and
+    text-table paths) keeps PNG at the FULL render resolution — no resize, no JPEG.
+    Flat-color line art compresses well in PNG, so these stay a few hundred KB."""
     os.makedirs(out_dir, exist_ok=True)
-    out = os.path.join(out_dir, os.path.splitext(os.path.basename(src_path))[0] + ".jpg")
+    ext = ".png" if lossless else ".jpg"
+    out = os.path.join(out_dir, os.path.splitext(os.path.basename(src_path))[0] + ext)
     if os.path.exists(out) and os.path.getmtime(out) >= os.path.getmtime(src_path):
         return out
-    pad = int(round(max_px * pad_pct / 100.0))
     matte = matte_color(src_path)
     try:
-        subprocess.run(["magick", src_path,
-                        "-background", matte, "-alpha", "remove", "-alpha", "off",
-                        "-fuzz", "2%", "-trim", "+repage",
-                        "-resize", f"{max_px}x{max_px}>",
-                        "-bordercolor", matte, "-border", str(pad),
-                        "-strip", "-quality", str(quality), out],
-                       check=True, capture_output=True)
+        if lossless:
+            import PIL.Image
+            pad = int(round(PIL.Image.open(src_path).size[0] * pad_pct / 100.0)) or 8
+            subprocess.run(["magick", src_path,
+                            "-background", matte, "-alpha", "remove", "-alpha", "off",
+                            "-fuzz", "2%", "-trim", "+repage",
+                            "-bordercolor", matte, "-border", str(pad),
+                            "-strip", out],
+                           check=True, capture_output=True)
+        else:
+            pad = int(round(max_px * pad_pct / 100.0))
+            subprocess.run(["magick", src_path,
+                            "-background", matte, "-alpha", "remove", "-alpha", "off",
+                            "-fuzz", "2%", "-trim", "+repage",
+                            "-resize", f"{max_px}x{max_px}>",
+                            "-bordercolor", matte, "-border", str(pad),
+                            "-strip", "-quality", str(quality), out],
+                           check=True, capture_output=True)
     except Exception:
         return None
     return out
@@ -596,7 +613,7 @@ def main():
     ap.add_argument("--segment", type=int)
     ap.add_argument("--pages", help="explicit physical page range, e.g. 515-680")
     ap.add_argument("--rerender", action="store_true")
-    ap.add_argument("--dpi", type=int, default=300, help="only for vector figures")
+    ap.add_argument("--dpi", type=int, default=450, help="only for vector figures (450 = print-sharp; Parker's full-quality bar, 2026-08-08)")
     ap.add_argument("--dpi-steps", type=int, default=150,
                     help="render dpi per panel when compositing a multi-page SKILL DRILL")
     ap.add_argument("--max-px", type=int, default=1400,
@@ -685,7 +702,8 @@ def main():
             xref = crossrefs(doc, cap["label"], first, last, pno)
             base = os.path.join(S.SKILL, "work", src["id"])
             study = study_copy(path, os.path.join(outdir, "study"), args.max_px,
-                               pad_pct=args.pad_pct)
+                               pad_pct=args.pad_pct,
+                               lossless=("render" in how))
             recs.append({
                 "label": cap["label"],
                 "title": cap["title"],

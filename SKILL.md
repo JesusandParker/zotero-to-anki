@@ -515,6 +515,28 @@ reference those names — so after any `--pad-pct` / `--max-px` change on an alr
 segment, push the new images with `attach_figures.py --refresh-media`. A plain re-run would
 correctly skip every card as already-attached and leave the stale images in place forever.
 
+**The quality bar (Parker, 2026-08-08 — non-negotiable):** a card carries the book's
+COMPLETE figure, caption included, or no figure at all. A fragment, a clipped label, a
+wrong-art pairing, or page-text bleed never ships — reject at the judge-look, re-render
+properly, look again. Line art (vector renders, text tables) is **lossless PNG at full
+render resolution (≥400 dpi), never resized, never JPEG** — `study_copy(lossless=True)`
+does this automatically for every `*render*` extraction. Photos keep native-resolution
+extraction (that IS the book's own quality). For vector-art books, the proven route is a
+full-page render at high dpi cropped to the whole figure and EYEBALLED — automated
+region-guessing produced truncated fragments on Snustad ch9.
+
+**Updating media that is already on live notes — three rules, each learned the hard way
+(2026-08-08):**
+1. **Never swap bytes under an existing filename.** Anki's UI caches media BY NAME; an
+   open session keeps showing the old image even though the collection holds the new
+   bytes. Store under a NEW versioned name (`…_v2.png`), rewrite the notes' `<img>` tags,
+   then delete the orphaned old file.
+2. **Reference the RETURNED filename, never the requested one.** `storeMediaFile`
+   case-normalizes names (`FIGURE` → `figure`); on Parker's case-insensitive Mac the
+   mismatch is invisible, on any case-sensitive sync target it is a broken image.
+3. **Round-trip verify every store:** `retrieveMediaFile` the name back and compare
+   hashes before touching any note. A store you didn't verify didn't happen.
+
 ### Attaching: two routes, and picking the wrong one duplicates the chapter
 
 **A fresh segment (Chapter 7 onward) — figures go into the CARDS FILE, before staging:**
