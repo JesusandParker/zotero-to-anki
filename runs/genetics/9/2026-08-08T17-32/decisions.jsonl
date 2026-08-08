@@ -45,3 +45,8 @@
 {"card": 10, "stage": "consolidation", "action": "add_citation", "why": "Ex line (progeny carried 32P, no 35S) grounded in mark 126; editor A flagged the missing citation"}
 {"card": 110, "stage": "consolidation", "action": "record_verification", "why": "editor A safety note: PARTIAL-grounded mark 29; definition verified against both sources"}
 {"card": -1, "stage": "consolidation", "action": "record_verification_batch", "why": "cards [25, 28, 30, 32, 36, 41, 43, 44, 45, 46, 48, 54, 64, 70, 71, 90] cite PARTIAL-grounded marks; claims verified against page text this session (editor B/C safety notes)"}
+{"card": 99, "stage": "judge", "action": "re_anchor", "why": "evidence quote was the 'See RNA.' cross-reference stub — re-anchored to the real RNA glossary entry, pinned (judge finding 1)"}
+{"card": 35, "stage": "judge", "action": "trim_back_extra", "why": "template-for-rebuilding clause not on cited pages; trimmed to the source's own complementarity claim (judge finding 2)"}
+{"card": -1, "stage": "judge", "action": "numeric_metadata", "why": "cards 42/43/65 carried numeric:false despite clozing 11/12/146 — set numeric+verified (judge finding 3)"}
+{"card": 81, "stage": "judge", "action": "record_verification", "why": "judge verified p211 Back Extra claims against the PDF; recorded"}
+{"card": 99, "stage": "judge", "action": "re_anchor_corrected", "why": "first re-anchor regex collided with the Aminoacyl-tRNA synthetases entry; corrected to the parser-located RNA entry (glossary p624), pinned"}

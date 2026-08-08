@@ -1,0 +1,26 @@
+{
+ "run_id": "figures",
+ "source": "genetics",
+ "segment": 9,
+ "stage": "figures",
+ "status": "complete",
+ "counts": {
+  "marks": 129,
+  "cards": 111,
+  "cards_placeable": 111,
+  "figures_indexed": 26,
+  "proposed": 78,
+  "judged": true,
+  "kept": 37,
+  "rejected": 41,
+  "attached_notes": 0,
+  "distinct_plates": 0,
+  "doubled": 0,
+  "leaks": 0
+ },
+ "anomalies": [
+  "37 proposals kept but only 0 notes carry a figure \u2014 the attach step may have been skipped or guard-refused."
+ ],
+ "skill_sha": "1f29b4aa72b617124b68c06a8b339ef542928795",
+ "new_hazards_found": []
+}

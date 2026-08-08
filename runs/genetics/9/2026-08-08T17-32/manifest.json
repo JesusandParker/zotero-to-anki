@@ -5,5 +5,48 @@
  "started": "2026-08-08T17:32:40",
  "skill_sha": "bc2db68e408b86eecef601dc7f11bb696ad47d43",
  "note": "Chapter 9 'do this for me' run: Parker's 30 marks + 99 Claude-selected coverage marks (delegated selection); 3-agent adversarial editor fan-out",
- "status": "in_progress"
+ "status": "complete",
+ "finished": "2026-08-08T18:00:48",
+ "counts": {
+  "cards": 111,
+  "parker_mark_cards": 32,
+  "lexicon_cards": 16,
+  "coverage_cards": 79,
+  "figures_attached": 37,
+  "editor_rewrites": 44,
+  "judge_rewrites": 0,
+  "dropped": 0
+ },
+ "new_hazards_found": [
+  {
+   "summary": "extractor treated Zotero pageLabel (printed page) as physical page — zero marks extracted on any offset book; EMT's zero offset masked the class",
+   "mechanizable": false,
+   "why": "fixed in extract_highlights.py itself (physical pages derived from position.pageIndex, plus a printed offset banner on every run); a regression would need a Zotero DB fixture the suite has no harness for — the visible offset note is the standing tripwire"
+  },
+  {
+   "summary": "lexicon.py --find re-runs clobbered hand-corrected evidence anchors (TMV reverted to the wrong-sense 'Mosaic' glossary hit)",
+   "mechanizable": false,
+   "why": "guarded in lexicon.py: entries carrying pinned:true are now skipped by --find (announced in its output); no evidence-file fixture lane exists in test_regressions to encode it as a case"
+  },
+  {
+   "summary": "period-style glossaries (Snustad 'Headword. Definition') parsed to zero entries; -layout text interleaves its two columns beyond repair",
+   "mechanizable": false,
+   "why": "fixed in lexicon._parse_glossary (raw-order re-extraction + line-wise entry-start scan alongside the colon-style pass); same fixture gap as above — the finder's per-term tier printout is the tripwire"
+  },
+  {
+   "summary": "figure captions with a marker glyph and no credit line (Snustad '◾ FIGURE 9.1') yielded zero indexed figures; bare-label TABLE headers likewise",
+   "mechanizable": false,
+   "why": "fixed in build_figure_index.py (CAPTION_MARKED corroboration + bare-label TABLE path + solo-art pairing); preflight's figure-count check is the standing tripwire for a silently empty index"
+  },
+  {
+   "summary": "vector-render crops can be truncated fragments or full-page renders, and solo-art pairing can bind a caption to a neighbour's photo (TABLE 9.1 got the scientists montage)",
+   "mechanizable": false,
+   "why": "caught by the mandatory judge-look (9 plates rejected, 2 re-cropped by hand); mechanizing crop-quality needs a vision pass, which IS the judge stage — figure_run's anomaly list plus the judge worklist are the harness"
+  },
+  {
+   "summary": "figure_run --report assumes the live-attach route and reports a false '0 notes carry a figure' anomaly on a fresh --to-cards segment",
+   "mechanizable": false,
+   "why": "report-time logic; it should count image fields in the cards file when the segment is unstaged — noted for a future figure_run.py touch-up, harmless meanwhile"
+  }
+ ]
 }

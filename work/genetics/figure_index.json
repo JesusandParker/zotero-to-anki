@@ -17,7 +17,7 @@
    "extraction": "vector-render",
    "description": null,
    "crossrefs": "In 1931, Richard Sia and Martin Dawson analyzed  this genetic transformation  in   vitro , and showed that the mice played no role in the  phenomenon ( \u25fe     ).",
-   "seen_description": null,
+   "seen_description": "Sia\u2013Dawson in vitro transformation: test tubes and petri dishes (IIR colonies / no colonies / IIIS colonies). CROP TRUNCATED: left column clipped, bottom panel cut mid-row.",
    "terms": [
     "analyzed",
     "dawson",
@@ -48,7 +48,7 @@
    "extraction": "vector-render",
    "description": null,
    "crossrefs": "Sia and Dawson\u2019s experiment set the stage for a more pen- etrating analysis by Oswald Avery, Colin MacLeod, and Maclyn McCarty, who showed  that DNA is the only component of Type IIIS cells able to transform Type IIR cells  into Type IIIS ( \u25fe     ). Only DNase treatment had any  effect\u2014it eliminated the transforming activity entirely ( ).",
-   "seen_description": null,
+   "seen_description": "Only the RESULT column of Avery\u2013MacLeod\u2013McCarty: six petri dishes (IIR colonies, none, IIIS \u00d73, none). The enzyme-treatment flow that gives the dishes meaning is cut away.",
    "terms": [
     "able",
     "activity",
@@ -101,7 +101,7 @@
    "extraction": "vector-render",
    "description": null,
    "crossrefs": "Phage T2 is composed of about  50 percent DNA and about 50 percent protein ( \u25fe     ). Hershey and Chase were able to  label specifically either (1) the phage DNA by growth in a medium containing  the radioactive isotope of phosphorus,  32 P, in place of the normal isotope,  31 P; or  (2) the phage protein coats by growth in a medium containing radioactive sulfur,  35 S,  in place of the normal isotope,  32 S ( ).",
-   "seen_description": null,
+   "seen_description": "Labeled anatomy of phage T2 \u2014 protein coat, head, DNA, tail core/sheath/fibers \u2014 plus its extruded DNA. (Top portion of the full figure; experiment panels not shown.)",
    "terms": [
     "able",
     "about",
@@ -144,7 +144,7 @@
    "extraction": "vector-render",
    "description": null,
    "crossrefs": "When tobacco leaves were infected with these reconsti- tuted mixed viruses, the progeny viruses were always phenotypically and genotypically  identical to the parent strain from which the RNA had been obtained ( \u25fe     ).",
-   "seen_description": null,
+   "seen_description": "TMV reconstitution flow: protein B + RNA A assembled into a mixed virus, infecting a tobacco leaf, offspring typed protein A/RNA A \u2014 progeny follow the RNA donor.",
    "terms": [
     "always",
     "been",
@@ -192,7 +192,7 @@
    "extraction": "vector-render",
    "description": null,
    "crossrefs": "Each nucleotide is composed of (1) a  phosphate group, (2) a five-carbon sugar, or pentose, and (3) a cyclic nitrogen-containing  compound called a base ( \u25fe     ).",
-   "seen_description": null,
+   "seen_description": "Two empty label boxes ('(1) A phosphate group:', '(2) A five-carbon sugar or pentose:') with none of the actual structures. Useless crop.",
    "terms": [
     "acids",
     "base",
@@ -241,7 +241,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "One of the most exciting breakthroughs in the history of biology occurred in  1953 when James Watson and Francis Crick ( \u25fe     ) deduced the correct  structure of DNA. Watson and Crick used  X-ray diffraction data on DNA structure  ( \u25fe   Figure 9.9 ) provided by Maurice Wilkins,  Rosalind Franklin (see  ), and  their coworkers.",
-   "seen_description": null,
+   "seen_description": "Photo montage of Crick, Wilkins, Franklin, and Watson against a sketched double helix.",
    "terms": [
     "base",
     "biology",
@@ -298,7 +298,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "Chemical Analysis:  When Erwin Chargaff and colleagues analyzed the com- position of DNA from many different organisms, they found that the con- centration of thymine was always equal to the concentration of adenine  and the concentration of cytosine was always equal to the concentration  of  guanine (   ). Their data also showed that the total concentration of  pyrimidines (thymine plus cytosine) was always equal to the total concen- tration of purines (adenine plus guanine; see  ).",
-   "seen_description": null,
+   "seen_description": "WRONG ART: the study file is the four-scientists photo montage (Figure 9.8's art), not the base-composition table.",
    "terms": [
     "adenine",
     "also",
@@ -358,7 +358,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "Watson and Crick used  X-ray diffraction data on DNA structure  ( \u25fe     ) provided by Maurice Wilkins,  Rosalind Franklin (see Figure 9.8), and  their coworkers.",
-   "seen_description": null,
+   "seen_description": "The X-ray diffraction photograph of DNA: central cross pattern, heavy top/bottom arcs.",
    "terms": [
     "axis",
     "bands",
@@ -407,7 +407,7 @@
    "extraction": "vector-render",
    "description": null,
    "crossrefs": "On the basis of Chargaff\u2019s chemical data,  Wilkins\u2019 and Franklin\u2019s X-ray diffraction data,  and inferences from model building, Watson  and Crick proposed that DNA exists as a  right-handed  double helix  in which the two  polynucleotide chains are coiled about one  another in a spiral ( \u25fe     ). resulting base pairs are stacked between the two chains perpendicular to the axis of the  molecule like the steps of a spiral staircase ( ). The base pairs in DNA are stacked about 0.34 nm apart, with 10 base pairs per  turn (360 \u00b0 ) of the double helix ( ). In fact, intracellu- lar B-DNA appears to have an average of 10.4 nucleotide pairs per turn, rather than  precisely 10 as shown in  .",
-   "seen_description": null,
+   "seen_description": "Ribbon double helix with S\u2013P backbones, lettered base pairs (dotted H-bonds), antiparallel arrows, 3'/5' ends, 0.34 nm and 3.4 nm spacing brackets.",
    "terms": [
     "about",
     "another",
@@ -480,7 +480,7 @@
    "extraction": "text-table-render(2p)",
    "description": null,
    "crossrefs": "Each of the two polynucleotide chains in a double helix consists of a sequence of   nucleotides linked together by covalent phosphodiester bonds, joining adjacent deoxyri- bose subunits (   ). The two polynucleotide strands are held together in their  helical  configuration by hydrogen bonding ( ) between bases in opposing strands; the The stability of DNA double helices results in part from the large number of  hydrogen bonds between the base pairs (even though each hydrogen bond by itself  is weak, much weaker than a covalent bond) and in part from the hydrophobic bond- ing (or stacking forces) between adjacent base pairs ( ).",
-   "seen_description": null,
+   "seen_description": "Text-table render of the chemical-bonds box followed by a full page of body text bleed.",
    "terms": [
     "adjacent",
     "aqueous",
@@ -558,7 +558,7 @@
    "extraction": "vector-render",
    "description": null,
    "crossrefs": "The specificity of  base-pairing results from the hydrogen-bonding capacities of the bases in their normal  configurations ( \u25fe     ). The sugar-phosphate backbones of the  two complementary strands are  antiparallel  ( ).",
-   "seen_description": null,
+   "seen_description": "Fragment of one sugar-phosphate backbone strip with a 5'\u21923' arrow; left edge clipped mid-artwork.",
    "terms": [
     "adenine",
     "antiparallel",
@@ -614,7 +614,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "In high concentrations of salts or in a partially  dehydrated state, DNA exists as  A-DNA,  which is a right-handed helix like B-DNA, but  with 11 nucleotide pairs per turn (   ). In addition to its unique left-handed helical structure, Z-DNA  ( ) differs from the A and B conformations in having 12 base pairs per turn, a  diameter of 1.8 nm, and a single deep groove.",
-   "seen_description": null,
+   "seen_description": "Re-cropped clean table: helix form A/B/Z \u00d7 direction (right/right/left) \u00d7 bp per turn (11/10/12) \u00d7 diameter (2.3/1.9/1.8 nm).",
    "terms": [
     "a-dna",
     "addition",
@@ -695,7 +695,7 @@
    "extraction": "cached",
    "description": null,
    "crossrefs": "This supercoiling causes a DNA molecule to col- lapse into a tightly coiled structure similar to a coiled electrical cord or twisted rubber  band ( \u25fe     ,  lower right). Obviously, the ends of the circular DNA molecules ( )  present in most prokaryotic chromosomes and in the chromosomes of eukaryotic  organelles such as mitochondria are fixed.",
-   "seen_description": null,
+   "seen_description": "Electron micrograph: relaxed circular DNA (open loop) beside a tightly interwound negatively supercoiled molecule.",
    "terms": [
     "b-dna",
     "band",
@@ -757,7 +757,7 @@
    "extraction": "vector-render",
    "description": null,
    "crossrefs": "coli  chromosome is  organized into 50 to 100  domains  or loops, each of which is independently negatively  supercoiled ( \u25fe     ).",
-   "seen_description": null,
+   "seen_description": "Diagram of the E. coli folded genome: 350-\u03bcm open circle \u2192 40\u201350 RNA-anchored loops (30 \u03bcm) \u2192 independently supercoiled loops (2 \u03bcm), with partial-RNase (unfolds) and partial-DNase (one loop relaxes) branches.",
    "terms": [
     "chromosome",
     "coli",
@@ -784,7 +784,7 @@
    "extraction": "vector-render",
    "description": null,
    "crossrefs": "Chemical analysis of isolated chromatin shows that it consists primarily of DNA  and proteins with lesser amounts of RNA ( \u25fe     ).",
-   "seen_description": null,
+   "seen_description": "Full-page render of p225 (body text, his purple highlight, chromatin pie chart at right). Not a plate.",
    "terms": [
     "allow",
     "amount",
@@ -836,7 +836,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "The amount of DNA in eukaryotic chromosomes varies considerably (   ).",
-   "seen_description": null,
+   "seen_description": "WRONG ART: the study file is the beads-on-a-string electron micrograph (Figure 9.17's art), not the chromosome-size table.",
    "terms": [
     "amount",
     "base",
@@ -872,7 +872,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "When isolated chromatin from interphase cells is examined by  electron microscopy, it is found to consist of a series of ellipsoidal  beads (about 11 nm in diameter and 6.5 nm high) joined by thin  threads ( \u25fe     a ). These results are nicely explained if chromatin has a repeating structure, sup- posedly the bead seen by electron microscopy (  a ), within which the  DNA is packaged in a nuclease-resistant form ( \u25fe     b ).",
-   "seen_description": null,
+   "seen_description": "Electron micrograph of chromatin as beads on a string \u2014 nucleosomes joined by thin linker threads.",
    "terms": [
     "about",
     "bead",
@@ -937,7 +937,7 @@
    "extraction": "vector-render",
    "description": null,
    "crossrefs": "X-ray diffraction studies have shown that the DNA forms a  superhelix that winds 1.65 times around the outside of the histone octamer  ( \u25fe     a ). The complete chromatin subunit consists of the nucleosome core, the  linker DNA, and the associated nonhistone chromosomal proteins, all stabilized  by the binding of one molecule of histone H1 to the outside of the structure  ( \u25fe     b ).",
-   "seen_description": null,
+   "seen_description": "Nucleosome core (DNA superhelix around the histone octamer, 11 nm) and complete nucleosome with histone H1 in green bound outside. Left-edge labels partially clipped.",
    "terms": [
     "all",
     "almost",
@@ -1122,7 +1122,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "Indeed, when interphase chromatin is isolated using very gentle proce- dures, it also consists of 30-nm fibers ( \u25fe     a ). When observed  by cryoelectron microscopy (microscopy using quickly frozen chromatin rather than  chemically fixed chromatin), the 30-nm fibers show less tightly packed \u201czigzag\u201d struc- tures ( \u25fe     b ). The two most popular models of the substructure of these chromatin fibers  are the solenoid model ( \u25fe     c ) and the zigzag model ( \u25fe     d ).",
-   "seen_description": null,
+   "seen_description": "Illustration of nucleosome clusters with linking DNA \u2014 the 30-nm fiber substructure models.",
    "terms": [
     "according",
     "after",
@@ -1240,7 +1240,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "This core, called a  scaffold,  can be seen in  electron micrographs of isolated metaphase chromosomes from  which the histones have been removed ( \u25fe     ).",
-   "seen_description": null,
+   "seen_description": "Electron micrograph: histone-stripped metaphase chromosome \u2014 dark nonhistone scaffold retaining chromosome shape inside a huge halo of DNA.",
    "terms": [
     "absence",
     "also",
@@ -1298,7 +1298,7 @@
    "extraction": "cached",
    "description": null,
    "crossrefs": "In summary, at least three levels of condensation are required to  package the 10 3  to 10 5   \u03bc m of DNA in a eukaryotic chromosome into  a metaphase structure a few microns long ( \u25fe     ).",
-   "seen_description": null,
+   "seen_description": "Packaging cascade diagram (re-cropped clean): metaphase chromosome \u2192 30-nm chromatin fiber \u2192 11-nm nucleosomes \u2192 2-nm DNA molecule, all labeled.",
    "terms": [
     "after",
     "attachment",
@@ -1362,7 +1362,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "Human centromeres are 500,000 to 1.5 million base pairs long and contain 5000 to  15,000 copies of a 171 base-pair-long sequence called the alpha satellite sequence  ( \u25fe     ).",
-   "seen_description": null,
+   "seen_description": "FISH photo: human metaphase chromosomes in red with yellow alpha-satellite signals at every centromere.",
    "terms": [
     "alpha",
     "base",
@@ -1396,7 +1396,7 @@
    "extraction": "vector-render",
    "description": null,
    "crossrefs": "The telomeres of humans and a few other species have been shown to form structures  called  t-loops,  in which the single strand at the 3 \u2032  terminus invades an upstream telomeric  repeat (TTAGGG in mammals) and pairs with the complementary strand, displacing the  equivalent strand ( \u25fe     ). human chromosomes invade telomere repeat sequences  (TTAGGG) upstream from the terminus and form lariat- like structures called t-loops (see  ).",
-   "seen_description": null,
+   "seen_description": "Telomere diagram: TTAGGG/AATCCC repeats, 3' overhang invading upstream repeats to form the t-loop, shelterin subunits labeled (TRF1, TRF2, TIN2, TPP1, POT1, Rap1).",
    "terms": [
     "along",
     "associated",

@@ -1,0 +1,1370 @@
+{
+ "teaches": [
+  {
+   "card_index": 8,
+   "text": "The Hershey–Chase labeling strategy exploits one chemical difference: {{c1::phosphorus::element}} is found in ",
+   "figure": "FIGURE 9.3",
+   "file": "figures/study/FIGURE_9_3.jpg",
+   "native_file": "figures/FIGURE_9_3.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "phosphorus",
+    "sulfur"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 9,
+   "text": "In the Hershey–Chase experiment, growing phage in medium with radioactive {{c1::³²P::isotope}} labeled the pha",
+   "figure": "FIGURE 9.3",
+   "file": "figures/study/FIGURE_9_3.jpg",
+   "native_file": "figures/FIGURE_9_3.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "coats",
+    "dna",
+    "protein"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 10,
+   "text": "Hershey and Chase found that the phage's {{c1::DNA}} entered the E. coli cell, while most of the phage's {{c1:",
+   "figure": "FIGURE 9.3",
+   "file": "figures/study/FIGURE_9_3.jpg",
+   "native_file": "figures/FIGURE_9_3.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "protein"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 13,
+   "text": "Most living organisms store their genetic information in {{c1::DNA}}; some viruses instead store it in {{c2::R",
+   "figure": "FIGURE 9.4",
+   "file": "figures/study/FIGURE_9_4.jpg",
+   "native_file": "figures/FIGURE_9_4.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "rna"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 26,
+   "text": "In {{c1::1953::year}}, {{c1::James Watson and Francis Crick::two researchers}} deduced that DNA is a right-han",
+   "figure": "FIGURE 9.8",
+   "file": "figures/study/FIGURE_9_8.jpg",
+   "native_file": "figures/FIGURE_9_8.jpg",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "crick",
+    "francis",
+    "james",
+    "watson"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 27,
+   "text": "The 1962 Nobel Prize for the double helix went to Watson, Crick, and {{c1::Maurice Wilkins::third laureate}}.",
+   "figure": "FIGURE 9.9",
+   "file": "figures/study/FIGURE_9_9.jpg",
+   "native_file": "figures/FIGURE_9_9.jpg",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "maurice",
+    "wilkins"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 46,
+   "text": "In vivo, the functional DNA of almost all organisms is {{c1::negatively::positively or negatively}} supercoile",
+   "figure": "FIGURE 9.13",
+   "file": "figures/study/FIGURE_9_13.jpg",
+   "native_file": "figures/FIGURE_9_13.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "negatively"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 53,
+   "text": "The compaction of a chromosome's material into a much smaller volume for mitosis or meiosis is called {{c1::co",
+   "figure": "FIGURE 9.23",
+   "file": "figures/study/FIGURE_9_23.jpg",
+   "native_file": "figures/FIGURE_9_23.png",
+   "coverage": 1.0,
+   "page_dist": 2,
+   "matched_terms": [
+    "condensation"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 67,
+   "text": "The complete nucleosome contains {{c1::166::bp count}} nucleotide pairs — two full superhelical turns — stabil",
+   "figure": "FIGURE 9.18",
+   "file": "figures/study/FIGURE_9_18.jpg",
+   "native_file": "figures/FIGURE_9_18.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "histone"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 70,
+   "text": "The two competing models for the 30-nm fiber's substructure are the {{c1::solenoid}} model and the {{c1::zigza",
+   "figure": "FIGURE 9.21",
+   "file": "figures/study/FIGURE_9_21.jpg",
+   "native_file": "figures/FIGURE_9_21.jpg",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "solenoid",
+    "zigzag"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 72,
+   "text": "The central core of a metaphase chromosome — the {{c1::scaffold}} — is composed of {{c2::nonhistone::histone o",
+   "figure": "FIGURE 9.22",
+   "file": "figures/study/FIGURE_9_22.jpg",
+   "native_file": "figures/FIGURE_9_22.jpg",
+   "coverage": 1.0,
+   "page_dist": 2,
+   "matched_terms": [
+    "nonhistone",
+    "scaffold"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 81,
+   "text": "Highly repetitive DNA is concentrated primarily in the regions around the {{c1::centromeres::chromosome landma",
+   "figure": "FIGURE 9.24",
+   "file": "figures/study/FIGURE_9_24.jpg",
+   "native_file": "figures/FIGURE_9_24.jpg",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "centromeres"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 91,
+   "text": "The telomere repeat unit of humans — and vertebrates generally — is {{c1::TTAGGG::6 bases}}.",
+   "figure": "FIGURE 9.25",
+   "file": "figures/study/FIGURE_9_25.jpg",
+   "native_file": "figures/FIGURE_9_25.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "ttaggg"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 93,
+   "text": "Most telomeres end in a G-rich, single-stranded {{c1::3′::3′ or 5′}} overhang, which can invade an upstream st",
+   "figure": "FIGURE 9.25",
+   "file": "figures/study/FIGURE_9_25.jpg",
+   "native_file": "figures/FIGURE_9_25.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "t-loop"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 94,
+   "text": "Telomeric DNA is coated and protected by the {{c3::six::number of proteins}}-protein complex {{c1::shelterin}}",
+   "figure": "FIGURE 9.25",
+   "file": "figures/study/FIGURE_9_25.jpg",
+   "native_file": "figures/FIGURE_9_25.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "pot",
+    "shelterin",
+    "six",
+    "trf"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 71,
+   "text": "Eukaryotic DNA is packaged through three levels of condensation:  Level 1 — DNA wound into nucleosomes → {{c1:",
+   "figure": "FIGURE 9.23",
+   "file": "figures/study/FIGURE_9_23.jpg",
+   "native_file": "figures/FIGURE_9_23.png",
+   "coverage": 0.75,
+   "page_dist": 2,
+   "matched_terms": [
+    "chromatin",
+    "chromosome",
+    "domains",
+    "loops",
+    "metaphase",
+    "supercoiled"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 15,
+   "text": "Fraenkel-Conrat reconstituted hybrid TMV particles from the {{c1::protein coat}} of one strain and the {{c1::R",
+   "figure": "FIGURE 9.4",
+   "file": "figures/study/FIGURE_9_4.jpg",
+   "native_file": "figures/FIGURE_9_4.png",
+   "coverage": 0.667,
+   "page_dist": 0,
+   "matched_terms": [
+    "protein",
+    "rna"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 63,
+   "text": "Gently isolated interphase chromatin looks like beads on a string: ellipsoidal beads about {{c1::11 nm::diamet",
+   "figure": "FIGURE 9.17",
+   "file": "figures/study/FIGURE_9_17.jpg",
+   "native_file": "figures/FIGURE_9_17.jpg",
+   "coverage": 0.667,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "nucleosomes"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 107,
+   "text": " Tobacco mosaic virus (TMV)  is {{c1::a plant virus: RNA in a protein coat}}.",
+   "figure": "FIGURE 9.4",
+   "file": "figures/study/FIGURE_9_4.jpg",
+   "native_file": "figures/FIGURE_9_4.png",
+   "coverage": 0.6,
+   "page_dist": 0,
+   "matched_terms": [
+    "protein",
+    "rna",
+    "virus"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 7,
+   "text": "Proof that DNA is the genetic material of bacteriophage T2 was published in {{c1::1952::year}} by {{c1::Alfred",
+   "figure": "FIGURE 9.3",
+   "file": "figures/study/FIGURE_9_3.jpg",
+   "native_file": "figures/FIGURE_9_3.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "chase",
+    "hershey"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 83,
+   "text": "Spindle microtubules attach to a chromosome at its {{c1::kinetochores}} — complex protein structures assembled",
+   "figure": "FIGURE 9.24",
+   "file": "figures/study/FIGURE_9_24.jpg",
+   "native_file": "figures/FIGURE_9_24.jpg",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "centromeres"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 33,
+   "text": "Watson–Crick base pairing is specific: adenine always pairs with {{c1::thymine}}, and guanine always pairs wit",
+   "figure": "FIGURE 9.10",
+   "file": "figures/study/FIGURE_9_10.jpg",
+   "native_file": "figures/FIGURE_9_10.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "forced keep: judged congruent by eye — the ribbon helix shows every A–T and G–C pairing with the letters visible — the pairing rule drawn",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 35,
+   "text": "Because base pairing is strict, the sequence of one DNA strand fixes the sequence of the other — the two stran",
+   "figure": "FIGURE 9.10",
+   "file": "figures/study/FIGURE_9_10.jpg",
+   "native_file": "figures/FIGURE_9_10.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "forced keep: judged congruent by eye — backbone S–P chain and dotted interstrand H-bonds are both drawn — the two bond classes the card contrasts",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 36,
+   "text": "One DNA strand reads 5′-ATCG-3′. Written in the conventional 5′→3′ direction, its complementary strand is {{c1",
+   "figure": "FIGURE 9.10",
+   "file": "figures/study/FIGURE_9_10.jpg",
+   "native_file": "figures/FIGURE_9_10.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "forced keep: judged congruent by eye — the dotted H-bond columns differ visibly between A–T and G–C pairs",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 37,
+   "text": "In the B-DNA double helix, base pairs stack {{c1::0.34 nm::distance}} apart, with {{c1::10::bp per turn}} base",
+   "figure": "FIGURE 9.10",
+   "file": "figures/study/FIGURE_9_10.jpg",
+   "native_file": "figures/FIGURE_9_10.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "forced keep: judged congruent by eye — the plate prints the 0.34 nm spacing and full-turn brackets the card drills",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 41,
+   "text": "{{c1::B}}-DNA is the conformation DNA takes under physiological conditions — a {{c2::right::right or left}}-ha",
+   "figure": "TABLE 9.3",
+   "file": "figures/study/TABLE_9_3.jpg",
+   "native_file": "figures/TABLE_9_3.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "forced keep: judged congruent by eye — rule 25: the source table on the back of each per-form card — B row: right-handed, 10 bp/turn",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 42,
+   "text": "{{c1::A}}-DNA forms in high salt or partial dehydration — right-handed like B-DNA but shorter and thicker, wit",
+   "figure": "TABLE 9.3",
+   "file": "figures/study/TABLE_9_3.jpg",
+   "native_file": "figures/TABLE_9_3.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "forced keep: judged congruent by eye — rule 25: the source table on the back — A row: right-handed, 11 bp/turn",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 43,
+   "text": "{{c1::Z}}-DNA is the {{c2::left::right or left}}-handed double-helical form — named for the {{c1::zigzag}} pat",
+   "figure": "TABLE 9.3",
+   "file": "figures/study/TABLE_9_3.jpg",
+   "native_file": "figures/TABLE_9_3.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "forced keep: judged congruent by eye — rule 25: the source table on the back — Z row: left-handed, 12 bp/turn",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 47,
+   "text": "In most viruses and prokaryotes, all the genes reside in {{c1::a single chromosome}} consisting of {{c1::one m",
+   "figure": "FIGURE 9.13",
+   "file": "figures/study/FIGURE_9_13.jpg",
+   "native_file": "figures/FIGURE_9_13.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "forced keep: judged congruent by eye — the negatively supercoiled molecule the card says nearly all in-vivo DNA resembles",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 65,
+   "text": "The nucleosome core is {{c1::146::bp count}} nucleotide pairs of DNA wrapped around a histone octamer — two mo",
+   "figure": "FIGURE 9.18",
+   "file": "figures/study/FIGURE_9_18.jpg",
+   "native_file": "figures/FIGURE_9_18.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "forced keep: judged congruent by eye — the 146-bp superhelix around the octamer is the drawn subject",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 66,
+   "text": "In the nucleosome core, the DNA winds {{c1::1.65::number of turns}} times around the outside of the histone oc",
+   "figure": "FIGURE 9.18",
+   "file": "figures/study/FIGURE_9_18.jpg",
+   "native_file": "figures/FIGURE_9_18.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "forced keep: judged congruent by eye — the winding turns around the octamer are the drawn subject",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  }
+ ],
+ "context": [
+  {
+   "card_index": 86,
+   "text": "Human centromeres are built of long tandem arrays of the {{c1::alpha satellite}} sequence — a {{c2::171::bp co",
+   "figure": "FIGURE 9.24",
+   "file": "figures/study/FIGURE_9_24.jpg",
+   "native_file": "figures/FIGURE_9_24.jpg",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "alpha",
+    "satellite"
+   ],
+   "archetype": false,
+   "why": "numeric fact — a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 51,
+   "text": "The functional state of a bacterial chromosome is the {{c1::folded genome}}: the DNA is organized into {{c2::5",
+   "figure": "FIGURE 9.15",
+   "file": "figures/study/FIGURE_9_15.jpg",
+   "native_file": "figures/FIGURE_9_15.png",
+   "coverage": 0.6,
+   "page_dist": 0,
+   "matched_terms": [
+    "independently",
+    "negatively",
+    "supercoiled"
+   ],
+   "archetype": false,
+   "why": "numeric fact — a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 74,
+   "text": "In density-gradient centrifugation, the genomic fractions that settle away from the main band (because they ar",
+   "figure": "FIGURE 9.24",
+   "file": "figures/study/FIGURE_9_24.jpg",
+   "native_file": "figures/FIGURE_9_24.jpg",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "satellite",
+    "sequences"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 89,
+   "text": "The specialized structures at the ends of eukaryotic chromosomes are the {{c1::telomeres}} — the term was coin",
+   "figure": "FIGURE 9.25",
+   "file": "figures/study/FIGURE_9_25.jpg",
+   "native_file": "figures/FIGURE_9_25.png",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "telomeres"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 45,
+   "text": "Twisting cut DNA in the same direction as the helix winds produces a {{c1::positive::positive or negative}} su",
+   "figure": "FIGURE 9.13",
+   "file": "figures/study/FIGURE_9_13.jpg",
+   "native_file": "figures/FIGURE_9_13.png",
+   "coverage": 0.25,
+   "page_dist": 0,
+   "matched_terms": [
+    "underwound"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 52,
+   "text": "Enzyme probes dissect the bacterial folded genome:  One single-strand DNase nick → relaxes {{c1::only the nick",
+   "figure": "FIGURE 9.15",
+   "file": "figures/study/FIGURE_9_15.jpg",
+   "native_file": "figures/FIGURE_9_15.png",
+   "coverage": 0.143,
+   "page_dist": 1,
+   "matched_terms": [
+    "loops"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  }
+ ],
+ "skipped": [],
+ "mode": "generous",
+ "judged": true,
+ "rejected": [
+  {
+   "card_index": 3,
+   "text": "In {{c1::1931::year}}, {{c1::Richard Sia and Martin Dawson::two researchers}} showed that pneumococcal transfo",
+   "figure": "FIGURE 9.1",
+   "file": "figures/study/FIGURE_9_1.jpg",
+   "native_file": "figures/FIGURE_9_1.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "dawson",
+    "martin",
+    "mice",
+    "played",
+    "richard",
+    "role",
+    "sia",
+    "vitro"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: truncated crop"
+  },
+  {
+   "card_index": 4,
+   "text": "{{c1::Oswald Avery, Colin MacLeod, and Maclyn McCarty::three researchers}} showed that {{c2::DNA::molecule}} i",
+   "figure": "FIGURE 9.2",
+   "file": "figures/study/FIGURE_9_2.jpg",
+   "native_file": "figures/FIGURE_9_2.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "avery",
+    "colin",
+    "dna",
+    "macleod",
+    "maclyn",
+    "mccarty",
+    "oswald"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: results-only truncation — treatment flow cut away"
+  },
+  {
+   "card_index": 6,
+   "text": "A cell-free bacterial extract carries genetic information of unknown molecular identity. Treating it with DNas",
+   "figure": "FIGURE 9.2",
+   "file": "figures/study/FIGURE_9_2.jpg",
+   "native_file": "figures/FIGURE_9_2.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: results-only truncation — treatment flow cut away"
+  },
+  {
+   "card_index": 18,
+   "text": "The repeating subunit of a nucleic acid is the {{c1::nucleotide}}.",
+   "figure": "FIGURE 9.5",
+   "file": "figures/study/FIGURE_9_5.jpg",
+   "native_file": "figures/FIGURE_9_5.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "nucleotide"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: label boxes only, no structures"
+  },
+  {
+   "card_index": 19,
+   "text": "Each nucleotide is composed of three parts:  {{c1::a phosphate group}}  {{c1::a five-carbon sugar (pentose)}} ",
+   "figure": "FIGURE 9.5",
+   "file": "figures/study/FIGURE_9_5.jpg",
+   "native_file": "figures/FIGURE_9_5.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "base",
+    "cyclic",
+    "five-carbon",
+    "group",
+    "nitrogen-containing",
+    "pentose",
+    "phosphate",
+    "sugar"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: label boxes only, no structures"
+  },
+  {
+   "card_index": 21,
+   "text": "The four bases commonly found in DNA are:  {{c1::adenine (A)}}  {{c1::guanine (G)}}  {{c1::thymine (T)}}  {{c1",
+   "figure": "TABLE 9.1",
+   "file": "figures/study/TABLE_9_1.jpg",
+   "native_file": "figures/TABLE_9_1.jpg",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "adenine",
+    "cytosine",
+    "guanine",
+    "thymine"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: wrong art (scientists photo)"
+  },
+  {
+   "card_index": 23,
+   "text": "The double-ring bases, called {{c2::purines}}, are {{c1::adenine and guanine::2 bases}}.",
+   "figure": "TABLE 9.1",
+   "file": "figures/study/TABLE_9_1.jpg",
+   "native_file": "figures/TABLE_9_1.jpg",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "adenine",
+    "guanine",
+    "purines"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: wrong art (scientists photo)"
+  },
+  {
+   "card_index": 28,
+   "text": "When Erwin Chargaff analyzed DNA from many different organisms, the concentration of thymine always equaled th",
+   "figure": "TABLE 9.1",
+   "file": "figures/study/TABLE_9_1.jpg",
+   "native_file": "figures/TABLE_9_1.jpg",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "adenine",
+    "guanine",
+    "pyrimidines"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: wrong art (scientists photo)"
+  },
+  {
+   "card_index": 30,
+   "text": "Chargaff-style base arithmetic (%A from %G) fails for the DNA packaged in phage ΦX174, because that DNA is {{c",
+   "figure": "TABLE 9.3",
+   "file": "figures/study/TABLE_9_3.jpg",
+   "native_file": "figures/TABLE_9_3.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "single"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "ss-DNA Chargaff-exception card; the A/B/Z table is a different topic"
+  },
+  {
+   "card_index": 32,
+   "text": "Within one DNA strand, adjacent nucleotides are joined by covalent {{c1::phosphodiester}} bonds; the two stran",
+   "figure": "TABLE 9.2",
+   "file": "figures/study/TABLE_9_2.jpg",
+   "native_file": "figures/TABLE_9_2.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "hydrogen",
+    "phosphodiester"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: page-bleed render"
+  },
+  {
+   "card_index": 35,
+   "text": "Because base pairing is strict, the sequence of one DNA strand fixes the sequence of the other — the two stran",
+   "figure": "FIGURE 9.11",
+   "file": "figures/study/FIGURE_9_11.jpg",
+   "native_file": "figures/FIGURE_9_11.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "complementary"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: clipped fragment"
+  },
+  {
+   "card_index": 54,
+   "text": "Chemical analysis shows chromatin consists primarily of {{c1::DNA}} and {{c1::proteins}}, with lesser amounts ",
+   "figure": "FIGURE 9.16",
+   "file": "figures/study/FIGURE_9_16.jpg",
+   "native_file": "figures/FIGURE_9_16.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "proteins",
+    "rna"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: full-page render, not a plate"
+  },
+  {
+   "card_index": 24,
+   "text": "The single-ring bases, called {{c2::pyrimidines}}, are {{c1::cytosine, thymine, and uracil::3 bases}}.",
+   "figure": "TABLE 9.1",
+   "file": "figures/study/TABLE_9_1.jpg",
+   "native_file": "figures/TABLE_9_1.jpg",
+   "coverage": 0.75,
+   "page_dist": 1,
+   "matched_terms": [
+    "cytosine",
+    "pyrimidines",
+    "thymine"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: wrong art (scientists photo)"
+  },
+  {
+   "card_index": 39,
+   "text": "Double-helix stability comes from two forces: the many weak {{c1::hydrogen bonds}} between paired bases, and t",
+   "figure": "TABLE 9.2",
+   "file": "figures/study/TABLE_9_2.jpg",
+   "native_file": "figures/TABLE_9_2.png",
+   "coverage": 0.75,
+   "page_dist": 1,
+   "matched_terms": [
+    "bonds",
+    "forces",
+    "hydrogen"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: page-bleed render"
+  },
+  {
+   "card_index": 22,
+   "text": "RNA contains the base {{c1::uracil (U)}} in place of DNA's {{c1::thymine (T)}}.",
+   "figure": "TABLE 9.1",
+   "file": "figures/study/TABLE_9_1.jpg",
+   "native_file": "figures/TABLE_9_1.jpg",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "thymine"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: wrong art (scientists photo)"
+  },
+  {
+   "card_index": 25,
+   "text": "RNA usually exists as a {{c1::single::single or double}}-stranded polymer, whereas DNA is usually {{c1::double",
+   "figure": "FIGURE 9.10",
+   "file": "figures/study/FIGURE_9_10.jpg",
+   "native_file": "figures/FIGURE_9_10.png",
+   "coverage": 0.5,
+   "page_dist": 2,
+   "matched_terms": [
+    "double"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "the DNA helix plate shows no uracil — the card's contrast is RNA's base"
+  },
+  {
+   "card_index": 33,
+   "text": "Watson–Crick base pairing is specific: adenine always pairs with {{c1::thymine}}, and guanine always pairs wit",
+   "figure": "FIGURE 9.11",
+   "file": "figures/study/FIGURE_9_11.jpg",
+   "native_file": "figures/FIGURE_9_11.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "cytosine",
+    "thymine"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: clipped fragment"
+  },
+  {
+   "card_index": 40,
+   "text": "Of the two unequal grooves on the DNA double helix’s surface, the much wider one is the {{c1::major}} groove a",
+   "figure": "FIGURE 9.8",
+   "file": "figures/study/FIGURE_9_8.jpg",
+   "native_file": "figures/FIGURE_9_8.jpg",
+   "coverage": 0.5,
+   "page_dist": 2,
+   "matched_terms": [
+    "major"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "faces montage on the groove card is the canonical 'why is that there?'"
+  },
+  {
+   "card_index": 55,
+   "text": "Chromatin's proteins fall into two classes: the basic, positively charged {{c1::histones}}, and the heterogene",
+   "figure": "FIGURE 9.16",
+   "file": "figures/study/FIGURE_9_16.jpg",
+   "native_file": "figures/FIGURE_9_16.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "nonhistone",
+    "proteins"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: full-page render, not a plate"
+  },
+  {
+   "card_index": 61,
+   "text": "Each eukaryotic chromosome consists of {{c1::one single, giant DNA molecule::how many DNA molecules}}.",
+   "figure": "FIGURE 9.18",
+   "file": "figures/study/FIGURE_9_18.jpg",
+   "native_file": "figures/FIGURE_9_18.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "dna",
+    "molecule"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "one-molecule-per-chromosome card; a nucleosome diagram answers nothing here"
+  },
+  {
+   "card_index": 75,
+   "text": "In density-gradient centrifugation, G:C-rich DNA comes to rest {{c1::lower::higher or lower}} than typical DNA",
+   "figure": "FIGURE 9.13",
+   "file": "figures/study/FIGURE_9_13.jpg",
+   "native_file": "figures/FIGURE_9_13.png",
+   "coverage": 0.5,
+   "page_dist": 2,
+   "matched_terms": [
+    "lower"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "density-gradient card; supercoil micrograph unrelated"
+  },
+  {
+   "card_index": 1,
+   "text": "In Griffith's experiment, mice injected with a mix of heat-killed virulent Type IIIS and living avirulent Type",
+   "figure": "FIGURE 9.2",
+   "file": "figures/study/FIGURE_9_2.jpg",
+   "native_file": "figures/FIGURE_9_2.png",
+   "coverage": 0.4,
+   "page_dist": 1,
+   "matched_terms": [
+    "iiis",
+    "type"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: results-only truncation — treatment flow cut away"
+  },
+  {
+   "card_index": 110,
+   "text": " Chromatin  is {{c1::the DNA–protein complex that chromosomes are made of}}.",
+   "figure": "TABLE 9.4",
+   "file": "figures/study/TABLE_9_4.jpg",
+   "native_file": "figures/TABLE_9_4.jpg",
+   "coverage": 0.4,
+   "page_dist": 1,
+   "matched_terms": [
+    "chromosomes",
+    "dna"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "plate rejected: wrong art (beads micrograph)"
+  },
+  {
+   "card_index": 31,
+   "text": "The X-ray diffraction data behind the double-helix model came from {{c1::Maurice Wilkins and Rosalind Franklin",
+   "figure": "FIGURE 9.9",
+   "file": "figures/study/FIGURE_9_9.jpg",
+   "native_file": "figures/FIGURE_9_9.jpg",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "franklin",
+    "maurice",
+    "rosalind",
+    "wilkins"
+   ],
+   "archetype": false,
+   "why": "numeric fact — a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "Chargaff arithmetic card; the diffraction photo teaches no percentage"
+  },
+  {
+   "card_index": 38,
+   "text": "The two sugar-phosphate backbones of a double helix run in opposite directions — one 5′→3′, the other 3′→5′ — ",
+   "figure": "FIGURE 9.11",
+   "file": "figures/study/FIGURE_9_11.jpg",
+   "native_file": "figures/FIGURE_9_11.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "antiparallel"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "plate rejected: clipped fragment"
+  },
+  {
+   "card_index": 58,
+   "text": "Histones are basic because {{c3::20 to 30::percent}}% of their amino acids are {{c1::arginine and lysine::2 am",
+   "figure": "FIGURE 9.16",
+   "file": "figures/study/FIGURE_9_16.jpg",
+   "native_file": "figures/FIGURE_9_16.png",
+   "coverage": 0.667,
+   "page_dist": 0,
+   "matched_terms": [
+    "arginine",
+    "lysine"
+   ],
+   "archetype": false,
+   "why": "numeric fact — a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "plate rejected: full-page render, not a plate"
+  },
+  {
+   "card_index": 2,
+   "text": "The unknown agent from heat-killed Type IIIS cells that converted living Type IIR cells into Type IIIS was nam",
+   "figure": "FIGURE 9.2",
+   "file": "figures/study/FIGURE_9_2.jpg",
+   "native_file": "figures/FIGURE_9_2.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "principle",
+    "transforming"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "plate rejected: results-only truncation — treatment flow cut away"
+  },
+  {
+   "card_index": 5,
+   "text": "To rule out protein contamination of their DNA extract, Avery's team used specific enzymes to destroy one cand",
+   "figure": "FIGURE 9.2",
+   "file": "figures/study/FIGURE_9_2.jpg",
+   "native_file": "figures/FIGURE_9_2.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "dnase"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "plate rejected: results-only truncation — treatment flow cut away"
+  },
+  {
+   "card_index": 12,
+   "text": "The loose end in Hershey and Chase's proof — a significant amount of {{c1::³⁵S (protein)::isotope}} entered th",
+   "figure": "FIGURE 9.4",
+   "file": "figures/study/FIGURE_9_4.jpg",
+   "native_file": "figures/FIGURE_9_4.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "protein"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "card is phage transfection, plate is TMV — wrong virus, wrong experiment"
+  },
+  {
+   "card_index": 44,
+   "text": "Supercoils enter DNA when one or both strands are {{c1::cleaved}}, the ends are {{c1::twisted around each othe",
+   "figure": "FIGURE 9.13",
+   "file": "figures/study/FIGURE_9_13.jpg",
+   "native_file": "figures/FIGURE_9_13.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "fixed",
+    "twisted"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "A-DNA conformation card; the micrograph shows supercoiling, not helix forms"
+  },
+  {
+   "card_index": 62,
+   "text": "Kavenoff and Zimm sized the largest Drosophila DNA by its stretch-relaxation behavior in solution; the result ",
+   "figure": "FIGURE 9.17",
+   "file": "figures/study/FIGURE_9_17.jpg",
+   "native_file": "figures/FIGURE_9_17.jpg",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "joined",
+    "linkers"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "viscoelastic-sizing card; beads micrograph is a different experiment"
+  },
+  {
+   "card_index": 73,
+   "text": "The human genome has about {{c1::700::factor}}× more DNA than E. coli's but only {{c1::4.5::factor}}× more gen",
+   "figure": "FIGURE 9.22",
+   "file": "figures/study/FIGURE_9_22.jpg",
+   "native_file": "figures/FIGURE_9_22.jpg",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "human"
+   ],
+   "archetype": false,
+   "why": "numeric fact — a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "genome-size paradox card; scaffold micrograph unrelated"
+  },
+  {
+   "card_index": 103,
+   "text": " Deoxyribonuclease (DNase)  is {{c1::an enzyme that cuts up DNA}}.",
+   "figure": "FIGURE 9.2",
+   "file": "figures/study/FIGURE_9_2.jpg",
+   "native_file": "figures/FIGURE_9_2.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "plate rejected: results-only truncation — treatment flow cut away"
+  },
+  {
+   "card_index": 104,
+   "text": " Ribonuclease (RNase)  is {{c1::an enzyme that cuts up RNA}}.",
+   "figure": "FIGURE 9.4",
+   "file": "figures/study/FIGURE_9_4.jpg",
+   "native_file": "figures/FIGURE_9_4.png",
+   "coverage": 0.333,
+   "page_dist": 2,
+   "matched_terms": [
+    "rna"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "denaturation card; TMV plate unrelated"
+  },
+  {
+   "card_index": 109,
+   "text": " Genotypically  means {{c1::in terms of genetic makeup}}.",
+   "figure": "FIGURE 9.4",
+   "file": "figures/study/FIGURE_9_4.jpg",
+   "native_file": "figures/FIGURE_9_4.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "genetic"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "in situ hybridization card; TMV plate unrelated"
+  },
+  {
+   "card_index": 47,
+   "text": "In most viruses and prokaryotes, all the genes reside in {{c1::a single chromosome}} consisting of {{c1::one m",
+   "figure": "TABLE 9.3",
+   "file": "figures/study/TABLE_9_3.jpg",
+   "native_file": "figures/TABLE_9_3.png",
+   "coverage": 0.286,
+   "page_dist": 1,
+   "matched_terms": [
+    "dna",
+    "single"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "in-vivo negative supercoiling card; the A/B/Z geometry table is adjacent, not depicting"
+  },
+  {
+   "card_index": 98,
+   "text": " DNA (deoxyribonucleic acid)  is {{c1::the usually double-stranded nucleic acid storing genetic information}}.",
+   "figure": "FIGURE 9.3",
+   "file": "figures/study/FIGURE_9_3.jpg",
+   "native_file": "figures/FIGURE_9_3.png",
+   "coverage": 0.286,
+   "page_dist": 2,
+   "matched_terms": [
+    "genetic",
+    "information"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "a phage anatomy plate on the generic DNA definition invites 'why a virus?'"
+  },
+  {
+   "card_index": 64,
+   "text": "Partial nuclease digestion of chromatin releases DNA fragments in discrete sizes that are {{c1::integral multi",
+   "figure": "TABLE 9.4",
+   "file": "figures/study/TABLE_9_4.jpg",
+   "native_file": "figures/TABLE_9_4.jpg",
+   "coverage": 0.25,
+   "page_dist": 1,
+   "matched_terms": [
+    "smallest"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "plate rejected: wrong art (beads micrograph)"
+  },
+  {
+   "card_index": 95,
+   "text": "A  chromosome  is {{c1::one packaged unit of a cell's DNA}}.",
+   "figure": "FIGURE 9.2",
+   "file": "figures/study/FIGURE_9_2.jpg",
+   "native_file": "figures/FIGURE_9_2.png",
+   "coverage": 0.25,
+   "page_dist": 1,
+   "matched_terms": [
+    "dna"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "plate rejected: results-only truncation — treatment flow cut away"
+  },
+  {
+   "card_index": 106,
+   "text": " Bacteriophage T2  is {{c1::a virus that infects E. coli bacteria}}.",
+   "figure": "FIGURE 9.4",
+   "file": "figures/study/FIGURE_9_4.jpg",
+   "native_file": "figures/FIGURE_9_4.png",
+   "coverage": 0.25,
+   "page_dist": 1,
+   "matched_terms": [
+    "virus"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "renaturation-rate card; TMV plate unrelated"
+  },
+  {
+   "card_index": 90,
+   "text": "Telomeres serve three functions:  {{c1::block nuclease degradation of the chromosome ends}}  {{c1::prevent the",
+   "figure": "FIGURE 9.22",
+   "file": "figures/study/FIGURE_9_22.jpg",
+   "native_file": "figures/FIGURE_9_22.jpg",
+   "coverage": 0.231,
+   "page_dist": 2,
+   "matched_terms": [
+    "chromosome",
+    "dna",
+    "ends"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "telomere functions card; scaffold micrograph unrelated"
+  }
+ ]
+}

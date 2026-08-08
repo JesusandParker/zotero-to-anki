@@ -1,0 +1,149 @@
+{
+ "_comment": "term_key -> list of staged lexicon cards. Cache of Anki, verified live before it ever blocks a card; rebuild from runs/*/provenance.jsonl if lost.",
+ "terms": {
+  "chromosom": [
+   {
+    "term": "chromosome",
+    "noteId": 1786226381670,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "one packaged unit of a cell's DNA"
+   }
+  ],
+  "nucl_acid": [
+   {
+    "term": "nucleic acids",
+    "noteId": 1786226381720,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "an information-carrying macromolecule built of nucleotide chains"
+   }
+  ],
+  "protein": [
+   {
+    "term": "proteins",
+    "noteId": 1786226381770,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "a macromolecule made of amino-acid (polypeptide) chains"
+   }
+  ],
+  "deoxyribonucl_acid_dna": [
+   {
+    "term": "deoxyribonucleic acid (DNA)",
+    "noteId": 1786226381820,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "the usually double-stranded nucleic acid storing genetic information"
+   }
+  ],
+  "ribonucl_acid_rna": [
+   {
+    "term": "ribonucleic acid (RNA)",
+    "noteId": 1786226381870,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "a usually single-stranded nucleic acid"
+   }
+  ],
+  "type_iiis": [
+   {
+    "term": "Type IIIS",
+    "noteId": 1786226381919,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "the virulent, capsule-bearing strain"
+   }
+  ],
+  "type_iir": [
+   {
+    "term": "Type IIR",
+    "noteId": 1786226381970,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "the avirulent strain lacking a capsule"
+   }
+  ],
+  "in_vitr": [
+   {
+    "term": "in vitro",
+    "noteId": 1786226382022,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "“within glass” — outside a living organism"
+   }
+  ],
+  "deoxyribonucleas_dnas": [
+   {
+    "term": "deoxyribonuclease (DNase)",
+    "noteId": 1786226382070,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "an enzyme that cuts up DNA"
+   }
+  ],
+  "ribonucleas_rnas": [
+   {
+    "term": "ribonuclease (RNase)",
+    "noteId": 1786226382120,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "an enzyme that cuts up RNA"
+   }
+  ],
+  "proteas": [
+   {
+    "term": "protease",
+    "noteId": 1786226382170,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "an enzyme that cuts up proteins"
+   }
+  ],
+  "bacteriophag_t2": [
+   {
+    "term": "Bacteriophage T2",
+    "noteId": 1786226382221,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "a virus that infects E. coli bacteria"
+   }
+  ],
+  "tobacc_mosa_viru_tmv": [
+   {
+    "term": "tobacco mosaic virus (TMV)",
+    "noteId": 1786226382295,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "a plant virus: RNA in a protein coat"
+   }
+  ],
+  "phenotypicall": [
+   {
+    "term": "phenotypically",
+    "noteId": 1786226382345,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "in terms of observable traits"
+   }
+  ],
+  "genotypicall": [
+   {
+    "term": "genotypically",
+    "noteId": 1786226382395,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "in terms of genetic makeup"
+   }
+  ],
+  "chromatin": [
+   {
+    "term": "chromatin",
+    "noteId": 1786226382445,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "the DNA–protein complex that chromosomes are made of"
+   }
+  ]
+ }
+}

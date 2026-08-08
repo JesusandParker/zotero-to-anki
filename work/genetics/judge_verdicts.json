@@ -1,0 +1,287 @@
+[
+ {
+  "idx": 5,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 8,
+  "verdict": "PASS",
+  "issues": [
+   "Rewrite handled the source's asymmetry exactly right: P 'virtually absent' from protein, S fully 'absent' from DNA — matches AAOS-style precision of the Snustad text (p192)."
+  ]
+ },
+ {
+  "idx": 15,
+  "verdict": "PASS",
+  "issues": [
+   "Accepted structural echo, documented: on the c1 card the revealed c2 tail ('donated the RNA') names one of the c1 answers, making the RNA slot near-free. Unavoidable on a one-note components+result structure — any correct statement of the result must name RNA, and other cloze numbers are always shown. Real recall remains (protein coat + hybrid design), the result direction is separately forced by c2's option hint, and TMV composition is independently tested at idx 107. Same accepted shape as a two-way definition showing the term on the meaning card."
+  ]
+ },
+ {
+  "idx": 16,
+  "verdict": "PASS",
+  "issues": [
+   "Back Extra editor/1871 and N+P-only-in-fats claims sit beyond the context window but carry the 'read from page text this run' clearance and are historically accurate (Hoppe-Seyler's skeptical repeat; N+P coexistence then known only in certain fats). Respected."
+  ]
+ },
+ {
+  "idx": 17,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 21,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 23,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 24,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 26,
+  "verdict": "PASS",
+  "issues": [
+   "Visible 'right-handed' scenery is not under-clozed: sibling idx 41 tests B-DNA handedness as a forced binary. Coverage confirmed against the full deck."
+  ]
+ },
+ {
+  "idx": 28,
+  "verdict": "PASS",
+  "issues": [
+   "c2 (pyrimidines) is arithmetically derivable from the visible T=A and C=G equalities (C+T=A+G follows). Inherent to the chemistry, not a card defect — any phrasing showing the pairwise equalities makes the class-level equality a corollary; deriving it IS knowing it. Answer word also near-forced by parallelism; accepted as an easy-but-legitimate corollary blank."
+  ]
+ },
+ {
+  "idx": 29,
+  "verdict": "PASS",
+  "issues": [
+   "Arithmetic re-verified: %G=33 -> %C=33 -> A+T=34 -> A=17. numeric:true correctly set; PARTIAL-grounded mark covered by 'read from page text' clearance."
+  ]
+ },
+ {
+  "idx": 30,
+  "verdict": "PASS",
+  "issues": [
+   "Forms a deliberate two-way pair with idx 48 (strandedness-given-phage vs phage-given-strandedness); claims differ (arithmetic-trap consequence vs genome inventory), so not a rule-12 duplicate."
+  ]
+ },
+ {
+  "idx": 31,
+  "verdict": "PASS",
+  "issues": [
+   "Visible '0.34 nm' scenery is not under-clozed: sibling idx 37 tests 0.34 nm and 10 bp/turn. Back Extra diffraction-pattern reading is grounded in the Figure 9.9 caption text within the mark's context."
+  ]
+ },
+ {
+  "idx": 35,
+  "verdict": "PASS",
+  "issues": [
+   "Back Extra clause 'each strand can serve as the template for rebuilding the other during replication' is not on pp198-199 (judge checked the extracted page text) and carries no verified_by. It is standard-correct biology that unpacks the source's own '(Chapter 10)' pointer — zero factual risk, but if the grounding bar is applied mechanically, record a clearance or trim the clause to '...store and transmit genetic information from generation to generation.'"
+  ]
+ },
+ {
+  "idx": 39,
+  "verdict": "PASS",
+  "issues": [
+   "husk_groups clearance verified: each c1 span is independently cued ('many weak ___ between paired bases' vs 'hydrophobic ___ between adjacent base pairs'); both cold-solve with the other hidden."
+  ]
+ },
+ {
+  "idx": 40,
+  "verdict": "PASS",
+  "issues": [
+   "Back Extra groove-binding claim sits past the context window (sentence breaks at 'the interactions') — JUDGE-VERIFIED against printed p199: 'between DNA and proteins that regulate gene expression. Some proteins bind to the major groove; others bind to the minor groove.' Faithful. Recommend recording a verified_by clearance. Wider->major semantic transparency noted and accepted: the nomenclature itself is the tested fact and the descriptive cue is the endorsed classify direction."
+  ]
+ },
+ {
+  "idx": 42,
+  "verdict": "PASS",
+  "issues": [
+   "Metadata: clozed numeric answer (11 bp/turn) but numeric:false, while equivalent siblings (idx 37: 10 bp/turn, idx 66: 1.65 turns) carry numeric:true. Flag for the numeric human-glance queue; content itself verified against Table 9.3 in the mark's context."
+  ]
+ },
+ {
+  "idx": 43,
+  "verdict": "PASS",
+  "issues": [
+   "Metadata: clozed numeric answer (12 bp/turn) but numeric:false — same inconsistency as idx 42. All science verified against context (left-handed, zigzag, G:C-rich alternating pu/py, 12 bp/turn, 1.8 nm thinnest, single deep groove, function unclear). c3 left unhinted is acceptable: 'with alternating purines and pyrimidines' frames the slot as base composition; forced for a knower."
+  ]
+ },
+ {
+  "idx": 45,
+  "verdict": "PASS",
+  "issues": [
+   "Third/fourth c1 blanks are unhinted complements of the two hinted binaries — forced by contrast once the first pair is answered; load is 2 real decisions, not 4."
+  ]
+ },
+ {
+  "idx": 46,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 47,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 48,
+  "verdict": "PASS",
+  "issues": [
+   "Two-way pair with idx 30 — see idx 30 note. Back Extra numbers (5386 nt, 11 genes) grounded verbatim in the cited context."
+  ]
+ },
+ {
+  "idx": 52,
+  "verdict": "PASS",
+  "issues": [
+   "Row 2 (RNase) has no per-row option hint but the lead-in + enzyme key force the two-part outcome (unfolds loops, supercoiling unchanged) — both halves grounded verbatim in marks 71/72; cold-solves for a knower."
+  ]
+ },
+ {
+  "idx": 54,
+  "verdict": "PASS",
+  "issues": [
+   "Back Extra 'nonhistone fraction varies widely among cell types' JUDGE-VERIFIED verbatim on printed p204 ('the composition of this fraction varies widely among different cell types in an organism') — the clearance note checks out; the Fig 9.16 caption's procedure-dependence line is a different, compatible claim."
+  ]
+ },
+ {
+  "idx": 58,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 61,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 62,
+  "verdict": "PASS",
+  "issues": [
+   "c1's visible tail implies the treatment degrades protein, but the graded recall is the specific reagent name (pronase) with its definition hidden inside the cloze — situational cue forcing a name, the endorsed shape."
+  ]
+ },
+ {
+  "idx": 65,
+  "verdict": "PASS",
+  "issues": [
+   "Metadata: clozed numeric answer (146 bp) but numeric:false, inconsistent with siblings 66/67-adjacent convention. Flag for the numeric queue. Science verified: 146 np core, octamer = 2x each of H2a/H2b/H3/H4 (H1 correctly excluded — tested on idx 67)."
+  ]
+ },
+ {
+  "idx": 68,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 71,
+  "verdict": "PASS",
+  "issues": [
+   "Endorsed step-scaffold shape: ordinals printed, products clozed, 3 keyed rows under one number, Roster on the back. Not a quantitative panel (only two numeric answers, embedded in named structures; row 3 non-numeric)."
+  ]
+ },
+ {
+  "idx": 72,
+  "verdict": "PASS",
+  "issues": [
+   "Idx 71's visible row-3 key ('nonhistone scaffold') does pre-teach this card's two answers when both cards circulate; noted, but rule-13/check-16 scopes sibling-leak to scenario/classify exemplar reuse, and the two cards test different claims. Accepted."
+  ]
+ },
+ {
+  "idx": 73,
+  "verdict": "PASS",
+  "issues": [
+   "Back Extra junk-DNA claim JUDGE-VERIFIED verbatim on printed p209: 'we now know that \"junk\" DNA is an important feature of chromosome structure.' Clearance checks out. Ratios re-verified: 3.2B/4.5M ~ 700x; 20,500/4,500 ~ 4.5x."
+  ]
+ },
+ {
+  "idx": 74,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 75,
+  "verdict": "PASS",
+  "issues": [
+   "Why-line correctly synthesizes the cited pairing mark (idx 47: 2 vs 3 H-bonds) with the density mark — both in from_idx; provenance clean."
+  ]
+ },
+ {
+  "idx": 76,
+  "verdict": "PASS",
+  "issues": [
+   "c2 '100' carries no hint but the unit °C sits immediately after the blank — rule 27's explicit exemption; the slot self-announces."
+  ]
+ },
+ {
+  "idx": 77,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 81,
+  "verdict": "PASS",
+  "issues": [
+   "Back Extra spans the p210->211 page break beyond the extractor context and carried NO clearance note — JUDGE-VERIFIED against printed p211: 'are found in the arms of chromosomes; some of them are arranged in tandem arrays, whereas others occupy dispersed sites. Many of the dispersed repetitive DNA sequences... transposons...' Faithful render. Record a verified_by so the provenance trail is complete."
+  ]
+ },
+ {
+  "idx": 86,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 90,
+  "verdict": "PASS",
+  "issues": [
+   "3 uncued items under one number = within Cowan capacity; count visible via three <br><br> rows + 'three' in the lead-in; set complete vs the source's list."
+  ]
+ },
+ {
+  "idx": 91,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 92,
+  "verdict": "PASS",
+  "issues": []
+ },
+ {
+  "idx": 94,
+  "verdict": "PASS",
+  "issues": [
+   "'single-stranded overhang' vs the cited mark's 'single-stranded repeat sequences': the overhang term is the page's own vocabulary (the G-rich 3' overhang, tested at idx 93) and denotes the same DNA — equivalent, correct paraphrase. Count 'six' properly hinted; the three non-binding subunits correctly live in Back Extra per the source's own 3-of-6 partition (the highlighted claims are the complex, the count, and the three binders)."
+  ]
+ },
+ {
+  "idx": 98,
+  "verdict": "PASS",
+  "issues": [
+   "Answer's genus 'nucleic acid' recycles words visible in the term — noted, not the hemolysis-failure shape: the discriminating content (usually double-stranded + stores genetic information) carries the definition, sibling idx 96 defines the genus, and the answer AGREES with the glossary anchor ('the information-carrying genetic material')."
+  ]
+ },
+ {
+  "idx": 99,
+  "verdict": "PASS",
+  "issues": [
+   "ANCHOR EVIDENCE DEFECT (pipeline action needed, not a field fix): the recorded anchor quote is 'Ribonucleic acid: See RNA.' — a cross-reference with zero definitional content, so the R37 agreement check is vacuous. This is the SENSE-CHECK/provisional headword shape 4b warns about (lexicon.py anchored the see-ref headword, not the real entry). JUDGE-VERIFIED the glossary's actual RNA entry from the PDF: 'RNA. Ribonucleic acid; the information-carrying material in some viruses; more generally, a molecule derived from DNA by transcription that may carry information (mRNA), provide subcellular structure (rRNA), transport amino acids (tRNA)...' — no conflict with the authored answer, whose discriminator (usually single-stranded) is chapter-grounded (p195 'RNA usually exists as a single-stranded polymer') and whose viral-genetic-material nuance sits grounded in the Cue. ACTION: re-anchor evidence term_key ribonucl_acid_rna to the real 'RNA' glossary entry (or downgrade to external + needs_human_check). Optionally fold 'information-carrying' into the answer to make agreement self-evident."
+  ]
+ },
+ {
+  "idx": -1,
+  "verdict": "SUMMARY",
+  "issues": [
+   "44 PASS / 0 REWRITE / 0 DROP"
+  ]
+ }
+]

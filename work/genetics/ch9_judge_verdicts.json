@@ -1,0 +1,847 @@
+{
+ "source": "genetics",
+ "segment": 9,
+ "figures": [
+  {
+   "figure": "FIGURE 9.1",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_1.jpg",
+   "caption": "◾ FIGURE 9.1 Sia and Dawson’s demonstration of transformation in Streptococcus pneumoniae in vitro .",
+   "publisher_description": null,
+   "depicts": "Sia–Dawson in vitro transformation: test tubes and petri dishes (IIR colonies / no colonies / IIIS colonies). CROP TRUNCATED: left column clipped, bottom panel cut mid-row.",
+   "cards": [
+    {
+     "card_index": 3,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "In {{c1::1931::year}}, {{c1::Richard Sia and Martin Dawson::two researchers}} showed that pneumococcal transfo",
+     "verdict": "drop",
+     "why": "plate rejected: truncated crop"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.10",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_10.jpg",
+   "caption": "◾ FIGURE 9.10 Diagram of the double-helix structure of DNA. TABLE 9.2 Chemical Bonds Important in DNA Structure",
+   "publisher_description": null,
+   "depicts": "Ribbon double helix with S–P backbones, lettered base pairs (dotted H-bonds), antiparallel arrows, 3'/5' ends, 0.34 nm and 3.4 nm spacing brackets.",
+   "cards": [
+    {
+     "card_index": 25,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "RNA usually exists as a {{c1::single::single or double}}-stranded polymer, whereas DNA is usually {{c1::double",
+     "verdict": "drop",
+     "why": "the DNA helix plate shows no uracil — the card's contrast is RNA's base"
+    },
+    {
+     "card_index": 33,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "Watson–Crick base pairing is specific: adenine always pairs with {{c1::thymine}}, and guanine always pairs wit",
+     "verdict": "keep",
+     "why": "the ribbon helix shows every A–T and G–C pairing with the letters visible — the pairing rule drawn",
+     "forced": true
+    },
+    {
+     "card_index": 35,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "Because base pairing is strict, the sequence of one DNA strand fixes the sequence of the other — the two stran",
+     "verdict": "keep",
+     "why": "backbone S–P chain and dotted interstrand H-bonds are both drawn — the two bond classes the card contrasts",
+     "forced": true
+    },
+    {
+     "card_index": 36,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "One DNA strand reads 5′-ATCG-3′. Written in the conventional 5′→3′ direction, its complementary strand is {{c1",
+     "verdict": "keep",
+     "why": "the dotted H-bond columns differ visibly between A–T and G–C pairs",
+     "forced": true
+    },
+    {
+     "card_index": 37,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "In the B-DNA double helix, base pairs stack {{c1::0.34 nm::distance}} apart, with {{c1::10::bp per turn}} base",
+     "verdict": "keep",
+     "why": "the plate prints the 0.34 nm spacing and full-turn brackets the card drills",
+     "forced": true
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.11",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_11.jpg",
+   "caption": "◾ FIGURE 9.11 Diagram of a DNA double helix, illustrating the opposite chemical polarity (see Figure 9.7) of the two strands and the hydrogen bonding between thymine (T) and adenine (A) and between cytosine (C) and guanine (G). The base- pairing in DNA, T with A and C with G, is governed by the hydrogen-bonding potential of the bases. S = the sugar 2-deoxyribose; P = a phosphate group. P 3 ´",
+   "publisher_description": null,
+   "depicts": "Fragment of one sugar-phosphate backbone strip with a 5'→3' arrow; left edge clipped mid-artwork.",
+   "cards": [
+    {
+     "card_index": 35,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Because base pairing is strict, the sequence of one DNA strand fixes the sequence of the other — the two stran",
+     "verdict": "drop",
+     "why": "plate rejected: clipped fragment"
+    },
+    {
+     "card_index": 33,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "Watson–Crick base pairing is specific: adenine always pairs with {{c1::thymine}}, and guanine always pairs wit",
+     "verdict": "drop",
+     "why": "plate rejected: clipped fragment"
+    },
+    {
+     "card_index": 38,
+     "tier": "context",
+     "coverage": 1.0,
+     "text": "The two sugar-phosphate backbones of a double helix run in opposite directions — one 5′→3′, the other 3′→5′ — ",
+     "verdict": "drop",
+     "why": "plate rejected: clipped fragment"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.13",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_13.jpg",
+   "caption": "◾ FIGURE 9.13 Comparison of the relaxed and negatively supercoiled structures of DNA. The relaxed structure is B-DNA with 10.4 base pairs per turn of the helix. The negatively supercoiled structure results when B-DNA is underwound, with less than one turn of the helix for every 10.4 base pairs.",
+   "publisher_description": null,
+   "depicts": "Electron micrograph: relaxed circular DNA (open loop) beside a tightly interwound negatively supercoiled molecule.",
+   "cards": [
+    {
+     "card_index": 46,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "In vivo, the functional DNA of almost all organisms is {{c1::negatively::positively or negatively}} supercoile",
+     "verdict": "keep",
+     "why": "relaxed vs supercoiled molecules — exactly the transformation the card defines"
+    },
+    {
+     "card_index": 75,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "In density-gradient centrifugation, G:C-rich DNA comes to rest {{c1::lower::higher or lower}} than typical DNA",
+     "verdict": "drop",
+     "why": "density-gradient card; supercoil micrograph unrelated"
+    },
+    {
+     "card_index": 44,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "Supercoils enter DNA when one or both strands are {{c1::cleaved}}, the ends are {{c1::twisted around each othe",
+     "verdict": "drop",
+     "why": "A-DNA conformation card; the micrograph shows supercoiling, not helix forms"
+    },
+    {
+     "card_index": 45,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "Twisting cut DNA in the same direction as the helix winds produces a {{c1::positive::positive or negative}} su",
+     "verdict": "keep",
+     "why": "shows the two states (relaxed/supercoiled) the sign convention distinguishes"
+    },
+    {
+     "card_index": 47,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "In most viruses and prokaryotes, all the genes reside in {{c1::a single chromosome}} consisting of {{c1::one m",
+     "verdict": "keep",
+     "why": "the negatively supercoiled molecule the card says nearly all in-vivo DNA resembles",
+     "forced": true
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.15",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_15.jpg",
+   "caption": "◾ FIGURE 9.15 Diagram of the structure of the functional state of the E. coli chromosome.",
+   "publisher_description": null,
+   "depicts": "Diagram of the E. coli folded genome: 350-μm open circle → 40–50 RNA-anchored loops (30 μm) → independently supercoiled loops (2 μm), with partial-RNase (unfolds) and partial-DNase (one loop relaxes) branches.",
+   "cards": [
+    {
+     "card_index": 51,
+     "tier": "context",
+     "coverage": 0.6,
+     "text": "The functional state of a bacterial chromosome is the {{c1::folded genome}}: the DNA is organized into {{c2::5",
+     "verdict": "keep",
+     "why": "plate shows the folded genome's loops, RNA anchors, and per-loop supercoiling"
+    },
+    {
+     "card_index": 52,
+     "tier": "context",
+     "coverage": 0.143,
+     "text": "Enzyme probes dissect the bacterial folded genome:  One single-strand DNase nick → relaxes {{c1::only the nick",
+     "verdict": "keep",
+     "why": "plate literally draws the partial-RNase and partial-DNase outcomes"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.16",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_16.jpg",
+   "caption": "◾ FIGURE 9.16 The chemical composition of chromatin as a function of the total nuclear content. The DNA and histone contents of chromatin are relatively constant, but the amount of nonhistone proteins present depends on the procedure used to isolate the chromatin (dashed arrow). + groups of arginine and lysine allow",
+   "publisher_description": null,
+   "depicts": "Full-page render of p225 (body text, his purple highlight, chromatin pie chart at right). Not a plate.",
+   "cards": [
+    {
+     "card_index": 54,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Chemical analysis shows chromatin consists primarily of {{c1::DNA}} and {{c1::proteins}}, with lesser amounts ",
+     "verdict": "drop",
+     "why": "plate rejected: full-page render, not a plate"
+    },
+    {
+     "card_index": 55,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "Chromatin's proteins fall into two classes: the basic, positively charged {{c1::histones}}, and the heterogene",
+     "verdict": "drop",
+     "why": "plate rejected: full-page render, not a plate"
+    },
+    {
+     "card_index": 58,
+     "tier": "context",
+     "coverage": 0.667,
+     "text": "Histones are basic because {{c3::20 to 30::percent}}% of their amino acids are {{c1::arginine and lysine::2 am",
+     "verdict": "drop",
+     "why": "plate rejected: full-page render, not a plate"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.17",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_17.jpg",
+   "caption": "◾ FIGURE 9.17 Electron micrograph ( a ) and low-resolution diagram ( b ) of the beads-on-a-string nucleosome substructure of chromatin isolated from interphase nuclei. In vivo, the DNA linkers are probably wound between the nucleosomes forming a condensed 11-nm fiber.",
+   "publisher_description": null,
+   "depicts": "Electron micrograph of chromatin as beads on a string — nucleosomes joined by thin linker threads.",
+   "cards": [
+    {
+     "card_index": 63,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "Gently isolated interphase chromatin looks like beads on a string: ellipsoidal beads about {{c1::11 nm::diamet",
+     "verdict": "keep",
+     "why": "the beads-on-a-string micrograph the card describes"
+    },
+    {
+     "card_index": 62,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "Kavenoff and Zimm sized the largest Drosophila DNA by its stretch-relaxation behavior in solution; the result ",
+     "verdict": "drop",
+     "why": "viscoelastic-sizing card; beads micrograph is a different experiment"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.18",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_18.jpg",
+   "caption": "◾ FIGURE 9.18 Diagrams of the gross structure of ( a ) the nucleosome core and ( b ) the complete nucleo- some. The nucleosome core contains 146 nucleotide pairs wound as 1.65 turns of negatively supercoiled DNA around an octamer of histones—two molecules each of histones H2a, H2b, H3, and H4. The complete nucleosome contains 166 nucleotide pairs that form almost two superhelical turns of DNA around the his- tone octamer. One molecule of histone H1 is thought to stabilize the complete nucleosome. Reprinted with permission from Karolyn Luger, et al., Nature 389:251m 1997, courtesy of Timothy",
+   "publisher_description": null,
+   "depicts": "Nucleosome core (DNA superhelix around the histone octamer, 11 nm) and complete nucleosome with histone H1 in green bound outside. Left-edge labels partially clipped.",
+   "cards": [
+    {
+     "card_index": 67,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The complete nucleosome contains {{c1::166::bp count}} nucleotide pairs — two full superhelical turns — stabil",
+     "verdict": "keep",
+     "why": "plate shows the complete nucleosome with H1 bound outside"
+    },
+    {
+     "card_index": 61,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "Each eukaryotic chromosome consists of {{c1::one single, giant DNA molecule::how many DNA molecules}}.",
+     "verdict": "drop",
+     "why": "one-molecule-per-chromosome card; a nucleosome diagram answers nothing here"
+    },
+    {
+     "card_index": 65,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "The nucleosome core is {{c1::146::bp count}} nucleotide pairs of DNA wrapped around a histone octamer — two mo",
+     "verdict": "keep",
+     "why": "the 146-bp superhelix around the octamer is the drawn subject",
+     "forced": true
+    },
+    {
+     "card_index": 66,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "In the nucleosome core, the DNA winds {{c1::1.65::number of turns}} times around the outside of the histone oc",
+     "verdict": "keep",
+     "why": "the winding turns around the octamer are the drawn subject",
+     "forced": true
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.2",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_2.jpg",
+   "caption": "◾ FIGURE 9.2 Avery, MacLeod, and McCarty’s proof that the “transforming principle” is DNA. Type IIR cells No colonies",
+   "publisher_description": null,
+   "depicts": "Only the RESULT column of Avery–MacLeod–McCarty: six petri dishes (IIR colonies, none, IIIS ×3, none). The enzyme-treatment flow that gives the dishes meaning is cut away.",
+   "cards": [
+    {
+     "card_index": 4,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "{{c1::Oswald Avery, Colin MacLeod, and Maclyn McCarty::three researchers}} showed that {{c2::DNA::molecule}} i",
+     "verdict": "drop",
+     "why": "plate rejected: results-only truncation — treatment flow cut away"
+    },
+    {
+     "card_index": 6,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "A cell-free bacterial extract carries genetic information of unknown molecular identity. Treating it with DNas",
+     "verdict": "drop",
+     "why": "plate rejected: results-only truncation — treatment flow cut away"
+    },
+    {
+     "card_index": 1,
+     "tier": "teaches",
+     "coverage": 0.4,
+     "text": "In Griffith's experiment, mice injected with a mix of heat-killed virulent Type IIIS and living avirulent Type",
+     "verdict": "drop",
+     "why": "plate rejected: results-only truncation — treatment flow cut away"
+    },
+    {
+     "card_index": 2,
+     "tier": "context",
+     "coverage": 0.5,
+     "text": "The unknown agent from heat-killed Type IIIS cells that converted living Type IIR cells into Type IIIS was nam",
+     "verdict": "drop",
+     "why": "plate rejected: results-only truncation — treatment flow cut away"
+    },
+    {
+     "card_index": 5,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "To rule out protein contamination of their DNA extract, Avery's team used specific enzymes to destroy one cand",
+     "verdict": "drop",
+     "why": "plate rejected: results-only truncation — treatment flow cut away"
+    },
+    {
+     "card_index": 103,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": " Deoxyribonuclease (DNase)  is {{c1::an enzyme that cuts up DNA}}.",
+     "verdict": "drop",
+     "why": "plate rejected: results-only truncation — treatment flow cut away"
+    },
+    {
+     "card_index": 95,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "A  chromosome  is {{c1::one packaged unit of a cell's DNA}}.",
+     "verdict": "drop",
+     "why": "plate rejected: results-only truncation — treatment flow cut away"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.21",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_21.jpg",
+   "caption": "◾ FIGURE 9.21 Electron micrograph ( a ) and cryoelectron micrographs ( b ) of the 30-nm chromatin fibers in eukaryotic chromosomes. The structure of 30-nm chromatin fibers seems to vary based on the procedures used to isolate and photograph them. ( c ) According to one popular model, the 30-nm fiber is produced by coiling the 11-nm nucleosome fiber into a solenoid structure with six nucleosomes per turn. ( d ) However, when chroma- tin is visualized after cryopreservation (quick freezing) without fixation, it exhibits a zigzag structure whose density—expanded versus contracted— varies with ionic strength and with chemical modifications of the histone molecules. KEY POINTS • Each eukaryotic chromosome contains one giant molecule of DNA packaged into 11-nm ellipsoidal beads called nucleosomes. • The condensed chromosomes that are present in mitosis and meiosis and carefully isolated",
+   "publisher_description": null,
+   "depicts": "Illustration of nucleosome clusters with linking DNA — the 30-nm fiber substructure models.",
+   "cards": [
+    {
+     "card_index": 70,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The two competing models for the 30-nm fiber's substructure are the {{c1::solenoid}} model and the {{c1::zigza",
+     "verdict": "keep",
+     "why": "the 30-nm fiber substructure the models describe"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.22",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_22.jpg",
+   "caption": "◾ FIGURE 9.22 Electron micrograph of a human metaphase chromosome from which the histones have been removed. A huge pool of DNA surrounds a central “scaffold” composed of nonhistone chromosomal proteins. Note that the scaffold has roughly the same shape as the metaphase chromosome prior to removal of the histones. Also note the absence of ends of DNA molecules in the halo of DNA surrounding the scaffold. Metaphase chromosome 11–nm nucleosomes",
+   "publisher_description": null,
+   "depicts": "Electron micrograph: histone-stripped metaphase chromosome — dark nonhistone scaffold retaining chromosome shape inside a huge halo of DNA.",
+   "cards": [
+    {
+     "card_index": 72,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The central core of a metaphase chromosome — the {{c1::scaffold}} — is composed of {{c2::nonhistone::histone o",
+     "verdict": "keep",
+     "why": "the histone-stripped scaffold + DNA halo the card describes"
+    },
+    {
+     "card_index": 73,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "The human genome has about {{c1::700::factor}}× more DNA than E. coli's but only {{c1::4.5::factor}}× more gen",
+     "verdict": "drop",
+     "why": "genome-size paradox card; scaffold micrograph unrelated"
+    },
+    {
+     "card_index": 90,
+     "tier": "context",
+     "coverage": 0.231,
+     "text": "Telomeres serve three functions:  {{c1::block nuclease degradation of the chromosome ends}}  {{c1::prevent the",
+     "verdict": "drop",
+     "why": "telomere functions card; scaffold micrograph unrelated"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.23",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_23.jpg",
+   "caption": "◾ FIGURE 9.23 Diagram showing the different levels of DNA packaging in chromosomes. The 2-nm DNA molecule is first condensed into 11-nm nucleosomes, which are further condensed into 30-nm chromatin fibers. The 30-nm fibers are then segregated into supercoiled domains or loops via their attachment to chromosome scaffolds composed of nonhistone chromosomal proteins. After Figure 1 in The ENCODE Project Consortium. Science 306:636–640, Oct. 22, 2004.",
+   "publisher_description": null,
+   "depicts": "Packaging cascade diagram (re-cropped clean): metaphase chromosome → 30-nm chromatin fiber → 11-nm nucleosomes → 2-nm DNA molecule, all labeled.",
+   "cards": [
+    {
+     "card_index": 53,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The compaction of a chromosome's material into a much smaller volume for mitosis or meiosis is called {{c1::co",
+     "verdict": "keep",
+     "why": "the condensation cascade illustrates the process the card names"
+    },
+    {
+     "card_index": 71,
+     "tier": "teaches",
+     "coverage": 0.75,
+     "text": "Eukaryotic DNA is packaged through three levels of condensation:  Level 1 — DNA wound into nucleosomes → {{c1:",
+     "verdict": "keep",
+     "why": "the plate IS the three-level packaging cascade"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.24",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_24.jpg",
+   "caption": "◾ FIGURE 9.24 The location of alpha satellite DNA sequences (yellow) in the centromeres of human chromosomes (red).",
+   "publisher_description": null,
+   "depicts": "FISH photo: human metaphase chromosomes in red with yellow alpha-satellite signals at every centromere.",
+   "cards": [
+    {
+     "card_index": 81,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Highly repetitive DNA is concentrated primarily in the regions around the {{c1::centromeres::chromosome landma",
+     "verdict": "keep",
+     "why": "yellow centromeric signals show repetitive DNA concentrated at centromeres"
+    },
+    {
+     "card_index": 83,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "Spindle microtubules attach to a chromosome at its {{c1::kinetochores}} — complex protein structures assembled",
+     "verdict": "keep",
+     "why": "centromere dots on every chromosome — where kinetochores assemble"
+    },
+    {
+     "card_index": 86,
+     "tier": "context",
+     "coverage": 1.0,
+     "text": "Human centromeres are built of long tandem arrays of the {{c1::alpha satellite}} sequence — a {{c2::171::bp co",
+     "verdict": "keep",
+     "why": "alpha-satellite signals at every centromere; table-on-back design for the numbers"
+    },
+    {
+     "card_index": 74,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "In density-gradient centrifugation, the genomic fractions that settle away from the main band (because they ar",
+     "verdict": "keep",
+     "why": "the photo shows satellite DNA localized as the card's repetitive fraction"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.25",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_25.jpg",
+   "caption": "◾ FIGURE 9.25 Model of a human telomere stabilized by the formation of a t-loop coated with shelterin. The 3 ′ -terminus forms a t-loop by invading an upstream telomere repeat and pairing with the complementary strand. Shelterin contains six protein subunits, along with some associated proteins (not shown). TRF1 and TRF2 are telo- mere repeat-binding factors 1 and 2; they bind specifically to double-stranded repeat sequences. Protein POT1 binds specifically to single-stranded TTAGGG repeats displaced by the invading 3 ′ -terminus of the telomeric DNA. TIN2 and TPP1 tether POT1 to TRF1 and TRF2, and the TRF2-associated Rap1 helps regulate telomere length.",
+   "publisher_description": null,
+   "depicts": "Telomere diagram: TTAGGG/AATCCC repeats, 3' overhang invading upstream repeats to form the t-loop, shelterin subunits labeled (TRF1, TRF2, TIN2, TPP1, POT1, Rap1).",
+   "cards": [
+    {
+     "card_index": 91,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The telomere repeat unit of humans — and vertebrates generally — is {{c1::TTAGGG::6 bases}}.",
+     "verdict": "keep",
+     "why": "the plate prints the TTAGGG repeat runs"
+    },
+    {
+     "card_index": 93,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Most telomeres end in a G-rich, single-stranded {{c1::3′::3′ or 5′}} overhang, which can invade an upstream st",
+     "verdict": "keep",
+     "why": "the plate draws the 3' overhang invading to form the t-loop"
+    },
+    {
+     "card_index": 94,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Telomeric DNA is coated and protected by the {{c3::six::number of proteins}}-protein complex {{c1::shelterin}}",
+     "verdict": "keep",
+     "why": "every shelterin subunit the card names is labeled"
+    },
+    {
+     "card_index": 89,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "The specialized structures at the ends of eukaryotic chromosomes are the {{c1::telomeres}} — the term was coin",
+     "verdict": "keep",
+     "why": "a labeled telomere diagram on the telomere definition card"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.3",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_3.jpg",
+   "caption": "◾ FIGURE 9.3 Hershey and Chase’s demonstration that the genetic information of bacteriophage T2 resides in its DNA.",
+   "publisher_description": null,
+   "depicts": "Labeled anatomy of phage T2 — protein coat, head, DNA, tail core/sheath/fibers — plus its extruded DNA. (Top portion of the full figure; experiment panels not shown.)",
+   "cards": [
+    {
+     "card_index": 8,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The Hershey–Chase labeling strategy exploits one chemical difference: {{c1::phosphorus::element}} is found in ",
+     "verdict": "keep",
+     "why": "phage T2 is the card's subject; labeled anatomy is congruent"
+    },
+    {
+     "card_index": 9,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "In the Hershey–Chase experiment, growing phage in medium with radioactive {{c1::³²P::isotope}} labeled the pha",
+     "verdict": "keep",
+     "why": "plate labels the protein coat and DNA — the two chemistries the card contrasts"
+    },
+    {
+     "card_index": 10,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Hershey and Chase found that the phage's {{c1::DNA}} entered the E. coli cell, while most of the phage's {{c1:",
+     "verdict": "keep",
+     "why": "plate labels the coat and DNA — the two labeling targets"
+    },
+    {
+     "card_index": 7,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "Proof that DNA is the genetic material of bacteriophage T2 was published in {{c1::1952::year}} by {{c1::Alfred",
+     "verdict": "keep",
+     "why": "the sheared-off coats the card describes are the labeled coat on the plate"
+    },
+    {
+     "card_index": 98,
+     "tier": "context",
+     "coverage": 0.286,
+     "text": " DNA (deoxyribonucleic acid)  is {{c1::the usually double-stranded nucleic acid storing genetic information}}.",
+     "verdict": "drop",
+     "why": "a phage anatomy plate on the generic DNA definition invites 'why a virus?'"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.4",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_4.jpg",
+   "caption": "◾ FIGURE 9.4 The genetic material of tobacco mosaic virus (TMV) is RNA, not protein. TMV contains no DNA; it is composed of just RNA and protein. TMV type A RNA",
+   "publisher_description": null,
+   "depicts": "TMV reconstitution flow: protein B + RNA A assembled into a mixed virus, infecting a tobacco leaf, offspring typed protein A/RNA A — progeny follow the RNA donor.",
+   "cards": [
+    {
+     "card_index": 13,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Most living organisms store their genetic information in {{c1::DNA}}; some viruses instead store it in {{c2::R",
+     "verdict": "keep",
+     "why": "TMV is the book's example of an RNA-genome virus — congruent illustration"
+    },
+    {
+     "card_index": 15,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "Fraenkel-Conrat reconstituted hybrid TMV particles from the {{c1::protein coat}} of one strain and the {{c1::R",
+     "verdict": "keep",
+     "why": "the plate IS this experiment (mixed virus → leaf → RNA-donor offspring)"
+    },
+    {
+     "card_index": 107,
+     "tier": "teaches",
+     "coverage": 0.6,
+     "text": " Tobacco mosaic virus (TMV)  is {{c1::a plant virus: RNA in a protein coat}}.",
+     "verdict": "keep",
+     "why": "shows TMV's coat-around-RNA construction the definition states"
+    },
+    {
+     "card_index": 12,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "The loose end in Hershey and Chase's proof — a significant amount of {{c1::³⁵S (protein)::isotope}} entered th",
+     "verdict": "drop",
+     "why": "card is phage transfection, plate is TMV — wrong virus, wrong experiment"
+    },
+    {
+     "card_index": 104,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": " Ribonuclease (RNase)  is {{c1::an enzyme that cuts up RNA}}.",
+     "verdict": "drop",
+     "why": "denaturation card; TMV plate unrelated"
+    },
+    {
+     "card_index": 109,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": " Genotypically  means {{c1::in terms of genetic makeup}}.",
+     "verdict": "drop",
+     "why": "in situ hybridization card; TMV plate unrelated"
+    },
+    {
+     "card_index": 106,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": " Bacteriophage T2  is {{c1::a virus that infects E. coli bacteria}}.",
+     "verdict": "drop",
+     "why": "renaturation-rate card; TMV plate unrelated"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.5",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_5.jpg",
+   "caption": "◾ FIGURE 9.5 Structural components of nucleic acids. The standard numbering systems for the carbons in pentoses and the carbons and nitrogens in the ring structures of the bases are shown in (2) and (3), respectively. The single-ring bases are pyrimidines, and the double-ring-bases are purines. 1 6 5 7 C",
+   "publisher_description": null,
+   "depicts": "Two empty label boxes ('(1) A phosphate group:', '(2) A five-carbon sugar or pentose:') with none of the actual structures. Useless crop.",
+   "cards": [
+    {
+     "card_index": 18,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The repeating subunit of a nucleic acid is the {{c1::nucleotide}}.",
+     "verdict": "drop",
+     "why": "plate rejected: label boxes only, no structures"
+    },
+    {
+     "card_index": 19,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Each nucleotide is composed of three parts:  {{c1::a phosphate group}}  {{c1::a five-carbon sugar (pentose)}} ",
+     "verdict": "drop",
+     "why": "plate rejected: label boxes only, no structures"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.8",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_8.jpg",
+   "caption": "◾ FIGURE 9.8 The four major players—Francis Crick, Maurice Wilkins, James Watson, and Rosalind Franklin (clockwise from top left)—in the discovery of the double-helix structure of DNA. TABLE 9.1 Base Composition of DNA from Various Organisms",
+   "publisher_description": null,
+   "depicts": "Photo montage of Crick, Wilkins, Franklin, and Watson against a sketched double helix.",
+   "cards": [
+    {
+     "card_index": 26,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "In {{c1::1953::year}}, {{c1::James Watson and Francis Crick::two researchers}} deduced that DNA is a right-han",
+     "verdict": "keep",
+     "why": "the four discoverers on the discovery card"
+    },
+    {
+     "card_index": 40,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "Of the two unequal grooves on the DNA double helix’s surface, the much wider one is the {{c1::major}} groove a",
+     "verdict": "drop",
+     "why": "faces montage on the groove card is the canonical 'why is that there?'"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9.9",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_9.jpg",
+   "caption": "◾ FIGURE 9.9 Photograph of the X-ray diffraction pattern obtained with DNA. The central cross-shaped pattern indicates that the DNA molecule has a helical structure, and the dark bands at the top and bottom indicate that the bases are stacked perpen- dicular to the axis of the molecule with a periodicity of 0.34 nm. S S C",
+   "publisher_description": null,
+   "depicts": "The X-ray diffraction photograph of DNA: central cross pattern, heavy top/bottom arcs.",
+   "cards": [
+    {
+     "card_index": 27,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The 1962 Nobel Prize for the double helix went to Watson, Crick, and {{c1::Maurice Wilkins::third laureate}}.",
+     "verdict": "keep",
+     "why": "the diffraction pattern IS the card's subject"
+    },
+    {
+     "card_index": 31,
+     "tier": "context",
+     "coverage": 1.0,
+     "text": "The X-ray diffraction data behind the double-helix model came from {{c1::Maurice Wilkins and Rosalind Franklin",
+     "verdict": "drop",
+     "why": "Chargaff arithmetic card; the diffraction photo teaches no percentage"
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 9.1",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/TABLE_9_1.jpg",
+   "caption": "TABLE 9.1 Base Composition of DNA from Various Organisms Molar Ratios",
+   "publisher_description": null,
+   "depicts": "WRONG ART: the study file is the four-scientists photo montage (Figure 9.8's art), not the base-composition table.",
+   "cards": [
+    {
+     "card_index": 21,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The four bases commonly found in DNA are:  {{c1::adenine (A)}}  {{c1::guanine (G)}}  {{c1::thymine (T)}}  {{c1",
+     "verdict": "drop",
+     "why": "plate rejected: wrong art (scientists photo)"
+    },
+    {
+     "card_index": 23,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The double-ring bases, called {{c2::purines}}, are {{c1::adenine and guanine::2 bases}}.",
+     "verdict": "drop",
+     "why": "plate rejected: wrong art (scientists photo)"
+    },
+    {
+     "card_index": 28,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "When Erwin Chargaff analyzed DNA from many different organisms, the concentration of thymine always equaled th",
+     "verdict": "drop",
+     "why": "plate rejected: wrong art (scientists photo)"
+    },
+    {
+     "card_index": 24,
+     "tier": "teaches",
+     "coverage": 0.75,
+     "text": "The single-ring bases, called {{c2::pyrimidines}}, are {{c1::cytosine, thymine, and uracil::3 bases}}.",
+     "verdict": "drop",
+     "why": "plate rejected: wrong art (scientists photo)"
+    },
+    {
+     "card_index": 22,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "RNA contains the base {{c1::uracil (U)}} in place of DNA's {{c1::thymine (T)}}.",
+     "verdict": "drop",
+     "why": "plate rejected: wrong art (scientists photo)"
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 9.2",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/TABLE_9_2.jpg",
+   "caption": "TABLE 9.2 Chemical Bonds Important in DNA Structure ( c ) Hydrophobic “bonds” The association of nonpolar groups with each other when present in aqueous solutions because of their insolubility in water.",
+   "publisher_description": null,
+   "depicts": "Text-table render of the chemical-bonds box followed by a full page of body text bleed.",
+   "cards": [
+    {
+     "card_index": 32,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Within one DNA strand, adjacent nucleotides are joined by covalent {{c1::phosphodiester}} bonds; the two stran",
+     "verdict": "drop",
+     "why": "plate rejected: page-bleed render"
+    },
+    {
+     "card_index": 39,
+     "tier": "teaches",
+     "coverage": 0.75,
+     "text": "Double-helix stability comes from two forces: the many weak {{c1::hydrogen bonds}} between paired bases, and t",
+     "verdict": "drop",
+     "why": "plate rejected: page-bleed render"
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 9.3",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/TABLE_9_3.jpg",
+   "caption": "TABLE 9.3 Key: Alternate Forms of DNA",
+   "publisher_description": null,
+   "depicts": "Re-cropped clean table: helix form A/B/Z × direction (right/right/left) × bp per turn (11/10/12) × diameter (2.3/1.9/1.8 nm).",
+   "cards": [
+    {
+     "card_index": 30,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Chargaff-style base arithmetic (%A from %G) fails for the DNA packaged in phage ΦX174, because that DNA is {{c",
+     "verdict": "drop",
+     "why": "ss-DNA Chargaff-exception card; the A/B/Z table is a different topic"
+    },
+    {
+     "card_index": 47,
+     "tier": "context",
+     "coverage": 0.286,
+     "text": "In most viruses and prokaryotes, all the genes reside in {{c1::a single chromosome}} consisting of {{c1::one m",
+     "verdict": "drop",
+     "why": "in-vivo negative supercoiling card; the A/B/Z geometry table is adjacent, not depicting"
+    },
+    {
+     "card_index": 41,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "{{c1::B}}-DNA is the conformation DNA takes under physiological conditions — a {{c2::right::right or left}}-ha",
+     "verdict": "keep",
+     "why": "rule 25: the source table on the back of each per-form card — B row: right-handed, 10 bp/turn",
+     "forced": true
+    },
+    {
+     "card_index": 42,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "{{c1::A}}-DNA forms in high salt or partial dehydration — right-handed like B-DNA but shorter and thicker, wit",
+     "verdict": "keep",
+     "why": "rule 25: the source table on the back — A row: right-handed, 11 bp/turn",
+     "forced": true
+    },
+    {
+     "card_index": 43,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "{{c1::Z}}-DNA is the {{c2::left::right or left}}-handed double-helical form — named for the {{c1::zigzag}} pat",
+     "verdict": "keep",
+     "why": "rule 25: the source table on the back — Z row: left-handed, 12 bp/turn",
+     "forced": true
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 9.4",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/TABLE_9_4.jpg",
+   "caption": "TABLE 9.4 Sequenced DNA in the Smallest and Largest Chromosomes of Model Eukaryotes Size in Millions of Organism Chromosome Base Pairs",
+   "publisher_description": null,
+   "depicts": "WRONG ART: the study file is the beads-on-a-string electron micrograph (Figure 9.17's art), not the chromosome-size table.",
+   "cards": [
+    {
+     "card_index": 110,
+     "tier": "teaches",
+     "coverage": 0.4,
+     "text": " Chromatin  is {{c1::the DNA–protein complex that chromosomes are made of}}.",
+     "verdict": "drop",
+     "why": "plate rejected: wrong art (beads micrograph)"
+    },
+    {
+     "card_index": 64,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "Partial nuclease digestion of chromatin releases DNA fragments in discrete sizes that are {{c1::integral multi",
+     "verdict": "drop",
+     "why": "plate rejected: wrong art (beads micrograph)"
+    }
+   ]
+  }
+ ]
+}
