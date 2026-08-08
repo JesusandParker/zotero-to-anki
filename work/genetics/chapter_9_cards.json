@@ -1,0 +1,1955 @@
+[
+ {
+  "Text": "Chromosomes are composed of two types of macromolecules: {{c1::nucleic acids}} and {{c1::proteins}}.",
+  "Back Extra": "Why: the classic 1940s–50s experiments (Avery's transformation work, Hershey–Chase) established that the genetic information lives in the nucleic acids, not the proteins.<br><br>Cue: the two kinds of nucleic acid are DNA and RNA.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   1
+  ],
+  "block": "A_proof_transformation",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In Griffith's experiment, mice injected with a mix of heat-killed virulent Type IIIS and living avirulent Type IIR pneumococci {{c1::died of pneumonia}}, and {{c1::living Type IIIS}} cells were recovered from their carcasses.",
+  "Back Extra": "Cue: neither part alone kills — the IIIS cells are dead and the living IIR strain is avirulent.<br><br>Why: something heritable must have passed from the dead IIIS cells into the living IIR cells.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   6
+  ],
+  "block": "A_proof_transformation",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The unknown agent from heat-killed Type IIIS cells that converted living Type IIR cells into Type IIIS was named the {{c1::“transforming principle”::historic term}} — the conversion changed the cells' {{c2::hereditary material::what kind of material}}.",
+  "Back Extra": "Distinguish: the conversion is genetic, not a temporary change in appearance — the transformed cells breed true as Type IIIS.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   9
+  ],
+  "block": "A_proof_transformation",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In {{c1::1931::year}}, {{c1::Richard Sia and Martin Dawson::two researchers}} showed that pneumococcal transformation happens {{c2::in vitro — the mice played no role::where}}.",
+  "Back Extra": "Why: Griffith's original experiment ran inside mice; showing the same conversion in a culture dish proved the animal contributed nothing.<br><br>Cue: their in vitro system set the stage for Avery, MacLeod, and McCarty.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   10
+  ],
+  "block": "A_proof_transformation",
+  "numeric": true,
+  "verified_against": "p212",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Oswald Avery, Colin MacLeod, and Maclyn McCarty::three researchers}} showed that {{c2::DNA::molecule}} is the only component of Type IIIS cells able to transform Type IIR cells into Type IIIS.",
+  "Back Extra": "Distinguish: Griffith discovered THAT transformation happens; Avery's team identified WHAT does the transforming.<br><br>Cue: the purified transforming extract kept working after protein and RNA were destroyed — only destroying DNA stopped it.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   12
+  ],
+  "block": "A_proof_transformation",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "To rule out protein contamination of their DNA extract, Avery's team destroyed one candidate molecule at a time: transforming activity survived {{c1::protease}} and {{c1::RNase}} treatment but was eliminated entirely by {{c2::DNase::enzyme}}.",
+  "Back Extra": "Why: each enzyme degrades exactly one macromolecule, so the treatment that kills the activity names the molecule carrying it.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   13,
+   17
+  ],
+  "block": "A_proof_transformation",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "A cell-free bacterial extract carries genetic information of unknown molecular identity. Treating it with DNase destroys the activity, while protease and RNase leave it intact. The information is stored in {{c1::DNA::molecule}}.",
+  "Back Extra": "Cue: the logic runs backward from destruction — whichever single enzyme abolishes the activity, its substrate is the carrier.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   13,
+   17
+  ],
+  "block": "A_proof_transformation",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Proof that DNA is the genetic material of bacteriophage T2 was published in {{c1::1952::year}} by {{c1::Alfred Hershey and Martha Chase::two researchers}}.",
+  "Back Extra": "Cue: Hershey went on to win the 1969 Nobel Prize.<br><br>Distinguish: Avery's team proved it by transformation in pneumococcus; Hershey and Chase proved it by radioactive labeling of a phage.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   18
+  ],
+  "block": "B_hershey_chase",
+  "numeric": true,
+  "verified_against": "p213",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The Hershey–Chase labeling strategy exploits one chemical difference: {{c1::phosphorus::element}} is found in DNA but not protein, while {{c1::sulfur::element}} is found in protein but virtually absent from DNA.",
+  "Back Extra": "Why: with an element unique to each macromolecule, a radioactive isotope of that element tags one molecule cleanly.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   21
+  ],
+  "block": "B_hershey_chase",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In the Hershey–Chase experiment, growing phage in medium with radioactive {{c1::³²P::isotope}} labeled the phage {{c2::DNA}}, and growing them with radioactive {{c1::³⁵S::isotope}} labeled the phage {{c2::protein coats}}.",
+  "Back Extra": "Why: DNA contains phosphorus but no sulfur; protein contains sulfur but virtually no phosphorus.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   22,
+   21
+  ],
+  "block": "B_hershey_chase",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Hershey and Chase found that the phage's {{c1::DNA}} entered the E. coli cell, while most of the phage's {{c1::protein}} remained adsorbed to the outside of the cell.",
+  "Back Extra": "Why: progeny viruses are assembled inside the cell, so whatever entered must carry the instructions for building them — the genetic material is the DNA.<br><br>Ex: progeny particles carried some of the parental ³²P but none of the ³⁵S.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   20
+  ],
+  "block": "B_hershey_chase",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In the Hershey–Chase experiment, shearing ³⁵S-labeled infected cells in a blender removed most of the radioactivity {{c1::without affecting::with or without affecting}} progeny phage production.",
+  "Back Extra": "Why: the sheared-off material was empty protein coats — reproduction runs entirely on the DNA already inside the cell.<br><br>Distinguish: with ³²P-labeled phage, essentially all the radioactivity stayed inside the cells and could not be sheared away.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   22,
+   20
+  ],
+  "block": "B_hershey_chase",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The loose end in Hershey and Chase's proof — a significant amount of {{c1::³⁵S (protein)::isotope}} entered the cells with the DNA — was closed by {{c2::transfection}} experiments, in which E. coli {{c2::protoplasts::cell preparation}} infected with pure phage DNA yield normal progeny phage.",
+  "Back Extra": "Why: if naked DNA alone produces complete infective progeny, no protein contaminant can be the genetic material.<br><br>Cue: a protoplast is a cell with its wall removed.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   126,
+   23
+  ],
+  "block": "B_hershey_chase",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Most living organisms store their genetic information in {{c1::DNA}}; some viruses instead store it in {{c2::RNA}}.",
+  "Back Extra": "Cue: those viruses contain RNA and proteins but no DNA at all.<br><br>Why: every organism studied stores its genetic information in a nucleic acid — never in protein.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   23
+  ],
+  "block": "C_rna_viruses",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "RNA was established as the genetic material of RNA viruses by the {{c1::reconstitution}} experiment of {{c1::Heinz Fraenkel-Conrat::researcher}} and coworkers, published in {{c1::1957::year}}.",
+  "Back Extra": "Cue: the experiment mixed and matched the two components of tobacco mosaic virus — protein coat from one strain, RNA from another.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   24
+  ],
+  "block": "C_rna_viruses",
+  "numeric": true,
+  "verified_against": "p215",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Fraenkel-Conrat reconstituted hybrid TMV particles from the {{c1::protein coat}} of strain A and the {{c1::RNA}} of strain B; the progeny viruses were always identical to the strain that donated the {{c2::RNA::protein coat or RNA}}.",
+  "Back Extra": "Why: offspring follow the nucleic acid, not the coat — so TMV's genes are its RNA.<br><br>Cue: TMV contains no DNA at all, just one RNA molecule in a protein coat.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   28
+  ],
+  "block": "C_rna_viruses",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "answer_in_stem cleared: c2 is a forced choice between the two components the stem must name; recall is which one, not the word",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In {{c1::1868::year}}, {{c1::Johann Friedrich Miescher::person}} isolated an acidic, phosphorus-rich substance from pus-cell nuclei and named it {{c2::“nuclein”}} — the first isolation of what we now call nucleic acid.",
+  "Back Extra": "Cue: a skeptical journal editor repeated the experiments himself, delaying publication until 1871.<br><br>Why: nitrogen and phosphorus together was an oddity — at the time the pair was known to coexist only in certain fats.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   30
+  ],
+  "block": "D_cov_history",
+  "numeric": true,
+  "verified_against": "p211",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Two dates frame molecular genetics: the genetic role of nucleic acids was established in {{c1::1944::year}}, and the double-helix structure of DNA was solved in {{c1::1953::year}}.",
+  "Back Extra": "Distinguish: Miescher had isolated nuclein back in 1868 — it took ~75 years to prove what it was for.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   31
+  ],
+  "block": "D_cov_history",
+  "numeric": true,
+  "verified_against": "p211",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The repeating subunit of a nucleic acid is the {{c1::nucleotide}}.",
+  "Back Extra": "Cue: a poly-nucleotide chain is just many of these joined in a row.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   32
+  ],
+  "block": "E_cov_nucleotides",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Each nucleotide is composed of three parts:<br><br>{{c1::a phosphate group}}<br><br>{{c1::a five-carbon sugar (pentose)}}<br><br>{{c1::a cyclic, nitrogen-containing base}}",
+  "Back Extra": "Cue: sugar + base + phosphate — the sugar sits in the middle, bridging the other two.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   33
+  ],
+  "block": "E_cov_nucleotides",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The pentose sugar in DNA is {{c1::2-deoxyribose}}; in RNA it is {{c1::ribose}}.",
+  "Back Extra": "Cue: the names carry the answer — DEOXYribonucleic acid vs RIBOnucleic acid.<br><br>Distinguish: deoxyribose lacks the hydroxyl (OH) group at the 2′ carbon that ribose carries.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   34
+  ],
+  "block": "E_cov_nucleotides",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "husk_groups cleared: each blank is cued by its own key (DNA vs RNA), answerable with the other hidden",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The four bases commonly found in DNA are {{c1::adenine (A)}}, {{c1::guanine (G)}}, {{c1::thymine (T)}}, and {{c1::cytosine (C)}}.",
+  "Back Extra": "Distinguish: RNA keeps A, G, and C but swaps thymine for uracil.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   34
+  ],
+  "block": "E_cov_nucleotides",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "RNA contains the base {{c1::uracil (U)}} in place of DNA's {{c1::thymine (T)}}.",
+  "Back Extra": "Cue: U replaces T — the other three bases (A, G, C) are shared by both nucleic acids.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   35
+  ],
+  "block": "E_cov_nucleotides",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The double-ring bases (purines) are {{c1::adenine and guanine::2 bases}}.",
+  "Back Extra": "Mnemonic: PURe As Gold — the two purines are A and G.<br><br>Distinguish: purines have two rings but only two members; pyrimidines have one ring and three members.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   36
+  ],
+  "block": "E_cov_nucleotides",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The single-ring bases (pyrimidines) are {{c1::cytosine, thymine, and uracil::3 bases}}.",
+  "Back Extra": "Mnemonic: CUT the PY — the pyrimidines are C, U, and T.<br><br>Cue: DNA uses C and T; RNA uses C and U.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   36
+  ],
+  "block": "E_cov_nucleotides",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "RNA usually exists as a {{c1::single::single or double}}-stranded polymer, whereas DNA is usually {{c1::double::single or double}}-stranded.",
+  "Back Extra": "Pitfall: “usually” matters — some viral genomes break the pattern (ΦX174 packages single-stranded DNA).",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   37
+  ],
+  "block": "E_cov_nucleotides",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In {{c1::1953::year}}, {{c1::James Watson and Francis Crick::two researchers}} deduced that DNA is a {{c2::right::right or left}}-handed double helix — two polynucleotide chains coiled about one another in a spiral.",
+  "Back Extra": "Cue: the model rested on two kinds of evidence — Chargaff's base chemistry and Wilkins & Franklin's X-ray diffraction data.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   38,
+   42
+  ],
+  "block": "F_cov_double_helix",
+  "numeric": true,
+  "verified_against": "p217, p219",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The 1962 Nobel Prize for the double helix went to Watson, Crick, and {{c1::Maurice Wilkins::third laureate}}.",
+  "Back Extra": "Pitfall: Rosalind Franklin, whose X-ray data were central, died in 1958 at age 37 — and Nobel Prizes are never awarded posthumously.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   43
+  ],
+  "block": "F_cov_double_helix",
+  "numeric": true,
+  "verified_against": "p219",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Chargaff's chemical analysis of DNA from many organisms: the concentration of thymine always equals that of {{c1::adenine}}, the concentration of cytosine always equals that of {{c1::guanine}}, and total purines always equal total {{c2::pyrimidines}}.",
+  "Back Extra": "Why: fixed pairwise ratios hinted that T sits with A and C sits with G in some fixed physical relationship — the base pairs Watson and Crick then modeled.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   39,
+   40
+  ],
+  "block": "F_cov_double_helix",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Double-stranded DNA is 33% guanine. Its adenine content is {{c1::17%::percent}}.",
+  "Back Extra": "Pathway: %G = %C → G+C = 66% → A+T = 100−66 = 34% → A = 17%.<br><br>Pitfall: this arithmetic is only legal for DOUBLE-stranded nucleic acid — single strands have no strict pairing.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   56
+  ],
+  "block": "F_cov_double_helix",
+  "numeric": true,
+  "verified_against": "p221 (book's own worked answer)",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Chargaff-style base arithmetic (%A from %G) fails for the DNA packaged in phage ΦX174, because that DNA is {{c1::single::single or double}}-stranded — there is no strict base pairing.",
+  "Back Extra": "Pitfall: exam stems love this trap — check WHETHER the nucleic acid is double-stranded before using A=T and G=C.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   57
+  ],
+  "block": "F_cov_double_helix",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The X-ray diffraction data behind the double-helix model came from {{c1::Maurice Wilkins and Rosalind Franklin::two researchers}}, and showed a highly ordered, two-stranded structure with repeats every {{c2::0.34 nm::distance}} along the axis.",
+  "Back Extra": "Cue: the cross-shaped diffraction pattern says “helix”; the strong top/bottom bands say “stacked bases, 0.34 nm apart.”",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   41
+  ],
+  "block": "F_cov_double_helix",
+  "numeric": true,
+  "verified_against": "p219",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Within one DNA strand, adjacent nucleotides are joined by covalent {{c1::phosphodiester}} bonds; the two strands of the helix are held together by {{c2::hydrogen}} bonds between opposing bases.",
+  "Back Extra": "Distinguish: strong covalent bonds build the backbone; individually weak (but numerous) hydrogen bonds zip the strands together.<br><br>Cue: a phosphodiester linkage runs C—O—P—O—C, joining the 5′ carbon of one sugar to the 3′ carbon of the next.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   44,
+   45
+  ],
+  "block": "F_cov_double_helix",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Watson–Crick base pairing is specific: adenine always pairs with {{c1::thymine}}, and guanine always pairs with {{c1::cytosine}} — so every base pair consists of one {{c2::purine}} and one {{c2::pyrimidine}}.",
+  "Back Extra": "Why: the pairing is set by the bases' hydrogen-bonding capacities in their normal configurations — A cannot hydrogen-bond with C, nor T with G.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   46
+  ],
+  "block": "F_cov_double_helix",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "A–T base pairs form {{c1::two::number of}} hydrogen bonds; G–C pairs form {{c1::three::number of}}.",
+  "Back Extra": "Why: the third bond makes G:C-rich DNA denser and harder to pull apart.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   47,
+   103
+  ],
+  "block": "F_cov_double_helix",
+  "numeric": true,
+  "verified_against": "p220",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Because base pairing is strict, the sequence of one DNA strand fixes the sequence of the other — the two strands are said to be {{c1::complementary}}.",
+  "Back Extra": "Why: complementarity is what makes DNA uniquely suited to store and transmit genetic information — each strand can serve as the template for rebuilding the other (the heart of replication, Chapter 10).",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   48
+  ],
+  "block": "F_cov_double_helix",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "One DNA strand reads 5′-ATCG-3′. Written in the conventional 5′→3′ direction, its complementary strand is {{c1::5′-CGAT-3′}}.",
+  "Back Extra": "Pathway: pair each base (TAGC), then read the new strand from ITS OWN 5′ end — i.e., reverse it.<br><br>Pitfall: writing TAGC forgets the reversal; the convention is always 5′ on the left.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   127,
+   48
+  ],
+  "block": "F_cov_double_helix",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In the B-DNA double helix, base pairs stack {{c1::0.34 nm::distance}} apart, with {{c1::10::bp per turn}} base pairs per full 360° turn.",
+  "Back Extra": "Distinguish: DNA inside cells averages 10.4 base pairs per turn — the textbook 10 is the idealized model.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   49,
+   54
+  ],
+  "block": "F_cov_double_helix",
+  "numeric": true,
+  "verified_against": "p220-221",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The two sugar-phosphate backbones of a double helix run in opposite directions — one 5′→3′, the other 3′→5′ — a relationship called {{c1::antiparallel::orientation term}}.",
+  "Back Extra": "Why: this opposite chemical polarity shapes how replication, transcription, and recombination must work.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   50
+  ],
+  "block": "F_cov_double_helix",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Double-helix stability comes from two forces: the many weak {{c1::hydrogen bonds}} between paired bases, and the hydrophobic {{c1::base-stacking forces}} between adjacent stacked pairs.",
+  "Back Extra": "Why: the flat faces of the base pairs are nonpolar, so the stacked core hides from water — in an aqueous cell that insolubility itself holds the helix together.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   51
+  ],
+  "block": "F_cov_double_helix",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "husk_groups cleared: blanks are cued independently ('between paired bases' vs 'between adjacent stacked pairs'), each cold-solvable",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The double helix's surface carries two unequal {{c1::grooves::helix feature}} — and gene-regulatory proteins read them: some bind one groove, others the other.",
+  "Back Extra": "Distinguish: the major groove is the much wider one; the minor groove is the narrower. The difference matters for protein-DNA recognition.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   52
+  ],
+  "block": "F_cov_double_helix",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::B}}-DNA is the conformation DNA takes under physiological conditions — a {{c2::right::right or left}}-handed helix with about 10 base pairs per turn.",
+  "Back Extra": "Cue: the vast majority of DNA in living cells is B-form; the Watson–Crick model IS B-DNA.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   53,
+   54
+  ],
+  "block": "G_cov_dna_forms",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::A}}-DNA forms in high salt or partial dehydration — right-handed like B-DNA but shorter and thicker, with {{c2::11::bp per turn}} base pairs per turn.",
+  "Back Extra": "Why it matters in vivo: DNA–RNA heteroduplexes and RNA–RNA duplexes adopt a very similar structure, even though pure DNA almost never sits in the A form inside cells.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   55,
+   58
+  ],
+  "block": "G_cov_dna_forms",
+  "numeric": true,
+  "verified_against": "p221",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Z}}-DNA is the {{c2::left::right or left}}-handed double-helical form — named for the {{c2::zigzag}} path of its backbone — occurring in {{c3::G:C-rich}} sequences with alternating purines and pyrimidines.",
+  "Back Extra": "Pitfall: Z-DNA's function in living cells is still unclear.<br><br>Cue: 12 base pairs per turn, a single deep groove.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   59,
+   60
+  ],
+  "block": "G_cov_dna_forms",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Supercoils enter DNA when one or both strands are {{c1::cleaved}}, the ends are {{c1::twisted around each other}}, and — the precondition — the molecule's ends are {{c2::fixed (not free to rotate)}}.",
+  "Back Extra": "Ex: circular chromosomes fix their own ends; eukaryotic linear DNA is fixed by attachments to non-DNA chromosome components — both can therefore be supercoiled.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   61,
+   62
+  ],
+  "block": "G_cov_dna_forms",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Twisting cut DNA in the same direction as the helix winds produces a {{c1::positive::positive or negative}} supercoil ({{c2::overwound::overwound or underwound}} DNA); twisting opposite to the winding produces a {{c1::negative}} supercoil ({{c2::underwound}} DNA).",
+  "Back Extra": "Cue: with-the-twist = over; against-the-twist = under.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   63
+  ],
+  "block": "G_cov_dna_forms",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In vivo, the functional DNA of almost all organisms is {{c1::negatively::positively or negatively}} supercoiled.",
+  "Back Extra": "Pitfall: the exception — the DNA of some viruses infecting Archaea is POSITIVELY supercoiled.<br><br>Why: negative supercoiling is involved in replication, recombination, and the regulation of gene expression.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   64
+  ],
+  "block": "G_cov_dna_forms",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In most viruses and prokaryotes, all the genes reside in {{c1::a single chromosome}} consisting of {{c1::one molecule of nucleic acid (DNA or RNA)}}.",
+  "Back Extra": "Distinguish: exceptions exist — Vibrio cholerae carries a second chromosome, and many prokaryotes also carry small plasmids.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   65
+  ],
+  "block": "H_cov_prokaryote",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Not every DNA genome is double-stranded: bacteriophage {{c1::ΦX174::phage}} packages its genome as {{c2::single}}-stranded DNA.",
+  "Back Extra": "Cue: 5386 nucleotides, 11 genes — the ultimate in genetic economy.<br><br>Pitfall: single-strandedness is why Chargaff arithmetic fails on ΦX174.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   66,
+   57
+  ],
+  "block": "H_cov_prokaryote",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The E. coli K12 genome is {{c1::4.6 million::number}} base pairs of DNA.",
+  "Back Extra": "Distinguish: prokaryotic genomes generally run from just under 2 million to over 5 million base pairs, carrying roughly 2000–5000 genes.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   67
+  ],
+  "block": "H_cov_prokaryote",
+  "numeric": true,
+  "verified_against": "p223",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The E. coli chromosome's circular DNA has a contour length of about {{c1::1500 μm::length}} — packed into a cell only 1–2 μm across.",
+  "Back Extra": "Why: a molecule ~1000× longer than its container forces an extremely condensed, folded state.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   68
+  ],
+  "block": "H_cov_prokaryote",
+  "numeric": true,
+  "verified_against": "p224",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The functional state of a bacterial chromosome is the {{c1::folded genome}}: the DNA is organized into {{c2::50 to 100::how many}} loops (domains), each one {{c3::independently negatively supercoiled}}.",
+  "Back Extra": "Cue: RNA and protein are both structural components of the folded genome — it is not naked DNA.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   69,
+   70
+  ],
+  "block": "H_cov_prokaryote",
+  "numeric": true,
+  "verified_against": "p224",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Probing the folded genome:<br><br>One single-strand DNase nick → relaxes {{c1::only the nicked domain::one domain or all}}<br><br>RNase → {{c1::unfolds the loops; supercoiling unchanged}}",
+  "Back Extra": "Why: supercoiling is per-domain (so a nick relaxes locally), while the folding itself hangs on RNA anchors — cut those and the loops open, still supercoiled.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   71,
+   72
+  ],
+  "block": "H_cov_prokaryote",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The compaction of a chromosome's material into a much smaller volume for mitosis or meiosis is called {{c1::condensation}}.",
+  "Back Extra": "Why: tight metaphase packaging eases segregation into daughter nuclei and keeps chromosomes from tangling and breaking.<br><br>Cue: interphase chromosomes are metabolically active but nearly invisible; metaphase chromosomes are thick, visible bodies on the spindle.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   73,
+   96
+  ],
+  "block": "I_cov_chromatin",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Chemical analysis shows chromatin consists primarily of {{c1::DNA}} and {{c1::proteins}}, with lesser amounts of {{c1::RNA}}.",
+  "Back Extra": "Distinguish: the DNA and histone contents are relatively constant; the nonhistone protein fraction varies with the isolation procedure.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   74
+  ],
+  "block": "I_cov_chromatin",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Chromatin's proteins fall into two classes: the basic, positively charged {{c1::histones}}, and the heterogeneous, largely acidic {{c1::nonhistone chromosomal proteins}}.",
+  "Back Extra": "Distinguish: histones = packaging hardware, nearly identical everywhere; nonhistones = diverse, cell-type-specific — the likely gene regulators.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   75
+  ],
+  "block": "I_cov_chromatin",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "All plants and animals have five histone types: {{c1::H1, H2a, H2b, H3, and H4::5 names}}.",
+  "Back Extra": "Cue: four of them (H2a, H2b, H3, H4) build the nucleosome core; H1 works outside it.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   76
+  ],
+  "block": "I_cov_chromatin",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The five histones occur in molar ratios of approximately {{c1::1 H1 : 2 H2a : 2 H2b : 2 H3 : 2 H4::ratio}}.",
+  "Back Extra": "Why: the 2:2:2:2 stoichiometry is the octamer — two of each core histone per nucleosome — with a single H1 per complete nucleosome.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   78
+  ],
+  "block": "I_cov_chromatin",
+  "numeric": true,
+  "verified_against": "p225",
+  "verified_by": "agent, read from page text this run; bloated_blank cleared: the ratio is one numeric chunk recalled as a unit, hint labels it",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Histones are basic because 20–30% of their amino acids are {{c1::arginine and lysine::2 amino acids}} — their positive charges grip DNA's negatively charged {{c2::phosphate}} backbone.",
+  "Back Extra": "Mechanism: exposed –NH₃⁺ groups make histones polycations; DNA is a polyanion — electrostatic attraction does the binding.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   80,
+   79
+  ],
+  "block": "I_cov_chromatin",
+  "numeric": true,
+  "verified_against": "p225-226",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Histone exception: in some {{c1::sperm::cell type}}, histones are replaced by another class of small basic proteins called {{c2::protamines}}.",
+  "Back Extra": "Cue: almost every other cell type in plants and animals keeps the standard five histones.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   77
+  ],
+  "block": "I_cov_chromatin",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The nearly invariant core histones fit a {{c1::structural / DNA-packaging::structural or regulatory}} role; the widely varying nonhistone proteins fit a {{c1::gene-regulatory::structural or regulatory}} role.",
+  "Back Extra": "Why: a protein doing the same mechanical job everywhere cannot afford to change; regulators must differ between cell types precisely because gene expression differs.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   81,
+   82
+  ],
+  "block": "I_cov_chromatin",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Each eukaryotic chromosome contains {{c1::one single, giant::how many}} DNA molecule, continuous through the centromere.",
+  "Back Extra": "Ex: every fully sequenced yeast chromosome reads end-to-end as one continuous molecule.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   83
+  ],
+  "block": "J_cov_one_molecule",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Kavenoff and Zimm sized the largest Drosophila DNA by its stretch-relaxation behavior in solution; the result was unchanged by treatment with {{c1::pronase (a protein-degrading enzyme)::treatment}} — so a chromosome is {{c2::one continuous DNA molecule}}, not segments glued by protein linkers.",
+  "Back Extra": "Mechanism: the time a stretched DNA coil takes to relax scales with molecule size; the largest molecule matched the whole chromosome's DNA content — with or without its proteins.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   84
+  ],
+  "block": "J_cov_one_molecule",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Gently isolated interphase chromatin looks like beads on a string: ellipsoidal beads about {{c1::11 nm::diameter}} across — the {{c2::nucleosomes}} — joined by thin threads of nuclease-sensitive {{c2::linker DNA}}.",
+  "Back Extra": "Cue: the beads protect their DNA from nucleases; the exposed linkers between them are where nucleases cut.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   85,
+   87
+  ],
+  "block": "K_cov_nucleosomes",
+  "numeric": true,
+  "verified_against": "p227",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Partial nuclease digestion of chromatin releases DNA fragments in discrete sizes that are {{c1::integral multiples of the smallest fragment::size pattern}} — evidence that chromatin has a repeating structural unit.",
+  "Back Extra": "Why: protected DNA comes in fixed-size packets (nucleosomes); cutting different numbers of exposed linkers yields 1×, 2×, 3×… packet sizes.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   86,
+   87
+  ],
+  "block": "K_cov_nucleosomes",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The nucleosome core is {{c1::146::bp count}} nucleotide pairs of DNA wrapped around {{c2::a histone octamer::what structure}} — two molecules each of {{c3::H2a, H2b, H3, and H4::4 histones}}.",
+  "Back Extra": "Cue: extensive nuclease digestion chews everything except this protected 146-bp core particle.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   88,
+   89
+  ],
+  "block": "K_cov_nucleosomes",
+  "numeric": true,
+  "verified_against": "p228",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In the nucleosome core, the DNA winds {{c1::1.65::number of turns}} times around the outside of the histone octamer as a negative superhelix.",
+  "Back Extra": "Cue: X-ray diffraction at 0.28-nm resolution located all eight histones and the wound DNA precisely.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   90
+  ],
+  "block": "K_cov_nucleosomes",
+  "numeric": true,
+  "verified_against": "p228",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The complete nucleosome contains {{c1::166::bp count}} nucleotide pairs — two full superhelical turns — stabilized by one molecule of {{c2::histone H1::which histone}} bound to the outside of the structure.",
+  "Back Extra": "Distinguish: the core alone is 146 bp and involves only the octamer histones — H1 is NOT part of the octamer.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   91,
+   92
+  ],
+  "block": "K_cov_nucleosomes",
+  "numeric": true,
+  "verified_against": "p228",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Between nucleosome cores, the {{c1::linker DNA}} varies in length from species to species and cell type to cell type (reported from 8 to 114 bp).",
+  "Back Extra": "Cue: the cores are invariant; the linkers are where the variability lives.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   93
+  ],
+  "block": "K_cov_nucleosomes",
+  "numeric": true,
+  "verified_against": "p228",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The chromatin fibers of metaphase chromosomes average {{c1::30 nm::diameter}} in diameter — formed by condensing the 11-nm nucleosome fiber.",
+  "Back Extra": "Cue: carefully isolated interphase chromatin shows the same 30-nm fibers — the light microscope simply sees where they pack tightly.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   94
+  ],
+  "block": "L_cov_packaging",
+  "numeric": true,
+  "verified_against": "p229",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The two competing models for the 30-nm fiber's substructure are the {{c1::solenoid}} model and the {{c1::zigzag}} model.",
+  "Back Extra": "Cue: the zigzag appears when chromatin is cryopreserved (quick-frozen) rather than chemically fixed; which structure exists in vivo — or whether both do — is still uncertain.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   95
+  ],
+  "block": "L_cov_packaging",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Eukaryotic DNA is packaged through three levels of condensation:<br><br>Level 1 — DNA wound into nucleosomes → {{c1::the 11-nm interphase chromatin fiber}}<br><br>Level 2 — folding/supercoiling with histone H1 → {{c1::the 30-nm chromatin fiber}}<br><br>Level 3 — nonhistone scaffold → {{c1::supercoiled loops/domains of the metaphase chromosome}}",
+  "Back Extra": "Cue: 2-nm naked DNA → 11-nm beads → 30-nm fiber → scaffold-anchored loops — a lengthwise compression of several thousand-fold.<br><br>Roster: Level 1 = 11-nm nucleosome fiber · Level 2 = 30-nm fiber (H1) · Level 3 = scaffold loops → metaphase chromosome.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   98,
+   99,
+   100
+  ],
+  "block": "L_cov_packaging",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The central core of a metaphase chromosome — the {{c1::scaffold}} — is composed of {{c2::nonhistone::histone or nonhistone}} chromosomal proteins.",
+  "Back Extra": "Ex: strip the histones from an isolated metaphase chromosome and the scaffold remains, shaped like the chromosome, surrounded by a huge halo of DNA.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   97,
+   100
+  ],
+  "block": "L_cov_packaging",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The human genome has about {{c1::700::factor}}× more DNA than E. coli's but only {{c1::4.5::factor}}× more genes — because human genes are larger AND much human DNA is {{c2::nongenic}}.",
+  "Back Extra": "Cue: the nongenic majority was once dismissed as “junk” DNA — now known to matter for chromosome structure.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   101
+  ],
+  "block": "M_cov_repetitive",
+  "numeric": true,
+  "verified_against": "p231",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In density-gradient centrifugation, the genomic fractions that settle away from the main band (because they are G:C- or A:T-rich) are called {{c1::satellite DNAs}} — short sequences repeated over and over.",
+  "Back Extra": "Cue: from Latin satelles, “attendant” — side bands attending the main band.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   102
+  ],
+  "block": "M_cov_repetitive",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "G:C-rich DNA settles {{c1::lower (it is denser)::higher or lower}} in a density gradient than typical DNA, because G:C pairs' {{c2::tighter hydrogen bonding (three bonds)::bonding property}} packs the molecule denser; A:T-rich DNA rides higher.",
+  "Back Extra": "Cue: three bonds beat two — same reason G:C-rich DNA also needs more heat to melt apart.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   103,
+   47
+  ],
+  "block": "M_cov_repetitive",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Heating DNA to near 100°C separates its strands — {{c1::denaturation}}; cooling slowly lets complementary strands re-form double helices — {{c1::renaturation}}.",
+  "Back Extra": "Why: heat breaks the many weak hydrogen bonds; slow cooling gives complements time to find each other.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   104,
+   105
+  ],
+  "block": "M_cov_repetitive",
+  "numeric": true,
+  "verified_against": "p232",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In renaturation experiments, repetitive sequences re-form duplexes {{c1::faster::faster or slower}} than unique sequences, because they are relatively {{c2::more concentrated — present many times over}}.",
+  "Back Extra": "Cue: renaturation rate tracks concentration — the basis for separating repetitive from unique DNA and estimating repetition.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   106
+  ],
+  "block": "M_cov_repetitive",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The number of times a sequence is repeated in a genome is its {{c1::copy number}}; highly repetitive (satellite) sequences reach {{c2::10³ to 10⁶::range}} copies.",
+  "Back Extra": "Distinguish: eukaryotic genomes are a mix of unique, moderately repetitive, and highly repetitive sequence classes — unique sequences hold most of the genes.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   107,
+   108
+  ],
+  "block": "M_cov_repetitive",
+  "numeric": true,
+  "verified_against": "p232 (superscripts restored: 103→10³, 106→10⁶)",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Exception to “genes are unique sequences”: the {{c1::ribosomal RNA::which RNA}} genes are highly redundant — hundreds or even thousands of copies per genome.",
+  "Back Extra": "Why: cells carry enormous numbers of ribosomes, so rRNA demand outstrips what single-copy genes could supply.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   128
+  ],
+  "block": "M_cov_repetitive",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::In situ hybridization}} finds a sequence's chromosomal home: a labeled single-stranded {{c2::probe}} renatures with its complement in chromosomes spread on a slide, and the label (usually a fluorescent dye) marks the spot.",
+  "Back Extra": "Cue: Latin “in position” — the hybrid forms exactly where the complement naturally sits; this is the basis of chromosome painting.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   109
+  ],
+  "block": "M_cov_repetitive",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Highly repetitive DNA is concentrated primarily {{c1::in the regions around the centromeres::where}} of eukaryotic chromosomes.",
+  "Back Extra": "Distinguish: less highly repetitive sequences sit out in the chromosome arms — some in tandem arrays, others dispersed (many of those dispersed ones are mobile transposons).",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   110
+  ],
+  "block": "M_cov_repetitive",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Transposable elements (transposons) and their derivatives make up about {{c1::44::percent}}% of the human genome.",
+  "Back Extra": "Distinguish: ~15% in Drosophila melanogaster; over 80% in maize.<br><br>Cue: dispersed repetitive sequences that can move to new genomic positions.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   111
+  ],
+  "block": "M_cov_repetitive",
+  "numeric": true,
+  "verified_against": "p233",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Spindle microtubules attach to a chromosome at its {{c1::kinetochores}} — complex protein structures assembled on the {{c2::centromeres}} of the sister chromatids.",
+  "Back Extra": "Why: that attachment is what moves sister chromatids to opposite poles — the basis of proper disjunction in mitosis and meiosis.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   112
+  ],
+  "block": "N_cov_centromeres",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "A chromosome or fragment that lacks a centromere is usually {{c1::lost::its fate}} during cell division.",
+  "Back Extra": "Why: with nothing for spindle microtubules to grab, the fragment cannot be pulled into either daughter nucleus.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   113
+  ],
+  "block": "N_cov_centromeres",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The simplest known centromeres belong to {{c1::yeast (Saccharomyces cerevisiae)::organism}} — a DNA segment only {{c2::125::bp count}} base pairs long is sufficient for proper mitotic behavior.",
+  "Back Extra": "Distinguish: the centromeres of multicellular plants and animals span thousands to millions of base pairs of repetitive DNA.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   114
+  ],
+  "block": "N_cov_centromeres",
+  "numeric": true,
+  "verified_against": "p233",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Human centromeres are built of long tandem arrays of the {{c1::alpha satellite}} sequence — a {{c2::171::bp count}}-bp repeat present in 5000–15,000 copies per centromere.",
+  "Back Extra": "Cue: whole centromeres run 500,000 to 1.5 million bp — these massive repeat arrays are exactly why centromeric DNA resisted sequencing.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   115
+  ],
+  "block": "N_cov_centromeres",
+  "numeric": true,
+  "verified_against": "p233",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Heterochromatin}} stains deeply and is packaged more tightly; {{c1::euchromatin}} stains less deeply and is looser.",
+  "Back Extra": "Ex: centromeres and their flanking (pericentric) regions are heterochromatin — mostly repetitive, though some genes (e.g., rRNA gene arrays in Drosophila) live there.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   116
+  ],
+  "block": "N_cov_centromeres",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The centromere-marking protein {{c1::CENP-A::protein}} is a variant of histone {{c2::H3::which histone}} that binds eukaryotic centromeres — even yeast's tiny ones.",
+  "Back Extra": "Cue: in complex centromeres a methylated H3 is present too, and Heterochromatin Protein 1 (HP1) may help package the region.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   117
+  ],
+  "block": "N_cov_centromeres",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The specialized structures at the ends of eukaryotic chromosomes are the {{c1::telomeres}} — the term was coined in {{c2::1938::year}} by {{c2::Hermann J. Muller::person}}.",
+  "Back Extra": "Parts: telo- (Greek telos, end) + -mere (meros, part) — literally “end part.”<br><br>Cue: prokaryotes' circular chromosomes have no ends, so they need no telomeres.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   118
+  ],
+  "block": "O_cov_telomeres",
+  "numeric": true,
+  "verified_against": "p233",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Telomeres serve three functions:<br><br>{{c1::they block nucleases from degrading the ends of linear DNA}}<br><br>{{c1::they prevent the ends from fusing with other DNA molecules}}<br><br>{{c1::they let the ends replicate fully, without loss of material}}",
+  "Back Extra": "Cue: protect · don't stick · finish copying — broken (telomere-less) ends notoriously fuse to each other.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   119
+  ],
+  "block": "O_cov_telomeres",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The telomere repeat unit of humans — and vertebrates generally — is {{c1::TTAGGG::6 bases}}.",
+  "Back Extra": "Distinguish: Tetrahymena uses TTGGGG; Arabidopsis uses TTTAGGG — the general pattern is 5′ T₁₄A₀₁G₁₈ 3′.<br><br>Cue: conserved across 100+ vertebrate species, from fishes to mammals.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   120
+  ],
+  "block": "O_cov_telomeres",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Normal human somatic telomeres (500–3000 TTAGGG repeats) gradually {{c1::shorten::shorten or lengthen}} with age — but the telomeres of {{c2::germ-line cells and cancer cells::2 cell types}} do not.",
+  "Back Extra": "Why it matters: telomere length ties into aging and the unlimited division of cancer cells (Chapter 10 takes this up with telomerase).",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   121
+  ],
+  "block": "O_cov_telomeres",
+  "numeric": true,
+  "verified_against": "p234",
+  "verified_by": "agent, read from page text this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Most telomeres end in a G-rich, single-stranded {{c1::3′::3′ or 5′}} overhang, which can invade an upstream stretch of telomere repeats and pair with the complementary strand — forming a protective loop called a {{c2::t-loop}}.",
+  "Back Extra": "Cue: human 3′ overhangs run 50–500 bases (ciliates': only 12–16).<br><br>Why: tucking the free end away hides it from nucleases and repair enzymes.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   122,
+   123
+  ],
+  "block": "O_cov_telomeres",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Telomeric DNA is coated and protected by the six-protein complex {{c1::shelterin}}: {{c2::TRF1 and TRF2}} bind the double-stranded repeats, while {{c2::POT1}} binds the single-stranded overhang.",
+  "Back Extra": "Cue: TIN2 and TPP1 tether POT1 to the TRFs, and TRF2-associated Rap1 helps regulate telomere length.<br><br>Why: shelterin shields telomeric DNA from degradation and from being “repaired” as damage.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   124,
+   125
+  ],
+  "block": "O_cov_telomeres",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "A <b>chromosome</b> is {{c1::one packaged unit of a cell's DNA}}.",
+  "Back Extra": "Ex: “<b>Chromosomes</b> are composed of two types of large organic molecules (macromolecules): nucleic acids and proteins.”<br><br>Distinguish: chromatin is the DNA–protein material in its loose working form; a chromosome is the organized, countable package.<br><br>Formal: “darkly staining nucleoprotein bodies observed in cells during division; each carries a linear array of genes.”",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   0
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "chromosome",
+   "term_key": "chromosom",
+   "anchor": {
+    "method": "glossary",
+    "page": "609"
+   }
+  }
+ },
+ {
+  "Text": "A <b>nucleic acid</b> is {{c1::an information-carrying macromolecule built of nucleotide chains}}.",
+  "Back Extra": "Ex: “Chromosomes are composed of two types of large organic molecules: <b>nucleic acids</b> and proteins.”<br><br>Cue: the two kinds are DNA and RNA.<br><br>Formal: “a macromolecule composed of phosphoric acid, pentose sugar, and organic bases.”",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   2
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "nucleic acids",
+   "term_key": "nucl_acid",
+   "anchor": {
+    "method": "glossary",
+    "page": "619"
+   }
+  }
+ },
+ {
+  "Text": "A <b>protein</b> is {{c1::a macromolecule made of amino-acid (polypeptide) chains}}.",
+  "Back Extra": "Ex: “Chromosomes are composed of two types of large organic molecules: nucleic acids and <b>proteins</b>.”<br><br>Distinguish: in chromosomes, proteins do the packaging — the nucleic acids carry the genetic information.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   3
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "proteins",
+   "term_key": "protein",
+   "anchor": {
+    "method": "glossary",
+    "page": "622"
+   }
+  }
+ },
+ {
+  "Text": "<b>DNA (deoxyribonucleic acid)</b> is {{c1::the double-stranded nucleic acid that stores genetic information}}.",
+  "Back Extra": "Ex: “There are two types of nucleic acids: <b>deoxyribonucleic acid (DNA)</b> and ribonucleic acid (RNA).”<br><br>Distinguish: RNA is usually single-stranded, uses the sugar ribose, and swaps thymine for uracil.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   4
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "deoxyribonucleic acid (DNA)",
+   "term_key": "deoxyribonucl_acid_dna",
+   "anchor": {
+    "method": "glossary",
+    "page": "611"
+   }
+  }
+ },
+ {
+  "Text": "<b>RNA (ribonucleic acid)</b> is {{c1::a usually single-stranded nucleic acid}} — and the genetic material of some viruses.",
+  "Back Extra": "Ex: “There are two types of nucleic acids: deoxyribonucleic acid (DNA) and <b>ribonucleic acid (RNA)</b>.”<br><br>Distinguish: DNA is double-stranded, uses deoxyribose, and keeps thymine where RNA uses uracil.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   5
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "ribonucleic acid (RNA)",
+   "term_key": "ribonucl_acid_rna",
+   "anchor": {
+    "method": "glossary",
+    "page": "623"
+   }
+  }
+ },
+ {
+  "Text": "In the pneumococcus transformation experiments, <b>Type IIIS</b> is {{c1::the virulent, capsule-bearing strain}}.",
+  "Back Extra": "Ex: “heat-killed <b>Type IIIS</b> bacteria (virulent when alive)…”<br><br>Distinguish: Type IIR = no capsule, avirulent. The capsule is what makes IIIS deadly — and what shows up as smooth colonies.<br><br>Cue: S strains killed the mice; R strains alone did not.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   7
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "Type IIIS",
+   "term_key": "type_iiis",
+   "anchor": {
+    "method": "in_source",
+    "page": "212"
+   }
+  }
+ },
+ {
+  "Text": "In the pneumococcus transformation experiments, <b>Type IIR</b> is {{c1::the avirulent strain lacking a capsule}}.",
+  "Back Extra": "Ex: “…and living <b>Type IIR</b> bacteria (avirulent) into mice…”<br><br>Distinguish: Type IIIS = capsule, virulent. IIR is the safe strain that the transforming principle converts into a killer.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   8
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "Type IIR",
+   "term_key": "type_iir",
+   "anchor": {
+    "method": "in_source",
+    "page": "212"
+   }
+  }
+ },
+ {
+  "Text": "<b>In vitro</b> means {{c1::“within glass” — outside a living organism}}.",
+  "Back Extra": "Ex: “In 1931, Richard Sia and Martin Dawson analyzed this genetic transformation <b>in vitro</b>, and showed that the mice played no role.”<br><br>Parts: in (in) + vitro (glass) — done in labware.<br><br>Distinguish: in vivo = inside the living organism.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   11
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "in vitro",
+   "term_key": "in_vitr",
+   "anchor": {
+    "method": "glossary",
+    "page": "616"
+   }
+  }
+ },
+ {
+  "Text": "<b>Deoxyribonuclease (DNase)</b> is {{c1::an enzyme that cuts up DNA}}.",
+  "Back Extra": "Ex: “…treated with the enzymes (1) <b>deoxyribonuclease (DNase)</b>, which degrades DNA…”<br><br>Parts: deoxyribo- (DNA's sugar) + nucle- (nucleic acid) + -ase (enzyme).<br><br>Formal: “any enzyme that hydrolyzes DNA.”",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   14
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "deoxyribonuclease (DNase)",
+   "term_key": "deoxyribonucleas_dnas",
+   "anchor": {
+    "method": "glossary",
+    "page": "611"
+   }
+  }
+ },
+ {
+  "Text": "<b>Ribonuclease (RNase)</b> is {{c1::an enzyme that cuts up RNA}}.",
+  "Back Extra": "Ex: “…(2) <b>ribonuclease (RNase)</b>, which degrades RNA…”<br><br>Parts: ribo- (RNA's sugar) + nucle- + -ase (enzyme).<br><br>Formal: “any enzyme that hydrolyzes RNA.”",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   15
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "ribonuclease (RNase)",
+   "term_key": "ribonucleas_rnas",
+   "anchor": {
+    "method": "glossary",
+    "page": "623"
+   }
+  }
+ },
+ {
+  "Text": "A <b>protease</b> is {{c1::an enzyme that cuts up proteins}}.",
+  "Back Extra": "Ex: “…or (3) <b>protease</b>, which degrades proteins…”<br><br>Parts: prote- (protein) + -ase (enzyme) — the -ase family names the enzyme by its target.<br><br>Formal: “any enzyme that hydrolyzes proteins.”",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   16
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "protease",
+   "term_key": "proteas",
+   "anchor": {
+    "method": "glossary",
+    "page": "622"
+   }
+  }
+ },
+ {
+  "Text": "<b>Bacteriophage T2</b> is {{c1::a virus that infects E. coli bacteria}}.",
+  "Back Extra": "Ex: “<b>Bacteriophage T2</b> infects the common colon bacterium E. coli and is similar to bacteriophage T4.”<br><br>Parts: bacterio- (bacteria) + -phage (eater).<br><br>Cue: about 50% DNA and 50% protein — the two-part composition that made the Hershey–Chase labeling possible.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   19
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "Bacteriophage T2",
+   "term_key": "bacteriophag_t2",
+   "anchor": {
+    "method": "glossary",
+    "page": "607"
+   }
+  }
+ },
+ {
+  "Text": "<b>Tobacco mosaic virus (TMV)</b> is {{c1::a plant virus: RNA in a protein coat}}.",
+  "Back Extra": "Ex: “Their simple, but definitive, experiment was done with <b>tobacco mosaic virus (TMV)</b>, a small virus composed of a single molecule of RNA encapsulated in a protein coat.”<br><br>Cue: no DNA at all — which is why TMV could prove RNA can be genetic material.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   25
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "tobacco mosaic virus (TMV)",
+   "term_key": "tobacc_mosa_viru_tmv",
+   "anchor": {
+    "method": "in_source",
+    "page": "215"
+   }
+  }
+ },
+ {
+  "Text": "<b>Phenotypically</b> means {{c1::in terms of observable traits}}.",
+  "Back Extra": "Ex: “…the progeny viruses were always <b>phenotypically</b> and genotypically identical to the parent strain from which the RNA had been obtained.”<br><br>Parts: pheno- (to show/appear) + -typically.<br><br>Distinguish: genotypically = in terms of genetic makeup — what the genes say, not what shows.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   26
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "phenotypically",
+   "term_key": "phenotypicall",
+   "anchor": {
+    "method": "glossary",
+    "page": "621"
+   }
+  }
+ },
+ {
+  "Text": "<b>Genotypically</b> means {{c1::in terms of genetic makeup}}.",
+  "Back Extra": "Ex: “…the progeny viruses were always phenotypically and <b>genotypically</b> identical to the parent strain from which the RNA had been obtained.”<br><br>Parts: geno- (gene) + -typically.<br><br>Distinguish: phenotypically = in terms of what is observable — the traits the genes produce.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   27
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "genotypically",
+   "term_key": "genotypicall",
+   "anchor": {
+    "method": "glossary",
+    "page": "614"
+   }
+  }
+ },
+ {
+  "Text": "<b>Chromatin</b> is {{c1::the DNA–protein complex that chromosomes are made of}}.",
+  "Back Extra": "Ex: “…studies of isolated <b>chromatin</b> — the complex of DNA, proteins, and other material present in nuclei…”<br><br>Distinguish: a chromosome is the organized package; chromatin is the material it is packaged from. Heterochromatin = tightly packed, euchromatin = loose.<br><br>Formal: “the complex of DNA and proteins in eukaryotic chromosomes.”",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   29
+  ],
+  "block": "P_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "chromatin",
+   "term_key": "chromatin",
+   "anchor": {
+    "method": "glossary",
+    "page": "609"
+   }
+  }
+ }
+]

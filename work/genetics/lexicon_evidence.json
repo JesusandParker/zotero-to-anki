@@ -29,21 +29,24 @@
    "term": "Type IIIS",
    "method": "in_source",
    "page": "212",
-   "quote": "Type IIIS (◾ Figure 9.2)",
+   "quote": "heat-killed Type IIIS bacteria (virulent when alive) and living Type IIR bacteria (avirulent) into mice, many of the mice developed pneumonia and died, and living Type IIIS cells were recovered from their carcasses. Something from the heat-killed cells—the “transforming principle”—had converted the",
+   "pinned": true,
    "occurrences": 5
   },
   "type_iir": {
    "term": "Type IIR",
    "method": "in_source",
-   "page": "194",
-   "quote": "Type IIR is then degraded",
+   "page": "212",
+   "quote": "living Type IIR bacteria (avirulent) into mice, many of the mice developed pneumonia and died, and living Type IIIS cells were recovered from their carcasses. Something from the heat-killed cells—the “transforming principle”—had converted the living Type IIR cells into Type IIIS—that is, it had chan",
+   "pinned": true,
    "occurrences": 5
   },
   "in_vitr": {
    "term": "in vitro",
-   "method": "in_source",
-   "page": "469",
-   "quote": "in vitro is introduced into the genome 5' 3' copy 1 copy 2 3' 5'",
+   "method": "glossary",
+   "page": "616",
+   "quote": "in vitro. From the Latin meaning “within glass”; biological processes made to occur experimentally outside the organism in a test tube or other container. Hybridization. Interbreeding of species, races, varieties, and so on, among plants or animals; a process of forming a hybrid by cross pollination",
+   "pinned": true,
    "occurrences": 53
   },
   "deoxyribonucleas_dnas": {
@@ -93,10 +96,10 @@
   },
   "tobacc_mosa_viru_tmv": {
    "term": "tobacco mosaic virus (TMV",
-   "method": "glossary",
-   "page": "619",
-   "quote": "Mosaic: An organism or part of an organism that is composed of cells of different genotypes.",
-   "headword": "Mosaic",
+   "method": "in_source",
+   "page": "215",
+   "quote": "tobacco mosaic virus (TMV), a small virus composed of a single molecule of RNA encapsulated in a protein coat. Different strains of TMV can be identified on the basis of differences in the chemical composition of their protein coats. Fraenkel-Conrat and colleagues treated TMV particles of two differ",
+   "pinned": true,
    "occurrences": 4
   },
   "phenotypicall": {
@@ -122,6 +125,13 @@
    "quote": "Chromatin: The complex of DNA and proteins in eukaryotic chromosomes; originally named because of the readiness with which it stains with certain dyes.",
    "headword": "Chromatin",
    "occurrences": 0
+  },
+  "chromatin": {
+   "term": "chromatin",
+   "method": "glossary",
+   "page": "609",
+   "quote": "Chromatin: The complex of DNA and proteins in eukaryotic chromosomes; originally named because of the readiness with which it stains with certain dyes.",
+   "occurrences": 63
   }
  }
 }

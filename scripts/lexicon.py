@@ -385,6 +385,12 @@ def find_evidence(source_id, terms):
     glossary = _parse_glossary(pages, gp, pdf=pdf)
     for term in terms:
         key = term_key(term)
+        # A PINNED entry was hand-corrected (still mechanically quoted from the PDF —
+        # e.g. the automatic match hit the wrong sense, like TMV → the glossary's
+        # 'Mosaic'). Re-running --find must not clobber it (hazard found 2026-08-08).
+        if (evidence.get(key) or {}).get("pinned"):
+            print(f"  {clean_term(term):30s} -> {evidence[key]['method']:9s}  (pinned — kept)")
+            continue
         entry, occurrences = None, 0
         # Tier 1 — the glossary, matched structurally by TERM KEY (finds "diaphoretic:"
         # for a marked "diaphoresis"; finds "xiphoid process:" for a marked "xiphoid"
