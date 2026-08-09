@@ -580,6 +580,17 @@ pipeline-owned `<img src="<source>_…">` from both sides leaves byte-identical 
 Parker's own pasted images never carry that prefix, so **removing one still fails the
 guard.** Never relax this to make a write succeed.
 
+### Stage 2.97 — Render review (mandatory; storage checks cannot see what Parker sees)
+The Arabic Unit 1 run shipped whole-card RTL flips, duplicate play buttons and lopsided
+crops with every storage-level gate green — because nothing ever LOOKED at a rendered card.
+After staging (and after any live-note update), run:
+```
+python3 scripts/render_check.py --deck "<staging deck>" --cards work/<source>/<file>_cards.json
+```
+It renders ≥1 real card per block (model CSS, `dir="auto"`, real media) into one contact
+sheet. **Look at it** against the checklist it prints: direction, one play button per clip,
+complete symmetric crops, no boilerplate, both cloze directions. Fix and re-run until clean.
+
 ### Stage 3 — Stage into Anki (once per segment)
 ```
 python3 scripts/anki_write.py work/<source>/<file>_cards.json --run runs/<source>/<seg>/<run_id>
@@ -591,6 +602,14 @@ goes to its source's staging deck, derived from its `source` + `segment`, on the
 note type, with the registry's tags, one at a time, with pre-flight validation. The writer
 also creates the promotion deck so Parker's target exists, and copies the deck root's preset
 so bury-siblings stays on for two-way definitions. **Anki must be open.**
+
+### Stage 3.9 — Media audit (mandatory after every write that touches media)
+```
+python3 scripts/media_audit.py --deck "<staging deck>" --prefix <source>_
+```
+Zero broken refs (byte-for-byte), zero uppercase names, zero pipeline orphans — the class
+of defect that is invisible on the Mac and broken on the phone (R45/R47). Corrected assets
+always get a NEW versioned filename, never new bytes under an old name.
 
 ### Stage 4 — Hand off
 Tell Parker:
@@ -622,6 +641,9 @@ Naming a hazard is step one of *name it, mechanize it, test it* — not the whol
 ---
 
 ## Reference files (load on demand)
+- `reference/arabic-unit-playbook.md` — the Arabic source's per-unit runbook: exact stage
+  sequence, Lingco media harvest, letter-note extension policy (Units 2-10), and the
+  failure→guard map from the Unit 1 overseer run. Read it FIRST for any Arabic request.
 - `reference/sources.md` — the source registry: fields, deck templates, how to add one.
 - `reference/profiles/*.md` — per-subject emphasis (`emt` · `science` · `language` · `default`).
 - `reference/card-rules.md` — the full standard (Layer A form + Layer B judgment, including

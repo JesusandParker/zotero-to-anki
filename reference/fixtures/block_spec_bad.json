@@ -1,0 +1,52 @@
+[
+ {
+  "Text": "{{c1::ب}}<br>Name: {{c2::baa}}",
+  "Back Extra": "",
+  "block": "A_letters",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1
+  ]
+ },
+ {
+  "Text": "‎{{c1::ر}}<br>Name: {{c2::raa}}<br>Sound: {{c2::r}}",
+  "Back Extra": "Cue: hear it and watch the mouth — [sound:arabic_pron_10_raa.mp4]",
+  "block": "A_letters",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1
+  ]
+ },
+ {
+  "Text": "‎{{c1::ص}}<br>Name: {{c2::Saad}}<br>Sound: {{c2::emphatic S}}",
+  "Back Extra": "<img src=\"arabic_src_Alphabet_Chart.png\">",
+  "block": "A_letters",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1
+  ]
+ },
+ {
+  "Text": "‎{{c1::مِن}}<br>from",
+  "Back Extra": "Cue: MSA — <i>min</i>",
+  "block": "C_vocab",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   23
+  ]
+ },
+ {
+  "Text": "Arab country: <b>Jordan</b> — capital {{c1::Amman}}.",
+  "Back Extra": "",
+  "block": "G_countries",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ]
+ }
+]

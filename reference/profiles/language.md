@@ -63,3 +63,82 @@ default, and when only one direction is affordable, keep PRODUCTION** (meaning �
 The gloss is still authored-plain (card-rules #28) and still crisp — the §5 trap above
 ("a dictionary gloss is not a definition") applies with full force. Keep the script rules
 (§4) for the term side; the `Ex:` line carries the sentence he met it in, per §4b.
+
+---
+
+## 7. Execution addendum — everything the Arabic Unit 1 run proved (2026-08-08)
+
+The sections above say what language cards should BE; this section says how to BUILD them
+without repeating Unit 1's failures. All of it is enforced by running guards, named inline.
+
+### 7a. RTL mechanics (R39, R44)
+- **The reviewer decides direction from the card's FIRST STRONG CHARACTER.** A card whose
+  Text begins with Arabic renders the ENTIRE card as one RTL paragraph — trailing periods
+  jump left, `Distinguish:` colons flip, the AUDIO button swaps sides. Pure-Latin lines with
+  no leading/trailing punctuation LOOK fine, which is how it hides.
+  **Fix: every Arabic-first Text begins with a literal U+200E LRM** (a character, not a tag
+  or entity — gate-legal). Guard: `check_block_spec.py U1-lrm`.
+- A line is PURE Arabic or pure Latin, never mixed (bidi scrambles mixed lines around
+  neutrals). Keep glyphs out of Back Extra prose; key Distinguish lines on letter NAMES.
+- `<div dir="rtl">` would be cleaner but `div` HARD-blocks on ALLOWED_TAGS. Pure lines + LRM
+  achieve the same rendering with legal HTML.
+- **Transliteration is ANSWER-SIDE ONLY** — visible on any front it gives pronunciation away
+  in both card directions.
+- **Diacritics ride a carrier letter** (`بَ`, the book's own convention) — never bare (they
+  float and wrap), never on U+25CC (tofu on macOS/iOS).
+
+### 7b. Card shapes that are now the standard (two-way via c1/c2 on ONE note)
+- **Letter:** `‎{{c1::ب}}` / `Name: {{c2::baa}}` / `Sound: {{c2::b as in bet}}` — c1 card =
+  produce the glyph from name+sound; c2 card = name+sound from the glyph. Family
+  `Distinguish:` line name-keyed. Source chart on the back. Official pronunciation video in
+  the **Audio field** (autoplays on flip).
+- **Symbol:** same shape on a carrier; standalone glyphs (`ء آ ى ة ٱ`) stand alone.
+- **Vocab:** `‎{{c1::<Arabic>}}` / `{{c2::<meaning core>}} — <visible qualifier>`.
+  Qualifier disambiguates production without bloating the recalled span (crisp-c2).
+  **Function words get a blank-style usage frame** that never contains the answer word
+  (`fii: the last slot of the intro: "from the city of X, ___ Y"`). Formal/MSA clip in the
+  Audio field; dialect clips + translit in Back Extra. Guard: `V1/V2`.
+- **MSA-primary** when the course is MSA (check the course description): Formal is the card,
+  dialects are Back Extra enrichment — not three cards per word.
+
+### 7c. Marked SETS (R48, R49 / card-rules #30-31)
+Membership lane first (named sub-groups ≤5 + anchor + `Roster:` everywhere), then per-member
+cards that (a) NAME THE PROPERTY that defines the set in every stem, (b) quiz BOTH
+directions, (c) keep sub-group names as visible scaffolding, never a 20-blank/5-answer
+cloze. The one-question test for any derived card: *would it be identical coming from a
+different source about a different topic?* Guards: `C1-C5`.
+
+### 7d. Media discipline (R45, R47)
+- One home per clip: **the Audio field wins**; Back Extra `[sound:]` only for clips NOT in
+  the Audio field. Two play buttons for one clip is a defect. Guard: `U3`.
+- **All media filenames lowercase** (case-sensitive on iOS; invisible on the Mac). Guard:
+  `U2` + `scripts/media_audit.py`.
+- **Never replace a media file's bytes under the same name** — the webview caches by
+  filename and serves the stale image through syncs. Version the name (`_v2`, `_v3`),
+  repoint the notes, delete the old file. Audit after every write: `media_audit.py`
+  (broken refs / uppercase / orphans must all be zero).
+
+### 7e. Source images from a SCAN (R38, R46, R51)
+- A scan can be densely OCR'd and contain ZERO target-language text — `grounding: EXACT`
+  proves nothing about the script. Arabic-bearing cards need visual/external evidence
+  (back-side source crop + `verified_against`), with publisher Unicode (e.g. the course
+  platform's lesson JSON) outranking any reading of the page.
+- Crops: **measure, don't eyeball** (`scripts/find_crop_boxes.py` — fill-colour band
+  segmentation prints each object's true bounds). Build with `make_crops.py`-style
+  trim + **no-clip assertion**: after trimming, the ink bbox must not touch any window edge
+  — `-trim` can only SHRINK, so a box that cuts the object ships a tidy-looking lopsided
+  crop (the alphabet chart lost a whole column this way). Auto-growing the box was tried
+  and does NOT work (in-object gutters ≈ object-to-neighbour gaps); it is recorded in R51
+  so nobody retries it.
+- Review every crop on a CONTACT SHEET before storing. Zero sliced text; symmetric margins.
+
+### 7f. Verification is of the EXPERIENCE, not the artifact (R44's root cause, R50)
+- **Render review is mandatory** before hand-off: `scripts/render_check.py` builds real
+  rendered cards (model CSS, `dir="auto"`, real media) into one contact sheet — then LOOK.
+  Storage checks cannot see direction flips, duplicate buttons, or crop quality.
+- **Every requirement Parker states becomes a rule in `check_block_spec.py` the same
+  session** — append-only, so a later fix can never silently regress an earlier one (the
+  country cards went one-way → two-way → one-way before this existed).
+- **A new rule must be tested against a reconstruction of the defect it prevents**
+  (`scripts/test_block_spec.py` holds the fixtures). A rule's applies-to predicate must be
+  structural, never keyed on the feature under test.

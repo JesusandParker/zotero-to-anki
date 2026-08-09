@@ -1,0 +1,72 @@
+[
+ {
+  "Text": "‎{{c1::ب}}<br>Name: {{c2::baa}}<br>Sound: {{c2::b as in bet}}",
+  "Back Extra": "Distinguish: one skeleton, dots decide — baa 1 below, taa 2 above, thaa 3 above.",
+  "block": "A_letters",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   1
+  ]
+ },
+ {
+  "Text": "‎{{c1::أَهلاً}}<br>{{c2::Hello! or Hi!}} — used more in Egypt than in the Levant",
+  "Back Extra": "Cue: MSA — <i>ahlan</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_02_ahlan_masri.mp3]",
+  "block": "C_vocab",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   23
+  ]
+ },
+ {
+  "Text": "The book's map shows {{c1::20::how many}} countries where Arabic is the main language of education and daily life. Grouped west to east: {{c2::North Africa}}, {{c2::the Levant}}.",
+  "Back Extra": "Roster: Morocco · Jordan",
+  "block": "G_countries",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ]
+ },
+ {
+  "Text": "Arabic-speaking countries in North Africa (2): {{c1::Morocco}}, {{c1::Libya}}.",
+  "Back Extra": "Roster: <b>Morocco</b> · Jordan",
+  "block": "G_countries",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ]
+ },
+ {
+  "Text": "Arabic-speaking countries in the Levant (2): {{c1::Jordan}}, {{c1::Syria}}.",
+  "Back Extra": "Roster: Morocco · <b>Jordan</b>",
+  "block": "G_countries",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ]
+ },
+ {
+  "Text": "Arabic-speaking countries in the Gulf (2): {{c1::Qatar}}, {{c1::Oman}}.",
+  "Back Extra": "Roster: Morocco · <b>Qatar</b>",
+  "block": "G_countries",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ]
+ },
+ {
+  "Text": "Arabic-speaking country: {{c1::Jordan}}<br>its capital: {{c2::Amman}}<br>its place in the Arabic-speaking world: the Levant",
+  "Back Extra": "Roster: Morocco · <b>Jordan</b>",
+  "block": "G_countries",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   16
+  ]
+ }
+]

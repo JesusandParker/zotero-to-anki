@@ -4,8 +4,15 @@ The exact shape every card must take, and where it goes. Verified live against P
 
 ## Note type
 - **Model:** `AnKing Cloze` (a Cloze type). This replaced `01_Cloze - Parkers Note Type` on 2026-06-29, when Parker restyled his whole collection to the AnKing look and the old type was deleted; all existing EMT cards were migrated.
-- **Fields, in order:** `Text`, `Back Extra`, `Lecture Notes`, `Missed Questions`, `Additional Resources`, `Card Feedback`.
-- **The pipeline fills only `Text` and `Back Extra`.** `Lecture Notes`, `Missed Questions`, `Additional Resources` are Parker's own study-time fields (his notes, missed exam questions, extra resources) — always leave them empty; never write into them.
+- **Fields, in order (verified live 2026-08-08):** `Text`, `Back Extra`, `Audio`, `Lecture Notes`, `Missed Questions`, `Additional Resources`, `Card Feedback`.
+- **`Audio` (added by Parker's HyperTTS setup) autoplays on flip** and is the ONE home for a
+  card's primary clip (letter pronunciation video, MSA vocab clip). `anki_write.py` does not
+  fill it yet — populate post-stage via AnkiConnect `updateNoteFields` on pipeline-authored
+  notes only. A clip in the Audio field must NOT also appear as `[sound:]` in Back Extra
+  (two play buttons — Parker-caught defect); Back Extra `[sound:]` is only for secondary
+  clips (dialect variants). All media filenames LOWERCASE; corrected assets get a NEW
+  versioned filename (see `scripts/media_audit.py`, R45/R47).
+- **The pipeline fills only `Text` and `Back Extra`** (plus post-stage `Audio` as above). `Lecture Notes`, `Missed Questions`, `Additional Resources` are Parker's own study-time fields (his notes, missed exam questions, extra resources) — always leave them empty; never write into them.
 - **`Card Feedback` (added 2026-07-18) is a HIDDEN, human-only field.** It is not referenced in any card template, so it never renders during review; Parker types card complaints into it via Anki's Edit button while studying, and `scripts/feedback_harvest.py` collects them for the batch feedback loop (see SKILL.md → "Processing card feedback (batch)"). The generator must NEVER write into it. `AnKing Basic` carries the same field (`Front`, `Back`, `Back Extra`, `Card Feedback`).
 - The note type is per-source (`model` in the registry, defaulting to `AnKing Cloze`). If it is ever missing or renamed, find whatever cloze type his current cards use (`deck:all::EMT::*`) and update the registry default to match — not the script.
 

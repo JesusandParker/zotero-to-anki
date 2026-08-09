@@ -189,3 +189,17 @@ and there were two independent causes:
     **General lesson: when I claim a rule makes something safe, I must construct the failure
     it is supposed to prevent and watch the rule catch it** — the same discipline R50 forced
     for requirement rules, now applied to asset rules.
+
+---
+
+## ENCODED (2026-08-08, same session) — this log's job is done
+Everything above is now canon or an executable guard:
+- `profiles/language.md` §7 (RTL/LRM, two-way shapes, MSA-primary, sets, media, scan crops,
+  render-review discipline) · card-rules #30-31 · R38-R51 in the regression library
+- Guards that RUN: `check_block_spec.py` (+fixtures +`test_block_spec.py`),
+  `media_audit.py`, `render_check.py`, `find_crop_boxes.py`, the no-clip crop assertion
+- Pipeline wiring: SKILL.md Stages 0b (block-spec), 2.97 (render review), 3.9 (media audit)
+- `reference/arabic-unit-playbook.md` — the "do Unit 2" runbook, linked from sources.json
+Remaining next-session items from the original list that stay OPEN by design: anki_write
+learning an `Audio` key; per-card provenance rows from the generator; regression-ID
+uniqueness check; extractor `force_visual` flag + answer-script check in check_cards.
