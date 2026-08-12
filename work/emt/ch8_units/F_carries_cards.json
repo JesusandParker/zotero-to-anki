@@ -1,0 +1,49 @@
+[
+ {
+  "Text": "In the {{c2::diamond}} carry, a patient on a backboard or stretcher is lifted and carried by {{c1::four::number}} providers:<br><br>{{c1::one at the head end of the device}}<br><br>{{c1::one at the foot end}}<br><br>{{c1::one at each side}}",
+  "Back Extra": "Cue: the name is the map — the four providers stand at the four points of a diamond: head, foot, and the two sides.<br><br>Distinguish: in the <i>one-handed carry</i>, four or more providers each support the backboard with one hand, letting everyone face forward.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   8,
+   9
+  ],
+  "block": "F_carries",
+  "numeric": true,
+  "verified_against": "p771",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "A patient on a backboard or stretcher is carried {{c1::feetfirst::headfirst or feetfirst}}.",
+  "Back Extra": "Why: feetfirst places the lightest load on the provider at the patient's feet, who must turn around to walk forward.<br><br>Why: a conscious patient can also see in the direction of movement, which may reduce anxiety.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   9
+  ],
+  "block": "F_carries",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "When carrying a patient on a backboard or stretcher, the provider at the patient's feet bears the {{c1::lightest::lightest or heaviest}} load — and, to walk forward, turns to grasp the handles with {{c2::back::back or front}} to the device.",
+  "Back Extra": "Why: 68–78% of a horizontal patient's body weight is in the torso, so more weight rests on the head half of the device than on the foot half.<br><br>Cue: feetfirst deliberately hands the turned-around provider the lightest load.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   8,
+   9
+  ],
+  "block": "F_carries",
+  "numeric": true,
+  "verified_against": "p771",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

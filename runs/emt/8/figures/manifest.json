@@ -1,0 +1,24 @@
+{
+ "run_id": "figures",
+ "source": "emt",
+ "segment": 8,
+ "stage": "figures",
+ "status": "complete",
+ "counts": {
+  "marks": 32,
+  "cards": 56,
+  "cards_placeable": 56,
+  "figures_indexed": 41,
+  "proposed": 43,
+  "judged": true,
+  "kept": 36,
+  "rejected": 7,
+  "attached_notes": 36,
+  "distinct_plates": 17,
+  "doubled": 0,
+  "leaks": 0
+ },
+ "anomalies": [],
+ "skill_sha": "95110dcb89d3e65d1fd774bf6f6c50c8ed9db8ab",
+ "new_hazards_found": []
+}

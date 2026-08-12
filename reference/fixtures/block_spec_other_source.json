@@ -1,0 +1,28 @@
+[
+ {
+  "Text": "A patient in shock is packaged and placed in a {{c1::supine}} position.",
+  "Back Extra": "Distinguish: chest pain with no suspected injury earns a position of comfort instead.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [30],
+  "block": "S_positioning",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Whenever you grasp a stretcher or backboard, your hands should be {{c1::at least 10 inches (25 cm)}} apart.",
+  "Back Extra": "Cue: insert each hand under the handle palm up with the thumb extended upward.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [3],
+  "block": "C_power_grip",
+  "numeric": true,
+  "verified_against": "p761",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

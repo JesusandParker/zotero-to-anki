@@ -1,0 +1,39 @@
+{
+ "run_id": "2026-08-12T09-14",
+ "source": "emt",
+ "segment": 8,
+ "started": "2026-08-12T09:14:06",
+ "skill_sha": "95110dcb89d3e65d1fd774bf6f6c50c8ed9db8ab",
+ "note": "Chapter 8 Lifting and Moving Patients — 6 drafters + 6 independent editors + global consolidation; figure composites repaired pre-attach",
+ "status": "complete",
+ "finished": "2026-08-12T09:49:01",
+ "counts": {
+  "marks": 32,
+  "notes_drafted": 59,
+  "dropped_in_consolidation": 3,
+  "cards": 56,
+  "staged": 56,
+  "figures_kept": 36,
+  "figures_rejected": 7,
+  "anki_cards_estimate": "~89 (two-way notes expand)"
+ },
+ "new_hazards_found": [
+  {
+   "summary": "check_block_spec SET_LEVEL rules were keyed to the Arabic G_countries block but ran unscoped, reporting false REGRESSIONS on the first non-Arabic file",
+   "regression_id": "R50"
+  },
+  {
+   "summary": "check_cards.VALUE missed 'inches'/'cm' unit forms, and verify_report destructively lowered drafter-asserted numeric:true on 20 word-number count cards (derivation now upgrade-only)",
+   "regression_id": "R51"
+  },
+  {
+   "summary": "anki_write referenced the REQUESTED media filename instead of storeMediaFile's returned case-normalized name — 17 uppercase refs staged, invisible on the Mac, broken on case-sensitive sync targets; writer now lowercases, uses the returned name, and round-trip hash-verifies",
+   "regression_id": "R47"
+  },
+  {
+   "summary": "skill-drill composites shipped with structural defects the index never checks: missing banner strips (8-7, 8-9), truncated trailing numbered lists (8-7, 8-10), page-text bleed (8-11, 8-12), and a wrong step-count label (8-10 said 3, has 4). Repaired by hand (ImageMagick surgery + study-copy regeneration), verdicts in work/emt/ch8_units/FIGURE_PRELOOK.md, 'repair' keys recorded in figure_index.json.",
+   "mechanizable": false,
+   "why": "closing it needs compositing changes in build_figure_index.py (banner-strip inclusion, list clipping bounded by the drill's own numbered items, bleed exclusion) plus panel-count assertions — deferred; NOTE: re-running build_figure_index on segment 8 would regenerate the defective composites and silently clobber the repaired artifacts, so the builder fix must come before any seg-8 index rebuild"
+  }
+ ]
+}

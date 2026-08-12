@@ -1,0 +1,49 @@
+[
+ {
+  "Text": "A {{c1::flexible stretcher::device}} forms a {{c2::rigid}} stretcher that {{c2::conforms around the patient's sides and no farther}}.",
+  "Back Extra": "Distinguish: the flexible stretcher earns its keep in confined spaces — for uneven terrain from a remote, vehicle-inaccessible location, reach for the rigid basket (Stokes) stretcher instead.<br><br>Cue: it rolls up across its width or length into a small tubular package — valuable when equipment must be hand-carried a considerable distance.<br><br>Ex: certain flexible stretchers can even be belayed or rappelled by ropes.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   26,
+   28
+  ],
+  "block": "R_specialty_devices",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "As an alternative to the {{c3::backboard}}, the patient is placed on a {{c1::vacuum mattress::device}} and the air is removed, allowing the device to {{c2::mold around the patient}}.",
+  "Back Extra": "Why: molding snugly to the curvatures and contours of the body limits pressure-point tenderness — most patients need no added padding.<br><br>Distinguish: for securing the neck and spine it is considered equivalent to padding, and it is more comfortable for the patient than the long spine board.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   27
+  ],
+  "block": "R_specialty_devices",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "To carry a patient across uneven terrain from a remote location that no ambulance or other vehicle can reach, use a {{c1::rigid basket stretcher::device}}, also called a {{c2::Stokes litter::eponym}}.",
+  "Back Extra": "Pitfall: if you suspect a spinal injury, secure the patient to a backboard <b>first</b>, then place the backboard into the basket stretcher.<br><br>Distinguish: the flexible stretcher is the confined-space tool; the rigid basket is for open, uneven ground beyond a vehicle's reach.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   26,
+   28
+  ],
+  "block": "R_specialty_devices",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

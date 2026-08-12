@@ -1,0 +1,33 @@
+[
+ {
+  "Text": "To drag a patient toward the edge of a bed, pull on {{c1::the sheet or blanket under them::your grip}} — <b>never</b> on the patient's clothing.",
+  "Back Extra": "Cue: roll the bedding under the patient until it is about 6 in (15 cm) wider than the patient, then pull the roll smoothly and evenly to glide the patient to the bedside.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   6
+  ],
+  "block": "E_bed_transfers",
+  "numeric": true,
+  "verified_against": "p766",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "To set up a stretcher-to-hospital-bed transfer, place the stretcher {{c1::at the same height or slightly higher::height}} relative to the bed and hold it firmly against the bed's side; kneeling on the bed, you and another EMT drag the patient {{c2::in increments::pacing}} until properly centered.",
+  "Back Extra": "Cue: the transfer itself is a <i>body drag</i> — the patient is pulled across on the bedding beneath them.<br><br>Ex: a third person may need to take both sides of the head to move the patient safely.<br><br>Distinguish: direction flips the height — dragging INTO the hospital bed, the stretcher sits level or slightly <b>higher</b>; for the draw sheet method onto the stretcher, it sits level or slightly <b>lower</b>.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   7,
+   20
+  ],
+  "block": "E_bed_transfers",
+  "numeric": true,
+  "verified_against": "p766",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

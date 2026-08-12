@@ -1,0 +1,62 @@
+[
+ {
+  "Text": "A patient with no suspected injury who reports chest pain or respiratory distress is placed in {{c1::a position of comfort, typically Fowler or semi-Fowler}}, unless he or she is {{c2::hypotensive::blood-pressure finding}}.",
+  "Back Extra": "Distinguish: a patient with a <i>potential spinal injury</i> gets no comfort seat — he or she is secured so movement of the spine is restricted.<br><br>Roster: positioning by condition — no injury + chest pain/respiratory distress: <b>position of comfort (Fowler/semi-Fowler) unless hypotensive</b> · shock: supine · late pregnancy, uncomfortable or hypotensive supine: left side.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   29
+  ],
+  "block": "S_positioning",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "A patient in shock is packaged and placed in a {{c1::supine}} position.",
+  "Back Extra": "Distinguish: chest pain or respiratory distress with no suspected injury (and no hypotension) earns a position of comfort instead — typically Fowler or semi-Fowler.<br><br>Roster: positioning by condition — no injury + chest pain/respiratory distress: position of comfort (Fowler/semi-Fowler) unless hypotensive · shock: <b>supine</b> · late pregnancy, uncomfortable or hypotensive supine: left side.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   30
+  ],
+  "block": "S_positioning",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "A patient in the late stages of pregnancy who is uncomfortable or hypotensive when supine is positioned and transported {{c1::on her left side}}.",
+  "Back Extra": "Distinguish: an unresponsive patient with no suspected spinal, hip, or pelvic injury also goes onto the side — the recovery position, rolled without twisting the body.<br><br>Roster: positioning by condition — no injury + chest pain/respiratory distress: position of comfort (Fowler/semi-Fowler) unless hypotensive · shock: supine · late pregnancy, uncomfortable or hypotensive supine: <b>left side</b>.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   31
+  ],
+  "block": "S_positioning",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "En route, a patient late in her pregnancy becomes hypotensive while lying flat on her back on the stretcher. What should you do? {{c1::Position and transport her on her left side}}",
+  "Back Extra": "Pitfall: hypotension is not required — a late-pregnancy patient who is merely uncomfortable supine also goes onto her left side.<br><br>Distinguish: a patient in shock is packaged and stays supine; late pregnancy is the condition that turns onto the left side.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   31
+  ],
+  "block": "S_positioning",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

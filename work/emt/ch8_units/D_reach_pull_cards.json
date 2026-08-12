@@ -1,0 +1,33 @@
+[
+ {
+  "Text": "When pulling a patient toward you, move yourself and the patient {{c1::one at a time, never simultaneously::simultaneously or one at a time}}.",
+  "Back Extra": "Why: moving both at once jostles the patient and risks putting sudden force across your spine.<br><br>Ex: pull by slowly flexing your arms; when your hands reach the front of your torso, stop and move yourself back another 15 to 20 inches (38 to 50 cm), then repeat, alternating between pulling and repositioning.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   4
+  ],
+  "block": "D_reach_pull",
+  "numeric": true,
+  "verified_against": "p763",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "If you must drag a patient across a <b>bed</b>, {{c1::kneel on the bed::your position}}.",
+  "Back Extra": "Why: kneeling on the bed keeps your reach within the recommended distance; when pulling, your elbows should extend only just beyond the front of your torso.<br><br>Cue: kneeling recurs in safe pulling — kneel to pull a patient who is on the ground, and kneel on the bed to pull one across a bed.<br><br>Cue: the same kneel drives the stretcher-to-hospital-bed transfer — two EMTs kneel on the hospital bed for that body drag.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   5,
+   7
+  ],
+  "block": "D_reach_pull",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

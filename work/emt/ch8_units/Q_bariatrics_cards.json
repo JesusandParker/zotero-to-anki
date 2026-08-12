@@ -1,0 +1,18 @@
+[
+ {
+  "Text": "{{c1::Bariatrics::medical specialty}} is the branch of medicine concerned with {{c2::the management of obesity}} and allied diseases.",
+  "Back Extra": "Parts: Greek baros (weight) + iatreia (medical treatment) — the medicine of weight.<br><br>Meaning: management here spans both prevention and control.<br><br>Why: the greater the degree of obesity, the more frequent and severe the health problems — so the larger the patient, the more likely he or she will need emergency treatment and transport.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   24,
+   25
+  ],
+  "block": "Q_bariatrics",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

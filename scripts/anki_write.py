@@ -212,9 +212,22 @@ def main():
             # attribute. A source id or figure basename containing a space would
             # otherwise emit <img src="a b.png"> and silently render as a broken image.
             raw = f"{(src or {}).get('id','z2a')}_{os.path.basename(c['image'])}"
-            fn = re.sub(r"[^A-Za-z0-9._-]+", "_", raw)
-            call("storeMediaFile", filename=fn,
-                 data=base64.b64encode(open(c["image"], "rb").read()).decode())
+            # LOWERCASE up front (note-format: all media filenames lowercase), and then
+            # reference the name Anki RETURNS, never the one we asked for — storeMediaFile
+            # case-normalizes, and a requested-vs-stored mismatch is invisible on Parker's
+            # case-insensitive Mac but a broken image on any case-sensitive sync target.
+            # This writer ignored the return value and shipped 17 uppercase refs on EMT
+            # ch8 (2026-08-12), the exact R47 class. Round-trip verify per R45: a store
+            # you didn't verify didn't happen.
+            fn = re.sub(r"[^A-Za-z0-9._-]+", "_", raw).lower()
+            payload = open(c["image"], "rb").read()
+            stored = call("storeMediaFile", filename=fn,
+                          data=base64.b64encode(payload).decode())
+            fn = stored or fn
+            echo = call("retrieveMediaFile", filename=fn)
+            if not echo or base64.b64decode(echo) != payload:
+                raise SystemExit(f"media round-trip FAILED for {fn} — stored bytes do not "
+                                 f"match the source file; refusing to reference it (R45)")
             tag = f'<img src="{fn}">'
             if c.get("image_side") == "front":
                 text = text + "<br>" + tag

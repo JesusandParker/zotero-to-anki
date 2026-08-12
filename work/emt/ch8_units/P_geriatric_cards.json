@@ -1,0 +1,32 @@
+[
+ {
+  "Text": "Moving an older patient by pulling on an arm or leg may cause a {{c1::dislocation::musculoskeletal injury}} or a {{c1::fracture::musculoskeletal injury}}.",
+  "Back Extra": "Distinguish: <b>pulling</b> an older patient's arm or leg threatens the joint and bone; <b>gripping</b> it threatens the thin skin — tears and bruising.<br><br>Why: aging leaves the body less flexible and the bones more brittle, so a pull that a younger patient tolerates can injure an older one.<br><br>Pitfall: even without an injury, moving a geriatric patient by the extremities can cause significant pain — and chronic conditions such as rheumatoid arthritis limit movement and add pain of their own.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   23
+  ],
+  "block": "P_geriatric",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "The skin of a geriatric patient is {{c1::thinner::thicker/thinner}}, leaving it more susceptible to {{c2::tears}} and {{c2::bruising}} when you grip an arm or leg.",
+  "Back Extra": "Distinguish: <b>pulling</b> an extremity threatens the joint and bone — dislocation or fracture; <b>gripping</b> threatens the surface — the skin tear.<br><br>Pitfall: some older patients cannot lie flat or straighten their arms — extra padding and support may be needed to transport them comfortably.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   23
+  ],
+  "block": "P_geriatric",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

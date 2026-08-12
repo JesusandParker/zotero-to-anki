@@ -67,7 +67,14 @@ def main():
     section_a, section_b = [], []
     for i, c in enumerate(cards):
         text_plain = C.readable(c.get("Text", ""))
-        numeric = bool(C.VALUE.search(text_plain))
+        # Derivation is UPGRADE-ONLY against an asserted True: the regex cannot safely
+        # catch word-number counts ("a team of three providers", "the top two buttons" —
+        # matching bare number-words over-fires, the rule-27 calibration lesson) or digits
+        # living only in Back Extra, so a drafter's numeric=True carries information and
+        # is kept. The dangerous direction — asserting numeric=False to dodge the safety
+        # overlay — is still impossible: the regex raises it right back. (EMT ch8,
+        # 2026-08-12: this line silently lowered 20 drafter-flagged count cards. R51.)
+        numeric = bool(C.VALUE.search(text_plain)) or c.get("numeric") is True
         ground, needs_visual = cited_grounding(c, highlights) if highlights else ("EXACT", False)
         # An externally-anchored lexicon definition IS weak grounding: the answer is an
         # AUTHORED plain-language definition the source never states (card-rules #28), so

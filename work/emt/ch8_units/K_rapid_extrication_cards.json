@@ -1,0 +1,115 @@
+[
+ {
+  "Text": "Rapid extrication is called for in six situations. The three that arise from the <b>environment</b>, not from the patient, are:<br><br>{{c1::the vehicle or scene is unsafe}}<br><br>{{c1::explosives or other hazardous materials are on the scene}}<br><br>{{c1::there is a fire or a danger of fire}}",
+  "Back Extra": "Why: in any of the six situations, the delay from applying immobilization devices is itself a contraindication.<br><br>Roster: <b>vehicle or scene unsafe</b> · <b>explosives or other hazardous materials on scene</b> · <b>fire or danger of fire</b> · patient cannot be properly assessed before removal · patient has a life-threatening condition · patient blocks access to another seriously injured patient.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   18
+  ],
+  "block": "K_rapid_extrication",
+  "numeric": true,
+  "verified_against": "p803-804",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Rapid extrication is called for in six situations. Beyond the three from the environment, the three <b>patient factors</b> are:<br><br>the patient {{c1::cannot be properly assessed before being removed}}<br><br>the patient {{c1::has a life-threatening condition}}<br><br>the patient {{c1::blocks your access to another seriously injured patient}}",
+  "Back Extra": "Cue: the patient factors — cannot assess, cannot wait, cannot reach.<br><br>Roster: vehicle or scene unsafe · explosives or other hazardous materials on scene · fire or danger of fire · <b>patient cannot be properly assessed before removal</b> · <b>patient has a life-threatening condition</b> · <b>patient blocks access to another seriously injured patient</b>.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   18
+  ],
+  "block": "K_rapid_extrication",
+  "numeric": true,
+  "verified_against": "p803-804",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "The rapid extrication technique moves a patient from sitting in the vehicle to supine — on a backboard if required — in {{c1::1 minute or less}}, versus the {{c2::6 to 8}} minutes (sometimes longer) needed to apply a vest-type or short backboard immobilization device.",
+  "Back Extra": "Why: in the six situations that call for rapid extrication, that device delay is itself a contraindication — speed is the point.<br><br>Cue: whether a backboard is used with the technique depends on local protocols.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   18
+  ],
+  "block": "K_rapid_extrication",
+  "numeric": true,
+  "verified_against": "p803",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "803"
+   ],
+   "figures": [
+    "page_803.png"
+   ],
+   "note": "6-to-8-minute vest/short-backboard placement time, read from the p803 render"
+  }
+ },
+ {
+  "Text": "The manual support of the rapid extrication technique carries a {{c1::greater::greater or lesser}} risk of spine movement than device immobilization, so when <b>no</b> urgency exists you {{c1::do not use::use or do not use}} the technique.",
+  "Back Extra": "Why: all available options should be considered first — the technique buys speed with hands-on stabilization in place of a device.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   18
+  ],
+  "block": "K_rapid_extrication",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Your seated vehicle patient is able to stand and pivot onto the stretcher. Letting the patient do that is {{c1::safer::safer or riskier}} than performing a rapid extrication.",
+  "Back Extra": "Why: standing and pivoting keeps the patient clear of the spine-movement risk that comes with the technique's manual support.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   18
+  ],
+  "block": "K_rapid_extrication",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "The rapid extrication technique requires a team of {{c1::three::number of providers}} providers who are knowledgeable and practiced in the procedure.",
+  "Back Extra": "Why: the support is entirely manual — several practiced hands substitute for a device's stabilization, so training, not just a head count, meets the requirement.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   18
+  ],
+  "block": "K_rapid_extrication",
+  "numeric": true,
+  "verified_against": "p803",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Gasoline is pooling under a crashed car; your patient is still seated inside, and your crew is at the vehicle with you. Which named technique gets the patient out? {{c1::The rapid extrication technique}}",
+  "Back Extra": "Cue: pooling fuel is both a hazardous material and a danger of fire — either one alone licenses the technique.<br><br>Pitfall: do not spend minutes fitting a vest device first; here that delay is itself a contraindication.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   18
+  ],
+  "block": "K_rapid_extrication",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

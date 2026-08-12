@@ -1,0 +1,23 @@
+[
+ {
+  "source": "emt",
+  "kind": "text",
+  "segment": 8,
+  "segment_name": "Lifting and Moving Patients",
+  "page": 745,
+  "page_label": "745",
+  "color": "#ffd400",
+  "highlight": ". Secure the patient to the wheeled ambulance stretcher as follows: 1. Secure the stretcher's safety belts over the patient's shoulders and around the patient's chest in a four-point harness fashion. They should be tight enough to keep the patient secured on the stretcher but not limit breathing. 2. Secure the stretcher's safety belt over the patient's abdomen. 3. Secure the stretcher's safety belt over the patient's thighs. 4. Secure the stretcher's safety belt over the patient's ankles",
+  "context": "mechanics to lift the wheeled ambulance stretcher. The mattress on a stretcher is fluid resistant so that it does not absorb any type of potentially infectious material, including water, blood, or other body fluid. This also allows for easy cleaning and disinfecting. Patients must always be secured with the straps on the stretcher. In the event of a crash while en route to the hospital, the straps help to protect the patient from further injury. Secure the patient to the wheeled ambulance stretcher as follows: 1. Secure the stretcher's safety belts over the patient's shoulders and around the patient's chest in a four-point harness fashion. They should be tight enough to keep the patient secured on the stretcher but not limit breathing. 2. Secure the stretcher's safety belt over the patient's abdomen. 3. Secure the stretcher's safety belt over the patient's thighs. 4. Secure the stretcher's safety belt over the patient's ankles.",
+  "grounding": "EXACT",
+  "content": "FULL",
+  "page_text_chars": 1002,
+  "next_page_text_chars": null,
+  "list_lead_in": false,
+  "user_comment": null,
+  "sort": "00744|000408|00218",
+  "page_sparse": false,
+  "needs_visual": false,
+  "_idx": 0
+ }
+]

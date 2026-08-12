@@ -1,0 +1,32 @@
+[
+ {
+  "Text": "Orders that initiate the actual lift or move (or any significant change in movement) are given in <b>two parts</b>:<br><br>1. {{c1::a preparatory command}}<br><br>2. {{c1::a command of execution}}",
+  "Back Extra": "Ex: \"All ready to stop. STOP!\" (the preparatory \"All ready to stop\" gets attention, identifies who should act, and prepares the team; the declarative \"STOP!\" marks the exact moment of execution).<br><br>Cue: commands of execution are delivered in a louder voice.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   13
+  ],
+  "block": "I_commands",
+  "numeric": true,
+  "verified_against": "p796",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "To avoid confusion with a lift countdown, the leader should <b>always</b> clarify in advance whether \"three\" is {{c1::part of the preparatory command}} or {{c1::itself the order to execute}}.",
+  "Back Extra": "Ex: \"We're going to lift on three. One, two, THREE!\" versus \"I'm going to count to three, and then we're going to lift. One, two, three, LIFT!\"<br><br>Why: the two patterns execute at different moments (on \"THREE!\" in the first, only after the count in the second), so an unclarified countdown splits the team's timing.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   14
+  ],
+  "block": "I_commands",
+  "numeric": true,
+  "verified_against": "p796",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

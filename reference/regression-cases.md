@@ -647,3 +647,23 @@ it at 0.625.
 - BAD (must catch): any crop whose trim bbox touches its source window edge.
 - GOOD: every crop with visible whitespace margin on all four sides, verified on a contact
   sheet before it is stored as media.
+
+## R50 — A set-level block requirement fired on a file from a different source
+**Rule:** a `SET_LEVEL` rule in `check_block_spec.py` governs one block, so it judges only files CONTAINING that block. **Caught by:** `test_block_spec.py` (the `block_spec_other_source.json` fixture). Found 2026-08-12 on EMT Chapter 8 — the first non-Arabic file ever run through the checker.
+
+C4-membership and C5-anchor (written 2026-08-08 for the Arabic countries set) tested `block == "G_countries"` conditions over ALL cards and reported REGRESSION when unmet — on a file with no G_countries cards at all, i.e. on every file from every other source, forever. The requirements-only-accumulate design is right; the scope was wrong. Each set-level rule now carries a scope predicate ("this file contains the governed block") and is skipped out of scope.
+
+- **MUST CATCH:** an Arabic-format file whose G_countries cards lost their membership lane (the BAD fixture still trips C4).
+- **MUST NOT OVER-FLAG:** a file from another source containing none of the governed blocks (the new OTHER-SOURCE fixture must pass).
+- **Catch test (both ways):** `test_block_spec.py` runs good / bad / other-source fixtures.
+
+## R51 — The numeric flag: unit forms VALUE missed, and a derivation that destroyed asserted flags
+**Rule:** `check_cards.VALUE` + `verify_report.py`'s upgrade-only derivation. **Caught by:** `test_regressions.py` `r51_*`. Found 2026-08-12 on EMT Chapter 8.
+
+Two independent halves:
+1. **"10 inches (25 cm)" derived numeric=False.** The unit list had `inch` followed by `\b` — which can never match "inch<u>es</u>" — and no metric length units at all. The power-grip hand-spacing card (a real distance with digits, verified p761) walked past the safety flag. `inch(?:es)?`, `cm`, `centimeters?` added.
+2. **`verify_report.py` LOWERED drafter-asserted `numeric: true` to false on 20 cards.** Word-number counts ("a team of three providers", "the top two buttons", "more than half") and Back-Extra-only digits are invisible to the regex, and the derivation overwrote the drafters' flags with its own blindness. Derivation is now upgrade-only: the regex can raise `numeric` but an asserted `true` is kept. The dangerous direction is unchanged — asserting `false` on a digit-bearing card is still overridden upward, so the flag cannot be used to dodge the safety overlay.
+
+- **MUST CATCH:** an unverified card whose cloze hides "at least 10 inches (25 cm)" must warn `looks numeric`.
+- **MUST NOT OVER-FLAG:** "one side at a time" (a manner phrase, not a value) must not warn — widening VALUE to bare number-words is the rule-27 over-fire mistake; asserted `numeric: true` is the lane for word-count facts.
+- **Catch test (both ways):** `r51_bad_imperial_plus_metric_length_escapes_numeric_flag` / `r51_good_manner_phrase_not_a_value`.

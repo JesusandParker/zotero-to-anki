@@ -1,0 +1,18 @@
+[
+ {
+  "Text": "Before you carry a loaded stretcher down a short flight of steps, first {{c1::retract or raise the undercarriage::stretcher adjustment}}. The same preparation is <b>not</b> necessary to lift the stretcher over {{c2::a curb}}, {{c2::a single step}}, or {{c2::an obstacle of similar height}}.",
+  "Back Extra": "Distinguish: on a full stairway the patient is typically carried down secured to a backboard, to the prepared stretcher below; the retract-the-undercarriage rule covers taking the loaded wheeled stretcher itself down a short flight of steps.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   10,
+   12
+  ],
+  "block": "H_stretcher_steps",
+  "numeric": true,
+  "verified_against": "p789",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

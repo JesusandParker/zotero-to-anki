@@ -1,0 +1,46 @@
+[
+ {
+  "Text": "The {{c1::direct carry::transfer method}} moves a {{c2::supine::patient position}} patient from a {{c2::bed::starting surface}} to the stretcher, lifted and carried in the providers' arms.",
+  "Back Extra": "Distinguish: the draw sheet method makes the same bed-to-stretcher transfer without carrying — the loosened bottom sheet is grasped at the patient's head, chest, hips, and knees, and the patient slides across; prefer it, or an able patient's own help, whenever possible to avoid unnecessary lifting.<br><br>Ex: from the ground or floor, the counterpart is the direct body carry — lift and carry the patient to the nearby prepared stretcher.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   20,
+   21
+  ],
+  "block": "M_direct_carry",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false
+ },
+ {
+  "Text": "For a <b>direct carry</b>, the stretcher is positioned {{c1::parallel::parallel/perpendicular}} to the bed, facing {{c1::the same::same/opposite}} direction.",
+  "Back Extra": "Pitfall: prepare before the lift — straps unbuckled, any other items removed, and the stretcher secured so it cannot move.<br><br>Cue: the draw sheet method preps almost identically — stretcher beside the bed at the same height or slightly lower, rails down, straps unbuckled, and held or secured still.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   20
+  ],
+  "block": "M_direct_carry",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false
+ },
+ {
+  "Text": "In the <b>direct carry</b>, you stand at the {{c1::head of the bed}} facing the patient, arms under the patient's {{c1::neck and shoulders}}, while your partner stands {{c2::between the bed and the stretcher}}, facing {{c2::you and the patient::whom}}, hands under the {{c2::knees}} — locked together or grasping the {{c2::posterior thighs}}.",
+  "Back Extra": "Distinguish: the extremity lift's partner works from between the patient's legs, facing the same way as the patient; the direct carry's partner faces both you and the patient from the bed-stretcher gap.<br><br>Ex: a third provider, when available, supports the patient's feet and legs from the bottom of the bed.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   20,
+   19
+  ],
+  "block": "M_direct_carry",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false
+ }
+]

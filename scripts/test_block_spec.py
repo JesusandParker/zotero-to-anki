@@ -25,6 +25,13 @@ else:
                  "V1-two-way", "C1-property", "C2-two-way", "C3-roster", "C4-membership"):
         if must not in out:
             fails.append(f"BAD fixture: rule {must} did not fire")
+# A file from a DIFFERENT source, containing none of the governed blocks, must pass —
+# set-level rules are scoped to files that contain their block. The defect this pins:
+# C4/C5 fired as false REGRESSIONS on EMT chapter 8 (2026-08-12), the first non-Arabic
+# file through the checker, because the set-level tests ran unscoped on every file.
+rc, out = run("reference/fixtures/block_spec_other_source.json")
+if rc != 0:
+    fails.append("OTHER-SOURCE fixture was flagged — set-level rules leaked across sources:\n" + out)
 if fails:
     print("test_block_spec: FAIL"); [print(" -", f) for f in fails]; sys.exit(1)
 print("test_block_spec: good fixture passes, bad fixture trips every rule ✓")

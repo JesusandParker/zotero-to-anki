@@ -1,0 +1,31 @@
+[
+ {
+  "Text": "Reach for the <b>extremity lift</b> for a {{c1::supine or sitting::two starting positions}} patient with <b>no</b> suspected {{c1::extremity or spinal::two injury sites}} injuries — it is especially helpful in {{c2::a very narrow space::scene constraint}}.",
+  "Back Extra": "Why: the move lifts entirely by the limbs — your grip on the arms, your partner's under the legs — which is exactly why a suspected extremity or spinal injury rules it out.<br><br>Distinguish: the direct carry is a standing transfer of a supine patient, bed to stretcher; the extremity lift starts from a kneel on the ground, takes sitting patients too, and fits where several EMTs cannot stand side by side.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   19,
+   20
+  ],
+  "block": "L_extremity_lift",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false
+ },
+ {
+  "Text": "In the {{c3::extremity lift::move name}}, the patient's hands are {{c1::crossed over the chest}} and you grasp the {{c1::wrists or forearms::grip point}} from beneath the armpits. For the lift, your partner stands {{c2::between the patient's legs}}, facing {{c2::the same direction as the patient::facing patient or same direction}}, with hands under the {{c2::knees}}.",
+  "Back Extra": "Cue: the lift opens with you kneeling behind the patient's head and your partner at the feet, facing each other — the partner moves between the legs only after you pull the patient up to sitting.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   19
+  ],
+  "block": "L_extremity_lift",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false
+ }
+]

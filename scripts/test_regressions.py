@@ -763,6 +763,24 @@ CASES = [
                    "Back Extra": "Cue: the order is not fixed; people move back and forth.", "chapter": 7}],
         "note": "no digit at all — widening VALUE must not start flagging ordinary prose",
     },
+    # --- R51: unit forms the VALUE regex missed (EMT ch8, 2026-08-12) ---
+    {
+        "id": "r51_bad_imperial_plus_metric_length_escapes_numeric_flag",
+        "warn": "looks numeric", "present": True,
+        "cards": [{"Text": "Whenever you grasp a stretcher or backboard, your hands should be {{c1::at least 10 inches (25 cm)}} apart.",
+                   "Back Extra": "Cue: palm up, thumb extended.", "chapter": 8}],
+        "note": "'inch' + \\b can never match 'inches', and cm was absent from the unit list — "
+                "the power-grip hand-spacing card derived numeric=False",
+    },
+    {
+        "id": "r51_good_manner_phrase_not_a_value",
+        "warn": "looks numeric", "present": False,
+        "cards": [{"Text": "A scoop stretcher is worked under the patient {{c1::one side at a time}}.",
+                   "Back Extra": "Why: one of you lifts while the other slides.", "chapter": 8}],
+        "note": "word-numbers in manner phrases are not values; widening VALUE to number-words "
+                "would over-fire (the rule-27 calibration lesson) — asserted numeric=True is the "
+                "lane for word-count facts, and verify_report keeps it (upgrade-only derivation)",
+    },
     {
         "id": "r24_good_verified_card_is_exempt",
         "warn": "looks numeric", "present": False,

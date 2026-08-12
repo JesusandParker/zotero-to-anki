@@ -1,0 +1,33 @@
+[
+ {
+  "Text": "The <b>first key rule of lifting</b> is to always keep your back in a {{c1::straight, upright (vertical)}} position and to lift without {{c1::twisting}}.",
+  "Back Extra": "Why: the upper spine and torso act as a lever, so the force across the muscles and ligaments of the lumbar and sacral regions is many times the combined weight of your upper body and the load you lift.<br><br>Pitfall: face the patient with your feet pointed in the same direction, then after the lift turn by changing the direction of your feet, never by twisting or turning from the waist.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   1
+  ],
+  "block": "B_lifting_rules",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "A stretcher is designed so that the patient's head is slightly {{c1::higher::higher or lower}} than the feet. When lifting, position the {{c1::tallest}} EMTs at the head end to offset the difference in stretcher height.",
+  "Back Extra": "Distinguish: <b>tallest</b>-at-head offsets the stretcher's built-in head-end height on a flat lift; on <b>stairs</b>, the head end goes to the strongest provider instead, because the greater share of the patient's weight lands there.<br><br>Cue: match the extremes: highest end of the stretcher, tallest EMTs on the crew.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   2,
+   10
+  ],
+  "block": "B_lifting_rules",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

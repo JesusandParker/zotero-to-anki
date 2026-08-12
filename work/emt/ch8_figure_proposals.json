@@ -1,0 +1,751 @@
+{
+ "teaches": [
+  {
+   "card_index": 4,
+   "text": "You use the {{c2::power grip::grip}} to get the maximum force from your hands and arms whenever lifting a pati",
+   "figure": "FIGURE 8-5",
+   "file": "figures/study/FIGURE_8_5.jpg",
+   "native_file": "figures/FIGURE_8_5.jpg",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "grip",
+    "power"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 7,
+   "text": "If you must drag a patient across a  bed , {{c1::kneel on the bed::your position}}.",
+   "figure": "FIGURE 8-6",
+   "file": "figures/study/FIGURE_8_6.jpg",
+   "native_file": "figures/FIGURE_8_6.jpg",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "bed",
+    "kneel"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 34,
+   "text": "Gasoline is pooling under a crashed car; your patient is still seated inside, and your crew is at the vehicle ",
+   "figure": "TABLE 8-3",
+   "file": "figures/study/TABLE_8_3.png",
+   "native_file": "figures/TABLE_8_3.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "extrication",
+    "rapid",
+    "technique"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 37,
+   "text": "The {{c1::direct carry::transfer method}} moves a {{c2::supine::patient position}} patient from a {{c2::bed::s",
+   "figure": "SKILL DRILL 8-10",
+   "file": "figures/study/SKILL_DRILL_8_10.jpg",
+   "native_file": "figures/SKILL_DRILL_8_10.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "bed",
+    "carry",
+    "direct",
+    "supine"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 51,
+   "text": "To carry a patient across uneven terrain from a remote location that no ambulance or other vehicle can reach, ",
+   "figure": "FIGURE 8-26",
+   "file": "figures/study/FIGURE_8_26.jpg",
+   "native_file": "figures/FIGURE_8_26.jpg",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "basket",
+    "litter",
+    "rigid",
+    "stokes",
+    "stretcher"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 39,
+   "text": "In the  direct carry , you stand at the {{c1::head of the bed}} facing the patient, arms under the patient's {",
+   "figure": "SKILL DRILL 8-10",
+   "file": "figures/study/SKILL_DRILL_8_10.jpg",
+   "native_file": "figures/SKILL_DRILL_8_10.png",
+   "coverage": 0.6,
+   "page_dist": 0,
+   "matched_terms": [
+    "bed",
+    "knees",
+    "neck",
+    "patient",
+    "shoulders",
+    "stretcher"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 19,
+   "text": "In the  emergency clothes drag , you pull on the patient's clothing in the {{c1::neck and shoulder::body regio",
+   "figure": "FIGURE 8-14",
+   "file": "figures/study/FIGURE_8_14.jpg",
+   "native_file": "figures/FIGURE_8_14.jpg",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "shoulder"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 31,
+   "text": "The manual support of the rapid extrication technique carries a {{c1::greater::greater or lesser}} risk of spi",
+   "figure": "TABLE 8-3",
+   "file": "figures/study/TABLE_8_3.png",
+   "native_file": "figures/TABLE_8_3.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "use"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 38,
+   "text": "For a  direct carry , the stretcher is positioned {{c1::parallel::parallel/perpendicular}} to the bed, facing ",
+   "figure": "SKILL DRILL 8-10",
+   "file": "figures/study/SKILL_DRILL_8_10.jpg",
+   "native_file": "figures/SKILL_DRILL_8_10.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "parallel"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 40,
+   "text": "The first thing done with a  scoop stretcher  \u2014 while its halves are still {{c1::separated::separated or locke",
+   "figure": "SKILL DRILL 8-11",
+   "file": "figures/study/SKILL_DRILL_8_11.jpg",
+   "native_file": "figures/SKILL_DRILL_8_11.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "length"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 27,
+   "text": "One-person techniques for moving a patient are justified only when the danger is {{c1::immediately life-threat",
+   "figure": "FIGURE 8-15",
+   "file": "figures/study/FIGURE_8_15.jpg",
+   "native_file": "figures/FIGURE_8_15.jpg",
+   "coverage": 0.4,
+   "page_dist": 0,
+   "matched_terms": [
+    "moving",
+    "patient"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 30,
+   "text": "The rapid extrication technique moves a patient from sitting in the vehicle to supine \u2014 on a backboard if requ",
+   "figure": "SKILL DRILL 8-7",
+   "file": "figures/study/SKILL_DRILL_8_7.jpg",
+   "native_file": "figures/SKILL_DRILL_8_7.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "procedure-plate",
+   "why": "rule 26: the procedure's own plate on the timing card \u2014 the composite IS the 1-minute move",
+   "has_description": false,
+   "forced": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 33,
+   "text": "The rapid extrication technique requires a team of {{c1::three::number of providers}} providers who are knowle",
+   "figure": "SKILL DRILL 8-7",
+   "file": "figures/study/SKILL_DRILL_8_7.jpg",
+   "native_file": "figures/SKILL_DRILL_8_7.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "procedure-plate",
+   "why": "rule 26: the 8-step composite shows the three-provider teamwork the card tests",
+   "has_description": false,
+   "forced": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 41,
+   "text": "A <b>scoop stretcher</b> is worked under the patient {{c1::one side at a time}}, lifting the patient slightly ",
+   "figure": "SKILL DRILL 8-11",
+   "file": "figures/study/SKILL_DRILL_8_11.jpg",
+   "native_file": "figures/SKILL_DRILL_8_11.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "procedure-plate",
+   "why": "rule 26: Step 2 of the composite depicts one-side-at-a-time + far hip/upper arm pull",
+   "has_description": false,
+   "forced": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 42,
+   "text": "Locking a <b>scoop stretcher</b>'s ends, you engage the mechanisms {{c1::one at a time}}, still lifting the pa",
+   "figure": "SKILL DRILL 8-11",
+   "file": "figures/study/SKILL_DRILL_8_11.jpg",
+   "native_file": "figures/SKILL_DRILL_8_11.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "procedure-plate",
+   "why": "rule 26: Step 3 of the composite depicts the lock-and-avoid-pinch step",
+   "has_description": false,
+   "forced": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 43,
+   "text": "Your patient is locked into a <b>scoop stretcher</b>. {{c2::Before::before or after}} transferring it to the w",
+   "figure": "SKILL DRILL 8-11",
+   "file": "figures/study/SKILL_DRILL_8_11.jpg",
+   "native_file": "figures/SKILL_DRILL_8_11.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "procedure-plate",
+   "why": "rule 26: Step 4 of the composite depicts strapping before transfer",
+   "has_description": false,
+   "forced": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 44,
+   "text": "For a blanket carry off the ground, prepare the blanket by rolling it up {{c1::by half::how much}}. Position t",
+   "figure": "SKILL DRILL 8-12",
+   "file": "figures/study/SKILL_DRILL_8_12.jpg",
+   "native_file": "figures/SKILL_DRILL_8_12.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "procedure-plate",
+   "why": "rule 26: the composite depicts roll-by-half + opposite-direction unroll exactly",
+   "has_description": false,
+   "forced": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 45,
+   "text": "A patient lies centered on a blanket on the ground. Before you lift, {{c1::roll up the ends of the blanket::gr",
+   "figure": "SKILL DRILL 8-12",
+   "file": "figures/study/SKILL_DRILL_8_12.jpg",
+   "native_file": "figures/SKILL_DRILL_8_12.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "procedure-plate",
+   "why": "rule 26: Step 4 of the composite depicts rolled ends + lift; replaces wrong-art FIGURE 8-17",
+   "has_description": false,
+   "forced": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 13,
+   "text": "When moving a patient <b>on stairs</b>, {{c1::more than half::how much}} of the patient's weight is distribute",
+   "figure": "SKILL DRILL 8-5",
+   "file": "figures/study/SKILL_DRILL_8_5.jpg",
+   "native_file": "figures/SKILL_DRILL_8_5.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "procedure-plate",
+   "why": "the stairs-carry drill (strap to backboard, carry down stairwell) depicts this card's subject; replaces wrong-device stair-chair plate",
+   "has_description": false,
+   "forced": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 14,
+   "text": "Carrying a patient <b>up or down a flight of stairs</b>, the two {{c1::strongest}} providers take the head and",
+   "figure": "SKILL DRILL 8-5",
+   "file": "figures/study/SKILL_DRILL_8_5.jpg",
+   "native_file": "figures/SKILL_DRILL_8_5.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "procedure-plate",
+   "why": "same stairs-carry plate for the two-strongest/shorter-at-head card",
+   "has_description": false,
+   "forced": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 25,
+   "text": "Removing an unresponsive patient from a vehicle alone, you rotate the patient until the {{c1::back}} faces the",
+   "figure": "FIGURE 8-15",
+   "file": "figures/study/FIGURE_8_15.jpg",
+   "native_file": "figures/FIGURE_8_15.jpg",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "procedure-plate",
+   "why": "panel A depicts the in-vehicle armpit grasp + head support the card tests",
+   "has_description": false,
+   "forced": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 26,
+   "text": "Dragging a patient from a vehicle alone, if the legs and feet do <b>not</b> clear the vehicle easily, you {{c1",
+   "figure": "FIGURE 8-15",
+   "file": "figures/study/FIGURE_8_15.jpg",
+   "native_file": "figures/FIGURE_8_15.jpg",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "procedure-plate",
+   "why": "panel B depicts lowering the patient to supine beside the vehicle \u2014 the card's branch; replaces generic 8-14",
+   "has_description": false,
+   "forced": true,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 49,
+   "text": "A {{c1::flexible stretcher::device}} forms a {{c2::rigid}} stretcher that {{c2::conforms around the patient's ",
+   "figure": "FIGURE 8-23",
+   "file": "figures/study/FIGURE_8_23.jpg",
+   "native_file": "figures/FIGURE_8_23.jpg",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "procedure-plate",
+   "why": "the flexible-stretcher photo (rolled, rope-belayed) is the card's own device; replaces wrong-device 8-26",
+   "has_description": false,
+   "forced": true,
+   "tier": "teaches"
+  }
+ ],
+ "context": [
+  {
+   "card_index": 15,
+   "text": "Before you carry a loaded stretcher down a short flight of steps, first {{c1::retract or raise the undercarria",
+   "figure": "FIGURE 8-13",
+   "file": "figures/study/FIGURE_8_13.jpg",
+   "native_file": "figures/FIGURE_8_13.jpg",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "curb",
+    "height",
+    "obstacle",
+    "raise",
+    "retract",
+    "similar",
+    "single",
+    "step",
+    "undercarriage"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 18,
+   "text": "A patient lying on his or her back can be dragged along the floor or ground by four methods:  {{c1::the emerge",
+   "figure": "FIGURE 8-14",
+   "file": "figures/study/FIGURE_8_14.jpg",
+   "native_file": "figures/FIGURE_8_14.jpg",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "arm",
+    "arm-to-arm",
+    "blanket",
+    "clothes",
+    "drag",
+    "emergency"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": true,
+   "tier": "context"
+  },
+  {
+   "card_index": 21,
+   "text": "You place a supine patient onto a coat and pull the coat along the floor to move the patient clear of danger. ",
+   "figure": "FIGURE 8-14",
+   "file": "figures/study/FIGURE_8_14.jpg",
+   "native_file": "figures/FIGURE_8_14.jpg",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "blanket",
+    "drag"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": true,
+   "tier": "context"
+  },
+  {
+   "card_index": 28,
+   "text": "Rapid extrication is called for in six situations. The three that arise from the  environment , not from the p",
+   "figure": "TABLE 8-3",
+   "file": "figures/study/TABLE_8_3.png",
+   "native_file": "figures/TABLE_8_3.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "danger",
+    "explosives",
+    "fire",
+    "hazardous",
+    "materials",
+    "scene",
+    "unsafe",
+    "vehicle"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 10,
+   "text": "In the {{c2::diamond}} carry, a patient on a backboard or stretcher is lifted and carried by {{c1::four::numbe",
+   "figure": "FIGURE 8-9",
+   "file": "figures/study/FIGURE_8_9.jpg",
+   "native_file": "figures/FIGURE_8_9.jpg",
+   "coverage": 0.833,
+   "page_dist": 1,
+   "matched_terms": [
+    "diamond",
+    "end",
+    "foot",
+    "four",
+    "head"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 5,
+   "text": "Whenever you grasp a stretcher or backboard, your hands should be {{c1::at least 10 inches (25 cm)}} apart.",
+   "figure": "FIGURE 8-5",
+   "file": "figures/study/FIGURE_8_5.jpg",
+   "native_file": "figures/FIGURE_8_5.jpg",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "inches"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 29,
+   "text": "Rapid extrication is called for in six situations. Beyond the three from the environment, the three  patient f",
+   "figure": "TABLE 8-3",
+   "file": "figures/study/TABLE_8_3.png",
+   "native_file": "figures/TABLE_8_3.png",
+   "coverage": 0.467,
+   "page_dist": 0,
+   "matched_terms": [
+    "assessed",
+    "before",
+    "being",
+    "cannot",
+    "patient",
+    "properly",
+    "removed"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 22,
+   "text": "In the {{c1::arm drag}}, the patient's arms are rotated until {{c2::extended straight beyond the head}}; you g",
+   "figure": "FIGURE 8-14",
+   "file": "figures/study/FIGURE_8_14.jpg",
+   "native_file": "figures/FIGURE_8_14.jpg",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "arm",
+    "drag",
+    "ground"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "context"
+  },
+  {
+   "card_index": 50,
+   "text": "As an alternative to the {{c3::backboard}}, the patient is placed on a {{c1::vacuum mattress::device}} and the",
+   "figure": "FIGURE 8-25",
+   "file": "figures/study/FIGURE_8_25.jpg",
+   "native_file": "figures/FIGURE_8_25.jpg",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "mattress",
+    "vacuum"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 2,
+   "text": "The  first key rule of lifting  is to always keep your back in a {{c1::straight, upright (vertical)}} position",
+   "figure": "FIGURE 8-3",
+   "file": "figures/study/FIGURE_8_3.jpg",
+   "native_file": "figures/FIGURE_8_3.png",
+   "coverage": 0.25,
+   "page_dist": 2,
+   "matched_terms": [
+    "upright"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": true,
+   "tier": "context"
+  },
+  {
+   "card_index": 23,
+   "text": "In the {{c1::arm-to-arm drag}}, you slide your arms under the patient's shoulders and {{c2::through the armpit",
+   "figure": "FIGURE 8-14",
+   "file": "figures/study/FIGURE_8_14.jpg",
+   "native_file": "figures/FIGURE_8_14.jpg",
+   "coverage": 0.25,
+   "page_dist": 0,
+   "matched_terms": [
+    "arm-to-arm",
+    "drag"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": true,
+   "tier": "context"
+  },
+  {
+   "card_index": 36,
+   "text": "In the {{c3::extremity lift::move name}}, the patient's hands are {{c1::crossed over the chest}} and you grasp",
+   "figure": "SKILL DRILL 8-9",
+   "file": "figures/study/SKILL_DRILL_8_9.jpg",
+   "native_file": "figures/SKILL_DRILL_8_9.png",
+   "coverage": 0.167,
+   "page_dist": 0,
+   "matched_terms": [
+    "extremity",
+    "lift"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 35,
+   "text": "Reach for the  extremity lift  for a {{c1::supine or sitting::two starting positions}} patient with  no  suspe",
+   "figure": "SKILL DRILL 8-9",
+   "file": "figures/study/SKILL_DRILL_8_9.jpg",
+   "native_file": "figures/SKILL_DRILL_8_9.png",
+   "coverage": 0.143,
+   "page_dist": 0,
+   "matched_terms": [
+    "extremity"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  }
+ ],
+ "skipped": [],
+ "mode": "generous",
+ "judged": true,
+ "rejected": [
+  {
+   "card_index": 45,
+   "text": "A patient lies centered on a blanket on the ground. Before you lift, {{c1::roll up the ends of the blanket::gr",
+   "figure": "FIGURE 8-17",
+   "file": "figures/study/FIGURE_8_17.jpg",
+   "native_file": "figures/FIGURE_8_17.jpg",
+   "coverage": 0.667,
+   "page_dist": 2,
+   "matched_terms": [
+    "blanket",
+    "roll"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "wrong art: draw-sheet method on a hospital bed; the card is the blanket carry off the GROUND \u2014 SKILL DRILL 8-12 forced instead"
+  },
+  {
+   "card_index": 49,
+   "text": "A {{c1::flexible stretcher::device}} forms a {{c2::rigid}} stretcher that {{c2::conforms around the patient's ",
+   "figure": "FIGURE 8-26",
+   "file": "figures/study/FIGURE_8_26.jpg",
+   "native_file": "figures/FIGURE_8_26.jpg",
+   "coverage": 0.375,
+   "page_dist": 1,
+   "matched_terms": [
+    "patient",
+    "rigid",
+    "stretcher"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "wrong device: basket stretcher on the flexible-stretcher card \u2014 FIGURE 8-23 forced instead"
+  },
+  {
+   "card_index": 26,
+   "text": "Dragging a patient from a vehicle alone, if the legs and feet do  not  clear the vehicle easily, you {{c1::slo",
+   "figure": "FIGURE 8-14",
+   "file": "figures/study/FIGURE_8_14.jpg",
+   "native_file": "figures/FIGURE_8_14.jpg",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "drag",
+    "patient"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "context",
+   "rejected_because": "generic drags plate; FIGURE 8-15 panel B depicts this card's lower-to-supine branch \u2014 forced replacement added"
+  },
+  {
+   "card_index": 48,
+   "text": "{{c1::Bariatrics::medical specialty}} is the branch of medicine concerned with {{c2::the management of obesity",
+   "figure": "FIGURE 8-20",
+   "file": "figures/study/FIGURE_8_20.jpg",
+   "native_file": "figures/FIGURE_8_20.jpg",
+   "coverage": 0.333,
+   "page_dist": 2,
+   "matched_terms": [
+    "bariatrics"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": true,
+   "tier": "context",
+   "rejected_because": "a bariatric stretcher product shot on a card defining the medical specialty \u2014 same topic, different subject"
+  },
+  {
+   "card_index": 55,
+   "text": "En route, a patient late in her pregnancy becomes hypotensive while lying flat on her back on the stretcher. W",
+   "figure": "FIGURE 8-27",
+   "file": "figures/study/FIGURE_8_27.jpg",
+   "native_file": "figures/FIGURE_8_27.jpg",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "transport"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "a neonatal isolette on a late-pregnancy positioning vignette \u2014 wrong subject entirely"
+  },
+  {
+   "card_index": 13,
+   "text": "When moving a patient  on stairs , {{c1::more than half::how much}} of the patient's weight is distributed to ",
+   "figure": "SKILL DRILL 8-4",
+   "file": "figures/study/SKILL_DRILL_8_4.jpg",
+   "native_file": "figures/SKILL_DRILL_8_4.png",
+   "coverage": 0.25,
+   "page_dist": 2,
+   "matched_terms": [
+    "head"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "stair CHAIR drill; the card is the backboard/stretcher stairs weight rule \u2014 SKILL DRILL 8-5 forced instead"
+  },
+  {
+   "card_index": 9,
+   "text": "To set up a stretcher-to-hospital-bed transfer, place the stretcher {{c1::at the same height or slightly highe",
+   "figure": "FIGURE 8-6",
+   "file": "figures/study/FIGURE_8_6.jpg",
+   "native_file": "figures/FIGURE_8_6.jpg",
+   "coverage": 0.2,
+   "page_dist": 1,
+   "matched_terms": [
+    "height"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "posture panels; the card is stretcher-height setup values \u2014 same topic, different subject (Parker's congruence test)"
+  }
+ ]
+}

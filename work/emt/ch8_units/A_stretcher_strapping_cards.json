@@ -1,0 +1,32 @@
+[
+ {
+  "Text": "A patient is secured to the wheeled ambulance stretcher with safety belts at four locations — in placement order:<br><br>{{c1::the shoulders and chest}}<br><br>{{c1::the abdomen}}<br><br>{{c1::the thighs}}<br><br>{{c1::the ankles}}",
+  "Back Extra": "Why: in a crash while en route to the hospital, the straps protect the patient from further injury.<br><br>Cue: the belts run head to foot — shoulders/chest first, ankles last.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   0
+  ],
+  "block": "A_stretcher_strapping",
+  "numeric": true,
+  "verified_against": "p745",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "The stretcher belts over the patient's shoulders and chest are secured in a {{c1::four-point harness}} fashion.",
+  "Back Extra": "Pitfall: tight enough to keep the patient secured on the stretcher — but never tight enough to limit breathing.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   0
+  ],
+  "block": "A_stretcher_strapping",
+  "numeric": true,
+  "verified_against": "p745",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

@@ -1,0 +1,179 @@
+[
+ {
+  "Text": "A patient lying on his or her back can be dragged along the floor or ground by four methods:<br><br>{{c1::the emergency clothes drag}}<br><br>{{c1::the blanket drag}}<br><br>{{c1::the arm drag}}<br><br>{{c1::the arm-to-arm drag}}",
+  "Back Extra": "Why: followed correctly, these drags pull a patient clear of a life-threatening situation without causing further injury.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   15,
+   16
+  ],
+  "block": "J_emergency_drags",
+  "numeric": true,
+  "verified_against": "p799-800",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "In the <b>emergency clothes drag</b>, you pull on the patient's clothing in the {{c1::neck and shoulder::body region}} area.",
+  "Back Extra": "Distinguish: the arm-to-arm drag pulls from the same end of the body, but your arms threaded through the armpits take the load instead of the clothing.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   15,
+   16
+  ],
+  "block": "J_emergency_drags",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Before an emergency clothes drag on a patient in a buttoned shirt, undo {{c1::the top two::which buttons}} buttons so the shirt cannot {{c1::choke}} the patient.",
+  "Back Extra": "Distinguish: the blanket drag skips the clothing entirely — the pull goes through an item placed under the patient.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   16
+  ],
+  "block": "J_emergency_drags",
+  "numeric": true,
+  "verified_against": "p800",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "You place a supine patient onto a coat and pull the coat along the floor to move the patient clear of danger. Which of the four floor-or-ground drag methods is this? {{c1::The blanket drag}}",
+  "Back Extra": "Cue: the item under the patient does the sliding — a blanket, a coat, or anything else that can be pulled qualifies.<br><br>Distinguish: the emergency clothes drag pulls the clothing the patient is wearing, not an item placed beneath him.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   16
+  ],
+  "block": "J_emergency_drags",
+  "numeric": true,
+  "verified_against": "p799-800",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "In the {{c1::arm drag}}, the patient's arms are rotated until {{c2::extended straight beyond the head}}; you grasp the {{c2::wrists}} and drag with the arms {{c2::elevated above the ground}}.",
+  "Back Extra": "Distinguish: in the arm-to-arm drag it is <i>your</i> arms doing the holding — threaded through the armpits, gripping your own opposite wrist. The arm drag uses the patient's own extended arms.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   16
+  ],
+  "block": "J_emergency_drags",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "In the {{c1::arm-to-arm drag}}, you slide your arms under the patient's shoulders and {{c2::through the armpits}}, grasp {{c2::your opposite wrist}}, and drag the patient {{c2::backward::forward or backward}}.",
+  "Back Extra": "Distinguish: the arm drag pulls the patient's <i>own</i> arms — extended straight beyond the head, wrists in your hands.<br><br>Cue: arm-to-arm = your own two arms locked into a loop, one hand gripping the other arm's wrist.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   16
+  ],
+  "block": "J_emergency_drags",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Alone with an unresponsive patient in a vehicle, your <b>first</b> move is the patient's {{c1::legs::body part}} — brought clear of the {{c1::pedals}} and set against the seat — before any rotating begins.",
+  "Back Extra": "Why: feet still tangled in the pedals would anchor the patient the moment the rotation begins.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   16,
+   17
+  ],
+  "block": "J_emergency_drags",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Removing an unresponsive patient from a vehicle alone, you rotate the patient until the {{c1::back}} faces the open door, slide your arms through the {{c2::armpits}}, and support the head {{c2::against your own body}} as you drag the patient from the seat.",
+  "Back Extra": "Cue: the armpit threading is the same as the arm-to-arm drag — here your own torso doubles as the head support for the unresponsive patient.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   17
+  ],
+  "block": "J_emergency_drags",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "801"
+   ],
+   "figures": [
+    "page_801.png"
+   ],
+   "note": "continuation of the one-person vehicle removal + the one-person-technique indication, read from the p801 render"
+  }
+ },
+ {
+  "Text": "Dragging a patient from a vehicle alone, if the legs and feet do <b>not</b> clear the vehicle easily, you {{c1::slowly lower the patient::next action}} onto his or her back beside the vehicle, clear the legs, then move away using a {{c2::long-axis body drag::type of drag}}.",
+  "Back Extra": "Distinguish: if the legs and feet <i>do</i> clear the vehicle easily, there is no lowering step — you keep the armpit drag going straight to a safe location.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   17
+  ],
+  "block": "J_emergency_drags",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "801"
+   ],
+   "figures": [
+    "page_801.png"
+   ],
+   "note": "continuation of the one-person vehicle removal + the one-person-technique indication, read from the p801 render"
+  }
+ },
+ {
+  "Text": "One-person techniques for moving a patient are justified only when the danger is {{c1::immediately life-threatening::how severe}} and either you are alone or the danger is so pressing that your partner is {{c2::moving a second patient::partner's task}} at the same time.",
+  "Back Extra": "Ex: an engine fire with two unresponsive occupants — you drag one while your partner drags the other; the pressing danger justifies both solo moves.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   17
+  ],
+  "block": "J_emergency_drags",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "801"
+   ],
+   "figures": [
+    "page_801.png"
+   ],
+   "note": "continuation of the one-person vehicle removal + the one-person-technique indication, read from the p801 render"
+  }
+ }
+]

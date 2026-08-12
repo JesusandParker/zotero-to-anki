@@ -102,12 +102,20 @@ RULES = [
  ("C4-membership (2026-08-08, R48)", lambda c: False, lambda c: True, ""),  # set-level, below
 ]
 
+# A set-level rule governs one specific block, so it may only judge a file that CONTAINS
+# that block: the requirement "the countries set keeps its membership lane" says nothing
+# about a chemistry chapter. Without the scope predicate these fired as false REGRESSIONS
+# on the first non-Arabic file ever run through the checker (EMT ch8, 2026-08-12) —
+# cross-source scope leakage, the exact class CLAUDE.md's scope reminder warns about.
+# Each entry: (id, scope(cards) -> this file is governed, test(cards), message).
 SET_LEVEL = [
  ("C4-membership (2026-08-08, R48)",
+  lambda cards: any(c.get("block") == "G_countries" for c in cards),
   lambda cards: sum(1 for c in cards if c.get("block") == "G_countries"
                     and re.search(r'countries in .+\(\d+\)', c["Text"])) >= 3,
   "a marked SET needs a membership lane (>=3 roster notes), not only row cards"),
  ("C5-anchor (2026-08-08, R48)",
+  lambda cards: any(c.get("block") == "G_countries" for c in cards),
   lambda cards: any(c.get("block") == "G_countries" and "map shows" in c["Text"] for c in cards),
   "the membership lane needs an anchor note naming the sub-groups"),
 ]
@@ -125,8 +133,8 @@ def main(path):
                                  f"      {c['Text'][:90]}")
             except Exception as e:                      # a broken rule must not pass silently
                 fails.append(f"  [{rid}] card #{i}: RULE ERROR {e}")
-    for rid, test, msg in SET_LEVEL:
-        if not test(cards):
+    for rid, scope, test, msg in SET_LEVEL:
+        if scope(cards) and not test(cards):
             fails.append(f"  [{rid}] SET-LEVEL: {msg}")
 
     print(f"block-spec: checked {len(cards)} cards against "

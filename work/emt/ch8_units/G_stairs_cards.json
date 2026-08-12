@@ -1,0 +1,34 @@
+[
+ {
+  "Text": "When moving a patient <b>on stairs</b>, {{c1::more than half::how much}} of the patient's weight is distributed to the {{c2::head::head or foot}} end of the carrying device, so the {{c2::strongest}} provider is positioned at that end.",
+  "Back Extra": "Distinguish: on a flat stretcher lift, the <b>tallest</b> EMTs take the head end (the stretcher's head end sits slightly higher by design); on <b>stairs</b> the head end is assigned by strength, because the weight shifts to it.<br><br>Pitfall: extra hands do not spare the head end; even with four or more providers, head-end strain still increases on a narrow flight of stairs.<br><br>Cue: for the stair carry itself the patient rides secured to a backboard, and the wheeled stretcher waits prepared at the bottom.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   10,
+   2
+  ],
+  "block": "G_stairs",
+  "numeric": true,
+  "verified_against": "p784",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Carrying a patient <b>up or down a flight of stairs</b>, the two {{c1::strongest}} providers take the head and foot ends. Because of the stairway's incline, if one of the two is considerably taller, it is easier with the {{c2::shorter::taller or shorter}} provider at the head.",
+  "Back Extra": "Why: on stairs the device angles with the incline, and proportionally greater weight also lands on the foot-end provider, so both end positions need strength.<br><br>Distinguish: <b>tallest</b>-at-head offsets the stretcher's built-in head height on a flat lift; on a stairway the incline is what matters, and the shorter of the two strongest takes the head.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   11,
+   2
+  ],
+  "block": "G_stairs",
+  "numeric": true,
+  "verified_against": "p784",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

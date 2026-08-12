@@ -1,0 +1,33 @@
+[
+ {
+  "Text": "You use the {{c2::power grip::grip}} to get the maximum force from your hands and arms whenever lifting a patient. The arm and hand have their greatest lifting strength when facing palm {{c1::up::up or down}}.",
+  "Back Extra": "Why: a temporarily lost grasp shifts the stretcher's position and weight suddenly, and the other EMTs must overextend beyond a safe distance to avoid dropping the patient, which can put sudden excessive force across their spines and injure the low back.<br><br>Cue: done right, the underside of the handle is fully supported on your curved palm, with the fingers and thumb curled tightly over the top (all fingers at the same angle) as the only things keeping the handle from being pulled sideways or upward out of the palm.<br><br>Distinguish: the power <i>lift</i> is the leg technique (lifting by extending the properly placed flexed legs); the power <i>grip</i> is the hand hold on the handle.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   3,
+   2
+  ],
+  "block": "C_power_grip",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Whenever you grasp a stretcher or backboard, your hands should be {{c1::at least 10 inches (25 cm)}} apart.",
+  "Back Extra": "Cue: insert each hand under the handle palm up with the thumb extended upward, and advance it until the thumb stops and the cylindrical handle lies firmly in the crease of your curved palm.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   3
+  ],
+  "block": "C_power_grip",
+  "numeric": true,
+  "verified_against": "p761",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

@@ -1,0 +1,23 @@
+[
+ {
+  "source": "emt",
+  "kind": "text",
+  "segment": 8,
+  "segment_name": "Lifting and Moving Patients",
+  "page": 820,
+  "page_label": "820",
+  "color": "#ffd400",
+  "highlight": "Skill Drill 8-9 Performing the Extremity Lift",
+  "context": "The steps are reversed to lower the patient onto the stretcher. Extremity Lift The extremity lift may also be used for patients with no suspected extremity or spinal injuries who are supine or in a sitting position. The extremity lift may be especially helpful when the patient is in a very narrow space or there is not enough room for the patient and several EMTs to stand side by side. Perform the extremity lift as follows (SKILL DRILL 8-9): Skill Drill 8-9 Performing the Extremity Lift Step 1 The patient's hands are crossed over the chest. Grasp the patient's wrists or forearms and pull the patient to a sitting position. Step 2 Your partner moves to a position between the patient's legs, facing in the same direction as the patient, and places his or her hands under the knees. Description Step 3 Rise to a crouching position. On command, lift and begin to move. \u00a9 Jones & Bartlett Learning. Courtesy of MIEMSS. 1. Kneel behind the patient's head as your partner kneels at the patient's feet. You and your partner should be facing each other. 2. The patient's hands should be crossed over his or her chest. 3. Place one hand under each of the patient's armpits. Grasp the patient's wrists or forearms and pull the upper torso until the patient is in a sitting position (Step 1). 4. Your partner moves to a position between the patient's legs, facing in the same direction as the patient, and slips his or her hands under the patient's knees (Step 2). 5. As you give the command, stand fully upright and move the patient to the stretcher (Step 3).",
+  "grounding": "EXACT",
+  "content": "CAPTION_ONLY",
+  "page_text_chars": 909,
+  "next_page_text_chars": 1156,
+  "list_lead_in": false,
+  "user_comment": null,
+  "sort": "00819|000683|00453",
+  "page_sparse": false,
+  "needs_visual": true,
+  "_idx": 19
+ }
+]

@@ -1,0 +1,31 @@
+[
+ {
+  "Text": "For a blanket carry off the ground, prepare the blanket by rolling it up {{c1::by half::how much}}. Position the rolled portion under the logrolled patient, roll the patient back onto the blanket, then {{c2::in the opposite direction::same/opposite}} to unroll it.",
+  "Back Extra": "Cue: the full ride — roll the blanket up by half, logroll the patient, tuck the rolled portion underneath, roll the patient back over it, then once more the opposite way to pull the blanket flat, finishing with the patient supine and centered.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   22
+  ],
+  "block": "O_logroll_blanket",
+  "numeric": true,
+  "verified_against": "p836",
+  "verified_by": "agent",
+  "needs_human_check": false
+ },
+ {
+  "Text": "A patient lies centered on a blanket on the ground. Before you lift, {{c1::roll up the ends of the blanket::grip prep}}, then carry him or her to the nearby stretcher.",
+  "Back Extra": "Distinguish: the scoop stretcher is the rigid route off the floor — assembled around the patient and locked; the blanket route has no frame, so the rolled-up ends are the handholds and the patient rides in the fabric itself.<br><br>Cue: the patient is centered on the blanket, with the excess material on each side rolled up.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   22,
+   21
+  ],
+  "block": "O_logroll_blanket",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false
+ }
+]

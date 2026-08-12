@@ -1,0 +1,59 @@
+[
+ {
+  "Text": "The first thing done with a <b>scoop stretcher</b> — while its halves are still {{c1::separated::separated or locked}} — is measuring and adjusting it to the proper {{c1::length::dimension}}.",
+  "Back Extra": "Ex: the scoop is one of four ways to bring a patient off the ground or floor onto the stretcher — a direct body carry, a log roll or long-axis drag onto a backboard, the scoop stretcher, or a logroll onto a blanket.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   21
+  ],
+  "block": "N_scoop_stretcher",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false
+ },
+ {
+  "Text": "A <b>scoop stretcher</b> is worked under the patient {{c1::one side at a time}}, lifting the patient slightly by pulling on the {{c1::far hip and upper arm::two pull points}}.",
+  "Back Extra": "Why: the slight pull on the far hip and upper arm rolls the patient up just enough for your partner to slide that half of the stretcher into place — one of you lifts while the other slides.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   21
+  ],
+  "block": "N_scoop_stretcher",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false
+ },
+ {
+  "Text": "Locking a <b>scoop stretcher</b>'s ends, you engage the mechanisms {{c1::one at a time}}, still lifting the patient slightly, to avoid {{c1::pinching}} the patient — and your own fingers.",
+  "Back Extra": "Cue: the slight lift is continuous — the same lift that let each half slide under the patient is held, as needed, while both ends lock.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   21
+  ],
+  "block": "N_scoop_stretcher",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false
+ },
+ {
+  "Text": "Your patient is locked into a <b>scoop stretcher</b>. {{c2::Before::before or after}} transferring it to the wheeled stretcher, {{c1::apply and tighten the straps::securing step}}.",
+  "Back Extra": "Distinguish: in the direct carry the straps come at the very end, after the patient is lowered onto the stretcher; on a scoop the patient is strapped <b>before</b> the move, because the loaded scoop itself is what gets carried to the stretcher.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   21,
+   20
+  ],
+  "block": "N_scoop_stretcher",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false
+ }
+]

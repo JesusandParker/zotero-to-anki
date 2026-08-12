@@ -1,0 +1,1330 @@
+[
+ {
+  "Text": "A patient is secured to the wheeled ambulance stretcher with safety belts at four locations \u2014 in placement order:<br><br>{{c1::the shoulders and chest}}<br><br>{{c1::the abdomen}}<br><br>{{c1::the thighs}}<br><br>{{c1::the ankles}}",
+  "Back Extra": "Why: in a crash while en route to the hospital, the straps protect the patient from further injury.<br><br>Cue: the belts run head to foot \u2014 shoulders/chest first, ankles last.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   0
+  ],
+  "block": "A_stretcher_strapping",
+  "numeric": true,
+  "verified_against": "p745",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "The stretcher belts over the patient's shoulders and chest are secured in a {{c1::four-point harness}} fashion.",
+  "Back Extra": "Pitfall: tight enough to keep the patient secured on the stretcher \u2014 but never tight enough to limit breathing.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   0
+  ],
+  "block": "A_stretcher_strapping",
+  "numeric": true,
+  "verified_against": "p745",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "The <b>first key rule of lifting</b> is to always keep your back in a {{c1::straight, upright (vertical)}} position and to lift without {{c1::twisting}}.",
+  "Back Extra": "Why: the upper spine and torso act as a lever, so the force across the muscles and ligaments of the lumbar and sacral regions is many times the combined weight of your upper body and the load you lift.<br><br>Pitfall: face the patient with your feet pointed in the same direction, then after the lift turn by changing the direction of your feet, never by twisting or turning from the waist.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   1
+  ],
+  "block": "B_lifting_rules",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "752"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_3.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_3.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "A stretcher is designed so that the patient's head is slightly {{c1::higher::higher or lower}} than the feet. When lifting, position the {{c1::tallest}} EMTs at the head end to offset the difference in stretcher height.",
+  "Back Extra": "Distinguish: <b>tallest</b>-at-head offsets the stretcher's built-in head-end height on a flat lift; on <b>stairs</b>, the head end goes to the strongest provider instead, because the greater share of the patient's weight lands there.<br><br>Cue: match the extremes: highest end of the stretcher, tallest EMTs on the crew.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   2,
+   10
+  ],
+  "block": "B_lifting_rules",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "You use the {{c2::power grip::grip}} to get the maximum force from your hands and arms whenever lifting a patient. The arm and hand have their greatest lifting strength when facing palm {{c1::up::up or down}}.",
+  "Back Extra": "Why: a temporarily lost grasp shifts the stretcher's position and weight suddenly, and the other EMTs must overextend beyond a safe distance to avoid dropping the patient, which can put sudden excessive force across their spines and injure the low back.<br><br>Cue: done right, the underside of the handle is fully supported on your curved palm, with the fingers and thumb curled tightly over the top (all fingers at the same angle) as the only things keeping the handle from being pulled sideways or upward out of the palm.<br><br>Distinguish: the power <i>lift</i> is the leg technique (lifting by extending the properly placed flexed legs); the power <i>grip</i> is the hand hold on the handle.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   3,
+   2
+  ],
+  "block": "C_power_grip",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "762"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_5.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-5"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_5.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Whenever you grasp a stretcher or backboard, your hands should be {{c1::at least 10 inches (25 cm)}} apart.",
+  "Back Extra": "Cue: insert each hand under the handle palm up with the thumb extended upward, and advance it until the thumb stops and the cylindrical handle lies firmly in the crease of your curved palm.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   3
+  ],
+  "block": "C_power_grip",
+  "numeric": true,
+  "verified_against": "p761",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "762"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_5.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-5"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_5.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "When pulling a patient toward you, move yourself and the patient {{c1::one at a time, never simultaneously::simultaneously or one at a time}}.",
+  "Back Extra": "Why: moving both at once jostles the patient and risks putting sudden force across your spine.<br><br>Ex: pull by slowly flexing your arms; when your hands reach the front of your torso, stop and move yourself back another 15 to 20 inches (38 to 50 cm), then repeat, alternating between pulling and repositioning.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   4
+  ],
+  "block": "D_reach_pull",
+  "numeric": true,
+  "verified_against": "p763",
+  "verified_by": "agent; R13 warning cleared by judge: 'one at a time, never simultaneously' re-polarizes mark 4's own 'By NOT moving...simultaneously' + alternation procedure \u2014 paraphrase, not addition",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "If you must drag a patient across a <b>bed</b>, {{c1::kneel on the bed::your position}}.",
+  "Back Extra": "Why: kneeling on the bed keeps your reach within the recommended distance; when pulling, your elbows should extend only just beyond the front of your torso.<br><br>Cue: kneeling recurs in safe pulling \u2014 kneel to pull a patient who is on the ground, and kneel on the bed to pull one across a bed.<br><br>Cue: the same kneel drives the stretcher-to-hospital-bed transfer \u2014 two EMTs kneel on the hospital bed for that body drag.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   5,
+   7
+  ],
+  "block": "D_reach_pull",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "765"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_6.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-6"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_6.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "To drag a patient toward the edge of a bed, pull on {{c1::the sheet or blanket under them::your grip}} \u2014 <b>never</b> on the patient's clothing.",
+  "Back Extra": "Cue: roll the bedding under the patient until it is about 6 in (15 cm) wider than the patient, then pull the roll smoothly and evenly to glide the patient to the bedside.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   6
+  ],
+  "block": "E_bed_transfers",
+  "numeric": true,
+  "verified_against": "p766",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "To set up a stretcher-to-hospital-bed transfer, place the stretcher {{c1::at the same height or slightly higher::height}} relative to the bed and hold it firmly against the bed's side; kneeling on the bed, you and another EMT drag the patient {{c2::in increments::pacing}} until properly centered.",
+  "Back Extra": "Cue: the transfer itself is a <i>body drag</i> \u2014 the patient is pulled across on the bedding beneath them.<br><br>Ex: a third person may need to take both sides of the head to move the patient safely.<br><br>Distinguish: direction flips the height \u2014 dragging INTO the hospital bed, the stretcher sits level or slightly <b>higher</b>; for the draw sheet method onto the stretcher, it sits level or slightly <b>lower</b>.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   7,
+   20
+  ],
+  "block": "E_bed_transfers",
+  "numeric": true,
+  "verified_against": "p766",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "In the {{c2::diamond}} carry, a patient on a backboard or stretcher is lifted and carried by {{c1::four::number}} providers:<br><br>{{c1::one at the head end of the device}}<br><br>{{c1::one at the foot end}}<br><br>{{c1::one at each side}}",
+  "Back Extra": "Cue: the name is the map \u2014 the four providers stand at the four points of a diamond: head, foot, and the two sides.<br><br>Distinguish: in the <i>one-handed carry</i>, four or more providers each support the backboard with one hand, letting everyone face forward.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   8,
+   9
+  ],
+  "block": "F_carries",
+  "numeric": true,
+  "verified_against": "p771",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "772"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_9.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-9"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_9.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "A patient on a backboard or stretcher is carried {{c1::feetfirst::headfirst or feetfirst}}.",
+  "Back Extra": "Why: feetfirst places the lightest load on the provider at the patient's feet, who must turn around to walk forward.<br><br>Why: a conscious patient can also see in the direction of movement, which may reduce anxiety.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   9
+  ],
+  "block": "F_carries",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "When carrying a patient on a backboard or stretcher, the provider at the patient's feet bears the {{c1::lightest::lightest or heaviest}} load \u2014 and, to walk forward, turns to grasp the handles with {{c2::back::back or front}} to the device.",
+  "Back Extra": "Why: 68\u201378% of a horizontal patient's body weight is in the torso, so more weight rests on the head half of the device than on the foot half.<br><br>Cue: feetfirst deliberately hands the turned-around provider the lightest load.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   8,
+   9
+  ],
+  "block": "F_carries",
+  "numeric": true,
+  "verified_against": "p771",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "When moving a patient <b>on stairs</b>, {{c1::more than half::how much}} of the patient's weight is distributed to the {{c2::head::head or foot}} end of the carrying device, so the {{c2::strongest}} provider is positioned at that end.",
+  "Back Extra": "Distinguish: on a flat stretcher lift, the <b>tallest</b> EMTs take the head end (the stretcher's head end sits slightly higher by design); on <b>stairs</b> the head end is assigned by strength, because the weight shifts to it.<br><br>Pitfall: extra hands do not spare the head end; even with four or more providers, head-end strain still increases on a narrow flight of stairs.<br><br>Cue: for the stair carry itself the patient rides secured to a backboard, and the wheeled stretcher waits prepared at the bottom.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   10,
+   2
+  ],
+  "block": "G_stairs",
+  "numeric": true,
+  "verified_against": "p784",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "785"
+   ],
+   "figures": [
+    "figures/study/SKILL_DRILL_8_5.jpg"
+   ],
+   "labels": [
+    "SKILL DRILL 8-5"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_8_5.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Carrying a patient <b>up or down a flight of stairs</b>, the two {{c1::strongest}} providers take the head and foot ends. Because of the stairway's incline, if one of the two is considerably taller, it is easier with the {{c2::shorter::taller or shorter}} provider at the head.",
+  "Back Extra": "Why: on stairs the device angles with the incline, and proportionally greater weight also lands on the foot-end provider, so both end positions need strength.<br><br>Distinguish: <b>tallest</b>-at-head offsets the stretcher's built-in head height on a flat lift; on a stairway the incline is what matters, and the shorter of the two strongest takes the head.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   11,
+   2
+  ],
+  "block": "G_stairs",
+  "numeric": true,
+  "verified_against": "p784",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "785"
+   ],
+   "figures": [
+    "figures/study/SKILL_DRILL_8_5.jpg"
+   ],
+   "labels": [
+    "SKILL DRILL 8-5"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_8_5.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Before you carry a loaded stretcher down a short flight of steps, first {{c1::retract or raise the undercarriage::stretcher adjustment}}. The same preparation is <b>not</b> necessary to lift the stretcher over {{c2::a curb}}, {{c2::a single step}}, or {{c2::an obstacle of similar height}}.",
+  "Back Extra": "Distinguish: on a full stairway the patient is typically carried down secured to a backboard, to the prepared stretcher below; the retract-the-undercarriage rule covers taking the loaded wheeled stretcher itself down a short flight of steps.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   10,
+   12
+  ],
+  "block": "H_stretcher_steps",
+  "numeric": true,
+  "verified_against": "p789",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "789"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_13.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-13"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_13.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Orders that initiate the actual lift or move (or any significant change in movement) are given in <b>two parts</b>:<br><br>1. {{c1::a preparatory command}}<br><br>2. {{c1::a command of execution}}",
+  "Back Extra": "Ex: \"All ready to stop. STOP!\" (the preparatory \"All ready to stop\" gets attention, identifies who should act, and prepares the team; the declarative \"STOP!\" marks the exact moment of execution).<br><br>Cue: commands of execution are delivered in a louder voice.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   13
+  ],
+  "block": "I_commands",
+  "numeric": true,
+  "verified_against": "p796",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "To avoid confusion with a lift countdown, the leader should <b>always</b> clarify in advance whether \"three\" is {{c1::part of the preparatory command}} or {{c1::itself the order to execute}}.",
+  "Back Extra": "Ex: \"We're going to lift on three. One, two, THREE!\" versus \"I'm going to count to three, and then we're going to lift. One, two, three, LIFT!\"<br><br>Why: the two patterns execute at different moments (on \"THREE!\" in the first, only after the count in the second), so an unclarified countdown splits the team's timing.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   14
+  ],
+  "block": "I_commands",
+  "numeric": true,
+  "verified_against": "p796",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "A patient lying on his or her back can be dragged along the floor or ground by four methods:<br><br>{{c1::the emergency clothes drag}}<br><br>{{c1::the blanket drag}}<br><br>{{c1::the arm drag}}<br><br>{{c1::the arm-to-arm drag}}",
+  "Back Extra": "Why: followed correctly, these drags pull a patient clear of a life-threatening situation without causing further injury.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   15,
+   16
+  ],
+  "block": "J_emergency_drags",
+  "numeric": true,
+  "verified_against": "p799-800",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "800"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_14.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-14"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_14.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "In the <b>emergency clothes drag</b>, you pull on the patient's clothing in the {{c1::neck and shoulder::body region}} area.",
+  "Back Extra": "Distinguish: the arm-to-arm drag pulls from the same end of the body, but your arms threaded through the armpits take the load instead of the clothing.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   15,
+   16
+  ],
+  "block": "J_emergency_drags",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "800"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_14.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-14"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_14.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Before an emergency clothes drag on a patient in a buttoned shirt, undo {{c1::the top two::which buttons}} buttons so the shirt cannot {{c1::choke}} the patient.",
+  "Back Extra": "Distinguish: the blanket drag skips the clothing entirely \u2014 the pull goes through an item placed under the patient.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   16
+  ],
+  "block": "J_emergency_drags",
+  "numeric": true,
+  "verified_against": "p800",
+  "verified_by": "agent; R13 warning cleared by judge: 'choke' inflects context's 'choking'; shirt-as-agent recast adds no content",
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "You place a supine patient onto a coat and pull the coat along the floor to move the patient clear of danger. Which of the four floor-or-ground drag methods is this? {{c1::The blanket drag}}",
+  "Back Extra": "Cue: the item under the patient does the sliding \u2014 a blanket, a coat, or anything else that can be pulled qualifies.<br><br>Distinguish: the emergency clothes drag pulls the clothing the patient is wearing, not an item placed beneath him.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   16
+  ],
+  "block": "J_emergency_drags",
+  "numeric": true,
+  "verified_against": "p799-800",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "800"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_14.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-14"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_14.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "In the {{c1::arm drag}}, the patient's arms are rotated until {{c2::extended straight beyond the head}}; you grasp the {{c2::wrists}} and drag with the arms {{c2::elevated above the ground}}.",
+  "Back Extra": "Distinguish: in the arm-to-arm drag it is <i>your</i> arms doing the holding \u2014 threaded through the armpits, gripping your own opposite wrist. The arm drag uses the patient's own extended arms.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   16
+  ],
+  "block": "J_emergency_drags",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "800"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_14.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-14"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_14.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "In the {{c1::arm-to-arm drag}}, you slide your arms under the patient's shoulders and {{c2::through the armpits}}, grasp {{c2::your opposite wrist}}, and drag the patient {{c2::backward::forward or backward}}.",
+  "Back Extra": "Distinguish: the arm drag pulls the patient's <i>own</i> arms \u2014 extended straight beyond the head, wrists in your hands.<br><br>Cue: arm-to-arm = your own two arms locked into a loop, one hand gripping the other arm's wrist.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   16
+  ],
+  "block": "J_emergency_drags",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "800"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_14.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-14"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_14.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Alone with an unresponsive patient in a vehicle, your <b>first</b> move is the patient's {{c1::legs::body part}} \u2014 brought clear of the {{c1::pedals}} and set against the seat \u2014 before any rotating begins.",
+  "Back Extra": "Why: feet still tangled in the pedals would anchor the patient the moment the rotation begins.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   16,
+   17
+  ],
+  "block": "J_emergency_drags",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "Removing an unresponsive patient from a vehicle alone, you rotate the patient until the {{c1::back}} faces the open door, slide your arms through the {{c2::armpits}}, and support the head {{c2::against your own body}} as you drag the patient from the seat.",
+  "Back Extra": "Cue: the armpit threading is the same as the arm-to-arm drag \u2014 here your own torso doubles as the head support for the unresponsive patient.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   17
+  ],
+  "block": "J_emergency_drags",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "801"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_15.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-15"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_15.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Dragging a patient from a vehicle alone, if the legs and feet do <b>not</b> clear the vehicle easily, you {{c1::slowly lower the patient::next action}} onto his or her back beside the vehicle, clear the legs, then move away using a {{c2::long-axis body drag::type of drag}}.",
+  "Back Extra": "Distinguish: if the legs and feet <i>do</i> clear the vehicle easily, there is no lowering step \u2014 you keep the armpit drag going straight to a safe location.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   17
+  ],
+  "block": "J_emergency_drags",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "801"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_15.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-15"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_15.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "One-person techniques for moving a patient are justified only when the danger is {{c1::immediately life-threatening::how severe}} and either you are alone or the danger is so pressing that your partner is {{c2::moving a second patient::partner's task}} at the same time.",
+  "Back Extra": "Ex: an engine fire with two unresponsive occupants \u2014 you drag one while your partner drags the other; the pressing danger justifies both solo moves.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   17
+  ],
+  "block": "J_emergency_drags",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "801"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_15.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-15"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_15.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Rapid extrication is called for in six situations. The three that arise from the <b>environment</b>, not from the patient, are:<br><br>{{c1::the vehicle or scene is unsafe}}<br><br>{{c1::explosives or other hazardous materials are on the scene}}<br><br>{{c1::there is a fire or a danger of fire}}",
+  "Back Extra": "Why: in any of the six situations, the delay from applying immobilization devices is itself a contraindication.<br><br>Roster: <b>vehicle or scene unsafe</b> \u00b7 <b>explosives or other hazardous materials on scene</b> \u00b7 <b>fire or danger of fire</b> \u00b7 patient cannot be properly assessed before removal \u00b7 patient has a life-threatening condition \u00b7 patient blocks access to another seriously injured patient.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   18
+  ],
+  "block": "K_rapid_extrication",
+  "numeric": true,
+  "verified_against": "p803-804",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "803"
+   ],
+   "figures": [
+    "figures/study/TABLE_8_3.png"
+   ],
+   "labels": [
+    "TABLE 8-3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/TABLE_8_3.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Rapid extrication is called for in six situations. Beyond the three from the environment, the three <b>patient factors</b> are:<br><br>the patient {{c1::cannot be properly assessed before being removed}}<br><br>the patient {{c1::has a life-threatening condition}}<br><br>the patient {{c1::blocks your access to another seriously injured patient}}",
+  "Back Extra": "Cue: the patient factors \u2014 cannot assess, cannot wait, cannot reach.<br><br>Roster: vehicle or scene unsafe \u00b7 explosives or other hazardous materials on scene \u00b7 fire or danger of fire \u00b7 <b>patient cannot be properly assessed before removal</b> \u00b7 <b>patient has a life-threatening condition</b> \u00b7 <b>patient blocks access to another seriously injured patient</b>.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   18
+  ],
+  "block": "K_rapid_extrication",
+  "numeric": true,
+  "verified_against": "p803-804",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "803"
+   ],
+   "figures": [
+    "figures/study/TABLE_8_3.png"
+   ],
+   "labels": [
+    "TABLE 8-3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/TABLE_8_3.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "The rapid extrication technique moves a patient from sitting in the vehicle to supine \u2014 on a backboard if required \u2014 in {{c1::1 minute or less}}, versus the {{c2::6 to 8}} minutes (sometimes longer) needed to apply a vest-type or short backboard immobilization device.",
+  "Back Extra": "Why: in the six situations that call for rapid extrication, that device delay is itself a contraindication \u2014 speed is the point.<br><br>Cue: whether a backboard is used with the technique depends on local protocols.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   18
+  ],
+  "block": "K_rapid_extrication",
+  "numeric": true,
+  "verified_against": "p803",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "805"
+   ],
+   "figures": [
+    "figures/study/SKILL_DRILL_8_7.jpg"
+   ],
+   "labels": [
+    "SKILL DRILL 8-7"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_8_7.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "The manual support of the rapid extrication technique carries a {{c1::greater::greater or lesser}} risk of spine movement than device immobilization, so when <b>no</b> urgency exists you {{c1::do not use::use or do not use}} the technique.",
+  "Back Extra": "Why: all available options should be considered first \u2014 the technique buys speed with hands-on stabilization in place of a device.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   18
+  ],
+  "block": "K_rapid_extrication",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "803"
+   ],
+   "figures": [
+    "figures/study/TABLE_8_3.png"
+   ],
+   "labels": [
+    "TABLE 8-3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/TABLE_8_3.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Your seated vehicle patient is able to stand and pivot onto the stretcher. Letting the patient do that is {{c1::safer::safer or riskier}} than performing a rapid extrication.",
+  "Back Extra": "Why: standing and pivoting keeps the patient clear of the spine-movement risk that comes with the technique's manual support.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   18
+  ],
+  "block": "K_rapid_extrication",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "The rapid extrication technique requires a team of {{c1::three::number of providers}} providers who are knowledgeable and practiced in the procedure.",
+  "Back Extra": "Why: the support is entirely manual \u2014 several practiced hands substitute for a device's stabilization, so training, not just a head count, meets the requirement.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   18
+  ],
+  "block": "K_rapid_extrication",
+  "numeric": true,
+  "verified_against": "p803",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "805"
+   ],
+   "figures": [
+    "figures/study/SKILL_DRILL_8_7.jpg"
+   ],
+   "labels": [
+    "SKILL DRILL 8-7"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_8_7.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Gasoline is pooling under a crashed car; your patient is still seated inside, and your crew is at the vehicle with you. Which named technique gets the patient out? {{c1::The rapid extrication technique}}",
+  "Back Extra": "Cue: pooling fuel is both a hazardous material and a danger of fire \u2014 either one alone licenses the technique.<br><br>Pitfall: do not spend minutes fitting a vest device first; here that delay is itself a contraindication.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   18
+  ],
+  "block": "K_rapid_extrication",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "803"
+   ],
+   "figures": [
+    "figures/study/TABLE_8_3.png"
+   ],
+   "labels": [
+    "TABLE 8-3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/TABLE_8_3.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Reach for the <b>extremity lift</b> for a {{c1::supine or sitting::two starting positions}} patient with <b>no</b> suspected {{c1::extremity or spinal::two injury sites}} injuries \u2014 it is especially helpful in {{c2::a very narrow space::scene constraint}}.",
+  "Back Extra": "Why: the move lifts entirely by the limbs \u2014 your grip on the arms, your partner's under the legs \u2014 which is exactly why a suspected extremity or spinal injury rules it out.<br><br>Distinguish: the direct carry is a standing transfer of a supine patient, bed to stretcher; the extremity lift starts from a kneel on the ground, takes sitting patients too, and fits where several EMTs cannot stand side by side.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   19,
+   20
+  ],
+  "block": "L_extremity_lift",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "judge: husk_groups cleared \u2014 parallel criteria of one indication sentence, each hinted, name+negation frame visible",
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_8_9.jpg",
+  "image_side": "back",
+  "visual_source": {
+   "pages": [
+    "821"
+   ],
+   "figures": [
+    "figures/study/SKILL_DRILL_8_9.jpg"
+   ],
+   "labels": [
+    "SKILL DRILL 8-9"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  }
+ },
+ {
+  "Text": "In the {{c3::extremity lift::move name}}, the patient's hands are {{c1::crossed over the chest}} and you grasp the {{c1::wrists or forearms::grip point}} from beneath the armpits. For the lift, your partner stands {{c2::between the patient's legs}}, facing {{c2::the same direction as the patient::facing patient or same direction}}, with hands under the {{c2::knees}}.",
+  "Back Extra": "Cue: the lift opens with you kneeling behind the patient's head and your partner at the feet, facing each other \u2014 the partner moves between the legs only after you pull the patient up to sitting.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   19
+  ],
+  "block": "L_extremity_lift",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_8_9.jpg",
+  "image_side": "back",
+  "visual_source": {
+   "pages": [
+    "821"
+   ],
+   "figures": [
+    "figures/study/SKILL_DRILL_8_9.jpg"
+   ],
+   "labels": [
+    "SKILL DRILL 8-9"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  }
+ },
+ {
+  "Text": "The {{c1::direct carry::transfer method}} moves a {{c2::supine::patient position}} patient from a {{c2::bed::starting surface}} to the stretcher, lifted and carried in the providers' arms.",
+  "Back Extra": "Distinguish: the draw sheet method makes the same bed-to-stretcher transfer without carrying \u2014 the loosened bottom sheet is grasped at the patient's head, chest, hips, and knees, and the patient slides across; prefer it, or an able patient's own help, whenever possible to avoid unnecessary lifting.<br><br>Ex: from the ground or floor, the counterpart is the direct body carry \u2014 lift and carry the patient to the nearby prepared stretcher.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   20,
+   21
+  ],
+  "block": "M_direct_carry",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_8_10.jpg",
+  "image_side": "back",
+  "visual_source": {
+   "pages": [
+    "825"
+   ],
+   "figures": [
+    "figures/study/SKILL_DRILL_8_10.jpg"
+   ],
+   "labels": [
+    "SKILL DRILL 8-10"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  }
+ },
+ {
+  "Text": "For a <b>direct carry</b>, the stretcher is positioned {{c1::parallel::parallel/perpendicular}} to the bed, facing {{c1::the same::same/opposite}} direction.",
+  "Back Extra": "Pitfall: prepare before the lift \u2014 straps unbuckled, any other items removed, and the stretcher secured so it cannot move.<br><br>Cue: the draw sheet method preps almost identically \u2014 stretcher beside the bed at the same height or slightly lower, rails down, straps unbuckled, and held or secured still.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   20
+  ],
+  "block": "M_direct_carry",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_8_10.jpg",
+  "image_side": "back",
+  "visual_source": {
+   "pages": [
+    "825"
+   ],
+   "figures": [
+    "figures/study/SKILL_DRILL_8_10.jpg"
+   ],
+   "labels": [
+    "SKILL DRILL 8-10"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  }
+ },
+ {
+  "Text": "In the <b>direct carry</b>, you stand at the {{c1::head of the bed}} facing the patient, arms under the patient's {{c1::neck and shoulders}}, while your partner stands {{c2::between the bed and the stretcher}}, facing {{c2::you and the patient::whom}}, hands under the {{c2::knees}} \u2014 locked together or grasping the {{c2::posterior thighs}}.",
+  "Back Extra": "Distinguish: the extremity lift's partner works from between the patient's legs, facing the same way as the patient; the direct carry's partner faces both you and the patient from the bed-stretcher gap.<br><br>Ex: a third provider, when available, supports the patient's feet and legs from the bottom of the bed.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   20,
+   19
+  ],
+  "block": "M_direct_carry",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "judge: husk_groups cleared \u2014 positions matrix split by role; each card shows the other role as anchor; c2 at rule-23 cap by structure",
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_8_10.jpg",
+  "image_side": "back",
+  "visual_source": {
+   "pages": [
+    "825"
+   ],
+   "figures": [
+    "figures/study/SKILL_DRILL_8_10.jpg"
+   ],
+   "labels": [
+    "SKILL DRILL 8-10"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  }
+ },
+ {
+  "Text": "The first thing done with a <b>scoop stretcher</b> \u2014 while its halves are still {{c1::separated::separated or locked}} \u2014 is measuring and adjusting it to the proper {{c1::length::dimension}}.",
+  "Back Extra": "Ex: the scoop is one of four ways to bring a patient off the ground or floor onto the stretcher \u2014 a direct body carry, a log roll or long-axis drag onto a backboard, the scoop stretcher, or a logroll onto a blanket.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   21
+  ],
+  "block": "N_scoop_stretcher",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_8_11.jpg",
+  "image_side": "back",
+  "visual_source": {
+   "pages": [
+    "832"
+   ],
+   "figures": [
+    "figures/study/SKILL_DRILL_8_11.jpg"
+   ],
+   "labels": [
+    "SKILL DRILL 8-11"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  }
+ },
+ {
+  "Text": "A <b>scoop stretcher</b> is worked under the patient {{c1::one side at a time}}, lifting the patient slightly by pulling on the {{c1::far hip and upper arm::two pull points}}.",
+  "Back Extra": "Why: the slight pull on the far hip and upper arm rolls the patient up just enough for your partner to slide that half of the stretcher into place \u2014 one of you lifts while the other slides.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   21
+  ],
+  "block": "N_scoop_stretcher",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "judge: husk_groups cleared \u2014 complementary halves of one insertion technique, independently cued, grounded verbatim in mark 21",
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_8_11.jpg",
+  "image_side": "back",
+  "visual_source": {
+   "pages": [
+    "832"
+   ],
+   "figures": [
+    "figures/study/SKILL_DRILL_8_11.jpg"
+   ],
+   "labels": [
+    "SKILL DRILL 8-11"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  }
+ },
+ {
+  "Text": "Locking a <b>scoop stretcher</b>'s ends, you engage the mechanisms {{c1::one at a time}}, still lifting the patient slightly, to avoid {{c1::pinching}} the patient \u2014 and your own fingers.",
+  "Back Extra": "Cue: the slight lift is continuous \u2014 the same lift that let each half slide under the patient is held, as needed, while both ends lock.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   21
+  ],
+  "block": "N_scoop_stretcher",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_8_11.jpg",
+  "image_side": "back",
+  "visual_source": {
+   "pages": [
+    "832"
+   ],
+   "figures": [
+    "figures/study/SKILL_DRILL_8_11.jpg"
+   ],
+   "labels": [
+    "SKILL DRILL 8-11"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  }
+ },
+ {
+  "Text": "Your patient is locked into a <b>scoop stretcher</b>. {{c2::Before::before or after}} transferring it to the wheeled stretcher, {{c1::apply and tighten the straps::securing step}}.",
+  "Back Extra": "Distinguish: in the direct carry the straps come at the very end, after the patient is lowered onto the stretcher; on a scoop the patient is strapped <b>before</b> the move, because the loaded scoop itself is what gets carried to the stretcher.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   21,
+   20
+  ],
+  "block": "N_scoop_stretcher",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_8_11.jpg",
+  "image_side": "back",
+  "visual_source": {
+   "pages": [
+    "832"
+   ],
+   "figures": [
+    "figures/study/SKILL_DRILL_8_11.jpg"
+   ],
+   "labels": [
+    "SKILL DRILL 8-11"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  }
+ },
+ {
+  "Text": "For a blanket carry off the ground, prepare the blanket by rolling it up {{c1::by half::how much}}. Position the rolled portion under the logrolled patient, roll the patient back onto the blanket, then {{c2::in the opposite direction::same/opposite}} to unroll it.",
+  "Back Extra": "Cue: the full ride \u2014 roll the blanket up by half, logroll the patient, tuck the rolled portion underneath, roll the patient back over it, then once more the opposite way to pull the blanket flat, finishing with the patient supine and centered.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   22
+  ],
+  "block": "O_logroll_blanket",
+  "numeric": true,
+  "verified_against": "p836",
+  "verified_by": "agent",
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_8_12.jpg",
+  "image_side": "back",
+  "visual_source": {
+   "pages": [
+    "836"
+   ],
+   "figures": [
+    "figures/study/SKILL_DRILL_8_12.jpg"
+   ],
+   "labels": [
+    "SKILL DRILL 8-12"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  }
+ },
+ {
+  "Text": "A patient lies centered on a blanket on the ground. Before you lift, {{c1::roll up the ends of the blanket::grip prep}}, then carry him or her to the nearby stretcher.",
+  "Back Extra": "Distinguish: the scoop stretcher is the rigid route off the floor \u2014 assembled around the patient and locked; the blanket route has no frame, so the rolled-up ends are the handholds and the patient rides in the fabric itself.<br><br>Cue: the patient is centered on the blanket, with the excess material on each side rolled up.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   22,
+   21
+  ],
+  "block": "O_logroll_blanket",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_8_12.jpg",
+  "image_side": "back",
+  "visual_source": {
+   "pages": [
+    "836"
+   ],
+   "figures": [
+    "figures/study/SKILL_DRILL_8_12.jpg"
+   ],
+   "labels": [
+    "SKILL DRILL 8-12"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  }
+ },
+ {
+  "Text": "Moving an older patient by pulling on an arm or leg may cause a {{c1::dislocation::musculoskeletal injury}} or a {{c1::fracture::musculoskeletal injury}}.",
+  "Back Extra": "Distinguish: <b>pulling</b> an older patient's arm or leg threatens the joint and bone; <b>gripping</b> it threatens the thin skin \u2014 tears and bruising.<br><br>Why: aging leaves the body less flexible and the bones more brittle, so a pull that a younger patient tolerates can injure an older one.<br><br>Pitfall: even without an injury, moving a geriatric patient by the extremities can cause significant pain \u2014 and chronic conditions such as rheumatoid arthritis limit movement and add pain of their own.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   23
+  ],
+  "block": "P_geriatric",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "The skin of a geriatric patient is {{c1::thinner::thicker/thinner}}, leaving it more susceptible to {{c2::tears}} and {{c2::bruising}} when you grip an arm or leg.",
+  "Back Extra": "Distinguish: <b>pulling</b> an extremity threatens the joint and bone \u2014 dislocation or fracture; <b>gripping</b> threatens the surface \u2014 the skin tear.<br><br>Pitfall: some older patients cannot lie flat or straighten their arms \u2014 extra padding and support may be needed to transport them comfortably.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   23
+  ],
+  "block": "P_geriatric",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "{{c1::Bariatrics::medical specialty}} is the branch of medicine concerned with {{c2::the management of obesity}} and allied diseases.",
+  "Back Extra": "Parts: Greek baros (weight) + iatreia (medical treatment) \u2014 the medicine of weight.<br><br>Meaning: management here spans both prevention and control.<br><br>Why: the greater the degree of obesity, the more frequent and severe the health problems \u2014 so the larger the patient, the more likely he or she will need emergency treatment and transport.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   24,
+   25
+  ],
+  "block": "Q_bariatrics",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "A {{c1::flexible stretcher::device}} forms a {{c2::rigid}} stretcher that {{c2::conforms around the patient's sides and no farther}}.",
+  "Back Extra": "Distinguish: the flexible stretcher earns its keep in confined spaces \u2014 for uneven terrain from a remote, vehicle-inaccessible location, reach for the rigid basket (Stokes) stretcher instead.<br><br>Cue: it rolls up across its width or length into a small tubular package \u2014 valuable when equipment must be hand-carried a considerable distance.<br><br>Ex: certain flexible stretchers can even be belayed or rappelled by ropes.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   26,
+   28
+  ],
+  "block": "R_specialty_devices",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "848"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_23.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-23"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_23.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "As an alternative to the {{c3::backboard}}, the patient is placed on a {{c1::vacuum mattress::device}} and the air is removed, allowing the device to {{c2::mold around the patient}}.",
+  "Back Extra": "Why: molding snugly to the curvatures and contours of the body limits pressure-point tenderness \u2014 most patients need no added padding.<br><br>Distinguish: for securing the neck and spine it is considered equivalent to padding, and it is more comfortable for the patient than the long spine board.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   27
+  ],
+  "block": "R_specialty_devices",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "850"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_25.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-25"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_25.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "To carry a patient across uneven terrain from a remote location that no ambulance or other vehicle can reach, use a {{c1::rigid basket stretcher::device}}, also called a {{c2::Stokes litter::eponym}}.",
+  "Back Extra": "Pitfall: if you suspect a spinal injury, secure the patient to a backboard <b>first</b>, then place the backboard into the basket stretcher.<br><br>Distinguish: the flexible stretcher is the confined-space tool; the rigid basket is for open, uneven ground beyond a vehicle's reach.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   26,
+   28
+  ],
+  "block": "R_specialty_devices",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "851"
+   ],
+   "figures": [
+    "figures/study/FIGURE_8_26.jpg"
+   ],
+   "labels": [
+    "FIGURE 8-26"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_8_26.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "A patient with no suspected injury who reports chest pain or respiratory distress is placed in {{c1::a position of comfort, typically Fowler or semi-Fowler}}, unless he or she is {{c2::hypotensive::blood-pressure finding}}.",
+  "Back Extra": "Distinguish: a patient with a <i>potential spinal injury</i> gets no comfort seat \u2014 he or she is secured so movement of the spine is restricted.<br><br>Roster: positioning by condition \u2014 no injury + chest pain/respiratory distress: <b>position of comfort (Fowler/semi-Fowler) unless hypotensive</b> \u00b7 shock: supine \u00b7 late pregnancy, uncomfortable or hypotensive supine: left side.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   29
+  ],
+  "block": "S_positioning",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "A patient in shock is packaged and placed in a {{c1::supine}} position.",
+  "Back Extra": "Distinguish: chest pain or respiratory distress with no suspected injury (and no hypotension) earns a position of comfort instead \u2014 typically Fowler or semi-Fowler.<br><br>Roster: positioning by condition \u2014 no injury + chest pain/respiratory distress: position of comfort (Fowler/semi-Fowler) unless hypotensive \u00b7 shock: <b>supine</b> \u00b7 late pregnancy, uncomfortable or hypotensive supine: left side.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   30
+  ],
+  "block": "S_positioning",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "A patient in the late stages of pregnancy who is uncomfortable or hypotensive when supine is positioned and transported {{c1::on her left side}}.",
+  "Back Extra": "Distinguish: an unresponsive patient with no suspected spinal, hip, or pelvic injury also goes onto the side \u2014 the recovery position, rolled without twisting the body.<br><br>Roster: positioning by condition \u2014 no injury + chest pain/respiratory distress: position of comfort (Fowler/semi-Fowler) unless hypotensive \u00b7 shock: supine \u00b7 late pregnancy, uncomfortable or hypotensive supine: <b>left side</b>.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   31
+  ],
+  "block": "S_positioning",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ },
+ {
+  "Text": "En route, a patient late in her pregnancy becomes hypotensive while lying flat on her back on the stretcher. What should you do? {{c1::Position and transport her on her left side}}",
+  "Back Extra": "Pitfall: hypotension is not required \u2014 a late-pregnancy patient who is merely uncomfortable supine also goes onto her left side.<br><br>Distinguish: a patient in shock is packaged and stays supine; late pregnancy is the condition that turns onto the left side.",
+  "source": "emt",
+  "segment": 8,
+  "from_idx": [
+   31
+  ],
+  "block": "S_positioning",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null
+ }
+]

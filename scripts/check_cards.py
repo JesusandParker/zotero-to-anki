@@ -61,7 +61,10 @@ VALUE = re.compile(r"[<>≤≥]\s*\d|"
                    # "28 months", "61 years and older", which are values, not ordinals.
                    r"days?|weeks?|months?|years?|"
                    r"pounds?|lbs?|kg|ounces?|oz|"
-                   r"mph|miles?|feet|ft|inch|in|MHz|watts?|L/min|°|degrees?)\b|"
+                   # plural + metric length forms: "10 inches (25 cm)" derived numeric=False
+                   # because "inch" + \b cannot match "inches" and cm was absent (EMT ch8,
+                   # 2026-08-12 — the power-grip hand-spacing card). R51.
+                   r"mph|miles?|feet|ft|inch(?:es)?|in|cm|centimeters?|MHz|watts?|L/min|°|degrees?)\b|"
                    r"\d+\s*(?:to|-|–)\s*\d+", re.I)
 # "N <list-noun>" where the card should then cloze exactly N items. A mismatch means
 # the card states one count but tests another number of items — the exact shape of the

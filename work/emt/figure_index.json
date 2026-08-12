@@ -6924,7 +6924,7 @@
    "extraction": "native",
    "description": "The shoulder girdle connects the arms to the body, and the pelvis connects the legs to the body. The spinal column runs down the back.",
    "crossrefs": "When a person stands upright, the weight of anything being lifted and carried in the hands is reflected onto the shoulder girdle, the spinal column inferior to it, the pelvis, and then the legs (   ).",
-   "seen_description": null,
+   "seen_description": "a labeled human skeleton highlighting the spinal column, shoulder girdle, pelvis and legs \u2014 the weight-bearing structures involved in lifting",
    "terms": [
     "anything",
     "arms",
@@ -7010,7 +7010,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "You should use the  power grip  to get the maximum force from your hands and arms whenever you are lifting a patient (   ).",
-   "seen_description": null,
+   "seen_description": "a close-up of two gloved hands gripping a backboard rail palms-up, spaced apart \u2014 the power grip",
    "terms": [
     "about",
     "all",
@@ -7062,7 +7062,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "50 cm) of the bed\u2019s edge (see    ).",
-   "seen_description": null,
+   "seen_description": "three photo panels of safe reaching/pulling posture: kneeling to pull a patient on the ground, elbows kept just beyond the torso, and knees bent to pull at a different height",
    "terms": [
     "anterior",
     "balance",
@@ -7228,7 +7228,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "torso (   ).",
-   "seen_description": null,
+   "seen_description": "four providers standing around a stretcher on grass, one at the head, one at the foot, one at each side \u2014 the diamond carry layout",
    "terms": [
     "backboard",
     "carry",
@@ -7391,7 +7391,7 @@
    "extraction": "skill-drill-composite(2 steps)",
    "description": null,
    "crossrefs": "Follow these steps to use a stair chair (   ):",
-   "seen_description": null,
+   "seen_description": "the stair chair drill: a seated patient strapped into a wheeled stair chair being taken down a staircase, two steps with captions",
    "terms": [
     "chair",
     "drill",
@@ -7425,7 +7425,7 @@
    "extraction": "skill-drill-composite(2 steps)",
    "description": null,
    "crossrefs": "To carry a patient on stairs on a backboard or vacuum mattress, follow the steps in    :",
-   "seen_description": null,
+   "seen_description": "the carrying-a-patient-on-stairs drill: strapping the patient to the backboard, then carrying it down the stairwell foot end first, banner, captions and full list",
    "terms": [
     "across",
     "arms",
@@ -7504,7 +7504,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "If the loaded stretcher must be carried down a short flight of steps, be sure to first retract or raise the undercarriage; however, this is not necessary when the stretcher must be lifted over a curb, a single step, or an obstacle of a similar height (   ).",
-   "seen_description": null,
+   "seen_description": "two EMTs lifting a loaded wheeled stretcher over a curb without retracting the undercarriage",
    "terms": [
     "carried",
     "curb",
@@ -7613,7 +7613,7 @@
    "extraction": "native",
    "description": "A: Photo A shows a paramedic lifting a patient\u2019s shoulder off the ground. B: Photo B shows the paramedic securing a cloth under the patient. C: Photo C shows the paramedic dragging the patient\u2019s hands. D: Photo D shows the paramedic reaching under the patient\u2019s arm and pressing the patient\u2019s hands together while the patient is resting on the paramedic\u2019s chest.",
    "crossrefs": null,
-   "seen_description": null,
+   "seen_description": "four labeled panels of floor drags: A clothes drag at the shoulders, B blanket drag, C arm drag with arms extended overhead, D arm-to-arm drag through the armpits",
    "terms": [
     "arm",
     "arm-to-arm",
@@ -7656,7 +7656,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": null,
-   "seen_description": null,
+   "seen_description": "two panels of the one-person vehicle removal: A grasping the seated patient under the arms supporting the head, B lowering the patient out of the vehicle toward supine",
    "terms": [
     "arms",
     "down",
@@ -7711,12 +7711,15 @@
    "caption_page": 803,
    "art_page": 803,
    "file": "figures/TABLE_8_3.png",
-   "study_file": "figures/study/TABLE_8_3.jpg",
-   "px": null,
+   "study_file": "figures/study/TABLE_8_3.png",
+   "px": [
+    1908,
+    735
+   ],
    "extraction": "text-table-render(2p)",
    "description": null,
    "crossrefs": "describes the situations in which you should use the rapid extrication technique.",
-   "seen_description": null,
+   "seen_description": "the book's own six-bullet table listing the situations that call for the rapid extrication technique, complete with title bar and credit line",
    "terms": [
     "assessed",
     "before",
@@ -7744,7 +7747,8 @@
     "use",
     "vehicle",
     "you"
-   ]
+   ],
+   "repair": "2026-08-12: re-composited from 300dpi renders, page-break seam removed"
   },
   {
    "label": "SKILL DRILL 8-7",
@@ -7753,11 +7757,14 @@
    "art_page": 805,
    "file": "figures/SKILL_DRILL_8_7.png",
    "study_file": "figures/study/SKILL_DRILL_8_7.jpg",
-   "px": null,
+   "px": [
+    1963,
+    4294
+   ],
    "extraction": "skill-drill-composite(8 steps)",
    "description": null,
    "crossrefs": null,
-   "seen_description": null,
+   "seen_description": "the rapid extrication drill: eight step photos of three-plus providers rotating a seated crash patient as a unit onto a backboard and away to the stretcher, banner restored, captions complete",
    "terms": [
     "drill",
     "extrication",
@@ -7765,7 +7772,8 @@
     "rapid",
     "skill",
     "technique"
-   ]
+   ],
+   "repair": "2026-08-12: composite repaired (banner restored / truncated list or page-text bleed removed); study copy regenerated"
   },
   {
    "label": "SKILL DRILL 8-8",
@@ -7795,11 +7803,14 @@
    "art_page": 821,
    "file": "figures/SKILL_DRILL_8_9.png",
    "study_file": "figures/study/SKILL_DRILL_8_9.jpg",
-   "px": null,
+   "px": [
+    1931,
+    2424
+   ],
    "extraction": "skill-drill-composite(3 steps)",
    "description": null,
    "crossrefs": "Perform the extremity lift as follows (   ):",
-   "seen_description": null,
+   "seen_description": "the extremity lift drill: three step photos \u2014 wrist grasp with hands crossed over the chest, partner between the legs under the knees, both rising to carry \u2014 plus the full numbered step list",
    "terms": [
     "drill",
     "extremity",
@@ -7808,7 +7819,8 @@
     "perform",
     "performing",
     "skill"
-   ]
+   ],
+   "repair": "2026-08-12: composite repaired (banner restored / truncated list or page-text bleed removed); study copy regenerated"
   },
   {
    "label": "SKILL DRILL 8-10",
@@ -7817,11 +7829,14 @@
    "art_page": 825,
    "file": "figures/SKILL_DRILL_8_10.png",
    "study_file": "figures/study/SKILL_DRILL_8_10.jpg",
-   "px": null,
-   "extraction": "skill-drill-composite(3 steps)",
+   "px": [
+    1996,
+    2350
+   ],
+   "extraction": "skill-drill-composite(4 steps)",
    "description": null,
    "crossrefs": "Direct Carry Transfer a supine patient from a bed to the stretcher using the direct carry method (   ).",
-   "seen_description": null,
+   "seen_description": "the direct carry drill: four step photos \u2014 positioning beside the bed, the coordinated lift into the providers' arms, the carry, lowering onto the stretcher \u2014 with banner and captions",
    "terms": [
     "arms",
     "bed",
@@ -7855,7 +7870,8 @@
     "using",
     "while",
     "your"
-   ]
+   ],
+   "repair": "2026-08-12: composite repaired (banner restored / truncated list or page-text bleed removed); study copy regenerated"
   },
   {
    "label": "FIGURE 8-17",
@@ -7871,7 +7887,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": null,
-   "seen_description": null,
+   "seen_description": "three panels of the draw sheet method on a hospital bed: log roll onto the sheet, grasp at head/chest/hips/knees, slide across to the stretcher",
    "terms": [
     "bed",
     "blanket",
@@ -7935,11 +7951,14 @@
    "art_page": 832,
    "file": "figures/SKILL_DRILL_8_11.png",
    "study_file": "figures/study/SKILL_DRILL_8_11.jpg",
-   "px": null,
+   "px": [
+    1996,
+    2265
+   ],
    "extraction": "skill-drill-composite(4 steps)",
    "description": null,
    "crossrefs": "(Note that you can also log roll a patient onto a scoop stretcher that is already locked together.) To use a scoop stretcher, follow the steps in    .",
-   "seen_description": null,
+   "seen_description": "the scoop stretcher drill: four step photos \u2014 adjusting length, sliding one side under the patient, locking the ends, strapping and transferring \u2014 with banner, captions and the numbered list",
    "terms": [
     "adjust",
     "already",
@@ -7963,7 +7982,8 @@
     "use",
     "using",
     "you"
-   ]
+   ],
+   "repair": "2026-08-12: composite repaired (banner restored / truncated list or page-text bleed removed); study copy regenerated"
   },
   {
    "label": "SKILL DRILL 8-12",
@@ -7972,11 +7992,14 @@
    "art_page": 836,
    "file": "figures/SKILL_DRILL_8_12.png",
    "study_file": "figures/study/SKILL_DRILL_8_12.jpg",
-   "px": null,
+   "px": [
+    1996,
+    1790
+   ],
    "extraction": "skill-drill-composite(4 steps)",
    "description": null,
    "crossrefs": null,
-   "seen_description": null,
+   "seen_description": "the blanket logroll drill: four step photos \u2014 blanket rolled up by half, the logroll, tucking and unrolling the blanket, rolling up the ends and lifting \u2014 with banner and captions",
    "terms": [
     "drill",
     "ground",
@@ -7984,7 +8007,8 @@
     "patient",
     "skill",
     "step"
-   ]
+   ],
+   "repair": "2026-08-12: composite repaired (banner restored / truncated list or page-text bleed removed); study copy regenerated"
   },
   {
    "label": "FIGURE 8-19",
@@ -8057,7 +8081,7 @@
    "extraction": "native",
    "description": "Moving a Patient on Stairs With a Stretcher Loading a Wheeled Stretcher Into an Ambulance Directions and Commands Emergency Moves Urgent Moves Rapid Extrication Technique Nonurgent Moves Direct Ground Lift Extremity Lift Transfer Moves Geriatrics Bariatrics Additional Patient-Moving Equipment Bariatric Stretchers Pneumatic and Electronic Powered Wheeled Stretchers Binder Lift Portable/Folding Stretchers Flexible Stretchers Short Backboards Vacuum Mattresses Basket Stretchers Neonatal Isolettes Decontamination Patient Positioning Personnel Considerations 9 The Team Approach to Health Care Introduction An Era of Team Health Care Community Paramedicine and Mobile Integrated Healthcare Teams Differences Among Teams Types of Teams Regular Teams Temporary Teams Special Teams Groups Versus Teams Groups Dependent, Independent, and Interdependent Groups Dependent Independent Interdependent Effective Team Performance A Shared Goal Clear Roles and Responsibilities Diverse and Competent Skill Sets Effective Collaboration and Communication Supportive and Coordinated Leadership Transfer of Patient Care General Guidelines BLS and ALS Providers Working Together Where BLS Care Ends and ALS Care Begins Assisting With ALS Skills Critical Thinking and Clinical Decision Making in EMS Stages of the Decision-Making Process Decision Traps Troubleshooting Team Conflicts SECTION 2 Patient Assessment 10 Patient Assessment Introduction Scene Size-up Ensure Scene Safety Determine Mechanism of Injury/Nature of Illness Take Standard Precautions Determine Number of Patients Consider Additional/Specialized Resources Primary Assessment Form a General Impression Scan for Signs of Uncontrolled External Bleeding Assess Level of Consciousness Assess the Airway Assess Breathing Assess Circulation Performing a Rapid Exam to Identify Life Threats Determine Priority of Patient Care and Transport History Taking Investigate the Chief Complaint (History of Present Illness) Obtain SAMPLE History Secondary Assessment Systematically Assess the Patient\u2014Secondary Assessment Systematically Assess the Patient\u2014Focused Assessment Assess Vital Signs Using the Appropriate Monitoring Device Reassessment Repeat the Primary Assessment Reassess Vital Signs Reassess the Chief Complaint Recheck Interventions Identify and Treat Changes in the Patient\u2019s Condition Reassess Patient SECTION 3 Airway",
    "crossrefs": "As a result, a specialized type of wheeled stretcher has been developed, called a bariatric stretcher (   ).",
-   "seen_description": null,
+   "seen_description": "a wide-frame yellow bariatric wheeled stretcher, empty, product-style photo",
    "terms": [
     "additional",
     "airway",
@@ -8487,7 +8511,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": null,
-   "seen_description": null,
+   "seen_description": "a flexible stretcher in use \u2014 conformed around a patient and rigged with ropes for a belay, showing its rolled, side-hugging form",
    "terms": [
     "flexible",
     "stretcher"
@@ -8550,7 +8574,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": null,
-   "seen_description": null,
+   "seen_description": "a patient in a cervical collar strapped into a vacuum mattress that has molded snugly around the body, providers gripping its edges",
    "terms": [
     "body",
     "contours",
@@ -8578,7 +8602,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "Use a rigid  basket stretcher , also called a Stokes litter, to carry a patient across uneven terrain from a remote location that is inaccessible by ambulance or other vehicle (   ).",
-   "seen_description": null,
+   "seen_description": "rescuers securing a patient into a rigid orange basket (Stokes) stretcher on rocky, uneven ground",
    "terms": [
     "across",
     "also",
@@ -8615,7 +8639,7 @@
    "extraction": "native",
    "description": null,
    "crossrefs": "These specialized transport devices come in one of two forms: an isolette that is placed directly on top of the wheeled stretcher and secured with seat belts or a free-standing isolette that is secured into the back of the ambulance, taking the place of the standard stretcher (   ).",
-   "seen_description": null,
+   "seen_description": "a neonatal isolette mounted inside an ambulance with a provider attending",
    "terms": [
     "ambulance",
     "belts",

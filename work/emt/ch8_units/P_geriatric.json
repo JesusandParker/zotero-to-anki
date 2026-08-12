@@ -1,0 +1,23 @@
+[
+ {
+  "source": "emt",
+  "kind": "text",
+  "segment": 8,
+  "segment_name": "Lifting and Moving Patients",
+  "page": 841,
+  "page_label": "841",
+  "color": "#ffd400",
+  "highlight": "In some older patients, pulling an arm or leg may cause a dislocation or fracture. The skin of a geriatric patient is thinner and more susceptible to tears and bruising. Be careful not to cause a skin tear when gripping an arm or leg.",
+  "context": "adults (geriatric patients). These patients will need to be moved, lifted, and carried frequently. The aging process is associated with multiple changes in the body, including the musculoskeletal system and the integumentary system (ie, the skin). As people age, they may become less flexible, and bones become more brittle. Using the extremities to move or carry a geriatric patient may cause the person a significant amount of pain or discomfort. In some older patients, pulling an arm or leg may cause a dislocation or fracture. The skin of a geriatric patient is thinner and more susceptible to tears and bruising. Be careful not to cause a skin tear when gripping an arm or leg. Chronic medical conditions such as rheumatoid arthritis may limit the patient's movement and are associated with pain. Some older patients cannot lie flat or straighten their arms. Extra padding and support may be necessary to transport some patients comfortably. EMTs must keep these considerations in mind as they prepare to move, lift, and carry geriatric patients. Do not cause additional injury or pain to your patient. See Chapter 36,",
+  "grounding": "EXACT",
+  "content": "FULL",
+  "page_text_chars": 1302,
+  "next_page_text_chars": null,
+  "list_lead_in": false,
+  "user_comment": null,
+  "sort": "00840|000443|00269",
+  "page_sparse": false,
+  "needs_visual": false,
+  "_idx": 23
+ }
+]
