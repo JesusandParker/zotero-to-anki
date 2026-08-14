@@ -198,6 +198,24 @@ def segment_noun(source):
     return source.get("segment_noun", "Section")
 
 
+def work_label(source, segment=None):
+    """The work-file stem for a segment: 'chapter_6', 'unit_1', 'module_1'.
+
+    `extract_highlights.py` names its output `<segment_noun>_<n>`, so every
+    downstream stage has to DERIVE the same stem instead of assuming "chapter".
+
+    This exists because five scripts hardcoded `chapter_{n}_...`, which silently
+    blinded the whole figure pipeline on any source whose segments are not called
+    chapters — Arabic's units and Lydia's modules both. The failure was worse than
+    a crash: `figure_run.py --preflight` reported "no highlights file" for a file
+    sitting right beside it, and `--report` would have counted zero cards and zero
+    marks and called the run clean.
+    """
+    if segment is None:
+        return "all"
+    return f"{segment_noun(source).lower()}_{segment}"
+
+
 # ----------------------------------------------------------------------- deck routing
 
 def _fill(template, source, segment):

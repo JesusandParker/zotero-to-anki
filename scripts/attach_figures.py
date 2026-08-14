@@ -134,7 +134,7 @@ def main():
         work = os.path.join(S.SKILL, "work", src["id"])
         props = json.load(open(args.proposals or os.path.join(
             work, f"ch{args.segment}_figure_proposals.json")))
-        cards_p = args.cards or os.path.join(work, f"chapter_{args.segment}_cards.json")
+        cards_p = args.cards or os.path.join(work, f"{S.work_label(src, args.segment)}_cards.json")
         cards = json.load(open(cards_p))
         if not props.get("judged"):
             sys.exit("REFUSING: these proposals have not been judged. Run judge_figures.py "
@@ -176,7 +176,7 @@ def main():
     src = S.get_source(args.source)
     work = os.path.join(S.SKILL, "work", src["id"])
     props_p = args.proposals or os.path.join(work, f"ch{args.segment}_figure_proposals.json")
-    cards_p = args.cards or os.path.join(work, f"chapter_{args.segment}_cards.json")
+    cards_p = args.cards or os.path.join(work, f"{S.work_label(src, args.segment)}_cards.json")
     for p in (props_p, cards_p):
         if not os.path.exists(p):
             sys.exit(f"ERROR: missing {p}")

@@ -70,8 +70,8 @@ def main():
 
     src = S.get_source(args.source)
     work = os.path.join(S.SKILL, "work", src["id"])
-    cards_p = os.path.join(work, f"chapter_{args.segment}_cards.json")
-    hl_p = os.path.join(work, f"chapter_{args.segment}_highlights.json")
+    cards_p = os.path.join(work, f"{S.work_label(src, args.segment)}_cards.json")
+    hl_p = os.path.join(work, f"{S.work_label(src, args.segment)}_highlights.json")
     for p in (cards_p, hl_p):
         if not os.path.exists(p):
             sys.exit(f"ERROR: missing {p}")

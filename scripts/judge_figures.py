@@ -155,7 +155,7 @@ def main():
         # to leave on a card. The invariant is simply: a live pipeline figure must be
         # justified by a surviving proposal. Parker's own pasted images are never touched.
         from attach_figures import call
-        cards = json.load(open(os.path.join(work, f"chapter_{args.segment}_cards.json")))
+        cards = json.load(open(os.path.join(work, f"{S.work_label(src, args.segment)}_cards.json")))
         staging, _ = S.deck_names(src, args.segment)
         infos = call("notesInfo", notes=call("findNotes", query=f'"deck:{staging}"'))
 

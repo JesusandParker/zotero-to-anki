@@ -67,14 +67,14 @@ def preflight(src, seg, work):
     _id, pdf = S.resolve_attachment(src)
     chk(os.path.exists(pdf), "source PDF resolves on disk", f"PDF missing: {pdf}")
 
-    hl = load(os.path.join(work, f"chapter_{seg}_highlights.json"))
+    hl = load(os.path.join(work, f"{S.work_label(src, seg)}_highlights.json"))
     chk(bool(hl), f"highlights extracted ({len(hl) if hl else 0} marks)",
         "no highlights file — run extract_highlights.py first")
     if hl:
         chk(all("kind" in m for m in hl), "highlights use the modern schema",
             "highlights predate the kind/content/needs_visual fields — re-extract")
 
-    cards = load(os.path.join(work, f"chapter_{seg}_cards.json"))
+    cards = load(os.path.join(work, f"{S.work_label(src, seg)}_cards.json"))
     fresh = cards is None
     chk(True, f"cards: {'NOT YET GENERATED (fresh segment)' if fresh else str(len(cards)) + ' present'}", "")
     if cards:
@@ -114,8 +114,8 @@ def preflight(src, seg, work):
 
 def report(src, seg, work, write_run=False):
     first, last, segname = S.segment_range(src, seg)
-    hl = load(os.path.join(work, f"chapter_{seg}_highlights.json")) or []
-    cards = load(os.path.join(work, f"chapter_{seg}_cards.json")) or []
+    hl = load(os.path.join(work, f"{S.work_label(src, seg)}_highlights.json")) or []
+    cards = load(os.path.join(work, f"{S.work_label(src, seg)}_cards.json")) or []
     idx = load(os.path.join(work, "figure_index.json")) or {"figures": []}
     figs = [f for f in idx["figures"] if first <= f["caption_page"] <= last]
     props = load(os.path.join(work, f"ch{seg}_figure_proposals.json")) or {}

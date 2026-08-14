@@ -152,8 +152,8 @@ def main():
     src = S.get_source(args.source)
     work = os.path.join(S.SKILL, "work", src["id"])
     seg = args.segment
-    cards_p = args.cards or os.path.join(work, f"chapter_{seg}_cards.json")
-    marks_p = os.path.join(work, f"chapter_{seg}_highlights.json")
+    cards_p = args.cards or os.path.join(work, f"{S.work_label(src, seg)}_cards.json")
+    marks_p = os.path.join(work, f"{S.work_label(src, seg)}_highlights.json")
     index_p = os.path.join(work, "figure_index.json")
     for p in (cards_p, index_p):
         if not os.path.exists(p):
