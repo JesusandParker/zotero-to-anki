@@ -88,6 +88,53 @@
     250
    ],
    "notes": "RUN A UNIT VIA reference/arabic-unit-playbook.md (end-to-end sequence, guards, Lingco harvest recipe, letter-extension policy for Units 2-10). SCAN with English-only OCR: the text layer contains ZERO Arabic codepoints (verified 2026-08-08 across all 251 pages). Every Arabic-bearing card MUST carry visual evidence (back-side source crop) and/or external authority. Authoritative Unicode Arabic for course-overlapping content: Lingco Classroom lesson JSON (class.lingco.io /api/content/lessons/<id>; Unit 1 vocab = lesson 8174), snapshot in work/arabic/. Course = MSA (Formal) — dialect columns go to Back Extra, not their own cards. RTL rules: stacked divs with dir attrs, never inline-mix Arabic+Latin, translit is answer-side only, diacritics ride carrier letters. Letter pron videos: local archive 'Anki Media Archive/Arabic - Al-Kitaab pronunciation'. Offset printed→physical is NOT constant (drifts +14→+17); map uses verified physical opener pages."
+  },
+  "lydia-anatomy": {
+   "label": "Lydia — Exploring Creation with Advanced Biology: The Human Body (Shannon & Yunis, 2013)",
+   "attachment_key": "9T5EUXQN",
+   "library": "Lydia Coursework",
+   "owner": "lydia",
+   "kind": "textbook",
+   "profile": "science",
+   "delivery": {
+    "mode": "apkg-email",
+    "to": "lydregner@gmail.com",
+    "tool": "~/lydia-anki-setup/lydia.py",
+    "model_id": 1782758085775
+   },
+   "segment_noun": "Module",
+   "deck_root": "not my decks::Lydia::Anatomy",
+   "staging": "{root}::Module {segment}",
+   "promote": "{root}::Module {segment}",
+   "tags": [
+    "anatomy-m{segment}"
+   ],
+   "notes": "LYDIA'S SOURCE, NOT PARKER'S — reads from the 'Lydia Coursework' group (groupID 6638565, libraryID 2), never the personal library. Cards are written into Parker's Anki under 'not my decks::Lydia::...' so he can review and edit them, and are ALWAYS SUSPENDED on write; that tree is his existing convention for other people's decks (103k cards, zero ever due). Deliver with `lydia.py export`, which forces includeSched=False — exporting WITH scheduling preserves queue=-1 and Lydia would import a deck where no card ever appears, with no error to explain it (verified by experiment 2026-08-13). Notes carry a zk::<annotation-key> tag so re-runs update instead of duplicating. segment_noun 'Module' follows the Apologia series convention but is UNCONFIRMED — the group PDFs are not full-text indexed yet. No segments map exists; her current highlights all sit in pp. 3-13. TWO-COLUMN SCAN: pages are two columns on a 549.8pt-wide page; read straight across, pdftotext interleaves them into nonsense and destroys the grounding context. text_columns=2 with column_split_pts=270 (tuned — the midpoint 275 bleeds the right column's first letters into the left).",
+   "segments": "reference/maps/lydia-anatomy.json",
+   "text_columns": 2,
+   "column_split_pts": 270
+  },
+  "lydia-chemistry": {
+   "label": "Lydia — Discovering Design with Chemistry (Berean Builders, 2015)",
+   "attachment_key": "956XEWS4",
+   "library": "Lydia Coursework",
+   "owner": "lydia",
+   "kind": "textbook",
+   "profile": "science",
+   "delivery": {
+    "mode": "apkg-email",
+    "to": "lydregner@gmail.com",
+    "tool": "~/lydia-anki-setup/lydia.py",
+    "model_id": 1782758085775
+   },
+   "segment_noun": "Chapter",
+   "deck_root": "not my decks::Lydia::Chemistry",
+   "staging": "{root}::Chapter {segment}",
+   "promote": "{root}::Chapter {segment}",
+   "tags": [
+    "chem-ch{segment}"
+   ],
+   "notes": "NO ANNOTATIONS YET as of 2026-08-13 — she has highlighted only the anatomy book so far. DUPLICATE UPLOAD: this PDF exists twice in the group, keys 956XEWS4 and T97T9YJS, byte-identical, both with zero annotations, ~38 MB each. This entry points at 956XEWS4. Delete T97T9YJS BEFORE she highlights chemistry — if she annotates the copy this entry does not point at, she gets zero cards and nothing explains why. See lydia-anatomy for the shared delivery rules."
   }
  }
 }

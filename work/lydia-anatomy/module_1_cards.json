@@ -1,0 +1,688 @@
+[
+ {
+  "Text": "{{c1::Anatomy}} is the study of the body's {{c2::structure}}, while {{c1::physiology}} is the study of how those parts {{c2::function}} and work together.",
+  "Back Extra": "Distinguish: anatomy asks <i>what a part is</i>; physiology asks <i>what it does</i>.<br><br>Cue: the two are usually studied together, because a structure's shape explains how it works.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   0,
+   1
+  ],
+  "block": "A_anatomy_physiology",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Developmental}} anatomy is the study of the changes that begin in the body at {{c2::conception}} and proceed into {{c2::adulthood}}.",
+  "Back Extra": "Distinguish: developmental anatomy covers the whole span from conception onward, while embryology covers only its first eight weeks.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   2
+  ],
+  "block": "B_subdivisions",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Embryology}} is the subdivision of developmental anatomy covering the first {{c2::eight}} weeks following conception.",
+  "Back Extra": "Distinguish: embryology is a <i>part of</i> developmental anatomy, not a separate field beside it.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   3
+  ],
+  "block": "B_subdivisions",
+  "numeric": true,
+  "verified_against": "highlight text, p3",
+  "verified_by": "extractor EXACT grounding",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Among the ways anatomy is studied, {{c1::surface}} anatomy is the kind used for diagnosis, and {{c1::regional}} anatomy is the analysis of specific parts of the body.",
+  "Back Extra": "Cue: surface anatomy is what a clinician reads from the outside of the body, which is why it serves diagnosis.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   4,
+   5
+  ],
+  "block": "B_subdivisions",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Gross}} anatomy studies structures {{c2::large enough to see}}, while {{c1::microscopic}} anatomy studies structures {{c2::too small to see}}.",
+  "Back Extra": "Meaning: <i>gross</i> here means large, not unpleasant.<br><br>Distinguish: <i>macroscopic</i> anatomy is another name for gross anatomy.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   6,
+   7
+  ],
+  "block": "B_subdivisions",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "husk_groups cleared: on the c2 card both anchors (Gross / microscopic) stay visible and each cues its own blank, so neither blank depends on the other being shown (card-rules #17 litmus)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Systemic}} anatomy is the anatomy of the {{c2::organ systems}}.",
+  "Back Extra": "Why: systemic anatomy is the best approach when anatomy and physiology are being studied at the same time, because a system is defined by the job its organs share.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   8,
+   9
+  ],
+  "block": "B_subdivisions",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Comparative}} anatomy is the anatomy of {{c2::nonhuman species}}, used to assist the study of the human body.",
+  "Back Extra": "Ex: a bat's wing contains a radius, an ulna, and finger bones, so its structure can be read against the human arm.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   10
+  ],
+  "block": "B_subdivisions",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Bones of different species that are similar in structure are called {{c1::homologous}}.",
+  "Back Extra": "Ex: bats, birds, porpoises and people all have a radius and an ulna in the forelimb, at very different sizes.<br><br>Pitfall: homologous means <i>similar in structure</i>, not identical and not necessarily used the same way.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   11
+  ],
+  "block": "B_subdivisions",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The human forearm is made of two bones, the {{c1::radius}} and the {{c1::ulna}}.",
+  "Back Extra": "Cue: these two are the standard reference pair in comparative anatomy, because so many species carry versions of them.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   12
+  ],
+  "block": "B_subdivisions",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "An {{c1::organ system}} is a group of {{c2::organs}} that work together to perform related functions.",
+  "Back Extra": "Distinguish: an organ is one structure; an organ system is the group of organs sharing a job.<br><br>Ex: the digestive system's teeth, tongue, stomach and pancreas all cooperate on digesting food.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   13
+  ],
+  "block": "C_organ_systems_overview",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "There are {{c1::eleven::number of systems}} organ systems in the human body.",
+  "Back Extra": "Roster: skeletal, nervous, circulatory, respiratory, digestive, muscular, integumentary, lymphatic, urinary, endocrine, reproductive.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   29
+  ],
+  "block": "C_organ_systems_overview",
+  "numeric": true,
+  "verified_against": "highlight text, p7",
+  "verified_by": "extractor EXACT grounding",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The {{c1::skeletal}} system is made up of the bones, cartilages, ligaments and joints.",
+  "Back Extra": "Why: besides giving the body shape and protecting organs in the skull and ribs, bone also produces blood cells.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   14,
+   15
+  ],
+  "block": "D_eleven_systems",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The {{c1::nervous}} system is composed of the brain, spinal cord, nerves and all the body's {{c2::sensory receptors}}.",
+  "Back Extra": "Ex: vision, hearing, smell, taste and touch receptors all belong to it.<br><br>Why: it regulates the other organ systems, so it is “in charge” of many processes, both conscious and unconscious.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   16
+  ],
+  "block": "D_eleven_systems",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "husk/leak review: 'nerves' shares a stem with the answer but the answer word is not present verbatim, and brain + spinal cord already force the answer; reverted from an ungrounded paraphrase that R13 correctly flagged",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The {{c1::circulatory}} system is composed of the {{c2::heart}}, {{c2::blood vessels}} and {{c2::blood}}.",
+  "Back Extra": "Why: it transports gases, nutrients, waste products and hormones, has an active role in immunity, and helps regulate body temperature.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   17
+  ],
+  "block": "D_eleven_systems",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The {{c1::respiratory}} system enables the exchange of {{c2::oxygen and carbon dioxide}} between the blood and the air.",
+  "Back Extra": "Why: it also has a role in regulating the blood's pH.<br><br>Roster: lungs, respiratory passages, diaphragm.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   18
+  ],
+  "block": "D_eleven_systems",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The {{c1::digestive}} system breaks food down so it can be {{c2::absorbed into the blood}}, and eliminates waste products.",
+  "Back Extra": "Roster: mouth, esophagus, stomach, intestines, liver, gallbladder, pancreas, appendix, rectum.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   19
+  ],
+  "block": "D_eleven_systems",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The {{c1::muscular}} system powers the movements of the skeleton and maintains {{c2::posture}} when standing still.",
+  "Back Extra": "Why: it also enables internal organs such as the heart, diaphragm, stomach and intestines to move.<br><br>Pitfall: muscle work is not only motion — holding still is active work too.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   20
+  ],
+  "block": "D_eleven_systems",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The {{c1::integumentary}} system consists of the skin, hair, sweat glands, oil glands and nails.",
+  "Back Extra": "Why: it protects the body, regulates body temperature, prevents water loss and aids the production of vitamin D.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   21
+  ],
+  "block": "D_eleven_systems",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The {{c1::lymphatic}} system rids the body of {{c2::foreign substances}} such as bacteria, viruses and fungi.",
+  "Back Extra": "Distinguish: it is sometimes called the <i>immune system</i>, which is why the same organs can turn up under either name.<br><br>Roster: spleen, thymus gland, lymphatic vessels, lymph nodes.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   22
+  ],
+  "block": "D_eleven_systems",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The {{c1::urinary}} system removes waste products from the blood and regulates blood {{c2::pH}}, {{c2::ion balance}} and {{c2::water balance}}.",
+  "Back Extra": "Why: it is a filter as well as a balancer.<br><br>Roster: kidneys, urinary bladder, ureters, urethra.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   23
+  ],
+  "block": "D_eleven_systems",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The {{c1::endocrine}} system is made up of organs that secrete signal molecules called {{c2::hormones}}.",
+  "Back Extra": "Pitfall: organs whose main job is something else — the heart and stomach among them — also release hormones, so the system is wider than the obvious glands.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   24
+  ],
+  "block": "D_eleven_systems",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The female {{c1::reproductive}} system produces {{c2::oocytes}} for fertilization, provides a place for {{c2::fetal development}}, and produces {{c2::milk}} for the newborn.",
+  "Back Extra": "Roster: female — ovaries, vagina, uterus, mammary glands. Male — testes, penis, prostate gland and other internal organs.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   25,
+   26
+  ],
+  "block": "D_eleven_systems",
+  "numeric": false,
+  "verified_against": "physical page 23, left column",
+  "verified_by": "read off the page directly; the PDF text layer renders this sentence letter-spaced and the extractor could not locate it",
+  "needs_human_check": false,
+  "visual_source": "physical page 23 (printed 7), left column — the PDF text layer renders this sentence letter-spaced with 'COLORING BOOK' sidebar text interleaved, so the extractor could not locate it; read and cropped off the rendered page",
+  "image": "work/lydia-anatomy/lydia-anatomy_p23_reproductive.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "An {{c1::organ}} is a group of {{c2::tissues}} specialized for a particular function.",
+  "Back Extra": "Ex: the liver, lungs, kidneys, heart and skin are all organs.<br><br>Pitfall: some organs belong to more than one organ system at once.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   27
+  ],
+  "block": "E_tissues",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Tissues}} are groups of {{c2::cells}} that form the various building materials of the body.",
+  "Back Extra": "Cue: the ladder runs cells → tissues → organs → organ systems → organism.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   28
+  ],
+  "block": "E_tissues",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The entire human body is built from only four basic kinds of tissue:<br><br>{{c1::nervous}}<br><br>{{c1::muscular}}<br><br>{{c1::connective}}<br><br>{{c1::epithelial}}",
+  "Back Extra": "Why: the body holds a multitude of organs, so it is surprising that they are assembled from so few tissue types.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   30,
+   31,
+   32,
+   33,
+   34
+  ],
+  "block": "E_tissues",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Nervous}} tissue makes up the brain, spinal cord and nerves.",
+  "Back Extra": "Roster: the four basic tissue types are <b>nervous</b>, muscular, connective and epithelial.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   31
+  ],
+  "block": "E_tissues",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Muscular}} tissue enables the skeleton to move, the heart to beat, and internal organs to {{c2::push food or fluid along}}.",
+  "Back Extra": "Roster: the four basic tissue types are nervous, <b>muscular</b>, connective and epithelial.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "E_tissues",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Connective}} tissue makes up bone and cartilage.",
+  "Back Extra": "Roster: the four basic tissue types are nervous, muscular, <b>connective</b> and epithelial.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   33
+  ],
+  "block": "E_tissues",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The surface of the skin is {{c1::epithelial}} tissue.",
+  "Back Extra": "Roster: the four basic tissue types are nervous, muscular, connective and <b>epithelial</b>.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   34
+  ],
+  "block": "E_tissues",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Homeostasis}} is a state of {{c2::dynamic equilibrium}} in the body with respect to its internal environment and functions.",
+  "Back Extra": "Why: homeostasis is the big idea of physiology — the organ systems spend every moment keeping the body inside its acceptable range.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   35
+  ],
+  "block": "F_homeostasis",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In the phrase <i>dynamic equilibrium</i>, equilibrium means {{c1::balance or stability}} and dynamic refers to {{c2::energy}}.",
+  "Back Extra": "Why: the balance is not passive — holding it steady costs the body energy continuously.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   36
+  ],
+  "block": "F_homeostasis",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "A {{c1::set point}} is the ideal normal value of a variable, around which homeostasis is maintained through a {{c2::normal range}} of acceptable values.",
+  "Back Extra": "Pitfall: the body defends a range, not a single exact number — a variable sitting slightly off the set point is still healthy.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   37
+  ],
+  "block": "F_homeostasis",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Stress}} is a factor that causes one or more physiological variables to move away from their {{c2::homeostatic set point}}.",
+  "Back Extra": "Pitfall: in physiology <i>stress</i> is far broader than the everyday emotional sense — it is any imbalance, internal or external.<br><br>Why: uncorrected stress means the variables stay off their set points, and health is affected.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   38,
+   39
+  ],
+  "block": "F_homeostasis",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "When a virus invades, the uncomfortable symptoms produced by the {{c1::lymphatic}} system are part of {{c2::restoring homeostasis}}.",
+  "Back Extra": "Why: the symptoms are the response combating the virus and ridding it from the body, not the infection itself.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   40
+  ],
+  "block": "F_homeostasis",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The two organ systems responsible for deciding whether a variable is moving away from homeostasis are the {{c1::nervous}} and {{c1::endocrine}} systems.",
+  "Back Extra": "Why: having decided, they then initiate a message to correct the imbalance.<br><br>Cue: control of homeostasis comes up again and again, because it is one of the most fundamental aspects of physiology.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   41
+  ],
+  "block": "G_feedback",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "A {{c1::control center}} receives information about a variable, determines the {{c2::set point}}, and signals a response to correct imbalances.",
+  "Back Extra": "Distinguish: a control center is either the central nervous system or an endocrine gland — the receptor only measures, the control center decides.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   42
+  ],
+  "block": "G_feedback",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "A {{c1::receptor}} is a structure that {{c2::monitors the values}} of the body's variables.",
+  "Back Extra": "Distinguish: a receptor measures and reports; it cannot change anything itself.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   44
+  ],
+  "block": "G_feedback",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "An {{c1::effector}} is a structure that can {{c2::change the value of a variable}} in response to a signal from the control center.",
+  "Back Extra": "Ex: the brain cannot lower blood pressure directly, so it signals the heart, which acts as the effector.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   45
+  ],
+  "block": "G_feedback",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Blood pressure is detected by sensory receptors located in the {{c1::arteries near the heart}} and in the {{c1::neck}}.",
+  "Back Extra": "Pathway: receptors detect the change → the brain, as control center, recognizes it → the heart, as effector, speeds up or slows down.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   43,
+   47
+  ],
+  "block": "G_feedback",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "A {{c1::negative-feedback}} system maintains homeostasis through receptors, a control center and effectors, and works by {{c2::opposing or reversing the original stress}}.",
+  "Back Extra": "Meaning: <i>negative</i> here means opposite — the system detects a change and initiates the opposite effect.<br><br>Ex: blood glucose rises, insulin is released, cells take glucose in, and the blood level falls again.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   46,
+   48
+  ],
+  "block": "G_feedback",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Positive}}-feedback systems are naturally {{c2::unstable}} and escalate the imbalance.",
+  "Back Extra": "Distinguish: negative feedback reverses a change and restores balance; positive feedback drives the change further.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   50
+  ],
+  "block": "G_feedback",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "If a hormone is involved in a feedback response, the {{c1::endocrine}} system must be involved.",
+  "Back Extra": "Cue: hormones are the endocrine system's signal molecules, so naming one names the system.",
+  "source": "lydia-anatomy",
+  "segment": 1,
+  "from_idx": [
+   49
+  ],
+  "block": "G_feedback",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ }
+]

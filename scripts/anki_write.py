@@ -275,6 +275,35 @@ def main():
 
     if not args.dry_run:
         authorship.save(source_id or "unknown", own)
+
+    # --- Containment: cards that are not Parker's -----------------------------
+    # A registered source can belong to someone else (his sister's textbooks live
+    # in a shared Zotero group, registry field `owner`). Those cards are written
+    # into HIS collection deliberately, so he can read and edit them before they
+    # are exported — which makes it this writer's job to guarantee they can never
+    # reach his own reviews.
+    #
+    # This lives here, not in the caller, because a caller can forget exactly
+    # once and put someone else's chemistry deck into his daily queue with
+    # nothing visible to signal it. It suspends and then READS THE STATE BACK: a
+    # partially-suspended batch is a failure, not a warning.
+    if not args.dry_run and note_ids and src and (src.get("owner") or "parker").lower() != "parker":
+        owner = src["owner"]
+        nids = ",".join(str(n) for _i, n in note_ids)
+        card_ids = call("findCards", query=f"nid:{nids}")
+        if card_ids:
+            call("suspend", cards=card_ids)
+            states = call("areSuspended", cards=card_ids)
+            leaked = [cid for cid, s in zip(card_ids, states) if not s]
+            if leaked:
+                sys.exit(
+                    f"ERROR: {len(leaked)} of {len(card_ids)} card(s) written for "
+                    f"'{owner}' are NOT suspended: {leaked[:10]}\n"
+                    f"These belong to {owner}, not Parker, and unsuspended they can enter "
+                    f"his reviews. Suspend them in Anki before doing anything else.")
+            print(f"  suspended {len(card_ids)} card(s) and verified every one — this source "
+                  f"belongs to {owner}, so none can enter Parker's reviews")
+
     print(f"{'[dry-run] would add' if args.dry_run else 'added'}: {added}/{len(cards)}")
     for t in sorted(targets):
         print(f"  -> {t}")

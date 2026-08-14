@@ -98,17 +98,81 @@ def norm_loose(s):
     return re.sub(r"\s*-\s*", "-", s)
 
 
+# --- Column-aware page text -------------------------------------------------
+# A TWO-COLUMN page read straight across interleaves the columns into prose that
+# looks superficially fine and is actually nonsense:
+#
+#   "of how to survive. Instead spective on what the rest of this text will of
+#    living for itself, however, each cell cooperates cover in detail..."
+#
+# That is fatal here rather than merely ugly: `context` is what Rule 1 grounds
+# every card in, and what R13 tests each cloze answer against. Garbage context
+# means either fabricated cards or a gate that blocks correct ones. `-layout`
+# DOES preserve the gutter spatially — it is the later whitespace normalization
+# that merges the columns — so the fix is to crop the columns apart before the
+# text is ever joined.
+#
+# Opt-in per source (`text_columns`, `column_split_pts`). A source that does not
+# set them takes the single-pass path and is byte-for-byte unaffected.
+_COLUMNS = 1
+_COLUMN_SPLIT = None      # x split in points; None = derive the page midpoint
+_WIDTH_CACHE: dict = {}
+
+
+def _page_width(pdf, p):
+    """Page width in points, for deriving a midpoint split."""
+    if pdf in _WIDTH_CACHE:
+        return _WIDTH_CACHE[pdf]
+    try:
+        out = subprocess.run(["pdfinfo", "-f", str(p), "-l", str(p), pdf],
+                             capture_output=True, text=True, timeout=30).stdout
+        m = re.search(r"[Pp]age +\d+ +size: +([0-9.]+) +x", out) or \
+            re.search(r"Page size: +([0-9.]+) +x", out)
+        w = float(m.group(1)) if m else 0.0
+    except Exception:
+        w = 0.0
+    _WIDTH_CACHE[pdf] = w
+    return w
+
+
 def page_text(pdf, page_label):
-    """pdftotext -layout for a single physical page."""
+    """pdftotext -layout for a single physical page; column-aware when configured."""
     try:
         p = int(re.sub(r"[^0-9]", "", str(page_label)))
     except (TypeError, ValueError):
         return ""
-    out = subprocess.run(
-        ["pdftotext", "-layout", "-f", str(p), "-l", str(p), pdf, "-"],
-        capture_output=True, text=True, timeout=60,
-    )
-    return out.stdout
+
+    def run(*extra):
+        out = subprocess.run(
+            ["pdftotext", "-layout", "-f", str(p), "-l", str(p), *extra, pdf, "-"],
+            capture_output=True, text=True, timeout=60,
+        )
+        return out.stdout
+
+    if _COLUMNS < 2:
+        return run()
+
+    split = _COLUMN_SPLIT or (_page_width(pdf, p) / 2.0)
+    if not split:
+        return run()          # geometry unknown — degrade to the old behavior
+
+    # This book's pages are MIXED: some paragraphs are two-column, others run the
+    # full width. Cropping unconditionally at the gutter therefore truncates every
+    # full-width line at the split — the first attempt at this dropped grounding
+    # from 50/51 to 43/51. So emit all three readings and let locate_context pick
+    # whichever one contains the highlight contiguously: the full-width pass keeps
+    # the spanning paragraphs whole, and the two column passes keep the columnar
+    # ones from interleaving. Redundancy is cheap; a lost paragraph is not.
+    # ORDER MATTERS: locate_context takes the FIRST match, so the coherent column
+    # readings must come before the full-width pass. With `full` first, a columnar
+    # highlight still matched inside the interleaved text and carried the garbled
+    # paragraph forward as its context — grounded by the counter, useless in fact.
+    # Columns first means columnar text grounds from its own column; genuinely
+    # full-width paragraphs miss in both column crops and fall through to `full`.
+    left = run("-x", "0", "-y", "0", "-W", str(int(split)), "-H", "100000")
+    right = run("-x", str(int(split)), "-y", "0", "-W", "100000", "-H", "100000")
+    full = run()
+    return left + "\n" + right + "\n" + full
 
 
 def locate_context(hl_text, raw_page):
@@ -267,6 +331,17 @@ def main():
         sys.exit(f"ERROR: the PDF for source '{src['id']}' is not on disk:\n  {pdf}\n"
                  f"(Is the attachment stored locally in Zotero, or is it a linked file?)")
     assert_pdf(pdf, src["id"])
+
+    # Column layout is a property of the BOOK, so it rides the registry entry.
+    # Absent = single column = the original code path, unchanged.
+    global _COLUMNS, _COLUMN_SPLIT
+    _COLUMNS = int(src.get("text_columns", 1) or 1)
+    _COLUMN_SPLIT = src.get("column_split_pts") or None
+    if _COLUMNS >= 2:
+        print(f"  note: reading this source as {_COLUMNS} columns"
+              f"{f' (split at {_COLUMN_SPLIT}pt)' if _COLUMN_SPLIT else ' (midpoint split)'}"
+              f" — a two-column page read straight across interleaves the columns.")
+
     wanted = S.colors(src)
     lex_wanted = [c for c in S.lexicon_colors(src) if c not in wanted]
     noun = S.segment_noun(src)
