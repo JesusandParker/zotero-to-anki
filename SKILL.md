@@ -156,9 +156,22 @@ do this end-to-end from this skill alone. When he says *"I noticed an issue with
    AND add a case to `reference/regression-cases.md` (a BAD card the checks must catch + a
    GOOD card they must NOT over-flag), AND extend `scripts/check_cards.py` if it can be
    mechanized.
+5b. **A new rule condemns cards ALREADY LIVE — go get them (card-rules #32, R52).** Every
+   rule here exists because a live card was bad, so writing the rule is half the job.
+   Sweep the collection with `python3 scripts/check_cards.py --live all --source <id>`
+   (it exits nonzero on hard errors), fix or replace what it names, and then **retire the
+   originals** — `python3 scripts/retire_notes.py retire --source <id> --note <id>
+   --rule "card-rules #N" --successors <ids>`. Retirement suspends and tags, never
+   deletes, and refuses to run until the replacements are verified live.
+   **If you deliberately leave an original in place** so he can compare, that is fine —
+   record it in the run manifest as `supersedes: [{note_id, rule, successors, status:
+   "pending", why}]`, which keeps `check_hazards.py` red until it is closed. Do NOT
+   record it only in a commit message: that is exactly how eight Chapter 7 panels and two
+   rule-23 cards stayed in his rotation for twelve days while he studied them.
 6. **Re-verify:** run `python3 scripts/check_cards.py work/<source>/<file>.json` and
    `python3 scripts/test_regressions.py` — the regression library is executable and must
-   stay green in both directions: catch the bad, spare the good.
+   stay green in both directions: catch the bad, spare the good. For anything that touched
+   the live deck, also `python3 scripts/retire_notes.py audit --source <id>`.
 7. **Log it** in `reference/feedback-log.md` (date, source, what he flagged, the fix, the
    rule/test added).
 8. **Commit + push** per `CLAUDE.md`.

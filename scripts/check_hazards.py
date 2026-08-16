@@ -21,6 +21,31 @@ this, so a run cannot quietly leave a known hole open.
 
     python3 scripts/check_hazards.py
 
+**Second shape of the same failure, found 2026-08-15 (card-rules #32, R52).** A run may
+also not FIX something and merely write prose about the leftovers. The Chapter 7
+rule-25 remediation replaced eight keyed numeric panels with 46 per-key notes and left
+the eight originals live, recording that decision as "originals left in place to compare"
+— in a commit message, which no program reads — while the provenance field meant for it
+(`replaces`) held a prose sentence instead of the note ids. Twelve days later Parker drew
+the systolic-BP panel in review and asked why it wasn't individual cards. It was; the
+replacements were three rows down in the same deck.
+
+So a run that supersedes existing notes must name them, in its manifest:
+
+    "supersedes": [
+      {"note_id": 1785508840234, "rule": "card-rules #25",
+       "successors": [1785758337196, 1785758337271],
+       "status": "retired"},                       # verified against the retirement ledger
+      {"note_id": 1785508840410, "rule": "card-rules #25",
+       "status": "pending", "why": "left live so Parker can compare"}
+    ]
+
+`retired` must be backed by `reference/retirement-ledger.json`. `pending` keeps this check
+RED on purpose — a deferred cleanup is an open item, and the whole lesson of this file is
+that an open item recorded only in prose is an item nobody closes. To settle it, either
+retire the note (`retire_notes.py`) or change the status to `waived` with a `why`, the
+same escape hatch `mechanizable: false` already provides for hazards.
+
 Manifest shape (`runs/<source>/<segment>/<run_id>/manifest.json`):
 
     "new_hazards_found": [
@@ -45,8 +70,91 @@ def known_regression_ids():
     return set(re.findall(r"^##\s+(R\d+[a-z]?)\b", open(CASES).read(), re.M))
 
 
+def retired_note_ids():
+    """Note ids the retirement ledger says are actually out of rotation."""
+    path = os.path.join(SKILL, "reference", "retirement-ledger.json")
+    if not os.path.exists(path):
+        return set()
+    try:
+        led = json.load(open(path))
+    except Exception:
+        return set()
+    return {e["note_id"] for e in led.get("retired", []) if not e.get("undone")}
+
+
+def supersession_problems(rel, m, retired):
+    """A run that replaced notes must name them and account for each one.
+
+    The trigger is deliberately wide: a manifest that COUNTS replacements, or a
+    provenance file that carries a `replaces` key, is claiming it superseded something.
+    Chapter 7's run did both — `"replaced_panels": 8` and a `replaces` on all 46 rows —
+    and still left no way to find a single original, because the value was prose."""
+    out = []
+    claims = [k for k in (m.get("counts") or {}) if re.search(r"replac|supersed", k, re.I)]
+    sup = m.get("supersedes")
+
+    if claims and not sup:
+        out.append(
+            f"{rel}: manifest counts {claims} but has no `supersedes` block — the run says it "
+            f"replaced notes and never names WHICH, so nothing can ever retire or verify them")
+    for e in sup or []:
+        nid, status = e.get("note_id"), e.get("status")
+        if not isinstance(nid, int):
+            out.append(f"{rel}: supersedes entry has no integer `note_id` ({e!r}) — a prose "
+                       f"description is not a target a later pass can act on")
+            continue
+        if status == "retired":
+            if nid not in retired:
+                out.append(f"{rel}: note {nid} is marked `retired` but is not in "
+                           f"reference/retirement-ledger.json — retire it for real "
+                           f"(scripts/retire_notes.py) or correct the status")
+        elif status == "waived":
+            if not e.get("why"):
+                out.append(f"{rel}: note {nid} is `waived` with no `why`")
+        elif status == "pending":
+            out.append(f"{rel}: note {nid} is still PENDING retirement"
+                       + (f" ({e['why']})" if e.get("why") else "")
+                       + " — it is live and superseded. Retire it, or waive it with a `why`")
+        else:
+            out.append(f"{rel}: note {nid} has status {status!r} — expected "
+                       f"retired / pending / waived")
+    return out
+
+
+def prose_replaces(rel, root, has_supersedes):
+    """`replaces` must carry note ids. This is the exact field Chapter 7 filled with a
+    sentence, which is why the originals were unreachable by any automated pass.
+
+    The real requirement is that a supersession be addressable SOMEWHERE, so a manifest
+    carrying a proper `supersedes` block satisfies it and this check stands down — which
+    is how the four historical remediation runs close without rewriting their provenance
+    row by row. New runs, which have no such block until they write one, still answer to
+    it at the row level."""
+    if has_supersedes:
+        return []
+    path = os.path.join(root, "provenance.jsonl")
+    if not os.path.exists(path):
+        return []
+    bad = 0
+    for line in open(path):
+        try:
+            r = json.loads(line)
+        except Exception:
+            continue
+        v = r.get("replaces")
+        if v is None:
+            continue
+        if not (isinstance(v, list) and all(isinstance(x, int) for x in v)):
+            bad += 1
+    if bad:
+        return [f"{rel}: {bad} provenance row(s) carry a `replaces` that is not a list of "
+                f"note ids — record WHICH notes were superseded, not a description of them"]
+    return []
+
+
 def main():
     ids = known_regression_ids()
+    retired = retired_note_ids()
     problems, checked, hazards = [], 0, 0
 
     if not os.path.isdir(RUNS):
@@ -64,6 +172,8 @@ def main():
             problems.append(f"{mpath}: unreadable manifest ({e})")
             continue
         rel = os.path.relpath(root, SKILL)
+        problems += supersession_problems(rel, m, retired)
+        problems += prose_replaces(rel, root, bool(m.get("supersedes")))
         for h in m.get("new_hazards_found") or []:
             hazards += 1
             summary = (h.get("summary") or "<no summary>")[:80]
@@ -86,7 +196,7 @@ def main():
 
     print(f"checked {checked} run manifest(s), {hazards} recorded hazard(s)")
     if problems:
-        print("OPEN HAZARDS (a run found something and left the hole open):")
+        print("OPEN HAZARDS (a run found or fixed something and left the hole open):")
         for p in problems:
             print("  x", p)
         return 1

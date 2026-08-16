@@ -61,6 +61,16 @@ echo "--- live audit through the registry ---"
 chk "live ch3 audit reaches the deck" "python3 scripts/check_cards.py --live 3 --source emt 2>&1 | grep -qE 'checked ([2-9][0-9]|[1-9][0-9]{2,}) cards'"
 chk "live needs --source"  "! python3 scripts/check_cards.py --live 3 2>&1 | grep -q 'checked'"
 
+echo "--- retirement: a rule reaches the cards already live (card-rules #32, R52) ---"
+# The gate used to cover the staging FILE and never the COLLECTION, so ten superseded
+# notes stayed in his rotation for two weeks while this very checker called them HARD
+# ERRORS in a code path wired to exit 0. These four assert the whole loop: the live sweep
+# has a verdict, retirement is safe, and no run may replace notes without naming them.
+chk "live sweep VERDICTS, not just reports"  "python3 scripts/check_cards.py --live all --source emt >/dev/null 2>&1"
+chk "no live note hard-blocks the gate"      "python3 scripts/retire_notes.py audit --source emt >/dev/null 2>&1"
+chk "retirement refuses/undoes correctly"    "python3 scripts/retire_notes.py self-test 2>&1 | grep -q 'all retirement cases pass'"
+chk "every supersession is accounted for"    "python3 scripts/check_hazards.py >/dev/null 2>&1"
+
 echo "--- the universal path (a lecture, not a textbook) ---"
 chk "isaacs17 extracts 6 marks"     "python3 scripts/extract_highlights.py --source isaacs17 2>&1 | grep -q '6 marked item'"
 chk "isaacs17 grounds all 6"        "python3 scripts/extract_highlights.py --source isaacs17 2>&1 | grep -q 'grounded 6/6'"

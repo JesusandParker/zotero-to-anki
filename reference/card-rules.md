@@ -281,3 +281,37 @@ The Cold-Solve Gate asks whether each blank is *answerable*. These two ask a que
     *Failure that created this rule (2026-08-08):* Arabic-country cards that asked for
     capitals with no mention of Arabic. Parker: *"I don't have a card cementing the fact that
     that is an Arabic speaking country."* Regression **R49**.
+
+32. **A rule reaches the cards already in his decks — a remediation is not done until the superseded note is RETIRED (2026-08-15).**
+    Every rule here was written because a live card was bad, so every rule is retroactive in
+    intent. The machinery was not: the `.verified` stamp gates the staging FILE at write time,
+    and nothing re-examines a note once it ships. A rule written on Tuesday therefore never
+    reached the card that caused it, and the remediation run — which knew exactly which notes
+    it was replacing — had no operation for taking one out.
+    - **Name the superseded notes in the run manifest**, as `supersedes: [{note_id, rule,
+      successors, status}]`. Not a count, not a sentence. `"replaced_panels": 8` and a
+      `replaces` field reading *"a keyed panel of numbers hidden under one cloze"* are both
+      claims that something was replaced, with no way to find it.
+    - **Retire, don't delete.** `retire_notes.py` suspends every card of the note and tags it
+      `superseded`; his review history, mnemonics and pasted images survive, and the ledger
+      keeps the text verbatim so the card is recoverable from the repo alone. Deletion stays
+      his call. Suspension is also what he already reached for by hand on the radio-report
+      card — the system was just never told about it.
+    - **Retirement demands a live successor.** The replacements must exist and be unsuspended
+      before the original goes, or the fact silently stops being tested. Retiring with no
+      successor requires an explicit `--reason`.
+    - **Deferring is allowed; forgetting is not.** "Left in place so he can compare" is a fine
+      decision and a terrible record when it lives in a commit message. Status `pending` keeps
+      `check_hazards.py` red until someone retires or waives it.
+    - **The live deck is a gated surface.** `check_cards.py --live` now exits nonzero on hard
+      errors instead of always exiting 0. It skips suspended notes, so a retirement genuinely
+      closes the gate rather than leaving a permanent red mark everyone learns to ignore.
+    - *Caught by:* `check_hazards.py` (supersession block + a `replaces` that is not note ids)
+      and `check_cards.py --live` (exit code), both in `smoke_test.sh`.
+    *Failure that created this rule (2026-08-15):* Parker drew the systolic-BP panel in review
+    — *"why are these cards like this and not indiviual cards? … dont just change it help me
+    fix the system issue in the zotero to anki pipleine"* — and the six individual cards had
+    been live for twelve days, three rows down in the same deck. Rules 23 and 25 were both
+    authored FROM these very cards; ten of them were still being studied, and this repo's own
+    checker had been calling them HARD ERRORS the whole time, in a mode wired to exit 0.
+    Regression **R52**.

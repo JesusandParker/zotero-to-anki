@@ -1283,6 +1283,12 @@ def load_live(which, source_id):
         except ValueError:
             sys.exit(f"ERROR: --live expects a segment number or 'all', got {which!r}")
         query = f'deck:"{S.audit_deck(src, seg)}"'
+    # Suspended notes are out of Parker's rotation, so they are out of scope for a live
+    # audit: the question this answers is "what will he actually be shown?" This is also
+    # what lets `retire_notes.py` genuinely CLOSE the gate — retirement suspends rather
+    # than deletes (his review history and his own edits survive), and a retired note
+    # must then stop being reported, or the gate could never go green (card-rules #32).
+    query = f"({query}) -is:suspended"
     ids = call("findNotes", query=query)
     notes = call("notesInfo", notes=ids)
     cards = []
@@ -1405,7 +1411,15 @@ def main():
         print("  deterministic checks clean")
 
     if live:
-        sys.exit(0)  # diagnostic only: never stamp, never block
+        # A live audit has no staged file to stamp — but "no stamp" is not "no verdict",
+        # and reading those two as one thing is the hole this line used to be. The gate
+        # protected the staging FILE and never the COLLECTION, so a rule written after a
+        # card shipped never reached that card: ten notes that this very checker calls
+        # HARD ERRORS sat in his decks for weeks while he studied them, and rules 23 and
+        # 25 were both authored FROM those cards. Hard errors now set the exit code,
+        # which is what makes --live usable as a gate (smoke_test, or a scheduled sweep)
+        # instead of a diagnostic nobody reads. Still never stamps. (card-rules #32, R52)
+        sys.exit(1 if hard else 0)
 
     # Verification stamp: on a HARD-clean pass, write a hash of THIS exact file so
     # anki_write.py can confirm the file it's about to stage is the one that passed

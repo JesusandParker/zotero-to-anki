@@ -1,0 +1,242 @@
+{
+ "retired": [
+  {
+   "note_id": 1782941721576,
+   "source": "emt",
+   "rule": "card-rules #23",
+   "successors": [
+    1785731167960,
+    1785731168011,
+    1785731168060
+   ],
+   "reason": null,
+   "batch": "2026-08-15-rule23-25-orphans",
+   "retired_at": "2026-08-15T21:01:55",
+   "cards": [
+    1782941721577
+   ],
+   "tags_before": [
+    "ch3"
+   ],
+   "text": "The eight presumptive signs of death are:<br><br>{{c1::Unresponsiveness to painful stimuli}}<br><br>{{c1::Lack of a carotid pulse or heartbeat}}<br><br>{{c1::Absence of chest rise and fall}}<br><br>{{c1::No deep tendon or corneal reflexes}}<br><br>{{c1::Absence of pupillary reactivity}}<br><br>{{c1::No systolic blood pressure}}<br><br>{{c1::Profound cyanosis}}<br><br>{{c1::Lowered or decreased body temperature}}",
+   "back_extra": "Distinguish: presumptive signs only <i>suggest</i> death, whereas definitive (conclusive) signs — such as obvious mortal damage or decapitation — are clear even to nonmedical people.<br><br>Pitfall: no single sign confirms death; in sudden death (hypothermia, poisoning, cardiac arrest) more evidence is needed and resuscitation may be warranted."
+  },
+  {
+   "note_id": 1782941720077,
+   "source": "emt",
+   "rule": "card-rules #23",
+   "successors": [
+    1785731168109,
+    1785731168160,
+    1785731168211
+   ],
+   "reason": null,
+   "batch": "2026-08-15-rule23-25-orphans",
+   "retired_at": "2026-08-15T21:01:56",
+   "cards": [
+    1782941720077
+   ],
+   "tags_before": [
+    "ch3"
+   ],
+   "text": "When determining a patient's <b>decision-making capacity</b>, consider 8 factors:<br><br>{{c1::Impaired intellect (mental limitation or dementia)}}<br><br>{{c1::Legal age (18 in most states)}}<br><br>{{c1::Alcohol or drug intoxication, or serious injury or illness}}<br><br>{{c1::Significant pain}}<br><br>{{c1::A significant distracting injury (may mask a more serious one)}}<br><br>{{c1::Hearing or visual problems}}<br><br>{{c1::A language barrier}}<br><br>{{c1::Apparent understanding (asks rational questions)}}",
+   "back_extra": "Why: Decision-making capacity is the foundation of consent — an adult who is conscious, rational, and capable of an informed decision may legally refuse care, so these factors decide whose refusal stands.<br><br>Cue: Sweep the conversation head to toe — mind, age, chemicals, pain, senses, language, comprehension."
+  },
+  {
+   "note_id": 1784513282393,
+   "source": "emt",
+   "rule": "card-rules #23",
+   "successors": [
+    1785731168760,
+    1785731168809,
+    1785731168859,
+    1785731168934
+   ],
+   "reason": null,
+   "batch": "2026-08-15-rule23-25-orphans",
+   "retired_at": "2026-08-15T21:01:56",
+   "cards": [
+    1784513282393
+   ],
+   "tags_before": [
+    "ch4"
+   ],
+   "text": "9 scenarios establish <b>medical necessity</b> for ambulance transport:<br><br>{{c1::emergency transport when no other means was possible}}<br><br>{{c1::restraint needed to prevent injury to self or others}}<br><br>{{c1::oxygen or other emergency treatment required during transport}}<br><br>{{c1::unconscious or in shock}}<br><br>{{c1::signs of acute respiratory or cardiac distress (shortness of breath, chest pain)}}<br><br>{{c1::signs suggesting possible acute stroke}}<br><br>{{c1::immobility required for an unstabilized or possible fracture}}<br><br>{{c1::severe hemorrhage}}<br><br>{{c1::bed-confined before and after the trip}}",
+   "back_extra": "Why: Medicare and Medicaid reimburse ambulance transport only when documentation shows the trip was medically necessary.<br><br>Pitfall: necessity also applies to the <i>level</i> of care — documenting ALS interventions for a patient who did not need them is inappropriate.<br><div><br></div><div>HOUSE + CRIB, 5 and 4:</div>\n<div><table><tbody><tr><th></th><th></th></tr><tr><td><strong>H</strong></td><td>Hemorrhage, severe</td></tr><tr><td><strong>O</strong></td><td>Oxygen or other emergency treatment during transport</td></tr><tr><td><strong>U</strong></td><td>Unconscious <em>or in shock</em></td></tr><tr><td><strong>S</strong></td><td>Stroke signs</td></tr><tr><td><strong>E</strong></td><td>Emergency — no other means of transport possible</td></tr><tr><td><strong>C</strong></td><td>Chest — acute cardiac <em>or respiratory</em> distress</td></tr><tr><td><strong>R</strong></td><td>Restraint needed (injury to self or others)</td></tr><tr><td><strong>I</strong></td><td>Immobility required — unstabilized or possible fracture</td></tr><tr><td><strong>B</strong></td><td>Bed-confined before <em>and</em> after</td></tr></tbody></table></div>"
+  },
+  {
+   "note_id": 1785345040936,
+   "source": "emt",
+   "rule": "card-rules #23",
+   "successors": [
+    1785731169510,
+    1785731169560,
+    1785731169609
+   ],
+   "reason": null,
+   "batch": "2026-08-15-rule23-25-orphans",
+   "retired_at": "2026-08-15T21:01:56",
+   "cards": [
+    1785345040936
+   ],
+   "tags_before": [
+    "ch6"
+   ],
+   "text": "The <b>digestive system</b>, also called the gastrointestinal system, is composed of 10 structures:<br><br>{{c1::the gastrointestinal tract (stomach and intestines)}}, {{c1::mouth}}, {{c1::salivary glands}}, {{c1::pharynx}}, {{c1::esophagus}}, {{c1::liver}}, {{c1::gallbladder}}, {{c1::pancreas}}, {{c1::rectum}}, and {{c1::anus}}.",
+   "back_extra": "Why: every one of those structures serves a single job, digestion, the processing of food that nourishes the individual cells of the body.<br><br>Cue: most of the digestive organs sit inside the abdomen, the second major body cavity, which holds the major organs of digestion and excretion."
+  },
+  {
+   "note_id": 1785508840234,
+   "source": "emt",
+   "rule": "card-rules #25",
+   "successors": [
+    1785758337196,
+    1785758337271,
+    1785758337346,
+    1785758337421,
+    1785758337496,
+    1785758337571
+   ],
+   "reason": null,
+   "batch": "2026-08-15-rule23-25-orphans",
+   "retired_at": "2026-08-15T21:01:57",
+   "cards": [
+    1785508840234
+   ],
+   "tags_before": [
+    "ch7"
+   ],
+   "text": "Normal <b>systolic blood pressure</b> in mm Hg, by age group:<br><br>Neonate — {{c1::50 to 70}}<br><br>Infant — {{c1::70 to 95}}<br><br>Toddler and preschool age — {{c1::80 to 100}}<br><br>School age — {{c1::80 to 110}}<br><br>Adolescent — {{c1::90 to 110}}<br><br>Early, middle, and older adult — {{c1::90 to 130}}",
+   "back_extra": "Distinguish: systolic pressure is the only one of the four vital signs that climbs with age — a neonate's floor of 50 mm Hg is little more than half the adult floor of 90.<br><br>Pitfall: an adolescent reaches adult pulse and respiratory values but not adult pressure — the systolic ceiling holds at 110 until age 19, then rises to 130.<br><br><img src=\"emt_TABLE_7_1.jpg\">"
+  },
+  {
+   "note_id": 1785508840410,
+   "source": "emt",
+   "rule": "card-rules #25",
+   "successors": [
+    1785758337871,
+    1785758337946,
+    1785758338021,
+    1785758338094,
+    1785758338170,
+    1785758338245,
+    1785758338323,
+    1785758338398,
+    1785758338472
+   ],
+   "reason": null,
+   "batch": "2026-08-15-rule23-25-orphans",
+   "retired_at": "2026-08-15T21:01:57",
+   "cards": [
+    1785508840410
+   ],
+   "tags_before": [
+    "ch7"
+   ],
+   "text": "The nine life-span age groups and the ages each one covers:<br><br>Neonate — {{c1::birth to 1 month}}<br><br>Infant — {{c1::1 month to 1 year}}<br><br>Toddler — {{c1::1 to 3 years}}<br><br>Preschool age — {{c1::3 to 6 years}}<br><br>School age — {{c1::6 to 12 years}}<br><br>Adolescent — {{c1::12 to 18 years}}<br><br>Early adult — {{c1::19 to 40 years}}<br><br>Middle adult — {{c1::41 to 60 years}}<br><br>Older adult — {{c1::61 years and older}}",
+   "back_extra": "Why: no other phase of life changes as fast as the first year, which is why those 12 months alone carry two names — neonate for the first month, infant for the remaining eleven.<br><br>Pitfall: the childhood bands share a boundary year, so one age can sit in two groups — a 12-year-old is both school age and adolescent — while the adult bands do not overlap, since adolescence ends at 18 and early adulthood starts at 19.<br><br><img src=\"emt_TABLE_7_1.jpg\">"
+  },
+  {
+   "note_id": 1785508840683,
+   "source": "emt",
+   "rule": "card-rules #25",
+   "successors": [
+    1785758338547,
+    1785758338623,
+    1785758338699,
+    1785758338770,
+    1785758338846
+   ],
+   "reason": null,
+   "batch": "2026-08-15-rule23-25-orphans",
+   "retired_at": "2026-08-15T21:01:57",
+   "cards": [
+    1785508840683
+   ],
+   "tags_before": [
+    "ch7"
+   ],
+   "text": "A neonate's body weight follows a predictable course:<br><br>At birth: {{c1::6 to 8 lb (3 to 3.5 kg)}}<br><br>First week: falls {{c1::5% to 10%}} from fluid loss<br><br>Second week onward: gains about {{c1::1 ounce (30 g) per day}}<br><br>Doubles birth weight by {{c1::4 to 6 months}}<br><br>Triples birth weight by {{c1::1 year}}",
+   "back_extra": "Ex: a 7 lb newborn is about 14 lb at 6 months and about 21 lb at 1 year.<br><br>Pitfall: doubling and tripling are multiples of the <i>birth</i> weight, not of whatever the infant weighs at the time.<br><br><img src=\"emt_FIGURE_7_1.jpg\">"
+  },
+  {
+   "note_id": 1785508841455,
+   "source": "emt",
+   "rule": "card-rules #25",
+   "successors": [
+    1785758338922,
+    1785758338997,
+    1785758339071,
+    1785758339147,
+    1785758339221,
+    1785758339297,
+    1785758339371,
+    1785758339446,
+    1785758339521,
+    1785758339596,
+    1785758339671
+   ],
+   "reason": null,
+   "batch": "2026-08-15-rule23-25-orphans",
+   "retired_at": "2026-08-15T21:01:57",
+   "cards": [
+    1785508841455
+   ],
+   "tags_before": [
+    "ch7"
+   ],
+   "text": "Match each characteristic to the age at which it typically appears in an infant:<br><br>Reaches arms out to people; drools → {{c1::4 months}}<br><br>Sleeps throughout the night; distinguishes family members from strangers → {{c1::5 months}}<br><br>Recognizes familiar faces; uses the eyes to track objects and people → {{c1::2 months}}<br><br>Begins teething; sits upright; speaks one-syllable words → {{c1::6 months}}<br><br>Brings objects to the mouth; smiles and frowns → {{c1::3 months}}",
+   "back_extra": "Distinguish: bringing objects to the mouth is the 3-month characteristic, while deliberately exploring objects by placing them in the mouth comes months later; in the same way, sitting upright at 6 months precedes sitting alone.<br><br>Cue: the first half-year develops outward from the eyes, running recognizing and tracking first, then the hands and mouth (reaching, drooling, mouthing), then the trunk and the first one-syllable words."
+  },
+  {
+   "note_id": 1785508841507,
+   "source": "emt",
+   "rule": "card-rules #25",
+   "successors": [
+    1785758338922,
+    1785758338997,
+    1785758339071,
+    1785758339147,
+    1785758339221,
+    1785758339297,
+    1785758339371,
+    1785758339446,
+    1785758339521,
+    1785758339596,
+    1785758339671
+   ],
+   "reason": null,
+   "batch": "2026-08-15-rule23-25-orphans",
+   "retired_at": "2026-08-15T21:01:58",
+   "cards": [
+    1785508841507
+   ],
+   "tags_before": [
+    "ch7"
+   ],
+   "text": "Match each infant characteristic to the age at which it typically appears:<br><br>Pulls self up to stand; explores objects by placing them in the mouth → {{c1::9 months}}<br><br><i>Knows</i> his or her name; walks → {{c1::12 months}}<br><br>Afraid of strangers; displays mood swings → {{c1::7 months}}<br><br><i>Begins</i> to walk without assistance; becomes frustrated by restrictions → {{c1::11 months}}<br><br>Responds to \"no\"; can sit alone; plays peek-a-boo → {{c1::8 months}}<br><br><i>Responds to</i> his or her name; crawls efficiently → {{c1::10 months}}",
+   "back_extra": "Distinguish: two look-alike pairs split by degree. An infant <i>responds to</i> his or her name at 10 months but <i>knows</i> it at 12, and <i>begins</i> to walk without assistance at 11 months but simply walks at 12.<br><br>Cue: the second half-year is one long mobility ladder, sitting alone, then pulling up to stand, then crawling, then walking, and it opens with the social shift at 7 months when the infant first becomes afraid of strangers."
+  },
+  {
+   "note_id": 1784513284416,
+   "source": "emt",
+   "rule": "card-rules #23",
+   "successors": [
+    1785731169008,
+    1785731169085,
+    1785731169159
+   ],
+   "reason": "Parker had already suspended this by hand before the pipeline had a retirement operation; recording it so the ledger matches the collection",
+   "batch": "2026-08-15-rule23-25-orphans",
+   "retired_at": "2026-08-15T21:02:15",
+   "cards": [
+    1784513284416
+   ],
+   "tags_before": [
+    "ch4"
+   ],
+   "text": "An EMT's <b>radio patient report</b> commonly includes 10 elements, in order:<br><br>1. {{c1::Unit ID and service level}}<br><br>2. {{c1::Any special alert}}<br><br>3. {{c1::Receiving hospital and ETA}}<br><br>4. {{c1::Patient's age and sex}}<br><br>5. {{c1::Chief complaint and severity}}<br><br>6. {{c1::Brief history of current problem}}<br><br>7. {{c1::Brief report of physical findings}}<br><br>8. {{c1::Summary of care given}}<br><br>9. {{c1::Patient's response to treatment}}<br><br>10. {{c1::Any additional questions or orders}}",
+   "back_extra": "Cue: the report tells the call's story in order — who we are → any alert → where we're headed and when → who the patient is → what's wrong → how it happened → what we found → what we did → how they responded → what else do you need?<br><br>Distinguish: element 8 is the care you gave; element 9 is how the patient responded to that care.<br><br>Ex: 'Columbus Fire 2-BLS' (element 1); severe trauma → 'trauma alert', heart attack → 'cardiac alert' (element 2); physical findings cover level of consciousness, general appearance, pertinent abnormalities, and vital signs (element 7).<br><br><img src=\"emt_FIGURE_4_20.jpg\">"
+  }
+ ]
+}

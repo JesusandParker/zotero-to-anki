@@ -30,5 +30,30 @@
    "mechanizable": false,
    "why": "requires knowing whether a phrase is the source's vocabulary or ours; R13 grounding cannot see it because the sub-group NAME is a synthesis over text that is itself well grounded. Caught by editor check #25/#26 and the human review pass, and stated as a worked rule in card-rules #23."
   }
+ ],
+ "supersedes": [
+  {
+   "note_id": 1784513282393,
+   "rule": "card-rules #23",
+   "successors": [
+    1785731168760,
+    1785731168809,
+    1785731168859,
+    1785731168934
+   ],
+   "status": "retired",
+   "note": "retired 2026-08-15 (R52) — this run replaced it and left it live"
+  },
+  {
+   "note_id": 1784513284416,
+   "rule": "card-rules #23",
+   "successors": [
+    1785731169008,
+    1785731169085,
+    1785731169159
+   ],
+   "status": "retired",
+   "note": "retired 2026-08-15 (R52) — this run replaced it and left it live"
+  }
  ]
 }
