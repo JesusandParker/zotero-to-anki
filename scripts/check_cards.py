@@ -164,6 +164,61 @@ def _content_words(s):
     return [w for w in re.findall(r"[a-zA-Z]+", s.lower()) if w not in STOP]
 
 
+def _cloze_spans(text):
+    """[(num, open_idx, content_start, content_end, close_end)], nesting-aware.
+
+    The module CLOZE regex is non-greedy and cannot see nesting, so this walks the
+    string with a stack instead."""
+    opener = re.compile(r"\{\{c(\d+)::")
+    out, stack, i = [], [], 0
+    while i < len(text):
+        m = opener.match(text, i)
+        if m:
+            stack.append((m.group(1), m.start(), m.end()))
+            i = m.end()
+            continue
+        if text.startswith("}}", i):
+            if stack:
+                num, o, cs = stack.pop()
+                out.append((num, o, cs, i, i + 2))
+            i += 2
+            continue
+        i += 1
+    return out
+
+
+def nested_clozes(text):
+    """R53: a cloze deletion sitting INSIDE another one.
+
+    Anki's cloze shortcut assigns the NEXT UNUSED number, so selecting a word that is
+    already inside a cloze and pressing it again wraps the selection in a brand-new
+    number rather than reusing the old one:
+
+        {{c1::Barotrauma}}  --select the word, press Cmd+Shift+C-->  {{c1::{{c4::Barotrauma}}}}
+
+    When the inner span covers the WHOLE outer answer, the two cards are identical in the
+    reviewer — both fronts read '[...] is pressure-induced trauma to the lungs' — so the
+    note silently grows a duplicate card that can never teach anything the other doesn't.
+    That is the hard case. A PARTIAL nest (`{{c1::the {{c2::mitral}} valve}}`) produces
+    two genuinely different fronts, so it only warns: nothing in card-rules sanctions it,
+    but it is not automatically wrong.
+
+    Returns (identical, partial) as lists of (outer_num, inner_num).
+    """
+    spans = _cloze_spans(text)
+    identical, partial = [], []
+    for num, o, cs, ce, end in spans:
+        for onum, oo, ocs, oce, oend in spans:
+            if (oo, oend) == (o, end):
+                continue
+            if oo < o and end <= oce:          # this span is nested inside that one
+                inner_full = text[o:end].strip()
+                outer_body = text[ocs:oce].strip()
+                (identical if outer_body == inner_full else partial).append((onum, num))
+                break
+    return identical, partial
+
+
 def husk_groups(text):
     """R10: a single cloze number hiding EXACTLY 2 multi-word spans that sit in
     different clausal roles of an inline template — 'the ___ of X applies to ___' —
@@ -776,6 +831,16 @@ def per_card(idx, c, strict_html=True):
     # must contain a cloze
     if not CLOZE.search(t):
         hard.append(f"#{idx}: no cloze markup in Text")
+    # nested cloze — almost always an accidental re-cloze in the editor (R53)
+    _ident, _partial = nested_clozes(t)
+    for onum, inum in _ident:
+        hard.append(f"#{idx}: cloze c{inum} is nested inside c{onum} and covers ALL of it — "
+                    f"both cards render the SAME front, so c{inum} is a pure duplicate. "
+                    f"Unwrap it back to a single {{{{c{onum}::…}}}} (card-rules #33)")
+    for onum, inum in _partial:
+        warn.append(f"#{idx}: cloze c{inum} is nested inside c{onum} — verify this is "
+                    f"deliberate; Anki's cloze shortcut assigns the next unused number, so "
+                    f"this is usually an accidental re-cloze of text already inside a cloze")
     # empty/whitespace cloze answer
     for m in CLOZE.finditer(t):
         if not m.group(2).strip():

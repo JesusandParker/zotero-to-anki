@@ -35,6 +35,38 @@ LEX_MARKS = [
 ]
 
 CASES = [
+    # --- R53: an accidental re-cloze in the editor nests one cloze inside another -----
+    {
+        "id": "r53_bad_nested_cloze_covering_the_whole_outer_answer",
+        "warn": "nested inside c1 and covers ALL of it",
+        "present": True, "scope": "hard",
+        "cards": [{"Text": "{{c1::{{c4::Barotrauma}}}} is {{c2::pressure-induced trauma to the "
+                           "lungs}}, and in an infant the cause is {{c3::forceful ventilations "
+                           "and overinflation}} with a bag-mask.",
+                   "Back Extra": "Why: an infant's lungs are fragile.", "chapter": 7}],
+        "note": "Anki's cloze shortcut assigns the NEXT UNUSED number, so re-clozing a word "
+                "already inside c1 wraps it in c4 instead of reusing c1. The c1 and c4 cards "
+                "then render the identical front — a pure duplicate. Found live 2026-08-15.",
+    },
+    {
+        "id": "r53_good_partial_nest_only_warns",
+        "warn": "nested inside c1 and covers ALL of it",
+        "present": False, "scope": "hard",
+        "cards": [{"Text": "Blood leaves the left atrium through {{c1::the {{c2::mitral}} valve}}.",
+                   "Back Extra": "Also called the bicuspid valve.", "chapter": 7}],
+        "note": "a nest whose inner span is SHORTER than the outer answer yields two different "
+                "fronts, so it is a warning for the judge, never a hard block",
+    },
+    {
+        "id": "r53_good_ordinary_multi_number_card_is_not_a_nest",
+        "warn": "nested inside",
+        "present": False, "scope": "hard",
+        "cards": [{"Text": "{{c1::Barotrauma}} is {{c2::pressure-induced trauma to the lungs}}, "
+                           "and in an infant the cause is {{c3::forceful ventilations}}.",
+                   "Back Extra": "Why: an infant's lungs are fragile.", "chapter": 7}],
+        "note": "the same card BEFORE the accidental re-cloze — three sibling numbers side by "
+                "side must never read as nesting (this is what the pipeline actually wrote)",
+    },
     # --- R35: an external-anchored authored definition must arrive FLAGGED -----------
     {
         "id": "r35_bad_external_definition_unflagged",

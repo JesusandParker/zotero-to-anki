@@ -315,3 +315,23 @@ The Cold-Solve Gate asks whether each blank is *answerable*. These two ask a que
     authored FROM these very cards; ten of them were still being studied, and this repo's own
     checker had been calling them HARD ERRORS the whole time, in a mode wired to exit 0.
     Regression **R52**.
+
+33. **A cloze never nests inside another cloze (2026-08-15).**
+    Anki's cloze shortcut assigns the **next unused number**, so selecting a word that is
+    already inside a cloze and pressing it again wraps the selection in a brand-new number
+    instead of reusing the old one: `{{c1::Barotrauma}}` becomes `{{c1::{{c4::Barotrauma}}}}`.
+    This is a hand-edit accident, not a card-craft decision, and it is silent — the note just
+    grows a card.
+    - **When the inner span covers the WHOLE outer answer, the two cards are identical.**
+      Both fronts read `[...] is pressure-induced trauma to the lungs`, so the new card can
+      never teach anything the old one doesn't. HARD block; unwrap it.
+    - **A partial nest** (`{{c1::the {{c2::mitral}} valve}}`) yields two genuinely different
+      fronts, so it only warns — nothing here sanctions it, but it is not automatically wrong.
+    - **To add a blank to text already clozed**, use Anki's *same-number* cloze
+      (`Cmd+Shift+Alt+C`) or edit the number by hand; the plain shortcut will always nest.
+    - *Caught by:* `check_cards.py nested_clozes`, and — because this is drift introduced in
+      the EDITOR rather than by the pipeline — it is the live sweep (`--live`, card-rules #32)
+      that actually meets it.
+    *Failure that created this rule (2026-08-15):* Parker re-clozed "Barotrauma" on the ch7
+    barotrauma card while studying and asked *"whats happening here."* The note went from 3
+    cards to 4, and cards 1 and 4 rendered the same front. Regression **R53**.

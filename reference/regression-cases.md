@@ -683,3 +683,16 @@ Three independent causes, each now closed:
 - **Catch test (both ways):** `python3 scripts/check_hazards.py` over the real `runs/` tree (flags exactly the four remediation runs, nothing else); `python3 scripts/retire_notes.py self-test` (15 cases: refuses a missing successor, an all-suspended successor family, and a bare retirement with no reason; never emits `deleteNotes`; undo restores only its own batch and keeps a tag that was already his).
 
 **The wider lesson, and why this file exists twice over.** `check_hazards.py` was written because a run may not *find* a problem and merely write prose about it. This is the same failure one step later: a run may not *fix* a problem and merely write prose about the leftovers. Both times the run was telling the truth — the cards it wrote were correct, the rule it authored was right, and the work it left undone was recorded in a place no program reads. Name it, mechanize it, test it — and then check that the old thing actually went away.
+
+## R53 — A cloze nested inside another cloze (the accidental re-cloze)
+**Rule:** card-rules #33. **Caught by:** `check_cards.py nested_clozes` (identical-span nest = HARD, partial nest = warning); `test_regressions.py` `r53_*`. Found live 2026-08-15 on the Chapter 7 barotrauma card.
+
+The pipeline wrote `{{c1::Barotrauma}} is {{c2::pressure-induced trauma to the lungs}}, and in an infant the cause is {{c3::forceful ventilations and overinflation}} with a bag-mask.` — a clean three-card two-way definition. In the editor it became `{{c1::{{c4::Barotrauma}}}} is …`, because **Anki's cloze shortcut assigns the next unused number**: selecting a word that already sits inside c1 and pressing Cmd+Shift+C wraps it in c4 rather than reusing c1. The note grew a fourth card whose front is byte-identical to c1's (`[...] is pressure-induced trauma to the lungs`), verified through `cardsInfo`.
+
+This is drift introduced by hand in the editor, not by the generator, so the staging gate could never have seen it — **it is exactly the class the live sweep exists for**, and it is the first defect found by `--live` since that mode was given a verdict (card-rules #32, R52) the same day.
+
+- **MUST CATCH:** an inner cloze whose span covers the entire outer answer — the two cards render the same front, so the inner one is a pure duplicate.
+- **MUST NOT OVER-FLAG:** a partial nest (`{{c1::the {{c2::mitral}} valve}}`) has two different fronts and only warns; ordinary sibling numbers side by side (`{{c1::A}} is {{c2::B}}, and {{c3::C}}` — what the pipeline actually wrote) must never read as nesting; hinted spans (`{{c1::a::hint}}`) and grouped lists under one number must stay clean.
+- **Catch test (both ways):** `r53_bad_nested_cloze_covering_the_whole_outer_answer` / `r53_good_partial_nest_only_warns` / `r53_good_ordinary_multi_number_card_is_not_a_nest`.
+
+**Note on repair.** The nesting is *Parker's own edit*, so `authorship.py` protects the field and an automated pass may not silently revert it. Unwrapping is his call, or needs a verified predicate the way `is_hint_only_change()` licensed the rule-27 hint repairs.
