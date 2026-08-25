@@ -16,7 +16,7 @@ render_page.py / add_source.py, and directly as a CLI:
     python3 scripts/sources.py list                 # every registered source
     python3 scripts/sources.py show emt             # one source, fully resolved
     python3 scripts/sources.py segments emt         # its segment map
-    python3 scripts/sources.py deck emt 3           # the deck names for a segment
+    python3 scripts/sources.py deck emt 3           # the deck a segment's cards go to
 """
 import json, os, re, shutil, sqlite3, sys, tempfile
 
@@ -232,31 +232,55 @@ def _fill(template, source, segment):
     return out
 
 
-def deck_names(source, segment=None):
-    """(staging_deck, promote_deck) for this source/segment.
+def deck_name(source, segment=None):
+    """THE deck for this source/segment: where its cards are written, and where Parker
+    studies them. One deck. There is no staging sibling.
 
-    Every source keeps the two-deck promotion gate: the pipeline only ever writes to
-    the staging deck, and Parker promotes keepers into the sibling himself. The NAMES
-    are per-source so a lecture doesn't inherit book-shaped naming."""
-    staging = _fill(source.get("staging", "{root}::claude review"), source, segment)
-    promote = _fill(source.get("promote", "{root}::Keepers"), source, segment)
-    return staging, promote
+    Until 2026-08-24 every source had two. The pipeline wrote into a `claude review`
+    staging deck and Parker was supposed to promote keepers across into the sibling
+    `Book Highlights`. He never did — he judges each card when it comes up in review and
+    edits or deletes it in place, which is the same first-pass filter the promotion step
+    was invented to provide. After eight EMT chapters, an Arabic unit and a genetics
+    chapter, all 2,440 cards were still sitting in staging and every single Book
+    Highlights deck was empty. A gate nobody walks through is not a gate, it is a second
+    deck name and a split deck tree. The cards were moved into Book Highlights and the
+    staging decks deleted; the pipeline now writes there directly.
+
+    What actually protected him was never the second deck: it is the gate in
+    `check_cards.py` (which still blocks a bad file from ever reaching Anki), the live
+    sweep (card-rules #32), and retirement. Those are untouched.
+
+    A legacy entry still carrying the old `promote` key resolves through it, because that
+    key already named the Book Highlights deck. A leftover `staging` key is ignored.
+    """
+    template = source.get("deck")
+    if not template:
+        template = source.get("promote")
+        if template:
+            print(f"NOTE: source '{source.get('id')}' still carries the pre-2026-08-24 "
+                  f'"promote" key. Reading the deck from it; rename it to "deck" in '
+                  f"reference/sources.json.", file=sys.stderr)
+        else:
+            template = "{root}::Book Highlights"
+    return _fill(template, source, segment)
 
 
 def audit_deck(source, segment=None):
     """The deck to sweep when auditing what Parker is ACTUALLY studying.
 
-    That has to cover both the staging deck and the deck he promotes into, so it is the
-    longest shared '::' prefix of the two — for EMT that's 'all::EMT::Chapter 3', which
-    Anki matches inclusive of its subdecks. Falls back to the source root."""
-    staging, promote = deck_names(source, segment)
-    a, b = staging.split("::"), promote.split("::")
-    shared = []
-    for x, y in zip(a, b):
-        if x != y:
-            break
-        shared.append(x)
-    return "::".join(shared) or source.get("deck_root", "all")
+    Deliberately wider than the write target. Anki matches `deck:"X"` inclusive of X's
+    subdecks, and hand-edit drift happens wherever he has moved a card. When the deck
+    template ends in a fixed leaf beneath a per-segment container
+    (`{root}::Chapter {segment}::Book Highlights`), sweep the container
+    (`all::EMT::Chapter 3`) so anything he files beside it is covered too. When the last
+    component IS the segment (`{root}::Module {segment}`), that deck is already the
+    container and stands on its own. Falls back to the source root."""
+    template = (source.get("deck") or source.get("promote") or "{root}::Book Highlights")
+    deck = _fill(template, source, segment)
+    leaf = template.split("::")[-1]
+    if "{segment}" not in leaf and "{segment_name}" not in leaf and "::" in deck:
+        return "::".join(deck.split("::")[:-1])
+    return deck or source.get("deck_root", "all")
 
 
 def tags_for(source, segment=None):
@@ -303,7 +327,7 @@ def main():
     if cmd == "show":
         s = get_source(args[1])
         item_id, pdf = resolve_attachment(s)
-        staging, promote = deck_names(s, 1 if load_segments(s) else None)
+        deck = deck_name(s, 1 if load_segments(s) else None)
         print(json.dumps({
             "id": s["id"], "label": s.get("label"), "kind": s.get("kind"),
             "zotero_item_id": item_id, "pdf": pdf, "pdf_exists": os.path.exists(pdf),
@@ -312,7 +336,7 @@ def main():
             "profile": os.path.basename(profile_path(s)),
             "segment_noun": segment_noun(s),
             "segments": (len(load_segments(s)["segments"]) if load_segments(s) else None),
-            "staging_example": staging, "promote_example": promote,
+            "deck_example": deck, "audit_deck_example": audit_deck(s, 1 if load_segments(s) else None),
             "tags_example": tags_for(s, 1 if load_segments(s) else None),
         }, indent=2))
         return
@@ -330,8 +354,7 @@ def main():
     if cmd == "deck":
         s = get_source(args[1])
         n = int(args[2]) if len(args) > 2 else None
-        staging, promote = deck_names(s, n)
-        print(f"staging: {staging}\npromote: {promote}\ntags:    {tags_for(s, n)}")
+        print(f"deck:  {deck_name(s, n)}\naudit: {audit_deck(s, n)}\ntags:  {tags_for(s, n)}")
         return
 
     sys.exit(f"unknown command '{cmd}' — try: list | show <id> | segments <id> | deck <id> [n]")

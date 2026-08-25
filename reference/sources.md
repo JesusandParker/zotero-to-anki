@@ -23,47 +23,62 @@ Write it with `python3 scripts/add_source.py` (never by hand, unless fixing a ty
 | `segments` | no | Path to a segment map (`reference/maps/<id>.json`). Omit for a flat source addressed whole. |
 | `segment_noun` | no | `Chapter` · `Unit` · `Lesson` · `Section`. Used in deck names and prose. |
 | `deck_root` | yes | The Anki deck this source lives under. |
-| `staging` | no | Template for the deck the pipeline WRITES to. |
-| `promote` | no | Template for the deck Parker promotes keepers INTO. |
+| `deck` | no | Template for the deck this source's cards go to — the only one. Defaults to `{root}::Book Highlights`. |
 | `tags` | no | List of tag templates applied to every card. |
 | `profile` | no | Which `reference/profiles/<name>.md` governs emphasis. Defaults to `default`. |
 | `model` | no | Anki note type. Defaults to `AnKing Cloze`. |
 | `notes` | no | Anything a future session should know about this source. |
 
 ### Template variables
-`staging`, `promote`, and each `tags` entry expand:
+`deck` and each `tags` entry expand:
 
 - `{root}` → `deck_root`
 - `{segment}` → the segment number (empty for a flat source)
 - `{segment_noun}` → e.g. `Chapter`
 - `{segment_name}` → the segment's `name` from the map (empty for a flat source). Use when
   Parker's live decks carry the chapter title, e.g.
-  `{root}::Chapter {segment} - {segment_name}::claude review` →
-  `…::Chapter 9 - DNA and the Molecular Structure of Chromosomes::claude review`. The map
+  `{root}::Chapter {segment} - {segment_name}::Book Highlights` →
+  `…::Chapter 9 - DNA and the Molecular Structure of Chromosomes::Book Highlights`. The map
   name must match the live deck name EXACTLY (dash style, spacing) or anki_write creates a
   sibling deck.
 - `{id}` → the source id
 
 ---
 
-## The two-deck promotion gate
+## One deck per segment
 
-**Every source keeps it.** The pipeline writes ONLY to `staging`; Parker reviews there and
-promotes keepers into `promote` himself. The pipeline never writes to the promotion deck —
-it only creates it so his target exists.
+**The pipeline writes a source's cards into its `deck` and stops there.** For a book that
+is its `Book Highlights`; every card for that segment lands in it, and that is the deck
+Parker studies out of.
 
-The *names* are per-source, which is the point: a textbook chapter reads naturally as
-`Book Highlights`, but a lecture doesn't, so it gets `Keepers` (or whatever fits).
+There used to be two. Each source had a `claude review` staging deck that the pipeline
+wrote to and a sibling the registry called `promote`, and Parker was meant to review
+staging and promote the keepers across. **Removed 2026-08-24, because he never did it** —
+he judges each card when it comes up in review and edits or deletes it right there, which
+is the same first-pass filter promotion was invented to provide, only actually performed.
+Eight EMT chapters, an Arabic unit and a genetics chapter later, all 2,440 cards were
+still in staging and every `Book Highlights` deck was empty. The split bought nothing and
+cost a doubled deck tree. Those cards were moved into `Book Highlights` and the staging
+decks deleted.
+
+What guards the collection was never the second deck, and none of it changed:
+`check_cards.py` still refuses to let an unstamped or failing file reach Anki, the live
+sweep (card-rules #32) still audits notes already in his rotation, and retirement still
+handles superseded ones.
 
 ```
 EMT (segmented textbook, names predate the registry and are case-exact):
-  staging: all::EMT::Chapter 6::claude review
-  promote: all::EMT::Chapter 6::Book Highlights
+  deck:  all::EMT::Chapter 6::Book Highlights
+  audit: all::EMT::Chapter 6
 
 A lecture (flat):
-  staging: all::LIBERTY::Genetics::Isaacs 17 Gene Regulation::claude review
-  promote: all::LIBERTY::Genetics::Isaacs 17 Gene Regulation::Keepers
+  deck:  all::LIBERTY::Genetics::Isaacs 17 Gene Regulation::Book Highlights
+  audit: all::LIBERTY::Genetics::Isaacs 17 Gene Regulation
 ```
+
+`audit` is not a registry field — `sources.audit_deck()` derives it as the container the
+write target sits in, and `check_cards.py --live` and `sync_report.py` sweep it so a card
+Parker has moved is still audited.
 
 `anki_write.py` also copies the `deck_root`'s deck preset onto any subdeck it creates, so
 **bury-siblings stays on** — without it, the two halves of a two-way definition can appear

@@ -12,7 +12,7 @@ collection.media, screenshots each with headless Chrome, and tiles them into ONE
 sheet. A human (or the session) must then LOOK at it — this script gets the pixels in front
 of eyes; it does not replace them.
 
-    python3 scripts/render_check.py --deck 'all::…::Unit 1::claude review' \
+    python3 scripts/render_check.py --deck 'all::…::Unit 1::Book Highlights' \
         --cards work/arabic/unit_1_cards.json --model 'AnKing Cloze' \
         [--per-block 1] [--out /tmp/render_check.png]
 

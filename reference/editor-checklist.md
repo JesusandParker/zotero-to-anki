@@ -44,6 +44,6 @@ Checks 25–26 are the **retrieval-load pair** (card-rules #23–24), and they a
 
 **Run checks 18–24 on EVERY ROW, not just on the card as a whole.** A multi-row card can read as answerable while individual rows are self-answering or wide open — that is exactly how the 2026-07-30 failures survived a 20-point pass. A card is only as good as its worst row.
 
-**Safety overlay:** if the card states a number, dose, threshold, or time window, or the extractor marked its grounding `PARTIAL`/`NOT_FOUND`, set `needs_human_check: true` regardless of the verdict above. These go to Parker for a human glance before he promotes them from `claude review` into `Book Highlights`.
+**Safety overlay:** if the card states a number, dose, threshold, or time window, or the extractor marked its grounding `PARTIAL`/`NOT_FOUND`, set `needs_human_check: true` regardless of the verdict above. These are flagged for a human glance from Parker rather than trusted on sight.
 
 **Tone:** be strict. A smaller deck of cards that are all genuinely good beats a big deck where one in five is vague. When you genuinely can't decide between two phrasings, keep the one that reads most like a human tutor quizzing him.

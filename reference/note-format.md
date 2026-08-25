@@ -111,12 +111,12 @@ written by `lexicon.py --find` — R37) or `external` (must arrive with the deri
 **All of this comes from the source registry** (`reference/sources.json`) — it is per-source,
 not global. See `reference/sources.md` for the field reference.
 
-- **Staging deck:** the source's `staging` template. Every card the pipeline generates lands
-  there. `anki_write.py` derives it per card from the card's `source` + `segment` fields and
-  auto-creates the substructure. Nothing the pipeline writes is "final."
-- **Promotion (Parker's manual first-pass gate):** he reviews the staging deck and PROMOTES
-  keepers into the source's `promote` deck himself. The pipeline NEVER writes to the
-  promotion deck — it only creates it so his target exists.
+- **Deck:** the source's `deck` template, which for a book is its `Book Highlights`. Every
+  card the pipeline generates lands there — one deck per segment, no staging sibling.
+  `anki_write.py` derives it per card from the card's `source` + `segment` fields and
+  auto-creates the substructure. Nothing the pipeline writes is "final": Parker judges each
+  card when it comes up in review and edits or deletes it in place. (The old `claude review`
+  staging deck and its promotion step were removed 2026-08-24 — see `reference/sources.md`.)
 - **Tags:** the source's `tags` templates (EMT: `ch<N>` only). Parker had the old
   `claude_generated` marker removed from every card on 2026-07-02 — he found it noise, and
   the deck structure identifies each batch. Add nothing beyond what the registry declares.
@@ -127,13 +127,11 @@ not global. See `reference/sources.md` for the field reference.
   also live on his phone, so writes propagate on his next sync).
 
 Example — EMT, whose deck names predate the registry and are **case-exact** (`Chapter <N>`
-and `Book Highlights` Title Case, `claude review` lowercase; 899 notes live under them, so
-don't restyle):
+and `Book Highlights` Title Case; 899 notes live under them, so don't restyle):
 
 ```
-staging: all::EMT::Chapter 6::claude review
-promote: all::EMT::Chapter 6::Book Highlights
-tags:    ch6
+deck: all::EMT::Chapter 6::Book Highlights
+tags: ch6
 ```
 
 ## Operational guards (handled by `anki_write.py`)

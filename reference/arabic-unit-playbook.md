@@ -27,8 +27,9 @@ is that the guards see what he sees, first.
   disagree (seen/sheen/ha); cards follow the BOOK.
 - Segment map is physical-page verified (`reference/maps/arabic.json`); the printed→physical
   offset DRIFTS (+14→+17), so never compute pages from printed numbers.
-- Deck: `all::LIBERTY::…::ARAB 101 - Elementary Arabic I::Unit {N}::claude review`
-  (+ `Book Highlights` promotion sibling). Model `AnKing Cloze`; `Audio` field exists.
+- Deck: `all::LIBERTY::…::ARAB 101 - Elementary Arabic I::Unit {N}::Book Highlights`
+  (one deck; the `claude review` staging sibling was removed 2026-08-24).
+  Model `AnKing Cloze`; `Audio` field exists.
 
 ## 1. Per-unit sequence
 1. **Extract**: `python3 scripts/extract_highlights.py --source arabic --segment N` — then
@@ -92,4 +93,5 @@ letter notes already exist — **do not create new letter notes**. Extend the ex
 - Alphabet-ORDER recitation cards (the membership lane for the letters themselves): his
   call, deliberately not built.
 - Buying Lingco access / harvesting Units 2-10 media before 2026-08-22.
-- Promotion of Unit 1 keepers from `claude review` into `Book Highlights`.
+- ~~Promotion of Unit 1 keepers from `claude review` into `Book Highlights`.~~ Obsolete: the
+  staging deck was retired 2026-08-24 and Unit 1's cards now live in `Book Highlights`.

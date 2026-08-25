@@ -126,8 +126,8 @@ def report(src, seg, work, write_run=False):
     proposed = kept + rejected
     judged = bool(props.get("judged"))
 
-    staging, _p = S.deck_names(src, seg)
-    ids = anki("findNotes", query=f'"deck:{staging}"') or []
+    deck = S.deck_name(src, seg)
+    ids = anki("findNotes", query=f'"deck:{deck}"') or []
     infos = anki("notesInfo", notes=ids) or []
     live_fig, live_media, doubled, leaks = 0, set(), 0, 0
     for i in infos:
@@ -138,7 +138,7 @@ def report(src, seg, work, write_run=False):
             live_media |= set(imgs)
             if len(imgs) > 1:
                 doubled += 1
-    cids = anki("findCards", query=f'"deck:{staging}" "Back Extra:*<img*"') or []
+    cids = anki("findCards", query=f'"deck:{deck}" "Back Extra:*<img*"') or []
     for c in (anki("cardsInfo", cards=cids) or []):
         if "<img" in c.get("question", ""):
             leaks += 1

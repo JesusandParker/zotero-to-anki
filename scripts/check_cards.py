@@ -23,9 +23,9 @@ Three ways to run it:
         python3 scripts/check_cards.py --live all --source emt   # the whole source
     (Added 2026-07-19 after a live audit found <a> anchor tags that had drifted
     into two cards via mobile paste-edits — the gate had never seen them because
-    it only ever checked the pre-staging JSON.)
+    it only ever checked the pre-write JSON.)
 
-Exit 1 on any HARD error (blocks staging). WARNINGS print but don't block —
+Exit 1 on any HARD error (blocks the write to Anki). WARNINGS print but don't block —
 they are routed to the LLM judge / Parker.
 """
 import argparse, hashlib, json, os, re, sys, unicodedata, urllib.request
@@ -1326,8 +1326,8 @@ def load_live(which, source_id):
 
     The deck to sweep comes from the source registry, so this works for any registered
     source, not just the EMT textbook. `--live all` sweeps the whole source root;
-    `--live N` sweeps that segment INCLUDING both the staging deck and the deck Parker
-    promotes into, since hand-edit drift happens in whichever one he is studying."""
+    `--live N` sweeps that segment's whole container, not just the deck the pipeline
+    writes to, since hand-edit drift follows wherever he has moved a card."""
     def call(action, **params):
         req = urllib.request.Request(
             ANKI, data=json.dumps({"action": action, "version": 6, "params": params}).encode(),
@@ -1465,7 +1465,7 @@ def main():
     if ground_note:
         print(ground_note)
     if hard:
-        print("HARD ERRORS (block staging):")
+        print("HARD ERRORS (block the write to Anki):")
         for h in hard:
             print("  x", h)
     if warn:
@@ -1478,7 +1478,7 @@ def main():
     if live:
         # A live audit has no staged file to stamp — but "no stamp" is not "no verdict",
         # and reading those two as one thing is the hole this line used to be. The gate
-        # protected the staging FILE and never the COLLECTION, so a rule written after a
+        # protected the card FILE and never the COLLECTION, so a rule written after a
         # card shipped never reached that card: ten notes that this very checker calls
         # HARD ERRORS sat in his decks for weeks while he studied them, and rules 23 and
         # 25 were both authored FROM those cards. Hard errors now set the exit code,

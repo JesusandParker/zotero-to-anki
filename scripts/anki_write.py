@@ -1,20 +1,24 @@
 #!/usr/bin/env python3
 """
-anki_write.py — final stage: write finished cards into the source's staging deck.
+anki_write.py — final stage: write finished cards into the source's deck.
 
 Reads a JSON list of cards and adds each one as a cloze note via AnkiConnect, safely:
   * refuses to run unless check_cards.py stamped THESE exact bytes (the unskippable gate)
   * checks Anki is actually running (fails loud if not)
   * resolves the target deck, note type, and tags from the SOURCE REGISTRY
-  * ensures the staging deck AND Parker's promotion deck exist before writing
+  * ensures the target deck exists before writing
   * validates every Text field contains cloze markup ({{c1::...}})
   * pre-flights each note with canAddNotesWithErrorDetail
   * writes ONE note at a time (never a batch) so one bad card can't roll back the rest
   * does NOT auto-sync to AnkiWeb (Parker syncs deliberately)
 
-Every source keeps the two-deck promotion gate: the pipeline writes ONLY to the staging
-deck ("claude review"), and Parker promotes keepers into the sibling himself. The deck
-NAMES come from the registry, so a lecture doesn't inherit book-shaped naming.
+Cards land in ONE deck per segment — the source's `deck` in the registry, which for a
+book is its `Book Highlights`. The old `claude review` staging sibling is gone (see
+sources.deck_name): Parker judges cards as they come up in review and edits or deletes
+them in place, so nothing was ever promoted out of staging and the split only fractured
+his deck tree. The gate that actually protects the collection is check_cards.py above,
+and it is unchanged. Deck NAMES come from the registry, so a lecture doesn't inherit
+book-shaped naming.
 
 Card JSON shape (list of objects):
   {"Text": "...{{c1::answer::hint}}...", "Back Extra": "Cue: ...",
@@ -26,7 +30,7 @@ Usage:
     python3 anki_write.py work/emt/chapter_6_cards.json
     python3 anki_write.py work/emt/chapter_6_cards.json --dry-run
     python3 anki_write.py cards.json --source arabic
-    python3 anki_write.py cards.json --deck "all::Other::languages::arabic::claude review"
+    python3 anki_write.py cards.json --deck "all::Other::languages::arabic::Book Highlights"
 """
 import argparse, base64, hashlib, json, os, re, sys, urllib.request
 
@@ -155,8 +159,7 @@ def main():
                  f"\"model\" in reference/sources.json (or the registry default) to match "
                  f"whatever cloze type his current cards use.")
 
-    # ---- create each segment's full substructure so BOTH our target ("claude review")
-    # and Parker's promotion target exist before we write.
+    # ---- create each segment's target deck before we write.
     if args.deck:
         call("createDeck", deck=args.deck)
         new_decks = [args.deck]
@@ -164,10 +167,13 @@ def main():
         segs = sorted({seg_of(c) for c in cards}, key=lambda v: (v is None, v))
         new_decks = []
         for seg in segs:
-            staging, promote = S.deck_names(src, seg)
-            call("createDeck", deck=staging)
-            call("createDeck", deck=promote)
-            new_decks += [staging, promote]
+            target = S.deck_name(src, seg)
+            call("createDeck", deck=target)
+            # The segment CONTAINER ("all::EMT::Chapter 9") is created implicitly by that
+            # call, so it never passed through the preset fix below and a brand-new chapter
+            # could sit on Default while its leaf was correct. Claim it explicitly.
+            container = S.audit_deck(src, seg)
+            new_decks += [target] if container == target else [container, target]
     # Fresh subdecks default to Anki's "Default" preset (bury-siblings OFF); two-way
     # definition cards need bury-siblings ON so the name-it/define-it halves space across
     # days. Copy the source root's preset onto the subdecks we just made. Non-fatal.
@@ -191,7 +197,7 @@ def main():
         if args.deck:
             deck, tags = args.deck, (S.tags_for(src, seg) if src else [])
         else:
-            deck, _promote = S.deck_names(src, seg)
+            deck = S.deck_name(src, seg)
             tags = S.tags_for(src, seg)
         if not deck:
             skipped.append((i, "no deck could be derived (missing segment and no --deck)")); continue
@@ -309,12 +315,7 @@ def main():
         print(f"  -> {t}")
     if not targets:
         print("  (no target deck resolved — every card lacked a segment and no --deck was given)")
-    if src and not args.deck:
-        segs = sorted({seg_of(c) for c in cards}, key=lambda v: (v is None, v))
-        for seg in segs:
-            _s, promote = S.deck_names(src, seg)
-            print(f"  (promote keepers into: {promote})")
-    # Link every staged card back to its run record. The link lives in the REPO, not as a
+    # Link every written card back to its run record. The link lives in the REPO, not as a
     # tag on the note: Parker had the `claude_generated` tag stripped from every card as
     # noise and keeps `ch<N>` only, so traceability must not cost him deck clutter.
     if args.run and note_ids and not args.dry_run:

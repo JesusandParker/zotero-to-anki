@@ -208,10 +208,8 @@ def cmd_add(a):
         "segments": a.segments,
         "segment_noun": a.segment_noun,
         "deck_root": a.deck_root,
-        "staging": a.staging or ("{root}::" + a.segment_noun + " {segment}::claude review"
-                                 if a.segments else "{root}::claude review"),
-        "promote": a.promote or ("{root}::" + a.segment_noun + " {segment}::Keepers"
-                                 if a.segments else "{root}::Keepers"),
+        "deck": a.deck or ("{root}::" + a.segment_noun + " {segment}::Book Highlights"
+                           if a.segments else "{root}::Book Highlights"),
         "tags": [t for t in (a.tags.split(",") if a.tags else []) if t],
         "profile": a.profile,
     }
@@ -235,9 +233,7 @@ def cmd_add(a):
               "Parker just hasn't marked it up, or this source uses different colors "
               "(check `add_source.py --search` output and set --colors).")
     src = S.get_source(a.id)
-    staging, promote = S.deck_names(src, 1 if a.segments else None)
-    print(f"  staging deck: {staging}")
-    print(f"  promote into: {promote}")
+    print(f"  cards go to:  {S.deck_name(src, 1 if a.segments else None)}")
     print(f"  profile:      {os.path.basename(S.profile_path(src))}")
     print(f"\nNext: python3 extract_highlights.py --source {a.id}" +
           (" --segment 1" if a.segments else ""))
@@ -259,8 +255,8 @@ def main():
     ap.add_argument("--label", help="human label shown in listings")
     ap.add_argument("--kind", default="textbook", help="textbook | lecture | article | reference")
     ap.add_argument("--deck-root", help="Anki deck root, e.g. all::Other::languages::arabic")
-    ap.add_argument("--staging", help="staging deck template (default derives from --deck-root)")
-    ap.add_argument("--promote", help="promotion deck template (default derives from --deck-root)")
+    ap.add_argument("--deck", help="deck template for this source's cards "
+                    "(default derives from --deck-root, e.g. '{root}::Chapter {segment}::Book Highlights')")
     ap.add_argument("--segments", help="path to a segment map, e.g. reference/maps/arabic.json")
     ap.add_argument("--segment-noun", default="Chapter", help="Chapter | Unit | Lesson | Section")
     ap.add_argument("--tags", help="comma-separated tag templates, e.g. 'arabic,unit{segment}'")

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "_comment": "The source registry: every Zotero item Parker can point Claude at, and where its cards go. Add a source with `python3 scripts/add_source.py`, which proposes the deck path and asks him once. See reference/sources.md for the field reference.",
+ "_comment": "The source registry: every Zotero item Parker can point Claude at, and where its cards go. Add a source with `python3 scripts/add_source.py`, which proposes the deck path and asks him once. Cards go straight into the source's `deck` (its Book Highlights deck) — there is no staging/review deck. See reference/sources.md for the field reference.",
  "defaults": {
   "colors": [
    "#ffd400",
@@ -11,8 +11,7 @@
    "#c885da"
   ],
   "model": "AnKing Cloze",
-  "staging": "{root}::claude review",
-  "promote": "{root}::Keepers",
+  "deck": "{root}::Book Highlights",
   "profile": "default",
   "segment_noun": "Section"
  },
@@ -25,8 +24,7 @@
    "segments": "reference/maps/emt.json",
    "segment_noun": "Chapter",
    "deck_root": "all::EMT",
-   "staging": "{root}::Chapter {segment}::claude review",
-   "promote": "{root}::Chapter {segment}::Book Highlights",
+   "deck": "{root}::Chapter {segment}::Book Highlights",
    "tags": [
     "ch{segment}"
    ],
@@ -35,7 +33,7 @@
     4002,
     4152
    ],
-   "notes": "The original source this pipeline was built on. Deck names are case-exact and predate the registry — 'Chapter <N>'/'Book Highlights' Title Case, 'claude review' lowercase. Do not restyle them; 899 existing notes live under this structure. glossary_pages measured 2026-08-08 (physical pages; Index starts 4153)."
+   "notes": "The original source this pipeline was built on. Deck names are case-exact and predate the registry — 'Chapter <N>'/'Book Highlights' Title Case. Do not restyle them; 899 existing notes live under this structure. The retired 'claude review' staging sibling was emptied into Book Highlights and deleted 2026-08-24. glossary_pages measured 2026-08-08 (physical pages; Index starts 4153)."
   },
   "isaacs17": {
    "label": "Genetics — Isaacs lecture, Chapter 17 (Gene Regulation)",
@@ -43,8 +41,7 @@
    "kind": "lecture",
    "segment_noun": "Chapter",
    "deck_root": "all::LIBERTY::Genetics::Isaacs 17 Gene Regulation",
-   "staging": "{root}::claude review",
-   "promote": "{root}::Keepers",
+   "deck": "{root}::Book Highlights",
    "tags": [
     "isaacs17"
    ],
@@ -58,8 +55,7 @@
    "segments": "reference/maps/genetics.json",
    "segment_noun": "Chapter",
    "deck_root": "all::LIBERTY::LIBERTY FALL 2026::BIOL 301 - Genetics",
-   "staging": "{root}::Chapter {segment} - {segment_name}::claude review",
-   "promote": "{root}::Chapter {segment} - {segment_name}::Book Highlights",
+   "deck": "{root}::Chapter {segment} - {segment_name}::Book Highlights",
    "tags": [
     "genetics-ch{segment}"
    ],
@@ -76,8 +72,7 @@
    "kind": "textbook",
    "segment_noun": "Unit",
    "deck_root": "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I",
-   "staging": "{root}::Unit {segment}::claude review",
-   "promote": "{root}::Unit {segment}::Book Highlights",
+   "deck": "{root}::Unit {segment}::Book Highlights",
    "profile": "language",
    "segments": "reference/maps/arabic.json",
    "tags": [
@@ -104,8 +99,7 @@
    },
    "segment_noun": "Module",
    "deck_root": "not my decks::Lydia::Anatomy",
-   "staging": "{root}::Module {segment}",
-   "promote": "{root}::Module {segment}",
+   "deck": "{root}::Module {segment}",
    "tags": [
     "anatomy-m{segment}"
    ],
@@ -129,8 +123,7 @@
    },
    "segment_noun": "Chapter",
    "deck_root": "not my decks::Lydia::Chemistry",
-   "staging": "{root}::Chapter {segment}",
-   "promote": "{root}::Chapter {segment}",
+   "deck": "{root}::Chapter {segment}",
    "tags": [
     "chem-ch{segment}"
    ],

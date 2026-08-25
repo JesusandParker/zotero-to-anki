@@ -4,7 +4,7 @@ sync_report.py — read the difference between what was generated and what Parke
 keeps, and treat that difference as feedback.
 
 The naive framing is "the canon has drifted from Anki, resync it." That is wrong. Drift is
-HEALTHY: Parker deletes cards he doesn't want, edits wording on his phone, and promotes
+HEALTHY: Parker deletes cards he doesn't want, edits wording on his phone, and reorganizes
 keepers. Forcing the two back into agreement would destroy the most honest quality signal
 the system has.
 

@@ -27,8 +27,8 @@ Say what you want in plain language:
 
 The pipeline: **extract** the marks (grounded in the real page paragraph) → **draft** each
 into card(s) using the archetype playbook → **adversarial edit** → **global consolidation** →
-**a deterministic gate that cannot be skipped** → **stage** into that source's review deck,
-where you promote the keepers yourself.
+**a deterministic gate that cannot be skipped** → **write** into that source's deck, which
+for a book is its `Book Highlights`.
 
 **Anki must be open** for anything that touches cards.
 
@@ -81,11 +81,11 @@ one-time setup; after that you just point at it. See `reference/sources.md`.
   finder (`--find`, writes the gate's evidence file), and the dedup ledger with its
   live-Anki liveness check (`--dedup`).
 - `scripts/render_page.py` — render a page, or crop exactly to an area selection.
-- `scripts/anki_write.py` — safe, one-at-a-time write into the source's staging deck.
+- `scripts/anki_write.py` — safe, one-at-a-time write into the source's deck.
 - `scripts/feedback_harvest.py` — collect and clear the hidden `Card Feedback` complaints.
 - `scripts/run_store.py` — the permanent record of every run; `trace <noteId>` for one card's whole story.
 - `scripts/verify_report.py` — derives `needs_human_check`; splits verification into must-check vs may-skim.
-- `scripts/sync_report.py` — what Parker changed after staging: rejections and edits as feedback.
+- `scripts/sync_report.py` — what Parker changed after a write: rejections and edits as feedback.
 - `scripts/smoke_test.sh` — 31 end-to-end checks; run after any structural change.
 
 ## Design notes
@@ -101,8 +101,12 @@ one-time setup; after that you just point at it. See `reference/sources.md`.
   the source it cites; material that only exists as an image passes by carrying the crop.
 - **Every run is kept.** `runs/` holds the inputs, outputs, decisions, and dropped cards of
   each run, so you can work backwards from any card and ask why it exists.
-- **The two-deck promotion gate is universal.** The pipeline only ever writes to
-  `…::claude review`; Parker promotes keepers himself. Deck *names* are per-source.
+- **One deck per segment.** Cards go straight into the source's `deck` (`…::Book Highlights`
+  for a book). The old `…::claude review` staging deck and its promotion step were removed
+  2026-08-24: Parker filters by editing and deleting cards as they come up in review, so
+  nothing was ever promoted and every promotion deck sat empty. What actually guards the
+  collection — the gate, the live sweep, retirement — is unchanged. Deck *names* stay
+  per-source.
 - **Card craft is subject-independent; emphasis is not.** Generalizing meant separating those
   two, which is what `reference/profiles/` is.
 - **Related skill:** `course-to-anki` is the *scoring* pipeline — it decides what deserves a

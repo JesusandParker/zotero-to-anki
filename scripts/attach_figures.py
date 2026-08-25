@@ -190,17 +190,17 @@ def main():
     tiers = [t.strip() for t in args.tiers.split(",") if t.strip()]
     todo = [r for t in tiers for r in props.get(t, [])]
 
-    staging, _promote = S.deck_names(src, args.segment)
-    note_ids = call("findNotes", query=f'"deck:{staging}"')
+    target = S.deck_name(src, args.segment)
+    note_ids = call("findNotes", query=f'"deck:{target}"')
     if not note_ids:
-        sys.exit(f"ERROR: no notes found in {staging!r}. Nothing to attach to.")
+        sys.exit(f"ERROR: no notes found in {target!r}. Nothing to attach to.")
     infos = call("notesInfo", notes=note_ids)
     by_text = {}
     for i in infos:
         by_text.setdefault(norm(i["fields"]["Text"]["value"]), []).append(i)
 
     print(f"{len(todo)} proposal(s) over tiers {tiers}")
-    print(f"{len(infos)} live notes in {staging}\n")
+    print(f"{len(infos)} live notes in {target}\n")
 
     writes, skipped, unmatched, had_own, superseded = [], [], [], [], []
     for r in todo:
@@ -321,7 +321,7 @@ def main():
         json.dump(cards, open(cards_p, "w"), indent=1)
         stamp = cards_p + ".verified"
         if os.path.exists(stamp):
-            os.remove(stamp)     # the file changed; the gate must be re-run before staging
+            os.remove(stamp)     # the file changed; the gate must be re-run before writing
         print(f"  recorded visual_source on {canon_touched} card(s) in {os.path.basename(cards_p)}")
         print("  .verified stamp cleared — re-run check_cards.py")
 
@@ -336,7 +336,7 @@ def main():
     merged.update({(w["noteId"], w["media"]):
                    {k: w[k] for k in ("noteId", "figure", "media", "appended", "tier")}
                    for w in writes})
-    json.dump({"deck": staging, "writes": list(merged.values())},
+    json.dump({"deck": target, "writes": list(merged.values())},
               open(undo_p, "w"), indent=1)
     print(f"\nattached {ok} figure(s) to {len({w['noteId'] for w in writes})} note(s)")
     print(f"  distinct media files stored: {len(media_done)}")

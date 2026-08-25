@@ -8,7 +8,7 @@ Created 2026-08-08 (Arabic Unit 1) after two invisible-on-the-Mac failures shipp
 Both are exactly the kind of defect a Mac-side visual check can never catch, and exactly the
 kind a set-difference catches in milliseconds. Run after EVERY stage/update pass.
 
-    python3 scripts/media_audit.py --deck 'all::...::Unit 1::claude review' --prefix arabic_
+    python3 scripts/media_audit.py --deck 'all::...::Unit 1::Book Highlights' --prefix arabic_
 
 Exit 0 only when: no broken refs, no uppercase names, no pipeline-prefixed orphans.
 """

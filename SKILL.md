@@ -44,8 +44,11 @@ integrity ones, always surfaced: card-rules #28).
 2. **Zero guessing.** If the context is too thin, ambiguous, or the mark didn't locate
    (`grounding: NOT_FOUND`), do NOT invent. Flag it for Parker. Especially for any number,
    dose, or threshold.
-3. **Nothing is final.** Everything lands in the source's **staging deck**. Parker reviews,
-   edits, and PROMOTES keepers into the sibling deck himself. You stage; he commits.
+3. **Nothing is final.** Every card lands in the source's **one deck** — for a book, its
+   `Book Highlights`. Parker judges each card when it comes up in review and edits or
+   deletes it in place; that IS the filter. (There was a `claude review` staging deck and a
+   promotion step until 2026-08-24. He never promoted a single card, so it was removed —
+   see `reference/sources.md`. Never recreate it.)
 
 ## Priority order when rules collide
 **(1)** correct cloze formatting + reliable write to Anki, **(2)** completeness/coverage of
@@ -596,29 +599,30 @@ guard.** Never relax this to make a write succeed.
 ### Stage 2.97 — Render review (mandatory; storage checks cannot see what Parker sees)
 The Arabic Unit 1 run shipped whole-card RTL flips, duplicate play buttons and lopsided
 crops with every storage-level gate green — because nothing ever LOOKED at a rendered card.
-After staging (and after any live-note update), run:
+After writing (and after any live-note update), run:
 ```
-python3 scripts/render_check.py --deck "<staging deck>" --cards work/<source>/<file>_cards.json
+python3 scripts/render_check.py --deck "<the source's deck>" --cards work/<source>/<file>_cards.json
 ```
 It renders ≥1 real card per block (model CSS, `dir="auto"`, real media) into one contact
 sheet. **Look at it** against the checklist it prints: direction, one play button per clip,
 complete symmetric crops, no boilerplate, both cloze directions. Fix and re-run until clean.
 
-### Stage 3 — Stage into Anki (once per segment)
+### Stage 3 — Write into Anki (once per segment)
 ```
 python3 scripts/anki_write.py work/<source>/<file>_cards.json --run runs/<source>/<seg>/<run_id>
 ```
-Pass `--run` so each staged card's Anki noteId is written back into the run's
+Pass `--run` so each written card's Anki noteId is written back into the run's
 `provenance.jsonl`; that link is what makes `run_store.py trace <noteId>` work later.
 (Add `--dry-run` first to validate without writing — dry-run skips the stamp gate.) Each card
-goes to its source's staging deck, derived from its `source` + `segment`, on the registry's
-note type, with the registry's tags, one at a time, with pre-flight validation. The writer
-also creates the promotion deck so Parker's target exists, and copies the deck root's preset
-so bury-siblings stays on for two-way definitions. **Anki must be open.**
+goes to its source's deck (`sources.py deck <id> <n>`), derived from its `source` + `segment`,
+on the registry's note type, with the registry's tags, one at a time, with pre-flight
+validation. The writer also copies the deck root's preset onto the decks it creates — both
+the target and its segment container — so bury-siblings stays on for two-way definitions.
+**Anki must be open.**
 
 ### Stage 3.9 — Media audit (mandatory after every write that touches media)
 ```
-python3 scripts/media_audit.py --deck "<staging deck>" --prefix <source>_
+python3 scripts/media_audit.py --deck "<the source's deck>" --prefix <source>_
 ```
 Zero broken refs (byte-for-byte), zero uppercase names, zero pipeline orphans — the class
 of defect that is invisible on the Mac and broken on the phone (R45/R47). Corrected assets
@@ -626,7 +630,7 @@ always get a NEW versioned filename, never new bytes under an old name.
 
 ### Stage 4 — Hand off
 Tell Parker:
-- how many cards landed where, and to promote keepers into the sibling deck;
+- how many cards landed where;
 - the `needs_human_check` ones (doses/numbers/weak grounding) to verify — including the
   **Vocabulary block**: every externally-anchored definition, term + gloss on one line
   each (he met each word in context, so a wrong gloss takes seconds to spot);
