@@ -5,22 +5,22 @@
  "stage": "figures",
  "status": "complete",
  "counts": {
-  "marks": 129,
-  "cards": 111,
-  "cards_placeable": 111,
-  "figures_indexed": 26,
-  "proposed": 78,
+  "marks": 112,
+  "cards": 31,
+  "cards_placeable": 31,
+  "figures_indexed": 29,
+  "proposed": 59,
   "judged": true,
-  "kept": 37,
-  "rejected": 41,
-  "attached_notes": 0,
-  "distinct_plates": 0,
+  "kept": 43,
+  "rejected": 16,
+  "attached_notes": 14,
+  "distinct_plates": 4,
   "doubled": 0,
   "leaks": 0
  },
  "anomalies": [
-  "37 proposals kept but only 0 notes carry a figure \u2014 the attach step may have been skipped or guard-refused."
+  "43 proposals kept but only 14 notes carry a figure \u2014 the attach step may have been skipped or guard-refused."
  ],
- "skill_sha": "1f29b4aa72b617124b68c06a8b339ef542928795",
+ "skill_sha": "d9283982b0bd5bd9ace78f938b9f2e5e31f2ac53",
  "new_hazards_found": []
 }

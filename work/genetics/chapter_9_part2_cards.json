@@ -1,0 +1,1856 @@
+[
+ {
+  "Text": "A {{c2::nucleotide}} is composed of three components:<br><br>{{c1::a phosphate group}}<br><br>{{c1::a five-carbon sugar (pentose)}}<br><br>{{c1::a cyclic, nitrogen-containing base}}",
+  "Back Extra": "Cue: nucleic acids are macromolecules built of repeating nucleotide subunits.<br><br>Distinguish: the phosphate group is identical in RNA and DNA; the pentose and one of the bases are what differ between them.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   29
+  ],
+  "block": "B_nucleotide_structure",
+  "numeric": true,
+  "verified_against": "p216: 'Each nucleotide is composed of three units.' / '(2) a five-carbon sugar, or pentose' \u2014 the counts 'three' and 'five-carbon' copied verbatim",
+  "verified_by": "drafter-AB",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "216"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_5.png"
+   ],
+   "labels": [
+    "FIGURE 9.5"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_5.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "In <b>DNA</b>, the sugar is {{c1::2-deoxyribose}}.<br><br>In <b>RNA</b>, the sugar is {{c1::ribose}}.",
+  "Back Extra": "Why: the sugars name the molecules \u2014 2-deoxyribose gives <i>deoxyribo</i>nucleic acid (DNA), and ribose gives <i>ribo</i>nucleic acid (RNA).<br><br>Distinguish: 2-deoxyribose is ribose minus the hydroxyl (OH) group at the 2\u2032 carbon \u2014 the 'deoxy'.<br><br>Cue: RNA also carries uracil (U) in place of DNA's thymine.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   30,
+   31
+  ],
+  "block": "B_nucleotide_structure",
+  "numeric": true,
+  "verified_against": "p216: 'In DNA, the sugar is 2-deoxyribose'; p217: 'in RNA, the sugar is ribose'; p216 pentose panel: DNA-only column marked 'No hydroxyl group' at the 2\u2032 position",
+  "verified_by": "drafter-AB",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "217"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_7.png"
+   ],
+   "labels": [
+    "FIGURE 9.7"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_7.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c2::Adenine and guanine::two bases}} are {{c1::double::single/double}}-ring bases called {{c3::purines}}.",
+  "Back Extra": "Ex: \"Both DNA and RNA, therefore, contain four different subunits, or nucleotides: two <b>purine</b> nucleotides and two pyrimidine nucleotides.\"<br><br>Distinguish: pyrimidines are the single-ring class \u2014 cytosine, thymine, and uracil.<br><br>Mnemonic: PURe As Gold (purines: Adenine, Guanine).",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   32,
+   33
+  ],
+  "block": "B_nucleotide_structure",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c2::Cytosine, thymine, and uracil::three bases}} are {{c1::single::single/double}}-ring bases called {{c3::pyrimidines}}.",
+  "Back Extra": "Ex: \"The carbons and nitrogens in the rings of the bases are numbered 1 through 6 (<b>pyrimidines</b>) and 1 through 9 (purines).\"<br><br>Distinguish: purines are the double-ring class \u2014 adenine and guanine.<br><br>Mnemonic: CUT the PYe (pyrimidines: Cytosine, Uracil, Thymine).",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   34,
+   35
+  ],
+  "block": "B_nucleotide_structure",
+  "numeric": false,
+  "verified_against": "p217: 'numbered 1 through 6 (pyrimidines) and 1 through 9 (purines)' \u2014 digits appear only inside this verbatim caption quote in Back Extra, not as a tested value",
+  "verified_by": "drafter-AB",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In {{c1::1953::year}}, {{c2::James Watson and Francis Crick::two researchers}} deduced the double-helix structure of DNA.",
+  "Back Extra": "Why: the double-helix model immediately suggested an elegant mechanism for the transmission of genetic information.<br><br>Distinguish: Watson and Crick built the model; Maurice Wilkins and Rosalind Franklin supplied the X-ray diffraction data it drew on.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   36
+  ],
+  "block": "C_discovery_evidence",
+  "numeric": true,
+  "verified_against": "p217: 'occurred in 1953 when James Watson and Francis Crick ... deduced the correct structure of DNA'",
+  "verified_by": "drafter-CD",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "218"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_8.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.8"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_8.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::Erwin Chargaff::researcher}} and colleagues, analyzing DNA from many different organisms, found the concentration of thymine always equal to that of {{c2::adenine}} and the concentration of cytosine always equal to that of {{c2::guanine}}.",
+  "Back Extra": "Why: the fixed equalities suggested that thymine and adenine, and cytosine and guanine, exist in DNA in some fixed interrelationship \u2014 the chemical clue that base pairing later explained.<br><br>Distinguish: Chargaff's equalities describe bulk base composition; A:T and G:C base pairing is the structural rule that explains them.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   37
+  ],
+  "block": "C_discovery_evidence",
+  "numeric": false,
+  "verified_against": "p217: 'the concentration of thymine was always equal to the concentration of adenine and the concentration of cytosine was always equal to the concentration of guanine'",
+  "verified_by": "editor-E1",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "218"
+   ],
+   "figures": [
+    "figures/study/TABLE_9_1.png"
+   ],
+   "labels": [
+    "TABLE 9.1"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/TABLE_9_1.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Chargaff's data showed that in DNA the total concentration of pyrimidines (thymine plus cytosine) always equals the total concentration of {{c1::purines (adenine plus guanine)::base class}}.",
+  "Back Extra": "Why: [thymine] = [adenine] and [cytosine] = [guanine] individually, so the two class totals must match as well.<br><br>Distinguish: purines are the double-ring bases and pyrimidines the single-ring bases \u2014 Chargaff's finding is about their total amounts in DNA, not their structure.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   38
+  ],
+  "block": "C_discovery_evidence",
+  "numeric": false,
+  "verified_against": "p217: 'the total concentration of pyrimidines (thymine plus cytosine) was always equal to the total concentration of purines (adenine plus guanine; see Table 9.1)'",
+  "verified_by": "editor-E1",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "218"
+   ],
+   "figures": [
+    "figures/study/TABLE_9_1.png"
+   ],
+   "labels": [
+    "TABLE 9.1"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/TABLE_9_1.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "The X-ray diffraction data behind the double-helix model of DNA came from {{c1::Maurice Wilkins and Rosalind Franklin::two researchers}} and their coworkers. The data showed a highly ordered, {{c2::two::number of strands}}-stranded structure with regularly repeating substructures along the molecule's axis.",
+  "Back Extra": "Why: the 0.34-nm repeating substructure turned out to be the stacked base pairs \u2014 the bases sit perpendicular to the molecule's axis with a periodicity of 0.34 nm.<br><br>Distinguish: Wilkins and Franklin produced the X-ray data; Watson and Crick used it (with Chargaff's chemistry) to build the model.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   39,
+   40
+  ],
+  "block": "C_discovery_evidence",
+  "numeric": true,
+  "verified_against": "p219: 'DNA was a highly ordered, two-stranded structure with repeating substructures spaced every 0.34 nanometer (1 nm = 10-9 meter) along the axis of the molecule' \u2014 visible text is a subset; the 0.34 value is deliberately absent from the front (rule-12 dedupe: canonical home is the structure card co-citing mark 40) and appears only in Back Extra, verbatim from the p219 Fig 9.9 caption ('the bases are stacked perpendicular to the axis of the molecule with a periodicity of 0.34 nm')",
+  "verified_by": "drafter-CD; editor-E1; final-judge (completed consolidation decision 4: removed visible un-clozed 0.34)",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "219"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_9.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.9"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_9.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "The double-helix model of DNA was based on two major kinds of evidence:<br><br>{{c1::chemical analysis}}<br><br>{{c1::X-ray diffraction studies}}",
+  "Back Extra": "Meaning: the chemical analysis was Chargaff's base-composition work (the base equalities); the X-ray diffraction studies were Wilkins's and Franklin's, showing an ordered, regularly repeating two-stranded structure.<br><br>Why: combining both with inferences from model building, Watson and Crick proposed a right-handed double helix.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "block": "C_discovery_evidence",
+  "numeric": false,
+  "verified_against": "p217: 'was based on two major kinds of evidence: 1. Chemical Analysis... 2. X-ray Diffraction Studies' (two items only; item 2 continues onto p219)",
+  "verified_by": "editor-E1",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "219"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_10.png"
+   ],
+   "labels": [
+    "FIGURE 9.10"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_10.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Within each polynucleotide chain of a DNA double helix, the nucleotides are linked by covalent {{c1::phosphodiester}} bonds that join adjacent {{c2::deoxyribose::sugar}} subunits.",
+  "Back Extra": "Distinguish: covalent phosphodiester bonds run <b>along</b> each strand's backbone; much weaker hydrogen bonds hold the <b>two strands</b> to each other.<br><br>Mechanism: each phosphodiester linkage joins the 5\u2032 carbon of one 2\u2032-deoxyribose to the 3\u2032 carbon of the 2\u2032-deoxyribose in the adjacent nucleotide.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   41
+  ],
+  "block": "D_double_helix",
+  "numeric": false,
+  "verified_against": "p219: 'linked together by covalent phosphodiester bonds, joining adjacent deoxyribose subunits'",
+  "verified_by": "editor-E1",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "217"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_7.png"
+   ],
+   "labels": [
+    "FIGURE 9.7"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_7.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "The two polynucleotide strands of a DNA double helix are held together in their helical configuration by {{c1::hydrogen::bond type}} bonding between bases in opposing strands.",
+  "Back Extra": "Distinguish: hydrogen bonds (weak) join bases <b>across</b> the two strands; covalent phosphodiester bonds (strong) join nucleotides <b>within</b> each strand.<br><br>Cue: the hydrogen-bonded base pairs stack between the two backbones like the steps of a spiral staircase.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   42
+  ],
+  "block": "D_double_helix",
+  "numeric": false,
+  "verified_against": "p219: 'held together in their helical configuration by hydrogen bonding (Table 9.2) between bases in opposing strands'",
+  "verified_by": "editor-E1",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "219"
+   ],
+   "figures": [
+    "figures/study/TABLE_9_2.jpg"
+   ],
+   "labels": [
+    "TABLE 9.2"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/TABLE_9_2.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Base-pairing in DNA is specific: adenine is always paired with {{c1::thymine}}, and guanine is always paired with {{c1::cytosine}}. Every base pair thus consists of one purine and one pyrimidine.",
+  "Back Extra": "Why: pairing specificity results from the hydrogen-bonding capacities of the bases in their normal configurations.<br><br>Distinguish: Chargaff's equal concentrations were the chemical evidence; specific A:T and G:C pairing is the structural rule behind them.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   43
+  ],
+  "block": "D_double_helix",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "220"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_11.png"
+   ],
+   "labels": [
+    "FIGURE 9.11"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_11.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "In their common structural configurations, adenine and thymine form {{c1::two::number of bonds}} hydrogen bonds, while guanine and cytosine form {{c2::three::number of bonds}} hydrogen bonds.",
+  "Back Extra": "Why: three hydrogen bonds bind guanine to cytosine more tightly than the two binding adenine to thymine.<br><br>Distinguish: in their common structural states, cytosine\u2013adenine and thymine\u2013guanine pairs cannot hydrogen-bond at all \u2014 the basis of pairing specificity.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   44
+  ],
+  "block": "D_double_helix",
+  "numeric": true,
+  "verified_against": "p220: 'adenine and thymine form two hydrogen bonds, and guanine and cytosine form three hydrogen bonds'",
+  "verified_by": "drafter-CD",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "220"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_11.png"
+   ],
+   "labels": [
+    "FIGURE 9.11"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_11.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "The base pairs in a DNA double helix are stacked about {{c1::0.34 nm::spacing}} apart, with {{c2::10}} base pairs per turn (360\u00b0) of the helix.",
+  "Back Extra": "Cue: 0.34 nm per base pair \u00d7 10 base pairs per turn = a helical repeat of 3.4 nm.<br><br>Distinguish: 0.34 nm is the spacing between <b>adjacent</b> stacked base pairs along the axis \u2014 the same repeating spacing the X-ray diffraction data had revealed.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   45,
+   40
+  ],
+  "block": "D_double_helix",
+  "numeric": true,
+  "verified_against": "p220: 'The base pairs in DNA are stacked about 0.34 nm apart, with 10 base pairs per turn (360\u00b0) of the double helix'",
+  "verified_by": "drafter-CD",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "219"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_10.png"
+   ],
+   "labels": [
+    "FIGURE 9.10"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_10.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "The stability of DNA double helices comes from two sources:<br><br>{{c1::the many individually weak hydrogen bonds between base pairs}}<br><br>{{c1::hydrophobic bonding (stacking forces) between adjacent base pairs}}",
+  "Back Extra": "Why: each hydrogen bond by itself is much weaker than a covalent bond \u2014 the stability comes from their sheer number.<br><br>Mechanism: the planar sides of the base pairs are relatively nonpolar, so the stacked core is hydrophobic \u2014 in the watery interior of a living cell that insolubility adds considerable stability.<br><br>Distinguish: hydrogen bonds act <b>across</b> the helix, between paired bases in opposing strands; stacking forces act <b>along</b> it, between one base pair and the next.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   46,
+   42
+  ],
+  "block": "D_double_helix",
+  "numeric": false,
+  "verified_against": "p220: 'results in part from the large number of hydrogen bonds between the base pairs (even though each hydrogen bond by itself is weak, much weaker than a covalent bond) and in part from the hydrophobic bonding (or stacking forces) between adjacent base pairs' \u2014 both rows re-verified verbatim by editor-E1",
+  "verified_by": "editor-E1",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "219"
+   ],
+   "figures": [
+    "figures/study/TABLE_9_2.jpg"
+   ],
+   "labels": [
+    "TABLE 9.2"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/TABLE_9_2.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::B-DNA}} is the Watson\u2013Crick double-helix conformation \u2014 the form DNA takes under {{c2::physiological}} conditions, in {{c2::aqueous}} solutions containing {{c2::low::high/low}} concentrations of salts.",
+  "Back Extra": "Distinguish: high salt concentrations or a partially dehydrated state push DNA into the A form instead.<br><br>Why: the aqueous protoplasm of living cells is exactly this environment, so the vast majority of DNA molecules in living cells exist in the B conformation.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   47
+  ],
+  "block": "E_conformations",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "222"
+   ],
+   "figures": [
+    "figures/study/TABLE_9_3.png"
+   ],
+   "labels": [
+    "TABLE 9.3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/TABLE_9_3.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "B-DNA is a {{c1::right::right/left}}-handed helix with precisely 10 nucleotide pairs per turn in its idealized structure, but intracellular B-DNA averages {{c2::10.4}} nucleotide pairs per turn.",
+  "Back Extra": "Distinguish: A-DNA is also right-handed; Z-DNA alone is left-handed.<br><br>Ex: relaxed (non-supercoiled) DNA is B-DNA with 10.4 base pairs per turn of the helix.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   48,
+   49
+  ],
+  "block": "E_conformations",
+  "numeric": true,
+  "verified_against": "p221: 'intracellu- lar B-DNA appears to have an average of 10.4 nucleotide pairs per turn, rather than precisely 10'; p221 Table 9.3 row: 'B Right-handed 10'; p222: 'The relaxed structure is B-DNA with 10.4 base pairs per turn of the helix'",
+  "verified_by": "drafter-EF",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "222"
+   ],
+   "figures": [
+    "figures/study/TABLE_9_3.png"
+   ],
+   "labels": [
+    "TABLE 9.3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/TABLE_9_3.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "In {{c1::high::high/low}} concentrations of salts or in a {{c1::partially dehydrated}} state, DNA exists as {{c2::A-DNA}}, a {{c3::right::right/left}}-handed helix with {{c4::11}} nucleotide pairs per turn.",
+  "Back Extra": "Distinguish: physiological aqueous, low-salt conditions give B-DNA instead; A-DNA is the shorter, thicker double helix (diameter 2.3 nm).<br><br>Why: A-DNA itself almost certainly never exists in vivo, but DNA-RNA heteroduplexes (a DNA strand paired with a complementary RNA strand) and RNA-RNA duplexes adopt a very similar structure in vivo.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   49
+  ],
+  "block": "E_conformations",
+  "numeric": true,
+  "verified_against": "p221: 'DNA exists as A-DNA, which is a right-handed helix like B-DNA, but with 11 nucleotide pairs per turn'; p221 Table 9.3 row: 'A Right-handed 11 2.3 nm'; p222: 'with a diameter of 2.3 nm'",
+  "verified_by": "drafter-EF",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "222"
+   ],
+   "figures": [
+    "figures/study/TABLE_9_3.png"
+   ],
+   "labels": [
+    "TABLE 9.3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/TABLE_9_3.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::Z-DNA}} is the {{c2::left::right/left}}-handed double-helical form of DNA \u2014 named for the {{c1::zigzagged}} path of its sugar-phosphate backbones \u2014 and occurs in helices that are {{c3::G:C}}-rich with {{c3::alternating purine and pyrimidine}} residues.",
+  "Back Extra": "Distinguish: A- and B-DNA are both right-handed; Z is the lone left-handed conformation.<br><br>Pitfall: the function of Z-DNA in living cells is still not clear.<br><br>Ex: Z-DNA was discovered by X-ray diffraction analysis of crystals formed by DNA oligomers containing alternating G:C and C:G base pairs.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   50,
+   51
+  ],
+  "block": "E_conformations",
+  "numeric": false,
+  "verified_against": "p222: 'a left-handed, double-helical form called Z-DNA (Z for the zigzagged path of the sugar-phosphate backbones of the structure)'; 'Z-DNA occurs in double helices that are G:C-rich and that contain alternating purine and pyrimidine residues'",
+  "verified_by": "editor-E2",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "222"
+   ],
+   "figures": [
+    "figures/study/TABLE_9_3.png"
+   ],
+   "labels": [
+    "TABLE 9.3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/TABLE_9_3.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Z-DNA differs from the A and B conformations in having {{c1::12}} base pairs per turn, a diameter of {{c2::1.8 nm}}, and a {{c3::single deep}} groove.",
+  "Back Extra": "Distinguish: A- and B-DNA are the right-handed conformations (Z is the left-handed one), and where B-DNA carries both a major and a minor groove, Z-DNA has just the one deep groove.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   52
+  ],
+  "block": "E_conformations",
+  "numeric": true,
+  "verified_against": "p222: 'having 12 base pairs per turn, a diameter of 1.8 nm, and a single deep groove'; p221 Table 9.3 row: 'Z Left-handed 12 1.8 nm'",
+  "verified_by": "drafter-EF",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "222"
+   ],
+   "figures": [
+    "figures/study/TABLE_9_3.png"
+   ],
+   "labels": [
+    "TABLE 9.3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/TABLE_9_3.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Supercoils are introduced into a DNA molecule when {{c1::one or both strands are cleaved}} and the complementary strands at one end are {{c1::rotated or twisted around each other}} with the other end {{c1::held fixed in space}}.",
+  "Back Extra": "Ex: cleaving one strand of a closed circular DNA and rotating the cut strand one complete turn (360\u00b0) around the complementary strand, holding the other end fixed, introduces exactly one supercoil.<br><br>Cue: the supercoiled molecule collapses into a tight coil, like a coiled electrical cord or a twisted rubber band.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   53
+  ],
+  "block": "F_supercoiling",
+  "numeric": true,
+  "verified_against": "p222: 'rotate one end of the cleaved strand a complete turn (360\u00b0) around the complementary strand while holding the other end fixed, we will introduce one supercoil' (Back Extra digit)",
+  "verified_by": "drafter-EF",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "223"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_14.png"
+   ],
+   "labels": [
+    "FIGURE 9.14"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_14.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Supercoiling occurs <b>only</b> in DNA molecules whose ends are {{c1::fixed (not free to rotate)::fixed/free}}.",
+  "Back Extra": "Distinguish: circularity is not required \u2014 the large linear DNA molecules of eukaryotic chromosomes are fixed by attachments at intervals and at the ends to non-DNA components of the chromosomes.<br><br>Ex: the circular DNA molecules of most prokaryotic chromosomes and of eukaryotic organelles such as mitochondria have obviously fixed ends.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   54
+  ],
+  "block": "F_supercoiling",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "222"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_13.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.13"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_13.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Rotating the free end of a cleaved DNA strand in the <b>same</b> direction as the double helix is wound (right-handed) produces a {{c1::positive::positive/negative}} supercoil \u2014 {{c1::overwound::overwound/underwound}} DNA.<br><br>Rotating the free end in the <b>opposite</b> direction (left-handed) produces a {{c1::negative::positive/negative}} supercoil \u2014 {{c1::underwound::overwound/underwound}} DNA.",
+  "Back Extra": "Pitfall: this cut-and-twist picture is the simplest way to define supercoiling, but it is not the mechanism by which supercoils are produced in DNA in vivo.<br><br>Why: negative supercoils are underwound \u2014 less than one full turn of the helix for every 10.4 base pairs \u2014 and the DNA of almost all organisms exhibits negative supercoiling in vivo.<br><br>Distinguish: the DNA of some viruses that infect cells in the Kingdom Archaea is positively supercoiled \u2014 the exception.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   55,
+   56
+  ],
+  "block": "F_supercoiling",
+  "numeric": true,
+  "verified_against": "p222: 'The negatively supercoiled structure results when B-DNA is underwound, with less than one turn of the helix for every 10.4 base pairs' (Back Extra digits)",
+  "verified_by": "drafter-EF",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "223"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_14.png"
+   ],
+   "labels": [
+    "FIGURE 9.14"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_14.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "The {{c1::folded genome::structure}} is {{c2::the functional state of a bacterial chromosome}}.",
+  "Back Extra": "Why: the E. coli chromosome's contour length is about 1500 \u03bcm but the cell is only 1 to 2 \u03bcm in diameter, so the DNA must exist in a highly condensed (folded or coiled) configuration.<br><br>Ex: within the folded genome, the DNA is organized into 50 to 100 domains or loops, each independently negatively supercoiled, and RNA and protein are both components of the structure.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   62
+  ],
+  "block": "G_folded_genome",
+  "numeric": true,
+  "verified_against": "p224: 'contour length of the circular DNA molecule ... is about 1500 \u03bcm. Because an E. coli cell has a diameter of only 1 to 2 \u03bcm'; p224: 'organized into 50 to 100 domains or loops, each of which is independently negatively supercoiled'",
+  "verified_by": "editor-E2",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "224"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_15.png"
+   ],
+   "labels": [
+    "FIGURE 9.15"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_15.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Because each domain of the bacterial folded genome is {{c1::independently::independently/jointly}} supercoiled, single-strand nicks introduced by a DNase relax the DNA {{c1::only in the nicked domains::extent}}, while all unnicked loops {{c1::remain supercoiled::relax/remain supercoiled}}.",
+  "Back Extra": "Why: the RNA-anchored loops are separate units, so a nick's relaxation stops at its own loop's boundary.<br><br>Distinguish: RNase, by contrast, unfolds the folded genome - it removes the RNA molecules anchoring the loops - but does not affect supercoiling within the chromosome.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   63
+  ],
+  "block": "G_folded_genome",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "224"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_15.png"
+   ],
+   "labels": [
+    "FIGURE 9.15"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_15.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Chromatin (the DNA-protein complex in nuclei) contains two major classes of proteins:<br><br>(1) the {{c1::histones}}, which are {{c2::basic (positively charged)::basic/acidic}} at neutral pH<br><br>(2) a heterogeneous group, largely {{c2::acidic (negatively charged)::basic/acidic}} at neutral pH \u2014 the {{c1::nonhistone chromosomal proteins}}",
+  "Back Extra": "Why: opposite charges at neutral pH \u2014 the positively charged histones can interact with DNA, which is negatively charged because of its phosphate groups.<br><br>Ex: chemical analysis of isolated chromatin shows it consists primarily of DNA and proteins, with lesser amounts of RNA.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   66,
+   72
+  ],
+  "block": "H_chromatin_histones",
+  "numeric": false,
+  "verified_against": "p225: 'The proteins are of two major classes: (1) basic (positively charged at neutral pH) proteins called histones and (2) a heterogeneous, largely acidic (negatively charged at neutral pH) group of proteins collectively referred to as nonhistone chromosomal proteins' \u2014 confirmed on page_225.png render",
+  "verified_by": "editor-E2",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "225"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_16.png"
+   ],
+   "labels": [
+    "FIGURE 9.16"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_16.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "In the chromatin of all eukaryotes, histones are present in amounts {{c1::equivalent to::more than/equivalent to/less than}} the amounts of DNA.",
+  "Back Extra": "Why: this constant relationship suggests an interaction between histones and DNA that is conserved in eukaryotes.<br><br>Distinguish: the amount of nonhistone proteins is not constant \u2014 it depends on the procedure used to isolate the chromatin.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   67
+  ],
+  "block": "H_chromatin_histones",
+  "numeric": false,
+  "verified_against": "p225: 'They are present in the chromatin of all eukaryotes in amounts equivalent to the amounts of DNA'",
+  "verified_by": "editor-E2",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "225"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_16.png"
+   ],
+   "labels": [
+    "FIGURE 9.16"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_16.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "All plants and animals have five different types of histones, denoted as {{c1::H1, H2a, H2b, H3, and H4::5 types}}.",
+  "Back Extra": "Why: histones play a major structural role in chromatin.<br><br>Cue: the numbering runs 1 to 4, with type 2 split into an a and b pair.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   68
+  ],
+  "block": "H_chromatin_histones",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Histones are present in almost all kinds of cells \u2014 the most notable <b>exception</b> is {{c1::some sperm::cell type}}, where the histones are replaced by another class of small basic proteins called {{c2::protamines}}.",
+  "Back Extra": "Why: packaging DNA still calls for small positively charged proteins \u2014 protamines, like histones, are basic.<br><br>Distinguish: the sperm swap is the exception \u2014 histones have been highly conserved during evolution, with four of the five types similar in all eukaryotes.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   69
+  ],
+  "block": "H_chromatin_histones",
+  "numeric": false,
+  "verified_against": "p225: 'These proteins are present in almost all kinds of cells. A few exceptions exist, most notably some sperm, where the histones are replaced by another class of small basic proteins called protamines'",
+  "verified_by": "editor-E2",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Four of the five histone types are specifically complexed with DNA to produce the basic structural subunits of chromatin \u2014 small {{c2::ellipsoidal::shape}} beads; the one histone type <b>not</b> part of these subunits is {{c1::H1::histone type}}.",
+  "Back Extra": "Meaning: the four bead-formers are H2a, H2b, H3, and H4 \u2014 every type except H1.<br><br>Why: the molar ratios echo the split \u2014 the four subunit-forming types are present in one equal share, while H1 stands apart.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   70,
+   71
+  ],
+  "block": "H_chromatin_histones",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "227"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_17.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.17"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_17.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "The five histone types are present in molar ratios of approximately {{c1::1}} H1 : {{c1::2}} each of H2a, H2b, H3, and H4.",
+  "Back Extra": "Why: equal shares of H2a, H2b, H3, and H4 fit their joint structural role in chromatin's bead subunits, while H1's different share goes with its different role.<br><br>Cue: only H1 gets a ratio of its own.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   70
+  ],
+  "block": "H_chromatin_histones",
+  "numeric": true,
+  "verified_against": "p225: 'The five histone types are present in molar ratios of approximately 1 H1:2 H2a:2 H2b:2 H3:2 H4.'",
+  "verified_by": "drafter-GH; list_undercount cleared: the five types are the visible KEYS of a ratio card, not a tested list \u2014 membership is its sibling card (editor-E2 PASS)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Histones are basic because they contain {{c1::20 to 30::range}} percent {{c2::arginine and lysine}}, two positively charged amino acids.",
+  "Back Extra": "Mechanism: the exposed -NH3+ groups of arginine and lysine allow histones to act as polycations \u2014 and DNA is polyanionic because of its negatively charged phosphate groups, the basis of the histone-DNA interaction.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   72,
+   66
+  ],
+  "block": "H_chromatin_histones",
+  "numeric": true,
+  "verified_against": "p225: 'The histones are basic because they contain 20 to 30 percent arginine and lysine, two positively charged amino acids'",
+  "verified_by": "drafter-GH",
+  "needs_human_check": false,
+  "visual_source": "work/genetics/page_225.png",
+  "image": null
+ },
+ {
+  "Text": "Under electron microscopy, isolated interphase chromatin appears as a series of ellipsoidal beads about {{c1::11}} nm in diameter and {{c1::6.5}} nm high, joined by thin threads.",
+  "Back Extra": "Why: the beaded appearance, plus nuclease-digestion patterns, supplied the evidence for regular, periodic packaging of DNA in chromatin.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   75
+  ],
+  "block": "I_nucleosome",
+  "numeric": true,
+  "verified_against": "p227: 'beads (about 11 nm in diameter and 6.5 nm high) joined by thin threads'",
+  "verified_by": "drafter-IJ",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "A {{c1::nucleosome}} is {{c2::chromatin's repeating 'bead' subunit}}.",
+  "Back Extra": "Distinguish: the nucleosome CORE is only the nuclease-protected kernel inside the bead; the nucleosome is the whole subunit.<br><br>Why: nuclease digestion of chromatin gives DNA fragments in integral multiples of one smallest size \u2014 the fingerprint of a repeating subunit.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   76,
+   77
+  ],
+  "block": "I_nucleosome",
+  "numeric": false,
+  "verified_against": "p228: 'This \"bead\" or chromatin subunit is called the nucleosome' \u2014 verbatim in p228 text and confirmed on page_228.png render",
+  "verified_by": "drafter-IJ (empty-context mark 76: sentence 'This bead or chromatin subunit is called the nucleosome' confirmed verbatim in p228 text and on the page render; co-cited mark 77 whose context carries it); editor-E4",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "227"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_17.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.17"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_17.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "In chromatin, {{c1::DNA linkers}} are the {{c2::thin threads that connect adjacent nucleosomes}}, and they are {{c3::susceptible::susceptible/resistant}} to nuclease attack.",
+  "Back Extra": "Distinguish: nucleases cut chromatin at the linkers; the core DNA inside each bead survives, tightly bound to its histones.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   77,
+   75
+  ],
+  "block": "I_nucleosome",
+  "numeric": false,
+  "verified_against": "p228: 'the threads that connect adjacent nucleosomes are DNA linkers that are susceptible to nuclease attack'",
+  "verified_by": "editor-E4",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "227"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_17.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.17"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_17.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Extensive nuclease digestion of chromatin leaves a {{c1::146}}-nucleotide-pair DNA segment intact \u2014 the {{c2::nucleosome core}} \u2014 protected because that DNA is tightly associated with the {{c3::histone octamer::protein complex}}.",
+  "Back Extra": "Why: <i>partial</i> digestion cuts only the linkers, releasing bead-sized multiples; <i>extensive</i> digestion trims everything back to the histone-bound core.<br><br>Distinguish: the core is only the protected kernel; the complete nucleosome is the bigger unit that also includes the linker DNA.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   78,
+   80
+  ],
+  "block": "I_nucleosome",
+  "numeric": true,
+  "verified_against": "p228: 'a segment of DNA 146 nucleotide pairs long is protected from degradation because it is tightly associated with the histones in a structure called the nucleosome core'",
+  "verified_by": "drafter-IJ",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "228"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_18.png"
+   ],
+   "labels": [
+    "FIGURE 9.18"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_18.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "In the nucleosome core, the DNA forms a superhelix winding {{c1::1.65}} times around the outside of a histone octamer built from {{c2::two}} molecules each of {{c2::H2a, H2b, H3, and H4::4 histone types}}.",
+  "Back Extra": "Cue: the winding geometry was worked out by X-ray diffraction of the core particle.<br><br>Why: eight histone molecules in all \u2014 the octamer \u2014 form the spool the core DNA wraps around.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   79,
+   81
+  ],
+  "block": "I_nucleosome",
+  "numeric": true,
+  "verified_against": "p228: 'the DNA forms a superhelix that winds 1.65 times around the outside of the histone octamer'; 'two molecules each of histones H2a, H2b, H3, and H4'",
+  "verified_by": "drafter-IJ",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "228"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_18.png"
+   ],
+   "labels": [
+    "FIGURE 9.18"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_18.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Across eukaryotes, the structure of the nucleosome <i>core</i> is essentially {{c1::invariant::invariant/variable}}, whereas the size of the <i>linker</i> DNA is {{c1::variable::invariant/variable}}.",
+  "Back Extra": "Ex: linkers from eight to 114 nucleotide pairs have been reported \u2014 differing from species to species and from one cell type to another.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   79,
+   83
+  ],
+  "block": "I_nucleosome",
+  "numeric": false,
+  "verified_against": "p228: 'Linkers as short as eight nucleotide pairs and as long as 114 nucleotide pairs have been reported' (digits appear only in Back Extra, unclozed)",
+  "verified_by": "drafter-IJ; R13 cleared: 'variable' is a morphological paraphrase of the marked span's 'varies' (editor-E4 adjudication)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The complete nucleosome \u2014 the nucleosome core plus linker DNA and nonhistone proteins \u2014 is stabilized by {{c1::one molecule::number of molecules}} of histone {{c1::H1}} bound to the {{c1::outside::inside/outside}} of the structure.<br><br>The complete nucleosome's DNA runs {{c2::two}} full superhelix turns \u2014 a {{c2::166}}-nucleotide-pair length.",
+  "Back Extra": "Distinguish: the nucleosome core is the smaller, nuclease-protected unit \u2014 no linker DNA, no nonhistone proteins, no H1, and a shorter stretch of DNA.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   82,
+   84
+  ],
+  "block": "I_nucleosome",
+  "numeric": true,
+  "verified_against": "p228: 'stabilized by the binding of one molecule of histone H1 to the outside of the structure'; 'the complete nucleosome (as opposed to the nucleosome core) contains two full turns of DNA superhelix (a 166-nucleotide-pair length of DNA)'",
+  "verified_by": "drafter-IJ",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "228"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_18.png"
+   ],
+   "labels": [
+    "FIGURE 9.18"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_18.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "The chromatin fibers seen in metaphase chromosomes \u2014 and in gently isolated interphase chromatin \u2014 have an average diameter of {{c1::30}} nm.",
+  "Back Extra": "Distinguish: individual chromatin beads have their own, smaller dimensions \u2014 the fiber's diameter is a separate number.<br><br>Cue: the light microscope simply shows where these fibers pack tightly \u2014 visible condensation is packed fiber, not a new structure.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   85
+  ],
+  "block": "J_higher_order",
+  "numeric": true,
+  "verified_against": "p229: 'These chromatin fibers have an average diameter of 30 nm.'",
+  "verified_by": "drafter-IJ",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The two most popular models for the substructure of the chromatin fibers of eukaryotic chromosomes are:<br><br>the {{c1::solenoid}} model<br><br>the {{c1::zigzag}} model",
+  "Back Extra": "Meaning: solenoid = the 11-nm nucleosome fiber coiled into a helix with six nucleosomes per turn; zigzag = the less tightly packed structure seen by cryoelectron microscopy of unfixed chromatin.<br><br>Pitfall: whether real fibers are solenoid, zigzag, or both depending on conditions is still uncertain \u2014 and chromatin is not static; it expands and contracts as histones are chemically modified.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   86
+  ],
+  "block": "J_higher_order",
+  "numeric": false,
+  "verified_against": "p230: 'coiling the 11-nm nucleosome fiber into a solenoid structure with six nucleosomes per turn' (digits appear only in Back Extra, unclozed)",
+  "verified_by": "drafter-IJ; editor-E4 (stem re-anchored to remove 30-nm digit leak)",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "230"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_21.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.21"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_21.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "At least three levels of condensation package the DNA of a eukaryotic chromosome into its metaphase form:<br><br>Level 1: DNA is wound as a negative supercoil into {{c1::nucleosomes}}, producing the {{c1::11}}-nm interphase chromatin fiber.<br><br>Level 2: the interphase chromatin fiber folds and supercoils further into the {{c1::30}}-nm chromatin fiber, a step involving histone H1.<br><br>Level 3: {{c1::nonhistone::histone/nonhistone}} chromosomal proteins condense the chromatin fiber into independently supercoiled loops (domains).",
+  "Back Extra": "Why: maximal condensation at metaphase eases segregation into daughter nuclei and keeps chromosomes from tangling and breaking.<br><br>Pitfall: the mechanism of the third level of condensation is not known.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   75,
+   85,
+   87
+  ],
+  "block": "J_higher_order",
+  "numeric": true,
+  "verified_against": "p229: 'packaging DNA as a negative supercoil into nucleosomes, to produce the 11-nm-diameter interphase chromatin fiber'; 'to produce the 30-nm chromatin fiber. Histone H1 is involved in this supercoiling'; 'nonhistone chromosomal proteins form a scaffold... into independently supercoiled domains or loops'",
+  "verified_by": "drafter-IJ; editor-E4; consolidator (H1/loops/second-11 un-clozed per rule 29 - unmarked context); fragment_clozed_list cleared: step-scaffold per recipes 12e (ordinals printed, discriminators clozed) \u2014 editor-E4 adjudication; from_idx +75 (the 11-nm bead mark) per final-judge provenance note; mark 76 licensing documented here (its naming sentence verified on p228 text + render)",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "231"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_23.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.23"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_23.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "The gross structure of a highly condensed metaphase chromosome is organized around a central core called the {{c1::scaffold}}, composed of {{c2::nonhistone::histone/nonhistone}} chromosomal proteins and visible in electron micrographs once the {{c2::histones}} have been removed.",
+  "Back Extra": "Ex: with the histones stripped away, the scaffold remains, surrounded by a huge pool or halo of DNA.<br><br>Cue: metaphase chromosomes are eukaryotes' maximally condensed state \u2014 the scaffold organizes that final tightening.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   87
+  ],
+  "block": "J_higher_order",
+  "numeric": false,
+  "verified_against": "p229: 'organized around a central core composed of nonhistone chromosomal proteins. This core, called a scaffold, can be seen in electron micrographs of isolated metaphase chromosomes from which the histones have been removed'",
+  "verified_by": "editor-E4",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "231"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_22.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.22"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_22.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "The haploid human genome consists of {{c1::23::number of chromosomes}} chromosomes that collectively have about {{c2::3.2 billion::number of base pairs}} base pairs of DNA and {{c3::20,500::number of genes}} genes.",
+  "Back Extra": "Distinguish: the <i>E. coli</i> K12 genome is one chromosome with 4.5 million base pairs of DNA and about 4500 genes \u2014 the human genome has 700 times the DNA but only 4.5 times the genes.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   89
+  ],
+  "block": "K_genome_scale",
+  "numeric": true,
+  "verified_against": "p231: 'The haploid human genome consists of 23 chromosomes that collectively have about 3.2 billion base pairs of DNA and 20,500 genes'; Back Extra digits: 'one chromosome with 4.5 million base pairs of DNA and about 4500 genes' + 'has 700 times more DNA ... but only 4.5 times more genes'",
+  "verified_by": "drafter-K",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Denaturation}} of DNA is {{c2::separation of the two complementary strands}}, which occurs when DNA in aqueous solution is heated to near {{c3::100}}\u00b0C.",
+  "Back Extra": "Mechanism: the strands are held together by a large number of relatively weak hydrogen bonds between complementary bases \u2014 heat breaks these bonds apart.<br><br>Distinguish: renaturation is the reverse \u2014 slowly cooled complementary strands find each other and re-form the double helix.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   93
+  ],
+  "block": "L_denaturation",
+  "numeric": true,
+  "verified_against": "p232: 'When DNA molecules in aqueous solution are heated to near 100\u00b0C, these bonds are broken and the complementary strands of DNA separate'",
+  "verified_by": "drafter-L",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Renaturation}} of DNA is {{c2::re-formation of the base-paired double helix}}, which occurs when complementary single strands are cooled {{c3::slowly::quickly/slowly}}.",
+  "Back Extra": "Distinguish: denaturation is the reverse \u2014 heat breaks the hydrogen bonds and the complementary strands separate.<br><br>Ex: repetitive DNA sequences renature faster than unique sequences (their many copies make them more concentrated) \u2014 the rate difference is what let researchers detect repetitive DNA.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   94
+  ],
+  "block": "L_denaturation",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Human centromeres are {{c1::500,000 to 1.5 million base pairs::range}} long and contain {{c2::5000 to 15,000::range}} copies of a {{c3::171}}-base-pair-long sequence called the {{c4::alpha satellite}} sequence.",
+  "Back Extra": "Why: the alpha satellite and other repetitive sequences are the reason centromeric DNA has been so difficult to sequence.<br><br>Ex: centromeres of multicellular plants and animals in general hold thousands to millions of base pairs, much of it repetitive DNA in long tandem arrays.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   98
+  ],
+  "block": "M_centromere",
+  "numeric": true,
+  "verified_against": "p233: 'Human centromeres are 500,000 to 1.5 million base pairs long and contain 5000 to 15,000 copies of a 171 base-pair-long sequence called the alpha satellite sequence'",
+  "verified_by": "drafter-M",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "233"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_24.jpg"
+   ],
+   "labels": [
+    "FIGURE 9.24"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_24.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Centromeres and the regions immediately flanking them are part of the {{c1::heterochromatin}}, the chromosome regions that stain {{c2::deeply::deeply/lightly}} with certain dyes.",
+  "Back Extra": "Distinguish: euchromatin = the chromatin that does not stain so deeply.<br><br>Cue: the deep-staining heterochromatin is also the more tightly packaged form (centromeres and their flanks are classic heterochromatin).",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   99
+  ],
+  "block": "M_centromere",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Telomeres}} are {{c2::the ends of chromosomes}}.",
+  "Back Extra": "Parts: telo- (Greek telos, \"end\") + -mere (Greek meros, \"part\") \u2014 literally \"end part.\"<br><br>Distinguish: the centromere is the constricted spindle-attachment region; the telomere is the chromosome's terminus.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   101
+  ],
+  "block": "N_telomere",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "234"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_25.png"
+   ],
+   "labels": [
+    "FIGURE 9.25"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_25.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Telomeres serve 3 important functions:<br><br>{{c1::prevent nucleases from degrading the ends of linear DNA molecules}}<br><br>{{c1::prevent fusion of the ends with other DNA molecules}}<br><br>{{c1::facilitate replication of the ends without loss of material}}",
+  "Back Extra": "Cue: two protective functions (no degradation, no end-to-end fusion) + one replication function (the ends get copied fully, losing no material).",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   102
+  ],
+  "block": "N_telomere",
+  "numeric": false,
+  "verified_against": "p233: 'They prevent dioxyribonucleases [book misprint for deoxyribonucleases] from degrading the ends of linear DNA molecules, they prevent fusion of the ends with other DNA molecules, and they facilitate the replication of these ends without the loss of material'",
+  "verified_by": "editor-E4",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The telomeres of eukaryotic chromosomes have unique structures that include short nucleotide sequences present as {{c1::tandem repeats::arrangement}}.",
+  "Back Extra": "Meaning: tandem = the repeat copies sit directly one after another in a row, not scattered around the genome.<br><br>Distinguish: centromeres also carry tandem repeats, but built from a much longer repeat unit; the telomere's repeat units are short.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   103
+  ],
+  "block": "N_telomere",
+  "numeric": false,
+  "verified_against": "p233: 'The telomeres of eukaryotic chromosomes have unique structures that include short nucleotide sequences present as tandem repeats'",
+  "verified_by": "drafter-N; editor-E4 (Back Extra de-leaked: removed 'dispersed sites' gloss and 'alpha satellite' name); editor-E4",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "234"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_25.png"
+   ],
+   "labels": [
+    "FIGURE 9.25"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_25.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "In humans and other vertebrates, telomeres are built from many copies of the repeat {{c1::TTAGGG::repeat sequence}}.",
+  "Back Extra": "Ex: TTAGGG is highly conserved in vertebrates \u2014 identified in more than 100 species, including mammals, birds, reptiles, amphibians, and fishes.<br><br>Distinguish: the centromere carries its own, much longer repeat sequence; TTAGGG is the telomere's short repeat.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   104
+  ],
+  "block": "N_telomere",
+  "numeric": true,
+  "verified_against": "p234: 'the repeat sequence in humans and other vertebrates is TTAGGG'",
+  "verified_by": "drafter-N; editor-E4 (Back Extra de-leaked: removed 'alpha satellite' name)",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "234"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_25.png"
+   ],
+   "labels": [
+    "FIGURE 9.25"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_25.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Most telomeres terminate in a so-called {{c1::3\u2032 overhang::name}}, a {{c2::G::base}}-rich {{c2::single::single/double}}-stranded region on the DNA strand that carries the {{c1::3\u2032::3\u2032/5\u2032}} terminus.",
+  "Back Extra": "Ex: overhang length varies \u2014 short (12 to 16 bases) in ciliates such as Tetrahymena, but long (50 to 500 bases) in humans.<br><br>Pathway: the 3\u2032 overhang is the single strand that goes on to form the t-loop.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   107
+  ],
+  "block": "N_telomere",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "234"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_25.png"
+   ],
+   "labels": [
+    "FIGURE 9.25"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_25.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Telomeres of humans and a few other species form structures called {{c1::t-loops::structure}}, in which the single strand at the 3\u2032 terminus {{c2::invades}} an upstream telomeric repeat, {{c2::pairs}} with the complementary strand, and {{c2::displaces}} the equivalent strand.",
+  "Back Extra": "Ex: beyond humans, t-loops have been identified in other vertebrates, a ciliate, a protozoan, and the pea \u2014 probably important components of most species' telomeres.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   108
+  ],
+  "block": "N_telomere",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "234"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_25.png"
+   ],
+   "labels": [
+    "FIGURE 9.25"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_25.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "A telomere-specific protein complex called {{c1::shelterin::complex name}} protects the DNA in t-loops from {{c2::degradation}} and/or {{c2::modification}} by DNA repair processes.",
+  "Back Extra": "Mechanism: shelterin coats the t-loop \u2014 most cells hold enough of it to cover all the single- and double-stranded telomere repeats in the chromosome complement.<br><br>Roster: shelterin's six subunits \u2014 TRF1, TRF2, POT1, TIN2, TPP1, Rap1.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   109,
+   110
+  ],
+  "block": "N_telomere",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "234"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_25.png"
+   ],
+   "labels": [
+    "FIGURE 9.25"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_25.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Within shelterin, {{c1::TRF1 and TRF2::two proteins}} bind {{c2::double::double/single}}-stranded telomere repeat sequences, while {{c1::POT1::protein}} binds {{c2::single::double/single}}-stranded repeats.",
+  "Back Extra": "Meaning: TRF = Telomere Repeat Factor; POT1 = Protection Of Telomeres 1.<br><br>Cue: POT1's name says its job \u2014 it protects the exposed single-stranded repeats from nucleases and repair enzymes.<br><br>Roster: shelterin's six subunits \u2014 <b>TRF1</b>, <b>TRF2</b>, <b>POT1</b>, TIN2, TPP1, Rap1.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   111
+  ],
+  "block": "N_telomere",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "234"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_25.png"
+   ],
+   "labels": [
+    "FIGURE 9.25"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_25.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Within shelterin, subunits {{c1::TIN2 and TPP1::two subunits}} tether POT1 to DNA-bound TRF1 and TRF2, and the TRF2-associated protein {{c2::Rap1::protein}} helps regulate {{c2::telomere length}}.",
+  "Back Extra": "Distinguish: TRF1, TRF2, and POT1 are the three subunits that bind telomere repeat DNA directly; TIN2, TPP1, and Rap1 are the connectors and regulators.<br><br>Roster: shelterin's six subunits \u2014 TRF1, TRF2, POT1, <b>TIN2</b>, <b>TPP1</b>, <b>Rap1</b>.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   111
+  ],
+  "block": "N_telomere",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "234"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_25.png"
+   ],
+   "labels": [
+    "FIGURE 9.25"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study/FIGURE_9_25.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "A <b>plasmid</b> is {{c1::a small extra DNA circle in bacteria}}.",
+  "Back Extra": "Ex: \u201cMany of the prokaryotes also possess one to several kinds of <b>plasmids</b>, usually containing small numbers of genes.\u201d<br><br>Distinguish: the chromosome carries the cell's main gene set; a plasmid is an optional extra ring with just a few genes.<br><br>Formal: \u201can extrachromosomal hereditary determinant that exists in an autonomous state and is transferred independently of chromosomes\u201d \u2014 the glossary's phrasing.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   57
+  ],
+  "block": "X_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "plasmids",
+   "term_key": "plasmid",
+   "anchor": {
+    "method": "glossary",
+    "page": "621"
+   }
+  }
+ },
+ {
+  "Text": "The <b>contour</b> length of a DNA molecule is {{c1::its full stretched-out length, measured along the curve}}.",
+  "Back Extra": "Ex: \u201cThe <b>contour</b> length of the circular DNA molecule present in the chromosome of the bacterium Escherichia coli is about 1500 \u03bcm.\u201d<br><br>Distinguish: a straight end-to-end measurement ignores the bends; contour length traces along every curve, as if the molecule were unrolled.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   58
+  ],
+  "block": "X_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "contour",
+   "term_key": "contour",
+   "anchor": {
+    "method": "external",
+    "page": "224"
+   }
+  }
+ },
+ {
+  "Text": "The <b>diameter</b> of a round object is {{c1::its width straight through the center}}.",
+  "Back Extra": "Ex: \u201cBecause an E. coli cell has a <b>diameter</b> of only 1 to 2 \u03bcm, the large DNA molecule present in each bacterium must exist in a highly condensed (folded or coiled) configuration.\u201d<br><br>Parts: dia- (across, through) + -meter (measure) \u2014 the measure straight across.<br><br>Distinguish: contour length follows the strand's curves; diameter is the straight width across.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   59
+  ],
+  "block": "X_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "diameter",
+   "term_key": "diameter",
+   "anchor": {
+    "method": "external",
+    "page": "224"
+   }
+  }
+ },
+ {
+  "Text": "In the lab, <b>detergents</b> are {{c1::soap-like chemicals that dissolve membranes, bursting cells open}}.",
+  "Back Extra": "Ex: \u201cWhen E. coli chromosomes are isolated by gentle procedures in the absence of ionic <b>detergents</b> (commonly used to lyse cells)\u2026 the chromosomes remain in a highly condensed state.\u201d<br><br>Why: detergents break apart fatty membranes the way soap cuts grease \u2014 good for freeing a cell's contents, ruinous for keeping delicate structures like the folded genome intact.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   60
+  ],
+  "block": "X_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "detergents",
+   "term_key": "deterg",
+   "anchor": {
+    "method": "in_source",
+    "page": "224"
+   }
+  }
+ },
+ {
+  "Text": "<b>Polyamines</b> are {{c1::small basic (positively charged) proteins}}.",
+  "Back Extra": "Ex: \u201c\u2026kept in the presence of a high concentration of cations such as <b>polyamines</b> (small basic or positively charged proteins) or 1M salt to neutralize the negatively charged phosphate groups of DNA\u2026\u201d<br><br>Parts: poly- (many) + amine (a nitrogen group that takes a positive charge) \u2014 many positive charges per molecule.<br><br>Why: their positive charges neutralize DNA's negatively charged phosphates, which lets an isolated chromosome stay tightly folded.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   61
+  ],
+  "block": "X_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "polyamines",
+   "term_key": "polyamin",
+   "anchor": {
+    "method": "in_source",
+    "page": "224"
+   }
+  }
+ },
+ {
+  "Text": "A <b>polycation</b> is {{c1::a molecule carrying many positive charges}}.",
+  "Back Extra": "Ex: \u201cThe exposed \u2212NH3+ groups of arginine and lysine allow histones to act as <b>polycations</b>.\u201d<br><br>Parts: poly- (many) + cation (a positively charged ion).<br><br>Distinguish: DNA is the mirror image \u2014 a polyanion, carrying many negative charges on its phosphate groups.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   73
+  ],
+  "block": "X_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "polycations",
+   "term_key": "polyc",
+   "anchor": {
+    "method": "external",
+    "page": "226"
+   }
+  }
+ },
+ {
+  "Text": "<b>Haploid</b> means {{c1::having just one complete set of chromosomes}}.",
+  "Back Extra": "Ex: \u201cIn yeast, a simple eukaryote, the smallest of the 16 chromosomes in the <b>haploid</b> set contains 230,000 base pairs of DNA\u2026\u201d<br><br>Distinguish: diploid = two complete sets, one from each parent; human eggs and sperm are haploid while body cells are diploid.<br><br>Formal: \u201cHaploid (monoploid): an organism or cell having only one complete set (n) of chromosomes or one genome\u201d \u2014 the glossary's phrasing.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   74
+  ],
+  "block": "X_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "haploid",
+   "term_key": "haploid",
+   "anchor": {
+    "method": "glossary",
+    "page": "615"
+   }
+  }
+ },
+ {
+  "Text": "<b>Commensurate</b> means {{c1::matching in size or proportion}}.",
+  "Back Extra": "Ex: (of eukaryotic chromosomes) \u201cOf course they contain genes\u2014and lots of them, but the number of genes is not <b>commensurate</b> with chromosome size.\u201d<br><br>Parts: com- (together) + mensur- (measure) \u2014 literally \u201cmeasured together,\u201d on the same scale.<br><br>Why: a bigger chromosome does not mean proportionally more genes \u2014 much eukaryotic DNA is repetitive sequence lying outside genes.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   88
+  ],
+  "block": "X_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "commensurate",
+   "term_key": "commensurat",
+   "anchor": {
+    "method": "external",
+    "page": "230"
+   }
+  }
+ },
+ {
+  "Text": "When genomic DNA is centrifuged, <b>satellite DNAs</b> are {{c1::the minor, repetitive fractions beside the main band}}.",
+  "Back Extra": "Ex: \u201cThese other fractions are called <b>satellite DNAs</b>, from the Latin word satelles, meaning an \u2018attendant\u2019 or \u2018subordinate.\u2019\u201d<br><br>Why: G:C-rich DNA is denser and A:T-rich DNA lighter than typical sequence, so repeats with unusual base makeup settle into their own small bands away from the main one.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   90
+  ],
+  "block": "X_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "satellite DNAs",
+   "term_key": "satellit_dnas",
+   "anchor": {
+    "method": "in_source",
+    "page": "232"
+   }
+  }
+ },
+ {
+  "Text": "A <b>constituent</b> is {{c1::a component part of a whole}}.",
+  "Back Extra": "Ex: \u201cRepetitive DNA sequences have also been detected in experiments in which the <b>constituent</b> strands of DNA duplexes are separated from each other and then allowed to reform double-stranded molecules.\u201d<br><br>Distinguish: in politics a constituent is one voter within a represented body \u2014 the same core idea: one member of a larger whole.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   91
+  ],
+  "block": "X_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "constituent",
+   "term_key": "constit",
+   "anchor": {
+    "method": "external",
+    "page": "232"
+   }
+  }
+ },
+ {
+  "Text": "A <b>DNA duplex</b> is {{c1::a DNA molecule of two paired strands}}.",
+  "Back Extra": "Ex: \u201c\u2026experiments in which the constituent strands of <b>DNA duplexes</b> are separated from each other and then allowed to reform double-stranded molecules.\u201d<br><br>Mechanism: the two strands are complementary and held together by many weak hydrogen bonds between their bases.<br><br>Distinguish: a heteroduplex pairs strands of different kinds \u2014 e.g., a DNA strand base-paired with a complementary RNA strand.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   92
+  ],
+  "block": "X_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "DNA duplexes",
+   "term_key": "dna_duplex",
+   "anchor": {
+    "method": "external",
+    "page": "232"
+   }
+  }
+ },
+ {
+  "Text": "<b>In situ hybridization</b> is {{c1::locating a DNA sequence directly on the chromosome}}.",
+  "Back Extra": "Ex: \u201cBecause this hybrid molecule is formed at a site in the chromosomes where the complement of the probe naturally resides, the technique is called <b>in situ hybridization</b>; the Latin phrase means \u2018in position.\u2019\u201d<br><br>Mechanism: a labeled single-stranded DNA probe (the label usually a fluorescent dye) base-pairs with its complement in chromosomes spread on a microscope slide \u2014 the dye's color marks the spot.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   95
+  ],
+  "block": "X_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "in situ hybridization",
+   "term_key": "in_situ_hybridiz",
+   "anchor": {
+    "method": "in_source",
+    "page": "232"
+   }
+  }
+ },
+ {
+  "Text": "In a genome, <b>dispersed sites</b> are {{c1::scattered, separate locations}}.",
+  "Back Extra": "Ex: (of repetitive DNA sequences) \u201c\u2026some of them are arranged in tandem arrays, whereas others occupy <b>dispersed sites</b>.\u201d<br><br>Distinguish: tandem arrays = copies clustered back-to-back in a row; dispersed sites = copies scattered separately across the genome.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   96
+  ],
+  "block": "X_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "dispersed sites",
+   "term_key": "dispers_site",
+   "anchor": {
+    "method": "external",
+    "page": "233"
+   }
+  }
+ },
+ {
+  "Text": "<b>Transposons</b> are {{c1::DNA segments that jump around the genome}}.",
+  "Back Extra": "Ex: \u201cThese transposable genetic elements\u2014or more simply, <b>transposons</b>\u2014are prevalent in many eukaryotic genomes.\u201d<br><br>Parts: trans- (across) + pos- (to place) \u2014 placed across, moved to a new position.<br><br>Cue: they are everywhere \u2014 44 percent of the human genome is transposons or their derivatives, and even Drosophila telomeres are built from them.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   97,
+   106
+  ],
+  "block": "X_lexicon",
+  "numeric": true,
+  "verified_against": "p233: 'In humans, the value is 44 percent'",
+  "verified_by": "editor-E3",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "transposons",
+   "term_key": "transposon",
+   "anchor": {
+    "method": "glossary",
+    "page": "627"
+   }
+  }
+ },
+ {
+  "Text": "<b>Euchromatin</b> is {{c1::the loosely packed chromatin that stains lightly}}.",
+  "Back Extra": "Ex: \u201cThe heterochromatin is packaged more tightly than the <b>euchromatin</b>, which does not stain so deeply.\u201d<br><br>Distinguish: heterochromatin = the tightly packed, deep-staining mirror; centromeres and their flanking regions are classic heterochromatin.<br><br>Formal: \u201cgenetic material that is not stained so intensely by certain dyes during interphase and that comprises many different kinds of genes\u201d \u2014 the glossary's phrasing.",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   100
+  ],
+  "block": "X_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "euchromatin",
+   "term_key": "euchromatin",
+   "anchor": {
+    "method": "glossary",
+    "page": "613"
+   }
+  }
+ },
+ {
+  "Text": "<b>Germ-line cells</b> are {{c1::the cells that make eggs or sperm}}.",
+  "Back Extra": "Ex: \u201cIn contrast [to somatic cells], the telomeres of <b>germ-line cells</b> and cancer cells do not shorten with age.\u201d<br><br>Distinguish: somatic cells = the body's other cells; only germ-line DNA is passed on to offspring.<br><br>Formal: glossary \u201cGerm cell\u201d: \u201ca reproductive cell capable when mature of being fertilized and reproducing an entire organism\u201d (cf. somatic cell).",
+  "source": "genetics",
+  "segment": 9,
+  "from_idx": [
+   105
+  ],
+  "block": "X_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "germ-line cells",
+   "term_key": "germ_line_cell",
+   "anchor": {
+    "method": "glossary",
+    "page": "614"
+   }
+  }
+ }
+]

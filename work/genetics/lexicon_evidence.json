@@ -29,7 +29,7 @@
    "term": "Type IIIS",
    "method": "in_source",
    "page": "212",
-   "quote": "heat-killed Type IIIS bacteria (virulent when alive) and living Type IIR bacteria (avirulent) into mice, many of the mice developed pneumonia and died, and living Type IIIS cells were recovered from their carcasses. Something from the heat-killed cells—the “transforming principle”—had converted the",
+   "quote": "heat-killed Type IIIS bacteria (virulent when alive) and living Type IIR bacteria (avirulent) into mice, many of the mice developed pneumonia and died, and living Type IIIS cells were recovered from their carcasses. Something from the heat-killed cells\u2014the \u201ctransforming principle\u201d\u2014had converted the",
    "pinned": true,
    "occurrences": 5
   },
@@ -37,7 +37,7 @@
    "term": "Type IIR",
    "method": "in_source",
    "page": "212",
-   "quote": "living Type IIR bacteria (avirulent) into mice, many of the mice developed pneumonia and died, and living Type IIIS cells were recovered from their carcasses. Something from the heat-killed cells—the “transforming principle”—had converted the living Type IIR cells into Type IIIS—that is, it had chan",
+   "quote": "living Type IIR bacteria (avirulent) into mice, many of the mice developed pneumonia and died, and living Type IIIS cells were recovered from their carcasses. Something from the heat-killed cells\u2014the \u201ctransforming principle\u201d\u2014had converted the living Type IIR cells into Type IIIS\u2014that is, it had chan",
    "pinned": true,
    "occurrences": 5
   },
@@ -45,7 +45,7 @@
    "term": "in vitro",
    "method": "glossary",
    "page": "616",
-   "quote": "in vitro. From the Latin meaning “within glass”; biological processes made to occur experimentally outside the organism in a test tube or other container. Hybridization. Interbreeding of species, races, varieties, and so on, among plants or animals; a process of forming a hybrid by cross pollination",
+   "quote": "in vitro. From the Latin meaning \u201cwithin glass\u201d; biological processes made to occur experimentally outside the organism in a test tube or other container. Hybridization. Interbreeding of species, races, varieties, and so on, among plants or animals; a process of forming a hybrid by cross pollination",
    "pinned": true,
    "occurrences": 53
   },
@@ -120,7 +120,7 @@
    "occurrences": 12
   },
   "the_interphas_chromosom_of_eukaryot_are_usuall_not_visibl_with_the_light_microscop_however_chem_analy_electron_microscop_and_x_ray_diffract_stud_of_isolat_chromatin_the_complex_of_dna_protein_and_other_mater_pres_in_nucle_have_provid_valuabl_inform_about_their_structur": {
-   "term": "The interphase chromosomes of eukaryotes are usually not visible with the light microscope. However, chemical analysis, electron microscopy, and X-ray diffraction studies of isolated chromatin—the complex of DNA, proteins, and other material present in nuclei—have provided valuable information about their structure",
+   "term": "The interphase chromosomes of eukaryotes are usually not visible with the light microscope. However, chemical analysis, electron microscopy, and X-ray diffraction studies of isolated chromatin\u2014the complex of DNA, proteins, and other material present in nuclei\u2014have provided valuable information about their structure",
    "method": "glossary",
    "page": "609",
    "quote": "Chromatin: The complex of DNA and proteins in eukaryotic chromosomes; originally named because of the readiness with which it stains with certain dyes.",
@@ -133,6 +133,92 @@
    "page": "609",
    "quote": "Chromatin: The complex of DNA and proteins in eukaryotic chromosomes; originally named because of the readiness with which it stains with certain dyes.",
    "occurrences": 63
+  },
+  "purin": {
+   "term": "purines",
+   "method": "glossary",
+   "page": "622",
+   "quote": "Purine: A double-ring nitrogen-containing base present in nucleic acids; adenine and guanine are the two purines present in most",
+   "headword": "Purine",
+   "occurrences": 20
+  },
+  "pyrimidin": {
+   "term": "pyrimidines",
+   "method": "glossary",
+   "page": "622",
+   "quote": "Pyrimidine: A single-ring nitrogen-containing base present in nucleic acids; cytosine and thymine are commonly present in",
+   "headword": "Pyrimidine",
+   "occurrences": 15
+  },
+  "plasmid": {
+   "term": "plasmids",
+   "method": "glossary",
+   "page": "621",
+   "quote": "Plasmid: An extrachromosomal hereditary determinant that exists in an autonomous state and is transferred independently of chromosomes.",
+   "headword": "Plasmid",
+   "occurrences": 38
+  },
+  "deterg": {
+   "term": "detergents",
+   "method": "in_source",
+   "page": "224",
+   "quote": "detergents (commonly used to lyse cells)",
+   "occurrences": 2
+  },
+  "polyamin": {
+   "term": "polyamines",
+   "method": "in_source",
+   "page": "224",
+   "quote": "polyamines (small basic or positively charged proteins)",
+   "occurrences": 1
+  },
+  "haploid": {
+   "term": "haploid",
+   "method": "glossary",
+   "page": "615",
+   "quote": "Haploid (monoploid): An organism or cell having only one complete set (n) of chromosomes or one genome.",
+   "headword": "Haploid (monoploid)",
+   "occurrences": 45
+  },
+  "satellit_dnas": {
+   "term": "satellite DNAs",
+   "method": "in_source",
+   "page": "232",
+   "quote": "These other fractions are called satellite DNAs, from the Latin word satelles, meaning an \u201cattendant\u201d or \u201csubordinate.",
+   "occurrences": 6,
+   "pinned": true,
+   "note": "re-anchored 2026-08-24: --find hit a p237 shearing sentence; the book's own definition is this p232 sentence"
+  },
+  "in_situ_hybridiz": {
+   "term": "in situ hybridization",
+   "method": "in_source",
+   "page": "232",
+   "quote": "Because this hybrid molecule is formed at a site in the chromosomes where the complement of the probe naturally resides, the technique is called in situ hybridization; the Latin phrase means \u201cin position.",
+   "occurrences": 15,
+   "pinned": true,
+   "note": "re-anchored 2026-08-24: --find matched the FISH glossary headword; the chapter defines the base technique itself on p232"
+  },
+  "transposon": {
+   "term": "transposons",
+   "method": "glossary",
+   "page": "627",
+   "quote": "Transposons: DNA elements that can move (\u201ctranspose\u201d) from one position in a DNA molecule to another.",
+   "occurrences": 41
+  },
+  "euchromatin": {
+   "term": "euchromatin",
+   "method": "glossary",
+   "page": "613",
+   "quote": "Euchromatin: Genetic material that is not stained so intensely by certain dyes during interphase and that comprises many different kinds of genes (cf. Heterochromatin).",
+   "occurrences": 13
+  },
+  "germ_line_cell": {
+   "term": "germ-line cells",
+   "method": "glossary",
+   "page": "614",
+   "quote": "Germ cell: A reproductive cell capable when mature of being fertilized and reproducing an entire organism (cf. Somatic cell).",
+   "headword": "Germ cell",
+   "occurrences": 14
   }
  }
 }

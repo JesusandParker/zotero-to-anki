@@ -1,0 +1,47 @@
+{
+ "run_id": "2026-08-24T20-37",
+ "source": "genetics",
+ "segment": 9,
+ "started": "2026-08-24T20:37:12",
+ "skill_sha": "d9283982b0bd5bd9ace78f938b9f2e5e31f2ac53",
+ "note": "chapter 9 part 2 — marks 29-111 (post-first-run reading); 82 fresh marks (62 yellow + 20 purple)",
+ "status": "complete",
+ "finished": "2026-08-24T21:48:27",
+ "counts": {
+  "marks_total": 112,
+  "marks_fresh": 82,
+  "marks_already_carded": 30,
+  "cards_drafted": 76,
+  "cards_dropped_rule29": 3,
+  "cards_staged": 73,
+  "lexicon_cards": 16,
+  "lexicon_skipped_duplicate": 1,
+  "editor_rewrites": 9,
+  "consolidation_edits": 8,
+  "final_judge_rewrites": 1,
+  "figures_proposed": 59,
+  "figures_kept": 43,
+  "figures_rejected": 16,
+  "plates_rebuilt_full_quality": 15,
+  "media_orphans_deleted": 9,
+  "verify_section_a": 7,
+  "verify_section_b": 42
+ },
+ "new_hazards_found": [
+  {
+   "hazard": "extractor emitted content=FULL with an EMPTY context for marks 48/72/76 (needs_visual set, context string blank) — R13 would hard-block any card citing them without visual evidence; handled this run by page renders + visual_source per protocol",
+   "mechanizable": false,
+   "why": "an extract_highlights.py locate/widen bug on figure-adjacent spans; needs extractor-level debugging in its own session — the visual-evidence protocol fully contains it meanwhile, and the gate already enforces that containment (R13 hard block)"
+  },
+  {
+   "hazard": "figure_run.py --report reads the canonical chapter_<N>_cards.json + live-deck attachments, so on a two-batch chapter it mis-reports (claimed '43 kept but only 14 notes carry a figure' by comparing THIS batch's keeps against the OLD batch's live notes)",
+   "mechanizable": false,
+   "why": "report tooling assumes one cards file per segment; a --cards override on figure_run.py is a small feature for a future session, not a card-safety issue — attachment was verified directly (43 image fields set; media_audit all clear: 24 refs / 24 files / 0 broken)"
+  },
+  {
+   "hazard": "stale wrong-art study copies from the 2026-08-08 index build: TABLE 9.1 and TABLE 9.4 carried the FIGURE 9.8 montage / beads-EM respectively; FIGURE 9.19 still stale (flagged quality_note in figure_index.json); 9 orphaned pre-v2 media files sat in the collection",
+   "mechanizable": false,
+   "why": "same class as R16 (cache adoption), whose extractor fix postdates that index build; every plate PROPOSED this run was eyeballed and rebuilt at the full-plate bar (15 rebuilt), the orphans are deleted, and the judge-look remains the standing guard for any future proposal of FIGURE 9.19"
+  }
+ ]
+}

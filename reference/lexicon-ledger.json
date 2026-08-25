@@ -144,6 +144,150 @@
     "segment": 9,
     "definition": "the DNA–protein complex that chromosomes are made of"
    }
+  ],
+  "plasmid": [
+   {
+    "term": "plasmids",
+    "noteId": 1787622211128,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "a small extra DNA circle in bacteria"
+   }
+  ],
+  "contour": [
+   {
+    "term": "contour",
+    "noteId": 1787622211248,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "its full stretched-out length, measured along the curve"
+   }
+  ],
+  "diameter": [
+   {
+    "term": "diameter",
+    "noteId": 1787622211366,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "its width straight through the center"
+   }
+  ],
+  "deterg": [
+   {
+    "term": "detergents",
+    "noteId": 1787622211481,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "soap-like chemicals that dissolve membranes, bursting cells open"
+   }
+  ],
+  "polyamin": [
+   {
+    "term": "polyamines",
+    "noteId": 1787622211596,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "small basic (positively charged) proteins"
+   }
+  ],
+  "polyc": [
+   {
+    "term": "polycations",
+    "noteId": 1787622211893,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "a molecule carrying many positive charges"
+   }
+  ],
+  "haploid": [
+   {
+    "term": "haploid",
+    "noteId": 1787622212064,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "having just one complete set of chromosomes"
+   }
+  ],
+  "commensurat": [
+   {
+    "term": "commensurate",
+    "noteId": 1787622212226,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "matching in size or proportion"
+   }
+  ],
+  "satellit_dnas": [
+   {
+    "term": "satellite DNAs",
+    "noteId": 1787622212386,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "the minor, repetitive fractions beside the main band"
+   }
+  ],
+  "constit": [
+   {
+    "term": "constituent",
+    "noteId": 1787622212568,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "a component part of a whole"
+   }
+  ],
+  "dna_duplex": [
+   {
+    "term": "DNA duplexes",
+    "noteId": 1787622212735,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "a DNA molecule of two paired strands"
+   }
+  ],
+  "in_situ_hybridiz": [
+   {
+    "term": "in situ hybridization",
+    "noteId": 1787622212920,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "locating a DNA sequence directly on the chromosome"
+   }
+  ],
+  "dispers_site": [
+   {
+    "term": "dispersed sites",
+    "noteId": 1787622213086,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "scattered, separate locations"
+   }
+  ],
+  "transposon": [
+   {
+    "term": "transposons",
+    "noteId": 1787622213270,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "DNA segments that jump around the genome"
+   }
+  ],
+  "euchromatin": [
+   {
+    "term": "euchromatin",
+    "noteId": 1787622213452,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "the loosely packed chromatin that stains lightly"
+   }
+  ],
+  "germ_line_cell": [
+   {
+    "term": "germ-line cells",
+    "noteId": 1787622213620,
+    "source": "genetics",
+    "segment": 9,
+    "definition": "the cells that make eggs or sperm"
+   }
   ]
  }
 }
