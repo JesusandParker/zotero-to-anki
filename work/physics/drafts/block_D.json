@@ -1,0 +1,52 @@
+[
+ {
+  "Text": "An <b>order-of-magnitude estimate</b> is {{c1::a rough estimate rounded to powers of ten}}.",
+  "Back Extra": "Ex: \"Such an estimate is called an <b>order-of-magnitude estimate</b> and can be accurate within a factor of 10, and often better.\"<br><br>Distinguish: the bare phrase \"order of magnitude\" is sometimes used to mean simply the power of 10 itself.<br><br>Formal: \"A rough estimate can be made by rounding off all numbers to one significant figure and its power of 10, and after the calculation is made, again keeping only one significant figure.\"",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "order-of-magnitude estimate",
+   "term_key": "order_of_magnitud_estimat",
+   "anchor": {
+    "method": "external"
+   }
+  },
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [35],
+  "block": "D_estimating_dimensions",
+  "numeric": false,
+  "verified_against": "p13",
+  "verified_by": "agent — authored plain definition checked against the mark's own context; anchor external (no lexicon_evidence entry for order_of_magnitud_estimat); Ex:/Formal: quote the context verbatim with the interleaved margin-box text removed",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In physics, the {{c1::dimensions}} of a quantity refer to {{c2::the type of base quantities/units composing it}}.",
+  "Back Extra": "Distinguish: units change with the measuring system (velocity: km/h, m/s, or mi/h); dimensions do not — velocity is always [L/T].<br><br>Cue: dimensions are written inside square brackets — [L] for a length, [T] for a time.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [36],
+  "block": "D_estimating_dimensions",
+  "numeric": false,
+  "verified_against": "p16",
+  "verified_by": "agent — grounded verbatim in the §1-8 paragraph; velocity/[L]/[T] support sits in the mark's own context",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In physics, the dimensions of area are <i>always</i> {{c1::length squared — written [L²]}} — the units vary, not the dimensions.",
+  "Back Extra": "Distinguish: square meters, square feet, and cm² are all different units of area, and the dimensions behind every one of them are [L²].<br><br>Ex: a triangle's area formula and a circle's look different, yet both have the dimensions [L²].",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [37, 36],
+  "block": "D_estimating_dimensions",
+  "numeric": false,
+  "verified_against": "p16",
+  "verified_by": "agent, notation reconstructed from context; [L²] per source convention",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ }
+]

@@ -708,3 +708,15 @@ Fixes: `norm_fig_num` normalizes `;` `–` `—` to `-` (and strips trailing sep
 
 - **MUST CATCH:** a credit-less `FIGURE 1;1 …` caption block, with the flag on, indexed under the normalized id `FIGURE 1-1`.
 - **MUST NOT OVER-FLAG:** the same block with the flag OFF stays rejected (other sources' behavior unchanged); a Title-Case prose cross-reference ("see Figure 1–1 …") stays rejected even with the flag ON (R15 intact).
+
+## R55 — The same raster claimed by several captions (pair_art mispairing on margin-table pages)
+**Rule:** one raster belongs to at most ONE caption. **Caught by:** `build_figure_index.strip_duplicate_art` (post-index strip; stripped records land in `skipped` with the R55 reason); `test_figures.py` `r55`. Found 2026-08-26 on physics ch1: every live-text margin TABLE on p31 walked `pair_art` to the same nearby photo, so TABLE 1-3/1-4/1-5/1-6 all carried the K2 mountain (FIGURE 1-9's art, 302×302) and FIGURE 1-12 carried 1-11's micrometer. The judge-look caught it by eye (its designed containment); this closes it mechanically.
+
+- **MUST CATCH:** N>1 distinct labels whose native art files are byte-identical — strip art from ALL claimants (safe: no wrong art ships; a legitimate plate can be re-attached by hand).
+- **MUST NOT OVER-FLAG:** a page-straddling plate (one image object placed twice under ONE label); renders (`text-table-render`, `vector-render`, drill composites) are caption-bounded and are never checked.
+
+## R56 — A staged `image` path that does not resolve is SILENTLY dropped by the writer
+**Rule:** every staged `image` must resolve from the pipeline root at gate time. **Caught by:** `check_cards.image_paths_check` (HARD; `image_side` without `image` warns); `test_regressions.py` `r56_*`. Found 2026-08-26: the physics ch1 Aristotle/Galileo card — the one card Parker's margin comment explicitly requested artwork for — shipped without its School of Athens plate because its `image` was work-dir-relative; `anki_write` embeds only `if os.path.exists(...)` and says nothing otherwise. Repaired live via a guarded, round-trip-verified update.
+
+- **MUST CATCH:** `image` set to a path that fails `os.path.exists` from the CWD the pipeline runs in (the same condition the writer tests, so the gate fails exactly what the writer would drop).
+- **MUST NOT OVER-FLAG:** an absolute path that exists; a card with no image at all.

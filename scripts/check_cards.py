@@ -1096,6 +1096,27 @@ def _visual_evidence_exists(card, source_root=None):
     return False
 
 
+def image_paths_check(cards):
+    """(hard, warn) — a staged `image` must RESOLVE, or the writer silently drops it (R56).
+
+    anki_write embeds an image only `if os.path.exists(c["image"])` — with no message when
+    it doesn't. The physics ch1 dates card shipped without its School of Athens plate that
+    exact way: a work-dir-relative path passed every other check and vanished at write
+    time (2026-08-26). The gate runs from the same CWD as the writer, so what fails here
+    is precisely what the writer would drop. `image_side` without an `image` is drift
+    (note-format.md) and only warns."""
+    hard, warn = [], []
+    for i, c in enumerate(cards):
+        img = c.get("image")
+        if img and not os.path.exists(img):
+            hard.append(f"#{i}: image path does not resolve from the pipeline root — the "
+                        f"writer would SILENTLY drop it (R56): {img}")
+        if c.get("image_side") and not img:
+            warn.append(f"#{i}: image_side set with no image — drift; omit it "
+                        f"(note-format.md)")
+    return hard, warn
+
+
 def grounding_check(cards, highlights, require_provenance=False, source_root=None):
     """(hard, warn) — is every claim supported by the source it cites?"""
     hard, warn = [], []
@@ -1408,6 +1429,10 @@ def main():
         hard += h
         warn += w
         reads.append(readable(c.get("Text", "")))
+    if not live:
+        ih, iw = image_paths_check(cards)
+        hard += ih
+        warn += iw
     # R13 — grounding: every claim supported by the source the card cites (file mode only;
     # a live audit has no provenance link back to the extractor's output).
     ground_note = ""

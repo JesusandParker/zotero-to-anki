@@ -1,0 +1,34 @@
+{
+ "source": "physics",
+ "produced_by": "lexicon.py",
+ "terms": {
+  "theor": {
+   "term": "theories",
+   "method": "in_source",
+   "page": "24",
+   "quote": "Theories are never derived directly from observations",
+   "occurrences": 38
+  },
+  "principl": {
+   "term": "principle",
+   "method": "in_source",
+   "page": "26",
+   "quote": "principle is often used (such as Archimedes’ principle)",
+   "occurrences": 149
+  },
+  "perc_uncertaint": {
+   "term": "Percent Uncertainty",
+   "method": "in_source",
+   "page": "27",
+   "quote": "percent uncertainty is the ratio of of a board with a centimeter ruler",
+   "occurrences": 8
+  },
+  "unit": {
+   "term": "unit",
+   "method": "in_source",
+   "page": "31",
+   "quote": "unit (u or amu)",
+   "occurrences": 258
+  }
+ }
+}

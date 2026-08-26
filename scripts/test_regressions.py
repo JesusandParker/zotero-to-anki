@@ -35,6 +35,39 @@ LEX_MARKS = [
 ]
 
 CASES = [
+    # --- R56: a staged image path that does not resolve is silently dropped by the writer
+    {
+        "id": "r56_bad_image_path_that_does_not_resolve",
+        "warn": "would SILENTLY drop it",
+        "present": True, "scope": "hard",
+        "cards": [{"Text": "<b>Aristotle</b> lived {{c1::384–322 B.C.::lifespan}}.",
+                   "Back Extra": "Cue: B.C. antiquity.",
+                   "image": "figures/study/nonexistent_plate.jpg", "image_side": "front",
+                   "chapter": 1}],
+        "note": "anki_write embeds an image only `if os.path.exists(...)`, with no message "
+                "otherwise — the physics ch1 dates card lost its School of Athens plate to a "
+                "work-dir-relative path exactly this way (2026-08-26).",
+    },
+    {
+        "id": "r56_good_image_path_that_resolves",
+        "warn": "would SILENTLY drop it",
+        "present": False, "scope": "hard",
+        "cards": [{"Text": "<b>Aristotle</b> lived {{c1::384–322 B.C.::lifespan}}.",
+                   "Back Extra": "Cue: B.C. antiquity.",
+                   "image": os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                          "check_cards.py"),
+                   "image_side": "front", "chapter": 1}],
+        "note": "an absolute path that exists must pass — only unresolvable paths block",
+    },
+    {
+        "id": "r56_warn_image_side_with_no_image",
+        "warn": "image_side set with no image",
+        "present": True, "scope": "warn",
+        "cards": [{"Text": "<b>Aristotle</b> lived {{c1::384–322 B.C.::lifespan}}.",
+                   "Back Extra": "Cue: B.C. antiquity.",
+                   "image_side": "back", "chapter": 1}],
+        "note": "note-format.md: image_side on an image-less card is drift — omit it",
+    },
     # --- R53: an accidental re-cloze in the editor nests one cloze inside another -----
     {
         "id": "r53_bad_nested_cloze_covering_the_whole_outer_answer",

@@ -22,7 +22,7 @@ Usage
 Writes work/<source>/figures/*.png and work/<source>/figure_index.json.
 Needs the skill venv (PyMuPDF):  .venv/bin/python scripts/build_figure_index.py ...
 """
-import argparse, json, os, re, subprocess, sys
+import argparse, hashlib, json, os, re, subprocess, sys
 
 try:
     import fitz  # PyMuPDF
@@ -632,6 +632,43 @@ def vector_region(page, cap_bbox):
     return (x0 - 4, y0 - 4, x1 + 4, y1 + 4)
 
 
+def strip_duplicate_art(recs, base):
+    """One raster belongs to at most ONE caption — R55.
+
+    pair_art searches outward from a caption, so on a page whose figures are live-text
+    margin tables (Giancoli p31) EVERY caption walks to the same nearby photo: chapter 1
+    handed the K2 mountain (FIGURE 1-9's art) to four TABLE captions, and the micrometer
+    to both FIGURE 1-11 and 1-12. A plate that genuinely straddles pages is one image
+    placed twice under ONE label, so it never trips this. Only 'native' extractions are
+    checked — renders are caption-bounded and cannot adopt a neighbour's art. Records
+    losing their art are returned as skipped entries; the files stay on disk for
+    inspection."""
+    by_hash = {}
+    for r in recs:
+        if r.get("extraction") != "native" or not r.get("file"):
+            continue
+        p = os.path.join(base, r["file"])
+        if not os.path.exists(p):
+            continue
+        by_hash.setdefault(hashlib.sha256(open(p, "rb").read()).hexdigest(), []).append(r)
+    doomed = {}
+    for h, claimants in by_hash.items():
+        labels = sorted({r["label"] for r in claimants})
+        if len(labels) > 1:
+            for r in claimants:
+                doomed[r["label"]] = labels
+    kept, stripped = [], []
+    for r in recs:
+        if r["label"] in doomed:
+            others = [l for l in doomed[r["label"]] if l != r["label"]]
+            stripped.append({"label": r["label"], "page": r["caption_page"],
+                             "why": f"duplicate-art: the same raster was claimed by "
+                                    f"{', '.join(others)} too — pair_art mispairing (R55)"})
+        else:
+            kept.append(r)
+    return kept, stripped
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--source", required=True)
@@ -744,6 +781,10 @@ def main():
                 "seen_description": seen.get(cap["label"]),
                 "terms": terms_of(cap["title"], desc, xref, seen.get(cap["label"])),
             })
+
+    recs, dup_stripped = strip_duplicate_art(recs, base)
+    for d in dup_stripped:
+        skipped.append(d)
 
     label = f"segment_{args.segment}" if args.segment is not None else f"pages_{first}_{last}"
     index = {"source": src["id"], "scope": label, "pages": [first, last],

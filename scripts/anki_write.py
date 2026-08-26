@@ -143,6 +143,17 @@ def main():
     if not cards:
         sys.exit(f"ERROR: {args.cards_json} contains no cards.")
 
+    # --run promises per-card traceability, and attach_note_ids silently returns 0 when
+    # the run has no provenance.jsonl yet — which is how physics ch1 staged with
+    # "linked 0 card(s)" and needed a post-hoc rebuild (2026-08-26). Records exist
+    # BEFORE the write (provenance.md); noteIds attach after. Fail loud, not late.
+    if args.run and not args.dry_run and not os.path.exists(
+            os.path.join(args.run, "provenance.jsonl")):
+        sys.exit(f"ERROR: --run given but {os.path.join(args.run, 'provenance.jsonl')} "
+                 f"does not exist. Write the per-card provenance records first (one per "
+                 f"card_index), then stage — otherwise no noteId can ever be linked back. "
+                 f"See reference/provenance.md.")
+
     # ---- which source? explicit flag, else the cards' own field, else fail loudly.
     source_id = args.source or next((c.get("source") for c in cards if c.get("source")), None)
     if not source_id and not args.deck:

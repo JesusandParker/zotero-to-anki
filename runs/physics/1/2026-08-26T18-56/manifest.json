@@ -1,0 +1,61 @@
+{
+ "run_id": "2026-08-26T18-56",
+ "source": "physics",
+ "segment": 1,
+ "started": "2026-08-26T18:56:07",
+ "skill_sha": "5bafff0b291a26f69fb7e9dbe932aceccf93784e",
+ "note": "chapter 1 first run — 38 marks (27 yellow + 11 purple); new source registered this session; figure-index caps-label fix (R54) landed first",
+ "status": "complete",
+ "finished": "2026-08-26T19:44:46",
+ "counts": {
+  "marks_total": 38,
+  "marks_yellow": 27,
+  "marks_purple": 11,
+  "cards_drafted": 55,
+  "editor_rewrites": 14,
+  "editor_added": 1,
+  "cards_dropped": 0,
+  "cards_staged": 56,
+  "lexicon_cards": 10,
+  "lexicon_in_source_anchors": 2,
+  "lexicon_external_anchors": 8,
+  "lexicon_fold_ins": 1,
+  "lexicon_duplicates": 0,
+  "prefix_table_notes": 20,
+  "figures_indexed": 20,
+  "figures_proposed": 38,
+  "figures_forced": 21,
+  "figures_kept": 23,
+  "figures_rejected": 15,
+  "plates_attached": 4,
+  "custom_assets": 1,
+  "verify_section_a": 8,
+  "verify_section_b": 34,
+  "consolidation_edits": 2,
+  "live_repairs": 1
+ },
+ "new_hazards_found": [
+  {
+   "hazard": "Giancoli 7e prints no per-figure credit lines and its en-dash label separators reach PyMuPDF as ';'/'–' with span-level spaces — build_figure_index found ZERO figures for a 20-page chapter",
+   "regression_id": "R54"
+  },
+  {
+   "hazard": "pair_art handed the same nearby raster (the K2 photo) to four live-text margin TABLE captions and duplicated the micrometer across FIGURE 1-11/1-12 — wrong art one judge-miss away from live cards",
+   "regression_id": "R55"
+  },
+  {
+   "hazard": "anki_write embeds a card's image only if os.path.exists(...) and says NOTHING otherwise — the dates card (the one card Parker's margin comment requested artwork for) staged without its plate because its path was work-dir-relative",
+   "regression_id": "R56"
+  },
+  {
+   "hazard": "anki_write --run printed 'linked 0 card(s)' because provenance.jsonl did not exist before the write; noteIds were recomputed post-hoc by text match",
+   "mechanizable": false,
+   "why": "closed in code, not by a regression: anki_write now refuses --run when the run has no provenance.jsonl (fail-loud pre-flight); the writer has no offline test harness (needs live AnkiConnect), so no isolated regression case exists — the guard plus this note is the containment"
+  },
+  {
+   "hazard": "render_check's fixed-height contact-sheet cells clip tall cards (the interpolate card's plate rendered as a sliver); stored media verified byte-identical and complete",
+   "mechanizable": false,
+   "why": "cosmetic limitation of the review tool only — the real card scrolls in Anki; media_audit already verifies bytes; a taller cell is a future tool tweak, not a card-safety hole"
+  }
+ ]
+}

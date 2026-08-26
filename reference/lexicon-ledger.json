@@ -288,6 +288,106 @@
     "segment": 9,
     "definition": "the cells that make eggs or sperm"
    }
+  ],
+  "theor": [
+   {
+    "term": "theories",
+    "noteId": 1787787290588,
+    "source": "physics",
+    "segment": 1,
+    "definition": "a broad, testable explanation that organizes observations"
+   }
+  ],
+  "principl": [
+   {
+    "term": "principle",
+    "noteId": 1787787291134,
+    "source": "physics",
+    "segment": 1,
+    "definition": "a statement like a law, but less general"
+   }
+  ],
+  "interpolat": [
+   {
+    "term": "interpolate",
+    "noteId": 1787787291306,
+    "source": "physics",
+    "segment": 1,
+    "definition": "to estimate between a scale's smallest divisions"
+   }
+  ],
+  "estimat_uncertaint": [
+   {
+    "term": "estimated uncertainty",
+    "noteId": 1787787291411,
+    "source": "physics",
+    "segment": 1,
+    "definition": "the stated ± it might be off by"
+   }
+  ],
+  "unit": [
+   {
+    "term": "unit",
+    "noteId": 1787787297505,
+    "source": "physics",
+    "segment": 1,
+    "definition": "the named amount a measurement is expressed in"
+   }
+  ],
+  "standard": [
+   {
+    "term": "standard",
+    "noteId": 1787787297614,
+    "source": "physics",
+    "segment": 1,
+    "definition": "the agreed physical reference defining a unit exactly"
+   }
+  ],
+  "base_quant": [
+   {
+    "term": "base quantity",
+    "noteId": 1787787297726,
+    "source": "physics",
+    "segment": 1,
+    "definition": "defined by its own standard, not other quantities"
+   }
+  ],
+  "deriv_quant": [
+   {
+    "term": "derived quantities",
+    "noteId": 1787787297837,
+    "source": "physics",
+    "segment": 1,
+    "definition": "quantities defined in terms of the base quantities"
+   }
+  ],
+  "oper_defin": [
+   {
+    "term": "operational definition",
+    "noteId": 1787787297957,
+    "source": "physics",
+    "segment": 1,
+    "definition": "a definition that specifies a rule or procedure"
+   }
+  ],
+  "order_of_magnitud_estimat": [
+   {
+    "term": "order-of-magnitude estimate",
+    "noteId": 1787787298093,
+    "source": "physics",
+    "segment": 1,
+    "definition": "a rough estimate rounded to powers of ten"
+   }
+  ],
+  "perc_uncertaint": [
+   {
+    "term": "Percent Uncertainty",
+    "noteId": 1787787291558,
+    "source": "physics",
+    "segment": 1,
+    "definition": "the uncertainty over the measured value, × 100",
+    "note": "covered by a cross-lane fold-in: the purple mark (idx 17) was folded into the yellow percent-uncertainty definition card (idx 11) per Stage 2.5 — a regular card, not kind:lexicon, hence this hand entry at consolidation"
+   }
   ]
  }
 }

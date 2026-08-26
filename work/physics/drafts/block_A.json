@@ -1,0 +1,112 @@
+[
+ {
+  "Text": "Physics is usually divided into two fields:<br><br>motion, fluids, heat, sound, light, electricity, magnetism → {{c1::classical::classical/modern}} physics<br><br>relativity, atomic structure, quantum theory, condensed matter, nuclear physics, elementary particles, cosmology and astrophysics → {{c1::modern::classical/modern}} physics",
+  "Back Extra": "Why: physics is the most basic of the sciences — it deals with the behavior and structure of matter.<br><br>Cue: the study of motion is also called <i>mechanics</i>.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [0],
+  "block": "A_science_history",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "<b>Aristotle</b>, who argued that rest is the natural state of objects, lived {{c1::384–322 B.C.::lifespan}}, and <b>Galileo</b>, the first true experimentalist, lived {{c2::1564–1642::lifespan}}.",
+  "Back Extra": "Distinguish: Aristotle watched pushed objects slow and stop, so rest seemed natural; Galileo imagined frictionless motion continuing forever, and so founded our modern view of motion.<br><br>Cue: nearly 1,900 years separate them — B.C. antiquity to the Renaissance.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [1, 2, 3],
+  "block": "A_science_history",
+  "numeric": true,
+  "verified_against": "p23",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In science, a <b>theory</b> is {{c1::a broad, testable explanation that orders observations}}.",
+  "Back Extra": "Ex: \"Observation, with careful experimentation and measurement, is one side of the scientific process. The other side is the invention or creation of <b>theories</b> to explain and order the observations.\"<br><br>Distinguish: a <b>model</b> is a simple analogy to the familiar; a <b>law</b> is a concise statement of how nature behaves — a theory is the broader explanatory picture.<br><br>Why: theories are never derived directly from observations — they are inspirations of the human mind, accepted or rejected by observation and experiment.",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "theories",
+   "term_key": "theor",
+   "anchor": {"method": "in_source", "page": "24"}
+  },
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [4],
+  "block": "A_science_history",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The notebooks of {{c1::Leonardo da Vinci}} contain the first references to {{c2::the forces acting within a structure}} — a subject regarded as physics today, with great relevance to architecture and building.",
+  "Back Extra": "Distinguish: da Vinci (1452–1519) worked a century before Galileo (1564–1642), the first true experimentalist.<br><br>Why: the development of physics has both influenced and been influenced by other fields.<br><br>Ex: early work on electricity, leading to the battery and electric current, came from Luigi Galvani — an eighteenth-century physiologist.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [5, 2],
+  "block": "A_science_history",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In science, a {{c1::model}} is {{c2::an analogy to something already familiar}}.",
+  "Back Extra": "Distinguish: a <b>theory</b> is broader, more detailed, and gives quantitatively testable predictions — a model only offers structural similarity to the phenomena.<br><br>Why: the purpose of a model is an approximate mental or visual picture — something to hold on to — when we cannot see what is actually happening.<br><br>Ex: the wave model of light — we cannot see light waves, but light behaves in many respects as water waves do.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [6, 7],
+  "block": "A_science_history",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "A scientific {{c1::law}} is {{c2::a concise but general statement}} about how nature behaves, often taking the form of {{c3::a relationship or equation between quantities}}.",
+  "Back Extra": "Distinguish: a <b>principle</b> is the same kind of statement but less general; a <b>theory</b> is a broader, more detailed picture of the phenomena.<br><br>Ex: conservation of electric charge; Newton's second law, <i>F = ma</i>.<br><br>Pitfall: scientific laws are <i>descriptive</i> — they say how nature does behave; political laws are prescriptive — how we ought to behave.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [7],
+  "block": "A_science_history",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In science, a <b>principle</b> is {{c1::a statement like a law, but less general}}.",
+  "Back Extra": "Ex: \"For less general statements, the term <b>principle</b> is often used (such as Archimedes' principle).\"<br><br>Distinguish: a <b>law</b> is experimentally valid over a wide range of observed phenomena — charge conservation, <i>F = ma</i>; a principle covers a narrower range.",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "principle",
+   "term_key": "principl",
+   "anchor": {"method": "in_source", "page": "26"}
+  },
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [8],
+  "block": "A_science_history",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ }
+]

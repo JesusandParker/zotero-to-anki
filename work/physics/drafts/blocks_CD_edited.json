@@ -1,0 +1,849 @@
+[
+ {
+  "Text": "The first truly international measurement standard was the {{c1::meter::unit}}, established by the {{c2::French Academy of Sciences::institution}} in the {{c3::1790s::decade}}.",
+  "Back Extra": "Ex: a platinum rod was made to represent the chosen length — a physical object to define the meter.<br><br>Cue: one meter is, very roughly, nose to fingertip with your arm and hand stretched out horizontally.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   22
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": "editor — numeric-looks warning cleared: 1790s is EXACT in idx 22's own highlight; needs_human_check derives at verify_report (R35-family convention)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The standard meter was originally chosen to be one {{c1::ten-millionth::fraction}} of the distance from the Earth's {{c2::equator to either pole::from where to where}}.",
+  "Back Extra": "Pitfall: the span runs equator → pole (either one), not pole to pole.<br><br>Ex: modern measurements of the Earth show the intended length was off by only about one-fiftieth of 1%.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   23,
+   26
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": "editor — Back Extra Ex (off by one-fiftieth of 1%) is idx 23's own † footnote; its text was captured in idx 26's context window, now cited so R13 support is auditable",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Since 1983, the <b>meter</b> is defined as the length of the path traveled by {{c1::light in vacuum}} during {{c2::1/299,792,458}} of a second.",
+  "Back Extra": "Cue: the fraction is the reciprocal of the speed of light — 299,792,458 m/s was its best measured value under the old meter definition.<br><br>Pathway: a physical rod → engraved marks on a metal bar (1889) → krypton-86 wavelengths (1960) → light travel time (1983, current).",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   24,
+   23
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": "editor — fraction 1/299,792,458 matches idx 24's context digit-for-digit (CJK slash normalized); Pathway rewritten: sibling answers (1790s, equator-to-pole, platinum-iridium) stripped, 1889/1960/rod grounded via idx 23 (now cited)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The standard unit of time is the {{c1::second}}, now defined in terms of the frequency of radiation emitted by {{c2::cesium::element}} atoms when they pass between two particular states.",
+  "Back Extra": "Ex: one second is defined as the time for 9,192,631,770 oscillations of the cesium radiation.<br><br>Distinguish: the <i>old</i> definition was 1/86,400 of a mean solar day (24 h/day × 60 min/h × 60 s/min = 86,400 s/day).",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   25,
+   26
+  ],
+  "block": "C_units_standards",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "editor — Back Extra constants 9,192,631,770 and 1/86,400 match idx 26's context verbatim (text layer, EXACT grounding)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The standard unit of mass is the {{c1::kilogram}} — defined as exactly the mass of a particular {{c2::platinum-iridium::alloy}} cylinder kept at the {{c3::International Bureau of Weights and Measures::institution}} near Paris.",
+  "Back Extra": "Distinguish: same alloy, different object — the 1889 meter standard was a platinum-iridium <b>bar</b> with engraved marks; the mass standard is a platinum-iridium <b>cylinder</b>.<br><br>Ex: for practical purposes, 1 kg weighs about 2.2 pounds on Earth.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   27,
+   28,
+   23
+  ],
+  "block": "C_units_standards",
+  "numeric": false,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run; editor — 1889 meter-bar fact in Distinguish grounded via idx 23 (now cited)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "When dealing with atoms and molecules, mass is usually given in the {{c1::unified atomic mass unit (u or amu)}} rather than in kilograms.",
+  "Back Extra": "Ex: 1 u = 1.6605 × 10⁻²⁷ kg.<br><br>Why: atomic-scale masses are absurdly small in kilograms — a proton is about 10⁻²⁷ kg — so a matched unit is handier.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   29
+  ],
+  "block": "C_units_standards",
+  "numeric": false,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In the metric system, larger and smaller units are defined in multiples of {{c1::10::number}} from the standard unit, which makes calculation particularly easy.",
+  "Back Extra": "Ex: the prefixes — centi-, kilo-, and the rest — attach to any unit, not just length: volume (centiliter), mass (kilogram), and so on.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   30
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": null,
+  "verified_by": "editor — prefix VALUES (kilo=1000, centi=1/100, milli=1/1000) stripped from Back Extra: they restated three sibling row cards' answers in prose (rule 25 back-leak, checks 16/27)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>yotta</b> (Y) multiplies a unit by {{c1::10²⁴::power of ten}}.",
+  "Back Extra": "Ex: 1 yottameter (Ym) = 10²⁴ m.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>zetta</b> (Z) multiplies a unit by {{c1::10²¹::power of ten}}.",
+  "Back Extra": "Ex: 1 zettameter (Zm) = 10²¹ m.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>exa</b> (E) multiplies a unit by {{c1::10¹⁸::power of ten}}.",
+  "Back Extra": "Ex: 1 exameter (Em) = 10¹⁸ m.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>peta</b> (P) multiplies a unit by {{c1::10¹⁵::power of ten}}.",
+  "Back Extra": "Ex: 1 petameter (Pm) = 10¹⁵ m.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>tera</b> (T) multiplies a unit by {{c1::10¹²::power of ten}}.",
+  "Back Extra": "Ex: 1 terawatt (TW) = 10¹² W.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>giga</b> (G) multiplies a unit by {{c1::10⁹::power of ten}}.",
+  "Back Extra": "Ex: 1 gigahertz (GHz) = 10⁹ Hz.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>mega</b> (M) multiplies a unit by {{c1::10⁶::power of ten}}.",
+  "Back Extra": "Ex: 1 megapixel = 10⁶ pixels — an 8.2-megapixel camera has 8,200,000 of them.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32,
+   30
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run; editor — 8.2-megapixel Ex grounded via idx 30 (now cited)",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>kilo</b> (k) multiplies a unit by {{c1::10³::power of ten}}.",
+  "Back Extra": "Ex: 1 kilometer (km) = 10³ m = 1000 m.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>hecto</b> (h) multiplies a unit by {{c1::10²::power of ten}}.",
+  "Back Extra": "Ex: 1 hectometer (hm) = 10² m = 100 m.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>deka</b> (da) multiplies a unit by {{c1::10¹::power of ten}}.",
+  "Back Extra": "Ex: 1 dekameter (dam) = 10¹ m = 10 m.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>deci</b> (d) multiplies a unit by {{c1::10⁻¹::power of ten}}.",
+  "Back Extra": "Ex: 1 deciliter (dL) = 10⁻¹ L = 1/10 L.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>centi</b> (c) multiplies a unit by {{c1::10⁻²::power of ten}}.",
+  "Back Extra": "Ex: 1 centimeter (cm) = 10⁻² m = 1/100 m.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>milli</b> (m) multiplies a unit by {{c1::10⁻³::power of ten}}.",
+  "Back Extra": "Ex: 1 millimeter (mm) = 10⁻³ m = 1/1000 m.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>micro</b> (μ) multiplies a unit by {{c1::10⁻⁶::power of ten}}.",
+  "Back Extra": "Ex: 1 micrometer (μm) = 10⁻⁶ m.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>nano</b> (n) multiplies a unit by {{c1::10⁻⁹::power of ten}}.",
+  "Back Extra": "Ex: 1 nanometer (nm) = 10⁻⁹ m.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>pico</b> (p) multiplies a unit by {{c1::10⁻¹²::power of ten}}.",
+  "Back Extra": "Ex: 1 picosecond (ps) = 10⁻¹² s.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>femto</b> (f) multiplies a unit by {{c1::10⁻¹⁵::power of ten}}.",
+  "Back Extra": "Ex: 1 femtosecond (fs) = 10⁻¹⁵ s.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>atto</b> (a) multiplies a unit by {{c1::10⁻¹⁸::power of ten}}.",
+  "Back Extra": "Ex: 1 attosecond (as) = 10⁻¹⁸ s.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>zepto</b> (z) multiplies a unit by {{c1::10⁻²¹::power of ten}}.",
+  "Back Extra": "Ex: 1 zeptosecond (zs) = 10⁻²¹ s.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>yocto</b> (y) multiplies a unit by {{c1::10⁻²⁴::power of ten}}.",
+  "Back Extra": "Ex: 1 yoctogram (yg) = 10⁻²⁴ g.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>micro</b> is abbreviated {{c1::μ (mu)::symbol}}.",
+  "Back Extra": "Distinguish: the Latin letter m already belongs to <b>milli</b> — micro takes the Greek letter mu instead.<br><br>Ex: 1 μg (microgram), 1 μm (micrometer).",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": false,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI prefix <b>deka</b> is abbreviated {{c1::da::symbol}} — the only two-letter SI prefix abbreviation.",
+  "Back Extra": "Distinguish: the plain letter d already belongs to <b>deci</b> — deka gets \"da\".<br><br>Ex: a dekameter is abbreviated dam.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": false,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "SI prefix abbreviations are {{c1::uppercase::uppercase/lowercase}} for <b>mega</b> and larger prefixes, and {{c1::lowercase::uppercase/lowercase}} for <b>kilo</b> and smaller.",
+  "Back Extra": "Pitfall: case is load-bearing — M (mega) and m (milli) name wildly different sizes.<br><br>Cue: big multipliers, big letters.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   32
+  ],
+  "block": "C_units_standards",
+  "numeric": false,
+  "verified_against": "p31",
+  "verified_by": "agent, read from page render this run; editor — sibling exponents (10^6, 10^3) stripped from the stem: they revealed the mega and kilo row cards' answers on a visible side (checks 15/16); boundary anchors are the prefix NAMES, which the case answer needs anyway",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "work/physics/page_31.png"
+   ],
+   "note": "TABLE 1-4 read from page render"
+  },
+  "image": null
+ },
+ {
+  "Text": "In measurement, a <b>unit</b> is {{c1::the named amount a measurement is expressed in}}.",
+  "Back Extra": "Ex: \"The measurement of any quantity is made relative to a particular standard or <b>unit</b>, and this unit must be specified along with the numerical value of the quantity.\"<br><br>Distinguish: the unit is what you express results in (meters); the standard is the agreed physical reference that defines the unit exactly.",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "unit",
+   "term_key": "unit",
+   "anchor": {
+    "method": "external"
+   }
+  },
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   20
+  ],
+  "block": "C_units_standards",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "lexicon in_source hit cleared: the p31 evidence quote 'unit (u or amu)' is the atomic-mass-unit sense, not the generic p29 sense Parker marked — downgraded to external per recipes §4b SENSE-CHECK",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In measurement, a <b>standard</b> is {{c1::the agreed physical reference defining a unit exactly}}.",
+  "Back Extra": "Ex: \"The measurement of any quantity is made relative to a particular <b>standard</b> or unit, and this unit must be specified along with the numerical value of the quantity.\"<br><br>Distinguish: the standard is the defining reference itself (the platinum-iridium kilogram cylinder near Paris); the unit is the named amount you measure in (the kilogram).",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "standard",
+   "term_key": "standard",
+   "anchor": {
+    "method": "external"
+   }
+  },
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   21
+  ],
+  "block": "C_units_standards",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "A <b>base quantity</b> is {{c1::one defined by its own standard, not other quantities}}.",
+  "Back Extra": "Ex: \"Physical quantities can be divided into two categories: <b>base quantities</b> and derived quantities.\"<br><br>Distinguish: a derived quantity (like speed) is built from base quantities; a base quantity rests directly on a standard.<br><br>Why: scientists want the smallest set that fully describes the physical world — in the SI it turns out to be seven.",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "base quantity",
+   "term_key": "base_quant",
+   "anchor": {
+    "method": "external"
+   }
+  },
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   31
+  ],
+  "block": "C_units_standards",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "long-blank warning cleared: 9 plain words is the floor that keeps the mandated discriminator (defined by its OWN standard, not from other quantities)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "<b>Derived quantities</b> are {{c1::quantities defined in terms of the base quantities}}.",
+  "Back Extra": "Ex: \"All other quantities can be defined in terms of these seven base quantities, and hence are referred to as <b>derived quantities</b>.\"<br><br>Distinguish: a base quantity is defined by its own standard; a derived one is built from base quantities — e.g., speed = distance ÷ time.",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "derived quantities",
+   "term_key": "deriv_quant",
+   "anchor": {
+    "method": "external"
+   }
+  },
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   33
+  ],
+  "block": "C_units_standards",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "An <b>operational definition</b> is {{c1::a definition that specifies a rule or procedure}}.",
+  "Back Extra": "Ex: \"To define any quantity, whether base or derived, we can specify a rule or procedure, and this is called an <b>operational definition</b>.\"<br><br>Parts: operational — from \"operation\": the definition tells you which operations (steps) to carry out.",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "operational definition",
+   "term_key": "oper_defin",
+   "anchor": {
+    "method": "external"
+   }
+  },
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   34
+  ],
+  "block": "C_units_standards",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "An <b>order-of-magnitude estimate</b> is {{c1::a rough estimate rounded to powers of ten}}.",
+  "Back Extra": "Ex: \"Such an estimate is called an <b>order-of-magnitude estimate</b> and can be accurate within a factor of 10, and often better.\"<br><br>Distinguish: the bare phrase \"order of magnitude\" is sometimes used to mean simply the power of 10 itself.<br><br>Formal: \"A rough estimate can be made by rounding off all numbers to one significant figure and its power of 10, and after the calculation is made, again keeping only one significant figure.\"",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "order-of-magnitude estimate",
+   "term_key": "order_of_magnitud_estimat",
+   "anchor": {
+    "method": "external"
+   }
+  },
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   35
+  ],
+  "block": "D_estimating_dimensions",
+  "numeric": false,
+  "verified_against": "p34",
+  "verified_by": "agent — authored plain definition checked against the mark's own context; anchor external (no lexicon_evidence entry for order_of_magnitud_estimat); Ex:/Formal: quote the context verbatim with the interleaved margin-box text removed; editor: verified_against normalized to PDF page p34 (book label 13) per block A/C convention",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In physics, the {{c1::dimensions}} of a quantity refer to {{c2::the type of base quantities/units composing it}}.",
+  "Back Extra": "Distinguish: units change with the measuring system (velocity: km/h, m/s, or mi/h); dimensions do not — velocity is always [L/T].<br><br>Cue: dimensions are written inside square brackets — [L] for a length, [T] for a time.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   36
+  ],
+  "block": "D_estimating_dimensions",
+  "numeric": false,
+  "verified_against": "p37",
+  "verified_by": "agent — grounded verbatim in the §1-8 paragraph; velocity/[L]/[T] support sits in the mark's own context; editor: verified_against normalized to PDF page p37 (book label 16) per block A/C convention",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In physics, the dimensions of area are <i>always</i> {{c1::length squared — written [L²]}} — the units vary, not the dimensions.",
+  "Back Extra": "Distinguish: square meters, square feet, and cm² are all different units of area, and the dimensions behind every one of them are [L²].<br><br>Ex: a triangle's area formula and a circle's look different, yet both have the dimensions [L²].",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [
+   37,
+   36
+  ],
+  "block": "D_estimating_dimensions",
+  "numeric": false,
+  "verified_against": "p37",
+  "verified_by": "agent, notation reconstructed from context; [L²] per source convention; editor: verified_against normalized to PDF page p37 (book label 16) per block A/C convention",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ }
+]

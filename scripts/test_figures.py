@@ -330,6 +330,50 @@ def r54():
 case("R54", "credit-less caps-label captions are corroborated; separator glyphs normalize", r54)
 
 
+# --------------------- R55: one raster belongs to at most one caption (duplicate art)
+# Giancoli p31: every live-text margin TABLE caption walked pair_art to the same nearby
+# photo, so TABLE 1-3/1-4/1-5/1-6 all shipped the K2 mountain (FIGURE 1-9's art) and
+# FIGURE 1-12 shipped 1-11's micrometer. The judge caught it by eye this run; this strips
+# it mechanically. A legitimately page-straddling plate is one image under ONE label and
+# must never trip it.
+def r55():
+    import tempfile
+    bad = []
+    with tempfile.TemporaryDirectory() as base:
+        def put(name, data):
+            with open(os.path.join(base, name), "wb") as f:
+                f.write(data)
+        put("k2.jpg", b"K2" * 100)
+        put("davinci.jpg", b"DV" * 100)
+        recs = [
+            {"label": "TABLE 1-3", "caption_page": 31, "file": "k2.jpg", "extraction": "native"},
+            {"label": "TABLE 1-4", "caption_page": 31, "file": "k2.jpg", "extraction": "native"},
+            {"label": "FIGURE 1-9", "caption_page": 32, "file": "k2.jpg", "extraction": "native"},
+            {"label": "FIGURE 1-3", "caption_page": 25, "file": "davinci.jpg", "extraction": "native"},
+            {"label": "TABLE 7-2", "caption_page": 691, "file": None, "extraction": "text-table-render(2p)"},
+        ]
+        kept, stripped = B.strip_duplicate_art(recs, base)
+        kept_labels = {r["label"] for r in kept}
+        if kept_labels != {"FIGURE 1-3", "TABLE 7-2"}:
+            bad.append(f"expected only the unique-art and render records kept, got {sorted(kept_labels)}")
+        if {s["label"] for s in stripped} != {"TABLE 1-3", "TABLE 1-4", "FIGURE 1-9"}:
+            bad.append(f"expected all three K2 claimants stripped, got {[s['label'] for s in stripped]}")
+        if stripped and "R55" not in stripped[0]["why"]:
+            bad.append("stripped record's why does not name R55")
+        # a page-straddling plate: same bytes, same label twice -> never stripped
+        recs2 = [
+            {"label": "FIGURE 9-3", "caption_page": 210, "file": "k2.jpg", "extraction": "native"},
+            {"label": "FIGURE 9-3", "caption_page": 211, "file": "k2.jpg", "extraction": "native"},
+        ]
+        kept2, stripped2 = B.strip_duplicate_art(recs2, base)
+        if stripped2:
+            bad.append("a page-straddling plate (same label twice) was wrongly stripped")
+    return bad
+
+
+case("R55", "the same raster claimed by two captions is stripped from both", r55)
+
+
 def main():
     fails = 0
     for cid, name, fn in CASES:
