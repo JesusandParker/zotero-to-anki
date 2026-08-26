@@ -1,133 +1,147 @@
 {
- "version": 1,
- "_comment": "The source registry: every Zotero item Parker can point Claude at, and where its cards go. Add a source with `python3 scripts/add_source.py`, which proposes the deck path and asks him once. Cards go straight into the source's `deck` (its Book Highlights deck) — there is no staging/review deck. See reference/sources.md for the field reference.",
- "defaults": {
-  "colors": [
-   "#ffd400",
-   "#facd5a"
-  ],
-  "lexicon_colors": [
-   "#a28ae5",
-   "#c885da"
-  ],
-  "model": "AnKing Cloze",
-  "deck": "{root}::Book Highlights",
-  "profile": "default",
-  "segment_noun": "Section"
- },
- "sources": {
-  "emt": {
-   "label": "EMT — AAOS Emergency Care & Transportation of the Sick and Injured, 12e (Pollak)",
-   "attachment_key": "Z98PW7AT",
-   "path_match": "Pollak",
-   "kind": "textbook",
-   "segments": "reference/maps/emt.json",
-   "segment_noun": "Chapter",
-   "deck_root": "all::EMT",
-   "deck": "{root}::Chapter {segment}::Book Highlights",
-   "tags": [
-    "ch{segment}"
-   ],
-   "profile": "emt",
-   "glossary_pages": [
-    4002,
-    4152
-   ],
-   "notes": "The original source this pipeline was built on. Deck names are case-exact and predate the registry — 'Chapter <N>'/'Book Highlights' Title Case. Do not restyle them; 899 existing notes live under this structure. The retired 'claude review' staging sibling was emptied into Book Highlights and deleted 2026-08-24. glossary_pages measured 2026-08-08 (physical pages; Index starts 4153)."
+  "version": 1,
+  "_comment": "The source registry: every Zotero item Parker can point Claude at, and where its cards go. Add a source with `python3 scripts/add_source.py`, which proposes the deck path and asks him once. Cards go straight into the source's `deck` (its Book Highlights deck) — there is no staging/review deck. See reference/sources.md for the field reference.",
+  "defaults": {
+    "colors": [
+      "#ffd400",
+      "#facd5a"
+    ],
+    "lexicon_colors": [
+      "#a28ae5",
+      "#c885da"
+    ],
+    "model": "AnKing Cloze",
+    "deck": "{root}::Book Highlights",
+    "profile": "default",
+    "segment_noun": "Section"
   },
-  "isaacs17": {
-   "label": "Genetics — Isaacs lecture, Chapter 17 (Gene Regulation)",
-   "attachment_key": "4SANPBYU",
-   "kind": "lecture",
-   "segment_noun": "Chapter",
-   "deck_root": "all::LIBERTY::Genetics::Isaacs 17 Gene Regulation",
-   "deck": "{root}::Book Highlights",
-   "tags": [
-    "isaacs17"
-   ],
-   "profile": "science",
-   "notes": "PROVISIONAL deck path — proposed by Claude 2026-07-29, not yet confirmed by Parker. Confirm or correct deck_root before the first anki_write run. Slides are marked with yellow UNDERLINE, not highlight."
-  },
-  "genetics": {
-   "label": "Genetics — Principles of Genetics, 7e (Snustad & Simmons)",
-   "attachment_key": "4JYSPKBJ",
-   "kind": "textbook",
-   "segments": "reference/maps/genetics.json",
-   "segment_noun": "Chapter",
-   "deck_root": "all::LIBERTY::LIBERTY FALL 2026::BIOL 301 - Genetics",
-   "deck": "{root}::Chapter {segment} - {segment_name}::Book Highlights",
-   "tags": [
-    "genetics-ch{segment}"
-   ],
-   "profile": "science",
-   "notes": "BIOL 301 course textbook. Deck names carry the chapter title via {segment_name} to match Parker's live 'Chapter 9 - DNA and the Molecular Structure of Chromosomes' deck (created by him 2026-08). Bonus chapters 21-24 sit AFTER the glossary/index physically (map reflects it). Printed page = physical - 22 for ch 1-20.",
-   "glossary_pages": [
-    606,
-    628
-   ]
-  },
-  "arabic": {
-   "label": "Arabic — Alif Baa: Introduction to Arabic Letters and Sounds, 3e (Brustad/Al-Batal/Al-Tonsi)",
-   "attachment_key": "HF2UEQIN",
-   "kind": "textbook",
-   "segment_noun": "Unit",
-   "deck_root": "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I",
-   "deck": "{root}::Unit {segment}::Book Highlights",
-   "profile": "language",
-   "segments": "reference/maps/arabic.json",
-   "tags": [
-    "arabic-u{segment}"
-   ],
-   "glossary_pages": [
-    236,
-    250
-   ],
-   "notes": "RUN A UNIT VIA reference/arabic-unit-playbook.md (end-to-end sequence, guards, Lingco harvest recipe, letter-extension policy for Units 2-10). SCAN with English-only OCR: the text layer contains ZERO Arabic codepoints (verified 2026-08-08 across all 251 pages). Every Arabic-bearing card MUST carry visual evidence (back-side source crop) and/or external authority. Authoritative Unicode Arabic for course-overlapping content: Lingco Classroom lesson JSON (class.lingco.io /api/content/lessons/<id>; Unit 1 vocab = lesson 8174), snapshot in work/arabic/. Course = MSA (Formal) — dialect columns go to Back Extra, not their own cards. RTL rules: stacked divs with dir attrs, never inline-mix Arabic+Latin, translit is answer-side only, diacritics ride carrier letters. Letter pron videos: local archive 'Anki Media Archive/Arabic - Al-Kitaab pronunciation'. Offset printed→physical is NOT constant (drifts +14→+17); map uses verified physical opener pages."
-  },
-  "lydia-anatomy": {
-   "label": "Lydia — Exploring Creation with Advanced Biology: The Human Body (Shannon & Yunis, 2013)",
-   "attachment_key": "9T5EUXQN",
-   "library": "Lydia Coursework",
-   "owner": "lydia",
-   "kind": "textbook",
-   "profile": "science",
-   "delivery": {
-    "mode": "apkg-email",
-    "to": "lydregner@gmail.com",
-    "tool": "~/lydia-anki-setup/lydia.py",
-    "model_id": 1782758085775
-   },
-   "segment_noun": "Module",
-   "deck_root": "not my decks::Lydia::Anatomy",
-   "deck": "{root}::Module {segment}",
-   "tags": [
-    "anatomy-m{segment}"
-   ],
-   "notes": "LYDIA'S SOURCE, NOT PARKER'S — reads from the 'Lydia Coursework' group (groupID 6638565, libraryID 2), never the personal library. Cards are written into Parker's Anki under 'not my decks::Lydia::...' so he can review and edit them, and are ALWAYS SUSPENDED on write; that tree is his existing convention for other people's decks (103k cards, zero ever due). Deliver with `lydia.py export`, which forces includeSched=False — exporting WITH scheduling preserves queue=-1 and Lydia would import a deck where no card ever appears, with no error to explain it (verified by experiment 2026-08-13). Notes carry a zk::<annotation-key> tag so re-runs update instead of duplicating. segment_noun 'Module' follows the Apologia series convention but is UNCONFIRMED — the group PDFs are not full-text indexed yet. No segments map exists; her current highlights all sit in pp. 3-13. TWO-COLUMN SCAN: pages are two columns on a 549.8pt-wide page; read straight across, pdftotext interleaves them into nonsense and destroys the grounding context. text_columns=2 with column_split_pts=270 (tuned — the midpoint 275 bleeds the right column's first letters into the left).",
-   "segments": "reference/maps/lydia-anatomy.json",
-   "text_columns": 2,
-   "column_split_pts": 270
-  },
-  "lydia-chemistry": {
-   "label": "Lydia — Discovering Design with Chemistry (Berean Builders, 2015)",
-   "attachment_key": "956XEWS4",
-   "library": "Lydia Coursework",
-   "owner": "lydia",
-   "kind": "textbook",
-   "profile": "science",
-   "delivery": {
-    "mode": "apkg-email",
-    "to": "lydregner@gmail.com",
-    "tool": "~/lydia-anki-setup/lydia.py",
-    "model_id": 1782758085775
-   },
-   "segment_noun": "Chapter",
-   "deck_root": "not my decks::Lydia::Chemistry",
-   "deck": "{root}::Chapter {segment}",
-   "tags": [
-    "chem-ch{segment}"
-   ],
-   "notes": "NO ANNOTATIONS YET as of 2026-08-13 — she has highlighted only the anatomy book so far. DUPLICATE UPLOAD: this PDF exists twice in the group, keys 956XEWS4 and T97T9YJS, byte-identical, both with zero annotations, ~38 MB each. This entry points at 956XEWS4. Delete T97T9YJS BEFORE she highlights chemistry — if she annotates the copy this entry does not point at, she gets zero cards and nothing explains why. See lydia-anatomy for the shared delivery rules."
+  "sources": {
+    "emt": {
+      "label": "EMT — AAOS Emergency Care & Transportation of the Sick and Injured, 12e (Pollak)",
+      "attachment_key": "Z98PW7AT",
+      "path_match": "Pollak",
+      "kind": "textbook",
+      "segments": "reference/maps/emt.json",
+      "segment_noun": "Chapter",
+      "deck_root": "all::EMT",
+      "deck": "{root}::Chapter {segment}::Book Highlights",
+      "tags": [
+        "ch{segment}"
+      ],
+      "profile": "emt",
+      "glossary_pages": [
+        4002,
+        4152
+      ],
+      "notes": "The original source this pipeline was built on. Deck names are case-exact and predate the registry — 'Chapter <N>'/'Book Highlights' Title Case. Do not restyle them; 899 existing notes live under this structure. The retired 'claude review' staging sibling was emptied into Book Highlights and deleted 2026-08-24. glossary_pages measured 2026-08-08 (physical pages; Index starts 4153)."
+    },
+    "isaacs17": {
+      "label": "Genetics — Isaacs lecture, Chapter 17 (Gene Regulation)",
+      "attachment_key": "4SANPBYU",
+      "kind": "lecture",
+      "segment_noun": "Chapter",
+      "deck_root": "all::LIBERTY::Genetics::Isaacs 17 Gene Regulation",
+      "deck": "{root}::Book Highlights",
+      "tags": [
+        "isaacs17"
+      ],
+      "profile": "science",
+      "notes": "PROVISIONAL deck path — proposed by Claude 2026-07-29, not yet confirmed by Parker. Confirm or correct deck_root before the first anki_write run. Slides are marked with yellow UNDERLINE, not highlight."
+    },
+    "genetics": {
+      "label": "Genetics — Principles of Genetics, 7e (Snustad & Simmons)",
+      "attachment_key": "4JYSPKBJ",
+      "kind": "textbook",
+      "segments": "reference/maps/genetics.json",
+      "segment_noun": "Chapter",
+      "deck_root": "all::LIBERTY::LIBERTY FALL 2026::BIOL 301 - Genetics",
+      "deck": "{root}::Chapter {segment} - {segment_name}::Book Highlights",
+      "tags": [
+        "genetics-ch{segment}"
+      ],
+      "profile": "science",
+      "notes": "BIOL 301 course textbook. Deck names carry the chapter title via {segment_name} to match Parker's live 'Chapter 9 - DNA and the Molecular Structure of Chromosomes' deck (created by him 2026-08). Bonus chapters 21-24 sit AFTER the glossary/index physically (map reflects it). Printed page = physical - 22 for ch 1-20.",
+      "glossary_pages": [
+        606,
+        628
+      ]
+    },
+    "arabic": {
+      "label": "Arabic — Alif Baa: Introduction to Arabic Letters and Sounds, 3e (Brustad/Al-Batal/Al-Tonsi)",
+      "attachment_key": "HF2UEQIN",
+      "kind": "textbook",
+      "segment_noun": "Unit",
+      "deck_root": "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I",
+      "deck": "{root}::Unit {segment}::Book Highlights",
+      "profile": "language",
+      "segments": "reference/maps/arabic.json",
+      "tags": [
+        "arabic-u{segment}"
+      ],
+      "glossary_pages": [
+        236,
+        250
+      ],
+      "notes": "RUN A UNIT VIA reference/arabic-unit-playbook.md (end-to-end sequence, guards, Lingco harvest recipe, letter-extension policy for Units 2-10). SCAN with English-only OCR: the text layer contains ZERO Arabic codepoints (verified 2026-08-08 across all 251 pages). Every Arabic-bearing card MUST carry visual evidence (back-side source crop) and/or external authority. Authoritative Unicode Arabic for course-overlapping content: Lingco Classroom lesson JSON (class.lingco.io /api/content/lessons/<id>; Unit 1 vocab = lesson 8174), snapshot in work/arabic/. Course = MSA (Formal) — dialect columns go to Back Extra, not their own cards. RTL rules: stacked divs with dir attrs, never inline-mix Arabic+Latin, translit is answer-side only, diacritics ride carrier letters. Letter pron videos: local archive 'Anki Media Archive/Arabic - Al-Kitaab pronunciation'. Offset printed→physical is NOT constant (drifts +14→+17); map uses verified physical opener pages."
+    },
+    "lydia-anatomy": {
+      "label": "Lydia — Exploring Creation with Advanced Biology: The Human Body (Shannon & Yunis, 2013)",
+      "attachment_key": "9T5EUXQN",
+      "library": "Lydia Coursework",
+      "owner": "lydia",
+      "kind": "textbook",
+      "profile": "science",
+      "delivery": {
+        "mode": "apkg-email",
+        "to": "lydregner@gmail.com",
+        "tool": "~/lydia-anki-setup/lydia.py",
+        "model_id": 1782758085775
+      },
+      "segment_noun": "Module",
+      "deck_root": "not my decks::Lydia::Anatomy",
+      "deck": "{root}::Module {segment}",
+      "tags": [
+        "anatomy-m{segment}"
+      ],
+      "notes": "LYDIA'S SOURCE, NOT PARKER'S — reads from the 'Lydia Coursework' group (groupID 6638565, libraryID 2), never the personal library. Cards are written into Parker's Anki under 'not my decks::Lydia::...' so he can review and edit them, and are ALWAYS SUSPENDED on write; that tree is his existing convention for other people's decks (103k cards, zero ever due). Deliver with `lydia.py export`, which forces includeSched=False — exporting WITH scheduling preserves queue=-1 and Lydia would import a deck where no card ever appears, with no error to explain it (verified by experiment 2026-08-13). Notes carry a zk::<annotation-key> tag so re-runs update instead of duplicating. segment_noun 'Module' follows the Apologia series convention but is UNCONFIRMED — the group PDFs are not full-text indexed yet. No segments map exists; her current highlights all sit in pp. 3-13. TWO-COLUMN SCAN: pages are two columns on a 549.8pt-wide page; read straight across, pdftotext interleaves them into nonsense and destroys the grounding context. text_columns=2 with column_split_pts=270 (tuned — the midpoint 275 bleeds the right column's first letters into the left).",
+      "segments": "reference/maps/lydia-anatomy.json",
+      "text_columns": 2,
+      "column_split_pts": 270
+    },
+    "lydia-chemistry": {
+      "label": "Lydia — Discovering Design with Chemistry (Berean Builders, 2015)",
+      "attachment_key": "956XEWS4",
+      "library": "Lydia Coursework",
+      "owner": "lydia",
+      "kind": "textbook",
+      "profile": "science",
+      "delivery": {
+        "mode": "apkg-email",
+        "to": "lydregner@gmail.com",
+        "tool": "~/lydia-anki-setup/lydia.py",
+        "model_id": 1782758085775
+      },
+      "segment_noun": "Chapter",
+      "deck_root": "not my decks::Lydia::Chemistry",
+      "deck": "{root}::Chapter {segment}",
+      "tags": [
+        "chem-ch{segment}"
+      ],
+      "notes": "NO ANNOTATIONS YET as of 2026-08-13 — she has highlighted only the anatomy book so far. DUPLICATE UPLOAD: this PDF exists twice in the group, keys 956XEWS4 and T97T9YJS, byte-identical, both with zero annotations, ~38 MB each. This entry points at 956XEWS4. Delete T97T9YJS BEFORE she highlights chemistry — if she annotates the copy this entry does not point at, she gets zero cards and nothing explains why. See lydia-anatomy for the shared delivery rules."
+    },
+    "physics": {
+      "label": "Physics — Giancoli, Physics: Principles with Applications, 7e",
+      "attachment_key": "IRDDDNT9",
+      "kind": "textbook",
+      "segment_noun": "Chapter",
+      "deck_root": "all::LIBERTY::LIBERTY FALL 2026::PHYS 201 - General Physics I",
+      "deck": "{root}::Chapter {segment} - {segment_name}::Book Highlights",
+      "profile": "science",
+      "segments": "reference/maps/physics.json",
+      "tags": [
+        "physics-ch{segment}"
+      ],
+      "caption_style": "caps-label"
+    }
   }
- }
 }

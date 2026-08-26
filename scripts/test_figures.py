@@ -282,6 +282,54 @@ def r32():
 case("R32", "a text table's continuation page is clipped to the next caption, not skipped", r32)
 
 
+# --------------- R54: credit-less books (Giancoli) — caps-label captions + odd separators
+# Giancoli 7e prints NO per-figure credit line anywhere (photo credits live in the back
+# matter), so every corroboration path failed and chapter 1 indexed ZERO figures. Its
+# labels are also set with an en dash that PyMuPDF returns as "–" or ";" depending on the
+# embedded font ("TABLE 1;4" and "TABLE 1–5" on the same page), which truncated every id
+# at the chapter digit. Two fixes: `norm_fig_num` normalizes the separator, and the
+# registry's `caption_style: "caps-label"` accepts a block-initial ALL-CAPS keyword as its
+# own corroboration — safe because such books cross-reference as "Fig. 1-8" / Title Case,
+# never block-initial caps (R15 intact: prose must still be refused, flag on or off).
+def r54():
+    bad = []
+    for raw, want in (("1;1", "1-1"), ("1–4", "1-4"), ("1—2", "1-2"),
+                      ("9.3", "9.3"), ("6-15", "6-15"), ("1;", "1"),
+                      ("1 ; 12", "1-12"), ("1 – 5", "1-5")):
+        got = B.norm_fig_num(raw)
+        if got != want:
+            bad.append(f"norm_fig_num({raw!r}) = {got!r}, wanted {want!r}")
+
+    class P:
+        def __init__(self, rows): self.rows = rows
+        def get_text(self, _):
+            return {"blocks": [{"type": 0, "bbox": (0, i * 10, 100, i * 10 + 9),
+                                "lines": [{"spans": [{"text": t}]}]}
+                               for i, t in enumerate(self.rows)]}
+    cap = P(["FIGURE 1;1 Aristotle is the central figure (dressed in blue) at the top of",
+             "the stairs in this famous Renaissance portrayal of The School of Athens."])
+    got = B.find_captions(cap, None, caps_label=True)
+    if not got:
+        bad.append("caps-label: a credit-less ALL-CAPS caption was rejected")
+    elif got[0]["label"] != "FIGURE 1-1":
+        bad.append(f"caps-label: separator not normalized — got {got[0]['label']!r}")
+    spaced = P(["FIGURE 1 ; 12 Example 1–8. Diagrams are really useful for estimating."])
+    got2 = B.find_captions(spaced, None, caps_label=True)
+    if not got2 or got2[0]["label"] != "FIGURE 1-12":
+        got2_label = repr(got2[0]["label"]) if got2 else "nothing"
+        bad.append(f"span-level spaces around the separator broke the id — got {got2_label}")
+    if B.find_captions(cap, None):
+        bad.append("a credit-less caption was accepted WITHOUT the registry flag")
+    prose = P(["Consider how two great minds interpreted motion; see Figure 1–1 for a",
+               "Renaissance portrayal of Aristotle among the Greek philosophers."])
+    if B.find_captions(prose, None, caps_label=True):
+        bad.append("caps-label promoted a Title-Case prose cross-reference (R15 broken)")
+    return bad
+
+
+case("R54", "credit-less caps-label captions are corroborated; separator glyphs normalize", r54)
+
+
 def main():
     fails = 0
     for cid, name, fn in CASES:

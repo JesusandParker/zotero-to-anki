@@ -696,3 +696,15 @@ This is drift introduced by hand in the editor, not by the generator, so the sta
 - **Catch test (both ways):** `r53_bad_nested_cloze_covering_the_whole_outer_answer` / `r53_good_partial_nest_only_warns` / `r53_good_ordinary_multi_number_card_is_not_a_nest`.
 
 **Note on repair.** The nesting is *Parker's own edit*, so `authorship.py` protects the field and an automated pass may not silently revert it. Unwrapping is his call, or needs a verified predicate the way `is_hint_only_change()` licensed the rule-27 hint repairs.
+
+## R54 — Credit-less caps-label captions (Giancoli): zero figures indexed, ids truncated
+**Rule:** `caption_style: "caps-label"` in `reference/sources.json` (per-source, default off). **Caught by:** `test_figures.py` `r54` (`norm_fig_num` + the caps-label corroboration path and its R15 guard). Found 2026-08-26 on the physics source's first run: `build_figure_index.py --source physics --segment 1` reported **0 figures** for a 20-page chapter that visibly carries FIGURE 1-1 (the School of Athens plate Parker's margin comment explicitly requested), TABLE 1-3, TABLE 1-4, and TABLE 1-5.
+
+Two independent causes, both from Giancoli 7e's typography:
+1. **No per-figure credit line exists anywhere in the book** — photo credits are collected in the back matter (p. A-69). Every corroboration path in `find_captions` (credit line, Description stub, Snustad marker glyph, bare short label, SKILL-DRILL step-head) therefore failed, and every caption was rejected as "possibly a prose cross-reference."
+2. **The label separator is an en dash that PyMuPDF returns inconsistently** ("TABLE 1;4" and "TABLE 1–5" on the same page, depending on the embedded font's glyph map), and the caption id pattern accepted only `[\d\-.]` — so every id truncated at the chapter digit and all of a chapter's figures collided as "FIGURE 1".
+
+Fixes: `norm_fig_num` normalizes `;` `–` `—` to `-` (and strips trailing separators); the registry may declare `caption_style: "caps-label"`, which accepts a block-initial ALL-CAPS keyword as its own corroboration — safe for such books because their prose cross-references are abbreviated/Title Case ("Fig. 1-8", "Table 1-1 presents…"), never block-initial caps.
+
+- **MUST CATCH:** a credit-less `FIGURE 1;1 …` caption block, with the flag on, indexed under the normalized id `FIGURE 1-1`.
+- **MUST NOT OVER-FLAG:** the same block with the flag OFF stays rejected (other sources' behavior unchanged); a Title-Case prose cross-reference ("see Figure 1–1 …") stays rejected even with the flag ON (R15 intact).

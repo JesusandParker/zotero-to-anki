@@ -36,7 +36,21 @@ import sources as S
 # A caption STARTS a block: "FIGURE 6-6  The skull." Body text that merely cross-references
 # a figure ("FIGURE 6-15 and TABLE 6-3 show the major muscles...") matches this too, which
 # is why a hit only counts as a caption once CREDIT_LINE corroborates it.
-CAPTION = re.compile(r"^\s*(?:[◾■▪●]\s*)?(FIGURE|TABLE|BOX|SKILL\s+DRILL|CHART)\s+([\dA-Z][\d\-.]*)\b", re.I)
+CAPTION = re.compile(r"^\s*(?:[◾■▪●]\s*)?(FIGURE|TABLE|BOX|SKILL\s+DRILL|CHART)"
+                     r"\s+([\dA-Z][\d.]*(?:\s?[-.;–—]\s?[\dA-Z][\d.]*)*)", re.I)
+
+
+def norm_fig_num(num):
+    """Normalize a caption number's separator glyphs to a plain hyphen.
+
+    Giancoli 7e sets its labels with an en dash ("FIGURE 1–1"), which PyMuPDF hands back
+    as either "–" or ";" depending on the embedded font's glyph map — the same book yields
+    "TABLE 1;4" and "TABLE 1–5" on one page — and its span layout puts SPACES around the
+    glyph at block level ("FIGURE 1 ; 1"). Without normalization every such label
+    truncated to its chapter digit ("FIGURE 1"), so all of a chapter's figures collided
+    on one id. Trailing separators are stripped so a wrapped label can't leave one."""
+    num = re.sub(r"\s*[;–—-]\s*", "-", num)
+    return re.sub(r"\s+", "", num).strip("-.;–—")
 # Some books (Snustad's genetics) prefix every true caption with a marker glyph and set
 # the keyword in ALL CAPS ("◾ FIGURE 9.1 …"), while inline cross-references are Title
 # Case inside parentheses ("(◾ Figure 9.1)"). Marker + caps is therefore as strong a
@@ -112,8 +126,15 @@ def is_credit(x):
         len(x) <= CREDIT_MAX_CHARS and bool(CREDIT_LOOSE.match(x)))
 
 
-def find_captions(page, next_page=None):
+def find_captions(page, next_page=None, caps_label=False):
     """Caption blocks on a page, corroborated by the trailing credit/Description stub.
+
+    `caps_label` is the registry's `caption_style: "caps-label"` — for books that print NO
+    per-figure credit line at all (Giancoli 7e collects photo credits in the back matter),
+    an ALL-CAPS keyword opening the block is itself the caption typography: such books
+    cross-reference in prose as "Fig. 1-8" / "Table 1-1", never block-initial caps, so the
+    caps keyword cannot promote a cross-reference (R15 intact). Default off; the credit
+    corroboration stays authoritative for every source that doesn't declare the style.
 
     `next_page` matters for TABLES. House style titles a table ABOVE its body, so a title
     landing near the foot of a page leaves its body — and therefore its credit line — on
@@ -138,6 +159,10 @@ def find_captions(page, next_page=None):
         # Marker-glyph + ALL-CAPS keyword is a caption by the book's own typography
         # (Snustad); inline references are Title Case, so they can never take this path.
         if not corroborated and CAPTION_MARKED.match(t):
+            corroborated = True
+        # Registry-declared caps-label typography (see docstring): the ALL-CAPS keyword
+        # opening the block IS the caption, in books with no credit lines anywhere.
+        if not corroborated and caps_label and m.group(1).isupper():
             corroborated = True
         # A block that IS the bare label ("TABLE 9.1") is a table header in books whose
         # tables carry no credit line (Snustad) — prose never opens a block with the bare
@@ -172,7 +197,7 @@ def find_captions(page, next_page=None):
                 break
             title += " " + cont
         found.append({
-            "label": f"{m.group(1).upper().replace('  ', ' ')} {m.group(2)}",
+            "label": f"{m.group(1).upper().replace('  ', ' ')} {norm_fig_num(m.group(2))}",
             "title": re.sub(r"\s+", " ", title).strip(),
             "bbox": bb,
         })
@@ -655,7 +680,8 @@ def main():
     for pno in range(first, min(last, doc.page_count)):
         page = doc[pno - 1]
         nxt = doc[pno] if pno < doc.page_count else None
-        for cap in find_captions(page, nxt):
+        for cap in find_captions(page, nxt,
+                                 caps_label=src.get("caption_style") == "caps-label"):
             art, art_page = pair_art(doc, pno, cap)
             slug = re.sub(r"[^A-Za-z0-9]+", "_", cap["label"]).strip("_")
             target = os.path.join(outdir, f"{slug}.png")

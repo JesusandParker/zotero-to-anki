@@ -1,0 +1,205 @@
+{
+ "source": "physics",
+ "noun": "Chapter",
+ "note": "Page numbers are PHYSICAL PDF pages.",
+ "segments": [
+  {
+   "n": 1,
+   "name": "Introduction, Measurement, Estimating",
+   "start": 22,
+   "end": 41
+  },
+  {
+   "n": 2,
+   "name": "Describing Motion - Kinematics in One Dimension",
+   "start": 42,
+   "end": 69
+  },
+  {
+   "n": 3,
+   "name": "Kinematics in Two Dimensions; Vectors",
+   "start": 70,
+   "end": 95
+  },
+  {
+   "n": 4,
+   "name": "Dynamics - Newton's Laws of Motion",
+   "start": 96,
+   "end": 129
+  },
+  {
+   "n": 5,
+   "name": "Circular Motion; Gravitation",
+   "start": 130,
+   "end": 158
+  },
+  {
+   "n": 6,
+   "name": "Work and Energy",
+   "start": 159,
+   "end": 190
+  },
+  {
+   "n": 7,
+   "name": "Linear Momentum",
+   "start": 191,
+   "end": 218
+  },
+  {
+   "n": 8,
+   "name": "Rotational Motion",
+   "start": 219,
+   "end": 250
+  },
+  {
+   "n": 9,
+   "name": "Static Equilibrium; Elasticity and Fracture",
+   "start": 251,
+   "end": 280
+  },
+  {
+   "n": 10,
+   "name": "Fluids",
+   "start": 281,
+   "end": 312
+  },
+  {
+   "n": 11,
+   "name": "Oscillations and Waves",
+   "start": 313,
+   "end": 348
+  },
+  {
+   "n": 12,
+   "name": "Sound",
+   "start": 349,
+   "end": 379
+  },
+  {
+   "n": 13,
+   "name": "Temperature and Kinetic Theory",
+   "start": 380,
+   "end": 410
+  },
+  {
+   "n": 14,
+   "name": "Heat",
+   "start": 411,
+   "end": 432
+  },
+  {
+   "n": 15,
+   "name": "The Laws of Thermodynamics",
+   "start": 433,
+   "end": 463
+  },
+  {
+   "n": 16,
+   "name": "Electric Charge and Electric Field",
+   "start": 464,
+   "end": 493
+  },
+  {
+   "n": 17,
+   "name": "Electric Potential",
+   "start": 494,
+   "end": 521
+  },
+  {
+   "n": 18,
+   "name": "Electric Currents",
+   "start": 522,
+   "end": 546
+  },
+  {
+   "n": 19,
+   "name": "DC Circuits",
+   "start": 547,
+   "end": 580
+  },
+  {
+   "n": 20,
+   "name": "Magnetism",
+   "start": 581,
+   "end": 610
+  },
+  {
+   "n": 21,
+   "name": "Electromagnetic Induction and Faraday's Law",
+   "start": 611,
+   "end": 645
+  },
+  {
+   "n": 22,
+   "name": "Electromagnetic Waves",
+   "start": 646,
+   "end": 664
+  },
+  {
+   "n": 23,
+   "name": "Light - Geometric Optics",
+   "start": 665,
+   "end": 699
+  },
+  {
+   "n": 24,
+   "name": "The Wave Nature of Light",
+   "start": 700,
+   "end": 733
+  },
+  {
+   "n": 25,
+   "name": "Optical Instruments",
+   "start": 734,
+   "end": 764
+  },
+  {
+   "n": 26,
+   "name": "The Special Theory of Relativity",
+   "start": 765,
+   "end": 791
+  },
+  {
+   "n": 27,
+   "name": "Early Quantum Theory and Models of the Atom",
+   "start": 792,
+   "end": 823
+  },
+  {
+   "n": 28,
+   "name": "Quantum Mechanics of Atoms",
+   "start": 824,
+   "end": 849
+  },
+  {
+   "n": 29,
+   "name": "Molecules and Solids",
+   "start": 850,
+   "end": 877
+  },
+  {
+   "n": 30,
+   "name": "Nuclear Physics and Radioactivity",
+   "start": 878,
+   "end": 905
+  },
+  {
+   "n": 31,
+   "name": "Nuclear Energy; Effects and Uses of Radiation",
+   "start": 906,
+   "end": 935
+  },
+  {
+   "n": 32,
+   "name": "Elementary Particles",
+   "start": 936,
+   "end": 967
+  },
+  {
+   "n": 33,
+   "name": "Astrophysics and Cosmology",
+   "start": 968,
+   "end": 1004
+  }
+ ]
+}
