@@ -334,6 +334,10 @@ def build_units(marks, cap=DEFAULT_CAP):
                 "page_last": max(pages) if pages else None,
                 "queueable": skip is None,
                 "skip_reason": skip,
+                # Newest mark's dateAdded — the orchestrator's "recent reading first"
+                # ordering key, so tonight's chapter beats a three-week-old backlog.
+                "newest_mark": max((str(m.get("date_added") or "") for m in chunk),
+                                   default=""),
                 "deck": None if skip else S.deck_name(src, seg),
                 "tags": [] if skip else S.tags_for(src, seg),
                 "keys": [m["key"] for m in chunk],

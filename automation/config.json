@@ -1,0 +1,27 @@
+{
+  "_comment": "Night Shift knobs. This file is tracked on the night-shift branch; put per-machine overrides in <state_dir>/config.local.json instead of editing here mid-experiment. Times are the HP's local clock.",
+
+  "mac_host": "mac",
+  "mac_zotero_dir": "Zotero",
+  "hp_zotero_dir": "/home/parker/Zotero",
+  "anki_port": 8765,
+  "expected_profiles": ["Parkers Anki"],
+
+  "model": "fable",
+  "effort": "max",
+  "step_down_effort": "high",
+
+  "five_hour_stop_pct": 75,
+  "weekly_stop_pct": 70,
+  "weekly_soft_pct": 55,
+
+  "unit_cap": 30,
+  "max_units_per_night": 2,
+  "no_new_units_after": "01:30",
+  "unit_timeout_seconds": 7200,
+  "max_failed_units": 2,
+  "order": "newest_first",
+
+  "state_dir": "/home/parker/night-shift",
+  "brief_mac_path": "/Users/parkerregner/Desktop/night-shift-brief.md"
+}

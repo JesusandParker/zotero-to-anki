@@ -323,6 +323,9 @@ def main():
     g.add_argument("--pages", help="explicit physical page range, e.g. 515-680")
     g.add_argument("--all", action="store_true", help="every highlight in the document")
     ap.add_argument("--out", help="output JSON path (default: work/<source>/<label>_highlights.json)")
+    ap.add_argument("--keys", metavar="FILE",
+                    help="JSON array of Zotero annotation keys: extract ONLY these marks "
+                         "(the Night Shift's per-unit scoping; missing keys are reported)")
     args = ap.parse_args()
 
     src = S.get_source(args.source)
@@ -346,6 +349,17 @@ def main():
     lex_wanted = [c for c in S.lexicon_colors(src) if c not in wanted]
     noun = S.segment_noun(src)
     has_map = S.load_segments(src) is not None
+
+    # --keys: restrict to an explicit list of Zotero annotation keys (Night Shift units).
+    key_filter = None
+    if args.keys:
+        with open(args.keys) as f:
+            loaded = json.load(f)
+        if not isinstance(loaded, list) or not all(isinstance(k, str) for k in loaded):
+            sys.exit(f"ERROR: --keys {args.keys} must be a JSON array of annotation keys.")
+        key_filter = set(loaded)
+        if not key_filter:
+            sys.exit(f"ERROR: --keys {args.keys} is an empty list — nothing to extract.")
 
     # ---- what page window are we pulling?
     lo = hi = None
@@ -374,10 +388,12 @@ def main():
         types = TEXT_TYPES + IMAGE_TYPES + NOTE_TYPES
         all_colors = wanted + lex_wanted
         cur.execute(
-            "SELECT pageLabel, position, text, comment, color, sortIndex, type "
-            f"FROM itemAnnotations WHERE parentItemID=? "
-            f"AND type IN ({','.join('?' * len(types))}) "
-            f"AND color IN ({','.join('?' * len(all_colors))}) ORDER BY sortIndex",
+            "SELECT ia.pageLabel, ia.position, ia.text, ia.comment, ia.color, "
+            "       ia.sortIndex, ia.type, i.key "
+            "FROM itemAnnotations ia JOIN items i ON i.itemID = ia.itemID "
+            f"WHERE ia.parentItemID=? "
+            f"AND ia.type IN ({','.join('?' * len(types))}) "
+            f"AND ia.color IN ({','.join('?' * len(all_colors))}) ORDER BY ia.sortIndex",
             (item_id, *types, *all_colors))
         rows = cur.fetchall()
     finally:
@@ -385,7 +401,14 @@ def main():
         shutil.rmtree(tmp, ignore_errors=True)
 
     items, page_cache = [], {}
-    for page_label, position, text, comment, color, sort, atype in rows:
+    for page_label, position, text, comment, color, sort, atype, zkey in rows:
+        # --keys: the Night Shift's scoping contract. The nightly detector hands each
+        # unit an explicit list of Zotero annotation keys, and the extractor honours it
+        # HERE, before anything downstream can see the rest of the segment. A session
+        # that never receives the other marks has no "rest of the chapter" to invent —
+        # the same failure R40 blocks after the fact, prevented at the front instead.
+        if key_filter is not None and zkey not in key_filter:
+            continue
         # Zotero's pageLabel is the PRINTED page number; position.pageIndex is the
         # 0-based PHYSICAL page. Everything in this pipeline speaks physical pages
         # (segment maps, pdftotext, render_page, the figure stages), so derive the
@@ -412,6 +435,7 @@ def main():
         # surface it verbatim for Parker rather than guessing — or dropping it silently.
         if is_lex and kind != "text":
             items.append({
+                "zotero_key": zkey,
                 "source": src["id"], "kind": "unsupported_purple", "purple_kind": kind,
                 "segment": S.segment_of_page(src, phys)[0],
                 "segment_name": S.segment_of_page(src, phys)[1],
@@ -427,6 +451,7 @@ def main():
         if kind == "image":
             page_index, rect = parse_rects(position)
             items.append({
+                "zotero_key": zkey,
                 "source": src["id"], "kind": "image",
                 "segment": S.segment_of_page(src, phys)[0],
                 "segment_name": S.segment_of_page(src, phys)[1],
@@ -441,6 +466,7 @@ def main():
         # cannot be grounded the usual way. Surface it rather than card it blindly.
         if kind == "note":
             items.append({
+                "zotero_key": zkey,
                 "source": src["id"], "kind": "note",
                 "segment": S.segment_of_page(src, phys)[0],
                 "segment_name": S.segment_of_page(src, phys)[1],
@@ -505,6 +531,7 @@ def main():
                 after = pn[pos + len(norm(text)): pos + len(norm(text)) + 1]
                 midword = bool((before.isalpha()) or (after.isalpha()))
             items.append({
+                "zotero_key": zkey,
                 "source": src["id"], "kind": "lexicon",
                 "segment": seg_n, "segment_name": seg_name,
                 "page": phys, "page_label": str(page_label), "color": color,
@@ -519,6 +546,7 @@ def main():
             continue
 
         items.append({
+            "zotero_key": zkey,
             "source": src["id"],
             "kind": "text",
             "segment": seg_n,
@@ -575,6 +603,19 @@ def main():
         off = ", ".join(f"+{o}" if o > 0 else str(o) for o in sorted(offsets))
         print(f"  note: printed page labels differ from physical pages (offset {off}); "
               f"physical pages are used throughout, labels kept in page_label.")
+
+    # --keys accounting: every requested key must be accounted for. A key that produced
+    # no item means the mark is outside this page window, the wrong color for this
+    # source, a skipped type (sticky note/ink), or deleted — all of which the caller
+    # (the Night Shift orchestrator, or a human) must SEE, not discover as a short deck.
+    if key_filter is not None:
+        got = {i["zotero_key"] for i in items}
+        absent = sorted(key_filter - got)
+        if absent:
+            print(f"  *** --keys: {len(absent)} of {len(key_filter)} requested key(s) "
+                  f"produced NO item: {absent[:10]}{' ...' if len(absent) > 10 else ''}")
+            print(f"      (outside the page window, off-palette for this source, a "
+                  f"sticky-note/ink type, or deleted in Zotero)")
 
     out = args.out or work_path(src, label, "highlights")
     os.makedirs(os.path.dirname(out), exist_ok=True)
