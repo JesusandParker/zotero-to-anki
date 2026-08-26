@@ -62,13 +62,21 @@ def fetch(cfg, db_only=False):
         raise RuntimeError(f"cannot reach the Mac over ssh ({mac}): "
                            f"{(p.stderr or p.stdout).strip()[:200]}")
 
-    # 1 — transaction-safe snapshot on the Mac, then pull it.
+    # 1 — snapshot on the Mac, then pull it. NOT sqlite .backup: Zotero holds an
+    # exclusive lock on its database for as long as the app is open (found the hard
+    # way, first dry run, 2026-08-26 — "database is locked" with Parker mid-chapter).
+    # A plain copy is what the extractor itself has always done against a live
+    # Zotero; at night the app is idle, so the file on disk is a committed state.
+    # The quick_check-and-retry loop covers the rare mid-write copy.
     remote_tmp = "/tmp/night-shift-zotero.sqlite"
     p = _run(["ssh", mac,
-              f"/usr/bin/sqlite3 -cmd '.timeout 15000' ~/{cfg['mac_zotero_dir']}/zotero.sqlite "
-              f"\".backup {remote_tmp}\" && echo BACKUP-OK"])
+              f"for i in 1 2 3; do "
+              f"  cp ~/{cfg['mac_zotero_dir']}/zotero.sqlite {remote_tmp}; "
+              f"  ok=$(/usr/bin/sqlite3 {remote_tmp} 'PRAGMA quick_check;' 2>/dev/null); "
+              f"  if [ \"$ok\" = ok ]; then echo BACKUP-OK; exit 0; fi; sleep 2; "
+              f"done; echo BACKUP-BAD"])
     if "BACKUP-OK" not in p.stdout:
-        raise RuntimeError(f"sqlite .backup on the Mac failed: "
+        raise RuntimeError(f"snapshot copy on the Mac failed integrity after 3 tries: "
                            f"{(p.stderr or p.stdout).strip()[:300]}")
 
     incoming = os.path.join(hp_dir, ".zotero.sqlite.incoming")
