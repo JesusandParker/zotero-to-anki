@@ -34,6 +34,27 @@ rule here): the "Night Shift" artifact.
 6. The brief (HP: night-shift/briefs/, Mac: ~/Desktop/night-shift-brief.md) always
    ends with what the night REFUSED to do.
 
+## Pause switch
+
+While `<state_dir>/PAUSED` exists, `night_shift.py` exits immediately — before the
+lock and before the preflight ping, so a paused night spends nothing. It blocks cron,
+manual runs, and `--dry-run` alike; `--ignore-pause` is the deliberate override.
+
+    # pause
+    printf 'PAUSED <date> — <why>\n' > ~/night-shift/PAUSED
+    crontab -e   # comment out the night-shift line
+
+    # resume
+    rm ~/night-shift/PAUSED
+    crontab -e   # uncomment the night-shift line
+
+Both halves matter: the cron line stops it being invoked, the file stops it running
+if it is invoked anyway. **Currently PAUSED (2026-08-26)** at Parker's request while
+he works through the EMT backlog himself.
+
+Note: cron invokes the wrapper as `/bin/bash <path>` because Syncthing does not carry
+the executable bit from the Mac.
+
 ## Running it by hand
 
     python3 automation/night_shift.py --dry-run   # everything except spend+write

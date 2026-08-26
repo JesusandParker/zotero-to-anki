@@ -17,6 +17,10 @@ Design rules it enforces (the doc, 2026-08-25):
     must age out before Parker wakes.
   - The brief's most important section is what the night REFUSED to do.
 
+PAUSE SWITCH: while <state_dir>/PAUSED exists this exits immediately without
+spending anything. Parker holds it. Remove the file (and re-enable the cron line)
+to resume; --ignore-pause overrides it for deliberate testing.
+
     python3 night_shift.py             # the real thing (what cron runs)
     python3 night_shift.py --dry-run   # everything except spend + write + ledger
     python3 night_shift.py --once      # real, but a single unit regardless of config
@@ -52,8 +56,9 @@ def claude_bin():
 
 
 class Night:
-    def __init__(self, cfg, dry=False, once=False):
+    def __init__(self, cfg, dry=False, once=False, ignore_pause=False):
         self.cfg, self.dry = cfg, dry
+        self.ignore_pause = ignore_pause
         self.max_units = 1 if once else cfg["max_units_per_night"]
         self.start = datetime.now().astimezone()
         self.date = self.start.strftime("%Y-%m-%d")
@@ -85,6 +90,22 @@ class Night:
 
     # ---------------------------------------------------------------- the night
     def run(self):
+        # PAUSE: checked before the lock and before ANY spend, because the preflight
+        # ping costs tokens. Parker holds the switch — the file is created when he
+        # says pause and removed when he says go, and while it exists this exits
+        # cleanly no matter who or what invoked it (cron, a stray manual run, a
+        # --dry-run). --ignore-pause is the deliberate override for testing.
+        paused = os.path.join(self.state, "PAUSED")
+        if os.path.exists(paused) and not self.ignore_pause:
+            why = ""
+            try:
+                why = open(paused).read().strip()
+            except OSError:
+                pass
+            self.log("PAUSED — not running. " + (why.splitlines()[0] if why else ""))
+            self.log(f"Resume with:  rm {paused}   (and re-enable the cron line)")
+            return 0
+
         lock = os.path.join(self.state, "lock")
         if os.path.exists(lock):
             pid = open(lock).read().strip()
@@ -380,5 +401,6 @@ class Night:
 
 if __name__ == "__main__":
     cfg = load_cfg()
-    night = Night(cfg, dry="--dry-run" in sys.argv, once="--once" in sys.argv)
+    night = Night(cfg, dry="--dry-run" in sys.argv, once="--once" in sys.argv,
+                  ignore_pause="--ignore-pause" in sys.argv)
     sys.exit(night.run())
