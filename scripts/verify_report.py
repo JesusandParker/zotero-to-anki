@@ -110,8 +110,20 @@ def main():
             json.dump(cards, f, indent=1, ensure_ascii=False)
             f.write("\n")
 
-    out = args.out or args.cards_json.replace("_cards.json", "_VERIFY.md")
-    label = os.path.basename(args.cards_json).replace("_cards.json", "")
+    # `.replace("_cards.json", ...)` is a SILENT NO-OP on any other filename, which made
+    # the report path equal the input path — and the write below then destroyed the cards
+    # file it had just been asked to verify. That happened to work/physics/drafts/
+    # block_E_edited.json on 2026-08-26 (a whole adversarial editor pass, gone). Derive a
+    # safe name for any filename, and refuse outright to write over the input.
+    out = args.out
+    if not out:
+        out = (args.cards_json.replace("_cards.json", "_VERIFY.md")
+               if args.cards_json.endswith("_cards.json")
+               else re.sub(r"\.json$", "", args.cards_json) + "_VERIFY.md")
+    if os.path.abspath(out) == os.path.abspath(args.cards_json):
+        sys.exit(f"REFUSING: the report path resolves to the cards file itself "
+                 f"({args.cards_json}) — writing there would destroy it. Pass --out.")
+    label = os.path.basename(args.cards_json).replace("_cards.json", "").replace(".json", "")
     lines = [f"# {label} — verification report", ""]
     lines += [f"{len(section_a) + len(section_b)} of {len(cards)} cards state a value, dose, threshold, "
               f"or time window, or rest on weak grounding.", ""]

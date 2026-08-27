@@ -88,6 +88,10 @@ echo "--- writer routing ---"
 chk "ch1 dry-run targets the right deck" "python3 scripts/anki_write.py work/emt/chapter_1_cards.json --dry-run 2>&1 | grep -q 'all::EMT::Chapter 1::Book Highlights'"
 chk "ch5 dry-run routes to Chapter 5"    "python3 scripts/anki_write.py work/emt/chapter_5_cards.json --dry-run 2>&1 | grep -q 'all::EMT::Chapter 5::Book Highlights'"
 # A dry run must not even MENTION the retired staging deck any more.
+echo "--- report tooling must never eat its own input (2026-08-26 data loss) ---"
+chk "verify_report writes beside, not over, its input" "cp work/physics/drafts/block_E.json /tmp/_smoke_vr.json && python3 scripts/verify_report.py /tmp/_smoke_vr.json >/dev/null 2>&1 && python3 -c \"import json;json.load(open('/tmp/_smoke_vr.json'))\""
+chk "verify_report refuses --out onto the cards file" "python3 scripts/verify_report.py /tmp/_smoke_vr.json --out /tmp/_smoke_vr.json 2>&1 | grep -q 'REFUSING'"
+
 chk "writer never names claude review"   "! python3 scripts/anki_write.py work/emt/chapter_1_cards.json --dry-run 2>&1 | grep -qi 'claude review'"
 
 echo

@@ -1,0 +1,263 @@
+[
+ {
+  "Text": "The system of units most important in physics today is abbreviated <b>SI</b>, which stands for {{c1::Système International::its French name}}.",
+  "Back Extra": "Meaning: in English, Système International is \"International System.\"<br><br>Distinguish: SI is not the only system of units in use — the cgs system and the British engineering system are two others.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-08-26",
+   "asked": "Unmarked on p. 10: the SI/MKS/cgs systems paragraph and the seven SI base quantities table. Want anything from them?",
+   "quote": "sure do this",
+   "scope": "p31 (printed p10): the Systems of Units paragraph and TABLE 1-5 SI Base Quantities and Units"
+  },
+  "block": "E_si_systems_authorized",
+  "numeric": false,
+  "verified_against": "p31",
+  "verified_by": "agent, read from the page-31 render this run; block_E_edited.json was destroyed by a verify_report.py path bug (report written over its input) and RECONSTRUCTED 2026-08-26 from the surviving editor log plus the edited text captured verbatim before the loss; only Text/Back Extra differ from the drafter's file, and the authorization block was never touched",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "page_31.png"
+   ],
+   "note": "TABLE 1-5 and the Systems of Units paragraph read from the page-31 render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The system of units now known as the SI used to be called the {{c1::MKS::acronym}} system.",
+  "Back Extra": "Meaning: MKS stands for meter-kilogram-second — the SI's standards of length, mass, and time, in that order.<br><br>Distinguish: MKS and cgs are both metric systems, but MKS builds on the meter and kilogram while cgs builds on the centimeter and gram.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-08-26",
+   "asked": "Unmarked on p. 10: the SI/MKS/cgs systems paragraph and the seven SI base quantities table. Want anything from them?",
+   "quote": "sure do this",
+   "scope": "p31 (printed p10): the Systems of Units paragraph and TABLE 1-5 SI Base Quantities and Units"
+  },
+  "block": "E_si_systems_authorized",
+  "numeric": false,
+  "verified_against": "p31",
+  "verified_by": "agent, read from the page-31 render this run; block_E_edited.json was destroyed by a verify_report.py path bug (report written over its input) and RECONSTRUCTED 2026-08-26 from the surviving editor log plus the edited text captured verbatim before the loss; only Text/Back Extra differ from the drafter's file, and the authorization block was never touched",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "page_31.png"
+   ],
+   "note": "TABLE 1-5 and the Systems of Units paragraph read from the page-31 render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The British engineering system's standards are the foot for length, the second for time, and the pound for {{c1::force::force/mass}}.",
+  "Back Extra": "Distinguish: the metric systems standardize <b>mass</b> in that slot — the kilogram in SI, the gram in cgs — while the British engineering system standardizes a force.<br><br>Cue: the British engineering system is used more in the U.S. than in Britain.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-08-26",
+   "asked": "Unmarked on p. 10: the SI/MKS/cgs systems paragraph and the seven SI base quantities table. Want anything from them?",
+   "quote": "sure do this",
+   "scope": "p31 (printed p10): the Systems of Units paragraph and TABLE 1-5 SI Base Quantities and Units"
+  },
+  "block": "E_si_systems_authorized",
+  "numeric": false,
+  "verified_against": "p31",
+  "verified_by": "agent, read from the page-31 render this run; block_E_edited.json was destroyed by a verify_report.py path bug (report written over its input) and RECONSTRUCTED 2026-08-26 from the surviving editor log plus the edited text captured verbatim before the loss; only Text/Back Extra differ from the drafter's file, and the authorization block was never touched",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "page_31.png"
+   ],
+   "note": "TABLE 1-5 and the Systems of Units paragraph read from the page-31 render"
+  },
+  "image": null
+ },
+ {
+  "Text": "The SI is built on {{c1::seven::number of base quantities}} base quantities.",
+  "Back Extra": "Pitfall: the SI is not just the meter, second, and kilogram — those cover only length, time, and mass, and four more base quantities round out the set.<br><br>Roster: length, time, mass, electric current, temperature, amount of substance, luminous intensity.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-08-26",
+   "asked": "Unmarked on p. 10: the SI/MKS/cgs systems paragraph and the seven SI base quantities table. Want anything from them?",
+   "quote": "sure do this",
+   "scope": "p31 (printed p10): the Systems of Units paragraph and TABLE 1-5 SI Base Quantities and Units"
+  },
+  "block": "E_si_systems_authorized",
+  "numeric": true,
+  "verified_against": "p31",
+  "verified_by": "agent, read from the page-31 render this run; block_E_edited.json was destroyed by a verify_report.py path bug (report written over its input) and RECONSTRUCTED 2026-08-26 from the surviving editor log plus the edited text captured verbatim before the loss; only Text/Back Extra differ from the drafter's file, and the authorization block was never touched",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "page_31.png"
+   ],
+   "note": "TABLE 1-5 and the Systems of Units paragraph read from the page-31 render"
+  },
+  "image": null
+ },
+ {
+  "Text": "Apart from length, time, and mass, the SI's other four base quantities are:<br><br>{{c1::electric current}}<br><br>{{c1::temperature}}<br><br>{{c1::amount of substance}}<br><br>{{c1::luminous intensity}}",
+  "Back Extra": "Distinguish: the meter, the second, and the kilogram already cover length, time, and mass — these other four are the base quantities those familiar standards leave out.<br><br>Roster: length, time, mass, <b>electric current</b>, <b>temperature</b>, <b>amount of substance</b>, <b>luminous intensity</b>.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-08-26",
+   "asked": "Unmarked on p. 10: the SI/MKS/cgs systems paragraph and the seven SI base quantities table. Want anything from them?",
+   "quote": "sure do this",
+   "scope": "p31 (printed p10): the Systems of Units paragraph and TABLE 1-5 SI Base Quantities and Units"
+  },
+  "block": "E_si_systems_authorized",
+  "numeric": false,
+  "verified_against": "p31",
+  "verified_by": "agent, read from the page-31 render this run; block_E_edited.json was destroyed by a verify_report.py path bug (report written over its input) and RECONSTRUCTED 2026-08-26 from the surviving editor log plus the edited text captured verbatim before the loss; only Text/Back Extra differ from the drafter's file, and the authorization block was never touched",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "page_31.png"
+   ],
+   "note": "TABLE 1-5 and the Systems of Units paragraph read from the page-31 render"
+  },
+  "image": null
+ },
+ {
+  "Text": "In the SI, the base quantity {{c1::electric current}} is measured in {{c2::amperes (A)}}.",
+  "Back Extra": "Distinguish: electric current is the one electrical base quantity — charge, voltage, and resistance are not among the SI's base quantities.<br><br>Roster: length, time, mass, <b>electric current</b>, temperature, amount of substance, luminous intensity.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-08-26",
+   "asked": "Unmarked on p. 10: the SI/MKS/cgs systems paragraph and the seven SI base quantities table. Want anything from them?",
+   "quote": "sure do this",
+   "scope": "p31 (printed p10): the Systems of Units paragraph and TABLE 1-5 SI Base Quantities and Units"
+  },
+  "block": "E_si_systems_authorized",
+  "numeric": false,
+  "verified_against": "p31",
+  "verified_by": "agent, read from the page-31 render this run; block_E_edited.json was destroyed by a verify_report.py path bug (report written over its input) and RECONSTRUCTED 2026-08-26 from the surviving editor log plus the edited text captured verbatim before the loss; only Text/Back Extra differ from the drafter's file, and the authorization block was never touched",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "page_31.png"
+   ],
+   "note": "TABLE 1-5 and the Systems of Units paragraph read from the page-31 render"
+  },
+  "image": null
+ },
+ {
+  "Text": "In the SI, the base quantity {{c1::temperature}} is measured in {{c2::kelvins (K)}}.",
+  "Back Extra": "Pitfall: the degree Celsius is not the SI base unit for temperature — the kelvin is, and its abbreviation carries no degree sign.<br><br>Roster: length, time, mass, electric current, <b>temperature</b>, amount of substance, luminous intensity.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-08-26",
+   "asked": "Unmarked on p. 10: the SI/MKS/cgs systems paragraph and the seven SI base quantities table. Want anything from them?",
+   "quote": "sure do this",
+   "scope": "p31 (printed p10): the Systems of Units paragraph and TABLE 1-5 SI Base Quantities and Units"
+  },
+  "block": "E_si_systems_authorized",
+  "numeric": false,
+  "verified_against": "p31",
+  "verified_by": "agent, read from the page-31 render this run; block_E_edited.json was destroyed by a verify_report.py path bug (report written over its input) and RECONSTRUCTED 2026-08-26 from the surviving editor log plus the edited text captured verbatim before the loss; only Text/Back Extra differ from the drafter's file, and the authorization block was never touched",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "page_31.png"
+   ],
+   "note": "TABLE 1-5 and the Systems of Units paragraph read from the page-31 render"
+  },
+  "image": null
+ },
+ {
+  "Text": "In the SI, the base quantity {{c1::amount of substance}} is measured in {{c2::moles (mol)}}.",
+  "Back Extra": "Distinguish: amount of substance and mass are two separate SI base quantities — the mole does not measure how heavy something is.<br><br>Roster: length, time, mass, electric current, temperature, <b>amount of substance</b>, luminous intensity.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-08-26",
+   "asked": "Unmarked on p. 10: the SI/MKS/cgs systems paragraph and the seven SI base quantities table. Want anything from them?",
+   "quote": "sure do this",
+   "scope": "p31 (printed p10): the Systems of Units paragraph and TABLE 1-5 SI Base Quantities and Units"
+  },
+  "block": "E_si_systems_authorized",
+  "numeric": false,
+  "verified_against": "p31",
+  "verified_by": "agent, read from the page-31 render this run; block_E_edited.json was destroyed by a verify_report.py path bug (report written over its input) and RECONSTRUCTED 2026-08-26 from the surviving editor log plus the edited text captured verbatim before the loss; only Text/Back Extra differ from the drafter's file, and the authorization block was never touched",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "page_31.png"
+   ],
+   "note": "TABLE 1-5 and the Systems of Units paragraph read from the page-31 render"
+  },
+  "image": null
+ },
+ {
+  "Text": "In the SI, the base quantity {{c1::luminous intensity}} is measured in {{c2::candelas (cd)}}.",
+  "Back Extra": "Cue: luminous intensity is the only SI base quantity that concerns light.<br><br>Roster: length, time, mass, electric current, temperature, amount of substance, <b>luminous intensity</b>.",
+  "source": "physics",
+  "segment": 1,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-08-26",
+   "asked": "Unmarked on p. 10: the SI/MKS/cgs systems paragraph and the seven SI base quantities table. Want anything from them?",
+   "quote": "sure do this",
+   "scope": "p31 (printed p10): the Systems of Units paragraph and TABLE 1-5 SI Base Quantities and Units"
+  },
+  "block": "E_si_systems_authorized",
+  "numeric": false,
+  "verified_against": "p31",
+  "verified_by": "agent, read from the page-31 render this run; block_E_edited.json was destroyed by a verify_report.py path bug (report written over its input) and RECONSTRUCTED 2026-08-26 from the surviving editor log plus the edited text captured verbatim before the loss; only Text/Back Extra differ from the drafter's file, and the authorization block was never touched",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "31"
+   ],
+   "figures": [
+    "page_31.png"
+   ],
+   "note": "TABLE 1-5 and the Systems of Units paragraph read from the page-31 render"
+  },
+  "image": null
+ }
+]

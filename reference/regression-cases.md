@@ -732,3 +732,14 @@ The block records `by` / `asked` / `quote` / `date` / `scope`. Four constraints 
 
 - **MUST CATCH:** an unmarked card with no block; a block missing `quote`; `by: "claude"`; an authorized card with no `verified_against`; a bare unmarked card in a batch that uses the lane.
 - **MUST NOT OVER-FLAG:** a complete authorization on a page-grounded card; a 50%-provenanced legacy batch, whose unmarked cards stay warnings.
+
+## R58 — `verify_report.py` wrote its report OVER the cards file it was verifying
+**Rule:** report tooling never writes to its own input. **Caught by:** the two `verify_report` guards in `smoke_test.sh` (writes beside its input; refuses `--out` pointing at it). Found 2026-08-26 the only way it could be found — by losing work: a completed adversarial editor pass on `work/physics/drafts/block_E_edited.json` was destroyed mid-run.
+
+The output path was `args.cards_json.replace("_cards.json", "_VERIFY.md")`. On any filename NOT ending in `_cards.json` — a draft, a block file, an audit copy — `str.replace` is a **silent no-op**, so the report path equalled the input path and the write destroyed the cards. Nothing warned, because from the script's view it wrote exactly one file to exactly the path it computed.
+
+Fixes: derive a safe name for any filename (`<stem>_VERIFY.md`), and refuse outright when the resolved report path is the cards file — including when `--out` is aimed there by hand.
+
+- **MUST CATCH:** running the report on a file whose name lacks the `_cards.json` suffix must leave that file valid JSON; `--out <the cards file>` must exit refusing.
+- **MUST NOT OVER-FLAG:** the ordinary `*_cards.json` path still writes `*_VERIFY.md` alongside, unchanged.
+- **Recovery note:** the destroyed file was rebuilt from the surviving editor log plus the edited text captured before the loss; 6 of 9 cards differed from the drafter's version, matching the editor's own "3 PASS · 6 REWRITE" count, which is what confirmed the reconstruction was faithful.

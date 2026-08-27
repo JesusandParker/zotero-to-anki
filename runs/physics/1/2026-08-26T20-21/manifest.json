@@ -5,5 +5,28 @@
  "started": "2026-08-26T20:21:03",
  "skill_sha": "c94be3c0f7dcbec278e46d0d26bb51c938db90a6",
  "note": "chapter 1 follow-on: Parker authorized the prefix REVERSE direction and the unmarked p31 content (\"sure do this\"); introduces the authorized lane (card-rules #29 / R57)",
- "status": "in_progress"
+ "status": "complete",
+ "finished": "2026-08-26T20:40:16",
+ "counts": {
+  "prefix_notes_made_two_way": 20,
+  "prefix_cards_added": 20,
+  "authorized_cards_drafted": 9,
+  "authorized_cards_staged": 9,
+  "cards_dropped": 0,
+  "editor_rewrites": 6,
+  "editor_passes": 3,
+  "deck_notes_total": 65,
+  "deck_cards_total": 107,
+  "emt_ch4_provenance_repaired": 3
+ },
+ "new_hazards_found": [
+  {
+   "hazard": "verify_report.py wrote its report over the cards file when the filename did not end in _cards.json (silent str.replace no-op) — destroyed a completed editor pass",
+   "regression_id": "R58"
+  },
+  {
+   "hazard": "card-rules #29's authorized exit had no machinery: an unmarked card was indistinguishable from a drafter who forgot from_idx, and that path only warned",
+   "regression_id": "R57"
+  }
+ ]
 }
