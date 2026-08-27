@@ -720,3 +720,15 @@ Fixes: `norm_fig_num` normalizes `;` `–` `—` to `-` (and strips trailing sep
 
 - **MUST CATCH:** `image` set to a path that fails `os.path.exists` from the CWD the pipeline runs in (the same condition the writer tests, so the gate fails exactly what the writer would drop).
 - **MUST NOT OVER-FLAG:** an absolute path that exists; a card with no image at all.
+
+## R57 — The AUTHORIZED lane: card-rules #29's one exit had no machinery
+**Rule:** card-rules #29 (the authorized lane). **Caught by:** `check_cards.authorized_lane_check` (HARD: missing/incomplete block, `by` ≠ parker, no quote, no page grounding) plus the `unmarked_is_hard` escalation in `grounding_check`; `test_regressions.py` `r57_*`. Written 2026-08-26 when Parker authorized cards from unmarked p31 content ("sure do this") in reply to a hand-off question.
+
+Rule #29 has always named exactly one way for unmarked content to become cards — ask at hand-off, and get his answer in his own words — but nothing represented that answer. An authorized card was indistinguishable from a card whose drafter simply forgot `from_idx`, and that path only WARNED. So the rule's exit was simultaneously unusable (no honest way to record the ask) and unguarded (anyone could ship unmarked cards at warning level).
+
+The block records `by` / `asked` / `quote` / `date` / `scope`. Four constraints keep it from becoming a bypass: only Parker may authorize; his words must be quoted; the card must still be page-grounded (`verified_against`), since authorization licenses the selection and never the grounding; and once any card in a batch uses the lane, a bare unmarked card is HARD as well — otherwise omitting the block is softer than filling it in wrong.
+
+**Legacy calibration.** Measured over every card file: the partial backfills sit at 35–42% provenanced (EMT ch1–3) and every modern run at 100%, so the escalation fires only when a batch is ≥95% accounted for or already uses the lane. Re-gating a legacy backfill still warns; EMT ch4 (97%, three genuinely untraceable cards) correctly goes hard.
+
+- **MUST CATCH:** an unmarked card with no block; a block missing `quote`; `by: "claude"`; an authorized card with no `verified_against`; a bare unmarked card in a batch that uses the lane.
+- **MUST NOT OVER-FLAG:** a complete authorization on a page-grounded card; a 50%-provenanced legacy batch, whose unmarked cards stay warnings.

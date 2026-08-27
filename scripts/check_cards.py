@@ -1096,6 +1096,59 @@ def _visual_evidence_exists(card, source_root=None):
     return False
 
 
+AUTH_QUOTE_MIN = 3          # "yes" is a real answer; an empty string is not
+
+
+def authorized_lane_check(cards):
+    """(hard, warn) — a card with no `from_idx` must carry Parker's explicit authorization.
+
+    card-rules #29 forbids the agent selecting content for Parker, and names exactly one
+    exit: ask at hand-off, and get his answer IN HIS WORDS before a single extra card
+    exists. The rule has said that since 2026-08-08; the machinery never had a way to
+    represent the answer, so an authorized card was indistinguishable from a card whose
+    drafter simply forgot its provenance — and `grounding_check` only WARNS on a missing
+    `from_idx`. That is the hole this closes: after this check, a card with no mark behind
+    it either names the question Parker was asked and quotes his reply, or it is blocked.
+
+    This is deliberately NOT a general bypass. An authorized card must still be grounded
+    in the source (`verified_against`, a page), so it stays checkable in seconds; the
+    block records what was asked, so a later session can audit the claim instead of
+    trusting it; and the synthetic-marks HARD block (R40) is untouched — inventing marks
+    in the highlights file remains blocked no matter what any card asserts."""
+    hard, warn = [], []
+    for i, c in enumerate(cards):
+        auth = c.get("authorization")
+        has_marks = bool(c.get("from_idx"))
+        if not auth:
+            continue        # marked cards, and the missing-provenance path, are elsewhere
+        if has_marks:
+            warn.append(f"#{i}: carries BOTH `from_idx` and `authorization` — a card built "
+                        f"from Parker's own marks needs no authorization; drop the block "
+                        f"(card-rules #29)")
+        if not isinstance(auth, dict):
+            hard.append(f"#{i}: `authorization` must be an object naming what Parker was "
+                        f"asked and quoting his reply (card-rules #29)")
+            continue
+        missing = [k for k in ("by", "asked", "quote", "date", "scope")
+                   if not str(auth.get(k) or "").strip()]
+        if missing:
+            hard.append(f"#{i}: `authorization` is missing {missing} — an unmarked card is "
+                        f"legal ONLY with the question Parker answered and his own words "
+                        f"(card-rules #29)")
+            continue
+        if str(auth.get("by")).strip().lower() != "parker":
+            hard.append(f"#{i}: `authorization.by` is {auth['by']!r} — only Parker can "
+                        f"authorize a card he did not mark (card-rules #29)")
+        if len(str(auth["quote"]).strip()) < AUTH_QUOTE_MIN:
+            hard.append(f"#{i}: `authorization.quote` is too short to be his answer — "
+                        f"quote him verbatim (card-rules #29)")
+        if not has_marks and not str(c.get("verified_against") or "").strip():
+            hard.append(f"#{i}: authorized but not page-grounded — an unmarked card must "
+                        f"name the page it was read from in `verified_against`, so Parker "
+                        f"can check it in seconds (card-rules #29)")
+    return hard, warn
+
+
 def image_paths_check(cards):
     """(hard, warn) — a staged `image` must RESOLVE, or the writer silently drops it (R56).
 
@@ -1123,7 +1176,24 @@ def grounding_check(cards, highlights, require_provenance=False, source_root=Non
     if highlights is None:
         return hard, warn
     have_prov = [c for c in cards if c.get("from_idx")]
-    if not have_prov:
+    # Is an unprovenanced card in THIS file an anomaly, or the file's normal state?
+    # Measured across every card file 2026-08-26, the answer is bimodal: the legacy
+    # partial backfills sit at 35-42% provenanced (EMT ch1-3) and every modern run at
+    # 100%. So a card with no mark is HARD in a batch that is essentially fully
+    # provenanced — or in any batch that uses the authorized lane at all, where omitting
+    # the block must never be the softer option than filling it in wrong. Half-backfilled
+    # legacy files keep warning, and a batch with NO provenance at all takes the early
+    # return below, exactly as before.
+    # A card is ACCOUNTED FOR by either route — a mark it cites, or an authorization
+    # naming the question Parker answered. Counting only `from_idx` here would let a
+    # batch of purely authorized cards fall through to the legacy path below (its
+    # `from_idx` lists are empty), which is exactly how the inversion guard first failed
+    # its own regression case.
+    accounted = [c for c in cards if c.get("from_idx") or c.get("authorization")]
+    fully = accounted and len(accounted) / len(cards) >= 0.95
+    lane_in_play = any(c.get("authorization") for c in cards)
+    unmarked_is_hard = bool(fully or lane_in_play)
+    if not accounted:
         if require_provenance:
             hard.append("no card in this file carries `from_idx` — provenance is required "
                         "(see reference/provenance.md). Regenerate with the run store.")
@@ -1137,8 +1207,16 @@ def grounding_check(cards, highlights, require_provenance=False, source_root=Non
             continue  # the purple lane has its own contract — lexicon_check (R35–R37)
         idxs = c.get("from_idx")
         if not idxs:
-            msg = f"#{i}: no `from_idx` — grounding unverifiable in a file that otherwise has provenance"
-            (hard if require_provenance else warn).append(msg)
+            # An AUTHORIZED card (card-rules #29's one exit) legitimately has no mark
+            # behind it — Parker was asked and said yes. Its contract is enforced by
+            # authorized_lane_check, which demands page grounding, so it is not reported
+            # here as missing provenance. Everything else still is.
+            if c.get("authorization"):
+                continue
+            msg = (f"#{i}: no `from_idx` and no `authorization` — every card comes from "
+                   f"one of Parker's marks, or from a question he answered in his own "
+                   f"words (card-rules #29, Rule 1)")
+            (hard if (unmarked_is_hard or require_provenance) else warn).append(msg)
             continue
         # The visual exemption must be VERIFIED, not self-asserted. `visual_source` is a
         # free-text field the drafter writes itself, so treating its mere presence as proof
@@ -1433,6 +1511,9 @@ def main():
         ih, iw = image_paths_check(cards)
         hard += ih
         warn += iw
+        ah, aw = authorized_lane_check(cards)
+        hard += ah
+        warn += aw
     # R13 — grounding: every claim supported by the source the card cites (file mode only;
     # a live audit has no provenance link back to the extractor's output).
     ground_note = ""

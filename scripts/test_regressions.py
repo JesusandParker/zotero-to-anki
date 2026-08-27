@@ -34,7 +34,84 @@ LEX_MARKS = [
      "context": "Shock produces pale, cool, moist skin as blood is shunted to the core."},
 ]
 
+AUTH_OK = {"by": "parker", "date": "2026-08-26",
+           "asked": "Unmarked on p. 10: the SI/MKS/cgs systems paragraph and the seven SI "
+                    "base quantities table. Want anything from them?",
+           "quote": "sure do this",
+           "scope": "p31: the Systems of Units paragraph and TABLE 1-5"}
+AUTH_MARKS = [{"kind": "text", "page": "31", "highlight": "The standard unit of mass is the kilogram.",
+               "context": "The standard unit of mass is the kilogram (kg)."}]
+
+
+def _auth_card(text, **over):
+    c = {"Text": text, "Back Extra": "Cue: SI is the modern metric system.",
+         "from_idx": [], "authorization": dict(AUTH_OK),
+         "verified_against": "p31", "chapter": 1}
+    c.update(over)
+    return c
+
+
 CASES = [
+    # --- R57: card-rules #29's ONE exit — Parker asked, Parker answered, in his words ---
+    {
+        "id": "r57_good_authorized_card_passes",
+        "warn": "authorization", "present": False, "scope": "hard",
+        "highlights": AUTH_MARKS,
+        "cards": [{"Text": "The SI base unit of {{c1::electric current}} is the ampere (A).",
+                   "Back Extra": "Cue: one of seven.", "from_idx": [0], "chapter": 1},
+                  _auth_card("SI is short for {{c1::Système International}}.")],
+        "note": "an unmarked card IS legal when Parker was asked and said yes — the block "
+                "names the question, quotes his reply, and the card is page-grounded",
+    },
+    {
+        "id": "r57_bad_unmarked_card_omits_the_block_entirely",
+        "warn": "no `from_idx` and no `authorization`", "present": True, "scope": "hard",
+        "highlights": AUTH_MARKS,
+        "cards": [_auth_card("SI is short for {{c1::Système International}}."),
+                  {"Text": "The cgs system's mass standard is the {{c1::gram}}.",
+                   "Back Extra": "Cue: a second metric system.", "chapter": 1}],
+        "note": "the inversion guard: once a batch uses the authorized lane, OMITTING the "
+                "block must not be softer than filling it in wrong, or the way past the "
+                "gate is to say nothing at all",
+    },
+    {
+        "id": "r57_bad_authorization_without_his_words",
+        "warn": "is missing ['quote']", "present": True, "scope": "hard",
+        "highlights": AUTH_MARKS,
+        "cards": [_auth_card("SI is short for {{c1::Système International}}.",
+                             authorization={k: v for k, v in AUTH_OK.items() if k != "quote"})],
+        "note": "'the answer must be his, in his words' — a block asserting authorization "
+                "without quoting him is the agent vouching for itself",
+    },
+    {
+        "id": "r57_bad_authorization_by_someone_else",
+        "warn": "only Parker can", "present": True, "scope": "hard",
+        "highlights": AUTH_MARKS,
+        "cards": [_auth_card("SI is short for {{c1::Système International}}.",
+                             authorization=dict(AUTH_OK, by="claude"))],
+        "note": "the agent cannot authorize its own selection — that is the 2026-08-08 "
+                "coverage-lane failure wearing a new field name (R40)",
+    },
+    {
+        "id": "r57_bad_authorized_but_not_page_grounded",
+        "warn": "authorized but not page-grounded", "present": True, "scope": "hard",
+        "highlights": AUTH_MARKS,
+        "cards": [_auth_card("SI is short for {{c1::Système International}}.",
+                             verified_against=None)],
+        "note": "authorization licenses the SELECTION, never the grounding — an unmarked "
+                "card must still name the page it was read from",
+    },
+    {
+        "id": "r57_good_legacy_partial_backfill_still_warns",
+        "warn": "no `from_idx` and no `authorization`", "present": False, "scope": "hard",
+        "highlights": AUTH_MARKS,
+        "cards": [{"Text": "The standard unit of mass is the {{c1::kilogram}}.",
+                   "Back Extra": "Cue: SI base unit.", "from_idx": [0], "chapter": 1},
+                  {"Text": "A {{c1::newton}} is the SI unit of force.",
+                   "Back Extra": "Cue: derived unit.", "chapter": 1}],
+        "note": "must NOT over-flag: EMT ch1-3 are 35-42% provenanced legacy backfills, "
+                "and re-gating one must not turn half its deck into hard errors",
+    },
     # --- R56: a staged image path that does not resolve is silently dropped by the writer
     {
         "id": "r56_bad_image_path_that_does_not_resolve",

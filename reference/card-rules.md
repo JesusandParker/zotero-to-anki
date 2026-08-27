@@ -230,7 +230,17 @@ The Cold-Solve Gate asks whether each blank is *answerable*. These two ask a que
     - **"Do this for me" refers to the pipeline, not the selection.** He always does the selection; that is what reading is.
     - **Labeling doesn't license it.** The one violation that created this rule tagged every synthetic mark `selected_by: "claude"` and logged everything transparently — and was still 80 retracted cards. Provenance hygiene does not convert unrequested work into requested work.
     - **If unmarked content genuinely seems exam-critical, the whole permitted move is one sentence at hand-off** ("pages X–Y are unmarked; want anything from them?") — and the answer must be his, in his words, before a single extra card exists.
-    - *Caught by:* `check_cards.synthetic_marks_check` — a card citing any mark carrying a provenance key the extractor never writes (`selected_by`) is a **HARD block**, and a highlights file containing synthetic marks warns on sight.
+    - **When he says yes, the card records the ask — the AUTHORIZED lane (2026-08-26).** The exit above has existed since this rule was written, and until physics ch1 the machinery had no way to represent his answer: an authorized card looked exactly like a card whose drafter forgot `from_idx`, which `grounding_check` merely warned about. So a card with no mark behind it now carries an `authorization` block instead, and it is HARD-blocked without one:
+      ```json
+      "from_idx": [],
+      "authorization": {"by": "parker", "date": "2026-08-26",
+                        "asked": "<the question he was asked, verbatim>",
+                        "quote": "<his reply, verbatim>",
+                        "scope": "<exactly what he authorized>"}
+      ```
+      Four constraints, each closing a way the lane could become a bypass: **only Parker** may authorize (`by` anything else is the coverage-lane failure wearing a new field name); the block must **quote him**, since a bare assertion is the agent vouching for itself; the card must still be **page-grounded** (`verified_against`), because authorization licenses the *selection* and never the *grounding*; and once any card in a batch uses the lane, a card with neither `from_idx` nor `authorization` is HARD too — otherwise omitting the block would be softer than filling it in wrong, and the way past the gate would be to say nothing at all.
+      **Scope is narrow and per-ask.** "Sure do this" about one paragraph and one table authorizes that paragraph and that table — not the page, not the chapter, and never a standing licence. The next unmarked thing needs its own sentence at hand-off.
+    - *Caught by:* `check_cards.synthetic_marks_check` — a card citing any mark carrying a provenance key the extractor never writes (`selected_by`) is a **HARD block**, and a highlights file containing synthetic marks warns on sight. Plus `check_cards.authorized_lane_check` + the `unmarked_is_hard` escalation in `grounding_check` (regression **R57**), which together enforce the authorized lane above.
     *Failure that created this rule (2026-08-08):* the genetics ch9 "coverage lane" — 99 agent-selected marks, 80 staged cards, retracted in full. Parker: *"never once did I ever instruct you to do that… you could've been spending all that time creating actually really perfect amazing well formatted triple checked high-quality flashcards from those three pages… that was all I asked you to do."* Regression **R40**.
 
 30. **A marked SET is carded for MEMBERSHIP first, then for its rows (2026-08-08).**

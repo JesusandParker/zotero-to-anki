@@ -543,8 +543,12 @@
   "segment": 4,
   "needs_human_check": false,
   "image": null,
-  "from_idx": null,
-  "provenance_backfilled": true
+  "from_idx": [
+   19
+  ],
+  "provenance_backfilled": true,
+  "verified_against": "p374",
+  "verified_by": "consolidator 2026-08-26, HAND-traced: backfill_provenance.py left this card null on purpose (no confident automatic match) — provenance was recovered by reading the chapter, not by the tool. Older patients ... 'are at risk for a serious decline in their physical, emotional, or psychological state' opens mark 19's context paragraph"
  },
  {
   "Text": "Never attribute an older patient's altered mental status to {{c1::old age::a patient characteristic}} — it may instead be caused by {{c2::hypoxia}}, {{c2::brain injury or stroke}}, {{c2::drug overdose}}, {{c2::infection}}, {{c2::abnormal blood glucose}}, or {{c2::insufficient perfusion}}.",
@@ -1264,8 +1268,12 @@
   "segment": 4,
   "needs_human_check": false,
   "image": null,
-  "from_idx": null,
-  "provenance_backfilled": true
+  "from_idx": [
+   55
+  ],
+  "provenance_backfilled": true,
+  "verified_against": "p413",
+  "verified_by": "consolidator 2026-08-26, HAND-traced: backfill_provenance.py left this card null on purpose (no confident automatic match) — provenance was recovered by reading the chapter, not by the tool. mark 55's context states verbatim: 'Even if a patient refuses care, you must complete the PCR.'"
  },
  {
   "Text": "A refusal-of-care PCR documents 4 things:<br><br>{{c1::the advice you gave about the risks of refusing}}<br><br>{{c1::clinical evidence of competency (such as LOC)}}<br><br>{{c1::pertinent patient comments and any advice from the physician/medical control}}<br><br>{{c1::a description of the care you wished to provide}}",
@@ -1801,7 +1809,11 @@
   "segment": 4,
   "needs_human_check": false,
   "image": null,
-  "from_idx": null,
-  "provenance_backfilled": true
+  "from_idx": [
+   80
+  ],
+  "provenance_backfilled": true,
+  "verified_against": "p435",
+  "verified_by": "consolidator 2026-08-26, HAND-traced: backfill_provenance.py left this card null on purpose (no confident automatic match) — provenance was recovered by reading the chapter, not by the tool. mark 80's context states verbatim: 'The patient's name should not be given over the radio because it may be overheard.'"
  }
 ]

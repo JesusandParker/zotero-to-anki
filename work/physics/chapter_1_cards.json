@@ -494,7 +494,7 @@
   "image": null
  },
  {
-  "Text": "The SI prefix <b>yotta</b> (Y) multiplies a unit by {{c1::10²⁴::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::yotta}}</b> ({{c2::Y::symbol}}) multiplies a unit by {{c1::10²⁴::power of ten}}.",
   "Back Extra": "Ex: 1 yottameter (Ym) = 10²⁴ m.",
   "source": "physics",
   "segment": 1,
@@ -522,7 +522,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>zetta</b> (Z) multiplies a unit by {{c1::10²¹::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::zetta}}</b> ({{c2::Z::symbol}}) multiplies a unit by {{c1::10²¹::power of ten}}.",
   "Back Extra": "Ex: 1 zettameter (Zm) = 10²¹ m.",
   "source": "physics",
   "segment": 1,
@@ -550,7 +550,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>exa</b> (E) multiplies a unit by {{c1::10¹⁸::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::exa}}</b> ({{c2::E::symbol}}) multiplies a unit by {{c1::10¹⁸::power of ten}}.",
   "Back Extra": "Ex: 1 exameter (Em) = 10¹⁸ m.",
   "source": "physics",
   "segment": 1,
@@ -578,7 +578,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>peta</b> (P) multiplies a unit by {{c1::10¹⁵::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::peta}}</b> ({{c2::P::symbol}}) multiplies a unit by {{c1::10¹⁵::power of ten}}.",
   "Back Extra": "Ex: 1 petameter (Pm) = 10¹⁵ m.",
   "source": "physics",
   "segment": 1,
@@ -606,7 +606,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>tera</b> (T) multiplies a unit by {{c1::10¹²::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::tera}}</b> ({{c2::T::symbol}}) multiplies a unit by {{c1::10¹²::power of ten}}.",
   "Back Extra": "Ex: 1 terawatt (TW) = 10¹² W.",
   "source": "physics",
   "segment": 1,
@@ -634,7 +634,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>giga</b> (G) multiplies a unit by {{c1::10⁹::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::giga}}</b> ({{c2::G::symbol}}) multiplies a unit by {{c1::10⁹::power of ten}}.",
   "Back Extra": "Ex: 1 gigahertz (GHz) = 10⁹ Hz.",
   "source": "physics",
   "segment": 1,
@@ -662,7 +662,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>mega</b> (M) multiplies a unit by {{c1::10⁶::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::mega}}</b> ({{c2::M::symbol}}) multiplies a unit by {{c1::10⁶::power of ten}}.",
   "Back Extra": "Ex: 1 megapixel = 10⁶ pixels — an 8.2-megapixel camera has 8,200,000 of them.",
   "source": "physics",
   "segment": 1,
@@ -691,7 +691,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>kilo</b> (k) multiplies a unit by {{c1::10³::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::kilo}}</b> ({{c2::k::symbol}}) multiplies a unit by {{c1::10³::power of ten}}.",
   "Back Extra": "Ex: 1 kilometer (km) = 10³ m = 1000 m.",
   "source": "physics",
   "segment": 1,
@@ -719,7 +719,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>hecto</b> (h) multiplies a unit by {{c1::10²::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::hecto}}</b> ({{c2::h::symbol}}) multiplies a unit by {{c1::10²::power of ten}}.",
   "Back Extra": "Ex: 1 hectometer (hm) = 10² m = 100 m.",
   "source": "physics",
   "segment": 1,
@@ -747,7 +747,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>deka</b> (da) multiplies a unit by {{c1::10¹::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::deka}}</b> ({{c2::da::symbol}}) multiplies a unit by {{c1::10¹::power of ten}}.",
   "Back Extra": "Ex: 1 dekameter (dam) = 10¹ m = 10 m.",
   "source": "physics",
   "segment": 1,
@@ -775,7 +775,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>deci</b> (d) multiplies a unit by {{c1::10⁻¹::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::deci}}</b> ({{c2::d::symbol}}) multiplies a unit by {{c1::10⁻¹::power of ten}}.",
   "Back Extra": "Ex: 1 deciliter (dL) = 10⁻¹ L = 1/10 L.",
   "source": "physics",
   "segment": 1,
@@ -803,7 +803,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>centi</b> (c) multiplies a unit by {{c1::10⁻²::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::centi}}</b> ({{c2::c::symbol}}) multiplies a unit by {{c1::10⁻²::power of ten}}.",
   "Back Extra": "Ex: 1 centimeter (cm) = 10⁻² m = 1/100 m.",
   "source": "physics",
   "segment": 1,
@@ -831,7 +831,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>milli</b> (m) multiplies a unit by {{c1::10⁻³::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::milli}}</b> ({{c2::m::symbol}}) multiplies a unit by {{c1::10⁻³::power of ten}}.",
   "Back Extra": "Ex: 1 millimeter (mm) = 10⁻³ m = 1/1000 m.",
   "source": "physics",
   "segment": 1,
@@ -859,7 +859,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>micro</b> (μ) multiplies a unit by {{c1::10⁻⁶::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::micro}}</b> ({{c2::μ::symbol}}) multiplies a unit by {{c1::10⁻⁶::power of ten}}.",
   "Back Extra": "Ex: 1 micrometer (μm) = 10⁻⁶ m.",
   "source": "physics",
   "segment": 1,
@@ -887,7 +887,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>nano</b> (n) multiplies a unit by {{c1::10⁻⁹::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::nano}}</b> ({{c2::n::symbol}}) multiplies a unit by {{c1::10⁻⁹::power of ten}}.",
   "Back Extra": "Ex: 1 nanometer (nm) = 10⁻⁹ m.",
   "source": "physics",
   "segment": 1,
@@ -915,7 +915,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>pico</b> (p) multiplies a unit by {{c1::10⁻¹²::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::pico}}</b> ({{c2::p::symbol}}) multiplies a unit by {{c1::10⁻¹²::power of ten}}.",
   "Back Extra": "Ex: 1 picosecond (ps) = 10⁻¹² s.",
   "source": "physics",
   "segment": 1,
@@ -943,7 +943,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>femto</b> (f) multiplies a unit by {{c1::10⁻¹⁵::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::femto}}</b> ({{c2::f::symbol}}) multiplies a unit by {{c1::10⁻¹⁵::power of ten}}.",
   "Back Extra": "Ex: 1 femtosecond (fs) = 10⁻¹⁵ s.",
   "source": "physics",
   "segment": 1,
@@ -971,7 +971,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>atto</b> (a) multiplies a unit by {{c1::10⁻¹⁸::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::atto}}</b> ({{c2::a::symbol}}) multiplies a unit by {{c1::10⁻¹⁸::power of ten}}.",
   "Back Extra": "Ex: 1 attosecond (as) = 10⁻¹⁸ s.",
   "source": "physics",
   "segment": 1,
@@ -981,7 +981,7 @@
   "block": "C_units_standards",
   "numeric": true,
   "verified_against": "p31",
-  "verified_by": "agent, read from page render this run",
+  "verified_by": "agent, read from page render this run; consolidator: leak warning cleared — the flagged 'a' is the English article in 'multiplies a unit by', not a copy of the symbol answer; nothing on the front points to 'a' as atto's abbreviation",
   "needs_human_check": false,
   "visual_source": {
    "pages": [
@@ -999,7 +999,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>zepto</b> (z) multiplies a unit by {{c1::10⁻²¹::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::zepto}}</b> ({{c2::z::symbol}}) multiplies a unit by {{c1::10⁻²¹::power of ten}}.",
   "Back Extra": "Ex: 1 zeptosecond (zs) = 10⁻²¹ s.",
   "source": "physics",
   "segment": 1,
@@ -1027,7 +1027,7 @@
   "image_side": "back"
  },
  {
-  "Text": "The SI prefix <b>yocto</b> (y) multiplies a unit by {{c1::10⁻²⁴::power of ten}}.",
+  "Text": "The SI prefix <b>{{c2::yocto}}</b> ({{c2::y::symbol}}) multiplies a unit by {{c1::10⁻²⁴::power of ten}}.",
   "Back Extra": "Ex: 1 yoctogram (yg) = 10⁻²⁴ g.",
   "source": "physics",
   "segment": 1,
