@@ -234,7 +234,10 @@ def live_notes(source):
     deck = S.get_source(source).get("deck_root")
     if not deck:
         sys.exit(f"source '{source}' has no deck_root in the registry")
-    notes = call("notesInfo", notes=call("findNotes", query=f'deck:{deck}::*'))
+    # The deck path contains spaces on every Liberty deck; an unquoted deck: term
+    # silently matches ZERO notes, which made this guard a no-op for those sources
+    # (found 2026-08-27 on arabic). Quote it.
+    notes = call("notesInfo", notes=call("findNotes", query=f'deck:"{deck}::*"'))
     return [{"noteId": n["noteId"],
              "fields": {k: v["value"] for k, v in n["fields"].items()},
              "tags": n["tags"]} for n in notes]
@@ -317,7 +320,8 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("command", choices=["status", "scan", "check", "self-test"])
     ap.add_argument("--source", default="emt")
-    ap.add_argument("--note", type=int)
+    ap.add_argument("--note", type=int, action="append",
+                    help="note id; repeatable to check several at once")
     args = ap.parse_args()
     sys.path.insert(0, HERE)
     if args.command == "self-test":
@@ -326,9 +330,14 @@ def main():
 
     if args.command == "check":
         notes = {n["noteId"]: n for n in live_notes(args.source)}
-        n = notes.get(args.note) or sys.exit(f"note {args.note} not in this source's decks")
-        for f, s in check(args.source, args.note, n["fields"], store).items():
-            print(f"  {f:14} {s}")
+        if not notes:
+            sys.exit(f"no live notes found for source '{args.source}' -- "
+                     "the guard cannot vouch for anything; fix this before writing")
+        for nid in (args.note or []):
+            n = notes.get(nid) or sys.exit(f"note {nid} not in this source's decks")
+            print(f"note {nid}")
+            for f, st in check(args.source, nid, n["fields"], store).items():
+                print(f"  {f:14} {st}")
         return
 
     notes = live_notes(args.source)

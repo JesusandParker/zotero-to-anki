@@ -208,3 +208,54 @@ Parker reports issues two ways: **(a) tell Claude directly** in any session ("I 
 - **2026-06-29 — "the public-health card doesn't test the goal."** The goal ("preventing health problems") sat as visible scenery, untested. *Systemic (under-clozing):* fixed to a 3-cloze card, sharpened `card-rules.md` #7 + `editor-checklist.md` #4, regression case **R1**.
 - **2026-06-29 — "the AEMT skills are sitting unclozed."** Used the "such as" rule as an excuse to skip a real skill list. *Systemic (shortcut / under-clozing):* added the explicit Fact Pass (must-test / supporting / skip) to the pipeline; regression cases **R1/R5**.
 - **2026-06-29 — over-production (76 cards from 36 highlights).** The decomposed per-unit fan-out duplicated facts across units. *Systemic:* added the Stage 2.5 global-consolidation pass + `card-rules.md` #12; regression case **R2**.
+
+## 2026-08-27 — Arabic Unit 1 letters: "I don't have much to associate these letters with"
+**Source:** arabic (Alif Baa 3e), Unit 1 · **Cards:** 28 letters + 4 symbols
+
+**What he flagged.** He was failing the alphabet: 22 cards studied, 121 reps, 6 lapses, and
+every c1 card ("produce the glyph") sat at a 0-1 day interval after 4-10 reps. The 6 lapses
+were all in the two dot-families (baa/taa/thaa, jiim/Haa/khaa). He asked for the
+transliteration symbol on every letter card alongside the name and sound, and distinguishing
+remarks in Back Extra, "because I just am finding it really difficult." Follow-up, emphatic:
+*"don't just invent a transliteration system it's all in Zotero"*.
+
+**Diagnosis — systemic, three parts.**
+1. The cards taught name + sound but never the *symbol*, so nothing tied the glyph to the
+   Latin he actually reads and types.
+2. Ten letters (alif, kaaf, laam, miim, nuun, haa, waaw, yaa …) had an EMPTY Back Extra
+   apart from the chart — no hook at all for the exact card that was failing.
+3. Nothing on the card taught the one rule that unifies the set: every consonant's NAME
+   opens with its own sound (baa/b, siin/s, qaaf/q), so name and symbol are one fact.
+
+**Fix.** `work/arabic/fix_unit1_letters.py` (idempotent, re-runnable). Transliteration read
+off the book's own "Transliteration symbol and sound" charts, printed pp.11-12 = physical
+pp.25-26, plus the Vowels chart for alif/waaw/yaa; hamza's apostrophe corroborated by the
+book's own prose ("Qur'an"). Added `Transliteration: {{c2::X}}` between the Name and Sound
+lines on all 28 letters, and to the 4 symbols the book actually gives one for. Added
+`Shape:` (a visual description of the glyph) and `Hook:` (the name-opens-with-its-sound rule,
+instantiated per letter) to every letter, plus `Distinguish:` lines for the 8 that had none.
+**Deliberately NOT extended:** tanwiin, sukuun, shadda, waSla, dagger alif, alif madda, alif
+maqSuura, taa marbuuTa get no transliteration — Unit 1's symbols chart gives names only, and
+guessing is forbidden.
+
+**Rules added.** `check_block_spec.py` `L2-translit` (letter notes carry the book's symbol)
+and `L3-translit-never-beside-glyph`; regression case **R59**; `profiles/language.md` §7a
+rewritten — R39's "translit is ANSWER-SIDE ONLY" was a vocab-lane proxy that, read literally,
+forbade the correct letter shape. The real invariant is never-beside-the-glyph. Both
+mutations (translit dropped / translit moved into c1) verified to fail the checker.
+
+**Bug found and fixed en route — the authorship guard was a no-op on this whole source.**
+`authorship.live_notes()` built `query=f'deck:{deck}::*'` UNQUOTED. Every Liberty deck path
+contains spaces ("LIBERTY FALL 2026"), so the search matched **zero notes** and every
+`check` returned "not in this source's decks" — the guard that exists to protect Parker's own
+edits could not see a single one of them. Quoted the term; made `--note` repeatable; `check`
+now aborts loudly when a source resolves to zero live notes instead of silently vouching for
+nothing. With it working: all 28 letter `Back Extra` fields are `edited` (his), all 28 `Text`
+fields `owned`. Back Extra was therefore never rewritten — the script splits off the trailing
+`<img>`, keeps his prefix byte-for-byte (e.g. khaa's "like clearing your pharanix"), appends,
+re-attaches. 19/19 guard self-tests pass.
+
+**Verification.** check_cards HARD-clean (32 warnings, all pre-existing letter-NAME grounding
+noise from the Arabic-free scan; zero on any new transliteration answer) · block-spec 15/15 ·
+103/103 regressions · media_audit all clear · render_check contact sheet inspected: direction
+correct, one play button, both cloze directions, charts intact.

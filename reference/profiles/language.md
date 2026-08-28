@@ -82,8 +82,11 @@ without repeating Unit 1's failures. All of it is enforced by running guards, na
   neutrals). Keep glyphs out of Back Extra prose; key Distinguish lines on letter NAMES.
 - `<div dir="rtl">` would be cleaner but `div` HARD-blocks on ALLOWED_TAGS. Pure lines + LRM
   achieve the same rendering with legal HTML.
-- **Transliteration is ANSWER-SIDE ONLY** — visible on any front it gives pronunciation away
-  in both card directions.
+- **Transliteration must never be READABLE BESIDE the Arabic it would let you skip reading**
+  (R39, refined by R59). In the vocab lane that means Back Extra only. On a two-way LETTER
+  note it means the opposite cloze group from the glyph — `{{c1::<glyph>}}` with
+  `Transliteration: {{c2::<symbol>}}` — so exactly one of the pair is hidden on either card.
+  Translit in `c1` beside the glyph is the defect. Guards: `L2-translit`, `L3-translit-never-beside-glyph`.
 - **Diacritics ride a carrier letter** (`بَ`, the book's own convention) — never bare (they
   float and wrap), never on U+25CC (tofu on macOS/iOS).
 

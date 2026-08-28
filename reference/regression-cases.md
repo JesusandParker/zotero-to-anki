@@ -743,3 +743,26 @@ Fixes: derive a safe name for any filename (`<stem>_VERIFY.md`), and refuse outr
 - **MUST CATCH:** running the report on a file whose name lacks the `_cards.json` suffix must leave that file valid JSON; `--out <the cards file>` must exit refusing.
 - **MUST NOT OVER-FLAG:** the ordinary `*_cards.json` path still writes `*_VERIFY.md` alongside, unchanged.
 - **Recovery note:** the destroyed file was rebuilt from the surviving editor log plus the edited text captured before the loss; 6 of 9 cards differed from the drafter's version, matching the editor's own "3 PASS · 6 REWRITE" count, which is what confirmed the reconstruction was faithful.
+
+## R59 — "translit is ANSWER-SIDE ONLY" was a proxy; the real rule is "never beside the glyph"
+**Rule:** transliteration must never be READABLE ALONGSIDE the Arabic it would let you skip
+reading. On a two-way letter note that means translit sits in the cloze group OPPOSITE the
+glyph. **Caught by:** `check_block_spec.py` `L2-translit` + `L3-translit-never-beside-glyph`.
+Found 2026-08-27 when Parker asked for the book's transliteration symbol on every letter card.
+
+R39 recorded the rule as *"translit is ANSWER-SIDE ONLY (it gives pronunciation away on both
+card directions)"*. That phrasing came from the VOCAB lane, where translit sits in Back Extra
+and the front shows an Arabic word — there, visible translit means you never read the script.
+Read literally it also forbids the correct letter-card shape, where the glyph is `c1` and
+name/translit/sound are `c2`: on the `c1` card translit is visible, but the glyph is the
+hidden answer, so there is no script to skip reading. The invariant that actually protects
+the skill is co-visibility with the glyph, not answer-side-ness.
+
+Both cloze groups hold exactly one of {glyph, translit}, so whichever card is up, one of the
+pair is hidden. Putting translit in `c1` next to the glyph is the real defect: the `c2` card
+would then show `ب` and `b` together and never test reading the letter.
+
+- **MUST CATCH:** a letter note whose `Transliteration:` line is clozed `c1` (beside the
+  glyph); a letter note that dropped the transliteration line entirely.
+- **MUST NOT OVER-FLAG:** the correct shape — `{{c1::<glyph>}}` with
+  `Transliteration: {{c2::<symbol>}}` — and vocab cards, which keep translit in Back Extra.

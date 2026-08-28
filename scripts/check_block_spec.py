@@ -67,6 +67,22 @@ RULES = [
  ("L1-two-way (2026-08-08)", block("A_letters"),
   lambda c: set(clozes(c["Text"])) == {1, 2},
   "letter notes are two-way: c1 = produce the glyph, c2 = name + sound"),
+ # 2026-08-27: "I need the actual transliteration symbol and the sound... in here as well."
+ # His c1 cards were stuck at 0-1d intervals after 4-10 reps with nothing to associate.
+ ("L2-translit (2026-08-27)", block("A_letters"),
+  lambda c: bool(re.search(r'Transliteration:\s*\{\{c2::', c["Text"])),
+  "letter notes carry the BOOK's transliteration symbol, clozed with name+sound (c2)"),
+ # The "translit is ANSWER-SIDE ONLY" rule (R39) protects one thing: transliteration must
+ # never be READABLE ALONGSIDE the Arabic it would let you skip reading. State the real
+ # invariant structurally -- translit and the glyph must sit in DIFFERENT cloze groups, so
+ # whichever card you are on, exactly one of them is hidden. Putting both in c1 (or both in
+ # c2) is the defect; translit in c2 opposite a c1 glyph is correct. See R53.
+ ("L3-translit-never-beside-glyph (2026-08-27, R53)",
+  lambda c: c.get("block") == "A_letters" and "Transliteration:" in c["Text"],
+  lambda c: not re.search(r'\{\{c1::[^}]*\}\}[^<]*<br>[^<]*Transliteration:\s*\{\{c1::',
+                          c["Text"], re.S)
+            and bool(re.search(r'Transliteration:\s*\{\{c2::', c["Text"])),
+  "transliteration must be in the cloze group OPPOSITE the glyph, never revealed beside it"),
 
  # --- symbols -------------------------------------------------------------
  ("S1-two-way (2026-08-08)", lambda c: c.get("block") == "B_symbols" and "{{c2::" in c["Text"],
