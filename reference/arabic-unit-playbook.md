@@ -18,8 +18,17 @@ is that the guards see what he sees, first.
   `U1VSt`=Formal) cross-check the mapping. Snapshot both the vocab JSON and an audio
   manifest into `work/arabic/` (Unit 1 examples: `lingco_unit1_vocab.json`,
   `lingco_audio_manifest.json`).
-  **Trial ends 2026-08-22** — harvest remaining units' audio before then, or after Parker
-  buys access (he plans to once enrolled in the real section).
+  **CORRECTION 2026-08-28: access is NOT time-limited.** The course record shows
+  `end_date: 2036-01-01`, `enrolled_as: student`; all 10 units read fine. The earlier
+  "trial ends 2026-08-22" note was wrong — do not re-panic about it.
+  Vocab lesson IDs: U1 8174 · U2 8282 · U3 8420 · U4 8512/8513 · U5 8575/8587/8588 ·
+  U6 8840/8841 · U7 8842 · U8 8843 · U9 8844. Modules 27014–27023 = Units 1–10, via
+  `/api/courses/4839/modules/<moduleId>`. **Every vocab table's column order is
+  [Meaning, maSri, shaami, Formal]** — cell 3 = Formal, cell 2 = shaami. Matching gotcha:
+  the lesson JSON interleaves ZWJ/ZWNJ and full diacritics, so strip
+  `[\u064B-\u0652\u0670\u0640\u200C\u200D]` before any substring search or you will
+  "not find" words that are there. The Chrome extension MCP may be down; the AppleScript
+  Chrome MCP with a synchronous XMLHttpRequest works.
 - **Letter pronunciation videos** for all 28 letters are already local:
   `~/Anki Media Archive/Arabic - Al-Kitaab pronunciation/` (staged copies:
   `work/arabic/media/arabic_pron_NN_<name>.mp4`, lowercase).
@@ -95,3 +104,35 @@ letter notes already exist — **do not create new letter notes**. Extend the ex
 - Buying Lingco access / harvesting Units 2-10 media before 2026-08-22.
 - ~~Promotion of Unit 1 keepers from `claude review` into `Book Highlights`.~~ Obsolete: the
   staging deck was retired 2026-08-24 and Unit 1's cards now live in `Book Highlights`.
+
+
+## 5. Cutting a professor's own voice out of a lecture recording (added 2026-08-28)
+
+Parker asked for Dr. Khouri's own pronunciation on the vocab cards, since she grades him
+speaking. The method that works, and the two traps that wasted a pass each:
+
+- **TRAP 1 — verifying with `-l ar` is worthless.** Forcing Arabic makes whisper emit Arabic
+  no matter what is in the clip, so a cut beginning with "so", "or", or "after me"
+  transcribes as the bare Arabic word and looks perfect. Parker caught this by ear.
+  **Gate every clip TWICE — once `-l ar`, once `-l en` — and reject unless both agree and
+  the English pass shows no filler word.**
+- **TRAP 2 — whisper word timestamps are not usable for cutting.** Both `whisper.cpp -ml 1
+  -sow` and `mlx_whisper --word-timestamps` drift by 100–300 ms, and on windows longer than
+  ~15 s of code-switched speech they collapse into repetition loops that emit hundreds of
+  zero-length words. Never cut on them.
+- **What DOES work: silence-bounded energy islands.** 10 ms-hop RMS envelope, threshold
+  −42 dBFS, islands separated by ≥100 ms of silence. Cut exactly one island. This is
+  self-verifying: a clip that IS one island cannot contain a leading filler word, because
+  the filler would either be its own island or make the island implausibly long for the
+  word. Pair the island list with the Teams **English** VTT (which is accurate and
+  correctly timed) to identify which island is the Arabic. Script:
+  `work/arabic/khouri_island_cut.py`.
+- **Accept that some words have no clean cut.** A professor mostly says the target word
+  inside a running English sentence with no pause on either side; there the only honest
+  options are the publisher clip or nothing. Four of fifteen fell out this way. Do not
+  shave a syllable off a neighbour to force one.
+- Lead-in: start ~95 ms before the island (real room silence). Do NOT synthesise it with
+  `adelay` — that emits non-monotonic DTS into the mp3 muxer.
+- Naming/placement: `arabic_khouri_<slug>.mp3`, lowercase; her clip goes in **Back Extra**
+  on notes whose `Audio` field is `unknown` in the authorship store (never overwrite it),
+  and in the `Audio` field only on notes this pipeline creates.
