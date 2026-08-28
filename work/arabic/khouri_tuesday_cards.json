@@ -1,0 +1,57 @@
+[
+ {
+  "slug": "wa_alaykum_assalam",
+  "Text": "‎{{c1::وعَلَيكُم السَّلامُ}}<br><br>{{c2::And upon you peace}} — the reply to the Islamic greeting",
+  "Back Extra": "Cue: MSA — <i>wa calaykum as-salaam</i><br><br>Distinguish: the reply is the greeting turned around — <i>assalaamu calaykum</i> becomes <i>wa calaykum as-salaam</i>. Dr. Khouri: \"Just flip them.\"<br><br>Pitfall: the opening <i>wa</i> is the \"and\" of \"<i>and</i> upon you peace\" — Dr. Khouri told the class not to worry if you drop it.<br><br>Ex: Levantine [sound:arabic_vocab_lingco_wa_alaykum_shaami.mp3]",
+  "Audio": "[sound:arabic_vocab_lingco_wa_alaykum_formal.mp3]",
+  "audio_source": "lingco-formal (Alif Baa U2 row 6) — Dr. Khouri never says this phrase in isolation on the recording; every instance is inside an English sentence",
+  "source": "arabic", "segment": 1,
+  "origin": "khouri-lecture-2026-08-27",
+  "evidence": "slide 'Reply to greeting! (Islamic greeting)' at 00:56:35; drilled 00:58:00",
+  "numeric": false, "needs_human_check": false
+ },
+ {
+  "slug": "askun",
+  "Text": "‎{{c1::أسكُن}}<br><br>{{c2::I live}} — \"___ in the city of Lynchburg\"",
+  "Back Extra": "Cue: MSA — <i>askun</i><br><br>Ex: <i>askun fii madiinat Lynchburg</i> — \"I live in the city of Lynchburg,\" the sentence Dr. Khouri built on the board.<br><br>Pitfall: this verb is NOT in Alif Baa's Unit 1 list. She added it in class on 27 Aug: \"This is not in the list. Add it to the list.\"",
+  "Audio": "[sound:arabic_khouri_askun.mp3]",
+  "audio_source": "khouri 01:11:50, modelled alone right after \"say it after me\"",
+  "source": "arabic", "segment": 1,
+  "origin": "khouri-lecture-2026-08-27",
+  "evidence": "slide 'I live' at 01:11:40",
+  "numeric": false, "needs_human_check": false
+ },
+ {
+  "slug": "tasharafna",
+  "Text": "‎{{c1::تشرفنا}}<br><br>{{c2::Nice to meet you}} — the line that closes an introduction",
+  "Back Extra": "Cue: MSA — <i>tasharafna</i>, as Dr. Khouri spells it on her slide.<br><br>Ex: you say it after your name, your city and where you live — it closes the introduction, and the thank-you exchange follows.<br><br>Pitfall: not in Alif Baa's Unit 1 list — she pulled it forward so the conversation can actually be finished.<br><br>Ex: book audio — Formal [sound:arabic_vocab_lingco_tasharafna_formal.mp3] · Levantine [sound:arabic_vocab_lingco_tasharafna_shaami.mp3]",
+  "Audio": "[sound:arabic_khouri_tasharafna.mp3]",
+  "audio_source": "khouri 01:13:47, modelled alone",
+  "source": "arabic", "segment": 1,
+  "origin": "khouri-lecture-2026-08-27",
+  "evidence": "slide 'Nice to meet you' at 01:13:40",
+  "numeric": false, "needs_human_check": false
+ },
+ {
+  "slug": "shukran",
+  "Text": "‎{{c1::شكراً}}<br><br>{{c2::Thank you}}",
+  "Back Extra": "Cue: MSA — <i>shukran</i><br><br>Distinguish: <i>shukran</i> opens on <i>shiin</i> (sh), not the emphatic <i>Saad</i> (S). Dr. Khouri's slide writes it \"Shukran\" with a capital S as ordinary sentence styling — that capital is NOT her emphatic marker.<br><br>Ex: in the Tuesday exchange your partner says this back to your <i>tasharafna</i>.<br><br>Ex: book audio — Formal [sound:arabic_vocab_lingco_shukran_formal.mp3] · Levantine [sound:arabic_vocab_lingco_shukran_shaami.mp3]",
+  "Audio": "[sound:arabic_khouri_shukran.mp3]",
+  "audio_source": "khouri 01:14:07, modelled alone",
+  "source": "arabic", "segment": 1,
+  "origin": "khouri-lecture-2026-08-27",
+  "evidence": "slide 'Thank you' at 01:14:00",
+  "numeric": false, "needs_human_check": false
+ },
+ {
+  "slug": "afwan",
+  "Text": "‎{{c1::عفواً}}<br><br>{{c2::You're welcome}} — the last word of the intro exchange",
+  "Back Extra": "Cue: MSA — <i>cafwan</i><br><br>Pitfall: <i>cafwan</i> opens on <i>cayn</i>, the same throat sound as in <i>calaykum</i>. Dr. Khouri's trick: say \"ah\", then start to shock yourself — but only a little.<br><br>Ex: book audio — Formal [sound:arabic_vocab_lingco_afwan_formal.mp3]",
+  "Audio": "[sound:arabic_khouri_afwan.mp3]",
+  "audio_source": "khouri 01:14:13, modelled alone",
+  "source": "arabic", "segment": 1,
+  "origin": "khouri-lecture-2026-08-27",
+  "evidence": "slide \"Your welcomed\" at 01:14:10",
+  "numeric": false, "needs_human_check": false
+ }
+]
