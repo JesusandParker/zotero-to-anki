@@ -1,0 +1,80 @@
+{
+ "source": "emt",
+ "segment": 9,
+ "figures": [
+  {
+   "figure": "FIGURE 9-1",
+   "depicts": "Color photograph outside a hospital 'EMERGENCY Adult & Pediatric Trauma Center' ambulance entrance: two uniformed EMS providers, a nurse in a gown, a physician in a white coat, and another provider in masks standing together; a wheeled stretcher at the left edge and a 'STOP — TRIAGE NOW IN TENT' easel sign at the right. A scene photo of the emergency care team where EMS hands off to the hospital; no labels or instructional content.",
+   "cards": [
+    {
+     "card_index": 1,
+     "verdict": "keep",
+     "why": "the caption names the continuum of care and the photo shows the unified team at the first-contact-to-hospital seam the card defines; congruent illustration (overshoot doctrine), nothing on it leaks an answer"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9-2",
+   "depicts": "Pennsylvania Department of Health '4-Person Pit Crew CPR Example (2 BLS and 2 ALS)' training diagram: a red triangle around a supine patient with four provider silhouettes, and four text boxes assigning each position's tasks — Position 1 (BLS) assess patient and start CPR, alternate 100 compressions; Position 2 (BLS) attach monitor/defibrillator pads, alternate compressions, ventilate; Position 3 (ALS) airway, oxygen, rhythm check/shock, capnography; Position 4 (ALS Team Leader) IO/IV, epinephrine, amiodarone, treatable causes, CPR checklist — plus a key and protocol notes.",
+   "cards": [
+    {
+     "card_index": 6,
+     "verdict": "drop",
+     "why": "the plate depicts role assignments by position — the clear-roles element, not the shared-goal element this card tests; same-topic, different-subject (the FIGURE 4-2 class)"
+    },
+    {
+     "card_index": 7,
+     "verdict": "keep",
+     "why": "the card's Ex line is pit crew CPR defining each intervention and role in advance; the plate depicts exactly that, position by position, on the back"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9-3",
+   "depicts": "Color photograph of two EMS providers in high-visibility vests and masks standing beside an ambulance; the left one holds a portable radio and raises one gloved hand in a signal. A generic crew-collaboration scene photo; no labels, no depicted technique or content.",
+   "cards": [
+    {
+     "card_index": 16,
+     "verdict": "drop",
+     "why": "a scene photo; depicts no plan-alteration broadcast — a viewer asks why the picture is there"
+    },
+    {
+     "card_index": 10,
+     "verdict": "drop",
+     "why": "depicts no leadership content; merely near the team-leader passage (R19 nearby-not-about)"
+    },
+    {
+     "card_index": 14,
+     "verdict": "drop",
+     "why": "depicts neither Alert nor Emergency routing; generic crew photo"
+    },
+    {
+     "card_index": 8,
+     "verdict": "drop",
+     "why": "depicts none of the four communication elements; generic crew photo"
+    },
+    {
+     "card_index": 12,
+     "verdict": "drop",
+     "why": "depicts no closed-loop exchange a viewer could see; generic crew photo"
+    },
+    {
+     "card_index": 13,
+     "verdict": "drop",
+     "why": "depicts no PACE content; generic crew photo"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9-4",
+   "depicts": "Vertical five-box flowchart on a blue-gray ground, downward arrows between boxes: Gather data -> Interpret the data -> Develop a plan -> Communicate and implement the plan -> Evaluate the outcome.",
+   "cards": [
+    {
+     "card_index": 19,
+     "verdict": "keep",
+     "why": "the plate IS the card's five-step sequence; rule 26's attach-the-procedure's-plate mandate, back side so the whole loop is visible after answering"
+    }
+   ]
+  }
+ ]
+}

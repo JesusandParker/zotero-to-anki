@@ -668,6 +668,11 @@ Two independent halves:
 - **MUST NOT OVER-FLAG:** "one side at a time" (a manner phrase, not a value) must not warn — widening VALUE to bare number-words is the rule-27 over-fire mistake; asserted `numeric: true` is the lane for word-count facts.
 - **Catch test (both ways):** `r51_bad_imperial_plus_metric_length_escapes_numeric_flag` / `r51_good_manner_phrase_not_a_value`.
 
+**Third half, same class (2026-08-29, EMT Chapter 9):** **"2 liters" derived numeric=False.** The unit list carried `mL` and `L/min` but no bare volume — `liters?`/`litres?`/`L` — so oxygen amounts stated in liters walked past the overlay exactly the way inches had. Found by the D3 batch editor on the closed-loop card (whose Ex quotes "2 liters of oxygen"; that card was covered only by a hand-asserted `numeric: true`). Units added; the bare case-insensitive `L` is safe because `\b` after it rejects any l-word ("2 large", "9 leaders").
+- **MUST CATCH:** an unverified card whose cloze hides "2 liters" must warn `looks numeric`.
+- **MUST NOT OVER-FLAG:** a digit before an ordinary l-word ("2 large trauma bags") must stay silent.
+- **Catch test (both ways):** `r51_bad_volume_in_liters_escapes_numeric_flag` / `r51_good_digit_before_l_word_is_not_a_volume`.
+
 ## R52 — A rule never reached the cards it was written about; the fixed-but-not-finished hole
 **Rule:** card-rules #32. **Caught by:** `check_hazards.py` (supersession block + non-id `replaces`) and `check_cards.py --live` (exit code), both in `smoke_test.sh`; `retire_notes.py self-test` covers the retirement primitive. Found 2026-08-15, when Parker drew the systolic-BP panel in review and asked why it wasn't individual cards.
 

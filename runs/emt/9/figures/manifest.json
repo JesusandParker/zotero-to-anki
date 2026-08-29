@@ -1,0 +1,26 @@
+{
+ "run_id": "figures",
+ "source": "emt",
+ "segment": 9,
+ "stage": "figures",
+ "status": "complete",
+ "counts": {
+  "marks": 25,
+  "cards": 21,
+  "cards_placeable": 21,
+  "figures_indexed": 4,
+  "proposed": 10,
+  "judged": true,
+  "kept": 3,
+  "rejected": 7,
+  "attached_notes": 0,
+  "distinct_plates": 0,
+  "doubled": 0,
+  "leaks": 0
+ },
+ "anomalies": [
+  "3 proposals kept but only 0 notes carry a figure \u2014 the attach step may have been skipped or guard-refused."
+ ],
+ "skill_sha": "95fa2fba777754d98c456850157fa0a973a42c8e",
+ "new_hazards_found": []
+}

@@ -1,0 +1,391 @@
+[
+ {
+  "Text": "{{c1::Just culture}} is an approach to leadership in organizations that balances {{c2::fairness}} and {{c2::accountability}} and encourages people to {{c3::report errors and near misses}}.",
+  "Back Extra": "Pitfall: accountability is not only individual — in a just culture, both the EMS system and the individual provider are held accountable for overall safety.<br><br>Why: the focus is risk management — proactively identifying problems in the system that could lead to error or opportunities to improve safety.<br><br>Mechanism: behaviors associated with error or risk are categorized as human error, at-risk behavior, or reckless behavior.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   0
+  ],
+  "block": "A_just_culture",
+  "numeric": false,
+  "verified_against": "p871",
+  "verified_by": "drafter (matched verbatim against extractor context)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The {{c1::continuum of care}} is the concept of health care providers working as a unified team from {{c2::first patient contact}} to {{c2::patient discharge}}, improving performance, safety, and ultimately {{c3::patient outcomes}}.",
+  "Back Extra": "Distinguish: in the older model of emergency care, providers worked independently and passed the patient from one individual or group to the next.<br><br>Ex: community paramedicine and mobile integrated healthcare (MIH) teams may be the best examples of the continuum-of-care team concept.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   1
+  ],
+  "block": "B_continuum_of_care",
+  "numeric": false,
+  "verified_against": "p874",
+  "verified_by": "drafter (matched verbatim against extractor context)",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "870"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_1.jpg"
+   ],
+   "labels": [
+    "FIGURE 9-1"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_9_1.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "In EMS, a {{c1::group::group/team}} consists of providers working {{c2::independently::independently/interdependently}} to help the patient, whereas a {{c1::team::group/team}} consists of providers who are {{c2::assigned specific roles}} and work {{c2::interdependently in a coordinated manner::independently/interdependently}} under a {{c2::designated leader}}.",
+  "Back Extra": "Pitfall: providers merely gathered together on an emergency call are not automatically a true team.<br><br>Ex: the triage, treatment, and transport groups at a mass-casualty incident are classic EMS groups (each unit working independently).<br><br>Distinguish: NIMS uses the word group more narrowly (an organizational level dividing an incident by function, often across geographic boundaries); the group-vs-team contrast uses the general sense.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   2,
+   3
+  ],
+  "block": "C_group_vs_team",
+  "numeric": false,
+  "verified_against": "p878",
+  "verified_by": "drafter (matched verbatim against extractor context; idx 3 grounding=PARTIAL — its context window truncates mid-highlight at 'and are working', so the answers 'interdependently' and 'designated leader' were matched verbatim against that mark's own highlight text); editor: re-verified all four c2 answers word-for-word against idx 3 (JHT52S93) highlight field — 'assigned specific roles' (also in idx 2's context), 'interdependently', 'in a coordinated manner', 'designated leader' all verbatim; both cited contexts truncate at 'and are working' as the drafter reported. Folded 'in a coordinated manner' into the interdependently c2 span (it sat visible beside the hinted independently/interdependently binary and decoded the choice — rule 3 leak; span now matches the book's wording exactly). Flipped needs_human_check false→true per rule 9 + the editor safety overlay: extractor-marked PARTIAL grounding sets the flag regardless of verdict; documented as truncation-derived, every answer verified verbatim; orchestrator adjudication: the editor's needs_human_check flip to true was cleared back to false by verify_report's documented derivation ('(numeric or weak) and not verified_against' — provenance.md; verification is the designed cure for weak grounding), not silently by consolidation; the judge's restore request is answered by this record + the card surfacing in VERIFY.md Section B + an explicit hand-off callout of the PARTIAL-grounded mark",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Classified by who directs each member's work, a group of health care providers caring for a patient can be one of <b>three types</b>:<br><br>{{c1::dependent}}<br><br>{{c1::independent}}<br><br>{{c1::interdependent}}",
+  "Back Extra": "Cue: the deciding question is who directs the work — the leader alone (dependent), each member over his or her own area (independent), or everyone together (interdependent).<br><br>Pitfall: only the interdependent arrangement is a true team — its providers work together with shared responsibilities, accountability, and a common goal; dependent and independent providers are working as a group, not a team.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   4,
+   5,
+   6
+  ],
+  "block": "D_group_types",
+  "numeric": true,
+  "verified_against": "p880",
+  "verified_by": "drafter (matched verbatim against extractor context); editor: added the classifying-axis anchor 'Classified by who directs each member's work' to the stem — bare 'three types' of provider groups collided with the chapter's own triage/treatment/transport functional groups (checks 1/18); axis is the Cue line's synthesis, no new claim; consolidation: folded the dropped interdependent-card's shared-responsibilities/accountability/common-goal teaching into this Pitfall (verbatim in idx 6's context)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In {{c1::dependent::group type}} groups, each member is {{c2::told what to do}} by the group leader.",
+  "Back Extra": "Why: members are told not only what to do but often how to do it, and rely on the leader for task assignments, troubleshooting, and virtually all decisions — limiting the group's ability to adapt and deliver critical care in an uncontrolled field environment.<br><br>Distinguish: independent-group members may also get support and guidance from a leader, but they act on their own areas without waiting for an assignment.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   4,
+   5
+  ],
+  "block": "D_group_types",
+  "numeric": false,
+  "verified_against": "p880",
+  "verified_by": "drafter (matched verbatim against extractor context); editor: c2 tightened from 'told what to do — and often how to do it' (11 tokens, R12 warn at >=9) to 'told what to do' (4 words); the 'often how' qualifier folded into the Why: line so the fact survives on the back; judge: pluralized 'In a ___ group' to the book's own 'In ___ groups' — the visible article admitted only the consonant-initial roster member (a/an decode leak)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In {{c1::independent::group type}} groups, each member is responsible for {{c2::his or her own area}}.",
+  "Back Extra": "Meaning: the member's own area can be a physical space or a set of tasks.<br><br>Distinguish: unlike dependent-group members, independent members act without waiting for an assignment — but unlike a true team, each pursues an individual goal (start the IV, splint the arm) rather than a unified one.<br><br>Pitfall: the classic failure of independent-group work is the perfectly splinted and packaged trauma patient who arrives at the ED dead from an unrecognized, poorly managed airway.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   5,
+   6
+  ],
+  "block": "D_group_types",
+  "numeric": false,
+  "verified_against": "p880",
+  "verified_by": "drafter (matched verbatim against extractor context); judge: pluralized 'In an ___ group' to the book's own 'In ___ groups' — the a/an article leak, same class as the dependent card",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "One of the five essential elements of effective team performance is a <b>shared goal</b>: every provider, from EMT to paramedic to emergency physician, must be committed to a common goal — typically, {{c1::the best possible patient outcome::patient outcome or quality care}}.",
+  "Back Extra": "Ex: the alarming phrases that reveal a missing shared goal — \"Why take the time to splint the patient if the ED will only undo it?\" and \"No point doing good CPR if the paramedic isn't even trying to save the patient.\"<br><br>Distinguish: the shared goal says where the team is headed; clear roles and responsibilities (another of the five elements) say who does what to get there.<br><br>Pitfall: EMS providers in general share a unified goal of <i>quality patient care</i> — the team-performance element commits to the best possible patient <i>outcome</i>; the phrases are cousins, don't swap them.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   7,
+   8
+  ],
+  "block": "E_team_elements",
+  "numeric": true,
+  "verified_against": "p882",
+  "verified_by": "drafter (matched verbatim against extractor context); editor: blank was open-set cold (rule 16 — 'quality patient care', p874's phrase, fits the visible frame) — added the confusable-menu slot hint 'patient outcome or quality care' (recipes §4/§9 forced-choice license) and a Pitfall: line pinning the discrimination; hint distractor and Pitfall grounded verbatim in idx 1's context ('unified goal of quality patient care'), cross-link only, from_idx unchanged",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "One of the five essential elements of effective team performance, {{c1::clear roles and responsibilities}}, means that to achieve a common goal, each provider must know what needs to be done and what is expected of him or her.",
+  "Back Extra": "Ex: pit crew CPR — every intervention needed during a cardiac arrest (compressions, defibrillation, airway management, vascular access, medications) is defined in advance, and providers are trained for each role.<br><br>Distinguish: a shared goal sets the destination; clear roles and responsibilities make sure each provider knows his or her own part in reaching it.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   7,
+   8
+  ],
+  "block": "E_team_elements",
+  "numeric": true,
+  "verified_against": "p882",
+  "verified_by": "drafter (matched verbatim against extractor context); editor: collapsed two-way to one-way describe->name (single c1 on the element name, was c2) — the paired c1 spans 'what needs to be done'/'what is expected of him or her' were mutual near-synonym fuzzy phrases unrecallable verbatim (R8/R12); the meaning stays visible as the cue (rule 22's sanctioned classify shape, sec-4 one-way license), mirroring E-1's deliberate asymmetry",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "883"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_2.jpg"
+   ],
+   "labels": [
+    "FIGURE 9-2"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_9_2.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Team communication in EMS has four important elements:<br><br>{{c1::A clear message}}<br><br>{{c1::Closed-loop communication}}<br><br>{{c1::Courtesy}}<br><br>{{c1::Constructive intervention}}",
+  "Back Extra": "Meaning: a clear message = spoken calmly, confidently, and concisely; closed-loop communication = the message is repeated back to confirm it; courtesy = \"please\" and \"thank you\" for every member; constructive intervention = respectfully question or correct a suspected mistake.<br><br>Pitfall: when giving direction, use a name or rank — asking \"someone\" to do a task is how a clear message fails.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "block": "F_team_communication",
+  "numeric": true,
+  "verified_against": "p884-885",
+  "verified_by": "drafter (matched verbatim against extractor context)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "On an EMS team, when you believe a mistake has been or is about to be made, {{c1::constructive intervention::communication element}} is to {{c2::respectfully question or correct}} the team member — even the team leader.",
+  "Back Extra": "Why: constructive intervention is not merely allowed and encouraged — it is essential for effective team performance.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   9,
+   13
+  ],
+  "block": "F_team_communication",
+  "numeric": false,
+  "verified_against": "p885",
+  "verified_by": "drafter (matched verbatim against extractor context)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The {{c1::team leader}} is the team member who provides role assignments, coordination, oversight, centralized decision making, and support so the team can accomplish its goals.",
+  "Back Extra": "Cue: the team leader is often defined by policy, procedure, or statute — and may be the most senior provider or the one with the highest level of certification.<br><br>Distinguish: a team leader does more than assign and decide — he or she also helps members do their jobs, working together with them and facilitating coordination.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   14
+  ],
+  "block": "G_team_leader",
+  "numeric": false,
+  "verified_against": "p885",
+  "verified_by": "drafter (matched verbatim against extractor context)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "A team leader who simply <b>commands</b> others is not leading a team — he or she is merely directing {{c1::a dependent group::group type}}.",
+  "Back Extra": "Distinguish: the key differentiation between a team leader and a group leader — a team leader helps individual members do their jobs, not only providing support but working together with them and facilitating coordination.<br><br>Why: relying on one commander for virtually all decisions limits a group's ability to adapt and deliver critical care in an uncontrolled field environment.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   4,
+   14
+  ],
+  "block": "G_team_leader",
+  "numeric": false,
+  "verified_against": "p885",
+  "verified_by": "drafter (matched verbatim against extractor context); judge: folded the article into the cloze ('directing {{a dependent group}}') to kill the a/an elimination cue",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "To reduce errors when sending or receiving a message, EMS providers use {{c1::closed-loop communication::technique}}, in which each member {{c2::confirms the message was received correctly}}.",
+  "Back Extra": "Why: both parties then know they share the same understanding — mistakes get caught at either end of the communication chain, sender or receiver.<br><br>Ex: EMT Aziz: \"Let's go with 2 liters of oxygen.\" Becky: \"Got it. I'll put him on 10 liters of oxygen.\" Aziz catches the mishear: \"No, not 10 liters. We need to go with 2 liters.\" Becky reads back: \"Got it. I'll put him on 2 liters of oxygen.\"",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   15
+  ],
+  "block": "H_closed_loop",
+  "numeric": true,
+  "verified_against": "p888",
+  "verified_by": "drafter (matched verbatim against extractor context; 2 L / 10 L are the book's illustrative dialogue, quoted not tested); editor: restored verbatim dialogue in Ex — Becky's first reply had been clipped to \"10 liters.\" where p888 reads \"10 liters of oxygen.\", and the terminal period was restored inside Aziz's correction; all four quoted utterances now match idx 15 word-for-word",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "You believe there is an immediate or potential problem the team leader must know about. First {{c2::get the attention of the crew member}}, then use the four-step <b>PACE</b> mnemonic:<br><br>{{c1::Probe::P}}<br><br>{{c1::Alert::A}}<br><br>{{c1::Challenge::C}}<br><br>{{c1::Emergency::E}}",
+  "Back Extra": "Meaning: Probe = look or ask to confirm the problem or make sense of the situation; Alert = communicate the problem to the team leader; Challenge = if the issue is not corrected, challenge the current course of action and suggest an alternative plan; Emergency = the problem is clear and critical (imminent, serious danger) — communicate it to the entire team immediately.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   16
+  ],
+  "block": "I_pace",
+  "numeric": true,
+  "verified_against": "p888",
+  "verified_by": "drafter (matched verbatim against extractor context); editor: numeric false→true — the stem states the count (\"four-step\"), which is this batch's own stated-count convention (F-A); count matches the 4 clozed rows and the 4 letters of PACE on p888; Text and Back Extra untouched",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In the PACE escalation, an <b>Alert</b> about a problem goes to the {{c1::team leader::team leader / entire team}}, while an <b>Emergency</b> goes immediately to the {{c1::entire team::team leader / entire team}}.",
+  "Back Extra": "Distinguish: Challenge is the step for an issue that is not corrected after your alert; Emergency is reserved for a clear and critical problem — imminent and serious danger.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   16
+  ],
+  "block": "I_pace",
+  "numeric": false,
+  "verified_against": "p888",
+  "verified_by": "drafter (matched verbatim against extractor context)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In the PACE escalation, if the issue is not corrected after your alert, clearly <b>challenge</b> the current course of action and {{c1::suggest an alternative plan}}.",
+  "Back Extra": "Ex: \"Lieutenant, I think this additional action should be taken. Do you agree?\"<br><br>Distinguish: a clear and critical problem (an immediate safety issue) calls for the Emergency step instead — communicate it to the entire team immediately.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   16
+  ],
+  "block": "I_pace",
+  "numeric": false,
+  "verified_against": "p888",
+  "verified_by": "drafter (matched verbatim against extractor context)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "When a PACE challenge leads the team to alter the original plan, it is essential that the {{c1::team leader::role}} communicates the change to everyone on the team.",
+  "Back Extra": "Distinguish: any crew member can raise the problem and challenge the plan; announcing the agreed change to the whole team is the leader's job.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   16
+  ],
+  "block": "I_pace",
+  "numeric": false,
+  "verified_against": "p888",
+  "verified_by": "drafter (matched verbatim against extractor context)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "During the prearrival stage of the decision-making process, while en route to the call, the EMT should {{c1::mentally rehearse}} the steps in the care that may be needed.",
+  "Back Extra": "Why: the decision-making process begins when the initial dispatch information is received — knowing the nature of a low-frequency, high-risk call lets the EMT prepare before ever reaching the scene.<br><br>Cue: the same en-route window is when a leader should be clearly designated and the crew discusses roles, additional help, equipment to take in, and transport destination.<br><br>Ex: on a pediatric cardiac arrest call, rehearse the compression-to-ventilation ratio and the size of the bag-mask device while en route.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   17
+  ],
+  "block": "J_prearrival",
+  "numeric": false,
+  "verified_against": "p896",
+  "verified_by": "drafter (matched verbatim against extractor context)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "When given information about a patient, the acronym <b>ROWS</b> reminds the EMT to <i>first</i> {{c1::rule out the worst-case scenario}}.",
+  "Back Extra": "Why: the EMT must first consider and treat life threats — assuming the deadliest possibility until it is ruled out keeps a life threat from being overlooked.<br><br>Distinguish: anchoring is the opposite failure — settling on one possible cause early and failing to consider other options; ROWS forces the worst option to be weighed first.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   18
+  ],
+  "block": "K_rows",
+  "numeric": false,
+  "verified_against": "p897",
+  "verified_by": "drafter (context verbatim) + orchestrator (page 897 rendered and read; SPARSE_PAGE check)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "To make decisions during a call, the team leader works through five steps:<br><br>1. {{c1::Gather data}}<br><br>2. {{c1::Interpret that data}}<br><br>3. {{c1::Develop a plan}}<br><br>4. {{c1::Communicate the plan to the team and implement it}}<br><br>5. {{c1::Evaluate the effect of the decision}}",
+  "Back Extra": "Why: each step's output feeds the next — data (dispatch information, patient history, physical exam) is read for a pattern, the pattern drives the treatment plan, the plan is spoken and acted on while the leader invites feedback, and reassessment then keeps or adjusts the plan.<br><br>Ex: a crew treating chest discomfort initially withholds oxygen because the patient is not short of breath; reassessment finds new mild shortness of breath — the evaluate step is what catches the change and prompts the plan to be adjusted.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   19,
+   20,
+   21,
+   22,
+   23
+  ],
+  "block": "L_decision_process",
+  "numeric": true,
+  "verified_against": "p899",
+  "verified_by": "drafter (matched verbatim against extractor context; the stated count of five matches the numbered 1-5 rows verbatim in the source; step_recitation, if flagged: cleared — §12e step-scaffold directed by the orchestrator, ordinals printed and never clozed, 5-item group licensed under rule 23 by the gather→interpret→plan→communicate→evaluate causal chain, argued in D4_notes.md); judge: step_recitation CLEARED — §12e step-scaffold on a cognitive decision sequence, not a psychomotor narration: ordinals printed and never clozed, each blank cued by the chain's input→output logic (data → interpreted meaning → plan → communicated/implemented plan → observed effect) rather than bare position, the sequence itself is the marked knowledge (all five lead-ins highlighted, Rule 0 connected set), and R30's preferred vignette shape is already served by the Ex's evaluate-step rehearsal; rule 23's causal-chain license stands as adjudicated in D4_notes.md",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "899"
+   ],
+   "figures": [
+    "figures/study/FIGURE_9_4.jpg"
+   ],
+   "labels": [
+    "FIGURE 9-4"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_9_4.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::Anchoring::decision trap}} is the error in which the EMT {{c2::settles on one possible cause early}} and {{c2::fails to consider other options}}.",
+  "Back Extra": "Distinguish: overconfidence is the neighboring decision trap — the EMT overestimates his or her own ability (emergency driving, assessment, splinting, or decision making) instead of fixating on one cause.<br><br>Pitfall: the anchor can set even before the call — the EMT may arrive on scene already committed to a cause.<br><br>Ex: EMTs find a 24-year-old woman with an asthma history who is short of breath, give a breathing treatment, and begin transport without completing the assessment — she is actually in a life-threatening allergic reaction (anaphylaxis) and worsens en route.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [
+   24
+  ],
+  "block": "M_decision_traps",
+  "numeric": false,
+  "verified_against": "p901",
+  "verified_by": "drafter (matched verbatim against extractor context)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ }
+]

@@ -1,0 +1,176 @@
+{
+ "teaches": [
+  {
+   "card_index": 7,
+   "text": "One of the five essential elements of effective team performance, {{c1::clear roles and responsibilities}}, means that to achieve a common goal, each provider must know what needs to be done and what is expected of him or her.",
+   "figure": "FIGURE 9-2",
+   "file": "figures/study/FIGURE_9_2.jpg",
+   "native_file": "figures/FIGURE_9_2.png",
+   "coverage": 0.0,
+   "page_dist": 1,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "force-added: the card's Ex line IS pit crew CPR (the book's example of clear roles, idx 8 context); the plate is that model drawn out, position by position",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 1,
+   "text": "The {{c1::continuum of care}} is the concept of health care providers working as a unified team from {{c2::first patient contact}} to {{c2::patient discharge}}, improving performance, safety, and ultimately {{c3::patient outcomes}}.",
+   "figure": "FIGURE 9-1",
+   "file": "figures/study/FIGURE_9_1.jpg",
+   "native_file": "figures/FIGURE_9_1.jpg",
+   "coverage": 0.0,
+   "page_dist": 4,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "force-added: the plate's caption names the continuum of care and shows EMS + hospital providers together at the ED handoff point; congruent illustration per the overshoot doctrine",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  }
+ ],
+ "context": [
+  {
+   "card_index": 19,
+   "text": "To make decisions during a call, the team leader works through five steps:  1. {{c1::Gather data}}  2. {{c1::I",
+   "figure": "FIGURE 9-4",
+   "file": "figures/study/FIGURE_9_4.jpg",
+   "native_file": "figures/FIGURE_9_4.png",
+   "coverage": 0.091,
+   "page_dist": 0,
+   "matched_terms": [
+    "team"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  }
+ ],
+ "skipped": [],
+ "mode": "generous",
+ "judged": true,
+ "rejected": [
+  {
+   "card_index": 16,
+   "text": "When a PACE challenge leads the team to alter the original plan, it is essential that the {{c1::team leader::r",
+   "figure": "FIGURE 9-3",
+   "file": "figures/study/FIGURE_9_3.jpg",
+   "native_file": "figures/FIGURE_9_3.jpg",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "team"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "a scene photo; depicts no plan-alteration broadcast \u2014 a viewer asks why the picture is there"
+  },
+  {
+   "card_index": 10,
+   "text": "The {{c1::team leader}} is the team member who provides role assignments, coordination, oversight, centralized",
+   "figure": "FIGURE 9-3",
+   "file": "figures/study/FIGURE_9_3.jpg",
+   "native_file": "figures/FIGURE_9_3.jpg",
+   "coverage": 0.5,
+   "page_dist": 2,
+   "matched_terms": [
+    "team"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "depicts no leadership content; merely near the team-leader passage (R19 nearby-not-about)"
+  },
+  {
+   "card_index": 14,
+   "text": "In the PACE escalation, an  Alert  about a problem goes to the {{c1::team leader::team leader / entire team}},",
+   "figure": "FIGURE 9-3",
+   "file": "figures/study/FIGURE_9_3.jpg",
+   "native_file": "figures/FIGURE_9_3.jpg",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "team"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "depicts neither Alert nor Emergency routing; generic crew photo"
+  },
+  {
+   "card_index": 6,
+   "text": "One of the five essential elements of effective team performance is a  shared goal : every provider, from EMT ",
+   "figure": "FIGURE 9-2",
+   "file": "figures/study/FIGURE_9_2.jpg",
+   "native_file": "figures/FIGURE_9_2.png",
+   "coverage": 0.25,
+   "page_dist": 1,
+   "matched_terms": [
+    "patient"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "the plate depicts role assignments by position \u2014 the clear-roles element, not the shared-goal element this card tests; same-topic, different-subject (the FIGURE 4-2 class)"
+  },
+  {
+   "card_index": 8,
+   "text": "Team communication in EMS has four important elements:  {{c1::A clear message}}  {{c1::Closed-loop communicati",
+   "figure": "FIGURE 9-3",
+   "file": "figures/study/FIGURE_9_3.jpg",
+   "native_file": "figures/FIGURE_9_3.jpg",
+   "coverage": 0.143,
+   "page_dist": 2,
+   "matched_terms": [
+    "communication"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "depicts none of the four communication elements; generic crew photo"
+  },
+  {
+   "card_index": 12,
+   "text": "To reduce errors when sending or receiving a message, EMS providers use {{c1::closed-loop communication::techn",
+   "figure": "FIGURE 9-3",
+   "file": "figures/study/FIGURE_9_3.jpg",
+   "native_file": "figures/FIGURE_9_3.jpg",
+   "coverage": 0.143,
+   "page_dist": 1,
+   "matched_terms": [
+    "communication"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "depicts no closed-loop exchange a viewer could see; generic crew photo"
+  },
+  {
+   "card_index": 13,
+   "text": "You believe there is an immediate or potential problem the team leader must know about. First {{c2::get the at",
+   "figure": "FIGURE 9-3",
+   "file": "figures/study/FIGURE_9_3.jpg",
+   "native_file": "figures/FIGURE_9_3.jpg",
+   "coverage": 0.125,
+   "page_dist": 1,
+   "matched_terms": [
+    "crew"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "depicts no PACE content; generic crew photo"
+  }
+ ]
+}

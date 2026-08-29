@@ -64,6 +64,10 @@ def main():
     highlights = highlights or []
 
     changed = 0
+    changed_cards = []   # name every rewrite: a silent flag flip is how the ch9 judge
+                         # found a stamped file contradicting its own verified_by prose
+                         # (2026-08-29 — the C_group_vs_team editor flip, cleared by this
+                         # derivation without saying WHICH card).
     section_a, section_b = [], []
     for i, c in enumerate(cards):
         text_plain = C.readable(c.get("Text", ""))
@@ -91,6 +95,9 @@ def main():
         if c.get("numeric") != numeric:
             c["numeric"] = numeric
         if c.get("needs_human_check") != derived:
+            changed_cards.append(
+                f"#{i} {c.get('block', '?')}: needs_human_check "
+                f"{c.get('needs_human_check')} -> {derived}")
             c["needs_human_check"] = derived
             changed += 1
 
@@ -163,6 +170,8 @@ def main():
     print(f"  Section B (verified, skim) : {len(section_b)}")
     if changed and not args.dry_run:
         print(f"  rewrote needs_human_check on {changed} card(s) -> re-run check_cards.py to re-stamp")
+        for line in changed_cards:
+            print(f"    {line}")
     print(f"  -> {out}")
 
 

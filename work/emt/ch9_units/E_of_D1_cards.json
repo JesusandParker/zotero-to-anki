@@ -1,0 +1,44 @@
+[
+ {
+  "Text": "{{c1::Just culture}} is an approach to leadership in organizations that balances {{c2::fairness}} and {{c2::accountability}} and encourages people to {{c3::report errors and near misses}}.",
+  "Back Extra": "Pitfall: accountability is not only individual — in a just culture, both the EMS system and the individual provider are held accountable for overall safety.<br><br>Why: the focus is risk management — proactively identifying problems in the system that could lead to error or opportunities to improve safety.<br><br>Mechanism: behaviors associated with error or risk are categorized as human error, at-risk behavior, or reckless behavior.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [0],
+  "block": "A_just_culture",
+  "numeric": false,
+  "verified_against": "p871",
+  "verified_by": "drafter (matched verbatim against extractor context)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "The {{c1::continuum of care}} is the concept of health care providers working as a unified team from {{c2::first patient contact}} to {{c2::patient discharge}}, improving performance, safety, and ultimately {{c3::patient outcomes}}.",
+  "Back Extra": "Distinguish: in the older model of emergency care, providers worked independently and passed the patient from one individual or group to the next.<br><br>Ex: community paramedicine and mobile integrated healthcare (MIH) teams may be the best examples of the continuum-of-care team concept.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [1],
+  "block": "B_continuum_of_care",
+  "numeric": false,
+  "verified_against": "p874",
+  "verified_by": "drafter (matched verbatim against extractor context)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "In EMS, a {{c1::group::group/team}} consists of providers working {{c2::independently::independently/interdependently}} to help the patient, whereas a {{c1::team::group/team}} consists of providers who are {{c2::assigned specific roles}} and work {{c2::interdependently in a coordinated manner::independently/interdependently}} under a {{c2::designated leader}}.",
+  "Back Extra": "Pitfall: providers merely gathered together on an emergency call are not automatically a true team.<br><br>Ex: the triage, treatment, and transport groups at a mass-casualty incident are classic EMS groups (each unit working independently).<br><br>Distinguish: NIMS uses the word group more narrowly (an organizational level dividing an incident by function, often across geographic boundaries); the group-vs-team contrast uses the general sense.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [2, 3],
+  "block": "C_group_vs_team",
+  "numeric": false,
+  "verified_against": "p878",
+  "verified_by": "drafter (matched verbatim against extractor context; idx 3 grounding=PARTIAL — its context window truncates mid-highlight at 'and are working', so the answers 'interdependently' and 'designated leader' were matched verbatim against that mark's own highlight text); editor: re-verified all four c2 answers word-for-word against idx 3 (JHT52S93) highlight field — 'assigned specific roles' (also in idx 2's context), 'interdependently', 'in a coordinated manner', 'designated leader' all verbatim; both cited contexts truncate at 'and are working' as the drafter reported. Folded 'in a coordinated manner' into the interdependently c2 span (it sat visible beside the hinted independently/interdependently binary and decoded the choice — rule 3 leak; span now matches the book's wording exactly). Flipped needs_human_check false→true per rule 9 + the editor safety overlay: extractor-marked PARTIAL grounding sets the flag regardless of verdict; documented as truncation-derived, every answer verified verbatim",
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ }
+]

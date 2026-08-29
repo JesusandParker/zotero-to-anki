@@ -1,0 +1,58 @@
+[
+ {
+  "Text": "During the prearrival stage of the decision-making process, while en route to the call, the EMT should {{c1::mentally rehearse}} the steps in the care that may be needed.",
+  "Back Extra": "Why: the decision-making process begins when the initial dispatch information is received — knowing the nature of a low-frequency, high-risk call lets the EMT prepare before ever reaching the scene.<br><br>Cue: the same en-route window is when a leader should be clearly designated and the crew discusses roles, additional help, equipment to take in, and transport destination.<br><br>Ex: on a pediatric cardiac arrest call, rehearse the compression-to-ventilation ratio and the size of the bag-mask device while en route.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [17],
+  "block": "J_prearrival",
+  "numeric": false,
+  "verified_against": "p896",
+  "verified_by": "drafter (matched verbatim against extractor context)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "When given information about a patient, the acronym <b>ROWS</b> reminds the EMT to <i>first</i> {{c1::rule out the worst-case scenario}}.",
+  "Back Extra": "Why: the EMT must first consider and treat life threats — assuming the deadliest possibility until it is ruled out keeps a life threat from being overlooked.<br><br>Distinguish: anchoring is the opposite failure — settling on one possible cause early and failing to consider other options; ROWS forces the worst option to be weighed first.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [18],
+  "block": "K_rows",
+  "numeric": false,
+  "verified_against": "p897",
+  "verified_by": "drafter (context verbatim) + orchestrator (page 897 rendered and read; SPARSE_PAGE check)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "To make decisions during a call, the team leader works through five steps:<br><br>1. {{c1::Gather data}}<br><br>2. {{c1::Interpret that data}}<br><br>3. {{c1::Develop a plan}}<br><br>4. {{c1::Communicate the plan to the team and implement it}}<br><br>5. {{c1::Evaluate the effect of the decision}}",
+  "Back Extra": "Why: each step's output feeds the next — data (dispatch information, patient history, physical exam) is read for a pattern, the pattern drives the treatment plan, the plan is spoken and acted on while the leader invites feedback, and reassessment then keeps or adjusts the plan.<br><br>Ex: a crew treating chest discomfort initially withholds oxygen because the patient is not short of breath; reassessment finds new mild shortness of breath — the evaluate step is what catches the change and prompts the plan to be adjusted.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [19, 20, 21, 22, 23],
+  "block": "L_decision_process",
+  "numeric": true,
+  "verified_against": "p899",
+  "verified_by": "drafter (matched verbatim against extractor context; the stated count of five matches the numbered 1-5 rows verbatim in the source; step_recitation, if flagged: cleared — §12e step-scaffold directed by the orchestrator, ordinals printed and never clozed, 5-item group licensed under rule 23 by the gather→interpret→plan→communicate→evaluate causal chain, argued in D4_notes.md)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "{{c1::Anchoring::decision trap}} is the error in which the EMT {{c2::settles on one possible cause early}} and {{c2::fails to consider other options}}.",
+  "Back Extra": "Distinguish: overconfidence is the neighboring decision trap — the EMT overestimates his or her own ability (emergency driving, assessment, splinting, or decision making) instead of fixating on one cause.<br><br>Pitfall: the anchor can set even before the call — the EMT may arrive on scene already committed to a cause.<br><br>Ex: EMTs find a 24-year-old woman with an asthma history who is short of breath, give a breathing treatment, and begin transport without completing the assessment — she is actually in a life-threatening allergic reaction (anaphylaxis) and worsens en route.",
+  "source": "emt",
+  "segment": 9,
+  "from_idx": [24],
+  "block": "M_decision_traps",
+  "numeric": false,
+  "verified_against": "p901",
+  "verified_by": "drafter (matched verbatim against extractor context)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ }
+]

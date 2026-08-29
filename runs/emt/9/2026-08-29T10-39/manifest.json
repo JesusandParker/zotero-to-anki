@@ -1,0 +1,37 @@
+{
+ "run_id": "2026-08-29T10-39",
+ "source": "emt",
+ "segment": 9,
+ "started": "2026-08-29T10:39:16",
+ "skill_sha": "6e5cc8809d2b6525a92dc9df6b5be1f262860d93",
+ "note": "Chapter 9 The Team Approach to Health Care — 4 drafters + 4 crossed independent editors + global consolidation; recall-heavy profile",
+ "status": "complete",
+ "finished": "2026-08-29T11:34:43",
+ "counts": {
+  "marks": 25,
+  "notes_drafted": 22,
+  "editor_rewrites": 7,
+  "dropped_in_consolidation": 1,
+  "judge_fixes": 4,
+  "cards": 21,
+  "staged": 21,
+  "figures_kept": 3,
+  "figures_rejected": 7,
+  "anki_cards_estimate": "~32 (two-way notes expand)"
+ },
+ "new_hazards_found": [
+  {
+   "summary": "the numeric-safety VALUE regex had no branch for bare liters/L volumes ('2 liters of oxygen' escaped the overlay; mL and L/min were present) — found by the D3 editor on the closed-loop card — closed as R51's third half (catch tests r51_bad_volume_in_liters_escapes_numeric_flag / r51_good_digit_before_l_word_is_not_a_volume)",
+   "regression_id": "R51"
+  },
+  {
+   "summary": "verify_report's derivation silently cleared an editor-asserted needs_human_check (C_group_vs_team, PARTIAL-grounded idx 3, verbatim-verified) without naming the card, leaving a stamped file whose verified_by prose contradicted its own field until the judge's field-diff caught it",
+   "mechanizable": false,
+   "why": "the derivation itself is the designed arbiter (provenance.md: derived never asserted; verification is the documented cure for weak grounding) and its verdict was correct, so a blocking check would re-open the assert-vs-derive conflict R24/R51 settled; the actual gap was anonymity, closed in code this run — verify_report now prints every card whose flag it rewrites (old->new, by index and block) — and the card's verified_by carries the full adjudication"
+  },
+  {
+   "summary": "media_audit --deck 'all::EMT::Chapter 9' FAILs on pre-existing store-wide debris: ch1-6 uppercase-named figure files (pre-R47 writes) plus ~22 orphaned lowercase ch4/7/8 files; chapter 9's own 3 refs verified clean (lowercase, resolving, hash-real)",
+   "regression_id": "R47"
+  }
+ ]
+}

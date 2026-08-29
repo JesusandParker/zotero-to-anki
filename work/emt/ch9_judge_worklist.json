@@ -1,0 +1,97 @@
+{
+ "source": "emt",
+ "segment": 9,
+ "figures": [
+  {
+   "figure": "FIGURE 9-2",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_9_2.jpg",
+   "caption": "FIGURE 9-2 Example of an overview of a four-person pit crew with two BLS providers that includes ALS providers. Although this example does not explicitly describe the pit crew model presented in the text, the same concepts can be applied to a BLS-only arrest. BLS providers may be in charge running the arrest or they may be participating in the arrest. Teamwork-oriented resuscitation can improve patient outcomes by minimizing the chance",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 6,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "One of the five essential elements of effective team performance is a  shared goal : every provider, from EMT ",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9-3",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_9_3.jpg",
+   "caption": "FIGURE 9-3 Collaboration and communication are crucial aspects of crew resource management.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 16,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "When a PACE challenge leads the team to alter the original plan, it is essential that the {{c1::team leader::r",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 10,
+     "tier": "context",
+     "coverage": 0.5,
+     "text": "The {{c1::team leader}} is the team member who provides role assignments, coordination, oversight, centralized",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 14,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "In the PACE escalation, an  Alert  about a problem goes to the {{c1::team leader::team leader / entire team}},",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 8,
+     "tier": "context",
+     "coverage": 0.143,
+     "text": "Team communication in EMS has four important elements:  {{c1::A clear message}}  {{c1::Closed-loop communicati",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 12,
+     "tier": "context",
+     "coverage": 0.143,
+     "text": "To reduce errors when sending or receiving a message, EMS providers use {{c1::closed-loop communication::techn",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 13,
+     "tier": "context",
+     "coverage": 0.125,
+     "text": "You believe there is an immediate or potential problem the team leader must know about. First {{c2::get the at",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 9-4",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_9_4.jpg",
+   "caption": "FIGURE 9-4 Strategies the team leader can use to make decisions.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 19,
+     "tier": "context",
+     "coverage": 0.091,
+     "text": "To make decisions during a call, the team leader works through five steps:  1. {{c1::Gather data}}  2. {{c1::I",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  }
+ ]
+}
