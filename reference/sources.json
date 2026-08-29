@@ -24,7 +24,7 @@
       "segments": "reference/maps/emt.json",
       "segment_noun": "Chapter",
       "deck_root": "all::EMT",
-      "deck": "{root}::Chapter {segment}::Book Highlights",
+      "deck": "{root}::Chapter {segment_pad}::Book Highlights",
       "tags": [
         "ch{segment}"
       ],

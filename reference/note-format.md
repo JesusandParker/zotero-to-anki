@@ -126,11 +126,13 @@ not global. See `reference/sources.md` for the field reference.
 - **Sync:** the pipeline never auto-syncs to AnkiWeb. Parker syncs when he's ready (his cards
   also live on his phone, so writes propagate on his next sync).
 
-Example — EMT, whose deck names predate the registry and are **case-exact** (`Chapter <N>`
-and `Book Highlights` Title Case; 899 notes live under them, so don't restyle):
+Example — EMT, whose deck names are **case-exact** (`Chapter <NN>` and `Book Highlights`
+Title Case; 899 notes live under them, so don't restyle). The chapter number is
+**zero-padded in the deck** (2026-08-29, so Anki's text sort keeps Chapter 10 last) but
+**not in the tag**, which stays `ch<N>` because every card already written carries it:
 
 ```
-deck: all::EMT::Chapter 6::Book Highlights
+deck: all::EMT::Chapter 06::Book Highlights
 tags: ch6
 ```
 

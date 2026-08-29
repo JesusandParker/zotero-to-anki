@@ -37,8 +37,8 @@ chk "sources.py list works"            "python3 scripts/sources.py list"
 chk "emt resolves to its real PDF"     "python3 scripts/sources.py show emt | grep -q '\"pdf_exists\": true'"
 chk "emt profile resolves to emt.md"   "python3 scripts/sources.py show emt | grep -q 'emt.md'"
 chk "isaacs17 -> science.md"           "python3 scripts/sources.py show isaacs17 | grep -q 'science.md'"
-chk "emt cards go to Book Highlights"  "python3 scripts/sources.py deck emt 3 | grep -q '^deck:  all::EMT::Chapter 3::Book Highlights$'"
-chk "emt audit sweeps the chapter"     "python3 scripts/sources.py deck emt 3 | grep -q '^audit: all::EMT::Chapter 3$'"
+chk "emt cards go to Book Highlights"  "python3 scripts/sources.py deck emt 3 | grep -q '^deck:  all::EMT::Chapter 03::Book Highlights$'"
+chk "emt audit sweeps the chapter"     "python3 scripts/sources.py deck emt 3 | grep -q '^audit: all::EMT::Chapter 03$'"
 # The retired staging deck must never come back from ANY source template (2026-08-24).
 chk "no deck template routes to review" "! grep '\"deck\":' reference/sources.json | grep -qi review"
 chk "no staging/promote keys survive"  "! grep -qE '\"(staging|promote)\":' reference/sources.json"
@@ -85,8 +85,8 @@ chk "ch6 carries provenance"                  "python3 -c \"import json;d=json.l
 chk "a run record exists for ch6"             "python3 scripts/run_store.py list emt | grep -q 'seg 6'"
 
 echo "--- writer routing ---"
-chk "ch1 dry-run targets the right deck" "python3 scripts/anki_write.py work/emt/chapter_1_cards.json --dry-run 2>&1 | grep -q 'all::EMT::Chapter 1::Book Highlights'"
-chk "ch5 dry-run routes to Chapter 5"    "python3 scripts/anki_write.py work/emt/chapter_5_cards.json --dry-run 2>&1 | grep -q 'all::EMT::Chapter 5::Book Highlights'"
+chk "ch1 dry-run targets the right deck" "python3 scripts/anki_write.py work/emt/chapter_1_cards.json --dry-run 2>&1 | grep -q 'all::EMT::Chapter 01::Book Highlights'"
+chk "ch5 dry-run routes to Chapter 05"    "python3 scripts/anki_write.py work/emt/chapter_5_cards.json --dry-run 2>&1 | grep -q 'all::EMT::Chapter 05::Book Highlights'"
 # A dry run must not even MENTION the retired staging deck any more.
 echo "--- report tooling must never eat its own input (2026-08-26 data loss) ---"
 chk "verify_report writes beside, not over, its input" "cp work/physics/drafts/block_E.json /tmp/_smoke_vr.json && python3 scripts/verify_report.py /tmp/_smoke_vr.json >/dev/null 2>&1 && python3 -c \"import json;json.load(open('/tmp/_smoke_vr.json'))\""

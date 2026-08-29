@@ -125,6 +125,6 @@ if __name__ == "__main__":
             "sample_deck_counts": {
                 d: g.deck_count(d) for d in
                 ["all::EMT::Chapter 11::Book Highlights",
-                 "all::EMT::Chapter 5::Book Highlights"]},
+                 "all::EMT::Chapter 05::Book Highlights"]},
         }, indent=1))
     print("closed cleanly")

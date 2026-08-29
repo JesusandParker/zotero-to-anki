@@ -34,6 +34,14 @@ Write it with `python3 scripts/add_source.py` (never by hand, unless fixing a ty
 
 - `{root}` → `deck_root`
 - `{segment}` → the segment number (empty for a flat source)
+- `{segment_pad}` → the segment number **zero-padded to two digits** (`5` → `05`; a
+  non-numeric segment like `3b` passes through). Use this in `deck`, never in `tags`.
+  Anki sorts the deck list as TEXT, so an unpadded tree reorders itself to
+  `Chapter 1, Chapter 10, Chapter 2, ...` the moment a tenth segment lands — EMT hit
+  this on 2026-08-29. Padding is opt-in per source because switching the template
+  re-routes writes: a source whose live decks are unpadded would start filling a NEW
+  padded deck beside the old one and split the chapter in two. **Only pad a source's
+  template in the same change that renames its live decks.**
 - `{segment_noun}` → e.g. `Chapter`
 - `{segment_name}` → the segment's `name` from the map (empty for a flat source). Use when
   Parker's live decks carry the chapter title, e.g.
@@ -67,9 +75,10 @@ sweep (card-rules #32) still audits notes already in his rotation, and retiremen
 handles superseded ones.
 
 ```
-EMT (segmented textbook, names predate the registry and are case-exact):
-  deck:  all::EMT::Chapter 6::Book Highlights
-  audit: all::EMT::Chapter 6
+EMT (segmented textbook, names are case-exact; zero-padded since 2026-08-29):
+  deck:  all::EMT::Chapter 06::Book Highlights
+  audit: all::EMT::Chapter 06
+  tags:  ch6          <- tags stay UNPADDED; 2,440 live cards carry ch1..ch10
 
 A lecture (flat):
   deck:  all::LIBERTY::Genetics::Isaacs 17 Gene Regulation::Book Highlights

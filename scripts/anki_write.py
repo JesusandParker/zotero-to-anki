@@ -180,7 +180,7 @@ def main():
         for seg in segs:
             target = S.deck_name(src, seg)
             call("createDeck", deck=target)
-            # The segment CONTAINER ("all::EMT::Chapter 9") is created implicitly by that
+            # The segment CONTAINER ("all::EMT::Chapter 09") is created implicitly by that
             # call, so it never passed through the preset fix below and a brand-new chapter
             # could sit on Default while its leaf was correct. Claim it explicitly.
             container = S.audit_deck(src, seg)

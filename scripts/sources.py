@@ -218,9 +218,34 @@ def work_label(source, segment=None):
 
 # ----------------------------------------------------------------------- deck routing
 
+def _pad_segment(segment):
+    """`{segment_pad}`: the segment zero-padded to two digits, for DECK NAMES only.
+
+    Anki sorts the deck list as text, not numerically, so an unpadded tree orders
+    itself `Chapter 1, Chapter 10, Chapter 2, ...` the moment a tenth segment
+    appears. Parker hit this on EMT at Chapter 10 (2026-08-29) and the whole
+    chapter list scrambled. Padding is opt-in per source via the `deck` template
+    rather than baked into `{segment}`, because switching a template re-routes
+    writes: a source whose live decks are unpadded would start filling a NEW
+    padded deck beside the old one and split the chapter in two. Only pad a
+    source's template in the same change that renames its live decks.
+
+    NEVER use this in a `tags` template. EMT's cards carry `ch1`..`ch10` and the
+    pipeline finds prior work by that tag; padding it would orphan every card
+    written before the change.
+
+    Non-numeric segments (`3b`, `A`) pass through untouched.
+    """
+    if segment is None:
+        return ""
+    s = str(segment)
+    return s.zfill(2) if s.isdigit() else s
+
+
 def _fill(template, source, segment):
     out = (template
            .replace("{root}", source.get("deck_root", "all"))
+           .replace("{segment_pad}", _pad_segment(segment))
            .replace("{segment}", "" if segment is None else str(segment))
            .replace("{segment_noun}", segment_noun(source))
            .replace("{id}", source.get("id", "")))
@@ -271,14 +296,14 @@ def audit_deck(source, segment=None):
     Deliberately wider than the write target. Anki matches `deck:"X"` inclusive of X's
     subdecks, and hand-edit drift happens wherever he has moved a card. When the deck
     template ends in a fixed leaf beneath a per-segment container
-    (`{root}::Chapter {segment}::Book Highlights`), sweep the container
-    (`all::EMT::Chapter 3`) so anything he files beside it is covered too. When the last
+    (`{root}::Chapter {segment_pad}::Book Highlights`), sweep the container
+    (`all::EMT::Chapter 03`) so anything he files beside it is covered too. When the last
     component IS the segment (`{root}::Module {segment}`), that deck is already the
     container and stands on its own. Falls back to the source root."""
     template = (source.get("deck") or source.get("promote") or "{root}::Book Highlights")
     deck = _fill(template, source, segment)
     leaf = template.split("::")[-1]
-    if "{segment}" not in leaf and "{segment_name}" not in leaf and "::" in deck:
+    if not any(t in leaf for t in ("{segment}", "{segment_pad}", "{segment_name}")) and "::" in deck:
         return "::".join(deck.split("::")[:-1])
     return deck or source.get("deck_root", "all")
 
