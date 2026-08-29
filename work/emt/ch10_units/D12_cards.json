@@ -1,0 +1,265 @@
+[
+  {
+    "Text": "Perform a neurologic assessment anytime a patient shows one of six trigger presentations. Four are ongoing states:<br><br>{{c1::changes in mental status}}<br><br>{{c1::stupor}}<br><br>{{c1::drowsiness}}<br><br>{{c1::dizziness}}",
+    "Back Extra": "Why: the assessment can begin hands-off — simply talking with the patient during the primary assessment already tests mental status.<br><br>Roster: <b>changes in mental status</b> · <b>stupor</b> · <b>drowsiness</b> · <b>dizziness</b> · possible head injury · syncope",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      168
+    ],
+    "block": "AQ_neuro_when",
+    "numeric": false,
+    "verified_against": "p1050",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "Perform a neurologic assessment anytime a patient shows one of six trigger presentations. Two are discrete events:<br><br>{{c1::a possible head injury}}<br><br>{{c1::syncope}}",
+    "Back Extra": "Cue: \"anytime you are confronted with\" one of the six — syncope still counts even after the patient seems fully recovered.<br><br>Roster: changes in mental status · stupor · drowsiness · dizziness · <b>possible head injury</b> · <b>syncope</b>",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      168
+    ],
+    "block": "AQ_neuro_when",
+    "numeric": false,
+    "verified_against": "p1050",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "A man briefly fainted at church; by the time you arrive he is awake, oriented, and joking. His syncope alone still calls for a {{c1::neurologic::assessment type}} assessment.",
+    "Back Extra": "Why: syncope is one of the six standing triggers — a normal-looking recovery does not remove it.<br><br>Cue: start simple — talking, asking questions, and getting an appropriate reply already begins the assessment.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      168
+    ],
+    "block": "AQ_neuro_when",
+    "numeric": false,
+    "verified_against": "p1050",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "The diameter and reactivity to light of a patient's pupils can reflect the status of the {{c1::brain::organ}} — its perfusion, oxygenation, and overall condition.",
+    "Back Extra": "Why: pupil size is set from inside the skull by continuous automatic commands, so an organ in trouble up there can show itself in the eyes.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      169,
+      175
+    ],
+    "block": "AR_pupils",
+    "numeric": false,
+    "verified_against": "p1052",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "A healthy patient's pupils adjust their size to the available light:<br><br>In normal room light → {{c1::about midsize::size}}<br><br>With less light → {{c1::dilate::dilate/constrict}}<br><br>With a bright light shined near the eye → {{c1::constrict::dilate/constrict}}<br><br>In the absence of light → {{c1::fully relaxed and dilated::dilated/constricted}}",
+    "Back Extra": "Why: dilation lets more light into the eye — and normally pupil size changes instantly with any change in light level.<br><br>Pitfall: some patients' pupils do not react properly because of eye surgery or other conditions — confirm with the patient or family before reading meaning into it.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      170,
+      171,
+      172,
+      174
+    ],
+    "block": "AR_pupils",
+    "numeric": false,
+    "verified_against": "p1052,p1054",
+    "verified_by": "agent; fragment_clozed_list cleared: keyed condition-to-response panel (recipes §8 direction-of-change shape) — each row hides the ENTIRE answer cued by its visible light condition, not a filler word in a reproducible frame",
+    "visual_source": null
+  },
+  {
+    "Text": "When a brighter light is introduced into one eye only, {{c1::both::one/both}} pupils should constrict {{c1::equally::equally/unequally}}.",
+    "Back Extra": "Why: the brain sets the two pupils to the appropriate size for the pupil receiving the most light.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      173
+    ],
+    "block": "AR_pupils",
+    "numeric": false,
+    "verified_against": "p1052",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "Pupil size is regulated by continuous motor commands that the brain automatically sends through the {{c1::oculomotor::cranial nerve}} nerves to each eye, constricting both pupils to the same appropriate size.",
+    "Back Extra": "Mechanism: each eye first sends <i>sensory</i> signals to the brain reporting its light level; the oculomotor commands are the brain's <i>motor</i> reply to each eye.<br><br>Cue: <i>oculo-</i> (eye) + <i>motor</i> (movement command) — the name says exactly what the nerves carry.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      175
+    ],
+    "block": "AR_pupils",
+    "numeric": false,
+    "verified_against": "p1054",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "You shine a penlight into a patient's right eye and watch her left pupil constrict as well. The motor command that reached that left eye traveled from the brain through the {{c1::oculomotor::cranial nerve}} nerves.",
+    "Back Extra": "Distinguish: the light level travels TO the brain as sensory signals from each eye; the constriction order travels FROM the brain through the oculomotor nerves.<br><br>Cue: light in one eye sizes both pupils — the brain commands each eye together.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      175,
+      173
+    ],
+    "block": "AR_pupils",
+    "numeric": false,
+    "verified_against": "p1054",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "{{c1::Anisocoria::pupil term}} is {{c2::normally unequal pupils}}, found in a small number of patients.",
+    "Back Extra": "Pitfall: unequal pupils count as \"normal for the patient\" only if the patient or a family member can confirm it — otherwise presume altered brain function from CNS depression or injury.<br><br>Parts: an- (not) + iso- (equal) + cor- (pupil) — pupils not equal.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      176
+    ],
+    "block": "AR_pupils",
+    "numeric": false,
+    "verified_against": "p1054",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "Of the five abnormal pupil findings that indicate altered brain function, three are ways the <i>reaction</i> to light goes wrong:<br><br>{{c1::become fixed — no reaction at all (whether dilated or constricted)}}<br><br>{{c1::react backward — dilate when a bright light is introduced, constrict when it is removed}}<br><br>{{c1::react sluggishly instead of briskly}}",
+    "Back Extra": "Pitfall: before calling a response abnormal, ask about eye surgery or other conditions that make odd pupils normal for this patient.<br><br>Roster: <b>fixed (no reaction)</b> · <b>backward (dilate with light)</b> · <b>sluggish</b> · unequal in size · unequal when light is introduced into or removed from one eye",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      177
+    ],
+    "block": "AS_pearrl",
+    "numeric": false,
+    "verified_against": "p1054",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "1054"
+      ],
+      "note": "abnormal-reactions list read and counted (5 items) from render"
+    }
+  },
+  {
+    "Text": "Two of the five abnormal pupil findings are not about how the pupils <i>react</i> — pupils that become {{c1::unequal in size::finding}}, at rest or {{c1::when a bright light is introduced into or removed from one eye::triggering moment}}, also indicate altered brain function.",
+    "Back Extra": "Distinguish: a small number of patients have anisocoria — normally unequal pupils; inequality is presumed abnormal only when no one can confirm it as the patient's baseline.<br><br>Roster: fixed (no reaction) · backward (dilate with light) · sluggish · <b>unequal in size</b> · <b>unequal when light is introduced into or removed from one eye</b>",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      177
+    ],
+    "block": "AS_pearrl",
+    "numeric": false,
+    "verified_against": "p1054",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "1054"
+      ],
+      "note": "abnormal-reactions list read and counted (5 items) from render"
+    }
+  },
+  {
+    "Text": "Causes of depressed brain function — the state abnormal pupils can reveal — include three <i>structural</i> ones:<br><br>{{c1::injury of the brain or brainstem}}<br><br>{{c1::trauma or stroke}}<br><br>{{c1::a brain tumor}}",
+    "Back Extra": "Cue: \"some of the causes include\" — an open set; these named ones are the classics, not an exhaustive list.<br><br>Roster: <b>injury of the brain or brainstem</b> · <b>trauma or stroke</b> · <b>brain tumor</b> · inadequate oxygenation or perfusion · drugs or toxins (CNS depressants)",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      178
+    ],
+    "block": "AS_pearrl",
+    "numeric": false,
+    "verified_against": "p1054,p1055",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "1054",
+        "1055"
+      ],
+      "note": "lead-in on p1054, list on p1055; read from render and counted (5 items); the P E A R R L letters interleaved in the extraction are the PEARRL sidebar table, separated out"
+    }
+  },
+  {
+    "Text": "Causes of depressed brain function — the state abnormal pupils can reveal — include two <i>nonstructural</i> ones:<br><br>{{c1::inadequate oxygenation or perfusion}}<br><br>{{c1::drugs or toxins (central nervous system depressants)}}",
+    "Back Extra": "Why: the brain fails without oxygen and blood flow even when nothing is structurally wrong — and CNS depressants turn it down chemically.<br><br>Roster: injury of the brain or brainstem · trauma or stroke · brain tumor · <b>inadequate oxygenation or perfusion</b> · <b>drugs or toxins (CNS depressants)</b>",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      178
+    ],
+    "block": "AS_pearrl",
+    "numeric": false,
+    "verified_against": "p1054,p1055",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "1054",
+        "1055"
+      ],
+      "note": "list read from render and counted (5 items); PEARRL sidebar letters separated out"
+    }
+  },
+  {
+    "Text": "In pupil assessment, the mnemonic <b>PEARRL</b> stands for:<br><br>{{c1::Pupils::P}}<br><br>{{c1::Equal::E}}<br><br>{{c1::And::A}}<br><br>{{c1::Round::R}}<br><br>{{c1::Regular in size::R}}<br><br>{{c1::React to Light::L}}",
+    "Back Extra": "Cue: the two R's are different checks — <b>R</b>ound is the shape, <b>R</b>egular in size is the size; the A is just \"And.\"",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      178
+    ],
+    "block": "AS_pearrl",
+    "numeric": false,
+    "verified_against": "p1055",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "1055"
+      ],
+      "note": "letter-by-letter expansion table read from render"
+    }
+  },
+  {
+    "Text": "When a patient's pupil check is entirely normal, you can report it with the single mnemonic — \"Pupils = {{c1::PEARRL}}\" — while any abnormal finding must instead be {{c2::described using the longer form}}.",
+    "Back Extra": "Ex: abnormal long form — \"Pupils are equal and round, the left pupil is fixed and dilated, the right pupil is regular in size and reacts to light.\"",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      179,
+      178
+    ],
+    "block": "AS_pearrl",
+    "numeric": false,
+    "verified_against": "p1055",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "1055"
+      ],
+      "note": "report sentence and long-form example read from render"
+    }
+  },
+  {
+    "Text": "After a fall, an older patient's pupils react sluggishly to your penlight and the left is larger than the right. No one can confirm a preexisting eye condition, so you should presume the abnormal response indicates {{c1::altered brain function (from CNS depression or injury)::significance}}.",
+    "Back Extra": "Why: pupil size is driven by the brain, so an unexplained abnormal response is treated as a brain problem until proven otherwise.<br><br>Cue: \"normal for the patient\" only counts when the patient or family can confirm it.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      177,
+      176
+    ],
+    "block": "AS_pearrl",
+    "numeric": false,
+    "verified_against": "p1054",
+    "verified_by": "agent",
+    "visual_source": null
+  }
+]

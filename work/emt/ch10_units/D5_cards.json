@@ -1,0 +1,304 @@
+[
+  {
+    "Text": "Skin with inadequate blood flow turns {{c1::pale::color}} and {{c1::cool::temperature}} — a warning of possible hypoperfusion of the {{c2::brain, lungs, heart, and kidneys::4 organs}}. In most situations, hypoperfusion is caused by {{c3::shock::cause}}.",
+    "Back Extra": "Why: normally perfused skin holds its usual color, temperature, and moisture, which is why skin is one of the most accessible windows on circulation.<br><br>Pitfall: the degree and duration of hypoperfusion determine whether the patient sustains permanent injury.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      50
+    ],
+    "block": "N_skin_color",
+    "numeric": false,
+    "verified_against": "p963",
+    "verified_by": "editor",
+    "visual_source": null
+  },
+  {
+    "Text": "{{c1::The blood circulating through vessels near the surface}} and {{c1::the amount and type of pigment}} are the two factors that determine a patient's skin color.",
+    "Back Extra": "Why: pigment sets the baseline; the circulating blood is the part that changes with perfusion and oxygenation — so skin color reads the circulation.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      51
+    ],
+    "block": "N_skin_color",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "The {{c1::conjunctiva::eye structure}} is the {{c2::membrane lining the eyelids and eye surface}}.",
+    "Back Extra": "Cue: in deeply pigmented skin, color changes may show only at low-pigment sites — nail beds, lips, mouth mucosa, the underside of the arm and palm, and the conjunctiva; in infants and children, also check palms and soles.<br><br>Distinguish: the sclera is the white wall of the eye itself; the conjunctiva is the thin membrane over it and inside the lids.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      52
+    ],
+    "block": "N_skin_color",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "In a patient with insufficient air exchange, the lips, mucous membranes, and nail beds turn blue or gray because {{c2::the blood is not properly saturated with oxygen}} — a color change called {{c1::cyanosis::condition}}.",
+    "Back Extra": "Cue: blue shows where vessels run near the surface — lips, mucous membranes, nail beds, and the skin directly over blood vessels.<br><br>Distinguish: pale, ashen, waxy skin means too little blood <i>flow</i>; blue-gray means blood is flowing but poorly <i>oxygenated</i>.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      53,
+      54
+    ],
+    "block": "N_skin_color",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "{{c1::High blood pressure::cardiovascular cause}} may make the skin abnormally flushed and red.",
+    "Back Extra": "Ex: significant fever, heatstroke, sunburn, and mild thermal burns also redden the skin — conditions in which the body cannot properly dissipate heat.<br><br>Distinguish: red = pressure or heat; blue-gray = low oxygen; pale = low flow.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      55
+    ],
+    "block": "N_skin_color",
+    "numeric": false,
+    "verified_against": "p966",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "Yellow skin and sclera — a color change called {{c2::jaundice::condition}} — suggest {{c1::liver::organ}} disease or dysfunction.",
+    "Back Extra": "Distinguish: pallor points to poor blood <i>flow</i> and cyanosis to poor <i>oxygenation</i> — jaundice instead reflects chronic illness (the liver).",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      56
+    ],
+    "block": "N_skin_color",
+    "numeric": false,
+    "verified_against": "p966",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "The {{c1::sclera::eye part}} is the {{c2::normally white portion of the eye}}, and it may show color changes {{c3::before::before or after}} the skin does.",
+    "Back Extra": "Cue: in jaundice both the skin and sclera turn yellow — and the eye often flags it first.<br><br>Distinguish: the conjunctiva is the delicate membrane lining the eyelids and covering the eye's exposed surface — a separate structure from the white sclera behind it.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      56,
+      57
+    ],
+    "block": "N_skin_color",
+    "numeric": false,
+    "verified_against": "p966",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "You reach a motorcyclist lying beside his bike; his skin looks pale, gray, and waxy, and feels cool through your gloves. Skin findings like his should make you suspect {{c1::hypoperfusion (shock)::underlying problem}}.",
+    "Back Extra": "Cue: pale, white, ashen, or gray skin with a waxy, translucent look is the face of poor peripheral circulation — and in most situations hypoperfusion is caused by shock.<br><br>Pitfall: abnormally cold or frozen skin can take on the same pale, waxy look.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      50,
+      52
+    ],
+    "block": "N_skin_color",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "Normal skin feels warm to the touch. Normal body temperature is {{c1::98.6°F (37°C)}}.",
+    "Back Extra": "Distinguish: the abnormal skin temperatures are hot, cool, cold, and clammy (moist).",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      59
+    ],
+    "block": "O_skin_temp_moisture",
+    "numeric": true,
+    "verified_against": "p966",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "The skin feels cool in three situations:<br><br>{{c1::early shock}}<br><br>{{c1::mild hypothermia}}<br><br>{{c1::inadequate perfusion}}",
+    "Back Extra": "Distinguish: <b>cold</b> skin goes deeper — profound shock, hypothermia, or frostbite; <b>hot</b> skin means significant fever, sunburn, or hyperthermia.<br><br>Cue: with poor perfusion the body pulls blood from the skin's surface to the core — cool, pale, clammy skin in the primary assessment is a strong indication of hypoperfusion and shock.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      60
+    ],
+    "block": "O_skin_temp_moisture",
+    "numeric": false,
+    "verified_against": "p966",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "In the {{c1::early::early or late}} stages of shock, the skin becomes {{c2::slightly moist::moisture finding}}.",
+    "Back Extra": "Distinguish: shock can also bathe the skin in sweat (wet, diaphoretic) — slight moisture is specifically the early-stage finding.<br><br>Cue: consider moisture together with color and temperature — the three are related signs and travel as one picture.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      61
+    ],
+    "block": "O_skin_temp_moisture",
+    "numeric": false,
+    "verified_against": "p967",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "Describing skin moisture in your report:<br><br>only a slight film of sweat, not soaked → {{c1::clammy, damp, or moist::3 terms}}<br><br>bathed in sweat → {{c1::wet or diaphoretic::2 terms}}",
+    "Back Extra": "Cue: both strenuous exercise and shock can leave a patient bathed in sweat.<br><br>Pitfall: dry skin is the normal state; skin that is moist or wet from sweat suggests a problem — and slight moisture can already mean early shock.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      62,
+      63
+    ],
+    "block": "O_skin_temp_moisture",
+    "numeric": false,
+    "verified_against": "p967",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "When recording or reporting your skin assessment, describe the findings in this order:<br><br>1. {{c1::color}}<br><br>2. {{c1::temperature}}<br><br>3. {{c1::moisture}}",
+    "Back Extra": "Ex: \"Skin: pale, cool, and clammy.\"<br><br>Why: color, temperature, and moisture are often related signs, so consider them together and report them as one ordered picture.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      65
+    ],
+    "block": "O_skin_temp_moisture",
+    "numeric": false,
+    "verified_against": "p967",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "A 60-year-old has just finished a road race; sweat has soaked through his shirt and drips from his chin. You record his skin moisture as {{c1::wet (diaphoretic)::moisture term}}.",
+    "Back Extra": "Distinguish: a light film of moisture with a dry shirt would be recorded as clammy (damp, moist) instead.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      63
+    ],
+    "block": "O_skin_temp_moisture",
+    "numeric": false,
+    "verified_against": "p967",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "To test capillary refill, gently compress the patient's fingertip with your {{c1::thumb}} on the fingernail and your {{c1::fingers}} on the underside of the finger, until the nail bed {{c2::blanches (turns white)::color change}}.",
+    "Back Extra": "Why: compressing forces blood out of the nail-bed capillaries; after release, the time back to normal pink is the capillaries refilling — the thing you are counting.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      66
+    ],
+    "block": "P_capillary_refill",
+    "numeric": false,
+    "verified_against": "p968",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "To assess capillary refill in {{c2::newborns and young infants::age group}}, press on one of three sites:<br><br>{{c1::the forehead}}<br><br>{{c1::the chin}}<br><br>{{c1::the sternum}}",
+    "Back Extra": "Distinguish: the standard site is the fingertip nail bed, compressed until it blanches — the three body sites replace it in the very young.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      67
+    ],
+    "block": "P_capillary_refill",
+    "numeric": false,
+    "verified_against": "p968",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "With adequate perfusion, a blanched nail bed returns to its normal pink within {{c1::2 seconds}}. Slower refill — or a nail bed that stays blanched — means you should suspect {{c2::poor peripheral circulation::conclusion}}.",
+    "Back Extra": "Cue: normal refill takes about the time it takes to say \"capillary refill\" at a normal rate of speech.<br><br>Ex: report and document a normal result as CRT of 2 seconds or less.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      68,
+      69
+    ],
+    "block": "P_capillary_refill",
+    "numeric": true,
+    "verified_against": "p968",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "A 4-year-old fell from a playground slide. You compress her nail bed, release, and count \"one-one-thousand, two-one-thousand, three-one-thousand\" before pink returns. Her refill time is {{c1::too slow::normal or too slow}}, so you should {{c1::suspect poor peripheral circulation::conclusion}}.",
+    "Back Extra": "Why: normal capillary refill is 2 seconds or less — three seconds is too slow.<br><br>Distinguish: an injured extremity can have locally compromised circulation, so slow refill in one limb may mean local hypoperfusion rather than hypoperfusion of the whole body.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      66,
+      68,
+      69
+    ],
+    "block": "P_capillary_refill",
+    "numeric": true,
+    "verified_against": "p968",
+    "verified_by": "agent; editor cleared grounding warning: 'too slow' is the vignette's applied verdict of the verified >2 s threshold (p968), a paraphrase not an addition",
+    "visual_source": null
+  },
+  {
+    "Text": "Serious bleeding from a large <b>vein</b> is characterized by a {{c1::steady::steady or spurting}} flow of blood, whereas bleeding from an <b>artery</b> is characterized by a {{c1::spurting::steady or spurting}} flow.",
+    "Back Extra": "Pitfall: either pattern can mean serious blood loss — rapid loss can quickly result in shock or even death.<br><br>Ex: signs of blood loss include active bleeding from a wound, or evidence such as blood on the clothes or near the patient.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      70,
+      71
+    ],
+    "block": "Q_bleeding_character",
+    "numeric": false,
+    "verified_against": "p969",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "When evaluating an {{c1::unconscious::responsive or unconscious}} patient, sweep for blood: run your gloved hands quickly and lightly {{c2::from head to toe}}, pausing periodically to {{c2::check your gloves for blood}}.",
+    "Back Extra": "Why: major blood loss is often visible as you approach — the glove sweep finds the bleeding that is not.<br><br>Pitfall: identify and control major external bleeding immediately; rapid blood loss can cause shock or even death.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      72
+    ],
+    "block": "Q_bleeding_character",
+    "numeric": false,
+    "verified_against": "p969",
+    "verified_by": "agent; husk_groups cleared: the visible sweep-for-blood scaffold cues both c2 spans — each is answerable with the other hidden",
+    "visual_source": null
+  },
+  {
+    "Text": "Blood is spurting from a deep cut on a chef's forearm. The flow pattern marks the bleeding as {{c1::arterial::arterial or venous}}.",
+    "Back Extra": "Distinguish: a large vein bleeds in a steady, even flow — serious, but without the spurts.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      71
+    ],
+    "block": "Q_bleeding_character",
+    "numeric": false,
+    "verified_against": "p969",
+    "verified_by": "agent",
+    "visual_source": null
+  }
+]

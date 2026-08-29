@@ -388,6 +388,159 @@
     "definition": "the uncertainty over the measured value, × 100",
     "note": "covered by a cross-lane fold-in: the purple mark (idx 17) was folded into the yellow percent-uncertainty definition card (idx 11) per Stage 2.5 — a regular card, not kind:lexicon, hence this hand entry at consolidation"
    }
+  ],
+  "diaphor": [
+   {
+    "term": "diaphoresis",
+    "noteId": 1788039486067,
+    "source": "emt",
+    "segment": 10,
+    "definition": "profuse, drenching sweating"
+   }
+  ],
+  "dist": [
+   {
+    "term": "distention",
+    "noteId": 1788039487737,
+    "source": "emt",
+    "segment": 10,
+    "definition": "swelling outward — being stretched or inflated"
+   }
+  ],
+  "crepit": [
+   {
+    "term": "crepitus",
+    "noteId": 1788039488057,
+    "source": "emt",
+    "segment": 10,
+    "definition": "grating of broken bone ends rubbing together"
+   }
+  ],
+  "subcutan_emphysem": [
+   {
+    "term": "subcutaneous emphysema",
+    "noteId": 1788039488161,
+    "source": "emt",
+    "segment": 10,
+    "definition": "air trapped under the skin, felt as crackling"
+   }
+  ],
+  "pertin_negativ": [
+   {
+    "term": "pertinent negatives",
+    "noteId": 1788039489651,
+    "source": "emt",
+    "segment": 10,
+    "definition": "expected findings the patient does NOT have"
+   }
+  ],
+  "cookbook_medicin": [
+   {
+    "term": "cookbook medicine",
+    "noteId": 1788039490070,
+    "source": "emt",
+    "segment": 10,
+    "definition": "following the assessment steps without considering other options"
+   }
+  ],
+  "pallor": [
+   {
+    "term": "pallor",
+    "noteId": 1788039490919,
+    "source": "emt",
+    "segment": 10,
+    "definition": "abnormally pale skin"
+   }
+  ],
+  "focus_assess": [
+   {
+    "term": "focused assessment",
+    "noteId": 1788039491922,
+    "source": "emt",
+    "segment": 10,
+    "definition": "an exam limited to the complaint's body part/system"
+   }
+  ],
+  "auscultat": [
+   {
+    "term": "auscultate",
+    "noteId": 1788039495551,
+    "source": "emt",
+    "segment": 10,
+    "definition": "listen with a stethoscope"
+   }
+  ],
+  "mast": [
+   {
+    "term": "mastectomy",
+    "noteId": 1788039500063,
+    "source": "emt",
+    "segment": 10,
+    "definition": "surgical removal of a breast"
+   }
+  ],
+  "fistul": [
+   {
+    "term": "fistula",
+    "noteId": 1788039500170,
+    "source": "emt",
+    "segment": 10,
+    "definition": "a surgically made vein-to-artery connection"
+   }
+  ],
+  "ecchym": [
+   {
+    "term": "ecchymosis",
+    "noteId": 1788039504935,
+    "source": "emt",
+    "segment": 10,
+    "definition": "a bruise — blood pooled under the skin"
+   }
+  ],
+  "paradox_motion": [
+   {
+    "term": "paradoxical motion",
+    "noteId": 1788039505146,
+    "source": "emt",
+    "segment": 10,
+    "definition": "one chest section moving opposite the rest"
+   }
+  ],
+  "flail": [
+   {
+    "term": "flail",
+    "noteId": 1788039505300,
+    "source": "emt",
+    "segment": 10,
+    "definition": "a chest-wall segment broken free, moving independently"
+   }
+  ],
+  "pneumothorax": [
+   {
+    "term": "pneumothorax",
+    "noteId": 1788039505414,
+    "source": "emt",
+    "segment": 10,
+    "definition": "air in the space around a lung"
+   }
+  ],
+  "guard": [
+   {
+    "term": "guarding",
+    "noteId": 1788039505521,
+    "source": "emt",
+    "segment": 10,
+    "definition": "the belly wall involuntarily tensing against pain"
+   }
+  ],
+  "scler": [
+   {
+    "term": "sclera",
+    "noteId": 1788039485427,
+    "source": "emt",
+    "segment": 10,
+    "definition": "normally white portion of the eye (fold-in: purple idx 58 folded into the yellow two-way definition card per card-rules #28 cross-lane rule; Parts:/glossary lines carried over)"
+   }
   ]
  }
 }

@@ -1,0 +1,52 @@
+[
+  {
+    "index": 93,
+    "card": {
+      "Text": "<b>Distention</b> is {{c1::swelling outward — being stretched or inflated}}.",
+      "Back Extra": "Ex: \"Assess the abdomen, looking and palpating for DCAP-BTLS, rigidity (firm or soft), and <b>distention</b>.\"<br><br>Parts: dis- (apart) + tend- (stretch) — stretched apart.<br><br>Distinguish: rigidity = abnormal firmness of the abdominal wall; distention = abnormal swelling outward.",
+      "kind": "lexicon",
+      "lexicon": {
+        "term": "distention",
+        "term_key": "dist",
+        "anchor": {
+          "method": "external",
+          "page": null
+        }
+      },
+      "source": "emt",
+      "segment": 10,
+      "from_idx": [
+        77
+      ],
+      "block": "LEX_dist",
+      "numeric": false,
+      "verified_against": null,
+      "verified_by": "judge B; lexicon in-source-exists warning cleared: the p4045 evidence hit for key 'dist' is the glossary headword 'distal' ('farther from the trunk…'), a DIFFERENT word — checked the glossary in the PDF: headwords run distal → distracting injury with no 'distention' entry, so the book never defines this term and the external anchor stands (needs_human_check derives true → Vocabulary block, as the consolidator intended)",
+      "visual_source": null,
+      "needs_human_check": true
+    }
+  },
+  {
+    "index": 109,
+    "card": {
+      "Text": "Your chest-pain patient says the pain eases when he sits up and leans forward — a detail that answers the {{c1::Provocation/palliation::OPQRST element}} element of <b>OPQRST</b>.",
+      "Back Extra": "Cue: anything that makes the symptom better or worse — including the position the patient is most comfortable in — answers P.<br><br>Distinguish: where the symptom is and whether it moves is Region/radiation, not P.",
+      "source": "emt",
+      "segment": 10,
+      "from_idx": [
+        92
+      ],
+      "block": "U_opqrst",
+      "numeric": false,
+      "verified_against": "p987",
+      "verified_by": "judge B — OPQRST 'P' read from the p987 render: Provocation/palliation = 'Does anything make the symptoms better or worse? How are you most comfortable?' — easing on sitting up and leaning forward is a comfort-position (palliation) detail; Region/radiation contrast also confirmed on the render",
+      "visual_source": {
+        "pages": [
+          "987"
+        ],
+        "note": "P element definition and question wording read from the render (mark 92 is PARTIAL-grounded across the page span)"
+      },
+      "needs_human_check": true
+    }
+  }
+]

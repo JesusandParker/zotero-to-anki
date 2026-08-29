@@ -76,9 +76,13 @@ CREDIT_STRICT = re.compile(r"^\s*(?:©|\(c\))", re.I)
 CREDIT_LOOSE = re.compile(
     r"^\s*(?:Courtesy\s+(?:of|from)\b"
     r"|Source\s*:"
-    r"|(?:Reproduced|Adapted|Modified|Data)\s+(?:from|with|by)\b"
+    # one optional word between the head and its preposition: "Data adapted from ..."
+    # (EMT TABLE 10-7's credit, missed 2026-08-29 — the caption was never corroborated,
+    # so the table vanished from the index entirely)
+    r"|(?:Reproduced|Adapted|Modified|Data)\s+(?:\w+\s+)?(?:from|with|by)\b"
     r"|Photograph(?:ed)?\s+by\b"
-    r"|[A-Z](?:\s*[,–-]\s*[A-Z])*\s*:\s*\S{0,3}\s*(?:©|\(c\)))", re.I)
+    # panel letters may carry periods: "A., B., C: © ..." (EMT FIGURE 10-23, same day)
+    r"|[A-Z]\.?(?:\s*[,–-]\s*[A-Z]\.?)*\s*:\s*\S{0,3}\s*(?:©|\(c\)))", re.I)
 CREDIT_MAX_CHARS = 200
 DESC_STUB = "Description"
 MIN_ART_PT = 40           # ignore rules, bullets, icons
@@ -124,6 +128,29 @@ def is_credit(x):
         return False
     return bool(CREDIT_STRICT.match(x)) or (
         len(x) <= CREDIT_MAX_CHARS and bool(CREDIT_LOOSE.match(x)))
+
+
+def absorb_wrap_tails(bl, k, bottom, gap_pt=16, max_chars=100):
+    """Extend a credit's bottom edge over its own wrapped tail blocks.
+
+    A long credit line wraps, and the extractor sometimes splits the wrap into its own
+    tiny block ("TX." under TABLE 10-6's credit; "Jones & Bartlett Learning; 2019:298-301."
+    under TABLE 10-1's). Stopping at the matched block's bottom then ships a plate whose
+    credit is cut mid-glyph — caught three times while hand-building Chapter 10's tables
+    (2026-08-29). A tail block is absorbed when it starts within `gap_pt` of the current
+    bottom and is short enough to be a fragment, never a paragraph. The publisher's
+    accessibility "Description" stub also sits right under credits and is short — it is
+    exactly the bleed this function must never ship, so it always stops the absorption.
+    (R60 — exercised by test_figures.py)"""
+    for t2, bb2 in bl[k + 1:]:
+        ts = " ".join(t2.split())
+        if ts == "Description":
+            break
+        if bb2[1] - bottom < gap_pt and len(ts) <= max_chars:
+            bottom = bb2[3]
+        else:
+            break
+    return bottom
 
 
 def find_captions(page, next_page=None, caps_label=False):
@@ -394,11 +421,11 @@ def text_table_render(doc, cap_pno, cap_bbox, out_png, dpi=150):
                 if stop_at <= y_from + 8:
                     break                      # the caption opens the page: nothing to take
         y_to, done = (stop_at if stop_at is not None else page.rect.y1), stop_at is not None
-        for t, bb in bl:
+        for k, (t, bb) in enumerate(bl):
             if bb[1] < y_from - 2 or (stop_at is not None and bb[1] > stop_at):
                 continue
             if is_credit(t):
-                y_to, done = bb[3] + 4, True
+                y_to, done = absorb_wrap_tails(bl, k, bb[3]) + 4, True
                 break
         regions.append((p, y_from, y_to))
         pages.append(p)

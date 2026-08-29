@@ -1,0 +1,289 @@
+[
+  {
+    "Text": "The <b>AVPU</b> scale grades a patient's gross level of consciousness by responsiveness, at one of four levels:<br><br>{{c1::Awake and alert::A}}<br><br>{{c1::Responsive to verbal stimuli::V}}<br><br>{{c1::Responsive to pain::P}}<br><br>{{c1::Unresponsive::U}}",
+    "Back Extra": "Cue: graded by response to external stimuli — verbal stimuli (sound) and painful stimuli (such as pinching the trapezius muscle on top of the shoulder).<br><br>Why: in the primary assessment you need to ascertain only the gross LOC.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "block": "E_avpu",
+    "numeric": true,
+    "verified_against": "p945/p946/p948",
+    "verified_by": "agent; first_letter_hint cleared: AVPU is a spelled mnemonic, bold in the stem, letters printed beside each level on p945/946/948 - rule 18 license (only A/U literally match first letters; V/P key the discriminating word)",
+    "visual_source": null
+  },
+  {
+    "Text": "On the <b>AVPU</b> scale, an <i>awake and alert</i> patient differs from one merely <i>responsive to verbal stimuli</i> in that the alert patient's eyes open {{c1::spontaneously, as you approach::eye-opening trigger}} — not only when spoken to.",
+    "Back Extra": "Distinguish: the full alert picture — aware of and responsive to the environment, follows commands, and the eyes visually track people and objects.<br><br>Ex: a meaningful response to verbal stimuli can be as little as moaning, speaking, or moving.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      13,
+      14
+    ],
+    "block": "E_avpu",
+    "numeric": false,
+    "verified_against": "p945",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "A woman's eyes stay closed when you ask her name in a normal voice, but she groans and stirs when you shout. On the <b>AVPU</b> scale she is graded {{c1::responsive to (loud) verbal stimuli::V or P}}.",
+    "Back Extra": "Pitfall: needing a loud voice is still a verbal response — responsive to pain requires no response to any voice, with a response only to a painful stimulus.<br><br>Cue: chart exactly how she responded — 'responds to loud verbal stimuli.'",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      14
+    ],
+    "block": "E_avpu",
+    "numeric": false,
+    "verified_against": "p945",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "When a patient who has not responded to verbal stimuli is given a painful stimulus, {{c1::moving or crying out::response}} grades the patient P (responsive to pain), while {{c1::staying flaccid, with no movement or sound::response}} grades the patient U (unresponsive).",
+    "Back Extra": "Pitfall: some painful-stimulus methods may not give an accurate result if a spinal cord injury is present.<br><br>Cue: record the type and location of the stimulus and how the patient responded.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      15,
+      16,
+      18
+    ],
+    "block": "E_avpu",
+    "numeric": false,
+    "verified_against": "p946/p948/p949",
+    "verified_by": "agent; husk_groups cleared: each blank is cued by its own visible level name - 'grades the patient P (responsive to pain)' / 'grades the patient U (unresponsive)' - answerable with the other hidden",
+    "visual_source": null
+  },
+  {
+    "Text": "<b>Unresponsive</b> patients usually have no {{c1::cough or gag}} reflex and so lack the ability to {{c1::protect their airway}}.",
+    "Back Extra": "Pitfall: if you are in doubt about whether a patient is truly unresponsive, assume the worst and treat appropriately.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      17
+    ],
+    "block": "E_avpu",
+    "numeric": false,
+    "verified_against": "p948/p949",
+    "verified_by": "agent; husk_groups cleared: both blanks anchor on the visible subject 'Unresponsive patients' plus the slot frames 'no ___ reflex' / 'ability to ___' - one causal unit, cold-solvable",
+    "visual_source": {
+      "pages": [
+        "949"
+      ],
+      "note": "'assume the worst and treat appropriately' completed from render — the extractor context cuts mid-sentence at the p948/949 break"
+    }
+  },
+  {
+    "Text": "You find a man who does not respond to your voice or to a firm ear-lobe pinch. Assume he cannot {{c1::protect his airway::ability lost}}.",
+    "Back Extra": "Mechanism: unresponsiveness usually means no cough or gag reflex — nothing protects the airway.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      17
+    ],
+    "block": "E_avpu",
+    "numeric": false,
+    "verified_against": "p948",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "A patient does not respond to verbal stimuli, so you test the response to pain. Gently but firmly pinch or press at the three sites where the technique works best, or use one further pressure technique:<br><br>{{c1::sternum::site}}<br><br>{{c1::posterior edge of the mandible (lower jaw)::site}}<br><br>{{c1::trapezius area (the muscle above the collar bone)::site}}<br><br>{{c1::upward pressure along the ridge of the orbital rim, on the underside of the eyebrow::technique}}",
+    "Back Extra": "Why: the point is not to cause as much pain as possible, but to see whether the patient responds to or withdraws from the sensation.<br><br>Pitfall: with the orbital-rim technique, apply no pressure to the eyeball.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      18
+    ],
+    "block": "F_painful_stimuli",
+    "numeric": true,
+    "verified_against": "p949",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "Once the LOC is graded, for a patient who is {{c3::alert or responsive to verbal stimuli::which AVPU grades}} you next evaluate {{c1::orientation::what you evaluate}}, which tests mental status by checking the patient's {{c2::memory and thinking ability}}.",
+    "Back Extra": "Distinguish: the AVPU grade measures responsiveness to stimuli; orientation measures memory and thinking.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      19,
+      20
+    ],
+    "block": "G_orientation",
+    "numeric": false,
+    "verified_against": "p949",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "The most common orientation test checks the patient's ability to remember four things:<br><br>{{c1::Person — his or her own name}}<br><br>{{c1::Place — the current location}}<br><br>{{c1::Time — the current year, month, and day of the week}}<br><br>{{c1::Event — what happened (the MOI or NOI)}}",
+    "Back Extra": "Why: the questions were not selected at random — it is paramount to assess all four.<br><br>Cue: all four intact = 'alert and fully oriented,' or 'alert and oriented × 4.'",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      21
+    ],
+    "block": "G_orientation",
+    "numeric": true,
+    "verified_against": "p949",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "The four orientation questions sample three tiers of memory:<br><br>Long-term memory — {{c1::person and place}}<br><br>Intermediate memory — {{c1::place, and time when asking the year or month}}<br><br>Short-term memory — {{c1::time when asking the approximate day of the week, and the event}}",
+    "Back Extra": "Distinguish: place counts toward long-term AND intermediate memory; time counts toward intermediate (year/month) AND short-term (day of the week).<br><br>Cue: person is the oldest memory (your own name); the event is the newest (what just happened).",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      22
+    ],
+    "block": "G_orientation",
+    "numeric": true,
+    "verified_against": "p950",
+    "verified_by": "agent; undercount cleared: 'four' counts the orientation questions (visible anchor); the clozed list is the three tiers, 3/3 verified vs p950 render, and all four questions appear inside the tier answers",
+    "visual_source": null
+  },
+  {
+    "Text": "Any deviation from alert and oriented to person, place, time, and event — or from the patient's own {{c2::normal baseline}} — is considered {{c1::an altered mental status::finding}}.",
+    "Back Extra": "Ex: ongoing illness, history of stroke, traumatic brain injury, developmental delay, or Alzheimer disease can give a patient a baseline of not being fully alert and oriented.<br><br>Cue: determine the patient's normal mental status whenever possible.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      23
+    ],
+    "block": "G_orientation",
+    "numeric": false,
+    "verified_against": "p950",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "A woman gives her name and location but cannot tell you the year or what happened, and her family says she is normally sharp. Her mental status is {{c1::altered::altered or normal}}.",
+    "Back Extra": "Why: she is oriented only to person and place — any deviation from alert-and-oriented to person, place, time, and event, or from her own baseline, is an altered mental status.<br><br>Distinguish: a patient whose everyday baseline is not fully oriented (for example, from developmental delay) is judged against that baseline instead.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      21,
+      23
+    ],
+    "block": "G_orientation",
+    "numeric": false,
+    "verified_against": "p950",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "Three findings (any one alone is enough) indicate spinal immobilization after <b>either blunt or penetrating</b> trauma:<br><br>{{c1::pain or tenderness on palpation of the neck or spine}}<br><br>{{c1::patient report of pain in the neck or back}}<br><br>{{c1::paralysis or a neurologic complaint (numbness, tingling, partial paralysis of the legs or arms)}}",
+    "Back Extra": "Distinguish: tenderness is what you find on palpation; reported pain is what the patient tells you — either one counts.<br><br>Roster: blunt OR penetrating trauma — <b>pain/tenderness on palpation of the neck or spine</b>, <b>patient report of neck or back pain</b>, <b>paralysis or neurologic complaint</b>. Blunt trauma only — altered mental status, intoxication, difficulty or inability to communicate. By itself — distracting injury.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      24
+    ],
+    "block": "H_spinal_immobilization",
+    "numeric": true,
+    "verified_against": "p950",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "950"
+      ],
+      "note": "finding list read from the TABLE 10-1 render; the mark is caption-only"
+    }
+  },
+  {
+    "Text": "Three findings (any one alone is enough) indicate spinal immobilization only when the trauma is <b>blunt</b>:<br><br>{{c1::altered mental status}}<br><br>{{c1::intoxication (alcohol or drugs)}}<br><br>{{c1::difficulty or inability to communicate}}",
+    "Back Extra": "Distinguish: pain/tenderness and neurologic findings count after blunt OR penetrating trauma; altered mental status, intoxication, and communication difficulty count only after blunt.<br><br>Roster: blunt OR penetrating trauma — pain/tenderness on palpation of the neck or spine, patient report of neck or back pain, paralysis or neurologic complaint. Blunt trauma only — <b>altered mental status</b>, <b>intoxication</b>, <b>difficulty or inability to communicate</b>. By itself — distracting injury.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      24
+    ],
+    "block": "H_spinal_immobilization",
+    "numeric": true,
+    "verified_against": "p950",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "950"
+      ],
+      "note": "finding list read from the TABLE 10-1 render; the mark is caption-only"
+    }
+  },
+  {
+    "Text": "{{c1::A distracting injury::injury category}} is by itself an indication for spinal immobilization, even when the patient has no other findings.",
+    "Back Extra": "Meaning: any injury that pulls the patient's attention away from other injuries he or she may have — even severe ones.<br><br>Why: severe pain from one injury can keep the patient from noticing neck or back pain from an unstable fracture.<br><br>Roster: blunt OR penetrating trauma — pain/tenderness on palpation of the neck or spine, patient report of neck or back pain, paralysis or neurologic complaint. Blunt trauma only — altered mental status, intoxication, difficulty or inability to communicate. By itself — <b>distracting injury</b>.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      24,
+      25
+    ],
+    "block": "H_spinal_immobilization",
+    "numeric": false,
+    "verified_against": "p950/p951",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "950",
+        "951"
+      ],
+      "note": "distracting-injury entry and its definition read from the TABLE 10-1 render; the entry body spans both pages"
+    }
+  },
+  {
+    "Text": "Because a painful fracture can mask spine pain, <b>all</b> patients with a {{c1::long bone::fracture type}} fracture and a {{c1::significant::MOI qualifier}} MOI warrant spinal immobilization.",
+    "Back Extra": "Why: the fracture acts as a distracting injury, preventing the patient from reliably identifying neck or back pain from an unstable fracture.<br><br>Cue: the two keys are the fracture type (long bone) and the MOI (significant) — both must be present.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      25
+    ],
+    "block": "H_spinal_immobilization",
+    "numeric": false,
+    "verified_against": "p951",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "A motorcyclist thrown at highway speed has an obviously deformed, painful femur but insists his neck and back feel fine. Beyond caring for the leg, you should still {{c1::apply spinal immobilization::precaution}}.",
+    "Back Extra": "Why: the femur is a distracting injury — its pain can mask neck or back pain from an unstable spine fracture.<br><br>Cue: long bone fracture plus significant MOI warrants spinal immobilization, whatever the patient reports.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      25
+    ],
+    "block": "H_spinal_immobilization",
+    "numeric": false,
+    "verified_against": "p951",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "A driver who smells of alcohol and admits drinking heavily is pulled from his crashed car, alert and fully oriented. He denies neck or back pain, with no tenderness and no neurologic complaint. Spinal immobilization {{c1::is::is / is not}} indicated.",
+    "Back Extra": "Why: with blunt trauma, intoxication alone is a sufficient indication — a clean, fully oriented exam does not remove it.<br><br>Distinguish: intoxication, altered mental status, and communication difficulty are indications only with BLUNT trauma; pain/tenderness and neurologic findings apply to blunt or penetrating trauma.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      24
+    ],
+    "block": "H_spinal_immobilization",
+    "numeric": false,
+    "verified_against": "p950",
+    "verified_by": "agent; visible_answer cleared: forced-choice binary shows 'is / is not' on the front by design (licensed exception); the stem's 'is pulled' is an incidental function word, not a leak",
+    "visual_source": {
+      "pages": [
+        "950"
+      ],
+      "note": "decision built from the TABLE 10-1 render; the mark is caption-only"
+    }
+  }
+]

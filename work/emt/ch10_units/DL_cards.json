@@ -1,0 +1,309 @@
+[
+  {
+    "Text": "The <b>sclera</b> is {{c1::the white outer coat of the eye}}.",
+    "Back Extra": "Ex: \"Liver disease or dysfunction may cause jaundice, resulting in the patient's skin and <b>sclera</b> turning yellow.\"<br><br>Cue: the sclera can show a color change (jaundice yellowing) even before the skin does.<br><br>Parts: scler- (hard) — the eye's tough shell; same root as sclerosis.<br><br>Formal: \"the tough, fibrous, white portion of the eye that protects the more delicate inner structures.\"",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "sclera",
+      "term_key": "scler",
+      "anchor": {"method": "glossary", "page": "4122"}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [58],
+    "block": "LEX_scler",
+    "fold_candidate": "D5 sclera",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "<b>Diaphoresis</b> is {{c1::profuse, drenching sweating}}.",
+    "Back Extra": "Ex: \"When the skin is bathed in sweat, such as after strenuous exercise or when the patient is in shock, the skin is described as wet or <b>diaphoretic</b>.\"<br><br>Parts: dia- (through) + phor- (carry) — sweat carried out through the skin.<br><br>Distinguish: clammy = only slightly moist skin; diaphoretic = skin bathed in sweat.<br><br>Formal: \"diaphoretic: characterized by light or profuse sweating.\"",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "diaphoresis",
+      "term_key": "diaphor",
+      "anchor": {"method": "glossary", "page": "4042"}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [64, 103],
+    "block": "LEX_diaphor",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "<b>Distention</b> is {{c1::swelling outward — being stretched or inflated}}.",
+    "Back Extra": "Ex: \"Assess the abdomen, looking and palpating for DCAP-BTLS, rigidity (firm or soft), and <b>distention</b>.\"<br><br>Parts: dis- (apart) + tend- (stretch) — stretched apart.<br><br>Distinguish: rigidity = abnormal firmness of the abdominal wall; distention = abnormal swelling outward.",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "distention",
+      "term_key": "dist",
+      "anchor": {"method": "external", "page": null}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [77],
+    "block": "LEX_dist",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "<b>Crepitus</b> is {{c1::grating of broken bone ends rubbing together}}.",
+    "Back Extra": "Ex: \"Assess the chest, looking and feeling for DCAP-BTLS, chest wall movement, <b>crepitus</b>, subcutaneous emphysema, and equal rise and fall.\"<br><br>Distinguish: crepitus = bone-on-bone grating (felt or heard); subcutaneous emphysema = air crackling under the skin.<br><br>Parts: from Latin crepitare, \"to crackle.\"<br><br>Formal: \"a grating or grinding sensation or sound caused by fractured bone ends or joints rubbing together.\"",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "crepitus",
+      "term_key": "crepit",
+      "anchor": {"method": "glossary", "page": "4036"}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [80, 108],
+    "block": "LEX_crepit",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "<b>Subcutaneous emphysema</b> is {{c1::air trapped under the skin, felt as crackling}}.",
+    "Back Extra": "Ex: \"Palpate the neck for signs of trauma … as well as a crackling sound produced by air bubbles under the skin, known as <b>subcutaneous emphysema</b>.\"<br><br>Distinguish: crepitus = bone-on-bone grating; subcutaneous emphysema = air crackling under the skin. And bare <b>emphysema</b> usually means the chronic lung disease (destroyed alveoli — a form of COPD); the subcutaneous form is a trauma finding.<br><br>Parts: sub- (under) + cutane- (skin) + emphysema (Greek: puffed up).<br><br>Formal: \"a characteristic crackling sensation felt on palpation of the skin, caused by the presence of air in soft tissues.\"",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "subcutaneous emphysema",
+      "term_key": "subcutan_emphysem",
+      "anchor": {"method": "glossary", "page": "4132"}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [81, 182],
+    "block": "LEX_subcutan_emphysem",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "In EMS assessment, <b>pertinent negatives</b> are {{c1::expected findings the patient does NOT have}}.",
+    "Back Extra": "Ex: \"sometimes just as important are the signs and symptoms that the patient does not have. These important negative findings are referred to as <b>pertinent negatives</b>.\"<br><br>Cue: a complaint usually brings related findings — chest pain is expected to come with shortness of breath; note when the expected partner is absent.<br><br>Formal: \"negative findings that warrant no care or intervention.\"",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "pertinent negatives",
+      "term_key": "pertin_negativ",
+      "anchor": {"method": "glossary", "page": "4103"}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [93],
+    "block": "LEX_pertin_negativ",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "In EMS, <b>cookbook medicine</b> means {{c1::following the assessment steps without considering other options}}.",
+    "Back Extra": "Ex: \"it is important that [assessment] is not done robotically by the book. When providers do this, it is referred to as <b>cookbook medicine</b> — the process of going through steps in a process without considering other options.\"<br><br>Distinguish: the opposite of cookbook medicine is critical thinking — gathering, evaluating, and synthesizing information.<br><br>Why: EMS scenes are dynamic and often chaotic; a rote checklist misses what the scene is telling you.",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "cookbook medicine",
+      "term_key": "cookbook_medicin",
+      "anchor": {"method": "external", "page": null}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [95],
+    "block": "LEX_cookbook_medicin",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "<b>Pallor</b> is {{c1::abnormally pale skin}}.",
+    "Back Extra": "Ex: \"Some anxious patients exhibit signs of psychological shock, such as <b>pallor</b>, diaphoresis, shortness of breath, numbness in the hands and feet…\"<br><br>Distinguish: pallor = white-pale skin (poor blood flow); cyanosis = blue-gray skin (poor oxygenation).<br><br>Cue: often accompanies severe bleeding and shock.",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "pallor",
+      "term_key": "pallor",
+      "anchor": {"method": "in_source", "page": "2386"}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [102],
+    "block": "LEX_pallor",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "A <b>focused assessment</b> is {{c1::an exam limited to the complaint's body part/system}}.",
+    "Back Extra": "Ex: \"A <b>focused assessment</b> is generally performed on patients who have sustained nonsignificant MOIs or on responsive medical patients.\"<br><br>Distinguish: the rapid full-body exam (significant MOI, unresponsive patients) sweeps head to toe and is NOT a focused assessment; the focused assessment targets one body part or system, guided by the chief complaint.<br><br>Formal: \"a type of physical assessment typically performed on patients who have sustained nonsignificant mechanisms of injury or on responsive medical patients … based on the chief complaint and focuses on one body system or part.\"",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "focused assessment",
+      "term_key": "focus_assess",
+      "anchor": {"method": "glossary", "page": "4058"}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [110],
+    "block": "LEX_focus_assess",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "<b>Auscultate</b> means {{c1::listen with a stethoscope}}.",
+    "Back Extra": "Ex: \"you can almost always hear a patient's breath sounds better from the patient's back; therefore, if the patient's back is accessible, listen (<b>auscultate</b>) there.\"<br><br>Cue: the noun form — <b>auscultation</b> — is also the standard way to measure a blood pressure, listening for Korotkoff sounds.<br><br>Parts: Latin auscultare, \"to listen\" (auris = ear).<br><br>Formal: \"to listen to sounds within an organ with a stethoscope.\"",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "auscultate",
+      "term_key": "auscultat",
+      "anchor": {"method": "glossary", "page": "4014"}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [131, 162],
+    "block": "LEX_auscultat",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "A <b>mastectomy</b> is {{c1::surgical removal of a breast}}.",
+    "Back Extra": "Ex: \"Avoid obtaining a blood pressure reading on an arm if the patient … has had a <b>mastectomy</b> on that side; or has an injury to that arm.\"<br><br>Why: after a mastectomy, do not take a blood pressure on that side's arm — ask if it is not visible.<br><br>Parts: mast- (breast) + -ectomy (surgical removal).",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "mastectomy",
+      "term_key": "mast",
+      "anchor": {"method": "external", "page": null}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [158],
+    "block": "LEX_mast",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "In dialysis patients, a <b>fistula</b> is {{c1::a surgically made vein-to-artery connection}}.",
+    "Back Extra": "Ex: \"Avoid obtaining a blood pressure reading on an arm if the patient has an intravenous site or other medical device in place, such as an indwelling catheter or dialysis <b>fistula</b>…\"<br><br>Why: never take a blood pressure on the fistula arm — ask dialysis patients which arm to avoid.<br><br>Parts: Latin fistula, \"pipe / tube.\"<br><br>Formal: \"a surgically created connection between a vein and an artery,\" usually located in the forearm or upper arm.",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "fistula",
+      "term_key": "fistul",
+      "anchor": {"method": "in_source", "page": "1975"}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [159],
+    "block": "LEX_fistul",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "An <b>ecchymosis</b> is {{c1::a bruise — blood pooled under the skin}}.",
+    "Back Extra": "Ex: \"Is there evidence of trauma, such as <b>ecchymoses</b> or hematomas?\"<br><br>Distinguish: a hematoma is a raised pocket of collected blood; an ecchymosis is flat discoloration.<br><br>Parts: ec- (out) + chym- (juice) + -osis (condition) — blood leaked out into the skin.<br><br>Formal: \"a buildup of blood beneath the skin that produces a characteristic blue or black discoloration as the result of an injury.\"",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "ecchymosis",
+      "term_key": "ecchym",
+      "anchor": {"method": "glossary", "page": "4048"}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [181],
+    "block": "LEX_ecchym",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "<b>Paradoxical motion</b> is {{c1::one chest section moving opposite the rest}} during breathing.",
+    "Back Extra": "Ex: \"Observe for abnormal breathing signs, including retractions or <b>paradoxical motion</b> (when only one section of the chest rises on inspiration while another area of the chest falls).\"<br><br>Why: the flail segment is detached, so it sinks in on inhalation while the rest of the chest expands.<br><br>Distinguish: retractions = skin pulling in around the ribs from impaired airflow (usually medical); paradoxical motion = a rib-fracture segment moving opposite (trauma).<br><br>Formal: \"the motion — in during inhalation, out during exhalation — is exactly the opposite of normal chest wall motion.\"",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "paradoxical motion",
+      "term_key": "paradox_motion",
+      "anchor": {"method": "glossary", "page": "4099"}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [183],
+    "block": "LEX_paradox_motion",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "A <b>flail</b> (flail chest) is {{c1::a chest-wall segment broken free, moving independently}}.",
+    "Back Extra": "Ex: \"Paradoxical motion is associated with a fracture of several ribs (<b>flail</b>), causing a section of the chest to move independently from the rest of the chest wall.\"<br><br>Cue: the telltale sign of a flail is paradoxical motion — the free segment moves opposite the rest of the chest.<br><br>Formal: \"a condition in which two or more adjacent ribs are fractured in two or more places or in association with a fracture of the sternum so that a segment of the chest wall is effectively detached from the rest of the thoracic cage.\"",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "flail",
+      "term_key": "flail",
+      "anchor": {"method": "glossary", "page": "4057"}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [184],
+    "block": "LEX_flail",
+    "numeric": true,
+    "verified_against": "p4057",
+    "verified_by": "agent; editor re-verified the p4057 glossary quote via pdftotext",
+    "visual_source": null
+  },
+  {
+    "Text": "A <b>pneumothorax</b> is {{c1::air in the space around a lung}}.",
+    "Back Extra": "Ex: \"Palpate the chest for subcutaneous emphysema, especially in cases of severe blunt chest trauma, as this could indicate a <b>pneumothorax</b>.\"<br><br>Parts: pneumo- (air) + thorax (chest) — air loose in the chest.<br><br>Distinguish: subcutaneous emphysema is air under the SKIN; a pneumothorax is air INSIDE the chest around the lung — finding the first should make you suspect the second.<br><br>Formal: \"an accumulation of air or gas in the pleural cavity.\"",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "pneumothorax",
+      "term_key": "pneumothorax",
+      "anchor": {"method": "glossary", "page": "4106"}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [185],
+    "block": "LEX_pneumothorax",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "On abdominal exam, <b>guarding</b> is {{c1::the belly wall involuntarily tensing against pain}}.",
+    "Back Extra": "Ex: \"Palpate the abdomen for tenderness, rigidity, and patient <b>guarding</b>.\"<br><br>Distinguish: rigidity = the wall staying board-firm; guarding = muscles tensing up in response to movement or touch.<br><br>Formal: \"involuntary muscle contractions (spasm) of the abdominal wall to minimize the pain of abdominal movement; a sign of peritonitis.\"",
+    "kind": "lexicon",
+    "lexicon": {
+      "term": "guarding",
+      "term_key": "guard",
+      "anchor": {"method": "glossary", "page": "4064"}
+    },
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [186],
+    "block": "LEX_guard",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  }
+]

@@ -1,0 +1,1235 @@
+{
+ "teaches": [
+  {
+   "card_index": 51,
+   "text": "In infants and small children, cardiac arrest is generally caused by {{c1::respiratory arrest}}.",
+   "figure": "TABLE 10-2",
+   "file": "figures/study/TABLE_10_2.png",
+   "native_file": "figures/TABLE_10_2.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "arrest",
+    "respiratory"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 56,
+   "text": "A mother hands you her limp 7-month-old, who does not respond to your voice or touch. Which pulse do you palpa",
+   "figure": "FIGURE 10-12",
+   "file": "figures/study/FIGURE_10_12.jpg",
+   "native_file": "figures/FIGURE_10_12.jpg",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "brachial"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 102,
+   "text": "{{c1::The Golden Hour}}, also called the {{c1::Golden Period}}, is the time from {{c2::injury}} to {{c2::defin",
+   "figure": "FIGURE 10-16",
+   "file": "figures/study/FIGURE_10_16.jpg",
+   "native_file": "figures/FIGURE_10_16.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "care",
+    "definitive",
+    "golden",
+    "hour",
+    "injury",
+    "period"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 252,
+   "text": "A 58-year-old has no specific complaint \u2014 he just feels weak all over. What bedside level should you assess? {",
+   "figure": "SKILL DRILL 10-6",
+   "file": "figures/study/SKILL_DRILL_10_6.jpg",
+   "native_file": "figures/SKILL_DRILL_10_6.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "blood",
+    "glucose"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 227,
+   "text": "In a neurovascular check, palpate the pulse {{c2::distal::distal or proximal}} to the point of injury:  Upper ",
+   "figure": "FIGURE 10-33",
+   "file": "figures/study/FIGURE_10_33.jpg",
+   "native_file": "figures/FIGURE_10_33.jpg",
+   "coverage": 0.833,
+   "page_dist": 1,
+   "matched_terms": [
+    "distal",
+    "dorsalis",
+    "pedis",
+    "posterior",
+    "tibial"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 34,
+   "text": "A motorcyclist thrown at highway speed has an obviously deformed, painful femur but insists his neck and back ",
+   "figure": "TABLE 10-1",
+   "file": "figures/study/TABLE_10_1.png",
+   "native_file": "figures/TABLE_10_1.png",
+   "coverage": 0.667,
+   "page_dist": 1,
+   "matched_terms": [
+    "immobilization",
+    "spinal"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 69,
+   "text": "In a patient with insufficient air exchange, the lips, mucous membranes, and nail beds turn blue or gray becau",
+   "figure": "FIGURE 10-13",
+   "file": "figures/study/FIGURE_10_13.jpg",
+   "native_file": "figures/FIGURE_10_13.jpg",
+   "coverage": 0.6,
+   "page_dist": 2,
+   "matched_terms": [
+    "blood",
+    "cyanosis",
+    "oxygen"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 48,
+   "text": "A patient sitting upright with the head and chin thrust slightly forward is in the {{c1::sniffing::posture}} p",
+   "figure": "FIGURE 10-10",
+   "file": "figures/study/FIGURE_10_10.jpg",
+   "native_file": "figures/FIGURE_10_10.jpg",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "sniffing"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 165,
+   "text": "The quality (character) of a patient's respirations can be described in one of four ways:  {{c1::Normal}}  {{c",
+   "figure": "TABLE 10-5",
+   "file": "figures/study/TABLE_10_5.png",
+   "native_file": "figures/TABLE_10_5.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "normal",
+    "shallow"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 245,
+   "text": "A pulse oximeter functions properly only with adequate {{c1::perfusion}} and adequate numbers of {{c1::red blo",
+   "figure": "FIGURE 10-36",
+   "file": "figures/study/FIGURE_10_36.jpg",
+   "native_file": "figures/FIGURE_10_36.jpg",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "blood",
+    "red"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 57,
+   "text": "With an infant lying  supine , you can reach the brachial pulse by {{c1::elevating the arm over the infant's h",
+   "figure": "FIGURE 10-12",
+   "file": "figures/study/FIGURE_10_12.jpg",
+   "native_file": "figures/FIGURE_10_12.jpg",
+   "coverage": 0.4,
+   "page_dist": 1,
+   "matched_terms": [
+    "arm",
+    "infant"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 12,
+   "text": "The {{c1::incident command system (ICS)::structure}} is a {{c2::flexible}} system implemented to manage {{c2::",
+   "figure": "FIGURE 10-5",
+   "file": "figures/study/FIGURE_10_5.jpg",
+   "native_file": "figures/FIGURE_10_5.jpg",
+   "coverage": 0.375,
+   "page_dist": 1,
+   "matched_terms": [
+    "command",
+    "incident",
+    "system"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 137,
+   "text": "What is the normal respiratory rate, in breaths/min, for an adult at rest? {{c1::12 to 20::range}}",
+   "figure": "TABLE 10-4",
+   "file": "figures/study/TABLE_10_4.png",
+   "native_file": "figures/TABLE_10_4.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 140,
+   "text": "What is the normal respiratory rate, in breaths/min, for an adolescent (13 to 18 years) at rest? {{c1::12 to 16::range}}",
+   "figure": "TABLE 10-4",
+   "file": "figures/study/TABLE_10_4.png",
+   "native_file": "figures/TABLE_10_4.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 141,
+   "text": "What is the normal respiratory rate, in breaths/min, for a school-aged child (6 to 12 years) at rest? {{c1::18 to 30::range}}",
+   "figure": "TABLE 10-4",
+   "file": "figures/study/TABLE_10_4.png",
+   "native_file": "figures/TABLE_10_4.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 142,
+   "text": "What is the normal respiratory rate, in breaths/min, for a preschooler (4 to 5 years) at rest? {{c1::22 to 34::range}}",
+   "figure": "TABLE 10-4",
+   "file": "figures/study/TABLE_10_4.png",
+   "native_file": "figures/TABLE_10_4.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 143,
+   "text": "What is the normal respiratory rate, in breaths/min, for a toddler (1 to 3 years) at rest? {{c1::24 to 40::range}}",
+   "figure": "TABLE 10-4",
+   "file": "figures/study/TABLE_10_4.png",
+   "native_file": "figures/TABLE_10_4.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 144,
+   "text": "What is the normal respiratory rate, in breaths/min, for an infant at rest? {{c1::30 to 60::range}}",
+   "figure": "TABLE 10-4",
+   "file": "figures/study/TABLE_10_4.png",
+   "native_file": "figures/TABLE_10_4.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 160,
+   "text": "To auscultate the upper lung fields (the {{c1::apices::term}}), place the stethoscope about {{c2::1 inch (2.5 cm)}} below the clavicle, at the {{c2::midclavicul",
+   "figure": "FIGURE 10-23",
+   "file": "figures/study/FIGURE_10_23.png",
+   "native_file": "figures/FIGURE_10_23.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 161,
+   "text": "To auscultate the <b>midlung</b> fields, listen at the {{c1::third or fourth}} intercostal space, from the patient's {{c1::posterior::anterior or posterior}}.",
+   "figure": "FIGURE 10-23",
+   "file": "figures/study/FIGURE_10_23.png",
+   "native_file": "figures/FIGURE_10_23.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 162,
+   "text": "To auscultate the lower lung fields (the {{c1::bases::term}}), listen at the {{c2::sixth}} intercostal space, at the {{c2::midaxillary}} line.",
+   "figure": "FIGURE 10-23",
+   "file": "figures/study/FIGURE_10_23.png",
+   "native_file": "figures/FIGURE_10_23.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 170,
+   "text": "What is the normal pulse-rate range for <b>adults and children older than 10 years</b>, in beats/min? {{c1::60 to 100::range}}",
+   "figure": "TABLE 10-6",
+   "file": "figures/study/TABLE_10_6.png",
+   "native_file": "figures/TABLE_10_6.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 171,
+   "text": "What is the normal pulse-rate range for <b>preschoolers and school-aged children (2 to 10 years)</b>, in beats/min? {{c1::60 to 140::range}}",
+   "figure": "TABLE 10-6",
+   "file": "figures/study/TABLE_10_6.png",
+   "native_file": "figures/TABLE_10_6.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 172,
+   "text": "What is the normal pulse-rate range for <b>infants and toddlers (3 months to 2 years)</b>, in beats/min? {{c1::100 to 190::range}}",
+   "figure": "TABLE 10-6",
+   "file": "figures/study/TABLE_10_6.png",
+   "native_file": "figures/TABLE_10_6.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 173,
+   "text": "What is the normal pulse-rate range for <b>infants up to 3 months of age</b>, in beats/min? {{c1::85 to 205::range}}",
+   "figure": "TABLE 10-6",
+   "file": "figures/study/TABLE_10_6.png",
+   "native_file": "figures/TABLE_10_6.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 204,
+   "text": "What is the normal <b>systolic</b> blood pressure range for an <b>adult</b>? {{c1::90 to 120::range}} mm Hg",
+   "figure": "TABLE 10-7",
+   "file": "figures/study/TABLE_10_7.png",
+   "native_file": "figures/TABLE_10_7.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 205,
+   "text": "What is the normal <b>systolic</b> blood pressure range for an <b>adolescent (15 years)</b>? {{c1::110 to 131::range}} mm Hg",
+   "figure": "TABLE 10-7",
+   "file": "figures/study/TABLE_10_7.png",
+   "native_file": "figures/TABLE_10_7.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 206,
+   "text": "What is the normal <b>systolic</b> blood pressure range for a <b>child (7 years)</b>? {{c1::97 to 115::range}} mm Hg",
+   "figure": "TABLE 10-7",
+   "file": "figures/study/TABLE_10_7.png",
+   "native_file": "figures/TABLE_10_7.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 207,
+   "text": "What is the normal <b>systolic</b> blood pressure range for a <b>child (2 years)</b>? {{c1::86 to 106::range}} mm Hg",
+   "figure": "TABLE 10-7",
+   "file": "figures/study/TABLE_10_7.png",
+   "native_file": "figures/TABLE_10_7.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 208,
+   "text": "What is the normal <b>systolic</b> blood pressure range for an <b>infant (1\u201312 months)</b>? {{c1::72 to 104::range}} mm Hg",
+   "figure": "TABLE 10-7",
+   "file": "figures/study/TABLE_10_7.png",
+   "native_file": "figures/TABLE_10_7.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 209,
+   "text": "What is the normal <b>systolic</b> blood pressure range for a <b>neonate (96 hours)</b>? {{c1::67 to 84::range}} mm Hg",
+   "figure": "TABLE 10-7",
+   "file": "figures/study/TABLE_10_7.png",
+   "native_file": "figures/TABLE_10_7.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "rule-25 table-on-back",
+   "why": "forced: needs_table_back (rule 25/design)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 30,
+   "text": "Three findings (any one alone is enough) indicate spinal immobilization only when the trauma is <b>blunt</b>:<br><br>{{c1::altered mental status}}<br><br>{{c1::",
+   "figure": "TABLE 10-1",
+   "file": "figures/study/TABLE_10_1.png",
+   "native_file": "figures/TABLE_10_1.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "part-and-whole",
+   "why": "forced: D2 editor request \u2014 whole table on member-note backs (Parker's part-and-whole preference)",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 31,
+   "text": "{{c1::A distracting injury::injury category}} is by itself an indication for spinal immobilization, even when the patient has no other findings.",
+   "figure": "TABLE 10-1",
+   "file": "figures/study/TABLE_10_1.png",
+   "native_file": "figures/TABLE_10_1.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": "part-and-whole",
+   "why": "forced: D2 editor request \u2014 whole table on member-note backs",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  }
+ ],
+ "context": [
+  {
+   "card_index": 29,
+   "text": "Three findings (any one alone is enough) indicate spinal immobilization after  either blunt or penetrating  tr",
+   "figure": "TABLE 10-1",
+   "file": "figures/study/TABLE_10_1.png",
+   "native_file": "figures/TABLE_10_1.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "arms",
+    "complaint",
+    "legs",
+    "neck",
+    "neurologic",
+    "numbness",
+    "pain",
+    "palpation",
+    "paralysis",
+    "partial",
+    "patient",
+    "report",
+    "spine",
+    "tenderness",
+    "tingling"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 243,
+   "text": " Pulse oximetry  evaluates the effectiveness of {{c1::oxygenation::oxygenation or ventilation}}. The pulse oxi",
+   "figure": "FIGURE 10-36",
+   "file": "figures/study/FIGURE_10_36.jpg",
+   "native_file": "figures/FIGURE_10_36.jpg",
+   "coverage": 0.8,
+   "page_dist": 1,
+   "matched_terms": [
+    "hemoglobin",
+    "oxygen",
+    "photoelectric",
+    "saturation"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 55,
+   "text": "Where you palpate the pulse depends on age and responsiveness:  Responsive and older than 1 year \u2192 {{c1::radia",
+   "figure": "FIGURE 10-12",
+   "file": "figures/study/FIGURE_10_12.jpg",
+   "native_file": "figures/FIGURE_10_12.jpg",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "arm",
+    "brachial",
+    "inside",
+    "upper"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 159,
+   "text": " Auscultate  means {{c1::listen with a stethoscope}}.",
+   "figure": "FIGURE 10-23",
+   "file": "figures/study/FIGURE_10_23.png",
+   "native_file": "figures/FIGURE_10_23.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "stethoscope"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 52,
+   "text": "As respiratory  distress  deteriorates into respiratory  failure , the patient's whole drive winds down:  Agit",
+   "figure": "TABLE 10-2",
+   "file": "figures/study/TABLE_10_2.png",
+   "native_file": "figures/TABLE_10_2.png",
+   "coverage": 0.429,
+   "page_dist": 0,
+   "matched_terms": [
+    "difficult",
+    "lethargy",
+    "rouse"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 54,
+   "text": "Although often called a heartbeat, the {{c1::pulse}} is really {{c2::the pressure wave}} sent through the arte",
+   "figure": "FIGURE 10-11",
+   "file": "figures/study/FIGURE_10_11.jpg",
+   "native_file": "figures/FIGURE_10_11.jpg",
+   "coverage": 0.333,
+   "page_dist": 2,
+   "matched_terms": [
+    "pulse"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 14,
+   "text": "As the first part of your primary assessment, the {{c1::general impression::assessment step}} focuses on {{c2:",
+   "figure": "FIGURE 10-8",
+   "file": "figures/study/FIGURE_10_8.jpg",
+   "native_file": "figures/FIGURE_10_8.jpg",
+   "coverage": 0.286,
+   "page_dist": 1,
+   "matched_terms": [
+    "general",
+    "impression"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 111,
+   "text": "A  SAMPLE  history gathers six kinds of information from the patient:  {{c1::Signs and symptoms::S}}  {{c1::Al",
+   "figure": "FIGURE 10-19",
+   "file": "figures/study/FIGURE_10_19.jpg",
+   "native_file": "figures/FIGURE_10_19.jpg",
+   "coverage": 0.267,
+   "page_dist": 2,
+   "matched_terms": [
+    "history",
+    "medical",
+    "past",
+    "pertinent"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 88,
+   "text": "In the rapid exam you look and feel for  DCAP-BTLS  at every body region:  {{c1::Deformity::D}}  {{c1::Contusi",
+   "figure": "TABLE 10-3",
+   "file": "figures/study/TABLE_10_3.png",
+   "native_file": "figures/TABLE_10_3.png",
+   "coverage": 0.25,
+   "page_dist": 0,
+   "matched_terms": [
+    "contusions",
+    "deformity"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 247,
+   "text": "A pulse oximeter presumes {{c1::oxygen}} is what saturates the hemoglobin, so any chemical that {{c1::displace",
+   "figure": "FIGURE 10-36",
+   "file": "figures/study/FIGURE_10_36.jpg",
+   "native_file": "figures/FIGURE_10_36.jpg",
+   "coverage": 0.25,
+   "page_dist": 0,
+   "matched_terms": [
+    "oxygen"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 13,
+   "text": "At a multiple-patient incident, responders work in groups organized by {{c1::function or assigned area::2 crit",
+   "figure": "FIGURE 10-5",
+   "file": "figures/study/FIGURE_10_5.jpg",
+   "native_file": "figures/FIGURE_10_5.jpg",
+   "coverage": 0.2,
+   "page_dist": 1,
+   "matched_terms": [
+    "incident"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 234,
+   "text": " Paradoxical motion  is {{c1::one chest section moving opposite the rest}} during breathing.",
+   "figure": "FIGURE 10-29",
+   "file": "figures/study/FIGURE_10_29.jpg",
+   "native_file": "figures/FIGURE_10_29.jpg",
+   "coverage": 0.2,
+   "page_dist": 0,
+   "matched_terms": [
+    "chest"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 1,
+   "text": "A {{c1::symptom}} is a {{c2::subjective}} condition \u2014 one the patient {{c2::feels and tells you about}}.",
+   "figure": "FIGURE 10-17",
+   "file": "figures/study/FIGURE_10_17.jpg",
+   "native_file": "figures/FIGURE_10_17.jpg",
+   "coverage": 0.167,
+   "page_dist": 1,
+   "matched_terms": [
+    "about"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 186,
+   "text": "{{c1::Systolic pressure::BP component}} is {{c2::the arterial pressure surge with each ventricular contraction",
+   "figure": "FIGURE 10-24",
+   "file": "figures/study/FIGURE_10_24.jpg",
+   "native_file": "figures/FIGURE_10_24.jpg",
+   "coverage": 0.167,
+   "page_dist": 1,
+   "matched_terms": [
+    "pressure"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 180,
+   "text": "A decrease in blood pressure may indicate one of  3  problems:  {{c1::loss of blood or its fluid components}} ",
+   "figure": "FIGURE 10-24",
+   "file": "figures/study/FIGURE_10_24.jpg",
+   "native_file": "figures/FIGURE_10_24.jpg",
+   "coverage": 0.143,
+   "page_dist": 2,
+   "matched_terms": [
+    "blood",
+    "components"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 187,
+   "text": "{{c1::Diastolic pressure::BP component}} is {{c2::the residual arterial pressure while the heart relaxes}}.",
+   "figure": "FIGURE 10-24",
+   "file": "figures/study/FIGURE_10_24.jpg",
+   "native_file": "figures/FIGURE_10_24.jpg",
+   "coverage": 0.143,
+   "page_dist": 1,
+   "matched_terms": [
+    "pressure"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 53,
+   "text": "As respiratory  distress  deteriorates into respiratory  failure , the breathing itself gives out:  Stridor an",
+   "figure": "TABLE 10-2",
+   "file": "figures/study/TABLE_10_2.png",
+   "native_file": "figures/TABLE_10_2.png",
+   "coverage": 0.077,
+   "page_dist": 0,
+   "matched_terms": [
+    "respiratory"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 23,
+   "text": "A patient does not respond to verbal stimuli, so you test the response to pain. Gently but firmly pinch or pre",
+   "figure": "FIGURE 10-9",
+   "file": "figures/study/FIGURE_10_9.jpg",
+   "native_file": "figures/FIGURE_10_9.jpg",
+   "coverage": 0.056,
+   "page_dist": 1,
+   "matched_terms": [
+    "bone"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  }
+ ],
+ "skipped": [],
+ "mode": "generous",
+ "judged": true,
+ "rejected": [
+  {
+   "card_index": 213,
+   "text": "The diameter and reactivity to light of a patient's pupils can reflect the status of the {{c1::brain::organ}} ",
+   "figure": "TABLE 10-8",
+   "file": "figures/study/TABLE_10_8.jpg",
+   "native_file": "figures/TABLE_10_8.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "brain"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "GCS is unmarked content; a GCS table on a pupil-reactivity card confuses and teaches beyond the marks"
+  },
+  {
+   "card_index": 18,
+   "text": "On the  AVPU  scale, an  awake and alert  patient differs from one merely  responsive to verbal stimuli  in th",
+   "figure": "FIGURE 10-8",
+   "file": "figures/study/FIGURE_10_8.jpg",
+   "native_file": "figures/FIGURE_10_8.jpg",
+   "coverage": 0.667,
+   "page_dist": 1,
+   "matched_terms": [
+    "approach",
+    "you"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "photo shows approach/first look, not responsiveness testing"
+  },
+  {
+   "card_index": 20,
+   "text": "A patient has not responded to verbal stimuli, so you apply a painful stimulus:  The patient moves or cries ou",
+   "figure": "TABLE 10-1",
+   "file": "figures/study/TABLE_10_1.png",
+   "native_file": "figures/TABLE_10_1.png",
+   "coverage": 0.667,
+   "page_dist": 1,
+   "matched_terms": [
+    "pain",
+    "unresponsive"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "spinal table on a painful-stimulus grading card \u2014 different subject"
+  },
+  {
+   "card_index": 5,
+   "text": "You notice an unsecured hammer on the nightstand beside your patient. Position yourself {{c1::between the pati",
+   "figure": "FIGURE 10-1",
+   "file": "figures/study/FIGURE_10_1.jpg",
+   "native_file": "figures/FIGURE_10_1.jpg",
+   "coverage": 0.5,
+   "page_dist": 2,
+   "matched_terms": [
+    "patient"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "terrain photo on a weapon-positioning card \u2014 incongruent"
+  },
+  {
+   "card_index": 124,
+   "text": "The purpose of the {{c1::secondary assessment::assessment phase}} is to perform {{c2::a systematic physical ex",
+   "figure": "SKILL DRILL 10-2",
+   "file": "figures/study/SKILL_DRILL_10_2.jpg",
+   "native_file": "figures/SKILL_DRILL_10_2.png",
+   "coverage": 0.4,
+   "page_dist": 2,
+   "matched_terms": [
+    "assessment",
+    "secondary"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "18-panel composite is thumbnail-illegible at study size; fails the full-quality bar \u2014 no plate beats a bad plate"
+  },
+  {
+   "card_index": 4,
+   "text": "During scene size-up, watch the ground for uneven or unstable surfaces, water, mud, and ice {{c1::before you s",
+   "figure": "FIGURE 10-1",
+   "file": "figures/study/FIGURE_10_1.jpg",
+   "native_file": "figures/FIGURE_10_1.jpg",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "out",
+    "you"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "same topic (terrain hazards) but depicts sled transport, not vehicle-exit footing \u2014 same-topic-different-subject"
+  },
+  {
+   "card_index": 70,
+   "text": "{{c1::High blood pressure::cardiovascular cause}} may make the skin abnormally flushed and red.",
+   "figure": "FIGURE 10-13",
+   "file": "figures/study/FIGURE_10_13.jpg",
+   "native_file": "figures/FIGURE_10_13.jpg",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "blood"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "cyanosis photo on a flushed/high-BP card \u2014 the WRONG color finding"
+  },
+  {
+   "card_index": 97,
+   "text": " Subcutaneous emphysema  is {{c1::air trapped under the skin, felt as crackling}}.",
+   "figure": "TABLE 10-3",
+   "file": "figures/study/TABLE_10_3.png",
+   "native_file": "figures/TABLE_10_3.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "skin",
+    "under"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "DCAP-BTLS table on a subcutaneous-emphysema definition \u2014 different subject"
+  },
+  {
+   "card_index": 101,
+   "text": "A 45-year-old reports  severe chest pain ; his ABCs are intact and he is fully alert. Transport priority? {{c1",
+   "figure": "FIGURE 10-15",
+   "file": "figures/study/FIGURE_10_15.jpg",
+   "native_file": "figures/FIGURE_10_15.jpg",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "transport"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "trauma extrication photo on a medical chest-pain priority vignette \u2014 mismatched specifics invite confusion"
+  },
+  {
+   "card_index": 157,
+   "text": "{{c1::Tidal volume::breathing measure}} is the amount of air moved into or out of the lungs during {{c2::one b",
+   "figure": "FIGURE 10-23",
+   "file": "figures/study/FIGURE_10_23.png",
+   "native_file": "figures/FIGURE_10_23.png",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "breath"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "tidal-volume definition card \u2014 the plate depicts auscultation sites, not volume"
+  },
+  {
+   "card_index": 167,
+   "text": "Once you determine that a pulse is  present , judge its  adequacy  by assessing pulse {{c1::rate}}, pulse {{c1",
+   "figure": "TABLE 10-6",
+   "file": "figures/study/TABLE_10_6.png",
+   "native_file": "figures/TABLE_10_6.png",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "rate"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "does not depict what this card is about"
+  },
+  {
+   "card_index": 231,
+   "text": "In the motor check of an injured limb (open and close a fist; wiggle the toes and move the foot up and down), ",
+   "figure": "FIGURE 10-27",
+   "file": "figures/study/FIGURE_10_27.jpg",
+   "native_file": "figures/FIGURE_10_27.jpg",
+   "coverage": 0.333,
+   "page_dist": 2,
+   "matched_terms": [
+    "pain"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "head palpation photo on a limb motor-check card \u2014 page adjacency only"
+  },
+  {
+   "card_index": 17,
+   "text": "The  AVPU  scale grades a patient's gross level of consciousness by responsiveness, at one of four levels:  {{",
+   "figure": "TABLE 10-1",
+   "file": "figures/study/TABLE_10_1.png",
+   "native_file": "figures/TABLE_10_1.png",
+   "coverage": 0.286,
+   "page_dist": 2,
+   "matched_terms": [
+    "pain",
+    "unresponsive"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "spinal table on the AVPU scale card \u2014 different subject"
+  },
+  {
+   "card_index": 110,
+   "text": "In EMS assessment,  pertinent negatives  are {{c1::expected findings the patient does NOT have}}.",
+   "figure": "FIGURE 10-19",
+   "file": "figures/study/FIGURE_10_19.jpg",
+   "native_file": "figures/FIGURE_10_19.jpg",
+   "coverage": 0.25,
+   "page_dist": 2,
+   "matched_terms": [
+    "patient"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "an interview photo depicts nothing about absent findings"
+  },
+  {
+   "card_index": 248,
+   "text": "During a winter power outage, two adults are found barely responsive in a home where a charcoal grill has been",
+   "figure": "FIGURE 10-36",
+   "file": "figures/study/FIGURE_10_36.jpg",
+   "native_file": "figures/FIGURE_10_36.jpg",
+   "coverage": 0.25,
+   "page_dist": 0,
+   "matched_terms": [
+    "oxygen"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "the display's visible 93% contradicts the vignette's 'normal reading' premise \u2014 a why-is-that-there moment"
+  },
+  {
+   "card_index": 166,
+   "text": "A patient's chief complaint is located in the  chest  \u2014 carefully reevaluate the:  {{c1::pulse rate}}  {{c1::s",
+   "figure": "TABLE 10-6",
+   "file": "figures/study/TABLE_10_6.png",
+   "native_file": "figures/TABLE_10_6.png",
+   "coverage": 0.222,
+   "page_dist": 1,
+   "matched_terms": [
+    "pulse",
+    "rate"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "does not depict what this card is about"
+  },
+  {
+   "card_index": 156,
+   "text": "Coughing up  pink, frothy  sputum points to one of two causes: {{c1::a chest injury}} or {{c1::congestive hear",
+   "figure": "FIGURE 10-23",
+   "file": "figures/study/FIGURE_10_23.png",
+   "native_file": "figures/FIGURE_10_23.png",
+   "coverage": 0.2,
+   "page_dist": 1,
+   "matched_terms": [
+    "chest"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "lung-zone/stethoscope plate on a sputum-color card \u2014 different subject"
+  },
+  {
+   "card_index": 100,
+   "text": "Eight conditions make a patient  high priority  \u2014 transport immediately. The other four, beyond consciousness ",
+   "figure": "TABLE 10-3",
+   "file": "figures/study/TABLE_10_3.png",
+   "native_file": "figures/TABLE_10_3.png",
+   "coverage": 0.167,
+   "page_dist": 2,
+   "matched_terms": [
+    "body",
+    "skin"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "DCAP-BTLS mnemonic table on the high-priority-conditions card \u2014 different subject"
+  },
+  {
+   "card_index": 107,
+   "text": "Two responders arrive at a scene with bystanders. To gather history without delaying care, one {{c1::questions",
+   "figure": "FIGURE 10-17",
+   "file": "figures/study/FIGURE_10_17.jpg",
+   "native_file": "figures/FIGURE_10_17.jpg",
+   "coverage": 0.167,
+   "page_dist": 2,
+   "matched_terms": [
+    "patient"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "shows a crew with patient+family, not the one-questions-bystanders-while-other-assesses split"
+  },
+  {
+   "card_index": 92,
+   "text": "Rapid exam, the  back and buttocks  \u2014 in all trauma patients, roll the patient onto the side while maintaining",
+   "figure": "FIGURE 10-15",
+   "file": "figures/study/FIGURE_10_15.jpg",
+   "native_file": "figures/FIGURE_10_15.jpg",
+   "coverage": 0.143,
+   "page_dist": 1,
+   "matched_terms": [
+    "transport"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "extrication photo, card is the log-roll back exam \u2014 different subject"
+  },
+  {
+   "card_index": 24,
+   "text": "Once the LOC is graded, for a patient who is {{c3::alert or responsive to verbal stimuli::which AVPU grades}} ",
+   "figure": "FIGURE 10-9",
+   "file": "figures/study/FIGURE_10_9.jpg",
+   "native_file": "figures/FIGURE_10_9.jpg",
+   "coverage": 0.125,
+   "page_dist": 1,
+   "matched_terms": [
+    "stimuli"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "depicts painful stimuli on an unresponsive patient \u2014 the opposite population from the orientation-eligibility card"
+  },
+  {
+   "card_index": 15,
+   "text": "Uncontrolled external bleeding is suggested by a large amount of blood that:  is {{c1::squirting or gushing}} ",
+   "figure": "FIGURE 10-8",
+   "file": "figures/study/FIGURE_10_8.jpg",
+   "native_file": "figures/FIGURE_10_8.jpg",
+   "coverage": 0.111,
+   "page_dist": 0,
+   "matched_terms": [
+    "patient"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "no bleeding anywhere in frame"
+  }
+ ]
+}

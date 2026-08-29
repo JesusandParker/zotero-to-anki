@@ -41,6 +41,11 @@ CREDIT_MUST_MATCH = [
     ("panel-letter credit", "A, C:  © Photodisc;  B:  © Photodisc/Thinkstock."),
     ("source line", "Source: National Highway Traffic Safety Administration."),
     ("adapted line", "Modified from the American Heart Association guidelines."),
+    ("data-adapted line (EMT TABLE 10-7, missed 2026-08-29)",
+     "Data adapted from Pediatric Advanced Life Support, 2015, American Heart "
+     "Association; and National Model EMS Clinical Guidelines, v2.2, 2019, NASEMSO."),
+    ("panel letters with periods (EMT FIGURE 10-23, missed 2026-08-29)",
+     "A., B., C: © Jones & Bartlett Learning."),
 ]
 CREDIT_MUST_NOT_MATCH = [
     ("ordinary body prose", "Communicating With Visually Impaired Patients Like patients "
@@ -67,6 +72,41 @@ def r15():
 
 
 case("R15", "credit-line detection: photo credits count, prose does not", r15)
+
+
+def r60():
+    """A credit's wrapped tail blocks extend the render bottom; a following paragraph
+    does not. Three hand-caught clipped credits on 2026-08-29 (TABLE 10-1/10-6, and the
+    FIGURE 10-23 'Description' stub that must NOT be absorbed as if it were a tail)."""
+    bad = []
+    # blocks: (text, bbox) with bbox = (x0, y0, x1, y1)
+    credit_bottom = 100.0
+    bl = [
+        ("Data from Pediatric Advanced Life Support, 2015, American Heart Association, Dallas,",
+         (0, 80, 500, credit_bottom)),
+        ("TX.", (240, 104, 260, 112)),          # wrap tail, 4pt below -> absorb
+        ("Description", (0, 118, 80, 126)),     # accessibility stub: short AND close, must STOP
+    ]
+    got = B.absorb_wrap_tails(bl, 0, credit_bottom)
+    if got != 112:
+        bad.append(f"tail absorption stopped at {got}, expected 112 (TX. absorbed, Description refused)")
+    bl2 = [
+        ("Adapted from National Association of Emergency Medical Technicians, American",
+         (0, 80, 500, 100.0)),
+        ("College of Surgeons. PHTLS: Prehospital Trauma Life Support. 9th ed. Burlington, MA:",
+         (0, 104, 500, 112)),
+        ("Jones & Bartlett Learning; 2019:298-301.", (120, 116, 380, 124)),
+        ("Identify and Treat Life Threats Your role as an EMT is to determine if a life "
+         "threat is present and, if so, to quickly address it in the order found.",
+         (0, 128, 500, 220)),                                # a real paragraph: too long -> stop
+    ]
+    got2 = B.absorb_wrap_tails(bl2, 0, 100.0)
+    if got2 != 124:
+        bad.append(f"two-line wrap absorption stopped at {got2}, expected 124")
+    return bad
+
+
+case("R60", "a credit's wrapped tail lines extend the table render; paragraphs do not", r60)
 
 
 # ---------------------------------------------------------------- R16: stale-cache art

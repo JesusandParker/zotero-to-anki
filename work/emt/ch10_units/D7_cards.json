@@ -1,0 +1,223 @@
+[
+  {
+    "Text": "During history taking, a {{c1::symptom::sign or symptom}} is a problem or feeling the patient reports that others cannot feel or observe, while a {{c1::sign::sign or symptom}} is an objective condition that can be seen, heard, felt, smelled, or measured.",
+    "Back Extra": "Ex: a patient saying he feels \"weak\" is giving you a symptom; visible bleeding or a measured blood pressure is a sign.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      91
+    ],
+    "block": "T_history_signs",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "To explore the history of present illness — pain or any other symptom — the <b>OPQRST</b> questions cover:<br><br>{{c1::Onset::O}}<br><br>{{c1::Provocation/palliation::P}}<br><br>{{c1::Quality::Q}}<br><br>{{c1::Region/radiation::R}}<br><br>{{c1::Severity::S}}<br><br>{{c1::Timing::T}}",
+    "Back Extra": "Mnemonic: <b>O</b>nset — what were you doing when it began? <b>P</b>rovocation/palliation — does anything make it better or worse; how are you most comfortable? <b>Q</b>uality — sharp, dull, crushing, tearing; does it come in waves? <b>R</b>egion/radiation — where is it; does it move anywhere? <b>S</b>everity — rate it on a 0-to-10 scale. <b>T</b>iming — how long have you had it; when did it start?<br><br>Cue: OPQRST is easiest for pain but adapts to dizziness, nausea, or shortness of breath.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      92
+    ],
+    "block": "U_opqrst",
+    "numeric": true,
+    "verified_against": "p987, p988",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "987",
+        "988"
+      ],
+      "note": "PARTIAL-grounded mark spans pages; all six elements, exact AAOS wording, and the 0-to-10 severity scale read from renders"
+    }
+  },
+  {
+    "Text": "Your chest-pain patient says the pain eases when he sits up and leans forward — a detail that answers the {{c1::Provocation/palliation::OPQRST element}} element of <b>OPQRST</b>.",
+    "Back Extra": "Cue: anything that makes the symptom better or worse — including the position the patient is most comfortable in — answers P.<br><br>Distinguish: where the symptom is and whether it moves is Region/radiation, not P.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      92
+    ],
+    "block": "U_opqrst",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "A <b>SAMPLE</b> history gathers six kinds of information from the patient:<br><br>{{c1::Signs and symptoms::S}}<br><br>{{c1::Allergies::A}}<br><br>{{c1::Medications::M}}<br><br>{{c1::Pertinent past medical history::P}}<br><br>{{c1::Last oral intake::L}}<br><br>{{c1::Events leading up to the injury or illness::E}}",
+    "Back Extra": "Mnemonic: <b>S</b>igns and symptoms at the onset of the incident. <b>A</b>llergies — medication, food, or other substances, and the reactions; if none, chart \"No known allergies.\" <b>M</b>edications — what is prescribed, at what dose and frequency; prescription, over-the-counter, and herbal taken in the last 12 hours; prescribed but not taken; recreational drugs. <b>P</b>ertinent past medical, surgical, or trauma history, plus important family history. <b>L</b>ast oral intake — when and what. <b>E</b>vents leading up — what led to the incident, and what happened between onset and your arrival.<br><br>Distinguish: OPQRST digs into the present symptom itself; SAMPLE frames the patient's whole history.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      94
+    ],
+    "block": "V_sample",
+    "numeric": true,
+    "verified_against": "p988, p989",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "988",
+        "989"
+      ],
+      "note": "PARTIAL-grounded mark spans pages; all six components, exact AAOS wording (P = Pertinent past medical history), and the 12-hour medication window read from renders"
+    }
+  },
+  {
+    "Text": "In a woman of childbearing age, the <b>L</b> in a SAMPLE history stands for last oral intake <i>and also</i> {{c1::last menstrual period}}.",
+    "Back Extra": "Pitfall: the second meaning adds a question — she is still asked about food and drink; the menstrual question comes on top of it.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      94
+    ],
+    "block": "V_sample",
+    "numeric": false,
+    "verified_against": "p989",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "You should consider <b>all</b> women of {{c1::childbearing years::age group}} who report {{c1::lower abdominal pain::complaint}} to be {{c2::pregnant::working assumption}} unless ruled out by history or other information.",
+    "Back Extra": "Pitfall: the follow-up questions touch her sexual history — never be judgmental, and everything gathered stays confidential except what treating her requires.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      96
+    ],
+    "block": "W_gyn_history",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": "agent; husk warning cleared: 'pregnant until ruled out by history' stays visible and anchors both c1 spans — they are the rule's single trigger scope, recalled as one unit (card-rules #17 litmus: remainder is substantive, not scaffolding)",
+    "visual_source": null
+  },
+  {
+    "Text": "A young adult woman reports cramping lower abdominal pain. Until history or other information rules it out, you work from the assumption that she is {{c1::pregnant}}.",
+    "Back Extra": "Cue: childbearing years plus lower abdominal pain is the trigger pair — only history or other information can take the assumption away.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      96
+    ],
+    "block": "W_gyn_history",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "For a woman of childbearing years with lower abdominal pain, the <i>pregnancy-status</i> questions to ask cover:<br><br>her {{c1::last menstrual period}}<br><br>whether she {{c1::may be pregnant}}<br><br>any use of {{c1::birth control}}",
+    "Back Extra": "Cue: asked plainly — \"When was your last menstrual period?\" \"Is there a possibility you may be pregnant?\" \"Are you using any form of birth control?\"<br><br>Roster: the six questions for this scenario — <b>last menstrual period</b> · pads or tampons used, if bleeding · urinary frequency or burning · cramping severity and foul odors · <b>possibility of pregnancy</b> · <b>birth control</b>",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      97,
+      98
+    ],
+    "block": "W_gyn_history",
+    "numeric": false,
+    "verified_against": "p994, p995",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "994",
+        "995"
+      ],
+      "note": "question set spans the page break; full list of six verified on renders"
+    }
+  },
+  {
+    "Text": "For a woman of childbearing years with lower abdominal pain, the <i>symptom</i> questions to ask cover:<br><br><i>if she is bleeding</i> — how many {{c1::sanitary pads or tampons}} she has used<br><br>any {{c1::urinary frequency or burning}}<br><br>the severity of her {{c1::cramping}}, and any {{c1::foul odors}}",
+    "Back Extra": "Cue: the pad-or-tampon count applies only <i>if she is bleeding</i>; the other questions are asked in every case.<br><br>Roster: the six questions for this scenario — last menstrual period · <b>pads or tampons used, if bleeding</b> · <b>urinary frequency or burning</b> · <b>cramping severity and foul odors</b> · possibility of pregnancy · birth control",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      97
+    ],
+    "block": "W_gyn_history",
+    "numeric": false,
+    "verified_against": "p994, p995",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "994",
+        "995"
+      ],
+      "note": "question set spans the page break; full list of six verified on renders"
+    }
+  },
+  {
+    "Text": "When taking a <b>male</b> patient's history, you must inquire about urinary symptoms — the four questions cover:<br><br>{{c1::pain}} associated with urination<br><br>any {{c1::discharge, sores, or an increase in urination}}<br><br>{{c1::burning or difficulty voiding}}<br><br>whether there has been any {{c1::trauma}}",
+    "Back Extra": "Distinguish: the female lower-abdominal-pain set asks about urinary <i>frequency</i> or burning; the male set asks about burning or difficulty <i>voiding</i>.<br><br>Cue: when the presenting symptoms make it appropriate, also ask about the potential for sexually transmitted diseases.<br><br>Pitfall: never be judgmental about what you learn — sexual-history information is strictly confidential beyond what treatment requires.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      99
+    ],
+    "block": "X_male_talk_silence",
+    "numeric": false,
+    "verified_against": "p995",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "When a patient stays <b>silent</b> during history taking, consider whether the silence is itself a clue to the {{c1::chief complaint}}.",
+    "Back Extra": "Cue: a closed-ended question needing a simple yes or no may work best with a silent patient.<br><br>Ex: hunt for nonverbal clues — facial expressions showing pain or fear, how the patient sits or stands, or signs of a communication or language problem.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      100
+    ],
+    "block": "X_male_talk_silence",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "Some patients are <b>overly talkative</b>; possible causes include:<br><br>excessive {{c1::caffeine}} consumption<br><br>{{c1::nervousness}}<br><br>ingestion of {{c1::cocaine or methamphetamines}}<br><br>an underlying {{c1::psychological}} issue",
+    "Back Extra": "Cue: after letting the patient express himself or herself, refocus — have the patient stick to the facts and clarify statements; there is no such thing as too much information.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      101
+    ],
+    "block": "X_male_talk_silence",
+    "numeric": false,
+    "verified_against": "p996",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "Stroke, diabetes, trauma, medications, and other drugs can all alter the history a patient reports — but one of the <b>most common</b> causes of confusion is {{c1::hypoxia}}.",
+    "Back Extra": "Pitfall: never assume an older patient's confusion is dementia, delirium, or Alzheimer disease — confused behavior is not a normal response, so verify the patient's normal mental status.<br><br>Cue: once life threats are treated, ask about the chief complaint again, or ask someone close to the patient.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      104
+    ],
+    "block": "Y_confusion",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": null,
+    "visual_source": null
+  },
+  {
+    "Text": "A patient who was alert this morning now gives you a confused, contradictory history, and his blood glucose reads normal. One of the most common causes of confusion should make you check his {{c1::oxygenation::what to assess}}.",
+    "Back Extra": "Why: hypoxia is one of the most common causes of confusion, so a newly muddled history may be the brain running short of oxygen.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      104
+    ],
+    "block": "Y_confusion",
+    "numeric": false,
+    "verified_against": null,
+    "verified_by": "agent; R13 warning cleared: 'oxygenation' is the action-form paraphrase of the marked cause (hypoxia = too little oxygen) — the assessment implication the unit brief names as the auto-pair",
+    "visual_source": null
+  }
+]

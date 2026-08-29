@@ -1,0 +1,60 @@
+[
+ {
+  "index": 20,
+  "card": {
+   "Text": "A patient has not responded to verbal stimuli, so you apply a painful stimulus:<br><br>The patient moves or cries out → graded {{c1::P (responsive to pain)::AVPU grade}}<br><br>The patient stays flaccid, with no movement or sound → graded {{c1::U (unresponsive)::AVPU grade}}",
+   "Back Extra": "Pitfall: some painful-stimulus methods may not give an accurate result if a spinal cord injury is present.<br><br>Cue: record the type and location of the stimulus and how the patient responded — moaning or withdrawing from the pain already counts as responding.",
+   "source": "emt",
+   "segment": 10,
+   "from_idx": [
+    15,
+    16,
+    18
+   ],
+   "block": "E_avpu",
+   "numeric": false,
+   "verified_against": "p946/p948/p949",
+   "verified_by": "agent; husk_groups cleared: classify rows — each hidden grade is forced by its own visible response description after failed verbal stimuli (moves/cries out vs flaccid, no movement or sound); judge_A: flipped to the classify direction (behavior → AVPU grade) per card-rules #3/#20 — the prior form's visible '(responsive to pain)'/'(unresponsive)' parentheticals let a non-knower decode the hidden response descriptions; 'moans or withdraws' cue verified verbatim on the p949 render",
+   "visual_source": null,
+   "needs_human_check": false
+  }
+ },
+ {
+  "index": 23,
+  "card": {
+   "Text": "A patient does not respond to verbal stimuli, so you test the response to pain. Gently but firmly pinch or press at the three best sites, or use one further pressure technique:<br><br>{{c1::sternum::site}}<br><br>{{c1::posterior edge of the mandible (lower jaw)::site}}<br><br>{{c1::trapezius area (the muscle above the collar bone)::site}}<br><br>{{c1::upward pressure along the orbital rim (underside of the eyebrow)::technique}}",
+   "Back Extra": "Why: the point is not to cause as much pain as possible, but to see whether the patient responds to or withdraws from the sensation.<br><br>Pitfall: with the orbital-rim technique, apply no pressure to the eyeball.",
+   "source": "emt",
+   "segment": 10,
+   "from_idx": [
+    18
+   ],
+   "block": "F_painful_stimuli",
+   "numeric": true,
+   "verified_against": "p949",
+   "verified_by": "agent; judge_A: trimmed lead-in and the orbital-rim row to bring the note under the 60-word hard max (card-rules A6; was 67 words) — all wording re-verified against the p949 render ('apply upward pressure along the ridge of the orbital rim along the underside of the eyebrow')",
+   "visual_source": null,
+   "needs_human_check": false
+  }
+ },
+ {
+  "index": 72,
+  "card": {
+   "Text": "The {{c1::sclera::eye part}} is the {{c2::normally white portion of the eye}}, and it may show color changes {{c3::before::before or after}} the skin does.",
+   "Back Extra": "Cue: in jaundice both the skin and sclera turn yellow — and the eye often flags it first.<br><br>Distinguish: the conjunctiva is the delicate membrane lining the eyelids and covering the eye's exposed surface — a separate structure from the white sclera behind it.<br><br>Parts: scler- (hard) — the eye's tough shell; same root as sclerosis.",
+   "source": "emt",
+   "segment": 10,
+   "from_idx": [
+    56,
+    57,
+    58
+   ],
+   "block": "N_skin_color",
+   "numeric": false,
+   "verified_against": "p966",
+   "verified_by": "agent; judge_A: removed the Formal: line — Formal is licensed on lexicon cards only (note-format.md) and re-defining the term in Back Extra violates card-rules Layer A #5 on a definition card; purple mark 58 (sclera) is deliberately served by this yellow fold-in (cites yellow 56/57 + purple 58 — lexicon_check's sanctioned fold-in shape); surfaced at hand-off: 'scler' therefore never enters the lexicon ledger",
+   "visual_source": null,
+   "needs_human_check": false
+  }
+ }
+]

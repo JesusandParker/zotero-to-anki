@@ -134,9 +134,9 @@ Chapter 6 is illustrations, credited `© Jones & Bartlett Learning.` Chapter 4 i
 
 The obvious fix then caused a second regression. The looser wordings need a length guard so a sentence of prose cannot pose as a credit — but applying that guard to the `©` tier **dropped FIGURE 4-4**, because the extractor welds the credit onto the following paragraph (EMT p370 returns a 643-character block beginning `© Jones & Bartlett Learning. 7. Always speak slowly…`). Hence two tiers: a block **opening** with `©` is a credit at any length; the ambiguous forms are capped at 200 characters.
 
-- **MUST CATCH:** `© Jones & Bartlett Learning.` · the same welded to 600+ characters of body text · `Courtesy of…` · `Source:…` · `Modified from…` · panel-letter credits (`A, C: © Photodisc; B: …`).
+- **MUST CATCH:** `© Jones & Bartlett Learning.` · the same welded to 600+ characters of body text · `Courtesy of…` · `Source:…` · `Modified from…` · panel-letter credits (`A, C: © Photodisc; B: …`) · **`Data adapted from …` (one word between head and preposition — EMT TABLE 10-7 vanished from the index on 2026-08-29 because its caption was never corroborated)** · **panel letters with periods (`A., B., C: © …` — EMT FIGURE 10-23, same day, same silent vanish)**.
 - **MUST NOT OVER-FLAG:** ordinary body prose · a long sentence that merely begins with the word *"Courtesy"* · a caption line itself.
-- **Catch test (both ways):** in `test_figures.py`, 7 credit forms must match and 4 non-credits must not.
+- **Catch test (both ways):** in `test_figures.py`, 9 credit forms must match and 4 non-credits must not.
 
 ## R16 — A cached image adopted by a caption that has no art
 **Rule:** no art located means no index record — never fall back to whatever file already sits at that name. **Caught by:** `build_figure_index.save_art()` checking art *before* the cache.
@@ -771,3 +771,23 @@ would then show `ب` and `b` together and never test reading the letter.
   glyph); a letter note that dropped the transliteration line entirely.
 - **MUST NOT OVER-FLAG:** the correct shape — `{{c1::<glyph>}}` with
   `Transliteration: {{c2::<symbol>}}` — and vocab cards, which keep translit in Back Extra.
+
+
+## R60 — A credit's wrapped tail is part of the credit; the Description stub is not
+**Rule:** when `text_table_render` (or any caption-to-credit clip) stops at the credit
+block that `is_credit()` matched, it must also absorb the credit's own WRAPPED tail
+blocks — a short fragment starting within ~16pt ("TX." under TABLE 10-6; "Jones &
+Bartlett Learning; 2019:298-301." under TABLE 10-1) — or the shipped plate cuts its
+credit mid-glyph, which Parker's full-quality bar forbids. The absorption must REFUSE
+the publisher's accessibility `Description` stub, which also sits right under credits
+and is short: absorbing it re-creates the page-text bleed that was hand-trimmed off
+FIGURE 10-23 the same day. **Caught by:** `build_figure_index.absorb_wrap_tails()`.
+
+*Found 2026-08-29, three times in one chapter, while hand-building the Chapter 10 table
+plates the credit-pattern gaps (R15's new cases) had dropped from the index.*
+
+- **MUST CATCH:** a one-line tail (`TX.`) 4pt below the credit; a two-line wrap
+  (`College of Surgeons. PHTLS…` + `Jones & Bartlett Learning; 2019:298-301.`).
+- **MUST NOT OVER-FLAG:** the `Description` stub (short AND close — still refused);
+  a following body paragraph (fails the length cap).
+- **Catch test (both ways):** `test_figures.py` case R60.

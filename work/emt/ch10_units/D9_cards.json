@@ -1,0 +1,307 @@
+[
+  {
+    "Text": "While counting respirations you also note the rhythm: when the timing between peak chest rises varies or the rate changes frequently, document the respirations as {{c1::irregular::regular or irregular}}.",
+    "Back Extra": "Distinguish: fairly consistent time from one peak chest rise to the next = regular respirations.<br><br>Cue: rhythm is judged while you count the rate, and regular vs irregular goes into the vital-signs documentation.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      120
+    ],
+    "block": "AC_resp_rhythm",
+    "numeric": false,
+    "verified_against": "p1028",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "Through a stethoscope, <b>normal</b> breath sounds are just air moving through the bronchi with a soft, {{c1::low::high or low}}-pitched murmur — clear, relatively quiet, and flowing freely in both inspiration and expiration.",
+    "Back Extra": "Cue: normal breathing is almost silent — in a quiet room you may hear only air movement at the mouth and nose.<br><br>Pitfall: breathing accompanied by any added sound points to a significant respiratory problem.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      121,
+      135
+    ],
+    "block": "AD_breath_sounds",
+    "numeric": false,
+    "verified_against": "p1028",
+    "verified_by": "agent; editor: 'free' -> 'flowing freely' (source: air moving freely)",
+    "visual_source": null
+  },
+  {
+    "Text": "A <b>snoring</b> breath sound signals a simple but potentially dangerous upper airway obstruction — usually caused by the {{c1::tongue::structure}} (or a foreign body).",
+    "Back Extra": "Cue: snoring is an upper airway sound — no stethoscope is needed to hear it.<br><br>Distinguish: stridor is the other upper airway obstruction sound — harsh, brassy crowing from a foreign body or swelling, not the tongue.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      122,
+      135
+    ],
+    "block": "AD_breath_sounds",
+    "numeric": false,
+    "verified_against": "p1028",
+    "verified_by": "agent; parenthetical-after-cloze cleared: '(or a foreign body)' is the alternate cause from idx 135, not a definition or paraphrase of the hidden answer",
+    "visual_source": null
+  },
+  {
+    "Text": "{{c1::Stridor::breath sound}} is a harsh, brassy, high-pitched <b>crowing</b> sound, most prominent on {{c2::inspiration::inspiration or expiration}}, from a partial obstruction of the {{c3::upper::upper or lower}} airway (foreign body or swelling).",
+    "Back Extra": "Cue: often heard before you even place a stethoscope — the obstruction sits in the neck or upper part of the chest.<br><br>Distinguish: wheezing is the lower-airway counterpart — a whistling sound most prominent on expiration.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      123,
+      135
+    ],
+    "block": "AD_breath_sounds",
+    "numeric": false,
+    "verified_against": "p1031",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "An adult with facial and neck swelling after a bee sting makes a harsh, brassy crowing sound each time she inhales. Name the sound and the level of the obstruction: {{c1::stridor::sound}}, from a partial {{c1::upper::upper or lower}} airway obstruction.",
+    "Back Extra": "Cue: crowing on inspiration plus a swelling mechanism at the neck or upper chest = stridor, not wheezing.<br><br>Pitfall: stridor is often audible before you even place a stethoscope — the presence of any abnormal breath sound already means an airway or breathing problem exists.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      123,
+      135
+    ],
+    "block": "AD_breath_sounds",
+    "numeric": false,
+    "verified_against": "p1031",
+    "verified_by": "agent; editor: Cue location matched to source (neck or upper part of the chest); Pitfall's unsupported 'do not wait to act' replaced with the source's own p1029 claim (any abnormal sound = airway/breathing problem exists)",
+    "visual_source": null
+  },
+  {
+    "Text": "<b>Bubbling or gurgling</b> breath sounds mean there is fluid in the {{c1::upper airway::where}}, potentially impeding the exchange of gases.",
+    "Back Extra": "Why: suction the airway to clear it — this also reduces the risk of aspirating the fluid into the lungs.<br><br>Distinguish: crackles signal fluid deeper in the lungs (alveoli popping open), not pooled in the upper airway.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      124
+    ],
+    "block": "AD_breath_sounds",
+    "numeric": false,
+    "verified_against": "p1028",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "A choking restaurant patron goes silent — no cough, no speech, and you hear no breath sounds at all: he may be moving no air whatsoever. Your immediate priority: {{c1::clear the airway obstruction::action}}.",
+    "Back Extra": "Why: with a complete airway obstruction no air moves, so the patient can no longer cough or talk.<br><br>Pitfall: do not mistake total silence for quiet normal breathing — no sound may mean no air moving at all.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      125
+    ],
+    "block": "AD_breath_sounds",
+    "numeric": false,
+    "verified_against": "p1029",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "{{c1::Wheezing::breath sound}} is a high-pitched <b>whistling</b> sound, most prominent on {{c2::expiration::inspiration or expiration}}, from obstruction or narrowing of the {{c3::lower::upper or lower}} airways.",
+    "Back Extra": "Cue: typically heard through auscultation (unlike stridor, which is often audible bare-eared) — and it points to a milder, lower-airway obstruction.<br><br>Distinguish: stridor = upper airway, brassy crowing, worst on inspiration.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      135,
+      125
+    ],
+    "block": "AD_breath_sounds",
+    "numeric": false,
+    "verified_against": "p1031",
+    "verified_by": "agent; editor: dropped unsupported 'only' (source: 'typically heard through auscultation')",
+    "visual_source": null
+  },
+  {
+    "Text": "{{c1::Crackles::breath sound}} are <b>wet</b> breath sounds like Rice Krispies added to milk — usually heard on both inspiration and expiration — that may indicate {{c2::fluid in the lungs::what, and where}}.",
+    "Back Extra": "Why: the crackling sound is made as the alveoli are popped open.<br><br>Distinguish: bubbling or gurgling is fluid up in the airway passages; crackles are fluid down at the alveoli.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      135,
+      124
+    ],
+    "block": "AD_breath_sounds",
+    "numeric": false,
+    "verified_against": "p1031",
+    "verified_by": "agent; editor: REWRITE — visible 'crackling' was a root-echo of the c1 answer 'Crackles' (rule 3 leak: a non-knower decodes the name from its own lexeme); the Rice Krispies simile (135 verbatim) moved to the front as the cue, 'crackling' now appears only on the back",
+    "visual_source": null
+  },
+  {
+    "Text": "{{c1::Rhonchi::breath sound}} are {{c2::low::high or low}}-pitched, congested breath sounds — like blowing bubbles under water, most prominent on expiration — suggesting mucus or fluid in the lungs, often with a productive cough.",
+    "Back Extra": "Distinguish: wheezing is a high-pitched whistle from narrowed lower airways; crackles are wet cracklings of fluid at the alveoli — rhonchi are the low, congested ones, from mucus.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      135
+    ],
+    "block": "AD_breath_sounds",
+    "numeric": false,
+    "verified_against": "p1031",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "A patient who coughs up thick, <b>yellow or green</b> {{c2::sputum::term}} (matter from the lungs) most likely has {{c1::a respiratory infection::diagnosis}}.",
+    "Back Extra": "Distinguish: pink, frothy sputum points instead to a chest injury or congestive heart failure — an urgent cardiovascular-respiratory picture.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      126
+    ],
+    "block": "AE_sputum",
+    "numeric": false,
+    "verified_against": "p1029",
+    "verified_by": "agent; parenthetical-after-cloze cleared: '(matter from the lungs)' is the visible meaning cueing the describe-to-name direction of a definition — the licensed shape, not a leak (card-rules #3 precision); editor: spelled out CHF",
+    "visual_source": null
+  },
+  {
+    "Text": "Coughing up <b>pink, frothy</b> sputum points to one of two causes: {{c1::a chest injury}} or {{c1::congestive heart failure}}.",
+    "Back Extra": "Why: with a chest injury, blood and fluid mix with air in the lungs — that patient may cough up frank blood or frothy white sputum too.<br><br>Pitfall: either cause means an urgent, potentially critical problem — anticipate oxygenation, ventilation, and rapid deterioration.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      127,
+      128
+    ],
+    "block": "AE_sputum",
+    "numeric": false,
+    "verified_against": "p1029",
+    "verified_by": "agent; editor: 'and' -> 'or' ('one of two causes' + 'and' read incoherently; both members still hide together under c1)",
+    "visual_source": null
+  },
+  {
+    "Text": "{{c1::Tidal volume::breathing measure}} is the amount of air moved into or out of the lungs during {{c2::one breath}}.",
+    "Back Extra": "Cue: the depth of the breath is what determines whether tidal volume is normal, decreased, or increased.<br><br>Why: total air exchange depends on both the respiratory rate and the tidal volume.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      129
+    ],
+    "block": "AF_tidal_volume",
+    "numeric": false,
+    "verified_against": "p1029",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "You can almost always hear breath sounds better from the patient's {{c1::back::front or back}} — auscultate there whenever it is accessible.",
+    "Back Extra": "Cue: back not reachable → listen from the front and sides instead.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      130
+    ],
+    "block": "AG_auscultation_technique",
+    "numeric": false,
+    "verified_against": "p1029",
+    "verified_by": "agent",
+    "visual_source": null
+  },
+  {
+    "Text": "To auscultate the upper lung fields (the {{c1::apices::term}}), place the stethoscope about {{c2::1 inch (2.5 cm)}} below the clavicle, at the {{c2::midclavicular}} line.",
+    "Back Extra": "Pitfall: lift or go under clothing — over fabric you mostly hear the stethoscope sliding.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      132
+    ],
+    "block": "AG_auscultation_technique",
+    "numeric": true,
+    "verified_against": "p1030",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "1030"
+      ],
+      "note": "landmark distance and line verified verbatim on render"
+    },
+    "needs_table_back": "FIGURE 10-23"
+  },
+  {
+    "Text": "To auscultate the <b>midlung</b> fields, listen at the {{c1::third or fourth}} intercostal space, from the patient's {{c1::posterior::anterior or posterior}}.",
+    "Back Extra": "Cue: the midlung field is the one auscultated from the back — where breath sounds are better heard anyway.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      132
+    ],
+    "block": "AG_auscultation_technique",
+    "numeric": true,
+    "verified_against": "p1030",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "1030"
+      ],
+      "note": "intercostal-space numbers verified verbatim on render"
+    },
+    "needs_table_back": "FIGURE 10-23"
+  },
+  {
+    "Text": "To auscultate the lower lung fields (the {{c1::bases::term}}), listen at the {{c2::sixth}} intercostal space, at the {{c2::midaxillary}} line.",
+    "Back Extra": "Cue: listen on both sides of the chest at each location and compare left with right.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      132
+    ],
+    "block": "AG_auscultation_technique",
+    "numeric": true,
+    "verified_against": "p1030",
+    "verified_by": "agent",
+    "visual_source": {
+      "pages": [
+        "1030"
+      ],
+      "note": "intercostal-space number and line verified verbatim on render"
+    },
+    "needs_table_back": "FIGURE 10-23"
+  },
+  {
+    "Text": "Place the {{c1::diaphragm::part of the stethoscope}} of the stethoscope firmly against {{c2::the skin::against skin or over clothing}} to hear breath sounds.",
+    "Back Extra": "Why: lift the clothing or slide the stethoscope under it — listening over clothing, you mainly hear the stethoscope sliding on the fabric while the breath sounds are muted.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      133,
+      134
+    ],
+    "block": "AG_auscultation_technique",
+    "numeric": false,
+    "verified_against": "p1031",
+    "verified_by": "agent; editor: c2 tightened to the crisp kernel 'the skin' (rule 5); the lift-or-slide method moved into the Why line (still 133's wording)",
+    "visual_source": {
+      "pages": [
+        "1030",
+        "1031"
+      ],
+      "note": "PARTIAL-grounded mark 133 read in full across both renders; sentence confirmed verbatim"
+    }
+  },
+  {
+    "Text": "The quality (character) of a patient's respirations can be described in one of four ways:<br><br>{{c1::Normal}}<br><br>{{c1::Shallow}}<br><br>{{c1::Labored}}<br><br>{{c1::Noisy}}",
+    "Back Extra": "Cue: judge the character while you count the rate — by ear, or better, by auscultating with a stethoscope.",
+    "source": "emt",
+    "segment": 10,
+    "from_idx": [
+      136,
+      135
+    ],
+    "block": "AH_resp_character",
+    "numeric": false,
+    "verified_against": "p1032",
+    "verified_by": "agent; editor: Pitfall dropped — it recited TABLE 10-5's labored row, which the attached plate (needs_table_back) already carries; peds-labored specifics now live on the plate only — see notes flag 3",
+    "visual_source": {
+      "pages": [
+        "1032"
+      ],
+      "note": "TABLE 10-5 read from render; exactly 4 keyed rows (word answers) confirmed"
+    },
+    "needs_table_back": "TABLE 10-5"
+  }
+]

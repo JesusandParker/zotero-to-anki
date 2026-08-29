@@ -32,6 +32,115 @@
    "page": "4036",
    "quote": "crepitus: A grating or grinding sensation or sound caused by fractured bone ends or joints rubbing together.",
    "occurrences": 31
+  },
+  "scler": {
+   "term": "sclera",
+   "method": "glossary",
+   "page": "4122",
+   "quote": "sclera: The tough, fibrous, white portion of the eye that protects the more delicate inner structures.",
+   "occurrences": 14
+  },
+  "dist": {
+   "term": "distention",
+   "method": "glossary",
+   "page": "4045",
+   "quote": "distal: Farther from the trunk or nearer to the free end of the extremity.",
+   "headword": "distal",
+   "occurrences": 56
+  },
+  "emphysem": {
+   "term": "emphysema",
+   "method": "glossary",
+   "page": "4051",
+   "quote": "emphysema: A disease of the lungs in which there is extreme dilation and eventual ­destruction of the pulmonary alveoli with poor exchange of oxygen and carbon dioxide; it is one form of",
+   "occurrences": 54
+  },
+  "pertin_negativ": {
+   "term": "pertinent negatives",
+   "method": "glossary",
+   "page": "4103",
+   "quote": "pertinent negatives: Negative findings that warrant no care or intervention.",
+   "occurrences": 20
+  },
+  "pallor": {
+   "term": "pallor",
+   "method": "in_source",
+   "page": "2386",
+   "quote": "pallor (pale skin) are often seen in both trauma and medical patients with severe bleeding",
+   "occurrences": 23
+  },
+  "focus_assess": {
+   "term": "focused assessment",
+   "method": "glossary",
+   "page": "4058",
+   "quote": "focused assessment: A type of physical assessment typically performed on patients who have sustained nonsignificant mechanisms of injury or on responsive medical patients. This type of examination is based",
+   "occurrences": 26
+  },
+  "auscultat": {
+   "term": "auscultate",
+   "method": "glossary",
+   "page": "4014",
+   "quote": "auscultate: To listen to sounds within an organ with a stethoscope.",
+   "occurrences": 19
+  },
+  "fistul": {
+   "term": "fistula",
+   "method": "in_source",
+   "page": "1975",
+   "quote": "fistula is usually located in the forearm or upper arm (FIGURE 19-5)",
+   "occurrences": 6
+  },
+  "auscult": {
+   "term": "Auscultation",
+   "method": "glossary",
+   "page": "4014",
+   "quote": "auscultate: To listen to sounds within an organ with a stethoscope.",
+   "headword": "auscultate",
+   "occurrences": 30
+  },
+  "ecchym": {
+   "term": "ecchymoses",
+   "method": "glossary",
+   "page": "4048",
+   "quote": "ecchymosis: A buildup of blood beneath the skin that produces a characteristic blue or black discoloration as the result of an injury.",
+   "headword": "ecchymosis",
+   "occurrences": 1
+  },
+  "subcutan_emphysem": {
+   "term": "subcutaneous emphysema",
+   "method": "glossary",
+   "page": "4132",
+   "quote": "subcutaneous emphysema: A characteristic crackling sensation felt on palpation of the skin, caused by the presence of air in soft tissues.",
+   "occurrences": 17
+  },
+  "paradox_motion": {
+   "term": "paradoxical motion",
+   "method": "glossary",
+   "page": "4099",
+   "quote": "paradoxical motion: The motion of the portion of the chest wall that is detached in a flail chest; the motion—in during inhalation, out during ­- exhalation—is exactly the opposite of normal chest wall motion",
+   "occurrences": 6
+  },
+  "flail": {
+   "term": "flail",
+   "method": "glossary",
+   "page": "4057",
+   "quote": "flail chest: A condition in which two or more adjacent ribs are fractured in two or more places or in association with a fracture of the sternum so that a segment of the chest wall is effectively",
+   "headword": "flail chest",
+   "occurrences": 25
+  },
+  "pneumothorax": {
+   "term": "pneumothorax",
+   "method": "glossary",
+   "page": "4106",
+   "quote": "pneumothorax: An accumulation of air or gas in the pleural cavity.",
+   "occurrences": 91
+  },
+  "guard": {
+   "term": "guarding",
+   "method": "glossary",
+   "page": "4064",
+   "quote": "guarding: Involuntary muscle contractions (spasm) of the abdominal wall to minimize the pain of abdominal movement; a sign of peritonitis.",
+   "occurrences": 18
   }
  }
 }

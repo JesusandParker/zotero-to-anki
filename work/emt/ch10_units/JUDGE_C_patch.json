@@ -1,0 +1,20 @@
+[
+ {
+  "index": 230,
+  "card": {
+   "Text": "In the capillary refill test, press the tip of the fingernail or toenail until the skin blanches (turns white). If normal color does not return within {{c1::2 seconds}} of releasing the nail, assume {{c2::circulation is impaired::conclusion}}.",
+   "Back Extra": "Distinguish: delayed refill in one injured limb points to local circulatory compromise of that extremity, not necessarily hypoperfusion of the body in general.<br><br>Cue: the test is typically recommended for use in children, although it can also be used in adults — and before pressing, note and record the skin color, any pallor or cyanosis.",
+   "source": "emt",
+   "segment": 10,
+   "from_idx": [
+    180
+   ],
+   "block": "AT_neurovascular",
+   "numeric": true,
+   "verified_against": "p1062",
+   "verified_by": "agent; judge C: added twin-half Distinguish to differentiate the cross-unit same-fact pair (this p1062 neurovascular-exam card vs the p968 circulation-check 2-second card) — the new line paraphrases p968's own sentence in mark 66's context ('local circulatory compromise, resulting in hypoperfusion of an extremity rather than hypoperfusion of the body in general'); prior children/skin-color content preserved, merged into one Cue; 2-second threshold re-verified verbatim on the p1062 render",
+   "visual_source": null,
+   "needs_human_check": false
+  }
+ }
+]

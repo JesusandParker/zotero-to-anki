@@ -1,0 +1,51 @@
+{
+ "run_id": "2026-08-29T13-47-2",
+ "source": "emt",
+ "segment": 10,
+ "started": "2026-08-29T13:47:49",
+ "skill_sha": "0d2ff07f107fe2266971a3bbd1e24cb857315fdc",
+ "note": "Chapter 10 Patient Assessment — full pipeline run, 201 marks (180 yellow + 21 purple)",
+ "status": "complete",
+ "finished": "2026-08-29T17:52:36",
+ "counts": {
+  "marks": 201,
+  "cards": 254,
+  "yellow_cards": 238,
+  "lexicon_cards": 16,
+  "figures_attached": 51,
+  "consolidation_merges": 3,
+  "judge_patches": 6,
+  "figure_pairings_kept": 51,
+  "figure_pairings_rejected": 22,
+  "marked_spans_dropped": 0
+ },
+ "new_hazards_found": [
+  {
+   "summary": "CREDIT_LOOSE missed 'Data adapted from …' credits, so TABLE 10-7's caption was never corroborated and the table vanished from the figure index",
+   "regression_id": "R15"
+  },
+  {
+   "summary": "CREDIT_LOOSE missed panel-letter credits with periods ('A., B., C: ©…'), so FIGURE 10-23 vanished from the figure index",
+   "regression_id": "R15"
+  },
+  {
+   "summary": "text_table_render stopped at the credit block's own bbox, clipping wrapped credit tails mid-glyph (TABLE 10-1 'Jones & Bartlett…2019' line, TABLE 10-6 'TX.')",
+   "regression_id": "R60"
+  },
+  {
+   "summary": "TABLE 10-4 was detected as two caption candidates on p1027 (true title + the prose cross-reference 'TABLE 10-4 shows…') and paired with no art; plate hand-built as a 2p render",
+   "mechanizable": false,
+   "why": "root cause not yet isolated — the prose cross-reference sits close enough to the true table to be credit-corroborated by adjacency; a trustworthy mechanical rule needs a reproduction pass inside build_figure_index (title styling / duplicate-label disambiguation), not a blind regex. Revisit if any later chapter loses a table the same way."
+  },
+  {
+   "summary": "media_audit FAILs on pre-existing chapter 1–8 debt (uppercase filenames, orphans); chapter 10's own 23 refs verified lowercase + byte-identical",
+   "mechanizable": false,
+   "why": "detection is already mechanized (media_audit, R45/R47); the open item is remediation of legacy files on live notes, queued as background task task_ee6ec601 rather than folded into this run."
+  },
+  {
+   "summary": "session usage limit killed 11 editor agents and 1 drafter mid-fan-out; all card files were intact (drafters write before final self-check) and editors were relaunched clean",
+   "mechanizable": false,
+   "why": "harness-level rate limiting, not a pipeline defect; mitigation applied in-run was smaller launch waves. No card shipped without its full edit+judge chain."
+  }
+ ]
+}

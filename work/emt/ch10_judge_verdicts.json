@@ -1,0 +1,842 @@
+{
+ "source": "emt",
+ "segment": 10,
+ "figures": [
+  {
+   "figure": "FIGURE 10-1",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_1.jpg",
+   "caption": "FIGURE 10-1 At times, you may need to move patients out of areas with difficult terrain.",
+   "publisher_description": null,
+   "depicts": "Ski-patrol rescuer towing a patient in a sled across snow — difficult-terrain patient movement, not vehicle-exit footing hazards or weapon positioning.",
+   "cards": [
+    {
+     "card_index": 5,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "You notice an unsecured hammer on the nightstand beside your patient. Position yourself {{c1::between the pati",
+     "verdict": "drop",
+     "why": "terrain photo on a weapon-positioning card — incongruent"
+    },
+    {
+     "card_index": 4,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "During scene size-up, watch the ground for uneven or unstable surfaces, water, mud, and ice {{c1::before you s",
+     "verdict": "drop",
+     "why": "same topic (terrain hazards) but depicts sled transport, not vehicle-exit footing — same-topic-different-subject"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-10",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_10.jpg",
+   "caption": "FIGURE 10-10 A patient in the sniffing position sits upright with the head and chin thrust slightly forward.",
+   "publisher_description": null,
+   "depicts": "A sick child sitting upright, head tilted slightly forward, mouth open, flushed — the sniffing-position posture of pediatric respiratory distress.",
+   "cards": [
+    {
+     "card_index": 48,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "A patient sitting upright with the head and chin thrust slightly forward is in the {{c1::sniffing::posture}} p",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-11",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_11.jpg",
+   "caption": "FIGURE 10-11 A. To palpate the radial pulse, place the tips of your index and long fingers over the radial artery, pressing gently until you feel intermittent pulsations. B. To palpate the",
+   "publisher_description": null,
+   "depicts": "Two panels: fingertips palpating a radial pulse at the wrist; fingers palpating a carotid pulse on a supine man's neck.",
+   "cards": [
+    {
+     "card_index": 54,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "Although often called a heartbeat, the {{c1::pulse}} is really {{c2::the pressure wave}} sent through the arte",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-12",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_12.jpg",
+   "caption": "FIGURE 10-12 To palpate the brachial pulse in an infant, press firmly along the brachial artery on the inside of the upper arm.",
+   "publisher_description": null,
+   "depicts": "Supine infant with arm elevated overhead, gloved fingers pressing the medial upper arm — the brachial-pulse access technique.",
+   "cards": [
+    {
+     "card_index": 56,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "A mother hands you her limp 7-month-old, who does not respond to your voice or touch. Which pulse do you palpa",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 57,
+     "tier": "teaches",
+     "coverage": 0.4,
+     "text": "With an infant lying  supine , you can reach the brachial pulse by {{c1::elevating the arm over the infant's h",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 55,
+     "tier": "context",
+     "coverage": 0.5,
+     "text": "Where you palpate the pulse depends on age and responsiveness:  Responsive and older than 1 year → {{c1::radia",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-13",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_13.jpg",
+   "caption": "FIGURE 10-13 Cyanosis occurs when the patient has low levels of oxygen in the blood.",
+   "publisher_description": null,
+   "depicts": "Newborn with dusky-blue face contrasting a pink chest — cyanosis around the face/lips.",
+   "cards": [
+    {
+     "card_index": 69,
+     "tier": "teaches",
+     "coverage": 0.6,
+     "text": "In a patient with insufficient air exchange, the lips, mucous membranes, and nail beds turn blue or gray becau",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 70,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "{{c1::High blood pressure::cardiovascular cause}} may make the skin abnormally flushed and red.",
+     "verdict": "drop",
+     "why": "cyanosis photo on a flushed/high-BP card — the WRONG color finding"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-15",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_15.jpg",
+   "caption": "FIGURE 10-15 Identifying priority patients.",
+   "publisher_description": null,
+   "depicts": "Crashed vehicle with a firefighter treating a supine, shirtless patient on the ground beside a backboard — trauma extrication scene.",
+   "cards": [
+    {
+     "card_index": 101,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "A 45-year-old reports  severe chest pain ; his ABCs are intact and he is fully alert. Transport priority? {{c1",
+     "verdict": "drop",
+     "why": "trauma extrication photo on a medical chest-pain priority vignette — mismatched specifics invite confusion"
+    },
+    {
+     "card_index": 92,
+     "tier": "context",
+     "coverage": 0.143,
+     "text": "Rapid exam, the  back and buttocks  — in all trauma patients, roll the patient onto the side while maintaining",
+     "verdict": "drop",
+     "why": "extrication photo, card is the log-roll back exam — different subject"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-16",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_16.jpg",
+   "caption": "FIGURE 10-16 The Golden Hour, also called the Golden Period, is the time during which treatment of shock or traumatic injuries is most critical and the potential for survival is best.",
+   "publisher_description": null,
+   "depicts": "The Golden Hour clock diagram: 20 min discovery/activation, 10 'Platinum' minutes of assessment/intervention/packaging, 30 min transport and hospital stabilization.",
+   "cards": [
+    {
+     "card_index": 102,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "{{c1::The Golden Hour}}, also called the {{c1::Golden Period}}, is the time from {{c2::injury}} to {{c2::defin",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-17",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_17.jpg",
+   "caption": "FIGURE 10-17 The patient’s initial response to the question “What’s wrong?” isthe chief complaint.",
+   "publisher_description": null,
+   "depicts": "Masked EMS providers talking with a seated older man on porch steps while family watches — asking the patient what is wrong.",
+   "cards": [
+    {
+     "card_index": 1,
+     "tier": "context",
+     "coverage": 0.167,
+     "text": "A {{c1::symptom}} is a {{c2::subjective}} condition — one the patient {{c2::feels and tells you about}}.",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 107,
+     "tier": "context",
+     "coverage": 0.167,
+     "text": "Two responders arrive at a scene with bystanders. To gather history without delaying care, one {{c1::questions",
+     "verdict": "drop",
+     "why": "shows a crew with patient+family, not the one-questions-bystanders-while-other-assesses split"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-19",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_19.jpg",
+   "caption": "FIGURE 10-19 If the patient is unresponsive, try to obtain a pertinent history or patient information from family or bystanders.",
+   "publisher_description": null,
+   "depicts": "Paramedic writing on a clipboard while interviewing a standing man beside the ambulance — gathering history from a person on scene.",
+   "cards": [
+    {
+     "card_index": 111,
+     "tier": "context",
+     "coverage": 0.267,
+     "text": "A  SAMPLE  history gathers six kinds of information from the patient:  {{c1::Signs and symptoms::S}}  {{c1::Al",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 110,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "In EMS assessment,  pertinent negatives  are {{c1::expected findings the patient does NOT have}}.",
+     "verdict": "drop",
+     "why": "an interview photo depicts nothing about absent findings"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-23",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_23.png",
+   "caption": "FIGURE 10-23 Locations for auscultating breath sounds: both sides of the chest in multiple lung fields, as shown. A. Stethoscope position for auscultating the front of the",
+   "publisher_description": null,
+   "depicts": "Three panels: stethoscope on the anterior chest, stethoscope on the back, and anterior/posterior lung-zone illustrations with a color legend (bronchial over trachea, bronchovesicular over main bronchi, vesicular over lesser bronchi).",
+   "cards": [
+    {
+     "card_index": 160,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "To auscultate the upper lung fields (the {{c1::apices::term}}), place the stethoscope about {{c2::1 inch (2.5 cm)}} below the clavicle, at the {{c2::midclavicul",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 161,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "To auscultate the <b>midlung</b> fields, listen at the {{c1::third or fourth}} intercostal space, from the patient's {{c1::posterior::anterior or posterior}}.",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 162,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "To auscultate the lower lung fields (the {{c1::bases::term}}), listen at the {{c2::sixth}} intercostal space, at the {{c2::midaxillary}} line.",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 159,
+     "tier": "context",
+     "coverage": 0.5,
+     "text": " Auscultate  means {{c1::listen with a stethoscope}}.",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 157,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "{{c1::Tidal volume::breathing measure}} is the amount of air moved into or out of the lungs during {{c2::one b",
+     "verdict": "drop",
+     "why": "tidal-volume definition card — the plate depicts auscultation sites, not volume"
+    },
+    {
+     "card_index": 156,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "Coughing up  pink, frothy  sputum points to one of two causes: {{c1::a chest injury}} or {{c1::congestive hear",
+     "verdict": "drop",
+     "why": "lung-zone/stethoscope plate on a sputum-color card — different subject"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-24",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_24.jpg",
+   "caption": "FIGURE 10-24 A sphygmomanometer.",
+   "publisher_description": null,
+   "depicts": "Product photo of an aneroid sphygmomanometer: cuff, bulb, and gauge.",
+   "cards": [
+    {
+     "card_index": 186,
+     "tier": "context",
+     "coverage": 0.167,
+     "text": "{{c1::Systolic pressure::BP component}} is {{c2::the arterial pressure surge with each ventricular contraction",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 180,
+     "tier": "context",
+     "coverage": 0.143,
+     "text": "A decrease in blood pressure may indicate one of  3  problems:  {{c1::loss of blood or its fluid components}} ",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 187,
+     "tier": "context",
+     "coverage": 0.143,
+     "text": "{{c1::Diastolic pressure::BP component}} is {{c2::the residual arterial pressure while the heart relaxes}}.",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-27",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_27.jpg",
+   "caption": "FIGURE 10-27 Gently palpate the head for any pain, deformity, tenderness, crepitus, and bleeding.",
+   "publisher_description": null,
+   "depicts": "Two rescuers' gloved hands palpating a supine man's HEAD (scalp/forehead) — head palpation, not a limb exam.",
+   "cards": [
+    {
+     "card_index": 231,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "In the motor check of an injured limb (open and close a fist; wiggle the toes and move the foot up and down), ",
+     "verdict": "drop",
+     "why": "head palpation photo on a limb motor-check card — page adjacency only"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-29",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_29.jpg",
+   "caption": "FIGURE 10-29 Inspect, visualize, and palpate over the chest area for injury and signs of trauma.",
+   "publisher_description": null,
+   "depicts": "One hand stabilizing a supine man's head while the other palpates the chest wall — chest inspection/palpation during the exam.",
+   "cards": [
+    {
+     "card_index": 234,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": " Paradoxical motion  is {{c1::one chest section moving opposite the rest}} during breathing.",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-33",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_33.jpg",
+   "caption": "FIGURE 10-33 Palpation of the posterior tibial pulse.",
+   "publisher_description": null,
+   "depicts": "Gloved fingers pressed behind the medial malleolus of a foot — palpating the posterior tibial pulse.",
+   "cards": [
+    {
+     "card_index": 227,
+     "tier": "teaches",
+     "coverage": 0.833,
+     "text": "In a neurovascular check, palpate the pulse {{c2::distal::distal or proximal}} to the point of injury:  Upper ",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-36",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_36.jpg",
+   "caption": "FIGURE 10-36 The pulse oximeter is a device that measures the saturation of oxygen in the blood as a percentage.",
+   "publisher_description": null,
+   "depicts": "Fingertip pulse oximeter on an index finger, display reading SpO2 93% / PR 73.",
+   "cards": [
+    {
+     "card_index": 245,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "A pulse oximeter functions properly only with adequate {{c1::perfusion}} and adequate numbers of {{c1::red blo",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 243,
+     "tier": "context",
+     "coverage": 0.8,
+     "text": " Pulse oximetry  evaluates the effectiveness of {{c1::oxygenation::oxygenation or ventilation}}. The pulse oxi",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 247,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "A pulse oximeter presumes {{c1::oxygen}} is what saturates the hemoglobin, so any chemical that {{c1::displace",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 248,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "During a winter power outage, two adults are found barely responsive in a home where a charcoal grill has been",
+     "verdict": "drop",
+     "why": "the display's visible 93% contradicts the vignette's 'normal reading' premise — a why-is-that-there moment"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-5",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_5.jpg",
+   "caption": "FIGURE 10-5 With multiple patients, use the incident command system, call for additional resources, and then begin triage. A multiple casualty incident involving two trains that collided in 2005.",
+   "publisher_description": null,
+   "depicts": "Mass-casualty street scene: many helmeted responders working over several backboarded patients — coordinated multi-patient incident operations.",
+   "cards": [
+    {
+     "card_index": 12,
+     "tier": "teaches",
+     "coverage": 0.375,
+     "text": "The {{c1::incident command system (ICS)::structure}} is a {{c2::flexible}} system implemented to manage {{c2::",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 13,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "At a multiple-patient incident, responders work in groups organized by {{c1::function or assigned area::2 crit",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-8",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_8.jpg",
+   "caption": "FIGURE 10-8 As you approach the patient, form a general impression of his or her overall condition.",
+   "publisher_description": null,
+   "depicts": "Provider in full PPE crouched at a bedside preparing equipment beside a supine older woman — the approach/first-look moment of a call.",
+   "cards": [
+    {
+     "card_index": 18,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "On the  AVPU  scale, an  awake and alert  patient differs from one merely  responsive to verbal stimuli  in th",
+     "verdict": "drop",
+     "why": "photo shows approach/first look, not responsiveness testing"
+    },
+    {
+     "card_index": 14,
+     "tier": "context",
+     "coverage": 0.286,
+     "text": "As the first part of your primary assessment, the {{c1::general impression::assessment step}} focuses on {{c2:",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 15,
+     "tier": "context",
+     "coverage": 0.111,
+     "text": "Uncontrolled external bleeding is suggested by a large amount of blood that:  is {{c1::squirting or gushing}} ",
+     "verdict": "drop",
+     "why": "no bleeding anywhere in frame"
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 10-9",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/FIGURE_10_9.jpg",
+   "caption": "FIGURE 10-9 Methods of gauging a patient’s responsiveness to painful stimuli. A. Gently but firmly pinch the patient’s ear lobe. B. Press on the bone above the eye. C. Gently but firmly pinch the muscles of the neck.",
+   "publisher_description": null,
+   "depicts": "Three panels of a gloved rescuer applying painful stimuli to an unresponsive-appearing teen: hand pressing chest/shoulder, pinch at jaw/ear, pinch at neck muscles.",
+   "cards": [
+    {
+     "card_index": 24,
+     "tier": "context",
+     "coverage": 0.125,
+     "text": "Once the LOC is graded, for a patient who is {{c3::alert or responsive to verbal stimuli::which AVPU grades}} ",
+     "verdict": "drop",
+     "why": "depicts painful stimuli on an unresponsive patient — the opposite population from the orientation-eligibility card"
+    },
+    {
+     "card_index": 23,
+     "tier": "context",
+     "coverage": 0.056,
+     "text": "A patient does not respond to verbal stimuli, so you test the response to pain. Gently but firmly pinch or pre",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    }
+   ]
+  },
+  {
+   "figure": "SKILL DRILL 10-2",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_10_2.jpg",
+   "caption": "Skill Drill 10-2 Performing the Secondary Assessment a",
+   "publisher_description": null,
+   "depicts": "An 18-panel photo strip of the secondary assessment head/neck/chest sequence; at study size each panel is a small thumbnail with tiny captions.",
+   "cards": [
+    {
+     "card_index": 124,
+     "tier": "teaches",
+     "coverage": 0.4,
+     "text": "The purpose of the {{c1::secondary assessment::assessment phase}} is to perform {{c2::a systematic physical ex",
+     "verdict": "drop",
+     "why": "18-panel composite is thumbnail-illegible at study size; fails the full-quality bar — no plate beats a bad plate"
+    }
+   ]
+  },
+  {
+   "figure": "SKILL DRILL 10-6",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/SKILL_DRILL_10_6.jpg",
+   "caption": "Skill Drill 10-6 Assessing Blood Glucose Level",
+   "publisher_description": null,
+   "depicts": "Five-step glucose assessment sequence: cleanse finger, lancet puncture, sharps disposal, test strip into glucometer, bandage — plus the printed step list.",
+   "cards": [
+    {
+     "card_index": 252,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "A 58-year-old has no specific complaint — he just feels weak all over. What bedside level should you assess? {",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 10-1",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/TABLE_10_1.png",
+   "caption": "TABLE 10-1 Indications for Spinal Immobilization Either blunt or penetrating trauma with any of the following: Pain or tenderness on palpation of the neck or spine Patient report of pain in neck or back Paralysis or neurologic complaint (numbness, tingling, partial paralysis of the legs or arms)",
+   "publisher_description": null,
+   "depicts": "The spinal-immobilization indications table: blunt-or-penetrating trauma findings, blunt-only findings, and the distracting-injury definition, with PHTLS credit.",
+   "cards": [
+    {
+     "card_index": 20,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "A patient has not responded to verbal stimuli, so you apply a painful stimulus:  The patient moves or cries ou",
+     "verdict": "drop",
+     "why": "spinal table on a painful-stimulus grading card — different subject"
+    },
+    {
+     "card_index": 34,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "A motorcyclist thrown at highway speed has an obviously deformed, painful femur but insists his neck and back ",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 30,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "Three findings (any one alone is enough) indicate spinal immobilization only when the trauma is <b>blunt</b>:<br><br>{{c1::altered mental status}}<br><br>{{c1::",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 31,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "{{c1::A distracting injury::injury category}} is by itself an indication for spinal immobilization, even when the patient has no other findings.",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 29,
+     "tier": "context",
+     "coverage": 1.0,
+     "text": "Three findings (any one alone is enough) indicate spinal immobilization after  either blunt or penetrating  tr",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 17,
+     "tier": "context",
+     "coverage": 0.286,
+     "text": "The  AVPU  scale grades a patient's gross level of consciousness by responsiveness, at one of four levels:  {{",
+     "verdict": "drop",
+     "why": "spinal table on the AVPU scale card — different subject"
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 10-2",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/TABLE_10_2.png",
+   "caption": "TABLE 10-2 Signs of Respiratory Distress and Failure Respiratory Distress Respiratory Failure Agitation, anxiety, restlessness Lethargy, difficult to rouse",
+   "publisher_description": null,
+   "depicts": "Six distress↔failure contrast pairs (agitation↔lethargy, stridor/wheezing↔tachypnea-with-bradypnea/agonal, accessory-muscle↔poor excursion, tachypnea↔inadequate rate/effort, mild tachycardia↔bradycardia, flaring/seesaw/head-bobbing↔diminished tone).",
+   "cards": [
+    {
+     "card_index": 51,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "In infants and small children, cardiac arrest is generally caused by {{c1::respiratory arrest}}.",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 52,
+     "tier": "context",
+     "coverage": 0.429,
+     "text": "As respiratory  distress  deteriorates into respiratory  failure , the patient's whole drive winds down:  Agit",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 53,
+     "tier": "context",
+     "coverage": 0.077,
+     "text": "As respiratory  distress  deteriorates into respiratory  failure , the breathing itself gives out:  Stridor an",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 10-3",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/TABLE_10_3.png",
+   "caption": "TABLE 10-3 The DCAP-BTLS Mnemonic D—Deformity Misshapen body part (eg, the arm or leg is no longer straight) C—Contusions Bruising; a collection of blood under the skin",
+   "publisher_description": null,
+   "depicts": "The full DCAP-BTLS table: all eight letters with their plain meanings.",
+   "cards": [
+    {
+     "card_index": 97,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": " Subcutaneous emphysema  is {{c1::air trapped under the skin, felt as crackling}}.",
+     "verdict": "drop",
+     "why": "DCAP-BTLS table on a subcutaneous-emphysema definition — different subject"
+    },
+    {
+     "card_index": 88,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "In the rapid exam you look and feel for  DCAP-BTLS  at every body region:  {{c1::Deformity::D}}  {{c1::Contusi",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 100,
+     "tier": "context",
+     "coverage": 0.167,
+     "text": "Eight conditions make a patient  high priority  — transport immediately. The other four, beyond consciousness ",
+     "verdict": "drop",
+     "why": "DCAP-BTLS mnemonic table on the high-priority-conditions card — different subject"
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 10-4",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/TABLE_10_4.png",
+   "caption": "TABLE 10-4 Normal Ranges for Respirations",
+   "publisher_description": null,
+   "depicts": "Respiration ranges by age: Adults 12-20, Adolescents 12-16, School-aged 18-30, Preschoolers 22-34, Toddlers 24-40, Infants 30-60 breaths/min, with the NHTSA/PALS note.",
+   "cards": [
+    {
+     "card_index": 137,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal respiratory rate, in breaths/min, for an adult at rest? {{c1::12 to 20::range}}",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 140,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal respiratory rate, in breaths/min, for an adolescent (13 to 18 years) at rest? {{c1::12 to 16::range}}",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 141,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal respiratory rate, in breaths/min, for a school-aged child (6 to 12 years) at rest? {{c1::18 to 30::range}}",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 142,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal respiratory rate, in breaths/min, for a preschooler (4 to 5 years) at rest? {{c1::22 to 34::range}}",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 143,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal respiratory rate, in breaths/min, for a toddler (1 to 3 years) at rest? {{c1::24 to 40::range}}",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 144,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal respiratory rate, in breaths/min, for an infant at rest? {{c1::30 to 60::range}}",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 10-5",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/TABLE_10_5.png",
+   "caption": "TABLE 10-5 Characteristics of Respirations Normal Breathing is neither shallow nor deep; it appears effortless Equal chest rise and fall No use of accessory muscles Shallow Decreased chest or abdominal wall motion",
+   "publisher_description": null,
+   "depicts": "The four respiration qualities (Normal, Shallow, Labored, Noisy) with their descriptions.",
+   "cards": [
+    {
+     "card_index": 165,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "The quality (character) of a patient's respirations can be described in one of four ways:  {{c1::Normal}}  {{c",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 10-6",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/TABLE_10_6.png",
+   "caption": "TABLE 10-6 Normal Ranges for Pulse Rate Age Range (beats/min) Adults and children (older than 10 years) 60 to 100",
+   "publisher_description": null,
+   "depicts": "Pulse-rate ranges by age band: >10 y 60-100, 2-10 y 60-140, 3 mo-2 y 100-190, <3 mo 85-205 beats/min (PALS 2015).",
+   "cards": [
+    {
+     "card_index": 170,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal pulse-rate range for <b>adults and children older than 10 years</b>, in beats/min? {{c1::60 to 100::range}}",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 171,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal pulse-rate range for <b>preschoolers and school-aged children (2 to 10 years)</b>, in beats/min? {{c1::60 to 140::range}}",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 172,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal pulse-rate range for <b>infants and toddlers (3 months to 2 years)</b>, in beats/min? {{c1::100 to 190::range}}",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 173,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal pulse-rate range for <b>infants up to 3 months of age</b>, in beats/min? {{c1::85 to 205::range}}",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 167,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "Once you determine that a pulse is  present , judge its  adequacy  by assessing pulse {{c1::rate}}, pulse {{c1",
+     "verdict": "drop",
+     "why": "does not depict what this card is about"
+    },
+    {
+     "card_index": 166,
+     "tier": "context",
+     "coverage": 0.222,
+     "text": "A patient's chief complaint is located in the  chest  — carefully reevaluate the:  {{c1::pulse rate}}  {{c1::s",
+     "verdict": "drop",
+     "why": "does not depict what this card is about"
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 10-7",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/TABLE_10_7.png",
+   "caption": "TABLE 10-7 Normal Range for Blood Pressure",
+   "publisher_description": null,
+   "depicts": "Systolic BP ranges by age: Adults 90-120, Adolescent 110-131, Child 7y 97-115, Child 2y 86-106, Infant 72-104, Neonate 67-84 mm Hg.",
+   "cards": [
+    {
+     "card_index": 204,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal <b>systolic</b> blood pressure range for an <b>adult</b>? {{c1::90 to 120::range}} mm Hg",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 205,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal <b>systolic</b> blood pressure range for an <b>adolescent (15 years)</b>? {{c1::110 to 131::range}} mm Hg",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 206,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal <b>systolic</b> blood pressure range for a <b>child (7 years)</b>? {{c1::97 to 115::range}} mm Hg",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 207,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal <b>systolic</b> blood pressure range for a <b>child (2 years)</b>? {{c1::86 to 106::range}} mm Hg",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 208,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal <b>systolic</b> blood pressure range for an <b>infant (1–12 months)</b>? {{c1::72 to 104::range}} mm Hg",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    },
+    {
+     "card_index": 209,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "What is the normal <b>systolic</b> blood pressure range for a <b>neonate (96 hours)</b>? {{c1::67 to 84::range}} mm Hg",
+     "verdict": "keep",
+     "why": "depicts what the card is about (see depicts)"
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 10-8",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/emt/figures/study/TABLE_10_8.jpg",
+   "caption": "TABLE 10-8 Glasgow Coma Scale a",
+   "publisher_description": null,
+   "depicts": "The Glasgow Coma Scale scoring table (eye opening / best verbal / best motor); bottom row slightly clipped.",
+   "cards": [
+    {
+     "card_index": 213,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The diameter and reactivity to light of a patient's pupils can reflect the status of the {{c1::brain::organ}} ",
+     "verdict": "drop",
+     "why": "GCS is unmarked content; a GCS table on a pupil-reactivity card confuses and teaches beyond the marks"
+    }
+   ]
+  }
+ ]
+}

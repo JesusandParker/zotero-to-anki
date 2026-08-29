@@ -1,0 +1,21 @@
+# Cross-unit actions queued from editor reports (consolidator work list)
+
+- D8 resp 30s×2 card: add mirror Distinguish vs D10's pulse 30s×2 twin (D10 carries its half).
+- D1 B1/B2/B3 ↔ D7 T1 sign/symptom overlap: merge to best (D1's staged for it; keep B3's exemplars).
+- D5 N-7 sclera two-way ↔ DL sclera lexicon card: cross-lane fold-in (keep yellow card, add Ex:/Parts:, cite purple idx 58, drop DL card; R36 — fold must keep a yellow mark cited).
+- D9 breath-sound cards ↔ D3 idx 28 (snoring in obstruction signs) + D8 idx 112 (crowing): dedupe by meaning; keep the clearest, cross-cite from_idx where merged.
+- D13 AT extremity checks ↔ D6 idx 84 (rapid-exam extremities): different assessments, same anatomy — verify stems frame distinctly, no merge unless identical claim.
+- D13 AY reassessment baseline ↔ D6 q15/q5 intervals: distinct facts, confirm no duplicate claim.
+- D11 AP 6 systolic notes + D8 6 resp notes + D10 4 pulse notes: verify age-span stems distinct from live ch7 remediation family; flag interference at hand-off (don't add cross-source Distinguish lines with values).
+- D6 card 2 (DCAP-BTLS), D3 cards 18/19 (TABLE 10-2 spans p957+958 — plate must show BOTH halves), D8/D10/D11 needs_table_back cards, D9 landmark cards (FIGURE 10-23), D9 TABLE 10-5 membership card: figure stage must attach plates; force proposals where matcher scores 0.
+- D2 editor suggestion: TABLE 10-1 plate on H1–H3 backs (part-and-whole preference) — do in figure stage if judge approves congruence.
+- D7 X1's Distinguish references W4's row answer — if W4 changes in consolidation, update X1.
+- D7 W2 vignette wording "Until...rules it out" is intentional idiom (only W1 quotes the book).
+- D4 sanctioned same-fact pairs (M1-row-1↔M6, L2-row-3↔L4) are deliberate — do NOT dedupe.
+- D10: no TABLE 10-6 band vignette by design (live ch7 "140 beats/min" vignette covers the discrimination).
+- DL externals (distention, cookbook medicine, mastectomy) must survive to verify_report → Vocabulary block.
+- Purple repeat flags for hand-off: crepitus ×2 (p975, p1006); diaphoretic+diaphoresis family; auscultate+Auscultation family.
+- Stridor framing: D8 cards 8/9 (idx 112, p1025 foreign-body crowing) vs D9 stridor card (idx 123, p1028 "foreign body or swelling") — both grounded in their own marks; align Distinguish lines so they complement, never contradict.
+- D9 AH-1: after Pitfall trim the TABLE 10-5 plate is the ONLY carrier of row content — needs_table_back is LOAD-BEARING (figure stage must not drop it). Same for FIGURE 10-23 on AG-2/3/4.
+- D9 flag upgraded: peds-labored signs deserve their own card ONLY if D3 didn't card them (check D3's idx 36/39 cards at consolidation).
+- D9 six-sound membership roster deliberately NOT carded (recognition taxonomy, no handle) — surface for Parker's veto at hand-off.
