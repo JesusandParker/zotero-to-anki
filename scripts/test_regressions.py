@@ -915,6 +915,24 @@ CASES = [
                 "the power-grip hand-spacing card derived numeric=False",
     },
     {
+        "id": "r51_bad_volume_in_liters_escapes_numeric_flag",
+        "warn": "looks numeric", "present": True,
+        "cards": [{"Text": "For this patient you set the oxygen flow at {{c1::2 liters}} per minute.",
+                   "Back Extra": "Pitfall: hearing 10 liters when 2 was said is the classic closed-loop catch.", "chapter": 9}],
+        "note": "mL and L/min were in the unit list but bare liters/L was not, so oxygen "
+                "amounts stated in liters derived numeric=False — found by the ch9 D3 "
+                "editor on the closed-loop card (2026-08-29)",
+    },
+    {
+        "id": "r51_good_digit_before_l_word_is_not_a_volume",
+        "warn": "looks numeric", "present": False,
+        "cards": [{"Text": "The ambulance carries {{c1::2 large trauma bags}} in the outside compartment.",
+                   "Back Extra": "Cue: one per provider.", "chapter": 9}],
+        "note": "the bare-L branch is case-insensitive, so a digit before any l-word "
+                "('2 large', '9 leaders') must NOT read as a volume — \\b after the L "
+                "only matches when the L stands alone",
+    },
+    {
         "id": "r51_good_manner_phrase_not_a_value",
         "warn": "looks numeric", "present": False,
         "cards": [{"Text": "A scoop stretcher is worked under the patient {{c1::one side at a time}}.",

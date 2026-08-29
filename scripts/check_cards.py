@@ -64,6 +64,10 @@ VALUE = re.compile(r"[<>≤≥]\s*\d|"
                    # plural + metric length forms: "10 inches (25 cm)" derived numeric=False
                    # because "inch" + \b cannot match "inches" and cm was absent (EMT ch8,
                    # 2026-08-12 — the power-grip hand-spacing card). R51.
+                   # volumes: "2 liters of oxygen", "10 L" — mL and L/min were present but
+                   # bare liters/L was not, so oxygen flow amounts stated in liters escaped
+                   # (found by the ch9 D3 editor on the closed-loop card, 2026-08-29). R51.
+                   r"liters?|litres?|L|"
                    r"mph|miles?|feet|ft|inch(?:es)?|in|cm|centimeters?|MHz|watts?|L/min|°|degrees?)\b|"
                    r"\d+\s*(?:to|-|–)\s*\d+", re.I)
 # "N <list-noun>" where the card should then cloze exactly N items. A mismatch means
