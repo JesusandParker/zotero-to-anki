@@ -13,37 +13,43 @@
    "n": 2,
    "name": "Cellular Reproduction",
    "start": 40,
-   "end": 61
+   "end": 61,
+   "order": 6
   },
   {
    "n": 3,
    "name": "Mendelism: The Basic Principles of Inheritance",
    "start": 62,
-   "end": 83
+   "end": 83,
+   "order": 7
   },
   {
    "n": 4,
    "name": "Extensions of Mendelism",
    "start": 84,
-   "end": 109
+   "end": 109,
+   "order": 8
   },
   {
    "n": 5,
    "name": "The Chromosomal Basis of Mendelism",
    "start": 110,
-   "end": 130
+   "end": 130,
+   "order": 9
   },
   {
    "n": 6,
    "name": "Variation in Chromosome Number and Structure",
    "start": 131,
-   "end": 154
+   "end": 154,
+   "order": 10
   },
   {
    "n": 7,
    "name": "Linkage, Crossing Over, and Chromosome Mapping in Eukaryotes",
    "start": 155,
-   "end": 182
+   "end": 182,
+   "order": 11
   },
   {
    "n": 8,
@@ -55,61 +61,71 @@
    "n": 9,
    "name": "DNA and the Molecular Structure of Chromosomes",
    "start": 211,
-   "end": 238
+   "end": 238,
+   "order": 1
   },
   {
    "n": 10,
    "name": "Replication of DNA and Chromosomes",
    "start": 239,
-   "end": 273
+   "end": 273,
+   "order": 2
   },
   {
    "n": 11,
    "name": "Transcription and RNA Processing",
    "start": 274,
-   "end": 301
+   "end": 301,
+   "order": 3
   },
   {
    "n": 12,
    "name": "Translation and the Genetic Code",
    "start": 302,
-   "end": 334
+   "end": 334,
+   "order": 4
   },
   {
    "n": 13,
    "name": "Mutation, DNA Repair, and Recombination",
    "start": 335,
-   "end": 371
+   "end": 371,
+   "order": 5
   },
   {
    "n": 14,
    "name": "The Techniques of Molecular Genetics",
    "start": 372,
-   "end": 400
+   "end": 400,
+   "order": 12
   },
   {
    "n": 15,
    "name": "Genomics",
    "start": 401,
-   "end": 438
+   "end": 438,
+   "order": 13
   },
   {
    "n": 16,
    "name": "Applications of Molecular Genetics",
    "start": 439,
-   "end": 480
+   "end": 480,
+   "order": 14
   },
   {
    "n": 17,
    "name": "Regulation of Gene Expression in Prokaryotes",
    "start": 481,
-   "end": 505
+   "end": 505,
+   "order": 15
   },
   {
    "n": 18,
    "name": "Regulation of Gene Expression in Eukaryotes",
    "start": 506,
-   "end": 532
+   "end": 532,
+   "order": 16
   },
   {
    "n": 19,
@@ -139,7 +155,8 @@
    "n": 23,
    "name": "The Genetic Basis of Cancer",
    "start": 700,
-   "end": 724
+   "end": 724,
+   "order": 17
   },
   {
    "n": 24,

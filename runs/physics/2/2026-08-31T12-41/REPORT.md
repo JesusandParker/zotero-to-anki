@@ -82,3 +82,32 @@ no future card can cite a scratch file again.
   Fixed; swept properly afterwards with **0 hard errors** across all three.
 - **Vector-render bleed** — not new (SKILL.md Stage 2.9 documents it); `mechanizable:
   false`, because the judge-look is the correct guard and it worked.
+
+
+## Second pass — what a cold re-read found (2026-08-31)
+
+Parker asked whether the cards were really perfect. Re-reading all 33 against the pages,
+rather than re-running the gates (which were green, and green by construction cannot see
+what they do not model), turned up **seven defects in six cards**. Every gate had passed
+all of them: none of these is a shape `check_cards.py` models.
+
+| Card | Defect | Fix |
+|---|---|---|
+| 25 | **Factual error.** The Cue called \(v = v_0 + at\) "the only one of the four with no position term" — but \(\bar v = (v + v_0)/2\) has no position term either. | Re-cut to the claim that IS unique: the only one carrying both \(a\) and \(t\) with no position. |
+| 9 | The Pitfall said averaging 50 and 100 km/h "does not come to 75 km/h". False when the legs take equal **time** — then 75 is exactly right. | Replaced with the book's own equal-**distance** example: 100 km at 50, 100 km at 100 → 67 km/h. |
+| 12 | "an average velocity of only 0.57 m/s" — that is the *magnitude*; the card teaching displacement-vs-distance is the last place to drop direction. | "0.57 m/s **east**". |
+| 13, 15 | "the equation for average velocity" is ambiguous **inside this batch** — card 28 gives \(\bar v = (v+v_0)/2\), also an equation for average velocity (rule 2). | Both stems now read "the equation **defining** average velocity". |
+| 23 | "moving to the left along a decreasing \(x\) axis" — the axis does not decrease, \(x\) does. | Reworded. |
+| 26 | Two distinct ideas crammed into one `Pitfall:` line. | The \(x_0 = 0\) point moved into the `Cue:`, where the other \(x_0\) material lives. |
+
+**Still standing, and Parker should judge them in review rather than take my word:**
+- Cards 13 and 15 test the same equation in words and in symbols; 12 tests the concept
+  behind it. Three cards on average velocity's definition is defensible only because he
+  marked those three spans separately and asked for definition-and-formula as separate
+  things. If it reads as redundant in review, 13 is the one to delete.
+- The motorcycle plate on cards 19 and 21 illustrates *acceleration* generally rather than
+  those cards' specific claims — the weakest two of the eleven attachments, kept under his
+  stated "overshoot rather than undershoot" preference.
+- Card 9 (average **speed**) carries the displacement plate, whose largest label reads
+  "Displacement". Its back explains the doubling-back the plate shows, so it holds together
+  — but it is the attachment most likely to make him ask why it is there.

@@ -231,7 +231,7 @@
  },
  {
   "Text": "An object's {{c1::average speed}} is its {{c2::total distance traveled divided by the time elapsed}}.",
-  "Back Extra": "Distinguish: average speed counts every metre covered, including any doubling back, and is always a plain positive number with units.<br><br>Ex: a car that travels 240 km in 3 h has an average speed of 80 km/h.<br><br>Pitfall: averaging two speeds does not give the average speed — 50 km/h for one leg and 100 km/h for another does not come to 75 km/h.",
+  "Back Extra": "Distinguish: average speed counts every metre covered, including any doubling back, and is always a plain positive number with units.<br><br>Ex: a car that travels 240 km in 3 h has an average speed of 80 km/h.<br><br>Pitfall: never average two speeds. A car that covers 100 km at 50 km/h and then 100 km at 100 km/h averages 67 km/h, not 75 — total distance over total time is the only route.",
   "source": "physics",
   "segment": 2,
   "from_idx": [
@@ -241,7 +241,7 @@
   "block": "C_speed_and_velocity",
   "numeric": false,
   "verified_against": null,
-  "verified_by": null,
+  "verified_by": "corrected in the 2026-08-31 post-hand-off re-read (see REPORT.md 'Second pass')",
   "needs_human_check": false,
   "visual_source": {
    "pages": [
@@ -292,7 +292,7 @@
  },
  {
   "Text": "<b>Average velocity</b> is defined in terms of {{c1::displacement}}, rather than total distance traveled.",
-  "Back Extra": "Distinguish: average <i>speed</i> uses the total distance along the path; average <i>velocity</i> uses displacement, so the two differ whenever the motion reverses.<br><br>Ex: walking 70 m east then 30 m west in 70 s gives an average speed of 1.4 m/s but an average velocity of only 0.57 m/s.<br><br>Pitfall: average speed is not necessarily equal to the magnitude of the average velocity.",
+  "Back Extra": "Distinguish: average <i>speed</i> uses the total distance along the path; average <i>velocity</i> uses displacement, so the two differ whenever the motion reverses.<br><br>Ex: walking 70 m east then 30 m west in 70 s gives an average speed of 1.4 m/s but an average velocity of only 0.57 m/s east.<br><br>Pitfall: average speed is not necessarily equal to the magnitude of the average velocity.",
   "source": "physics",
   "segment": 2,
   "from_idx": [
@@ -301,7 +301,7 @@
   "block": "C_speed_and_velocity",
   "numeric": false,
   "verified_against": null,
-  "verified_by": null,
+  "verified_by": "corrected in the 2026-08-31 post-hand-off re-read (see REPORT.md 'Second pass')",
   "needs_human_check": false,
   "visual_source": {
    "pages": [
@@ -319,7 +319,7 @@
   "image_side": "back"
  },
  {
-  "Text": "Give the equation for <b>average velocity</b> in words: {{c1::displacement / time elapsed}}.",
+  "Text": "Give the equation defining <b>average velocity</b> in words: {{c1::displacement / time elapsed}}.",
   "Back Extra": "Meaning: written out in full, the same equation is (final position − initial position) / time elapsed.<br><br>Distinguish: average speed uses the length of the path actually walked; average velocity uses only how far the endpoint sits from the start.<br><br>Pitfall: displacement can be negative, so average velocity can be negative — average speed never is.",
   "source": "physics",
   "segment": 2,
@@ -329,7 +329,7 @@
   "block": "C_speed_and_velocity",
   "numeric": false,
   "verified_against": "printed p. 24 (physical p. 45), read from the rendered page",
-  "verified_by": "visual: the word-form equation read directly off the page render",
+  "verified_by": "visual: the word-form equation read directly off the page render; corrected in the 2026-08-31 post-hand-off re-read (see REPORT.md 'Second pass')",
   "needs_human_check": false,
   "visual_source": {
    "pages": [
@@ -368,7 +368,7 @@
   "image": null
  },
  {
-  "Text": "Give the equation for <b>average velocity</b> in symbols: {{c1::\\(\\bar v = \\frac{x_2 - x_1}{t_2 - t_1} = \\frac{\\Delta x}{\\Delta t}\\)}}",
+  "Text": "Give the equation defining <b>average velocity</b> in symbols: {{c1::\\(\\bar v = \\frac{x_2 - x_1}{t_2 - t_1} = \\frac{\\Delta x}{\\Delta t}\\)}}",
   "Back Extra": "Meaning: \\(\\bar v\\) is the average velocity, and the bar over the <i>v</i> is the standard symbol for \"average\"; \\(x_1\\) and \\(x_2\\) are the positions at the earlier time \\(t_1\\) and the later time \\(t_2\\); \\(\\Delta x\\) is the displacement and \\(\\Delta t\\) the elapsed time.<br><br>Pitfall: if \\(x_2\\) is less than \\(x_1\\) the object moved left, \\(\\Delta x\\) is negative, and so is the average velocity — the sign carries the direction.",
   "source": "physics",
   "segment": 2,
@@ -378,7 +378,7 @@
   "block": "C_speed_and_velocity",
   "numeric": false,
   "verified_against": "printed p. 24 (physical p. 45), Eq. 2-2 read from the rendered page",
-  "verified_by": "visual: the symbolic form confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze",
+  "verified_by": "visual: the symbolic form confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze; corrected in the 2026-08-31 post-hand-off re-read (see REPORT.md 'Second pass')",
   "needs_human_check": false,
   "visual_source": {
    "figures": [
@@ -542,7 +542,7 @@
  },
  {
   "Text": "An object is <b>decelerating</b> whenever {{c1::the magnitude of its velocity is decreasing}}.",
-  "Back Extra": "Pitfall: deceleration does <b>not</b> mean that the acceleration is negative. A car moving to the left along a decreasing <i>x</i> axis and slowing down has a <i>positive</i> acceleration.<br><br>Ex: a car moving right along the +<i>x</i> axis and braking has a negative acceleration; the same car moving left and braking has a positive one.<br><br>Cue: what makes it deceleration is that the speed is dropping, not the sign of \\(a\\).",
+  "Back Extra": "Pitfall: deceleration does <b>not</b> mean that the acceleration is negative. A car moving to the left, so that \\(x\\) is decreasing, and slowing down has a <i>positive</i> acceleration.<br><br>Ex: a car moving right along the +<i>x</i> axis and braking has a negative acceleration; the same car moving left and braking has a positive one.<br><br>Cue: what makes it deceleration is that the speed is dropping, not the sign of \\(a\\).",
   "source": "physics",
   "segment": 2,
   "from_idx": [
@@ -552,7 +552,7 @@
   "block": "E_acceleration",
   "numeric": false,
   "verified_against": "printed p. 27 (physical p. 48), read from the rendered page",
-  "verified_by": "visual: the Deceleration paragraph read directly off the page render",
+  "verified_by": "visual: the Deceleration paragraph read directly off the page render; corrected in the 2026-08-31 post-hand-off re-read (see REPORT.md 'Second pass')",
   "needs_human_check": false,
   "visual_source": {
    "figures": [
@@ -585,7 +585,7 @@
  },
  {
   "Text": "Among the four kinematic equations, give the one for an object's velocity \\(v\\) after an elapsed time \\(t\\): {{c1::\\(v = v_0 + at\\)}}",
-  "Back Extra": "Meaning: \\(v\\) is the velocity at time \\(t\\); \\(v_0\\) (read \"v-naught\") is the <b>initial</b> velocity, its value at \\(t = 0\\); \\(a\\) is the constant acceleration; \\(t\\) is the elapsed time.<br><br>Cue: this is the only one of the four with no position term in it at all.<br><br>Pitfall: the four kinematic equations hold only while the acceleration \\(a\\) stays constant.",
+  "Back Extra": "Meaning: \\(v\\) is the velocity at time \\(t\\); \\(v_0\\) (read \"v-naught\") is the <b>initial</b> velocity, its value at \\(t = 0\\); \\(a\\) is the constant acceleration; \\(t\\) is the elapsed time.<br><br>Cue: this is the only one of the four carrying both the acceleration \\(a\\) and the time \\(t\\) with no position term at all.<br><br>Pitfall: the four kinematic equations hold only while the acceleration \\(a\\) stays constant.",
   "source": "physics",
   "segment": 2,
   "from_idx": [
@@ -594,7 +594,7 @@
   "block": "F_kinematic_equations",
   "numeric": false,
   "verified_against": "printed p. 29 (physical p. 50), Eq. 2-11a read from the rendered page",
-  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze; stem re-cued by the set rather than by 'for motion with constant acceleration', which sat on four fronts and pre-answered the validity card",
+  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze; stem re-cued by the set rather than by 'for motion with constant acceleration', which sat on four fronts and pre-answered the validity card; corrected in the 2026-08-31 post-hand-off re-read (see REPORT.md 'Second pass')",
   "needs_human_check": false,
   "visual_source": {
    "figures": [
@@ -606,7 +606,7 @@
  },
  {
   "Text": "Among the four kinematic equations, give the one for an object's position \\(x\\) after an elapsed time \\(t\\): {{c1::\\(x = x_0 + v_0 t + \\tfrac{1}{2} a t^2\\)}}",
-  "Back Extra": "Meaning: \\(x\\) is the position at time \\(t\\); \\(x_0\\) (read \"x-naught\") is the <b>initial</b> position, its value at \\(t = 0\\); \\(v_0\\) is the initial velocity; \\(a\\) is the constant acceleration; \\(t\\) is the elapsed time.<br><br>Cue: \\(x\\) is a position rather than a distance, and \\(x - x_0\\) is the displacement.<br><br>Pitfall: setting \\(x_0 = 0\\) shortens it to \\(x = v_0 t + \\tfrac{1}{2} a t^2\\), but only once you have actually put the origin at the starting point. The equation holds only while \\(a\\) stays constant.",
+  "Back Extra": "Meaning: \\(x\\) is the position at time \\(t\\); \\(x_0\\) (read \"x-naught\") is the <b>initial</b> position, its value at \\(t = 0\\); \\(v_0\\) is the initial velocity; \\(a\\) is the constant acceleration; \\(t\\) is the elapsed time.<br><br>Cue: \\(x\\) is a position rather than a distance, and \\(x - x_0\\) is the displacement. Setting \\(x_0 = 0\\) shortens the equation to \\(x = v_0 t + \\tfrac{1}{2} a t^2\\), but only once you have actually put the origin at the starting point.<br><br>Pitfall: the four kinematic equations hold only while the acceleration \\(a\\) stays constant.",
   "source": "physics",
   "segment": 2,
   "from_idx": [
@@ -615,7 +615,7 @@
   "block": "F_kinematic_equations",
   "numeric": false,
   "verified_against": "printed p. 29 (physical p. 50), Eq. 2-11b read from the rendered page",
-  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze; stem re-cued by the set rather than by 'for motion with constant acceleration', which sat on four fronts and pre-answered the validity card",
+  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze; stem re-cued by the set rather than by 'for motion with constant acceleration', which sat on four fronts and pre-answered the validity card; corrected in the 2026-08-31 post-hand-off re-read (see REPORT.md 'Second pass')",
   "needs_human_check": false,
   "visual_source": {
    "figures": [

@@ -176,6 +176,24 @@ def segment_range(source, n):
     sys.exit(f"ERROR: source '{source['id']}' has no segment {n}. Available: {have}")
 
 
+def segment_order(source, n):
+    """Zero-padded COURSE position of segment n, from an optional `order` key in the
+    segment map, or "" when the map doesn't carry one.
+
+    Chapter number and teaching order are not the same thing. BIOL 301 teaches
+    9-13 -> 2-7 -> 14-18 -> 23, so a deck named by chapter number sorts into nonsense.
+    A source whose segments carry `order` can put `{segment_order}` in its deck template
+    to make the deck list sort in the order the material is actually taught. Sources
+    without `order` are unaffected."""
+    smap = load_segments(source)
+    if not smap:
+        return ""
+    for s in smap["segments"]:
+        if s["n"] == n and s.get("order") is not None:
+            return str(s["order"]).zfill(2)
+    return ""
+
+
 def segment_of_page(source, page_label):
     """(n, name) for the segment containing a page, or (None, None)."""
     smap = load_segments(source)
@@ -249,6 +267,12 @@ def _fill(template, source, segment):
            .replace("{segment}", "" if segment is None else str(segment))
            .replace("{segment_noun}", segment_noun(source))
            .replace("{id}", source.get("id", "")))
+    if "{segment_order}" in out:
+        order = "" if segment is None else segment_order(source, segment)
+        # A chapter the course never reaches has no order. Drop the separator with it
+        # so the deck is "Chapter 1 - ..." rather than " - Chapter 1 - ...".
+        out = (out.replace("{segment_order} - ", "").replace("{segment_order}", "")
+               if not order else out.replace("{segment_order}", order))
     if "{segment_name}" in out:
         name = ""
         if segment is not None and source.get("segments"):
@@ -303,7 +327,8 @@ def audit_deck(source, segment=None):
     template = (source.get("deck") or source.get("promote") or "{root}::Book Highlights")
     deck = _fill(template, source, segment)
     leaf = template.split("::")[-1]
-    if not any(t in leaf for t in ("{segment}", "{segment_pad}", "{segment_name}")) and "::" in deck:
+    if not any(t in leaf for t in ("{segment}", "{segment_pad}", "{segment_name}",
+                                   "{segment_order}")) and "::" in deck:
         return "::".join(deck.split("::")[:-1])
     return deck or source.get("deck_root", "all")
 
