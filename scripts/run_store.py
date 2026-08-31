@@ -92,11 +92,20 @@ def start_run(source, segment, note=None, rid=None):
 
 def snapshot(run, name, obj):
     """Store an immutable copy of an input or output (highlights.json / cards.json)."""
-    _write_json(os.path.join(run, name), obj)
+    _write_json(os.path.join(run, _named(name, ".json")), obj)
+
+
+def _named(name, ext):
+    """Callers pass either a bare stem ("provenance") or the full filename
+    ("provenance.jsonl"); both must land on the same file. Bare stems used to write an
+    extensionless `provenance`, and `anki_write.py --run` then hard-failed looking for
+    `provenance.jsonl` with no hint that the name was the problem (hazard, 2026-08-31)."""
+    return name if os.path.splitext(name)[1] else name + ext
 
 
 def record(run, name, obj):
     """Append one JSONL record (provenance / decisions / dropped)."""
+    name = _named(name, ".jsonl")
     with open(os.path.join(run, name), "a") as f:
         f.write(json.dumps(obj, ensure_ascii=False) + "\n")
 
@@ -196,12 +205,32 @@ def all_runs():
 
 # ----------------------------------------------------------------------------- cli
 
+def self_test():
+    """R62 — a bare stem and a full filename must land on the SAME file."""
+    ok = True
+    for name, ext, want in [("provenance", ".jsonl", "provenance.jsonl"),
+                            ("provenance.jsonl", ".jsonl", "provenance.jsonl"),
+                            ("decisions", ".jsonl", "decisions.jsonl"),
+                            ("cards", ".json", "cards.json"),
+                            ("cards.json", ".json", "cards.json"),
+                            ("highlights.json", ".json", "highlights.json")]:
+        got = _named(name, ext)
+        if got != want:
+            print(f"  FAIL  _named({name!r}, {ext!r}) -> {got!r}, want {want!r}")
+            ok = False
+    print("run_store self-test:", "OK" if ok else "FAILED")
+    return ok
+
+
 def main():
     args = sys.argv[1:]
     if not args or args[0] in ("-h", "--help"):
         print(__doc__)
         return
     cmd = args[0]
+
+    if cmd in ("self-test", "self_test"):
+        sys.exit(0 if self_test() else 1)
 
     if cmd == "list":
         want = args[1] if len(args) > 1 else None

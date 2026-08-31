@@ -1,0 +1,742 @@
+[
+ {
+  "Text": "The branch of physics called {{c1::mechanics}} is the study of {{c2::the motion of objects}}, together with force and energy.",
+  "Back Extra": "Why: the modern understanding of motion was established in the sixteenth and seventeenth centuries, above all by Galileo Galilei and Isaac Newton.<br><br>Ex: a baseball's flight, a braking automobile, a jogger, and even the motion of the Sun and Moon are all mechanics.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   0
+  ],
+  "block": "A_mechanics_framing",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Mechanics divides into two parts, {{c1::kinematics}}, the description of <i>how</i> objects move, and {{c2::dynamics}}, which deals with force and <i>why</i> objects move as they do.",
+  "Back Extra": "Cue: kinematics asks <b>how</b>; dynamics asks <b>why</b> — force is the word that separates them.<br><br>Ex: working out how far a braking car travels is kinematics; explaining that a force is what slowed it is dynamics.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   1
+  ],
+  "block": "A_mechanics_framing",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "<b>Translational motion</b> is {{c1::movement of an object without any rotation}}.",
+  "Back Extra": "Ex: \"For now we only discuss objects that move without rotating. Such motion is called <b>translational motion</b>.\"<br><br>Parts: <i>trans-</i> (across) + <i>-lation</i> (carrying) — the whole object is carried from one place to another.<br><br>Distinguish: rotation is spinning about an axis; a falling pinecone that also spins is doing both at once.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   2
+  ],
+  "block": "B_frames_displacement_vectors",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "lexicon anchor kept external: lexicon.py --find matched p191 \"Translational Motion is one of several great conservation laws\" — a momentum-conservation heading, not a definition of the term",
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "43"
+   ],
+   "figures": [
+    "figures/study/FIGURE_2_1.png"
+   ],
+   "labels": [
+    "FIGURE 2-1"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_1.png",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "translational motion",
+   "term_key": "transl_motion",
+   "anchor": {
+    "method": "external"
+   }
+  },
+  "image_side": "back"
+ },
+ {
+  "Text": "In physics, a <b>particle</b> is {{c1::an idealized point with no size}}.",
+  "Back Extra": "Ex: \"We will often use the concept, or model, of an idealized <b>particle</b> which is considered to be a mathematical point with no spatial extent.\"<br><br>Why: a point has no size, so it cannot spin — a point particle can undergo only translational motion.<br><br>Cue: a real object counts as a particle whenever only its overall motion matters — a billiard ball, or even a spacecraft traveling toward the Moon.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   3
+  ],
+  "block": "B_frames_displacement_vectors",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "lexicon anchor kept external: --find matched p61 \"particle is moving toward decreasing acceleration ... is the slope of\" — graph-reading prose, not a definition",
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "particle",
+   "term_key": "particl",
+   "anchor": {
+    "method": "external"
+   }
+  }
+ },
+ {
+  "Text": "Any measurement of position, distance, or speed must be made with respect to a {{c1::reference frame}}.",
+  "Back Extra": "Ex: a person walking toward the front of a train moves at 5 km/h with respect to the train, but at 85 km/h with respect to the ground when the train travels 80 km/h.<br><br>Pitfall: a speed quoted with nothing to measure it against is incomplete — \"80 km/h\" only means something once you say <i>relative to what</i>.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   4
+  ],
+  "block": "B_frames_displacement_vectors",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "An object's {{c1::displacement}} is {{c2::its change in position}}.",
+  "Back Extra": "Distinguish: distance is the whole path length actually traveled; displacement is only how far the object ends up from where it started.<br><br>Ex: walking 70 m east and then 30 m west covers 100 m of distance but gives a displacement of only 40 m east.<br><br>Pitfall: the displacement may not equal the total distance traveled.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   5
+  ],
+  "block": "B_frames_displacement_vectors",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "44"
+   ],
+   "figures": [
+    "figures/study/FIGURE_2_4.png"
+   ],
+   "labels": [
+    "FIGURE 2-4"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_4.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "The <b>change in</b> any quantity means {{c1::the final value minus the initial value}}.",
+  "Back Extra": "Cue: the Greek letter <b>Δ</b> (delta) in front of a symbol is shorthand for \"change in\", so \\(\\Delta x = x_2 - x_1\\) is the displacement and \\(\\Delta t = t_2 - t_1\\) is the elapsed time.<br><br>Pitfall: the order matters — always final minus initial, never the reverse, or every sign flips.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   8
+  ],
+  "block": "B_frames_displacement_vectors",
+  "numeric": false,
+  "verified_against": "printed p. 23 (physical p. 44), read from the rendered page",
+  "verified_by": "visual: the sentence and the Δ convention read directly off the page render",
+  "needs_human_check": false,
+  "visual_source": {
+   "figures": [
+    "work/physics/page_44.png"
+   ],
+   "note": "read the change-in-quantity sentence and the Δx = x2 - x1 definition off the rendered page; the mark's text layer did not resolve"
+  },
+  "image": null
+ },
+ {
+  "Text": "In physics, a quantity's <b>magnitude</b> is {{c1::its size or numerical value, apart from direction}}.",
+  "Back Extra": "Ex: \"the blue arrow represents the displacement whose <b>magnitude</b> is 40 m and whose direction is to the right (east).\"<br><br>Distinguish: magnitude answers <i>how much</i>; direction answers <i>which way</i> — a vector needs both.<br><br>Pitfall: a magnitude is never negative; in one-dimensional motion the minus sign sits in front of the magnitude and carries the direction.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   6
+  ],
+  "block": "B_frames_displacement_vectors",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "lexicon anchor promoted to in_source after the nearest-page fix: lexicon.py --find now lands on p44, Parker's own page, quoting \"magnitude (numerical value)\", which agrees with the authored answer",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "44"
+   ],
+   "figures": [
+    "figures/study/FIGURE_2_4.png"
+   ],
+   "labels": [
+    "FIGURE 2-4"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_4.png",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "magnitude",
+   "term_key": "magnitud",
+   "anchor": {
+    "method": "in_source",
+    "page": "44"
+   }
+  },
+  "image_side": "back"
+ },
+ {
+  "Text": "A <b>vector</b> is {{c1::a quantity having both size and direction}}.",
+  "Back Extra": "Ex: \"Displacement is a quantity that has both magnitude and direction. Such quantities are called <b>vectors</b>.\"<br><br>Cue: vectors are drawn as arrows — the arrow's length is the magnitude, the way it points is the direction.<br><br>Distinguish: distance is just a number with units; displacement is a vector, so it also names a direction.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   7
+  ],
+  "block": "B_frames_displacement_vectors",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "lexicon anchor kept external: after the nearest-page fix --find matches p19 \"vectors are shown in boldface with a small arrow above: F\" — a front-matter notation convention, not a definition of what a vector is",
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "44"
+   ],
+   "figures": [
+    "figures/study/FIGURE_2_4.png"
+   ],
+   "labels": [
+    "FIGURE 2-4"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_4.png",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "vectors",
+   "term_key": "vector",
+   "anchor": {
+    "method": "external"
+   }
+  },
+  "image_side": "back"
+ },
+ {
+  "Text": "An object's {{c1::average speed}} is its {{c2::total distance traveled divided by the time elapsed}}.",
+  "Back Extra": "Distinguish: average speed counts every metre covered, including any doubling back, and is always a plain positive number with units.<br><br>Ex: a car that travels 240 km in 3 h has an average speed of 80 km/h.<br><br>Pitfall: averaging two speeds does not give the average speed — 50 km/h for one leg and 100 km/h for another does not come to 75 km/h.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   9,
+   10
+  ],
+  "block": "C_speed_and_velocity",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "44"
+   ],
+   "figures": [
+    "figures/study/FIGURE_2_4.png"
+   ],
+   "labels": [
+    "FIGURE 2-4"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_4.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "<b>Speed</b> is simply a positive number with units, while <b>velocity</b> signifies both how fast an object is moving and {{c1::the direction in which it is moving}}.",
+  "Back Extra": "Distinguish: in ordinary language \"speed\" and \"velocity\" are used interchangeably; in physics they are not.<br><br>Pitfall: because velocity carries direction, its sign matters — an object moving left along the <i>x</i> axis has a negative velocity, while its speed stays positive.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   11
+  ],
+  "block": "C_speed_and_velocity",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Unlike speed, velocity is not just a number — in physics velocity is classified as a {{c1::vector}}.",
+  "Back Extra": "Why: velocity carries a direction as well as a magnitude, and a quantity with both is a vector.<br><br>Cue: vectors are drawn as arrows, so a velocity can be pictured as an arrow whose length is the speed.<br><br>Distinguish: speed has no direction attached, so speed is not a vector.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   12
+  ],
+  "block": "C_speed_and_velocity",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "<b>Average velocity</b> is defined in terms of {{c1::displacement}}, rather than total distance traveled.",
+  "Back Extra": "Distinguish: average <i>speed</i> uses the total distance along the path; average <i>velocity</i> uses displacement, so the two differ whenever the motion reverses.<br><br>Ex: walking 70 m east then 30 m west in 70 s gives an average speed of 1.4 m/s but an average velocity of only 0.57 m/s.<br><br>Pitfall: average speed is not necessarily equal to the magnitude of the average velocity.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   13
+  ],
+  "block": "C_speed_and_velocity",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "44"
+   ],
+   "figures": [
+    "figures/study/FIGURE_2_4.png"
+   ],
+   "labels": [
+    "FIGURE 2-4"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_4.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "Give the equation for <b>average velocity</b> in words: {{c1::displacement / time elapsed}}.",
+  "Back Extra": "Meaning: written out in full, the same equation is (final position − initial position) / time elapsed.<br><br>Distinguish: average speed uses the length of the path actually walked; average velocity uses only how far the endpoint sits from the start.<br><br>Pitfall: displacement can be negative, so average velocity can be negative — average speed never is.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   16
+  ],
+  "block": "C_speed_and_velocity",
+  "numeric": false,
+  "verified_against": "printed p. 24 (physical p. 45), read from the rendered page",
+  "verified_by": "visual: the word-form equation read directly off the page render",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "44"
+   ],
+   "figures": [
+    "figures/study/FIGURE_2_4.png"
+   ],
+   "labels": [
+    "FIGURE 2-4"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_4.png",
+  "image_side": "back"
+ },
+ {
+  "Text": "The <b>elapsed time</b>, or time interval, is written {{c1::\\(\\Delta t = t_2 - t_1\\)}}.",
+  "Back Extra": "Meaning: \\(t_1\\) is the earlier (initial) time and \\(t_2\\) the later (final) time, so \\(\\Delta t\\) is always final minus initial.<br><br>Cue: \\(\\Delta\\) is read \"change in\", and the same pattern gives the displacement \\(\\Delta x = x_2 - x_1\\).<br><br>Pitfall: it is always worth choosing and stating the interval — the elapsed time is the time that passes during the chosen period of observation.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   14
+  ],
+  "block": "C_speed_and_velocity",
+  "numeric": false,
+  "verified_against": "printed p. 24 (physical p. 45), read from the rendered page",
+  "verified_by": "visual: Δt = t2 − t1 read directly off the page render",
+  "needs_human_check": false,
+  "visual_source": {
+   "figures": [
+    "work/physics/page_45.png"
+   ],
+   "note": "read the elapsed-time definition off the rendered page; the mark's text layer did not resolve"
+  },
+  "image": null
+ },
+ {
+  "Text": "Give the equation for <b>average velocity</b> in symbols: {{c1::\\(\\bar v = \\frac{x_2 - x_1}{t_2 - t_1} = \\frac{\\Delta x}{\\Delta t}\\)}}",
+  "Back Extra": "Meaning: \\(\\bar v\\) is the average velocity, and the bar over the <i>v</i> is the standard symbol for \"average\"; \\(x_1\\) and \\(x_2\\) are the positions at the earlier time \\(t_1\\) and the later time \\(t_2\\); \\(\\Delta x\\) is the displacement and \\(\\Delta t\\) the elapsed time.<br><br>Pitfall: if \\(x_2\\) is less than \\(x_1\\) the object moved left, \\(\\Delta x\\) is negative, and so is the average velocity — the sign carries the direction.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   15
+  ],
+  "block": "C_speed_and_velocity",
+  "numeric": false,
+  "verified_against": "printed p. 24 (physical p. 45), Eq. 2-2 read from the rendered page",
+  "verified_by": "visual: the symbolic form confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze",
+  "needs_human_check": false,
+  "visual_source": {
+   "figures": [
+    "work/physics/page_45.png"
+   ],
+   "note": "Eq. 2-2 read off the rendered page (the PDF text layer mangles the bar, subscripts and Δ)"
+  },
+  "image": null
+ },
+ {
+  "Text": "<b>Instantaneous velocity</b> is the velocity at a single instant, defined precisely as {{c1::the average velocity}} taken over {{c2::an infinitesimally short time interval}}.",
+  "Back Extra": "Cue: the magnitude of the instantaneous velocity is the number, with units, that a speedometer shows.<br><br>Meaning: \"infinitesimally short\" means the elapsed time \\(\\Delta t\\) is allowed to shrink toward zero.<br><br>Distinguish: average velocity is taken over a whole finite interval, so a car with a 75 km/h average was almost certainly not moving at exactly 75 km/h at every instant.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   17
+  ],
+  "block": "D_instantaneous_velocity",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Give the equation defining <b>instantaneous velocity</b>: {{c1::\\(v = \\lim_{\\Delta t \\to 0} \\frac{\\Delta x}{\\Delta t}\\)}}",
+  "Back Extra": "Meaning: \\(\\Delta x\\) is the displacement during the short interval \\(\\Delta t\\), and \\(\\lim_{\\Delta t \\to 0}\\) means the ratio \\(\\Delta x / \\Delta t\\) is evaluated as \\(\\Delta t\\) shrinks toward zero.<br><br>Distinguish: the symbol for instantaneous velocity is a plain \\(v\\); average velocity gets a bar, \\(\\bar v\\).<br><br>Pitfall: from here on, \"velocity\" on its own means <i>instantaneous</i> velocity.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   18
+  ],
+  "block": "D_instantaneous_velocity",
+  "numeric": false,
+  "verified_against": "printed p. 25 (physical p. 46), Eq. 2-3 read from the rendered page",
+  "verified_by": "visual: the limit form confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze",
+  "needs_human_check": false,
+  "visual_source": {
+   "figures": [
+    "work/physics/page_46.png"
+   ],
+   "note": "Eq. 2-3 read off the rendered page"
+  },
+  "image": null
+ },
+ {
+  "Text": "An object is <b>accelerating</b> whenever {{c1::its velocity is changing}}. Acceleration specifies how rapidly that change happens.",
+  "Back Extra": "Ex: a car whose velocity increases in magnitude from zero to 80 km/h is accelerating.<br><br>Pitfall: acceleration tells how quickly the <i>velocity</i> changes, whereas velocity tells how quickly the <i>position</i> changes — do not swap them.<br><br>Distinguish: a zero velocity does not mean a zero acceleration — a car at rest with your foot going down on the gas has \\(v = 0\\) but \\(a \\ne 0\\).",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   19,
+   20
+  ],
+  "block": "E_acceleration",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Give the equation for <b>average acceleration</b> in words: {{c1::change of velocity / time elapsed}}.",
+  "Back Extra": "Meaning: the \"change of velocity\" is the final velocity minus the initial velocity.<br><br>Distinguish: average velocity is built from a change in <i>position</i>; average acceleration is built from a change in <i>velocity</i>.<br><br>Pitfall: the units come out as velocity units per unit time — m/s per second, which is written m/s².",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   24
+  ],
+  "block": "E_acceleration",
+  "numeric": false,
+  "verified_against": "printed p. 26 (physical p. 47), read from the rendered page",
+  "verified_by": "visual: the word-form equation read directly off the page render",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "49"
+   ],
+   "figures": [
+    "figures/study/FIGURE_2_13.jpg"
+   ],
+   "labels": [
+    "FIGURE 2-13"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_13.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Give the equation for <b>average acceleration</b> in symbols: {{c1::\\(\\bar a = \\frac{v_2 - v_1}{t_2 - t_1} = \\frac{\\Delta v}{\\Delta t}\\)}}",
+  "Back Extra": "Meaning: \\(\\bar a\\) is the average acceleration, the bar meaning \"average\"; \\(v_1\\) is the velocity at the earlier time \\(t_1\\) and \\(v_2\\) the velocity at the later time \\(t_2\\); \\(\\Delta v\\) is the change in velocity and \\(\\Delta t\\) the elapsed time.<br><br>Ex: a car going from rest to 75 km/h in 5.0 s has \\(\\bar a\\) = 15 km/h per second, which is 4.2 m/s².<br><br>Pitfall: acceleration is a vector, so in one-dimensional motion a plus or minus sign carries its direction — usually right is +, left is −.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   21
+  ],
+  "block": "E_acceleration",
+  "numeric": false,
+  "verified_against": "printed p. 26 (physical p. 47), Eq. 2-4 read from the rendered page",
+  "verified_by": "visual: the symbolic form confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze",
+  "needs_human_check": false,
+  "visual_source": {
+   "figures": [
+    "work/physics/page_47.png"
+   ],
+   "note": "Eq. 2-4 read off the rendered page"
+  },
+  "image": null
+ },
+ {
+  "Text": "<b>Instantaneous acceleration</b> at a given instant is defined as {{c1::the average acceleration}} taken over {{c2::an infinitesimally short time interval}}.",
+  "Back Extra": "Cue: it is built exactly the way instantaneous velocity is — take the average over an interval, then let that interval shrink toward zero.<br><br>Meaning: the \\(\\Delta v\\) involved is the very small change in velocity during the very short time interval \\(\\Delta t\\).<br><br>Distinguish: instantaneous acceleration is a plain \\(a\\); average acceleration carries a bar, \\(\\bar a\\).",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   22
+  ],
+  "block": "E_acceleration",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "49"
+   ],
+   "figures": [
+    "figures/study/FIGURE_2_13.jpg"
+   ],
+   "labels": [
+    "FIGURE 2-13"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_13.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "Give the equation for <b>instantaneous acceleration</b>: {{c1::\\(a = \\lim_{\\Delta t \\to 0} \\frac{\\Delta v}{\\Delta t}\\)}}",
+  "Back Extra": "Meaning: \\(\\Delta v\\) is the very small change in velocity during the very short time interval \\(\\Delta t\\), and \\(\\lim_{\\Delta t \\to 0}\\) means the ratio is evaluated as \\(\\Delta t\\) shrinks toward zero.<br><br>Distinguish: the same limit applied to \\(\\Delta x / \\Delta t\\) instead gives the instantaneous <i>velocity</i>.<br><br>Cue: drop the limit and the bar comes back — over a finite interval it is \\(\\bar a\\).",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   23
+  ],
+  "block": "E_acceleration",
+  "numeric": false,
+  "verified_against": "printed p. 26 (physical p. 47), Eq. 2-5 read from the rendered page",
+  "verified_by": "visual: the limit form confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze",
+  "needs_human_check": false,
+  "visual_source": {
+   "figures": [
+    "work/physics/page_47.png"
+   ],
+   "note": "Eq. 2-5 read off the rendered page"
+  },
+  "image": null
+ },
+ {
+  "Text": "An object is <b>decelerating</b> whenever {{c1::the magnitude of its velocity is decreasing}}.",
+  "Back Extra": "Pitfall: deceleration does <b>not</b> mean that the acceleration is negative. A car moving to the left along a decreasing <i>x</i> axis and slowing down has a <i>positive</i> acceleration.<br><br>Ex: a car moving right along the +<i>x</i> axis and braking has a negative acceleration; the same car moving left and braking has a positive one.<br><br>Cue: what makes it deceleration is that the speed is dropping, not the sign of \\(a\\).",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   25,
+   26
+  ],
+  "block": "E_acceleration",
+  "numeric": false,
+  "verified_against": "printed p. 27 (physical p. 48), read from the rendered page",
+  "verified_by": "visual: the Deceleration paragraph read directly off the page render",
+  "needs_human_check": false,
+  "visual_source": {
+   "figures": [
+    "work/physics/page_48.png"
+   ],
+   "note": "read the Deceleration paragraph off the rendered page; one of the marks' text layer did not resolve"
+  },
+  "image": null
+ },
+ {
+  "Text": "When an object is decelerating, its velocity and its acceleration point in {{c1::opposite::the same/opposite}} directions.",
+  "Back Extra": "Why: an acceleration pointing against the motion is exactly what makes the speed drop.<br><br>Ex: a car moving right at 15.0 m/s that brakes to 5.0 m/s in 5.0 s has \\(\\bar a = -2.0\\) m/s² — velocity to the right, acceleration to the left.<br><br>Distinguish: when velocity and acceleration point the <i>same</i> way, the object speeds up instead.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   26
+  ],
+  "block": "E_acceleration",
+  "numeric": false,
+  "verified_against": "printed p. 27 (physical p. 48), read from the rendered page",
+  "verified_by": "visual: the velocity/acceleration direction statement read off the page render",
+  "needs_human_check": false,
+  "visual_source": {
+   "figures": [
+    "work/physics/page_48.png"
+   ],
+   "note": "read the Deceleration paragraph off the rendered page; the mark's text layer did not resolve"
+  },
+  "image": null
+ },
+ {
+  "Text": "For motion with <b>constant acceleration</b>, give the kinematic equation for the velocity \\(v\\) after an elapsed time \\(t\\): {{c1::\\(v = v_0 + at\\)}}",
+  "Back Extra": "Meaning: \\(v\\) is the velocity at time \\(t\\); \\(v_0\\) (read \"v-naught\") is the <b>initial</b> velocity, its value at \\(t = 0\\); \\(a\\) is the constant acceleration; \\(t\\) is the elapsed time.<br><br>Cue: this is the only one of the four with no position term in it at all.<br><br>Pitfall: the four kinematic equations hold only while the acceleration \\(a\\) stays constant.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   27
+  ],
+  "block": "F_kinematic_equations",
+  "numeric": false,
+  "verified_against": "printed p. 29 (physical p. 50), Eq. 2-11a read from the rendered page",
+  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze",
+  "needs_human_check": false,
+  "visual_source": {
+   "figures": [
+    "work/physics/page_50.png"
+   ],
+   "note": "Eqs. 2-11a-d read off the rendered page"
+  },
+  "image": null
+ },
+ {
+  "Text": "For motion with <b>constant acceleration</b>, give the kinematic equation for the position \\(x\\) after an elapsed time \\(t\\): {{c1::\\(x = x_0 + v_0 t + \\tfrac{1}{2} a t^2\\)}}",
+  "Back Extra": "Meaning: \\(x\\) is the position at time \\(t\\); \\(x_0\\) (read \"x-naught\") is the <b>initial</b> position, its value at \\(t = 0\\); \\(v_0\\) is the initial velocity; \\(a\\) is the constant acceleration; \\(t\\) is the elapsed time.<br><br>Cue: \\(x\\) is a position rather than a distance, and \\(x - x_0\\) is the displacement.<br><br>Pitfall: setting \\(x_0 = 0\\) shortens it to \\(x = v_0 t + \\tfrac{1}{2} a t^2\\), but only once you have actually put the origin at the starting point. The equation holds only while \\(a\\) stays constant.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   27
+  ],
+  "block": "F_kinematic_equations",
+  "numeric": false,
+  "verified_against": "printed p. 29 (physical p. 50), Eq. 2-11b read from the rendered page",
+  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze",
+  "needs_human_check": false,
+  "visual_source": {
+   "figures": [
+    "work/physics/page_50.png"
+   ],
+   "note": "Eqs. 2-11a-d read off the rendered page"
+  },
+  "image": null
+ },
+ {
+  "Text": "For motion with <b>constant acceleration</b>, give the kinematic equation that relates velocity to position with no time term in it: {{c1::\\(v^2 = v_0^2 + 2a(x - x_0)\\)}}",
+  "Back Extra": "Meaning: \\(v\\) is the velocity at position \\(x\\); \\(v_0\\) is the initial velocity at the initial position \\(x_0\\); \\(a\\) is the constant acceleration; \\(x - x_0\\) is the displacement.<br><br>Cue: reach for this one whenever the elapsed time \\(t\\) is neither known nor asked for.<br><br>Pitfall: the four kinematic equations hold only while the acceleration \\(a\\) stays constant.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   27
+  ],
+  "block": "F_kinematic_equations",
+  "numeric": false,
+  "verified_against": "printed p. 29 (physical p. 50), Eq. 2-11c read from the rendered page",
+  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze",
+  "needs_human_check": false,
+  "visual_source": {
+   "figures": [
+    "work/physics/page_50.png"
+   ],
+   "note": "Eqs. 2-11a-d read off the rendered page"
+  },
+  "image": null
+ },
+ {
+  "Text": "For motion with <b>constant acceleration</b>, give the kinematic equation for the average velocity \\(\\bar v\\) in terms of the initial and final velocities: {{c1::\\(\\bar v = \\frac{v + v_0}{2}\\)}}",
+  "Back Extra": "Meaning: \\(\\bar v\\) is the average velocity over the interval; \\(v_0\\) is the initial velocity and \\(v\\) the final velocity.<br><br>Distinguish: this midpoint shortcut holds only for constant acceleration, whereas the general definition of average velocity works for any motion at all.<br><br>Pitfall: the four kinematic equations hold only while the acceleration \\(a\\) stays constant.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   27
+  ],
+  "block": "F_kinematic_equations",
+  "numeric": false,
+  "verified_against": "printed p. 29 (physical p. 50), Eq. 2-11d read from the rendered page",
+  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze",
+  "needs_human_check": false,
+  "visual_source": {
+   "figures": [
+    "work/physics/page_50.png"
+   ],
+   "note": "Eqs. 2-11a-d read off the rendered page"
+  },
+  "image": null
+ },
+ {
+  "Text": "At a given location on the Earth and in the absence of air resistance, all objects fall with {{c1::the same constant acceleration}}.",
+  "Back Extra": "Why: this is Galileo's specific contribution to our understanding of the motion of falling objects.<br><br>Cue: both conditions matter — a given location on the Earth, and no air resistance.<br><br>Pitfall: air resistance is usually small enough to neglect, but it becomes noticeable even on a reasonably heavy object once the velocity becomes large.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   28
+  ],
+  "block": "G_freely_falling_objects",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "54"
+   ],
+   "figures": [
+    "figures/study/FIGURE_2_20.jpg"
+   ],
+   "labels": [
+    "FIGURE 2-20"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_20.jpg",
+  "image_side": "back"
+ },
+ {
+  "Text": "The <b>acceleration due to gravity</b> at the surface of the Earth is given the symbol \\(g\\), and its magnitude is approximately {{c1::9.80 m/s²}}.",
+  "Back Extra": "Distinguish: in British units \\(g\\) is about 32 ft/s².<br><br>Cue: \\(g\\) varies slightly with latitude and elevation on the Earth's surface, but the variations are small enough to ignore for most purposes.<br><br>Pitfall: \\(g\\) is an acceleration, not a force, and the 9.80 value is for the Earth's surface — it does not hold out in space.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   30
+  ],
+  "block": "G_freely_falling_objects",
+  "numeric": true,
+  "verified_against": "printed p. 34 (physical p. 55): \"g = 9.80 m/s2\" and \"In British units g is about 32 ft/s2\"",
+  "verified_by": "visual: both values read directly off the page render",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ },
+ {
+  "Text": "Acceleration due to gravity is a vector like any acceleration, and its direction is {{c1::downward, toward the center of the Earth}}.",
+  "Back Extra": "Pitfall: because \\(g\\) has a direction, its sign depends on which way you chose to call positive — \\(y\\) may be taken as positive upward or downward, but you must be consistent throughout a problem.<br><br>Cue: for freely falling objects, use \\(g\\) in place of \\(a\\) and \\(y\\) in place of \\(x\\), taking \\(y_0 = 0\\) unless stated otherwise.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   29
+  ],
+  "block": "G_freely_falling_objects",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": null,
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "54"
+   ],
+   "figures": [
+    "figures/study/FIGURE_2_19.jpg"
+   ],
+   "labels": [
+    "FIGURE 2-19"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_19.jpg",
+  "image_side": "back"
+ }
+]

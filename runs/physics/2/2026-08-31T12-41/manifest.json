@@ -1,0 +1,37 @@
+{
+ "run_id": "2026-08-31T12-41",
+ "source": "physics",
+ "segment": 2,
+ "started": "2026-08-31T12:41:13",
+ "skill_sha": "e1789019578bd061d04e5b1c26d4ec616b7c1468",
+ "note": "Giancoli ch2 sections 2-1..2-7 (Parker's marks stop on printed p.34, early in 2-7; nothing marked in 2-8). 31 marks -> 32 notes.",
+ "status": "complete",
+ "finished": "2026-08-31T12:49:16",
+ "counts": {
+  "marks": 31,
+  "cards": 32,
+  "notes_written": 32,
+  "figures_kept": 11,
+  "figures_rejected": 11,
+  "lexicon_cards": 4,
+  "dropped": 0
+ },
+ "new_hazards_found": [
+  {
+   "summary": "lexicon.py --find picked the FIRST definition-shaped sentence in book order, so all four of physics ch2's purple words anchored to unrelated pages (magnitude -> order of magnitude; vectors -> a front-matter colour note; translational motion -> a momentum heading 148 pages away). The gate then pressures the drafter to adopt the wrong anchor.",
+   "fix": "lexicon._pick_nearest() prefers the candidate nearest the marked page; anchors >25 pages away are stamped far_from_mark and printed with a SENSE-CHECK. The CLI builds the page hint from the highlights file.",
+   "regression_id": "R61"
+  },
+  {
+   "summary": "run_store.record()/snapshot() wrote an extensionless file for a bare stem, so anki_write.py --run refused the write with a message about provenance.jsonl not existing — an error describing a different failure entirely.",
+   "fix": "run_store._named() appends the extension only when the name has none, so a bare stem and a full filename land on the same file.",
+   "regression_id": "R62"
+  },
+  {
+   "summary": "build_figure_index's vector-render path produced page-region guesses carrying body-text bleed (FIGURE 2-6/2-11/2-12/2-21) and drifted its labels by one (FIGURE 2-2's file is the pinecone art, not the train). All were caught at the judge-look and rejected; two correct plates were force-added.",
+   "known": "already documented in SKILL.md Stage 2.9 ('for vector-art books ... automated region-guessing produced truncated fragments on Snustad ch9'); this run is a second confirmation, not a new failure mode",
+   "mechanizable": false,
+   "why": "telling a complete plate from a page-region guess is exactly the judgement the mandatory judge-look (Stage 2.95) exists to make; a mechanical proxy would either reject legitimate text tables or pass bleedy renders. The existing guard is the right one and it worked."
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "source": "physics",
+ "segment": 2,
+ "figures": [
+  {
+   "figure": "FIGURE 2-11",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_11.png",
+   "caption": "FIGURE 2 ; 11 Example 2 \u2013 6, showing the position of the car at times and as well as the car\u2019s velocity represented by the green arrows. The acceleration vector (orange) points to the left because the car slows down as it moves to the right. a = 5.0 m \u0002 s - 15.0 m \u0002 s 5.0 s = \u2013 2.0 m \u0002 s 2 .",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 18,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "An object is  accelerating  whenever {{c1::its velocity is changing}}. Acceleration specifies how rapidly that",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 23,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "An object is  decelerating  whenever {{c1::the magnitude of its velocity is decreasing}}.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-13",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_13.jpg",
+   "caption": "FIGURE 2 ; 13 An accelerating motorcycle. t v = 0 + a t = A 4.0 m \u0002 s 2 B ( 6.0 s ) = 24 m \u0002 s. Next, let us see how to calculate the position x of an object after a time when it undergoes constant acceleration. The definition of average velocity (Eq. 2 \u2013 2) is which we can rewrite by multiplying both sides by",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 19,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "Give the equation for  average acceleration  in words: {{c1::change of velocity / time elapsed}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 21,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": " Instantaneous acceleration  at a given instant is defined as {{c1::the average acceleration}} taken over {{c2",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-19",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_19.jpg",
+   "caption": "FIGURE 2 ; 19 Multiflash photograph of a falling apple, at equal time intervals. The apple falls farther during each successive interval, which means it is accelerating. 2\u20137 Freely Falling Objects One of the most common examples of uniformly accelerated motion is that of an object allowed to fall freely near the Earth\u2019s surface. That a falling object is accelerating may not be obvious at first. And beware of thinking, as was widely believed before the time of Galileo (Fig. 2 \u2013 18), that heavier objects fall faster than lighter objects and that the speed of fall is proportional to how heavy the object is. The speed of a falling object is not proportional to its mass.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 31,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "Acceleration due to gravity is a vector like any acceleration, and its direction is {{c1::downward, toward the",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-2",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_2.png",
+   "caption": "FIGURE 2 ; 2 A person walks toward the front of a train at The train is moving with respect to the ground, so the walking person\u2019s speed, relative to the ground, is 85 km \u0002 h. 80 km \u0002 h 5 km \u0002 h. When specifying the motion of an object, it is important to specify not only the speed but also the direction of motion. Often we can specify a direction by using north, east, south, and west, and by \u201cup\u201d and \u201cdown.\u201d In physics, we often draw a set of coordinate axes , as shown in Fig. 2 \u2013 3, to represent a frame of reference. We can always place the origin 0, and the directions of the x and y axes, as we like for convenience. The x and y axes are always perpendicular to each other. The origin is where Objects positioned to the right of the origin of coordinates (0) on the x axis have an x coordinate which we almost always choose to be positive; then points to the left of 0 have a negative x coordinate. The position along the y axis is usually considered positive when above 0, and negative when below 0, although the reverse convention can be used if convenient. Any point on the plane can be specified by giving its x and y coor- dinates. In three dimensions, a z axis perpendicular to the x and y axes is added.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 10,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": " Speed  is simply a positive number with units, while  velocity  signifies both how fast an object is moving a",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 0,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "The branch of physics called {{c1::mechanics}} is the study of {{c2::the motion of objects}}, together with fo",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 4,
+     "tier": "context",
+     "coverage": 1.0,
+     "text": "Any measurement of position, distance, or speed must be made with respect to a {{c1::reference frame}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 3,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "In physics, a  particle  is {{c1::an idealized point with no size}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 2,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": " Translational motion  is {{c1::movement of an object without any rotation}}.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-21",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_21.png",
+   "caption": "FIGURE 2 ; 21 A rock and a feather are dropped simultaneously (a) in air, (b) in a vacuum. Galileo was sure that air acts as a resistance to very light objects that have a large surface area. But in many ordinary circumstances this air resistance is negligible. In a chamber from which the air has been removed, even light objects like a feather or a horizontally held piece of paper will fall with the same acceleration as any other object (see Fig. 2 \u2013 21). Such a demonstration in vacuum was not possible in Galileo\u2019s time, which makes Galileo\u2019s achievement all the greater. Galileo is often called the \u201cfather of modern science,\u201d not only for the content of his science (astronomical discoveries, inertia, free fall) but also for his new methods of doing science (idealization and simplification, mathe- matization of theory, theories that have testable consequences, experiments to test theoretical predictions). Air-\ufb01lled tube",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 29,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "At a given location on the Earth and in the absence of air resistance, all objects fall with {{c1::the same co",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-4",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_4.png",
+   "caption": "FIGURE 2 ; 4 A person walks 70 m east, then 30 m west. The total distance traveled is 100 m (path is shown dashed in black); but the displacement, shown as a solid blue arrow, is 40 m to the east. We will deal with vectors more fully in Chapter 3. For now, we deal only with motion in one dimension, along a line. In this case, vectors which point in one direc- tion will be positive (typically to the right along the x axis). Vectors that point in the opposite direction will have a negative sign in front of their magnitude. Consider the motion of an object over a particular time interval. Suppose that at some initial time, call it the object is on the x axis at the position in the coordinate system shown in Fig. 2 \u2013 5. At some later time, suppose the object has moved to position The displacement of our object is and is represented by the arrow pointing to the right in Fig. 2 \u2013 5. It is convenient to write",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 12,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": " Average velocity  is defined in terms of {{c1::displacement}}, rather than total distance traveled.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 5,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "An object's {{c1::displacement}} is {{c2::its change in position}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 13,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "Give the equation for  average velocity  in words: {{c1::displacement / time elapsed}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 9,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "An object's {{c1::average speed}} is its {{c2::total distance traveled divided by the time elapsed}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 16,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": " Instantaneous velocity  is the velocity at a single instant, defined precisely as {{c1::the average velocity}",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 6,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "The  change in  any quantity means {{c1::the final value minus the initial value}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 8,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": "A  vector  is {{c1::a quantity having both size and direction}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 7,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "In physics, a quantity's  magnitude  is {{c1::its size or numerical value, apart from direction}}.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 2-6",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_6.png",
+   "caption": "FIGURE 2 ; 6 For the displacement the displacement vector points left. \u00a2 x = x 2 - x 1 = 10.0 m - 30.0 m, x 1 = 30.0 m",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 11,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Unlike speed, velocity is not just a number \u2014 in physics velocity is classified as a {{c1::vector}}.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  }
+ ]
+}

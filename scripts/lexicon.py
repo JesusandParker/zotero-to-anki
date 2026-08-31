@@ -167,11 +167,39 @@ def self_test():
         if ka == kb:
             print(f"  FAIL  {a} and {b} wrongly merge at ({ka})")
             ok = False
+    # --- nearest-page anchor picking (hazard 2026-08-31, physics ch2) ---------
+    CANDS = [(16, "front matter"), (39, "order of magnitude"), (44, "the real one"),
+             (191, "much later")]
+    for hint, want, label in [
+        (44,   44,  "exact page wins"),
+        (45,   44,  "one page off still wins"),
+        (40,   39,  "nearest wins even when it is the wrong-sense one (distance is a "
+                    "signal, not a proof — that is what far_from_mark/SENSE-CHECK is for)"),
+        (None, 16,  "no hint reproduces the old first-in-book-order behaviour"),
+    ]:
+        got, _ = _pick_nearest(CANDS, hint)
+        if got[0] != want:
+            print(f"  FAIL  _pick_nearest(hint={hint}) -> p{got[0]}, want p{want} ({label})")
+            ok = False
+    if _pick_nearest([], 44) != (None, None):
+        print("  FAIL  _pick_nearest with no candidates should be (None, None)")
+        ok = False
+    got, dist = _pick_nearest(CANDS, 44)
+    if dist != 0:
+        print(f"  FAIL  _pick_nearest distance should be 0 on an exact hit, got {dist}")
+        ok = False
+    _, far = _pick_nearest([(191, "much later")], 44)
+    if not (far and far > FAR_FROM_MARK):
+        print("  FAIL  a 147-page gap should exceed FAR_FROM_MARK")
+        ok = False
     print("lexicon self-test:", "OK" if ok else "FAILED")
     return ok
 
 
 # --------------------------------------------------------------- evidence (the anchor)
+
+FAR_FROM_MARK = 25   # pages; past this the anchor is probably a different sense
+
 
 def _whole_pdf_pages(pdf):
     """List of page texts for the whole document, one pdftotext run (pages split on
@@ -355,7 +383,31 @@ def _pick_glossary_entry(term, cands):
     return out
 
 
-def find_evidence(source_id, terms):
+def _pick_nearest(cands, hint):
+    """Pick the definition candidate nearest the page the word was MARKED on.
+
+    `cands` is [(page:int, quote:str), ...] in page order; `hint` is the physical page
+    of Parker's purple mark, or None. With no hint this returns the first candidate,
+    which is exactly the old behaviour.
+
+    Why this exists (hazard found 2026-08-31, physics ch2): Tier 2 used to take the
+    FIRST definition-shaped sentence in book order, so all four of that chapter's
+    purple words anchored to unrelated pages hundreds of pages away — 'magnitude' to
+    ch1's *order of* magnitude, 'vectors' to a front-matter note about figure colours,
+    'translational motion' to a momentum-conservation heading, 'particle' to
+    graph-reading prose. The book almost always defines a word where it first uses it,
+    which is the page Parker was reading, so distance from the mark is the single best
+    available signal for the right SENSE. Ties go to the earlier page.
+    """
+    if not cands:
+        return None, None
+    if hint is None:
+        return cands[0], None
+    best = min(cands, key=lambda c: (abs(c[0] - hint), c[0]))
+    return best, abs(best[0] - hint)
+
+
+def find_evidence(source_id, terms, pages_hint=None):
     """For each term, hunt the source itself for its definition. Returns the evidence
     dict and writes work/<source>/lexicon_evidence.json (merging over any prior run —
     an evidence entry is stable unless the PDF changes).
@@ -368,6 +420,7 @@ def find_evidence(source_id, terms):
       (absent)   — no entry: the card's anchor must say `external`, and verify_report
                    will put it in front of Parker's eyes (R35).
     """
+    pages_hint = pages_hint or {}
     src = S.get_source(source_id)
     _item, pdf = S.resolve_attachment(src)
     pages = _whole_pdf_pages(pdf)
@@ -422,6 +475,7 @@ def find_evidence(source_id, terms):
                 entry["headword"] = g["headword"]
         # Tier 2 — a definition-shaped sentence anywhere in the book.
         pats = _def_patterns(clean_term(term))
+        cands = []
         for pnum, ptext in enumerate(pages, start=1):
             if not ptext or clean_term(term).lower() not in ptext.lower():
                 continue
@@ -431,9 +485,18 @@ def find_evidence(source_id, terms):
             for pat in pats:
                 m = pat.search(ptext)
                 if m:
-                    entry = {"term": clean_term(term), "method": "in_source",
-                             "page": str(pnum), "quote": _norm_ws(m.group(0))[:300]}
+                    cands.append((pnum, _norm_ws(m.group(0))[:300]))
                     break
+        if not entry and cands:
+            (pnum, quote), dist = _pick_nearest(cands, pages_hint.get(key))
+            entry = {"term": clean_term(term), "method": "in_source",
+                     "page": str(pnum), "quote": quote}
+            if dist is not None:
+                entry["page_distance"] = dist
+                # Far from where he met the word is the shape every wrong anchor took.
+                # Keep the tier (the drafter may still confirm it) but say so loudly.
+                if dist > FAR_FROM_MARK:
+                    entry["far_from_mark"] = True
         if entry:
             entry["occurrences"] = occurrences
             evidence[key] = entry
@@ -443,6 +506,9 @@ def find_evidence(source_id, terms):
             evidence.pop(key, None)
         status = entry["method"] if entry else "external"
         via = f"  [via headword '{entry['headword']}' — SENSE-CHECK]" if entry and entry.get("headword") else ""
+        if entry and entry.get("far_from_mark"):
+            via += (f"  [{entry['page_distance']} pages from his mark — SENSE-CHECK, "
+                    f"this is the shape a wrong anchor takes]")
         print(f"  {clean_term(term):30s} -> {status:9s}"
               + (f"  p{entry['page']}  \"{entry['quote'][:60]}…\"{via}" if entry else
                  f"  ({occurrences} occurrence(s), none definition-shaped)"))
@@ -554,14 +620,20 @@ def main():
     if a.self_test:
         sys.exit(0 if self_test() else 1)
     if a.find:
-        terms = list(a.terms or [])
+        terms, pages_hint = list(a.terms or []), {}
         if a.terms_from:
             items = json.load(open(a.terms_from))
-            terms += [i.get("term") or i.get("highlight", "")
-                      for i in items if i.get("kind") == "lexicon"]
+            for i in items:
+                if i.get("kind") != "lexicon":
+                    continue
+                t = i.get("term") or i.get("highlight", "")
+                terms.append(t)
+                # The page he met the word on is the best sense signal available.
+                if i.get("page"):
+                    pages_hint.setdefault(term_key(t), i["page"])
         if not terms:
             sys.exit("ERROR: --find needs --terms or --terms-from")
-        find_evidence(a.find, terms)
+        find_evidence(a.find, terms, pages_hint=pages_hint)
         return
     if a.dedup:
         dedup_report(a.dedup)

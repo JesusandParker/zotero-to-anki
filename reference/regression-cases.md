@@ -791,3 +791,55 @@ plates the credit-pattern gaps (R15's new cases) had dropped from the index.*
 - **MUST NOT OVER-FLAG:** the `Description` stub (short AND close — still refused);
   a following body paragraph (fails the length cap).
 - **Catch test (both ways):** `test_figures.py` case R60.
+
+
+## R61 — A lexicon anchor is picked by DISTANCE from the mark, not by book order
+**Rule:** `lexicon.py --find` Tier 2 must choose, among all definition-shaped sentences
+in the book, the one NEAREST the page Parker's purple mark sits on — not the first one in
+page order. A book almost always defines a word where it first uses it, which is the page
+he was reading, so distance from the mark is the best available signal for the right
+SENSE. Ties go to the earlier page; with no page hint the behaviour is unchanged (first in
+book order). An anchor more than `FAR_FROM_MARK` (25) pages away is kept but stamped
+`far_from_mark` and printed with a loud SENSE-CHECK, because that is the shape every wrong
+anchor took. **Caught by:** `lexicon._pick_nearest()` + `lexicon.py --self-test`.
+
+*Found 2026-08-31, physics ch2, on all four of the chapter's purple words at once.*
+`--find` anchored **magnitude** to p39's *order of* magnitude, **vectors** to a
+front-matter note about figure colours, **translational motion** to a
+momentum-conservation heading 148 pages away, and **particle** to graph-reading prose —
+while the book defines three of the four on the very pages he marked. The danger is not
+the miss but the pressure: `check_cards.lexicon_check` then warns *"an in-source
+definition EXISTS — anchor to it"*, so a drafter following the gate would have written
+"magnitude means a power of ten" and drilled it into permanence. After the fix,
+**magnitude** anchors correctly to p44, his own page, quoting *"magnitude (numerical
+value)"*, and the 148-page anchor is flagged.
+
+**Distance is a signal, not a proof.** The nearest candidate can still be the wrong
+sense (ch2's `particle` and `vectors` remained wrong at 18 and 25 pages). The
+external tier plus the verify report's Vocabulary block stays the backstop; this rule
+only stops the search from preferring a distant match over a local one.
+
+- **MUST CATCH:** a hint on the true page while an earlier page also matches (must pick
+  the true page); a hint one page off (must still pick the near candidate).
+- **MUST NOT OVER-FLAG:** no hint at all — the old first-in-book-order pick must survive
+  unchanged, so every source without page hints behaves exactly as before.
+- **Catch test (both ways):** `lexicon.py --self-test` case `_pick_nearest`.
+
+
+## R62 — A run-store record name is the same file whether or not you type its extension
+**Rule:** `run_store.record()` / `record_many()` / `snapshot()` must write the same file
+for a bare stem (`"provenance"`) as for a full filename (`"provenance.jsonl"`), appending
+the extension only when the name has none. **Caught by:** `run_store._named()` +
+`run_store.py self-test`.
+
+*Found 2026-08-31 while filing the physics ch2 run.* The docstrings name the records
+without extensions ("Append one JSONL record (provenance / decisions / dropped)"), so a
+caller passing `"provenance"` wrote an extensionless `provenance`, and `anki_write.py
+--run` then refused the whole write with *"provenance.jsonl does not exist. Write the
+per-card provenance records first"* — an error that describes a different failure
+entirely and sends the next session off to re-derive records it had already written.
+
+- **MUST CATCH:** a bare stem writing an extensionless file.
+- **MUST NOT OVER-FLAG:** a name that already carries its extension must not gain a
+  second one (`cards.json` stays `cards.json`, never `cards.json.json`).
+- **Catch test (both ways):** `run_store.py self-test`.

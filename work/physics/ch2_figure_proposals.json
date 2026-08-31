@@ -1,0 +1,385 @@
+{
+ "teaches": [
+  {
+   "card_index": 12,
+   "text": " Average velocity  is defined in terms of {{c1::displacement}}, rather than total distance traveled.",
+   "figure": "FIGURE 2-4",
+   "file": "figures/study/FIGURE_2_4.png",
+   "native_file": "figures/FIGURE_2_4.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "displacement"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 5,
+   "text": "An object's {{c1::displacement}} is {{c2::its change in position}}.",
+   "figure": "FIGURE 2-4",
+   "file": "figures/study/FIGURE_2_4.png",
+   "native_file": "figures/FIGURE_2_4.png",
+   "coverage": 0.667,
+   "page_dist": 0,
+   "matched_terms": [
+    "displacement",
+    "position"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 13,
+   "text": "Give the equation for  average velocity  in words: {{c1::displacement / time elapsed}}.",
+   "figure": "FIGURE 2-4",
+   "file": "figures/study/FIGURE_2_4.png",
+   "native_file": "figures/FIGURE_2_4.png",
+   "coverage": 0.667,
+   "page_dist": 1,
+   "matched_terms": [
+    "displacement",
+    "time"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 9,
+   "text": "An object's {{c1::average speed}} is its {{c2::total distance traveled divided by the time elapsed}}.",
+   "figure": "FIGURE 2-4",
+   "file": "figures/study/FIGURE_2_4.png",
+   "native_file": "figures/FIGURE_2_4.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "distance",
+    "time",
+    "total",
+    "traveled"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 19,
+   "text": "Give the equation for  average acceleration  in words: {{c1::change of velocity / time elapsed}}.",
+   "figure": "FIGURE 2-13",
+   "file": "figures/study/FIGURE_2_13.jpg",
+   "native_file": "figures/FIGURE_2_13.jpg",
+   "coverage": 0.5,
+   "page_dist": 2,
+   "matched_terms": [
+    "time",
+    "velocity"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 21,
+   "text": " Instantaneous acceleration  at a given instant is defined as {{c1::the average acceleration}} taken over {{c2",
+   "figure": "FIGURE 2-13",
+   "file": "figures/study/FIGURE_2_13.jpg",
+   "native_file": "figures/FIGURE_2_13.jpg",
+   "coverage": 0.5,
+   "page_dist": 2,
+   "matched_terms": [
+    "acceleration",
+    "average",
+    "time"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 2,
+   "text": "<b>Translational motion</b> is {{c1::movement of an object without any rotation}}.",
+   "figure": "FIGURE 2-1",
+   "file": "figures/study/FIGURE_2_1.png",
+   "native_file": "figures/FIGURE_2_1.png",
+   "coverage": null,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced: the plate IS this card's fact (panel a pure translation, panel b rotating too); the matcher scores cloze answers only and never saw it",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 29,
+   "text": "At a given location on the Earth and in the absence of air resistance, all objects fall with {{c1::the same co",
+   "figure": "FIGURE 2-20",
+   "file": "figures/study/FIGURE_2_20.jpg",
+   "native_file": "figures/FIGURE_2_20.jpg",
+   "coverage": null,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced: the book's own ball-and-paper drop demonstrating that all objects fall alike",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  }
+ ],
+ "context": [
+  {
+   "card_index": 8,
+   "text": "A  vector  is {{c1::a quantity having both size and direction}}.",
+   "figure": "FIGURE 2-4",
+   "file": "figures/study/FIGURE_2_4.png",
+   "native_file": "figures/FIGURE_2_4.png",
+   "coverage": 0.25,
+   "page_dist": 0,
+   "matched_terms": [
+    "direction"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 31,
+   "text": "Acceleration due to gravity is a vector like any acceleration, and its direction is {{c1::downward, toward the",
+   "figure": "FIGURE 2-19",
+   "file": "figures/study/FIGURE_2_19.jpg",
+   "native_file": "figures/FIGURE_2_19.jpg",
+   "coverage": 0.25,
+   "page_dist": 1,
+   "matched_terms": [
+    "earth"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 7,
+   "text": "In physics, a quantity's  magnitude  is {{c1::its size or numerical value, apart from direction}}.",
+   "figure": "FIGURE 2-4",
+   "file": "figures/study/FIGURE_2_4.png",
+   "native_file": "figures/FIGURE_2_4.png",
+   "coverage": 0.2,
+   "page_dist": 0,
+   "matched_terms": [
+    "direction"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context"
+  }
+ ],
+ "skipped": [],
+ "mode": "generous",
+ "judged": true,
+ "rejected": [
+  {
+   "card_index": 10,
+   "text": " Speed  is simply a positive number with units, while  velocity  signifies both how fast an object is moving a",
+   "figure": "FIGURE 2-2",
+   "file": "figures/study/FIGURE_2_2.png",
+   "native_file": "figures/FIGURE_2_2.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "direction",
+    "moving"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "shows rotation vs translation, nothing about speed versus velocity"
+  },
+  {
+   "card_index": 11,
+   "text": "Unlike speed, velocity is not just a number \u2014 in physics velocity is classified as a {{c1::vector}}.",
+   "figure": "FIGURE 2-6",
+   "file": "figures/study/FIGURE_2_6.png",
+   "native_file": "figures/FIGURE_2_6.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "vector"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "page-region render with body-text bleed, not the book's complete standalone plate (Parker's quality bar: a complete figure or none)"
+  },
+  {
+   "card_index": 0,
+   "text": "The branch of physics called {{c1::mechanics}} is the study of {{c2::the motion of objects}}, together with fo",
+   "figure": "FIGURE 2-2",
+   "file": "figures/study/FIGURE_2_2.png",
+   "native_file": "figures/FIGURE_2_2.png",
+   "coverage": 0.667,
+   "page_dist": 1,
+   "matched_terms": [
+    "motion",
+    "objects"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "a falling pinecone says nothing about what the field of mechanics covers"
+  },
+  {
+   "card_index": 29,
+   "text": "At a given location on the Earth and in the absence of air resistance, all objects fall with {{c1::the same co",
+   "figure": "FIGURE 2-21",
+   "file": "figures/study/FIGURE_2_21.png",
+   "native_file": "figures/FIGURE_2_21.png",
+   "coverage": 0.667,
+   "page_dist": 1,
+   "matched_terms": [
+    "acceleration",
+    "same"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "page-region render with body-text bleed, not the book's complete standalone plate (Parker's quality bar: a complete figure or none)"
+  },
+  {
+   "card_index": 18,
+   "text": "An object is  accelerating  whenever {{c1::its velocity is changing}}. Acceleration specifies how rapidly that",
+   "figure": "FIGURE 2-11",
+   "file": "figures/study/FIGURE_2_11.png",
+   "native_file": "figures/FIGURE_2_11.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "velocity"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "page-region render with body-text bleed, not the book's complete standalone plate (Parker's quality bar: a complete figure or none)"
+  },
+  {
+   "card_index": 4,
+   "text": "Any measurement of position, distance, or speed must be made with respect to a {{c1::reference frame}}.",
+   "figure": "FIGURE 2-2",
+   "file": "figures/study/FIGURE_2_2.png",
+   "native_file": "figures/FIGURE_2_2.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "frame",
+    "reference"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "matched at 1.00 on word overlap but depicts a pinecone, not a reference frame"
+  },
+  {
+   "card_index": 3,
+   "text": "In physics, a  particle  is {{c1::an idealized point with no size}}.",
+   "figure": "FIGURE 2-2",
+   "file": "figures/study/FIGURE_2_2.png",
+   "native_file": "figures/FIGURE_2_2.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "point"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "a pinecone is not a point particle; the plate would invite the wrong picture"
+  },
+  {
+   "card_index": 16,
+   "text": " Instantaneous velocity  is the velocity at a single instant, defined precisely as {{c1::the average velocity}",
+   "figure": "FIGURE 2-4",
+   "file": "figures/study/FIGURE_2_4.png",
+   "native_file": "figures/FIGURE_2_4.png",
+   "coverage": 0.333,
+   "page_dist": 2,
+   "matched_terms": [
+    "interval",
+    "time"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "a whole-walk displacement plate says nothing about an instant"
+  },
+  {
+   "card_index": 23,
+   "text": "An object is  decelerating  whenever {{c1::the magnitude of its velocity is decreasing}}.",
+   "figure": "FIGURE 2-11",
+   "file": "figures/study/FIGURE_2_11.png",
+   "native_file": "figures/FIGURE_2_11.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "velocity"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "page-region render with body-text bleed, not the book's complete standalone plate (Parker's quality bar: a complete figure or none)"
+  },
+  {
+   "card_index": 2,
+   "text": " Translational motion  is {{c1::movement of an object without any rotation}}.",
+   "figure": "FIGURE 2-2",
+   "file": "figures/study/FIGURE_2_2.png",
+   "native_file": "figures/FIGURE_2_2.png",
+   "coverage": 0.25,
+   "page_dist": 0,
+   "matched_terms": [
+    "object"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "same pinecone art as FIGURE 2-1, which this card already carries"
+  },
+  {
+   "card_index": 6,
+   "text": "The  change in  any quantity means {{c1::the final value minus the initial value}}.",
+   "figure": "FIGURE 2-4",
+   "file": "figures/study/FIGURE_2_4.png",
+   "native_file": "figures/FIGURE_2_4.png",
+   "coverage": 0.25,
+   "page_dist": 0,
+   "matched_terms": [
+    "initial"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "no x1/x2 labels on the plate, so the final-minus-initial link is not visible"
+  }
+ ]
+}

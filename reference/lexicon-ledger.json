@@ -541,6 +541,42 @@
     "segment": 10,
     "definition": "normally white portion of the eye (fold-in: purple idx 58 folded into the yellow two-way definition card per card-rules #28 cross-lane rule; Parts:/glossary lines carried over)"
    }
+  ],
+  "transl_motion": [
+   {
+    "term": "translational motion",
+    "noteId": 1788194494608,
+    "source": "physics",
+    "segment": 2,
+    "definition": "movement of an object without any rotation"
+   }
+  ],
+  "particl": [
+   {
+    "term": "particle",
+    "noteId": 1788194494742,
+    "source": "physics",
+    "segment": 2,
+    "definition": "an idealized point with no size"
+   }
+  ],
+  "magnitud": [
+   {
+    "term": "magnitude",
+    "noteId": 1788194495436,
+    "source": "physics",
+    "segment": 2,
+    "definition": "its size or numerical value, apart from direction"
+   }
+  ],
+  "vector": [
+   {
+    "term": "vectors",
+    "noteId": 1788194495654,
+    "source": "physics",
+    "segment": 2,
+    "definition": "a quantity having both size and direction"
+   }
   ]
  }
 }

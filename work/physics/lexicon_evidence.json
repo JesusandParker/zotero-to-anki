@@ -29,6 +29,39 @@
    "page": "31",
    "quote": "unit (u or amu)",
    "occurrences": 258
+  },
+  "transl_motion": {
+   "term": "translational motion",
+   "method": "in_source",
+   "page": "191",
+   "quote": "Translational Motion is one of several great conservation laws in physics",
+   "page_distance": 148,
+   "far_from_mark": true,
+   "occurrences": 25
+  },
+  "particl": {
+   "term": "particle",
+   "method": "in_source",
+   "page": "61",
+   "quote": "particle is moving toward decreasing acceleration at time t1 is the slope of values of x, to the left on a standard xy plot",
+   "page_distance": 18,
+   "occurrences": 269
+  },
+  "magnitud": {
+   "term": "magnitude",
+   "method": "in_source",
+   "page": "44",
+   "quote": "magnitude (numerical value)",
+   "page_distance": 0,
+   "occurrences": 259
+  },
+  "vector": {
+   "term": "vectors",
+   "method": "in_source",
+   "page": "19",
+   "quote": "vectors are shown in boldface with a small arrow above: F",
+   "page_distance": 25,
+   "occurrences": 52
   }
  }
 }
