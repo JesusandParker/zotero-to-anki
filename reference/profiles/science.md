@@ -40,6 +40,30 @@ because slides carry the professor's framing rather than the book's completeness
 - **A figure Parker area-selected is the card.** Crop it (`render_page.py --crop-from`) and
   author from the image rather than trying to describe it in words.
 
+## 3b. Physics and any equation-carrying source
+- **A yellow mark on an EQUATION NUMBER means "card the formula itself."** Parker stated
+  this in the margin of Giancoli p23 (2026-08-31): *"if I highlight these formula numbers
+  to me that's meaning I want to memorize the actual formula."* So `(2-1)`, `[average
+  acceleration]`, an equation label — any of them marked yellow — is a request for a
+  `card-recipes.md` §5 Template B card, separate from whatever prose definition the
+  neighbouring highlight produces. When the book's equation exists only in WORDS (Giancoli's
+  Eq. 2-1 is literally *average speed = distance traveled / time elapsed*), the definition
+  and the formula are the two halves of one two-way note rather than two duplicate notes.
+- **Break down every symbol on the back.** His standing request: *"tell me what each of the
+  letters are, right, \(x\) with the subscript of zero, like what that means — break down
+  every single variable in the equations."* A `Meaning:` line naming each symbol, spelling
+  out subscript-zero as "initial", is required on every equation card, and *"without any
+  derivations"* — the equation, not how it was obtained.
+- **Cue each equation by what it relates, never by its number.** Four kinematic equations
+  cannot share the stem "give the kinematic equation" (rule 16, open-set). Distinguish them
+  the way the book's own worked examples do: which variables each connects, and which one is
+  missing (*"the one with no time term in it"*).
+- **MathJax is the right register for symbols, and it has one hard trap:** Anki's cloze
+  parse is non-greedy, so **any `}}` inside a cloze answer truncates it.** `\frac{\Delta
+  x}{\Delta t}` is safe; `\frac{\text{distance}}{\text{time}}` is NOT (the inner `}`
+  meets the group's `}`). Write word-formulas as plain text with `/`, keep MathJax for
+  symbols, and assert no cloze answer contains `}}` before staging.
+
 ## 4. Traps
 - **Don't card the pathway as one un-recallable blob.** A 7-step pathway is one grouped
   sequence card (§7), not a single blank hiding seven names (R12).
