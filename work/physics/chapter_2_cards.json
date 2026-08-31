@@ -150,9 +150,9 @@
   "needs_human_check": false,
   "visual_source": {
    "figures": [
-    "work/physics/page_44.png"
+    "runs/physics/2/2026-08-31T12-41/figures/p44_evidence.jpg"
    ],
-   "note": "read the change-in-quantity sentence and the Δx = x2 - x1 definition off the rendered page; the mark's text layer did not resolve"
+   "note": "read the change-in-quantity sentence and the Δx = x2 - x1 definition off the rendered page; the mark's text layer did not resolve (evidence crop filed in the run's figures/, so the grounding stays auditable after the scratch page render is cleaned up)"
   },
   "image": null
  },
@@ -361,9 +361,9 @@
   "needs_human_check": false,
   "visual_source": {
    "figures": [
-    "work/physics/page_45.png"
+    "runs/physics/2/2026-08-31T12-41/figures/p45_evidence.jpg"
    ],
-   "note": "read the elapsed-time definition off the rendered page; the mark's text layer did not resolve"
+   "note": "read the elapsed-time definition off the rendered page; the mark's text layer did not resolve (evidence crop filed in the run's figures/, so the grounding stays auditable after the scratch page render is cleaned up)"
   },
   "image": null
  },
@@ -382,9 +382,9 @@
   "needs_human_check": false,
   "visual_source": {
    "figures": [
-    "work/physics/page_45.png"
+    "runs/physics/2/2026-08-31T12-41/figures/p45_evidence.jpg"
    ],
-   "note": "Eq. 2-2 read off the rendered page (the PDF text layer mangles the bar, subscripts and Δ)"
+   "note": "Eq. 2-2 read off the rendered page (the PDF text layer mangles the bar, subscripts and Δ) (evidence crop filed in the run's figures/, so the grounding stays auditable after the scratch page render is cleaned up)"
   },
   "image": null
  },
@@ -419,9 +419,9 @@
   "needs_human_check": false,
   "visual_source": {
    "figures": [
-    "work/physics/page_46.png"
+    "runs/physics/2/2026-08-31T12-41/figures/p46_evidence.jpg"
    ],
-   "note": "Eq. 2-3 read off the rendered page"
+   "note": "Eq. 2-3 read off the rendered page (evidence crop filed in the run's figures/, so the grounding stays auditable after the scratch page render is cleaned up)"
   },
   "image": null
  },
@@ -485,9 +485,9 @@
   "needs_human_check": false,
   "visual_source": {
    "figures": [
-    "work/physics/page_47.png"
+    "runs/physics/2/2026-08-31T12-41/figures/p47_evidence.jpg"
    ],
-   "note": "Eq. 2-4 read off the rendered page"
+   "note": "Eq. 2-4 read off the rendered page (evidence crop filed in the run's figures/, so the grounding stays auditable after the scratch page render is cleaned up)"
   },
   "image": null
  },
@@ -534,9 +534,9 @@
   "needs_human_check": false,
   "visual_source": {
    "figures": [
-    "work/physics/page_47.png"
+    "runs/physics/2/2026-08-31T12-41/figures/p47_evidence.jpg"
    ],
-   "note": "Eq. 2-5 read off the rendered page"
+   "note": "Eq. 2-5 read off the rendered page (evidence crop filed in the run's figures/, so the grounding stays auditable after the scratch page render is cleaned up)"
   },
   "image": null
  },
@@ -556,9 +556,9 @@
   "needs_human_check": false,
   "visual_source": {
    "figures": [
-    "work/physics/page_48.png"
+    "runs/physics/2/2026-08-31T12-41/figures/p48_evidence.jpg"
    ],
-   "note": "read the Deceleration paragraph off the rendered page; one of the marks' text layer did not resolve"
+   "note": "read the Deceleration paragraph off the rendered page; one of the marks' text layer did not resolve (evidence crop filed in the run's figures/, so the grounding stays auditable after the scratch page render is cleaned up)"
   },
   "image": null
  },
@@ -577,14 +577,14 @@
   "needs_human_check": false,
   "visual_source": {
    "figures": [
-    "work/physics/page_48.png"
+    "runs/physics/2/2026-08-31T12-41/figures/p48_evidence.jpg"
    ],
-   "note": "read the Deceleration paragraph off the rendered page; the mark's text layer did not resolve"
+   "note": "read the Deceleration paragraph off the rendered page; the mark's text layer did not resolve (evidence crop filed in the run's figures/, so the grounding stays auditable after the scratch page render is cleaned up)"
   },
   "image": null
  },
  {
-  "Text": "For motion with <b>constant acceleration</b>, give the kinematic equation for the velocity \\(v\\) after an elapsed time \\(t\\): {{c1::\\(v = v_0 + at\\)}}",
+  "Text": "Among the four kinematic equations, give the one for an object's velocity \\(v\\) after an elapsed time \\(t\\): {{c1::\\(v = v_0 + at\\)}}",
   "Back Extra": "Meaning: \\(v\\) is the velocity at time \\(t\\); \\(v_0\\) (read \"v-naught\") is the <b>initial</b> velocity, its value at \\(t = 0\\); \\(a\\) is the constant acceleration; \\(t\\) is the elapsed time.<br><br>Cue: this is the only one of the four with no position term in it at all.<br><br>Pitfall: the four kinematic equations hold only while the acceleration \\(a\\) stays constant.",
   "source": "physics",
   "segment": 2,
@@ -594,18 +594,18 @@
   "block": "F_kinematic_equations",
   "numeric": false,
   "verified_against": "printed p. 29 (physical p. 50), Eq. 2-11a read from the rendered page",
-  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze",
+  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze; stem re-cued by the set rather than by 'for motion with constant acceleration', which sat on four fronts and pre-answered the validity card",
   "needs_human_check": false,
   "visual_source": {
    "figures": [
-    "work/physics/page_50.png"
+    "runs/physics/2/2026-08-31T12-41/figures/p50_evidence.jpg"
    ],
-   "note": "Eqs. 2-11a-d read off the rendered page"
+   "note": "Eqs. 2-11a-d read off the rendered page (evidence crop filed in the run's figures/, so the grounding stays auditable after the scratch page render is cleaned up)"
   },
   "image": null
  },
  {
-  "Text": "For motion with <b>constant acceleration</b>, give the kinematic equation for the position \\(x\\) after an elapsed time \\(t\\): {{c1::\\(x = x_0 + v_0 t + \\tfrac{1}{2} a t^2\\)}}",
+  "Text": "Among the four kinematic equations, give the one for an object's position \\(x\\) after an elapsed time \\(t\\): {{c1::\\(x = x_0 + v_0 t + \\tfrac{1}{2} a t^2\\)}}",
   "Back Extra": "Meaning: \\(x\\) is the position at time \\(t\\); \\(x_0\\) (read \"x-naught\") is the <b>initial</b> position, its value at \\(t = 0\\); \\(v_0\\) is the initial velocity; \\(a\\) is the constant acceleration; \\(t\\) is the elapsed time.<br><br>Cue: \\(x\\) is a position rather than a distance, and \\(x - x_0\\) is the displacement.<br><br>Pitfall: setting \\(x_0 = 0\\) shortens it to \\(x = v_0 t + \\tfrac{1}{2} a t^2\\), but only once you have actually put the origin at the starting point. The equation holds only while \\(a\\) stays constant.",
   "source": "physics",
   "segment": 2,
@@ -615,18 +615,18 @@
   "block": "F_kinematic_equations",
   "numeric": false,
   "verified_against": "printed p. 29 (physical p. 50), Eq. 2-11b read from the rendered page",
-  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze",
+  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze; stem re-cued by the set rather than by 'for motion with constant acceleration', which sat on four fronts and pre-answered the validity card",
   "needs_human_check": false,
   "visual_source": {
    "figures": [
-    "work/physics/page_50.png"
+    "runs/physics/2/2026-08-31T12-41/figures/p50_evidence.jpg"
    ],
-   "note": "Eqs. 2-11a-d read off the rendered page"
+   "note": "Eqs. 2-11a-d read off the rendered page (evidence crop filed in the run's figures/, so the grounding stays auditable after the scratch page render is cleaned up)"
   },
   "image": null
  },
  {
-  "Text": "For motion with <b>constant acceleration</b>, give the kinematic equation that relates velocity to position with no time term in it: {{c1::\\(v^2 = v_0^2 + 2a(x - x_0)\\)}}",
+  "Text": "Among the four kinematic equations, give the one that relates velocity to position with no time term in it: {{c1::\\(v^2 = v_0^2 + 2a(x - x_0)\\)}}",
   "Back Extra": "Meaning: \\(v\\) is the velocity at position \\(x\\); \\(v_0\\) is the initial velocity at the initial position \\(x_0\\); \\(a\\) is the constant acceleration; \\(x - x_0\\) is the displacement.<br><br>Cue: reach for this one whenever the elapsed time \\(t\\) is neither known nor asked for.<br><br>Pitfall: the four kinematic equations hold only while the acceleration \\(a\\) stays constant.",
   "source": "physics",
   "segment": 2,
@@ -636,18 +636,18 @@
   "block": "F_kinematic_equations",
   "numeric": false,
   "verified_against": "printed p. 29 (physical p. 50), Eq. 2-11c read from the rendered page",
-  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze",
+  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze; stem re-cued by the set rather than by 'for motion with constant acceleration', which sat on four fronts and pre-answered the validity card",
   "needs_human_check": false,
   "visual_source": {
    "figures": [
-    "work/physics/page_50.png"
+    "runs/physics/2/2026-08-31T12-41/figures/p50_evidence.jpg"
    ],
-   "note": "Eqs. 2-11a-d read off the rendered page"
+   "note": "Eqs. 2-11a-d read off the rendered page (evidence crop filed in the run's figures/, so the grounding stays auditable after the scratch page render is cleaned up)"
   },
   "image": null
  },
  {
-  "Text": "For motion with <b>constant acceleration</b>, give the kinematic equation for the average velocity \\(\\bar v\\) in terms of the initial and final velocities: {{c1::\\(\\bar v = \\frac{v + v_0}{2}\\)}}",
+  "Text": "Among the four kinematic equations, give the one for an object's average velocity \\(\\bar v\\) in terms of the initial and final velocities: {{c1::\\(\\bar v = \\frac{v + v_0}{2}\\)}}",
   "Back Extra": "Meaning: \\(\\bar v\\) is the average velocity over the interval; \\(v_0\\) is the initial velocity and \\(v\\) the final velocity.<br><br>Distinguish: this midpoint shortcut holds only for constant acceleration, whereas the general definition of average velocity works for any motion at all.<br><br>Pitfall: the four kinematic equations hold only while the acceleration \\(a\\) stays constant.",
   "source": "physics",
   "segment": 2,
@@ -657,13 +657,13 @@
   "block": "F_kinematic_equations",
   "numeric": false,
   "verified_against": "printed p. 29 (physical p. 50), Eq. 2-11d read from the rendered page",
-  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze",
+  "verified_by": "visual: the boxed set of four equations confirmed against the page render; R8 long-blank warning cleared: the blank is a single equation, and card-recipes §5 Template B requires the whole formula inside one cloze; stem re-cued by the set rather than by 'for motion with constant acceleration', which sat on four fronts and pre-answered the validity card",
   "needs_human_check": false,
   "visual_source": {
    "figures": [
-    "work/physics/page_50.png"
+    "runs/physics/2/2026-08-31T12-41/figures/p50_evidence.jpg"
    ],
-   "note": "Eqs. 2-11a-d read off the rendered page"
+   "note": "Eqs. 2-11a-d read off the rendered page (evidence crop filed in the run's figures/, so the grounding stays auditable after the scratch page render is cleaned up)"
   },
   "image": null
  },
@@ -738,5 +738,26 @@
   },
   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_2_19.jpg",
   "image_side": "back"
+ },
+ {
+  "Text": "The four kinematic equations of one-dimensional motion are not valid unless {{c1::the acceleration is constant}}.",
+  "Back Extra": "Pitfall: constant is the whole restriction — the four equations say nothing correct about motion whose acceleration is changing, however reasonable the numbers look.<br><br>Cue: they are still worth reaching for when the acceleration is only <i>approximately</i> constant, to obtain a reasonable estimate.<br><br>Ex: free fall near the Earth's surface qualifies, because \\(g\\) is essentially constant there.",
+  "source": "physics",
+  "segment": 2,
+  "from_idx": [
+   27
+  ],
+  "block": "F_kinematic_equations",
+  "numeric": false,
+  "verified_against": "printed p. 29 (physical p. 50), read from the rendered page",
+  "verified_by": "visual: \"These useful equations are not valid unless a is a constant\" and \"Equations 2-11 are useful also when a is approximately constant to obtain reasonable estimates\" read directly off the page render",
+  "needs_human_check": false,
+  "visual_source": {
+   "figures": [
+    "runs/physics/2/2026-08-31T12-41/figures/p50_evidence.jpg"
+   ],
+   "note": "the boxed kinematic-equation set and its validity sentence, read off the rendered page (evidence crop filed in the run's figures/, so the grounding stays auditable after the scratch page render is cleaned up)"
+  },
+  "image": null
  }
 ]

@@ -4,13 +4,13 @@
  "segment": 2,
  "started": "2026-08-31T12:41:13",
  "skill_sha": "e1789019578bd061d04e5b1c26d4ec616b7c1468",
- "note": "Giancoli ch2 sections 2-1..2-7 (Parker's marks stop on printed p.34, early in 2-7; nothing marked in 2-8). 31 marks -> 32 notes.",
+ "note": "Giancoli ch2 sections 2-1..2-7 (Parker's marks stop on printed p.34, early in 2-7; nothing marked in 2-8). 31 marks -> 32 notes. | Parker asked for the constant-acceleration validity card after the hand-off; added as card 32 and the four sibling stems re-cued to remove the front-side leak.",
  "status": "complete",
  "finished": "2026-08-31T12:49:16",
  "counts": {
   "marks": 31,
-  "cards": 32,
-  "notes_written": 32,
+  "cards": 33,
+  "notes_written": 33,
   "figures_kept": 11,
   "figures_rejected": 11,
   "lexicon_cards": 4,
@@ -32,6 +32,11 @@
    "known": "already documented in SKILL.md Stage 2.9 ('for vector-art books ... automated region-guessing produced truncated fragments on Snustad ch9'); this run is a second confirmation, not a new failure mode",
    "mechanizable": false,
    "why": "telling a complete plate from a page-region guess is exactly the judgement the mandatory judge-look (Stage 2.95) exists to make; a mechanical proxy would either reject legitimate text tables or pass bleedy renders. The existing guard is the right one and it worked."
+  },
+  {
+   "summary": "check_cards.py --live all built its Anki query with the deck root UNQUOTED, so every deck name containing a space matched nothing. The card-rules #32 safety sweep had therefore been reporting 'checked 0 cards / deterministic checks clean' for physics (98), genetics (181) and Arabic (62) — 341 live notes — while only EMT (all::EMT, no space) was ever really swept.",
+   "fix": "check_cards.live_query() always quotes the deck path, for `all` exactly as for `N`. Swept properly afterwards: 0 hard errors across all three sources, 88 warnings left for their own chapters.",
+   "regression_id": "R63"
   }
  ]
 }

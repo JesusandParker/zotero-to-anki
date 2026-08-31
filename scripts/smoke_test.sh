@@ -63,6 +63,7 @@ echo "--- live audit through the registry ---"
 # when the retrieval-load remediation added 6 notes to ch3 and the hardcoded 84 went stale
 # — a green suite should mean "the path works," never "nobody staged anything since.")
 chk "live ch3 audit reaches the deck" "python3 scripts/check_cards.py --live 3 --source emt 2>&1 | grep -qE 'checked ([2-9][0-9]|[1-9][0-9]{2,}) cards'"
+chk "live query quotes spaced decks" "python3 scripts/check_cards.py --self-test"
 chk "live needs --source"  "! python3 scripts/check_cards.py --live 3 2>&1 | grep -q 'checked'"
 
 echo "--- retirement: a rule reaches the cards already live (card-rules #32, R52) ---"

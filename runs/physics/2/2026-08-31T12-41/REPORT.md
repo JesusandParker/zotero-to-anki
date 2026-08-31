@@ -1,6 +1,6 @@
 # Physics ch2 — Describing Motion: Kinematics in One Dimension
 
-Giancoli 7e, physical pp. 42–55 (printed 21–34). **31 marks → 32 notes**, all written to
+Giancoli 7e, physical pp. 42–55 (printed 21–34). **31 marks → 33 notes**, all written to
 `…::PHYS 201 - General Physics I::Chapter 2 …::Book Highlights`, tagged `physics-ch2`.
 
 ## Scope
@@ -33,9 +33,13 @@ duplicate notes.
   MathJax, `\frac` included, inside a cloze deletion.** `render_check.py` shows the raw
   source because the harness runs no JS; that is the documented headless limitation, not
   a defect.
-- **No fifth kinematic-equation card** for the constant-acceleration validity condition.
-  It would have to name or show the four equations to be answerable, leaking them. The
-  condition is on all four backs instead. Offered to Parker.
+- **The fifth kinematic-equation card (validity) — cut, then added on his say-so.** The
+  leak that motivated the cut was real: cards 25–28 opened *"For motion with **constant
+  acceleration**, give the kinematic equation for…"*, putting the new card's answer on four
+  fronts. Rather than accept it, the four stems were re-cued *"Among the four kinematic
+  equations, give the one for…"* — naming the set without stating the condition. The
+  condition still sits on all four BACKS, which is an endorsed confusable cross-link, not a
+  front-side leak. The four live notes were rewritten in place (authorship: `owned`).
 - **Four lexicon cards** (translational motion, particle, magnitude, vectors). Three are
   `external` and reach him in the VERIFY report's Vocabulary block; **magnitude** anchors
   `in_source` to p44 — his own page — after the R61 fix below.
@@ -56,6 +60,13 @@ drop, was likewise forced onto the free-fall card. Four "figures" (2-6, 2-11, 2-
 were page-region renders carrying body-text bleed and were rejected on the complete-plate
 bar. Post-mortem: **no anomalies**; 11 of 32 live notes carry a plate.
 
+## Evidence storage
+`visual_source` originally pointed at `work/physics/page_NN.png` — scratch renders, which
+were deleted at commit time and silently hard-blocked card #14 on the next gate run. The 13
+affected cards now cite crops filed in this run's `figures/`, the home
+`reference/provenance.md` names for exactly this, and `work/*/page_*.png` is gitignored so
+no future card can cite a scratch file again.
+
 ## Hazards found and closed
 - **R61** — `lexicon.py --find` took the first definition-shaped sentence in book order,
   so all four purple words anchored to unrelated pages. Fixed with `_pick_nearest()`
@@ -63,5 +74,11 @@ bar. Post-mortem: **no anomalies**; 11 of 32 live notes carry a plate.
 - **R62** — `run_store.record()` wrote an extensionless file for a bare stem, and
   `anki_write.py --run` then refused the write with a misleading error. Fixed with
   `_named()`.
+- **R63** — `check_cards.py --live all` interpolated the deck root UNQUOTED, so any deck
+  name with a space matched nothing. The card-rules #32 sweep had been answering *"checked
+  0 cards, deterministic checks clean"* for physics, genetics and Arabic — **341 live notes**
+  — while only EMT (`all::EMT`) was ever really examined. A guard that reports success on an
+  empty set is the one failure mode that makes every future remediation believe it finished.
+  Fixed; swept properly afterwards with **0 hard errors** across all three.
 - **Vector-render bleed** — not new (SKILL.md Stage 2.9 documents it); `mechanizable:
   false`, because the judge-look is the correct guard and it worked.

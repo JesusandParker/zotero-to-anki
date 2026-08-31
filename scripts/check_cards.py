@@ -1424,6 +1424,46 @@ def lexicon_check(cards, highlights, source_root=None):
     return hard, warn
 
 
+def live_query(deck_root, which, audit_deck=None):
+    """The --live search string. The deck path is ALWAYS quoted.
+
+    R63: the `all` branch used to interpolate the root unquoted, so any deck name with a
+    SPACE fell apart in Anki's parser — `deck:all::LIBERTY::LIBERTY FALL 2026::...` reads
+    as a deck term plus the loose words `FALL` and `2026::PHYS`, and matches nothing.
+    Every Liberty root has spaces, so `--live all` reported "0 cards checked /
+    deterministic checks clean" for physics, genetics and Arabic — 329 live notes — while
+    only EMT (`all::EMT`, no space) ever really swept. That is a false all-clear on the
+    one guard card-rules #32 relies on to reach cards already in his decks.
+    """
+    inner = f'deck:"{deck_root}::*"' if which == "all" else f'deck:"{audit_deck}"'
+    return f"({inner}) -is:suspended"
+
+
+def live_self_test():
+    """R63 — a deck path with spaces must survive query construction, quoted."""
+    ok = True
+    ROOT = "all::LIBERTY::LIBERTY FALL 2026::PHYS 201 - General Physics I"
+    for label, got, want in [
+        ("all, spaced root", live_query(ROOT, "all"),
+         f'(deck:"{ROOT}::*") -is:suspended'),
+        ("segment, spaced", live_query(ROOT, "2", ROOT + "::Chapter 2 - Describing Motion"),
+         f'(deck:"{ROOT}::Chapter 2 - Describing Motion") -is:suspended'),
+        ("all, plain root", live_query("all::EMT", "all"),
+         '(deck:"all::EMT::*") -is:suspended'),
+    ]:
+        if got != want:
+            print(f"  FAIL  {label}: {got!r} != {want!r}")
+            ok = False
+    for label, q in [("all", live_query(ROOT, "all")),
+                     ("segment", live_query(ROOT, "2", ROOT + "::Chapter 2"))]:
+        # the whole deck path must sit inside ONE pair of quotes, or Anki splits on spaces
+        if not re.search(r'deck:"[^"]*LIBERTY FALL 2026[^"]*"', q):
+            print(f"  FAIL  {label}: spaced deck path not quoted as one term: {q!r}")
+            ok = False
+    print("check_cards live-query self-test:", "OK" if ok else "FAILED")
+    return ok
+
+
 def load_live(which, source_id):
     """Pull cards from the live Anki deck(s) for a --live audit.
 
@@ -1443,14 +1483,13 @@ def load_live(which, source_id):
             raise RuntimeError(res["error"])
         return res["result"]
     src = S.get_source(source_id)
-    if which == "all":
-        query = f'deck:{src["deck_root"]}::*'
-    else:
+    if which != "all":
         try:
-            seg = int(which)
+            int(which)
         except ValueError:
             sys.exit(f"ERROR: --live expects a segment number or 'all', got {which!r}")
-        query = f'deck:"{S.audit_deck(src, seg)}"'
+    query = live_query(src["deck_root"], which,
+                       None if which == "all" else S.audit_deck(src, int(which)))
     # Suspended notes are out of Parker's rotation, so they are out of scope for a live
     # audit: the question this answers is "what will he actually be shown?" This is also
     # what lets `retire_notes.py` genuinely CLOSE the gate — retirement suspends rather
@@ -1473,6 +1512,8 @@ def main():
     ap = argparse.ArgumentParser(description="Deterministic gate / live audit for generated cards.")
     ap.add_argument("cards_json", nargs="?", help="staged JSON file to gate (default mode)")
     ap.add_argument("--live", metavar="N|all", help="audit live Anki cards instead of a file (diagnostic; no stamp)")
+    ap.add_argument("--self-test", action="store_true",
+                    help="run the pure-function self-tests (no Anki, no files)")
     ap.add_argument("--source", default=None,
                     help="source id for --live (see: sources.py list). Defaults to the "
                          "cards' own 'source' field in file mode.")
@@ -1488,6 +1529,9 @@ def main():
     ap.add_argument("--no-grounding", action="store_true",
                     help="skip the R13 grounding check (escape hatch; do not use for a real run)")
     args = ap.parse_args()
+
+    if args.self_test:
+        sys.exit(0 if live_self_test() else 1)
     if not args.cards_json and not args.live:
         sys.exit("usage: check_cards.py [--audit] <cards.json>   |   "
                  "check_cards.py --live <N|all> --source <id>")

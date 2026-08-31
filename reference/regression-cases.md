@@ -843,3 +843,28 @@ entirely and sends the next session off to re-derive records it had already writ
 - **MUST NOT OVER-FLAG:** a name that already carries its extension must not gain a
   second one (`cards.json` stays `cards.json`, never `cards.json.json`).
 - **Catch test (both ways):** `run_store.py self-test`.
+
+
+## R63 — The live-sweep deck path is always QUOTED, or a spaced deck name matches nothing
+**Rule:** `check_cards.py --live` must build its Anki query with the deck path inside one
+pair of quotes, for `--live all` exactly as for `--live N`. **Caught by:**
+`check_cards.live_query()` + `check_cards.py --self-test`.
+
+*Found 2026-08-31, physics ch2, when a routine post-write sweep printed `checked 0 cards
+(live: all) — deterministic checks clean`.* The `all` branch interpolated the root
+unquoted, so `deck:all::LIBERTY::LIBERTY FALL 2026::PHYS 201 - General Physics I::*`
+reached Anki as a deck term plus the loose words `FALL` and `2026::PHYS`, matching nothing.
+
+**Why this one matters more than its size.** Card-rules #32 exists so that a rule written
+today reaches the cards already in his decks, and it names this exact command as the way to
+do it. Every Liberty deck root has spaces, so the sweep had been answering *"clean"* for
+**physics (98), genetics (181) and Arabic (62)** — 341 live notes — while only EMT
+(`all::EMT`, no space) was ever really examined. A guard that reports success on an empty
+set is worse than no guard: it is the one failure mode that makes every future remediation
+believe it finished. (Swept properly once fixed: 0 hard errors in all three, 88 warnings.)
+
+- **MUST CATCH:** an `all` query built from a root containing a space, unquoted; the whole
+  spaced path failing to sit inside a single `deck:"…"` term.
+- **MUST NOT OVER-FLAG:** a space-free root (`all::EMT`) must produce the same working
+  query it always did, and the `--live N` branch must keep its existing quoted form.
+- **Catch test (both ways):** `check_cards.py --self-test`.
