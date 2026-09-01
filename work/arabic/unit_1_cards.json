@@ -813,7 +813,7 @@
   "image_side": "back"
  },
  {
-  "Text": "‎{{c1::السَّلامُ عَلَيكُم}}<br>{{c2::Greetings!}} — the Islamic greeting",
+  "Text": "‎{{c1::السَّلامُ عَلَيكُم}}<br><br>Transliteration: {{c1::assalaamu calaykum}}<br><br>{{c2::Greetings!}} — the Islamic greeting",
   "Back Extra": "Cue: MSA — <i>assalaamu calaykum</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_01_salaam_alaykum_masri.mp3] · Levantine [sound:arabic_vocab_u1_01_salaam_alaykum_shaami.mp3]<br><br>Distinguish: Egyptian <i>issalaamu calaykum</i> (initial i-).",
   "source": "arabic",
   "segment": 1,
@@ -830,7 +830,7 @@
   "image_side": "back"
  },
  {
-  "Text": "‎{{c1::أَهلاً}}<br>{{c2::Hello! or Hi!}} — used more in Egypt than in the Levant",
+  "Text": "‎{{c1::أَهلاً}}<br><br>Transliteration: {{c1::ahlan}}<br><br>{{c2::Hello! or Hi!}} — used more in Egypt than in the Levant",
   "Back Extra": "Cue: MSA — <i>ahlan</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_02_ahlan_masri.mp3] · Levantine [sound:arabic_vocab_u1_02_ahlan_shaami.mp3]<br><br>Distinguish: Levantine drops the final -n: <i>ahla</i>.",
   "source": "arabic",
   "segment": 1,
@@ -847,7 +847,7 @@
   "image_side": "back"
  },
  {
-  "Text": "‎{{c1::أَهلاً وسَهلاً}}<br>{{c2::Hello!}} — the fuller two-word greeting",
+  "Text": "‎{{c1::أَهلاً وسَهلاً}}<br><br>Transliteration: {{c1::ahlan wa sahlan}}<br><br>{{c2::Hello!}} — the fuller two-word greeting",
   "Back Extra": "Cue: MSA — <i>ahlan wa sahlan</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_03_ahlan_wa_sahlan_masri.mp3] · Levantine [sound:arabic_vocab_u1_03_ahlan_wa_sahlan_shaami.mp3]<br><br>Distinguish: Levantine: <i>ahla w sahla</i>.",
   "source": "arabic",
   "segment": 1,
@@ -864,7 +864,7 @@
   "image_side": "back"
  },
  {
-  "Text": "‎{{c1::مَرحَباً}}<br>{{c2::Hello!}} — used in the Levant",
+  "Text": "‎{{c1::مَرحَباً}}<br><br>Transliteration: {{c1::marHaban}}<br><br>{{c2::Hello!}} — used in the Levant",
   "Back Extra": "Cue: MSA — <i>marHaban</i><br><br>Ex: Levantine [sound:arabic_vocab_u1_04_marhaba_shaami.mp3]<br><br>Distinguish: Levantine says <i>marHaba</i>; no Egyptian column in the book for this one.",
   "source": "arabic",
   "segment": 1,
@@ -881,7 +881,7 @@
   "image_side": "back"
  },
  {
-  "Text": "‎{{c1::أَنا}}<br>{{c2::I}}",
+  "Text": "‎{{c1::أَنا}}<br><br>Transliteration: {{c1::ana}}<br><br>{{c2::I}}",
   "Back Extra": "Cue: MSA — <i>ana</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_05_ana_masri.mp3] · Levantine [sound:arabic_vocab_u1_05_ana_shaami.mp3]",
   "source": "arabic",
   "segment": 1,
@@ -898,7 +898,7 @@
   "image_side": "back"
  },
  {
-  "Text": "‎{{c1::اسمي}}<br>{{c2::my name}}",
+  "Text": "‎{{c1::اسمي}}<br><br>Transliteration: {{c1::ismii}}<br><br>{{c2::my name}}",
   "Back Extra": "Cue: MSA — <i>ismii</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_06_ismi_masri.mp3] · Levantine [sound:arabic_vocab_u1_06_ismi_shaami.mp3]<br><br>Distinguish: Egyptian and Levantine both say <i>ismi</i> (short final i).",
   "source": "arabic",
   "segment": 1,
@@ -915,7 +915,7 @@
   "image_side": "back"
  },
  {
-  "Text": "‎{{c1::مِن}}<br>{{c2::from}} — \"I am ___ the city of…\"",
+  "Text": "‎{{c1::مِن}}<br><br>Transliteration: {{c1::min}}<br><br>{{c2::from}} — \"I am ___ the city of…\"",
   "Back Extra": "Cue: MSA — <i>min</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_07_min_masri.mp3] · Levantine [sound:arabic_vocab_u1_07_min_shaami.mp3]",
   "source": "arabic",
   "segment": 1,
@@ -932,7 +932,7 @@
   "image_side": "back"
  },
  {
-  "Text": "‎{{c1::مدينة}}<br>{{c2::the city of …}}",
+  "Text": "‎{{c1::مدينة}}<br><br>Transliteration: {{c1::madiinat}}<br><br>{{c2::the city of …}}",
   "Back Extra": "Cue: MSA — <i>madiinat</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_08_madiinat_masri.mp3] · Levantine [sound:arabic_vocab_u1_08_madiinat_shaami.mp3]<br><br>Distinguish: Egyptian <i>midiinit</i> · Levantine <i>madiinit</i>.",
   "source": "arabic",
   "segment": 1,
@@ -949,7 +949,7 @@
   "image_side": "back"
  },
  {
-  "Text": "‎{{c1::في}}<br>{{c2::in}} — the last slot of the intro: \"from the city of X, ___ Y\"",
+  "Text": "‎{{c1::في}}<br><br>Transliteration: {{c1::fii}}<br><br>{{c2::in}} — the last slot of the intro: \"from the city of X, ___ Y\"",
   "Back Extra": "Cue: MSA — <i>fii</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_09_fii_masri.mp3] · Levantine [sound:arabic_vocab_u1_09_fii_shaami.mp3]<br><br>Distinguish: Levantine often uses <i>bi-</i> instead.",
   "source": "arabic",
   "segment": 1,

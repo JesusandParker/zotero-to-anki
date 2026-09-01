@@ -96,6 +96,7 @@ letter notes already exist — **do not create new letter notes**. Extend the ex
 | Uppercase media silently broken on iPhone | `U2` + `media_audit.py` (R47) |
 | Wrong Arabic read off the scan | external authority (Lingco snapshot) in `verified_against` (R38) |
 | `from_idx` keyed from memory | step 1: print the extractor table first |
+| Vocab card unanswerable because he cannot read the script yet | `V3-translit-with-arabic` (R60) — translit rides in `c1` with the Arabic |
 | Checker that never fails | `test_block_spec.py` fixtures — extend with every new rule |
 
 ## 4. Open items Parker owns

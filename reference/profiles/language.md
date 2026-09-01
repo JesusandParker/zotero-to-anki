@@ -83,7 +83,14 @@ without repeating Unit 1's failures. All of it is enforced by running guards, na
 - `<div dir="rtl">` would be cleaner but `div` HARD-blocks on ALLOWED_TAGS. Pure lines + LRM
   achieve the same rendering with legal HTML.
 - **Transliteration must never be READABLE BESIDE the Arabic it would let you skip reading**
-  (R39, refined by R59). In the vocab lane that means Back Extra only. On a two-way LETTER
+  (R39, refined by R59) — **except while he cannot yet read (R60, 2026-09-01).** In the vocab
+  lane the translit rides in `c1` WITH the Arabic: hidden together on the production card (he
+  still retrieves the spoken word from the meaning — §3), visible together on the meaning
+  card, which is otherwise a bare qualifier beside untaught script. The letter lane is gated
+  to the letters class has covered, so vocab may not charge rent on a skill the deck has not
+  delivered. `V3-translit-with-arabic` (C_vocab) and `L3-translit-never-beside-glyph`
+  (A_letters) say opposite things ON PURPOSE — read R60 before reconciling them. Back Extra
+  only was the pre-R60 rule and returns when Parker says he can read. On a two-way LETTER
   note it means the opposite cloze group from the glyph — `{{c1::<glyph>}}` with
   `Transliteration: {{c2::<symbol>}}` — so exactly one of the pair is hidden on either card.
   Translit in `c1` beside the glyph is the defect. Guards: `L2-translit`, `L3-translit-never-beside-glyph`.

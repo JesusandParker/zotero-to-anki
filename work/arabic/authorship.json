@@ -2072,56 +2072,65 @@
  "1786229800997": {
   "fields": {
    "Back Extra": "4298343147a2a835ffe1b2557093109d",
-   "Text": "9ef6569974d27273b2ba0389aedadc04"
-  }
+   "Text": "56e26f0a7ccab93ccbb6b9a744fab701"
+  },
+  "run": "2026-09-01-translit-front"
  },
  "1786229801072": {
   "fields": {
    "Back Extra": "9aaf547bb35eae96842306671c564af6",
-   "Text": "37609511f828548669d0e977aaebc688"
-  }
+   "Text": "8f1ecad20418d8a8198280a184ccc771"
+  },
+  "run": "2026-09-01-translit-front"
  },
  "1786229801147": {
   "fields": {
    "Back Extra": "89276e23b6e1ea5e02aa00a733157ad4",
-   "Text": "55da9417cf81a4efa41756629aed20ca"
-  }
+   "Text": "68f6f1852c01eba0869eb83725d89124"
+  },
+  "run": "2026-09-01-translit-front"
  },
  "1786229801222": {
   "fields": {
    "Back Extra": "9805ce967df136b46e3776c20b6a35b6",
-   "Text": "088f45dc65ca3280689e5cda6a141070"
-  }
+   "Text": "872fbb799d2d006979edb39d8b1c1d1a"
+  },
+  "run": "2026-09-01-translit-front"
  },
  "1786229801295": {
   "fields": {
    "Back Extra": "b96dac369d7867acbe3c25dcedbedf81",
-   "Text": "73b82a70968d27a1a605a363972004d9"
-  }
+   "Text": "15ce8f5dafbd324cbedddbc1f170d120"
+  },
+  "run": "2026-09-01-translit-front"
  },
  "1786229801372": {
   "fields": {
    "Back Extra": "0167d0b29c1dee5d630563434b3c69d7",
-   "Text": "3f51a1c763bae126ea98f884f1e68e1e"
-  }
+   "Text": "10165c811082a685caa8a1dff2dfd552"
+  },
+  "run": "2026-09-01-translit-front"
  },
  "1786229801447": {
   "fields": {
    "Back Extra": "42f5cf73d7ca1194732307bd0928ea47",
-   "Text": "070b7a5a7944630abdb1fa0b9081c3e0"
-  }
+   "Text": "c4bd3bdd9249daa19152452550bc0a95"
+  },
+  "run": "2026-09-01-translit-front"
  },
  "1786229801521": {
   "fields": {
    "Back Extra": "5346c85e0eca6a28c0f04c52545a736c",
-   "Text": "605460d9e90ce5640acf70cdc1355803"
-  }
+   "Text": "5e67a5419c9223b788e21d84f2039b33"
+  },
+  "run": "2026-09-01-translit-front"
  },
  "1786229801596": {
   "fields": {
    "Back Extra": "8572a8d3bd39cd2579dc57ade39f4dfd",
-   "Text": "805cc633a114a2540b1248d03bc696a8"
-  }
+   "Text": "f718a9958556a9887f3b8809bf85ca15"
+  },
+  "run": "2026-09-01-translit-front"
  },
  "1786229801650": {
   "fields": {
@@ -2392,5 +2401,41 @@
    "Back Extra": "4d088515b06896f60bdddf3522fde1c8",
    "Text": "24e345eefabd0ff5ae00208799dee92c"
   }
+ },
+ "1787925280988": {
+  "fields": {
+   "Text": "6d01dec9fe2cc5da2def3397fb71bcb6"
+  },
+  "run": "2026-09-01-translit-front"
+ },
+ "1787925281107": {
+  "fields": {
+   "Text": "a3a71c9beb3cfea4f7b2a402be2ab640"
+  },
+  "run": "2026-09-01-translit-front"
+ },
+ "1787925281221": {
+  "fields": {
+   "Text": "2eb081ad8252e2e30af842c01e5955c4"
+  },
+  "run": "2026-09-01-translit-front"
+ },
+ "1787925281337": {
+  "fields": {
+   "Text": "517b4d1f1383597098f3b9be0fbc09db"
+  },
+  "run": "2026-09-01-translit-front"
+ },
+ "1787925281451": {
+  "fields": {
+   "Text": "956d4fc4943cea3a1f6c6528f7dc667a"
+  },
+  "run": "2026-09-01-translit-front"
+ },
+ "1787929190843": {
+  "fields": {
+   "Text": "ecd29b8e7d6f683b0f56e83745fc5ca2"
+  },
+  "run": "2026-09-01-translit-front"
  }
 }

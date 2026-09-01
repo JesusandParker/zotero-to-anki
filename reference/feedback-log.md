@@ -275,3 +275,42 @@ re-attaches. 19/19 guard self-tests pass.
 noise from the Arabic-free scan; zero on any new transliteration answer) · block-spec 15/15 ·
 103/103 regressions · media_audit all clear · render_check contact sheet inspected: direction
 correct, one play button, both cloze directions, charts intact.
+
+---
+
+## 2026-09-01 — Arabic vocab: "i cant read yet" (R60)
+
+**What he flagged.** Mid-review on the `ahlan` card: *"can u fix this? its trying me to guess
+something near imposable its just 'used more in Egypt than in the Levant' esp when i cant read
+yet."*
+
+**Diagnosis — systemic, and worse than the one card.** Every `c2` (meaning) card in the vocab
+block was in the same state: Arabic word visible, meaning hidden, and the only Latin on the
+front a qualifier. Six of the fifteen had no Latin cue whatsoever (أَنا, شكراً, مَعَ السَّلامَة,
+اسمي, مدينة, وعَلَيكُم السَّلامُ) — a bare `[...]` beside a script the letter lane has not taught
+him. R39/R59 put translit in Back Extra so seeing the word forces you to read it; that
+assumes a reader. The letter deck is gated to alif + baa, so it was testing a skill nothing
+had delivered.
+
+**Fix.** Transliteration moved into `c1`, WITH the Arabic, on all 15 vocab notes (live + the
+three source files). Production card hides both — he must still retrieve *ahlan* from
+"Hello!", which is what Khouri grades. Meaning card shows both, so the glyphs sit beside their
+sounds as exposure instead of as a toll gate. Back Extra untouched (all 15 are `edited`/his).
+
+**Rules added.** `check_block_spec.py` `V3-translit-with-arabic`; regression case **R60**;
+good + bad fixtures. `V3` (C_vocab) and `L3` (A_letters) deliberately say opposite things —
+R60 says so explicitly so nobody "reconciles" them.
+
+**Two bugs found en route.**
+1. **`test_block_spec.py` had been red since 2026-08-27** — `L2-translit` was added without
+   updating the GOOD fixture's letter card, so the suite failed on every run and nobody was
+   reading it. Repaired; green now. Same class as R63: a guard nobody reads is not a guard.
+2. **The Khouri lecture-vocab notes carried no `block`**, so V1/V2 (and every future vocab
+   rule) silently did not apply to them. Labelled `C_vocab` in all three files.
+   Their Text fingerprints were also missing from the authorship store; backfilled only after
+   verifying each live value byte-identical to that run's own output file.
+
+**Verification.** check_cards HARD-clean, live sweep 0 errors (6 pre-existing warnings, none
+on the changed notes) · block-spec 16/16 on all three files · 105/105 regressions ·
+test_block_spec green · render_check contact sheet inspected + both card fronts rendered
+directly from Anki: `أَهلاً / Transliteration: ahlan / [...] — used more in Egypt…`.

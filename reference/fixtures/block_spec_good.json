@@ -1,6 +1,6 @@
 [
  {
-  "Text": "‎{{c1::ب}}<br>Name: {{c2::baa}}<br>Sound: {{c2::b as in bet}}",
+  "Text": "‎{{c1::ب}}<br><br>Name: {{c2::baa}}<br><br>Transliteration: {{c2::b}}<br><br>Sound: {{c2::<i>b</i> as in <i>bet</i>}}",
   "Back Extra": "Distinguish: one skeleton, dots decide — baa 1 below, taa 2 above, thaa 3 above.",
   "block": "A_letters",
   "source": "arabic",
@@ -10,7 +10,7 @@
   ]
  },
  {
-  "Text": "‎{{c1::أَهلاً}}<br>{{c2::Hello! or Hi!}} — used more in Egypt than in the Levant",
+  "Text": "‎{{c1::مِن}}<br><br>Transliteration: {{c1::min}}<br><br>{{c2::from}}",
   "Back Extra": "Cue: MSA — <i>ahlan</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_02_ahlan_masri.mp3]",
   "block": "C_vocab",
   "source": "arabic",

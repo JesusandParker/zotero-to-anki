@@ -868,3 +868,40 @@ believe it finished. (Swept properly once fixed: 0 hard errors in all three, 88 
 - **MUST NOT OVER-FLAG:** a space-free root (`all::EMT`) must produce the same working
   query it always did, and the `--live N` branch must keep its existing quoted form.
 - **Catch test (both ways):** `check_cards.py --self-test`.
+
+
+## R60 — A vocab card must not require decoding script the letter lane has not taught yet
+**Rule:** in the `C_vocab` block the transliteration sits in the SAME cloze group as the
+Arabic word (`c1`), so it is hidden with it on the production card and visible with it on
+the meaning card. **Caught by:** `check_block_spec.py` `V3-translit-with-arabic`.
+
+*Found 2026-09-01, mid-review, on the `ahlan` card.* Parker: *"can u fix this? its trying me
+to guess something near imposable its just 'used more in Egypt than in the Levant' esp when
+i cant read yet."* The `c2` (meaning) card showed the Arabic word plus a visible qualifier
+and hid the meaning — so the only Latin text on the front was a dialect-frequency note that
+fits any greeting. Six of the fifteen vocab notes had **no visible Latin cue at all**: أَنا,
+شكراً and مَعَ السَّلامَة presented a bare `[...]` beside a script he cannot read. Three more
+were competing "Hello!" cards he could not have told apart even by guessing.
+
+**The rule that produced it was right for the wrong lane.** R39/R59 keep transliteration out
+of the vocab front so that seeing the word forces you to READ it. That assumes the reader can
+read. The letter lane is deliberately gated to the letters class has actually covered
+(alif + baa on this date, ~20 letters short of these words), so the vocab lane was charging
+rent on a skill nothing in the deck had delivered. Script-decoding is the letter lane's job;
+the vocab lane must not smuggle it in as a prerequisite.
+
+**Why `c1` and not a third group.** The production direction is the one that matters
+(`profiles/language.md` §3), and it must keep costing him the retrieval: on the `c1` card
+both the glyphs and the sound are blank, so he still has to produce *ahlan* from "Hello!" —
+which is precisely what Dr. Khouri grades. Putting the translit in its own `c3` would leave
+the `c2` card showing the script beside a blank and unanswerable all over again.
+
+- **MUST CATCH:** a `C_vocab` note whose transliteration lives only in `Back Extra`, leaving
+  its meaning card as a qualifier beside untaught script.
+- **MUST NOT OVER-FLAG:** the LETTER shape, where translit correctly sits in `c2` opposite a
+  `c1` glyph (R59) — `V3` is scoped to `C_vocab`, `L3` to `A_letters`, and they say opposite
+  things on purpose. Do not "reconcile" them.
+- **Retire only when** Parker says he can read the script; until then this outranks R39's
+  vocab-lane phrasing.
+- **Catch test (both ways):** `test_block_spec.py` (good fixture carries the translit in
+  `c1`; bad fixture reconstructs the 2026-09-01 `ahlan` card).

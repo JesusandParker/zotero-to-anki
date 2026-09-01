@@ -96,6 +96,23 @@ RULES = [
  ("V2-dialects (2026-08-08)", block("C_vocab"),
   lambda c: "Cue: MSA" in c["Back Extra"],
   "vocab notes name the MSA register (the course tests Formal)"),
+ # 2026-09-01, R60. Parker, mid-review on the ahlan card: "its trying me to guess something
+ # near imposable its just 'used more in Egypt than in the Levant' esp when i cant read yet."
+ # The c2 (meaning) card showed an Arabic word plus a qualifier, and the LETTER lane is
+ # deliberately gated to the letters class has actually taught -- so every vocab c2 card was
+ # demanding a decoding skill nothing in the deck had delivered yet, and six of the fifteen
+ # had no Latin cue on the front at all. Script-decoding is the letter lane's job; the vocab
+ # lane must not smuggle it in as a prerequisite. So the transliteration rides in the SAME
+ # cloze group as the Arabic: hidden together on the production card (he must still retrieve
+ # the spoken word from the meaning -- profile language.md S3, the direction that matters),
+ # visible together on the meaning card, where the glyphs sit beside their sounds as exposure.
+ # This is NOT the letter lane's L3 rule inverted by accident -- see R60 before "fixing" it
+ # back. It is retired only when Parker says he can read the script.
+ ("V3-translit-with-arabic (2026-09-01, R60)", block("C_vocab"),
+  lambda c: bool(re.search(r'Transliteration:\s*\{\{c1::', c["Text"]))
+            and bool(re.search(r'\{\{c1::[\u0600-\u06ff]', c["Text"])),
+  "vocab notes carry the transliteration clozed WITH the Arabic (c1), so the meaning card is "
+  "answerable before he can read the script"),
 
  # --- countries / any property-defined set --------------------------------
  # the property may be named in the book's own words ("where Arabic is the main language")
