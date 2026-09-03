@@ -137,3 +137,44 @@ speaking. The method that works, and the two traps that wasted a pass each:
 - Naming/placement: `arabic_khouri_<slug>.mp3`, lowercase; her clip goes in **Back Extra**
   on notes whose `Audio` field is `unknown` in the authorship store (never overwrite it),
   and in the `Audio` field only on notes this pipeline creates.
+
+## 6. Second own-voice run — the Thursday set (added 2026-09-02)
+
+Same job as §5 for the 2026-09-01 recording (Unit 2 "Meeting People" list + `hal`), done
+exhaustively this time: **every** silence-bounded island of the vocab window (620 islands,
+00:46–01:08) was transcribed in BOTH languages up front, then a third pass with `-l auto`
+on anything ambiguous. What was new:
+
+- **The 9/1 recording has NO screen share** — it is the room camera, the projector is a white
+  sliver at the frame's right edge. Do not burn time on frame extraction before checking one
+  full frame. Her list was reconstructed from the transcript order + the book table
+  (Alif Baa pp. 41-42 = physical 55-56) + the Lingco Unit 2 lesson (8282), and it matched
+  row for row, plus `hal`, which is on no book/Lingco list at all (checked U2–U7).
+- **Whisper's English pass "translates" pure Arabic** — a joined `min ayna HaDratuka` came
+  back as *"Where are you from?"*. That is not a filler word and not a reason to reject;
+  the tell is that `-l auto` on the same clip returns pure Arabic. Filler = an English
+  function word IN ADDITION to the Arabic ("So …", "or …", "If you say …").
+- **Short clips get misheard, not padded**: *nacam* → "Now.", *laa* → "Love.", *baab* →
+  "Fab." Accept when the Arabic pass is exact and the English pass has no extra word.
+- **A 0.3–0.4 s pause inside one utterance splits it into two islands** (she dictates
+  "min ayna … anta" slowly). Cutting both islands as ONE clip is fine when the gate reads
+  the phrase — but check the gap is silence, not a student.
+- **Gender pairs are JOINED into one Audio-field clip** (masc + 350 ms `anullsrc` silence +
+  fem, concatenated as WAV before the single mp3 encode — no `adelay`, no DTS problem).
+  One play button models both forms; the card's c1 lists both forms too.
+- **Speaker check**: her lapel mic peaks at −3…−6 dBFS; students sit at −8…−18 dBFS. A pure-
+  Python median-F0 (~205–270 Hz for her) separates the two -6…-9 dB cases. Louder-and-first
+  after "how would you reply?" was her modelling, not a student.
+- **The word she never says alone**: `hal` (only "hal anta / hal anti") — the Audio field
+  carries the minimal frame *hal anta*, the full question sits in Back Extra. `ismuki` too
+  (only inside *maa ismuki*).
+- **Look outside the vocab window**: the only clean *baab* was word 5 of Drill 2 dictation
+  at 00:29:12, twenty minutes before the vocab slides.
+- **U3-no-dup-audio is now structural** (2026-09-02): the old predicate keyed on the
+  substring "vocab" and false-flagged a note whose Back Extra held only her clips.
+  Fixtures extended (`test_block_spec.py` green).
+- Scripts: `work/arabic/khouri_build_clips_0901.py` (spec → cut → join → encode → re-gate
+  the FINAL mp3, log in `khouri_thursday_clips_gate.json`), `gen_thursday_cards.py`,
+  `khouri_thursday_write.py` (own preset "Khouri Thursday cram": new/day 40, bury-new off,
+  so clicking the deck itself serves all 28 cards before class; from the root the Liberty
+  12/day cap still applies, so the cards are also queued first at due 2028475+).

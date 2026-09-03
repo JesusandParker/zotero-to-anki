@@ -1,0 +1,92 @@
+{
+ "baab": {
+  "file": "arabic_khouri_baab.mp3",
+  "label": "Dr. Khouri in class, 1 Sep",
+  "audio_source": "khouri 00:29:12 — Drill 2 word 5, dictated alone ('Number five. … baab!'); single island; gate en='Fab.' (mishearing, no filler) ar='باب'. NOT from the vocab-slide pass: there she only says baab inside English ('It's baab in Arabic')"
+ },
+ "ism": {
+  "file": "arabic_khouri_ism.mp3",
+  "label": "Dr. Khouri in class, 1 Sep",
+  "audio_source": "khouri 00:49:34 — the bare word right after 'Another word,' (sub-island cut at -38 dBFS); gate en='is' ar='اسم' auto='isim'"
+ },
+ "maa": {
+  "file": "arabic_khouri_maa.mp3",
+  "label": "Dr. Khouri in class, 1 Sep",
+  "audio_source": "khouri 00:50:28 — 'What is maa?' … the word alone; single island; gate en='Ma.' ar='ما'"
+ },
+ "ahlan_bika": {
+  "file": "arabic_khouri_ahlan_bika.mp3",
+  "label": "Dr. Khouri in class, 1 Sep — to a man, then to a woman",
+  "audio_source": "JOINED: khouri 00:54:35 'ahlan bika' (modelled after asking the class how to reply to a man) + 00:53:38 'ahlan biki' ('for women, ahlan biki'); 350 ms silence between; each half gated clean in both languages"
+ },
+ "hadratuka": {
+  "file": "arabic_khouri_hadratuka.mp3",
+  "label": "Dr. Khouri in class, 1 Sep — to a man, then to a woman",
+  "audio_source": "JOINED: khouri 00:56:31 'HaDratuka' (repeat-after-me, said alone) + 01:03:10 'HaDratuki'; each half gated clean in both languages"
+ },
+ "anta": {
+  "file": "arabic_khouri_anta.mp3",
+  "label": "Dr. Khouri in class, 1 Sep — to a man, then to a woman",
+  "audio_source": "JOINED: khouri 01:02:43 'anta' + 01:04:18 'anti'; each half a single island, gated clean"
+ },
+ "ismuka": {
+  "file": "arabic_khouri_ismuka.mp3",
+  "label": "Dr. Khouri in class, 1 Sep",
+  "audio_source": "khouri 01:00:05 'ismuka?' single island; gate en='Ismuka?' ar='اسموك'. No clean cut of her saying ismuki ALONE exists — she only says it inside 'maa ismuki' (see that note) or inside English"
+ },
+ "maa_ismuka": {
+  "file": "arabic_khouri_maa_ismuka.mp3",
+  "label": "Dr. Khouri in class, 1 Sep — to a man, then to a woman",
+  "audio_source": "JOINED: khouri 01:01:36 'maa ismuka' + 01:05:05 'maa ismuki' (two adjacent islands 90 ms apart, one utterance); gated clean; pitch check = her voice"
+ },
+ "ayna": {
+  "file": "arabic_khouri_ayna.mp3",
+  "label": "Dr. Khouri in class, 1 Sep",
+  "audio_source": "khouri 01:02:01 'ayna?' single island; gate en='Aina?' ar='أين؟'"
+ },
+ "min_ayna_anta": {
+  "file": "arabic_khouri_min_ayna_anta.mp3",
+  "label": "Dr. Khouri in class, 1 Sep — to a man, then to a woman",
+  "audio_source": "JOINED: khouri 01:04:03 'min ayna anta' (dictated for translation; two islands 200 ms apart) + 01:02:44 'min ayna anti' (two islands 400 ms apart); both gated 'من أين أنت' in both languages"
+ },
+ "naam": {
+  "file": "arabic_khouri_naam.mp3",
+  "label": "Dr. Khouri in class, 1 Sep",
+  "audio_source": "khouri 01:03:22 'nacam' — her answer to 'anyone knows the word for yes?'; single island; gate en='Now.' (a mishearing of the Arabic, not a filler) ar='نعم'"
+ },
+ "laa": {
+  "file": "arabic_khouri_laa.mp3",
+  "label": "Dr. Khouri in class, 1 Sep",
+  "audio_source": "khouri 01:03:39 'laa' — 'And for no: laa'; single island; gate en='Love.' (mishearing) ar='لا'"
+ },
+ "hal": {
+  "file": "arabic_khouri_hal.mp3",
+  "label": "Dr. Khouri in class, 1 Sep — 'hal anta'",
+  "audio_source": "khouri 01:05:29 'hal anta' — the particle in its minimal frame (she never says hal alone); single island; gate en='Hell, Enta!' ar='هل أنت'"
+ },
+ "hal_sentence": {
+  "file": "arabic_khouri_hal_sentence.mp3",
+  "label": "the whole question",
+  "audio_source": "khouri 01:06:20 'hal anta min madiinat Lynchburg?' — two islands 430 ms apart (the pause before Lynchburg); both passes read the full sentence"
+ },
+ "hal_anti": {
+  "file": "arabic_khouri_hal_anti.mp3",
+  "label": "to a woman",
+  "audio_source": "khouri 01:06:24 'hal anti'; single island; gate en='HAL ANTI' ar='هل أنت'"
+ },
+ "min_ayna_hadratuka": {
+  "file": "arabic_khouri_min_ayna_hadratuka.mp3",
+  "label": "Dr. Khouri in class, 1 Sep — to a man, then to a woman",
+  "audio_source": "JOINED: khouri 01:02:48 'min ayna HaDratuka' (two islands 180 ms apart) + 01:06:59 'min ayna HaDratuki' (her last slide; two islands 350 ms apart). The English pass rendered the first as its translation 'Where are you from?' — a translation, not a filler; the auto-language pass reads pure Arabic 'من أين حضرتك؟'"
+ },
+ "hadartak_lev": {
+  "file": "arabic_khouri_hadartak_lev.mp3",
+  "label": "Levantine HaDartak",
+  "audio_source": "khouri 00:56:18 'HaDartak' (Shami) — said alone after 'Shani, very close'; single island; gate en='Hadır tak.' ar='حضر تاك'"
+ },
+ "ahlan_fiik_lev": {
+  "file": "arabic_khouri_ahlan_fiik_lev.mp3",
+  "label": "Levantine ahlan fiik",
+  "audio_source": "khouri 00:53:02 'ahlan fiik' (Shami); single island; gate en='Ahlan Fii.' ar='أهلاً فيك'"
+ }
+}

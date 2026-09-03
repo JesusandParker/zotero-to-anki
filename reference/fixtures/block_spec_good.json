@@ -68,5 +68,17 @@
   "from_idx": [
    16
   ]
+ },
+ {
+  "Text": "‎{{c1::هَل}}<br><br>Transliteration: {{c1::hal}}<br><br>{{c2::the word that opens a yes/no question}} — \"___ anta min madiinat Lynchburg?\"",
+  "Back Extra": "Cue: MSA — <i>hal</i><br><br>Ex: the whole question — [sound:arabic_khouri_hal_sentence.mp3]<br><br>Ex: to a woman — [sound:arabic_khouri_hal_anti.mp3]",
+  "block": "C_vocab",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   23
+  ],
+  "slug": "hal_style_own_voice_only",
+  "Audio": "[sound:arabic_khouri_hal.mp3]"
  }
 ]

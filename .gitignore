@@ -26,3 +26,6 @@ work/_fulltext/
 # cited evidence: deleting them once hard-blocked six physics ch2 cards whose
 # visual_source pointed here. Evidence crops belong in runs/<src>/<seg>/<run>/figures/.
 work/*/page_*.png
+
+# intermediate wav cuts from khouri_build_clips_0901.py — regenerable from the lecture mp4
+work/*/_clipbuild/

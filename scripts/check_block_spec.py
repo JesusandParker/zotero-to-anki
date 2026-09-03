@@ -56,7 +56,13 @@ RULES = [
   "media filenames must be lowercase (case-sensitive on iOS)"),
 
  ("U3-no-dup-audio (2026-08-08)", block("A_letters", "C_vocab"),
-  lambda c: "[sound:" not in c["Back Extra"] or "vocab" in c["Back Extra"],
+  # 2026-09-02: made structural. The original predicate keyed on the substring "vocab"
+  # (i.e. "a publisher clip is in Back Extra, so the Back Extra clip is not the Audio clip"),
+  # which false-flagged the Thursday `hal` note: Audio = her "hal anta" clip, Back Extra =
+  # two DIFFERENT clips of hers (the full question, the feminine form), and no publisher clip
+  # at all because the book has no row for hal. The requirement was always "the same clip
+  # must not be referenced twice"; now that is literally what is tested.
+  lambda c: not any(f in c["Back Extra"] for f in re.findall(r"\[sound:([^\]]+)\]", c.get("Audio", ""))),
   "the Audio-field clip must not ALSO sit in Back Extra (two play buttons)"),
 
  ("U4-no-boilerplate (2026-08-08)", lambda c: True,

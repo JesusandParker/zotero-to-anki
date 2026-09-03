@@ -1,0 +1,331 @@
+{
+ "source": "class.lingco.io /api/content/lessons/8282 (course 4839 'Alif Baa: Independent Learners') — Unit 2 'New Vocabulary', Alif Baa 3e pp. 41-42",
+ "fetched": "2026-09-02",
+ "note": "Publisher Unicode + official AB3e audio UUIDs per cell. Column order on Lingco is [Meaning, maSri, shaami, Formal]. Row 6's meaning cell on Lingco is corrupted (it runs into row 7's header) and is cleaned here. Origin filenames AB3e_U2VE-NN=Egyptian, U2VS=Levantine, U2VSt=Formal. Audio manifest: lingco_unit2_audio_manifest.json",
+ "lesson_modified_on": "2024-01-31T17:56:46Z",
+ "rows": [
+  {
+   "row": 1,
+   "meaning": "door",
+   "masri": {
+    "ar": "باب",
+    "tr": "",
+    "uuid": "8313c5de-4805-470b-ae44-aa5132b4e166"
+   },
+   "shaami": {
+    "ar": "باب",
+    "tr": "",
+    "uuid": "f22c84e4-51b2-4ce1-91de-bcb3f785ce49"
+   },
+   "formal": {
+    "ar": "باب",
+    "tr": "",
+    "uuid": "a1d6ef5c-9499-4faa-8606-1571ad3b5cfe"
+   }
+  },
+  {
+   "row": 2,
+   "meaning": "name",
+   "masri": {
+    "ar": "اِسم",
+    "tr": "ism",
+    "uuid": "05b57abe-a084-43b0-acdb-0f898e1421a5"
+   },
+   "shaami": {
+    "ar": "اِسم",
+    "tr": "ism",
+    "uuid": "4613941d-7dcf-49ea-86e8-f6362e8e518e"
+   },
+   "formal": {
+    "ar": "اِسم",
+    "tr": "ism",
+    "uuid": "c9c5036d-cd34-4c52-b3c2-a506eb86f2ee"
+   }
+  },
+  {
+   "row": 3,
+   "meaning": "what?",
+   "masri": {
+    "ar": "إيه؟",
+    "tr": "ee?",
+    "uuid": "83bd3d1e-2ce2-47dc-97d2-394fddc0212f"
+   },
+   "shaami": {
+    "ar": "شو؟",
+    "tr": "shuu?",
+    "uuid": "8e682157-de9c-4847-ac74-a16dc3ec61ba"
+   },
+   "formal": {
+    "ar": "ما؟",
+    "tr": "maa?",
+    "uuid": "eb233ae5-12f7-449e-9379-070b80b53002"
+   }
+  },
+  {
+   "row": 4,
+   "meaning": "(reply) to ahlan wa sahlan (to a male)",
+   "masri": {
+    "ar": "أهلاً بيك",
+    "tr": "ahlan biik",
+    "uuid": "50690d4d-bb1f-4ca1-a288-677372c4a0de"
+   },
+   "shaami": {
+    "ar": "أهلاً فيك",
+    "tr": "ahlan fiik",
+    "uuid": "6c575a8d-01a6-4f71-96b8-a5fcffb12e06"
+   },
+   "formal": {
+    "ar": "أهلاً بكَ",
+    "tr": "ahlan bika",
+    "uuid": "faa487f9-25cf-4776-be47-834df7e37c0b"
+   }
+  },
+  {
+   "row": 5,
+   "meaning": "(reply to) ahlan wa sahlan (to a female)",
+   "masri": {
+    "ar": "أهلا بيكِ",
+    "tr": "ahlan biiki",
+    "uuid": "8414c6f9-2f80-4cca-9228-8a861c2e4668"
+   },
+   "shaami": {
+    "ar": "أهلاً فيكِ",
+    "tr": "ahlan fiiki",
+    "uuid": "b7456c43-15f1-4c5e-b46c-26b1dddc7c7c"
+   },
+   "formal": {
+    "ar": "أهلاً بكِ",
+    "tr": "ahlan biki",
+    "uuid": "8b11da3d-d408-4e33-b9a6-5defe8a9522c"
+   }
+  },
+  {
+   "row": 6,
+   "meaning": "(reply to) assalaamu calaykum",
+   "masri": {
+    "ar": "وعليكم السلام",
+    "tr": "wa calaykumu s-salaam",
+    "uuid": "bcd96e14-484b-4101-83ef-81801f762520"
+   },
+   "shaami": {
+    "ar": "وعليكم السلام",
+    "tr": "wa calaykumu s-salaam",
+    "uuid": "95de607c-6248-4555-aaf2-d0223a98216a"
+   },
+   "formal": {
+    "ar": "وعليكم السلام",
+    "tr": "wa calaykumu s-salaam",
+    "uuid": "8b6b2245-66de-4710-9287-a1b9fc36c04e"
+   }
+  },
+  {
+   "row": 7,
+   "meaning": "you (polite form, to a male)",
+   "masri": {
+    "ar": "حَضرِتكَ",
+    "tr": "HaDritak",
+    "uuid": "bfd64888-425e-4518-a872-413baac26142"
+   },
+   "shaami": {
+    "ar": "حَضِرتَك",
+    "tr": "HaDәrtak",
+    "uuid": "8919a12f-9acf-4834-8e2a-153d32dc68b9"
+   },
+   "formal": {
+    "ar": "حَضرَتُكَ",
+    "tr": "HaDratuka",
+    "uuid": "97fb4c8b-cf9a-498f-8175-f558cfccd622"
+   }
+  },
+  {
+   "row": 8,
+   "meaning": "you (polite form, to a female)",
+   "masri": {
+    "ar": "حَضرِتِك",
+    "tr": "HaDritik",
+    "uuid": "636a968d-c741-4d2a-a2eb-550c2ce6aa0b"
+   },
+   "shaami": {
+    "ar": "حَضِرتِك",
+    "tr": "HaDәrtik",
+    "uuid": "7531dafc-e1da-4e47-98b9-1d08bb2679bc"
+   },
+   "formal": {
+    "ar": "حَضرَتُكِ",
+    "tr": "HaDratuki",
+    "uuid": "b77154b6-ba05-4387-8821-7cd185d1c04f"
+   }
+  },
+  {
+   "row": 9,
+   "meaning": "Nice to meet you!",
+   "masri": {
+    "ar": "اِتشَرَّفنا",
+    "tr": "itsharrafna",
+    "uuid": "90321290-ba2c-4741-aab8-a15ad85ae6d4"
+   },
+   "shaami": {
+    "ar": "تشَرَّفنا",
+    "tr": "tsharrafna",
+    "uuid": "1bfc785a-3993-4099-96a2-2874ef86f61f"
+   },
+   "formal": {
+    "ar": "تَشَرَّفنا",
+    "tr": "tasharrafnaa",
+    "uuid": "fe1b02f5-2d82-46e8-a370-34af62ff7d56"
+   }
+  },
+  {
+   "row": 10,
+   "meaning": "you (masculine)",
+   "masri": {
+    "ar": "إنتَ",
+    "tr": "inta",
+    "uuid": "70f82a12-ea89-4357-af7b-d161b0ebf4b2"
+   },
+   "shaami": {
+    "ar": "إنتِ",
+    "tr": "inte",
+    "uuid": "0e868e9a-3e23-4dbc-81ff-4f2604e96603"
+   },
+   "formal": {
+    "ar": "أَنتَ",
+    "tr": "anta",
+    "uuid": "697e95f9-378b-4b32-9cc2-ff0e217253a9"
+   }
+  },
+  {
+   "row": 11,
+   "meaning": "you (feminine)",
+   "masri": {
+    "ar": "إنتِ",
+    "tr": "inti",
+    "uuid": "9311760e-7eef-4cc3-9928-ef19af058ea3"
+   },
+   "shaami": {
+    "ar": "إنتِ",
+    "tr": "inti",
+    "uuid": "7b9193a6-c85b-480a-96ab-79fa37035744"
+   },
+   "formal": {
+    "ar": "أَنتِ",
+    "tr": "anti",
+    "uuid": "5bf8563e-26bb-4df1-b26f-ccf57f63725c"
+   }
+  },
+  {
+   "row": 12,
+   "meaning": "your (suffix, masculine) your name",
+   "masri": {
+    "ar": "ـَك- اِسمَك",
+    "tr": "–ak ismak",
+    "uuid": "3749b7d3-b174-48d0-b2b7-4e959fe68246"
+   },
+   "shaami": {
+    "ar": "ـَك- اِسمَك",
+    "tr": "–ak ismak",
+    "uuid": "82e1bcbf-0c9c-4cf4-a5ae-233418590847"
+   },
+   "formal": {
+    "ar": "ـكَ- اِسمُكَ",
+    "tr": "–ka or –k ismuka",
+    "uuid": "49760368-eeb4-4d93-8c31-b33148c879a7"
+   }
+  },
+  {
+   "row": 13,
+   "meaning": "your (suffix, feminine) your name",
+   "masri": {
+    "ar": "ـِك- اِسمِك",
+    "tr": "–ik ismik",
+    "uuid": "f25dd183-cf62-4ce0-bdcb-0a9604d17d1d"
+   },
+   "shaami": {
+    "ar": "ـِك- اِسمِك",
+    "tr": "–ik ismik",
+    "uuid": "9e8544be-1b2f-49d3-9e53-ec6c6e268ebd"
+   },
+   "formal": {
+    "ar": "ـكِ- اِسمُكِ",
+    "tr": "–ki ismuki",
+    "uuid": "7a2f06c6-7aaf-4728-aba5-d66530fd6048"
+   }
+  },
+  {
+   "row": 14,
+   "meaning": "where?",
+   "masri": {
+    "ar": "فين؟",
+    "tr": "feen?",
+    "uuid": "c5aa5e73-9bcb-4d34-b5f6-a2a9b2797eea"
+   },
+   "shaami": {
+    "ar": "وين؟",
+    "tr": "ween?",
+    "uuid": "bc5ed82c-90e7-4506-89a6-1e0abfeff81c"
+   },
+   "formal": {
+    "ar": "أَيْنَ؟",
+    "tr": "ayna?",
+    "uuid": "b6f461fe-d43e-4ade-9557-25978a360c3d"
+   }
+  },
+  {
+   "row": 15,
+   "meaning": "from where?",
+   "masri": {
+    "ar": "منين؟",
+    "tr": "mineen?",
+    "uuid": "e4a5bfd2-b7f9-45d9-818c-5263965420b2"
+   },
+   "shaami": {
+    "ar": "من وين؟",
+    "tr": "min ween?",
+    "uuid": "a999cb6e-b8f6-46e1-a477-667842288f4e"
+   },
+   "formal": {
+    "ar": "مِن أَيْنَ؟",
+    "tr": "min ayna?",
+    "uuid": "eb234e34-d861-402e-973a-71f972f93703"
+   }
+  },
+  {
+   "row": 16,
+   "meaning": "yes",
+   "masri": {
+    "ar": "أَيوَه",
+    "tr": "aywa",
+    "uuid": "fdbebd0a-aee8-4775-90ae-722b878f82d3"
+   },
+   "shaami": {
+    "ar": "إيه",
+    "tr": "ee",
+    "uuid": "ef183002-943b-4b32-b3f4-365be2c545f7"
+   },
+   "formal": {
+    "ar": "نَعَم",
+    "tr": "nacam",
+    "uuid": "c1ead02f-e23f-43ec-a770-ab0b7ba04150"
+   }
+  },
+  {
+   "row": 17,
+   "meaning": "no",
+   "masri": {
+    "ar": "لا",
+    "tr": "'la",
+    "uuid": "1a1a263f-6d39-4972-9090-5a126f37bbb9"
+   },
+   "shaami": {
+    "ar": "لا",
+    "tr": "la; laa",
+    "uuid": "01cf0cc5-a93e-4ec0-8bdd-dfd95a8255c9"
+   },
+   "formal": {
+    "ar": "لا",
+    "tr": "laa",
+    "uuid": "61eeff11-8a03-45c4-996e-0a98757ee1fa"
+   }
+  }
+ ]
+}
