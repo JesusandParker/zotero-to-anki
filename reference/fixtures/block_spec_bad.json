@@ -70,5 +70,16 @@
   ],
   "slug": "dup_play_button",
   "Audio": "[sound:arabic_khouri_hal.mp3]"
+ },
+ {
+  "Text": "‎{{c1::مِن}}<br><br>Transliteration: {{c1::min}}<br><br>{{c2::from}}",
+  "Back Extra": "Cue: MSA — <i>ahlan</i><br><br>Ex: Egyptian [sound:arabic_vocab_u1_02_ahlan_masri.mp3]<br><br>Ex: Egyptian [sound:arabic_vocab_u2_14_ayna_masri.mp3] · Levantine [sound:arabic_vocab_u2_14_ayna_shaami.mp3]",
+  "block": "C_vocab",
+  "source": "arabic",
+  "segment": 1,
+  "from_idx": [
+   23
+  ],
+  "slug": "egyptian_audio_on_the_back"
  }
 ]

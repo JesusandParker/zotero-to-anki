@@ -108,6 +108,14 @@ without repeating Unit 1's failures. All of it is enforced by running guards, na
   **Function words get a blank-style usage frame** that never contains the answer word
   (`fii: the last slot of the intro: "from the city of X, ___ Y"`). Formal/MSA clip in the
   Audio field; dialect clips + translit in Back Extra. Guard: `V1/V2`.
+- **A source may EXCLUDE a dialect's audio outright** (`excluded_audio_dialects` in
+  `sources.json`). Arabic excludes **maSri (Egyptian)** as of 2026-09-03 (R61): the course
+  grades FuSHa and the instructor speaks Levantine, so an Egyptian clip on the back was a
+  pronunciation Parker must NOT imitate sitting next to one he should. Do not harvest it, do
+  not card it, and do not "restore the full table" in a later unit. The dialect's *forms in
+  prose* go with the audio — a `Distinguish:` line teaching Egyptian <i>feen</i> is the same
+  defect as the clip. What survives is genuine book knowledge ABOUT the dialect (what maSri
+  means, Cairo vs Damascus) when it came from his own highlights. Guard: `V4`.
 - **MSA-primary** when the course is MSA (check the course description): Formal is the card,
   dialects are Back Extra enrichment — not three cards per word.
 

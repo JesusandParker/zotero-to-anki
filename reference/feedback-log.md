@@ -314,3 +314,22 @@ R60 says so explicitly so nobody "reconciles" them.
 on the changed notes) · block-spec 16/16 on all three files · 105/105 regressions ·
 test_block_spec green · render_check contact sheet inspected + both card fronts rendered
 directly from Anki: `أَهلاً / Transliteration: ahlan / [...] — used more in Egypt…`.
+
+## 2026-09-03 — no Egyptian audio, ever (R61)
+
+Parker, right after the Thursday set shipped: *"I don't want any of the Egyptian audio
+pronunciations in any of the flashcards ever again so can you go ahead and remove all of the
+Egyptian audios and everything from my flashcards and update the GITHUB to make sure that it
+doesn't do that again."*
+
+**Systemic, not one-off.** Removed the Egyptian audio (18 notes, 22 files) and the Egyptian
+dialect FORMS in prose from his live ARAB decks, then closed the hole: source-scoped
+`excluded_audio_dialects` in `sources.json`, guard `V4-no-excluded-dialect-audio`, generator
+reads the registry, fixtures + `test_block_spec.py` extended, playbook harvest step now says
+Formal + shaami only. Full write-up: `regression-cases.md` R61.
+
+**The judgment call I made and flagged to him:** kept four notes that contain the WORD
+Egyptian — three background cards from his own yellow highlights (what maSri means, Cairo vs
+Damascus, hard g) and Dr. Khouri's "Egyptians use a lot of titles" usage note on HaDratuka.
+The instruction was about pronunciations to imitate; those are book knowledge and usage
+guidance. Told him they are there and how to remove them if he disagrees.

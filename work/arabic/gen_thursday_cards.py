@@ -26,16 +26,26 @@ def snd(row, dia):
     fn = MAN.get((row, dia))
     return f"[sound:{fn}]" if fn else None
 
+# reference/sources.json -> sources.arabic.excluded_audio_dialects. Parker, 2026-09-03 (R61):
+# no Egyptian (maSri) audio, ever. Khouri grades FuSHa and speaks Levantine; an Egyptian clip
+# on the back was a pronunciation he must NOT imitate sitting beside one he should.
+EXCLUDED_DIALECTS = set(json.load(open(os.path.join(HERE, "..", "..", "reference", "sources.json"),
+                                       encoding="utf-8"))["sources"]["arabic"].get("excluded_audio_dialects", []))
+CARDED_DIALECTS = [d for d in ("shaami",) if d not in EXCLUDED_DIALECTS]
+LABEL = {"shaami": "Levantine", "masri": "Egyptian"}
+
 def dialect_line(rows, prefix="Ex:"):
-    """'Ex: Egyptian [..] · Levantine [..]' for one row, or per-gender for two rows."""
+    """'Ex: Levantine [..]' for one row, or per-gender for two rows."""
+    def cell(r):
+        return " · ".join(f"{LABEL[d]} {snd(r, d)}" for d in CARDED_DIALECTS if snd(r, d))
     if len(rows) == 1:
-        r = rows[0]
-        parts = [f"Egyptian {snd(r,'masri')}" if snd(r,'masri') else None,
-                 f"Levantine {snd(r,'shaami')}" if snd(r,'shaami') else None]
-        return f"{prefix} " + " · ".join(p for p in parts if p)
+        got = cell(rows[0])
+        return f"{prefix} {got}" if got else None
     m, f = rows
-    return (f"{prefix} to a man — Egyptian {snd(m,'masri')} · Levantine {snd(m,'shaami')}"
-            f"{SEP}{prefix} to a woman — Egyptian {snd(f,'masri')} · Levantine {snd(f,'shaami')}")
+    parts = []
+    if cell(m): parts.append(f"{prefix} to a man — {cell(m)}")
+    if cell(f): parts.append(f"{prefix} to a woman — {cell(f)}")
+    return SEP.join(parts) if parts else None
 
 def formal_line(rows, label="book audio — Formal"):
     if len(rows) == 1:
@@ -78,7 +88,7 @@ NOTES = [
       qualifier="the question word used before a NOUN: \"___ ismuka?\"",
       back=[
        "Pitfall: <i>maa</i> only goes with a noun — \"what's your NAME\". Verbs take a different word, which she is saving for later. Her line: \"maa comes with a noun only.\"",
-       "Distinguish: Levantine says <i>shuu</i> — <i>shuu ismak?</i> \"Even in Saudi Arabia they used to say shuu. Everybody knows shuu.\" Egyptian <i>eeh</i>, which goes at the END of the question.",
+       "Distinguish: Levantine says <i>shuu</i> — <i>shuu ismak?</i> \"Even in Saudi Arabia they used to say shuu. Everybody knows shuu.\"",
       ],
       evidence="slide 'what?' at 00:50:20; 'shuu ismi' modelled 00:51:30"),
  dict(slug="ahlan_bika", rows=[4, 5],
@@ -133,7 +143,7 @@ NOTES = [
       qualifier="the question word: \"min ___ anta?\"",
       back=[
        "Ex: Dr. Khouri: \"or sometimes, out of habit, we pronounce it <i>ayn</i>.\"",
-       "Distinguish: Levantine <i>wayn</i> · Egyptian <i>feen</i>.",
+       "Distinguish: Levantine <i>wayn</i>.",
       ],
       evidence="slide 'where?' at 01:01:20"),
  dict(slug="min_ayna_anta", rows=[15, 10, 11],
@@ -142,14 +152,14 @@ NOTES = [
       back=[
        "Why: the order is \"from where are you\" — <i>min</i> (from) + <i>ayna</i> (where) + <i>anta</i>. Dr. Khouri: \"start word for word, but then make it make sense in English.\"",
        "Ex: your answer: <i>ana min madiinat Snellville</i>.",
-       "Distinguish: Levantine <i>min wayn inte?</i> · Egyptian <i>inta mineen?</i>",
+       "Distinguish: Levantine <i>min wayn inte?</i>",
       ],
       evidence="slide 'from where' at 01:02:23; translation drill 01:03:40–01:04:49"),
  dict(slug="naam", rows=[16],
       ar=A(16), tr="nacam", meaning="yes", qualifier=None,
       back=[
        "Pitfall: the <i>c</i> is <i>cayn</i> — say \"ah\", then start to shock yourself, but only a little.",
-       "Distinguish: Levantine <i>eeh</i> · Egyptian <i>aywa</i>.",
+       "Distinguish: Levantine <i>eeh</i>.",
       ],
       evidence="slide 'yes' at 01:03:00; 'say after me' drill"),
  dict(slug="laa", rows=[17],
@@ -220,11 +230,11 @@ def build():
                 audio_source = "none — hal has no publisher clip and no clean Khouri cut"
         # dialect clips (never in Audio)
         if n["slug"] in ("ahlan_bika","hadratuka","anta","ismuka"):
-            back.append(dialect_line(gender_rows))
+            back.append(dialect_line(gender_rows))          # may be None; filtered on join
         elif n["slug"] in ("maa_ismuka","min_ayna_anta","min_ayna_hadratuka"):
             pass  # compounds: dialects already described in prose; components carry the book clips
         elif single_rows:
-            back.append(dialect_line(single_rows[:1]))
+            back.append(dialect_line(single_rows[:1]))      # may be None; filtered on join
         for cs, label in EXTRA.get(n["slug"], []):
             if cs in CLIPS:
                 back.append(f"Ex: {label} — [sound:{CLIPS[cs]['file']}]")

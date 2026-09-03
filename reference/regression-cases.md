@@ -905,3 +905,59 @@ the `c2` card showing the script beside a blank and unanswerable all over again.
   vocab-lane phrasing.
 - **Catch test (both ways):** `test_block_spec.py` (good fixture carries the translit in
   `c1`; bad fixture reconstructs the 2026-09-01 `ahlan` card).
+
+---
+
+## R61 — Egyptian (maSri) audio on cards for a course that never tests it (2026-09-03)
+
+**Parker:** *"I don't want any of the Egyptian audio pronunciations in any of the flashcards
+ever again ... remove all of the Egyptian audios and everything."*
+
+**What shipped.** Every Arabic vocab back carried three clips: Formal in the `Audio` field,
+then `Ex: Egyptian [sound:…_masri.mp3] · Levantine [sound:…_shaami.mp3]` in Back Extra. 18
+notes, 22 files. Several `Distinguish:` lines also taught Egyptian FORMS — *Egyptian feen*,
+*Egyptian aywa*, *Egyptian inta mineen?*, *Egyptian midiinit*.
+
+**Why it was wrong, and it is not a formatting nit.** Dr. Khouri grades **FuSHa** (*"for the
+exams, everything will be in formal Arabic"*) and speaks **Levantine** as her own dialect.
+Egyptian appears on no assessment he takes. So the back of every card played, back to back, a
+pronunciation he must reproduce and a different pronunciation of the same word that he must
+not — while he is a beginner who cannot yet read the script to tell them apart. The pipeline
+had been reasoning "the publisher ships three columns, so card three columns," which is a
+decision about the SOURCE rather than about the COURSE.
+
+**Root cause.** The Lingco harvest step took whatever dialect columns the table had, and no
+layer had the authority to say a dialect was out of scope. Register decisions were implicit
+in the generator instead of declared in the registry.
+
+**The fix.**
+1. `reference/sources.json` → `sources.arabic.excluded_audio_dialects: ["masri"]`. The
+   exclusion is source-scoped data, not logic hard-coded in a script (CLAUDE.md scope rule).
+2. `check_block_spec.py` **V4-no-excluded-dialect-audio** — applies to EVERY block, because
+   the defect is a media reference, not a card shape.
+3. The generator reads the exclusion from the registry; `dialect_line()` builds from
+   `CARDED_DIALECTS` and may legitimately return nothing.
+4. Live repair: `work/arabic/strip_egyptian.py` — exact (old → new) span edits, each asserted
+   to match once and to be span-local, because several of those Back Extra fields are
+   `unknown` in the authorship store and may not be rewritten. Pre-images in
+   `egyptian_strip_rollback.json`; the 22 orphaned clips deleted from the collection and
+   refetchable from the Lingco UUIDs in the audio manifests.
+5. **Proof the two halves agree:** after the live surgery, the regenerated
+   `khouri_thursday_cards.json` is byte-identical to all 14 live notes.
+
+**Deliberately kept, and why** — the exclusion is about *pronunciations to imitate*, not the
+word "Egyptian":
+- three background cards built from **his own yellow highlights** (what *shaami*/*maSri*
+  mean, Damascus vs Cairo, the hard-g fact). Book knowledge about the dialect. His marks are
+  the prioritization signal; deleting them is his call.
+- Dr. Khouri's own usage note on *HaDratuka*, *"Egyptians use it a lot — they use a lot of
+  titles"*, which is guidance for the FuSHa word he IS learning.
+These four note ids are the `KEEP_MENTION` allowlist in `strip_egyptian.py`.
+
+**Catch test (both ways):** `test_block_spec.py` — the bad fixture carries an
+`Ex: Egyptian [sound:…_masri.mp3] · Levantine […]` back; the good fixture was itself repaired
+to the new standard (it had modelled the old one).
+
+**Generalizes past Arabic:** whenever a source ships more registers/variants than the course
+assesses, the excluded ones belong in `excluded_audio_dialects` (or a sibling field), never on
+a card. "The publisher provided it" is not a reason to drill it.

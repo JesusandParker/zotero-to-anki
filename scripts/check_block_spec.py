@@ -120,6 +120,18 @@ RULES = [
   "vocab notes carry the transliteration clozed WITH the Arabic (c1), so the meaning card is "
   "answerable before he can read the script"),
 
+ # 2026-09-03, R61. Parker: "I don't want any of the Egyptian audio pronunciations in any of
+ # the flashcards ever again." Dr. Khouri teaches FuSHa as the graded standard and Levantine
+ # (shaami) as her own dialect; Egyptian (maSri) is on no assessment he takes, and shipping it
+ # meant every vocab back played a pronunciation he must NOT imitate, right next to one he
+ # should. This is a REGISTER rule, not a formatting one: the excluded dialects for a source
+ # live in reference/sources.json (`excluded_audio_dialects`); this rule is the executable
+ # guard that a rebuild cannot quietly drop. Applies to EVERY block, because the defect is a
+ # media reference, not a card shape.
+ ("V4-no-excluded-dialect-audio (2026-09-03, R61)", lambda c: True,
+  lambda c: not re.search(r"\[sound:[^\]]*_(masri)\.mp3\]", c.get("Audio", "") + c["Back Extra"]),
+  "no Egyptian (maSri) audio on any card — see sources.json excluded_audio_dialects"),
+
  # --- countries / any property-defined set --------------------------------
  # the property may be named in the book's own words ("where Arabic is the main language")
  # or in the shorthand — what is forbidden is a stem that names neither.

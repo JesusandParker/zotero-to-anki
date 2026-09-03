@@ -47,6 +47,9 @@ is that the guards see what he sees, first.
 2. **Harvest Lingco** for the unit: lesson JSON(s) via the module list
    (`/courses/4839/modules`), audio via curl per asset UUID. Lowercase filenames:
    `arabic_vocab_uN_<row>_<slug>_<dialect>.mp3`. Snapshot JSON + manifest to `work/arabic/`.
+   **Formal + shaami ONLY — never harvest maSri** (2026-09-03, R61: `excluded_audio_dialects`
+   in `sources.json`, guard `V4`). Snapshot the maSri column's Unicode in the vocab JSON if the
+   table has one, but download no Egyptian mp3 and put no Egyptian form on a card.
 3. **Render + measure + crop** evidence pages:
    `render_page.py` → `.venv/bin/python scripts/find_crop_boxes.py <pages>` (measured
    bounds, never eyeballed) → boxes into a `make_crops.py`-pattern build (trim + **no-clip
@@ -98,6 +101,7 @@ letter notes already exist — **do not create new letter notes**. Extend the ex
 | `from_idx` keyed from memory | step 1: print the extractor table first |
 | Vocab card unanswerable because he cannot read the script yet | `V3-translit-with-arabic` (R60) — translit rides in `c1` with the Arabic |
 | Checker that never fails | `test_block_spec.py` fixtures — extend with every new rule |
+| Egyptian audio he is never tested on, beside audio he is | `V4-no-excluded-dialect-audio` (R61) |
 
 ## 4. Open items Parker owns
 - Alphabet-ORDER recitation cards (the membership lane for the letters themselves): his
