@@ -1,0 +1,87 @@
+{
+ "source": "arabic",
+ "noun": "Unit",
+ "note": "Page numbers are PHYSICAL PDF pages of the 600 dpi scan (2026-09-04): physical = printed + 20 on every page (20 front-matter sides; printed 4-5 are present, supplied from the old copy). printed_start/printed_end are the book's own numbers.",
+ "segments": [
+  {
+   "n": 1,
+   "name": "Overview of Arabic",
+   "start": 21,
+   "end": 38,
+   "printed_start": 1,
+   "printed_end": 18
+  },
+  {
+   "n": 2,
+   "name": "alif baa taa thaa",
+   "start": 39,
+   "end": 64,
+   "printed_start": 19,
+   "printed_end": 44
+  },
+  {
+   "n": 3,
+   "name": "jiim Haa khaa",
+   "start": 65,
+   "end": 84,
+   "printed_start": 45,
+   "printed_end": 64
+  },
+  {
+   "n": 4,
+   "name": "hamza daal dhaal raa zaay",
+   "start": 85,
+   "end": 110,
+   "printed_start": 65,
+   "printed_end": 90
+  },
+  {
+   "n": 5,
+   "name": "shadda siin shiin Saad Daad",
+   "start": 111,
+   "end": 136,
+   "printed_start": 91,
+   "printed_end": 116
+  },
+  {
+   "n": 6,
+   "name": "taa marbuuTa Taa DHaa cayn ghayn",
+   "start": 137,
+   "end": 164,
+   "printed_start": 117,
+   "printed_end": 144
+  },
+  {
+   "n": 7,
+   "name": "faa qaaf kaaf laam",
+   "start": 165,
+   "end": 188,
+   "printed_start": 145,
+   "printed_end": 168
+  },
+  {
+   "n": 8,
+   "name": "miim nuun haa",
+   "start": 189,
+   "end": 212,
+   "printed_start": 169,
+   "printed_end": 192
+  },
+  {
+   "n": 9,
+   "name": "definite article waaw yaa",
+   "start": 213,
+   "end": 230,
+   "printed_start": 193,
+   "printed_end": 210
+  },
+  {
+   "n": 10,
+   "name": "alif maqSuura endings writing styles",
+   "start": 231,
+   "end": 247,
+   "printed_start": 211,
+   "printed_end": 227
+  }
+ ]
+}

@@ -333,3 +333,38 @@ Egyptian — three background cards from his own yellow highlights (what maSri m
 Damascus, hard g) and Dr. Khouri's "Egyptians use a lot of titles" usage note on HaDratuka.
 The instruction was about pronunciations to imitate; those are book knowledge and usage
 guidance. Told him they are there and how to remove them if he disagrees.
+
+## 2026-09-05 — Arabic: he was caught in class on words that were never on a slide list
+
+**What he flagged.** In class Dr. Khouri asked for **father** and **berries**. He had done every
+card in the Tuesday and Thursday sets and still did not know them: *"you didn't scrape the audio
+or the video well enough… I think if you go in and focus mostly on the audio that might be the
+best way to do it."* He asked for the LIST first and cards second, then approved the cards.
+
+**Diagnosis — systemic, and a lane the pipeline had never looked at.** Both printed vocabulary
+lists (Alif Baa Unit 1 p.15 and Unit 2 pp.41-42) were 100% present in Anki. Every miss came from
+a second channel she teaches through and which no slide or book page records:
+board words built while teaching a letter (`ab`, `baaba`, `abii`, `Harf`), words glossed while
+correcting dictation (`tuut` "required", `taabuut`, `baat`, `thawb`, `thawaab`, `tuubuu`, `baabii`),
+speaking-round frames (`maa ism abuuka?`, `min ayy madiina anta?`, `maa … bil-carabi?`), and
+classroom words she says every session (`aHsant/aHsanti`, `SaHH`). **23 words missing vs 0 from the
+printed lists.**
+
+**The fix.** A full-audio pass over all four lectures (mlx_whisper large-v3-turbo, an English and an
+Arabic full pass each, plus Arabic-only transcription of ~4,600 silence-bounded utterances inside
+every teaching window), diffed against a dump of all 101 ARAB notes. Then 30 cards built, 17 with her
+own voice; 6 gate-suspended notes unlocked; 2 stale lines repaired.
+
+**Rules this produced.**
+- New standing rule in memory (`feedback_arabic_vocab_from_audio`): for every Khouri lecture, run the
+  audio pass BEFORE carding. Her slide list is a floor, not the assignment.
+- **Gate the FINAL ENCODED mp3, not the raw cut.** Three clips passed the pre-encode dual-language
+  gate and FAILED after encoding (`ab` read as subtitle boilerplate, `baat` as لكن, `tuubuu` as شوف).
+  The playbook's §5 gate now explicitly means the shipped file. Added as **R62**.
+- **A publisher clip must be verified by transcription before use, not trusted by index.** The Lingco
+  lesson HTML's audio order did not match the printed item order (LE6 item 1 served `AB3e_U2LE6-05`),
+  so mapping by position would have shipped the wrong word. Added as **R63**.
+- Lingco lesson JSON escapes Arabic and interleaves tatweel + ZWJ; strip `[\u064B-\u0652\u0670\u0640\u200C\u200D]`
+  before matching (already in the playbook — reconfirmed, and the page's `fetch` is wrapped by their
+  SPA so a plain `fetch` from the page context throws; navigate to the asset URL and read the
+  redirect instead).

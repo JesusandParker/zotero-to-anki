@@ -961,3 +961,33 @@ to the new standard (it had modelled the old one).
 **Generalizes past Arabic:** whenever a source ships more registers/variants than the course
 assesses, the excluded ones belong in `excluded_audio_dialects` (or a sibling field), never on
 a card. "The publisher provided it" is not a reason to drill it.
+
+## R62 — an own-voice clip that passes the gate BEFORE encoding can fail after it (2026-09-05)
+
+**Defect.** Playbook §5 says gate every clip in both languages. The Arabic gap-audit run gated the
+raw island cut, then encoded to mp3 — and three clips changed word. `ab` went from `أب` to the
+YouTube-subtitle hallucination `اشتركوا في القناة`; `baat` went from `بات` to `لكن`; `tuubuu` went
+from `توبو` to `شوف`. All three would have shipped a clip that does not say the card's word.
+
+**Rule.** The dual-language gate is run on the FINAL ENCODED FILE that will be stored in Anki media,
+never on the pre-encode cut. `work/arabic/gate_final.py` gates every mp3 in the staging directory and
+is the authoritative log; a clip with no PASS row does not ship.
+
+**BAD:** cut island -> gate the numpy array -> encode -> store.
+**GOOD:** cut island -> encode -> decode the encoded file -> gate -> store only on PASS.
+
+**Not over-flagged:** a clip whose English pass merely *mishears* the Arabic (`tuut` -> "Toot",
+`taab` -> "Stop.", `baaba` -> "Bobo.") or *translates* it (`bil-carabi` -> "In Arabic") still PASSES.
+The reject condition is an English function word IN ADDITION to the Arabic, or the two passes naming
+different words.
+
+## R63 — a publisher clip must be verified by transcription, never trusted by index (2026-09-05)
+
+**Defect.** Lingco lesson HTML lists an `<audio>` tag per vocabulary row, so it is tempting to map
+"row N of the printed exercise" to "the Nth audio asset". On Alif Baa Unit 2 Listening Exercise 6 the
+first audio tag resolved to origin file `AB3e_U2LE6-05.mp3`, not `-01`. Mapping by position would have
+attached the wrong word's pronunciation to a card.
+
+**Rule.** Every externally sourced clip is transcribed before use and must return the word the card
+teaches. `work/arabic/verify_ling.py` does this. The origin filename in the redirect URL is evidence,
+not proof — the transcription is the proof.

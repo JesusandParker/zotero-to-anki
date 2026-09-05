@@ -1,0 +1,4305 @@
+{
+"source": "2026-09-03 3630.0-4480.0 thr=-42.0 minpause=0.1 model=mlx-community/whisper-large-v3-turbo",
+"islands": [
+{
+"i": 0,
+"s": 3630.0,
+"e": 3630.87,
+"d": 0.87,
+"peak_dbfs": -6.8,
+"en": "",
+"ar": "تجريباً تجريباً",
+"vtt": "Now, Drew 13, I will not correct it today, maybe we'll do it Tuesday. It has,"
+},
+{
+"i": 1,
+"s": 3631.19,
+"e": 3631.47,
+"d": 0.28,
+"peak_dbfs": -28.2,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Now, Drew 13, I will not correct it today, maybe we'll do it Tuesday. It has,"
+},
+{
+"i": 2,
+"s": 3631.7,
+"e": 3634.35,
+"d": 2.65,
+"peak_dbfs": -3.6,
+"en": "",
+"ar": "يجب أن تكتبه",
+"vtt": "Now, Drew 13, I will not correct it today, maybe we'll do it Tuesday. It has, | you have to write..."
+},
+{
+"i": 3,
+"s": 3635.12,
+"e": 3635.83,
+"d": 0.71,
+"peak_dbfs": -6.1,
+"en": "",
+"ar": "أهلاً",
+"vtt": "you have to write..."
+},
+{
+"i": 4,
+"s": 3637.17,
+"e": 3638.92,
+"d": 1.75,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "تنميز الاترس",
+"vtt": "Connect the letters to the form words as shown in the example and pronounce them"
+},
+{
+"i": 5,
+"s": 3639.06,
+"e": 3640.95,
+"d": 1.89,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "المصدرات المترجمات لكثير من الاشتراك في القناة",
+"vtt": "Connect the letters to the form words as shown in the example and pronounce them"
+},
+{
+"i": 6,
+"s": 3641.04,
+"e": 3644.2,
+"d": 3.16,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "ويقوم بإمكانكم بإمكانكم وإنقامكم بإمكانكم",
+"vtt": "Connect the letters to the form words as shown in the example and pronounce them | out loud as you write. This is a very good habit to start"
+},
+{
+"i": 7,
+"s": 3644.32,
+"e": 3649.36,
+"d": 5.04,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "هذا هو جيد لتبدأ بجراء وقرأة في الوقت",
+"vtt": "out loud as you write. This is a very good habit to start | learning how to read and write at the same time. And here at the book,"
+},
+{
+"i": 8,
+"s": 3650.12,
+"e": 3652.62,
+"d": 2.5,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "و هناك",
+"vtt": "learning how to read and write at the same time. And here at the book,"
+},
+{
+"i": 9,
+"s": 3652.93,
+"e": 3655.69,
+"d": 2.76,
+"peak_dbfs": -4.9,
+"en": "",
+"ar": "في المنزل، يتعطيك تلك الفتحة، الدماء",
+"vtt": "learning how to read and write at the same time. And here at the book, | they're giving you the fat has, the dongma."
+},
+{
+"i": 10,
+"s": 3656.25,
+"e": 3661.58,
+"d": 5.33,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "لذا فعليها في حالة أحياني في حالة أحياني لنفذي نفذي",
+"vtt": "they're giving you the fat has, the dongma. | So, when you write them at home, when you start practicing at home, | for instance, let's do #2."
+},
+{
+"i": 11,
+"s": 3662.77,
+"e": 3665.26,
+"d": 2.49,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "تحاول أن تقرأ الوصف",
+"vtt": "for instance, let's do #2. | You're trying to write initial tha, there's a fat hassle tha."
+},
+{
+"i": 12,
+"s": 3665.41,
+"e": 3666.69,
+"d": 1.28,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "هناك فتحسل",
+"vtt": "You're trying to write initial tha, there's a fat hassle tha."
+},
+{
+"i": 13,
+"s": 3667.04,
+"e": 3667.43,
+"d": 0.39,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "ساو",
+"vtt": "You're trying to write initial tha, there's a fat hassle tha."
+},
+{
+"i": 14,
+"s": 3668.71,
+"e": 3669.21,
+"d": 0.5,
+"peak_dbfs": -6.2,
+"en": "",
+"ar": "ومن ثم",
+"vtt": ""
+},
+{
+"i": 15,
+"s": 3669.41,
+"e": 3670.05,
+"d": 0.64,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "يو رأي جن",
+"vtt": "And then you're writing the, let me write it here, what's the word?"
+},
+{
+"i": 16,
+"s": 3670.27,
+"e": 3670.92,
+"d": 0.65,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "باااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااا",
+"vtt": "And then you're writing the, let me write it here, what's the word?"
+},
+{
+"i": 17,
+"s": 3671.69,
+"e": 3673.18,
+"d": 1.49,
+"peak_dbfs": -7.8,
+"en": "",
+"ar": "أعلم أن أعطيها فيها. ما هي الغد؟",
+"vtt": "And then you're writing the, let me write it here, what's the word?"
+},
+{
+"i": 18,
+"s": 3673.34,
+"e": 3673.53,
+"d": 0.19,
+"peak_dbfs": -12.5,
+"en": "",
+"ar": "يا",
+"vtt": "And then you're writing the, let me write it here, what's the word?"
+},
+{
+"i": 19,
+"s": 3675.87,
+"e": 3676.14,
+"d": 0.27,
+"peak_dbfs": -18.7,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": ""
+},
+{
+"i": 20,
+"s": 3677.01,
+"e": 3677.42,
+"d": 0.41,
+"peak_dbfs": -22.2,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "So, look here, for instance."
+},
+{
+"i": 21,
+"s": 3680.04,
+"e": 3681.47,
+"d": 1.43,
+"peak_dbfs": -5.8,
+"en": "",
+"ar": "تكون نكتين دات روض",
+"vtt": "To connecting that word."
+},
+{
+"i": 22,
+"s": 3682.91,
+"e": 3683.2,
+"d": 0.29,
+"peak_dbfs": -7.4,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": ""
+},
+{
+"i": 23,
+"s": 3685.41,
+"e": 3685.73,
+"d": 0.32,
+"peak_dbfs": -16.2,
+"en": "",
+"ar": "نفعل",
+"vtt": ""
+},
+{
+"i": 24,
+"s": 3685.88,
+"e": 3686.21,
+"d": 0.33,
+"peak_dbfs": -14.8,
+"en": "",
+"ar": "شكرا",
+"vtt": "It's a cow."
+},
+{
+"i": 25,
+"s": 3686.42,
+"e": 3686.8,
+"d": 0.38,
+"peak_dbfs": -13.4,
+"en": "",
+"ar": "يا",
+"vtt": "It's a cow."
+},
+{
+"i": 26,
+"s": 3687.31,
+"e": 3687.86,
+"d": 0.55,
+"peak_dbfs": -11.7,
+"en": "",
+"ar": "تبا",
+"vtt": "It's a cow."
+},
+{
+"i": 27,
+"s": 3688.34,
+"e": 3689.16,
+"d": 0.82,
+"peak_dbfs": -11.8,
+"en": "",
+"ar": "وااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااا",
+"vtt": ""
+},
+{
+"i": 28,
+"s": 3689.58,
+"e": 3690.57,
+"d": 0.99,
+"peak_dbfs": -11.5,
+"en": "",
+"ar": "لا لا",
+"vtt": ""
+},
+{
+"i": 29,
+"s": 3691.93,
+"e": 3693.81,
+"d": 1.88,
+"peak_dbfs": -9.7,
+"en": "",
+"ar": "وضع بطاق",
+"vtt": "And then the, and then there is a, yeah, so, so did you see what I'm trying to do?"
+},
+{
+"i": 30,
+"s": 3694.0,
+"e": 3695.09,
+"d": 1.09,
+"peak_dbfs": -7.9,
+"en": "",
+"ar": "أنت لست يا",
+"vtt": "And then the, and then there is a, yeah, so, so did you see what I'm trying to do?"
+},
+{
+"i": 31,
+"s": 3695.59,
+"e": 3696.04,
+"d": 0.45,
+"peak_dbfs": -6.5,
+"en": "",
+"ar": "سوء",
+"vtt": "And then the, and then there is a, yeah, so, so did you see what I'm trying to do?"
+},
+{
+"i": 32,
+"s": 3696.13,
+"e": 3696.78,
+"d": 0.65,
+"peak_dbfs": -8.1,
+"en": "",
+"ar": "سيادة",
+"vtt": "And then the, and then there is a, yeah, so, so did you see what I'm trying to do?"
+},
+{
+"i": 33,
+"s": 3696.98,
+"e": 3697.63,
+"d": 0.65,
+"peak_dbfs": -6.3,
+"en": "",
+"ar": "سيئي",
+"vtt": "And then the, and then there is a, yeah, so, so did you see what I'm trying to do?"
+},
+{
+"i": 34,
+"s": 3698.23,
+"e": 3700.23,
+"d": 2.0,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "هل ترى ما أريد أن تفعله؟",
+"vtt": "And then the, and then there is a, yeah, so, so did you see what I'm trying to do?"
+},
+{
+"i": 35,
+"s": 3701.3,
+"e": 3701.87,
+"d": 0.57,
+"peak_dbfs": -6.9,
+"en": "",
+"ar": "ساعة",
+"vtt": "And then the, and then there is a, yeah, so, so did you see what I'm trying to do?"
+},
+{
+"i": 36,
+"s": 3702.43,
+"e": 3702.94,
+"d": 0.51,
+"peak_dbfs": -7.8,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "The, the, the, the, the. This is how we read in Arabic."
+},
+{
+"i": 37,
+"s": 3703.06,
+"e": 3703.96,
+"d": 0.9,
+"peak_dbfs": -9.4,
+"en": "",
+"ar": "ستبع",
+"vtt": "The, the, the, the, the. This is how we read in Arabic."
+},
+{
+"i": 38,
+"s": 3704.57,
+"e": 3705.22,
+"d": 0.65,
+"peak_dbfs": -8.3,
+"en": "",
+"ar": "باب",
+"vtt": "The, the, the, the, the. This is how we read in Arabic."
+},
+{
+"i": 39,
+"s": 3705.85,
+"e": 3706.13,
+"d": 0.28,
+"peak_dbfs": -10.9,
+"en": "",
+"ar": "لاب",
+"vtt": "The, the, the, the, the. This is how we read in Arabic."
+},
+{
+"i": 40,
+"s": 3706.55,
+"e": 3707.16,
+"d": 0.61,
+"peak_dbfs": -9.3,
+"en": "",
+"ar": "تبا",
+"vtt": "The, the, the, the, the. This is how we read in Arabic."
+},
+{
+"i": 41,
+"s": 3707.83,
+"e": 3708.15,
+"d": 0.32,
+"peak_dbfs": -7.1,
+"en": "",
+"ar": "س",
+"vtt": "The, the, the, the, the. This is how we read in Arabic."
+},
+{
+"i": 42,
+"s": 3708.75,
+"e": 3709.33,
+"d": 0.58,
+"peak_dbfs": -10.7,
+"en": "",
+"ar": "تي",
+"vtt": "The, the, the, the, the. This is how we read in Arabic."
+},
+{
+"i": 43,
+"s": 3709.77,
+"e": 3710.05,
+"d": 0.28,
+"peak_dbfs": -9.1,
+"en": "",
+"ar": "شكرا",
+"vtt": "The, the, the, the, the. This is how we read in Arabic."
+},
+{
+"i": 44,
+"s": 3710.16,
+"e": 3710.74,
+"d": 0.58,
+"peak_dbfs": -5.0,
+"en": "",
+"ar": "باي",
+"vtt": "The, the, the, the, the. This is how we read in Arabic. | This is how children, when they start reading,"
+},
+{
+"i": 45,
+"s": 3710.92,
+"e": 3711.36,
+"d": 0.44,
+"peak_dbfs": -12.8,
+"en": "",
+"ar": "تي",
+"vtt": "The, the, the, the, the. This is how we read in Arabic. | This is how children, when they start reading,"
+},
+{
+"i": 46,
+"s": 3711.57,
+"e": 3712.65,
+"d": 1.08,
+"peak_dbfs": -3.3,
+"en": "",
+"ar": "The bear tea",
+"vtt": "This is how children, when they start reading,"
+},
+{
+"i": 47,
+"s": 3713.19,
+"e": 3714.13,
+"d": 0.94,
+"peak_dbfs": -5.0,
+"en": "",
+"ar": "باردي",
+"vtt": "This is how children, when they start reading,"
+},
+{
+"i": 48,
+"s": 3714.71,
+"e": 3717.97,
+"d": 3.26,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "هذا هو كيف يترى في عربك هذا هو كيف يترى في عربك",
+"vtt": "This is how children, when they start reading, | this is what they do."
+},
+{
+"i": 49,
+"s": 3718.41,
+"e": 3719.83,
+"d": 1.42,
+"peak_dbfs": -11.0,
+"en": "",
+"ar": "هذا ما يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن يجب أن ي",
+"vtt": "this is what they do."
+},
+{
+"i": 50,
+"s": 3720.39,
+"e": 3721.17,
+"d": 0.78,
+"peak_dbfs": -8.5,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "this is what they do. | They could take it a kind of syllable by syllable, and then they connect them. So,"
+},
+{
+"i": 51,
+"s": 3721.54,
+"e": 3723.59,
+"d": 2.05,
+"peak_dbfs": -4.9,
+"en": "",
+"ar": "أغانا سيليبو بي سيليبو",
+"vtt": "They could take it a kind of syllable by syllable, and then they connect them. So,"
+},
+{
+"i": 52,
+"s": 3724.41,
+"e": 3725.89,
+"d": 1.48,
+"peak_dbfs": -4.8,
+"en": "",
+"ar": "ثم يتواجدهم",
+"vtt": "They could take it a kind of syllable by syllable, and then they connect them. So,"
+},
+{
+"i": 53,
+"s": 3726.6,
+"e": 3727.25,
+"d": 0.65,
+"peak_dbfs": -5.6,
+"en": "",
+"ar": "تارا",
+"vtt": "They could take it a kind of syllable by syllable, and then they connect them. So,"
+},
+{
+"i": 54,
+"s": 3728.22,
+"e": 3729.09,
+"d": 0.87,
+"peak_dbfs": -8.5,
+"en": "",
+"ar": "ترى",
+"vtt": "They could take it a kind of syllable by syllable, and then they connect them. So,"
+},
+{
+"i": 55,
+"s": 3729.4,
+"e": 3730.34,
+"d": 0.94,
+"peak_dbfs": -8.8,
+"en": "",
+"ar": "تابع",
+"vtt": "They could take it a kind of syllable by syllable, and then they connect them. So, | you write, you read a syllable, and then you go back to the first one,"
+},
+{
+"i": 56,
+"s": 3731.18,
+"e": 3731.5,
+"d": 0.32,
+"peak_dbfs": -11.2,
+"en": "",
+"ar": "سألت",
+"vtt": "you write, you read a syllable, and then you go back to the first one,"
+},
+{
+"i": 57,
+"s": 3731.74,
+"e": 3732.34,
+"d": 0.6,
+"peak_dbfs": -9.3,
+"en": "",
+"ar": "تا",
+"vtt": "you write, you read a syllable, and then you go back to the first one,"
+},
+{
+"i": 58,
+"s": 3732.81,
+"e": 3733.37,
+"d": 0.56,
+"peak_dbfs": -13.2,
+"en": "",
+"ar": "تي",
+"vtt": "you write, you read a syllable, and then you go back to the first one,"
+},
+{
+"i": 59,
+"s": 3733.55,
+"e": 3735.05,
+"d": 1.5,
+"peak_dbfs": -5.0,
+"en": "",
+"ar": "تباتي",
+"vtt": "you write, you read a syllable, and then you go back to the first one,"
+},
+{
+"i": 60,
+"s": 3735.33,
+"e": 3738.15,
+"d": 2.82,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "تقريباً للمسيلي ويقوم برد",
+"vtt": "you write, you read a syllable, and then you go back to the first one, | and then you read, you continue again."
+},
+{
+"i": 61,
+"s": 3738.53,
+"e": 3739.67,
+"d": 1.14,
+"peak_dbfs": -15.4,
+"en": "",
+"ar": "ويقوم بسيطة",
+"vtt": "and then you read, you continue again."
+},
+{
+"i": 62,
+"s": 3739.77,
+"e": 3740.47,
+"d": 0.7,
+"peak_dbfs": -18.6,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "and then you read, you continue again."
+},
+{
+"i": 63,
+"s": 3740.56,
+"e": 3740.69,
+"d": 0.13,
+"peak_dbfs": -22.1,
+"en": "",
+"ar": "كنت",
+"vtt": "and then you read, you continue again."
+},
+{
+"i": 64,
+"s": 3741.48,
+"e": 3746.92,
+"d": 5.44,
+"peak_dbfs": -3.5,
+"en": "",
+"ar": "تحديد ذلك في التقاطي. سيجعل ذلك في التقاطي.",
+"vtt": "and then you read, you continue again. | So try to do that while writing. That will help you a lot with also | reading for the future."
+},
+{
+"i": 65,
+"s": 3750.69,
+"e": 3754.81,
+"d": 4.12,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "حسناً سألتقل 13",
+"vtt": "Okay, so we'll do drill 13 on the, we'll do it on Tuesday."
+},
+{
+"i": 66,
+"s": 3755.27,
+"e": 3756.07,
+"d": 0.8,
+"peak_dbfs": -7.9,
+"en": "",
+"ar": "أهلاً",
+"vtt": "Okay, so we'll do drill 13 on the, we'll do it on Tuesday."
+},
+{
+"i": 67,
+"s": 3756.54,
+"e": 3757.5,
+"d": 0.96,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "سوف نتوزيدي",
+"vtt": "Okay, so we'll do drill 13 on the, we'll do it on Tuesday."
+},
+{
+"i": 68,
+"s": 3758.22,
+"e": 3762.46,
+"d": 4.24,
+"peak_dbfs": -3.5,
+"en": "",
+"ar": "سنقوم بقية الأشياء. أخبرتكم أنت ذلك الأشياء لذلك المرة.",
+"vtt": "Okay, so we'll do drill 13 on the, we'll do it on Tuesday. | Let's review some of the words. I told you those words last time, right?"
+},
+{
+"i": 69,
+"s": 3763.17,
+"e": 3764.33,
+"d": 1.16,
+"peak_dbfs": -3.6,
+"en": "",
+"ar": "So if I say",
+"vtt": "Let's review some of the words. I told you those words last time, right?"
+},
+{
+"i": 70,
+"s": 3764.85,
+"e": 3765.34,
+"d": 0.49,
+"peak_dbfs": -5.8,
+"en": "",
+"ar": "ما",
+"vtt": "Let's review some of the words. I told you those words last time, right?"
+},
+{
+"i": 71,
+"s": 3765.67,
+"e": 3766.3,
+"d": 0.63,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "باب",
+"vtt": "Let's review some of the words. I told you those words last time, right?"
+},
+{
+"i": 72,
+"s": 3767.29,
+"e": 3768.31,
+"d": 1.02,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "بالعربي",
+"vtt": "Let's review some of the words. I told you those words last time, right? | So, if I say, Ma, Bab, Bil Arabi."
+},
+{
+"i": 73,
+"s": 3768.87,
+"e": 3771.06,
+"d": 2.19,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "ما الباب بالعربي عربي؟",
+"vtt": "So, if I say, Ma, Bab, Bil Arabi."
+},
+{
+"i": 74,
+"s": 3771.56,
+"e": 3772.9,
+"d": 1.34,
+"peak_dbfs": -6.2,
+"en": "",
+"ar": "تقريباً عربي؟",
+"vtt": "So, if I say, Ma, Bab, Bil Arabi. | Can you guess? Yes, good."
+},
+{
+"i": 75,
+"s": 3773.83,
+"e": 3774.36,
+"d": 0.53,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "نعم",
+"vtt": "Can you guess? Yes, good."
+},
+{
+"i": 76,
+"s": 3774.71,
+"e": 3774.88,
+"d": 0.17,
+"peak_dbfs": -6.4,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Can you guess? Yes, good."
+},
+{
+"i": 77,
+"s": 3775.42,
+"e": 3776.18,
+"d": 0.76,
+"peak_dbfs": -2.8,
+"en": "",
+"ar": "ما باب",
+"vtt": "Can you guess? Yes, good. | My, Bob, the lot of be."
+},
+{
+"i": 78,
+"s": 3776.42,
+"e": 3777.37,
+"d": 0.95,
+"peak_dbfs": -6.0,
+"en": "",
+"ar": "بالعربي",
+"vtt": "My, Bob, the lot of be."
+},
+{
+"i": 79,
+"s": 3779.39,
+"e": 3779.97,
+"d": 0.58,
+"peak_dbfs": -5.0,
+"en": "",
+"ar": "واتسما",
+"vtt": "What's Ma? Bab."
+},
+{
+"i": 80,
+"s": 3781.28,
+"e": 3781.63,
+"d": 0.35,
+"peak_dbfs": -12.3,
+"en": "",
+"ar": "مه?",
+"vtt": "What's Ma? Bab."
+},
+{
+"i": 81,
+"s": 3781.84,
+"e": 3782.31,
+"d": 0.47,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "باب",
+"vtt": "What's Ma? Bab."
+},
+{
+"i": 82,
+"s": 3784.8,
+"e": 3785.25,
+"d": 0.45,
+"peak_dbfs": -8.3,
+"en": "",
+"ar": "يس",
+"vtt": ""
+},
+{
+"i": 83,
+"s": 3785.46,
+"e": 3786.32,
+"d": 0.86,
+"peak_dbfs": -2.6,
+"en": "",
+"ar": "بلعربي",
+"vtt": "Yes, the lot of B."
+},
+{
+"i": 84,
+"s": 3787.71,
+"e": 3788.59,
+"d": 0.88,
+"peak_dbfs": -6.6,
+"en": "",
+"ar": "in Arabic",
+"vtt": "In Arabic."
+},
+{
+"i": 85,
+"s": 3789.81,
+"e": 3791.32,
+"d": 1.51,
+"peak_dbfs": -5.8,
+"en": "",
+"ar": "أتبعني بالإنجليزي",
+"vtt": "In Arabic. | I should say Bill Inglisi."
+},
+{
+"i": 86,
+"s": 3793.09,
+"e": 3795.36,
+"d": 2.27,
+"peak_dbfs": -3.0,
+"en": "",
+"ar": "ما باب بالإنجليزي in English",
+"vtt": "Mabab bel inglizi in English."
+},
+{
+"i": 87,
+"s": 3798.67,
+"e": 3799.27,
+"d": 0.6,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "تزدار",
+"vtt": "It's door? Yeah, did you understand the question?"
+},
+{
+"i": 88,
+"s": 3799.44,
+"e": 3801.2,
+"d": 1.76,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "هل تفهمت المسؤولة؟",
+"vtt": "It's door? Yeah, did you understand the question?"
+},
+{
+"i": 89,
+"s": 3801.46,
+"e": 3805.46,
+"d": 4.0,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "أتوقف لتعطي لتعطي. إذا كنت تعطي لتعطي لتعطي لتعطي لتعطي لتعطي.",
+"vtt": "It's door? Yeah, did you understand the question? | I was waiting for an answer. If you answered,"
+},
+{
+"i": 90,
+"s": 3806.06,
+"e": 3806.89,
+"d": 0.83,
+"peak_dbfs": -3.0,
+"en": "",
+"ar": "ما وات",
+"vtt": "I was waiting for an answer. If you answered, | that means you understood the question. Ma, what? Bob, door?"
+},
+{
+"i": 91,
+"s": 3806.98,
+"e": 3807.14,
+"d": 0.16,
+"peak_dbfs": -20.2,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "that means you understood the question. Ma, what? Bob, door?"
+},
+{
+"i": 92,
+"s": 3807.5,
+"e": 3807.98,
+"d": 0.48,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "باب",
+"vtt": "that means you understood the question. Ma, what? Bob, door?"
+},
+{
+"i": 93,
+"s": 3808.83,
+"e": 3809.23,
+"d": 0.4,
+"peak_dbfs": -7.7,
+"en": "",
+"ar": "دور",
+"vtt": "that means you understood the question. Ma, what? Bob, door?"
+},
+{
+"i": 94,
+"s": 3810.66,
+"e": 3811.84,
+"d": 1.18,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "بالإنجليزي",
+"vtt": "in English."
+},
+{
+"i": 95,
+"s": 3812.6,
+"e": 3813.49,
+"d": 0.89,
+"peak_dbfs": -5.9,
+"en": "",
+"ar": "in English",
+"vtt": "in English."
+},
+{
+"i": 96,
+"s": 3815.78,
+"e": 3816.21,
+"d": 0.43,
+"peak_dbfs": -7.9,
+"en": "",
+"ar": "ماذا؟",
+"vtt": ""
+},
+{
+"i": 97,
+"s": 3816.71,
+"e": 3818.15,
+"d": 1.44,
+"peak_dbfs": -6.5,
+"en": "",
+"ar": "دور ان انجلش",
+"vtt": "What's door in English? So you have to say door, basically. Yes,"
+},
+{
+"i": 98,
+"s": 3818.37,
+"e": 3820.53,
+"d": 2.16,
+"peak_dbfs": -3.5,
+"en": "",
+"ar": "لذلك يجب أن تقول دور",
+"vtt": "What's door in English? So you have to say door, basically. Yes,"
+},
+{
+"i": 99,
+"s": 3821.21,
+"e": 3821.56,
+"d": 0.35,
+"peak_dbfs": -24.6,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "What's door in English? So you have to say door, basically. Yes,"
+},
+{
+"i": 100,
+"s": 3821.69,
+"e": 3823.4,
+"d": 1.71,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "نسرى أنت قضية",
+"vtt": "What's door in English? So you have to say door, basically. Yes, | Nazrud, you had a question?"
+},
+{
+"i": 101,
+"s": 3826.28,
+"e": 3826.65,
+"d": 0.37,
+"peak_dbfs": -5.7,
+"en": "",
+"ar": "يس",
+"vtt": ""
+},
+{
+"i": 102,
+"s": 3826.88,
+"e": 3827.17,
+"d": 0.29,
+"peak_dbfs": -9.4,
+"en": "",
+"ar": "يا",
+"vtt": "Yes, yeah. CNB both in."
+},
+{
+"i": 103,
+"s": 3828.26,
+"e": 3829.58,
+"d": 1.32,
+"peak_dbfs": -5.3,
+"en": "",
+"ar": "في و بي بوث",
+"vtt": "Yes, yeah. CNB both in."
+},
+{
+"i": 104,
+"s": 3829.67,
+"e": 3830.04,
+"d": 0.37,
+"peak_dbfs": -14.2,
+"en": "",
+"ar": "و",
+"vtt": "Yes, yeah. CNB both in."
+},
+{
+"i": 105,
+"s": 3831.99,
+"e": 3833.24,
+"d": 1.25,
+"peak_dbfs": -3.5,
+"en": "",
+"ar": "ماباب",
+"vtt": "So, my Bob Arabi."
+},
+{
+"i": 106,
+"s": 3833.76,
+"e": 3834.63,
+"d": 0.87,
+"peak_dbfs": -3.1,
+"en": "",
+"ar": "بالعربي",
+"vtt": "So, my Bob Arabi."
+},
+{
+"i": 107,
+"s": 3837.37,
+"e": 3838.08,
+"d": 0.71,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "بالعربي",
+"vtt": ""
+},
+{
+"i": 108,
+"s": 3838.84,
+"e": 3839.19,
+"d": 0.35,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "باب",
+"vtt": ""
+},
+{
+"i": 109,
+"s": 3839.32,
+"e": 3840.3,
+"d": 0.98,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "اشتركوا في القناة",
+"vtt": ""
+},
+{
+"i": 110,
+"s": 3840.43,
+"e": 3840.68,
+"d": 0.25,
+"peak_dbfs": -11.5,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": ""
+},
+{
+"i": 111,
+"s": 3840.99,
+"e": 3841.14,
+"d": 0.15,
+"peak_dbfs": -24.9,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": ""
+},
+{
+"i": 112,
+"s": 3841.23,
+"e": 3843.34,
+"d": 2.11,
+"peak_dbfs": -4.8,
+"en": "",
+"ar": "إذا أقول ما باب بالإنجليزي",
+"vtt": "If I say, yes, good. Alright, I tricked you. OK, now tell me."
+},
+{
+"i": 113,
+"s": 3844.34,
+"e": 3845.68,
+"d": 1.34,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "بأس دور",
+"vtt": "If I say, yes, good. Alright, I tricked you. OK, now tell me."
+},
+{
+"i": 114,
+"s": 3845.97,
+"e": 3846.23,
+"d": 0.26,
+"peak_dbfs": -23.7,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "If I say, yes, good. Alright, I tricked you. OK, now tell me."
+},
+{
+"i": 115,
+"s": 3846.35,
+"e": 3849.28,
+"d": 2.93,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "نعم، جيد، حسنا، اترقيتك",
+"vtt": "If I say, yes, good. Alright, I tricked you. OK, now tell me."
+},
+{
+"i": 116,
+"s": 3849.8,
+"e": 3850.87,
+"d": 1.07,
+"peak_dbfs": -3.0,
+"en": "",
+"ar": "حسنا، اتبعني",
+"vtt": "If I say, yes, good. Alright, I tricked you. OK, now tell me."
+},
+{
+"i": 117,
+"s": 3851.47,
+"e": 3851.79,
+"d": 0.32,
+"peak_dbfs": -6.6,
+"en": "",
+"ar": "أه",
+"vtt": "If I say, yes, good. Alright, I tricked you. OK, now tell me."
+},
+{
+"i": 118,
+"s": 3852.19,
+"e": 3853.25,
+"d": 1.06,
+"peak_dbfs": -7.3,
+"en": "",
+"ar": "ما اسمك؟",
+"vtt": "If I say, yes, good. Alright, I tricked you. OK, now tell me."
+},
+{
+"i": 119,
+"s": 3856.49,
+"e": 3861.05,
+"d": 4.56,
+"peak_dbfs": -3.1,
+"en": "",
+"ar": "أنا أرى أنه ولكن إذا كنت تعرفه فإنك تخبرني",
+"vtt": "If you, I, I'm looking at him, but if you know the if you know the"
+},
+{
+"i": 120,
+"s": 3861.62,
+"e": 3862.66,
+"d": 1.04,
+"peak_dbfs": -5.3,
+"en": "",
+"ar": "ما اسمك؟",
+"vtt": "If you, I, I'm looking at him, but if you know the if you know the"
+},
+{
+"i": 121,
+"s": 3862.86,
+"e": 3863.44,
+"d": 0.58,
+"peak_dbfs": -10.6,
+"en": "",
+"ar": "كل منك",
+"vtt": "If you, I, I'm looking at him, but if you know the if you know the | answer, tell me, all of you. Micah, good job. Micah, Jack, Jack, my smokey."
+},
+{
+"i": 122,
+"s": 3864.78,
+"e": 3866.64,
+"d": 1.86,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "ميكا جزيلا",
+"vtt": "answer, tell me, all of you. Micah, good job. Micah, Jack, Jack, my smokey."
+},
+{
+"i": 123,
+"s": 3867.21,
+"e": 3867.59,
+"d": 0.38,
+"peak_dbfs": -9.8,
+"en": "",
+"ar": "ساك",
+"vtt": "answer, tell me, all of you. Micah, good job. Micah, Jack, Jack, my smokey."
+},
+{
+"i": 124,
+"s": 3867.84,
+"e": 3868.87,
+"d": 1.03,
+"peak_dbfs": -12.3,
+"en": "",
+"ar": "ما اسموكي",
+"vtt": "answer, tell me, all of you. Micah, good job. Micah, Jack, Jack, my smokey."
+},
+{
+"i": 125,
+"s": 3869.57,
+"e": 3869.72,
+"d": 0.15,
+"peak_dbfs": -24.5,
+"en": "",
+"ar": "سنجح",
+"vtt": "answer, tell me, all of you. Micah, good job. Micah, Jack, Jack, my smokey."
+},
+{
+"i": 126,
+"s": 3870.15,
+"e": 3870.81,
+"d": 0.66,
+"peak_dbfs": -3.4,
+"en": "",
+"ar": "جوة جوة",
+"vtt": "answer, tell me, all of you. Micah, good job. Micah, Jack, Jack, my smokey. | Good job. Did you see how I changed from man to"
+},
+{
+"i": 127,
+"s": 3871.04,
+"e": 3872.56,
+"d": 1.52,
+"peak_dbfs": -5.0,
+"en": "",
+"ar": "هل ترى كيف أتغلق؟",
+"vtt": "Good job. Did you see how I changed from man to"
+},
+{
+"i": 128,
+"s": 3872.66,
+"e": 3873.83,
+"d": 1.17,
+"peak_dbfs": -5.5,
+"en": "",
+"ar": "من من من من من من",
+"vtt": "Good job. Did you see how I changed from man to"
+},
+{
+"i": 129,
+"s": 3874.15,
+"e": 3874.95,
+"d": 0.8,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "اسمو ك",
+"vtt": "Good job. Did you see how I changed from man to | woman?"
+},
+{
+"i": 130,
+"s": 3875.23,
+"e": 3876.14,
+"d": 0.91,
+"peak_dbfs": -7.7,
+"en": "",
+"ar": "اسموكي",
+"vtt": "Smokey, smokey, smoke. Okay. So also those are important. Okay. Okay."
+},
+{
+"i": 131,
+"s": 3876.58,
+"e": 3878.5,
+"d": 1.92,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "اسموكي اسموكا",
+"vtt": "Smokey, smokey, smoke. Okay. So also those are important. Okay. Okay."
+},
+{
+"i": 132,
+"s": 3878.8,
+"e": 3879.3,
+"d": 0.5,
+"peak_dbfs": -8.3,
+"en": "",
+"ar": "أكثر؟",
+"vtt": "Smokey, smokey, smoke. Okay. So also those are important. Okay. Okay."
+},
+{
+"i": 133,
+"s": 3879.93,
+"e": 3880.27,
+"d": 0.34,
+"peak_dbfs": -9.6,
+"en": "",
+"ar": "سو",
+"vtt": "Smokey, smokey, smoke. Okay. So also those are important. Okay. Okay."
+},
+{
+"i": 134,
+"s": 3880.6,
+"e": 3882.25,
+"d": 1.65,
+"peak_dbfs": -5.1,
+"en": "",
+"ar": "أيضا هذه المهمة المهمة",
+"vtt": "Smokey, smokey, smoke. Okay. So also those are important. Okay. Okay."
+},
+{
+"i": 135,
+"s": 3882.51,
+"e": 3882.88,
+"d": 0.37,
+"peak_dbfs": -5.0,
+"en": "",
+"ar": "حسناً",
+"vtt": "Smokey, smokey, smoke. Okay. So also those are important. Okay. Okay."
+},
+{
+"i": 136,
+"s": 3884.4,
+"e": 3887.0,
+"d": 2.6,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "حسناً، تتعلم هذا",
+"vtt": "Smokey, smokey, smoke. Okay. So also those are important. Okay. Okay."
+},
+{
+"i": 137,
+"s": 3887.09,
+"e": 3887.92,
+"d": 0.83,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "من أين",
+"vtt": "Smokey, smokey, smoke. Okay. So also those are important. Okay. Okay. | Translate this."
+},
+{
+"i": 138,
+"s": 3888.02,
+"e": 3889.13,
+"d": 1.11,
+"peak_dbfs": -4.9,
+"en": "",
+"ar": "حضرتك",
+"vtt": "Translate this."
+},
+{
+"i": 139,
+"s": 3889.83,
+"e": 3890.66,
+"d": 0.83,
+"peak_dbfs": -6.7,
+"en": "",
+"ar": "من أين",
+"vtt": "Translate this."
+},
+{
+"i": 140,
+"s": 3891.02,
+"e": 3892.21,
+"d": 1.19,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "حضرتك",
+"vtt": ""
+},
+{
+"i": 141,
+"s": 3895.71,
+"e": 3901.81,
+"d": 6.1,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "لا اسمك نعم اسمك اسمكي نيم حضرتك تذكر المترجم",
+"vtt": "No, yes, a smokey name. Hadratuka, do you remember the formal,"
+},
+{
+"i": 142,
+"s": 3902.79,
+"e": 3905.33,
+"d": 2.54,
+"peak_dbfs": -3.5,
+"en": "",
+"ar": "المترجم للقناة",
+"vtt": "the formal you? Where are you from? Oh, from where are you basically in Arabic,"
+},
+{
+"i": 143,
+"s": 3906.15,
+"e": 3908.99,
+"d": 2.84,
+"peak_dbfs": -3.3,
+"en": "",
+"ar": "من أين أنت في الربحة؟ أين أنت في الربحة؟",
+"vtt": "the formal you? Where are you from? Oh, from where are you basically in Arabic,"
+},
+{
+"i": 144,
+"s": 3909.1,
+"e": 3909.59,
+"d": 0.49,
+"peak_dbfs": -7.9,
+"en": "",
+"ar": "من يوم",
+"vtt": "the formal you? Where are you from? Oh, from where are you basically in Arabic, | so where are you from? Yeah, so, but I didn't say, I can say that as well."
+},
+{
+"i": 145,
+"s": 3910.04,
+"e": 3911.11,
+"d": 1.07,
+"peak_dbfs": -5.2,
+"en": "",
+"ar": "من أين؟",
+"vtt": "the formal you? Where are you from? Oh, from where are you basically in Arabic, | so where are you from? Yeah, so, but I didn't say, I can say that as well."
+},
+{
+"i": 146,
+"s": 3911.25,
+"e": 3913.18,
+"d": 1.93,
+"peak_dbfs": -3.4,
+"en": "",
+"ar": "حضرتك بعدد انسي",
+"vtt": "so where are you from? Yeah, so, but I didn't say, I can say that as well."
+},
+{
+"i": 147,
+"s": 3913.27,
+"e": 3915.84,
+"d": 2.57,
+"peak_dbfs": -4.9,
+"en": "",
+"ar": "من أين أنت I can say that as well",
+"vtt": "so where are you from? Yeah, so, but I didn't say, I can say that as well."
+},
+{
+"i": 148,
+"s": 3916.13,
+"e": 3918.54,
+"d": 2.41,
+"peak_dbfs": -6.2,
+"en": "",
+"ar": "من اينا انتا من اينا انتي",
+"vtt": "so where are you from? Yeah, so, but I didn't say, I can say that as well. | Where are you from? But you could also say,"
+},
+{
+"i": 149,
+"s": 3918.67,
+"e": 3919.36,
+"d": 0.69,
+"peak_dbfs": -5.8,
+"en": "",
+"ar": "أين أنت؟",
+"vtt": "Where are you from? But you could also say,"
+},
+{
+"i": 150,
+"s": 3919.76,
+"e": 3923.33,
+"d": 3.57,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "but you could also say من أين حضرتك",
+"vtt": "Where are you from? But you could also say, | that's like the formal U. Yeah. Does the professor-student relationship,"
+},
+{
+"i": 151,
+"s": 3923.76,
+"e": 3925.27,
+"d": 1.51,
+"peak_dbfs": -6.2,
+"en": "",
+"ar": "من أين حضرتك؟",
+"vtt": "that's like the formal U. Yeah. Does the professor-student relationship,"
+},
+{
+"i": 152,
+"s": 3926.0,
+"e": 3926.81,
+"d": 0.81,
+"peak_dbfs": -6.7,
+"en": "",
+"ar": "هذا هو كذلك",
+"vtt": "that's like the formal U. Yeah. Does the professor-student relationship,"
+},
+{
+"i": 153,
+"s": 3926.94,
+"e": 3927.64,
+"d": 0.7,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "فرمال يو",
+"vtt": "that's like the formal U. Yeah. Does the professor-student relationship,"
+},
+{
+"i": 154,
+"s": 3928.29,
+"e": 3928.47,
+"d": 0.18,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "يا",
+"vtt": "that's like the formal U. Yeah. Does the professor-student relationship,"
+},
+{
+"i": 155,
+"s": 3928.89,
+"e": 3929.09,
+"d": 0.2,
+"peak_dbfs": -15.3,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "that's like the formal U. Yeah. Does the professor-student relationship,"
+},
+{
+"i": 156,
+"s": 3929.33,
+"e": 3929.72,
+"d": 0.39,
+"peak_dbfs": -16.8,
+"en": "",
+"ar": "شكراً لكم",
+"vtt": "that's like the formal U. Yeah. Does the professor-student relationship,"
+},
+{
+"i": 157,
+"s": 3929.84,
+"e": 3930.05,
+"d": 0.21,
+"peak_dbfs": -24.0,
+"en": "",
+"ar": "شكرا لكم",
+"vtt": "that's like the formal U. Yeah. Does the professor-student relationship,"
+},
+{
+"i": 158,
+"s": 3930.16,
+"e": 3930.46,
+"d": 0.3,
+"peak_dbfs": -22.8,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "that's like the formal U. Yeah. Does the professor-student relationship, | maybe we should call it? It's not like a rule."
+},
+{
+"i": 159,
+"s": 3930.6,
+"e": 3930.78,
+"d": 0.18,
+"peak_dbfs": -21.9,
+"en": "",
+"ar": "شكرا",
+"vtt": "that's like the formal U. Yeah. Does the professor-student relationship, | maybe we should call it? It's not like a rule."
+},
+{
+"i": 160,
+"s": 3931.47,
+"e": 3931.63,
+"d": 0.16,
+"peak_dbfs": -20.4,
+"en": "",
+"ar": "كال",
+"vtt": "maybe we should call it? It's not like a rule."
+},
+{
+"i": 161,
+"s": 3932.14,
+"e": 3932.53,
+"d": 0.39,
+"peak_dbfs": -19.1,
+"en": "",
+"ar": "احراب",
+"vtt": "maybe we should call it? It's not like a rule."
+},
+{
+"i": 162,
+"s": 3932.87,
+"e": 3934.57,
+"d": 1.7,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "ليس كتابة",
+"vtt": "maybe we should call it? It's not like a rule."
+},
+{
+"i": 163,
+"s": 3935.22,
+"e": 3939.99,
+"d": 4.77,
+"peak_dbfs": -3.4,
+"en": "",
+"ar": "فساة افتح ان تكون اكتراً افتح ان تكون حضرتكي حضرتكي",
+"vtt": "maybe we should call it? It's not like a rule. | But, so, if you wanna be extra polite, you could use if you, that's the optional,"
+},
+{
+"i": 164,
+"s": 3940.08,
+"e": 3940.23,
+"d": 0.15,
+"peak_dbfs": -10.7,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "But, so, if you wanna be extra polite, you could use if you, that's the optional,"
+},
+{
+"i": 165,
+"s": 3940.74,
+"e": 3942.05,
+"d": 1.31,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "إذا كانت مختلفة",
+"vtt": "But, so, if you wanna be extra polite, you could use if you, that's the optional,"
+},
+{
+"i": 166,
+"s": 3942.5,
+"e": 3942.66,
+"d": 0.16,
+"peak_dbfs": -13.9,
+"en": "",
+"ar": "يا",
+"vtt": "But, so, if you wanna be extra polite, you could use if you, that's the optional, | yeah, it's not offending if you say NT and down."
+},
+{
+"i": 167,
+"s": 3942.97,
+"e": 3945.73,
+"d": 2.76,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "إنه لا يفعله إذا تقول أنت و تنسى",
+"vtt": "But, so, if you wanna be extra polite, you could use if you, that's the optional, | yeah, it's not offending if you say NT and down."
+},
+{
+"i": 168,
+"s": 3947.88,
+"e": 3948.06,
+"d": 0.18,
+"peak_dbfs": -28.9,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": ""
+},
+{
+"i": 169,
+"s": 3949.53,
+"e": 3951.45,
+"d": 1.92,
+"peak_dbfs": -3.3,
+"en": "",
+"ar": "إذا أردت أحد أخير من أجل",
+"vtt": "All right, so anyone would like to ask me a question?"
+},
+{
+"i": 170,
+"s": 3951.55,
+"e": 3952.04,
+"d": 0.49,
+"peak_dbfs": -7.8,
+"en": "",
+"ar": "المترجم للقناة",
+"vtt": "All right, so anyone would like to ask me a question?"
+},
+{
+"i": 171,
+"s": 3967.6,
+"e": 3968.04,
+"d": 0.44,
+"peak_dbfs": -8.3,
+"en": "",
+"ar": "يا سبار",
+"vtt": ""
+},
+{
+"i": 172,
+"s": 3968.81,
+"e": 3969.68,
+"d": 0.87,
+"peak_dbfs": -19.6,
+"en": "",
+"ar": "إن أعلى",
+"vtt": "Yes, Parker, since you're talking, yes, the woman, Hadratuki, Lynchburg."
+},
+{
+"i": 173,
+"s": 3971.01,
+"e": 3971.45,
+"d": 0.44,
+"peak_dbfs": -6.7,
+"en": "",
+"ar": "حضرت",
+"vtt": "Yes, Parker, since you're talking, yes, the woman, Hadratuki, Lynchburg."
+},
+{
+"i": 174,
+"s": 3971.54,
+"e": 3971.85,
+"d": 0.31,
+"peak_dbfs": -12.0,
+"en": "",
+"ar": "تشو",
+"vtt": "Yes, Parker, since you're talking, yes, the woman, Hadratuki, Lynchburg."
+},
+{
+"i": 175,
+"s": 3971.96,
+"e": 3975.26,
+"d": 3.3,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "كي سنسلتك يسلتك ممينا حضراتوكي",
+"vtt": "Yes, Parker, since you're talking, yes, the woman, Hadratuki, Lynchburg."
+},
+{
+"i": 176,
+"s": 3975.39,
+"e": 3975.57,
+"d": 0.18,
+"peak_dbfs": -27.2,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Yes, Parker, since you're talking, yes, the woman, Hadratuki, Lynchburg."
+},
+{
+"i": 177,
+"s": 3975.77,
+"e": 3977.24,
+"d": 1.47,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "أنا من سوريا",
+"vtt": "Yes, Parker, since you're talking, yes, the woman, Hadratuki, Lynchburg."
+},
+{
+"i": 178,
+"s": 3978.39,
+"e": 3979.16,
+"d": 0.77,
+"peak_dbfs": -5.4,
+"en": "",
+"ar": "أسكن",
+"vtt": "Yes, Parker, since you're talking, yes, the woman, Hadratuki, Lynchburg."
+},
+{
+"i": 179,
+"s": 3979.37,
+"e": 3980.39,
+"d": 1.02,
+"peak_dbfs": -6.4,
+"en": "",
+"ar": "في لنشبرت",
+"vtt": "Yes, Parker, since you're talking, yes, the woman, Hadratuki, Lynchburg."
+},
+{
+"i": 180,
+"s": 3982.21,
+"e": 3982.82,
+"d": 0.61,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "تقلق؟",
+"vtt": "You got that?"
+},
+{
+"i": 181,
+"s": 3983.96,
+"e": 3986.33,
+"d": 2.37,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "أنا من سيريا. أتبع في",
+"vtt": "You got that? | I am from Syria. I live in Lynchburg."
+},
+{
+"i": 182,
+"s": 3986.43,
+"e": 3987.0,
+"d": 0.57,
+"peak_dbfs": -9.4,
+"en": "",
+"ar": "لشبار",
+"vtt": "I am from Syria. I live in Lynchburg."
+},
+{
+"i": 183,
+"s": 3989.5,
+"e": 3990.32,
+"d": 0.82,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "حسناً جيداً",
+"vtt": "Okay, good job, Parker. Yeah, L, who wanna ask me a question?"
+},
+{
+"i": 184,
+"s": 3990.41,
+"e": 3990.84,
+"d": 0.43,
+"peak_dbfs": -6.5,
+"en": "",
+"ar": "أكبر",
+"vtt": "Okay, good job, Parker. Yeah, L, who wanna ask me a question?"
+},
+{
+"i": 185,
+"s": 3991.28,
+"e": 3993.12,
+"d": 1.84,
+"peak_dbfs": -3.3,
+"en": "",
+"ar": "يلا! من يريد أن أسألني أسألني؟",
+"vtt": "Okay, good job, Parker. Yeah, L, who wanna ask me a question?"
+},
+{
+"i": 186,
+"s": 3995.35,
+"e": 3998.29,
+"d": 2.94,
+"peak_dbfs": -5.8,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Can ask, are you from Lynchburg City?"
+},
+{
+"i": 187,
+"s": 4007.43,
+"e": 4008.08,
+"d": 0.65,
+"peak_dbfs": -2.5,
+"en": "",
+"ar": "هل",
+"vtt": "Hell, hell, it's a question when you want when you"
+},
+{
+"i": 188,
+"s": 4008.65,
+"e": 4013.64,
+"d": 4.99,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "هل، تسألت عن أن تبدأ بأنه هل تسألت؟",
+"vtt": "Hell, hell, it's a question when you want when you | want to start with, are you, you want to say here, are you from,"
+},
+{
+"i": 189,
+"s": 4014.55,
+"e": 4015.03,
+"d": 0.48,
+"peak_dbfs": -6.0,
+"en": "",
+"ar": "أم",
+"vtt": "want to start with, are you, you want to say here, are you from,"
+},
+{
+"i": 190,
+"s": 4015.26,
+"e": 4015.64,
+"d": 0.38,
+"peak_dbfs": -4.9,
+"en": "",
+"ar": "بعد",
+"vtt": "want to start with, are you, you want to say here, are you from,"
+},
+{
+"i": 191,
+"s": 4015.94,
+"e": 4016.13,
+"d": 0.19,
+"peak_dbfs": -17.1,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "want to start with, are you, you want to say here, are you from,"
+},
+{
+"i": 192,
+"s": 4016.67,
+"e": 4019.99,
+"d": 3.32,
+"peak_dbfs": -4.8,
+"en": "",
+"ar": "تريد أن تقول هنا هل أنت من هل أنت من",
+"vtt": "want to start with, are you, you want to say here, are you from, | are you from? What's the question? What do you want to ask here?"
+},
+{
+"i": 193,
+"s": 4020.89,
+"e": 4022.79,
+"d": 1.9,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "ما هي المسؤولة؟ ما تريدون أن تسألها؟",
+"vtt": "are you from? What's the question? What do you want to ask here?"
+},
+{
+"i": 194,
+"s": 4024.37,
+"e": 4028.97,
+"d": 4.6,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "لقد بدأت بأينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أينا، هل أ",
+"vtt": "Because you started with Aina, hell, Aina, hell, Aina, they don't come together."
+},
+{
+"i": 195,
+"s": 4029.44,
+"e": 4030.11,
+"d": 0.67,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "أو أين",
+"vtt": "Because you started with Aina, hell, Aina, hell, Aina, they don't come together."
+},
+{
+"i": 196,
+"s": 4030.66,
+"e": 4034.35,
+"d": 3.69,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "تبدأ بإذن هل أو إينا ما تريد أن تقول هنا؟",
+"vtt": "Because you started with Aina, hell, Aina, hell, Aina, they don't come together. | Either hell or Aina. You start with either hell or with Aina. | So what do you want to say here? Trying to say which "
+},
+{
+"i": 197,
+"s": 4034.46,
+"e": 4034.69,
+"d": 0.23,
+"peak_dbfs": -16.2,
+"en": "",
+"ar": "شكرا",
+"vtt": "Either hell or Aina. You start with either hell or with Aina. | So what do you want to say here? Trying to say which verb. All right,"
+},
+{
+"i": 198,
+"s": 4035.17,
+"e": 4035.85,
+"d": 0.68,
+"peak_dbfs": -11.7,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "So what do you want to say here? Trying to say which verb. All right,"
+},
+{
+"i": 199,
+"s": 4036.04,
+"e": 4036.37,
+"d": 0.33,
+"peak_dbfs": -20.1,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "So what do you want to say here? Trying to say which verb. All right,"
+},
+{
+"i": 200,
+"s": 4037.28,
+"e": 4038.23,
+"d": 0.95,
+"peak_dbfs": -2.3,
+"en": "",
+"ar": "حسناً، ثم،",
+"vtt": "So what do you want to say here? Trying to say which verb. All right,"
+},
+{
+"i": 201,
+"s": 4038.81,
+"e": 4043.48,
+"d": 4.67,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "لأنه ستبدأ بأسلالي لذلك يجب أن تبدأ بأسلالي",
+"vtt": "So what do you want to say here? Trying to say which verb. All right, | then hell. Since it's RU, since you started with the auxiliary verb, | you have to start with hell."
+},
+{
+"i": 202,
+"s": 4043.97,
+"e": 4044.46,
+"d": 0.49,
+"peak_dbfs": -5.4,
+"en": "",
+"ar": "هل",
+"vtt": "you have to start with hell."
+},
+{
+"i": 203,
+"s": 4044.71,
+"e": 4044.86,
+"d": 0.15,
+"peak_dbfs": -22.4,
+"en": "",
+"ar": "شكرا لكم",
+"vtt": "you have to start with hell. | Hand. Mhm. In Lynchburg. Good job, Micah. And now I'm in Lynchburg."
+},
+{
+"i": 204,
+"s": 4045.43,
+"e": 4045.6,
+"d": 0.17,
+"peak_dbfs": -24.0,
+"en": "",
+"ar": "شكرا",
+"vtt": "Hand. Mhm. In Lynchburg. Good job, Micah. And now I'm in Lynchburg."
+},
+{
+"i": 205,
+"s": 4045.95,
+"e": 4046.54,
+"d": 0.59,
+"peak_dbfs": -8.2,
+"en": "",
+"ar": "مهما",
+"vtt": "Hand. Mhm. In Lynchburg. Good job, Micah. And now I'm in Lynchburg."
+},
+{
+"i": 206,
+"s": 4047.14,
+"e": 4047.44,
+"d": 0.3,
+"peak_dbfs": -19.8,
+"en": "",
+"ar": "وإن",
+"vtt": "Hand. Mhm. In Lynchburg. Good job, Micah. And now I'm in Lynchburg."
+},
+{
+"i": 207,
+"s": 4048.16,
+"e": 4049.53,
+"d": 1.37,
+"peak_dbfs": -4.8,
+"en": "",
+"ar": "جمعا جمعا جمعا جمعا",
+"vtt": "Hand. Mhm. In Lynchburg. Good job, Micah. And now I'm in Lynchburg."
+},
+{
+"i": 208,
+"s": 4050.23,
+"e": 4052.58,
+"d": 2.35,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "نعم أنا من لنشبرغ",
+"vtt": "Hand. Mhm. In Lynchburg. Good job, Micah. And now I'm in Lynchburg."
+},
+{
+"i": 209,
+"s": 4053.41,
+"e": 4054.94,
+"d": 1.53,
+"peak_dbfs": -3.5,
+"en": "",
+"ar": "تذكرنا نعم و لا؟",
+"vtt": "Hand. Mhm. In Lynchburg. Good job, Micah. And now I'm in Lynchburg. | Do you remember now? Now? Yes, La. No. So now I'm in Lynchburg. Good job."
+},
+{
+"i": 210,
+"s": 4055.79,
+"e": 4056.6,
+"d": 0.81,
+"peak_dbfs": -4.9,
+"en": "",
+"ar": "نعم",
+"vtt": "Do you remember now? Now? Yes, La. No. So now I'm in Lynchburg. Good job."
+},
+{
+"i": 211,
+"s": 4056.96,
+"e": 4058.06,
+"d": 1.1,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "يسعى",
+"vtt": "Do you remember now? Now? Yes, La. No. So now I'm in Lynchburg. Good job."
+},
+{
+"i": 212,
+"s": 4058.44,
+"e": 4058.81,
+"d": 0.37,
+"peak_dbfs": -13.2,
+"en": "",
+"ar": "نو",
+"vtt": "Do you remember now? Now? Yes, La. No. So now I'm in Lynchburg. Good job."
+},
+{
+"i": 213,
+"s": 4059.39,
+"e": 4060.9,
+"d": 1.51,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "سو نعم أنا من",
+"vtt": "Do you remember now? Now? Yes, La. No. So now I'm in Lynchburg. Good job."
+},
+{
+"i": 214,
+"s": 4061.03,
+"e": 4061.76,
+"d": 0.73,
+"peak_dbfs": -8.8,
+"en": "",
+"ar": "لنشبرغ",
+"vtt": "Do you remember now? Now? Yes, La. No. So now I'm in Lynchburg. Good job."
+},
+{
+"i": 215,
+"s": 4062.24,
+"e": 4062.6,
+"d": 0.36,
+"peak_dbfs": -5.9,
+"en": "",
+"ar": "وشكرا",
+"vtt": "Do you remember now? Now? Yes, La. No. So now I'm in Lynchburg. Good job."
+},
+{
+"i": 216,
+"s": 4067.41,
+"e": 4067.7,
+"d": 0.29,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "حسنا",
+"vtt": ""
+},
+{
+"i": 217,
+"s": 4068.41,
+"e": 4070.29,
+"d": 1.88,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "من يفهم الواقع؟",
+"vtt": "Alright, who understand answer?"
+},
+{
+"i": 218,
+"s": 4071.3,
+"e": 4072.22,
+"d": 0.92,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "ما اسم؟",
+"vtt": "Alright, who understand answer?"
+},
+{
+"i": 219,
+"s": 4073.37,
+"e": 4074.13,
+"d": 0.76,
+"peak_dbfs": -7.3,
+"en": "",
+"ar": "أبوكا",
+"vtt": "Abuka, oh, Abika, oh, Abuki, oh, Abiki."
+},
+{
+"i": 220,
+"s": 4074.47,
+"e": 4075.59,
+"d": 1.12,
+"peak_dbfs": -7.9,
+"en": "",
+"ar": "أو أبيكال",
+"vtt": "Abuka, oh, Abika, oh, Abuki, oh, Abiki."
+},
+{
+"i": 221,
+"s": 4076.01,
+"e": 4076.43,
+"d": 0.42,
+"peak_dbfs": -9.9,
+"en": "",
+"ar": "أو",
+"vtt": "Abuka, oh, Abika, oh, Abuki, oh, Abiki."
+},
+{
+"i": 222,
+"s": 4076.88,
+"e": 4077.71,
+"d": 0.83,
+"peak_dbfs": -9.4,
+"en": "",
+"ar": "أبوكي",
+"vtt": "Abuka, oh, Abika, oh, Abuki, oh, Abiki."
+},
+{
+"i": 223,
+"s": 4078.14,
+"e": 4079.09,
+"d": 0.95,
+"peak_dbfs": -10.2,
+"en": "",
+"ar": "أو أبيكي",
+"vtt": "Abuka, oh, Abika, oh, Abuki, oh, Abiki."
+},
+{
+"i": 224,
+"s": 4081.62,
+"e": 4082.53,
+"d": 0.91,
+"peak_dbfs": -3.2,
+"en": "",
+"ar": "ما اسم",
+"vtt": "Ma SM."
+},
+{
+"i": 225,
+"s": 4083.5,
+"e": 4084.25,
+"d": 0.75,
+"peak_dbfs": -6.3,
+"en": "",
+"ar": "أبوكا",
+"vtt": "Ma SM."
+},
+{
+"i": 226,
+"s": 4084.88,
+"e": 4086.09,
+"d": 1.21,
+"peak_dbfs": -8.5,
+"en": "",
+"ar": "أبي أبوكي",
+"vtt": ""
+},
+{
+"i": 227,
+"s": 4088.45,
+"e": 4089.28,
+"d": 0.83,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "The name of who?",
+"vtt": "The name of who?"
+},
+{
+"i": 228,
+"s": 4091.88,
+"e": 4095.51,
+"d": 3.63,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "أنا أتبع بين أمي و أمي و أمي لأنني أتبع بك",
+"vtt": "I'm switching between men and women because I'm talking to men and women."
+},
+{
+"i": 229,
+"s": 4095.67,
+"e": 4096.47,
+"d": 0.8,
+"peak_dbfs": -5.9,
+"en": "",
+"ar": "من وممان",
+"vtt": "I'm switching between men and women because I'm talking to men and women."
+},
+{
+"i": 230,
+"s": 4096.76,
+"e": 4098.18,
+"d": 1.42,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "باهم اسکنگ باعت ساموان",
+"vtt": "I'm switching between men and women because I'm talking to men and women."
+},
+{
+"i": 231,
+"s": 4098.99,
+"e": 4099.84,
+"d": 0.85,
+"peak_dbfs": -5.1,
+"en": "",
+"ar": "بوكا",
+"vtt": "But I'm asking about someone. Abuka, Abuki."
+},
+{
+"i": 232,
+"s": 4100.04,
+"e": 4100.9,
+"d": 0.86,
+"peak_dbfs": -8.6,
+"en": "",
+"ar": "ووكي",
+"vtt": "But I'm asking about someone. Abuka, Abuki."
+},
+{
+"i": 233,
+"s": 4102.24,
+"e": 4102.93,
+"d": 0.69,
+"peak_dbfs": -3.2,
+"en": "",
+"ar": "يُرْ",
+"vtt": "Your, your who? Yes, yes, your father. So we say your masculine, your feminine,"
+},
+{
+"i": 234,
+"s": 4103.17,
+"e": 4104.26,
+"d": 1.09,
+"peak_dbfs": -5.1,
+"en": "",
+"ar": "يورو",
+"vtt": "Your, your who? Yes, yes, your father. So we say your masculine, your feminine,"
+},
+{
+"i": 235,
+"s": 4104.88,
+"e": 4105.19,
+"d": 0.31,
+"peak_dbfs": -7.2,
+"en": "",
+"ar": "أب",
+"vtt": "Your, your who? Yes, yes, your father. So we say your masculine, your feminine,"
+},
+{
+"i": 236,
+"s": 4106.16,
+"e": 4107.96,
+"d": 1.8,
+"peak_dbfs": -5.1,
+"en": "",
+"ar": "أبوك أبوكي",
+"vtt": "Your, your who? Yes, yes, your father. So we say your masculine, your feminine,"
+},
+{
+"i": 237,
+"s": 4108.53,
+"e": 4109.23,
+"d": 0.7,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "يس",
+"vtt": "Your, your who? Yes, yes, your father. So we say your masculine, your feminine,"
+},
+{
+"i": 238,
+"s": 4109.49,
+"e": 4110.04,
+"d": 0.55,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "نعم",
+"vtt": "Your, your who? Yes, yes, your father. So we say your masculine, your feminine,"
+},
+{
+"i": 239,
+"s": 4110.26,
+"e": 4111.22,
+"d": 0.96,
+"peak_dbfs": -3.3,
+"en": "",
+"ar": "your father",
+"vtt": "Your, your who? Yes, yes, your father. So we say your masculine, your feminine,"
+},
+{
+"i": 240,
+"s": 4111.81,
+"e": 4113.42,
+"d": 1.61,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "So we say",
+"vtt": "Your, your who? Yes, yes, your father. So we say your masculine, your feminine,"
+},
+{
+"i": 241,
+"s": 4113.8,
+"e": 4114.51,
+"d": 0.71,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "جور",
+"vtt": "Your, your who? Yes, yes, your father. So we say your masculine, your feminine,"
+},
+{
+"i": 242,
+"s": 4115.35,
+"e": 4116.01,
+"d": 0.66,
+"peak_dbfs": -7.1,
+"en": "",
+"ar": "مسكولين",
+"vtt": "Your, your who? Yes, yes, your father. So we say your masculine, your feminine,"
+},
+{
+"i": 243,
+"s": 4116.22,
+"e": 4117.05,
+"d": 0.83,
+"peak_dbfs": -8.5,
+"en": "",
+"ar": "وكي",
+"vtt": "Your, your who? Yes, yes, your father. So we say your masculine, your feminine,"
+},
+{
+"i": 244,
+"s": 4117.97,
+"e": 4118.53,
+"d": 0.56,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "يورد",
+"vtt": "Your, your who? Yes, yes, your father. So we say your masculine, your feminine,"
+},
+{
+"i": 245,
+"s": 4118.8,
+"e": 4119.32,
+"d": 0.52,
+"peak_dbfs": -6.1,
+"en": "",
+"ar": "فمنين",
+"vtt": "Your, your who? Yes, yes, your father. So we say your masculine, your feminine,"
+},
+{
+"i": 246,
+"s": 4120.01,
+"e": 4121.14,
+"d": 1.13,
+"peak_dbfs": -3.0,
+"en": "",
+"ar": "سوما اسم",
+"vtt": "Your, your who? Yes, yes, your father. So we say your masculine, your feminine, | so."
+},
+{
+"i": 247,
+"s": 4121.53,
+"e": 4122.32,
+"d": 0.79,
+"peak_dbfs": -6.2,
+"en": "",
+"ar": "أبوكا",
+"vtt": "so. | Abuka, Ma. SM Abuki."
+},
+{
+"i": 248,
+"s": 4122.57,
+"e": 4123.43,
+"d": 0.86,
+"peak_dbfs": -8.0,
+"en": "",
+"ar": "ما اسم",
+"vtt": "Abuka, Ma. SM Abuki."
+},
+{
+"i": 249,
+"s": 4124.28,
+"e": 4125.06,
+"d": 0.78,
+"peak_dbfs": -12.1,
+"en": "",
+"ar": "أبوكي",
+"vtt": "Abuka, Ma. SM Abuki."
+},
+{
+"i": 250,
+"s": 4127.17,
+"e": 4128.26,
+"d": 1.09,
+"peak_dbfs": -6.0,
+"en": "",
+"ar": "لا أحد أصدقائي",
+"vtt": "No one answered me."
+},
+{
+"i": 251,
+"s": 4130.31,
+"e": 4133.15,
+"d": 2.84,
+"peak_dbfs": -2.9,
+"en": "",
+"ar": "نعم، شكرا",
+"vtt": "Yes, thank you."
+},
+{
+"i": 252,
+"s": 4134.5,
+"e": 4135.13,
+"d": 0.63,
+"peak_dbfs": -7.7,
+"en": "",
+"ar": "شكرا",
+"vtt": ""
+},
+{
+"i": 253,
+"s": 4135.75,
+"e": 4136.09,
+"d": 0.34,
+"peak_dbfs": -24.4,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": ""
+},
+{
+"i": 254,
+"s": 4138.65,
+"e": 4140.42,
+"d": 1.77,
+"peak_dbfs": -5.6,
+"en": "",
+"ar": "أريد أن نتحدث مع مع أحدهم؟",
+"vtt": "All right, do you want to talk with each other? Yes."
+},
+{
+"i": 255,
+"s": 4141.29,
+"e": 4141.99,
+"d": 0.7,
+"peak_dbfs": -6.7,
+"en": "",
+"ar": "نعم",
+"vtt": "All right, do you want to talk with each other? Yes."
+},
+{
+"i": 256,
+"s": 4143.15,
+"e": 4143.81,
+"d": 0.66,
+"peak_dbfs": -13.6,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "All right, do you want to talk with each other? Yes. | I have a question. So if I wanted to say, I wanted to ask you, like,"
+},
+{
+"i": 257,
+"s": 4144.19,
+"e": 4144.52,
+"d": 0.33,
+"peak_dbfs": -20.5,
+"en": "",
+"ar": "أروني د",
+"vtt": "I have a question. So if I wanted to say, I wanted to ask you, like,"
+},
+{
+"i": 258,
+"s": 4144.74,
+"e": 4144.96,
+"d": 0.22,
+"peak_dbfs": -20.5,
+"en": "",
+"ar": "أصدقائي",
+"vtt": "I have a question. So if I wanted to say, I wanted to ask you, like,"
+},
+{
+"i": 259,
+"s": 4145.27,
+"e": 4145.92,
+"d": 0.65,
+"peak_dbfs": -15.5,
+"en": "",
+"ar": "شكرا",
+"vtt": "I have a question. So if I wanted to say, I wanted to ask you, like,"
+},
+{
+"i": 260,
+"s": 4147.13,
+"e": 4148.28,
+"d": 1.15,
+"peak_dbfs": -12.9,
+"en": "",
+"ar": "ما سيديه هم",
+"vtt": "I have a question. So if I wanted to say, I wanted to ask you, like, | what city are you from? Okay."
+},
+{
+"i": 261,
+"s": 4148.48,
+"e": 4148.63,
+"d": 0.15,
+"peak_dbfs": -25.6,
+"en": "",
+"ar": "من",
+"vtt": "I have a question. So if I wanted to say, I wanted to ask you, like, | what city are you from? Okay."
+},
+{
+"i": 262,
+"s": 4148.98,
+"e": 4149.38,
+"d": 0.4,
+"peak_dbfs": -7.9,
+"en": "",
+"ar": "أكيد",
+"vtt": "what city are you from? Okay."
+},
+{
+"i": 263,
+"s": 4150.57,
+"e": 4152.56,
+"d": 1.99,
+"peak_dbfs": -12.1,
+"en": "",
+"ar": "أنا أعرف أنه لا يقول لكي",
+"vtt": "what city are you from? Okay. | I know if you don't say city, it's in Alaina."
+},
+{
+"i": 264,
+"s": 4152.86,
+"e": 4153.31,
+"d": 0.45,
+"peak_dbfs": -16.5,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "I know if you don't say city, it's in Alaina."
+},
+{
+"i": 265,
+"s": 4153.46,
+"e": 4154.32,
+"d": 0.86,
+"peak_dbfs": -14.8,
+"en": "",
+"ar": "أينا",
+"vtt": "I know if you don't say city, it's in Alaina."
+},
+{
+"i": 266,
+"s": 4155.05,
+"e": 4155.42,
+"d": 0.37,
+"peak_dbfs": -16.8,
+"en": "",
+"ar": "اهلا",
+"vtt": "I know if you don't say city, it's in Alaina. | So here you have to say from which city are you? From which, not where here. Yeah."
+},
+{
+"i": 267,
+"s": 4155.91,
+"e": 4158.4,
+"d": 2.49,
+"peak_dbfs": -3.2,
+"en": "",
+"ar": "هناك يجب أن تقول من أجل",
+"vtt": "So here you have to say from which city are you? From which, not where here. Yeah."
+},
+{
+"i": 268,
+"s": 4158.55,
+"e": 4159.63,
+"d": 1.08,
+"peak_dbfs": -8.1,
+"en": "",
+"ar": "ماذا تريد أنت؟",
+"vtt": "So here you have to say from which city are you? From which, not where here. Yeah."
+},
+{
+"i": 269,
+"s": 4160.22,
+"e": 4161.02,
+"d": 0.8,
+"peak_dbfs": -6.0,
+"en": "",
+"ar": "من أجل",
+"vtt": "So here you have to say from which city are you? From which, not where here. Yeah."
+},
+{
+"i": 270,
+"s": 4161.38,
+"e": 4162.5,
+"d": 1.12,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "لا تنظر هنا",
+"vtt": "So here you have to say from which city are you? From which, not where here. Yeah."
+},
+{
+"i": 271,
+"s": 4162.76,
+"e": 4163.02,
+"d": 0.26,
+"peak_dbfs": -5.0,
+"en": "",
+"ar": "يا",
+"vtt": "So here you have to say from which city are you? From which, not where here. Yeah. | So which, I don't know if we learned it, but we know the letter A."
+},
+{
+"i": 272,
+"s": 4163.45,
+"e": 4165.62,
+"d": 2.17,
+"peak_dbfs": -3.4,
+"en": "",
+"ar": "ألا أعرف إذا أردنا",
+"vtt": "So which, I don't know if we learned it, but we know the letter A."
+},
+{
+"i": 273,
+"s": 4166.02,
+"e": 4167.21,
+"d": 1.19,
+"peak_dbfs": -11.9,
+"en": "",
+"ar": "ولكن نعلم أن نعرف",
+"vtt": "So which, I don't know if we learned it, but we know the letter A."
+},
+{
+"i": 274,
+"s": 4167.6,
+"e": 4167.94,
+"d": 0.34,
+"peak_dbfs": -13.3,
+"en": "",
+"ar": "أي",
+"vtt": "So which, I don't know if we learned it, but we know the letter A."
+},
+{
+"i": 275,
+"s": 4169.53,
+"e": 4169.75,
+"d": 0.22,
+"peak_dbfs": -23.1,
+"en": "",
+"ar": "أي",
+"vtt": ""
+},
+{
+"i": 276,
+"s": 4170.0,
+"e": 4170.55,
+"d": 0.55,
+"peak_dbfs": -12.0,
+"en": "",
+"ar": "سواء ذلك",
+"vtt": "Hey, so I left and yeah, and notice here I didn't say E. A. Okay,"
+},
+{
+"i": 277,
+"s": 4170.78,
+"e": 4171.08,
+"d": 0.3,
+"peak_dbfs": -20.5,
+"en": "",
+"ar": "ويقوم بس",
+"vtt": "Hey, so I left and yeah, and notice here I didn't say E. A. Okay,"
+},
+{
+"i": 278,
+"s": 4171.17,
+"e": 4171.59,
+"d": 0.42,
+"peak_dbfs": -12.1,
+"en": "",
+"ar": "يا",
+"vtt": "Hey, so I left and yeah, and notice here I didn't say E. A. Okay,"
+},
+{
+"i": 279,
+"s": 4172.07,
+"e": 4174.43,
+"d": 2.36,
+"peak_dbfs": -7.7,
+"en": "",
+"ar": "أعطينا هنا أنني لم تتحدث عن إي",
+"vtt": "Hey, so I left and yeah, and notice here I didn't say E. A. Okay,"
+},
+{
+"i": 280,
+"s": 4175.13,
+"e": 4175.41,
+"d": 0.28,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "أه",
+"vtt": "Hey, so I left and yeah, and notice here I didn't say E. A. Okay,"
+},
+{
+"i": 281,
+"s": 4175.55,
+"e": 4175.87,
+"d": 0.32,
+"peak_dbfs": -5.8,
+"en": "",
+"ar": "أهلا",
+"vtt": "Hey, so I left and yeah, and notice here I didn't say E. A. Okay,"
+},
+{
+"i": 282,
+"s": 4176.35,
+"e": 4176.53,
+"d": 0.18,
+"peak_dbfs": -9.2,
+"en": "",
+"ar": "إ",
+"vtt": "Hey, so I left and yeah, and notice here I didn't say E. A. Okay,"
+},
+{
+"i": 283,
+"s": 4176.75,
+"e": 4177.43,
+"d": 0.68,
+"peak_dbfs": -9.9,
+"en": "",
+"ar": "أيها المترجمات لكثير من الوصف",
+"vtt": "Hey, so I left and yeah, and notice here I didn't say E. A. Okay,"
+},
+{
+"i": 284,
+"s": 4178.08,
+"e": 4179.11,
+"d": 1.03,
+"peak_dbfs": -7.2,
+"en": "",
+"ar": "يمكن أن يكون هذا",
+"vtt": "Hey, so I left and yeah, and notice here I didn't say E. A. Okay, | here there's a so when there's a on the we don't pronounce it as key,"
+},
+{
+"i": 285,
+"s": 4179.24,
+"e": 4179.67,
+"d": 0.43,
+"peak_dbfs": -8.3,
+"en": "",
+"ar": "مون",
+"vtt": "here there's a so when there's a on the we don't pronounce it as key,"
+},
+{
+"i": 286,
+"s": 4180.1,
+"e": 4183.27,
+"d": 3.17,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "لذا عندما يكون هناك سلكون في الياو لا ينقل ذلك",
+"vtt": "here there's a so when there's a on the we don't pronounce it as key,"
+},
+{
+"i": 287,
+"s": 4183.39,
+"e": 4184.97,
+"d": 1.58,
+"peak_dbfs": -7.1,
+"en": "",
+"ar": "ويسرعي",
+"vtt": "here there's a so when there's a on the we don't pronounce it as key,"
+},
+{
+"i": 288,
+"s": 4185.49,
+"e": 4186.09,
+"d": 0.6,
+"peak_dbfs": -5.7,
+"en": "",
+"ar": "أي",
+"vtt": "here there's a so when there's a on the we don't pronounce it as key, | which pronounce it as so."
+},
+{
+"i": 289,
+"s": 4187.28,
+"e": 4187.67,
+"d": 0.39,
+"peak_dbfs": -5.9,
+"en": "",
+"ar": "سو",
+"vtt": "which pronounce it as so."
+},
+{
+"i": 290,
+"s": 4188.17,
+"e": 4188.57,
+"d": 0.4,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "مل",
+"vtt": "which pronounce it as so."
+},
+{
+"i": 291,
+"s": 4189.16,
+"e": 4189.68,
+"d": 0.52,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "أي",
+"vtt": ""
+},
+{
+"i": 292,
+"s": 4191.0,
+"e": 4191.81,
+"d": 0.81,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "أمود ستدي",
+"vtt": "And what city? Medina, and then you."
+},
+{
+"i": 293,
+"s": 4192.27,
+"e": 4192.65,
+"d": 0.38,
+"peak_dbfs": -19.2,
+"en": "",
+"ar": "تينا",
+"vtt": "And what city? Medina, and then you."
+},
+{
+"i": 294,
+"s": 4192.74,
+"e": 4193.56,
+"d": 0.82,
+"peak_dbfs": -6.4,
+"en": "",
+"ar": "بلسلينة",
+"vtt": "And what city? Medina, and then you."
+},
+{
+"i": 295,
+"s": 4194.2,
+"e": 4194.65,
+"d": 0.45,
+"peak_dbfs": -8.7,
+"en": "",
+"ar": "أجل",
+"vtt": "And what city? Medina, and then you."
+},
+{
+"i": 296,
+"s": 4195.28,
+"e": 4195.64,
+"d": 0.36,
+"peak_dbfs": -10.9,
+"en": "",
+"ar": "يو",
+"vtt": "And what city? Medina, and then you."
+},
+{
+"i": 297,
+"s": 4197.35,
+"e": 4197.54,
+"d": 0.19,
+"peak_dbfs": -24.1,
+"en": "",
+"ar": "شكرا لكم",
+"vtt": ""
+},
+{
+"i": 298,
+"s": 4197.85,
+"e": 4198.22,
+"d": 0.37,
+"peak_dbfs": -14.6,
+"en": "",
+"ar": "حالة",
+"vtt": ""
+},
+{
+"i": 299,
+"s": 4198.31,
+"e": 4199.09,
+"d": 0.78,
+"peak_dbfs": -10.6,
+"en": "",
+"ar": "توقع",
+"vtt": ""
+},
+{
+"i": 300,
+"s": 4199.42,
+"e": 4199.81,
+"d": 0.39,
+"peak_dbfs": -9.2,
+"en": "",
+"ar": "أيها المترجمات لكثير من الاشتراك في القناة",
+"vtt": ""
+},
+{
+"i": 301,
+"s": 4200.17,
+"e": 4200.42,
+"d": 0.25,
+"peak_dbfs": -24.7,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": ""
+},
+{
+"i": 302,
+"s": 4200.86,
+"e": 4201.28,
+"d": 0.42,
+"peak_dbfs": -17.6,
+"en": "",
+"ar": "باي",
+"vtt": ""
+},
+{
+"i": 303,
+"s": 4201.68,
+"e": 4205.23,
+"d": 3.55,
+"peak_dbfs": -2.7,
+"en": "",
+"ar": "من أي مدينة أنتِ",
+"vtt": "Men A Men A Medina and T Men A Medina Hadratouki. Yes,"
+},
+{
+"i": 304,
+"s": 4205.62,
+"e": 4207.95,
+"d": 2.33,
+"peak_dbfs": -4.8,
+"en": "",
+"ar": "من أي مدينة حضرتك",
+"vtt": "Men A Men A Medina and T Men A Medina Hadratouki. Yes,"
+},
+{
+"i": 305,
+"s": 4208.69,
+"e": 4208.9,
+"d": 0.21,
+"peak_dbfs": -3.6,
+"en": "",
+"ar": "يا",
+"vtt": "Men A Men A Medina and T Men A Medina Hadratouki. Yes, | and I'm in Medina at Lynchburg."
+},
+{
+"i": 306,
+"s": 4209.74,
+"e": 4211.84,
+"d": 2.1,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "أنا من مدينة لينشبرغ",
+"vtt": "and I'm in Medina at Lynchburg."
+},
+{
+"i": 307,
+"s": 4213.02,
+"e": 4215.38,
+"d": 2.36,
+"peak_dbfs": -5.2,
+"en": "",
+"ar": "أنا من مدينة دماشق",
+"vtt": "and I'm in Medina at Lynchburg. | And I'm in Medina Damasque, Damascus."
+},
+{
+"i": 308,
+"s": 4216.18,
+"e": 4217.4,
+"d": 1.22,
+"peak_dbfs": -5.3,
+"en": "",
+"ar": "المسكس",
+"vtt": "And I'm in Medina Damasque, Damascus."
+},
+{
+"i": 309,
+"s": 4217.91,
+"e": 4218.21,
+"d": 0.3,
+"peak_dbfs": -22.4,
+"en": "",
+"ar": "شكرا",
+"vtt": "And I'm in Medina Damasque, Damascus."
+},
+{
+"i": 310,
+"s": 4221.98,
+"e": 4223.52,
+"d": 1.54,
+"peak_dbfs": -3.1,
+"en": "",
+"ar": "تريد أن تسأل أمي أجل؟",
+"vtt": "Do you want to ask me questions from what we have learned?"
+},
+{
+"i": 311,
+"s": 4223.89,
+"e": 4225.1,
+"d": 1.21,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "من ما نعلم",
+"vtt": "Do you want to ask me questions from what we have learned?"
+},
+{
+"i": 312,
+"s": 4231.42,
+"e": 4234.88,
+"d": 3.46,
+"peak_dbfs": -2.8,
+"en": "",
+"ar": "اتبعوا بكم أن تكونوا في مجرد",
+"vtt": "I highly recommend guys that you like put yourself in a group chat or something and"
+},
+{
+"i": 313,
+"s": 4234.97,
+"e": 4236.18,
+"d": 1.21,
+"peak_dbfs": -9.2,
+"en": "",
+"ar": "شكراً لكم",
+"vtt": "I highly recommend guys that you like put yourself in a group chat or something and"
+},
+{
+"i": 314,
+"s": 4236.4,
+"e": 4239.99,
+"d": 3.59,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "ويجب أن ترسل ورمي في المجرد",
+"vtt": "I highly recommend guys that you like put yourself in a group chat or something and | go reserve a room in the library and start practicing with each other."
+},
+{
+"i": 315,
+"s": 4240.36,
+"e": 4240.91,
+"d": 0.55,
+"peak_dbfs": -5.1,
+"en": "",
+"ar": "وبدأ",
+"vtt": "go reserve a room in the library and start practicing with each other."
+},
+{
+"i": 316,
+"s": 4241.18,
+"e": 4242.46,
+"d": 1.28,
+"peak_dbfs": -3.4,
+"en": "",
+"ar": "تحب بشكل مع اشترك",
+"vtt": "go reserve a room in the library and start practicing with each other."
+},
+{
+"i": 317,
+"s": 4242.7,
+"e": 4244.79,
+"d": 2.09,
+"peak_dbfs": -5.9,
+"en": "",
+"ar": "يمكنك تحديد عمل مع احدهم أيضا.",
+"vtt": "go reserve a room in the library and start practicing with each other. | You could do homework with each other as well."
+},
+{
+"i": 318,
+"s": 4245.26,
+"e": 4249.26,
+"d": 4.0,
+"peak_dbfs": -3.3,
+"en": "",
+"ar": "لذا فعله جميعاً جميعاً في المغرب",
+"vtt": "You could do homework with each other as well. | So group study is really beneficial when it comes to languages."
+},
+{
+"i": 319,
+"s": 4250.94,
+"e": 4252.31,
+"d": 1.37,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "مستقبل لتعالي",
+"vtt": "Preparing for exams is the best way as well."
+},
+{
+"i": 320,
+"s": 4252.46,
+"e": 4253.97,
+"d": 1.51,
+"peak_dbfs": -6.3,
+"en": "",
+"ar": "هذا هو أفضل طريقه",
+"vtt": "Preparing for exams is the best way as well."
+},
+{
+"i": 321,
+"s": 4260.03,
+"e": 4262.56,
+"d": 2.53,
+"peak_dbfs": -3.0,
+"en": "",
+"ar": "اشتركوا في القناة",
+"vtt": "Ask me a question. Ask me about my father. He learned father."
+},
+{
+"i": 322,
+"s": 4262.74,
+"e": 4263.5,
+"d": 0.76,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "فاATHER",
+"vtt": "Ask me a question. Ask me about my father. He learned father."
+},
+{
+"i": 323,
+"s": 4264.02,
+"e": 4264.41,
+"d": 0.39,
+"peak_dbfs": -10.9,
+"en": "",
+"ar": "يلرن",
+"vtt": "Ask me a question. Ask me about my father. He learned father."
+},
+{
+"i": 324,
+"s": 4264.51,
+"e": 4265.15,
+"d": 0.64,
+"peak_dbfs": -7.0,
+"en": "",
+"ar": "فاتر",
+"vtt": "Ask me a question. Ask me about my father. He learned father."
+},
+{
+"i": 325,
+"s": 4278.87,
+"e": 4279.54,
+"d": 0.67,
+"peak_dbfs": -20.4,
+"en": "",
+"ar": "إسمع",
+"vtt": "Is like."
+},
+{
+"i": 326,
+"s": 4282.0,
+"e": 4282.33,
+"d": 0.33,
+"peak_dbfs": -5.3,
+"en": "",
+"ar": "لا",
+"vtt": ""
+},
+{
+"i": 327,
+"s": 4282.45,
+"e": 4283.07,
+"d": 0.62,
+"peak_dbfs": -2.4,
+"en": "",
+"ar": "مان",
+"vtt": "No, man is in, is in, and your father, right? You wanna say your father? So,"
+},
+{
+"i": 328,
+"s": 4283.4,
+"e": 4283.99,
+"d": 0.59,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "اسم",
+"vtt": "No, man is in, is in, and your father, right? You wanna say your father? So,"
+},
+{
+"i": 329,
+"s": 4284.39,
+"e": 4284.96,
+"d": 0.57,
+"peak_dbfs": -5.8,
+"en": "",
+"ar": "اسم",
+"vtt": "No, man is in, is in, and your father, right? You wanna say your father? So,"
+},
+{
+"i": 330,
+"s": 4285.56,
+"e": 4288.77,
+"d": 3.21,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "وكما تقول لكي يتحدث عنه فتحكي",
+"vtt": "No, man is in, is in, and your father, right? You wanna say your father? So,"
+},
+{
+"i": 331,
+"s": 4288.88,
+"e": 4289.91,
+"d": 1.03,
+"peak_dbfs": -8.1,
+"en": "",
+"ar": "هذه هي النية",
+"vtt": "No, man is in, is in, and your father, right? You wanna say your father? So,"
+},
+{
+"i": 332,
+"s": 4290.39,
+"e": 4291.28,
+"d": 0.89,
+"peak_dbfs": -3.6,
+"en": "",
+"ar": "أفور",
+"vtt": "No, man is in, is in, and your father, right? You wanna say your father? So, | what is the name of your father? Like English, so man is in a bookie,"
+},
+{
+"i": 333,
+"s": 4291.44,
+"e": 4293.21,
+"d": 1.77,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "فالدر لكي انجلسي، سوما",
+"vtt": "what is the name of your father? Like English, so man is in a bookie,"
+},
+{
+"i": 334,
+"s": 4293.31,
+"e": 4293.84,
+"d": 0.53,
+"peak_dbfs": -5.4,
+"en": "",
+"ar": "اسم",
+"vtt": "what is the name of your father? Like English, so man is in a bookie,"
+},
+{
+"i": 335,
+"s": 4294.51,
+"e": 4295.61,
+"d": 1.1,
+"peak_dbfs": -5.3,
+"en": "",
+"ar": "أبوكي",
+"vtt": "what is the name of your father? Like English, so man is in a bookie,"
+},
+{
+"i": 336,
+"s": 4295.93,
+"e": 4296.55,
+"d": 0.62,
+"peak_dbfs": -7.0,
+"en": "",
+"ar": "أبو",
+"vtt": "what is the name of your father? Like English, so man is in a bookie,"
+},
+{
+"i": 337,
+"s": 4296.65,
+"e": 4296.93,
+"d": 0.28,
+"peak_dbfs": -12.2,
+"en": "",
+"ar": "كي",
+"vtt": "what is the name of your father? Like English, so man is in a bookie, | a bookie."
+},
+{
+"i": 338,
+"s": 4299.02,
+"e": 4300.88,
+"d": 1.86,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "منا اسم ابوكي",
+"vtt": "Ma issem Abul Ki."
+},
+{
+"i": 339,
+"s": 4302.21,
+"e": 4302.43,
+"d": 0.22,
+"peak_dbfs": -6.5,
+"en": "",
+"ar": "جيد",
+"vtt": "Ma issem Abul Ki."
+},
+{
+"i": 340,
+"s": 4302.77,
+"e": 4304.55,
+"d": 1.78,
+"peak_dbfs": -3.6,
+"en": "",
+"ar": "اسم أبي إلياس",
+"vtt": "Good."
+},
+{
+"i": 341,
+"s": 4306.01,
+"e": 4306.98,
+"d": 0.97,
+"peak_dbfs": -10.6,
+"en": "",
+"ar": "اسم أبي",
+"vtt": "SM Abby, the name of my father, Elias."
+},
+{
+"i": 342,
+"s": 4307.8,
+"e": 4308.19,
+"d": 0.39,
+"peak_dbfs": -13.5,
+"en": "",
+"ar": "المصدرات المترجمات لكثير من الوصف",
+"vtt": "SM Abby, the name of my father, Elias."
+},
+{
+"i": 343,
+"s": 4308.31,
+"e": 4309.14,
+"d": 0.83,
+"peak_dbfs": -6.9,
+"en": "",
+"ar": "ميزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيزيز",
+"vtt": "SM Abby, the name of my father, Elias."
+},
+{
+"i": 344,
+"s": 4309.29,
+"e": 4310.08,
+"d": 0.79,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "إلياس",
+"vtt": "SM Abby, the name of my father, Elias."
+},
+{
+"i": 345,
+"s": 4312.05,
+"e": 4313.33,
+"d": 1.28,
+"peak_dbfs": -3.3,
+"en": "",
+"ar": "إنه إليجا",
+"vtt": "It's Elijah in English."
+},
+{
+"i": 346,
+"s": 4313.5,
+"e": 4314.15,
+"d": 0.65,
+"peak_dbfs": -16.4,
+"en": "",
+"ar": "انت بذلك",
+"vtt": "It's Elijah in English."
+},
+{
+"i": 347,
+"s": 4323.33,
+"e": 4323.64,
+"d": 0.31,
+"peak_dbfs": -17.5,
+"en": "",
+"ar": "شكرا",
+"vtt": ""
+},
+{
+"i": 348,
+"s": 4323.88,
+"e": 4324.05,
+"d": 0.17,
+"peak_dbfs": -20.4,
+"en": "",
+"ar": "ما؟",
+"vtt": ""
+},
+{
+"i": 349,
+"s": 4324.72,
+"e": 4324.92,
+"d": 0.2,
+"peak_dbfs": -23.9,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": ""
+},
+{
+"i": 350,
+"s": 4325.44,
+"e": 4325.8,
+"d": 0.36,
+"peak_dbfs": -7.6,
+"en": "",
+"ar": "لا",
+"vtt": ""
+},
+{
+"i": 351,
+"s": 4325.96,
+"e": 4327.21,
+"d": 1.25,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "كان أعني لا أعطي",
+"vtt": "No, Canada, no, not yet."
+},
+{
+"i": 352,
+"s": 4328.82,
+"e": 4329.17,
+"d": 0.35,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "كيبت",
+"vtt": ""
+},
+{
+"i": 353,
+"s": 4329.27,
+"e": 4329.85,
+"d": 0.58,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Keep it present, present tense."
+},
+{
+"i": 354,
+"s": 4329.98,
+"e": 4331.88,
+"d": 1.9,
+"peak_dbfs": -3.3,
+"en": "",
+"ar": "نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم نعم",
+"vtt": "Keep it present, present tense."
+},
+{
+"i": 355,
+"s": 4340.1,
+"e": 4345.79,
+"d": 5.69,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "إذا أريد أن تكون مفتحة أفضل في العربية، يجب أن تبدأ بإمكانك هذه المتحدة من الضغط.",
+"vtt": "If you want to become better profession in Arabic, | you have to start using those combination of words. Not just learn them as a list,"
+},
+{
+"i": 356,
+"s": 4346.35,
+"e": 4346.98,
+"d": 0.63,
+"peak_dbfs": -5.9,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "you have to start using those combination of words. Not just learn them as a list,"
+},
+{
+"i": 357,
+"s": 4347.57,
+"e": 4348.02,
+"d": 0.45,
+"peak_dbfs": -11.0,
+"en": "",
+"ar": "أم",
+"vtt": "you have to start using those combination of words. Not just learn them as a list,"
+},
+{
+"i": 358,
+"s": 4348.26,
+"e": 4350.87,
+"d": 2.61,
+"peak_dbfs": -2.9,
+"en": "",
+"ar": "لا تستطيع أعلمهم كما كما تتعلم",
+"vtt": "you have to start using those combination of words. Not just learn them as a list, | but also put them in a sentence. Try to start writing those sentences."
+},
+{
+"i": 359,
+"s": 4350.98,
+"e": 4351.45,
+"d": 0.47,
+"peak_dbfs": -9.5,
+"en": "",
+"ar": "ولكن أيضا",
+"vtt": "but also put them in a sentence. Try to start writing those sentences."
+},
+{
+"i": 360,
+"s": 4351.58,
+"e": 4352.96,
+"d": 1.38,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "بطمئن سنتنسي",
+"vtt": "but also put them in a sentence. Try to start writing those sentences."
+},
+{
+"i": 361,
+"s": 4353.06,
+"e": 4357.15,
+"d": 4.09,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "تحديد أن تقرأ هذه المسيحة في الترسل، بخير، بخير",
+"vtt": "but also put them in a sentence. Try to start writing those sentences. | In transliteration, that's fine. And you could ask me, is this right?"
+},
+{
+"i": 362,
+"s": 4357.85,
+"e": 4361.45,
+"d": 3.6,
+"peak_dbfs": -2.7,
+"en": "",
+"ar": "و يمكنك أن تسألني هذا صحيح؟ هذا صحيح؟",
+"vtt": "In transliteration, that's fine. And you could ask me, is this right? | Is this sentence correct?"
+},
+{
+"i": 363,
+"s": 4361.91,
+"e": 4362.42,
+"d": 0.51,
+"peak_dbfs": -8.8,
+"en": "",
+"ar": "ويأتي بشكل مجرد",
+"vtt": "Is this sentence correct?"
+},
+{
+"i": 364,
+"s": 4362.55,
+"e": 4364.64,
+"d": 2.09,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "ويجب أن تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تحققه لكي تح",
+"vtt": "Is this sentence correct? | And I would correct it for you if there is something wrong with it."
+},
+{
+"i": 365,
+"s": 4366.08,
+"e": 4366.23,
+"d": 0.15,
+"peak_dbfs": -11.8,
+"en": "",
+"ar": "أ",
+"vtt": ""
+},
+{
+"i": 366,
+"s": 4366.4,
+"e": 4366.66,
+"d": 0.26,
+"peak_dbfs": -18.4,
+"en": "",
+"ar": "لن",
+"vtt": ""
+},
+{
+"i": 367,
+"s": 4367.6,
+"e": 4368.36,
+"d": 0.76,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "أهلا بك",
+"vtt": "Helen Bicker."
+},
+{
+"i": 368,
+"s": 4370.26,
+"e": 4371.42,
+"d": 1.16,
+"peak_dbfs": -17.2,
+"en": "",
+"ar": "إشْمِي ميكا",
+"vtt": "It's me, Michael."
+},
+{
+"i": 369,
+"s": 4371.6,
+"e": 4372.9,
+"d": 1.3,
+"peak_dbfs": -5.0,
+"en": "",
+"ar": "أهلاً وسهلاً",
+"vtt": "It's me, Michael."
+},
+{
+"i": 370,
+"s": 4377.62,
+"e": 4377.99,
+"d": 0.37,
+"peak_dbfs": -11.5,
+"en": "",
+"ar": "اهلا",
+"vtt": ""
+},
+{
+"i": 371,
+"s": 4378.21,
+"e": 4378.41,
+"d": 0.2,
+"peak_dbfs": -23.6,
+"en": "",
+"ar": "تشت",
+"vtt": ""
+},
+{
+"i": 372,
+"s": 4378.57,
+"e": 4378.7,
+"d": 0.13,
+"peak_dbfs": -23.0,
+"en": "",
+"ar": "شكرا لكم",
+"vtt": ""
+},
+{
+"i": 373,
+"s": 4379.08,
+"e": 4380.29,
+"d": 1.21,
+"peak_dbfs": -3.4,
+"en": "",
+"ar": "ما اسموكي",
+"vtt": "Ma is smokey. Es smokey. Okay. Mhm. Es me Sherene. Or you said Micah."
+},
+{
+"i": 374,
+"s": 4380.52,
+"e": 4381.22,
+"d": 0.7,
+"peak_dbfs": -8.9,
+"en": "",
+"ar": "إذا",
+"vtt": "Ma is smokey. Es smokey. Okay. Mhm. Es me Sherene. Or you said Micah."
+},
+{
+"i": 375,
+"s": 4381.34,
+"e": 4382.43,
+"d": 1.09,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "أسنع ش",
+"vtt": "Ma is smokey. Es smokey. Okay. Mhm. Es me Sherene. Or you said Micah."
+},
+{
+"i": 376,
+"s": 4382.66,
+"e": 4383.14,
+"d": 0.48,
+"peak_dbfs": -10.7,
+"en": "",
+"ar": "أس...",
+"vtt": "Ma is smokey. Es smokey. Okay. Mhm. Es me Sherene. Or you said Micah."
+},
+{
+"i": 377,
+"s": 4383.28,
+"e": 4383.76,
+"d": 0.48,
+"peak_dbfs": -14.6,
+"en": "",
+"ar": "موكي",
+"vtt": "Ma is smokey. Es smokey. Okay. Mhm. Es me Sherene. Or you said Micah."
+},
+{
+"i": 378,
+"s": 4383.99,
+"e": 4384.41,
+"d": 0.42,
+"peak_dbfs": -10.3,
+"en": "",
+"ar": "أكثر",
+"vtt": "Ma is smokey. Es smokey. Okay. Mhm. Es me Sherene. Or you said Micah."
+},
+{
+"i": 379,
+"s": 4385.31,
+"e": 4385.59,
+"d": 0.28,
+"peak_dbfs": -8.6,
+"en": "",
+"ar": "مهما",
+"vtt": "Ma is smokey. Es smokey. Okay. Mhm. Es me Sherene. Or you said Micah."
+},
+{
+"i": 380,
+"s": 4385.85,
+"e": 4386.98,
+"d": 1.13,
+"peak_dbfs": -7.3,
+"en": "",
+"ar": "اسمي شري",
+"vtt": "Ma is smokey. Es smokey. Okay. Mhm. Es me Sherene. Or you said Micah."
+},
+{
+"i": 381,
+"s": 4387.52,
+"e": 4388.53,
+"d": 1.01,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "ما اسمك؟",
+"vtt": "Ma is smokey. Es smokey. Okay. Mhm. Es me Sherene. Or you said Micah."
+},
+{
+"i": 382,
+"s": 4388.73,
+"e": 4389.04,
+"d": 0.31,
+"peak_dbfs": -5.7,
+"en": "",
+"ar": "أو",
+"vtt": "Ma is smokey. Es smokey. Okay. Mhm. Es me Sherene. Or you said Micah."
+},
+{
+"i": 383,
+"s": 4389.16,
+"e": 4390.0,
+"d": 0.84,
+"peak_dbfs": -5.6,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Ma is smokey. Es smokey. Okay. Mhm. Es me Sherene. Or you said Micah."
+},
+{
+"i": 384,
+"s": 4390.25,
+"e": 4391.03,
+"d": 0.78,
+"peak_dbfs": -8.2,
+"en": "",
+"ar": "أم",
+"vtt": "Ma is smokey. Es smokey. Okay. Mhm. Es me Sherene. Or you said Micah."
+},
+{
+"i": 385,
+"s": 4391.61,
+"e": 4392.89,
+"d": 1.28,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "من أين أنت",
+"vtt": "Um."
+},
+{
+"i": 386,
+"s": 4398.73,
+"e": 4398.97,
+"d": 0.24,
+"peak_dbfs": -21.6,
+"en": "",
+"ar": "اشتركوا في القناة",
+"vtt": ""
+},
+{
+"i": 387,
+"s": 4400.35,
+"e": 4400.66,
+"d": 0.31,
+"peak_dbfs": -23.5,
+"en": "",
+"ar": "مين",
+"vtt": ""
+},
+{
+"i": 388,
+"s": 4402.22,
+"e": 4402.48,
+"d": 0.26,
+"peak_dbfs": -17.9,
+"en": "",
+"ar": "شكرا لكم",
+"vtt": ""
+},
+{
+"i": 389,
+"s": 4402.91,
+"e": 4403.25,
+"d": 0.34,
+"peak_dbfs": -9.0,
+"en": "",
+"ar": "تعمل",
+"vtt": "North Carolina."
+},
+{
+"i": 390,
+"s": 4404.01,
+"e": 4406.19,
+"d": 2.18,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "تمام أهلا وسهلا تشرفنا",
+"vtt": "North Carolina."
+},
+{
+"i": 391,
+"s": 4408.09,
+"e": 4410.04,
+"d": 1.95,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "هل تعرفت على ستشرفنا؟",
+"vtt": "Do you know how to reply to Sasha Rafna?"
+},
+{
+"i": 392,
+"s": 4411.87,
+"e": 4413.05,
+"d": 1.18,
+"peak_dbfs": -4.9,
+"en": "",
+"ar": "نعم",
+"vtt": "Yes, exactly. Exactly. Good job. Good job. OK, guys, I work time. Yes, Parker."
+},
+{
+"i": 393,
+"s": 4413.23,
+"e": 4413.94,
+"d": 0.71,
+"peak_dbfs": -8.9,
+"en": "",
+"ar": "نعم",
+"vtt": "Yes, exactly. Exactly. Good job. Good job. OK, guys, I work time. Yes, Parker."
+},
+{
+"i": 394,
+"s": 4414.09,
+"e": 4414.49,
+"d": 0.4,
+"peak_dbfs": -7.0,
+"en": "",
+"ar": "جيدا",
+"vtt": "Yes, exactly. Exactly. Good job. Good job. OK, guys, I work time. Yes, Parker."
+},
+{
+"i": 395,
+"s": 4415.13,
+"e": 4415.48,
+"d": 0.35,
+"peak_dbfs": -9.8,
+"en": "",
+"ar": "يا جاء",
+"vtt": "Yes, exactly. Exactly. Good job. Good job. OK, guys, I work time. Yes, Parker."
+},
+{
+"i": 396,
+"s": 4416.22,
+"e": 4416.35,
+"d": 0.13,
+"peak_dbfs": -29.4,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Yes, exactly. Exactly. Good job. Good job. OK, guys, I work time. Yes, Parker."
+},
+{
+"i": 397,
+"s": 4416.8,
+"e": 4418.82,
+"d": 2.02,
+"peak_dbfs": -3.2,
+"en": "",
+"ar": "حسنا يا ربما، نعم، فارك؟",
+"vtt": "Yes, exactly. Exactly. Good job. Good job. OK, guys, I work time. Yes, Parker."
+},
+{
+"i": 398,
+"s": 4418.94,
+"e": 4419.22,
+"d": 0.28,
+"peak_dbfs": -24.9,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Yes, exactly. Exactly. Good job. Good job. OK, guys, I work time. Yes, Parker."
+},
+{
+"i": 399,
+"s": 4419.52,
+"e": 4419.96,
+"d": 0.44,
+"peak_dbfs": -17.9,
+"en": "",
+"ar": "سيئ",
+"vtt": "Yes, exactly. Exactly. Good job. Good job. OK, guys, I work time. Yes, Parker."
+},
+{
+"i": 400,
+"s": 4420.36,
+"e": 4420.7,
+"d": 0.34,
+"peak_dbfs": -14.6,
+"en": "",
+"ar": "فاس",
+"vtt": "Yes, exactly. Exactly. Good job. Good job. OK, guys, I work time. Yes, Parker. | You then say mas. If he's leaving or I'm leaving, yeah, mas."
+},
+{
+"i": 401,
+"s": 4421.06,
+"e": 4421.25,
+"d": 0.19,
+"peak_dbfs": -24.8,
+"en": "",
+"ar": "يا",
+"vtt": "Yes, exactly. Exactly. Good job. Good job. OK, guys, I work time. Yes, Parker. | You then say mas. If he's leaving or I'm leaving, yeah, mas."
+},
+{
+"i": 402,
+"s": 4421.34,
+"e": 4421.57,
+"d": 0.23,
+"peak_dbfs": -24.8,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "You then say mas. If he's leaving or I'm leaving, yeah, mas."
+},
+{
+"i": 403,
+"s": 4421.72,
+"e": 4424.31,
+"d": 2.59,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "إذا كان يترك أو أميزيه،",
+"vtt": "You then say mas. If he's leaving or I'm leaving, yeah, mas."
+},
+{
+"i": 404,
+"s": 4424.43,
+"e": 4425.47,
+"d": 1.04,
+"peak_dbfs": -6.4,
+"en": "",
+"ar": "ما السلامة",
+"vtt": "You then say mas. If he's leaving or I'm leaving, yeah, mas."
+},
+{
+"i": 405,
+"s": 4426.34,
+"e": 4426.57,
+"d": 0.23,
+"peak_dbfs": -7.0,
+"en": "",
+"ar": "يا",
+"vtt": "You then say mas. If he's leaving or I'm leaving, yeah, mas."
+},
+{
+"i": 406,
+"s": 4426.99,
+"e": 4427.15,
+"d": 0.16,
+"peak_dbfs": -17.0,
+"en": "",
+"ar": "يا",
+"vtt": "You then say mas. If he's leaving or I'm leaving, yeah, mas. | Yeah, yeah."
+},
+{
+"i": 407,
+"s": 4428.74,
+"e": 4429.65,
+"d": 0.91,
+"peak_dbfs": -3.3,
+"en": "",
+"ar": "حسناً",
+"vtt": "All right, we came to our, the end of our session. Please,"
+},
+{
+"i": 408,
+"s": 4429.75,
+"e": 4430.81,
+"d": 1.06,
+"peak_dbfs": -8.0,
+"en": "",
+"ar": "كانت لنا",
+"vtt": "All right, we came to our, the end of our session. Please,"
+},
+{
+"i": 409,
+"s": 4430.98,
+"e": 4432.46,
+"d": 1.48,
+"peak_dbfs": -5.0,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "All right, we came to our, the end of our session. Please,"
+},
+{
+"i": 410,
+"s": 4432.98,
+"e": 4433.35,
+"d": 0.37,
+"peak_dbfs": -7.1,
+"en": "",
+"ar": "أهلاً",
+"vtt": "All right, we came to our, the end of our session. Please, | if you don't speak, you're not doing well for your Arabic."
+},
+{
+"i": 411,
+"s": 4433.44,
+"e": 4435.32,
+"d": 1.88,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "فلسفة إذا لم تتحدث",
+"vtt": "All right, we came to our, the end of our session. Please, | if you don't speak, you're not doing well for your Arabic."
+},
+{
+"i": 412,
+"s": 4435.72,
+"e": 4436.93,
+"d": 1.21,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "أنت تعمل على حقًا",
+"vtt": "if you don't speak, you're not doing well for your Arabic. | Take advantage that you are in a class. You're speaking to me,"
+},
+{
+"i": 413,
+"s": 4437.03,
+"e": 4438.2,
+"d": 1.17,
+"peak_dbfs": -7.8,
+"en": "",
+"ar": "لكي ترجمة الاشتراك في القناة",
+"vtt": "if you don't speak, you're not doing well for your Arabic. | Take advantage that you are in a class. You're speaking to me,"
+},
+{
+"i": 414,
+"s": 4438.29,
+"e": 4442.35,
+"d": 4.06,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "ترجمة أنك في المقرات. ترجمة نانسي قنقر. ترجمة نانسي قنقر.",
+"vtt": "Take advantage that you are in a class. You're speaking to me, | you're speaking to each other. So take advantage of that."
+},
+{
+"i": 415,
+"s": 4442.8,
+"e": 4444.02,
+"d": 1.22,
+"peak_dbfs": -3.1,
+"en": "",
+"ar": "لذا اتخذ من المستقبل",
+"vtt": "you're speaking to each other. So take advantage of that."
+},
+{
+"i": 416,
+"s": 4444.61,
+"e": 4448.6,
+"d": 3.99,
+"peak_dbfs": -3.1,
+"en": "",
+"ar": "اشتركوا في القناة اشتركوا في القناة اشتركوا في القناة اشتركوا في القناة",
+"vtt": "you're speaking to each other. So take advantage of that. | Enjoy your weekend. I'll see you Tuesday. You have homework due tomorrow."
+},
+{
+"i": 417,
+"s": 4448.83,
+"e": 4451.04,
+"d": 2.21,
+"peak_dbfs": -7.6,
+"en": "",
+"ar": "okay so make sure you submit on time",
+"vtt": "Enjoy your weekend. I'll see you Tuesday. You have homework due tomorrow. | Okay, so make sure you submit on time."
+},
+{
+"i": 418,
+"s": 4452.28,
+"e": 4453.74,
+"d": 1.46,
+"peak_dbfs": -3.4,
+"en": "",
+"ar": "هل جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا جميعا ج",
+"vtt": "Okay, so make sure you submit on time. | Did you all get the book? All of you have the books? Okay,"
+},
+{
+"i": 419,
+"s": 4454.94,
+"e": 4456.24,
+"d": 1.3,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "كل منكم لديك الكتاب",
+"vtt": "Did you all get the book? All of you have the books? Okay,"
+},
+{
+"i": 420,
+"s": 4456.94,
+"e": 4457.24,
+"d": 0.3,
+"peak_dbfs": -8.6,
+"en": "",
+"ar": "حسناً",
+"vtt": "Did you all get the book? All of you have the books? Okay,"
+},
+{
+"i": 421,
+"s": 4457.41,
+"e": 4457.66,
+"d": 0.25,
+"peak_dbfs": -14.8,
+"en": "",
+"ar": "مانتو",
+"vtt": "Did you all get the book? All of you have the books? Okay,"
+},
+{
+"i": 422,
+"s": 4467.41,
+"e": 4467.55,
+"d": 0.14,
+"peak_dbfs": -26.9,
+"en": "",
+"ar": "اشتركوا في القناة",
+"vtt": ""
+},
+{
+"i": 423,
+"s": 4469.73,
+"e": 4470.14,
+"d": 0.41,
+"peak_dbfs": -20.0,
+"en": "",
+"ar": "مرحبا",
+"vtt": "Actually, I know Babuki better. Yeah, Babuki is more Shami, but you're good."
+},
+{
+"i": 424,
+"s": 4470.99,
+"e": 4471.46,
+"d": 0.47,
+"peak_dbfs": -19.3,
+"en": "",
+"ar": "سيكتب",
+"vtt": "Actually, I know Babuki better. Yeah, Babuki is more Shami, but you're good."
+},
+{
+"i": 425,
+"s": 4472.11,
+"e": 4473.49,
+"d": 1.38,
+"peak_dbfs": -3.6,
+"en": "",
+"ar": "أنا بابي كبابي",
+"vtt": "Actually, I know Babuki better. Yeah, Babuki is more Shami, but you're good."
+},
+{
+"i": 426,
+"s": 4473.63,
+"e": 4477.17,
+"d": 3.54,
+"peak_dbfs": -3.1,
+"en": "",
+"ar": "بابوكي بابوكي بابوكي",
+"vtt": "Actually, I know Babuki better. Yeah, Babuki is more Shami, but you're good."
+},
+{
+"i": 427,
+"s": 4477.26,
+"e": 4478.07,
+"d": 0.81,
+"peak_dbfs": -8.0,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Actually, I know Babuki better. Yeah, Babuki is more Shami, but you're good."
+},
+{
+"i": 428,
+"s": 4478.33,
+"e": 4478.9,
+"d": 0.57,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Actually, I know Babuki better. Yeah, Babuki is more Shami, but you're good."
+},
+{
+"i": 429,
+"s": 4479.16,
+"e": 4479.52,
+"d": 0.36,
+"peak_dbfs": -6.7,
+"en": "",
+"ar": "سونا",
+"vtt": "Actually, I know Babuki better. Yeah, Babuki is more Shami, but you're good."
+}
+]
+}

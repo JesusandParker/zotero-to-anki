@@ -1,0 +1,23 @@
+{
+ "source": "physics",
+ "segment": 3,
+ "figures": [
+  {
+   "figure": "FIGURE 3-3",
+   "image": "/home/parker/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_3_3_v2.png",
+   "caption": "FIGURE 3 ; 3 A person walks 10.0 km east and then 5.0 km north. These two displacements are represented by the vectors D1 and D2, which are shown as arrows. Also shown is the resultant displacement vector, DR, which is the vector sum of D1 and D2. Measurement on the graph with ruler and protractor shows that DR has a magnitude of 11.2 km and points at an angle u = 27 north of east.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 0,
+     "tier": "teaches",
+     "coverage": null,
+     "text": "The <b>resultant displacement</b> is {{c1::the vector sum of the individual displacements}}.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  }
+ ]
+}

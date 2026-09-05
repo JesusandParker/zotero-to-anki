@@ -108,23 +108,34 @@ def fetch(cfg, db_only=False):
         report["stale_fork_preserved"] = keep
     os.replace(incoming, live)                      # atomic swap
 
-    # 2 — the PDFs. --delete keeps parity with the Mac (guarded: source must exist and
-    # be non-trivial, so a bad path can never empty the local copy).
+    # 2 — the PDFs. ADDITIVE ONLY: this must never delete on the receiving side.
+    # It used to run rsync in parity mode, guarded by a check that the Mac's
+    # storage was not near-empty. That guard was useless -- it counted
+    # `ls | head -5`, so any directory with 3+ entries passed. On 2026-09-03 the
+    # Mac's DB listed 523 stored attachments but only 45 were materialised on
+    # disk (Zotero downloads files as needed), while the HP had all 523, 16 GB.
+    # Parity would have removed ~478 attachment folders, ~13 GB, and left this
+    # pipeline unable to read the very PDFs it exists to read.
+    # The HP holds the more complete file storage; the Mac is authoritative only
+    # for the DATABASE. So: pull anything the Mac has that the HP lacks, remove
+    # nothing. Zotero cloud sync on both machines is what actually keeps the two
+    # libraries converged.
     if not db_only:
         p = _run(["ssh", mac,
                   f"test -d ~/{cfg['mac_zotero_dir']}/storage && "
-                  f"ls ~/{cfg['mac_zotero_dir']}/storage | head -5 | wc -l"])
-        if p.returncode != 0 or int((p.stdout or "0").strip() or 0) < 3:
-            raise RuntimeError("the Mac's Zotero storage directory is missing or "
-                               "near-empty — refusing to rsync --delete against it.")
-        p = _run(["rsync", "-a", "--delete", "--timeout=120",
+                  f"ls ~/{cfg['mac_zotero_dir']}/storage | wc -l"])
+        if p.returncode != 0:
+            raise RuntimeError("the Mac's Zotero storage directory is missing — "
+                               "refusing to rsync against it.")
+        report["mac_storage_dirs"] = int((p.stdout or "0").strip() or 0)
+        p = _run(["rsync", "-a", "--timeout=120",
                   f"{mac}:{cfg['mac_zotero_dir']}/storage/",
                   os.path.join(hp_dir, "storage") + "/"],
                  timeout=3600)
         if p.returncode != 0:
             raise RuntimeError(f"storage rsync failed (rc {p.returncode}): "
                                f"{p.stderr.strip()[:300]}")
-        report["storage_rsync"] = "ok"
+        report["storage_rsync"] = "ok (additive, no delete)"
 
     report["finished"] = datetime.now().astimezone().isoformat(timespec="seconds")
     return report

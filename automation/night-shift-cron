@@ -4,6 +4,18 @@
 # prints lands in one dated orchestrator log.
 export HOME=/home/parker
 export PATH="$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin"
+# night_shift.py spawns the `claude` binary directly rather than going through
+# automations/bin/run-claude, so it does NOT inherit the long-lived token that
+# wrapper supplies. Without this it would run on the rotating /login credential
+# in ~/.claude/.credentials.json -- the shared token that took the whole nightly
+# chain down for two days on 2026-09-01 (anthropics/claude-code#79685). Export it
+# here so a resumed Night Shift is on the same footing as every other cron job.
+# Guarded, so this is a no-op on a machine without the file (e.g. the Mac, which
+# receives this file over Syncthing).
+AUTH_ENV="$HOME/automations/etc/claude-auth.env"
+[ -r "$AUTH_ENV" ] && . "$AUTH_ENV" && [ -n "${CLAUDE_CODE_OAUTH_TOKEN:-}" ] \
+    && export CLAUDE_CODE_OAUTH_TOKEN
+
 mkdir -p "$HOME/night-shift/logs"
 exec python3 "$HOME/.claude/skills/zotero-to-anki/automation/night_shift.py" \
   >> "$HOME/night-shift/logs/orchestrator.log" 2>&1

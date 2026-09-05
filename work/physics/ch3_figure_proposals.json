@@ -1,0 +1,24 @@
+{
+ "teaches": [
+  {
+   "card_index": 0,
+   "text": "The <b>resultant displacement</b> is {{c1::the vector sum of the individual displacements}}.",
+   "figure": "FIGURE 3-3",
+   "file": "figures/study/FIGURE_3_3_v2.png",
+   "native_file": "figures/FIGURE_3_3_v2.png",
+   "coverage": null,
+   "page_dist": 1,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced: the plate IS this card's scenario \u2014 the 10.0 km east / 5.0 km north walk with the arrow labeled 'Resultant displacement, DR = D1 + D2' that the card's Ex/Distinguish lines narrate; its caption states the authored definition verbatim ('which is the vector sum of D1 and D2'). The matcher scores cloze answers only and the caption had no locatable art, so it could never propose it.",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": true
+  }
+ ],
+ "context": [],
+ "skipped": [],
+ "mode": "generous",
+ "judged": true,
+ "rejected": []
+}

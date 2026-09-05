@@ -1808,8 +1808,9 @@
  "1786229797674": {
   "fields": {
    "Back Extra": "cf6c31675710ff2e04890ee85989292d",
-   "Text": "8af10991e9a7d6eb75e903eaf82e4068"
-  }
+   "Text": "b1d9dd34bf1ffd74397ef53e74d4f639"
+  },
+  "run": "runs/arabic/2/2026-09-04T09-03"
  },
  "1786229797753": {
   "fields": {
@@ -2437,5 +2438,26 @@
    "Text": "ecd29b8e7d6f683b0f56e83745fc5ca2"
   },
   "run": "2026-09-01-translit-front"
+ },
+ "1788528744775": {
+  "fields": {
+   "Back Extra": "589258b1fe48f71f1c94081a36fc95a3",
+   "Text": "a472d29d06720aa565aa3c08825cf0af"
+  },
+  "run": "runs/arabic/2/2026-09-04T09-03"
+ },
+ "1788528745451": {
+  "fields": {
+   "Back Extra": "b1b137f506e3cd1a10224115241d60b0",
+   "Text": "1fa20e1ae67b0e88096d6c5768dffd3c"
+  },
+  "run": "runs/arabic/2/2026-09-04T09-03"
+ },
+ "1788528745769": {
+  "fields": {
+   "Back Extra": "8eb623b6c6c5fba3c188be5fe163de43",
+   "Text": "a44538fb5033fab600c7eed49d6d7d5f"
+  },
+  "run": "runs/arabic/2/2026-09-04T09-03"
  }
 }

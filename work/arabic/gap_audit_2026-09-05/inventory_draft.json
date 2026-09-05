@@ -1,0 +1,422 @@
+{
+ "_note": "Everything Dr. Khouri taught/used through 2026-09-03, from my own reading of all four Teams transcripts + answer key + book. 'verify' = audio confirmation status, filled after the island passes.",
+ "items": [
+  {
+   "ar": "أب",
+   "tr": "ab",
+   "gloss": "father (formal)",
+   "cat": "vocab",
+   "status": "REQUIRED",
+   "when": "8/27 00:50–00:53, built on the board as the hamza example: “and you learned your first word, ab.” Reprised 9/3 00:07: “the formal word for father.”",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "توت",
+   "tr": "tuut",
+   "gloss": "berries, mulberries (also the train’s “toot” for Arab children)",
+   "cat": "vocab",
+   "status": "REQUIRED",
+   "when": "9/1 00:36: “This is required, write it also.” 9/3 00:24, drill 4: “I told you this is a required word.”",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "بابا",
+   "tr": "baaba",
+   "gloss": "dad, papa (the informal father)",
+   "cat": "vocab",
+   "status": "TAUGHT",
+   "when": "8/25 01:05, the first word ever written on the board; 8/27 00:42 and 00:44: “baba, informal, daddy — and ab is father.”",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "أبي",
+   "tr": "abii",
+   "gloss": "my father",
+   "cat": "vocab",
+   "status": "TAUGHT",
+   "when": "9/3 00:07–00:08, written on the board as the possessive -ii example when teaching yaa; her own answer 01:11: ism abii Elias.",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "أبوكَ / أبوكِ",
+   "tr": "abuuka / abuuki",
+   "gloss": "your father (to a man / to a woman); she also said the abiika / abiiki forms",
+   "cat": "vocab",
+   "status": "TAUGHT",
+   "when": "9/3 01:07–01:08, speaking round: “abuka, abuki — your father.”",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "ما اسم أبوكَ؟ / أبوكِ؟",
+   "tr": "maa ism abuuka? / abuuki?",
+   "gloss": "What is your father’s name? (answer: ism abii …)",
+   "cat": "frame",
+   "status": "TAUGHT",
+   "when": "9/3 01:07–01:12, asked around the room; she answered ism abii Elias, “Elijah in English.”",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "بات",
+   "tr": "baat",
+   "gloss": "he slept over (somewhere else)",
+   "cat": "vocab",
+   "status": "TAUGHT",
+   "when": "9/1 00:30, drill 2 word 6, glossed on the board.",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "ثوب",
+   "tr": "thawb",
+   "gloss": "garment; the white robe Saudi men wear; a woman’s dress",
+   "cat": "vocab",
+   "status": "TAUGHT",
+   "when": "9/1 00:40, built on the board with the culture note.",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "ثواب",
+   "tr": "thawaab",
+   "gloss": "reward (“the opposite of punishment”)",
+   "cat": "vocab",
+   "status": "TAUGHT",
+   "when": "9/1 00:42, built on the board.",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "توبوا",
+   "tr": "tuubuu",
+   "gloss": "repent! (to a group; the -uu is the plural ending)",
+   "cat": "vocab",
+   "status": "TAUGHT",
+   "when": "9/1 00:44–00:45, built on the board, with the plural explanation.",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "تابوت",
+   "tr": "taabuut",
+   "gloss": "casket, coffin",
+   "cat": "vocab",
+   "status": "TAUGHT",
+   "when": "9/3 00:24–00:25, drill 4 word 4: “I think this means the casket.”",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "بابي",
+   "tr": "baabii",
+   "gloss": "my door",
+   "cat": "vocab",
+   "status": "TAUGHT",
+   "when": "9/3 00:30, drill 11 word 1: “baabii, my door.”",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "حرف",
+   "tr": "Harf",
+   "gloss": "letter (of the alphabet)",
+   "cat": "vocab",
+   "status": "TAUGHT",
+   "when": "9/1 00:32–00:34: “Did I teach you Harf? With capital H. It means letter.” Written on the board.",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "أحسنت / أحسنتِ",
+   "tr": "aHsant / aHsanti",
+   "gloss": "good job, well done (to a man / to a woman)",
+   "cat": "classroom",
+   "status": "TAUGHT",
+   "when": "8/27 01:09: “aHsant means good work… you’re going to hear aHsant for a man, aHsanti for ladies. You’re going to learn those.” Said in every class since.",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "صحّ / صحيح",
+   "tr": "SaHH / SaHiiH",
+   "gloss": "correct! — also her “right?” check at the board",
+   "cat": "classroom",
+   "status": "TAUGHT",
+   "when": "9/1 00:44: “SaHH means correct”; 9/3 01:12 “haadhaa SaHiiH?”",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "بالعربي",
+   "tr": "bil-carabi",
+   "gloss": "in Arabic",
+   "cat": "frame",
+   "status": "TAUGHT",
+   "when": "9/3 01:02–01:04: “maa baab bil-carabi?” — her vocabulary check in the speaking round.",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "بالإنجليزي",
+   "tr": "bil-ingliizi",
+   "gloss": "in English",
+   "cat": "frame",
+   "status": "TAUGHT",
+   "when": "9/3 01:03–01:04: “maa baab bil-ingliizi? — door.”",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "أيّ",
+   "tr": "ayy",
+   "gloss": "which",
+   "cat": "vocab",
+   "status": "TAUGHT",
+   "when": "9/3 01:08–01:10, answering a student: “from which city — min ayy madiina anta?”",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "مِن أيّ مدينة أنتَ؟ / أنتِ؟",
+   "tr": "min ayy madiina anta? / anti?",
+   "gloss": "From which city are you? (the city version of min ayna anta)",
+   "cat": "frame",
+   "status": "TAUGHT",
+   "when": "9/3 01:09–01:10, with her answer ana min madiinat Dimashq.",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "دمشق",
+   "tr": "Dimashq",
+   "gloss": "Damascus",
+   "cat": "vocab",
+   "status": "TAUGHT",
+   "when": "8/27 01:10: “Damascus, in Arabic we say Dimashq”; 9/3 01:10 ana min madiinat Dimashq.",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "سوريا",
+   "tr": "Suuriya",
+   "gloss": "Syria",
+   "cat": "vocab",
+   "status": "USED",
+   "when": "9/3 01:06, her model answer to you: ana min Suuriya, askun fii Lynchburg.",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "تشكيل",
+   "tr": "tashkiil",
+   "gloss": "the vowel marks as a set (fatHa, Damma, kasra, sukuun)",
+   "cat": "vocab",
+   "status": "TAUGHT",
+   "when": "9/1 01:04 “you don’t know tashkiil yet”; 9/3 00:44: “tashkiil means all the short vowels — you need to learn these words.”",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "الـ",
+   "tr": "al-",
+   "gloss": "the (definite article) — its alif takes NO hamza",
+   "cat": "concept",
+   "status": "TAUGHT",
+   "when": "9/3 00:48–00:49, the one exception to the hamza rule.",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "ي",
+   "tr": "yaa",
+   "gloss": "third long vowel ii; four forms; the tail is curvy and dips below the line",
+   "cat": "letter",
+   "status": "GATED",
+   "when": "9/3 00:02–00:09",
+   "anki": "SUSPENDED nid 1786229799726"
+  },
+  {
+   "ar": "ء",
+   "tr": "hamza",
+   "gloss": "glottal stop; at the start of a word it sits on alif (above for a and u, below for i)",
+   "cat": "letter",
+   "status": "GATED",
+   "when": "8/27 00:49–00:53; 9/1 00:10; 9/3 00:46–00:49",
+   "anki": "SUSPENDED nid 1786229800702"
+  },
+  {
+   "ar": "بَ",
+   "tr": "fatHa",
+   "gloss": "short a, above the letter",
+   "cat": "mark",
+   "status": "GATED",
+   "when": "9/3 00:42–00:44",
+   "anki": "SUSPENDED nid 1786229799800"
+  },
+  {
+   "ar": "بُ",
+   "tr": "Damma",
+   "gloss": "short u, above the letter, shaped like a small waaw",
+   "cat": "mark",
+   "status": "GATED",
+   "when": "9/3 00:44–00:46",
+   "anki": "SUSPENDED nid 1786229799874"
+  },
+  {
+   "ar": "بِ",
+   "tr": "kasra",
+   "gloss": "short i, below the letter",
+   "cat": "mark",
+   "status": "GATED",
+   "when": "9/3 00:46–00:48",
+   "anki": "SUSPENDED nid 1786229799949"
+  },
+  {
+   "ar": "بْ",
+   "tr": "sukuun",
+   "gloss": "no vowel; small circle; normally not written at the end of a word",
+   "cat": "mark",
+   "status": "GATED",
+   "when": "9/3 00:49–00:52",
+   "anki": "SUSPENDED nid 1786229800250"
+  },
+  {
+   "ar": "تاب",
+   "tr": "taab",
+   "gloss": "he repented",
+   "cat": "vocab",
+   "status": "OPTIONAL",
+   "when": "9/1 00:24, drill 2: “if you want to learn extra, you could add that one — but baab is required.”",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "أم",
+   "tr": "umm",
+   "gloss": "mother",
+   "cat": "vocab",
+   "status": "INCIDENTAL",
+   "when": "9/3 00:48, her example of alif + hamza + Damma: “umm, my mother.”",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "جاء",
+   "tr": "jaa’a",
+   "gloss": "he came",
+   "cat": "vocab",
+   "status": "INCIDENTAL",
+   "when": "8/27 00:51, her example of a hamza sitting on the line by itself.",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "جلابية",
+   "tr": "jallabiyya",
+   "gloss": "the Syrian word for the long robe (vs. Saudi thawb)",
+   "cat": "vocab",
+   "status": "INCIDENTAL",
+   "when": "9/1 00:40, an aside while glossing thawb.",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "يلا",
+   "tr": "yalla",
+   "gloss": "come on, let’s go",
+   "cat": "classroom",
+   "status": "INCIDENTAL",
+   "when": "9/3 01:06: “good job Parker — yalla, who wants to ask me a question?”",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "باء · تاء · ثاء · واو · ياء",
+   "tr": "baa’ · taa’ · thaa’ · waaw · yaa’",
+   "gloss": "the letter names, spelled with a final hamza",
+   "cat": "concept",
+   "status": "INCIDENTAL",
+   "when": "9/1 00:10–00:12, written on the board beside the letters.",
+   "anki": "MISSING (names exist only in Latin on the letter notes)"
+  },
+  {
+   "ar": "واو الجماعة",
+   "tr": "waaw al-jamaaca",
+   "gloss": "the plural -uu on verbs (tuubuu)",
+   "cat": "concept",
+   "status": "INCIDENTAL",
+   "when": "9/1 00:45, answering why tuubuu ends in -uu; “plurals are very inconsistent, we’ll do them in 102.”",
+   "anki": "MISSING"
+  },
+  {
+   "ar": "مع السلامة",
+   "tr": "maca as-salaama",
+   "gloss": "goodbye — card is present, but its Pitfall line says she has not taught it",
+   "cat": "vocab",
+   "status": "STALE",
+   "when": "9/3 01:13, answering you: “if he’s leaving or I’m leaving — maca as-salaama.”",
+   "anki": "PRESENT nid 1787929190843"
+  },
+  {
+   "ar": "اسم",
+   "tr": "ism (not “ishm”)",
+   "gloss": "pronunciation fix worth a Distinguish line: the s is a plain s",
+   "cat": "note",
+   "status": "STALE",
+   "when": "9/3 01:12, correcting a student: “S, not SH. Ismuki.”",
+   "anki": "PRESENT nids 1788401440019 / 1786229801372"
+  }
+ ],
+ "drill_words_dictated_in_class": {
+  "9/1 drill 2 (she wrote all six)": [
+   "با",
+   "تاب",
+   "باتا",
+   "تابا",
+   "باب",
+   "بات"
+  ],
+  "9/1 waaw examples (board)": [
+   "توت",
+   "ثوب",
+   "ثواب",
+   "توبوا"
+  ],
+  "9/3 drill 5 (she wrote all four)": [
+   "ثوبا",
+   "بيتي",
+   "بيتا",
+   "باتي"
+  ],
+  "9/3 drill 4 (students at the board)": [
+   "ثاب",
+   "توت",
+   "توب",
+   "تابوت"
+  ],
+  "9/3 drill 11 (students at the board)": [
+   "بابي",
+   "توبي",
+   "ثُبوت",
+   "توبا",
+   "تَبيت",
+   "ثَبات",
+   "تابَت",
+   "ثوبي"
+  ],
+  "9/3 drill 13 (assigned for Tuesday 9/8, not yet corrected)": [
+   "باتا",
+   "ثَباتي",
+   "بابا",
+   "ثُبتَ",
+   "بابي",
+   "توبي",
+   "تُبتَ",
+   "توبا",
+   "تُثبِتي",
+   "تَبيت",
+   "بيبي"
+  ]
+ },
+ "present_count": 34,
+ "lede": "Everything Dr. Khouri has taught out loud through Thursday 9/3, checked word by word against the 101 notes in your ARAB 101 tree. Both printed vocabulary lists are fully in Anki. What is missing is the second channel she teaches through: the words she builds on the board while teaching letters and correcting dictation, and the phrases she uses in the speaking round. Father and berries both came through that channel.",
+ "intro_required": "Her own words on the recording: “your first word,” “this is required.” These go in the next card batch first.",
+ "intro_taught": "Each of these was said in Arabic, given an English meaning, and usually written on the board. She recycles them: ab came back on 9/3 as “the formal word for father,” and tuut as “I told you this is a required word.”",
+ "intro_gated": "These notes already exist in Unit 1 · Book Highlights but are still suspended by the letter gate set when she had taught only alif and baa. She has now taught all six. Unsuspending keeps their scheduling; twelve cards in total.",
+ "gated_paras": [
+  "nuun and miim were named only as contrasts (a curved tooth turns into nuun; a fast waaw can look like miim). They stay suspended."
+ ],
+ "intro_optional": "Said once, or explicitly called extra. A card only if you want one.",
+ "present_paras": [
+  "All 15 words of her Unit 1 slide deck (the Tuesday set), all 14 items of the pp. 41–42 list plus hal (the Thursday set), and the five taught letters alif, baa, taa, thaa, waaw are live. The Levantine forms she teaches alongside (ahla, ahlain, shuu, wayn, inte, ahlan fiik) are already on the cards as Distinguish lines, and Egyptian stays off them.",
+  "Two small fixes on cards that exist:"
+ ],
+ "intro_skills": "From the Homework 2 page, the two Unit 1–3 quiz pages (vocab quiz and in-class writing quiz, both 9/22), and what she did at the board.",
+ "skills": [
+  "Write ا ب ت ث و ي in every position and connect them, including the rule that alif and waaw never connect to the letter after them. Homework 2: “practice writing ا ب ت ث و ي for next quiz.”",
+  "Her two-step dictation method: first hear which letters are in the word, then pick each letter’s form from whether the previous letter connects leftward.",
+  "Hamza on alif at the start of a word: above for a and u, below for i; never on the definite article al-.",
+  "The four marks on every taught letter, and the conventions: sukuun is not written at the end of a word, casual text carries no tashkiil at all, and she will not deduct for a missing sukuun.",
+  "The speaking round now runs: greeting → ana … / ismii … → maa ismuka? / maa ismuki? → min ayna anta? or min ayy madiina anta? → hal anta min madiinat …? → maa ism abuuka? / abuuki? → ism abii … → tasharrafna → shukran → cafwan → maca as-salaama, with maa … bil-carabi / bil-ingliizi as her vocabulary check.",
+  "Unit 3 (pp. 43–55, ج ح خ) is Homework 3, due Thursday 9/11, and the 9/22 vocab quiz says “review all the vocabulary of Units 1–3” — the Unit 3 list is the next thing to card."
+ ],
+ "intro_drills": "Spellings from the Alif Baa answer key, matched to the words she read out and corrected. These are writing practice, not vocabulary; the ones she glossed are in the tables above.",
+ "method": "Sources: the four Teams recordings (8/25, 8/27, 9/1, 9/3) — the Teams captions read end to end, a fresh Whisper large-v3-turbo pass in English and one in Arabic over each full lecture, and an Arabic-script transcription of every silence-bounded utterance (about 4,600 islands) inside every teaching window; whiteboard frames from 9/1 and 9/3; the Alif Baa answer key for drill spellings; Canvas Homework 1–3 and the Unit 1–3 quiz pages; and a dump of every note in the ARAB 101 Anki tree, read from the collection file with Anki closed. Every item in the missing tables was found in the Arabic-script pass at the timestamp given. Heard but not attributable to her, so left off: tamaam and akiid (short, possibly a student or a transcription artifact), and an after-class aside about “baabuuki” on 9/3."
+}

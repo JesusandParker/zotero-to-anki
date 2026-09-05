@@ -1,0 +1,67 @@
+{
+ "source": "arabic",
+ "noun": "Unit",
+ "note": "Page numbers are PHYSICAL PDF pages.",
+ "segments": [
+  {
+   "n": 1,
+   "name": "Overview of Arabic",
+   "start": 15,
+   "end": 31
+  },
+  {
+   "n": 2,
+   "name": "alif baa taa thaa",
+   "start": 32,
+   "end": 57
+  },
+  {
+   "n": 3,
+   "name": "jiim Haa khaa",
+   "start": 58,
+   "end": 77
+  },
+  {
+   "n": 4,
+   "name": "hamza daal dhaal raa zaay",
+   "start": 78,
+   "end": 102
+  },
+  {
+   "n": 5,
+   "name": "shadda siin shiin Saad Daad",
+   "start": 103,
+   "end": 127
+  },
+  {
+   "n": 6,
+   "name": "taa marbuuTa Taa DHaa cayn ghayn",
+   "start": 128,
+   "end": 155
+  },
+  {
+   "n": 7,
+   "name": "faa qaaf kaaf laam",
+   "start": 156,
+   "end": 178
+  },
+  {
+   "n": 8,
+   "name": "miim nuun haa",
+   "start": 179,
+   "end": 201
+  },
+  {
+   "n": 9,
+   "name": "definite article waaw yaa",
+   "start": 202,
+   "end": 218
+  },
+  {
+   "n": 10,
+   "name": "alif maqSuura endings writing styles",
+   "start": 219,
+   "end": 235
+  }
+ ]
+}

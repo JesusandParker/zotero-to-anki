@@ -1,0 +1,795 @@
+{
+"source": "2026-08-27 130.0-280.0 thr=-42.0 minpause=0.1 model=mlx-community/whisper-large-v3-turbo",
+"islands": [
+{
+"i": 0,
+"s": 130.0,
+"e": 131.27,
+"d": 1.27,
+"peak_dbfs": -7.5,
+"en": "",
+"ar": "لا يوجد الموقع للموقع.",
+"vtt": "after this class I have to run to another class. So if I close my computer,"
+},
+{
+"i": 1,
+"s": 131.7,
+"e": 134.62,
+"d": 2.92,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "ومن المترجمات لأييه في المنزل، أتفوقت.",
+"vtt": "after this class I have to run to another class. So if I close my computer, | I don't have time to do it. And by the time I go to my office,"
+},
+{
+"i": 2,
+"s": 134.9,
+"e": 136.97,
+"d": 2.07,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "امال مي ، هذا هو المسافة لكي تجربة",
+"vtt": "I don't have time to do it. And by the time I go to my office, | I'll forget. So e-mail me, that would be the safest option."
+},
+{
+"i": 3,
+"s": 137.38,
+"e": 137.69,
+"d": 0.31,
+"peak_dbfs": -26.5,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "I'll forget. So e-mail me, that would be the safest option."
+},
+{
+"i": 4,
+"s": 137.94,
+"e": 139.83,
+"d": 1.89,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "جميعاً، جميعاً،",
+"vtt": "I'll forget. So e-mail me, that would be the safest option."
+},
+{
+"i": 5,
+"s": 140.87,
+"e": 143.68,
+"d": 2.81,
+"peak_dbfs": -2.7,
+"en": "",
+"ar": "So I didn't get to talk to you last time.",
+"vtt": "I'll forget. So e-mail me, that would be the safest option. | All right, wonderful. So I didn't get to talk to you last time."
+},
+{
+"i": 6,
+"s": 143.79,
+"e": 144.39,
+"d": 0.6,
+"peak_dbfs": -11.5,
+"en": "",
+"ar": "ويقوم بسيارة",
+"vtt": "All right, wonderful. So I didn't get to talk to you last time."
+},
+{
+"i": 7,
+"s": 144.84,
+"e": 145.31,
+"d": 0.47,
+"peak_dbfs": -12.1,
+"en": "",
+"ar": "ثم",
+"vtt": "All right, wonderful. So I didn't get to talk to you last time. | I think so, today we're gonna, you're gonna introduce yourself a little"
+},
+{
+"i": 8,
+"s": 145.88,
+"e": 147.91,
+"d": 2.03,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "سوووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووو",
+"vtt": "I think so, today we're gonna, you're gonna introduce yourself a little"
+},
+{
+"i": 9,
+"s": 148.35,
+"e": 150.44,
+"d": 2.09,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "سوف تنظر لكي تنظر لكي",
+"vtt": "I think so, today we're gonna, you're gonna introduce yourself a little"
+},
+{
+"i": 10,
+"s": 150.77,
+"e": 151.14,
+"d": 0.37,
+"peak_dbfs": -5.9,
+"en": "",
+"ar": "شكرا",
+"vtt": "I think so, today we're gonna, you're gonna introduce yourself a little | bit."
+},
+{
+"i": 11,
+"s": 159.81,
+"e": 160.13,
+"d": 0.32,
+"peak_dbfs": -14.8,
+"en": "",
+"ar": "اشتركوا في القناة",
+"vtt": ""
+},
+{
+"i": 12,
+"s": 160.23,
+"e": 160.55,
+"d": 0.32,
+"peak_dbfs": -16.8,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "And you're going to tell me a little bit about yourself and why you are interested"
+},
+{
+"i": 13,
+"s": 161.45,
+"e": 167.16,
+"d": 5.71,
+"peak_dbfs": -3.4,
+"en": "",
+"ar": "ستخبرني لك بعض الناس عن طريقك و لماذا تكون في العربية؟",
+"vtt": "And you're going to tell me a little bit about yourself and why you are interested"
+},
+{
+"i": 14,
+"s": 167.28,
+"e": 170.49,
+"d": 3.21,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "أعرف أن الكثير منكم منكم أنكم ستكون عربية في جسبي",
+"vtt": "And you're going to tell me a little bit about yourself and why you are interested | in Arabic. I know many of you probably have Arabic"
+},
+{
+"i": 15,
+"s": 170.96,
+"e": 171.57,
+"d": 0.61,
+"peak_dbfs": -6.8,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "in Arabic. I know many of you probably have Arabic"
+},
+{
+"i": 16,
+"s": 171.7,
+"e": 171.88,
+"d": 0.18,
+"peak_dbfs": -3.3,
+"en": "",
+"ar": "لكن",
+"vtt": "in Arabic. I know many of you probably have Arabic"
+},
+{
+"i": 17,
+"s": 172.68,
+"e": 174.02,
+"d": 1.34,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "إذا كان لديك أخرى",
+"vtt": "on your TCP, but if you have another reason,"
+},
+{
+"i": 18,
+"s": 174.49,
+"e": 175.05,
+"d": 0.56,
+"peak_dbfs": -13.4,
+"en": "",
+"ar": "و",
+"vtt": "on your TCP, but if you have another reason,"
+},
+{
+"i": 19,
+"s": 175.55,
+"e": 177.69,
+"d": 2.14,
+"peak_dbfs": -3.4,
+"en": "",
+"ar": "لماذا تريد أن تتعرف بك؟",
+"vtt": "on your TCP, but if you have another reason, | why do you want to take Arabic? Okay. So we'll start with you, Liz."
+},
+{
+"i": 20,
+"s": 177.9,
+"e": 178.06,
+"d": 0.16,
+"peak_dbfs": -28.5,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "why do you want to take Arabic? Okay. So we'll start with you, Liz."
+},
+{
+"i": 21,
+"s": 178.4,
+"e": 180.87,
+"d": 2.47,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "سأبدأ لكي لاز",
+"vtt": "why do you want to take Arabic? Okay. So we'll start with you, Liz."
+},
+{
+"i": 22,
+"s": 186.0,
+"e": 186.56,
+"d": 0.56,
+"peak_dbfs": -19.2,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "This is the aviation website, so I would love to work for it."
+},
+{
+"i": 23,
+"s": 188.54,
+"e": 188.99,
+"d": 0.45,
+"peak_dbfs": -20.4,
+"en": "",
+"ar": "شكرا للمشاهدة",
+"vtt": "This is the aviation website, so I would love to work for it."
+},
+{
+"i": 24,
+"s": 189.11,
+"e": 189.32,
+"d": 0.21,
+"peak_dbfs": -24.2,
+"en": "",
+"ar": "شكرا لكم",
+"vtt": "This is the aviation website, so I would love to work for it."
+},
+{
+"i": 25,
+"s": 189.52,
+"e": 189.76,
+"d": 0.24,
+"peak_dbfs": -24.8,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "This is the aviation website, so I would love to work for it."
+},
+{
+"i": 26,
+"s": 190.89,
+"e": 191.04,
+"d": 0.15,
+"peak_dbfs": -33.5,
+"en": "",
+"ar": "شكرا لكم",
+"vtt": "This is the aviation website, so I would love to work for it."
+},
+{
+"i": 27,
+"s": 193.12,
+"e": 194.07,
+"d": 0.95,
+"peak_dbfs": -12.7,
+"en": "",
+"ar": "يا مدرفول",
+"vtt": "Yeah, wonderful, nice. And you want Arabic because it's gonna be"
+},
+{
+"i": 28,
+"s": 194.18,
+"e": 195.67,
+"d": 1.49,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "جيدة",
+"vtt": "Yeah, wonderful, nice. And you want Arabic because it's gonna be"
+},
+{
+"i": 29,
+"s": 196.16,
+"e": 198.51,
+"d": 2.35,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "تريد أن تريد العربية لأنها ستكون جيدة",
+"vtt": "Yeah, wonderful, nice. And you want Arabic because it's gonna be"
+},
+{
+"i": 30,
+"s": 198.63,
+"e": 199.84,
+"d": 1.21,
+"peak_dbfs": -5.7,
+"en": "",
+"ar": "لك في المترجمات",
+"vtt": "Yeah, wonderful, nice. And you want Arabic because it's gonna be | good for you in the future, for the future career?"
+},
+{
+"i": 31,
+"s": 200.36,
+"e": 200.89,
+"d": 0.53,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "مرد",
+"vtt": "good for you in the future, for the future career?"
+},
+{
+"i": 32,
+"s": 201.26,
+"e": 202.33,
+"d": 1.07,
+"peak_dbfs": -7.0,
+"en": "",
+"ar": "يترك ياني للمنزل",
+"vtt": "good for you in the future, for the future career?"
+},
+{
+"i": 33,
+"s": 204.28,
+"e": 204.57,
+"d": 0.29,
+"peak_dbfs": -22.6,
+"en": "",
+"ar": "شكرا لكم",
+"vtt": ""
+},
+{
+"i": 34,
+"s": 204.78,
+"e": 205.04,
+"d": 0.26,
+"peak_dbfs": -16.1,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "It's been really wonderful."
+},
+{
+"i": 35,
+"s": 205.48,
+"e": 205.63,
+"d": 0.15,
+"peak_dbfs": -23.3,
+"en": "",
+"ar": "شكرا",
+"vtt": "It's been really wonderful."
+},
+{
+"i": 36,
+"s": 205.93,
+"e": 206.56,
+"d": 0.63,
+"peak_dbfs": -21.2,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "It's been really wonderful."
+},
+{
+"i": 37,
+"s": 208.96,
+"e": 209.1,
+"d": 0.14,
+"peak_dbfs": -29.5,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": ""
+},
+{
+"i": 38,
+"s": 209.2,
+"e": 210.02,
+"d": 0.82,
+"peak_dbfs": -23.3,
+"en": "",
+"ar": "شرعنا نيقص",
+"vtt": "Just fill in that, and also hopefully be able to use that."
+},
+{
+"i": 39,
+"s": 210.14,
+"e": 210.41,
+"d": 0.27,
+"peak_dbfs": -25.8,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Just fill in that, and also hopefully be able to use that."
+},
+{
+"i": 40,
+"s": 210.57,
+"e": 210.71,
+"d": 0.14,
+"peak_dbfs": -30.6,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Just fill in that, and also hopefully be able to use that."
+},
+{
+"i": 41,
+"s": 211.07,
+"e": 211.5,
+"d": 0.43,
+"peak_dbfs": -18.7,
+"en": "",
+"ar": "أبداً.",
+"vtt": "Just fill in that, and also hopefully be able to use that."
+},
+{
+"i": 42,
+"s": 213.09,
+"e": 213.79,
+"d": 0.7,
+"peak_dbfs": -8.6,
+"en": "",
+"ar": "ماندرفول",
+"vtt": "Just fill in that, and also hopefully be able to use that. | Wonderful, wonderful. Alright, I'll teach you one word today."
+},
+{
+"i": 43,
+"s": 213.95,
+"e": 214.51,
+"d": 0.56,
+"peak_dbfs": -7.2,
+"en": "",
+"ar": "موسيقى",
+"vtt": "Just fill in that, and also hopefully be able to use that. | Wonderful, wonderful. Alright, I'll teach you one word today."
+},
+{
+"i": 44,
+"s": 214.61,
+"e": 214.99,
+"d": 0.38,
+"peak_dbfs": -20.4,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Wonderful, wonderful. Alright, I'll teach you one word today."
+},
+{
+"i": 45,
+"s": 215.09,
+"e": 217.28,
+"d": 2.19,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "أعطيكم اليوم",
+"vtt": "Wonderful, wonderful. Alright, I'll teach you one word today."
+},
+{
+"i": 46,
+"s": 219.34,
+"e": 220.71,
+"d": 1.37,
+"peak_dbfs": -8.9,
+"en": "",
+"ar": "هناك الكثير من الهدف",
+"vtt": "Is the word hello in Arabic? Some people don't like it."
+},
+{
+"i": 47,
+"s": 221.29,
+"e": 222.21,
+"d": 0.92,
+"peak_dbfs": -10.5,
+"en": "",
+"ar": "انها رأس بنا",
+"vtt": "Is the word hello in Arabic? Some people don't like it."
+},
+{
+"i": 48,
+"s": 223.13,
+"e": 226.01,
+"d": 2.88,
+"peak_dbfs": -7.1,
+"en": "",
+"ar": "لكن بعض الناس لا تحبه، أتمنى أنت تحبه؟",
+"vtt": "Is the word hello in Arabic? Some people don't like it. | I'll explain why."
+},
+{
+"i": 49,
+"s": 227.19,
+"e": 228.77,
+"d": 1.58,
+"peak_dbfs": -8.0,
+"en": "",
+"ar": "المترجم للقناة",
+"vtt": "I'll explain why. | The word is my but."
+},
+{
+"i": 50,
+"s": 229.14,
+"e": 229.67,
+"d": 0.53,
+"peak_dbfs": -11.0,
+"en": "",
+"ar": "شكرا",
+"vtt": "The word is my but."
+},
+{
+"i": 51,
+"s": 230.42,
+"e": 230.65,
+"d": 0.23,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "وال",
+"vtt": "The word is my but."
+},
+{
+"i": 52,
+"s": 231.72,
+"e": 232.57,
+"d": 0.85,
+"peak_dbfs": -6.7,
+"en": "",
+"ar": "وانت رابع",
+"vtt": "The word is my but. | Marhaba means hello. Christians like this word better than"
+},
+{
+"i": 53,
+"s": 232.84,
+"e": 234.06,
+"d": 1.22,
+"peak_dbfs": -5.2,
+"en": "",
+"ar": "أمور مميس كالو",
+"vtt": "Marhaba means hello. Christians like this word better than"
+},
+{
+"i": 54,
+"s": 234.54,
+"e": 235.9,
+"d": 1.36,
+"peak_dbfs": -6.3,
+"en": "",
+"ar": "تشتركوا في القناة",
+"vtt": "Marhaba means hello. Christians like this word better than"
+},
+{
+"i": 55,
+"s": 236.0,
+"e": 240.1,
+"d": 4.1,
+"peak_dbfs": -9.3,
+"en": "",
+"ar": "أفضل المسلمين. المسلمين يقولون السلام عليكم. أفضل المسلمين.",
+"vtt": "Marhaba means hello. Christians like this word better than | Muslims. Muslims say like, Salam alaikum, peace be upon you. But Christians,"
+},
+{
+"i": 56,
+"s": 240.21,
+"e": 240.47,
+"d": 0.26,
+"peak_dbfs": -10.5,
+"en": "",
+"ar": "فان",
+"vtt": "Muslims. Muslims say like, Salam alaikum, peace be upon you. But Christians,"
+},
+{
+"i": 57,
+"s": 241.47,
+"e": 244.68,
+"d": 3.21,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "باكرة شنانس تي لك مريحبا بكوزه تغانس في فرق",
+"vtt": "Muslims. Muslims say like, Salam alaikum, peace be upon you. But Christians, | they like Marhaba because it comes from a Syriac Christian origin. Mar,"
+},
+{
+"i": 58,
+"s": 244.81,
+"e": 246.22,
+"d": 1.41,
+"peak_dbfs": -5.5,
+"en": "",
+"ar": "مرحباً أصدقائك",
+"vtt": "they like Marhaba because it comes from a Syriac Christian origin. Mar,"
+},
+{
+"i": 59,
+"s": 246.39,
+"e": 247.51,
+"d": 1.12,
+"peak_dbfs": -13.0,
+"en": "",
+"ar": "كريسينا رجل",
+"vtt": "they like Marhaba because it comes from a Syriac Christian origin. Mar,"
+},
+{
+"i": 60,
+"s": 248.12,
+"e": 248.63,
+"d": 0.51,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "فار",
+"vtt": "they like Marhaba because it comes from a Syriac Christian origin. Mar,"
+},
+{
+"i": 61,
+"s": 248.84,
+"e": 249.52,
+"d": 0.68,
+"peak_dbfs": -15.0,
+"en": "",
+"ar": "أدنس",
+"vtt": "they like Marhaba because it comes from a Syriac Christian origin. Mar,"
+},
+{
+"i": 62,
+"s": 249.72,
+"e": 250.17,
+"d": 0.45,
+"peak_dbfs": -5.8,
+"en": "",
+"ar": "لور",
+"vtt": "they like Marhaba because it comes from a Syriac Christian origin. Mar, | it means Lord or Mister."
+},
+{
+"i": 63,
+"s": 250.36,
+"e": 251.19,
+"d": 0.83,
+"peak_dbfs": -14.7,
+"en": "",
+"ar": "or Mr.",
+"vtt": "they like Marhaba because it comes from a Syriac Christian origin. Mar, | it means Lord or Mister."
+},
+{
+"i": 64,
+"s": 251.85,
+"e": 252.48,
+"d": 0.63,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "هاو بات",
+"vtt": "it means Lord or Mister."
+},
+{
+"i": 65,
+"s": 252.59,
+"e": 253.15,
+"d": 0.56,
+"peak_dbfs": -6.9,
+"en": "",
+"ar": "نسلو",
+"vtt": ""
+},
+{
+"i": 66,
+"s": 253.8,
+"e": 256.16,
+"d": 2.36,
+"peak_dbfs": -5.2,
+"en": "",
+"ar": "كلما أقول لأرحباً لأحدث",
+"vtt": "means love. So every time I say to someone,"
+},
+{
+"i": 67,
+"s": 256.3,
+"e": 257.18,
+"d": 0.88,
+"peak_dbfs": -12.9,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "means love. So every time I say to someone, | I'm telling them the Lords love you. Okay, Gods love you."
+},
+{
+"i": 68,
+"s": 257.5,
+"e": 258.58,
+"d": 1.08,
+"peak_dbfs": -10.5,
+"en": "",
+"ar": "The Lords love you.",
+"vtt": "I'm telling them the Lords love you. Okay, Gods love you."
+},
+{
+"i": 69,
+"s": 259.51,
+"e": 260.51,
+"d": 1.0,
+"peak_dbfs": -10.4,
+"en": "",
+"ar": "شكرا لكم",
+"vtt": "I'm telling them the Lords love you. Okay, Gods love you."
+},
+{
+"i": 70,
+"s": 261.24,
+"e": 262.59,
+"d": 1.35,
+"peak_dbfs": -6.3,
+"en": "",
+"ar": "سوء",
+"vtt": "I'm telling them the Lords love you. Okay, Gods love you. | So we're going to learn it today. So you have to say to Liz right now."
+},
+{
+"i": 71,
+"s": 262.92,
+"e": 267.38,
+"d": 4.46,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "سوف نتعلمها اليوم لذلك يجب أن تقول لسه الآن مرحبا لسه",
+"vtt": "So we're going to learn it today. So you have to say to Liz right now."
+},
+{
+"i": 72,
+"s": 268.72,
+"e": 270.29,
+"d": 1.57,
+"peak_dbfs": -3.6,
+"en": "",
+"ar": "أحبت بيوضا أحبت بيوضا",
+"vtt": "Yes, good. Now, I mentioned something about the capital H."
+},
+{
+"i": 73,
+"s": 270.41,
+"e": 270.56,
+"d": 0.15,
+"peak_dbfs": -28.8,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Yes, good. Now, I mentioned something about the capital H."
+},
+{
+"i": 74,
+"s": 270.71,
+"e": 272.95,
+"d": 2.24,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "الآن، أتحدث شيء عن ذلك المترجمات التي تتحدث عنها",
+"vtt": "Yes, good. Now, I mentioned something about the capital H."
+},
+{
+"i": 75,
+"s": 273.06,
+"e": 273.22,
+"d": 0.16,
+"peak_dbfs": -23.5,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Yes, good. Now, I mentioned something about the capital H."
+},
+{
+"i": 76,
+"s": 274.33,
+"e": 274.73,
+"d": 0.4,
+"peak_dbfs": -15.1,
+"en": "",
+"ar": "اهههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههه",
+"vtt": "Yes, good. Now, I mentioned something about the capital H."
+},
+{
+"i": 77,
+"s": 276.07,
+"e": 277.91,
+"d": 1.84,
+"peak_dbfs": -4.9,
+"en": "",
+"ar": "سمسانس ان اربك",
+"vtt": "Some sounds in Arabic, they do not correspond to English. So,"
+},
+{
+"i": 78,
+"s": 278.04,
+"e": 279.9,
+"d": 1.86,
+"peak_dbfs": -11.0,
+"en": "",
+"ar": "ويجعلنا نقل في فترة أجلسية.",
+"vtt": "Some sounds in Arabic, they do not correspond to English. So,"
+}
+]
+}

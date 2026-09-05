@@ -1,0 +1,202 @@
+[
+ {
+  "file": "arabic_khouri_ab.mp3",
+  "dur": 0.75,
+  "peak_dbfs": -1.9,
+  "ar": "أب",
+  "en": "up",
+  "expect": "أب",
+  "bytes": 9761,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_khouri_abii.mp3",
+  "dur": 0.77,
+  "peak_dbfs": -1.9,
+  "ar": "أبي",
+  "en": "Abby?",
+  "expect": "أبي",
+  "bytes": 10075,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_khouri_abuuka_abuuki.mp3",
+  "dur": 1.95,
+  "peak_dbfs": -1.9,
+  "ar": "ابوكا ابوكي",
+  "en": "Abuka Abuki",
+  "expect": "ابوك",
+  "bytes": 24181,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_khouri_ahsant.mp3",
+  "dur": 0.62,
+  "peak_dbfs": -1.9,
+  "ar": "أحسن",
+  "en": "Ahsan",
+  "expect": "أحسن",
+  "bytes": 8194,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_khouri_ahsant_kyle.mp3",
+  "dur": 1.1,
+  "peak_dbfs": -0.6,
+  "ar": "أحسنت كايل",
+  "en": "Ahsan Kyle",
+  "expect": "أحسنت",
+  "bytes": 13836,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_khouri_ana_min_suuriya.mp3",
+  "dur": 1.62,
+  "peak_dbfs": -1.9,
+  "ar": "أنا من سوريا",
+  "en": "أنا من سوريا.",
+  "expect": "سوريا",
+  "bytes": 20106,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_khouri_ayy.mp3",
+  "dur": 0.67,
+  "peak_dbfs": -1.9,
+  "ar": "أي",
+  "en": "A",
+  "expect": "أي",
+  "bytes": 8821,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_khouri_baaba.mp3",
+  "dur": 0.64,
+  "peak_dbfs": -1.9,
+  "ar": "بابا",
+  "en": "Bobo.",
+  "expect": "بابا",
+  "bytes": 8507,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_khouri_baabii.mp3",
+  "dur": 0.95,
+  "peak_dbfs": -0.7,
+  "ar": "بابي",
+  "en": "Babi?",
+  "expect": "بابي",
+  "bytes": 12269,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_khouri_bil_arabi.mp3",
+  "dur": 0.86,
+  "peak_dbfs": -1.6,
+  "ar": "بالعربي",
+  "en": "In Arabic",
+  "expect": "بالعربي",
+  "bytes": 11015,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_khouri_bil_inglizi.mp3",
+  "dur": 1.33,
+  "peak_dbfs": -1.9,
+  "ar": "بالإنجليزي",
+  "en": "بالإنجليزي",
+  "expect": "بالإنجليزي",
+  "bytes": 16657,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_khouri_maa_ism_abuuki.mp3",
+  "dur": 2.01,
+  "peak_dbfs": -1.9,
+  "ar": "منا اسم ابوكي",
+  "en": "My name is Abu Ki.",
+  "expect": "ابوكي",
+  "bytes": 24808,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_khouri_taab.mp3",
+  "dur": 0.83,
+  "peak_dbfs": -1.9,
+  "ar": "تاب",
+  "en": "Stop.",
+  "expect": "تاب",
+  "bytes": 10702,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_khouri_tuut.mp3",
+  "dur": 0.84,
+  "peak_dbfs": -1.8,
+  "ar": "توت",
+  "en": "Toot",
+  "expect": "توت",
+  "bytes": 10702,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_khouri_umm.mp3",
+  "dur": 0.54,
+  "peak_dbfs": -1.9,
+  "ar": "أم",
+  "en": "um",
+  "expect": "أم",
+  "bytes": 7253,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_khouri_yalla.mp3",
+  "dur": 0.4,
+  "peak_dbfs": -1.9,
+  "ar": "يلا",
+  "en": "yellow",
+  "expect": "يلا",
+  "bytes": 5686,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_vocab_u2_d11_baabii.mp3",
+  "dur": 2.82,
+  "peak_dbfs": -1.9,
+  "ar": "بابي",
+  "en": "Baby.",
+  "expect": "بابي",
+  "bytes": 34628,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_vocab_u2_le3_baat.mp3",
+  "dur": 2.91,
+  "peak_dbfs": -0.0,
+  "ar": "بات",
+  "en": "Bat",
+  "expect": "بات",
+  "bytes": 36110,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_vocab_u2_le6_taabuut.mp3",
+  "dur": 1.91,
+  "peak_dbfs": -0.7,
+  "ar": "تبوت",
+  "en": "Tabut",
+  "expect": "بوت",
+  "bytes": 23768,
+  "gate": "PASS"
+ },
+ {
+  "file": "arabic_vocab_u2_le6_tuut.mp3",
+  "dur": 1.63,
+  "peak_dbfs": -0.7,
+  "ar": "تُوت",
+  "en": "tut",
+  "expect": "وت",
+  "bytes": 20320,
+  "gate": "PASS"
+ }
+]

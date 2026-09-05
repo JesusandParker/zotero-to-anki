@@ -1,0 +1,9 @@
+#!/bin/bash
+# Cron entry point for the Night Shift. Cron gives a bare environment, so HOME and
+# PATH are set explicitly (claude lives in ~/.local/bin), and everything the run
+# prints lands in one dated orchestrator log.
+export HOME=/home/parker
+export PATH="$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin"
+mkdir -p "$HOME/night-shift/logs"
+exec python3 "$HOME/.claude/skills/zotero-to-anki/automation/night_shift.py" \
+  >> "$HOME/night-shift/logs/orchestrator.log" 2>&1

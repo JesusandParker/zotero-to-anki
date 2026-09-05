@@ -1,0 +1,2835 @@
+{
+"source": "2026-09-01 600.0-1300.0 thr=-42.0 minpause=0.1 model=mlx-community/whisper-large-v3-turbo",
+"islands": [
+{
+"i": 0,
+"s": 619.24,
+"e": 619.38,
+"d": 0.14,
+"peak_dbfs": -25.0,
+"en": "",
+"ar": "شكرا",
+"vtt": ""
+},
+{
+"i": 1,
+"s": 619.88,
+"e": 620.04,
+"d": 0.16,
+"peak_dbfs": -28.8,
+"en": "",
+"ar": "شكرا لكم",
+"vtt": "Yes, my middle initial."
+},
+{
+"i": 2,
+"s": 620.21,
+"e": 620.47,
+"d": 0.26,
+"peak_dbfs": -26.4,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Yes, my middle initial."
+},
+{
+"i": 3,
+"s": 621.27,
+"e": 621.46,
+"d": 0.19,
+"peak_dbfs": -26.9,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Yes, my middle initial."
+},
+{
+"i": 4,
+"s": 623.27,
+"e": 623.7,
+"d": 0.43,
+"peak_dbfs": -14.9,
+"en": "",
+"ar": "مجددا",
+"vtt": ""
+},
+{
+"i": 5,
+"s": 623.88,
+"e": 624.22,
+"d": 0.34,
+"peak_dbfs": -18.5,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "We're gonna start to connect in a second."
+},
+{
+"i": 6,
+"s": 624.44,
+"e": 624.81,
+"d": 0.37,
+"peak_dbfs": -20.9,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "We're gonna start to connect in a second."
+},
+{
+"i": 7,
+"s": 625.0,
+"e": 625.67,
+"d": 0.67,
+"peak_dbfs": -23.0,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "We're gonna start to connect in a second."
+},
+{
+"i": 8,
+"s": 627.19,
+"e": 627.6,
+"d": 0.41,
+"peak_dbfs": -5.0,
+"en": "",
+"ar": "أم",
+"vtt": "We're gonna start to connect in a second."
+},
+{
+"i": 9,
+"s": 627.75,
+"e": 629.52,
+"d": 1.77,
+"peak_dbfs": -6.3,
+"en": "",
+"ar": "أعطيك أكثر لتعرف",
+"vtt": "I'll teach you a fourth letter. That's what we call the tha."
+},
+{
+"i": 10,
+"s": 630.16,
+"e": 631.85,
+"d": 1.69,
+"peak_dbfs": -4.9,
+"en": "",
+"ar": "هذا ما نقول هذا",
+"vtt": "I'll teach you a fourth letter. That's what we call the tha."
+},
+{
+"i": 11,
+"s": 632.06,
+"e": 632.33,
+"d": 0.27,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "I'll teach you a fourth letter. That's what we call the tha."
+},
+{
+"i": 12,
+"s": 632.79,
+"e": 638.44,
+"d": 5.65,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "لذا في المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من المنزل من",
+"vtt": "I'll teach you a fourth letter. That's what we call the tha. | So with the drill one, unit one, drill one, | you play a little bit with the sound of the th."
+},
+{
+"i": 13,
+"s": 638.54,
+"e": 639.62,
+"d": 1.08,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "ذا و ذا و ذا",
+"vtt": "you play a little bit with the sound of the th."
+},
+{
+"i": 14,
+"s": 639.73,
+"e": 640.08,
+"d": 0.35,
+"peak_dbfs": -4.9,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "you play a little bit with the sound of the th. | There is the tha and there is the tha. This is the tha, okay? Like Matthew 3."
+},
+{
+"i": 15,
+"s": 640.46,
+"e": 640.98,
+"d": 0.52,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "هذا هو",
+"vtt": "you play a little bit with the sound of the th. | There is the tha and there is the tha. This is the tha, okay? Like Matthew 3."
+},
+{
+"i": 16,
+"s": 641.1,
+"e": 641.34,
+"d": 0.24,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "There is the tha and there is the tha. This is the tha, okay? Like Matthew 3."
+},
+{
+"i": 17,
+"s": 641.61,
+"e": 642.08,
+"d": 0.47,
+"peak_dbfs": -10.9,
+"en": "",
+"ar": "أكيد",
+"vtt": "There is the tha and there is the tha. This is the tha, okay? Like Matthew 3."
+},
+{
+"i": 18,
+"s": 642.27,
+"e": 642.51,
+"d": 0.24,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "شكرا لكم",
+"vtt": "There is the tha and there is the tha. This is the tha, okay? Like Matthew 3."
+},
+{
+"i": 19,
+"s": 642.76,
+"e": 643.63,
+"d": 0.87,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "ماتيو",
+"vtt": "There is the tha and there is the tha. This is the tha, okay? Like Matthew 3."
+},
+{
+"i": 20,
+"s": 644.06,
+"e": 644.58,
+"d": 0.52,
+"peak_dbfs": -7.4,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "There is the tha and there is the tha. This is the tha, okay? Like Matthew 3."
+},
+{
+"i": 21,
+"s": 644.93,
+"e": 645.96,
+"d": 1.03,
+"peak_dbfs": -5.2,
+"en": "",
+"ar": "حسناً، هذا هو",
+"vtt": "There is the tha and there is the tha. This is the tha, okay? Like Matthew 3."
+},
+{
+"i": 22,
+"s": 646.08,
+"e": 646.38,
+"d": 0.3,
+"peak_dbfs": -8.8,
+"en": "",
+"ar": "سن",
+"vtt": "There is the tha and there is the tha. This is the tha, okay? Like Matthew 3. | Okay, that's the cell. So."
+},
+{
+"i": 23,
+"s": 647.1,
+"e": 647.44,
+"d": 0.34,
+"peak_dbfs": -5.1,
+"en": "",
+"ar": "سو",
+"vtt": "Okay, that's the cell. So."
+},
+{
+"i": 24,
+"s": 647.62,
+"e": 648.1,
+"d": 0.48,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "تاو",
+"vtt": "Okay, that's the cell. So."
+},
+{
+"i": 25,
+"s": 648.81,
+"e": 650.62,
+"d": 1.81,
+"peak_dbfs": -5.6,
+"en": "",
+"ar": "أو أبداً أخذتها",
+"vtt": "Yeah, or before I go to the, I forgot, so, uh, uh."
+},
+{
+"i": 26,
+"s": 651.04,
+"e": 652.54,
+"d": 1.5,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "سوء با",
+"vtt": "Yeah, or before I go to the, I forgot, so, uh, uh."
+},
+{
+"i": 27,
+"s": 652.99,
+"e": 653.44,
+"d": 0.45,
+"peak_dbfs": -15.0,
+"en": "",
+"ar": "أهلاً",
+"vtt": "Yeah, or before I go to the, I forgot, so, uh, uh."
+},
+{
+"i": 28,
+"s": 654.52,
+"e": 656.09,
+"d": 1.57,
+"peak_dbfs": -4.9,
+"en": "",
+"ar": "المترجم للتصوير",
+"vtt": "Yeah, or before I go to the, I forgot, so, uh, uh. | The name of the letter is written with the Hamza."
+},
+{
+"i": 29,
+"s": 656.26,
+"e": 656.93,
+"d": 0.67,
+"peak_dbfs": -6.5,
+"en": "",
+"ar": "روزن",
+"vtt": "The name of the letter is written with the Hamza."
+},
+{
+"i": 30,
+"s": 657.41,
+"e": 660.85,
+"d": 3.44,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "تحدث عن حمزة في أول قصة؟ نعم",
+"vtt": "The name of the letter is written with the Hamza. | Did you talk about Hamza first class? Yeah,"
+},
+{
+"i": 31,
+"s": 661.21,
+"e": 665.25,
+"d": 4.04,
+"peak_dbfs": -3.3,
+"en": "",
+"ar": "نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن ن",
+"vtt": "Did you talk about Hamza first class? Yeah, | so the we call it the glottal stop in English, in Arabic, Hamza. Hamza,"
+},
+{
+"i": 32,
+"s": 665.72,
+"e": 666.5,
+"d": 0.78,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "همزة",
+"vtt": "so the we call it the glottal stop in English, in Arabic, Hamza. Hamza,"
+},
+{
+"i": 33,
+"s": 666.74,
+"e": 668.54,
+"d": 1.8,
+"peak_dbfs": -5.3,
+"en": "",
+"ar": "ونحن أنه لا يمتلك",
+"vtt": "so the we call it the glottal stop in English, in Arabic, Hamza. Hamza, | and make sure it's not Hamza. Hamza is a name."
+},
+{
+"i": 34,
+"s": 669.25,
+"e": 670.23,
+"d": 0.98,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "حمزة زنين",
+"vtt": "and make sure it's not Hamza. Hamza is a name."
+},
+{
+"i": 35,
+"s": 670.93,
+"e": 673.65,
+"d": 2.72,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "هنزاو",
+"vtt": "and make sure it's not Hamza. Hamza is a name. | Hamza with an H with an H sound."
+},
+{
+"i": 36,
+"s": 674.13,
+"e": 674.65,
+"d": 0.52,
+"peak_dbfs": -3.3,
+"en": "",
+"ar": "و",
+"vtt": "Hamza with an H with an H sound."
+},
+{
+"i": 37,
+"s": 674.75,
+"e": 675.16,
+"d": 0.41,
+"peak_dbfs": -13.3,
+"en": "",
+"ar": "س...",
+"vtt": "Hamza with an H with an H sound. | And sit, sit, hands up. OK, hands up could appear on a left, we said,"
+},
+{
+"i": 38,
+"s": 675.42,
+"e": 675.71,
+"d": 0.29,
+"peak_dbfs": -7.1,
+"en": "",
+"ar": "ست",
+"vtt": "And sit, sit, hands up. OK, hands up could appear on a left, we said,"
+},
+{
+"i": 39,
+"s": 676.1,
+"e": 676.72,
+"d": 0.62,
+"peak_dbfs": -5.8,
+"en": "",
+"ar": "همزة",
+"vtt": "And sit, sit, hands up. OK, hands up could appear on a left, we said,"
+},
+{
+"i": 40,
+"s": 676.91,
+"e": 677.34,
+"d": 0.43,
+"peak_dbfs": -9.9,
+"en": "",
+"ar": "أكي؟",
+"vtt": "And sit, sit, hands up. OK, hands up could appear on a left, we said,"
+},
+{
+"i": 41,
+"s": 677.87,
+"e": 679.09,
+"d": 1.22,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "هم زاد كدأت",
+"vtt": "And sit, sit, hands up. OK, hands up could appear on a left, we said,"
+},
+{
+"i": 42,
+"s": 679.2,
+"e": 680.9,
+"d": 1.7,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "على الملف ويسر",
+"vtt": "And sit, sit, hands up. OK, hands up could appear on a left, we said, | at the top or at the bottom, or it could come by itself. So,"
+},
+{
+"i": 43,
+"s": 681.33,
+"e": 683.31,
+"d": 1.98,
+"peak_dbfs": -4.8,
+"en": "",
+"ar": "على المساعدة أو المساعدة",
+"vtt": "at the top or at the bottom, or it could come by itself. So,"
+},
+{
+"i": 44,
+"s": 683.64,
+"e": 684.4,
+"d": 0.76,
+"peak_dbfs": -3.5,
+"en": "",
+"ar": "أردتك",
+"vtt": "at the top or at the bottom, or it could come by itself. So,"
+},
+{
+"i": 45,
+"s": 684.71,
+"e": 685.77,
+"d": 1.06,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "كام باية سا",
+"vtt": "at the top or at the bottom, or it could come by itself. So, | if I'm writing the name of the letter, I will write it this way: Baa."
+},
+{
+"i": 46,
+"s": 686.16,
+"e": 687.67,
+"d": 1.51,
+"peak_dbfs": -5.6,
+"en": "",
+"ar": "إذا كنت أتكلم",
+"vtt": "at the top or at the bottom, or it could come by itself. So, | if I'm writing the name of the letter, I will write it this way: Baa."
+},
+{
+"i": 47,
+"s": 687.82,
+"e": 691.02,
+"d": 3.2,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "المترجم للتصوير من المترجم للتصوير",
+"vtt": "if I'm writing the name of the letter, I will write it this way: Baa."
+},
+{
+"i": 48,
+"s": 691.3,
+"e": 691.49,
+"d": 0.19,
+"peak_dbfs": -4.8,
+"en": "",
+"ar": "أ",
+"vtt": "if I'm writing the name of the letter, I will write it this way: Baa."
+},
+{
+"i": 49,
+"s": 691.8,
+"e": 692.58,
+"d": 0.78,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "بأ",
+"vtt": "if I'm writing the name of the letter, I will write it this way: Baa."
+},
+{
+"i": 50,
+"s": 692.96,
+"e": 693.37,
+"d": 0.41,
+"peak_dbfs": -6.9,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": ""
+},
+{
+"i": 51,
+"s": 693.98,
+"e": 695.45,
+"d": 1.47,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن ن",
+"vtt": "So we pronounce the hands up. And sometimes we go fast,"
+},
+{
+"i": 52,
+"s": 695.95,
+"e": 698.53,
+"d": 2.58,
+"peak_dbfs": -3.4,
+"en": "",
+"ar": "وانتبعنا نسيباً ونسيباً",
+"vtt": "So we pronounce the hands up. And sometimes we go fast,"
+},
+{
+"i": 53,
+"s": 698.93,
+"e": 699.33,
+"d": 0.4,
+"peak_dbfs": -8.7,
+"en": "",
+"ar": "المترجم للقناة",
+"vtt": "So we pronounce the hands up. And sometimes we go fast, | so we skip the clouds of stuff. Ta is the same thing. Ta."
+},
+{
+"i": 54,
+"s": 699.44,
+"e": 699.94,
+"d": 0.5,
+"peak_dbfs": -10.9,
+"en": "",
+"ar": "لاتهدى",
+"vtt": "So we pronounce the hands up. And sometimes we go fast, | so we skip the clouds of stuff. Ta is the same thing. Ta."
+},
+{
+"i": 55,
+"s": 700.04,
+"e": 700.18,
+"d": 0.14,
+"peak_dbfs": -16.5,
+"en": "",
+"ar": "شكرا",
+"vtt": "so we skip the clouds of stuff. Ta is the same thing. Ta."
+},
+{
+"i": 56,
+"s": 700.76,
+"e": 702.73,
+"d": 1.97,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "تاوة هي الانتعام",
+"vtt": "so we skip the clouds of stuff. Ta is the same thing. Ta."
+},
+{
+"i": 57,
+"s": 702.87,
+"e": 703.02,
+"d": 0.15,
+"peak_dbfs": -12.0,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "so we skip the clouds of stuff. Ta is the same thing. Ta."
+},
+{
+"i": 58,
+"s": 704.84,
+"e": 705.62,
+"d": 0.78,
+"peak_dbfs": -7.2,
+"en": "",
+"ar": "تاااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااا",
+"vtt": "The so the Global stuff also comes at the end by itself. The 3rd letter is the."
+},
+{
+"i": 59,
+"s": 705.73,
+"e": 708.84,
+"d": 3.11,
+"peak_dbfs": -4.9,
+"en": "",
+"ar": "المترجم للقلقاتية في الوصف",
+"vtt": "The so the Global stuff also comes at the end by itself. The 3rd letter is the."
+},
+{
+"i": 60,
+"s": 709.74,
+"e": 710.99,
+"d": 1.25,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "الثالث لتر",
+"vtt": "The so the Global stuff also comes at the end by itself. The 3rd letter is the."
+},
+{
+"i": 61,
+"s": 711.1,
+"e": 711.59,
+"d": 0.49,
+"peak_dbfs": -6.9,
+"en": "",
+"ar": "اس",
+"vtt": "The so the Global stuff also comes at the end by itself. The 3rd letter is the."
+},
+{
+"i": 62,
+"s": 712.26,
+"e": 712.82,
+"d": 0.56,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "تبا",
+"vtt": "The so the Global stuff also comes at the end by itself. The 3rd letter is the."
+},
+{
+"i": 63,
+"s": 714.78,
+"e": 717.1,
+"d": 2.32,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "إنه سيارة لعباً لتعب",
+"vtt": "It's very similar to the bar at the top; the difference is the three dots at the"
+},
+{
+"i": 64,
+"s": 717.26,
+"e": 720.33,
+"d": 3.07,
+"peak_dbfs": -4.8,
+"en": "",
+"ar": "المختلفة هي الأسفل الثلاثة في المطلوب",
+"vtt": "It's very similar to the bar at the top; the difference is the three dots at the"
+},
+{
+"i": 65,
+"s": 721.69,
+"e": 722.13,
+"d": 0.44,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "شكرا",
+"vtt": ""
+},
+{
+"i": 66,
+"s": 722.29,
+"e": 728.01,
+"d": 5.72,
+"peak_dbfs": -3.5,
+"en": "",
+"ar": "كما أخبرتك في تقريبك كثيراً، لا تريد أن تقريبك ثلاثة.",
+"vtt": "Now, as I told you, sometimes we're writing so fast, | we don't want to write 3 dots that takes extra second or part of a second."
+},
+{
+"i": 67,
+"s": 728.14,
+"e": 728.72,
+"d": 0.58,
+"peak_dbfs": -7.7,
+"en": "",
+"ar": "ساكيره دو",
+"vtt": "we don't want to write 3 dots that takes extra second or part of a second."
+},
+{
+"i": 68,
+"s": 728.82,
+"e": 729.66,
+"d": 0.84,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "بارغة فسكية.",
+"vtt": "we don't want to write 3 dots that takes extra second or part of a second."
+},
+{
+"i": 69,
+"s": 729.84,
+"e": 729.98,
+"d": 0.14,
+"peak_dbfs": -30.6,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "we don't want to write 3 dots that takes extra second or part of a second."
+},
+{
+"i": 70,
+"s": 730.23,
+"e": 731.94,
+"d": 1.71,
+"peak_dbfs": -3.0,
+"en": "",
+"ar": "فما نفعله",
+"vtt": "we don't want to write 3 dots that takes extra second or part of a second. | So what we do, we do 8 carrots. So we write that cell with a carrot."
+},
+{
+"i": 71,
+"s": 732.05,
+"e": 732.39,
+"d": 0.34,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "شكرا",
+"vtt": "So what we do, we do 8 carrots. So we write that cell with a carrot."
+},
+{
+"i": 72,
+"s": 732.72,
+"e": 733.49,
+"d": 0.77,
+"peak_dbfs": -8.2,
+"en": "",
+"ar": "إذا كنت تتعلم",
+"vtt": "So what we do, we do 8 carrots. So we write that cell with a carrot."
+},
+{
+"i": 73,
+"s": 733.62,
+"e": 734.29,
+"d": 0.67,
+"peak_dbfs": -7.5,
+"en": "",
+"ar": "ستعود",
+"vtt": "So what we do, we do 8 carrots. So we write that cell with a carrot."
+},
+{
+"i": 74,
+"s": 734.49,
+"e": 734.8,
+"d": 0.31,
+"peak_dbfs": -14.1,
+"en": "",
+"ar": "إ",
+"vtt": "So what we do, we do 8 carrots. So we write that cell with a carrot."
+},
+{
+"i": 75,
+"s": 735.06,
+"e": 735.33,
+"d": 0.27,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "كذلك",
+"vtt": "So what we do, we do 8 carrots. So we write that cell with a carrot."
+},
+{
+"i": 76,
+"s": 741.08,
+"e": 751.57,
+"d": 10.49,
+"peak_dbfs": -3.6,
+"en": "",
+"ar": "عندما تتابعك لا يجب أن تتكلم عن الثلجة وكذلك تتكلم عن الثلجة أو تتكلم عن الثلجة هناك مختلفة مختلفة مختلفة مختلفة لتبع لتبع",
+"vtt": "When you type, you don't have to write the sound, | then you write the dots or you write the carrots. There is a special character, | special button for the bar, for the ta, for the cell when you type"
+},
+{
+"i": 77,
+"s": 751.69,
+"e": 751.87,
+"d": 0.18,
+"peak_dbfs": -11.3,
+"en": "",
+"ar": "سوء.",
+"vtt": "special button for the bar, for the ta, for the cell when you type it on your"
+},
+{
+"i": 78,
+"s": 752.23,
+"e": 753.46,
+"d": 1.23,
+"peak_dbfs": -4.8,
+"en": "",
+"ar": "عندما تتابعها على أغلبك.",
+"vtt": "special button for the bar, for the ta, for the cell when you type it on your"
+},
+{
+"i": 79,
+"s": 754.56,
+"e": 755.04,
+"d": 0.48,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "سو",
+"vtt": "special button for the bar, for the ta, for the cell when you type it on your"
+},
+{
+"i": 80,
+"s": 755.33,
+"e": 758.61,
+"d": 3.28,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "اشتركوا في القناة",
+"vtt": "special button for the bar, for the ta, for the cell when you type it on your | laptop. So also connect both sides. So we have initial cell."
+},
+{
+"i": 81,
+"s": 759.15,
+"e": 759.64,
+"d": 0.49,
+"peak_dbfs": -7.3,
+"en": "",
+"ar": "سواء",
+"vtt": "laptop. So also connect both sides. So we have initial cell."
+},
+{
+"i": 82,
+"s": 761.94,
+"e": 763.13,
+"d": 1.19,
+"peak_dbfs": -7.1,
+"en": "",
+"ar": "نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن نحن ن",
+"vtt": "You have middle."
+},
+{
+"i": 83,
+"s": 765.04,
+"e": 765.46,
+"d": 0.42,
+"peak_dbfs": -9.7,
+"en": "",
+"ar": "تبا",
+"vtt": ""
+},
+{
+"i": 84,
+"s": 769.24,
+"e": 769.78,
+"d": 0.54,
+"peak_dbfs": -7.9,
+"en": "",
+"ar": "ميحب",
+"vtt": "We have connecting ending."
+},
+{
+"i": 85,
+"s": 769.89,
+"e": 771.42,
+"d": 1.53,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تباً تبا",
+"vtt": "We have connecting ending."
+},
+{
+"i": 86,
+"s": 774.26,
+"e": 774.42,
+"d": 0.16,
+"peak_dbfs": -5.4,
+"en": "",
+"ar": "شكرا",
+"vtt": ""
+},
+{
+"i": 87,
+"s": 778.5,
+"e": 778.98,
+"d": 0.48,
+"peak_dbfs": -6.5,
+"en": "",
+"ar": "إنه س...",
+"vtt": "And since now we're going to start connecting some words, make sure,"
+},
+{
+"i": 88,
+"s": 779.21,
+"e": 781.57,
+"d": 2.36,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "نحن نبدأ بشكل مصنع.",
+"vtt": "And since now we're going to start connecting some words, make sure,"
+},
+{
+"i": 89,
+"s": 781.69,
+"e": 782.18,
+"d": 0.49,
+"peak_dbfs": -6.7,
+"en": "",
+"ar": "أم",
+"vtt": "And since now we're going to start connecting some words, make sure,"
+},
+{
+"i": 90,
+"s": 782.36,
+"e": 783.67,
+"d": 1.31,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "أجل أن تكون مستقبلًا",
+"vtt": "And since now we're going to start connecting some words, make sure,"
+},
+{
+"i": 91,
+"s": 783.84,
+"e": 784.7,
+"d": 0.86,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "لابد ألا",
+"vtt": "And since now we're going to start connecting some words, make sure,"
+},
+{
+"i": 92,
+"s": 785.54,
+"e": 786.02,
+"d": 0.48,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "بالنس",
+"vtt": "look the left, the length, how tall it is, left comparing to the tooth."
+},
+{
+"i": 93,
+"s": 786.95,
+"e": 787.93,
+"d": 0.98,
+"peak_dbfs": -6.3,
+"en": "",
+"ar": "أو تولي تس",
+"vtt": "look the left, the length, how tall it is, left comparing to the tooth."
+},
+{
+"i": 94,
+"s": 788.03,
+"e": 788.19,
+"d": 0.16,
+"peak_dbfs": -12.0,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "look the left, the length, how tall it is, left comparing to the tooth."
+},
+{
+"i": 95,
+"s": 788.82,
+"e": 790.67,
+"d": 1.85,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "أعرف كما تتحرك في القطة",
+"vtt": "look the left, the length, how tall it is, left comparing to the tooth."
+},
+{
+"i": 96,
+"s": 794.73,
+"e": 795.11,
+"d": 0.38,
+"peak_dbfs": -8.2,
+"en": "",
+"ar": "الخيار",
+"vtt": ""
+},
+{
+"i": 97,
+"s": 795.71,
+"e": 797.34,
+"d": 1.63,
+"peak_dbfs": -7.4,
+"en": "",
+"ar": "هناك هي المنزل",
+"vtt": "Okay, so here is the line and left is the"
+},
+{
+"i": 98,
+"s": 797.6,
+"e": 799.27,
+"d": 1.67,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "ألفنس دي طولست",
+"vtt": "Okay, so here is the line and left is the"
+},
+{
+"i": 99,
+"s": 800.32,
+"e": 802.08,
+"d": 1.76,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "لدينا نخرج من هنا",
+"vtt": "tallest. We have another letter coming, that or that, like those two."
+},
+{
+"i": 100,
+"s": 802.35,
+"e": 804.08,
+"d": 1.73,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "ذال",
+"vtt": "tallest. We have another letter coming, that or that, like those two."
+},
+{
+"i": 101,
+"s": 804.55,
+"e": 805.11,
+"d": 0.56,
+"peak_dbfs": -17.6,
+"en": "",
+"ar": "لنقل سنة",
+"vtt": "tallest. We have another letter coming, that or that, like those two."
+},
+{
+"i": 102,
+"s": 805.22,
+"e": 805.64,
+"d": 0.42,
+"peak_dbfs": -16.0,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "tallest. We have another letter coming, that or that, like those two."
+},
+{
+"i": 103,
+"s": 806.69,
+"e": 808.37,
+"d": 1.68,
+"peak_dbfs": -4.8,
+"en": "",
+"ar": "سترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن ترى أن تر",
+"vtt": "tallest. We have another letter coming, that or that, like those two. | So do you see those are taller than the tooth,"
+},
+{
+"i": 104,
+"s": 808.53,
+"e": 809.87,
+"d": 1.34,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "تولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولاً أولا",
+"vtt": "So do you see those are taller than the tooth,"
+},
+{
+"i": 105,
+"s": 810.16,
+"e": 810.78,
+"d": 0.62,
+"peak_dbfs": -6.4,
+"en": "",
+"ar": "ومن ثم",
+"vtt": "So do you see those are taller than the tooth, | and then they are somewhere in between the tooth and the LF."
+},
+{
+"i": 106,
+"s": 810.91,
+"e": 813.62,
+"d": 2.71,
+"peak_dbfs": -5.0,
+"en": "",
+"ar": "إنه مكان ما بين الهدفين والأدفين.",
+"vtt": "So do you see those are taller than the tooth, | and then they are somewhere in between the tooth and the LF."
+},
+{
+"i": 107,
+"s": 814.35,
+"e": 816.35,
+"d": 2.0,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "سوف نجد ذلك سنعلم بذلك سنعلم",
+"vtt": "and then they are somewhere in between the tooth and the LF. | So we're going to learn those very soon. But make sure here the tooth is always"
+},
+{
+"i": 108,
+"s": 816.74,
+"e": 821.92,
+"d": 5.18,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "لكن يجب أن تكون هناك تصويراً من الألف. لا تصويرها",
+"vtt": "So we're going to learn those very soon. But make sure here the tooth is always | shorter than the LF. Don't make them like same height."
+},
+{
+"i": 109,
+"s": 822.57,
+"e": 823.3,
+"d": 0.73,
+"peak_dbfs": -5.8,
+"en": "",
+"ar": "لن تشاهد",
+"vtt": "shorter than the LF. Don't make them like same height."
+},
+{
+"i": 110,
+"s": 823.72,
+"e": 823.96,
+"d": 0.24,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "هاي",
+"vtt": "shorter than the LF. Don't make them like same height."
+},
+{
+"i": 111,
+"s": 839.76,
+"e": 841.64,
+"d": 1.88,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "أعطيك سأعطيك سنة",
+"vtt": "Alright, I'll give you now one form."
+},
+{
+"i": 112,
+"s": 944.62,
+"e": 944.85,
+"d": 0.23,
+"peak_dbfs": -7.1,
+"en": "",
+"ar": "نعم",
+"vtt": ""
+},
+{
+"i": 113,
+"s": 946.14,
+"e": 946.52,
+"d": 0.38,
+"peak_dbfs": -14.9,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Yes, yes. Do you prefer that we use arrow or?"
+},
+{
+"i": 114,
+"s": 946.69,
+"e": 947.0,
+"d": 0.31,
+"peak_dbfs": -17.9,
+"en": "",
+"ar": "فرم",
+"vtt": "Yes, yes. Do you prefer that we use arrow or?"
+},
+{
+"i": 115,
+"s": 947.48,
+"e": 947.95,
+"d": 0.47,
+"peak_dbfs": -18.8,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "Yes, yes. Do you prefer that we use arrow or?"
+},
+{
+"i": 116,
+"s": 948.37,
+"e": 948.86,
+"d": 0.49,
+"peak_dbfs": -23.4,
+"en": "",
+"ar": "اتره ورموه",
+"vtt": "Yes, yes. Do you prefer that we use arrow or? | It's easier. Like for me, I don't even think about the three dots"
+},
+{
+"i": 117,
+"s": 949.7,
+"e": 949.89,
+"d": 0.19,
+"peak_dbfs": -27.3,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "It's easier. Like for me, I don't even think about the three dots"
+},
+{
+"i": 118,
+"s": 950.17,
+"e": 951.13,
+"d": 0.96,
+"peak_dbfs": -8.3,
+"en": "",
+"ar": "إنه سيسير",
+"vtt": "It's easier. Like for me, I don't even think about the three dots"
+},
+{
+"i": 119,
+"s": 951.26,
+"e": 953.65,
+"d": 2.39,
+"peak_dbfs": -5.1,
+"en": "",
+"ar": "لأنني لا تفكر فيها",
+"vtt": "It's easier. Like for me, I don't even think about the three dots"
+},
+{
+"i": 120,
+"s": 953.98,
+"e": 955.33,
+"d": 1.35,
+"peak_dbfs": -7.9,
+"en": "",
+"ar": "ثلاثة و ثلاثة",
+"vtt": "It's easier. Like for me, I don't even think about the three dots | or the two dots. I always think about the dash."
+},
+{
+"i": 121,
+"s": 955.84,
+"e": 959.42,
+"d": 3.58,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "أعلم بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أتفعي بأنني أ",
+"vtt": "or the two dots. I always think about the dash. | I go there unconsciously. But if you like the dots better,"
+},
+{
+"i": 122,
+"s": 959.9,
+"e": 962.49,
+"d": 2.59,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "إذا كنت تحب الأشياء، أفضل",
+"vtt": "I go there unconsciously. But if you like the dots better, | if you think it's more pretty."
+},
+{
+"i": 123,
+"s": 962.68,
+"e": 963.32,
+"d": 0.64,
+"peak_dbfs": -12.3,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "I go there unconsciously. But if you like the dots better, | if you think it's more pretty."
+},
+{
+"i": 124,
+"s": 963.44,
+"e": 963.85,
+"d": 0.41,
+"peak_dbfs": -11.1,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "if you think it's more pretty."
+},
+{
+"i": 125,
+"s": 963.95,
+"e": 964.71,
+"d": 0.76,
+"peak_dbfs": -12.0,
+"en": "",
+"ar": "إيهون رائب",
+"vtt": "if you think it's more pretty. | Even right, it depends on the person that it's"
+},
+{
+"i": 126,
+"s": 964.84,
+"e": 966.46,
+"d": 1.62,
+"peak_dbfs": -11.1,
+"en": "",
+"ar": "لكنها تقريبا على مجردات المشروع",
+"vtt": "if you think it's more pretty. | Even right, it depends on the person that it's"
+},
+{
+"i": 127,
+"s": 967.59,
+"e": 967.77,
+"d": 0.18,
+"peak_dbfs": -23.9,
+"en": "",
+"ar": "شكرا",
+"vtt": "Even right, it depends on the person that it's"
+},
+{
+"i": 128,
+"s": 968.07,
+"e": 968.66,
+"d": 0.59,
+"peak_dbfs": -21.6,
+"en": "",
+"ar": "سنوز المتحدة",
+"vtt": "Even right, it depends on the person that it's"
+},
+{
+"i": 129,
+"s": 972.77,
+"e": 975.69,
+"d": 2.92,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "سنبدأ بمعنى ونعرف بعض الناس",
+"vtt": "All right, let's start connecting and learning some"
+},
+{
+"i": 130,
+"s": 976.29,
+"e": 980.53,
+"d": 4.24,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "هذه الغدتة أحتاج إلى المترجم لكي تضع لكي تضع لكي تضع",
+"vtt": "All right, let's start connecting and learning some | words. Now, this is a word I need you to add to your"
+},
+{
+"i": 131,
+"s": 981.1,
+"e": 981.45,
+"d": 0.35,
+"peak_dbfs": -9.5,
+"en": "",
+"ar": "أعني",
+"vtt": "words. Now, this is a word I need you to add to your | vocab. It's for the door, okay? The door in Arabic is bad, bad."
+},
+{
+"i": 132,
+"s": 981.76,
+"e": 983.27,
+"d": 1.51,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "وضع الان عرمكة",
+"vtt": "vocab. It's for the door, okay? The door in Arabic is bad, bad."
+},
+{
+"i": 133,
+"s": 983.66,
+"e": 984.09,
+"d": 0.43,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "باب",
+"vtt": "vocab. It's for the door, okay? The door in Arabic is bad, bad."
+},
+{
+"i": 134,
+"s": 984.98,
+"e": 985.45,
+"d": 0.47,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "باب",
+"vtt": "vocab. It's for the door, okay? The door in Arabic is bad, bad."
+},
+{
+"i": 135,
+"s": 986.3,
+"e": 990.2,
+"d": 3.9,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "عندما تسمع هذه الأشياء ، أحتاجك إلى أن تقوم بشكل كبير",
+"vtt": "vocab. It's for the door, okay? The door in Arabic is bad, bad. | So when you hear the word, I need you to take like kind of two steps."
+},
+{
+"i": 136,
+"s": 990.35,
+"e": 990.7,
+"d": 0.35,
+"peak_dbfs": -5.1,
+"en": "",
+"ar": "برس",
+"vtt": "So when you hear the word, I need you to take like kind of two steps."
+},
+{
+"i": 137,
+"s": 991.45,
+"e": 994.22,
+"d": 2.77,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "تريد أن تظهر للمتابع، ما المتابع؟",
+"vtt": "So when you hear the word, I need you to take like kind of two steps. | First, try to imagine the letters, what letters are."
+},
+{
+"i": 138,
+"s": 994.37,
+"e": 995.15,
+"d": 0.78,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "بلد ونجس",
+"vtt": "First, try to imagine the letters, what letters are. | involved in this pronunciation. And then how do we connect them?"
+},
+{
+"i": 139,
+"s": 995.27,
+"e": 996.3,
+"d": 1.03,
+"peak_dbfs": -10.3,
+"en": "",
+"ar": "ترنوciation",
+"vtt": "First, try to imagine the letters, what letters are. | involved in this pronunciation. And then how do we connect them?"
+},
+{
+"i": 140,
+"s": 996.87,
+"e": 997.73,
+"d": 0.86,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "ومن ثم",
+"vtt": "involved in this pronunciation. And then how do we connect them?"
+},
+{
+"i": 141,
+"s": 997.95,
+"e": 999.19,
+"d": 1.24,
+"peak_dbfs": -5.0,
+"en": "",
+"ar": "كيف نتعب؟",
+"vtt": "involved in this pronunciation. And then how do we connect them?"
+},
+{
+"i": 142,
+"s": 1000.01,
+"e": 1001.2,
+"d": 1.19,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "سلونا هنا",
+"vtt": "involved in this pronunciation. And then how do we connect them? | All right, so when I hear ba, and notice I didn't say ba, ba, like ba,"
+},
+{
+"i": 143,
+"s": 1001.55,
+"e": 1002.23,
+"d": 0.68,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "تاب",
+"vtt": "All right, so when I hear ba, and notice I didn't say ba, ba, like ba,"
+},
+{
+"i": 144,
+"s": 1003.19,
+"e": 1005.77,
+"d": 2.58,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "ونأتنا بس أنت سيبا با",
+"vtt": "All right, so when I hear ba, and notice I didn't say ba, ba, like ba,"
+},
+{
+"i": 145,
+"s": 1006.26,
+"e": 1008.54,
+"d": 2.28,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "أعطيها بأباً، أعطيها بأباً، أعطيها",
+"vtt": "All right, so when I hear ba, and notice I didn't say ba, ba, like ba, | ba, the first word I taught you, or F, ba, ba. So B, the va, has something,"
+},
+{
+"i": 146,
+"s": 1008.83,
+"e": 1009.41,
+"d": 0.58,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "أو رأى",
+"vtt": "ba, the first word I taught you, or F, ba, ba. So B, the va, has something,"
+},
+{
+"i": 147,
+"s": 1010.0,
+"e": 1010.45,
+"d": 0.45,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "با",
+"vtt": "ba, the first word I taught you, or F, ba, ba. So B, the va, has something,"
+},
+{
+"i": 148,
+"s": 1010.76,
+"e": 1011.0,
+"d": 0.24,
+"peak_dbfs": -10.8,
+"en": "",
+"ar": "أم",
+"vtt": "ba, the first word I taught you, or F, ba, ba. So B, the va, has something,"
+},
+{
+"i": 149,
+"s": 1011.13,
+"e": 1011.88,
+"d": 0.75,
+"peak_dbfs": -9.7,
+"en": "",
+"ar": "سوى ب",
+"vtt": "ba, the first word I taught you, or F, ba, ba. So B, the va, has something,"
+},
+{
+"i": 150,
+"s": 1012.17,
+"e": 1012.82,
+"d": 0.65,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "تبا",
+"vtt": "ba, the first word I taught you, or F, ba, ba. So B, the va, has something,"
+},
+{
+"i": 151,
+"s": 1012.99,
+"e": 1015.0,
+"d": 2.01,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "أعطيها لكي أعطيها",
+"vtt": "ba, the first word I taught you, or F, ba, ba. So B, the va, has something, | has a vowel after it."
+},
+{
+"i": 152,
+"s": 1015.13,
+"e": 1015.49,
+"d": 0.36,
+"peak_dbfs": -14.4,
+"en": "",
+"ar": "جلل",
+"vtt": "has a vowel after it."
+},
+{
+"i": 153,
+"s": 1015.9,
+"e": 1018.59,
+"d": 2.69,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "ثم الزوال لديه لديه لديه لديه لديه لديه لديه لديه",
+"vtt": "has a vowel after it. | And then the second ba does not have a vowel after."
+},
+{
+"i": 154,
+"s": 1018.7,
+"e": 1018.85,
+"d": 0.15,
+"peak_dbfs": -23.3,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "And then the second ba does not have a vowel after."
+},
+{
+"i": 155,
+"s": 1019.57,
+"e": 1021.36,
+"d": 1.79,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "هنا أعتقد أنه",
+"vtt": "And then the second ba does not have a vowel after."
+},
+{
+"i": 156,
+"s": 1021.53,
+"e": 1022.03,
+"d": 0.5,
+"peak_dbfs": -6.9,
+"en": "",
+"ar": "تبا",
+"vtt": "And then the second ba does not have a vowel after. | So here I'm thinking about ba, ba plus left plus and ba."
+},
+{
+"i": 157,
+"s": 1022.38,
+"e": 1023.2,
+"d": 0.82,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "بي با",
+"vtt": "So here I'm thinking about ba, ba plus left plus and ba."
+},
+{
+"i": 158,
+"s": 1023.77,
+"e": 1024.11,
+"d": 0.34,
+"peak_dbfs": -4.9,
+"en": "",
+"ar": "بص",
+"vtt": "So here I'm thinking about ba, ba plus left plus and ba."
+},
+{
+"i": 159,
+"s": 1024.44,
+"e": 1024.9,
+"d": 0.46,
+"peak_dbfs": -9.1,
+"en": "",
+"ar": "على",
+"vtt": "So here I'm thinking about ba, ba plus left plus and ba."
+},
+{
+"i": 160,
+"s": 1025.48,
+"e": 1025.84,
+"d": 0.36,
+"peak_dbfs": -8.7,
+"en": "",
+"ar": "راس",
+"vtt": "So here I'm thinking about ba, ba plus left plus and ba."
+},
+{
+"i": 161,
+"s": 1026.18,
+"e": 1026.57,
+"d": 0.39,
+"peak_dbfs": -7.3,
+"en": "",
+"ar": "تبا",
+"vtt": "So here I'm thinking about ba, ba plus left plus and ba."
+},
+{
+"i": 162,
+"s": 1028.02,
+"e": 1031.39,
+"d": 3.37,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "لقد قمت بها الآخر. لقد قمت بها.",
+"vtt": "So now, okay, I got the letters. Now I want to connect them."
+},
+{
+"i": 163,
+"s": 1031.5,
+"e": 1031.65,
+"d": 0.15,
+"peak_dbfs": -18.3,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "So now, okay, I got the letters. Now I want to connect them."
+},
+{
+"i": 164,
+"s": 1033.29,
+"e": 1034.58,
+"d": 1.29,
+"peak_dbfs": -3.6,
+"en": "",
+"ar": "والأول سنة",
+"vtt": "Well, the first bar, I'm not, I'm not committing anything before,"
+},
+{
+"i": 165,
+"s": 1034.9,
+"e": 1035.45,
+"d": 0.55,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "أنا أمنا",
+"vtt": "Well, the first bar, I'm not, I'm not committing anything before,"
+},
+{
+"i": 166,
+"s": 1035.66,
+"e": 1037.06,
+"d": 1.4,
+"peak_dbfs": -4.9,
+"en": "",
+"ar": "أنا لا تقرأ بي شيء",
+"vtt": "Well, the first bar, I'm not, I'm not committing anything before,"
+},
+{
+"i": 167,
+"s": 1037.18,
+"e": 1039.93,
+"d": 2.75,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "وليس لديه فقط أحد الأسطن",
+"vtt": "Well, the first bar, I'm not, I'm not committing anything before, | so I don't have but one option, which is the initial bar."
+},
+{
+"i": 168,
+"s": 1040.05,
+"e": 1040.51,
+"d": 0.46,
+"peak_dbfs": -11.4,
+"en": "",
+"ar": "وليس جسد",
+"vtt": "so I don't have but one option, which is the initial bar."
+},
+{
+"i": 169,
+"s": 1040.61,
+"e": 1041.72,
+"d": 1.11,
+"peak_dbfs": -8.6,
+"en": "",
+"ar": "المترجم للقناة",
+"vtt": "so I don't have but one option, which is the initial bar."
+},
+{
+"i": 170,
+"s": 1041.93,
+"e": 1042.11,
+"d": 0.18,
+"peak_dbfs": -5.1,
+"en": "",
+"ar": "شكرا",
+"vtt": "so I don't have but one option, which is the initial bar."
+},
+{
+"i": 171,
+"s": 1043.2,
+"e": 1044.84,
+"d": 1.64,
+"peak_dbfs": -5.5,
+"en": "",
+"ar": "هنا أميزي بيشة بلت",
+"vtt": "so I don't have but one option, which is the initial bar. | So, here I write in the Isabel."
+},
+{
+"i": 172,
+"s": 1045.98,
+"e": 1048.19,
+"d": 2.21,
+"peak_dbfs": -3.5,
+"en": "",
+"ar": "then I start thinking okay",
+"vtt": "So, here I write in the Isabel. | Then I start thinking, okay, LF connect only to the right,"
+},
+{
+"i": 173,
+"s": 1048.31,
+"e": 1048.72,
+"d": 0.41,
+"peak_dbfs": -5.4,
+"en": "",
+"ar": "تشتركوا في القناة",
+"vtt": "Then I start thinking, okay, LF connect only to the right,"
+},
+{
+"i": 174,
+"s": 1048.85,
+"e": 1049.62,
+"d": 0.77,
+"peak_dbfs": -5.3,
+"en": "",
+"ar": "أنه",
+"vtt": "Then I start thinking, okay, LF connect only to the right,"
+},
+{
+"i": 175,
+"s": 1049.89,
+"e": 1050.43,
+"d": 0.54,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "لن تجربة",
+"vtt": "Then I start thinking, okay, LF connect only to the right,"
+},
+{
+"i": 176,
+"s": 1051.08,
+"e": 1051.52,
+"d": 0.44,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "بار",
+"vtt": "Then I start thinking, okay, LF connect only to the right,"
+},
+{
+"i": 177,
+"s": 1051.76,
+"e": 1052.68,
+"d": 0.92,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "اشتركوا في القناة",
+"vtt": "Then I start thinking, okay, LF connect only to the right, | connect to the left. So here it's like I'm doing a connection"
+},
+{
+"i": 178,
+"s": 1052.99,
+"e": 1053.65,
+"d": 0.66,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "هنا",
+"vtt": "connect to the left. So here it's like I'm doing a connection"
+},
+{
+"i": 179,
+"s": 1054.0,
+"e": 1055.85,
+"d": 1.85,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "كما تشغيل مصرحة",
+"vtt": "connect to the left. So here it's like I'm doing a connection"
+},
+{
+"i": 180,
+"s": 1056.24,
+"e": 1056.77,
+"d": 0.53,
+"peak_dbfs": -5.3,
+"en": "",
+"ar": "أهلاً",
+"vtt": "connect to the left. So here it's like I'm doing a connection"
+},
+{
+"i": 181,
+"s": 1057.02,
+"e": 1057.83,
+"d": 0.81,
+"peak_dbfs": -8.7,
+"en": "",
+"ar": "لا أم ألا",
+"vtt": "connect to the left. So here it's like I'm doing a connection | and then LF. So both of them connect, connect to the left,"
+},
+{
+"i": 182,
+"s": 1058.39,
+"e": 1059.92,
+"d": 1.53,
+"peak_dbfs": -4.0,
+"en": "",
+"ar": "إذا كان بيشترك بيشترك",
+"vtt": "and then LF. So both of them connect, connect to the left,"
+},
+{
+"i": 183,
+"s": 1060.52,
+"e": 1061.99,
+"d": 1.47,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "وقع الى الان",
+"vtt": "and then LF. So both of them connect, connect to the left,"
+},
+{
+"i": 184,
+"s": 1062.78,
+"e": 1063.15,
+"d": 0.37,
+"peak_dbfs": -5.4,
+"en": "",
+"ar": "ألف",
+"vtt": "and then LF. So both of them connect, connect to the left, | LF connect to the right."
+},
+{
+"i": 185,
+"s": 1063.36,
+"e": 1064.45,
+"d": 1.09,
+"peak_dbfs": -5.9,
+"en": "",
+"ar": "تركيز الان",
+"vtt": "and then LF. So both of them connect, connect to the left, | LF connect to the right."
+},
+{
+"i": 186,
+"s": 1064.98,
+"e": 1067.7,
+"d": 2.72,
+"peak_dbfs": -5.0,
+"en": "",
+"ar": "هنا أضع المشكلة",
+"vtt": "LF connect to the right. | So here I can add a connection and do the dots. So it's not that long."
+},
+{
+"i": 187,
+"s": 1068.2,
+"e": 1068.89,
+"d": 0.69,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "توم بدا",
+"vtt": "So here I can add a connection and do the dots. So it's not that long."
+},
+{
+"i": 188,
+"s": 1069.75,
+"e": 1071.26,
+"d": 1.51,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "إذا لم تتعليه",
+"vtt": "So here I can add a connection and do the dots. So it's not that long."
+},
+{
+"i": 189,
+"s": 1071.56,
+"e": 1076.18,
+"d": 4.62,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "هذا هو مستحيل كما يكون هناك فقط أدخل، ونحن ندخل، ونحن ندخل،",
+"vtt": "So here I can add a connection and do the dots. So it's not that long. | That's why I'm doing like it's just a dash, not N dash, so it's not very long."
+},
+{
+"i": 190,
+"s": 1076.41,
+"e": 1077.14,
+"d": 0.73,
+"peak_dbfs": -8.3,
+"en": "",
+"ar": "وقتها لن",
+"vtt": "That's why I'm doing like it's just a dash, not N dash, so it's not very long."
+},
+{
+"i": 191,
+"s": 1077.6,
+"e": 1077.92,
+"d": 0.32,
+"peak_dbfs": -11.2,
+"en": "",
+"ar": "أصدق",
+"vtt": "That's why I'm doing like it's just a dash, not N dash, so it's not very long."
+},
+{
+"i": 192,
+"s": 1078.7,
+"e": 1080.4,
+"d": 1.7,
+"peak_dbfs": -3.1,
+"en": "",
+"ar": "حسناً، هذا هو الأولى",
+"vtt": "That's why I'm doing like it's just a dash, not N dash, so it's not very long. | It's short. All right, so that's the first part. Then the."
+},
+{
+"i": 193,
+"s": 1080.77,
+"e": 1081.34,
+"d": 0.57,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "باه",
+"vtt": "It's short. All right, so that's the first part. Then the."
+},
+{
+"i": 194,
+"s": 1081.73,
+"e": 1082.09,
+"d": 0.36,
+"peak_dbfs": -6.2,
+"en": "",
+"ar": "ته",
+"vtt": "It's short. All right, so that's the first part. Then the."
+},
+{
+"i": 195,
+"s": 1082.58,
+"e": 1082.78,
+"d": 0.2,
+"peak_dbfs": -9.7,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "It's short. All right, so that's the first part. Then the."
+},
+{
+"i": 196,
+"s": 1083.15,
+"e": 1083.97,
+"d": 0.82,
+"peak_dbfs": -7.7,
+"en": "",
+"ar": "تابعو",
+"vtt": "It's short. All right, so that's the first part. Then the."
+},
+{
+"i": 197,
+"s": 1084.56,
+"e": 1084.83,
+"d": 0.27,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "حسناً",
+"vtt": "Good. All right, the other bar, the second bar, here it's ending bar."
+},
+{
+"i": 198,
+"s": 1085.15,
+"e": 1087.21,
+"d": 2.06,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثاني الثان",
+"vtt": "Good. All right, the other bar, the second bar, here it's ending bar."
+},
+{
+"i": 199,
+"s": 1087.56,
+"e": 1088.9,
+"d": 1.34,
+"peak_dbfs": -6.0,
+"en": "",
+"ar": "هناك الأنفذة",
+"vtt": "Good. All right, the other bar, the second bar, here it's ending bar."
+},
+{
+"i": 200,
+"s": 1089.16,
+"e": 1091.67,
+"d": 2.51,
+"peak_dbfs": -3.5,
+"en": "",
+"ar": "لديك اخترارات مختلفة",
+"vtt": "Good. All right, the other bar, the second bar, here it's ending bar. | I have two options, either the connecting or the independent."
+},
+{
+"i": 201,
+"s": 1091.86,
+"e": 1092.29,
+"d": 0.43,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "أو",
+"vtt": "I have two options, either the connecting or the independent."
+},
+{
+"i": 202,
+"s": 1092.49,
+"e": 1093.24,
+"d": 0.75,
+"peak_dbfs": -7.3,
+"en": "",
+"ar": "الانتباية",
+"vtt": "I have two options, either the connecting or the independent."
+},
+{
+"i": 203,
+"s": 1094.23,
+"e": 1095.32,
+"d": 1.09,
+"peak_dbfs": -5.2,
+"en": "",
+"ar": "تكون نكتين",
+"vtt": "I have two options, either the connecting or the independent. | The connecting doesn't work because LF do not connect. I can't do like this."
+},
+{
+"i": 204,
+"s": 1095.63,
+"e": 1097.38,
+"d": 1.75,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "لا يعمل لأن ألاف",
+"vtt": "The connecting doesn't work because LF do not connect. I can't do like this."
+},
+{
+"i": 205,
+"s": 1097.7,
+"e": 1099.76,
+"d": 2.06,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "تنبغي كن تنبغي كن",
+"vtt": "The connecting doesn't work because LF do not connect. I can't do like this."
+},
+{
+"i": 206,
+"s": 1100.27,
+"e": 1102.65,
+"d": 2.38,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "هناك ممتازة هنا",
+"vtt": "The connecting doesn't work because LF do not connect. I can't do like this. | There is an empty connection in here."
+},
+{
+"i": 207,
+"s": 1103.68,
+"e": 1105.44,
+"d": 1.76,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "لا يمكنني تقنقى ألف إلى الألوان",
+"vtt": "There is an empty connection in here. | I cannot connect a left to the left."
+},
+{
+"i": 208,
+"s": 1106.54,
+"e": 1107.72,
+"d": 1.18,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "سألت",
+"vtt": "I cannot connect a left to the left. | So I have the independent option and the word will be written this way."
+},
+{
+"i": 209,
+"s": 1108.1,
+"e": 1109.03,
+"d": 0.93,
+"peak_dbfs": -12.0,
+"en": "",
+"ar": "ويأتبا",
+"vtt": "So I have the independent option and the word will be written this way."
+},
+{
+"i": 210,
+"s": 1109.13,
+"e": 1109.8,
+"d": 0.67,
+"peak_dbfs": -13.5,
+"en": "",
+"ar": "ويبدأ بشكل جيد",
+"vtt": "So I have the independent option and the word will be written this way."
+},
+{
+"i": 211,
+"s": 1110.18,
+"e": 1111.55,
+"d": 1.37,
+"peak_dbfs": -5.6,
+"en": "",
+"ar": "والآن سيكون",
+"vtt": "So I have the independent option and the word will be written this way."
+},
+{
+"i": 212,
+"s": 1112.08,
+"e": 1113.13,
+"d": 1.05,
+"peak_dbfs": -5.1,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "So I have the independent option and the word will be written this way."
+},
+{
+"i": 213,
+"s": 1113.48,
+"e": 1114.26,
+"d": 0.78,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "بب",
+"vtt": "So I have the independent option and the word will be written this way."
+},
+{
+"i": 214,
+"s": 1115.25,
+"e": 1115.58,
+"d": 0.33,
+"peak_dbfs": -10.0,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": ""
+},
+{
+"i": 215,
+"s": 1119.22,
+"e": 1120.27,
+"d": 1.05,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "تفضل هذا مكسس؟",
+"vtt": "Does that make sense? Yeah."
+},
+{
+"i": 216,
+"s": 1120.88,
+"e": 1121.17,
+"d": 0.29,
+"peak_dbfs": -9.0,
+"en": "",
+"ar": "يا",
+"vtt": "Does that make sense? Yeah."
+},
+{
+"i": 217,
+"s": 1128.33,
+"e": 1129.54,
+"d": 1.21,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "أنا أجل أجل أجل",
+"vtt": "Now, I'm going to do random, it's not a word,"
+},
+{
+"i": 218,
+"s": 1129.68,
+"e": 1131.19,
+"d": 1.51,
+"peak_dbfs": -9.0,
+"en": "",
+"ar": "إنه ليس كذلك",
+"vtt": "Now, I'm going to do random, it's not a word,"
+},
+{
+"i": 219,
+"s": 1131.33,
+"e": 1135.58,
+"d": 4.25,
+"peak_dbfs": -7.2,
+"en": "",
+"ar": "سألت بردام أجل من الأجل لتساعدة",
+"vtt": "Now, I'm going to do random, it's not a word, | I'm going to just do random selection of the letters just to help us."
+},
+{
+"i": 220,
+"s": 1136.38,
+"e": 1136.93,
+"d": 0.55,
+"peak_dbfs": -6.1,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "I'm going to just do random selection of the letters just to help us."
+},
+{
+"i": 221,
+"s": 1138.39,
+"e": 1138.73,
+"d": 0.34,
+"peak_dbfs": -3.6,
+"en": "",
+"ar": "لارد",
+"vtt": ""
+},
+{
+"i": 222,
+"s": 1139.16,
+"e": 1141.45,
+"d": 2.29,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "سوف نتعطي الى الباب",
+"vtt": "No, so we're try to connect the."
+},
+{
+"i": 223,
+"s": 1142.84,
+"e": 1143.44,
+"d": 0.6,
+"peak_dbfs": -7.4,
+"en": "",
+"ar": "لصد",
+"vtt": ""
+},
+{
+"i": 224,
+"s": 1143.56,
+"e": 1143.97,
+"d": 0.41,
+"peak_dbfs": -7.6,
+"en": "",
+"ar": "إذاً",
+"vtt": "Plus, it's a."
+},
+{
+"i": 225,
+"s": 1145.4,
+"e": 1145.82,
+"d": 0.42,
+"peak_dbfs": -8.5,
+"en": "",
+"ar": "لاز",
+"vtt": ""
+},
+{
+"i": 226,
+"s": 1145.92,
+"e": 1146.91,
+"d": 0.99,
+"peak_dbfs": -6.7,
+"en": "",
+"ar": "أفا",
+"vtt": "Last, uh, Elsa."
+},
+{
+"i": 227,
+"s": 1150.2,
+"e": 1150.97,
+"d": 0.77,
+"peak_dbfs": -3.5,
+"en": "",
+"ar": "الآن",
+"vtt": "Now, the same logic applies on every letter."
+},
+{
+"i": 228,
+"s": 1151.07,
+"e": 1152.21,
+"d": 1.14,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "هذا المجلسي يجب أن تكون مجلسي",
+"vtt": "Now, the same logic applies on every letter."
+},
+{
+"i": 229,
+"s": 1152.31,
+"e": 1154.65,
+"d": 2.34,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "كل لتركوا في القناة",
+"vtt": "Now, the same logic applies on every letter. | Just keep in mind those the group of letters that connect only to the right,"
+},
+{
+"i": 230,
+"s": 1154.94,
+"e": 1155.6,
+"d": 0.66,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "المترجم للقناة",
+"vtt": "Just keep in mind those the group of letters that connect only to the right,"
+},
+{
+"i": 231,
+"s": 1155.78,
+"e": 1157.1,
+"d": 1.32,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "لتشاركة تشاركة",
+"vtt": "Just keep in mind those the group of letters that connect only to the right,"
+},
+{
+"i": 232,
+"s": 1157.39,
+"e": 1158.37,
+"d": 0.98,
+"peak_dbfs": -5.2,
+"en": "",
+"ar": "درائدو س",
+"vtt": "Just keep in mind those the group of letters that connect only to the right,"
+},
+{
+"i": 233,
+"s": 1158.84,
+"e": 1159.64,
+"d": 0.8,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "الارتسة بيتفرن",
+"vtt": "Just keep in mind those the group of letters that connect only to the right, | those are just a bit different."
+},
+{
+"i": 234,
+"s": 1188.49,
+"e": 1188.77,
+"d": 0.28,
+"peak_dbfs": -4.3,
+"en": "",
+"ar": "أردت",
+"vtt": ""
+},
+{
+"i": 235,
+"s": 1190.19,
+"e": 1190.82,
+"d": 0.63,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "برسطة",
+"vtt": "First up, again, I'm just starting, so I'm gonna use a mission."
+},
+{
+"i": 236,
+"s": 1191.04,
+"e": 1194.19,
+"d": 3.15,
+"peak_dbfs": -5.6,
+"en": "",
+"ar": "أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم فقط أم ف",
+"vtt": "First up, again, I'm just starting, so I'm gonna use a mission."
+},
+{
+"i": 237,
+"s": 1196.68,
+"e": 1197.62,
+"d": 0.94,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "سهل",
+"vtt": "Town here, it's a middle town."
+},
+{
+"i": 238,
+"s": 1197.74,
+"e": 1198.83,
+"d": 1.09,
+"peak_dbfs": -5.0,
+"en": "",
+"ar": "إنه مدلتاة",
+"vtt": "Town here, it's a middle town."
+},
+{
+"i": 239,
+"s": 1199.16,
+"e": 1199.4,
+"d": 0.24,
+"peak_dbfs": -28.7,
+"en": "",
+"ar": "شكرا",
+"vtt": "Town here, it's a middle town."
+},
+{
+"i": 240,
+"s": 1200.42,
+"e": 1201.92,
+"d": 1.5,
+"peak_dbfs": -3.6,
+"en": "",
+"ar": "وضع الانتباه على الانتباه",
+"vtt": "And I connect to the left, I connect to the right,"
+},
+{
+"i": 241,
+"s": 1202.02,
+"e": 1204.51,
+"d": 2.49,
+"peak_dbfs": -5.3,
+"en": "",
+"ar": "تقنقل على الراعيه ويقوم بعمل",
+"vtt": "And I connect to the left, I connect to the right,"
+},
+{
+"i": 242,
+"s": 1204.8,
+"e": 1205.5,
+"d": 0.7,
+"peak_dbfs": -5.9,
+"en": "",
+"ar": "المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى المترجم الى الم",
+"vtt": "And I connect to the left, I connect to the right, | so I can do a middle stuff."
+},
+{
+"i": 243,
+"s": 1205.88,
+"e": 1206.07,
+"d": 0.19,
+"peak_dbfs": -7.2,
+"en": "",
+"ar": "جاو",
+"vtt": "so I can do a middle stuff."
+},
+{
+"i": 244,
+"s": 1209.63,
+"e": 1211.54,
+"d": 1.91,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "ثم أتبع أن أتبع أن أتبع",
+"vtt": "And then I have ending tab. I have two options,"
+},
+{
+"i": 245,
+"s": 1211.68,
+"e": 1212.24,
+"d": 0.56,
+"peak_dbfs": -4.6,
+"en": "",
+"ar": "أحب",
+"vtt": "And then I have ending tab. I have two options,"
+},
+{
+"i": 246,
+"s": 1212.56,
+"e": 1215.78,
+"d": 3.22,
+"peak_dbfs": -4.8,
+"en": "",
+"ar": "وضع ايضاً ايضاً ايضاً ايضاً ايضاً ايضاً",
+"vtt": "And then I have ending tab. I have two options, | either the dependent or the connecting. But since tab connect to the left,"
+},
+{
+"i": 247,
+"s": 1216.33,
+"e": 1218.43,
+"d": 2.1,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "ولكن سنسل قد نقل على نكتب على نكتب",
+"vtt": "either the dependent or the connecting. But since tab connect to the left,"
+},
+{
+"i": 248,
+"s": 1218.83,
+"e": 1220.87,
+"d": 2.04,
+"peak_dbfs": -5.9,
+"en": "",
+"ar": "ثم اتجازت تلك المشكلة",
+"vtt": "either the dependent or the connecting. But since tab connect to the left, | then I could use the connecting one. So I'll use."
+},
+{
+"i": 249,
+"s": 1221.74,
+"e": 1222.15,
+"d": 0.41,
+"peak_dbfs": -7.4,
+"en": "",
+"ar": "شو",
+"vtt": "then I could use the connecting one. So I'll use."
+},
+{
+"i": 250,
+"s": 1222.49,
+"e": 1223.36,
+"d": 0.87,
+"peak_dbfs": -7.2,
+"en": "",
+"ar": "على جهدوات",
+"vtt": "then I could use the connecting one. So I'll use."
+},
+{
+"i": 251,
+"s": 1224.6,
+"e": 1224.97,
+"d": 0.37,
+"peak_dbfs": -12.2,
+"en": "",
+"ar": "شكرا",
+"vtt": "then I could use the connecting one. So I'll use."
+},
+{
+"i": 252,
+"s": 1228.32,
+"e": 1228.58,
+"d": 0.26,
+"peak_dbfs": -7.0,
+"en": "",
+"ar": "شكرا",
+"vtt": ""
+},
+{
+"i": 253,
+"s": 1229.11,
+"e": 1232.24,
+"d": 3.13,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "هذا هو المسؤول عن كيف تتحقق المعرفة",
+"vtt": "So that's the logic behind how do we connect those letters."
+},
+{
+"i": 254,
+"s": 1232.57,
+"e": 1235.9,
+"d": 3.33,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجربة تجرب",
+"vtt": "So that's the logic behind how do we connect those letters. | Always you have to think, is the previous letter connect to the"
+},
+{
+"i": 255,
+"s": 1236.62,
+"e": 1238.85,
+"d": 2.23,
+"peak_dbfs": -4.7,
+"en": "",
+"ar": "إذا فعلت فإن أجل تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع تستطيع",
+"vtt": "Always you have to think, is the previous letter connect to the | left? If it does, then I have to use the middle form of the"
+},
+{
+"i": 256,
+"s": 1239.13,
+"e": 1240.01,
+"d": 0.88,
+"peak_dbfs": -8.3,
+"en": "",
+"ar": "فوربات التر",
+"vtt": "left? If it does, then I have to use the middle form of the"
+},
+{
+"i": 257,
+"s": 1240.55,
+"e": 1243.62,
+"d": 3.07,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "إذا لم تتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتت",
+"vtt": "left? If it does, then I have to use the middle form of the | letter. If it doesn't connect, then I have to use initial form of the"
+},
+{
+"i": 258,
+"s": 1243.87,
+"e": 1245.03,
+"d": 1.16,
+"peak_dbfs": -6.7,
+"en": "",
+"ar": "المصدرات المصدرية",
+"vtt": "letter. If it doesn't connect, then I have to use initial form of the"
+},
+{
+"i": 259,
+"s": 1245.7,
+"e": 1250.29,
+"d": 4.59,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "ويجب أن تتعرف أين هي المكان؟ هل هي المكان؟",
+"vtt": "letter. If it doesn't connect, then I have to use initial form of the | letter. And also always think, okay, where is the position? | Is it at the initial?"
+},
+{
+"i": 260,
+"s": 1250.55,
+"e": 1252.31,
+"d": 1.76,
+"peak_dbfs": -6.9,
+"en": "",
+"ar": "أمام الأن",
+"vtt": "Is it at the initial? | beginning or is it at the end? And they have all those two options,"
+},
+{
+"i": 261,
+"s": 1252.67,
+"e": 1255.94,
+"d": 3.27,
+"peak_dbfs": -3.8,
+"en": "",
+"ar": "ويوجد هذه الأسفلات الأسفلية إلا تحديث وإلا تحديث",
+"vtt": "beginning or is it at the end? And they have all those two options, | independent and connecting. Beginning, I have one option."
+},
+{
+"i": 262,
+"s": 1256.07,
+"e": 1256.78,
+"d": 0.71,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "beginning or is it at the end? And they have all those two options, | independent and connecting. Beginning, I have one option."
+},
+{
+"i": 263,
+"s": 1257.15,
+"e": 1257.89,
+"d": 0.74,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "بغيني",
+"vtt": "independent and connecting. Beginning, I have one option."
+},
+{
+"i": 264,
+"s": 1258.01,
+"e": 1258.91,
+"d": 0.9,
+"peak_dbfs": -5.9,
+"en": "",
+"ar": "لديه أحد أخرى",
+"vtt": "independent and connecting. Beginning, I have one option."
+},
+{
+"i": 265,
+"s": 1261.12,
+"e": 1261.62,
+"d": 0.5,
+"peak_dbfs": -5.0,
+"en": "",
+"ar": "حسناً",
+"vtt": ""
+},
+{
+"i": 266,
+"s": 1261.84,
+"e": 1262.48,
+"d": 0.64,
+"peak_dbfs": -4.8,
+"en": "",
+"ar": "أم",
+"vtt": "Okay, there is a drill 2 on your, it is on your book,"
+},
+{
+"i": 267,
+"s": 1263.5,
+"e": 1265.4,
+"d": 1.9,
+"peak_dbfs": -3.7,
+"en": "",
+"ar": "هناك درول 2",
+"vtt": "Okay, there is a drill 2 on your, it is on your book,"
+},
+{
+"i": 268,
+"s": 1265.95,
+"e": 1267.32,
+"d": 1.37,
+"peak_dbfs": -9.1,
+"en": "",
+"ar": "على اشتركوا في القناة",
+"vtt": "Okay, there is a drill 2 on your, it is on your book, | it is part of your homework one. I'm going to do it with you and we'll see"
+},
+{
+"i": 269,
+"s": 1267.5,
+"e": 1268.02,
+"d": 0.52,
+"peak_dbfs": -8.0,
+"en": "",
+"ar": "أحبت",
+"vtt": "it is part of your homework one. I'm going to do it with you and we'll see"
+},
+{
+"i": 270,
+"s": 1268.19,
+"e": 1271.7,
+"d": 3.51,
+"peak_dbfs": -3.9,
+"en": "",
+"ar": "إنه في مقابلاتك في مقابلاتك في مقابلاتك",
+"vtt": "it is part of your homework one. I'm going to do it with you and we'll see"
+},
+{
+"i": 271,
+"s": 1272.44,
+"e": 1275.42,
+"d": 2.98,
+"peak_dbfs": -3.6,
+"en": "",
+"ar": "سوف نفعلها معكم",
+"vtt": "it is part of your homework one. I'm going to do it with you and we'll see | how many drills we can do today since this is a longer class."
+},
+{
+"i": 272,
+"s": 1275.52,
+"e": 1276.9,
+"d": 1.38,
+"peak_dbfs": -8.6,
+"en": "",
+"ar": "نعم",
+"vtt": "how many drills we can do today since this is a longer class."
+},
+{
+"i": 273,
+"s": 1277.22,
+"e": 1278.91,
+"d": 1.69,
+"peak_dbfs": -8.5,
+"en": "",
+"ar": "سنسلسل للمقارنة",
+"vtt": "how many drills we can do today since this is a longer class."
+},
+{
+"i": 274,
+"s": 1279.45,
+"e": 1280.02,
+"d": 0.57,
+"peak_dbfs": -4.2,
+"en": "",
+"ar": "أهلاً",
+"vtt": "how many drills we can do today since this is a longer class."
+},
+{
+"i": 275,
+"s": 1280.31,
+"e": 1285.95,
+"d": 5.64,
+"peak_dbfs": -3.0,
+"en": "",
+"ar": "ولكن لذلك تقديم تقديم تقديم تقديم تقديم تقديم تقديم",
+"vtt": "But for those dictation drills, again, I'm repeating, you have to listen, | you will listen to lingo, and then you have to write the word on"
+},
+{
+"i": 276,
+"s": 1286.43,
+"e": 1288.74,
+"d": 2.31,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "ثم يجب أن تقرأ بكتابة على المقر",
+"vtt": "you will listen to lingo, and then you have to write the word on"
+},
+{
+"i": 277,
+"s": 1289.3,
+"e": 1289.8,
+"d": 0.5,
+"peak_dbfs": -4.5,
+"en": "",
+"ar": "دمت",
+"vtt": "you will listen to lingo, and then you have to write the word on | your paper. Don't forget, you have to label your homework,"
+},
+{
+"i": 278,
+"s": 1289.93,
+"e": 1292.07,
+"d": 2.14,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "لن تتوقف أن تتوقف عن تحديد من المشاركة",
+"vtt": "you will listen to lingo, and then you have to write the word on | your paper. Don't forget, you have to label your homework,"
+},
+{
+"i": 279,
+"s": 1292.27,
+"e": 1292.93,
+"d": 0.66,
+"peak_dbfs": -7.3,
+"en": "",
+"ar": "ترجمة نانسي قنقر",
+"vtt": "your paper. Don't forget, you have to label your homework,"
+},
+{
+"i": 280,
+"s": 1293.42,
+"e": 1295.06,
+"d": 1.64,
+"peak_dbfs": -4.4,
+"en": "",
+"ar": "المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنز",
+"vtt": "your paper. Don't forget, you have to label your homework, | your name, the homework number, the drill number, the lesson number."
+},
+{
+"i": 281,
+"s": 1295.21,
+"e": 1299.18,
+"d": 3.97,
+"peak_dbfs": -4.1,
+"en": "",
+"ar": "المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنزل المنز",
+"vtt": "your name, the homework number, the drill number, the lesson number. | I need to see those four things."
+},
+{
+"i": 282,
+"s": 1299.53,
+"e": 1300.01,
+"d": 0.48,
+"peak_dbfs": -6.5,
+"en": "",
+"ar": "أيضا",
+"vtt": "I need to see those four things."
+}
+]
+}

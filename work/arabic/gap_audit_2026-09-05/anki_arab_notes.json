@@ -1,0 +1,1654 @@
+[
+ {
+  "nid": 1786229797974,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ج}}<br><br>Name: {{c2::jiim}}<br><br>Transliteration: {{c2::j}}<br><br>Sound: {{c2::<i>j</i> or <i>g</i>, varies according to region}}",
+   "Back Extra": "Distinguish: one skeleton — jiim dot below, Haa no dot, khaa dot above.<br><br>Shape: a curl with a deep belly, one dot tucked inside the belly.<br><br>Hook: the name jiim opens with its own sound, j.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_05_jiim.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229798060,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ح}}<br><br>Name: {{c2::Haa}}<br><br>Transliteration: {{c2::H}}<br><br>Sound: {{c2::a raspy, breathy <i>h</i>}}",
+   "Back Extra": "Distinguish: one skeleton — jiim dot below, Haa no dot, khaa dot above.<br><br>Shape: the same curl and belly, swept clean — no dot anywhere.<br><br>Hook: the name Haa opens with its own sound, H.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_06_haa.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229798125,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::خ}}<br><br>Name: {{c2::khaa}}<br><br>Transliteration: {{c2::kh}}<br><br>Sound: {{c2::like a German or Hebrew <i>ch</i>}}",
+   "Back Extra": "Distinguish: one skeleton — jiim dot below, Haa no dot, khaa dot above.<br><br>like clearing your pharanix<br><br>Shape: the same curl and belly, one dot sitting above it.<br><br>Hook: the name khaa opens with its own sound, kh.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_07_khaa.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229798201,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::د}}<br><br>Name: {{c2::daal}}<br><br>Transliteration: {{c2::d}}<br><br>Sound: {{c2::<i>d</i> as in <i>dip</i>}}",
+   "Back Extra": "Distinguish: same shape — daal plain, dhaal dot above.<br><br>Shape: a short bent elbow that opens to the left and rests on the line.<br><br>Hook: the name daal opens with its own sound, d.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_08_daal.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229798285,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ذ}}<br><br>Name: {{c2::dhaal}}<br><br>Transliteration: {{c2::dh}}<br><br>Sound: {{c2::<i>th</i> in <i>the</i> and <i>other</i>}}",
+   "Back Extra": "Distinguish: same shape — daal plain, dhaal dot above.<br><br>Shape: the same bent elbow, one dot above.<br><br>Hook: the name dhaal opens with its own sound, dh.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_09_dhaal.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229798374,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ر}}<br><br>Name: {{c2::raa}}<br><br>Transliteration: {{c2::r}}<br><br>Sound: {{c2::like Spanish or Italian <i>r</i>}}",
+   "Back Extra": "Distinguish: same shape — raa plain, zaay dot above.<br><br>Shape: a bare curved stroke that dives below the line, like a comma's tail.<br><br>Hook: the name raa opens with its own sound, r.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_10_raa.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229798450,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ز}}<br><br>Name: {{c2::zaay}}<br><br>Transliteration: {{c2::z}}<br><br>Sound: {{c2::<i>z</i> as in <i>zip</i>}}",
+   "Back Extra": "Distinguish: same shape — raa plain, zaay dot above.<br><br>Shape: the same diving tail, one dot above.<br><br>Hook: the name zaay opens with its own sound, z.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_11_zaay.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229798526,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::س}}<br><br>Name: {{c2::siin}}<br><br>Transliteration: {{c2::s}}<br><br>Sound: {{c2::<i>s</i> as in <i>sip</i>}}",
+   "Back Extra": "Distinguish: same shape — siin plain, shiin 3 dots above.<br><br>Shape: three little teeth in a row, then a dish that scoops below the line.<br><br>Hook: the name siin opens with its own sound, s.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_12_seen.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229798675,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ص}}<br><br>Name: {{c2::Saad}}<br><br>Transliteration: {{c2::S}}<br><br>Sound: {{c2::emphatic S — similar to <i>s</i> in <i>subtle</i>}}",
+   "Back Extra": "Distinguish: same shape — Saad plain, Daad dot above.<br><br>Shape: a closed loop with a long flat tail — a suitcase with its handle.<br><br>Hook: the name Saad opens with its own sound, S.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_14_saad.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229799052,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::غ}}<br><br>Name: {{c2::ghayn}}<br><br>Transliteration: {{c2::gh}}<br><br>Sound: {{c2::like French or Hebrew <i>r</i>}}",
+   "Back Extra": "Distinguish: same shape — cayn plain, ghayn dot above.<br><br>Shape: the same open hook, one dot above.<br><br>Hook: the name ghayn opens with its own sound, gh.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_19_ghayn.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229798600,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ش}}<br><br>Name: {{c2::shiin}}<br><br>Transliteration: {{c2::sh}}<br><br>Sound: {{c2::<i>sh</i> as in <i>she</i>}}",
+   "Back Extra": "Distinguish: same shape — siin plain, shiin 3 dots above.<br><br>Shape: the same three teeth and dish, with three dots above them.<br><br>Hook: the name shiin opens with its own sound, sh.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_13_sheen.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229798749,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ض}}<br><br>Name: {{c2::Daad}}<br><br>Transliteration: {{c2::D}}<br><br>Sound: {{c2::emphatic D — close to the <i>d</i> in <i>duh!</i>}}",
+   "Back Extra": "Distinguish: same shape — Saad plain, Daad dot above.<br><br>Shape: the same loop and flat tail, one dot above.<br><br>Hook: the name Daad opens with its own sound, D.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_15_daad.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229798825,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ط}}<br><br>Name: {{c2::Taa}}<br><br>Transliteration: {{c2::T}}<br><br>Sound: {{c2::emphatic T — similar to <i>t</i> in <i>bottle</i>}}",
+   "Back Extra": "Distinguish: same shape — Taa plain, DHaa dot above.<br><br>Shape: a loop lying on the line with a mast standing straight up out of it.<br><br>Hook: the name Taa opens with its own sound, T.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_16_taaa.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229798900,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ظ}}<br><br>Name: {{c2::DHaa}}<br><br>Transliteration: {{c2::DH}}<br><br>Sound: {{c2::emphatic DH — close to <i>th</i> in <i>thy</i>}}",
+   "Back Extra": "Distinguish: same shape — Taa plain, DHaa dot above.<br><br>Shape: the same loop and mast, one dot above.<br><br>Hook: the name DHaa opens with its own sound, DH.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_17_dhaa.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229798976,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ع}}<br><br>Name: {{c2::cayn}}<br><br>Transliteration: {{c2::c}}<br><br>Sound: {{c2::a sound produced deep in the throat}}",
+   "Back Extra": "Distinguish: same shape — cayn plain, ghayn dot above.<br><br>Shape: an open hook with its mouth up, like a numeral 3 turned to face the other way.<br><br>Hook: the name cayn opens with its own sound, c.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_18_ayn.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229799132,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ف}}<br><br>Name: {{c2::faa}}<br><br>Transliteration: {{c2::f}}<br><br>Sound: {{c2::<i>f</i> as in <i>fun</i>}}",
+   "Back Extra": "Distinguish: one dot above vs two dots above (qaaf also sits deeper in the throat).<br><br>Shape: a small closed head resting on the line with a short tail, one dot above.<br><br>Hook: the name faa opens with its own sound, f.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_20_faa.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229799200,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ق}}<br><br>Name: {{c2::qaaf}}<br><br>Transliteration: {{c2::q}}<br><br>Sound: {{c2::like <i>k</i> but deeper in the throat}}",
+   "Back Extra": "Distinguish: one dot above vs two dots above (qaaf also sits deeper in the throat).<br><br>Shape: a closed head with a deep bowl scooping below the line, two dots above.<br><br>Hook: the name qaaf opens with its own sound, q.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_21_qaaf.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229799275,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ك}}<br><br>Name: {{c2::kaaf}}<br><br>Transliteration: {{c2::k}}<br><br>Sound: {{c2::<i>k</i> as in <i>keep</i>}}",
+   "Back Extra": "Distinguish: kaaf carries a little mark inside its angle; laam is a clean stroke with nothing inside.<br><br>Shape: an angular bend with a small stroke tucked inside it, like a folded chair.<br><br>Hook: the name kaaf opens with its own sound, k.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_22_kaaf.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229799356,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ل}}<br><br>Name: {{c2::laam}}<br><br>Transliteration: {{c2::l}}<br><br>Sound: {{c2::like Spanish or Italian <i>l</i>}}",
+   "Back Extra": "Distinguish: laam curves into a bowl at its base; alif is the same height but stops straight.<br><br>Shape: a tall stroke that sweeps into a wide bowl at the bottom — an elongated L, and the letter IS l.<br><br>Hook: the name laam opens with its own sound, l.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_23_laam.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229799425,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::م}}<br><br>Name: {{c2::miim}}<br><br>Transliteration: {{c2::m}}<br><br>Sound: {{c2::<i>m</i> as in <i>mat</i>}}",
+   "Back Extra": "Distinguish: miim, waaw and faa all have round heads — miim's tail drops straight down, waaw's sweeps down and left, faa's stays on the line under one dot.<br><br>Shape: a small round head with a tail dropping straight down below the line.<br><br>Hook: the name miim opens with its own sound, m.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_24_miim.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229799500,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ن}}<br><br>Name: {{c2::nuun}}<br><br>Transliteration: {{c2::n}}<br><br>Sound: {{c2::<i>n</i> as in <i>neat</i>}}",
+   "Back Extra": "Distinguish: nuun is a deep bowl with its dot ABOVE; baa is a shallow boat with its dot BELOW.<br><br>Shape: a deep round bowl dipping below the line, one dot above.<br><br>Hook: the name nuun opens with its own sound, n.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_25_nuun.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229799575,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ه}}<br><br>Name: {{c2::haa}}<br><br>Transliteration: {{c2::h}}<br><br>Sound: {{c2::<i>h</i> as in <i>aha!</i>}}",
+   "Back Extra": "Distinguish: haa is the bare knot; taa marbuuTa is that same knot wearing two dots above.<br><br>Shape: a small closed knot or loop, no dots.<br><br>Hook: the name haa opens with its own sound, h.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_26_ha.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229799726,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ي}}<br><br>Name: {{c2::yaa}}<br><br>Transliteration: {{c2::y — as a long vowel, ii}}<br><br>Sound: {{c2::<i>y</i> as in <i>yes</i> — also long vowel <i>ii</i> (<i>ie</i> in <i>piece</i>)}}",
+   "Back Extra": "Distinguish: yaa has TWO dots below and swings deep; baa has ONE dot below and stays shallow.<br><br>Shape: a wide bowl swinging below the line with two dots underneath.<br><br>Hook: the name yaa opens with its own sound, y.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_28_yaa.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229799800,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::بَ}}<br><br>Name: {{c2::fatHa}}<br><br>Transliteration: {{c2::a}}<br><br>Sound: {{c2::short <i>a</i> (vowel chart: <i>e</i> in <i>bet</i> to <i>a</i> in <i>father</i>)}}",
+   "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.<br><br><img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229799874,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::بُ}}<br><br>Name: {{c2::Damma}}<br><br>Transliteration: {{c2::u}}<br><br>Sound: {{c2::short <i>u</i> (<i>oo</i> in <i>poodle</i>, short)}}",
+   "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.<br><br><img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229799949,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::بِ}}<br><br>Name: {{c2::kasra}}<br><br>Transliteration: {{c2::i}}<br><br>Sound: {{c2::short <i>i</i> (<i>i</i> as in <i>bit</i>)}}",
+   "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.<br><br><img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229800027,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::بً}}<br><br>Name: {{c2::tanwiin al-fatH}}",
+   "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.<br><br><img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229800100,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::بٌ}}<br><br>Name: {{c2::tanwiin aD-Damm}}",
+   "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.<br><br><img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229800174,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::بٍ}}<br><br>Name: {{c2::tanwiin al-kasr}}",
+   "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.<br><br><img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229800250,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::بْ}}<br><br>Name: {{c2::sukuun}}",
+   "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.<br><br><img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229800327,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::بّ}}<br><br>Name: {{c2::shadda}}",
+   "Back Extra": "Cue: shown on a carrier <i>baa</i> — the symbol is just the mark.<br><br><img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229800400,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ٱ}}<br><br>Name: {{c2::waSla}}",
+   "Back Extra": "<img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229800473,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::هٰ}}<br><br>Name: {{c2::dagger alif}}",
+   "Back Extra": "<img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229800551,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::آ}}<br><br>Name: {{c2::alif madda}}",
+   "Back Extra": "<img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229800625,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ى}}<br><br>Name: {{c2::alif maqSuura}}",
+   "Back Extra": "<img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229800702,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ء}}<br><br>Name: {{c2::hamza}}<br><br>Transliteration: {{c2::'}}<br><br>Sound: {{c2::the sound you hear between vowels in <i>uh-oh!</i> (glottal stop)}}",
+   "Back Extra": "<img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229800776,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ة}}<br><br>Name: {{c2::taa marbuuTa}}",
+   "Back Extra": "<img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1,
+   -1
+  ]
+ },
+ {
+  "nid": 1786229800855,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "The fourteen extra-alphabetical symbols fall into these kinds: {{c1::short vowels}}, {{c1::pronunciation symbols}}, {{c1::grammatical endings}}, {{c1::spelling variants}}, and {{c1::one consonant that is not in the alphabet chart}}.",
+   "Back Extra": "Cue: five kinds — the last one is hamza.<br><br>Roster: <b>short vowels</b> fatHa · Damma · kasra — <b>grammatical endings</b> tanwiin al-fatH · tanwiin aD-Damm · tanwiin al-kasr — <b>pronunciation</b> sukuun · shadda · waSla — <b>spelling variants</b> alif madda · dagger alif · alif maqSuura · taa marbuuTa — <b>consonant</b> hamza<br><br><img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1
+  ]
+ },
+ {
+  "nid": 1786229800927,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "One consonant is, for historical reasons, NOT in the 28-letter alphabet chart: {{c1::hamza}} — it appears in the extra-symbols chart instead.",
+   "Back Extra": "Pitfall: easy exam trap — the chart has 28 letters, but Arabic has this 29th consonant living among the symbols.<br><br>Cue: its sound is the glottal stop in <i>uh-oh!</i><br><br><img src=\"arabic_src_symbols_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   -1
+  ]
+ },
+ {
+  "nid": 1786229797827,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ت}}<br><br>Name: {{c2::taa}}<br><br>Transliteration: {{c2::t}}<br><br>Sound: {{c2::<i>t</i> as in <i>tip</i>}}",
+   "Back Extra": "Distinguish: one skeleton, dots decide — baa 1 below, taa 2 above, thaa 3 above.<br><br>Shape: the same shallow boat, two dots riding on top.<br><br>Hook: the name taa opens with its own sound, t.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_03_taa.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2,
+   0
+  ]
+ },
+ {
+  "nid": 1786229797901,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ث}}<br><br>Name: {{c2::thaa}}<br><br>Transliteration: {{c2::th}}<br><br>Sound: {{c2::<i>th</i> as in <i>three</i>}}",
+   "Back Extra": "Distinguish: one skeleton, dots decide — baa 1 below, taa 2 above, thaa 3 above.<br><br>Shape: the same shallow boat, three dots stacked on top.<br><br>Hook: the name thaa opens with its own sound, th.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_04_thaa.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2,
+   0
+  ]
+ },
+ {
+  "nid": 1786229799652,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::و}}<br><br>Name: {{c2::waaw}}<br><br>Transliteration: {{c2::w — as a long vowel, uu}}<br><br>Sound: {{c2::<i>w</i> as in <i>wow!</i> — also long vowel <i>uu</i> (<i>oo</i> in <i>poodle</i>)}}",
+   "Back Extra": "Distinguish: waaw dips below the line with a round head; raa dips below with no head at all.<br><br>Shape: a round head with a tail sweeping down and to the left, below the line.<br><br>Hook: the name waaw opens with its own sound, w.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_27_waaw.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2,
+   0
+  ]
+ },
+ {
+  "nid": 1786229801650,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "The Arabic alphabet contains {{c1::twenty-eight}} letters — consonants and long vowels — plus {{c2::fourteen}} symbols that act as short vowels, pronunciation markers, or grammatical markers.",
+   "Back Extra": "Cue: letters carry the skeleton; the symbol layer rides above and below it."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2,
+   0
+  ]
+ },
+ {
+  "nid": 1786229802250,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "Formal Arabic has only {{c1::three::how many}} vowel qualities — {{c1::a, i, u}} — each short or long; spoken Arabic adds {{c2::e and o}}.",
+   "Back Extra": "Cue: vowel length distinguishes emphatic consonants from their plain counterparts — listen for it.<br><br><img src=\"arabic_src_vowels_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2,
+   0
+  ]
+ },
+ {
+  "nid": 1786229802351,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "Formal Arabic — also called {{c1::Modern Standard}} or {{c1::Classical}} Arabic — is learned {{c2::at school (not at home)}} and is more a {{c2::written}} register than a spoken one.",
+   "Back Extra": "Cue: you hear it on news broadcasts; educated speakers mix it with dialect in formal settings."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2,
+   0
+  ]
+ },
+ {
+  "nid": 1786229802501,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "The book's <i>shaami</i> dialogues use the dialect of {{c1::Damascus}}; its <i>maSri</i> is the dialect of {{c2::Cairo}}.",
+   "Back Extra": "Cue: one city stands in for each dialect group."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   0,
+   2
+  ]
+ },
+ {
+  "nid": 1786229802722,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "The book's map shows {{c1::20::how many}} countries where Arabic is the main language of education and daily life. Grouped west to east: {{c2::North Africa}}, {{c2::the Nile and the Horn}}, {{c2::the Levant}}, {{c2::Mesopotamia and the northern Gulf}}, and {{c2::southern and eastern Arabia}}.",
+   "Back Extra": "Cue: five regions, west to east — the anchor for the five roster cards.<br><br>Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen<br><br><img src=\"arabic_src_arab_map_v3.png\">",
+   "Card Feedback": "I really don't like what it says the book that's totally wrong. That's using an anchor that wouldn't be able to be understood. Somehow otherwise you know if I see this card out of context I don't know what this book means that totally violate a bunch of rules"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   0,
+   2
+  ]
+ },
+ {
+  "nid": 1786229804146,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "Arabic-speaking country whose capital city carries the same name as the country: {{c1::Kuwait}}<br>its place in the Arabic-speaking world: Mesopotamia and the northern Gulf",
+   "Back Extra": "Cue: the country, its capital, and the Gulf it sits on all carry the name.<br><br>Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · <b>Kuwait</b> · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen<br><br><img src=\"arabic_src_arab_map_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   0
+  ]
+ },
+ {
+  "nid": 1786229803098,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "Arabic-speaking countries in southern and eastern Arabia (5): {{c1::Qatar}}, {{c1::Bahrain}}, {{c1::United Arab Emirates}}, {{c1::Oman}}, {{c1::Yemen}}.",
+   "Back Extra": "Cue: 5 of the 20 — go west to east across the map.<br><br>Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · <b>Qatar</b> · <b>Bahrain</b> · <b>United Arab Emirates</b> · <b>Oman</b> · <b>Yemen</b><br><br><img src=\"arabic_src_arab_map_v3.png\">",
+   "Audio": "[sound:hypertts-qatar-bahrain-united-arab-f647313e7a64f8f5b8f3643894520147bd4943185ae42583e56eab64.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   1
+  ]
+ },
+ {
+  "nid": 1786229803023,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "Arabic-speaking countries in Mesopotamia and the northern Gulf (3): {{c1::Iraq}}, {{c1::Kuwait}}, {{c1::Saudi Arabia}}.",
+   "Back Extra": "Cue: 3 of the 20 — go west to east across the map.<br><br>Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · <b>Iraq</b> · <b>Kuwait</b> · <b>Saudi Arabia</b> · Qatar · Bahrain · United Arab Emirates · Oman · Yemen<br><br><img src=\"arabic_src_arab_map_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   1
+  ]
+ },
+ {
+  "nid": 1786229801927,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "The basic skeleton of an Arabic word is made of {{c1::the consonants and long vowels}}; short vowels and other markers are {{c1::a separate layer}} written above and below it.",
+   "Back Extra": "Cue: two layers — skeleton first, vowelling second."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229802401,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "The {{c1::Levantine}} dialect group covers the Syrian, Lebanese, Palestinian, and Jordanian dialects.",
+   "Back Extra": "Cue: the Levant = the eastern Mediterranean coast region."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229802552,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "Egyptian (maSri) pronunciation is marked by a hard {{c1::g}} where other dialects say <i>j</i>, and by stress on the {{c1::second-to-last}} syllable.",
+   "Back Extra": "Ex: <i>gamiil</i> for <i>jamiil</i>."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229802602,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "Levantine dialects are marked by a final {{c1::e}} vowel on certain nouns/adjectives where other dialects have <i>a</i>, and by a distinctive {{c1::intonation}}.",
+   "Back Extra": "Ex: Levantine <i>ahla</i> vs formal <i>ahlan</i>."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229802797,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "Arabic-speaking countries in North Africa (5): {{c1::Morocco}}, {{c1::Mauritania}}, {{c1::Algeria}}, {{c1::Tunisia}}, {{c1::Libya}}.",
+   "Back Extra": "Cue: 5 of the 20 — go west to east across the map.<br><br>Roster: <b>Morocco</b> · <b>Mauritania</b> · <b>Algeria</b> · <b>Tunisia</b> · <b>Libya</b> · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen<br><br><img src=\"arabic_src_arab_map_v3.png\">",
+   "Audio": "[sound:hypertts-morocco-mauritania-algeria-bb0f751f646c9413a22f3d3b7be4f416f3c20d5408c75fb51245eab8.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229802873,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "Arabic-speaking countries in the Nile and the Horn (3): {{c1::Egypt}}, {{c1::Sudan}}, {{c1::Somalia}}.",
+   "Back Extra": "Cue: 3 of the 20 — go west to east across the map.<br><br>Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · <b>Egypt</b> · <b>Sudan</b> · <b>Somalia</b> · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen<br><br><img src=\"arabic_src_arab_map_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229802946,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "Arabic-speaking countries in the Levant (4): {{c1::Jordan}}, {{c1::Israel/Palestine}}, {{c1::Lebanon}}, {{c1::Syria}}.",
+   "Back Extra": "Cue: 4 of the 20 — go west to east across the map.<br><br>Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · <b>Jordan</b> · <b>Israel/Palestine</b> · <b>Lebanon</b> · <b>Syria</b> · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen<br><br><img src=\"arabic_src_arab_map_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229801725,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "The four major characteristics that set Arabic script apart from European ones: {{c1::it is written right to left}}; {{c1::letters connect in both print and script}}; {{c1::letters change shape by position (initial / medial / final)}}; {{c1::the script has two layers — a consonant-and-long-vowel skeleton, plus the vowelling}}.",
+   "Back Extra": "Cue: four — direction, connection, position, layers.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229797674,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ا}}<br><br>Name: {{c2::alif}}<br><br>Transliteration: {{c2::aa}}<br><br>Sound: {{c2::long vowel <i>aa</i> — ranges from <i>e</i> in <i>bet</i> to <i>a</i> in <i>father</i>}}<br><br>Connects to the letter after it? {{c1::no — always pick the pen up after it::yes/no}}<br><br>Shapes — independent, initial, medial, final:<br><br>‎{{c1::ا::independent}}<br><br>‎{{c1::ا::initial}}<br><br>‎{{c1::ـا::medial}}<br><br>‎{{c1::ـا::final}}",
+   "Back Extra": "Distinguish: alif is a plain vertical stroke; laam is the same height but sweeps into a bowl at its base.<br><br>Shape: one bare upright stroke, no dots — the simplest letter on the chart.<br><br>Hook: alif is the exception — every other letter's name opens with its own sound, but alif is a long vowel and carries no consonant.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_01_alif.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1786229797753,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "‎{{c1::ب}}<br><br>Name: {{c2::baa}}<br><br>Transliteration: {{c2::b}}<br><br>Sound: {{c2::<i>b</i> as in <i>bet</i>}}",
+   "Back Extra": "Distinguish: one skeleton, dots decide — baa 1 below, taa 2 above, thaa 3 above.<br><br>Shape: a shallow boat sitting on the line, one dot slung underneath.<br><br>Hook: the name baa opens with its own sound, b.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+   "Audio": "[sound:arabic_pron_02_baa.mp4]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1786229802451,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "alif baa's two colloquial varieties: <i>shaami</i> = {{c1::Levantine}}, and <i>maSri</i> = {{c1::Egyptian}}.",
+   "Back Extra": "Cue: <i>shaami</i> can mean Syrian, Damascene, or Levantine.<br><br>Cue: the dialogues use one city's flavor of each — see the sibling card."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229802028,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "The Arabic writing system is regularly {{c1::phonetic}}: a one-to-one correspondence between sound and letter — words are written {{c1::the way they are pronounced}}.",
+   "Back Extra": "Distinguish: English spelling is the opposite — think <i>though / tough / through</i>."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229802121,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "In this book's transliteration, emphatic sounds are marked by {{c1::UPPERCASE letters (S vs s)}}, and long vowels by {{c1::doubled vowels (aa, ii, uu)}}.",
+   "Back Extra": "Ex: <i>S</i> = emphatic ص while <i>s</i> = plain س; <i>aa</i> is held longer than <i>a</i>.<br><br><img src=\"arabic_src_consonants1_v3.png\"><img src=\"arabic_src_consonants2_v3.png\">"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229802303,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "Levantine pronunciation sometimes uses a very short, unstressed {{c1::schwa}} sound (ə).",
+   "Back Extra": "Ex: the <i>e</i> in <i>listen</i>."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229801777,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "Arabic is written and read from {{c1::right to left}}.",
+   "Back Extra": "Cue: books and magazines open the \"other way\" from English ones."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229801977,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "The vowelling layer (vocalization) is normally {{c1::omitted}} in written Arabic — readers recognize words {{c1::without it}}.",
+   "Back Extra": "Pitfall: your textbook prints vowels while you learn; newspapers will not."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229801828,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "Arabic letters are connected {{c1::in both print AND script}} — unlike Latin letters, which connect only in handwriting.",
+   "Back Extra": "Why: this is why letters change shape by position — they must join their neighbors."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229801876,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "\"{{c1::Initial}} position\" = the letter is not connected to a previous letter; \"{{c2::medial}} position\" = the letter sits between two other letters.",
+   "Back Extra": "Cue: Unit 1 teaches only the independent (isolated) forms — position variants come in Units 2-10."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1786229802651,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1",
+  "fields": {
+   "Text": "Polite behavior requires you to say hello to {{c1::everyone in a room or place you enter}} — including a loosely defined {{c1::\"space\" someone regularly occupies}}.",
+   "Back Extra": "Ex: an outdoor work area, or a guard's position outside a building.<br><br>Cue: entering = greeting; the room does not have to have walls."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights"
+  ],
+  "queues": [
+   2
+  ]
+ },
+ {
+  "nid": 1786229800997,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1 khouri-tue-2026-09-01",
+  "fields": {
+   "Text": "‎{{c1::السَّلامُ عَلَيكُم}}<br><br>Transliteration: {{c1::assalaamu calaykum}}<br><br>{{c2::Greetings!}} — the Islamic greeting",
+   "Back Extra": "Cue: MSA — <i>assalaamu calaykum</i><br><br>Ex: Levantine [sound:arabic_vocab_u1_01_salaam_alaykum_shaami.mp3]<br><br>Ex: Dr. Khouri in class, 27 Aug — [sound:arabic_khouri_salaam_alaykum.mp3]<br><br>Pitfall: the <i>c</i> is <i>cayn</i>, made down in the throat. Her trick: say \"ah\", then start to shock yourself — but only a little.<br><br><img src=\"arabic_src_vocab_table_v3.png\">",
+   "Audio": "[sound:arabic_vocab_u1_01_salaam_alaykum_formal.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Khouri Tuesday 2026-09-01"
+  ],
+  "queues": [
+   2,
+   0
+  ]
+ },
+ {
+  "nid": 1787925280988,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1 khouri-tue-2026-09-01",
+  "fields": {
+   "Text": "‎{{c1::وعَلَيكُم السَّلامُ}}<br><br>Transliteration: {{c1::wa calaykum as-salaam}}<br><br>{{c2::And upon you peace}} — the reply to the Islamic greeting",
+   "Back Extra": "Cue: MSA — <i>wa calaykum as-salaam</i><br><br>Distinguish: the reply is the greeting turned around — <i>assalaamu calaykum</i> becomes <i>wa calaykum as-salaam</i>. Dr. Khouri: \"Just flip them.\"<br><br>Pitfall: the opening <i>wa</i> is the \"and\" of \"<i>and</i> upon you peace\" — Dr. Khouri told the class not to worry if you drop it.<br><br>Ex: Levantine [sound:arabic_vocab_lingco_wa_alaykum_shaami.mp3]",
+   "Audio": "[sound:arabic_vocab_lingco_wa_alaykum_formal.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Khouri Tuesday 2026-09-01"
+  ],
+  "queues": [
+   2,
+   0
+  ]
+ },
+ {
+  "nid": 1786229801147,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1 khouri-tue-2026-09-01",
+  "fields": {
+   "Text": "‎{{c1::أَهلاً وسَهلاً}}<br><br>Transliteration: {{c1::ahlan wa sahlan}}<br><br>{{c2::Hello!}} — the fuller two-word greeting",
+   "Back Extra": "Cue: MSA — <i>ahlan wa sahlan</i><br><br>Ex: Levantine [sound:arabic_vocab_u1_03_ahlan_wa_sahlan_shaami.mp3]<br><br>Distinguish: Levantine: <i>ahla w sahla</i>.<br><br>Ex: Dr. Khouri in class, 27 Aug, saying the Levantine form — [sound:arabic_khouri_ahla_wa_sahla.mp3]<br><br>Why: <i>sahlan</i> adds no new meaning — the doubling IS the warmth. Repetition is how emphasis works in Arabic culture.<br><br><img src=\"arabic_src_vocab_table_v3.png\">",
+   "Audio": "[sound:arabic_vocab_u1_03_ahlan_wa_sahlan_formal.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Khouri Tuesday 2026-09-01"
+  ],
+  "queues": [
+   2,
+   0
+  ]
+ },
+ {
+  "nid": 1786229801072,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1 khouri-tue-2026-09-01",
+  "fields": {
+   "Text": "‎{{c1::أَهلاً}}<br><br>Transliteration: {{c1::ahlan}}<br><br>{{c2::Hello! or Hi!}} — used more in Egypt than in the Levant",
+   "Back Extra": "Cue: MSA — <i>ahlan</i><br><br>Ex: Levantine [sound:arabic_vocab_u1_02_ahlan_shaami.mp3]<br><br>Distinguish: Levantine drops the final -n: <i>ahla</i>.<br><br>Ex: Dr. Khouri in class, 27 Aug — [sound:arabic_khouri_ahlan.mp3]<br><br>Distinguish: she also teaches Levantine <i>ahla</i> and <i>ahlain</i>, but told the class to just use this one — \"Ahlan is OK. Take that one.\"<br><br><img src=\"arabic_src_vocab_table_v3.png\">",
+   "Audio": "[sound:arabic_vocab_u1_02_ahlan_formal.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Khouri Tuesday 2026-09-01"
+  ],
+  "queues": [
+   2,
+   0
+  ]
+ },
+ {
+  "nid": 1786229801295,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1 khouri-tue-2026-09-01",
+  "fields": {
+   "Text": "‎{{c1::أَنا}}<br><br>Transliteration: {{c1::ana}}<br><br>{{c2::I}}",
+   "Back Extra": "Cue: MSA — <i>ana</i><br><br>Ex: Levantine [sound:arabic_vocab_u1_05_ana_shaami.mp3]<br><br>Ex: Dr. Khouri in class, 27 Aug — [sound:arabic_khouri_ana.mp3]<br><br>Pitfall: there is no \"am\" in Arabic — say <i>ana Parker</i>, never \"ana am Parker.\"<br><br><img src=\"arabic_src_vocab_table_v3.png\">",
+   "Audio": "[sound:arabic_vocab_u1_05_ana_formal.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Khouri Tuesday 2026-09-01"
+  ],
+  "queues": [
+   2,
+   0
+  ]
+ },
+ {
+  "nid": 1786229801447,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1 khouri-tue-2026-09-01",
+  "fields": {
+   "Text": "‎{{c1::مِن}}<br><br>Transliteration: {{c1::min}}<br><br>{{c2::from}} — \"I am ___ the city of…\"",
+   "Back Extra": "Cue: MSA — <i>min</i><br><br>Ex: Levantine [sound:arabic_vocab_u1_07_min_shaami.mp3]<br><br>Ex: Dr. Khouri in class, 27 Aug — [sound:arabic_khouri_min.mp3]<br><br><img src=\"arabic_src_vocab_table_v3.png\">",
+   "Audio": "[sound:arabic_vocab_u1_07_min_formal.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Khouri Tuesday 2026-09-01"
+  ],
+  "queues": [
+   2,
+   0
+  ]
+ },
+ {
+  "nid": 1787925281221,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1 khouri-tue-2026-09-01",
+  "fields": {
+   "Text": "‎{{c1::تشرفنا}}<br><br>Transliteration: {{c1::tasharafna}}<br><br>{{c2::Nice to meet you}} — the line that closes an introduction",
+   "Back Extra": "Cue: MSA — <i>tasharafna</i>, as Dr. Khouri spells it on her slide.<br><br>Ex: you say it after your name, your city and where you live — it closes the introduction, and the thank-you exchange follows.<br><br>Pitfall: not in Alif Baa's Unit 1 list — she pulled it forward so the conversation can actually be finished.<br><br>Ex: book audio — Formal [sound:arabic_vocab_lingco_tasharafna_formal.mp3] · Levantine [sound:arabic_vocab_lingco_tasharafna_shaami.mp3]",
+   "Audio": "[sound:arabic_khouri_tasharafna.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Khouri Tuesday 2026-09-01"
+  ],
+  "queues": [
+   2,
+   0
+  ]
+ },
+ {
+  "nid": 1787925281337,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1 khouri-tue-2026-09-01",
+  "fields": {
+   "Text": "‎{{c1::شكراً}}<br><br>Transliteration: {{c1::shukran}}<br><br>{{c2::Thank you}}",
+   "Back Extra": "Cue: MSA — <i>shukran</i><br><br>Distinguish: <i>shukran</i> opens on <i>shiin</i> (sh), not the emphatic <i>Saad</i> (S). Dr. Khouri's slide writes it \"Shukran\" with a capital S as ordinary sentence styling — that capital is NOT her emphatic marker.<br><br>Ex: in the Tuesday exchange your partner says this back to your <i>tasharafna</i>.<br><br>Ex: book audio — Formal [sound:arabic_vocab_lingco_shukran_formal.mp3] · Levantine [sound:arabic_vocab_lingco_shukran_shaami.mp3]",
+   "Audio": "[sound:arabic_khouri_shukran.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Khouri Tuesday 2026-09-01"
+  ],
+  "queues": [
+   0,
+   2
+  ]
+ },
+ {
+  "nid": 1787925281451,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1 khouri-tue-2026-09-01",
+  "fields": {
+   "Text": "‎{{c1::عفواً}}<br><br>Transliteration: {{c1::cafwan}}<br><br>{{c2::You're welcome}} — the last word of the intro exchange",
+   "Back Extra": "Cue: MSA — <i>cafwan</i><br><br>Pitfall: <i>cafwan</i> opens on <i>cayn</i>, the same throat sound as in <i>calaykum</i>. Dr. Khouri's trick: say \"ah\", then start to shock yourself — but only a little.<br><br>Ex: book audio — Formal [sound:arabic_vocab_lingco_afwan_formal.mp3]",
+   "Audio": "[sound:arabic_khouri_afwan.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Khouri Tuesday 2026-09-01"
+  ],
+  "queues": [
+   0,
+   2
+  ]
+ },
+ {
+  "nid": 1787929190843,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1 khouri-tue-2026-09-01",
+  "fields": {
+   "Text": "‎{{c1::مَعَ السَّلامَة}}<br><br>Transliteration: {{c1::maca as-salaama}}<br><br>{{c2::Goodbye}}",
+   "Back Extra": "Cue: MSA — <i>maca as-salaama</i><br><br>Why: literally \"with the safety\" — you are wishing safety on the person who is leaving.<br><br>Pitfall: Dr. Khouri has NOT taught this one yet. A student raised it as class ended on 27 Aug and she said \"we didn't talk about this one, that's OK, maybe next time\" — so there is no recording of her saying it, and the clip here is the book's.<br><br>Ex: book audio — Levantine [sound:arabic_vocab_lingco_maa_salaama_shaami.mp3], which ends <i>-e</i> rather than <i>-a</i>.",
+   "Audio": "[sound:arabic_vocab_lingco_maa_salaama_formal.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Khouri Tuesday 2026-09-01"
+  ],
+  "queues": [
+   2,
+   0
+  ]
+ },
+ {
+  "nid": 1787925281107,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1 khouri-tue-2026-09-01",
+  "fields": {
+   "Text": "‎{{c1::أسكُن}}<br><br>Transliteration: {{c1::askun}}<br><br>{{c2::I live}} — \"___ in the city of Lynchburg\"",
+   "Back Extra": "Cue: MSA — <i>askun</i><br><br>Ex: <i>askun fii madiinat Lynchburg</i> — \"I live in the city of Lynchburg,\" the sentence Dr. Khouri built on the board.<br><br>Pitfall: this verb is NOT in Alif Baa's Unit 1 list. She added it in class on 27 Aug: \"This is not in the list. Add it to the list.\"",
+   "Audio": "[sound:arabic_khouri_askun.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Khouri Tuesday 2026-09-01"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1786229801222,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1 khouri-tue-2026-09-01",
+  "fields": {
+   "Text": "‎{{c1::مَرحَباً}}<br><br>Transliteration: {{c1::marHaban}}<br><br>{{c2::Hello!}} — used in the Levant",
+   "Back Extra": "Cue: MSA — <i>marHaban</i><br><br>Ex: Levantine [sound:arabic_vocab_u1_04_marhaba_shaami.mp3]<br><br>Distinguish: Levantine says <i>marHaba</i>.<br><br><img src=\"arabic_src_vocab_table_v3.png\">",
+   "Audio": "[sound:arabic_vocab_u1_04_marhaba_formal.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Khouri Tuesday 2026-09-01"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1786229801521,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1 khouri-tue-2026-09-01",
+  "fields": {
+   "Text": "‎{{c1::مدينة}}<br><br>Transliteration: {{c1::madiinat}}<br><br>{{c2::the city of …}}",
+   "Back Extra": "Cue: MSA — <i>madiinat</i><br><br>Ex: Levantine [sound:arabic_vocab_u1_08_madiinat_shaami.mp3]<br><br>Distinguish: Levantine <i>madiinit</i>.<br><br>Ex: Dr. Khouri in class, 27 Aug, saying the whole frame — [sound:arabic_khouri_ana_min_madiinat.mp3]<br><br>Pitfall: the final <i>-t</i> is pronounced only under possession — <i>madiinat Lynchburg</i>, but bare <i>madiina</i> standing on its own.<br><br><img src=\"arabic_src_vocab_table_v3.png\">",
+   "Audio": "[sound:arabic_vocab_u1_08_madiinat_formal.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Khouri Tuesday 2026-09-01"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1786229801596,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1 khouri-tue-2026-09-01",
+  "fields": {
+   "Text": "‎{{c1::في}}<br><br>Transliteration: {{c1::fii}}<br><br>{{c2::in}} — the last slot of the intro: \"from the city of X, ___ Y\"",
+   "Back Extra": "Cue: MSA — <i>fii</i><br><br>Ex: Levantine [sound:arabic_vocab_u1_09_fii_shaami.mp3]<br><br>Distinguish: Levantine often uses <i>bi-</i> instead.<br><br>Ex: Dr. Khouri in class, 27 Aug — [sound:arabic_khouri_fii.mp3]<br><br><img src=\"arabic_src_vocab_table_v3.png\">",
+   "Audio": "[sound:arabic_vocab_u1_09_fii_formal.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Khouri Tuesday 2026-09-01"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1786229801372,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u1 khouri-tue-2026-09-01",
+  "fields": {
+   "Text": "‎{{c1::اسمي}}<br><br>Transliteration: {{c1::ismii}}<br><br>{{c2::my name}}",
+   "Back Extra": "Cue: MSA — <i>ismii</i><br><br>Ex: Levantine [sound:arabic_vocab_u1_06_ismi_shaami.mp3]<br><br>Distinguish: Levantine says <i>ismi</i> (short final i).<br><br>Ex: Dr. Khouri in class, 27 Aug — [sound:arabic_khouri_ismi.mp3]<br><br>Distinguish: Dr. Khouri writes it <i>ismi</i> on her slides; the book's Formal column has <i>ismii</i>.<br><br><img src=\"arabic_src_vocab_table_v3.png\">",
+   "Audio": "[sound:arabic_vocab_u1_06_ismi_formal.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Khouri Tuesday 2026-09-01"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1788401441173,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 khouri-thu-2026-09-03",
+  "fields": {
+   "Text": "‎{{c1::هَل}}<br><br>Transliteration: {{c1::hal}}<br><br>{{c2::the word that opens a yes/no question}} — \"___ anta min madiinat Lynchburg?\" = \"Are you from the city of Lynchburg?\"",
+   "Back Extra": "Cue: MSA — <i>hal</i><br><br>Why: Arabic has no \"are / is / do\" at the front of a question, so <i>hal</i> does that job. Dr. Khouri: \"Anytime you want to ask 'are you, is he, is she, are we', in Arabic we add hal.\"<br><br>Distinguish: <i>hal</i> opens a yes/no question · <i>maa</i> opens a \"what\" question · <i>ayna</i> opens a \"where\" question.<br><br>Pitfall: NOT in the Alif Baa Unit 2 list — she put it on the slide on 1 Sep, the way she added <i>askun</i> last week. No book audio exists for it.<br><br>Ex: <i>hal anta min madiinat Lynchburg?</i> — answer <i>nacam</i> or <i>laa</i>.<br><br>Ex: the whole question, Dr. Khouri, 1 Sep — [sound:arabic_khouri_hal_sentence.mp3]<br><br>Ex: to a woman, Dr. Khouri, 1 Sep — [sound:arabic_khouri_hal_anti.mp3]",
+   "Audio": "[sound:arabic_khouri_hal.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Khouri Thursday 2026-09-03"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1788401440338,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 khouri-thu-2026-09-03",
+  "fields": {
+   "Text": "‎{{c1::حَضرَتُكَ / حَضرَتُكِ}}<br><br>Transliteration: {{c1::HaDratuka / HaDratuki}}<br><br>{{c2::you (polite, formal)}} — to a man / to a woman — strangers, your boss, older people",
+   "Back Extra": "Cue: MSA — <i>HaDratuka / HaDratuki</i><br><br>Why: <i>HaDra</i> is \"presence\", so it is literally \"your presence\". The <i>-uka / -uki</i> ending is the \"you\".<br><br>Ex: Dr. Khouri: \"It's not just you, but a formal you. We use it with strangers, people we meet for the first time, with the boss, older people, to show extra respect.\" Egyptians use it a lot — \"they use a lot of titles.\"<br><br>Distinguish: Levantine <i>HaDartak / HaDartik</i> — same word, the vowels shift. \"If Shami is harder, use FuSHa. If FuSHa is harder, use Shami.\"<br><br>Pitfall: she said this one WILL be on the final — \"if I bring HaDratuka on the exam, you should know what it is and how it is written.\"<br><br>Pitfall: capital H = <i>Haa</i>, the throat sound (\"not from my chest, from my throat\"); capital D = <i>Daad</i>, the emphatic d.<br><br>Ex: book audio — Formal — to a man [sound:arabic_vocab_u2_07_hadratuka_formal.mp3] · to a woman [sound:arabic_vocab_u2_08_hadratuki_formal.mp3]<br><br>Ex: to a man — Levantine [sound:arabic_vocab_u2_07_hadratuka_shaami.mp3]<br><br>Ex: to a woman — Levantine [sound:arabic_vocab_u2_08_hadratuki_shaami.mp3]<br><br>Ex: Dr. Khouri saying the Levantine form, 1 Sep — [sound:arabic_khouri_hadartak_lev.mp3]",
+   "Audio": "[sound:arabic_khouri_hadratuka.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Khouri Thursday 2026-09-03"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1788401440441,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 khouri-thu-2026-09-03",
+  "fields": {
+   "Text": "‎{{c1::أَنتَ / أَنتِ}}<br><br>Transliteration: {{c1::anta / anti}}<br><br>{{c2::you}} — the everyday form: to a man / to a woman",
+   "Back Extra": "Cue: MSA — <i>anta / anti</i><br><br>Distinguish: <i>ana</i> = I, <i>anta</i> = you — she drilled them as a pair: \"ana, anta.\"<br><br>Distinguish: Levantine <i>inte / inti</i> — \"the a sound, most of the time, turns into e in Shami.\"<br><br>Distinguish: the final vowel is the whole gender — <i>-a</i> to a man, <i>-i</i> to a woman. Same pattern as <i>-ka / -ki</i>.<br><br>Ex: book audio — Formal — to a man [sound:arabic_vocab_u2_10_anta_formal.mp3] · to a woman [sound:arabic_vocab_u2_11_anti_formal.mp3]<br><br>Ex: to a man — Levantine [sound:arabic_vocab_u2_10_anta_shaami.mp3]<br><br>Ex: to a woman — Levantine [sound:arabic_vocab_u2_11_anti_shaami.mp3]",
+   "Audio": "[sound:arabic_khouri_anta.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Khouri Thursday 2026-09-03"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1788401440648,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 khouri-thu-2026-09-03",
+  "fields": {
+   "Text": "‎{{c1::ما اِسمُكَ؟ / ما اِسمُكِ؟}}<br><br>Transliteration: {{c1::maa ismuka? / maa ismuki?}}<br><br>{{c2::What is your name?}} — to a man / to a woman — the question you will be asked on Thursday",
+   "Back Extra": "Cue: MSA — <i>maa ismuka? / maa ismuki?</i><br><br>Why: there is no \"is\" in Arabic — the question is just \"what + your name\". Dr. Khouri: \"ma ismuka or shuu ismak, both are the same.\"<br><br>Distinguish: Levantine <i>shuu ismak? / shuu ismik?</i> — what Sydney answered first, and she took it.<br><br>Ex: to ask HER you say <i>maa ismuki?</i> (she is a woman) — \"Who would like to ask me about my name?\"<br><br>Ex: answer with <i>ismi Parker</i>.<br><br>Ex: book audio — <i>maa</i> [sound:arabic_vocab_u2_03_maa_formal.mp3] · <i>ismuka</i> [sound:arabic_vocab_u2_12_ismuka_formal.mp3] · <i>ismuki</i> [sound:arabic_vocab_u2_13_ismuki_formal.mp3]",
+   "Audio": "[sound:arabic_khouri_maa_ismuka.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Khouri Thursday 2026-09-03"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1788401440753,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 khouri-thu-2026-09-03",
+  "fields": {
+   "Text": "‎{{c1::أَيْنَ}}<br><br>Transliteration: {{c1::ayna}}<br><br>{{c2::where?}} — the question word: \"min ___ anta?\"",
+   "Back Extra": "Cue: MSA — <i>ayna</i><br><br>Ex: Dr. Khouri: \"or sometimes, out of habit, we pronounce it <i>ayn</i>.\"<br><br>Distinguish: Levantine <i>wayn</i>.<br><br>Ex: book audio — Formal [sound:arabic_vocab_u2_14_ayna_formal.mp3]<br><br>Ex: Levantine [sound:arabic_vocab_u2_14_ayna_shaami.mp3]",
+   "Audio": "[sound:arabic_khouri_ayna.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Khouri Thursday 2026-09-03"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1788401441069,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 khouri-thu-2026-09-03",
+  "fields": {
+   "Text": "‎{{c1::لا}}<br><br>Transliteration: {{c1::laa}}<br><br>{{c2::no}}",
+   "Back Extra": "Cue: MSA — <i>laa</i><br><br>Distinguish: Levantine sometimes clips it with a glottal stop — <i>la'</i>. \"All works.\"<br><br>Ex: book audio — Formal [sound:arabic_vocab_u2_17_laa_formal.mp3]<br><br>Ex: Levantine [sound:arabic_vocab_u2_17_laa_shaami.mp3]",
+   "Audio": "[sound:arabic_khouri_laa.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Khouri Thursday 2026-09-03"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1788401441279,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 khouri-thu-2026-09-03",
+  "fields": {
+   "Text": "‎{{c1::مِن أَيْنَ حَضرَتُكَ؟ / مِن أَيْنَ حَضرَتُكِ؟}}<br><br>Transliteration: {{c1::min ayna HaDratuka? / min ayna HaDratuki?}}<br><br>{{c2::Where are you from?}} — the POLITE version: to a man / to a woman you show extra respect",
+   "Back Extra": "Cue: MSA — <i>min ayna HaDratuka? / min ayna HaDratuki?</i><br><br>Distinguish: the same question as <i>min ayna anta?</i> with the polite \"you\" swapped in — her last slide of the day: \"Where are you from? Those are formal you.\"<br><br>Ex: the version to use on Dr. Khouri herself: <i>min ayna HaDratuki?</i><br><br>Ex: book audio — <i>min ayna</i> [sound:arabic_vocab_u2_15_min_ayna_formal.mp3] · <i>HaDratuka</i> [sound:arabic_vocab_u2_07_hadratuka_formal.mp3] · <i>HaDratuki</i> [sound:arabic_vocab_u2_08_hadratuki_formal.mp3]",
+   "Audio": "[sound:arabic_khouri_min_ayna_hadratuka.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Khouri Thursday 2026-09-03"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1788401439903,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 khouri-thu-2026-09-03",
+  "fields": {
+   "Text": "‎{{c1::باب}}<br><br>Transliteration: {{c1::baab}}<br><br>{{c2::door}} — the first word she had you spell out letter by letter",
+   "Back Extra": "Cue: MSA — <i>baab</i><br><br>Why: <i>baa + alif + baa</i>. The first <i>baa</i> carries a vowel (the <i>alif</i>), the second does not — and because <i>alif</i> never connects to its left, the final <i>baa</i> stands in its independent form. She built it on the board exactly this way on 1 Sep.<br><br>Ex: it came back as word 5 of the Unit 2 dictation Drill 2 she did on the board — \"baab. That's the door.\"<br><br>Ex: book audio — Formal [sound:arabic_vocab_u2_01_baab_formal.mp3]<br><br>Ex: Levantine [sound:arabic_vocab_u2_01_baab_shaami.mp3]",
+   "Audio": "[sound:arabic_khouri_baab.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Khouri Thursday 2026-09-03"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1788401440019,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 khouri-thu-2026-09-03",
+  "fields": {
+   "Text": "‎{{c1::اِسم}}<br><br>Transliteration: {{c1::ism}}<br><br>{{c2::name}} — the bare noun, before any \"my\" / \"your\" ending is attached",
+   "Back Extra": "Cue: MSA — <i>ism</i><br><br>Distinguish: <i>ism</i> is \"a name\"; add the <i>-i</i> ending and it becomes <i>ismi</i>, \"my name\". Dr. Khouri: \"If you say ismi, that's my name. If you say ism, that's a name.\"<br><br>Why: possessive pronouns in Arabic are suffixes — they hang on the END of the noun.<br><br>Ex: book audio — Formal [sound:arabic_vocab_u2_02_ism_formal.mp3]<br><br>Ex: Levantine [sound:arabic_vocab_u2_02_ism_shaami.mp3]",
+   "Audio": "[sound:arabic_khouri_ism.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Khouri Thursday 2026-09-03"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1788401440231,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 khouri-thu-2026-09-03",
+  "fields": {
+   "Text": "‎{{c1::أهلاً بكَ / أهلاً بكِ}}<br><br>Transliteration: {{c1::ahlan bika / ahlan biki}}<br><br>{{c2::(reply to) ahlan wa sahlan}} — to a man / to a woman",
+   "Back Extra": "Cue: MSA — <i>ahlan bika / ahlan biki</i><br><br>Why: <i>bi-</i> is a preposition like <i>fii</i>, and <i>-ka / -ki</i> is \"you\" — literally \"welcome in you\". Dr. Khouri: \"We don't say that in English, but in Arabic this is what we mean.\"<br><br>Distinguish: Levantine swaps the preposition — <i>ahlan fiik / ahlan fiiki</i>.<br><br>Ex: you asked whether you can just say <i>ahlan</i> back — \"You can say ahlan, but this is another way.\" And it is safe upward: \"not very casual, this is neutral — older people, professors, your future boss.\"<br><br>Ex: book audio — Formal — to a man [sound:arabic_vocab_u2_04_ahlan_bika_formal.mp3] · to a woman [sound:arabic_vocab_u2_05_ahlan_biki_formal.mp3]<br><br>Ex: to a man — Levantine [sound:arabic_vocab_u2_04_ahlan_bika_shaami.mp3]<br><br>Ex: to a woman — Levantine [sound:arabic_vocab_u2_05_ahlan_biki_shaami.mp3]<br><br>Ex: Dr. Khouri saying the Levantine form, 1 Sep — [sound:arabic_khouri_ahlan_fiik_lev.mp3]",
+   "Audio": "[sound:arabic_khouri_ahlan_bika.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Khouri Thursday 2026-09-03"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1788401440544,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 khouri-thu-2026-09-03",
+  "fields": {
+   "Text": "‎{{c1::اِسمُكَ / اِسمُكِ}}<br><br>Transliteration: {{c1::ismuka / ismuki}}<br><br>{{c2::your name}} — to a man / to a woman — the \"your\" is a suffix on the noun",
+   "Back Extra": "Cue: MSA — <i>ismuka / ismuki</i><br><br>Why: possessive pronouns are suffixes — <i>-i</i> = my (<i>ismi</i>), <i>-ka</i> = your (m), <i>-ki</i> = your (f). The <i>u</i> in the middle is a vowel on the last letter of <i>ism</i>, so the pieces are <i>ism + u + ka</i>.<br><br>Distinguish: Levantine <i>ismak / ismik</i> — \"the suffix that indicates you-masculine is -ka or -ak.\"<br><br>Ex: book audio — Formal — to a man [sound:arabic_vocab_u2_12_ismuka_formal.mp3] · to a woman [sound:arabic_vocab_u2_13_ismuki_formal.mp3]<br><br>Ex: to a man — Levantine [sound:arabic_vocab_u2_12_ismuka_shaami.mp3]<br><br>Ex: to a woman — Levantine [sound:arabic_vocab_u2_13_ismuki_shaami.mp3]",
+   "Audio": "[sound:arabic_khouri_ismuka.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Khouri Thursday 2026-09-03"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1788401440964,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 khouri-thu-2026-09-03",
+  "fields": {
+   "Text": "‎{{c1::نَعَم}}<br><br>Transliteration: {{c1::nacam}}<br><br>{{c2::yes}}",
+   "Back Extra": "Cue: MSA — <i>nacam</i><br><br>Pitfall: the <i>c</i> is <i>cayn</i> — say \"ah\", then start to shock yourself, but only a little.<br><br>Distinguish: Levantine <i>eeh</i>.<br><br>Ex: book audio — Formal [sound:arabic_vocab_u2_16_naam_formal.mp3]<br><br>Ex: Levantine [sound:arabic_vocab_u2_16_naam_shaami.mp3]",
+   "Audio": "[sound:arabic_khouri_naam.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Khouri Thursday 2026-09-03"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1788401440860,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 khouri-thu-2026-09-03",
+  "fields": {
+   "Text": "‎{{c1::مِن أَيْنَ أَنتَ؟ / مِن أَيْنَ أَنتِ؟}}<br><br>Transliteration: {{c1::min ayna anta? / min ayna anti?}}<br><br>{{c2::Where are you from?}} — to a man / to a woman — Arabic puts it \"from where you\"",
+   "Back Extra": "Cue: MSA — <i>min ayna anta? / min ayna anti?</i><br><br>Why: the order is \"from where are you\" — <i>min</i> (from) + <i>ayna</i> (where) + <i>anta</i>. Dr. Khouri: \"start word for word, but then make it make sense in English.\"<br><br>Ex: your answer: <i>ana min madiinat Snellville</i>.<br><br>Distinguish: Levantine <i>min wayn inte?</i><br><br>Ex: book audio — <i>min ayna</i> [sound:arabic_vocab_u2_15_min_ayna_formal.mp3] · <i>anta</i> [sound:arabic_vocab_u2_10_anta_formal.mp3] · <i>anti</i> [sound:arabic_vocab_u2_11_anti_formal.mp3]",
+   "Audio": "[sound:arabic_khouri_min_ayna_anta.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Khouri Thursday 2026-09-03"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1788401440126,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 khouri-thu-2026-09-03",
+  "fields": {
+   "Text": "‎{{c1::ما}}<br><br>Transliteration: {{c1::maa}}<br><br>{{c2::what?}} — the question word used before a NOUN: \"___ ismuka?\"",
+   "Back Extra": "Cue: MSA — <i>maa</i><br><br>Pitfall: <i>maa</i> only goes with a noun — \"what's your NAME\". Verbs take a different word, which she is saving for later. Her line: \"maa comes with a noun only.\"<br><br>Distinguish: Levantine says <i>shuu</i> — <i>shuu ismak?</i> \"Even in Saudi Arabia they used to say shuu. Everybody knows shuu.\"<br><br>Ex: book audio — Formal [sound:arabic_vocab_u2_03_maa_formal.mp3]<br><br>Ex: Levantine [sound:arabic_vocab_u2_03_maa_shaami.mp3]",
+   "Audio": "[sound:arabic_khouri_maa.mp3]"
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Khouri Thursday 2026-09-03"
+  ],
+  "queues": [
+   2,
+   2
+  ]
+ },
+ {
+  "nid": 1788528744775,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 night-unit::20260904-0840-1 night::2026-09-04",
+  "fields": {
+   "Text": "<b>Vowel quality</b> is {{c1::which particular sound a vowel has}}.",
+   "Back Extra": "Ex: \"The pronunciation of alif has a similar range; we refer to these differences in pronunciation as <b>vowel quality</b>.\"<br><br>Distinguish: vowel <b>quality</b> is <i>which</i> sound the vowel is — the <i>e</i> of <i>bet</i>, the <i>a</i> of <i>bat</i>, the <i>u</i> of <i>but</i>; vowel <b>length</b> is <i>how long</i> the vowel is held.<br><br>Why: two things shift the quality of alif — the speaker's regional dialect (deeper, like <i>father</i>, in the Arabian Peninsula and Iraq; more frontal, toward the <i>e</i> of <i>bet</i>, in North Africa) and the surrounding consonants."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Book Highlights"
+  ],
+  "queues": [
+   0
+  ]
+ },
+ {
+  "nid": 1788528745451,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 night-unit::20260904-0840-1 night::2026-09-04",
+  "fields": {
+   "Text": "Besides vowel <i>quality</i>, Arabic also distinguishes vowel {{c1::length}}, and this too can change a word's meaning.",
+   "Back Extra": "Ex: <i>DHaalim</i> — a long alif in the first syllable, a short <i>i</i> in the second.<br><br>Distinguish: quality is <i>which</i> vowel sound you make (a frontal or a deep alif); length is <i>how long</i> you hold it — Arabic keeps track of both.<br><br>Cue: alif itself is a long vowel — the one you hear held in <i>DHaalim</i>."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Book Highlights"
+  ],
+  "queues": [
+   0
+  ]
+ },
+ {
+  "nid": 1788528745769,
+  "model": "AnKing Cloze",
+  "tags": "arabic-u2 night-unit::20260904-0840-1 night::2026-09-04",
+  "fields": {
+   "Text": "In Arabic, word stress is attracted to the syllable with a {{c1::long::long or short}} vowel.",
+   "Back Extra": "Ex: <i>DHaalim</i> — the accent falls on the first syllable, the one with the long alif, not on the short <i>i</i> of the second.<br><br>Distinguish: vowel <i>length</i> is a property of one vowel (long or short); word <i>stress</i> is a property of the whole word (which syllable carries the accent)."
+  },
+  "decks": [
+   "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 2::Book Highlights"
+  ],
+  "queues": [
+   0
+  ]
+ }
+]

@@ -24,6 +24,8 @@ to resume; --ignore-pause overrides it for deliberate testing.
     python3 night_shift.py             # the real thing (what cron runs)
     python3 night_shift.py --dry-run   # everything except spend + write + ledger
     python3 night_shift.py --once      # real, but a single unit regardless of config
+    python3 night_shift.py --no-fetch  # skip the Mac mirror; read the HP's own Zotero
+    python3 night_shift.py --ignore-deadline  # deliberate daytime run (see note at the check)
 """
 import json, os, shutil, subprocess, sys
 from datetime import datetime, timedelta
@@ -56,9 +58,13 @@ def claude_bin():
 
 
 class Night:
-    def __init__(self, cfg, dry=False, once=False, ignore_pause=False):
+    def __init__(self, cfg, dry=False, once=False, ignore_pause=False,
+                 no_fetch=False, ignore_deadline=False):
         self.cfg, self.dry = cfg, dry
         self.ignore_pause = ignore_pause
+        self.no_fetch = no_fetch
+        self.anki_lost = False
+        self.ignore_deadline = ignore_deadline
         self.max_units = 1 if once else cfg["max_units_per_night"]
         self.start = datetime.now().astimezone()
         self.date = self.start.strftime("%Y-%m-%d")
@@ -139,11 +145,25 @@ class Night:
             return self.finish(1)
         self.log(f"preflight ok (model {self.cfg['model']})")
 
-        # Fresh truth from the Mac.
+        # Fresh truth from the Mac -- unless the HP's own Zotero is the truth.
+        # fetch_mac_state was written on 2026-08-02, when the HP's Zotero was a dead
+        # fork and the mirror had to come from the Mac. That stopped being true: as of
+        # 2026-09-03 the HP runs a live, fully-synced Zotero holding 4423 items (same
+        # as the Mac) and ALL 523 attachment folders, 16 GB, where the Mac had only 45
+        # materialised locally. The HP is now the more complete copy, and the
+        # Claude<->Zotero bridge depends on that instance staying open -- which the
+        # fetch guard forbids. --no-fetch reads the HP's library in place instead.
+        # Safe to read live: sources.py copies the DB and opens it immutable=1, so it
+        # can never lock Zotero or be locked by it.
         try:
-            rep = fetch(self.cfg)
-            self.say(f"Zotero mirror: {rep['db_items']} items, latest annotation "
-                     f"{rep.get('db_latest_annotation')}")
+            if self.no_fetch:
+                rep = None
+                self.say("Zotero: using the HP's own live library (--no-fetch); "
+                         "no Mac mirror, nothing overwritten.")
+            else:
+                rep = fetch(self.cfg)
+                self.say(f"Zotero mirror: {rep['db_items']} items, latest annotation "
+                         f"{rep.get('db_latest_annotation')}")
         except Exception as e:
             self.say(f"FETCH FAILED — {e}")
             self.say("Nothing was spent. The queue is untouched.")
@@ -215,7 +235,13 @@ class Night:
                                 f"{self.failed} failed unit(s) — stopping rather "
                                 f"than burning the same wall repeatedly")
                     break
-                if datetime.now().astimezone() >= self.deadline:
+                # The deadline exists so overnight spend ages out of the rolling
+                # five-hour window before Parker wakes. A run he asked for while he
+                # is awake has no such constraint -- and because base is today when
+                # start.hour < 12, ANY morning run computes a deadline already in the
+                # past and refuses every unit. --ignore-deadline is for that case.
+                if not self.ignore_deadline and \
+                        datetime.now().astimezone() >= self.deadline:
                     self.refuse("remaining queue",
                                 f"deadline {self.deadline:%H:%M} — spend must age "
                                 f"out of the five-hour window before morning")
@@ -229,6 +255,11 @@ class Night:
                 self.log(f"governor: {g['action']} ({g['reason']})")
 
                 self.run_unit(unit, i, gate, cb, effort)
+                if self.anki_lost:
+                    self.refuse("remaining queue",
+                                "Anki became unreachable mid-run — no further units "
+                                "can be verified, let alone written")
+                    break
         finally:
             gate.close()
 
@@ -316,7 +347,22 @@ class Night:
 
         # Did cards actually land? The deck count is the ground truth; the session's
         # report is testimony. Both are read, and disagreement is said out loud.
-        after = gate.deck_count(unit["deck"])
+        # Anki can vanish MID-RUN -- Parker quits it, or the Mac sleeps. The gate
+        # checks Anki at the start, but nothing covered it disappearing later. On
+        # 2026-09-03 he quit Anki at 21:17; this call raised ConnectionResetError,
+        # the exception went uncaught, and it killed the entire night: unit 2 never
+        # ran and no brief was written. An unreachable Anki is a failed unit and a
+        # reason to stop, not a stack trace.
+        try:
+            after = gate.deck_count(unit["deck"])
+        except Exception as e:
+            self.anki_lost = True
+            self.failed += 1
+            self.say(f"{hdr}\nANKI WENT AWAY mid-run ({type(e).__name__}) — the write "
+                     f"could not be verified, so nothing was marked processed and this "
+                     f"unit re-queues. Whatever the session built is still on disk. "
+                     f"Stopping the night here; reopen Anki on the Mac and re-run.\n")
+            return
         delta = after - before
         res = {}
         if os.path.exists(rpath):
@@ -402,5 +448,7 @@ class Night:
 if __name__ == "__main__":
     cfg = load_cfg()
     night = Night(cfg, dry="--dry-run" in sys.argv, once="--once" in sys.argv,
-                  ignore_pause="--ignore-pause" in sys.argv)
+                  ignore_pause="--ignore-pause" in sys.argv,
+                  no_fetch="--no-fetch" in sys.argv,
+                  ignore_deadline="--ignore-deadline" in sys.argv)
     sys.exit(night.run())

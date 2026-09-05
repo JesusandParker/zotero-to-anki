@@ -1,0 +1,34 @@
+[
+ {
+  "Text": "‎{{c1::ا}}<br><br>Name: {{c2::alif}}<br><br>Transliteration: {{c2::aa}}<br><br>Sound: {{c2::long vowel <i>aa</i> — ranges from <i>e</i> in <i>bet</i> to <i>a</i> in <i>father</i>}}<br><br>Connects to the letter after it? {{c1::no — always pick the pen up after it::yes/no}}<br><br>Shapes — independent, initial, medial, final:<br><br>‎{{c1::ا::independent}}<br><br>‎{{c1::ا::initial}}<br><br>‎{{c1::ـا::medial}}<br><br>‎{{c1::ـا::final}}",
+  "Back Extra": "Distinguish: alif is a plain vertical stroke; laam is the same height but sweeps into a bowl at its base.<br><br>Shape: one bare upright stroke, no dots — the simplest letter on the chart.<br><br>Hook: alif is the exception — every other letter's name opens with its own sound, but alif is a long vowel and carries no consonant.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+  "Audio": "[sound:arabic_pron_01_alif.mp4]",
+  "extends_note_id": 1786229797674,
+  "extension_of": "Unit 1 letter note for alif (deck Unit 1::Book Highlights) — Text extended in place per arabic-unit-playbook §2 (EXTEND, never re-mint); Back Extra and Audio are protected (authorship: edited/unknown) and are NOT written — they are echoed here only so the block-spec checks see the whole note",
+  "source": "arabic",
+  "segment": 2,
+  "from_idx": [
+   4,
+   5
+  ],
+  "block": "A_letters",
+  "numeric": false,
+  "verified_against": "physical p41-42 (printed pp.21-22): the four-shape strip under 'Writing' on p41 (300 dpi crop attached) with its caption sentence in the text layer (\"from right to left, the independent, initial, medial, and final shapes of the letter alif\"), and p42's \"In both cases the alif does not connect to what follows it. Always pick your pen up from the page after writing alif.\"",
+  "verified_by": "agent: shapes transcribed from the p41 strip — independent and initial are the bare stroke (ا); medial and final are the stroke preceded by the connecting segment drawn on the line (ـا, U+0640 tatweel + alif, the book's own convention for a joined form); the strip was read at 300 dpi and matches the p42 handwriting examples. The name / transliteration / sound lines are the Unit 1 note's own content, unchanged (verified in the Unit 1 run against pp.16/25/26 renders and the AB3e video). Design (after the independent editor pass 2026-09-04): BOTH new facts ride in c1 with the glyph — the four positional shapes and 'connects to the letter after it? no' — because in opposite groups each derived the other (the visible shapes show no forward connector, so the c2 'connects?' blank was decodable; the visible pen rule gave away the joined final stroke). c2 stays name / transliteration / sound. The c1 span avoids the word 'alif' so it cannot leak the name on the c2 card, and keeps the book's own verb ('pick the pen up') — this keeps letter-rule L1 (c1/c2 only) intact; the playbook's c3 'Forms' shape would need L1 relaxed, a daytime rule change. Parker's margin comment asked for per-position flashcards; each position is a cued row here rather than a separate card, because per-position sibling clozes on one note would show the other shapes (card-rules #24) and alif has only two distinct shapes anyway. Judge pass 2026-09-04 (independent): PASS on both the c1 and c2 cards (no c1 span contains 'alif', 'aa' or 'long', so the c2 card cannot read the name off the shapes/pen rows); condition: the render look must include this note because a Latin ::hint on a glyph cloze has no Unit 1 precedent.",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "41",
+    "42"
+   ],
+   "figures": [
+    "work/arabic/night_20260904-0840-1_ev_p41_alif_shapes.png",
+    "work/arabic/page_16.png",
+    "work/arabic/page_25.png",
+    "work/arabic/page_26.png"
+   ],
+   "note": "p41 shapes strip (300 dpi crop) for the four positional forms; Unit 1's chart/sound-chart renders for the unchanged identity lines"
+  },
+  "image": null
+ }
+]

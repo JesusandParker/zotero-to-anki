@@ -1,0 +1,38 @@
+[
+ {
+  "Text": "The <b>resultant displacement</b> is {{c1::the vector sum of the individual displacements}}.",
+  "Back Extra": "Ex: \"In other words, the <b>resultant displacement</b> vector has a magnitude of 11.2 km and makes an angle θ = 27° with the positive x axis.\"<br><br>Distinguish: the resultant's magnitude is smaller than the plain sum of the leg lengths unless the legs point the same way — walking 10.0 km east then 5.0 km north gives an 11.2 km resultant, while 15 km is the distance traveled.<br><br>Cue: add the vectors tail-to-tip; the resultant is the arrow drawn from the tail of the first vector to the tip of the second.",
+  "source": "physics",
+  "segment": 3,
+  "from_idx": [
+   0
+  ],
+  "block": "A_vector_addition_resultant",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "agent: definition and every Back Extra number checked against PDF p72 (printed p51) via pdftotext (verified_against deliberately left null so the external-anchor flag stands — R35: an authored definition reaches Parker's eyes regardless of digit checks; ch2 external-lexicon shape) — the page's own words are \"The resultant displacement vector, DR, is the sum of the vectors D1 and D2\", DR = 11.2 km vs D1 + D2 = 15 km (the distance traveled), θ = 27°. Lexicon anchor kept external per ch2 precedent: lexicon.py --find's quote on p72 is the representation sentence (\"resultant displacement is represented by the arrow labeled DR in Fig\") — right page, right sense, but not a definition, so the in_source claim is not self-asserted (R37/R61 class); the authored answer agrees with the page's own definitional sentence. Editor pass 2026-09-03: Distinguish line re-grounded against the same page — added its equality qualifier (\"the equals sign applies only if the two vectors point in the same direction\") and replaced the line-initial pronoun with the noun.",
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "71"
+   ],
+   "figures": [
+    "figures/study/FIGURE_3_3_v2.png"
+   ],
+   "labels": [
+    "FIGURE 3-3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/home/parker/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_3_3_v2.png",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "resultant displacement",
+   "term_key": "result_displac",
+   "anchor": {
+    "method": "external"
+   }
+  },
+  "image_side": "back"
+ }
+]

@@ -1,6 +1,6 @@
 [
  {
-  "Text": "‎{{c1::ا}}<br><br>Name: {{c2::alif}}<br><br>Transliteration: {{c2::aa}}<br><br>Sound: {{c2::long vowel <i>aa</i> — ranges from <i>e</i> in <i>bet</i> to <i>a</i> in <i>father</i>}}",
+  "Text": "‎{{c1::ا}}<br><br>Name: {{c2::alif}}<br><br>Transliteration: {{c2::aa}}<br><br>Sound: {{c2::long vowel <i>aa</i> — ranges from <i>e</i> in <i>bet</i> to <i>a</i> in <i>father</i>}}<br><br>Connects to the letter after it? {{c1::no — always pick the pen up after it::yes/no}}<br><br>Shapes — independent, initial, medial, final:<br><br>‎{{c1::ا::independent}}<br><br>‎{{c1::ا::initial}}<br><br>‎{{c1::ـا::medial}}<br><br>‎{{c1::ـا::final}}",
   "Back Extra": "Distinguish: alif is a plain vertical stroke; laam is the same height but sweeps into a bowl at its base.<br><br>Shape: one bare upright stroke, no dots — the simplest letter on the chart.<br><br>Hook: alif is the exception — every other letter's name opens with its own sound, but alif is a long vowel and carries no consonant.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
   "source": "arabic",
   "segment": 1,
@@ -12,12 +12,19 @@
   ],
   "block": "A_letters",
   "numeric": false,
-  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_01_alif.mp4 + transliteration symbol read off the 'Transliteration symbol and sound' charts, printed pp.11-12 (physical pp.25-26)",
-  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename; transliteration transcribed from page renders 2026-08-27",
+  "verified_against": "p16 chart + p25/p26 sound charts (rendered) + AB3e official video arabic_pron_01_alif.mp4 + transliteration symbol read off the 'Transliteration symbol and sound' charts, printed pp.11-12 (physical pp.25-26) + Unit 2 extension 2026-09-04: pp.41-42 shapes strip and pen rule (see work/arabic/night_20260904-0840-1_alif_ext.json)",
+  "verified_by": "glyph/name/sound transcribed from page renders 2026-08-08; name cross-checked against publisher video filename; transliteration transcribed from page renders 2026-08-27; extended in place 2026-09-04 (night unit 20260904-0840-1) — see the extension file for the editor/judge record",
   "needs_human_check": false,
   "visual_source": "work/arabic/page_16.png; work/arabic/page_25.png; work/arabic/page_26.png",
   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/arabic/src_alphabet_chart_v3.png",
-  "image_side": "back"
+  "image_side": "back",
+  "from_idx_unit2_extension": {
+   "highlights": "work/arabic/night_20260904-0840-1_highlights.json",
+   "from_idx": [
+    4,
+    5
+   ]
+  }
  },
  {
   "Text": "‎{{c1::ب}}<br><br>Name: {{c2::baa}}<br><br>Transliteration: {{c2::b}}<br><br>Sound: {{c2::<i>b</i> as in <i>bet</i>}}",

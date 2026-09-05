@@ -1,0 +1,26 @@
+{
+ "run_id": "figures",
+ "source": "physics",
+ "segment": 3,
+ "stage": "figures",
+ "status": "complete",
+ "counts": {
+  "marks": 0,
+  "cards": 0,
+  "cards_placeable": 0,
+  "figures_indexed": 38,
+  "proposed": 1,
+  "judged": true,
+  "kept": 1,
+  "rejected": 0,
+  "attached_notes": 0,
+  "distinct_plates": 0,
+  "doubled": 0,
+  "leaks": 0
+ },
+ "anomalies": [
+  "figure count 38 vs baseline 13 \u2014 the index changed materially; confirm that was intended."
+ ],
+ "skill_sha": "cf26a2dbd8f03c03a0f725c263d5774b64bba45d",
+ "new_hazards_found": []
+}

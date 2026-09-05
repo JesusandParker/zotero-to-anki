@@ -1,0 +1,65 @@
+{
+ "run_id": "2026-09-04T09-03",
+ "source": "arabic",
+ "segment": 2,
+ "started": "2026-09-04T09:03:10",
+ "skill_sha": "cf26a2dbd8f03c03a0f725c263d5774b64bba45d",
+ "note": "Night unit 20260904-0840-1: 6 marks on physical pp.40-42 (printed 20-22), the alif section of Unit 2 — 1 purple (vowel quality, midword-fixed), 5 yellow incl. two margin comments (Drill 1 audio request; positional-form flashcards).",
+ "status": "complete",
+ "finished": "2026-09-04T09:35:15",
+ "counts": {
+  "marks": 6,
+  "marks_yellow": 5,
+  "marks_purple": 1,
+  "cards": 3,
+  "notes_written": 3,
+  "note_ids": [
+   1788528744775,
+   1788528745451,
+   1788528745769
+  ],
+  "notes_extended_in_place": 1,
+  "extended_note_ids": [
+   1786229797674
+  ],
+  "lexicon_cards": 1,
+  "dropped": 0,
+  "deferred_marks": 1,
+  "deferred_mark_keys": [
+   "NSNM2FEZ"
+  ],
+  "margin_comments": 2,
+  "figures_indexed": 0,
+  "figures_kept": 0,
+  "figures_rejected": 0,
+  "editor_rewrites": 4,
+  "judge_pass": 4,
+  "gate_warnings_cleared": 1,
+  "render_review": "looked at (work/arabic/night_20260904-0840-1_render_review.png): clean",
+  "media_audit": "all clear (120 notes, 121 refs)",
+  "live_sweep_unit2": "clean (17 cards)"
+ },
+ "new_hazards_found": [
+  {
+   "summary": "build_figure_index.py crashes (UnboundLocalError: 'base') on a segment that yields ZERO caption records — `base` is assigned inside the per-caption loop and read after it by strip_duplicate_art(). Arabic Unit 2 pp.40-42 is a scanned book with no FIGURE/TABLE captions, so the crash is the normal outcome for this source, and figure_run --report/--write-run cannot run without the index.",
+   "deferred": "left OPEN (red) for a daytime session: night runs do not edit shared gate code and commits are forbidden. Fix: hoist `base = os.path.join(S.SKILL, 'work', src['id'])` above the loop; add a test_figures.py case 'empty segment indexes to zero figures and writes an empty figure_index.json without crashing'."
+  },
+  {
+   "summary": "RECURRENCE of the 2026-09-03 hazard: night-unit highlights labels (night_<stamp>_highlights.json) are invisible to highlights_for() and to figure_run --preflight ('no highlights file'); every gate call tonight needed an explicit --highlights, and preflight reported a false blocker.",
+   "deferred": "same daytime item as last night: check_cards must refuse to STAMP a batch whose highlights file is unresolved; figure_run/preflight should accept --highlights."
+  },
+  {
+   "summary": "lexicon.py --find anchor QUALITY (second night in a row): the Tier-2 'TERM is …' frame accepted a USAGE sentence 82 pages away ('vowel quality is the easiest way to distinguish between س and ص', p122) while the book's real definition sits on the marked page in a reverse naming frame the finder has no pattern for ('we refer to these differences in pronunciation as vowel quality'). The drafter-side guard held (anchor kept external + flagged), but the gate's 'an in-source definition EXISTS — anchor to it' warning pushes the wrong way and has no structured place to record the clearance, so it recurs on every re-run. Also noted by the judge: an external-anchored card that WAS checked against the page cannot record that in verified_against without flipping the derived flag and tripping R35 — the null is forced by the machinery.",
+   "deferred": "daytime: add reverse naming frames ('we refer to … as TERM', 'is called TERM', 'known as TERM') to _def_patterns; exclude predicate-of-usage verbs ('is the easiest/best way to …'); add lexicon.py --self-test cases; consider a `cleared_warnings` card field the gate honours."
+  },
+  {
+   "summary": "Annotation page drift on the new 600-dpi scan (attachment SPRRWAP7): mark YKTUQ9YB ('Arabic also distinguishes vowel length') is stored at pageIndex 39 (physical p40) while its sentence is on physical p41, so the extractor reported grounding NOT_FOUND with an empty context; mark H34SH2F2 ('Writing', with a margin comment) matched the word 'writing' inside p42's 'after writing alif' while the Writing heading is on p41. Cards were re-grounded on page renders; no card impact.",
+   "deferred": "daytime: extract_highlights.py should retry the mark's text on pageIndex±1 before declaring NOT_FOUND (and record `found_on_page`); Parker may also re-drag the highlight in Zotero."
+  },
+  {
+   "summary": "Unattended Lingco harvest is impossible under the night session's permission policy: the documented route (AppleScript-driven Chrome on the Mac with a synchronous XMLHttpRequest) was blocked by the auto-mode classifier, so Parker's margin request for Drill 1 listen-and-answer audio cards (12 items) could not be fulfilled; nothing was guessed and no card was drafted for that mark. Side effect of the probe: Chrome was launched on the Mac (it was not running) and left at a new tab.",
+   "mechanizable": false,
+   "why": "a session permission policy, not a pipeline defect. Parker can either run the harvest in a daytime session (recipe in work/arabic/gen_unit2_drill1_cards.py) or grant a Bash allow rule for the ssh→osascript Chrome route so future nights can harvest Lingco."
+  }
+ ]
+}

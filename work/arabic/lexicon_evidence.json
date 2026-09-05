@@ -1,0 +1,15 @@
+{
+ "source": "arabic",
+ "produced_by": "lexicon.py",
+ "terms": {
+  "vowel_qual": {
+   "term": "vowel quality",
+   "method": "in_source",
+   "page": "122",
+   "quote": "vowel quality is the easiest way to distinguish between ‫ س‬and ‫ص‬ ‫ يَسير يَصير‬",
+   "page_distance": 82,
+   "far_from_mark": true,
+   "occurrences": 5
+  }
+ }
+}

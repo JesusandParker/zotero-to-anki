@@ -68,7 +68,7 @@
   },
   "arabic": {
    "label": "Arabic — Alif Baa: Introduction to Arabic Letters and Sounds, 3e (Brustad/Al-Batal/Al-Tonsi)",
-   "attachment_key": "HF2UEQIN",
+   "attachment_key": "SPRRWAP7",
    "kind": "textbook",
    "segment_noun": "Unit",
    "deck_root": "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I",
@@ -79,13 +79,14 @@
     "arabic-u{segment}"
    ],
    "glossary_pages": [
-    236,
-    250
+    248,
+    259
    ],
-   "notes": "RUN A UNIT VIA reference/arabic-unit-playbook.md (end-to-end sequence, guards, Lingco harvest recipe, letter-extension policy for Units 2-10). SCAN with English-only OCR: the text layer contains ZERO Arabic codepoints (verified 2026-08-08 across all 251 pages). Every Arabic-bearing card MUST carry visual evidence (back-side source crop) and/or external authority. Authoritative Unicode Arabic for course-overlapping content: Lingco Classroom lesson JSON (class.lingco.io /api/content/lessons/<id>; Unit 1 vocab = lesson 8174), snapshot in work/arabic/. Course = MSA (Formal) — dialect columns go to Back Extra, not their own cards. AUDIO DIALECTS: harvest and card Formal + shaami ONLY. Egyptian (maSri) audio is EXCLUDED on Parker's instruction 2026-09-03 (R61) — Khouri grades FuSHa and speaks Levantine, so an Egyptian clip on the back was a pronunciation he must not imitate sitting beside one he should. Guard: check_block_spec.py V4. RTL rules: stacked divs with dir attrs, never inline-mix Arabic+Latin, translit is answer-side only, diacritics ride carrier letters. Letter pron videos: local archive 'Anki Media Archive/Arabic - Al-Kitaab pronunciation'. Offset printed→physical is NOT constant (drifts +14→+17); map uses verified physical opener pages.",
+   "notes": "SOURCE SWITCHED 2026-09-04 to the 600 dpi scan (attachment SPRRWAP7, item built by bookscan) with Arabic+English OCR; the old digital copy HF2UEQIN stays in Zotero untouched. Highlights were migrated key-by-key (see processed-ledger). RUN A UNIT VIA reference/arabic-unit-playbook.md (end-to-end sequence, guards, Lingco harvest recipe, letter-extension policy for Units 2-10). SCAN (600 dpi, 2026-09-04, attachment SPRRWAP7) HAS a two-script text layer: Apple Vision English + Arabic merged per word, RTL words stored in visual order so pdf.js extracts them correctly. Arabic words from vocabulary tables and drills extract well; a lone Arabic letter inside an English sentence can still come out as a Latin look-alike, so a card built from a single letter MUST still carry visual evidence (back-side source crop) and/or external authority. Authoritative Unicode Arabic for course-overlapping content: Lingco Classroom lesson JSON (class.lingco.io /api/content/lessons/<id>; Unit 1 vocab = lesson 8174), snapshot in work/arabic/. Course = MSA (Formal) — dialect columns go to Back Extra, not their own cards. AUDIO DIALECTS: harvest and card Formal + shaami ONLY. Egyptian (maSri) audio is EXCLUDED on Parker's instruction 2026-09-03 (R61) — Khouri grades FuSHa and speaks Levantine, so an Egyptian clip on the back was a pronunciation he must not imitate sitting beside one he should. Guard: check_block_spec.py V4. RTL rules: stacked divs with dir attrs, never inline-mix Arabic+Latin, translit is answer-side only, diacritics ride carrier letters. Letter pron videos: local archive 'Anki Media Archive/Arabic - Al-Kitaab pronunciation'. Offset printed→physical is a CONSTANT +20 in the new PDF (20 front-matter sides; printed 4-5 present); map uses physical opener pages = printed + 20.",
    "excluded_audio_dialects": [
     "masri"
-   ]
+   ],
+   "attachment_key_old": "HF2UEQIN"
   },
   "lydia-anatomy": {
    "label": "Lydia — Exploring Creation with Advanced Biology: The Human Body (Shannon & Yunis, 2013)",

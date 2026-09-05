@@ -1,0 +1,23 @@
+{
+ "source": "physics",
+ "segment": 3,
+ "figures": [
+  {
+   "figure": "FIGURE 3-3",
+   "image": "/home/parker/.claude/skills/zotero-to-anki/work/physics/figures/study/FIGURE_3_3_v2.png",
+   "caption": "FIGURE 3 ; 3 A person walks 10.0 km east and then 5.0 km north. These two displacements are represented by the vectors D1 and D2, which are shown as arrows. Also shown is the resultant displacement vector, DR, which is the vector sum of D1 and D2. Measurement on the graph with ruler and protractor shows that DR has a magnitude of 11.2 km and points at an angle u = 27 north of east.",
+   "publisher_description": null,
+   "depicts": "An x-y coordinate graph (axes in km, compass labels North/South/East/West) showing a horizontal blue arrow D1 running 10 km east, a vertical blue arrow D2 rising 5 km north from D1's tip, and a long diagonal arrow from the origin to D2's tip explicitly labeled 'Resultant displacement, DR = D1 + D2', with the angle theta marked at the origin. The book's full caption block sits to the left: a person walks 10.0 km east then 5.0 km north; DR is the vector sum of D1 and D2; ruler-and-protractor measurement gives 11.2 km at 27 degrees north of east.",
+   "cards": [
+    {
+     "card_index": 0,
+     "tier": "teaches",
+     "coverage": null,
+     "text": "The <b>resultant displacement</b> is {{c1::the vector sum of the individual displacements}}.",
+     "verdict": "keep",
+     "why": "congruent by direct depiction, not mere adjacency: the plate draws the very quantity the card defines — the labeled 'Resultant displacement' arrow as the vector sum of two individual displacements — and its scenario IS the card's Ex:/Distinguish: content (10.0 east, 5.0 north, 11.2 km at theta=27). Back-side placement: the caption states the clozed answer verbatim, so it would leak on the front; on the back it is the part-and-whole view Parker asks for."
+    }
+   ]
+  }
+ ]
+}

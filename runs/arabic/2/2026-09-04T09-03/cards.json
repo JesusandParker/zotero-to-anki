@@ -1,0 +1,77 @@
+[
+ {
+  "Text": "<b>Vowel quality</b> is {{c1::which particular sound a vowel has}}.",
+  "Back Extra": "Ex: \"The pronunciation of alif has a similar range; we refer to these differences in pronunciation as <b>vowel quality</b>.\"<br><br>Distinguish: vowel <b>quality</b> is <i>which</i> sound the vowel is — the <i>e</i> of <i>bet</i>, the <i>a</i> of <i>bat</i>, the <i>u</i> of <i>but</i>; vowel <b>length</b> is <i>how long</i> the vowel is held.<br><br>Why: two things shift the quality of alif — the speaker's regional dialect (deeper, like <i>father</i>, in the Arabian Peninsula and Iraq; more frontal, toward the <i>e</i> of <i>bet</i>, in North Africa) and the surrounding consonants.",
+  "source": "arabic",
+  "segment": 2,
+  "from_idx": [
+   0
+  ],
+  "block": "L_lexicon",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "vowel quality",
+   "term_key": "vowel_qual",
+   "anchor": {
+    "method": "external"
+   }
+  },
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "agent: definition and every Back Extra claim checked against physical p40 (printed p20) — the mark's own context paragraph plus the page render (work/arabic/page_40.png). Anchor kept EXTERNAL on purpose: lexicon.py --find's only hit is p122 \"vowel quality is the easiest way to distinguish between س…\" — 82 pages from the mark, a sentence about USING the term, not a definition (R61 far_from_mark shape; same drafter-side guard as physics ch2/ch3). The book's actual definition sits on his own page in a frame the finder does not match: \"we refer to these differences in pronunciation as vowel quality\", where the differences are bet (front of the mouth) / bat (slightly lower) / but (low in the mouth). The authored answer agrees with that sentence. verified_against deliberately left null so the R35 external flag stands and the gloss reaches the Vocabulary block. Term corrected from the extractor's midword drag 'wel quality' to 'vowel quality' (term_raw preserved in the highlights file; surfaced at hand-off). One-way (word → meaning): an English phonetics term met in the English prose, not target-language vocabulary, so the language profile's production flip does not apply. Editor pass 2026-09-04 (independent): answer tightened from 'the kind of sound a vowel makes' to 'which particular sound a vowel has' so the front itself carries the discriminator against vowel length (check 30, faithful). lexicon_check external-with-evidence cleared (editor + judge, 2026-09-04): the p122 evidence quote is a usage sentence ('vowel quality is the easiest way to distinguish between س and ص'), 82 pages from the mark (R61 far_from_mark), with no definitional content for the authored answer to agree with — claiming in_source on it would be self-asserted (R37/R61); external + the derived flag is the honest tier.",
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "40",
+    "41"
+   ],
+   "figures": [
+    "work/arabic/page_40.png",
+    "work/arabic/night_20260904-0840-1_ev_p41_vowel_length.png"
+   ],
+   "note": "p40 render read for the definition sentence and the dialect/consonant factors; p41 paragraph crop read for the quality-vs-length contrast in the Distinguish line"
+  },
+  "image": null
+ },
+ {
+  "Text": "Besides vowel <i>quality</i>, Arabic also distinguishes vowel {{c1::length}}, and this too can change a word's meaning.",
+  "Back Extra": "Ex: <i>DHaalim</i> — a long alif in the first syllable, a short <i>i</i> in the second.<br><br>Distinguish: quality is <i>which</i> vowel sound you make (a frontal or a deep alif); length is <i>how long</i> you hold it — Arabic keeps track of both.<br><br>Cue: alif itself is a long vowel — the one you hear held in <i>DHaalim</i>.",
+  "source": "arabic",
+  "segment": 2,
+  "from_idx": [
+   1,
+   3
+  ],
+  "block": "D_system",
+  "numeric": false,
+  "verified_against": "physical p41 (printed p21) — the vowel-length paragraph, read from the 300 dpi render and present in p41's text layer (mark 3's context); mark 1's own text is the same sentence",
+  "verified_by": "agent: mark YKTUQ9YB (idx 1) is grounding NOT_FOUND because Zotero holds it at pageIndex 39 (physical p40) while its sentence \"In addition to vowel quality, Arabic also distinguishes vowel length, and this too can affect the meaning of a word\" is on physical p41 — confirmed on the p41 render (crop attached as evidence) and in idx 3's context, which this card also cites (Rule 0: same paragraph, one idea). Back Extra claims: DHaalim's long alif / short i and 'alif is a long vowel' are in idx 3's context; 'frontal vs deep alif' is on the p40 and p41 renders (Listening Exercise 1 heading; p41 first paragraph, which is idx 2's context). Editor pass 2026-09-04 (independent): the second blank ('meaning') was an open slot — a knower could also write 'stress' (true, and taught by the sibling card) or 'pronunciation' — so it is left visible as supporting context (checks 1, 18, 19); the marked span is 'Arabic also distinguishes vowel length', which stays the tested fact. Judge pass 2026-09-04 (independent): PASS; this grounding note corrected at its request.",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "41"
+   ],
+   "figures": [
+    "work/arabic/night_20260904-0840-1_ev_p41_vowel_length.png"
+   ],
+   "note": "paragraph crop from the 300 dpi p41 render — the NOT_FOUND mark's sentence, read visually"
+  },
+  "image": null
+ },
+ {
+  "Text": "In Arabic, word stress is attracted to the syllable with a {{c1::long::long or short}} vowel.",
+  "Back Extra": "Ex: <i>DHaalim</i> — the accent falls on the first syllable, the one with the long alif, not on the short <i>i</i> of the second.<br><br>Distinguish: vowel <i>length</i> is a property of one vowel (long or short); word <i>stress</i> is a property of the whole word (which syllable carries the accent).",
+  "source": "arabic",
+  "segment": 2,
+  "from_idx": [
+   3
+  ],
+  "block": "D_system",
+  "numeric": false,
+  "verified_against": "physical p41 (printed p21) — \"Notice that the stress or word accent in DHaalim is on the first syllable, the one with alif. Long vowels attract word stress in Arabic.\"",
+  "verified_by": "agent: stem and both Back Extra lines checked against idx 3's context and the p41 render; binary blank carries the forced-choice hint (card-rules #4/#13) Editor pass 2026-09-04 (independent): 'DHAA-lim' replaced with the book's own 'DHaalim' (capitals mark emphatic consonants in Alif Baa's system, so a capitalised vowel is an invented symbol — check 3); the restating Cue line replaced with a grounded Distinguish line (check 11). Judge pass 2026-09-04 (independent): PASS.",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null
+ }
+]

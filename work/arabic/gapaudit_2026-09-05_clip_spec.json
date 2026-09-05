@@ -1,0 +1,20 @@
+[
+ {"slug":"ab","date":"2026-09-03","s":440.60,"e":440.85,"expect":"أب","why":"9/3 00:07:20, 'Ab. So, Ab said' — the formal word for father"},
+ {"slug":"tuut","date":"2026-09-03","s":1449.26,"e":1449.95,"expect":"توت","why":"9/3 00:24:09, drill 4 word 2, the required word"},
+ {"slug":"baaba","date":"2026-08-25","s":3905.17,"e":3905.66,"expect":"بابا","why":"8/25 01:05:05, the first word she ever wrote on the board"},
+ {"slug":"abii","date":"2026-09-03","s":541.41,"e":542.03,"expect":"أبي","why":"9/3 00:09:01, 'the word becomes abii, my father'"},
+ {"slug":"abuuka_abuuki","date":"2026-09-03","s":4106.16,"e":4107.96,"expect":"أبوك أبوكي","why":"9/3 01:08:26, both genders in one breath"},
+ {"slug":"baat","date":"2026-09-03","s":2446.38,"e":2446.73,"expect":"بات","why":"9/3 00:40:46, contrasting long baat with short bat"},
+ {"slug":"baabii","date":"2026-09-03","s":1907.12,"e":1907.92,"expect":"بابي","why":"9/3 00:31:47, 'Babi, my door'"},
+ {"slug":"bil_arabi","date":"2026-09-03","s":3837.37,"e":3838.08,"expect":"بالعربي","why":"9/3 01:03:57, 'maa baab bil-carabi'"},
+ {"slug":"bil_inglizi","date":"2026-09-03","s":3810.66,"e":3811.84,"expect":"بالإنجليزي","why":"9/3 01:03:30, 'maa baab bil-ingliizi'"},
+ {"slug":"ayy","date":"2026-09-03","s":4189.16,"e":4189.68,"expect":"أي","why":"9/3 01:09:49, 'min ayy madiina'"},
+ {"slug":"taab","date":"2026-09-01","s":1001.55,"e":1002.23,"expect":"تاب","why":"9/1 00:16:41, drill 2 word 2"},
+ {"slug":"ahsant","date":"2026-08-27","s":4142.49,"e":4142.96,"expect":"أحسنت","why":"8/27 01:09:02, right after 'Good job!'"},
+ {"slug":"tuubuu","date":"2026-09-01","s":2710.78,"e":2711.47,"expect":"توبوا","why":"9/1 00:45:10, the plural verb she built on the board"},
+ {"slug":"yalla","date":"2026-09-03","s":3991.28,"e":3991.80,"expect":"يلا","why":"9/3 01:06:31, 'yalla, who wants to ask me a question'"},
+ {"slug":"umm","date":"2026-09-03","s":2922.74,"e":2923.13,"expect":"أم","why":"9/3 00:48:42, her alif+hamza+Damma example"},
+ {"slug":"ana_min_suuriya","date":"2026-09-03","s":3975.77,"e":3977.24,"expect":"أنا من سوريا","why":"9/3 01:06:15, her model answer to Parker"},
+ {"slug":"maa_ism_abuuki","date":"2026-09-03","s":4299.02,"e":4300.88,"expect":"ما اسم أبوكِ","why":"9/3 01:11:39, the question she asked the room"},
+ {"slug":"ahsant_kyle","date":"2026-08-27","s":4156.02,"e":4156.97,"expect":"أحسنت كايل","why":"8/27 01:09:16, aHsant used on a student by name"}
+]

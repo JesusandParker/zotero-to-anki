@@ -8,7 +8,7 @@ storage gate green, Parker's eyes found five rounds of defects.** The playbook's
 is that the guards see what he sees, first.
 
 ## 0. Facts you would otherwise rediscover slowly
-- **The PDF is a scan with ZERO Arabic in its text layer** (all 251 pages). Prose cards
+- **The PDF (600 dpi scan, attachment SPRRWAP7, since 2026-09-04) HAS Arabic in its text layer** (English + Arabic OCR merged per word; the old copy had none). Prose cards
   ground normally; anything Arabic grounds on page renders + external authority.
 - **Publisher Unicode + official audio come from Lingco** (`class.lingco.io`, course 4839
   "Alif Baa: Independent Learners", joined with code `ec098d5`). Per lesson:
@@ -34,8 +34,9 @@ is that the guards see what he sees, first.
   `work/arabic/media/arabic_pron_NN_<name>.mp4`, lowercase).
 - **Book-name transliteration is canon** (siin, shiin, Saad, DHaa, cayn…) — video filenames
   disagree (seen/sheen/ha); cards follow the BOOK.
-- Segment map is physical-page verified (`reference/maps/arabic.json`); the printed→physical
-  offset DRIFTS (+14→+17), so never compute pages from printed numbers.
+- Segment map (`reference/maps/arabic.json`) is in the new PDF's physical pages; there the
+  printed→physical offset is a CONSTANT +20 (20 front-matter sides, printed 4-5 present).
+  The old copy's offset drifted (+14→+17); that copy is no longer the source.
 - Deck: `all::LIBERTY::…::ARAB 101 - Elementary Arabic I::Unit {N}::Book Highlights`
   (one deck; the `claude review` staging sibling was removed 2026-08-24).
   Model `AnKing Cloze`; `Audio` field exists.

@@ -577,6 +577,15 @@
     "segment": 2,
     "definition": "a quantity having both size and direction"
    }
+  ],
+  "vowel_qual": [
+   {
+    "term": "vowel quality",
+    "noteId": 1788528744775,
+    "source": "arabic",
+    "segment": 2,
+    "definition": "which particular sound a vowel has"
+   }
   ]
  }
 }

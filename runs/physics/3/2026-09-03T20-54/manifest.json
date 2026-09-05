@@ -1,0 +1,29 @@
+{
+ "run_id": "2026-09-03T20-54",
+ "source": "physics",
+ "segment": 3,
+ "started": "2026-09-03T20:54:29",
+ "skill_sha": "cf26a2dbd8f03c03a0f725c263d5774b64bba45d",
+ "note": "Night unit 20260903-2046-1: 1 purple mark (resultant displacement, PDF p72 / printed p51). Lexicon lane only; no yellow marks in scope.",
+ "status": "blocked-anki-closed",
+ "finished": "2026-09-03T22:20:10",
+ "counts": {
+  "marks": 1,
+  "cards": 1,
+  "notes_written": 0,
+  "figures_kept": 1,
+  "figures_rejected": 0,
+  "lexicon_cards": 1,
+  "dropped": 0
+ },
+ "new_hazards_found": [
+  {
+   "summary": "Night-unit file labels break highlights_for() discovery: check_cards STAMPED a lexicon batch with grounding/synthetic/lexicon checks silently skipped (R35's literal BAD shape — external anchor, needs_human_check false — got a green stamp on the first invocation), and verify_report had cleared that flag because verified_against was set on an external-anchored lexicon card (its 'the two scripts agree by construction' comment is false for that shape). Caught in-run: re-ran both with explicit --highlights and restored the ch2 external shape (verified_against null, digit checks in verified_by prose).",
+   "deferred": "deliberately left OPEN (red) for a daytime session: night runs do not edit shared gate code (genetics unit 2 may run on these scripts tonight) and commits are forbidden. Proposed mechanization: (a) check_cards refuses to STAMP any batch whose highlights file is unresolved (stamp only what was fully checked; --no-grounding stays available for diagnostics); (b) verify_report treats lex_external as unverifiable-by-page (flag stays true regardless of verified_against); (c) regression pair — BAD: external lexicon card + verified_against set + unresolved highlights must not stamp clean; GOOD: same card with --highlights passed and flag true stamps with the adjudicable warning only."
+  },
+  {
+   "summary": "lexicon.py --find Tier-1 'definition-shaped' pattern accepts passive representation verbs — 'resultant displacement is represented by the arrow labeled DR in Fig' became in_source evidence — and cannot cross an appositive, so the SAME PAGE's true definitional sentence ('The resultant displacement vector, DR, is the sum of the vectors D1 and D2') was missed. R61 fixed anchor PROXIMITY; this is anchor QUALITY. The drafter-side guard held tonight exactly as in ch2 (quote judged not-a-definition -> anchor kept external + flagged), and editor #30's agree-with-the-quote check is the semantic backstop.",
+   "deferred": "deliberately left OPEN (red) for the same daytime session: proposed mechanization is a representation-verb exclusion (represented/shown/illustrated/drawn/indicated + 'by') in _def_patterns Tier-1, an optional appositive-crossing form (term + ', <short apposition>,' + is/are), and lexicon.py --self-test cases for both; would have promoted tonight's anchor to a LEGITIMATE in_source with the real definitional quote."
+  }
+ ]
+}
