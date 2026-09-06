@@ -55,6 +55,8 @@ h1{font-family:"Newsreader",Georgia,serif;font-size:2rem;line-height:1.1;margin:
 .card{background:var(--panel);border:1px solid var(--rule);border-radius:10px;
   padding:1rem 1.1rem;margin-bottom:.7rem;transition:border-color .15s,box-shadow .15s}
 .card[data-v="good"]{border-color:var(--good);box-shadow:inset 3px 0 0 var(--good)}
+.card.fresh{border-color:var(--ink-accent)}
+.tagnew{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:.6rem;letter-spacing:.09em;text-transform:uppercase;padding:.12em .45em;border-radius:3px;background:var(--ink-accent);color:var(--panel);margin-left:.5rem;vertical-align:.15em}
 .card[data-v="bad"]{border-color:var(--bad);box-shadow:inset 3px 0 0 var(--bad)}
 .card.cur{outline:2px solid var(--ink-accent);outline-offset:2px}
 
@@ -169,16 +171,17 @@ function cardHTML(w,i){
       <span class="tri">▶</span><span>${c.dur??""}s</span><span class="who">${c.label}</span>
     </button>`).join("");
   const heard = w.clips.map(c=>`<div><span class="k">whisper heard</span> ar ${c.ar?`“${c.ar}”`:"—"} · en ${c.en?`“${c.en}”`:"—"}</div>`).join("");
-  return `<div class="card" data-i="${i}" data-slug="${w.slug}">
+  const fresh = /^REPLACED — /.test(w.where||"");
+  return `<div class="card${fresh?' fresh':''}" data-i="${i}" data-slug="${w.slug}">
     <div class="top">
       <div class="word">
         ${w.ar?`<p class="wordar">${w.ar}</p>`:""}
         ${w.tr?`<p class="wordtr">${w.tr}</p>`:""}
-        <p class="wordmean">${w.mean}</p>
+        <p class="wordmean">${w.mean}${fresh?'<span class="tagnew">recut</span>':''}</p>
       </div>
       <div class="play">${clips}</div>
     </div>
-    <div class="heard">${heard}<div><span class="k">from</span> ${w.where||""}</div></div>
+    <div class="heard">${heard}<div><span class="k">${fresh?'why it changed':'from'}</span> ${(w.where||"").replace(/^REPLACED — /,"")}</div></div>
     <div class="verdict">
       <button class="vbtn g" data-v="good" aria-pressed="false">✓ Sounds right</button>
       <button class="vbtn b" data-v="bad" aria-pressed="false">✗ Something’s off</button>
@@ -283,9 +286,10 @@ html_out = f"""<title>Khouri Clip Check</title>
 <main>
 <header>
   <p class="eyebrow">ARAB 101 &middot; Dr. Khouri &middot; audio check</p>
-  <h1>Does she actually say the word?</h1>
-  <p class="lede">Every clip on your new cards, in one place. Play it, then tell me if it sounds right.
-  If it doesn&rsquo;t, say what&rsquo;s wrong and I&rsquo;ll recut it from the recording. Your answers save as you go.</p>
+  <h1>Round two: the recut clips</h1>
+  <p class="lede">The nine words you rejected or that had no audio, now cut from her own voice and sitting first.
+  Everything you already passed is below them, unchanged. Same deal: play it, and if it&rsquo;s wrong say what&rsquo;s
+  wrong. Your answers save as you go.</p>
 </header>
 <div class="bar">
   <div class="track"><div class="fill" id="fill"></div></div>
@@ -293,10 +297,12 @@ html_out = f"""<title>Khouri Clip Check</title>
   <div class="savestate" id="savestate">&hellip;</div>
 </div>
 <div id="list"></div>
-<h2>No clip to check</h2>
-<p class="sub">These {sum(1 for w in D['words'] if not w['clips'])} cards ship silent on purpose. She only ever says these
-words inside a running English sentence, and the book has no isolated recording, so I attached nothing rather than
-something doubtful. If you want a voice on any of them, say which and I&rsquo;ll find one.</p>
+<h2>Still silent</h2>
+<p class="sub">These {sum(1 for w in D['words'] if not w['clips'])} still have nothing attached. <b>thawb</b> and <b>thawaab</b> were searched
+hard this round &mdash; about 1,600 candidate cuts each &mdash; and she genuinely never says either one apart from the sentence
+around it. <b>SaHH</b> is the interesting one: a cut matches the Arabic exactly, but the English pass reads it as
+&ldquo;so&rdquo;, and I cannot tell from here whether that is her Arabic word or the start of an English sentence, so I left it
+off rather than guess. The rest are concept cards with nothing to pronounce.</p>
 <div id="noaudio"></div>
 <p class="hint"><kbd>J</kbd> / <kbd>K</kbd> move &middot; <kbd>Space</kbd> plays &middot; <kbd>G</kbd> sounds right &middot; <kbd>B</kbd> something&rsquo;s off</p>
 </main>

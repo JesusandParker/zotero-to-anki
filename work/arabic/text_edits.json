@@ -1,0 +1,22 @@
+{
+ "baat": {
+  "append": "Ex: the book's own recording, for comparison [sound:arabic_vocab_u2_le3_baat.mp3]",
+  "why": "her voice moves to the Audio field; the publisher clip stays available on the back"
+ },
+ "taabuut": {
+  "append": "Ex: the book's own recording, for comparison [sound:arabic_vocab_u2_le6_taabuut.mp3]",
+  "why": "same — nothing is lost, her voice just becomes the one that plays on flip"
+ },
+ "harf": {
+  "append": "Ex: she says it as a phrase, never alone — the clip is her <i>Harf waaw</i>, \"the letter waaw\".",
+  "why": "the clip is the phrase, so the card should say so rather than imply the bare word"
+ },
+ "sahh": {
+  "append": "Ex: the clip catches her questioning tone — <i>SaHH?</i>, \"right?\" — which is the second use above.",
+  "why": "the recovered clip has the rising intonation"
+ },
+ "maa_ism_abuuka": {
+  "append": "Ex: the same question to a woman, in her voice [sound:arabic_khouri_maa_ism_abuuki.mp3]",
+  "why": "the Audio field now carries the MASCULINE question; the feminine clip moves to the back so both are available"
+ }
+}

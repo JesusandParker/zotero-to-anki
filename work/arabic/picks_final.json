@@ -1,0 +1,83 @@
+[
+ {
+  "slug": "baat",
+  "date": "2026-09-03",
+  "s": 2445.04,
+  "e": 2445.73,
+  "file": "arabic_khouri_baat.mp3",
+  "expect": "بات",
+  "why": "HER voice at 3 Sep 00:40:45, inside her long-vs-short contrast. Replaces the publisher clip Parker rejected."
+ },
+ {
+  "slug": "taabuut",
+  "date": "2026-09-03",
+  "s": 1501.575,
+  "e": 1502.965,
+  "file": "arabic_khouri_taabuut.mp3",
+  "expect": "تابوت",
+  "why": "HER voice at 3 Sep 00:25:01 while correcting the drill. Replaces the publisher clip Parker rejected."
+ },
+ {
+  "slug": "yalla",
+  "date": "2026-09-03",
+  "s": 3991.125,
+  "e": 3991.695,
+  "file": "arabic_khouri_yalla_v2.mp3",
+  "expect": "يلا",
+  "why": "3 Sep 01:06:31, 0.57s instead of 0.40s plus more lead-in — Parker called the first cut unnaturally quick."
+ },
+ {
+  "slug": "tuubuu",
+  "date": "2026-09-01",
+  "s": 2710.45,
+  "e": 2711.63,
+  "file": "arabic_khouri_tuubuu.mp3",
+  "expect": "توبوا/توبو",
+  "why": "1 Sep 00:45:10. This card had no audio at all before."
+ },
+ {
+  "slug": "harf",
+  "date": "2026-09-01",
+  "s": 2037.08,
+  "e": 2037.86,
+  "file": "arabic_khouri_harf_waaw.mp3",
+  "expect": "حرف و/حرف",
+  "why": "1 Sep 00:33:57. She says it as the PHRASE Harf waaw, never alone — the card will say so."
+ },
+ {
+  "slug": "umm",
+  "date": "2026-09-03",
+  "s": 2922.66,
+  "e": 2923.43,
+  "file": "arabic_khouri_umm_v2.mp3",
+  "expect": "ام/أم",
+  "why": "3 Sep 00:48:42, 0.77s instead of 0.39s. Parker doubted the short one; this gives more to judge."
+ },
+ {
+  "slug": "tashkiil",
+  "date": "2026-09-03",
+  "s": 2674.49,
+  "e": 2675.18,
+  "file": "arabic_khouri_tashkiil.mp3",
+  "expect": "تشكيل",
+  "why": "3 Sep 00:44:34, from 'tashkiil means everything, all short vowels'. Had no audio before."
+ },
+ {
+  "slug": "maa_ism_abuuka",
+  "date": "2026-09-03",
+  "s": 4071.275,
+  "e": 4074.175,
+  "file": "arabic_khouri_maa_ism_abuuka.mp3",
+  "expect": "ما اسم ابوك",
+  "why": "3 Sep 01:07:51 — the MASCULINE question Parker said was missing, the first time she asks it. 2.9s including her natural pause between 'maa ism' and 'abuuka'. Chosen over the 01:08:01 repeat (3.5s) because it is shorter and its English pass reads as a correct translation of the question rather than a mishearing."
+ },
+ {
+  "slug": "dimashq",
+  "date": "2026-08-27",
+  "s": 4264.4,
+  "e": 4265.28,
+  "file": "arabic_khouri_dimashq.mp3",
+  "expect": "دمشق/دماشق",
+  "why": "27 Aug 01:11:04, 'in Arabic we say Dimashq'. Both passes agree exactly (ar='دمشق' en='Dimashq'). Had no audio before; my first search missed it only because I was matching the wrong spelling."
+ }
+]
