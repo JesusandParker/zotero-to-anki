@@ -183,3 +183,43 @@ on anything ambiguous. What was new:
   `khouri_thursday_write.py` (own preset "Khouri Thursday cram": new/day 40, bury-new off,
   so clicking the deck itself serves all 28 cards before class; from the root the Liberty
   12/day cap still applies, so the cards are also queued first at due 2028475+).
+
+## 7. Units 2-10: the letter lane has TWO halves, and only one of them is new (2026-09-11)
+
+Unit 2's run settled how the letters are handled from here on, and the answer is not the one
+§2 implied:
+
+- **The INDEPENDENT form is already carded.** Every letter's Unit 1 note is
+  `‎{{c1::<glyph>}}` + `Name:`/`Transliteration:`/`Sound:` in c2 — which already makes him
+  produce the isolated glyph from name+sound. A "Position: independent" note repeats that
+  retrieval, and its reverse card asks a position that a lone glyph answers by itself
+  (card-rules #20). Seven such notes were drafted and dropped in Unit 2.
+- **The CONNECTED forms are the new work.** One note per (letter x position) for initial,
+  medial and final, two-way, with the book's own printed Writing row on the back as the
+  roster. Block `A_letter_forms`; rules `F1`-`F4` in `check_block_spec.py` hold the shape
+  (per-position, two-way, one shape per note, plate present).
+- **The six non-connectors** (ا د ذ ر ز و) have no initial or medial form distinct from the
+  independent one, so they contribute exactly ONE connected note (`ـو`-shaped), not four.
+  alif contributes none in Unit 2 — the 2026-09-04 night run put all four of its shapes on
+  the live alif note already.
+- **The connector property itself** (`Connects to the letter after it?`) is an append-only
+  extension of the live letter note, never a new note. alif carries it; waaw was given the
+  matching line in Unit 2. Use `work/arabic/extend_waaw_u2.py` as the template — it refuses
+  any edit that is not a pure append and consults the authorship guard first.
+- **Every letter note's Back Extra is `edited`** in the authorship store — Parker's own work.
+  Content that belongs on a letter (a mnemonic he liked, say) must ride on notes THIS
+  pipeline authors, e.g. that letter's form notes. Unit 2's "two dots on top" hook did.
+
+### Cropping the printed Writing row
+`find_crop_boxes.py` masks a pale TABLE FILL and cannot see these rows, which are saturated
+red glyphs on white. `work/arabic/u2/find_red_bands.py` measures them instead; the row always
+sits directly under the red "Writing" heading, whose band is ~131 px wide at 200 dpi.
+Two traps, both hit:
+- grow the measured box in **PIXELS**, not page fractions — 0.012 of the page height is ~53 px
+  at 400 dpi and swallows the heading above, after which the no-clip assertion reports the
+  HEADING being clipped and sends you widening a box that was already correct;
+- mask and trim on the object's **own ink colour** (red), not all ink, or a neighbouring
+  black paragraph defines the bbox;
+- the scan is duplex, so the raw crop carries the reverse side's **bleed-through**, which
+  Parker's figure bar forbids. Composite the red over flat paper (`make_form_crops.redonly`).
+  No storage check sees this — only the contact sheet does.

@@ -368,3 +368,39 @@ own voice; 6 gate-suspended notes unlocked; 2 stale lines repaired.
   before matching (already in the playbook — reconfirmed, and the page's `fetch` is wrapped by their
   SPA so a plain `fetch` from the page context throws; navigate to the asset URL and read the
   redirect instead).
+
+## 2026-09-11 — Arabic Unit 2, full run (35 notes + 1 letter-note extension)
+
+**What he asked for:** run the pipeline over the whole of Unit 2, now that he had finished
+reading it; he thought he might already have made "a couple of flashcards" from it. He had:
+three concept cards and the alif positional extension, from the 2026-09-04 night run.
+
+**Margin comments, all honored:** four separate asks for per-position letter cards ("I want all
+the letters and all of their positions in Anki"), the "two dots on top" mnemonic he liked, the
+honking-horn analogy for yaa, and "can we add this to the vocab parts of anki?" on برافو. One
+could not be honored — see below.
+
+**What this run changed in the canon:**
+- **R62** (new): an `in_source` / `glossary` lexicon anchor must DEFINE the word, not merely
+  contain it. Both of Unit 2's in-source anchors were occurrences — one a footnote fragment,
+  one a sentence about where the marks are printed. `check_cards._non_definitional_quote`,
+  5 regression cases, fixtures in `work/_regression/lexicon_evidence.json`.
+  This also **closed a hazard deferred three runs running** (physics ch3 2026-09-03, arabic
+  2026-09-04): the same anchor-quality class, recorded twice and mechanized neither time. R62
+  covers the dangerous half (a wrong anchor being accepted); the finder-side half (reverse
+  naming frames, appositive crossing, so the RIGHT definition is found) is still open and is
+  noted as `residual` on both manifests.
+- **F1-F4** in `check_block_spec.py`: the letter-form lane's shape, with a bad fixture.
+
+**Two defects that only a LOOK caught, both worth remembering:**
+1. The first letter plates carried **reverse-side bleed-through** from the duplex scan. Every
+   storage check was green; the contact sheet showed it instantly. Parker's bar names this
+   ("page-text bleed never ships"). Fixed by compositing the plate's own red ink over flat paper.
+2. A page-**fraction** grow on a measured crop box swallowed the neighbouring "Writing"
+   heading, and the no-clip assertion then reported the HEADING being clipped — which points
+   you at widening a box that was already right. Grow in pixels; mask on the object's own ink.
+
+**Judgement worth keeping:** the independent form of a letter is NOT new content in Units 2-10.
+Each letter's Unit 1 note already makes him produce the isolated glyph from name+sound, so a
+"Position: independent" note is the same retrieval with a different cue, and its reverse card
+asks something a lone glyph answers by itself. Seven drafted notes were dropped on this basis.
