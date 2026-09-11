@@ -120,18 +120,20 @@
  {
   "block": "D_system",
   "from_idx": [
-   25
+   25,
+   32
   ],
   "visual_source": {
    "figures": [
-    "work/arabic/u2/mark25_p53.png"
+    "work/arabic/u2/mark25_p53.png",
+    "work/arabic/u2/mark32_wide.png"
    ],
-   "note": "the marked sentence names the three consonants in Arabic script; the OCR returned them as garbage, so they were read off the page"
+   "note": "both marked sentences name their consonants in Arabic script and the OCR returned garbage for both; read off the rendered pages"
   },
-  "verified_against": "rendered p53 (printed 35), the marked sentence itself",
-  "verified_by": "visual read of the mark's own crop",
-  "Text": "The consonants the book names as frontal ones, which give fatHa its frontal <i>e</i>-as-in-<i>bet</i> quality, are {{c1::baa, taa and thaa}}.",
-  "Back Extra": "Cue: all three share one skeleton and differ only in their dots — and all three are frontal.<br><br>Pitfall: the book does not name the same set for every short vowel — check which vowel the question is about before you answer.",
+  "verified_against": "the marked sentences on rendered p53 (printed 35) and p55 (printed 37)",
+  "verified_by": "visual read of both marks' own crops",
+  "Text": "Of the consonants Unit 2 teaches, the frontal ones — the ones that pull a neighbouring short vowel toward the front of the mouth — are {{c1::baa, taa and thaa}}.",
+  "Back Extra": "Cue: all three share one skeleton and differ only in their dots — and all three are frontal.<br><br>Pitfall: the book names these as EXAMPLES of frontal consonants, not as the complete set — Arabic also has deep (emphatic) consonants, which pull the same vowel the other way.",
   "source": "arabic",
   "segment": 2,
   "numeric": false,
@@ -200,27 +202,6 @@
   "verified_against": "the marked sentence(s) on rendered p55 (printed 37)",
   "verified_by": "read off the page render at 200 dpi (the scan's Arabic OCR is unreliable)",
   "visual_source": null,
-  "image": null
- },
- {
-  "block": "D_system",
-  "from_idx": [
-   32
-  ],
-  "visual_source": {
-   "figures": [
-    "work/arabic/u2/mark32_wide.png"
-   ],
-   "note": "same OCR failure as the fatHa sentence — the two letters were read off the rendered page"
-  },
-  "verified_against": "rendered p55 (printed 37), the marked sentence itself",
-  "verified_by": "visual read of the mark's own crop",
-  "Text": "The frontal consonants the book names for kasra, which give it a frontal quality, are {{c1::taa and thaa}}.",
-  "Back Extra": "Pitfall: this is the kasra list, and it is not the same length as the fatHa one — read which vowel is being asked about.",
-  "source": "arabic",
-  "segment": 2,
-  "numeric": false,
-  "needs_human_check": false,
   "image": null
  },
  {

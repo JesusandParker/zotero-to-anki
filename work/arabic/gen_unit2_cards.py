@@ -98,18 +98,21 @@ add(block="D_system", from_idx=[22, 24, 26],
                       "<i>a</i> of <i>father</i>, fatHa's is the short <i>u</i> of <i>but</i>. Same "
                       "colour, different length.")})
 
-add(block="D_system", from_idx=[25],
-    visual_source={"figures": ["work/arabic/u2/mark25_p53.png"],
-                   "note": "the marked sentence names the three consonants in Arabic script; "
-                           "the OCR returned them as garbage, so they were read off the page"},
-    verified_against="rendered p53 (printed 35), the marked sentence itself",
-    verified_by="visual read of the mark's own crop",
-    Text=("The consonants the book names as frontal ones, which give fatHa its frontal "
-          "<i>e</i>-as-in-<i>bet</i> quality, are {{c1::baa, taa and thaa}}."),
+add(block="D_system", from_idx=[25, 32],
+    visual_source={"figures": ["work/arabic/u2/mark25_p53.png",
+                               "work/arabic/u2/mark32_wide.png"],
+                   "note": "both marked sentences name their consonants in Arabic script and the "
+                           "OCR returned garbage for both; read off the rendered pages"},
+    verified_against="the marked sentences on rendered p53 (printed 35) and p55 (printed 37)",
+    verified_by="visual read of both marks' own crops",
+    Text=("Of the consonants Unit 2 teaches, the frontal ones — the ones that pull a "
+          "neighbouring short vowel toward the front of the mouth — are "
+          "{{c1::baa, taa and thaa}}."),
     **{"Back Extra": ("Cue: all three share one skeleton and differ only in their dots — and all "
                       "three are frontal.<br><br>"
-                      "Pitfall: the book does not name the same set for every short vowel — check "
-                      "which vowel the question is about before you answer.")})
+                      "Pitfall: the book names these as EXAMPLES of frontal consonants, not as the "
+                      "complete set — Arabic also has deep (emphatic) consonants, which pull the "
+                      "same vowel the other way.")})
 
 add(block="D_system", from_idx=[29],
     Text=("fatHa is written as {{c1::a short, slanted line segment}} "
@@ -142,17 +145,6 @@ add(block="D_system", from_idx=[31],
           "{{c1::<i>i</i> as in <i>bit</i>}}."),
     **{"Back Extra": ("Why: as with fatHa and Damma, the surrounding consonants decide the exact "
                       "sound.")})
-
-add(block="D_system", from_idx=[32],
-    visual_source={"figures": ["work/arabic/u2/mark32_wide.png"],
-                   "note": "same OCR failure as the fatHa sentence — the two letters were "
-                           "read off the rendered page"},
-    verified_against="rendered p55 (printed 37), the marked sentence itself",
-    verified_by="visual read of the mark's own crop",
-    Text=("The frontal consonants the book names for kasra, which give it a frontal quality, "
-          "are {{c1::taa and thaa}}."),
-    **{"Back Extra": ("Pitfall: this is the kasra list, and it is not the same length as the fatHa "
-                      "one — read which vowel is being asked about.")})
 
 add(block="D_system", from_idx=[33],
     Text=("The name <i>kasra</i> means {{c1::\"break\"}}, and it refers to your mouth being "

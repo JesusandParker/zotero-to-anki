@@ -1039,3 +1039,16 @@ real definition, and it must NOT be flagged.
 - **MUST CATCH:** a rect at the CropBox origin must map to the CropBox offset in pixels, not to `(0,0)`.
 - **MUST NOT OVER-FLAG:** on a page whose CropBox equals its MediaBox the new math must return exactly what the old naive math returned (asserted in the self-test), so no existing source's crops move.
 - **Scope note:** this has never produced a bad card, because neither carded genetics chapter contains a `kind: image` area-selection mark. It would have fired the first time Parker area-selected a figure in this book.
+
+## R65 — `addNote` returned an id and the note was not there: the writer never read back what it wrote
+**Rule:** a write is not done until it is read back (the doctrine R45 already applies to media). **Caught by:** `anki_write.py`'s post-write verify, which exits nonzero and names the card indices to re-add. Found 2026-09-11 on genetics ch10.
+
+`anki_write.py` printed **`added: 78/78`** and wrote 78 ids into the run's `provenance.jsonl`. The deck held **77 notes / 124 cards**. Card #18's returned id `1789129021398` resolved to `{}` through `notesInfo`; no note anywhere in the collection carried its text; `canAddNotesWithErrorDetail` said the identical note could be added again. So the id was real enough to return and the note never persisted — and **every artifact in the repo claimed the card had shipped**, including the provenance link that `run_store.py trace` reads.
+
+The card was the AT-vs-GC hydrogen-bond card (`U3_at_gc_denaturation`, marks 25) — one of the chapter's genuinely testable facts, silently absent from Parker's deck.
+
+- **BAD:** trusting the return value. `nid = call("addNote", ...)`; `if nid: note_ids.append(...)`; report `added += 1`. Truthful about the API call, silent about the collection.
+- **GOOD:** after the loop, `notesInfo` on every returned id; any id that does not come back is a hard failure that names the card indices to re-add.
+- **MUST CATCH:** a returned id that does not resolve → nonzero exit, the card index printed.
+- **MUST NOT OVER-FLAG:** a normal run where every id resolves prints one verified line and exits 0; `--dry-run` writes nothing and skips the check.
+- **Related:** this is the third appearance of the same shape in this repo — R45 (media bytes stored under a name, never retrieved back), the 2026-08-15 retirement gap (a rule written, the live card never checked), and now the writer itself. Verify the SURFACE, not the call.

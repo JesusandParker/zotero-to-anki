@@ -293,6 +293,30 @@ def main():
     if not args.dry_run:
         authorship.save(source_id or "unknown", own)
 
+    # --- Verify after write: a note you didn't read back may not exist ---------
+    #
+    # `addNote` returning an id is not proof the note persisted. On genetics ch10
+    # (2026-09-11) this writer printed "added: 78/78" while the collection held 77:
+    # one returned id — 1789129021398 — resolved to `{}` through notesInfo, no
+    # duplicate of its text existed anywhere, and `canAddNotes` said the same note
+    # could be added again. The card was silently missing from Parker's deck while
+    # every artifact in the repo said it shipped. Same doctrine the media path
+    # already follows (R45): a store you didn't verify didn't happen.
+    if not args.dry_run and note_ids:
+        want = [n for _, n in note_ids]
+        info = call("notesInfo", notes=want) or []
+        got = {r.get("noteId") for r in info if isinstance(r, dict) and r.get("noteId")}
+        lost = [(i, n) for i, n in note_ids if n not in got]
+        if lost:
+            print(f"  VERIFY FAILED: {len(lost)} of {len(want)} note(s) do not resolve "
+                  f"after the write — addNote returned an id but the note is not in the "
+                  f"collection (R65). Re-add these card indices: "
+                  f"{[i for i, _ in lost]}")
+            for i, n in lost:
+                print(f"    card #{i}: returned noteId {n} -> missing")
+            sys.exit(1)
+        print(f"  verified: all {len(got)} written note(s) resolve in the collection")
+
     # --- Containment: cards that are not Parker's -----------------------------
     # A registered source can belong to someone else (his sister's textbooks live
     # in a shared Zotero group, registry field `owner`). Those cards are written
