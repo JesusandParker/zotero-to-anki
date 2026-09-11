@@ -22,21 +22,26 @@
   "figures_forced_by_judge": 20,
   "dropped_cards": 1,
   "blocks": 58,
-  "needs_human_check": 7
+  "needs_human_check": 7,
+  "notes_re_added_after_verify": 1
  },
  "new_hazards_found": [
   {
-   "summary": "a page PNG's pixels are MediaBox-relative (pdftoppm) while a Zotero/pdf.js/PyMuPDF rect is CropBox-relative, so scaling a rect by dpi/72 mis-crops by the CropBox origin — 36 pt / 225 px on this book. It made my first cuts of FIGURE 10.28/10.29/10.30 include the running head and clip labels, and the same latent bug sits in render_page.crop()'s area-selection path.",
+   "summary": "a page PNG's pixels are MediaBox-relative (pdftoppm) while a Zotero/pdf.js/PyMuPDF rect is CropBox-relative, so scaling a rect by dpi/72 mis-crops by the CropBox origin \u2014 36 pt / 225 px on this book. It made my first cuts of FIGURE 10.28/10.29/10.30 include the running head and clip labels, and the same latent bug sits in render_page.crop()'s area-selection path.",
    "regression_id": "R64"
   },
   {
-   "summary": "the figure matcher's single-best pick was wrong on 20 of 87 proposals in this chapter, including four at coverage 1.00 (FIGURE 10.8 on the phage T7 'eye' card, FIGURE 10.20 on the DNA gyrase card) — every plate in a mechanism chapter shares the same vocabulary, so word overlap ranks near-identically and the judge has to supply the right plate by hand.",
+   "summary": "the figure matcher's single-best pick was wrong on 20 of 87 proposals in this chapter, including four at coverage 1.00 (FIGURE 10.8 on the phage T7 'eye' card, FIGURE 10.20 on the DNA gyrase card) \u2014 every plate in a mechanism chapter shares the same vocabulary, so word overlap ranks near-identically and the judge has to supply the right plate by hand.",
    "regression_id": "R19"
   },
   {
    "summary": "I recorded a judge-look verdict for FIGURE 10.14 while reading only its crop manifest, without opening the image; caught by self-auditing the judgelook record (31 of 32 plates had actually been opened) and corrected by opening the plate and confirming.",
    "mechanizable": false,
    "why": "the artifact that is supposed to force the look is the per-figure `depicts` text, and it can be written from a manifest as easily as from the image. Nothing inside the repo can tell whether an agent's eyes were on the pixels; the guard is the discipline plus the self-audit that caught it."
+  },
+  {
+   "summary": "anki_write.py printed 'added: 78/78' while the deck held 77 notes: addNote returned id 1789129021398 for card #18 and the note never persisted (notesInfo -> {}, no duplicate of its text anywhere, canAddNotes said it could be added again). The provenance link said it shipped. Card re-added with a read-back; the writer now verifies every returned id and exits nonzero if one does not resolve.",
+   "regression_id": "R65"
   }
  ]
 }
