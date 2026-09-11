@@ -29,7 +29,7 @@
    "term": "Type IIIS",
    "method": "in_source",
    "page": "212",
-   "quote": "heat-killed Type IIIS bacteria (virulent when alive) and living Type IIR bacteria (avirulent) into mice, many of the mice developed pneumonia and died, and living Type IIIS cells were recovered from their carcasses. Something from the heat-killed cells\u2014the \u201ctransforming principle\u201d\u2014had converted the",
+   "quote": "heat-killed Type IIIS bacteria (virulent when alive) and living Type IIR bacteria (avirulent) into mice, many of the mice developed pneumonia and died, and living Type IIIS cells were recovered from their carcasses. Something from the heat-killed cells—the “transforming principle”—had converted the",
    "pinned": true,
    "occurrences": 5
   },
@@ -37,7 +37,7 @@
    "term": "Type IIR",
    "method": "in_source",
    "page": "212",
-   "quote": "living Type IIR bacteria (avirulent) into mice, many of the mice developed pneumonia and died, and living Type IIIS cells were recovered from their carcasses. Something from the heat-killed cells\u2014the \u201ctransforming principle\u201d\u2014had converted the living Type IIR cells into Type IIIS\u2014that is, it had chan",
+   "quote": "living Type IIR bacteria (avirulent) into mice, many of the mice developed pneumonia and died, and living Type IIIS cells were recovered from their carcasses. Something from the heat-killed cells—the “transforming principle”—had converted the living Type IIR cells into Type IIIS—that is, it had chan",
    "pinned": true,
    "occurrences": 5
   },
@@ -45,7 +45,7 @@
    "term": "in vitro",
    "method": "glossary",
    "page": "616",
-   "quote": "in vitro. From the Latin meaning \u201cwithin glass\u201d; biological processes made to occur experimentally outside the organism in a test tube or other container. Hybridization. Interbreeding of species, races, varieties, and so on, among plants or animals; a process of forming a hybrid by cross pollination",
+   "quote": "in vitro. From the Latin meaning “within glass”; biological processes made to occur experimentally outside the organism in a test tube or other container. Hybridization. Interbreeding of species, races, varieties, and so on, among plants or animals; a process of forming a hybrid by cross pollination",
    "pinned": true,
    "occurrences": 53
   },
@@ -120,7 +120,7 @@
    "occurrences": 12
   },
   "the_interphas_chromosom_of_eukaryot_are_usuall_not_visibl_with_the_light_microscop_however_chem_analy_electron_microscop_and_x_ray_diffract_stud_of_isolat_chromatin_the_complex_of_dna_protein_and_other_mater_pres_in_nucle_have_provid_valuabl_inform_about_their_structur": {
-   "term": "The interphase chromosomes of eukaryotes are usually not visible with the light microscope. However, chemical analysis, electron microscopy, and X-ray diffraction studies of isolated chromatin\u2014the complex of DNA, proteins, and other material present in nuclei\u2014have provided valuable information about their structure",
+   "term": "The interphase chromosomes of eukaryotes are usually not visible with the light microscope. However, chemical analysis, electron microscopy, and X-ray diffraction studies of isolated chromatin—the complex of DNA, proteins, and other material present in nuclei—have provided valuable information about their structure",
    "method": "glossary",
    "page": "609",
    "quote": "Chromatin: The complex of DNA and proteins in eukaryotic chromosomes; originally named because of the readiness with which it stains with certain dyes.",
@@ -184,7 +184,7 @@
    "term": "satellite DNAs",
    "method": "in_source",
    "page": "232",
-   "quote": "These other fractions are called satellite DNAs, from the Latin word satelles, meaning an \u201cattendant\u201d or \u201csubordinate.",
+   "quote": "These other fractions are called satellite DNAs, from the Latin word satelles, meaning an “attendant” or “subordinate.",
    "occurrences": 6,
    "pinned": true,
    "note": "re-anchored 2026-08-24: --find hit a p237 shearing sentence; the book's own definition is this p232 sentence"
@@ -193,7 +193,7 @@
    "term": "in situ hybridization",
    "method": "in_source",
    "page": "232",
-   "quote": "Because this hybrid molecule is formed at a site in the chromosomes where the complement of the probe naturally resides, the technique is called in situ hybridization; the Latin phrase means \u201cin position.",
+   "quote": "Because this hybrid molecule is formed at a site in the chromosomes where the complement of the probe naturally resides, the technique is called in situ hybridization; the Latin phrase means “in position.",
    "occurrences": 15,
    "pinned": true,
    "note": "re-anchored 2026-08-24: --find matched the FISH glossary headword; the chapter defines the base technique itself on p232"
@@ -202,7 +202,7 @@
    "term": "transposons",
    "method": "glossary",
    "page": "627",
-   "quote": "Transposons: DNA elements that can move (\u201ctranspose\u201d) from one position in a DNA molecule to another.",
+   "quote": "Transposons: DNA elements that can move (“transpose”) from one position in a DNA molecule to another.",
    "occurrences": 41
   },
   "euchromatin": {
@@ -219,6 +219,106 @@
    "quote": "Germ cell: A reproductive cell capable when mature of being fertilized and reproducing an entire organism (cf. Somatic cell).",
    "headword": "Germ cell",
    "occurrences": 14
+  },
+  "progen": {
+   "term": "progeny",
+   "method": "in_source",
+   "page": "203",
+   "quote": "progeny are plated on transducing particles always contain both phage and bacterial DNA",
+   "page_distance": 36,
+   "far_from_mark": true,
+   "occurrences": 121
+  },
+  "elucidat": {
+   "term": "elucidated",
+   "method": "in_source",
+   "page": "719",
+   "quote": "elucidated (◾ Figure 23.10b)",
+   "page_distance": 479,
+   "far_from_mark": true,
+   "occurrences": 10
+  },
+  "monomer": {
+   "term": "monomeric",
+   "method": "glossary",
+   "page": "619",
+   "quote": "Monomer: A single molecular entity that may combine with others to form more complex structures.",
+   "headword": "Monomer",
+   "occurrences": 1
+  },
+  "multimer_enzym": {
+   "term": "multimeric enzyme",
+   "method": "in_source",
+   "page": "259",
+   "quote": "DNA polymerase III, the “replicase” in E. coli, is a multimeric enzyme (an enzyme with many subunits) with a molecular mass of about 900,000 daltons in its complete or holoenzyme form.",
+   "occurrences": 0,
+   "pinned": true,
+   "pin_note": "2026-09-11 orchestrator: --find had matched glossary headword 'Enzyme' (wrong sense); the book defines the phrase inline on the marked page — sentence extracted by regex from the PDF text"
+  },
+  "holoenzym": {
+   "term": "holoenzyme",
+   "method": "glossary",
+   "page": "615",
+   "quote": "Holoenzyme: The form of a multimeric enzyme in which all of the component polypeptides are present.",
+   "occurrences": 7
+  },
+  "dimer": {
+   "term": "dimeric",
+   "method": "glossary",
+   "page": "611",
+   "quote": "Dimer: A compound having the same percentage composition as another but twice the molecular weight; one formed by polymerization.",
+   "headword": "Dimer",
+   "occurrences": 1
+  },
+  "polypeptid": {
+   "term": "polypeptides",
+   "method": "glossary",
+   "page": "621",
+   "quote": "Polypeptide: A linear molecule with two or more amino acids and one or more peptide groups. They are called dipeptides, tripeptides, and so on, according to the number of amino acids present.",
+   "headword": "Polypeptide",
+   "occurrences": 94
+  },
+  "endonucleas": {
+   "term": "endonuclease",
+   "method": "glossary",
+   "page": "612",
+   "quote": "Endonuclease: An enzyme that breaks strands of DNA at internal positions; some are involved in recombination of DNA.",
+   "occurrences": 59
+  },
+  "proger": {
+   "term": "progerias",
+   "method": "glossary",
+   "page": "622",
+   "quote": "Progeria: Inherited disease characterized by premature aging.",
+   "headword": "Progeria",
+   "occurrences": 2
+  },
+  "hutchinson_gilford_syndrom": {
+   "term": "Hutchinson–Gilford syndrome",
+   "method": "in_source",
+   "page": "267",
+   "quote": "In the most severe form of progeria, Hutchinson–Gilford syndrome (◾ Figure 10.35), senescence—wrinkles, baldness, and other symptoms of aging—begins immediately after birth, and death usually occurs in the teens.",
+   "occurrences": 0,
+   "pinned": true,
+   "pin_note": "2026-09-11 orchestrator: --find had matched glossary headword 'Syndrome' (generic); the marked page's own sentence defines the condition — extracted by regex from the PDF text"
+  },
+  "semiconserv_repl": {
+   "term": "semiconservative replication",
+   "method": "glossary",
+   "page": "624",
+   "quote": "Semiconservative replication: Replication of DNA by a mechanism in which the parental strands are conserved (remain intact) and serve as templates for the synthesis of new complementary strands.",
+   "occurrences": 0,
+   "pinned": true,
+   "pin_note": "2026-09-11 orchestrator: term was a purple drag slip; glossary entry located by lexicon._parse_glossary under the corrected key"
+  },
+  "equilibrium_dens_grad_centrifug": {
+   "term": "equilibrium density-gradient centrifugation",
+   "method": "glossary",
+   "page": "613",
+   "quote": "Equilibrium density-gradient centrifugation: A procedure used to separate macromolecules based on their density (mass per unit volume).",
+   "occurrences": 0,
+   "pinned": true,
+   "pin_note": "2026-09-11 orchestrator: term was a purple drag slip; glossary entry located by lexicon._parse_glossary under the corrected key"
   }
  }
 }

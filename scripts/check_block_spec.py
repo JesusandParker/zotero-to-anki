@@ -90,6 +90,38 @@ RULES = [
             and bool(re.search(r'Transliteration:\s*\{\{c2::', c["Text"])),
   "transliteration must be in the cloze group OPPOSITE the glyph, never revealed beside it"),
 
+ # --- letter FORMS (positional shapes) ------------------------------------
+ # 2026-09-11. Parker asked for this four times in the margins of Unit 2's Writing
+ # sections: "flashcards for each the final initial medial position ... all the positions
+ # of BAA", "I want all the letters and all of their positions in Anki", "These as well",
+ # "Let's add all of these writing characters." The shape that satisfies it is ONE note per
+ # (letter x position) -- not the four forms fanned across c1..c4 on a single note, which
+ # would show three answers for free (card-rules #24), and not all four under one number,
+ # which is a 4-wide all-or-nothing reveal (card-rules #23). These four rules pin that shape
+ # so a later rebuild cannot quietly collapse it back.
+ ("F1-position-cued (2026-09-11)", block("A_letter_forms"),
+  lambda c: bool(re.search(r'Position:\s*\{\{c2::', c["Text"]))
+            and bool(re.search(r'Letter:\s*\{\{c2::', c["Text"])),
+  "a letter-form note names its Letter and its Position, both clozed in c2 opposite the glyph"),
+
+ ("F2-two-way (2026-09-11)", block("A_letter_forms"),
+  lambda c: set(clozes(c["Text"])) == {1, 2},
+  "letter-form notes are two-way: c1 = produce the shape, c2 = name the letter and position"),
+
+ # Structural, and deliberately NOT keyed on 'how many positions are named' -- the defect to
+ # catch is the four shapes collapsing back into one grouped reveal, which shows up as a c1
+ # holding more than one glyph span.
+ ("F3-one-shape-per-note (2026-09-11, card-rules #23-24)", block("A_letter_forms"),
+  lambda c: len(clozes(c["Text"]).get(1, [])) == 1,
+  "one letter-form note tests ONE shape; the four positions are never grouped under one "
+  "cloze number (all-or-nothing) nor fanned across sibling numbers (shows the rest free)"),
+
+ # Parker's "part and the whole" requirement (card-rules #23), in the form this lane can
+ # carry it: the book's own printed Writing row, which shows all four positions at once.
+ ("F4-plate (2026-09-11)", block("A_letter_forms"),
+  lambda c: bool(c.get("image")) and "Roster:" in c["Back Extra"],
+  "every letter-form note carries the book's own Writing row (all four positions) on its back"),
+
  # --- symbols -------------------------------------------------------------
  ("S1-two-way (2026-08-08)", lambda c: c.get("block") == "B_symbols" and "{{c2::" in c["Text"],
   lambda c: set(clozes(c["Text"])) == {1, 2},

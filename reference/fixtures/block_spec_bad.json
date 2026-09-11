@@ -81,5 +81,16 @@
    23
   ],
   "slug": "egyptian_audio_on_the_back"
+ },
+ {
+  "block": "A_letter_forms",
+  "Text": "‎Shapes of baa: {{c1::ب}} {{c1::بـ}} {{c1::ـبـ}} {{c1::ـب}}",
+  "Back Extra": "Cue: baa is a connector.",
+  "Audio": "",
+  "source": "arabic",
+  "segment": 2,
+  "from_idx": [
+   5
+  ]
  }
 ]

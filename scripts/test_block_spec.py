@@ -5,8 +5,9 @@ The GOOD fixture is a minimal set satisfying every accumulated requirement; the 
 reconstructs the actual defects Parker caught on 2026-08-08 (missing LRM, duplicate play
 button, boilerplate cue, uppercase media, one-way vocab, the original property-less one-way
 country card with no membership lane) plus the 2026-09-01 vocab card whose transliteration
-sat in Back Extra, leaving its meaning card unanswerable before he could read the script, and the 2026-09-03 card
-that played an Egyptian (maSri) pronunciation he is never tested on. The suite fails if the checker passes any BAD case
+sat in Back Extra, leaving its meaning card unanswerable before he could read the script, the 2026-09-03 card
+that played an Egyptian (maSri) pronunciation he is never tested on, and the 2026-09-11
+letter-form note with all four positional shapes crammed under one cloze number. The suite fails if the checker passes any BAD case
 or flags the GOOD set. When adding a rule to check_block_spec.py, add its defect here too.
 """
 import subprocess, sys, os
@@ -24,7 +25,8 @@ if rc == 0:
     fails.append("BAD fixture PASSED — the checker caught nothing")
 else:
     for must in ("U1-lrm", "U3-no-dup-audio", "U4-no-boilerplate", "U2-media-lower",
-                 "V1-two-way", "V3-translit-with-arabic", "V4-no-excluded-dialect-audio", "C1-property", "C2-two-way", "C3-roster", "C4-membership"):
+                 "V1-two-way", "V3-translit-with-arabic", "V4-no-excluded-dialect-audio", "C1-property", "C2-two-way", "C3-roster", "C4-membership",
+                 "F1-position-cued", "F2-two-way", "F3-one-shape-per-note", "F4-plate"):
         if must not in out:
             fails.append(f"BAD fixture: rule {must} did not fire")
 # A file from a DIFFERENT source, containing none of the governed blocks, must pass —

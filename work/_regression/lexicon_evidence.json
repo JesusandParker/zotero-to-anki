@@ -9,6 +9,36 @@
    "page": "612",
    "quote": "Diaphoresis is profuse sweating that accompanies shock states.",
    "occurrences": 3
+  },
+  "conson": {
+   "term": "consonant",
+   "method": "in_source",
+   "page": "52",
+   "quote": "consonant (as opposed to just consonant-short vowel)",
+   "occurrences": 47,
+   "_why": "R62 fixture: a fragment of a FOOTNOTE — an occurrence with no defining cue at all"
+  },
+  "shortv": {
+   "term": "short vowels",
+   "method": "in_source",
+   "page": "52",
+   "quote": "short vowels are shown above, where you can easily see and hear the correspondence",
+   "occurrences": 13,
+   "_why": "R62 fixture: says where the vowels are PRINTED, not what they are — the cue 'are' is followed by a presentation verb, which is exactly how this slipped a naive cue test"
+  },
+  "resultdisp": {
+   "term": "resultant displacement",
+   "method": "in_source",
+   "page": "61",
+   "quote": "resultant displacement is represented by the arrow labeled DR in Fig. 3-6",
+   "_why": "R62 fixture: physics ch3, 2026-09-03 — a representation verb, describing a FIGURE"
+  },
+  "vowelq": {
+   "term": "vowel quality",
+   "method": "in_source",
+   "page": "122",
+   "quote": "vowel quality is the easiest way to distinguish between s and S",
+   "_why": "R62 fixture: Arabic 2026-09-04 — says what the term is USEFUL FOR, 82 pages from the mark"
   }
  }
 }

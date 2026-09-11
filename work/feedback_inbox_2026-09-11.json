@@ -1,0 +1,20 @@
+[
+  {
+    "noteId": 1786229802722,
+    "model": "AnKing Cloze",
+    "deck": "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 1::Book Highlights",
+    "front_field": "Text",
+    "front": "The book's map shows {{c1::20::how many}} countries where Arabic is the main language of education and daily life. Grouped west to east: {{c2::North Africa}}, {{c2::the Nile and the Horn}}, {{c2::the Levant}}, {{c2::Mesopotamia and the northern Gulf}}, and {{c2::southern and eastern Arabia}}.",
+    "back_extra": "Cue: five regions, west to east — the anchor for the five roster cards.<br><br>Roster: Morocco · Mauritania · Algeria · Tunisia · Libya · Egypt · Sudan · Somalia · Jordan · Israel/Palestine · Lebanon · Syria · Iraq · Kuwait · Saudi Arabia · Qatar · Bahrain · United Arab Emirates · Oman · Yemen<br><br><img src=\"arabic_src_arab_map_v3.png\">",
+    "feedback": "I really don't like what it says the book that's totally wrong. That's using an anchor that wouldn't be able to be understood. Somehow otherwise you know if I see this card out of context I don't know what this book means that totally violate a bunch of rules"
+  },
+  {
+    "noteId": 1785345036186,
+    "model": "AnKing Cloze",
+    "deck": "all::EMT::Chapter 06::Book Highlights",
+    "front_field": "Text",
+    "front": "The foot's {{c1::seven}} tarsals include the large {{c2::calcaneus}}, or heel bone, and the {{c2::talus}}, which articulates with the tibia and fibula to form the ankle.",
+    "back_extra": "Distinguish: the tarsals sit between the lower leg bones (tibia and fibula) and the metatarsals, just as the carpals sit between the forearm and the metacarpals of the palm.<br><br>Pitfall: \"include\" means the calcaneus and talus are only two of the seven tarsals, not the whole set.<br><br><img src=\"emt_FIGURE_6_13.jpg\">",
+    "feedback": "wheres my number in the hint for seven? why wasnt this issue fixed from the last one?"
+  }
+]

@@ -1,0 +1,1530 @@
+{
+ "teaches": [
+  {
+   "card_index": 27,
+   "text": "In DNA replication the Okazaki fragments are linked into one continuous strand by {{c1::DNA ligase::enzyme}}, ",
+   "figure": "FIGURE 10.14",
+   "file": "figures/study_v2/FIGURE_10_14.png",
+   "native_file": "figures/full/FIGURE_10_14.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "atp",
+    "dna",
+    "ligase",
+    "nad",
+    "nicks"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 38,
+   "text": "Producing functional template DNA at an  E. coli  replication fork takes two proteins:  {{c1::DNA helicase}}, ",
+   "figure": "FIGURE 10.19",
+   "file": "figures/study_v2/FIGURE_10_19.png",
+   "native_file": "figures/full/FIGURE_10_19.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "dna-binding",
+    "helicase",
+    "protein",
+    "single-strand",
+    "ssb"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 48,
+   "text": "In  E. coli , Okazaki fragments on the lagging strand are initiated by the {{c1::primosome}}, a protein comple",
+   "figure": "FIGURE 10.28",
+   "file": "figures/study_v2/FIGURE_10_28.png",
+   "native_file": "figures/full/FIGURE_10_28.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "dna",
+    "helicase",
+    "primase",
+    "primosome"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 49,
+   "text": "As the primosome travels along an  E. coli  DNA molecule, DNA helicase unwinds the parental double helix while",
+   "figure": "FIGURE 10.29",
+   "file": "figures/study_v2/FIGURE_10_29.png",
+   "native_file": "figures/full/FIGURE_10_29.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "rna"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 51,
+   "text": "At an  E. coli  replication fork, DNA polymerase III extends each RNA primer into new DNA, and the primers the",
+   "figure": "FIGURE 10.28",
+   "file": "figures/study_v2/FIGURE_10_28.png",
+   "native_file": "figures/full/FIGURE_10_28.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "polymerase"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 52,
+   "text": "In  E. coli , the {{c1::replisome}} is {{c2::the complete replication apparatus at a replication fork}}, movin",
+   "figure": "FIGURE 10.29",
+   "file": "figures/study_v2/FIGURE_10_29.png",
+   "native_file": "figures/full/FIGURE_10_29.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "apparatus",
+    "complete",
+    "fork",
+    "replication",
+    "replisome"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 53,
+   "text": "Because the  E. coli  DNA polymerase III holoenzyme has to make the nascent leading and lagging strands at the",
+   "figure": "FIGURE 10.29",
+   "file": "figures/study_v2/FIGURE_10_29.png",
+   "native_file": "figures/full/FIGURE_10_29.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "loop"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 56,
+   "text": "The unique aspect of rolling-circle replication is that one parental circular DNA strand {{c1::remains intact:",
+   "figure": "FIGURE 10.30",
+   "file": "figures/study_v2/FIGURE_10_30.png",
+   "native_file": "figures/full/FIGURE_10_30.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "intact",
+    "remains"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 64,
+   "text": "{{c1::Semiconservative replication}} is the mode of DNA replication in which each daughter double helix keeps ",
+   "figure": "FIGURE 10.2",
+   "file": "figures/study_v2/FIGURE_10_2.png",
+   "native_file": "figures/full/FIGURE_10_2.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "newly",
+    "parental",
+    "replication",
+    "semiconservative",
+    "strand",
+    "synthesized"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 25,
+   "text": "In DNA replication, {{c1::Okazaki fragments}} are {{c2::the short DNA segments of the lagging strand::what, an",
+   "figure": "FIGURE 10.13",
+   "file": "figures/study_v2/FIGURE_10_13.png",
+   "native_file": "figures/full/FIGURE_10_13.png",
+   "coverage": 0.857,
+   "page_dist": 1,
+   "matched_terms": [
+    "dna",
+    "fragments",
+    "lagging",
+    "okazaki",
+    "short",
+    "strand"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 30,
+   "text": "Because no DNA polymerase can initiate a DNA chain {{c1::de novo::Latin phrase}}, each new DNA chain is starte",
+   "figure": "FIGURE 10.16",
+   "file": "figures/study_v2/FIGURE_10_16.png",
+   "native_file": "figures/full/FIGURE_10_16.png",
+   "coverage": 0.75,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "primase",
+    "rna"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 31,
+   "text": "At an  E. coli  replication fork, DNA polymerase {{c1::III}} extends each RNA primer with deoxyribonucleotides",
+   "figure": "FIGURE 10.18",
+   "file": "figures/study_v2/FIGURE_10_18.png",
+   "native_file": "figures/full/FIGURE_10_18.png",
+   "coverage": 0.714,
+   "page_dist": 1,
+   "matched_terms": [
+    "dna",
+    "fragments",
+    "iii",
+    "okazaki",
+    "replaced"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 28,
+   "text": "A {{c1::nick::nick or gap}} in a DNA molecule is {{c2::a missing phosphodiester linkage with no missing bases}",
+   "figure": "FIGURE 10.14",
+   "file": "figures/study_v2/FIGURE_10_14.png",
+   "native_file": "figures/full/FIGURE_10_14.png",
+   "coverage": 0.6,
+   "page_dist": 0,
+   "matched_terms": [
+    "linkage",
+    "nick",
+    "phosphodiester"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 50,
+   "text": "At an  E. coli  replication fork, {{c1::DNA topoisomerases::class of enzymes}} provide {{c2::transient::transi",
+   "figure": "FIGURE 10.21",
+   "file": "figures/study_v2/FIGURE_10_21.png",
+   "native_file": "figures/full/FIGURE_10_21.png",
+   "coverage": 0.6,
+   "page_dist": 2,
+   "matched_terms": [
+    "dna",
+    "swivels",
+    "transient"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 77,
+   "text": " Hutchinson\u2013Gilford syndrome  is {{c1::the most severe premature-aging disorder, starting at birth}}.",
+   "figure": "FIGURE 10.35",
+   "file": "figures/study_v2/FIGURE_10_35.jpg",
+   "native_file": "figures/full/FIGURE_10_35.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "birth",
+    "most",
+    "severe"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 66,
+   "text": "In DNA synthesis, the  dTTP precursor  is {{c1::the thymine building block, carrying three phosphates}}.",
+   "figure": "FIGURE 10.12",
+   "file": "figures/study_v2/FIGURE_10_12.png",
+   "native_file": "figures/full/FIGURE_10_12.png",
+   "coverage": 0.4,
+   "page_dist": 0,
+   "matched_terms": [
+    "phosphates",
+    "thymine"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 75,
+   "text": "An  endonuclease  is {{c1::an enzyme that cuts a DNA strand internally}}.",
+   "figure": "FIGURE 10.30",
+   "file": "figures/study_v2/FIGURE_10_30.png",
+   "native_file": "figures/full/FIGURE_10_30.png",
+   "coverage": 0.4,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "strand"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 41,
+   "text": "When DNA topoisomerase I makes its transient break, the segments of DNA on either side can spin independently ",
+   "figure": "FIGURE 10.21",
+   "file": "figures/study_v2/FIGURE_10_21.png",
+   "native_file": "figures/full/FIGURE_10_21.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 42,
+   "text": "DNA topoisomerase II adds or removes supercoils in four ordered steps:{{c1::cut both strands of the DNA}}{{c1:",
+   "figure": "FIGURE 10.22",
+   "file": "figures/study_v2/FIGURE_10_22.png",
+   "native_file": "figures/full/FIGURE_10_22.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 43,
+   "text": "The best-characterized type II topoisomerase in E. coli is an enzyme named {{c1::DNA gyrase}}.",
+   "figure": "FIGURE 10.22",
+   "file": "figures/study_v2/FIGURE_10_22.png",
+   "native_file": "figures/full/FIGURE_10_22.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 32,
+   "text": "DNA polymerase I of E. coli carries two exonuclease activities, one for each direction:the {{c1::3\u2032 \u2192 5\u2032::5\u2032 \u2192",
+   "figure": "FIGURE 10.17",
+   "file": "figures/study_v2/FIGURE_10_17.png",
+   "native_file": "figures/full/FIGURE_10_17.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 33,
+   "text": "Like DNA polymerase I, E. coli DNA polymerase III has {{c1::5\u2032 \u2192 3\u2032 polymerase}} and {{c1::3\u2032 \u2192 5\u2032 exonuclease",
+   "figure": "FIGURE 10.17",
+   "file": "figures/study_v2/FIGURE_10_17.png",
+   "native_file": "figures/full/FIGURE_10_17.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 36,
+   "text": "Each {{c2::gyre}}, or turn, of the DNA double helix is about {{c1::10 nucleotide pairs}} long, so unwinding on",
+   "figure": "FIGURE 10.20",
+   "file": "figures/study_v2/FIGURE_10_20.png",
+   "native_file": "figures/full/FIGURE_10_20.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 35,
+   "text": "During DNA replication, the {{c1::proofreading}} process involves {{c2::scanning the termini of nascent DNA ch",
+   "figure": "FIGURE 10.27",
+   "file": "figures/study_v2/FIGURE_10_27.png",
+   "native_file": "figures/full/FIGURE_10_27.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 69,
+   "text": "A multimeric enzyme is {{c1::an enzyme built from many protein subunits}}.",
+   "figure": "FIGURE 10.26",
+   "file": "figures/study_v2/FIGURE_10_26.png",
+   "native_file": "figures/full/FIGURE_10_26.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 70,
+   "text": "A holoenzyme is {{c1::the complete enzyme, with every subunit present}}.",
+   "figure": "FIGURE 10.26",
+   "file": "figures/study_v2/FIGURE_10_26.png",
+   "native_file": "figures/full/FIGURE_10_26.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 47,
+   "text": "The minimal core of E. coli DNA polymerase III that has catalytic activity in vitro contains three subunits, e",
+   "figure": "FIGURE 10.26",
+   "file": "figures/study_v2/FIGURE_10_26.png",
+   "native_file": "figures/full/FIGURE_10_26.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 68,
+   "text": "Juxtaposition is {{c1::placing things right next to each other}}.",
+   "figure": "FIGURE 10.24",
+   "file": "figures/study_v2/FIGURE_10_24.png",
+   "native_file": "figures/full/FIGURE_10_24.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 65,
+   "text": "Equilibrium density-gradient centrifugation is {{c1::spinning molecules until they separate by density}}.",
+   "figure": "FIGURE 10.3",
+   "file": "figures/study_v2/FIGURE_10_3.png",
+   "native_file": "figures/full/FIGURE_10_3.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 3,
+   "text": "Meselson and Stahl grew E. coli for many generations in medium where the heavy isotope of nitrogen, {{c1::15N}",
+   "figure": "FIGURE 10.3",
+   "file": "figures/study_v2/FIGURE_10_3.png",
+   "native_file": "figures/full/FIGURE_10_3.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 6,
+   "text": "{{c1::John Cairns::researcher}} established that DNA replication begins at {{c2::one unique site::one unique s",
+   "figure": "FIGURE 10.7",
+   "file": "figures/study_v2/FIGURE_10_7.png",
+   "native_file": "figures/full/FIGURE_10_7.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 11,
+   "text": "The {{c1::replication bubble::term}} is {{c2::the localized region of strand separation}} that forms at an ori",
+   "figure": "FIGURE 10.15",
+   "file": "figures/study_v2/FIGURE_10_15.png",
+   "native_file": "figures/full/FIGURE_10_15.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 20,
+   "text": "Locating the branch points of \u03b8-shaped replicating phage \u03bb chromosomes relative to the fixed denaturation bubb",
+   "figure": "FIGURE 10.10",
+   "file": "figures/study_v2/FIGURE_10_10.png",
+   "native_file": "figures/full/FIGURE_10_10.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 21,
+   "text": "Phage T7, a small bacteriophage like \u03bb, replicates its linear chromosome starting at a {{c1::unique::unique or",
+   "figure": "FIGURE 10.11",
+   "file": "figures/study_v2/FIGURE_10_11.jpg",
+   "native_file": "figures/full/FIGURE_10_11.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 18,
+   "text": "An AT base pair is held together by {{c1::two::number}} hydrogen bonds, versus {{c1::three::number}} in a GC b",
+   "figure": "FIGURE 10.9",
+   "file": "figures/study_v2/FIGURE_10_9.png",
+   "native_file": "figures/full/FIGURE_10_9.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 57,
+   "text": "In rolling-circle replication, the {{c1::5\u2032::5\u2032 or 3\u2032}} terminus of the nicked strand is displaced from the ci",
+   "figure": "FIGURE 10.30",
+   "file": "figures/study_v2/FIGURE_10_30.png",
+   "native_file": "figures/full/FIGURE_10_30.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  },
+  {
+   "card_index": 54,
+   "text": "The E. coli DNA polymerase III holoenzyme carries {{c1::two::number of catalytic cores}} catalytic cores, whic",
+   "figure": "FIGURE 10.29",
+   "file": "figures/study_v2/FIGURE_10_29.png",
+   "native_file": "figures/full/FIGURE_10_29.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": true,
+   "why": "forced by the judge: the matcher's single best pick did not depict this card",
+   "tier": "teaches",
+   "forced": true,
+   "has_description": false
+  }
+ ],
+ "context": [
+  {
+   "card_index": 4,
+   "text": "After  one  generation of semiconservative replication in medium containing only 14N, a parental double helix ",
+   "figure": "FIGURE 10.4",
+   "file": "figures/study_v2/FIGURE_10_4.png",
+   "native_file": "figures/full/FIGURE_10_4.png",
+   "coverage": 1.0,
+   "page_dist": 2,
+   "matched_terms": [
+    "hybrid",
+    "new",
+    "old",
+    "strand"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 9,
+   "text": "The single origin of replication in the  E. coli  chromosome, {{c1::oriC::name}}, is {{c2::245 nucleotide pair",
+   "figure": "FIGURE 10.6",
+   "file": "figures/study_v2/FIGURE_10_6.png",
+   "native_file": "figures/full/FIGURE_10_6.png",
+   "coverage": 1.0,
+   "page_dist": 2,
+   "matched_terms": [
+    "nucleotide",
+    "oric",
+    "pairs"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 17,
+   "text": "In an autoradiograph of a \u03b8-shaped replicating  E. coli  chromosome, each Y-shaped structure is a {{c1::replic",
+   "figure": "FIGURE 10.7",
+   "file": "figures/study_v2/FIGURE_10_7.png",
+   "native_file": "figures/full/FIGURE_10_7.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "directions",
+    "fork",
+    "opposite",
+    "replication"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 22,
+   "text": "The two progeny strands at a DNA replication fork are extended in the same overall direction, but because the ",
+   "figure": "FIGURE 10.13",
+   "file": "figures/study_v2/FIGURE_10_13.png",
+   "native_file": "figures/full/FIGURE_10_13.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "opposite"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 29,
+   "text": "Every known DNA polymerase has an  absolute  requirement for two things in order to be active:  {{c1::a free 3",
+   "figure": "FIGURE 10.23",
+   "file": "figures/study_v2/FIGURE_10_23.png",
+   "native_file": "figures/full/FIGURE_10_23.png",
+   "coverage": 0.857,
+   "page_dist": 0,
+   "matched_terms": [
+    "being",
+    "dna",
+    "extended",
+    "free",
+    "strand",
+    "template"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 12,
+   "text": "In  E. coli  oriC, the second conserved repeat is a {{c1::9-bp::length}} sequence repeated {{c1::four::how man",
+   "figure": "FIGURE 10.15",
+   "file": "figures/study_v2/FIGURE_10_15.png",
+   "native_file": "figures/full/FIGURE_10_15.png",
+   "coverage": 0.8,
+   "page_dist": 0,
+   "matched_terms": [
+    "bubble",
+    "dnaa",
+    "four",
+    "replication"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 24,
+   "text": "At a DNA replication fork, the {{c2::leading}} strand is extended {{c1::continuously::continuously or disconti",
+   "figure": "FIGURE 10.13",
+   "file": "figures/study_v2/FIGURE_10_13.png",
+   "native_file": "figures/full/FIGURE_10_13.png",
+   "coverage": 0.75,
+   "page_dist": 1,
+   "matched_terms": [
+    "discontinuously",
+    "lagging",
+    "leading"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 26,
+   "text": "The short DNA pieces from which the lagging strand is assembled were discovered in the {{c1::late 1960s::decad",
+   "figure": "FIGURE 10.13",
+   "file": "figures/study_v2/FIGURE_10_13.png",
+   "native_file": "figures/full/FIGURE_10_13.png",
+   "coverage": 0.75,
+   "page_dist": 1,
+   "matched_terms": [
+    "okazaki",
+    "reiji",
+    "tuneko"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 37,
+   "text": "In  E. coli , DNA replicates at about {{c1::30,000 nucleotides per minute::rate}}, so a replicating DNA molecu",
+   "figure": "FIGURE 10.20",
+   "file": "figures/study_v2/FIGURE_10_20.png",
+   "native_file": "figures/full/FIGURE_10_20.png",
+   "coverage": 0.75,
+   "page_dist": 1,
+   "matched_terms": [
+    "minute",
+    "per",
+    "revolutions"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 7,
+   "text": "A {{c1::replicon::term}} is a segment of DNA whose replication is under the control of {{c2::one origin and tw",
+   "figure": "FIGURE 10.31",
+   "file": "figures/study_v2/FIGURE_10_31.png",
+   "native_file": "figures/full/FIGURE_10_31.png",
+   "coverage": 0.667,
+   "page_dist": 0,
+   "matched_terms": [
+    "origin",
+    "termini"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 16,
+   "text": "The gross structure of replicating bacterial chromosomes (the  E. coli  chromosome, copied as a \u03b8-shaped circl",
+   "figure": "FIGURE 10.7",
+   "file": "figures/study_v2/FIGURE_10_7.png",
+   "native_file": "figures/full/FIGURE_10_7.png",
+   "coverage": 0.667,
+   "page_dist": 0,
+   "matched_terms": [
+    "autoradiography",
+    "cairns"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 19,
+   "text": "In the {{c1::late 1960s::years}}, {{c1::Maria Schn\u00f6s and Ross Inman::two researchers}} used the phage \u03bb chromo",
+   "figure": "FIGURE 10.9",
+   "file": "figures/study_v2/FIGURE_10_9.png",
+   "native_file": "figures/full/FIGURE_10_9.png",
+   "coverage": 0.636,
+   "page_dist": 1,
+   "matched_terms": [
+    "at-rich",
+    "bidirectionally",
+    "clusters",
+    "denaturation",
+    "inman",
+    "mapping",
+    "schn"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 13,
+   "text": "In prepriming at  E. coli  oriC, after DnaA has bound and strand separation has begun, a complex of {{c1::DnaB",
+   "figure": "FIGURE 10.15",
+   "file": "figures/study_v2/FIGURE_10_15.png",
+   "native_file": "figures/full/FIGURE_10_15.png",
+   "coverage": 0.571,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "dnab",
+    "dnac",
+    "helicase"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 5,
+   "text": "In {{c1::1957::year}}, {{c1::J. Herbert Taylor, Philip Woods, and Walter Hughes::three researchers}} first dem",
+   "figure": "FIGURE 10.5",
+   "file": "figures/study_v2/FIGURE_10_5.png",
+   "native_file": "figures/full/FIGURE_10_5.png",
+   "coverage": 0.538,
+   "page_dist": 2,
+   "matched_terms": [
+    "bean",
+    "broad",
+    "faba",
+    "hughes",
+    "taylor",
+    "vicia",
+    "woods"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 10,
+   "text": "In  E. coli  oriC, one conserved {{c1::13-bp::length}} sequence is present as {{c1::three::how many}} {{c1::ta",
+   "figure": "FIGURE 10.6",
+   "file": "figures/study_v2/FIGURE_10_6.png",
+   "native_file": "figures/full/FIGURE_10_6.png",
+   "coverage": 0.5,
+   "page_dist": 2,
+   "matched_terms": [
+    "replication",
+    "tandem"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 8,
+   "text": "In prokaryotes, the entire chromosome is usually {{c1::one replicon::one or many replicons}}, whereas a eukary",
+   "figure": "FIGURE 10.31",
+   "file": "figures/study_v2/FIGURE_10_31.png",
+   "native_file": "figures/full/FIGURE_10_31.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "replicons"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 72,
+   "text": "A  dimeric  protein is {{c1::one made of two joined subunits}}.",
+   "figure": "FIGURE 10.25",
+   "file": "figures/study_v2/FIGURE_10_25.png",
+   "native_file": "figures/full/FIGURE_10_25.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "subunits"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 76,
+   "text": " Progerias  are {{c1::inherited disorders of premature aging}}.",
+   "figure": "FIGURE 10.35",
+   "file": "figures/study_v2/FIGURE_10_35.jpg",
+   "native_file": "figures/full/FIGURE_10_35.png",
+   "coverage": 0.25,
+   "page_dist": 0,
+   "matched_terms": [
+    "aging"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 55,
+   "text": "Rolling-circle replication has three uses (give the organism and the purpose of each):  {{c1::many viruses, to",
+   "figure": "FIGURE 10.30",
+   "file": "figures/study_v2/FIGURE_10_30.png",
+   "native_file": "figures/full/FIGURE_10_30.png",
+   "coverage": 0.167,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "during",
+    "many"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context"
+  }
+ ],
+ "skipped": [],
+ "mode": "generous",
+ "judged": true,
+ "rejected": [
+  {
+   "card_index": 20,
+   "text": "Locating the branch points of \u03b8-shaped replicating phage \u03bb chromosomes relative to the fixed denaturation bubb",
+   "figure": "FIGURE 10.8",
+   "file": "figures/study_v2/FIGURE_10_8.png",
+   "native_file": "figures/full/FIGURE_10_8.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "directions",
+    "opposite"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 21,
+   "text": "Phage T7, a small bacteriophage like \u03bb, replicates its linear chromosome starting at a {{c1::unique::unique or",
+   "figure": "FIGURE 10.8",
+   "file": "figures/study_v2/FIGURE_10_8.png",
+   "native_file": "figures/full/FIGURE_10_8.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "end",
+    "eye",
+    "near",
+    "unique"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 39,
+   "text": "DNA topoisomerases come in two types:  topoisomerase I  produces a transient {{c1::single-strand::single-stran",
+   "figure": "FIGURE 10.20",
+   "file": "figures/study_v2/FIGURE_10_20.png",
+   "native_file": "figures/full/FIGURE_10_20.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "double-strand",
+    "single-strand"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 41,
+   "text": "When  DNA topoisomerase I  makes its transient break, the segments of DNA on either side can spin independentl",
+   "figure": "FIGURE 10.20",
+   "file": "figures/study_v2/FIGURE_10_20.png",
+   "native_file": "figures/full/FIGURE_10_20.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "bond",
+    "intact",
+    "phosphodiester",
+    "strand"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 43,
+   "text": "The best-characterized type II topoisomerase in  E. coli  is an enzyme named {{c1::DNA gyrase}}.",
+   "figure": "FIGURE 10.20",
+   "file": "figures/study_v2/FIGURE_10_20.png",
+   "native_file": "figures/full/FIGURE_10_20.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "gyrase"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 59,
+   "text": "In eukaryotes, DNA replication is restricted to the  S  phase of the cell cycle, where the S stands for {{c1::",
+   "figure": "FIGURE 10.32",
+   "file": "figures/study/FIGURE_10_32.png",
+   "native_file": "figures/FIGURE_10_32.png",
+   "coverage": 1.0,
+   "page_dist": 2,
+   "matched_terms": [
+    "gap",
+    "synthesis"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 42,
+   "text": " DNA topoisomerase II  adds or removes supercoils in four ordered steps:  {{c1::cut both strands of the DNA}} ",
+   "figure": "FIGURE 10.20",
+   "file": "figures/study_v2/FIGURE_10_20.png",
+   "native_file": "figures/full/FIGURE_10_20.png",
+   "coverage": 0.857,
+   "page_dist": 0,
+   "matched_terms": [
+    "bonds",
+    "break",
+    "covalent",
+    "cut",
+    "dna",
+    "double",
+    "ends",
+    "helix",
+    "intact",
+    "reseal",
+    "strands",
+    "through"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 67,
+   "text": "A  monomeric  enzyme is {{c1::one made of a single protein subunit}}.",
+   "figure": "FIGURE 10.26",
+   "file": "figures/study_v2/FIGURE_10_26.png",
+   "native_file": "figures/full/FIGURE_10_26.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "single",
+    "subunit"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 69,
+   "text": "A  multimeric enzyme  is {{c1::an enzyme built from many protein subunits}}.",
+   "figure": "FIGURE 10.25",
+   "file": "figures/study_v2/FIGURE_10_25.png",
+   "native_file": "figures/full/FIGURE_10_25.png",
+   "coverage": 0.4,
+   "page_dist": 0,
+   "matched_terms": [
+    "enzyme",
+    "subunits"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 70,
+   "text": "A  holoenzyme  is {{c1::the complete enzyme, with every subunit present}}.",
+   "figure": "FIGURE 10.25",
+   "file": "figures/study_v2/FIGURE_10_25.png",
+   "native_file": "figures/full/FIGURE_10_25.png",
+   "coverage": 0.4,
+   "page_dist": 0,
+   "matched_terms": [
+    "enzyme",
+    "subunit"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 35,
+   "text": "During DNA replication, the {{c1::proofreading}} process involves {{c2::scanning the termini of nascent DNA ch",
+   "figure": "FIGURE 10.24",
+   "file": "figures/study_v2/FIGURE_10_24.png",
+   "native_file": "figures/full/FIGURE_10_24.png",
+   "coverage": 0.375,
+   "page_dist": 1,
+   "matched_terms": [
+    "chains",
+    "dna",
+    "termini"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 18,
+   "text": "An AT base pair is held together by {{c1::two::number}} hydrogen bonds, versus {{c1::three::number}} in a GC b",
+   "figure": "FIGURE 10.8",
+   "file": "figures/study_v2/FIGURE_10_8.png",
+   "native_file": "figures/full/FIGURE_10_8.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "lower",
+    "more"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 33,
+   "text": "Like DNA polymerase I,  E. coli  DNA polymerase III has {{c1::5\u2032 \u2192 3\u2032 polymerase}} and {{c1::3\u2032 \u2192 5\u2032 exonuclea",
+   "figure": "FIGURE 10.24",
+   "file": "figures/study_v2/FIGURE_10_24.png",
+   "native_file": "figures/full/FIGURE_10_24.png",
+   "coverage": 0.667,
+   "page_dist": 0,
+   "matched_terms": [
+    "exonuclease",
+    "polymerase"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 32,
+   "text": "DNA polymerase I of  E. coli  carries two exonuclease activities, one for each direction:  the {{c1::3\u2032 \u2192 5\u2032::",
+   "figure": "FIGURE 10.16",
+   "file": "figures/study_v2/FIGURE_10_16.png",
+   "native_file": "figures/full/FIGURE_10_16.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "primer",
+    "rna"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 40,
+   "text": " DNA topoisomerase I  removes supercoils {{c1::one::number of supercoils}} at a time, whereas  DNA topoisomera",
+   "figure": "FIGURE 10.18",
+   "file": "figures/study_v2/FIGURE_10_18.png",
+   "native_file": "figures/full/FIGURE_10_18.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "removes"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 11,
+   "text": "The {{c1::replication bubble::term}} is {{c2::the localized region of strand separation}} that forms at an ori",
+   "figure": "FIGURE 10.4",
+   "file": "figures/study_v2/FIGURE_10_4.png",
+   "native_file": "figures/full/FIGURE_10_4.png",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "replication",
+    "strand"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 36,
+   "text": "Each {{c2::gyre}}, or turn, of the DNA double helix is about {{c1::10 nucleotide pairs}} long, so unwinding on",
+   "figure": "FIGURE 10.17",
+   "file": "figures/study_v2/FIGURE_10_17.png",
+   "native_file": "figures/full/FIGURE_10_17.png",
+   "coverage": 0.333,
+   "page_dist": 2,
+   "matched_terms": [
+    "nucleotide"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 45,
+   "text": "Apart from DNA polymerase III, the  E. coli  DNA polymerases split two jobs:  {{c1::I and II::two polymerases}",
+   "figure": "FIGURE 10.26",
+   "file": "figures/study_v2/FIGURE_10_26.png",
+   "native_file": "figures/full/FIGURE_10_26.png",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "dna",
+    "type"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 47,
+   "text": "The minimal core of  E. coli  DNA polymerase III that has catalytic activity in vitro contains three subunits,",
+   "figure": "FIGURE 10.25",
+   "file": "figures/study_v2/FIGURE_10_25.png",
+   "native_file": "figures/full/FIGURE_10_25.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "hole"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 61,
+   "text": " Progeny  are {{c1::the offspring or descendants of a parent}}.",
+   "figure": "FIGURE 10.1",
+   "file": "figures/study_v2/FIGURE_10_1.png",
+   "native_file": "figures/full/FIGURE_10_1.png",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "parent"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 65,
+   "text": " Equilibrium density-gradient centrifugation  is {{c1::spinning molecules until they separate by density}}.",
+   "figure": "FIGURE 10.1",
+   "file": "figures/study_v2/FIGURE_10_1.png",
+   "native_file": "figures/full/FIGURE_10_1.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "separate",
+    "they"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 68,
+   "text": " Juxtaposition  is {{c1::placing things right next to each other}}.",
+   "figure": "FIGURE 10.25",
+   "file": "figures/study_v2/FIGURE_10_25.png",
+   "native_file": "figures/full/FIGURE_10_25.png",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "next"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 2,
+   "text": "In {{c1::1962::year}}, {{c1::John Cairns::researcher}} demonstrated that the whole  E. coli  chromosome is {{c",
+   "figure": "FIGURE 10.2",
+   "file": "figures/study_v2/FIGURE_10_2.png",
+   "native_file": "figures/full/FIGURE_10_2.png",
+   "coverage": 0.25,
+   "page_dist": 1,
+   "matched_terms": [
+    "duplex"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 73,
+   "text": " Nascent  means {{c1::newly made and still growing}}.",
+   "figure": "FIGURE 10.23",
+   "file": "figures/study_v2/FIGURE_10_23.png",
+   "native_file": "figures/full/FIGURE_10_23.png",
+   "coverage": 0.25,
+   "page_dist": 2,
+   "matched_terms": [
+    "growing"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 3,
+   "text": "Meselson and Stahl grew  E. coli  for many generations in medium where the heavy isotope of nitrogen, {{c1::15",
+   "figure": "FIGURE 10.1",
+   "file": "figures/study_v2/FIGURE_10_1.png",
+   "native_file": "figures/full/FIGURE_10_1.png",
+   "coverage": 0.2,
+   "page_dist": 0,
+   "matched_terms": [
+    "bases"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 44,
+   "text": " E. coli  contains at least {{c1::five::number of polymerases}} DNA polymerases, which are named with {{c2::Ro",
+   "figure": "FIGURE 10.26",
+   "file": "figures/study_v2/FIGURE_10_26.png",
+   "native_file": "figures/full/FIGURE_10_26.png",
+   "coverage": 0.2,
+   "page_dist": 1,
+   "matched_terms": [
+    "greek"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 74,
+   "text": "A  polypeptide  is {{c1::a chain of amino acids linked together}}.",
+   "figure": "FIGURE 10.23",
+   "file": "figures/study_v2/FIGURE_10_23.png",
+   "native_file": "figures/full/FIGURE_10_23.png",
+   "coverage": 0.2,
+   "page_dist": 2,
+   "matched_terms": [
+    "chain"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 6,
+   "text": "{{c1::John Cairns::researcher}} established that DNA replication begins at {{c2::one unique site::one unique s",
+   "figure": "FIGURE 10.4",
+   "file": "figures/study_v2/FIGURE_10_4.png",
+   "native_file": "figures/full/FIGURE_10_4.png",
+   "coverage": 0.167,
+   "page_dist": 0,
+   "matched_terms": [
+    "chromosome"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 58,
+   "text": "In  eukaryotes , DNA synthesis takes place {{c1::within a small portion of the cell cycle::within a small port",
+   "figure": "FIGURE 10.31",
+   "file": "figures/study_v2/FIGURE_10_31.png",
+   "native_file": "figures/full/FIGURE_10_31.png",
+   "coverage": 0.167,
+   "page_dist": 1,
+   "matched_terms": [
+    "cell"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 0,
+   "text": "In humans, a new strand of DNA is synthesized at {{c1::about 3000 nucleotides per minute::rate}}. DNA replicat",
+   "figure": "FIGURE 10.3",
+   "file": "figures/study_v2/FIGURE_10_3.png",
+   "native_file": "figures/full/FIGURE_10_3.png",
+   "coverage": 0.143,
+   "page_dist": 2,
+   "matched_terms": [
+    "per"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  },
+  {
+   "card_index": 14,
+   "text": "In {{c2::the yeast  Saccharomyces cerevisiae ::organism}}, the chromosomal DNA segments that allow a circulari",
+   "figure": "FIGURE 10.6",
+   "file": "figures/study_v2/FIGURE_10_6.png",
+   "native_file": "figures/full/FIGURE_10_6.png",
+   "coverage": 0.143,
+   "page_dist": 2,
+   "matched_terms": [
+    "sequences"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "rejected_because": "orchestrator judge-look: same topic, different subject \u2014 the plate does not depict this card's answers"
+  }
+ ]
+}

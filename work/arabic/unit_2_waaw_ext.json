@@ -1,0 +1,20 @@
+[
+ {
+  "extends_note_id": 1786229799652,
+  "Text": "‎{{c1::و}}<br><br>Name: {{c2::waaw}}<br><br>Transliteration: {{c2::w — as a long vowel, uu}}<br><br>Sound: {{c2::<i>w</i> as in <i>wow!</i> — also long vowel <i>uu</i> (<i>oo</i> in <i>poodle</i>)}}<br><br>Connects to the letter after it? {{c1::no — like alif, it never joins what follows::yes/no}}",
+  "Back Extra": "Distinguish: waaw dips below the line with a round head; raa dips below with no head at all.<br><br>Shape: a round head with a tail sweeping down and to the left, below the line.<br><br>Hook: the name waaw opens with its own sound, w.<br><br><img src=\"arabic_src_alphabet_chart_v3.png\">",
+  "Audio": "[sound:arabic_pron_27_waaw.mp4]",
+  "block": "A_letters",
+  "source": "arabic",
+  "segment": 2,
+  "from_idx": [
+   13
+  ],
+  "numeric": false,
+  "needs_human_check": false,
+  "verified_against": "the marked sentence on rendered p48 (printed 30)",
+  "verified_by": "read off the page render at 200 dpi; R13 'waaw appears nowhere in context' CLEARED: the flagged answer is the note's pre-existing Name field, and the book prints the letter as its glyph, not its name — the appended connector fact is verbatim from mark [13]",
+  "visual_source": null,
+  "image": null
+ }
+]

@@ -80,5 +80,17 @@
   ],
   "slug": "hal_style_own_voice_only",
   "Audio": "[sound:arabic_khouri_hal.mp3]"
+ },
+ {
+  "block": "A_letter_forms",
+  "Text": "‎{{c1::ـبـ}}<br><br>Letter: {{c2::baa}}<br><br>Position: {{c2::medial}}",
+  "Back Extra": "Cue: baa is a connector: it joins on both sides.<br><br>Roster: the book's own Writing row below shows all four positions of baa, right to left.",
+  "Audio": "",
+  "image": "work/arabic/u2/media/arabic_u2_forms_baa_v1.png",
+  "source": "arabic",
+  "segment": 2,
+  "from_idx": [
+   5
+  ]
  }
 ]

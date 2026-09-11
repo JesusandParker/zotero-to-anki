@@ -123,9 +123,16 @@ def registered_attachments():
     Sources are keyed by attachment_key rather than path because the key is stable and
     unambiguous across libraries — which is what lets Lydia's group-library books sit in
     the same registry as Parker's own without a second code path.
+
+    A source may also declare `attachment_key_old` — a copy of the same book it has
+    MOVED OFF (Arabic switched to the 600 dpi scan on 2026-09-04 and its highlights
+    were migrated key by key). Those marks are already carded under the new key, so
+    they are neither pending nor unregistered: they are SUPERSEDED, returned
+    separately, and counted rather than dropped. Reporting them as "unregistered"
+    told the morning page every day that 64 Arabic marks could never be carded.
     """
     reg = S.load_registry()
-    out, keyless = {}, []
+    out, keyless, superseded = {}, [], {}
     for sid in reg["sources"]:
         src = S.get_source(sid)
         key = src.get("attachment_key")
@@ -133,7 +140,11 @@ def registered_attachments():
             out[key] = sid
         else:
             keyless.append(sid)
-    return out, keyless
+        old = src.get("attachment_key_old")
+        for k in ([old] if isinstance(old, str) else list(old or [])):
+            if k and k not in out:
+                superseded[k] = sid
+    return out, keyless, superseded
 
 
 def _phys_page(position, page_label):
@@ -189,7 +200,7 @@ def scan_marks():
     re-imported. Nothing is dropped silently either way — excluded marks are counted
     and reported.
     """
-    att_map, keyless = registered_attachments()
+    att_map, keyless, superseded_map = registered_attachments()
 
     con, tmp = S._open_db()
     try:
@@ -222,13 +233,24 @@ def scan_marks():
                       "include_external": bool(src.get("include_external", False))}
     default_pal = (set(S.colors({})), set(S.lexicon_colors({})))
 
-    marks, unregistered, external = [], {}, {}
+    marks, unregistered, external, superseded = [], {}, {}, {}
     for (key, date_added, lib, attach_key, page_label, position,
          color, atype, sort, is_external, comment) in rows:
         sid = att_map.get(attach_key)
         card_cols, lex_cols = palette.get(attach_key, default_pal)
         if color not in card_cols and color not in lex_cols:
             continue                      # blue and friends: ordinary reading emphasis
+
+        if sid is None and attach_key in superseded_map:
+            # A copy the registry says was replaced; its marks live on under the new
+            # key. Counted so the swap stays visible, never queued, never an alarm.
+            name = re.sub(r"^storage:", "", paths.get(attach_key, "") or attach_key)
+            u = superseded.setdefault(attach_key,
+                                      {"attachment_key": attach_key,
+                                       "name": os.path.basename(name),
+                                       "source": superseded_map[attach_key], "marks": 0})
+            u["marks"] += 1
+            continue
 
         if sid is None:
             name = re.sub(r"^storage:", "", paths.get(attach_key, "") or attach_key)
@@ -267,7 +289,8 @@ def scan_marks():
     return (marks,
             sorted(unregistered.values(), key=lambda u: -u["marks"]),
             keyless,
-            external)
+            external,
+            sorted(superseded.values(), key=lambda u: -u["marks"]))
 
 
 # ---------------------------------------------------------------------------- units
@@ -304,7 +327,13 @@ def build_units(marks, cap=DEFAULT_CAP):
         # Does this source's deck template need a segment to resolve? If it does and we
         # haven't got one, the deck name comes out malformed, so the unit can't ship.
         template = src.get("deck") or src.get("promote") or "{root}::Book Highlights"
-        needs_seg = "{segment}" in template or "{segment_name}" in template
+        # ANY {segment*} placeholder needs a segment, not just the two spelled out
+        # here originally: emt's deck is "{root}::Chapter {segment_pad}::Book
+        # Highlights", so a literal "{segment}" test read False and a segment-less
+        # mark shipped to "all::EMT::Chapter ::Book Highlights" - a real deck,
+        # silently wrong, which is exactly what this guard exists to stop. The two
+        # self-test cases for it had been failing.
+        needs_seg = re.search(r"\{segment\w*\}", template) is not None
         skip = None
         if seg is None and needs_seg:
             skip = ("registry: source is flat but its deck template wants a segment"
@@ -379,7 +408,8 @@ def _head(u):
     return f"  {u['segment_noun']} {u['segment']}{part}"
 
 
-def render(units, unregistered, keyless, external, ledger_missing, total_pending):
+def render(units, unregistered, keyless, external, superseded, ledger_missing,
+           total_pending):
     out = []
     stamp = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M")
     out.append(f"Night shift queue — {stamp}")
@@ -443,6 +473,12 @@ def render(units, unregistered, keyless, external, ledger_missing, total_pending
         for sid, n in sorted(external.items(), key=lambda kv: -kv[1]):
             out.append(f"    {n:>4} marks  {sid}")
         out.append('    Override per source with "include_external": true in sources.json')
+        out.append("")
+
+    if superseded:
+        for u in superseded:
+            out.append(f"  {u['marks']:>4} marks  {u['name'][:46]}  "
+                       f"— replaced copy of '{u['source']}', already carded")
         out.append("")
 
     if unregistered or keyless:
@@ -554,7 +590,7 @@ def main():
     ledger_missing = led is None
     done = processed_keys(led)
 
-    marks, unregistered, keyless, external = scan_marks()
+    marks, unregistered, keyless, external, superseded = scan_marks()
     pending = [m for m in marks if m["key"] not in done]
     if args.source:
         S.get_source(args.source)             # validates, exits with the known-ids list
@@ -602,11 +638,13 @@ def main():
             "other_owners": [u for u in units if u["queueable"] and u["owner"] != "parker"],
             "external_excluded": external,
             "unregistered": unregistered,
+            "superseded": superseded,
             "sources_without_attachment_key": keyless,
         }, indent=1))
         return
 
-    print(render(units, unregistered, keyless, external, ledger_missing, len(pending)))
+    print(render(units, unregistered, keyless, external, superseded, ledger_missing,
+                 len(pending)))
 
 
 if __name__ == "__main__":

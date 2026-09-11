@@ -10,6 +10,22 @@
    "page_distance": 82,
    "far_from_mark": true,
    "occurrences": 5
+  },
+  "conson": {
+   "term": "consonant",
+   "method": "in_source",
+   "page": "52",
+   "quote": "consonant (as opposed to just consonant-short vowel)",
+   "page_distance": 0,
+   "occurrences": 47
+  },
+  "short_vowel": {
+   "term": "short vowels",
+   "method": "in_source",
+   "page": "52",
+   "quote": "short vowels are shown above, where you can easily see and hear the correspondence: aa (alif) is the long vowel corresponding to a (fatHa), uu to u (Damma), and i to i (kasra)",
+   "page_distance": 0,
+   "occurrences": 13
   }
  }
 }

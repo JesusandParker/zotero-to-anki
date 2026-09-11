@@ -1,0 +1,42 @@
+{
+ "run_id": "2026-09-11T07-25",
+ "source": "genetics",
+ "segment": 10,
+ "started": "2026-09-11T07:25:28",
+ "skill_sha": "d12aabb484b39ff0f29605e68371d0dab9ddd553",
+ "note": "chapter 10 (Replication of DNA and Chromosomes): 86 marks = 69 yellow + 17 purple, pp239-267 physical; marks-only; 9 draft units + independent editors + consolidation + judge; lexicon lane authored by orchestrator",
+ "status": "complete",
+ "finished": "2026-09-11T08:24:38",
+ "counts": {
+  "marks_total": 86,
+  "marks_yellow": 69,
+  "marks_purple": 17,
+  "notes": 78,
+  "anki_cards": 125,
+  "cards_with_figure": 56,
+  "distinct_plates_attached": 30,
+  "plates_cut_and_eyeballed": 32,
+  "figure_proposals_judged": 87,
+  "figures_kept": 56,
+  "figures_dropped": 31,
+  "figures_forced_by_judge": 20,
+  "dropped_cards": 1,
+  "blocks": 58,
+  "needs_human_check": 7
+ },
+ "new_hazards_found": [
+  {
+   "summary": "a page PNG's pixels are MediaBox-relative (pdftoppm) while a Zotero/pdf.js/PyMuPDF rect is CropBox-relative, so scaling a rect by dpi/72 mis-crops by the CropBox origin — 36 pt / 225 px on this book. It made my first cuts of FIGURE 10.28/10.29/10.30 include the running head and clip labels, and the same latent bug sits in render_page.crop()'s area-selection path.",
+   "regression_id": "R64"
+  },
+  {
+   "summary": "the figure matcher's single-best pick was wrong on 20 of 87 proposals in this chapter, including four at coverage 1.00 (FIGURE 10.8 on the phage T7 'eye' card, FIGURE 10.20 on the DNA gyrase card) — every plate in a mechanism chapter shares the same vocabulary, so word overlap ranks near-identically and the judge has to supply the right plate by hand.",
+   "regression_id": "R19"
+  },
+  {
+   "summary": "I recorded a judge-look verdict for FIGURE 10.14 while reading only its crop manifest, without opening the image; caught by self-auditing the judgelook record (31 of 32 plates had actually been opened) and corrected by opening the plate and confirming.",
+   "mechanizable": false,
+   "why": "the artifact that is supposed to force the look is the per-figure `depicts` text, and it can be written from a manifest as easily as from the image. Nothing inside the repo can tell whether an agent's eyes were on the pixels; the guard is the discipline plus the self-audit that caught it."
+  }
+ ]
+}

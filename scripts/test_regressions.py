@@ -34,6 +34,26 @@ LEX_MARKS = [
      "context": "Shock produces pale, cool, moist skin as blood is shunted to the core."},
 ]
 
+# R62's own marks — kept separate from LEX_MARKS on purpose: several cases index into that
+# list positionally, so appending to it silently re-points their from_idx.
+R62_MARKS = [
+    {"kind": "lexicon", "page": "52", "highlight": "consonant",
+     "term": "consonant", "term_key": "conson",
+     "context": "syllables in Arabic always begin with a consonant."},
+    {"kind": "lexicon", "page": "52", "highlight": "short vowels",
+     "term": "short vowels", "term_key": "shortv",
+     "context": "by convention, short vowels are written above or below the consonant."},
+    {"kind": "lexicon", "page": "612", "highlight": "diaphoretic",
+     "term": "diaphoretic", "term_key": "diaphor",
+     "context": "The patient was pale and diaphoretic, with a rapid, thready pulse."},
+    {"kind": "lexicon", "page": "61", "highlight": "resultant displacement",
+     "term": "resultant displacement", "term_key": "resultdisp",
+     "context": "The resultant displacement vector, DR, is the sum of the vectors D1 and D2."},
+    {"kind": "lexicon", "page": "122", "highlight": "vowel quality",
+     "term": "vowel quality", "term_key": "vowelq",
+     "context": "we refer to these differences in pronunciation as vowel quality."},
+]
+
 AUTH_OK = {"by": "parker", "date": "2026-08-26",
            "asked": "Unmarked on p. 10: the SI/MKS/cgs systems paragraph and the seven SI "
                     "base quantities table. Want anything from them?",
@@ -264,6 +284,75 @@ CASES = [
                    "from_idx": [0],
                    "lexicon": {"term": "diaphoresis", "term_key": "diaphor",
                                "anchor": {"method": "in_source"}}}],
+    },
+    # --- R62: an in-source anchor must DEFINE the word, not merely contain it ---------
+    # Arabic Unit 2 (2026-09-11): lexicon.py --find locates occurrences, and both of that
+    # unit's in_source anchors were occurrences rather than definitions. R37 proved the
+    # evidence entry existed; nothing asked whether it defined anything.
+    {
+        "id": "r62_bad_anchor_is_a_footnote_fragment",
+        "warn": "no defining cue",
+        "present": True,
+        "highlights": R62_MARKS,
+        "cards": [{"Text": "A <b>consonant</b> is {{c1::a sound that blocks or narrows the airflow}}.",
+                   "Back Extra": "Ex: \"syllables in Arabic always begin with a <b>consonant</b>.\"",
+                   "kind": "lexicon", "source": "_regression", "segment": 1,
+                   "from_idx": [0],
+                   "lexicon": {"term": "consonant", "term_key": "conson",
+                               "anchor": {"method": "in_source"}}}],
+        "note": "the quote is a fragment of a footnote — it contains the word and defines nothing",
+    },
+    {
+        "id": "r62_bad_anchor_says_where_not_what",
+        "warn": "what is DONE with the word",
+        "present": True,
+        "highlights": R62_MARKS,
+        "cards": [{"Text": "A <b>short vowel</b> is {{c1::as long as an ordinary English vowel}}.",
+                   "Back Extra": "Ex: \"<b>short vowels</b> are written above the consonant.\"",
+                   "kind": "lexicon", "source": "_regression", "segment": 1,
+                   "from_idx": [1],
+                   "lexicon": {"term": "short vowels", "term_key": "shortv",
+                               "anchor": {"method": "in_source"}}}],
+        "note": "carries the cue word 'are', so a naive cue test passes it — the predicate is a "
+                "presentation verb, which is what makes it a use and not a definition",
+    },
+    {
+        "id": "r62_good_real_definition_is_not_flagged",
+        "warn": "defining cue",
+        "present": False,
+        "highlights": R62_MARKS,
+        "cards": [{"Text": "<b>Diaphoresis</b> is {{c1::heavy, drenching sweating}}.",
+                   "Back Extra": "Ex: \"The patient was pale and <b>diaphoretic</b>…\"",
+                   "kind": "lexicon", "source": "_regression", "segment": 1,
+                   "from_idx": [2],
+                   "lexicon": {"term": "diaphoresis", "term_key": "diaphor",
+                               "anchor": {"method": "in_source"}}}],
+    },
+    {
+        "id": "r62_bad_anchor_is_a_representation_verb",
+        "warn": "what is DONE with the word",
+        "present": True,
+        "highlights": R62_MARKS,
+        "cards": [{"Text": "A <b>resultant displacement</b> is {{c1::the single hop that replaces two}}.",
+                   "Back Extra": "Ex: \"The <b>resultant displacement</b> vector is the sum of D1 and D2.\"",
+                   "kind": "lexicon", "source": "_regression", "segment": 1,
+                   "from_idx": [3],
+                   "lexicon": {"term": "resultant displacement", "term_key": "resultdisp",
+                               "anchor": {"method": "in_source"}}}],
+        "note": "physics ch3, 2026-09-03: the quote describes a FIGURE, not the term",
+    },
+    {
+        "id": "r62_bad_anchor_says_what_it_is_useful_for",
+        "warn": "USEFUL FOR",
+        "present": True,
+        "highlights": R62_MARKS,
+        "cards": [{"Text": "<b>Vowel quality</b> is {{c1::how far forward the vowel is made}}.",
+                   "Back Extra": "Ex: \"differences in pronunciation we call <b>vowel quality</b>.\"",
+                   "kind": "lexicon", "source": "_regression", "segment": 1,
+                   "from_idx": [4],
+                   "lexicon": {"term": "vowel quality", "term_key": "vowelq",
+                               "anchor": {"method": "in_source"}}}],
+        "note": "Arabic, 2026-09-04: a usefulness predicate accepted from 82 pages away",
     },
     # --- R40: cards come ONLY from Parker's marks (2026-08-08, the retracted
     # 80-card "coverage lane") — a synthetic agent-authored mark blocks its cards ---

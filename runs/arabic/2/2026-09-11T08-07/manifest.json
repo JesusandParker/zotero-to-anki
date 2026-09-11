@@ -1,0 +1,36 @@
+{
+ "run_id": "2026-09-11T08-07",
+ "source": "arabic",
+ "segment": 2,
+ "started": "2026-09-11T08:07:46",
+ "skill_sha": "d12aabb484b39ff0f29605e68371d0dab9ddd553",
+ "note": "Unit 2 full run: 32 of 37 marks (5 were already carded by the 2026-09-04 night run), plus the letter-positional-forms lane Parker asked for four times in the margins.",
+ "status": "complete",
+ "finished": "2026-09-11T08:23:59",
+ "counts": {
+  "marks_in_segment": 37,
+  "marks_carded_this_run": 32,
+  "marks_already_carded_by_the_2026_09_04_night_run": 4,
+  "marks_blocked": 1,
+  "cards_written": 35,
+  "letter_notes_extended": 1,
+  "cards_dropped_in_consolidation": 7,
+  "notes_live_in_unit_2_book_highlights": 38
+ },
+ "new_hazards_found": [
+  {
+   "summary": "an in_source lexicon anchor can resolve to an OCCURRENCE (a footnote fragment, or a sentence saying where the word's referent is printed) rather than a definition; R37 proved the entry existed but never asked whether it defined anything",
+   "regression_id": "R62"
+  },
+  {
+   "summary": "a page-FRACTION grow applied to a measured crop box swallows the neighbouring heading, and the no-clip assertion then reports the heading being clipped — sending you to widen a box that was already correct. Grow in PIXELS, and mask on the object's own ink colour rather than all ink.",
+   "mechanizable": false,
+   "why": "the no-clip assertion already fires; what is left is a crop-authoring judgement (which ink belongs to the object) that varies per source and per plate. Encoded in the comments of work/arabic/u2/make_form_crops.py and in this manifest, not as a check."
+  },
+  {
+   "summary": "a crop taken from a duplex scan carries the reverse side's bleed-through, which Parker's figure bar forbids outright ('page-text bleed never ships'); every storage check was green and only the contact-sheet LOOK caught it",
+   "mechanizable": false,
+   "why": "detecting it requires knowing which ink belongs to the plate — trivial here (the Writing rows are pure red) but not general. The mandatory contact-sheet review is the guard; the fix (compositing the target ink over flat paper) is in make_form_crops.redonly()."
+  }
+ ]
+}

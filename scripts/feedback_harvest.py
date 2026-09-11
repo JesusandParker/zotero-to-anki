@@ -45,7 +45,7 @@ FEEDBACK_FIELD = "Card Feedback"
 # Parker's OWN note types only. These (and only these) got the Card Feedback field on
 # 2026-07-18. The AnkiHub-synced AnKing download decks use different models and are never
 # touched here.
-MODELS = ["AnKing Cloze", "AnKing Basic"]
+MODELS = ["AnKing Cloze", "AnKing Basic", "Math Fluency"]
 # The "front" field differs by model: cloze cards use Text, basic cards use Front.
 FRONT_FIELDS = ["Text", "Front"]
 

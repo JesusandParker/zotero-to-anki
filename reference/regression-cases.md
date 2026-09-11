@@ -991,3 +991,51 @@ attached the wrong word's pronunciation to a card.
 **Rule.** Every externally sourced clip is transcribed before use and must return the word the card
 teaches. `work/arabic/verify_ling.py` does this. The origin filename in the redirect URL is evidence,
 not proof — the transcription is the proof.
+
+## R62 — an in-source lexicon anchor must DEFINE the word, not merely contain it (2026-09-11)
+
+**Defect.** `lexicon.py --find` searches the source for OCCURRENCES of a purple word, and an
+occurrence is not a definition. On Alif Baa Unit 2 BOTH of the run's `in_source` anchors were
+wrong in this way, and both passed every existing check:
+
+- `consonant` resolved to `"consonant (as opposed to just consonant-short vowel)"` — a fragment
+  of **footnote 2** on printed p34. It contains the word and defines nothing.
+- `short vowels` resolved to `"short vowels are shown above, where you can easily see and hear
+  the correspondence…"` — a sentence about where the marks are PRINTED, not what they are.
+
+R37 had already established that a claimed anchor must resolve to mechanically-extracted
+evidence. It proved the entry existed; nothing asked whether the entry defined anything. So the
+card-rules #28 contract — *the authored answer must AGREE with the book's own definition* — was
+being checked against a quote there was nothing to agree with.
+
+**Rule.** When an anchor claims `glossary` or `in_source`, the resolved quote is tested for a
+defining cue (`is` / `are` / `means` / `refers to` / `called` / `known as` / `defined as`). A
+quote with no cue at all, or whose cue is followed by a **presentation verb** (`is shown`,
+`are written`, `is used`, `is listed`…), warns: it uses the word rather than defining it. The
+drafter then re-pulls the quote or downgrades to `external` and records why — which also flips
+`needs_human_check`, so an authored definition the book never states reaches Parker's eyes.
+
+**Why the presentation-verb half matters.** The `short vowels` quote carries the cue word `are`
+immediately after the term, so a naive cue test passes it. The tell is the predicate: a
+definition says what the thing IS, a use says what is DONE with it.
+
+**BAD:** `in_source` + `"consonant (as opposed to just consonant-short vowel)"`.
+**BAD:** `in_source` + `"short vowels are shown above…"`.
+**GOOD:** `in_source` + `"Diaphoresis is profuse sweating that accompanies shock states."` — a
+real definition, and it must NOT be flagged.
+
+*Caught by:* `check_cards._non_definitional_quote`, inside `lexicon_check`. Cases
+`r62_bad_anchor_is_a_footnote_fragment`, `r62_bad_anchor_says_where_not_what`,
+`r62_good_real_definition_is_not_flagged`; fixtures in `work/_regression/lexicon_evidence.json`.
+
+## R64 — A page-PNG pixel is not a PDF point: pdftoppm renders the MEDIA box, a Zotero rect is CROP-box relative
+**Rule:** never convert a PDF rect to page-PNG pixels by scaling with `dpi/72` alone. **Caught by:** `render_page.py --self-test` (`rect_to_px`). Found 2026-09-11 while cutting genetics ch10's figures.
+
+`render_page.py` renders with **pdftoppm, which rasterises the MediaBox**. A rect from Zotero, pdf.js or PyMuPDF is measured from the **CropBox** origin. On most books those two boxes share an origin and the distinction is invisible — the EMT book is one, which is why the area-selection crop math was "verified" in 2026-07 and has been wrong-but-quiet ever since. The genetics textbook's boxes are MediaBox `(0,0,738,855)` and CropBox `(36.04,36.03,700.34,817.22)`, so every converted rect lands **36 pt — 225 px at 450 dpi — off**, and the derived scale is wrong on both axes as well (`page.rect` is the CropBox size, so `4613/664.3 = 6.94 px/pt` where the render is really `6.25`).
+
+- **Measured proof (do this on any new book):** PyMuPDF put "DNA gyrase" on physical p256 at `(537.9, 580.6, 582.2, 589.1)`. The naive conversion cropped blank artwork ~2200 px away; going through the CropBox offset cropped the phrase. Both crops are in the run's `figures/`.
+- **BAD:** `left = x0 * dpi/72`, `top = (pdfinfo_page_height - y1) * dpi/72`. This is what `crop()` did, and it is the shape any future session will reach for.
+- **GOOD:** `page_boxes()` + `rect_to_px()` — shift the rect by the CropBox origin into absolute user space, then measure pixels from the MediaBox origin. For a figure you are cutting yourself, skip the page PNG entirely and render the clip in PDF coordinates: `page.get_pixmap(clip=fitz.Rect(...), dpi=450)`.
+- **MUST CATCH:** a rect at the CropBox origin must map to the CropBox offset in pixels, not to `(0,0)`.
+- **MUST NOT OVER-FLAG:** on a page whose CropBox equals its MediaBox the new math must return exactly what the old naive math returned (asserted in the self-test), so no existing source's crops move.
+- **Scope note:** this has never produced a bad card, because neither carded genetics chapter contains a `kind: image` area-selection mark. It would have fired the first time Parker area-selected a figure in this book.

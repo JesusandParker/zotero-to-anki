@@ -1319,6 +1319,37 @@ def _lexicon_evidence(source_root):
         return {}
 
 
+
+# R62 (2026-09-11, Arabic Unit 2): `lexicon.py --find` locates OCCURRENCES of a word, and an
+# occurrence is not a definition. Both of Unit 2's `in_source` anchors were wrong in this way
+# and both slipped every existing check: `consonant` resolved to a fragment of a footnote
+# ("...(as opposed to just consonant-short vowel)"), and `short vowels` resolved to a sentence
+# that says where the vowels are PRINTED, not what they are. R37 proved the evidence entry
+# exists; nothing asked whether it defines anything. This does.
+_DEF_CUE = re.compile(r"\b(is|are|means|meaning|refers? to|called|known as|defined as)\b", re.I)
+# a predicate that describes what is being DONE with the term, not what the term IS
+_USE_VERB = re.compile(r"\b(is|are)\s+(shown|written|used|listed|found|given|printed|"
+                       r"indicated|presented|added|placed|marked|seen|discussed|"
+                       # representation verbs: physics ch3 (2026-09-03) accepted
+                       # "resultant displacement is represented by the arrow labeled DR in Fig"
+                       r"represented|illustrated|drawn|depicted|labell?ed|described)\b", re.I)
+# a predicate of USEFULNESS, not of identity: Arabic Unit 2's 9/4 run accepted
+# "vowel quality is the easiest way to distinguish between s and S" as a definition.
+_USE_FRAME = re.compile(r"\b(is|are)\s+the\s+\w+est\s+way\b|\b(is|are)\s+(a|the)\s+way\s+to\b", re.I)
+
+def _non_definitional_quote(term, quote):
+    """(str reason | None) — why this quote cannot anchor a definition of `term`."""
+    if not quote:
+        return None
+    if _USE_VERB.search(quote):
+        return "describes what is DONE with the word rather than what it means"
+    if _USE_FRAME.search(quote):
+        return "says what the word is USEFUL FOR rather than what it means"
+    if not _DEF_CUE.search(quote):
+        return "contains no defining cue (is / are / means / refers to / called)"
+    return None
+
+
 def lexicon_check(cards, highlights, source_root=None):
     """(hard, warn) — the PURPLE lane's own grounding contract (card-rules #28).
 
@@ -1394,6 +1425,13 @@ def lexicon_check(cards, highlights, source_root=None):
             elif ev.get("method") != method:
                 warn.append(f"#{i}: anchor says {method!r} but the evidence entry says "
                             f"{ev.get('method')!r} — use the evidence's own tier")
+            else:
+                bad = _non_definitional_quote(term, ev.get("quote", ""))
+                if bad:
+                    warn.append(f"#{i}: the {method!r} anchor for {key!r} resolves to a quote "
+                                f"that {bad}, so the authored definition has nothing to agree "
+                                f"with — re-pull the quote, or downgrade to `external` and "
+                                f"record why (card-rules #28, R62)")
         elif method == "external":
             if not c.get("needs_human_check"):
                 hard.append(f"#{i}: external-anchored definition without "

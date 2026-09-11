@@ -586,6 +586,186 @@
     "segment": 2,
     "definition": "which particular sound a vowel has"
    }
+  ],
+  "progen": [
+   {
+    "term": "progeny",
+    "noteId": 1789129030775,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "the offspring or descendants of a parent"
+   }
+  ],
+  "colloq": [
+   {
+    "term": "colloquialism",
+    "noteId": 1789129030924,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "an informal, everyday expression"
+   }
+  ],
+  "elucidat": [
+   {
+    "term": "elucidated",
+    "noteId": 1789129031069,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "made clear or fully explained"
+   }
+  ],
+  "semiconserv_repl": [
+   {
+    "term": "semiconservative replication",
+    "noteId": 1789129031476,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "Semiconservative replication"
+   }
+  ],
+  "equilibrium_dens_grad_centrifug": [
+   {
+    "term": "equilibrium density-gradient centrifugation",
+    "noteId": 1789129031737,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "spinning molecules until they separate by density"
+   }
+  ],
+  "dttp_precursor": [
+   {
+    "term": "dTTP precursor",
+    "noteId": 1789129031979,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "the thymine building block, carrying three phosphates"
+   }
+  ],
+  "monomer": [
+   {
+    "term": "monomeric",
+    "noteId": 1789129032192,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "one made of a single protein subunit"
+   }
+  ],
+  "juxtapos": [
+   {
+    "term": "juxtaposition",
+    "noteId": 1789129032811,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "placing things right next to each other"
+   }
+  ],
+  "multimer_enzym": [
+   {
+    "term": "multimeric enzyme",
+    "noteId": 1789129033206,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "an enzyme built from many protein subunits"
+   }
+  ],
+  "holoenzym": [
+   {
+    "term": "holoenzyme",
+    "noteId": 1789129033429,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "the complete enzyme, with every subunit present"
+   }
+  ],
+  "dimeriz": [
+   {
+    "term": "dimerization",
+    "noteId": 1789129033558,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "two units joining into a pair"
+   }
+  ],
+  "dimer": [
+   {
+    "term": "dimeric",
+    "noteId": 1789129033898,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "one made of two joined subunits"
+   }
+  ],
+  "nasc": [
+   {
+    "term": "nascent",
+    "noteId": 1789129034018,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "newly made and still growing"
+   }
+  ],
+  "polypeptid": [
+   {
+    "term": "polypeptides",
+    "noteId": 1789129034133,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "a chain of amino acids linked together"
+   }
+  ],
+  "endonucleas": [
+   {
+    "term": "endonuclease",
+    "noteId": 1789129034361,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "an enzyme that cuts a DNA strand internally"
+   }
+  ],
+  "proger": [
+   {
+    "term": "progerias",
+    "noteId": 1789129034546,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "inherited disorders of premature aging"
+   }
+  ],
+  "hutchinson_gilford_syndrom": [
+   {
+    "term": "Hutchinson–Gilford syndrome",
+    "noteId": 1789129034756,
+    "source": "genetics",
+    "segment": 10,
+    "definition": "the most severe premature-aging disorder, starting at birth"
+   }
+  ],
+  "conson": [
+   {
+    "term": "consonant",
+    "noteId": 1789129142033,
+    "source": "arabic",
+    "segment": 2,
+    "definition": "a sound that blocks or narrows the airflow"
+   }
+  ],
+  "short_vowel": [
+   {
+    "term": "short vowels",
+    "noteId": 1789129142155,
+    "source": "arabic",
+    "segment": 2,
+    "definition": "as long as an ordinary English vowel"
+   }
+  ],
+  "yllabl": [
+   {
+    "term": "syllable",
+    "noteId": 1789129142284,
+    "source": "arabic",
+    "segment": 2,
+    "definition": "one beat of a word"
+   }
   ]
  }
 }

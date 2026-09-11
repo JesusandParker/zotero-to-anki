@@ -1,0 +1,2306 @@
+[
+ {
+  "Text": "In humans, a new strand of DNA is synthesized at {{c1::about 3000 nucleotides per minute::rate}}. DNA replication is also remarkably accurate, averaging only {{c2::one mistake per billion nucleotides incorporated::error rate}}.",
+  "Back Extra": "Distinguish: bacteria add about 30,000 nucleotides to a nascent DNA chain per minute, roughly ten times the human rate.<br><br>Why: speed matters, but accuracy matters even more; that fidelity is why most genes of identical twins stay identical, and the few differences trace to replication errors and other mutations.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   2,
+   3
+  ],
+  "block": "U1_rate_fidelity",
+  "numeric": true,
+  "verified_against": "p240: 'In humans, the synthesis of a new strand of DNA occurs at the rate of about 3000 nucleotides per minute.' | p240: 'Indeed, the fidelity of DNA replication is amazing, with an average of only one mistake per billion nucleotides incorporated.' | Back Extra (unmarked, teaching only) p240: 'In bacteria, about 30,000 nucleotides are added to a nascent DNA chain per minute.'",
+  "verified_by": "drafter-U1",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "U1",
+  "_unit_idx": 0
+ },
+ {
+  "Text": "In {{c1::1958::year}}, {{c1::Matthew Meselson and Franklin Stahl::two researchers}} demonstrated that the chromosome of <i>E. coli</i> replicates {{c2::semiconservatively::semiconservatively, conservatively, or dispersively}}.",
+  "Back Extra": "Cue: the classic density-transfer experiment: grow the cells for generations on 'heavy' medium, transfer them to 'light' medium, and follow the density of their DNA generation by generation in a CsCl equilibrium density gradient.<br><br>Why: Watson and Crick had proposed semiconservative replication from complementary base pairing just five weeks after their double-helix paper; Meselson and Stahl supplied the experimental test in <i>E. coli</i>.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   6
+  ],
+  "block": "U1_meselson_stahl_1958",
+  "numeric": true,
+  "verified_against": "p240: 'In 1958, Matthew Meselson and Franklin Stahl demonstrated that the chromosome of Escherichia coli replicates semiconservatively.' | Back Extra (unmarked, teaching only) p240: 'five weeks after the appearance of their paper on the double-helix structure of DNA, Watson and Crick published a paper describing a mechanism by which the double helix could replicate.'",
+  "verified_by": "drafter-U1",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "U1",
+  "_unit_idx": 1
+ },
+ {
+  "Text": "In {{c1::1962::year}}, {{c1::John Cairns::researcher}} demonstrated that the whole <i>E. coli</i> chromosome is {{c2::a single duplex::how many double helices}} of DNA.",
+  "Back Extra": "Distinguish: 'single duplex' is a claim about STRUCTURE (the chromosome is one continuous double-stranded DNA molecule), not about the mode of replication, which the density-transfer experiment had already addressed.<br><br>Why: the density-transfer result was measured on whole-chromosome DNA; knowing the chromosome is one DNA duplex lets that result be read as a statement about the DNA molecule itself, which is why the two experiments are cited together as the proof for <i>E. coli</i>.<br><br>Pitfall: Cairns has several separate, differently dated findings on the <i>E. coli</i> chromosome; keep 1962 = 'one duplex' apart from his later results on how that chromosome replicates.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   7
+  ],
+  "block": "U1_cairns_1962",
+  "numeric": true,
+  "verified_against": "p240 (rendered page; the text layer did not locate this mark): 'Then, in 1962, John Cairns demonstrated that the E. coli chromosome was a single duplex of DNA.' | Back Extra (unmarked, teaching only) p240: 'Together, the results presented by Meselson and Stahl and by Cairns showed that DNA replicates semiconservatively in E. coli.'",
+  "verified_by": "drafter-U1",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "240"
+   ],
+   "figures": [
+    "work/genetics/figures/evidence/p240_mark7_cairns_1962.png"
+   ],
+   "labels": [],
+   "note": "mark not located by the text layer; sentence read verbatim on the rendered page (evidence crop work/genetics/figures/evidence/p240_mark7_cairns_1962.png, re-read by drafter-U1)"
+  },
+  "image": null,
+  "_unit": "U1",
+  "_unit_idx": 2
+ },
+ {
+  "Text": "Meselson and Stahl grew <i>E. coli</i> for many generations in medium where the heavy isotope of nitrogen, {{c1::15N}}, replaced the normal, light isotope, {{c1::14N}}. Nitrogen sits in DNA's {{c2::purine and pyrimidine bases::which part of the molecule}}, so DNA built with the heavy isotope has a {{c3::greater::greater or lesser}} {{c3::density::physical property}} than DNA built with the light one.",
+  "Back Extra": "Why: growing the cells for many generations in the heavy medium first ensures that essentially all of the starting DNA is 'heavy' before the transfer to light medium.<br><br>Mechanism: heavy isotope in every base → each DNA molecule is slightly denser → in a CsCl equilibrium density gradient, heavy and light <i>E. coli</i> DNA settle into two separate bands (about 1.724 versus 1.710 g/cm3).",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   8,
+   9,
+   10
+  ],
+  "block": "U1_15N_density_logic",
+  "numeric": true,
+  "verified_against": "p240: 'Meselson and Stahl grew E. coli cells for many generations in a medium in which the heavy isotope of nitrogen, 15N, had been substituted for the normal, light isotope, 14N.' | p240: 'The purine and pyrimidine bases in DNA contain nitrogen.' | p240: 'Thus, the DNA of cells grown on medium containing 15N will have a greater density (mass per unit volume) than the DNA of cells grown on medium containing 14N.' | Back Extra (unmarked, teaching only) p241: 'E. coli DNA containing 14N has a density of 1.710 g/cm3. Substituting 15N for 14N increases the density of E. coli DNA to 1.724 g/cm3.' and p241: 'cells that had been growing in medium containing 15N for several generations (and thus contained \"heavy\" DNA)'",
+  "verified_by": "drafter-U1",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "242"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_3.png"
+   ],
+   "labels": [
+    "FIGURE 10.3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_3.png",
+  "_unit": "U1",
+  "_unit_idx": 3,
+  "image_side": "back"
+ },
+ {
+  "Text": "After <b>one</b> generation of semiconservative replication in medium containing only 14N, a parental double helix built with 15N yields two progeny double helices, {{c1::both::both or only one}} of which carry {{c1::one old 15N strand and one new 14N strand::strand composition}}. Every progeny molecule is therefore of {{c2::hybrid::heavy, hybrid, or light}} density.",
+  "Back Extra": "Distinguish: conservative replication would give NO hybrid molecules after one generation (half of the DNA still fully heavy, half fully light); dispersive replication would shift ALL of the DNA progressively lighter each generation ('half heavy' after one, 'quarter heavy' after two).<br><br>Pitfall: after only one generation, dispersive replication also predicts a single half-heavy band, so the one-generation result by itself excludes only the conservative model; the second generation (half of the DNA hybrid, half light) is what separates semiconservative from dispersive.<br><br>Ex: Meselson and Stahl's data matched the prediction: after one generation in 14N medium all of the <i>E. coli</i> DNA banded halfway between heavy and light, and after two generations half was hybrid and half was light.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   12
+  ],
+  "block": "U1_one_generation_hybrid",
+  "numeric": true,
+  "verified_against": "p241: 'One generation of semiconservative replication of a parental double helix containing 15N in medium containing only 14N would produce two progeny double helices, both of which have 15N in one strand (the \"old\" strand) and 14N in the other strand (the \"new\" strand). Such molecules would be of hybrid density.' | Back Extra (unmarked, teaching only) p241: 'Conservative replication would not produce any DNA molecules with hybrid density; after one generation of conservative replication of heavy DNA in light medium, half of the DNA still would be heavy and the other half would be light. If replication were dispersive, Meselson and Stahl would have observed a shift of the DNA from heavy toward light in each generation (that is, \"half heavy\" or hybrid' p242: 'after one generation, \"quarter heavy\" after two generations, and so forth).' and p241: 'All the DNA isolated from cells after one generation of growth in medium containing 14N had a density halfway between the densities of \"heavy\" DNA and \"light\" DNA. ... After two generations of growth in medium containing 14N, half of the DNA was of hybrid density and half was light.'",
+  "verified_by": "drafter-U1",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "243"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_4.png"
+   ],
+   "labels": [
+    "FIGURE 10.4"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_4.png",
+  "_unit": "U1",
+  "_unit_idx": 4,
+  "image_side": "back"
+ },
+ {
+  "Text": "In {{c1::1957::year}}, {{c1::J. Herbert Taylor, Philip Woods, and Walter Hughes::three researchers}} first demonstrated the semiconservative replication of {{c2::eukaryotic::eukaryotic or prokaryotic}} chromosomes, using {{c2::root-tip cells of the broad bean, <i>Vicia faba</i>::organism and tissue}}.",
+  "Back Extra": "Distinguish: the bacterial proof read out DNA DENSITY (a heavy isotope, CsCl gradient); the <i>Vicia faba</i> proof read out a RADIOACTIVE label: root tips grown briefly in 3H-thymidine, then followed through successive divisions by autoradiography of the chromatids.<br><br>Pitfall: the eukaryotic demonstration, in a plant, came BEFORE the <i>E. coli</i> density-transfer experiment; 'eukaryotic' does not mean 'later'.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   13
+  ],
+  "block": "U1_taylor_woods_hughes_1957",
+  "numeric": true,
+  "verified_against": "p242: 'The semiconservative replication of eukaryotic chromosomes was first demonstrated in 1957 by the results of experiments carried out by J. Herbert Taylor, Philip Woods, and Walter Hughes on root-tip cells of the broad bean, Vicia faba.' | Back Extra (unmarked, teaching only) p242: 'Taylor and colleagues labeled V. faba chromosomes by growing root tips for eight hours (less than one cell generation) in medium containing radioactive 3H-thymidine.' and 'Taylor and colleagues used a technique called autoradiography to examine the distribution of radioactivity in the chromosomes'",
+  "verified_by": "drafter-U1",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "244"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_5.png"
+   ],
+   "labels": [
+    "FIGURE 10.5"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_5.png",
+  "_unit": "U1",
+  "_unit_idx": 5,
+  "image_side": "back"
+ },
+ {
+  "Text": "{{c1::John Cairns::researcher}} established that DNA replication begins at {{c2::one unique site::one unique site or many sites}} on the circular <i>E. coli</i> chromosome, from which the replication of {{c2::the entire chromosome::the entire chromosome or only a segment}} is controlled.",
+  "Back Extra": "Distinguish: in the large chromosomes of eukaryotes no single site is in charge; multiple origins, sitting at specific sites, collectively control the replication of the one giant DNA molecule in each chromosome.<br><br>Pitfall: one starting site does not mean one direction of travel; replication in most prokaryotes still proceeds outward from the origin in both directions.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   14,
+   15
+  ],
+  "block": "U2_cairns_unique_origin",
+  "numeric": true,
+  "verified_against": "p243: 'John Cairns established that DNA replication begins at a unique site on the circular E. coli chromosome. This origin of replication controls the replication of the entire chromosome.'",
+  "verified_by": "drafter-U2",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "246"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_7.png"
+   ],
+   "labels": [
+    "FIGURE 10.7"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_7.png",
+  "_unit": "U2",
+  "_unit_idx": 0,
+  "image_side": "back"
+ },
+ {
+  "Text": "A {{c1::replicon::term}} is a segment of DNA whose replication is under the control of {{c2::one origin and two termini::how many origins and termini}}.",
+  "Back Extra": "Why: two termini because replication proceeds outward from the origin in opposite directions, and each traveling fork stops at a terminus.<br><br>Distinguish: an origin is a point where replication starts; a replicon is a length of DNA. Count a chromosome's origins and you have counted its replicons.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   16,
+   81
+  ],
+  "block": "U2_replicon_definition",
+  "numeric": true,
+  "verified_against": "p264: 'A segment of DNA whose replication is under the control of one origin and two termini is called a replicon.' p244: 'Each origin controls the replication of a unit of DNA called a replicon'",
+  "verified_by": "drafter-U2",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "264"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_31.png"
+   ],
+   "labels": [
+    "FIGURE 10.31"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_31.png",
+  "_unit": "U2",
+  "_unit_idx": 1,
+  "image_side": "back"
+ },
+ {
+  "Text": "In prokaryotes, the entire chromosome is usually {{c1::one replicon::one or many replicons}}, whereas a eukaryotic chromosome usually contains {{c1::many replicons::one or many replicons}}.",
+  "Back Extra": "Why: a replicon is whatever one origin controls, so counting a chromosome's origins counts its replicons, and prokaryotes typically start replication from a single site.<br><br>Cue: the existence of multiple replicons in eukaryotic chromosomes was verified directly by autoradiography and electron microscopy in several different species.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   16,
+   82
+  ],
+  "block": "U2_replicon_count_prok_vs_euk",
+  "numeric": true,
+  "verified_against": "p244: 'most prokaryotic chromosomes contain a single replicon, whereas eukaryotic chromosomes usually contain many replicons.' p264: 'In prokaryotes, the entire chromosome is usually one replicon.'",
+  "verified_by": "drafter-U2",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "264"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_31.png"
+   ],
+   "labels": [
+    "FIGURE 10.31"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_31.png",
+  "_unit": "U2",
+  "_unit_idx": 2,
+  "image_side": "back"
+ },
+ {
+  "Text": "The single origin of replication in the <i>E. coli</i> chromosome, {{c1::oriC::name}}, is {{c2::245 nucleotide pairs::length}} long and contains {{c2::two::how many}} different conserved repeat sequences.",
+  "Back Extra": "Why: the two repeat classes divide the work of initiation between them: one class is where the two strands first come apart, the other is where the initiator protein docks.<br><br>Pitfall: 245 bp is the length of the whole origin, not of either repeat within it.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   17
+  ],
+  "block": "U2_oriC_structure",
+  "numeric": true,
+  "verified_against": "p244: 'oriC is 245 nucleotide pairs long and contains two different conserved repeat sequences'",
+  "verified_by": "drafter-U2",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "246"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_6.png"
+   ],
+   "labels": [
+    "FIGURE 10.6"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_6.png",
+  "_unit": "U2",
+  "_unit_idx": 3,
+  "image_side": "back"
+ },
+ {
+  "Text": "In <i>E. coli</i> oriC, one conserved {{c1::13-bp::length}} sequence is present as {{c1::three::how many}} {{c1::tandem::tandem or interspersed}} repeats. Because the repeats are rich in {{c2::A:T::A:T or G:C}} base pairs, they facilitate {{c3::the formation of the replication bubble::function}}.",
+  "Back Extra": "Why: A:T pairs are held together by only two hydrogen bonds versus three for G:C, so AT-rich DNA comes apart with less energy input.<br><br>Mechanism: at initiation, strand separation begins within the three tandem 13-bp repeats and spreads until the replication bubble is created.<br><br>Pitfall: the other repeat class in oriC is a protein-docking site, not the melting site.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   18,
+   19
+  ],
+  "block": "U2_oriC_13bp_repeats",
+  "numeric": true,
+  "verified_against": "p244: 'One 13-bp sequence is present as three tandem repeats. These three repeats are rich in A:T base pairs, facilitating the formation of a localized region of strand separation referred to as the replication bubble.'",
+  "verified_by": "drafter-U2",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "246"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_6.png"
+   ],
+   "labels": [
+    "FIGURE 10.6"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_6.png",
+  "_unit": "U2",
+  "_unit_idx": 4,
+  "image_side": "back"
+ },
+ {
+  "Text": "The {{c1::replication bubble::term}} is {{c2::the localized region of strand separation}} that forms at an origin when DNA replication is initiated.",
+  "Back Extra": "Why: a localized zone of denaturation, meaning the two strands coming apart, is the essential first step in replicating every double-stranded DNA.<br><br>Mechanism: at <i>E. coli</i> oriC the bubble is opened by prepriming proteins binding the origin, and the initiator protein appears largely responsible for the localized strand separation.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   19
+  ],
+  "block": "U2_replication_bubble",
+  "numeric": false,
+  "verified_against": "p244: 'facilitating the formation of a localized region of strand separation referred to as the replication bubble.'",
+  "verified_by": "drafter-U2",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "252"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_15.png"
+   ],
+   "labels": [
+    "FIGURE 10.15"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_15.png",
+  "_unit": "U2",
+  "_unit_idx": 5,
+  "image_side": "back"
+ },
+ {
+  "Text": "In <i>E. coli</i> oriC, the second conserved repeat is a {{c1::9-bp::length}} sequence repeated {{c1::four::how many}} times, {{c1::interspersed::interspersed or tandem}} with other sequences. The first step of prepriming is the binding of {{c1::four::how many}} molecules of {{c2::DnaA::protein name}} protein to the copies of the repeat, and that protein plays a key role in forming {{c3::the replication bubble::structure}}.",
+  "Back Extra": "Mechanism: after the first four DnaA molecules bind, more DnaA molecules bind cooperatively to form a core of 20 to 40 polypeptides with oriC DNA wound on the surface of the complex, and DnaA appears largely responsible for the localized strand separation at oriC.<br><br>Distinguish: the 9-bp repeats are where the initiator docks; the strands actually come apart within oriC's other repeat class.<br><br>Cue: 'prepriming' is everything that opens oriC before an RNA primer is laid down; DnaA protein is the product of the dnaA gene.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   20,
+   34
+  ],
+  "block": "U2_oriC_9bp_DnaA_binding",
+  "numeric": true,
+  "verified_against": "p244: 'a 9-bp sequence that is repeated four times and is interspersed with other sequences. These four sequences are binding sites for a protein that plays a key role in the formation of the replication bubble.' p252: 'The first step in prepriming appears to be the binding of four molecules of the dnaA gene product—DnaA protein—to the four 9-base-pair (bp) repeats in oriC.'",
+  "verified_by": "drafter-U2",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "252"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_15.png"
+   ],
+   "labels": [
+    "FIGURE 10.15"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_15.png",
+  "_unit": "U2",
+  "_unit_idx": 6,
+  "image_side": "back"
+ },
+ {
+  "Text": "In prepriming at <i>E. coli</i> oriC, after DnaA has bound and strand separation has begun, a complex of {{c1::DnaB::protein name}} protein, the {{c2::hexameric::how many subunits}} {{c2::DNA helicase::enzyme}}, and {{c1::DnaC::protein name}} protein, present as {{c2::six::how many}} molecules, joins the initiation complex. The complex contributes to forming {{c3::two::how many}} {{c3::bidirectional::unidirectional or bidirectional}} replication forks.",
+  "Back Extra": "Distinguish: DnaA is the initiator that binds the origin first; DnaB is the helicase, and it arrives with DnaC only after strand separation has begun.<br><br>Pitfall: DnaT is also present in the prepriming complex, but its function is unknown; DNA gyrase and single-strand DNA-binding (SSB) protein are among the other proteins associated with the initiation complex.<br><br>Cue: six subunits in the helicase and six DnaC molecules, a six-and-six pairing.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   35
+  ],
+  "block": "U2_prepriming_DnaB_DnaC",
+  "numeric": true,
+  "verified_against": "p252: 'A complex of DnaB protein (the hexameric DNA helicase) and DnaC protein (six molecules) joins the initiation complex and contributes to the formation of two bidirectional replication forks.'",
+  "verified_by": "drafter-U2",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "252"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_15.png"
+   ],
+   "labels": [
+    "FIGURE 10.15"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_15.png",
+  "_unit": "U2",
+  "_unit_idx": 7,
+  "image_side": "back"
+ },
+ {
+  "Text": "In {{c2::the yeast <i>Saccharomyces cerevisiae</i>::organism}}, the chromosomal DNA segments that allow a circularized DNA fragment to replicate as an independent, extrachromosomal unit are called {{c1::ARS::abbreviation}} elements, for {{c1::Autonomously Replicating Sequences::expansion}}.",
+  "Back Extra": "Why: the frequency of ARS elements in the yeast genome corresponds well with the number of origins of replication, and some have been shown experimentally to function as origins.<br><br>Pitfall: 'autonomously' describes what the circularized DNA fragment does once it carries an ARS: the fragment replicates as an extrachromosomal (outside-the-chromosome) self-replicating unit, independent of the chromosome.<br><br>Cue: an ARS element is about 50 base pairs long and carries a conserved 11-bp core sequence.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   21
+  ],
+  "block": "U2_ARS_elements",
+  "numeric": false,
+  "verified_against": "p244: 'In the yeast Saccharomyces cerevisiae, segments of chromosomal DNA that allow a fragment of circularized DNA to replicate as an independent unit (autonomously), that is, as an extrachromosomal self-replicating unit, have been identified and characterized. These sequences are called ARS (for Autonomously Replicating Sequences) elements.'",
+  "verified_by": "drafter-U2",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "U2",
+  "_unit_idx": 8
+ },
+ {
+  "Text": "The genomes of humans and other mammals contain {{c1::about 10,000::number of origins}} origins of replication, distributed throughout the chromosomes at intervals of {{c2::30,000 to 300,000 base pairs::spacing}}.",
+  "Back Extra": "Pitfall: the number of functional replicons is not fixed: replication starts at more sites during the very rapid cell divisions of embryogenesis than in later development, and geneticists do not know what determines which origins are operational in a given cell.<br><br>Cue: Huberman and Riggs saw multiple origins directly by pulse-labeling Chinese hamster DNA with 3H-thymidine: autoradiographs showed tandem arrays of labeled segments along single DNA molecules, the sign of many origins per molecule.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   83
+  ],
+  "block": "U2_mammalian_origin_count",
+  "numeric": true,
+  "verified_against": "p264: 'The genomes of humans and other mammals contain about 10,000 origins of replication distributed throughout the chromosomes at 30,000- to 300,000-base-pair intervals.'",
+  "verified_by": "drafter-U2",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "U2",
+  "_unit_idx": 9
+ },
+ {
+  "Text": "The gross structure of replicating bacterial chromosomes (the <i>E. coli</i> chromosome, copied as a θ-shaped circle) was first determined by {{c1::John Cairns::researcher}} in {{c1::1963::year}}, using {{c2::autoradiography::technique}}.",
+  "Back Extra": "Mechanism: Cairns grew <i>E. coli</i> in medium containing 3H-thymidine so the newly made DNA carried tritium, lysed the cells gently (long DNA molecules shear easily), caught the chromosomes on membrane filters, and let the tritium's β-particles expose a photographic emulsion — the developed film traced every labeled strand.<br><br>Pitfall: the θ-shaped pictures also showed that unwinding and semiconservative copying are tightly coupled, but they could not by themselves prove how the forks move; that proof came later, from a phage λ experiment with fixed physical landmarks along the DNA.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   22
+  ],
+  "block": "U3_cairns_autoradiography",
+  "numeric": true,
+  "verified_against": "p246: 'The gross structure of replicating bacterial chromosomes was first determined by John Cairns in 1963 using autoradiography.'",
+  "verified_by": "drafter-U3",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "246"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_7.png"
+   ],
+   "labels": [
+    "FIGURE 10.7"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_7.png",
+  "_unit": "U3",
+  "_unit_idx": 0,
+  "image_side": "back"
+ },
+ {
+  "Text": "In an autoradiograph of a θ-shaped replicating <i>E. coli</i> chromosome, each Y-shaped structure is a {{c1::replication fork}}, and the {{c2::two::number}} Y-shaped structures move {{c2::in opposite directions::in the same direction or in opposite directions}} around the circular chromosome.",
+  "Back Extra": "Why: the θ is a circle carrying a replicated loop — the two arms of the loop are the already-copied DNA and the third arm is the stretch still waiting to be copied, so the loop grows at both of its junctions as copying proceeds.<br><br>Pitfall: the pictures only showed a shape consistent with two moving forks ('could move'); a θ shape alone cannot tell whether one fork or both are moving, so the proof came later, from phage λ.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   23
+  ],
+  "block": "U3_theta_forks",
+  "numeric": true,
+  "verified_against": "p246: 'Each Y-shaped structure is a replication fork, and the two replication forks could move in opposite directions sequentially around the circular chromosome (◾ Figure 10.7b). We now know this to be the case.'",
+  "verified_by": "drafter-U3",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "246"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_7.png"
+   ],
+   "labels": [
+    "FIGURE 10.7"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_7.png",
+  "_unit": "U3",
+  "_unit_idx": 1,
+  "image_side": "back"
+ },
+ {
+  "Text": "An AT base pair is held together by {{c1::two::number}} hydrogen bonds, versus {{c1::three::number}} in a GC base pair, so AT-rich DNA denatures {{c1::more::more or less}} easily than GC-rich DNA, separating at a {{c1::lower::lower or higher}} pH or temperature.",
+  "Back Extra": "Why: to denature is to break the hydrogen (and hydrophobic) bonds holding the two complementary strands together so the strands come apart — a stretch with fewer hydrogen bonds per base pair lets go at a milder pH or temperature.<br><br>Ex: phage λ DNA held at pH 11.05 for 10 minutes opens only at its AT-rich stretches, forming single-stranded 'denaturation bubbles' visible by electron microscopy, while its GC-rich regions stay paired.<br><br>Pitfall: full denaturation takes about 100°C or pH 11.4; the landmark trick works precisely because a milder pH separates the AT-rich stretches first and leaves the rest of the molecule double-stranded.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   25
+  ],
+  "block": "U3_at_gc_denaturation",
+  "numeric": true,
+  "verified_against": "p247: 'Because AT base pairs are held together by only two hydrogen bonds, compared with three hydrogen bonds in GC base pairs, AT-rich molecules denature more easily (at lower pH or temperature) than GC-rich molecules.'",
+  "verified_by": "drafter-U3",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "248"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_9.png"
+   ],
+   "labels": [
+    "FIGURE 10.9"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_9.png",
+  "_unit": "U3",
+  "_unit_idx": 2,
+  "image_side": "back"
+ },
+ {
+  "Text": "In the {{c1::late 1960s::years}}, {{c1::Maria Schnös and Ross Inman::two researchers}} used the phage λ chromosome's {{c2::AT-rich clusters::sequence regions}} as physical markers in a technique called {{c3::denaturation mapping}}, showing that λ replication is initiated at a {{c4::unique::unique or random}} origin and proceeds {{c4::bidirectionally::unidirectionally or bidirectionally}}.",
+  "Back Extra": "Mechanism: at a mildly alkaline pH the AT-rich clusters open into single-stranded 'denaturation bubbles' visible by electron microscopy while the GC-rich DNA stays paired, so the bubbles sit at fixed, known positions along the molecule — landmarks against which the branch points of θ-shaped replicating molecules can be located.<br><br>Why: like <i>E. coli</i>, phage λ replicates in its circular form through θ-shaped intermediates, but its built-in landmarks let each branch point be tracked, which the earlier <i>E. coli</i> pictures could not do.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   24
+  ],
+  "block": "U3_schnos_inman_mapping",
+  "numeric": true,
+  "verified_against": "p247: 'In the late 1960s, Maria Schnös and Ross Inman used these AT-rich clusters as physical markers to demonstrate, by means of a technique called denaturation mapping, that replication of the λ chromosome is initiated at a unique origin and proceeds bidirectionally.'",
+  "verified_by": "drafter-U3",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "248"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_9.png"
+   ],
+   "labels": [
+    "FIGURE 10.9"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_9.png",
+  "_unit": "U3",
+  "_unit_idx": 3,
+  "image_side": "back"
+ },
+ {
+  "Text": "Locating the branch points of θ-shaped replicating phage λ chromosomes relative to the fixed denaturation bubbles demonstrated that {{c1::both::one or both}} branch points are replication forks, traveling {{c1::in opposite directions::in the same direction or in opposite directions}} around the circular chromosome.",
+  "Back Extra": "Distinguish: under a one-fork (unidirectional) model one branch point would sit fixed at the origin relative to the bubbles while only the other moved; seeing both branch points shift is what rules that model out.<br><br>Why: the bubbles work as landmarks because they open only at the same fixed AT-rich spots in every molecule, so a branch point's position can be compared across many molecules caught at different stages of replication.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   26
+  ],
+  "block": "U3_lambda_both_forks",
+  "numeric": false,
+  "verified_against": "p247: 'Schnös and Inman demonstrated that both branch points are replication forks that move in opposite directions around the circular chromosome.'",
+  "verified_by": "drafter-U3",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "248"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_10.png"
+   ],
+   "labels": [
+    "FIGURE 10.10"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_10.png",
+  "_unit": "U3",
+  "_unit_idx": 4,
+  "image_side": "back"
+ },
+ {
+  "Text": "Phage T7, a small bacteriophage like λ, replicates its linear chromosome starting at a {{c1::unique::unique or random}} site {{c1::near one end::where along the molecule}}, so the early replicating molecule forms an “{{c2::eye::shape}}” structure.",
+  "Back Extra": "Distinguish: a circular chromosome (<i>E. coli</i>, phage λ) replicating from one origin looks like a θ; a linear one such as T7's shows an internal bubble — the eye — instead.<br><br>Pitfall: 'near one end' is not 'at the end' — the start site sits a short way in from one end of the linear molecule, so an internal eye opens rather than a single fork starting at the tip.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   27
+  ],
+  "block": "U3_t7_eye",
+  "numeric": false,
+  "verified_against": "p247: 'Replication of the chromosome of phage T7, another small bacteriophage, begins at a unique site near one end to form an “eye” structure (◾ Figure 10.11a)'",
+  "verified_by": "drafter-U3",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "249"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_11.jpg"
+   ],
+   "labels": [
+    "FIGURE 10.11"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_11.jpg",
+  "_unit": "U3",
+  "_unit_idx": 5,
+  "image_side": "back"
+ },
+ {
+  "Text": "The two progeny strands at a DNA replication fork are extended in the same overall direction, but because the two strands have {{c1::opposite::the same or opposite}} polarity, one is being extended overall {{c1::5′ → 3′::5′ → 3′ or 3′ → 5′}} and the other overall {{c1::3′ → 5′::5′ → 3′ or 3′ → 5′}}.",
+  "Back Extra": "Why: at the low resolution of autoradiography and electron microscopy, both nascent chains simply lengthen as the fork advances; only high-resolution pulse-labeling and density-gradient analysis reveal that one of the two strands is really assembled from short pieces, each grown in the polymerase's own direction and joined afterward.<br><br>Pitfall: 'overall direction' describes the net growth of a whole strand at the fork, not the direction in which any polymerase actually adds a nucleotide — for one of the two strands those are not the same thing.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   28
+  ],
+  "block": "U4_fork_polarity",
+  "numeric": true,
+  "verified_against": "p250: 'Because these two strands have opposite polarity, one is being extended in an overall 5′ → 3′ direction and the other is being extended in an overall 3′ → 5′ direction.'",
+  "verified_by": "drafter-U4",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "251"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_13.png"
+   ],
+   "labels": [
+    "FIGURE 10.13"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_13.png",
+  "_unit": "U4",
+  "_unit_idx": 0,
+  "image_side": "back"
+ },
+ {
+  "Text": "The enzymes that catalyze DNA synthesis, the DNA polymerases, can add nucleotides only onto the {{c1::3′::3′ or 5′}} end of a DNA strand — that is, they synthesize DNA only in the {{c1::5′ → 3′::5′ → 3′ or 3′ → 5′}} direction.",
+  "Back Extra": "Mechanism: each addition forms a phosphodiester bridge between the chain's terminal 3′-OH and the 5′-phosphate of the incoming nucleotide (dTTP comes in, dTMP is added, pyrophosphate leaves), so a chain can grow only where a 3′-OH is exposed.<br><br>Pitfall: 'adds to the 3′ end' and 'synthesizes 5′ → 3′' are one statement, not two — the direction is always named by the growth of the NEW strand.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   29
+  ],
+  "block": "U4_polymerase_direction",
+  "numeric": true,
+  "verified_against": "p250: 'the enzymes that catalyze DNA synthesis (DNA polymerases) can only add nucleotides onto the 3′ end of a DNA strand—that is, they synthesize DNA only in the 5′ → 3′ direction'",
+  "verified_by": "drafter-U4",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "U4",
+  "_unit_idx": 1
+ },
+ {
+  "Text": "At a DNA replication fork, the {{c2::leading}} strand is extended {{c1::continuously::continuously or discontinuously}}, whereas the {{c2::lagging}} strand is extended {{c1::discontinuously::continuously or discontinuously}}.",
+  "Back Extra": "Cue: 'continuously' means one uninterrupted run of nucleotide additions at the strand's 3′ end; 'discontinuously' means synthesis in spurts, each spurt starting afresh, with the products joined together afterward.<br><br>Distinguish: leading-strand synthesis activity moves toward the fork, whereas lagging-strand activity moves away from it and is re-initiated on newly exposed template each time the fork opens further.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   30
+  ],
+  "block": "U4_leading_lagging",
+  "numeric": false,
+  "verified_against": "p250: 'One, called the leading strand, is extended continuously by the sequential addition of nucleotides to its 3′ end. The other, called the lagging strand, is extended discontinuously by DNA synthesis in spurts'",
+  "verified_by": "drafter-U4",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "251"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_13.png"
+   ],
+   "labels": [
+    "FIGURE 10.13"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_13.png",
+  "_unit": "U4",
+  "_unit_idx": 2,
+  "image_side": "back"
+ },
+ {
+  "Text": "In DNA replication, {{c1::Okazaki fragments}} are {{c2::the short DNA segments of the lagging strand::what, and on which strand}}.",
+  "Back Extra": "Why: the lagging strand cannot be grown in one continuous run, so each fragment is a fresh start that is later sealed to its neighbour, leaving one long, continuous chain.<br><br>Distinguish: in <i>E. coli</i> the fragments are 1000 to 2000 nucleotides long; in eukaryotes they are only 100 to 200 nucleotides long.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   31,
+   30
+  ],
+  "block": "U4_okazaki_fragments",
+  "numeric": false,
+  "verified_against": "p250: 'These small fragments of DNA have been named Okazaki fragments' / 'The lagging strand grows by the synthesis of short segments of DNA, each of which is extended by the addition of nucleotides to its 3′ end; then the many segments are joined into one long, continuous chain.'",
+  "verified_by": "drafter-U4",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "251"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_13.png"
+   ],
+   "labels": [
+    "FIGURE 10.13"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_13.png",
+  "_unit": "U4",
+  "_unit_idx": 3,
+  "image_side": "back"
+ },
+ {
+  "Text": "The short DNA pieces from which the lagging strand is assembled were discovered in the {{c1::late 1960s::decade}} by {{c1::Reiji Okazaki and Tuneko Okazaki::two researchers}}, and they are named after their discoverers.",
+  "Back Extra": "Why: pulse-labeling <i>E. coli</i> with 3H-thymidine for only 5, 10, or 30 seconds put much of the label into small DNA fragments; a pulse-chase then moved that label into chromosome-size DNA, proving the fragments are true intermediates of replication and not a metabolic by-product.<br><br>Pitfall: the pieces are easy to miss — with longer labeling periods most of the label is recovered in large, chromosome-size molecules instead, because the pieces have already been joined.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   31
+  ],
+  "block": "U4_okazaki_discovery",
+  "numeric": true,
+  "verified_against": "p250: 'named Okazaki fragments after Reiji Okazaki and Tuneko Okazaki, who discovered them in the late 1960s.'",
+  "verified_by": "drafter-U4",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "251"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_13.png"
+   ],
+   "labels": [
+    "FIGURE 10.13"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_13.png",
+  "_unit": "U4",
+  "_unit_idx": 4,
+  "image_side": "back"
+ },
+ {
+  "Text": "In DNA replication the Okazaki fragments are linked into one continuous strand by {{c1::DNA ligase::enzyme}}, which catalyzes the covalent closure of {{c2::nicks::nicks or gaps}} in DNA using energy from {{c3::NAD or ATP::two energy sources}}.",
+  "Back Extra": "Mechanism: the enzyme first forms a ligase-AMP intermediate; the AMP is transferred onto the 5′-phosphate at the nick, and the 3′-OH at the nick then attacks that phosphorus atom, forming the phosphodiester linkage between the adjacent nucleotides.<br><br>Distinguish: the <i>E. coli</i> DNA ligase uses NAD as its cofactor, whereas some other DNA ligases use ATP — same reaction, different energy donor.<br><br>Pitfall: DNA ligase is not only a replication enzyme — it is essential in DNA repair and recombination as well.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   33
+  ],
+  "block": "U4_dna_ligase",
+  "numeric": false,
+  "verified_against": "p251: 'DNA ligase catalyzes the covalent closure of nicks (missing phosphodiester linkages; no missing bases) in DNA molecules by using energy from nicotinamide adenine dinucleotide (NAD) or adenosine triphosphate (ATP).'",
+  "verified_by": "drafter-U4",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "251"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_14.png"
+   ],
+   "labels": [
+    "FIGURE 10.14"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_14.png",
+  "_unit": "U4",
+  "_unit_idx": 5,
+  "image_side": "back"
+ },
+ {
+  "Text": "A {{c1::nick::nick or gap}} in a DNA molecule is {{c2::a missing phosphodiester linkage with no missing bases}}.",
+  "Back Extra": "Distinguish: a gap is a break where one or more nucleotides are missing, not just the bond — a gap has to be filled in by a DNA polymerase before the strand can be sealed.<br><br>Why: the 'no missing bases' clause is what makes a nick sealable in a single step — there is nothing to synthesize, only one bond to re-form.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   33
+  ],
+  "block": "U4_nick_definition",
+  "numeric": false,
+  "verified_against": "p251: 'DNA ligase catalyzes the covalent closure of nicks (missing phosphodiester linkages; no missing bases) in DNA molecules'",
+  "verified_by": "drafter-U4",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "251"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_14.png"
+   ],
+   "labels": [
+    "FIGURE 10.14"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_14.png",
+  "_unit": "U4",
+  "_unit_idx": 6,
+  "image_side": "back"
+ },
+ {
+  "Text": "Every known DNA polymerase has an <b>absolute</b> requirement for two things in order to be active:<br><br>{{c1::a free 3′-OH on the strand being extended}}<br><br>{{c1::an appropriate DNA template strand}}",
+  "Back Extra": "Why: the enzyme's only reaction is to bridge the 3′-OH at the end of the existing chain to the 5′-phosphate of the incoming deoxyribonucleotide, and the template's base-pairing potential dictates which nucleotide that is — remove either partner and there is no reaction.<br><br>Distinguish: the primer end supplies the chemistry (a hydroxyl to bond to) and the template supplies the information (the sequence to copy) — two different jobs, both indispensable.<br><br>Pitfall: 'absolute' means no exception among all known DNA polymerases — which is the whole reason a separate priming step has to exist.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   36,
+   49
+  ],
+  "block": "U4_polymerase_requirements",
+  "numeric": true,
+  "verified_against": "p252: 'All known DNA polymerases have an absolute requirement for a free 3′-OH on the end of the DNA strand being extended and an appropriate DNA template strand (specifying the complementary nascent strand) for activity.' / p257: 'All DNA polymerases have an absolute requirement for a free 3′-hydroxyl on a preexisting polynucleotide chain.'",
+  "verified_by": "drafter-U4",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "257"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_23.png"
+   ],
+   "labels": [
+    "FIGURE 10.23"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_23.png",
+  "_unit": "U4",
+  "_unit_idx": 7,
+  "image_side": "back"
+ },
+ {
+  "Text": "Because no DNA polymerase can initiate a DNA chain {{c1::de novo::Latin phrase}}, each new DNA chain is started by a short {{c1::RNA::RNA or DNA}} primer synthesized by {{c1::DNA primase::enzyme}}.",
+  "Back Extra": "Why: RNA polymerase, unlike any DNA polymerase, can start a brand-new chain at specific sites on a DNA template, and DNA polymerases will extend either a DNA or an RNA chain that carries a free 3′-OH — so an RNA start solves the initiation problem.<br><br>Distinguish: in <i>E. coli</i> the primase is the product of the dnaG gene; prokaryotic primers are 10 to 60 nucleotides long, whereas eukaryotic primers are only about 10.<br><br>Pitfall: DNA primase makes RNA, not DNA — the name says what it primes, not what it synthesizes.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   37,
+   49,
+   36
+  ],
+  "block": "U4_rna_primer",
+  "numeric": false,
+  "verified_against": "p252: 'each new DNA chain is initiated by a short RNA primer synthesized by DNA primase' / p257: 'No DNA polymerase can initiate the synthesis of DNA chains de novo.'",
+  "verified_by": "drafter-U4",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "252"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_16.png"
+   ],
+   "labels": [
+    "FIGURE 10.16"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_16.png",
+  "_unit": "U4",
+  "_unit_idx": 8,
+  "image_side": "back"
+ },
+ {
+  "Text": "At an <i>E. coli</i> replication fork, DNA polymerase {{c1::III}} extends each RNA primer with deoxyribonucleotides — {{c2::continuously::continuously or discontinuously}} on the leading strand, as {{c2::Okazaki fragments}} on the lagging strand. The primers are then {{c3::excised and replaced with DNA::what happens to them}} by DNA polymerase {{c1::I}}.",
+  "Back Extra": "Mechanism: DNA polymerase III stops extending an Okazaki fragment the moment it bumps into the RNA primer of the preceding fragment, so each primer is left sitting in the new strand for the clean-up enzyme.<br><br>Pathway: DNA primase (in the primosome, with DNA helicase) lays down each RNA primer → DNA polymerase III extends it with DNA → DNA polymerase I swaps the primer for DNA.<br><br>Distinguish: DNA polymerase III is the <i>E. coli</i> replicase, making both nascent strands at the fork; DNA polymerases I and II are classed as DNA repair enzymes.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   38,
+   39
+  ],
+  "block": "U5_primer_handoff",
+  "numeric": false,
+  "verified_against": "p253: 'DNA polymerase III catalyzes the addition of deoxyribonucleotides to RNA primers, either continuously on the leading strand or discontinuously by the synthesis of Okazaki fragments on the lagging strand.' and 'The RNA primers subsequently are excised and replaced with DNA chains. This step is accomplished by DNA polymerase I in E. coli.'",
+  "verified_by": "drafter-U5",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "254"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_18.png"
+   ],
+   "labels": [
+    "FIGURE 10.18"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_18.png",
+  "_unit": "U5",
+  "_unit_idx": 0,
+  "image_side": "back"
+ },
+ {
+  "Text": "DNA polymerase I of <i>E. coli</i> carries two exonuclease activities, one for each direction:<br><br>the {{c1::3′ → 5′::5′ → 3′ or 3′ → 5′}} exonuclease {{c2::proofreads::job}}, clipping nucleotides off the {{c1::3′::5′ or 3′}} end of a strand<br><br>the {{c1::5′ → 3′::5′ → 3′ or 3′ → 5′}} exonuclease {{c2::excises the RNA primer::job}}, cutting a strand back from its {{c1::5′::5′ or 3′}} end",
+  "Back Extra": "Mnemonic: exo = out, nuclease = eat. 3′ → 5′ is BACKWARDS — it's correcting. 5′ → 3′ is the SNOWPLOW, and it cooks what's in front.<br><br>Mechanism: primer removal and fill-in happen at the same time — as the 5′ → 3′ exonuclease chews the RNA primer away, DNA polymerase I's 5′ → 3′ polymerase activity lays DNA down in its place.<br><br>Distinguish: the 5′ → 3′ polymerase and the 5′ → 3′ exonuclease share a direction but do opposite things — one builds the strand, the other eats it — and DNA polymerase I holds all three activities in a single polypeptide.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   40,
+   39,
+   67
+  ],
+  "block": "U5_polI_exonucleases",
+  "numeric": true,
+  "verified_against": "p253: 'DNA polymerase I possesses two exonuclease activities: a 5′ 3′ exonuclease activity, which cuts back DNA strands starting at 5′ termini, and a 3′ 5′ exonuclease activity, which cleaves off nucleotides from the 3′ termini of DNA strands.' and 'The 5′ 3′ exonuclease activity of DNA polymerase I excises the RNA primer, and, at the same time, the 5′ 3′ polymerase activity of the enzyme replaces the'; p260: 'This process is carried out by the 3′ 5′ exonuclease activities of DNA polymerases' (the text layer drops the → glyph between the primes)",
+  "verified_by": "drafter-U5",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "253"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_17.png"
+   ],
+   "labels": [
+    "FIGURE 10.17"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_17.png",
+  "_unit": "U5",
+  "_unit_idx": 1,
+  "image_side": "back"
+ },
+ {
+  "Text": "Like DNA polymerase I, <i>E. coli</i> DNA polymerase III has {{c1::5′ → 3′ polymerase}} and {{c1::3′ → 5′ exonuclease}} activities. Its {{c2::5′ → 3′ exonuclease::third activity}}, however, is active only on {{c2::single-stranded::single- or double-stranded}} DNA.",
+  "Back Extra": "Distinguish: DNA polymerase I is a single polypeptide with all three activities built in; DNA polymerase III is a multi-subunit holoenzyme — the <i>E. coli</i> replicase — whose proofreading exonuclease sits on its own subunit, ε.<br><br>Pitfall: not every <i>E. coli</i> polymerase can proofread — DNA polymerase IV has no exonuclease activity at all, and polymerases I and II are repair enzymes rather than the replicase.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   52
+  ],
+  "block": "U5_polIII_vs_polI",
+  "numeric": true,
+  "verified_against": "p258: 'Like DNA polymerase I, DNA polymerase III has 5′ 3′ polymerase and 3′ 5′ exonuclease activities; however, it has a 5′ 3′ exonuclease that is active only on single-stranded DNA.' (a figure credit, 'Nature 391: 251–258', is interleaved mid-sentence by the text layer — the reason the extractor graded it PARTIAL; the sentence is continuous on the page, and the → glyphs are dropped by the text layer)",
+  "verified_by": "drafter-U5",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "253"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_17.png"
+   ],
+   "labels": [
+    "FIGURE 10.17"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_17.png",
+  "_unit": "U5",
+  "_unit_idx": 2,
+  "image_side": "back"
+ },
+ {
+  "Text": "The major replicative DNA polymerases are amazingly accurate, incorporating an incorrect nucleotide with an initial frequency of only {{c1::10⁻⁵ to 10⁻⁶::range}}.",
+  "Back Extra": "Cue: read it as one wrong nucleotide per 100,000 to 1,000,000 added — and that is the polymerase's <i>initial</i> accuracy, before proofreading trims the finished DNA to about one error per billion base pairs.<br><br>Pitfall: 'replicative' is doing the work in that sentence — some repair polymerases are deliberately error-prone.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   57
+  ],
+  "block": "U5_error_frequency",
+  "numeric": true,
+  "verified_against": "p258: 'The major replicative DNA polymerases are amazingly accurate, incorporating incorrect nucleotides with an initial frequency of 10−5 to 10−6.' (the superscripts are flattened by the text layer; printed as 10^-5 to 10^-6)",
+  "verified_by": "drafter-U5",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "U5",
+  "_unit_idx": 3
+ },
+ {
+  "Text": "During DNA replication, the {{c1::proofreading}} process involves {{c2::scanning the termini of nascent DNA chains for errors}} and {{c2::correcting them}}.",
+  "Back Extra": "Mechanism: a polymerase handed a primer whose 3′-terminal nucleotide is mispaired will not extend it — the mismatch is clipped off first, and only once the terminus is correctly base-paired does polymerization resume.<br><br>Distinguish: proofreading works at the growing terminus <i>during</i> synthesis; the army of DNA repair enzymes works afterward, scanning finished DNA for damage.<br><br>Why: without proofreading, changes would pile up over the billions of cell divisions between embryo and adult — identical twins would not stay identical.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   67
+  ],
+  "block": "U5_proofreading",
+  "numeric": false,
+  "verified_against": "p259: 'The proofreading process involves scanning' → p260: 'the termini of nascent DNA chains for errors and correcting them. This process is carried out by the 3′ 5′ exonuclease activities of DNA polymerases (see Figure 10.17).' (Parker's margin comment on the p259 mark asked for the rest of the sentence; it continues at the top of the p260 body text)",
+  "verified_by": "drafter-U5 | grounding_check cleared: 'correcting them' is the continuation of mark 67's sentence, which runs onto p260 ('...the termini of nascent DNA chains for errors and correcting them'). Parker's margin comment on mark 67 is 'Plz also add the rest of this sent. To anki', so the continuation is requested, and it is quoted verbatim in verified_against.",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "260"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_27.png"
+   ],
+   "labels": [
+    "FIGURE 10.27"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_27.png",
+  "_unit": "U5",
+  "_unit_idx": 4,
+  "image_side": "back"
+ },
+ {
+  "Text": "Each {{c2::gyre}}, or turn, of the DNA double helix is about {{c1::10 nucleotide pairs}} long, so unwinding one turn requires the DNA molecule to rotate a full 360°.",
+  "Back Extra": "Why: a double helix cannot be pulled apart strand from strand without untwisting the molecule turn by turn, which is why replication needs an unwinding machine at all.<br><br>Cue: the 10 nucleotide pairs in one turn are the conversion factor between a replication rate counted in nucleotides and a spin rate counted in revolutions.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   41
+  ],
+  "block": "U6_gyre_geometry",
+  "numeric": true,
+  "verified_against": "p255: 'Given that each gyre, or turn, is about 10 nucleotide pairs long, a DNA molecule must be rotated 360° once for each 10 replicated base pairs.'",
+  "verified_by": "drafter-U6",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "256"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_20.png"
+   ],
+   "labels": [
+    "FIGURE 10.20"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_20.png",
+  "editor_note": "PASS (orchestrator edit pass)",
+  "_unit": "U6",
+  "_unit_idx": 0,
+  "image_side": "back"
+ },
+ {
+  "Text": "In <i>E. coli</i>, DNA replicates at about {{c1::30,000 nucleotides per minute::rate}}, so a replicating DNA molecule must spin at {{c2::3000 revolutions per minute::rate}} to unwind the parental strands.",
+  "Back Extra": "Mechanism: divide the replication rate by the roughly 10 nucleotide pairs in one turn of the helix — 30,000 nucleotides per minute ÷ 10 = 3000 turns per minute.<br><br>Pitfall: 30,000 per minute counts nucleotides copied while 3000 per minute counts whole rotations of the molecule, so the two numbers measure different things and differ by the length of one turn.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   41
+  ],
+  "block": "U6_spin_rate",
+  "numeric": true,
+  "verified_against": "p255: 'In E. coli, DNA replicates at a rate of about 30,000 nucleotides per minute. Thus, a replicating DNA molecule must spin at 3000 revolutions per minute to facilitate the unwinding of the parental DNA strands.'",
+  "verified_by": "drafter-U6",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "256"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_20.png"
+   ],
+   "labels": [
+    "FIGURE 10.20"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_20.png",
+  "editor_note": "PASS (orchestrator edit pass)",
+  "_unit": "U6",
+  "_unit_idx": 1,
+  "image_side": "back"
+ },
+ {
+  "Text": "Producing functional template DNA at an <i>E. coli</i> replication fork takes two proteins:<br><br>{{c1::DNA helicase}}, which unwinds the parental double helix<br><br>{{c1::single-strand DNA-binding (SSB) protein}}, which keeps the unwound strands in an extended form for replication",
+  "Back Extra": "Why: without the SSB coating, the separated strands would pair back up with each other or fold into hairpin structures, and hairpins stall DNA polymerase.<br><br>Mechanism: DNA helicase unwinds the parental helix using energy from ATP, and SSB protein then binds cooperatively — the first monomer recruits the next — so a whole exposed stretch is coated quickly.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   41,
+   42
+  ],
+  "block": "U6_helicase_ssb",
+  "numeric": false,
+  "verified_against": "p255: 'The unwinding process ... involves enzymes called DNA helicases.' / 'Once the DNA strands are unwound by DNA helicase, they must be kept in an extended single-stranded form for replication. They are maintained in this state by a coating of single-strand DNA-binding protein (SSB protein)'",
+  "verified_by": "drafter-U6",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "255"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_19.png"
+   ],
+   "labels": [
+    "FIGURE 10.19"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_19.png",
+  "editor_note": "PASS (orchestrator edit pass)",
+  "_unit": "U6",
+  "_unit_idx": 2,
+  "image_side": "back"
+ },
+ {
+  "Text": "DNA topoisomerases come in two types: <b>topoisomerase I</b> produces a transient {{c1::single-strand::single-strand or double-strand}} break in DNA, whereas <b>topoisomerase II</b> produces a transient {{c1::double-strand::single-strand or double-strand}} break.",
+  "Back Extra": "Meaning: a transient break in just one strand of a DNA duplex is also called a nick.<br><br>Distinguish: how many strands each enzyme cuts is the whole difference between the two classes, and it sets how many supercoils each one can change at a time.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   44
+  ],
+  "block": "U6_topo_I_vs_II_breaks",
+  "numeric": false,
+  "verified_against": "p255: 'The topoisomerases are of two types: (1) DNA topoisomerase I enzymes produce temporary single-strand breaks or nicks in DNA, and (2) DNA topoisomerase II enzymes produce transient double-strand breaks in DNA.' (the page breaks 'double-strand' across a line)",
+  "verified_by": "drafter-U6",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "editor_note": "PASS (orchestrator edit pass)",
+  "_unit": "U6",
+  "_unit_idx": 3
+ },
+ {
+  "Text": "<b>DNA topoisomerase I</b> removes supercoils {{c1::one::number of supercoils}} at a time, whereas <b>DNA topoisomerase II</b> both {{c1::removes and introduces}} supercoils {{c1::two::number of supercoils}} at a time.",
+  "Back Extra": "Why: replication needs both activities — the positive supercoils that pile up ahead of the fork have to come out, and <i>E. coli</i> keeps its chromosome negatively supercoiled, which only the type II class can arrange.<br><br>Mnemonic: the roman numeral is the count — topoisomerase I changes supercoiling one supercoil at a time, topoisomerase II two at a time.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   45
+  ],
+  "block": "U6_topo_supercoil_count",
+  "numeric": true,
+  "verified_against": "p255: 'An important result of this difference is that topoisomerase I activities remove supercoils from DNA one at a time, whereas topoisomerase II enzymes remove and introduce supercoils two at a time.'",
+  "verified_by": "drafter-U6",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "editor_note": "PASS (orchestrator edit pass)",
+  "_unit": "U6",
+  "_unit_idx": 4
+ },
+ {
+  "Text": "When <b>DNA topoisomerase I</b> makes its transient break, the segments of DNA on either side can spin independently around {{c1::the phosphodiester bond in the intact strand}}, which serves as the swivel.",
+  "Back Extra": "Why: with one strand cut and the other whole, the unbroken backbone works like a hinge pin, so the two sides of the break untwist instead of winding up into positive supercoils.<br><br>Pitfall: topoisomerase I is energy-efficient — it conserves the energy of the bond it cuts and spends that energy again to reseal the break, whereas topoisomerase II runs on ATP.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   46
+  ],
+  "block": "U6_topo_I_swivel",
+  "numeric": false,
+  "verified_against": "p256: 'The transient single-strand break produced by the activity of topoisomerase I provides an axis of rotation that allows the segments of DNA on opposite sides of the break to spin independently, with the phosphodiester bond in the intact strand serving as a swivel'",
+  "verified_by": "drafter-U6",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "257"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_21.png"
+   ],
+   "labels": [
+    "FIGURE 10.21"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_21.png",
+  "editor_note": "PASS (orchestrator edit pass)",
+  "_unit": "U6",
+  "_unit_idx": 5,
+  "image_side": "back"
+ },
+ {
+  "Text": "<b>DNA topoisomerase II</b> adds or removes supercoils in four ordered steps:<br><br>{{c1::cut both strands of the DNA}}<br><br>{{c1::hold the cut ends by covalent bonds}}<br><br>{{c1::pass the intact double helix through the cut}}<br><br>{{c1::reseal the break}}",
+  "Back Extra": "Why: passing a whole double helix through the break is also how topoisomerase II separates two interlocking circular DNA molecules from each other.<br><br>Pitfall: the cleaved ends are never released — the enzyme stays covalently bonded to them, and the whole cycle runs on ATP.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   47
+  ],
+  "block": "U6_topo_II_mechanism",
+  "numeric": false,
+  "verified_against": "p256: 'They carry out this process by cutting both strands of DNA, holding on to the ends at the cleavage site via covalent bonds, passing the intact double helix through the cut, and resealing the break'",
+  "verified_by": "drafter-U6",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "257"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_22.png"
+   ],
+   "labels": [
+    "FIGURE 10.22"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_22.png",
+  "editor_note": "PASS (orchestrator edit pass)",
+  "_unit": "U6",
+  "_unit_idx": 6,
+  "image_side": "back"
+ },
+ {
+  "Text": "The best-characterized type II topoisomerase in <i>E. coli</i> is an enzyme named {{c1::DNA gyrase}}.",
+  "Back Extra": "Why: DNA gyrase activity is required for DNA replication in <i>E. coli</i>, and gyrase is what introduces the negative supercoils a bacterial chromosome carries.<br><br>Ex: nalidixic acid and coumermycin are antibiotics that block replication in <i>E. coli</i> by inhibiting DNA gyrase — nalidixic acid binds its α subunits, coumermycin its β subunits.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   48
+  ],
+  "block": "U6_dna_gyrase",
+  "numeric": false,
+  "verified_against": "p256: 'The best-characterized type II topoisomerase is an enzyme named DNA gyrase in E. coli.'",
+  "verified_by": "drafter-U6",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "257"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_22.png"
+   ],
+   "labels": [
+    "FIGURE 10.22"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_22.png",
+  "editor_note": "PASS (orchestrator edit pass)",
+  "_unit": "U6",
+  "_unit_idx": 7,
+  "image_side": "back"
+ },
+ {
+  "Text": "<i>E. coli</i> contains at least {{c1::five::number of polymerases}} DNA polymerases, which are named with {{c2::Roman numerals::Roman numerals or Greek letters}}. Eukaryotic DNA polymerases, by contrast, are named with {{c2::Greek letters::Roman numerals or Greek letters}}.",
+  "Back Extra": "Distinguish: eukaryotes carry far more than <i>E. coli</i>'s five — at least 15 different DNA polymerases have been identified so far — and both figures are floors rather than exact totals.<br><br>Pitfall: Greek letters do turn up in <i>E. coli</i>, but only as the names of DNA polymerase III's subunits, never as the names of the polymerases themselves.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   50,
+   54
+  ],
+  "block": "U7_polymerase_count_and_naming",
+  "numeric": true,
+  "verified_against": "p258: 'E. coli contains at least five DNA polymerases: DNA polymerase I, DNA polymerase II, DNA polymerase III, DNA polymerase IV, and DNA polymerase V.' + p258: 'The eukaryotic DNA polymerases have been named α, β, γ, δ, ε, κ, ζ, η, θ, κ, λ, μ, σ, ϕ, and Rev1.' (margin comment on that mark: 'I dont wanna know the names just that they are Greek letters' — only the 'Greek letters' fact is tested, never the list). Back Extra teaching line, unmarked p258: 'Eukaryotic organisms encode even more polymerases—with at least 15 different DNA polymerases having been identified so far.' Back Extra pitfall, marked p259 (idx 62): 'The minimal core that has catalytic activity in vitro contains three subunits: α (the dnaE gene product), ε (the dnaQ product), and θ (the holE product).'",
+  "verified_by": "drafter-U7; editor-U7 | grounding_check cleared: 'Greek letters' and 'Roman numerals' are not quoted from the marks — they are the minimal true description of the marked lists (mark 50 lists DNA polymerases I-V, mark 54 lists the eukaryotic polymerases as Greek letters). The wording is PARKER'S OWN, from his margin comment on mark 54: 'I dont wanna know the names just that they are Greek letters'. Testing the letter-class rather than the roster is exactly what he asked for.",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "editor_note": "checks #9/#11/#13/#18 — hint upgraded to Parker's own slot-label idiom ('::number of polymerases', card-rules #27); both naming-scheme blanks given matching forced-choice hints, which forces each answer (card-rules #13, recipes §8) and honestly clears the husk_groups warning instead of leaving it to the judge; Back Extra's restating 'Cue: E. coli's five are DNA polymerases I through V' replaced by the Distinguish edge (#11). The 'at least 15' fact is UNMARKED chapter-wide, so it stays a Back Extra teaching line and is never clozed (card-rules #29 / R40).",
+  "_unit": "U7",
+  "_unit_idx": 0
+ },
+ {
+  "Text": "Apart from DNA polymerase III, the <i>E. coli</i> DNA polymerases split two jobs:<br><br>{{c1::I and II::two polymerases}} are {{c2::DNA repair::job}} enzymes<br><br>{{c1::II, IV, and V::three polymerases}} {{c2::replicate damaged DNA::job}}, and which of the three acts depends on the {{c2::type of damage::what decides which one}}",
+  "Back Extra": "Pitfall: DNA polymerase II sits in <b>both</b> groups — a repair enzyme that also replicates damaged DNA.<br><br>Cue: IV and V are the two most recently characterized of <i>E. coli</i>'s five DNA polymerases.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   51,
+   53
+  ],
+  "block": "U7_ecoli_polymerase_roles",
+  "numeric": false,
+  "verified_against": "p258: 'DNA polymerases I and II are DNA repair enzymes.' + p258: 'The more recently characterized DNA polymerases IV and V, along with polymerase II, play important roles in the replication of damaged DNA, with the polymerase involved depending on the type of damage (see Chapter 13).' Visible scaffolding 'Apart from DNA polymerase III', unmarked p258: 'Unlike DNA polymerases I and II, DNA polymerase III is a complex enzyme composed of many different subunits.'",
+  "verified_by": "drafter-U7; editor-U7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "editor_note": "checks #9/#20/#11/#16 — WORST CATCH: the draft's count hints '::2' and '::3' are homographs of Roman numerals II and III, so '[3] replicate damaged DNA' invites the answer 'III' — the one polymerase the lead-in excludes; replaced with spelled form-labels 'two polymerases' / 'three polymerases'. Lead-in 'do two jobs' re-anchored to 'Apart from DNA polymerase III' so III is visibly out of the answer space. Back Extra trimmed from three lines to two: the 'major replicative polymerases are amazingly accurate' line stated mark idx 57's own fact (another unit's card) — cross-card give-away, card-rules #13 — and the Pol III replicase line duplicated card 3's Distinguish.",
+  "_unit": "U7",
+  "_unit_idx": 1
+ },
+ {
+  "Text": "In eukaryotes, two or more of the DNA polymerases {{c1::α, δ, and/or ε::three Greek letters}} work together to carry out the semiconservative replication of {{c2::nuclear::nuclear or mitochondrial}} DNA, whereas DNA polymerase {{c1::γ::one Greek letter}} replicates {{c2::mitochondrial::nuclear or mitochondrial}} DNA.",
+  "Back Extra": "Distinguish: α, δ, ε, and γ are the only eukaryotic DNA polymerases that copy the cell's own DNA; every other one is a repair enzyme or handles some other metabolic job.<br><br>Pitfall: some eukaryotic DNA polymerases lack the 3′→5′ exonuclease activity that most prokaryotic DNA polymerases carry.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   55,
+   56
+  ],
+  "block": "U7_eukaryotic_replicative_polymerases",
+  "numeric": false,
+  "verified_against": "p258: 'Two or more of the DNA polymerases (α, δ, and/or ε) work together to carry out the semiconservative replication of nuclear DNA.' (the text layer splits 'polymer-' / '(a)' / 'ases' around a figure label, which is why the extractor graded this mark PARTIAL; the sentence is continuous on the page) + p258: 'DNA polymerase γ is responsible for the replication of DNA in mitochondria'. Back Extra, unmarked p258: 'and DNA polymerases β, ε, κ, ζ, η, θ, κ, λ, μ, σ, ϕ, and Rev1 are DNA repair enzymes or perform other metabolic functions.' and 'Some of the eukaryotic DNA polymerases lack the 3′ 5′ exonuclease activity that is present in most prokaryotic DNA polymerases.'",
+  "verified_by": "drafter-U7; editor-U7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "editor_note": "checks #3/#11 — 'semiconservative' had been dropped from mark 55's sentence entirely; restored as VISIBLE text (it is carded as its own fact in the Meselson–Stahl unit, so clozing it here would duplicate by meaning, card-rules #12). Back Extra's second half restated the card's own c1 answers ('two or more of α, δ, and ε at once … the single polymerase γ') — padding, #11 — and was replaced by the exclusivity edge. Ruling on the margin comment: it sits on mark 54 (the roster of 15 names) and excludes the NAME LIST; marks 55 and 56 are separate highlights about WHICH polymerase does WHAT, so α/δ/ε and γ stay legitimate answers — no card asks him to produce the roster, and no hint or Back Extra line prints it.",
+  "_unit": "U7",
+  "_unit_idx": 2
+ },
+ {
+  "Text": "The minimal core of <i>E. coli</i> DNA polymerase III that has catalytic activity in vitro contains three subunits, each the product of its own gene:<br><br>{{c1::α}}, encoded by {{c2::dnaE}}<br><br>{{c1::ε}}, encoded by {{c2::dnaQ}}<br><br>{{c1::θ}}, encoded by {{c2::holE}}",
+  "Back Extra": "Why: the core on its own keeps falling off the template, so it builds only short DNA strands; adding the τ subunit (the dnaX product) joins two cores into a pair and raises their activity.<br><br>Distinguish: the minimal core is only the catalytic heart — the complete DNA polymerase III, the form that builds both new strands at a replication fork, contains at least 20 separate protein chains.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   62
+  ],
+  "block": "U7_pol3_catalytic_core",
+  "numeric": true,
+  "verified_against": "p259: 'The minimal core that has catalytic activity in vitro contains three subunits: α (the dnaE gene product), ε (the dnaQ product), and θ (the holE product).' Visible scaffolding 'of E. coli DNA polymerase III', unmarked p259: 'DNA polymerase III, the \"replicase\" in E. coli, is a multimeric enzyme (an enzyme with many subunits) with a molecular mass of about 900,000 daltons in its complete or holoenzyme form.' Back Extra, unmarked p259: 'Addition of the τ subunit (the dnaX product) results in dimerization of the catalytic core and increased activity.' 'The catalytic core synthesizes rather short DNA strands because of its tendency to fall off the DNA template.' 'The DNA polymerase III holoenzyme, which is responsible for the synthesis of both nascent DNA strands at a replication fork, contains at least 20 polypeptides.'",
+  "verified_by": "drafter-U7; editor-U7",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "259"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_26.png"
+   ],
+   "labels": [
+    "FIGURE 10.26"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_26.png",
+  "editor_note": "checks #14/#11/#13 — the c1/c2 subunit↔gene pairing is kept (card-rules #30's endorsed two-way row shape; 3 cued answers per card, load ≤4 as instructed) and 'three' stays VISIBLE as the answer-count scaffold rather than being clozed alongside its own members. Back Extra rewritten for prerequisite closure: it leaned on FOUR words Parker purpled in this very passage as words he does not know — dimerization (idx 63), holoenzyme (61), nascent (65), polypeptides (66) — now said plainly. The β/dnaN sliding-clamp sentence was cut: off-topic for the core and it is the subject of the adjacent p259 figure material.",
+  "_unit": "U7",
+  "_unit_idx": 3,
+  "image_side": "back"
+ },
+ {
+  "Text": "In <i>E. coli</i>, Okazaki fragments on the lagging strand are initiated by the {{c1::primosome}}, a protein complex containing {{c2::DNA primase}} and {{c2::DNA helicase}}.",
+  "Back Extra": "Why: the lagging strand is copied discontinuously, so every Okazaki fragment needs its own fresh start, and the starting machinery has to travel with the fork.<br><br>Distinguish: the primosome opens the template and lays the primer; DNA polymerase III is what extends that primer into new DNA.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   68
+  ],
+  "block": "U8_primosome",
+  "numeric": false,
+  "verified_against": "p260: 'The initiation of Okazaki fragments on the lagging strand is carried out by the primosome, a protein complex containing DNA primase and DNA helicase.'",
+  "verified_by": "drafter-U8",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "261"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_28.png"
+   ],
+   "labels": [
+    "FIGURE 10.28"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_28.png",
+  "editor_note": "PASS (orchestrator edit pass)",
+  "_unit": "U8",
+  "_unit_idx": 0,
+  "image_side": "back"
+ },
+ {
+  "Text": "As the primosome travels along an <i>E. coli</i> DNA molecule, DNA helicase unwinds the parental double helix while DNA primase synthesizes the {{c1::RNA::RNA or DNA}} primers that initiate successive Okazaki fragments.",
+  "Back Extra": "Mechanism: the primosome tracks along the DNA under ATP power, so the unwinding and the priming stay coupled to the moving fork.<br><br>Pitfall: an RNA primer cannot remain in the finished strand, so each one is later replaced with DNA before the Okazaki fragments are joined.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   69
+  ],
+  "block": "U8_primosome",
+  "numeric": false,
+  "verified_against": "p260: 'As it proceeds, DNA helicase unwinds the parental double helix, and DNA primase synthesizes the RNA primers needed to initiate successive Okazaki fragments.'",
+  "verified_by": "drafter-U8",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "261"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_29.png"
+   ],
+   "labels": [
+    "FIGURE 10.29"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_29.png",
+  "editor_note": "PASS (orchestrator edit pass)",
+  "_unit": "U8",
+  "_unit_idx": 1,
+  "image_side": "back"
+ },
+ {
+  "Text": "At an <i>E. coli</i> replication fork, {{c1::DNA topoisomerases::class of enzymes}} provide {{c2::transient::transient or permanent}} breaks in the DNA that serve as {{c3::swivels}} for DNA unwinding and keep the DNA {{c3::untangled}}.",
+  "Back Extra": "Mechanism: a transient cut lets the DNA spin freely about the break point, so the parental helix can be unwound at the fork without the rest of the molecule tangling.<br><br>Distinguish: DNA gyrase is the topoisomerase singled out for introducing the negative supercoiling that condenses the <i>E. coli</i> chromosome into its nucleoid.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   70,
+   43
+  ],
+  "block": "U8_topoisomerase_swivels",
+  "numeric": false,
+  "verified_against": "p260: 'DNA topoisomerases provide transient breaks in the DNA that' + p261: 'serve as swivels for DNA unwinding and keep the DNA untangled.' + p255 (mark 43): 'The required axes of rotation during the replication of circular DNA molecules are provided by enzymes called DNA topoisomerases.'",
+  "verified_by": "drafter-U8 | grounding_check cleared: 'untangled' is the continuation of mark 70's sentence, which breaks across the page and finishes on p261 ('serve as swivels for DNA unwinding and keep the DNA untangled'). Parker's margin comment on mark 70 is 'PLZ ADD THE REST OF THIS SENTENCE'; quoted verbatim in verified_against.",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "257"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_21.png"
+   ],
+   "labels": [
+    "FIGURE 10.21"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_21.png",
+  "editor_note": "orchestrator-edit (rule 12): now co-cites mark 43, whose same claim on p255 was carded separately in U6 and has been consolidated here.",
+  "_unit": "U8",
+  "_unit_idx": 2,
+  "image_side": "back"
+ },
+ {
+  "Text": "At an <i>E. coli</i> replication fork, DNA polymerase III extends each RNA primer into new DNA, and the primers themselves are later replaced with DNA by {{c1::DNA polymerase I::enzyme}}.",
+  "Back Extra": "Mechanism: DNA polymerase I removes each RNA primer and fills the gap with DNA, which leaves a single-strand nick.<br><br>Pitfall: the nick is sealed by DNA ligase only after the primer is gone, so primer replacement comes before ligation at every Okazaki fragment.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   71
+  ],
+  "block": "U8_primer_replacement",
+  "numeric": false,
+  "verified_against": "p261: 'The RNA primers are replaced with DNA by DNA polymerase I, and the single-strand nicks left by polymerase I are sealed by DNA ligase.'",
+  "verified_by": "drafter-U8",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "261"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_28.png"
+   ],
+   "labels": [
+    "FIGURE 10.28"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_28.png",
+  "editor_note": "PASS (orchestrator edit pass)",
+  "_unit": "U8",
+  "_unit_idx": 3,
+  "image_side": "back"
+ },
+ {
+  "Text": "In <i>E. coli</i>, the {{c1::replisome}} is {{c2::the complete replication apparatus at a replication fork}}, moving along the parental DNA molecule as both new strands are made.",
+  "Back Extra": "Pitfall: the movement is a convenient picture; the replication complex probably stays put while the DNA is pulled through it.<br><br>Mechanism: the replisome holds the DNA polymerase III holoenzyme together with the primosome, so unwinding, priming and both new strands are handled by one coordinated machine.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   72
+  ],
+  "block": "U8_replisome",
+  "numeric": false,
+  "verified_against": "p261: 'The complete replication apparatus moving along the DNA molecule at a replication fork is called the replisome.'",
+  "verified_by": "drafter-U8",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "261"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_29.png"
+   ],
+   "labels": [
+    "FIGURE 10.29"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_29.png",
+  "editor_note": "PASS (orchestrator edit pass)",
+  "_unit": "U8",
+  "_unit_idx": 4,
+  "image_side": "back"
+ },
+ {
+  "Text": "Because the <i>E. coli</i> DNA polymerase III holoenzyme has to make the nascent leading and lagging strands at the same fork, the lagging strand is thought to form a {{c1::loop}} from the primosome to the second catalytic core of that holoenzyme.",
+  "Back Extra": "Mechanism: one catalytic core copies the leading strand continuously while the second copies the lagging strand discontinuously, so looping the lagging-strand template keeps both cores moving as one unit.<br><br>Cue: picture the lagging strand doubling back on itself, so its growing end sits beside the leading-strand core instead of trailing behind the fork.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   73
+  ],
+  "block": "U8_polIII_cores",
+  "numeric": false,
+  "verified_against": "p261: 'the lagging strand is thought to form a loop from the primosome to the second catalytic core of DNA polymerase III'",
+  "verified_by": "drafter-U8",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "261"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_29.png"
+   ],
+   "labels": [
+    "FIGURE 10.29"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_29.png",
+  "editor_note": "PASS (orchestrator edit pass)",
+  "_unit": "U8",
+  "_unit_idx": 5,
+  "image_side": "back"
+ },
+ {
+  "Text": "The <i>E. coli</i> DNA polymerase III holoenzyme carries {{c1::two::number of catalytic cores}} catalytic cores, which between them synthesize the nascent leading and lagging strands.",
+  "Back Extra": "Distinguish: one core stays on the leading strand and copies it continuously; the other takes the lagging strand and copies it in Okazaki fragments.<br><br>Why: keeping both cores in one holoenzyme is what lets the two new strands be built in step at a single fork.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   73
+  ],
+  "block": "U8_polIII_cores",
+  "numeric": true,
+  "verified_against": "p261: 'In order for the two catalytic cores of the polymerase III holoenzyme to synthesize both the nascent leading and lagging strands'",
+  "verified_by": "drafter-U8",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "261"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_29.png"
+   ],
+   "labels": [
+    "FIGURE 10.29"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_29.png",
+  "editor_note": "PASS (orchestrator edit pass)",
+  "_unit": "U8",
+  "_unit_idx": 6,
+  "image_side": "back"
+ },
+ {
+  "Text": "Rolling-circle replication has three uses (give the organism and the purpose of each):<br><br>{{c1::many viruses, to duplicate their genomes}}<br><br>{{c1::bacteria, to transfer DNA from donor to recipient cells}}<br><br>{{c1::amphibians, to amplify extrachromosomal rRNA gene clusters during oogenesis}}",
+  "Back Extra": "Distinguish: rolling-circle is a fourth replication geometry, alongside θ-shaped, eye-shaped, and Y-shaped replicating DNAs, and it is a mechanism for circular DNA molecules only.<br><br>Ex: the virus ΦX174 makes its single-stranded progeny genomes this way, by continuous copying around a nicked double-stranded circle.<br><br>Why: the intact circle can turn 360° many times, producing one full unit-length copy per turn, so a single template yields copy after copy of the same circular DNA.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   74
+  ],
+  "block": "U9_rolling_circle_uses",
+  "numeric": false,
+  "verified_against": "p262: 'Rolling-circle replication is used (1) by many viruses to duplicate their genomes, (2) in bacteria to transfer DNA from donor cells to recipient cells during one type of genetic exchange (Chapter 8), and (3) in amphibians to amplify extrachromosomal DNAs carrying clusters of ribosomal RNA genes during oogenesis.'",
+  "verified_by": "drafter-U9",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "262"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_30.png"
+   ],
+   "labels": [
+    "FIGURE 10.30"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_30.png",
+  "_unit": "U9",
+  "_unit_idx": 0,
+  "image_side": "back"
+ },
+ {
+  "Text": "The unique aspect of rolling-circle replication is that one parental circular DNA strand {{c1::remains intact::remains intact or is nicked}} and rolls (spins) while serving as the template for synthesis of a new complementary strand.",
+  "Back Extra": "Distinguish: the <b>other</b> parental strand is the one a sequence-specific endonuclease nicks at the origin; that nicked strand is the one that gets extended, while the intact strand is only read as the template.<br><br>Pitfall: the enzymes and reactions are basically the same as in θ-type replication; what is unique is the geometry (an intact template that spins), not the chemistry.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   75
+  ],
+  "block": "U9_rolling_circle_mechanism",
+  "numeric": false,
+  "verified_against": "p262: 'The unique aspect of rolling-circle replication is that one parental circular DNA strand remains intact and rolls (thus the name rolling circle) or spins while serving as a template for the synthesis of a new complementary strand'",
+  "verified_by": "drafter-U9",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "262"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_30.png"
+   ],
+   "labels": [
+    "FIGURE 10.30"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_30.png",
+  "_unit": "U9",
+  "_unit_idx": 1,
+  "image_side": "back"
+ },
+ {
+  "Text": "In rolling-circle replication, the {{c1::5′::5′ or 3′}} terminus of the nicked strand is displaced from the circle as the intact template strand turns about its axis.",
+  "Back Extra": "Why: the nick leaves a 3′-OH and a 5′-phosphate, and a DNA polymerase can add nucleotides only to a free 3′-OH, so the 3′ end is the one extended and the 5′ end is the one pushed off the circle.<br><br>Mechanism: a sequence-specific endonuclease nicks one strand at the origin → 3′-OH and 5′-P ends → covalent extension at the 3′-OH while the intact circle turns → one unit-length strand per 360° turn, so the single-stranded tail grows longer than the circle itself.<br><br>Ex: the tails become progeny either as single-stranded circles (cut at the origins and recircularized) or as double-stranded circles (the tail is first copied discontinuously, then cut and circularized).",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   77
+  ],
+  "block": "U9_rolling_circle_mechanism",
+  "numeric": true,
+  "verified_against": "p262: 'The 5′ terminus is displaced from the circle as the intact template strand turns about its axis.'",
+  "verified_by": "drafter-U9",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "262"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_30.png"
+   ],
+   "labels": [
+    "FIGURE 10.30"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_30.png",
+  "editor_note": "orchestrator-edit: visual_source.figures was EMPTY, so the claimed visual exemption resolved to nothing (check_cards._visual_evidence_exists requires a real file). Attached the p262 evidence crop.",
+  "_unit": "U9",
+  "_unit_idx": 2,
+  "image_side": "back"
+ },
+ {
+  "Text": "In <b>eukaryotes</b>, DNA synthesis takes place {{c1::within a small portion of the cell cycle::within a small portion of the cell cycle, or continuously}}, whereas in <b>prokaryotes</b> DNA synthesis takes place {{c1::continuously::within a small portion of the cell cycle, or continuously}}.",
+  "Back Extra": "Why: when bacteria are growing on rich media their DNA replication runs ceaselessly; a eukaryotic cell instead confines DNA synthesis to one stretch of its cycle, with checkpoints that make the DNA replicate once and only once per cell division.<br><br>Distinguish: most of the machinery is shared (leading strand continuous, lagging strand discontinuous, RNA primers and Okazaki fragments, all as in prokaryotes though primers and fragments are shorter in eukaryotes); the timing is one of only a few eukaryote-specific differences, alongside multiple origins per chromosome and two or more different DNA polymerases.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   78
+  ],
+  "block": "U9_euk_replication_timing",
+  "numeric": false,
+  "verified_against": "p263: 'DNA synthesis takes place within a small portion of the cell cycle in eukaryotes, not continuously as in prokaryotes.'",
+  "verified_by": "drafter-U9",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "U9",
+  "_unit_idx": 3
+ },
+ {
+  "Text": "In eukaryotes, DNA replication is restricted to the <b>S</b> phase of the cell cycle, where the S stands for {{c1::synthesis}}. In the names of the <b>G1</b> and <b>G2</b> phases, the G stands for {{c2::gap}}.",
+  "Back Extra": "Why: the S phase is the stretch of the cycle in which the DNA is actually synthesized, and the two G phases are the gaps on either side of it, separating replication from mitosis.<br><br>Pitfall: the G is gap, not growth.<br><br>Cue: G1 follows the completion of mitosis and G2 is the preparation for mitosis, so the gaps are named for where they sit rather than for anything that happens in them.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   79,
+   80
+  ],
+  "block": "U9_cell_cycle_phases",
+  "numeric": false,
+  "verified_against": "p263: 'in eukaryotes, DNA replication is restricted to the S phase of the cell cycle (S for synthesis; Chapter 2). Recall that a normal eukaryotic cell cycle consists of G1 phase (immediately following the completion of mitosis; G for gap)'",
+  "verified_by": "drafter-U9",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "editor_note": "orchestrator-edit (rule 12): the draft's c1 re-asked which phase carries DNA replication, which card U9#5 already tests from its own visible description. Re-scoped to the two marked letter-expansions (S for synthesis, G for gap) with the phase names left visible as anchors.",
+  "_unit": "U9",
+  "_unit_idx": 4
+ },
+ {
+  "Text": "A normal eukaryotic cell cycle consists of four phases, in order:<br><br>{{c1::G1}} — immediately following the completion of mitosis<br><br>{{c1::S}} — DNA replication<br><br>{{c1::G2}} — preparation for mitosis<br><br>{{c1::M}} — mitosis",
+  "Back Extra": "Ex: in rapidly dividing cells, G1 and G2 are very short or nonexistent.<br><br>Cue: decisions to continue through the cycle are made at two points, entry into S phase and entry into mitosis.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   80,
+   79
+  ],
+  "block": "U9_cell_cycle_phases",
+  "numeric": true,
+  "verified_against": "p263: 'Recall that a normal eukaryotic cell cycle consists of G1 phase (immediately following the completion of mitosis; G for gap), S phase, G2 phase (preparation for mitosis), and M phase (mitosis)'",
+  "verified_by": "drafter-U9",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "U9",
+  "_unit_idx": 5
+ },
+ {
+  "Text": "<b>Progeny</b> are {{c1::the offspring or descendants of a parent}}.",
+  "Back Extra": "Ex: “But this simple colloquialism suggests that most people do, indeed, believe that the <b>progeny</b> replicas of a gene actually are identical.”<br><br>Parts: pro- (forth) + gen- (to beget) — those brought forth.<br><br>Cue: in DNA replication the parental molecule is the original; its progeny are the copies made from it.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   0
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "orchestrator-lexicon; lexicon_check external-with-evidence cleared: the --find hit is a usage far from the mark (p203 / p719), not a definition of this sense | lexicon_check cleared: the --find in_source hit for 'progen' is p203 ('progeny are plated on transducing particles'), 36 pages away and a usage rather than a definition of this sense, so the anchor stays external and the card carries needs_human_check.",
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "progeny",
+   "term_key": "progen",
+   "anchor": {
+    "method": "external",
+    "page": "239"
+   }
+  },
+  "anchor_note": "external: the --find in_source hit (p203, 'progeny are plated on transducing particles…') is a usage 36 pages away, not a definition of this sense",
+  "editor_note": "PASS",
+  "_unit": "LEX",
+  "_unit_idx": 0
+ },
+ {
+  "Text": "A <b>colloquialism</b> is {{c1::an informal, everyday expression}}.",
+  "Back Extra": "Ex: “But this simple <b>colloquialism</b> suggests that most people do, indeed, believe that the progeny replicas of a gene actually are identical.”<br><br>Parts: colloqui- (conversation, as in <i>colloquy</i>) + -ism.<br><br>Cue: the colloquialism in question is explaining identical twins by saying “they contain the same genes” — casual speech that quietly assumes every gene copy came out exactly the same.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   1
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "colloquialism",
+   "term_key": "colloq",
+   "anchor": {
+    "method": "external",
+    "page": "239"
+   }
+  },
+  "editor_note": "check 3 (grounded): the Cue named the wrong colloquialism — p239 says the casual statement is “they contain the same genes”, not calling twins “identical”; Cue rewritten to the page's own wording",
+  "_unit": "LEX",
+  "_unit_idx": 1
+ },
+ {
+  "Text": "<b>Elucidated</b> means {{c1::made clear or fully explained}}.",
+  "Back Extra": "Ex: “Most of the key features of the mechanism by which the rapid and accurate replication of DNA occurs are now known, although many molecular details remain to be <b>elucidated</b>.”<br><br>Parts: e- (out) + lucid- (light, clear) — brought out into the light.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   4
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "orchestrator-lexicon; lexicon_check external-with-evidence cleared: the --find hit is a usage far from the mark (p203 / p719), not a definition of this sense | lexicon_check cleared: the --find in_source hit for 'elucidat' is p719 ('elucidated (Figure 23.10b)'), 479 pages away and a bare usage, so the anchor stays external and the card carries needs_human_check.",
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "elucidated",
+   "term_key": "elucidat",
+   "anchor": {
+    "method": "external",
+    "page": "240"
+   }
+  },
+  "anchor_note": "external: the --find in_source hit (p719, 'elucidated (Figure 23.10b)') is a usage 479 pages away, not a definition",
+  "editor_note": "check 6/style: semicolon-spliced answer read as two answers; joined with 'or'",
+  "_unit": "LEX",
+  "_unit_idx": 2
+ },
+ {
+  "Text": "{{c1::Semiconservative replication}} is the mode of DNA replication in which each daughter double helix keeps {{c2::one parental strand}} and receives {{c2::one newly synthesized strand}}.",
+  "Back Extra": "Ex: “…called <b>semiconservative replication</b> (because the parental molecule is half conserved) to distinguish it from conservative or dispersive mechanisms of replication.”<br><br>Parts: semi- (half) + conservative (kept) — half of the parent molecule is kept in each product.<br><br>Distinguish: <i>conservative</i> replication would keep the whole parental helix intact and build an entirely new one; <i>dispersive</i> replication would mix old and new stretches within every strand.<br><br>Formal: “Replication of DNA by a mechanism in which the parental strands are conserved (remain intact) and serve as templates for the synthesis of new complementary strands.”",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   5
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "p624 glossary: 'Semiconservative replication: Replication of DNA by a mechanism in which the parental strands are conserved (remain intact) and serve as templates for the synthesis of new complementary strands.'",
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "241"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_2.png"
+   ],
+   "labels": [
+    "FIGURE 10.2"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_2.png",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "semiconservative replication",
+   "term_key": "semiconserv_repl",
+   "anchor": {
+    "method": "glossary",
+    "page": "624"
+   }
+  },
+  "anchor_note": "two-way (c1 term / c2 meaning) because the term is the chapter's own keyword (recipes 4b: flip when the term is plainly a keyword of the chapter); term corrected from a drag slip that included the book's parenthetical",
+  "editor_note": "check 9/recipes §4 hint: '::mode of DNA replication' duplicated the stem's own 'is the mode' — hint dropped and the category folded into the stem so both cards read naturally; check 10: the Ex quote opened with a dangling 'This mechanism' — trimmed to the clause that carries the term. c1/c2 shape, answers, Distinguish and Formal unchanged",
+  "_unit": "LEX",
+  "_unit_idx": 3,
+  "image_side": "back"
+ },
+ {
+  "Text": "<b>Equilibrium density-gradient centrifugation</b> is {{c1::spinning molecules until they separate by density}}.",
+  "Back Extra": "Ex: “By using this technique, called <b>equilibrium density-gradient centrifugation</b>, Meselson and Stahl were able to distinguish between the three possible modes of DNA replication by following the changes in the density of DNA from cells grown on ¹⁵N medium and then transferred to ¹⁴N medium for various periods of time—so-called density-transfer experiments.”<br><br>Why: spinning a concentrated cesium chloride (CsCl) solution at very high speed for a long time builds a density gradient; each DNA molecule moves until it reaches the spot where the solution's density equals its own and stops there (the “equilibrium”), so “heavy” ¹⁵N-DNA and “light” ¹⁴N-DNA settle into two separate bands.<br><br>Distinguish: sedimentation through a sucrose gradient (the technique that found the Okazaki fragments) measures how FAST a molecule moves during the spin; equilibrium density-gradient centrifugation reads WHERE it finally stops — its density.<br><br>Formal: “A procedure used to separate macromolecules based on their density (mass per unit volume).”",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   11
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "p613 glossary: 'Equilibrium density-gradient centrifugation: A procedure used to separate macromolecules based on their density (mass per unit volume).'; p240: 'Molecules with different densities can be separated by prolonged centrifugation at high speeds in a solution of the heavy salt cesium chloride (CsCl)'",
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "242"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_3.png"
+   ],
+   "labels": [
+    "FIGURE 10.3"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_3.png",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "equilibrium density-gradient centrifugation",
+   "term_key": "equilibrium_dens_grad_centrifug",
+   "anchor": {
+    "method": "glossary",
+    "page": "613"
+   }
+  },
+  "anchor_note": "term corrected from a drag slip that clipped the leading 'e'",
+  "editor_note": "check 30 (plain): 'band' as a verb is lab jargon a stranger cannot parse — answer now 'separate by density', the glossary's own discriminator; check 3: Why said 'hours' and 'bands lower', neither on p241 ('very high speeds for long periods', two “bands”) — rewritten to the page; Ex was cut mid-sentence before '—so-called density-transfer experiments' — completed; Parts (a gloss of one word, not a decomposition) replaced by a grounded Distinguish against the chapter's other gradient method (p250 sedimentation velocity). FLAG (not changed): the mark's grounding is NOT_FOUND from the clipped drag; needs_human_check stays as derived",
+  "_unit": "LEX",
+  "_unit_idx": 4,
+  "image_side": "back"
+ },
+ {
+  "Text": "In DNA synthesis, the <b>dTTP precursor</b> is {{c1::the thymine building block, carrying three phosphates}}.",
+  "Back Extra": "Ex: “…the DNA polymerase–catalyzed addition of deoxythymidine monophosphate (from the <b>precursor</b> deoxythymidine triphosphate, <b>dTTP</b>) to the 3′ end of the chain with the release of pyrophosphate (P₂O₇).”<br><br>Meaning: dTTP = <i>d</i>eoxy<i>t</i>hymidine <i>t</i>ri<i>p</i>hosphate; a <i>precursor</i> is the raw material a chain is built from.<br><br>Why: the chain's free 3′-OH attacks the innermost phosphate of the incoming dTTP, and the outer two phosphates leave as pyrophosphate.<br><br>Cue: the general name for any of these is a “nucleoside triphosphate precursor” — dTTP is the thymine one.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   32
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "250"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_12.png"
+   ],
+   "labels": [
+    "FIGURE 10.12"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_12.png",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "dTTP precursor",
+   "term_key": "dttp_precursor",
+   "anchor": {
+    "method": "external",
+    "page": "250"
+   }
+  },
+  "anchor_note": "external: the marked words are a label beside the incoming nucleotide in the polymerase-mechanism drawing on p250; the Ex line quotes the p258 sentence that uses 'precursor' in the same sense | grounding quote (not an anchor): p258: 'a nucleophilic attack by the free 3′-OH at the primer strand terminus on the nucleotidyl phosphorus of the nucleoside triphosphate precursor with the elimination of pyrophosphate'",
+  "editor_note": "check 3 (grounded): 'that release pays for the new bond' and 'dATP, dGTP, and dCTP are the matching precursors' appear nowhere in the chapter — both removed; check 15: the visible tail 'that DNA polymerase adds to a growing chain' stated the meaning of the 'precursor' half of the term — folded into the hidden answer ('building block') with a situational frame instead; Ex: the mark is a label in Figure 10.12 on p250, so the encounter sentence is that figure's own caption (contains both 'precursor' and 'dTTP') — replaced the p258 sentence that never says dTTP; Cue re-grounded on p258's 'nucleoside triphosphate precursor'",
+  "_unit": "LEX",
+  "_unit_idx": 5,
+  "image_side": "back"
+ },
+ {
+  "Text": "A <b>monomeric</b> enzyme is {{c1::one made of a single protein subunit}}.",
+  "Back Extra": "Ex: “Studies of the crystal structure of the complex formed by a <b>monomeric</b> DNA polymerase, a nucleoside triphosphate precursor, and a template-primer DNA have contributed to our understanding of the high fidelity of DNA synthesis.”<br><br>Parts: mono- (one) + -mer (part, unit).<br><br>Distinguish: a <i>multimeric</i> enzyme has many subunits — DNA polymerase I of <i>E. coli</i> is monomeric, DNA polymerase III is multimeric.<br><br>Cue: in a monomeric enzyme the proofreading (3′→5′ exonuclease) activity is built into the one chain; a multimeric enzyme often carries it on a separate subunit.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   58
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "p619 glossary: 'Monomer: A single molecular entity that may combine with others to form more complex structures.'; p260: 'In monomeric enzymes like DNA polymerase I of E. coli, the 3′→5′ exonuclease activity is built in. In multimeric enzymes, the 3′→5′ proofreading exonuclease activity is often present on a separate subunit.'",
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "monomeric",
+   "term_key": "monomer",
+   "anchor": {
+    "method": "glossary",
+    "page": "619"
+   }
+  },
+  "editor_note": "check 3 (grounded): Cue's 'every activity is built into the one chain' overstates p260, which says only that the 3′→5′ exonuclease activity is built in — narrowed to the page's claim",
+  "_unit": "LEX",
+  "_unit_idx": 6
+ },
+ {
+  "Text": "<b>Juxtaposition</b> is {{c1::placing things right next to each other}}.",
+  "Back Extra": "Ex: “Note the tight <b>juxtaposition</b> between the nucleoside triphosphate, the primer terminus, and the template strand.”<br><br>Parts: juxta- (beside, next to) + position.<br><br>Cue: the polymerase holds the incoming nucleotide right against the end of the primer strand, lined up to pair with the first unpaired base of the template.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   59
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": true,
+  "visual_source": {
+   "pages": [
+    "258"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_24.png"
+   ],
+   "labels": [
+    "FIGURE 10.24"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_24.png",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "juxtaposition",
+   "term_key": "juxtapos",
+   "anchor": {
+    "method": "external",
+    "page": "258"
+   }
+  },
+  "editor_note": "check 30 (faithful): answer said 'two things' while the Ex sentence juxtaposes THREE (nucleotide, primer terminus, template strand) — count dropped; check 3: Cue's 'so the two can bond' misread p258, which says the nucleotide is positioned to hydrogen-bond with the first unpaired TEMPLATE base — rewritten to the page",
+  "_unit": "LEX",
+  "_unit_idx": 7,
+  "image_side": "back"
+ },
+ {
+  "Text": "A <b>multimeric enzyme</b> is {{c1::an enzyme built from many protein subunits}}.",
+  "Back Extra": "Ex: “DNA polymerase III, the “replicase” in <i>E. coli</i>, is a <b>multimeric enzyme</b> (an enzyme with many subunits) with a molecular mass of about 900,000 daltons in its complete or holoenzyme form.”<br><br>Parts: multi- (many) + -mer (part, unit).<br><br>Distinguish: a <i>monomeric</i> enzyme is a single subunit — DNA polymerase I; DNA polymerase III is the multimeric one.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   60
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "p259: 'DNA polymerase III, the “replicase” in E. coli, is a multimeric enzyme (an enzyme with many subunits) with a molecular mass of about 900,000 daltons in its complete or holoenzyme form.'",
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "259"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_26.png"
+   ],
+   "labels": [
+    "FIGURE 10.26"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_26.png",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "multimeric enzyme",
+   "term_key": "multimer_enzym",
+   "anchor": {
+    "method": "in_source",
+    "page": "259"
+   }
+  },
+  "editor_note": "PASS",
+  "_unit": "LEX",
+  "_unit_idx": 8,
+  "image_side": "back"
+ },
+ {
+  "Text": "A <b>holoenzyme</b> is {{c1::the complete enzyme, with every subunit present}}.",
+  "Back Extra": "Ex: “DNA polymerase III, the “replicase” in <i>E. coli</i>, is a multimeric enzyme (an enzyme with many subunits) with a molecular mass of about 900,000 daltons in its complete or <b>holoenzyme</b> form.”<br><br>Parts: holo- (whole, entire) + enzyme.<br><br>Distinguish: the <i>catalytic core</i> is the smallest part that still works (in DNA polymerase III, three subunits); the holoenzyme is the whole assembly, at least 20 polypeptides.<br><br>Formal: “The form of a multimeric enzyme in which all of the component polypeptides are present.”",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   61
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "p615 glossary: 'Holoenzyme: The form of a multimeric enzyme in which all of the component polypeptides are present.'; p259: 'about 900,000 daltons in its complete or holoenzyme form' / 'The minimal core that has catalytic activity in vitro contains three subunits' / 'contains at least 20 polypeptides'",
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "259"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_26.png"
+   ],
+   "labels": [
+    "FIGURE 10.26"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_26.png",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "holoenzyme",
+   "term_key": "holoenzym",
+   "anchor": {
+    "method": "glossary",
+    "page": "615"
+   }
+  },
+  "editor_note": "PASS",
+  "_unit": "LEX",
+  "_unit_idx": 9,
+  "image_side": "back"
+ },
+ {
+  "Text": "<b>Dimerization</b> is {{c1::two units joining into a pair}}.",
+  "Back Extra": "Ex: “Addition of the τ subunit (the <i>dnaX</i> product) results in <b>dimerization</b> of the catalytic core and increased activity.”<br><br>Parts: di- (two) + -mer (unit) + -ization (the act of becoming).<br><br>Cue: pairing two copies of the catalytic core gives the polymerase one core for each strand at the replication fork.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   63
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "dimerization",
+   "term_key": "dimeriz",
+   "anchor": {
+    "method": "external",
+    "page": "259"
+   }
+  },
+  "editor_note": "check 30 (faithful): 'identical' is not the discriminator (two-ness is) and would be drilled as a false constraint — dimers need not be identical; dropped from the answer, the 'two copies' fact kept in the Cue where it is true of this encounter (p261: one core per strand)",
+  "_unit": "LEX",
+  "_unit_idx": 10
+ },
+ {
+  "Text": "A <b>dimeric</b> protein is {{c1::one made of two joined subunits}}.",
+  "Back Extra": "Ex: “The β subunit (the <i>dnaN</i> gene product) of DNA polymerase III forms a <b>dimeric</b> clamp that keeps the polymerase from falling off the template DNA.”<br><br>Parts: di- (two) + -mer (unit).<br><br>Distinguish: monomer (one unit) → dimer (two) → multimer (many).<br><br>Cue: the β clamp is a ring of two β subunits that encircles the DNA and lets DNA polymerase III slide along without letting go.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   64
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "p611 glossary: 'Dimer: A compound having the same percentage composition as another but twice the molecular weight; one formed by polymerization.'; p259: 'The β-dimer forms a ring that encircles the replicating DNA molecule and allows DNA polymerase III to slide along the DNA while remaining tethered to it.'",
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "259"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_25.png"
+   ],
+   "labels": [
+    "FIGURE 10.25"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_25.png",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "dimeric",
+   "term_key": "dimer",
+   "anchor": {
+    "method": "glossary",
+    "page": "611"
+   }
+  },
+  "editor_note": "check 30 (faithful): same as dimerization — 'identical' dropped from the answer (glossary: twice the weight = two units; nothing requires identity); the β clamp's 'two β subunits' stays in the Cue",
+  "_unit": "LEX",
+  "_unit_idx": 11,
+  "image_side": "back"
+ },
+ {
+  "Text": "<b>Nascent</b> means {{c1::newly made and still growing}}.",
+  "Back Extra": "Ex: “The DNA polymerase III holoenzyme, which is responsible for the synthesis of both <b>nascent</b> DNA strands at a replication fork, contains at least 20 polypeptides.”<br><br>Parts: nasc- (being born, as in <i>natal</i>) + -ent (in the state of).<br><br>Distinguish: the <i>nascent</i> strands are the new leading and lagging strands being built; the <i>parental</i> strands are the old templates they are copied from.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   65
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": null,
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": true,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "nascent",
+   "term_key": "nasc",
+   "anchor": {
+    "method": "external",
+    "page": "259"
+   }
+  },
+  "anchor_note": "grounding quote (not an anchor): p259: 'the synthesis of both nascent DNA strands at a replication fork, contains at least 20 polypeptides'",
+  "editor_note": "PASS",
+  "_unit": "LEX",
+  "_unit_idx": 12
+ },
+ {
+  "Text": "A <b>polypeptide</b> is {{c1::a chain of amino acids linked together}}.",
+  "Back Extra": "Ex: “The DNA polymerase III holoenzyme, which is responsible for the synthesis of both nascent DNA strands at a replication fork, contains at least 20 <b>polypeptides</b>.”<br><br>Parts: poly- (many) + peptide (the bond that links amino acids).<br><br>Distinguish: a polypeptide is one chain; a protein is made of one or more polypeptides — the DNA polymerase III holoenzyme is one protein built from at least 20 of them.<br><br>Formal: “A linear molecule with two or more amino acids and one or more peptide groups.”",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   66
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "p621 glossary: 'Polypeptide: A linear molecule with two or more amino acids and one or more peptide groups.'; p259: 'contains at least 20 polypeptides'",
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "polypeptides",
+   "term_key": "polypeptid",
+   "anchor": {
+    "method": "glossary",
+    "page": "621"
+   }
+  },
+  "editor_note": "check 3 (grounded): 'folded into a working shape' is outside both the page and the glossary (Protein: 'composed of one to several polypeptides') — trimmed to what the evidence and p259 say",
+  "_unit": "LEX",
+  "_unit_idx": 13
+ },
+ {
+  "Text": "An <b>endonuclease</b> is {{c1::an enzyme that cuts a DNA strand internally}}.",
+  "Back Extra": "Ex: “Replication is initiated when a sequence-specific <b>endonuclease</b> cleaves one strand at the origin, producing 3′-OH and 5′-phosphate termini.”<br><br>Parts: endo- (within) + nucle- (nucleic acid) + -ase (enzyme).<br><br>Distinguish: an <i>exonuclease</i> chews nucleotides off from an END of a strand (exo = out); an endonuclease cuts within the strand.<br><br>Mnemonic: your note — exo = out, nuclease = eat; endo = eats from the inside.<br><br>Formal: “An enzyme that breaks strands of DNA at internal positions; some are involved in recombination of DNA.”",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   76
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "p612 glossary: 'Endonuclease: An enzyme that breaks strands of DNA at internal positions; some are involved in recombination of DNA.'",
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "262"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_30.png"
+   ],
+   "labels": [
+    "FIGURE 10.30"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_30.png",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "endonuclease",
+   "term_key": "endonucleas",
+   "anchor": {
+    "method": "glossary",
+    "page": "612"
+   }
+  },
+  "editor_note": "PASS (the 'your note' mnemonic is genuinely Parker's margin comment on mark 40, p253: 'exo - out / nuclase - eat')",
+  "_unit": "LEX",
+  "_unit_idx": 14,
+  "image_side": "back"
+ },
+ {
+  "Text": "<b>Progerias</b> are {{c1::inherited disorders of premature aging}}.",
+  "Back Extra": "Ex: “Other evidence for a relationship between telomere length and aging in humans has come from studies of individuals with inherited disorders called <b>progerias</b>, which are characterized by premature aging.”<br><br>Parts: pro- (before, early) + ger- (old age, as in <i>geriatric</i>).<br><br>Cue: the link to replication is telomere length — telomere length falls as cells age, and cells with shorter telomeres divide fewer times before senescence (cellular aging) and death.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   84
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "p622 glossary: 'Progeria: Inherited disease characterized by premature aging.'; p267: 'Cells with longer telomeres go through more divisions than cells with shorter telomeres.'",
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "267"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_35.jpg"
+   ],
+   "labels": [
+    "FIGURE 10.35"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_35.jpg",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "progerias",
+   "term_key": "proger",
+   "anchor": {
+    "method": "glossary",
+    "page": "622"
+   }
+  },
+  "editor_note": "recipes §2 #9 (plain Back Extra): 'senescence' sat unglossed — glossed in the same line; wording pinned to p267",
+  "_unit": "LEX",
+  "_unit_idx": 15,
+  "image_side": "back"
+ },
+ {
+  "Text": "<b>Hutchinson–Gilford syndrome</b> is {{c1::the most severe premature-aging disorder, starting at birth}}.",
+  "Back Extra": "Ex: “In the most severe form of progeria, <b>Hutchinson–Gilford syndrome</b>, senescence—wrinkles, baldness, and other symptoms of aging—begins immediately after birth, and death usually occurs in the teens.”<br><br>Distinguish: <i>progerias</i> are the whole family of inherited premature-aging disorders; Hutchinson–Gilford is the most severe member.<br><br>Cue: death usually comes in the teens.",
+  "source": "genetics",
+  "segment": 10,
+  "from_idx": [
+   85
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "p267: 'In the most severe form of progeria, Hutchinson–Gilford syndrome (◾ Figure 10.35), senescence—wrinkles, baldness, and other symptoms of aging—begins immediately after birth, and death usually occurs in the teens.'",
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "267"
+   ],
+   "figures": [
+    "figures/study_v2/FIGURE_10_35.jpg"
+   ],
+   "labels": [
+    "FIGURE 10.35"
+   ],
+   "note": "figure extracted from the source PDF and attached to this card (scripts/attach_figures.py --to-cards)."
+  },
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_10_35.jpg",
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "Hutchinson–Gilford syndrome",
+   "term_key": "hutchinson_gilford_syndrom",
+   "anchor": {
+    "method": "in_source",
+    "page": "267"
+   }
+  },
+  "editor_note": "check 30 (plain): answer defined the term through 'progeria' (jargon a stranger cannot parse) and used a colon splice — now plain English carrying both discriminators (most severe; onset at birth); the family link to 'progeria' stays in Distinguish, the teens fact in Cue",
+  "_unit": "LEX",
+  "_unit_idx": 16,
+  "image_side": "back"
+ }
+]
