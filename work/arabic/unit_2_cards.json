@@ -7,7 +7,7 @@
    23
   ],
   "Text": "Each Arabic long vowel has one short vowel that matches it:<br><br>alif (<i>aa</i>) — {{c1::fatHa}}<br><br>waaw (<i>uu</i>) — {{c1::Damma}}<br><br>yaa (<i>ii</i>) — {{c1::kasra}}",
-  "Back Extra": "Cue: the long vowel is a whole LETTER you write on the line; its short partner is only a mark added above or below.<br><br>Distinguish: same vowel, two lengths — the long one is a letter you write, the short one a mark you add last.",
+  "Back Extra": "Cue: the long vowel is a whole LETTER you write on the line; its short partner is only a mark added above or below.<br><br>Distinguish: same vowel, two lengths — the long one is a letter you write, the short one a mark you add last.<br><br>Hear them: fatHa [sound:arabic_ab3e_fatha.mp3] &nbsp; Damma [sound:arabic_ab3e_damma.mp3] &nbsp; kasra [sound:arabic_ab3e_kasra.mp3]",
   "source": "arabic",
   "segment": 2,
   "numeric": false,
@@ -40,7 +40,7 @@
    11
   ],
   "Text": "Of Arabic's three long vowels, waaw is the {{c1::second::first / second / third}}, and its sound is that of {{c2::the exclamation of delight — <i>ooooo!</i>}}",
-  "Back Extra": "Cue: it shares its shape with the short vowel Damma, which is written as a miniature waaw.<br><br>Cue: your Unit 1 card teaches the same vowel as <i>oo</i> in <i>poodle</i>.<br><br>Pitfall: do not confuse it with English <i>o</i> or <i>u</i>; keep the mouth rounded and hold it.",
+  "Back Extra": "Cue: it shares its shape with the short vowel Damma, which is written as a miniature waaw.<br><br>Cue: your Unit 1 card teaches the same vowel as <i>oo</i> in <i>poodle</i>.<br><br>Pitfall: do not confuse it with English <i>o</i> or <i>u</i>; keep the mouth rounded and hold it.<br><br>Dr. Khouri says it: [sound:arabic_khouri_u2_waaw.mp3]",
   "source": "arabic",
   "segment": 2,
   "numeric": false,
@@ -48,7 +48,8 @@
   "verified_against": "the marked sentence(s) on rendered p47 (printed 29)",
   "verified_by": "read off the page render at 200 dpi (the scan's Arabic OCR is unreliable)",
   "visual_source": null,
-  "image": null
+  "image": null,
+  "Audio": "[sound:arabic_pron_27_waaw.mp4]"
  },
  {
   "block": "D_system",
@@ -56,7 +57,7 @@
    14
   ],
   "Text": "The last of Arabic's three long vowels is yaa, the sound of {{c1::<i>ee</i> in <i>beep</i>}}.",
-  "Back Extra": "Cue: imitate a honking car horn — <i>beeeeep!</i> — and exaggerate it to feel the length.<br><br>Cue: your Unit 1 card teaches the same vowel as <i>ie</i> in <i>piece</i>.<br><br>Ex: the book's own practice words are <i>beep</i> and <i>street</i>.",
+  "Back Extra": "Cue: imitate a honking car horn — <i>beeeeep!</i> — and exaggerate it to feel the length.<br><br>Cue: your Unit 1 card teaches the same vowel as <i>ie</i> in <i>piece</i>.<br><br>Ex: the book's own practice words are <i>beep</i> and <i>street</i>.<br><br>Dr. Khouri says it: [sound:arabic_khouri_u2_yaa.mp3]",
   "source": "arabic",
   "segment": 2,
   "numeric": false,
@@ -64,7 +65,8 @@
   "verified_against": "the marked sentence(s) on rendered p49 (printed 31)",
   "verified_by": "read off the page render at 200 dpi (the scan's Arabic OCR is unreliable)",
   "visual_source": null,
-  "image": null
+  "image": null,
+  "Audio": "[sound:arabic_pron_28_yaa.mp4]"
  },
  {
   "block": "D_system",
@@ -115,7 +117,8 @@
   "needs_human_check": false,
   "verified_against": "the marked sentence(s) on rendered p53 (printed 35)",
   "visual_source": null,
-  "image": null
+  "image": null,
+  "Audio": "[sound:arabic_ab3e_fatha.mp3]"
  },
  {
   "block": "D_system",
@@ -154,7 +157,8 @@
   "verified_against": "the marked sentence(s) on rendered p54 (printed 36)",
   "verified_by": "read off the page render at 200 dpi (the scan's Arabic OCR is unreliable)",
   "visual_source": null,
-  "image": null
+  "image": null,
+  "Audio": "[sound:arabic_ab3e_fatha.mp3]"
  },
  {
   "block": "D_system",
@@ -170,7 +174,8 @@
   "verified_against": "the marked sentence(s) on rendered p53 (printed 35)",
   "verified_by": "read off the page render at 200 dpi (the scan's Arabic OCR is unreliable)",
   "visual_source": null,
-  "image": null
+  "image": null,
+  "Audio": "[sound:arabic_ab3e_fatha.mp3]"
  },
  {
   "block": "D_system",
@@ -186,7 +191,8 @@
   "verified_against": "the marked sentence(s) on rendered p54 (printed 36)",
   "verified_by": "read off the page render at 200 dpi (the scan's Arabic OCR is unreliable)",
   "visual_source": null,
-  "image": null
+  "image": null,
+  "Audio": "[sound:arabic_ab3e_damma.mp3]"
  },
  {
   "block": "D_system",
@@ -202,7 +208,8 @@
   "verified_against": "the marked sentence(s) on rendered p55 (printed 37)",
   "verified_by": "read off the page render at 200 dpi (the scan's Arabic OCR is unreliable)",
   "visual_source": null,
-  "image": null
+  "image": null,
+  "Audio": "[sound:arabic_ab3e_kasra.mp3]"
  },
  {
   "block": "D_system",
@@ -218,7 +225,8 @@
   "verified_against": "the marked sentence(s) on rendered p55 (printed 37)",
   "verified_by": "read off the page render at 200 dpi (the scan's Arabic OCR is unreliable)",
   "visual_source": null,
-  "image": null
+  "image": null,
+  "Audio": "[sound:arabic_ab3e_kasra.mp3]"
  },
  {
   "block": "D_system",
@@ -234,7 +242,8 @@
   "verified_against": "the marked sentence(s) on rendered p45 (printed 27)",
   "verified_by": "read off the page render at 200 dpi (the scan's Arabic OCR is unreliable)",
   "visual_source": null,
-  "image": null
+  "image": null,
+  "Audio": "[sound:arabic_pron_04_thaa.mp4]"
  },
  {
   "block": "E_culture",
@@ -399,7 +408,8 @@
   "source": "arabic",
   "segment": 2,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "Audio": "[sound:arabic_pron_02_baa.mp4]"
  },
  {
   "block": "A_letter_forms",
@@ -421,7 +431,8 @@
   "source": "arabic",
   "segment": 2,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "Audio": "[sound:arabic_pron_02_baa.mp4]"
  },
  {
   "block": "A_letter_forms",
@@ -443,7 +454,8 @@
   "source": "arabic",
   "segment": 2,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "Audio": "[sound:arabic_pron_02_baa.mp4]"
  },
  {
   "block": "A_letter_forms",
@@ -466,7 +478,8 @@
   "source": "arabic",
   "segment": 2,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "Audio": "[sound:arabic_pron_03_taa.mp4]"
  },
  {
   "block": "A_letter_forms",
@@ -489,7 +502,8 @@
   "source": "arabic",
   "segment": 2,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "Audio": "[sound:arabic_pron_03_taa.mp4]"
  },
  {
   "block": "A_letter_forms",
@@ -512,7 +526,8 @@
   "source": "arabic",
   "segment": 2,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "Audio": "[sound:arabic_pron_03_taa.mp4]"
  },
  {
   "block": "A_letter_forms",
@@ -534,7 +549,8 @@
   "source": "arabic",
   "segment": 2,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "Audio": "[sound:arabic_pron_04_thaa.mp4]"
  },
  {
   "block": "A_letter_forms",
@@ -556,7 +572,8 @@
   "source": "arabic",
   "segment": 2,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "Audio": "[sound:arabic_pron_04_thaa.mp4]"
  },
  {
   "block": "A_letter_forms",
@@ -578,7 +595,8 @@
   "source": "arabic",
   "segment": 2,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "Audio": "[sound:arabic_pron_04_thaa.mp4]"
  },
  {
   "block": "A_letter_forms",
@@ -596,11 +614,12 @@
   "verified_against": "the printed Writing row for yaa, Alif Baa Unit 2",
   "verified_by": "measured crop of the book's own forms row (no-clip asserted)",
   "Text": "‎{{c1::يـ}}<br><br>Letter: {{c2::yaa}}<br><br>Position: {{c2::initial}}",
-  "Back Extra": "Distinguish: yaa's independent and final forms differ from its initial and medial ones, which look like baa, taa and thaa — with two dots below.<br><br>Roster: yaa's four written forms run right to left across the row — independent, <b>initial</b>, medial, final.",
+  "Back Extra": "Distinguish: yaa's independent and final forms differ from its initial and medial ones, which look like baa, taa and thaa — with two dots below.<br><br>Roster: yaa's four written forms run right to left across the row — independent, <b>initial</b>, medial, final.<br><br>Dr. Khouri says it: [sound:arabic_khouri_u2_yaa.mp3]",
   "source": "arabic",
   "segment": 2,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "Audio": "[sound:arabic_pron_28_yaa.mp4]"
  },
  {
   "block": "A_letter_forms",
@@ -618,11 +637,12 @@
   "verified_against": "the printed Writing row for yaa, Alif Baa Unit 2",
   "verified_by": "measured crop of the book's own forms row (no-clip asserted)",
   "Text": "‎{{c1::ـيـ}}<br><br>Letter: {{c2::yaa}}<br><br>Position: {{c2::medial}}",
-  "Back Extra": "Distinguish: yaa's independent and final forms differ from its initial and medial ones, which look like baa, taa and thaa — with two dots below.<br><br>Roster: yaa's four written forms run right to left across the row — independent, initial, <b>medial</b>, final.",
+  "Back Extra": "Distinguish: yaa's independent and final forms differ from its initial and medial ones, which look like baa, taa and thaa — with two dots below.<br><br>Roster: yaa's four written forms run right to left across the row — independent, initial, <b>medial</b>, final.<br><br>Dr. Khouri says it: [sound:arabic_khouri_u2_yaa.mp3]",
   "source": "arabic",
   "segment": 2,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "Audio": "[sound:arabic_pron_28_yaa.mp4]"
  },
  {
   "block": "A_letter_forms",
@@ -640,11 +660,12 @@
   "verified_against": "the printed Writing row for yaa, Alif Baa Unit 2",
   "verified_by": "measured crop of the book's own forms row (no-clip asserted)",
   "Text": "‎{{c1::ـي}}<br><br>Letter: {{c2::yaa}}<br><br>Position: {{c2::final}}",
-  "Back Extra": "Distinguish: yaa's independent and final forms differ from its initial and medial ones, which look like baa, taa and thaa — with two dots below.<br><br>Roster: yaa's four written forms run right to left across the row — independent, initial, medial, <b>final</b>.",
+  "Back Extra": "Distinguish: yaa's independent and final forms differ from its initial and medial ones, which look like baa, taa and thaa — with two dots below.<br><br>Roster: yaa's four written forms run right to left across the row — independent, initial, medial, <b>final</b>.<br><br>Dr. Khouri says it: [sound:arabic_khouri_u2_yaa.mp3]",
   "source": "arabic",
   "segment": 2,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "Audio": "[sound:arabic_pron_28_yaa.mp4]"
  },
  {
   "block": "A_letter_forms",
@@ -662,10 +683,11 @@
   "verified_against": "the printed Writing row for waaw, Alif Baa Unit 2",
   "verified_by": "measured crop of the book's own forms row (no-clip asserted)",
   "Text": "‎{{c1::ـو}}<br><br>Letter: {{c2::waaw}}<br><br>Position: {{c2::medial and final::name both}}",
-  "Back Extra": "Distinguish: waaw never joins to the letter after it, so its shapes barely change.<br><br>Roster: waaw's four written forms run right to left across the row — independent, initial, <b>medial</b>, <b>final</b>.",
+  "Back Extra": "Distinguish: waaw never joins to the letter after it, so its shapes barely change.<br><br>Roster: waaw's four written forms run right to left across the row — independent, initial, <b>medial</b>, <b>final</b>.<br><br>Dr. Khouri says it: [sound:arabic_khouri_u2_waaw.mp3]",
   "source": "arabic",
   "segment": 2,
   "numeric": false,
-  "needs_human_check": false
+  "needs_human_check": false,
+  "Audio": "[sound:arabic_pron_27_waaw.mp4]"
  }
 ]

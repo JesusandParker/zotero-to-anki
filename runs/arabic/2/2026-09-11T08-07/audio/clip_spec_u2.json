@@ -1,0 +1,12 @@
+[
+ {"slug":"arabic_khouri_u2_waaw","src":"2026-09-01.wav","s":1884.25,"e":1884.64,
+  "expect":"واو","who":"Dr. Khouri","why":"9/1 00:31:24 'and now we're gonna learn — waaw', the letter name alone"},
+ {"slug":"arabic_khouri_u2_yaa","src":"2026-09-03.wav","s":401.36,"e":401.78,
+  "expect":"يا","who":"Dr. Khouri","why":"9/3 00:06:41 'By the way, the name of the letter ya. — Ya.'"},
+ {"slug":"arabic_ab3e_fatha","src":"vw_fatha.wav","s":4.69,"e":5.28,
+  "expect":"الفتحة","who":"Alif Baa 3e (Lingco)","why":"publisher narration 'wa-l-aan naktub al-fatHa hakadhaa'"},
+ {"slug":"arabic_ab3e_damma","src":"vw_damma.wav","s":1.63,"e":2.39,
+  "expect":"الضمة","who":"Alif Baa 3e (Lingco)","why":"publisher narration 'wa-D-Damma hakadhaa' (cut keeps the leading wa-)"},
+ {"slug":"arabic_ab3e_kasra","src":"vw_kasra.wav","s":1.60,"e":2.40,
+  "expect":"الكسرة","who":"Alif Baa 3e (Lingco)","why":"publisher narration 'wa-l-kasra hakadhaa' (cut keeps the leading wa-)"}
+]

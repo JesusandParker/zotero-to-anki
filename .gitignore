@@ -29,3 +29,16 @@ work/*/page_*.png
 
 # intermediate wav cuts from khouri_build_clips_0901.py — regenerable from the lecture mp4
 work/*/_clipbuild/
+
+# 16 kHz wav extracted from a lecture mp4 for clip-cutting — hundreds of MB, and
+# regenerable in one ffmpeg call from the recording in Drive. The CUT clips and the
+# gate log that proves what each one says are tracked in runs/<src>/<seg>/<run>/audio/.
+work/*/u2audio/*.wav
+work/*/*/mlx/*.wav
+
+# publisher videos pulled to harvest a few seconds of narration (Alif Baa writing demos)
+work/*/u2audio/vid_*.mp4
+
+# duplicated into the run store as the tracked review artifact
+work/*/u2audio/render_*.png
+work/*/u2audio/crop_*.png

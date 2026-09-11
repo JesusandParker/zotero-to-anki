@@ -140,6 +140,32 @@ def is_figure_only_change(before, after, source_id):
     return residue(before) == residue(after)
 
 
+def is_fill_of_empty(before, after):
+    """True if we are writing into a field that is VERIFIABLY EMPTY.
+
+    The fourth verified predicate, and the narrowest. A field that has never been
+    recorded is `unknown`, and `unknown` fails closed — which is right, because the
+    field may hold a mnemonic or a `[sound:]` clip Parker added by hand. But when the
+    live value contains no content at all, there is nothing of his to protect: the
+    write cannot destroy a character that is not there.
+
+    So this does not weaken the guard, it states its precondition exactly. `before`
+    must reduce to nothing once whitespace, `<br>`, `&nbsp;` and stray `&#160;` are
+    removed, and `after` must actually add something. An empty-to-empty write is not
+    a fill, and a field holding so much as one visible character is not empty — both
+    fall through to the normal `edited`/`unknown` refusal.
+
+    Introduced 2026-09-11, when the Unit 2 audio pass needed to populate an `Audio`
+    field the card run had never written (so: `unknown`) on 34 notes that were all
+    verifiably blank.
+    """
+    def hollow(s):
+        s = re.sub(r"<br\s*/?>", "", s or "", flags=re.I)
+        s = s.replace("&nbsp;", "").replace("&#160;", "").replace("\u00a0", "")
+        return re.sub(r"\s+", "", s)
+    return hollow(before) == "" and hollow(after) != ""
+
+
 CLOZE_SPAN = re.compile(r"\{\{c(\d+)::(.*?)(?:::(.*?))?\}\}")
 
 
@@ -188,10 +214,10 @@ def is_hint_only_change(before, after):
 
 
 def guard(source, note_id, live_fields, new_fields, safe_transform=False, store=None,
-          figure_only=False, hint_only=False):
+          figure_only=False, hint_only=False, fill_empty=False):
     """(ok, report). ok is False when a write would clobber a field this system
-    did not author. `safe_transform` / `figure_only` / `hint_only` are VERIFIED,
-    not trusted."""
+    did not author. `safe_transform` / `figure_only` / `hint_only` / `fill_empty`
+    are VERIFIED, not trusted."""
     status = check(source, note_id, {k: live_fields.get(k, "") for k in new_fields}, store)
     blocked = []
     for name, new in new_fields.items():
@@ -202,6 +228,8 @@ def guard(source, note_id, live_fields, new_fields, safe_transform=False, store=
         if figure_only and is_figure_only_change(live_fields.get(name, ""), new, source):
             continue
         if hint_only and is_hint_only_change(live_fields.get(name, ""), new):
+            continue
+        if fill_empty and is_fill_of_empty(live_fields.get(name, ""), new):
             continue
         blocked.append((name, status[name]))
     if not blocked:
@@ -267,6 +295,24 @@ def self_test():
     eq("safe_transform does NOT license a content change",
        guard(S, 99, {"Text": "a<br>b"}, {"Text": "a<br><br>c"},
              safe_transform=True, store=store)[0], False)
+    # fill_empty: writing into a field that is verifiably blank
+    eq("fill_empty allows filling a blank unknown field",
+       guard(S, 99, {"Audio": ""}, {"Audio": "[sound:x.mp3]"},
+             fill_empty=True, store=store)[0], True)
+    eq("fill_empty allows filling a <br>-only unknown field",
+       guard(S, 99, {"Audio": "<br> &nbsp; <br>"}, {"Audio": "[sound:x.mp3]"},
+             fill_empty=True, store=store)[0], True)
+    eq("fill_empty does NOT license overwriting HIS audio",
+       guard(S, 99, {"Audio": "[sound:his_hypertts.mp3]"}, {"Audio": "[sound:ours.mp3]"},
+             fill_empty=True, store=store)[0], False)
+    eq("fill_empty does NOT license blanking a field",
+       guard(S, 99, {"Audio": "[sound:his.mp3]"}, {"Audio": ""},
+             fill_empty=True, store=store)[0], False)
+    eq("fill_empty does NOT leak to other fields in the same write",
+       guard(S, 99, {"Audio": "", "Back Extra": "his note"},
+             {"Audio": "[sound:x.mp3]", "Back Extra": "ours"},
+             fill_empty=True, store=store)[0], False)
+
     # figure_only: attaching / stripping a pipeline <img> and nothing else
     HIS = 'Why: fused bones.<br><br><img src="Screenshot 2026-07-30.png">'
     eq("figure_only allows ATTACHING a pipeline image on an unknown field",

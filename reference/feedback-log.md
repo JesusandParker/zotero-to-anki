@@ -360,7 +360,7 @@ own voice; 6 gate-suspended notes unlocked; 2 stale lines repaired.
   audio pass BEFORE carding. Her slide list is a floor, not the assignment.
 - **Gate the FINAL ENCODED mp3, not the raw cut.** Three clips passed the pre-encode dual-language
   gate and FAILED after encoding (`ab` read as subtitle boilerplate, `baat` as لكن, `tuubuu` as شوف).
-  The playbook's §5 gate now explicitly means the shipped file. Added as **R62**.
+  The playbook's §5 gate now explicitly means the shipped file. Added as **R66** (filed 2026-09-05 as R62; renumbered 2026-09-11, see regression-cases.md).
 - **A publisher clip must be verified by transcription before use, not trusted by index.** The Lingco
   lesson HTML's audio order did not match the printed item order (LE6 item 1 served `AB3e_U2LE6-05`),
   so mapping by position would have shipped the wrong word. Added as **R63**.
@@ -381,12 +381,12 @@ honking-horn analogy for yaa, and "can we add this to the vocab parts of anki?" 
 could not be honored — see below.
 
 **What this run changed in the canon:**
-- **R62** (new): an `in_source` / `glossary` lexicon anchor must DEFINE the word, not merely
+- **R67** (new): an `in_source` / `glossary` lexicon anchor must DEFINE the word, not merely
   contain it. Both of Unit 2's in-source anchors were occurrences — one a footnote fragment,
   one a sentence about where the marks are printed. `check_cards._non_definitional_quote`,
   5 regression cases, fixtures in `work/_regression/lexicon_evidence.json`.
   This also **closed a hazard deferred three runs running** (physics ch3 2026-09-03, arabic
-  2026-09-04): the same anchor-quality class, recorded twice and mechanized neither time. R62
+  2026-09-04): the same anchor-quality class, recorded twice and mechanized neither time. R67
   covers the dangerous half (a wrong anchor being accepted); the finder-side half (reverse
   naming frames, appositive crossing, so the RIGHT definition is found) is still open and is
   noted as `residual` on both manifests.
@@ -404,3 +404,57 @@ could not be honored — see below.
 Each letter's Unit 1 note already makes him produce the isolated glyph from name+sound, so a
 "Position: independent" note is the same retrieval with a different cue, and its reverse card
 asks something a lone glyph answers by itself. Seven drafted notes were dropped on this basis.
+
+---
+
+## 2026-09-11 (later the same day) — arabic Unit 2, audio pass
+
+Parker, after signing into Lingco: *"add all of the audio that you can as much audio as you can
+into all of the flashcards that you just created, and you also should go through my lecture
+transcripts and all of the stuff in my lectures and go ahead and add in my actual professor,
+saying the words."*
+
+**What shipped.** 26 notes gained audio; Unit 2 Book Highlights went **0 → 22** notes carrying a
+clip. Five new clips, each cut with the playbook's 95 ms room lead-in and re-gated after encoding
+in both languages (R66): `arabic_ab3e_{fatha,damma,kasra}.mp3` from the publisher's short-vowel
+writing videos, and `arabic_khouri_{u2_waaw,u2_yaa}.mp3` in her own voice. The 13 letter-form notes
+reuse the `arabic_pron_NN_*.mp4` clips already in the collection, which is the Unit 1 convention.
+Full write-up: `runs/arabic/2/2026-09-11T08-07/audio/REPORT.md`.
+
+**His premise was half right, and the half that was wrong mattered.** He believed the Lingco scrape
+had already run. It had not — `~/arabic-vault/data/` held a 9-row Unit 1 fixture and 26 clips from
+an end-to-end test, with `STATUS.txt` saying so in plain words. The full harvest ran this session:
+**10 units, 263 items, 195 vocabulary entries, 1616 audio assets.** Check the STATUS file before
+trusting "we already have that."
+
+**Two clips, not twelve — and that is the honest answer.** Her lectures were searched end to end for
+every Unit 2 target across four whisper full passes and 157 silence-bounded islands in eighteen
+hand-picked windows. Only `waaw` and `yaa` survived the post-encode gate. Sub-second classroom cuts
+transcribe to noise: her isolated *fatHa* returns **"Fatal"**, *kasra* returns **"guess it up"**,
+*ba-ta-tha* returns **"Ciao"**. The islands long enough to transcribe reliably are English sentences
+with the Arabic word buried mid-phrase, which is not a pronunciation model. Reported as a limit
+rather than papered over — the standing rule from 2026-09-05 (ship the card silent and say so).
+
+**برافو has no audio anywhere**, now provable against the FULL harvest rather than a 9-row fixture:
+absent from all 263 items and all 1616 clips, and she never says it in any of the six captured
+lectures.
+
+**Rules added.**
+- **R68** — a guard exemption must be a VERIFIED predicate, never a caller's promise.
+  `authorship.py` gained `is_fill_of_empty` / `fill_empty=`, because the `Audio` field on 34 notes
+  was `unknown` and the alternative was a force-bypass. It proved its worth immediately: the same
+  call filled the Unit 1 vowel notes' empty `Audio` and refused to touch their `Back Extra`, which
+  came back `edited` — Parker's own work. 19/19 self-test cases pass.
+- **R69** — duplicate regression-case ids. `known_regression_ids()` was a set, so it could confirm
+  an id existed but never that it was unique. **Three cases had been filed as R62.** Renumbered:
+  first claimant keeps R62, clip-encode → **R66**, lexicon-anchor → **R67** (that last one was mine,
+  added earlier today). `check_hazards.duplicate_regression_ids()` now blocks the next one.
+  **Open debt:** the new check reports R15, R16, R17, R50, R51, R60, R61, R63 as already duplicated.
+  They predate this session and renumbering them reaches into run manifests and Parker's memory
+  files, so they are left visible rather than churned in passing.
+
+**Also fixed, outside this repo:** `~/arabic-vault/scripts/harvest_console.js` now keeps the HTTP
+status when an activity will not load and says **GATED** on 401/403, instead of "no content
+endpoint" — the graded Drills (Unit 2's are 1, 3, 6, 7, 15) return **403, not 404**, so the endpoint
+was right all along and the old message sent a reader hunting for a URL that did not need finding.
+It also reads module ids live instead of trusting a hardcoded list.

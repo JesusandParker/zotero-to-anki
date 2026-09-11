@@ -34,9 +34,9 @@ LEX_MARKS = [
      "context": "Shock produces pale, cool, moist skin as blood is shunted to the core."},
 ]
 
-# R62's own marks — kept separate from LEX_MARKS on purpose: several cases index into that
+# R67's own marks — kept separate from LEX_MARKS on purpose: several cases index into that
 # list positionally, so appending to it silently re-points their from_idx.
-R62_MARKS = [
+R67_MARKS = [
     {"kind": "lexicon", "page": "52", "highlight": "consonant",
      "term": "consonant", "term_key": "conson",
      "context": "syllables in Arabic always begin with a consonant."},
@@ -285,15 +285,15 @@ CASES = [
                    "lexicon": {"term": "diaphoresis", "term_key": "diaphor",
                                "anchor": {"method": "in_source"}}}],
     },
-    # --- R62: an in-source anchor must DEFINE the word, not merely contain it ---------
+    # --- R67: an in-source anchor must DEFINE the word, not merely contain it ---------
     # Arabic Unit 2 (2026-09-11): lexicon.py --find locates occurrences, and both of that
     # unit's in_source anchors were occurrences rather than definitions. R37 proved the
     # evidence entry existed; nothing asked whether it defined anything.
     {
-        "id": "r62_bad_anchor_is_a_footnote_fragment",
+        "id": "r67_bad_anchor_is_a_footnote_fragment",
         "warn": "no defining cue",
         "present": True,
-        "highlights": R62_MARKS,
+        "highlights": R67_MARKS,
         "cards": [{"Text": "A <b>consonant</b> is {{c1::a sound that blocks or narrows the airflow}}.",
                    "Back Extra": "Ex: \"syllables in Arabic always begin with a <b>consonant</b>.\"",
                    "kind": "lexicon", "source": "_regression", "segment": 1,
@@ -303,10 +303,10 @@ CASES = [
         "note": "the quote is a fragment of a footnote — it contains the word and defines nothing",
     },
     {
-        "id": "r62_bad_anchor_says_where_not_what",
+        "id": "r67_bad_anchor_says_where_not_what",
         "warn": "what is DONE with the word",
         "present": True,
-        "highlights": R62_MARKS,
+        "highlights": R67_MARKS,
         "cards": [{"Text": "A <b>short vowel</b> is {{c1::as long as an ordinary English vowel}}.",
                    "Back Extra": "Ex: \"<b>short vowels</b> are written above the consonant.\"",
                    "kind": "lexicon", "source": "_regression", "segment": 1,
@@ -317,10 +317,10 @@ CASES = [
                 "presentation verb, which is what makes it a use and not a definition",
     },
     {
-        "id": "r62_good_real_definition_is_not_flagged",
+        "id": "r67_good_real_definition_is_not_flagged",
         "warn": "defining cue",
         "present": False,
-        "highlights": R62_MARKS,
+        "highlights": R67_MARKS,
         "cards": [{"Text": "<b>Diaphoresis</b> is {{c1::heavy, drenching sweating}}.",
                    "Back Extra": "Ex: \"The patient was pale and <b>diaphoretic</b>…\"",
                    "kind": "lexicon", "source": "_regression", "segment": 1,
@@ -329,10 +329,10 @@ CASES = [
                                "anchor": {"method": "in_source"}}}],
     },
     {
-        "id": "r62_bad_anchor_is_a_representation_verb",
+        "id": "r67_bad_anchor_is_a_representation_verb",
         "warn": "what is DONE with the word",
         "present": True,
-        "highlights": R62_MARKS,
+        "highlights": R67_MARKS,
         "cards": [{"Text": "A <b>resultant displacement</b> is {{c1::the single hop that replaces two}}.",
                    "Back Extra": "Ex: \"The <b>resultant displacement</b> vector is the sum of D1 and D2.\"",
                    "kind": "lexicon", "source": "_regression", "segment": 1,
@@ -342,10 +342,10 @@ CASES = [
         "note": "physics ch3, 2026-09-03: the quote describes a FIGURE, not the term",
     },
     {
-        "id": "r62_bad_anchor_says_what_it_is_useful_for",
+        "id": "r67_bad_anchor_says_what_it_is_useful_for",
         "warn": "USEFUL FOR",
         "present": True,
-        "highlights": R62_MARKS,
+        "highlights": R67_MARKS,
         "cards": [{"Text": "<b>Vowel quality</b> is {{c1::how far forward the vowel is made}}.",
                    "Back Extra": "Ex: \"differences in pronunciation we call <b>vowel quality</b>.\"",
                    "kind": "lexicon", "source": "_regression", "segment": 1,

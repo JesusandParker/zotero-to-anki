@@ -64,10 +64,33 @@ RUNS = os.path.join(SKILL, "runs")
 CASES = os.path.join(SKILL, "reference", "regression-cases.md")
 
 
-def known_regression_ids():
+def regression_id_list():
+    """Every `## R<n>` heading in reference/regression-cases.md, IN ORDER, duplicates kept."""
     if not os.path.exists(CASES):
-        return set()
-    return set(re.findall(r"^##\s+(R\d+[a-z]?)\b", open(CASES).read(), re.M))
+        return []
+    return re.findall(r"^##\s+(R\d+[a-z]?)\b", open(CASES).read(), re.M)
+
+
+def known_regression_ids():
+    return set(regression_id_list())
+
+
+def duplicate_regression_ids():
+    """A hazard that names a duplicated id resolves to whichever case you read first.
+
+    Three separate cases were filed as `R62` (2026-08-31 run-store, 2026-09-05
+    clip-encode, 2026-09-11 lexicon-anchor) before anyone noticed, because
+    `known_regression_ids()` is a SET and a set cannot report a collision. Two
+    sessions each picked "the next number" without checking, and every
+    `regression_id: "R62"` in a run manifest silently became ambiguous. Renumbered
+    2026-09-11 to R62 / R66 / R67; this check is what stops the fourth one.
+    """
+    seen, dupes = set(), []
+    for rid in regression_id_list():
+        if rid in seen and rid not in dupes:
+            dupes.append(rid)
+        seen.add(rid)
+    return dupes
 
 
 def retired_note_ids():
@@ -156,6 +179,13 @@ def main():
     ids = known_regression_ids()
     retired = retired_note_ids()
     problems, checked, hazards = [], 0, 0
+
+    for rid in duplicate_regression_ids():
+        problems.append(
+            f"reference/regression-cases.md: regression id {rid!r} is used by MORE THAN ONE "
+            f"case — every `regression_id: \"{rid}\"` in a run manifest is now ambiguous. "
+            f"Renumber all but the first claimant.")
+
 
     if not os.path.isdir(RUNS):
         print("no runs recorded yet — nothing to check")

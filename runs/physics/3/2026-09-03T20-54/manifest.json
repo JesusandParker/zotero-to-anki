@@ -24,9 +24,9 @@
   {
    "summary": "lexicon.py --find Tier-1 'definition-shaped' pattern accepts passive representation verbs — 'resultant displacement is represented by the arrow labeled DR in Fig' became in_source evidence — and cannot cross an appositive, so the SAME PAGE's true definitional sentence ('The resultant displacement vector, DR, is the sum of the vectors D1 and D2') was missed. R61 fixed anchor PROXIMITY; this is anchor QUALITY. The drafter-side guard held tonight exactly as in ch2 (quote judged not-a-definition -> anchor kept external + flagged), and editor #30's agree-with-the-quote check is the semantic backstop.",
    "deferred": "deliberately left OPEN (red) for the same daytime session: proposed mechanization is a representation-verb exclusion (represented/shown/illustrated/drawn/indicated + 'by') in _def_patterns Tier-1, an optional appositive-crossing form (term + ', <short apposition>,' + is/are), and lexicon.py --self-test cases for both; would have promoted tonight's anchor to a LEGITIMATE in_source with the real definitional quote.",
-   "regression_id": "R62",
+   "regression_id": "R67",
    "closed": "2026-09-11, Arabic Unit 2 run",
-   "residual": "R62 closes the ACCEPT side of this hazard: a glossary/in_source anchor whose quote is not definitional now warns at the gate, and the drafter must re-pull it or downgrade to `external` and record why. It does NOT close the FIND side — lexicon.py --find still has no reverse-naming frame ('we refer to … as TERM', 'is called TERM') and still cannot cross an appositive, so it can miss the real definition sitting on the marked page. That is a finder improvement, tracked separately; shipping a WRONG anchor was the dangerous half and it is now guarded."
+   "residual": "R67 closes the ACCEPT side of this hazard: a glossary/in_source anchor whose quote is not definitional now warns at the gate, and the drafter must re-pull it or downgrade to `external` and record why. It does NOT close the FIND side — lexicon.py --find still has no reverse-naming frame ('we refer to … as TERM', 'is called TERM') and still cannot cross an appositive, so it can miss the real definition sitting on the marked page. That is a finder improvement, tracked separately; shipping a WRONG anchor was the dangerous half and it is now guarded."
   }
  ]
 }

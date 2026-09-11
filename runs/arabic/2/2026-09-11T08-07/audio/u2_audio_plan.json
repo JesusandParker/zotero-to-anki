@@ -1,0 +1,46 @@
+{
+ "audio_field": {
+  "2":  "arabic_pron_27_waaw.mp4",
+  "3":  "arabic_pron_28_yaa.mp4",
+  "6":  "arabic_ab3e_fatha.mp3",
+  "8":  "arabic_ab3e_fatha.mp3",
+  "9":  "arabic_ab3e_fatha.mp3",
+  "10": "arabic_ab3e_damma.mp3",
+  "11": "arabic_ab3e_kasra.mp3",
+  "12": "arabic_ab3e_kasra.mp3",
+  "13": "arabic_pron_04_thaa.mp4",
+  "21": "arabic_pron_02_baa.mp4",
+  "22": "arabic_pron_02_baa.mp4",
+  "23": "arabic_pron_02_baa.mp4",
+  "24": "arabic_pron_03_taa.mp4",
+  "25": "arabic_pron_03_taa.mp4",
+  "26": "arabic_pron_03_taa.mp4",
+  "27": "arabic_pron_04_thaa.mp4",
+  "28": "arabic_pron_04_thaa.mp4",
+  "29": "arabic_pron_04_thaa.mp4",
+  "30": "arabic_pron_28_yaa.mp4",
+  "31": "arabic_pron_28_yaa.mp4",
+  "32": "arabic_pron_28_yaa.mp4",
+  "33": "arabic_pron_27_waaw.mp4"
+ },
+ "khouri_back_extra": {
+  "30": "arabic_khouri_u2_yaa.mp3",
+  "31": "arabic_khouri_u2_yaa.mp3",
+  "32": "arabic_khouri_u2_yaa.mp3",
+  "33": "arabic_khouri_u2_waaw.mp3",
+  "2":  "arabic_khouri_u2_waaw.mp3",
+  "3":  "arabic_khouri_u2_yaa.mp3"
+ },
+ "triplet_back_extra": {
+  "0": ["arabic_ab3e_fatha.mp3","arabic_ab3e_damma.mp3","arabic_ab3e_kasra.mp3"]
+ },
+ "no_audio_reason": {
+  "1":  "abstract: long vowels are held twice as long; no single sound is the answer",
+  "4":  "orthographic rule (a short vowel is written on the letter that precedes it)",
+  "5":  "abstract rule about what conditions vowel quality",
+  "7":  "names three letters at once; each letter's own card carries its clip",
+  "14": "culture (handshakes)", "15": "culture", "16": "culture",
+  "17": "braafoo: absent from the FULL Lingco harvest (263 items, 1616 clips) and Dr. Khouri never says it in any of the six captured lectures",
+  "18": "English definition (consonant)", "19": "English definition (short vowel)", "20": "English definition (syllable)"
+ }
+}

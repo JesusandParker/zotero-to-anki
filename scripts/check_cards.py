@@ -1320,7 +1320,7 @@ def _lexicon_evidence(source_root):
 
 
 
-# R62 (2026-09-11, Arabic Unit 2): `lexicon.py --find` locates OCCURRENCES of a word, and an
+# R67 (2026-09-11, Arabic Unit 2): `lexicon.py --find` locates OCCURRENCES of a word, and an
 # occurrence is not a definition. Both of Unit 2's `in_source` anchors were wrong in this way
 # and both slipped every existing check: `consonant` resolved to a fragment of a footnote
 # ("...(as opposed to just consonant-short vowel)"), and `short vowels` resolved to a sentence
@@ -1431,7 +1431,7 @@ def lexicon_check(cards, highlights, source_root=None):
                     warn.append(f"#{i}: the {method!r} anchor for {key!r} resolves to a quote "
                                 f"that {bad}, so the authored definition has nothing to agree "
                                 f"with — re-pull the quote, or downgrade to `external` and "
-                                f"record why (card-rules #28, R62)")
+                                f"record why (card-rules #28, R67)")
         elif method == "external":
             if not c.get("needs_human_check"):
                 hard.append(f"#{i}: external-anchored definition without "

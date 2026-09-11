@@ -962,7 +962,7 @@ to the new standard (it had modelled the old one).
 assesses, the excluded ones belong in `excluded_audio_dialects` (or a sibling field), never on
 a card. "The publisher provided it" is not a reason to drill it.
 
-## R62 — an own-voice clip that passes the gate BEFORE encoding can fail after it (2026-09-05)
+## R66 — an own-voice clip that passes the gate BEFORE encoding can fail after it (2026-09-05)
 
 **Defect.** Playbook §5 says gate every clip in both languages. The Arabic gap-audit run gated the
 raw island cut, then encoded to mp3 — and three clips changed word. `ab` went from `أب` to the
@@ -992,7 +992,10 @@ attached the wrong word's pronunciation to a card.
 teaches. `work/arabic/verify_ling.py` does this. The origin filename in the redirect URL is evidence,
 not proof — the transcription is the proof.
 
-## R62 — an in-source lexicon anchor must DEFINE the word, not merely contain it (2026-09-11)
+## R67 — an in-source lexicon anchor must DEFINE the word, not merely contain it (2026-09-11)
+
+> *(Renumbered 2026-09-11: this case and R66 were both filed as "R62", which the
+> 2026-08-31 run-store case already held. `check_hazards.py` now refuses duplicate ids.)*
 
 **Defect.** `lexicon.py --find` searches the source for OCCURRENCES of a purple word, and an
 occurrence is not a definition. On Alif Baa Unit 2 BOTH of the run's `in_source` anchors were
@@ -1025,8 +1028,8 @@ definition says what the thing IS, a use says what is DONE with it.
 real definition, and it must NOT be flagged.
 
 *Caught by:* `check_cards._non_definitional_quote`, inside `lexicon_check`. Cases
-`r62_bad_anchor_is_a_footnote_fragment`, `r62_bad_anchor_says_where_not_what`,
-`r62_good_real_definition_is_not_flagged`; fixtures in `work/_regression/lexicon_evidence.json`.
+`r67_bad_anchor_is_a_footnote_fragment`, `r67_bad_anchor_says_where_not_what`,
+`r67_good_real_definition_is_not_flagged`; fixtures in `work/_regression/lexicon_evidence.json`.
 
 ## R64 — A page-PNG pixel is not a PDF point: pdftoppm renders the MEDIA box, a Zotero rect is CROP-box relative
 **Rule:** never convert a PDF rect to page-PNG pixels by scaling with `dpi/72` alone. **Caught by:** `render_page.py --self-test` (`rect_to_px`). Found 2026-09-11 while cutting genetics ch10's figures.
@@ -1052,3 +1055,51 @@ The card was the AT-vs-GC hydrogen-bond card (`U3_at_gc_denaturation`, marks 25)
 - **MUST CATCH:** a returned id that does not resolve → nonzero exit, the card index printed.
 - **MUST NOT OVER-FLAG:** a normal run where every id resolves prints one verified line and exits 0; `--dry-run` writes nothing and skips the check.
 - **Related:** this is the third appearance of the same shape in this repo — R45 (media bytes stored under a name, never retrieved back), the 2026-08-15 retirement gap (a rule written, the live card never checked), and now the writer itself. Verify the SURFACE, not the call.
+
+
+## R68 — a guard exemption must be a VERIFIED predicate, never a caller's promise (2026-09-11)
+**Rule:** when `authorship.guard()` blocks a write it did not author, the fix is a new predicate that
+*proves* the write is harmless — never a flag the caller asserts, and never "just this once."
+**Caught by:** `authorship.py self-test` (19 cases). Found on the Arabic Unit 2 audio pass.
+
+**Defect.** 34 Unit 2 notes needed an `Audio` value. The card run had never written that field, so
+`check()` returned `unknown`, and `unknown` fails closed — correctly, because an unrecorded field may
+hold Parker's own HyperTTS clip or a mnemonic. The tempting move is a `force=True`, which is exactly
+the 2026-07-30 failure (a session overwrote a mnemonic he had written himself and reported it as a
+caught fabrication).
+
+The right move is to state the precondition and check it: `is_fill_of_empty(before, after)` passes
+only when `before` reduces to nothing after stripping whitespace, `<br>`, `&nbsp;` and `&#160;`, and
+`after` is non-empty. It cannot destroy a character that is not there. This is the same shape as
+`is_whitespace_only`, `is_figure_only_change` and `is_hint_only_change` — the guard's docstring says
+these are "VERIFIED, not trusted," and that is load-bearing.
+
+- **BAD:** `guard(..., force=True)`, or recording the empty value first so the field reads `owned`.
+  Both make the write succeed by lying about who wrote what.
+- **GOOD:** `guard(..., fill_empty=True)` on a field whose live value is provably blank.
+- **MUST CATCH:** `fill_empty` must NOT license overwriting a non-empty field, must NOT license
+  blanking one, and must NOT leak to a second field written in the same call.
+- **Proof it was needed:** the three Unit 1 short-vowel notes had an empty `Audio` (filled) and a
+  `Back Extra` that came back **`edited`** — Parker's own work, left untouched by the same call.
+- **Catch test (both ways):** `authorship.py self-test`, the five `fill_empty` cases.
+
+
+## R69 — two cases with the same R-number make every hazard that names it ambiguous (2026-09-11)
+**Rule:** every `## R<n>` heading in this file is unique. **Caught by:**
+`check_hazards.duplicate_regression_ids()`.
+
+**Defect.** `check_hazards.known_regression_ids()` returned a **set**, so it could confirm that a
+hazard's `regression_id` existed but never that it pointed at one case. Three separate defects were
+filed as `R62` — the 2026-08-31 run-store naming case, the 2026-09-05 clip-encode case, and the
+2026-09-11 lexicon-anchor case — because two sessions each picked "the next number" by reading the
+tail of the file. Every `regression_id: "R62"` in a run manifest silently resolved to whichever of
+the three the reader found first.
+
+Renumbered 2026-09-11: the first claimant keeps **R62**, clip-encode became **R66**, lexicon-anchor
+became **R67**.
+
+- **MUST CATCH:** any id appearing on two headings, naming the id.
+- **MUST NOT OVER-FLAG:** suffixed variants (`R15a`) are distinct ids and must not collide with `R15`.
+- **Known debt (NOT fixed here):** the same check reports **R15, R16, R17, R50, R51, R60, R61, R63**
+  as already-duplicated. They predate this session and renumbering them touches run manifests and
+  Parker's memory files, so they are left visible and open rather than churned in passing.

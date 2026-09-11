@@ -20,7 +20,7 @@
  "new_hazards_found": [
   {
    "summary": "an in_source lexicon anchor can resolve to an OCCURRENCE (a footnote fragment, or a sentence saying where the word's referent is printed) rather than a definition; R37 proved the entry existed but never asked whether it defined anything",
-   "regression_id": "R62"
+   "regression_id": "R67"
   },
   {
    "summary": "a page-FRACTION grow applied to a measured crop box swallows the neighbouring heading, and the no-clip assertion then reports the heading being clipped — sending you to widen a box that was already correct. Grow in PIXELS, and mask on the object's own ink colour rather than all ink.",
@@ -31,6 +31,40 @@
    "summary": "a crop taken from a duplex scan carries the reverse side's bleed-through, which Parker's figure bar forbids outright ('page-text bleed never ships'); every storage check was green and only the contact-sheet LOOK caught it",
    "mechanizable": false,
    "why": "detecting it requires knowing which ink belongs to the plate — trivial here (the Writing rows are pure red) but not general. The mandatory contact-sheet review is the guard; the fix (compositing the target ink over flat paper) is in make_form_crops.redonly()."
+  },
+  {
+   "summary": "authorship.guard() fails closed on a field the pipeline never wrote, which is right — but it had no way to say 'this field is provably empty, filling it destroys nothing', so every future audio/media pass was one step from a force-bypass",
+   "regression_id": "R68"
+  },
+  {
+   "summary": "three separate regression cases were filed as R62 because known_regression_ids() is a set and a set cannot report a collision; every regression_id in a run manifest naming a duplicated id was ambiguous",
+   "regression_id": "R69"
+  },
+  {
+   "summary": "arabic-vault's harvest reported 403-gated graded Drills as 'no content endpoint', which reads as 'this API shape does not exist' and sent a reader hunting for the right URL when the URL was right and the account simply may not read the body",
+   "mechanizable": false,
+   "why": "the fix landed in ~/arabic-vault/scripts/harvest_console.js (keep the status code; say GATED on 401/403), which is a separate, un-versioned directory outside this repo's test surface. Verified there with a node syntax check and a stubbed-fetch smoke run, not by a test in this suite."
   }
- ]
+ ],
+ "audio_pass": {
+  "when": "2026-09-11 (follow-on, same run)",
+  "ask": "add as much audio as possible to the Unit 2 cards, plus Dr. Khouri's own voice from the lecture captures",
+  "report": "audio/REPORT.md",
+  "counts": {
+   "notes_given_audio": 26,
+   "unit_2_book_highlights_notes_with_audio": 22,
+   "unit_2_book_highlights_notes_total": 37,
+   "unit_1_vowel_notes_filled": 3,
+   "new_clips_cut_and_gated": 5,
+   "khouri_own_voice_clips": 2,
+   "cards_deliberately_left_silent": 11
+  },
+  "sources": {
+   "lingco_harvest": "FULL harvest run 2026-09-11 into ~/arabic-vault: 10 units, 263 items, 195 vocab entries, 1616 audio assets (1312 mp3 on disk). Previously only a 9-row Unit 1 fixture existed.",
+   "letter_clips": "arabic_pron_NN_<letter>.mp4, already in the collection since Unit 1",
+   "vowel_clips": "cut from the Alif Baa 'Writing ـَـ/ـُـ/ـِـ' publisher videos",
+   "khouri_clips": "2026-09-01 and 2026-09-03 lecture captures"
+  },
+  "braafoo_audio": "NONE EXISTS. Absent from the full Lingco harvest (all 263 items, all 1616 clips) and Dr. Khouri never says it in any of the six captured lectures. Shipped silent and reported."
+ }
 }
