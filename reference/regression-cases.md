@@ -1103,3 +1103,65 @@ became **R67**.
 - **Known debt (NOT fixed here):** the same check reports **R15, R16, R17, R50, R51, R60, R61, R63**
   as already-duplicated. They predate this session and renumbering them touches run manifests and
   Parker's memory files, so they are left visible and open rather than churned in passing.
+
+## R70 — a front image above the stem hides the question below the fold (2026-09-12)
+**Rule:** card-rules #34. **Caught by:** `check_cards.py LEAD_IMG_TEXT` (warning);
+**repaired by:** `anki_write.image_last()`.
+
+**Defect.** The BIOL 214 Practical 1 build emitted every image card as
+`<img><br><br>prose<br><br>Name the …: {{c1::…}}`. A histology plate (median aspect h/w 0.82)
+at `AnKing Cloze`'s `max-width:85%` is taller than the window, so the card opened on a picture
+with the question off screen. Parker had to scroll down on **every** card just to read the stem,
+and found it four days before the practical, mid-session, on the deck he was cramming.
+
+51 notes were affected (43 in `Tissue Framework` + `Tissue Stations`, 8 in the other stations).
+Repaired in place 2026-09-12; backup `~/.anki-tissue-imageflip-backup-20260912.json`, undo
+`~/bin/anki-tissue-imageflip-undo`.
+
+- **BAD:** `<img …><br><br>A specimen shows…<br><br>Name the primary tissue type: {{c1::…}}`
+- **GOOD:** `A specimen shows…<br><br>Name the primary tissue type: {{c1::…}}<br><br><img …>`
+- **MUST CATCH:** a leading `<img>`, including one above a bare cloze with no prose — the cloze
+  is the stem there and it is still under the plate.
+- **MUST NOT OVER-FLAG:** an image referenced mid-sentence (deliberate), or a Text that is
+  nothing but an image (no stem to lift).
+- **The wrong fix, recorded so it is not retried:** capping `#text img` height in the note
+  type's CSS. `AnKing Cloze` is shared by ~6,800 notes, so that shrinks histology detail
+  collection-wide to solve a per-note authoring bug. **Reordering the field beats restyling a
+  shared note type.** Parker called this correctly and overruled the CSS approach.
+- **Catch test (both ways):** `test_regressions.py` cases `r70_*` (4 cases).
+
+## R71 — the answer matched the key, and the card never said what the specimen actually was (2026-09-12)
+**Rule:** card-rules #35. **Caught by:** judgment only (see "Not mechanizable" below); the
+mechanical half is the sibling grep.
+
+**Defect.** The BIOL 214 tissue station for bone asked Blais's own stem, *"Name the specific
+subtype of this connective tissue,"* and answered `{{c1::bone}}`. That answer is right: `bone`
+is the word on his enumerated ten connective subtypes (lab audio 2026-09-02) and on the lab
+manual's own plate caption, *Figure 4-20: Bone Tissue (400x)*. But the plate is a ground section
+of **compact** bone — one osteon, concentric lamellae, a central canal, osteocytes in lacunae —
+and osteons exist only in compact bone. Nothing on either card of the station said so, and the
+manual's own taxonomy figure (*Figure 4-33: The Tissue Types*) splits `bone (2)` into **compact**
+and **spongy**. Parker met the card mid-cram and said *"this isnt just 'bone'."*
+
+The sibling grep is what turned one card into the real finding: `deck:*BIOL*214* spongy` returned
+**0 notes** out of 566. The half of the distinction with no plate in the course was never carded
+at all.
+
+- **BAD:** `Name the specific subtype …: {{c1::bone}}` + `Cue: The ring unit is an osteon …`
+  with no mention of compact or spongy anywhere on the note or in the deck.
+- **GOOD:** the same blank, unchanged, plus
+  `Pitfall: Bone is the subtype to write, but be precise about what you are looking at — rings
+  wrapped around a central canal mean <b>compact</b> bone. Osteons exist only in compact bone.`
+  and a sibling note carrying the contrast itself.
+- **MUST CATCH:** an identification card whose answer is a category the source's own taxonomy
+  splits, where neither the note nor any other note in the deck names the specimen's level.
+- **MUST NOT OVER-FLAG:** a terminal answer with nothing below it (`hyaline cartilage`,
+  `fibrocartilage`, `blood`), and a category whose split the course has explicitly deferred or
+  excluded — the lab manual defers compact/spongy detail to the Skeletal System chapter, which
+  is why this is one back-of-card line plus one framework note, not a bone unit.
+- **The wrong fix, recorded so it is not retried:** deepening the blank to
+  `{{c1::compact bone}}`. The examiner's key says `bone`; training the deeper word onto the
+  exam answer trades a guaranteed point for a cleverer one. Depth belongs on the back.
+- **Not mechanizable:** knowing that `bone` has a finer level while `fibrocartilage` does not is
+  subject knowledge. No string check distinguishes them, and a checker that flagged every
+  category-shaped answer would fire on most of the deck.

@@ -83,6 +83,42 @@ def listify(text):
     return "<br><br>".join(s.strip() for s in _BR_RUN.split(text) if s.strip())
 
 
+# A front image goes at the BOTTOM of the Text field, never the top (2026-09-12).
+#
+# Parker hit this studying the BIOL 214 tissue stations: the plate was written first, so a
+# histology field (median aspect h/w 0.82, rendered at AnKing Cloze's max-width:85%) pushed
+# the actual question below the fold and he had to scroll down on EVERY card just to read
+# what was being asked before he could answer it. Moving the image under the prose costs
+# nothing -- the plate keeps its full size -- and puts the stem on screen.
+#
+# Do NOT "fix" this by capping image height in the note type's CSS. `AnKing Cloze` is shared
+# by ~6,800 notes across every deck he owns, and shrinking histology detail collection-wide
+# to solve a per-note authoring bug is the wrong trade. REORDERING THE FIELD BEATS RESTYLING
+# A SHARED NOTE TYPE -- that was Parker's call and he was right (card-rules #34, R70).
+#
+# Same contract as paragraphize()/listify() above: a rule in the docs AND a mechanical
+# guarantee here, so the layout holds even when a card is drafted image-first.
+_LEAD_IMG = re.compile(r"^\s*(<img\b[^>]*>)\s*(?:<br\s*/?>\s*)*(.*)$", re.S | re.I)
+
+
+def image_last(text):
+    """Move a LEADING <img> in a Text field to the bottom. Idempotent.
+
+    Only a leading image moves; one referenced mid-sentence is left where the author put
+    it, and a Text that is nothing but an image is left alone (there is no stem to lift
+    above it).
+    """
+    if not text or "<img" not in text.lower():
+        return text
+    m = _LEAD_IMG.match(text)
+    if not m:
+        return text
+    img, rest = m.group(1), m.group(2).strip()
+    if not rest:
+        return text
+    return f"{rest}<br><br>{img}"
+
+
 def call(action, **params):
     req = urllib.request.Request(
         ANKI, data=json.dumps({"action": action, "version": 6, "params": params}).encode(),
@@ -247,7 +283,7 @@ def main():
                                  f"match the source file; refusing to reference it (R45)")
             tag = f'<img src="{fn}">'
             if c.get("image_side") == "front":
-                text = text + "<br>" + tag
+                text = text + "<br><br>" + tag
             else:
                 back = (back + "<br><br>" + tag) if back.strip() else tag
 
@@ -258,7 +294,7 @@ def main():
         # legitimately gives sibling notes near-identical stems across a source.
         note = {
             "deckName": deck, "modelName": model,
-            "fields": {"Text": listify(text), "Back Extra": back},
+            "fields": {"Text": image_last(listify(text)), "Back Extra": back},
             "tags": tags,
             "options": {"allowDuplicate": False,
                         "duplicateScope": "collection" if c.get("kind") == "lexicon" else "deck"},

@@ -458,3 +458,42 @@ status when an activity will not load and says **GATED** on 401/403, instead of 
 endpoint" — the graded Drills (Unit 2's are 1, 3, 6, 7, 15) return **403, not 404**, so the endpoint
 was right all along and the old message sent a reader hunting for a URL that did not need finding.
 It also reads module ids live instead of trusting a hardcoded list.
+
+---
+
+## 2026-09-12 — BIOL 214 bone station: *"this isnt just 'bone'"*
+
+**What he flagged.** Mid-cram on the tissue stations, four days before Practical 1, on the pair
+built from the compact-bone plate (`b214_w02_plate_bone_tissue.jpg`): primary type `connective`
+(note 1789133713602, 2 reps in), specific subtype `bone` (note 1789133713690, unseen).
+
+**Verdict: he is right about the biology, and the card is right about the exam.** The plate is a
+ground section of **compact** bone — one osteon, concentric lamellae, a central canal, osteocytes
+in lacunae — and an osteon exists only in compact bone. But `bone` is exactly the word Blais
+enumerates on tape (2026-09-02: *"four categories and ten subtypes for connectives … hyaline
+cartilage, elastic cartilage, fibrocartilage, bone, and blood"*) and exactly the lab manual's own
+plate caption, *Figure 4-20: Bone Tissue (400x)*. Deepening the blank to `compact bone` would have
+traded the key's word for a cleverer one. **The answer stayed; the precision went on the back.**
+
+**The real finding was the sibling grep.** `deck:*BIOL*214* spongy` → **0 notes of 566**. The
+manual's own taxonomy figure (*Figure 4-33: The Tissue Types*) splits `bone (2)` into compact and
+spongy, and the half with no plate in the course had never been carded.
+
+**Fixes, live in Anki.**
+- 1789133713690 (subtype) — `Pitfall:` line naming the specimen as compact bone, plus a
+  `Distinguish:` line for spongy (no osteons, no central canals, trabeculae with marrow between).
+- 1789133716041 (connective roster) — one `Pitfall:` line that bone counts as one subtype here
+  while bone itself comes in two forms. Answers untouched; its HyperTTS `Audio` field preserved.
+- **new note 1789252685097** in `Practical 1::Tissue Framework` — compact vs spongy as one
+  two-blank `c1` retrieval, so the pair is produced together and neither is given away.
+- Backup of the two edited notes: `~/.anki-b214-bone-backup-20260912.json`.
+
+**Also surfaced to him, not carded:** the manual's Figure 4-33 counts connective as **12 types**
+(it splits bone and adds `lymph` under fluid) where Blais counts **10**. Carding the book's number
+would put the wrong count on his exam answer, so it is a hand-off note, not a card.
+
+**Rule added.** **card-rules #35 / R71** — answer at the key's depth, but name the specimen
+precisely on the back; and a category that splits has a second member that no plate will ever
+show you, so grep the live deck for the sibling term before calling the pair covered. Judgment
+only, deliberately: no string check knows that `bone` has a finer level while `fibrocartilage`
+does not. 114/114 regression cases still pass.

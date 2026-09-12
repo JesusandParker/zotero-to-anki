@@ -345,3 +345,49 @@ The Cold-Solve Gate asks whether each blank is *answerable*. These two ask a que
     *Failure that created this rule (2026-08-15):* Parker re-clozed "Barotrauma" on the ch7
     barotrauma card while studying and asked *"whats happening here."* The note went from 3
     cards to 4, and cards 1 and 4 rendered the same front. Regression **R53**.
+
+34. **On a card that carries an image, the image goes LAST — prose, then cloze, then plate (2026-09-12).**
+    A front image written above the stem pushes the question below the fold. The card opens on
+    a picture, and Parker has to scroll down before he can even read what is being asked, on
+    every card in a plate-heavy deck.
+    - **This is a layout rule, not a size rule.** The fix is to move the image, never to shrink
+      it. Histology and anatomy plates are worth their pixels; that is the whole reason the
+      figure lane attaches the 1400px study copy.
+    - **Do NOT solve it in the note type's CSS.** `AnKing Cloze` is shared by ~6,800 notes
+      across every deck he owns, so a `max-height` there shrinks every figure in the collection
+      to fix a per-note authoring bug. **Reordering the field beats restyling a shared note
+      type** — that generalizes past this rule.
+    - **Only a LEADING image moves.** One referenced mid-sentence is deliberate and is left
+      alone. A Text that is *nothing but* an image has no stem to lift above it.
+    - This is separate from card-rules #10 (figures belong on the BACK by default). #10 decides
+      *which side*; this decides *where on that side* once `image_side: front` is justified.
+    - *Caught by:* `check_cards.py LEAD_IMG_TEXT` (warning) and guaranteed mechanically by
+      `anki_write.image_last()`, the same docs-plus-repairer contract as `paragraphize()`.
+    *Failure that created this rule (2026-09-12):* the 566-card BIOL 214 Practical 1 build wrote
+    `<img><br><br>prose<br><br>cloze` on all 51 image cards. Parker found it mid-session on the
+    tissue stations, four days before the practical, and diagnosed it himself: *"it's that the
+    image is first and then the text… it just has to be switched."* Regression **R70**.
+
+35. **Answer at the key's depth, but NAME THE SPECIMEN precisely on the back (2026-09-12).**
+    A course teaches a taxonomy to whatever depth its own list stops at, and an identification
+    card's blank should answer at exactly that depth — the word on the examiner's key is the
+    word that scores. But the thing on the slide is always a specific member of that category,
+    and a card that never says which member trains the eye to stop one level too early.
+    - **Do NOT fix this by deepening the cloze answer.** The blank stays at the key's depth;
+      the precision goes in a `Pitfall:` line on the back that carries both halves — the word
+      to write, and what is actually under the objective.
+    - **A category that splits has a SECOND member, and the second member is the one that
+      silently goes uncarded**, because no plate in the course ever shows it. Before calling
+      the pair covered, grep the live deck for the sibling term — a zero-hit result is the
+      whole finding.
+    - Applies wherever the course list is shallower than the source's own taxonomy: histology
+      stations, drug classes, fracture types, any "name the type" question.
+    - *Caught by:* judgment only, and deliberately so — deciding that a category has a finer
+      level, and that this specimen sits in one of them, is subject knowledge no string check
+      has. The mechanical half is the sibling grep above. Regression **R71**.
+    *Failure that created this rule (2026-09-12):* the BIOL 214 bone station answered
+    `{{c1::bone}}`, which is correct — it is the word on Blais's own ten-subtype list and on
+    the lab manual's plate caption — and nothing anywhere on the card said compact or spongy.
+    The plate is a ground section of **compact** bone: an osteon exists only in compact bone.
+    Parker hit it mid-cram, four days before the practical: *"this isnt just 'bone'."*
+    `spongy` appeared on **zero** of the deck's 566 cards.

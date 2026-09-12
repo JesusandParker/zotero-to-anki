@@ -72,6 +72,43 @@ def _auth_card(text, **over):
 
 
 CASES = [
+    # --- R70: a front image ABOVE the stem hides the question below the fold ---
+    {
+        "id": "r70_bad_text_opens_with_image",
+        "warn": "OPENS with an <img>", "present": True,
+        "cards": [{"Text": '<img src="b214_w02_plate.jpg"><br><br>A specimen shows one single '
+                           'layer so thin the nuclei bulge out of it.<br><br>Name the primary '
+                           'tissue type: {{c1::epithelial::one of the four primary types}}',
+                   "Back Extra": "Cue: sheets of cells with a free border.", "chapter": 1}],
+        "note": "the BIOL 214 tissue-station shape (2026-09-12): plate first, so the question "
+                "is off screen and Parker scrolls on every card before he can answer",
+    },
+    {
+        "id": "r70_good_image_last_passes",
+        "warn": "OPENS with an <img>", "present": False,
+        "cards": [{"Text": 'A specimen shows one single layer so thin the nuclei bulge out of '
+                           'it.<br><br>Name the primary tissue type: {{c1::epithelial::one of '
+                           'the four primary types}}<br><br><img src="b214_w02_plate.jpg">',
+                   "Back Extra": "Cue: sheets of cells with a free border.", "chapter": 1}],
+        "note": "same card, image moved under the stem — the shape the writer now guarantees",
+    },
+    {
+        "id": "r70_good_inline_image_not_flagged",
+        "warn": "OPENS with an <img>", "present": False,
+        "cards": [{"Text": 'The specimen in <img src="b214_w02_plate.jpg"> is lining a duct.'
+                           '<br><br>Name the primary tissue type: {{c1::epithelial}}',
+                   "Back Extra": "Cue: x.", "chapter": 1}],
+        "note": "must NOT over-flag: an image referenced MID-SENTENCE is where the author put "
+                "it on purpose, and it is not covering the stem",
+    },
+    {
+        "id": "r70_bad_image_above_a_bare_cloze",
+        "warn": "OPENS with an <img>", "present": True,
+        "cards": [{"Text": '<img src="b214_w02_plate.jpg"><br><br>{{c1::epithelial}}',
+                   "Back Extra": "Cue: x.", "chapter": 1}],
+        "note": "no prose, but the cloze IS the stem and it still sits under the plate — same "
+                "scroll, same defect",
+    },
     # --- R57: card-rules #29's ONE exit — Parker asked, Parker answered, in his words ---
     {
         "id": "r57_good_authorized_card_passes",

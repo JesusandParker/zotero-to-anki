@@ -34,6 +34,11 @@ from difflib import SequenceMatcher
 import sources as S
 
 
+# R70 / card-rules #34 — a front image written ABOVE the stem pushes the question off
+# screen. Only a LEADING image is wrong; one referenced mid-sentence is the author's call.
+LEAD_IMG_TEXT = re.compile(r"^\s*<img\b[^>]*>\s*(?:<br\s*/?>\s*)*\S", re.S | re.I)
+
+
 def stamp_path(cards_json):
     return cards_json + ".verified"
 
@@ -832,6 +837,13 @@ def per_card(idx, c, strict_html=True):
             hard.append(msg)
         else:
             warn.append(msg + " (rich/pre-existing: verify it renders; the generator must stay on b/i/br/img)")
+    # R70: the plate renders above the question and he has to scroll to read the stem
+    if LEAD_IMG_TEXT.match(t):
+        warn.append(f"#{idx}: Text OPENS with an <img> — the image renders above the "
+                    f"question, so the stem sits below the fold and Parker has to scroll "
+                    f"down before he can even read what is being asked. Put the prose and "
+                    f"the cloze first and the image LAST. anki_write.image_last() will "
+                    f"move it on write, but author it that way (card-rules #34)")
     # must contain a cloze
     if not CLOZE.search(t):
         hard.append(f"#{idx}: no cloze markup in Text")

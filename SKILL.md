@@ -521,7 +521,10 @@ supplied for most plates, and it makes the *next* match smarter.
 **Figures go on the BACK.** A plate labels its own anatomy, so the figures most worth
 attaching are exactly the ones whose labels ARE the cloze answers; on the front they answer
 the card. Set `"image_side": "front"` only when the picture IS the question (*identify this
-structure*). Attach the **`study_file`** (1400px, ~150 KB), not the native archive — that
+structure*) — and when it is on the front, **the image goes LAST in `Text`**: prose, then
+cloze, then plate. An image written above the stem pushes the question below the fold and
+Parker has to scroll down before he can read what is being asked (card-rules #34, R70).
+`anki_write.image_last()` enforces it mechanically, but author it that way. Attach the **`study_file`** (1400px, ~150 KB), not the native archive — that
 is what keeps a whole book to ~0.25 GB of media instead of 1.75 GB.
 
 **Every study copy is MATTED (`--pad-pct`, default 4%).** Extraction cuts exactly to the
