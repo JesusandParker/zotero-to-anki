@@ -10,6 +10,7 @@ Reads a JSON list of cards and adds each one as a cloze note via AnkiConnect, sa
   * validates every Text field contains cloze markup ({{c1::...}})
   * pre-flights each note with canAddNotesWithErrorDetail
   * writes ONE note at a time (never a batch) so one bad card can't roll back the rest
+  * advances the processed-ledger for every mark whose note read back (R72)
   * does NOT auto-sync to AnkiWeb (Parker syncs deliberately)
 
 Cards land in ONE deck per segment — the source's `deck` in the registry, which for a
@@ -137,6 +138,47 @@ def seg_of(card):
     """Segment number for a card, accepting the legacy 'chapter' key."""
     v = card.get("segment", card.get("chapter"))
     return v
+
+
+def advance_ledger(run, cards, note_ids, source_id):
+    """Tell detect_pending these marks are carded — AFTER the read-back verified them.
+
+    Without this the INTERACTIVE path never advanced reference/processed-ledger.json.
+    Only automation/night_shift.py ever called mark_processed, so every chapter Parker
+    asked for by hand stayed "pending" forever while its cards sat in his collection.
+    On 2026-09-15 that was 346 of 607 queued marks — genetics ch10, EMT ch10, physics
+    ch1-2, arabic Unit 2 — and re-running any of those units would have duplicated a
+    whole chapter. R72.
+
+    The ledger may only advance for notes that RESOLVED after the write (R65). By the
+    time we are called that is exactly `note_ids`: the verify block above exits nonzero
+    if any returned id failed to come back, and skipped cards never enter the list.
+    Marks map to cards through the run's own highlights.json, the same immutable
+    snapshot provenance indexes into, so the ledger can never drift from the record.
+    """
+    hl = os.path.join(run, "highlights.json")
+    if not os.path.exists(hl):
+        print(f"  WARNING: {os.path.basename(run)} has no highlights.json, so the "
+              f"processed-ledger was NOT advanced — detect_pending will queue these "
+              f"marks again and a re-run would duplicate them")
+        return
+    try:
+        keys = [h.get("zotero_key") for h in json.load(open(hl))]
+        done = {keys[i] for ci, _nid in note_ids
+                for i in (cards[ci].get("from_idx") or [])
+                if 0 <= i < len(keys) and keys[i]}
+        if not done:
+            print("  NOTE: no card carried a from_idx, so no mark could be recorded as "
+                  "carded — detect_pending will queue this unit again")
+            return
+        import detect_pending as DP
+        DP.mark_processed(sorted(done), source_id or "unknown", os.path.basename(run),
+                          note="written and read back by anki_write")
+        print(f"  ledger: {len(done)} mark(s) recorded as carded — detect_pending will "
+              f"stop queueing them")
+    except Exception as e:
+        print(f"  WARNING: processed-ledger NOT advanced ({e}) — these marks come back "
+              f"as pending; audit and repair with scripts/ledger_repair.py")
 
 
 def main():
@@ -397,8 +439,11 @@ def main():
             print(f"  trace any of them later with:  python3 scripts/run_store.py trace <noteId>")
         except Exception as e:
             print(f"  WARNING: could not write note ids into the run record ({e})")
+        advance_ledger(args.run, cards, note_ids, source_id)
     elif note_ids and not args.dry_run:
-        print("  NOTE: no --run given, so these cards have no traceable provenance record.")
+        print("  WARNING: no --run given, so these cards have no traceable provenance "
+              "record AND the processed-ledger cannot be advanced — detect_pending will "
+              "queue these marks again and a re-run would duplicate them (R72).")
 
     if skipped:
         print(f"skipped {len(skipped)}:")

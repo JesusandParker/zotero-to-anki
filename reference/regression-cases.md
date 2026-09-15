@@ -1165,3 +1165,49 @@ at all.
 - **Not mechanizable:** knowing that `bone` has a finer level while `fibrocartilage` does not is
   subject knowledge. No string check distinguishes them, and a checker that flagged every
   category-shaped answer would fire on most of the deck.
+
+## R72 — only the night shift ever advanced the processed-ledger, so hand-run chapters stayed "pending" forever (2026-09-15)
+**Rule:** the ledger advances after a verified write, from whichever path did the writing.
+**Caught by:** `scripts/ledger_repair.py` (audit mode) + `detect_pending.py --self-test`.
+
+**Defect.** `detect_pending.py` answers "what still owes cards?" with exactly one test: is
+this Zotero annotation key in `reference/processed-ledger.json`? Two things ever wrote to
+that file — the 2026-08-26 `--baseline` sweep, and `automation/night_shift.py`. The
+INTERACTIVE path did not. That is the path Parker actually uses: he says *"make cards from
+genetics ch 10"*, the pipeline runs, `anki_write.py` writes the notes, verifies them,
+links them to their run record, updates the authorship store and the lexicon ledger, and
+then never touches the processed-ledger. So every chapter he asked for by hand was still
+queued as unread work the moment it finished.
+
+On the day this was found the queue said **607 marks pending** and **346 of them already
+had live cards in his collection**: genetics ch 10 (86 marks, 78 notes written 2026-09-11),
+EMT ch 10 (159 marks, 254 notes), physics ch 1 (38) and ch 2 (31), arabic Unit 2 (30).
+Running any of those units again would have duplicated a whole chapter. The true backlog —
+261 marks, EMT ch 11 and ch 22, genetics ch 11, arabic Unit 3, physics ch 3 — was invisible
+underneath the phantom one.
+
+**The second harm is worse than the duplicate.** A backlog that overstates by 57% cannot be
+prioritised, and it had already produced a wrong conclusion that got written down as fact:
+`project_card_backlog` (2026-09-06) recorded *"a deck is NOT coverage — EMT ch 10 had 159
+unprocessed marks while carded_through said ch 10."* The deck was right and the ledger was
+wrong. Spot-checking three of those 159 marks against the collection shows each one's card,
+in `all::EMT::Chapter 10::Book Highlights`, matching the highlight.
+
+- **BAD:** a writer that verifies its notes, records provenance, authorship and the lexicon,
+  and leaves the one file that decides whether the work comes back tomorrow untouched.
+- **GOOD:** `anki_write.advance_ledger()` — after the R65 read-back passes, resolve each
+  verified note's marks through the run's own `highlights.json` (the same immutable snapshot
+  provenance indexes into) and call `detect_pending.mark_processed`.
+- **MUST CATCH:** a mark whose card is live in the collection and whose key is not in the
+  ledger. `ledger_repair.py` confirms by resolving the note through `notesInfo` — never by
+  trusting a manifest that says `complete`, and never by counting notes in the target deck.
+- **MUST NOT OVER-RECORD:** a mark whose run record exists but whose note is **gone** from
+  the collection is genuinely still pending and is left alone (one arabic Unit 2 mark, on the
+  day of the repair). A dry run records nothing. A skipped card is not in `note_ids`.
+- **The trap this shares with R45 and R65:** every artifact in the repo agreed the work was
+  done — the manifest said `complete`, provenance carried note ids, the cards were in the
+  deck — and the one file that acts on that fact disagreed with all of them. **A state file
+  is only true if something writes it on the path that actually runs.** Grep for the writer
+  of any file you depend on before trusting what it says.
+- **Standing audit:** `python3 scripts/ledger_repair.py` (writes nothing) should print
+  *"ledger is in sync"*. If it does not, a write path has been added that skips the ledger.
