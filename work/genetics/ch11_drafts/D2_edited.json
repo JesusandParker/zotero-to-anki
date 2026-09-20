@@ -1,0 +1,346 @@
+[
+  {
+    "Text": "Compared with DNA synthesis, RNA synthesis {{c1::does not::does or does not}} require a preexisting primer strand. RNA chains are initiated {{c1::de novo::Latin phrase}}.",
+    "Back Extra": "Distinguish: RNA synthesis differs from DNA synthesis in three ways: (1) the precursors are ribonucleoside triphosphates rather than deoxyribonucleoside triphosphates, (2) only one DNA strand is used as template in any given region, and (3) no primer is needed.<br><br>Pitfall: chain growth itself is the same as in DNA synthesis: 5′→3′, each ribonucleotide added to the 3′-hydroxyl group at the end of the chain with elimination of pyrophosphate.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      15
+    ],
+    "block": "U4_rna_vs_dna_synthesis",
+    "numeric": false,
+    "verified_against": "p279: 'RNA chains can be initiated de novo, without any requirement for a preexisting primer strand.' | Back Extra (unmarked, teaching only) p279: 'RNA synthesis occurs by a mechanism that is similar to that of DNA synthesis (Chapter 10) except that (1) the precursors are ribonucleoside triphosphates rather than deoxyribonucleoside triphosphates, (2) only one strand of DNA is used as a template for the synthesis of a complementary RNA chain in any given region, and (3) RNA chains can be initiated de novo, without any requirement for a preexisting primer strand.' | Back Extra (unmarked, teaching only) p279: 'The synthesis of RNA chains, like DNA chains, occurs in the 5′ 3′ direction, with the addition of ribonucleotides to the 3′-hydroxyl group at the end of the chain' | Back Extra (unmarked, teaching only) p279: 'The reaction involves a nucleophilic attack by the 3′-OH on the nucleotidyl (interior) phosphorus atom of the ribonucleoside triphosphate precursor with the elimination of pyrophosphate, just as in DNA synthesis.'",
+    "verified_by": "drafter-D2; husk_groups cleared: the two c1 blanks are independently anchored (does/does not is forced by 'Compared with DNA synthesis ... require a preexisting primer strand'; de novo by 'RNA chains are initiated ... Latin phrase'), so each is cold-solvable with the other hidden; splitting to c1/c2 would let either visible half decode the other",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D2",
+    "_unit_idx": 0,
+    "_fact_pass": {
+      "must_test": [
+        "mark 15: RNA chains are initiated de novo, with no requirement for a preexisting primer strand (unlike DNA synthesis)",
+        "mark 16: the RNA produced is complementary AND antiparallel to the DNA template strand",
+        "mark 16: the RNA produced is identical (U in place of T) to the DNA nontemplate strand"
+      ],
+      "supporting": [
+        "unmarked p279: the other two differences from DNA synthesis are (1) ribonucleoside triphosphate precursors and (2) only one DNA strand used as template in a region -> Back Extra only",
+        "unmarked p279: template strand = transcribed strand, nontemplate = nontranscribed -> Back Extra only",
+        "unmarked p279: mRNA = coding / sense strand; RNA complementary to an mRNA = antisense -> Back Extra only",
+        "unmarked p279: chain growth is 5'->3' onto the 3'-OH with pyrophosphate elimination, as in DNA synthesis -> Back Extra only",
+        "FIGURE 11.4 shows template / nontemplate / RNA polarity -> requested for the back of the strand card"
+      ],
+      "skip": [
+        "mark 17 'promoters' is a PURPLE lexicon mark handled by the orchestrator (not carded here)",
+        "the RTP -> RMP + PP reaction equation (unmarked; not carded)",
+        "eukaryotes have five RNA polymerases vs one in prokaryotes (unmarked on p279; used only as a teaching line in U6)"
+      ]
+    },
+    "_archetype": "comparison",
+    "_editor_verdict": "PASS",
+    "_editor_notes": "Checks 1-30 run. Check 19 (rule 17 litmus) run by hand: with BOTH c1 spans covered the visible remainder still carries the situational anchors ('Compared with DNA synthesis ... require a preexisting primer strand' and 'RNA chains are initiated ... [Latin phrase]'), so it is not a husk; a knower produces 'does not' + 'de novo' cold, and the two spans are ONE fact (no primer = de novo), so grading them together is honest. Splitting to c1/c2 would leak in both directions (a visible 'de novo' decodes 'does not'; a visible 'does not require a primer' is the definition of de novo). husk_groups warning cleared by editor-E2 on the same reasoning the drafter recorded. Grounding: every claim verbatim on p279. Standalone; hints are a forced choice and a form label; Back Extra adds the other two differences and the shared 5'->3' chemistry. PASS unchanged."
+  },
+  {
+    "Text": "An RNA transcript is {{c1::complementary::sequence relationship}} and {{c1::antiparallel::parallel or antiparallel}} to the DNA {{c2::template::template or nontemplate}} strand, but {{c1::identical (with U in place of T)::sequence relationship}} to the DNA {{c2::nontemplate::template or nontemplate}} strand.",
+    "Back Extra": "Distinguish: the template strand is the DNA strand that is actually transcribed (read by RNA polymerase); the nontemplate strand is the one not transcribed, which is why the RNA ends up matching it.<br><br>Pitfall: 'identical to the nontemplate strand' includes polarity: written 5′→3′, the RNA has the same polarity as the nontemplate strand and is antiparallel only to the template strand.<br><br>Distinguish: an mRNA is a coding (sense) strand of RNA because its sequence specifies amino acids; an RNA complementary to an mRNA is antisense RNA.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      16
+    ],
+    "block": "U4_rna_vs_dna_synthesis",
+    "numeric": false,
+    "verified_against": "p279: 'The RNA molecule produced will be complementary and antiparallel to the DNA template strand and identical, except that uridine residues replace thymidines, to the DNA nontemplate strand (◾ Figure 11.4).' | Back Extra (unmarked, teaching only) p279: 'Thus, we will use template strand and nontemplate strand to refer to the transcribed and nontranscribed strands, respectively, of a gene.' | Back Extra (unmarked, teaching only) p279 Figure 11.4 text-layer labels: '3'-CGTATGCTAGTCCGATTGCG-5'' (template strand) / '5'-GCATACGATCAGGCTAACGC-3' Nontemplate strand' / '5'-GCAUACGAUCAGGCUAACGC-3' Sense RNA strand' (the RNA is written 5'→3' in the same direction as the nontemplate strand and opposite to the template) | Back Extra (unmarked, teaching only) p279: 'Therefore, mRNA molecules are coding strands of RNA. They are also called sense strands of RNA because their nucleotide sequences “make sense” in that they specify sequences of amino acids in the protein gene products. An RNA molecule that is complementary to an mRNA is referred to as antisense RNA.'",
+    "verified_by": "drafter-D2; edited by editor-E2",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D2",
+    "_unit_idx": 1,
+    "_fact_pass": {
+      "must_test": [
+        "mark 15: RNA chains are initiated de novo, with no requirement for a preexisting primer strand (unlike DNA synthesis)",
+        "mark 16: the RNA produced is complementary AND antiparallel to the DNA template strand",
+        "mark 16: the RNA produced is identical (U in place of T) to the DNA nontemplate strand"
+      ],
+      "supporting": [
+        "unmarked p279: the other two differences from DNA synthesis are (1) ribonucleoside triphosphate precursors and (2) only one DNA strand used as template in a region -> Back Extra only",
+        "unmarked p279: template strand = transcribed strand, nontemplate = nontranscribed -> Back Extra only",
+        "unmarked p279: mRNA = coding / sense strand; RNA complementary to an mRNA = antisense -> Back Extra only",
+        "unmarked p279: chain growth is 5'->3' onto the 3'-OH with pyrophosphate elimination, as in DNA synthesis -> Back Extra only",
+        "FIGURE 11.4 shows template / nontemplate / RNA polarity -> requested for the back of the strand card"
+      ],
+      "skip": [
+        "mark 17 'promoters' is a PURPLE lexicon mark handled by the orchestrator (not carded here)",
+        "the RTP -> RMP + PP reaction equation (unmarked; not carded)",
+        "eukaryotes have five RNA polymerases vs one in prokaryotes (unmarked on p279; used only as a teaching line in U6)"
+      ]
+    },
+    "_archetype": "comparison",
+    "_figure_request": "FIGURE 11.4",
+    "_editor_verdict": "REWRITE",
+    "_editor_notes": "Check 13 fired: 'antiparallel' is a binary (parallel/antiparallel) that carried only the form label 'orientation'; replaced with the forced-choice hint 'parallel or antiparallel' (rule 4). Rows cold-solved one by one with the other blanks hidden: c1 card -> complementary / antiparallel / identical-with-U-for-T from the 'sequence relationship' labels plus the visible 'but' contrast; c2 card -> template / nontemplate is one forced decision. No hint restates its answer; the U-for-T exception stays INSIDE the tested answer, so it is neither lost nor a giveaway. Back Extra Pitfall reworded from 'runs alongside' to 'same polarity' (faithful to the FIGURE 11.4 strand labels quoted in verified_against). Rule 24: c1/c2 mark different facts (relationship words vs strand identity), the contrast-card exemption. Grounding re-read on p279 word for word. FIGURE 11.4 on the BACK only."
+  },
+  {
+    "Text": "A {{c1::transcription unit}} is {{c2::the DNA segment transcribed into one RNA molecule}}.",
+    "Back Extra": "Distinguish: a transcription unit is not a synonym for a gene: it may be a single gene or several contiguous genes, and large transcripts carrying the coding sequences of several genes are common in bacteria.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      19
+    ],
+    "block": "U5_transcription_unit_and_stages",
+    "numeric": false,
+    "verified_against": "p281: 'A segment of DNA that is transcribed to produce one RNA molecule is called a transcription unit.' | Back Extra (unmarked, teaching only) p281: 'Transcription units may be equivalent to individual genes, or they may include several contiguous genes. Large transcripts that carry the coding sequences of several genes are common in bacteria.'",
+    "verified_by": "drafter-D2",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D2",
+    "_unit_idx": 2,
+    "_fact_pass": {
+      "must_test": [
+        "mark 19: transcription unit = a segment of DNA transcribed to produce ONE RNA molecule (two-way)",
+        "mark 20: the three stages of transcription in order: initiation of a new RNA chain -> elongation of the chain -> termination of transcription and release of the nascent RNA"
+      ],
+      "supporting": [
+        "unmarked p281: a transcription unit may equal one gene or several contiguous genes; multigene transcripts are common in bacteria -> Back Extra only",
+        "unmarked p281: sigma is involved only in initiation and is released; the core enzyme elongates -> Back Extra only",
+        "unmarked p279: promoter binding / start site, transcription bubble, 5'->3' growth -> Back Extra Mechanism line only",
+        "FIGURE 11.7 depicts the three stages -> requested for the back of the stages card"
+      ],
+      "skip": [
+        "mark 18 'archaea' is a PURPLE lexicon mark (orchestrator)",
+        "'release of the nascent RNA' is kept VISIBLE as the book's own descriptor of stage 3 rather than clozed as a fourth free blank",
+        "upstream / downstream definitions on p281 (unmarked here; belongs to the p282 marks)"
+      ]
+    },
+    "_archetype": "two-way definition",
+    "_editor_verdict": "PASS",
+    "_editor_notes": "Two-way definition; c2 side is 8 words, crisp. Cold-solve both cards: 'the DNA segment transcribed into one RNA molecule' forces 'transcription unit' (a gene is explicitly NOT equivalent, which is exactly the Distinguish line); the c2 card forces the one-RNA-molecule definition. The gene-vs-transcription-unit distinction is cited as unmarked p281 teaching only and is not clozed. Checks 1-30 clean. PASS unchanged."
+  },
+  {
+    "Text": "Transcription has three stages, in order:<br><br>(1) {{c1::initiation}}<br><br>→ (2) {{c1::elongation}}<br><br>→ (3) {{c1::termination}} of transcription and release of the nascent RNA molecule",
+    "Back Extra": "Mechanism: in initiation the polymerase binds a promoter and starts the chain at a nearby start site; in elongation it adds ribonucleotides 5′→3′ inside a locally unwound transcription bubble; in termination synthesis stops and the nascent (newly made) RNA is let go.<br><br>Distinguish: only initiation needs the sigma (σ) factor; once the chain has started, σ is released and elongation is carried out by the core enzyme (α2ββ′).",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      20
+    ],
+    "block": "U5_transcription_unit_and_stages",
+    "numeric": true,
+    "verified_against": "p281: 'The process of transcription can be divided into three stages: (1) initiation of a new RNA chain, (2) elongation of the chain, and (3) termination of transcription and release of the nascent RNA molecule (◾ Figure 11.7).' | Back Extra (unmarked, teaching only) p279: 'RNA polymerases bind to specific nucleotide sequences called promoters, and with the help of proteins called transcription factors, initiate the synthesis of RNA molecules at transcription start sites near the promoters.' | Back Extra (unmarked, teaching only) p279: 'RNA synthesis takes place within a locally unwound segment of DNA, sometimes called a transcription bubble, which is produced by RNA polymerase (◾ Figure 11.6).' | Back Extra (unmarked, teaching only) p279: 'The synthesis of RNA chains, like DNA chains, occurs in the 5′ 3′ direction, with the addition of ribonucleotides to the 3′-hydroxyl group at the end of the chain' | Back Extra (unmarked, teaching only) p281: 'One subunit, the sigma (σ) factor, is involved only in the initiation of transcription; it plays no role in chain elongation. After RNA chain initiation has occurred, the σ factor is released, and chain elongation (see Figure 11.5) is catalyzed by the core enzyme (α2ββ′).'",
+    "verified_by": "drafter-D2; edited by editor-E2",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D2",
+    "_unit_idx": 3,
+    "_fact_pass": {
+      "must_test": [
+        "mark 19: transcription unit = a segment of DNA transcribed to produce ONE RNA molecule (two-way)",
+        "mark 20: the three stages of transcription in order: initiation of a new RNA chain -> elongation of the chain -> termination of transcription and release of the nascent RNA"
+      ],
+      "supporting": [
+        "unmarked p281: a transcription unit may equal one gene or several contiguous genes; multigene transcripts are common in bacteria -> Back Extra only",
+        "unmarked p281: sigma is involved only in initiation and is released; the core enzyme elongates -> Back Extra only",
+        "unmarked p279: promoter binding / start site, transcription bubble, 5'->3' growth -> Back Extra Mechanism line only",
+        "FIGURE 11.7 depicts the three stages -> requested for the back of the stages card"
+      ],
+      "skip": [
+        "mark 18 'archaea' is a PURPLE lexicon mark (orchestrator)",
+        "'release of the nascent RNA' is kept VISIBLE as the book's own descriptor of stage 3 rather than clozed as a fourth free blank",
+        "upstream / downstream definitions on p281 (unmarked here; belongs to the p282 marks)"
+      ]
+    },
+    "_archetype": "sequence",
+    "_figure_request": "FIGURE 11.7",
+    "_editor_verdict": "REWRITE",
+    "_editor_notes": "Check 28 / rule 26 (ordinals PRINTED) fired: the drafter had arrows but no ordinals. Rewritten as three rows with printed (1) (2) (3), arrows kept as the 'then' scaffold, <br><br> between rows (rule 19) so the three answers owed are visible at a glance. Check 24 / rule 22 then fired on the row layout (fragment_clozed_list): the book's descriptors 'of a new RNA chain' and 'of the chain' were visible frames with only the stage name punched out, and they near-answer themselves ('___ of a new RNA chain' -> initiation); they are nothing Parker will be asked to reproduce, so rows 1-2 now cloze the stage names bare, cued by the stem's 'three stages, in order' (a closed taxonomy; recipes 12e step-scaffold) and the printed ordinal. Row 3 keeps the book's own 'termination of transcription and release of the nascent RNA molecule' so release stays attached to termination, visible, as the mark says (not clozed as a fourth filler blank). Cold-solved per row. Back Extra: Mechanism line tightened and 'nascent' glossed (rule 11); the Distinguish line (sigma only in initiation, core elongates) is unmarked teaching only and stays un-clozed. FIGURE 11.7 on the BACK only (its caption names the stages)."
+  },
+  {
+    "Text": "The <i>E. coli</i> RNA polymerase has a molecular weight of about {{c1::480,000}} and consists of {{c2::five::number of polypeptides}} polypeptides.",
+    "Back Extra": "Pitfall: five polypeptides but only four distinct kinds: two of the five are identical (the two α subunits).<br><br>Cue: a molecular weight of 480,000 is the same value written as 480 kDa.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      21
+    ],
+    "block": "U6_rna_polymerase_subunits",
+    "numeric": true,
+    "verified_against": "p281: 'The E. coli RNA polymerase has a molecular weight of about 480,000 and consists of five polypeptides.' | Back Extra (unmarked, teaching only) p281: 'Two of these are identical; thus, the enzyme contains four distinct polypeptides.' | Back Extra (marked, mark 22) p281: 'The complete RNA polymerase molecule, the holoenzyme, has the composition α2ββ′σ.' (the identical pair is the α pair) | Back Extra (teaching only, lecture) work/genetics/ch11_drafts/LECTURE_11b_text.txt line 52-53: 'E. coli: Holoenzyme contains 5 subunits' / 'α2 ββ' σ (480 kDa)' (unit conversion only: 480,000 daltons = 480 kDa)",
+    "verified_by": "drafter-D2",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D2",
+    "_unit_idx": 4,
+    "_fact_pass": {
+      "must_test": [
+        "mark 21: E. coli RNA polymerase molecular weight about 480,000 (numeric)",
+        "mark 21: consists of five polypeptides (numeric; hinted ::number of polypeptides per rule 27)",
+        "mark 22: the complete molecule = the holoenzyme, composition α2ββ′σ (two-way: name <-> composition)",
+        "mark 23: α subunits -> assembly of the tetrameric core (α2ββ′)",
+        "mark 24: β subunit -> ribonucleoside triphosphate (rNTP) binding site",
+        "mark 25: β′ subunit -> DNA template-binding region",
+        "mark 26: sigma -> recognizes and binds RNA polymerase to the transcription-initiation (promoter) sites",
+        "reverse direction for the high-yield rows (job -> which subunit) for β′, β and σ, on a separate note"
+      ],
+      "supporting": [
+        "unmarked p281: two of the five polypeptides are identical -> four distinct -> Back Extra only",
+        "unmarked p281: sigma acts only in initiation, no role in elongation, released after initiation; core (α2ββ′) elongates -> Back Extra only",
+        "unmarked p281: core enzyme alone initiates at random sites on both strands in vitro; holoenzyme only at in-vivo sites -> Back Extra only",
+        "unmarked p281/p279: one E. coli RNA polymerase makes all its RNA vs five in eukaryotes -> Back Extra only",
+        "lecture (Isaacs Ch 11b slide 3) repeats every subunit fact and writes the mass as 480 kDa -> exam material; 480 kDa used as a Cue line"
+      ],
+      "skip": [
+        "'complex, multimeric proteins' (generic, unmarked)",
+        "α's reverse direction (job -> α) left off the reverse note: low yield, covered forward on the panel",
+        "the promoter's own structure (-10 / -35) belongs to the p282 marks"
+      ]
+    },
+    "_archetype": "numeric",
+    "_editor_verdict": "PASS",
+    "_editor_notes": "Digits re-checked against p281: 480,000 and five. 'five' carries the rule-27 count hint; 'molecular weight of about' already announces the numeric slot for 480,000. Pitfall (two identical -> four distinct) comes from the unmarked p281 sentence and is Back Extra only; '480 kDa' is a Cue line grounded in lecture line 53 and is never an answer. c1 and c2 are different facts on one topic (same sentence). numeric true. PASS unchanged."
+  },
+  {
+    "Text": "The complete <i>E. coli</i> RNA polymerase molecule, called the {{c1::holoenzyme}}, has the subunit composition {{c2::α2ββ′σ}}.",
+    "Back Extra": "Distinguish: the core enzyme is the holoenzyme minus σ (α2ββ′), and the core is the form that catalyzes chain elongation once σ has been released after initiation.<br><br>Pitfall: the core enzyme alone can make RNA from a DNA template in vitro, but the core starts chains at random sites on both DNA strands; only the holoenzyme (σ present) starts at the sites used in vivo.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      22,
+      23
+    ],
+    "block": "U6_rna_polymerase_subunits",
+    "numeric": true,
+    "verified_against": "p281: 'The complete RNA polymerase molecule, the holoenzyme, has the composition α2ββ′σ.' | p281: 'The α subunits are involved in the assembly of the tetrameric core (α2ββ′) of RNA polymerase.' | Back Extra (unmarked, teaching only) p281: 'One subunit, the sigma (σ) factor, is involved only in the initiation of transcription; it plays no role in chain elongation. After RNA chain initiation has occurred, the σ factor is released, and chain elongation (see Figure 11.5) is catalyzed by the core enzyme (α2ββ′).' | Back Extra (unmarked, teaching only) p281: 'The core enzyme (with no σ) will catalyze RNA synthesis from DNA templates in vitro, but, in so doing, it will initiate RNA chains at random sites on both strands of DNA. In contrast, the holoenzyme (σ present) initiates RNA chains in vitro only at sites used in vivo.'",
+    "verified_by": "drafter-D2",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D2",
+    "_unit_idx": 5,
+    "_fact_pass": {
+      "must_test": [
+        "mark 21: E. coli RNA polymerase molecular weight about 480,000 (numeric)",
+        "mark 21: consists of five polypeptides (numeric; hinted ::number of polypeptides per rule 27)",
+        "mark 22: the complete molecule = the holoenzyme, composition α2ββ′σ (two-way: name <-> composition)",
+        "mark 23: α subunits -> assembly of the tetrameric core (α2ββ′)",
+        "mark 24: β subunit -> ribonucleoside triphosphate (rNTP) binding site",
+        "mark 25: β′ subunit -> DNA template-binding region",
+        "mark 26: sigma -> recognizes and binds RNA polymerase to the transcription-initiation (promoter) sites",
+        "reverse direction for the high-yield rows (job -> which subunit) for β′, β and σ, on a separate note"
+      ],
+      "supporting": [
+        "unmarked p281: two of the five polypeptides are identical -> four distinct -> Back Extra only",
+        "unmarked p281: sigma acts only in initiation, no role in elongation, released after initiation; core (α2ββ′) elongates -> Back Extra only",
+        "unmarked p281: core enzyme alone initiates at random sites on both strands in vitro; holoenzyme only at in-vivo sites -> Back Extra only",
+        "unmarked p281/p279: one E. coli RNA polymerase makes all its RNA vs five in eukaryotes -> Back Extra only",
+        "lecture (Isaacs Ch 11b slide 3) repeats every subunit fact and writes the mass as 480 kDa -> exam material; 480 kDa used as a Cue line"
+      ],
+      "skip": [
+        "'complex, multimeric proteins' (generic, unmarked)",
+        "α's reverse direction (job -> α) left off the reverse note: low yield, covered forward on the panel",
+        "the promoter's own structure (-10 / -35) belongs to the p282 marks"
+      ]
+    },
+    "_archetype": "two-way definition",
+    "_editor_verdict": "PASS",
+    "_editor_notes": "Two-way holoenzyme <-> α2ββ′σ; composition re-checked character by character against p281 (prime = U+2032). Cold-solve: 'complete ... composition α2ββ′σ' forces 'holoenzyme'; the c2 card forces the composition. The core/holoenzyme distinction is TAUGHT in Distinguish (core = holoenzyme minus σ = α2ββ′, from marked mark 23); σ's release after initiation and the random-start in-vitro behaviour are unmarked and live in Back Extra only, never clozed. PASS unchanged."
+  },
+  {
+    "Text": "Each kind of subunit in the <i>E. coli</i> RNA polymerase holoenzyme has its own job:<br><br>α → {{c1::helps assemble the tetrameric core (α2ββ′)}}<br><br>β → {{c1::contains the ribonucleoside triphosphate (rNTP) binding site}}<br><br>β′ → {{c1::harbors the DNA template-binding region}}<br><br>σ → {{c1::recognizes promoters and binds the polymerase to them}}",
+    "Back Extra": "Why: σ works only at the start: sigma plays no role in chain elongation and is released once the RNA chain has been initiated, leaving the core enzyme (α2ββ′) to elongate.<br><br>Cue: promoters are also called transcription-initiation sites, so σ's whole job is to find where transcription should start.<br><br>Mnemonic: the Prime subunit (β′) holds the Pattern (the DNA template); plain β holds the Building blocks (the rNTPs).",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      23,
+      24,
+      25,
+      26
+    ],
+    "block": "U6_rna_polymerase_subunits",
+    "numeric": true,
+    "verified_against": "p281: 'The α subunits are involved in the assembly of the tetrameric core (α2ββ′) of RNA polymerase.' | p281: 'The β subunit contains the ribonucleoside triphosphate binding site, and the β′ subunit harbors the DNA template-binding region.' | p281: 'The function of sigma is to recognize and bind RNA polymerase to the transcription initiation or promoter sites in DNA.' | Back Extra (unmarked, teaching only) p281: 'One subunit, the sigma (σ) factor, is involved only in the initiation of transcription; it plays no role in chain elongation. After RNA chain initiation has occurred, the σ factor is released, and chain elongation (see Figure 11.5) is catalyzed by the core enzyme (α2ββ′).' | Back Extra (teaching only, lecture) work/genetics/ch11_drafts/LECTURE_11b_text.txt line 55: 'β subunit contains rNTP binding site' (source of the 'rNTP' abbreviation, which the page spells out)",
+    "verified_by": "drafter-D2; edited by editor-E2",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D2",
+    "_unit_idx": 6,
+    "_fact_pass": {
+      "must_test": [
+        "mark 21: E. coli RNA polymerase molecular weight about 480,000 (numeric)",
+        "mark 21: consists of five polypeptides (numeric; hinted ::number of polypeptides per rule 27)",
+        "mark 22: the complete molecule = the holoenzyme, composition α2ββ′σ (two-way: name <-> composition)",
+        "mark 23: α subunits -> assembly of the tetrameric core (α2ββ′)",
+        "mark 24: β subunit -> ribonucleoside triphosphate (rNTP) binding site",
+        "mark 25: β′ subunit -> DNA template-binding region",
+        "mark 26: sigma -> recognizes and binds RNA polymerase to the transcription-initiation (promoter) sites",
+        "reverse direction for the high-yield rows (job -> which subunit) for β′, β and σ, on a separate note"
+      ],
+      "supporting": [
+        "unmarked p281: two of the five polypeptides are identical -> four distinct -> Back Extra only",
+        "unmarked p281: sigma acts only in initiation, no role in elongation, released after initiation; core (α2ββ′) elongates -> Back Extra only",
+        "unmarked p281: core enzyme alone initiates at random sites on both strands in vitro; holoenzyme only at in-vivo sites -> Back Extra only",
+        "unmarked p281/p279: one E. coli RNA polymerase makes all its RNA vs five in eukaryotes -> Back Extra only",
+        "lecture (Isaacs Ch 11b slide 3) repeats every subunit fact and writes the mass as 480 kDa -> exam material; 480 kDa used as a Cue line"
+      ],
+      "skip": [
+        "'complex, multimeric proteins' (generic, unmarked)",
+        "α's reverse direction (job -> α) left off the reverse note: low yield, covered forward on the panel",
+        "the promoter's own structure (-10 / -35) belongs to the p282 marks"
+      ]
+    },
+    "_archetype": "list",
+    "_editor_verdict": "REWRITE",
+    "_editor_notes": "Forward panel: 4 cued rows under one c1 (check 25 load fine; check 26 / rule 24 clean, no c1..cN); labels α / β / β′ / σ cue without restating (check 22 / rule 20); each row leads with its key and hides more than it shows (not rule 22's bad shape). Per-row cold-solve: the four jobs are the closed set on the page, with β vs β′ the real discrimination (the Mnemonic gives the handle). Lead-in reworded from 'Each subunit' to 'Each KIND of subunit' (five polypeptides, four kinds) so the stem is not false. Added the lecture citation for the 'rNTP' abbreviation, which the page spells out. Check 16: card 7's FRONT necessarily shows these answers (the licensed two-way pattern), but card 7's BACK no longer restates the α row (fixed there). Grounding re-read on p281 word for word."
+  },
+  {
+    "Text": "Match each job to the <i>E. coli</i> RNA polymerase subunit that does it:<br><br>harbors the DNA template-binding region → {{c1::β′}}<br><br>contains the ribonucleoside triphosphate (rNTP) binding site → {{c1::β}}<br><br>recognizes promoters and binds the polymerase to them → {{c1::σ}}",
+    "Back Extra": "Cue: the prime marks the DNA-binding subunit: β′ holds the template, plain β holds the incoming rNTPs.<br><br>Why: σ's promoter recognition is what keeps initiation from being random: the core enzyme alone (no σ) makes RNA in vitro but starts chains at random sites on both DNA strands.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      24,
+      25,
+      26
+    ],
+    "block": "U6_rna_polymerase_subunits",
+    "numeric": false,
+    "verified_against": "p281: 'The β subunit contains the ribonucleoside triphosphate binding site, and the β′ subunit harbors the DNA template-binding region.' | p281: 'The function of sigma is to recognize and bind RNA polymerase to the transcription initiation or promoter sites in DNA.' | Back Extra (unmarked, teaching only) p281: 'The core enzyme (with no σ) will catalyze RNA synthesis from DNA templates in vitro, but, in so doing, it will initiate RNA chains at random sites on both strands of DNA. In contrast, the holoenzyme (σ present) initiates RNA chains in vitro only at sites used in vivo.' | Back Extra (teaching only, lecture) work/genetics/ch11_drafts/LECTURE_11b_text.txt line 55: 'β subunit contains rNTP binding site' | lecture line 65-66: 'σ subunit recognizes promoter sites in DNA preventing random transcriptional initiation.'",
+    "verified_by": "drafter-D2; edited by editor-E2",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D2",
+    "_unit_idx": 7,
+    "_fact_pass": {
+      "must_test": [
+        "mark 21: E. coli RNA polymerase molecular weight about 480,000 (numeric)",
+        "mark 21: consists of five polypeptides (numeric; hinted ::number of polypeptides per rule 27)",
+        "mark 22: the complete molecule = the holoenzyme, composition α2ββ′σ (two-way: name <-> composition)",
+        "mark 23: α subunits -> assembly of the tetrameric core (α2ββ′)",
+        "mark 24: β subunit -> ribonucleoside triphosphate (rNTP) binding site",
+        "mark 25: β′ subunit -> DNA template-binding region",
+        "mark 26: sigma -> recognizes and binds RNA polymerase to the transcription-initiation (promoter) sites",
+        "reverse direction for the high-yield rows (job -> which subunit) for β′, β and σ, on a separate note"
+      ],
+      "supporting": [
+        "unmarked p281: two of the five polypeptides are identical -> four distinct -> Back Extra only",
+        "unmarked p281: sigma acts only in initiation, no role in elongation, released after initiation; core (α2ββ′) elongates -> Back Extra only",
+        "unmarked p281: core enzyme alone initiates at random sites on both strands in vitro; holoenzyme only at in-vivo sites -> Back Extra only",
+        "unmarked p281/p279: one E. coli RNA polymerase makes all its RNA vs five in eukaryotes -> Back Extra only",
+        "lecture (Isaacs Ch 11b slide 3) repeats every subunit fact and writes the mass as 480 kDa -> exam material; 480 kDa used as a Cue line"
+      ],
+      "skip": [
+        "'complex, multimeric proteins' (generic, unmarked)",
+        "α's reverse direction (job -> α) left off the reverse note: low yield, covered forward on the panel",
+        "the promoter's own structure (-10 / -35) belongs to the p282 marks"
+      ]
+    },
+    "_archetype": "list",
+    "_editor_verdict": "REWRITE",
+    "_editor_notes": "Reverse panel: 3 cued rows, one c1 (rule 23 / 24 clean); labels cue without restating (rule 20); per-row cold-solve forces β′ / β / σ. Check 16 FIRED: the drafter's Distinguish line restated card 6's α-row answer ('the α pair is involved in assembling the tetrameric core (α2ββ′)') on this card's back, handing that answer over by rote to a card whose front never shows α; removed. Replaced with a Cue (the prime marks the DNA-binder; restates only what this card's own front already shows) and a Why grounded in the unmarked p281 in-vitro sentence plus lecture slide 4 (σ prevents random initiation). Dropped the one-vs-five-polymerases line (tangential to a subunit panel, and it put a stated count on a non-numeric card); numeric set false and the mark-23 quote removed from verified_against since nothing on the card uses it now."
+  }
+]

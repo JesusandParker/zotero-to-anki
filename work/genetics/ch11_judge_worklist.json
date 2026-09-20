@@ -1,0 +1,882 @@
+{
+ "source": "genetics",
+ "segment": 11,
+ "figures": [
+  {
+   "figure": "FIGURE 11.1",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_1.png",
+   "caption": "◾ FIGURE 11.1 The flow of genetic information according to the central dogma of molecular biology. Replication, transcription, and translation occur in all organisms; reverse transcription occurs in cells infected with certain RNA viruses. The transfer of information from RNA to RNA during the replication of RNA viruses is not shown.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 0,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "Under the central dogma of molecular biology, genetic information <b>usually</b> flows two ways:<br><br>{{c1::DNA → DNA:",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 1,
+     "tier": "teaches",
+     "coverage": 0.8,
+     "text": "Genetic information moves from DNA to protein in two steps: (1) {{c1::transcription::process}}, the transfer of informat",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 2,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "Beyond the central dogma's two usual flows, genetic information also moves two more ways in RNA viruses:<br><br>{{c1::RN",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 38,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "{{c1::Reverse transcription::process}} is {{c2::the copying of RNA into complementary DNA}}, which some RNA viruses of e",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 39,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "An enzyme that copies RNA into DNA is formally an {{c1::RNA-dependent DNA polymerase::formal name}}, though it is usuall",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 82,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "A  codon  is {{c1::three mRNA nucleotides that specify one amino acid}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 83,
+     "tier": "context",
+     "coverage": 0.2,
+     "text": "A  primary transcript  is {{c1::the RNA exactly as transcribed, before any processing}}.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.10",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_10.png",
+   "caption": "◾ FIGURE 11.10 Mechanism of rho-independent termination of transcription. As transcription proceeds along a DNA template, a region of DNA is encountered that contains inverted repeat sequences (shaded). When these repeat sequences are transcribed, the RNA transcript will contain sequences that are complementary to each other. As a result, they will hydrogen bond and form a hairpin structure. When RNA polymerase encounters this hairpin, it will pause, and the weak hydrogen bonds between the A's that follow in the template strand and the U's in the newly synthesized transcript will break, releasing the transcript from the DNA.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 23,
+     "tier": "teaches",
+     "coverage": 0.333,
+     "text": "<i>E. coli</i> has two types of transcription terminator, classified by whether termination needs a protein called {{c1:",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 24,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "In <b>rho-independent</b> termination in <i>E. coli</i>, the terminator's GC-rich {{c1::inverted repeats::DNA sequence f",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 25,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "In {{c2::rho-independent::rho-dependent or rho-independent}} termination in <i>E. coli</i>, once the RNA hairpin has mad",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.11",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_11.png",
+   "caption": "◾ FIGURE 11.11 Electron micrograph prepared by Oscar Miller and Barbara Hamkalo showing the coupled transcription and translation of a gene in E. coli. DNA, mRNAs, and the ribosomes translating individual mRNA molecules are visible. The nascent polypeptide chains being synthesized on the ribosomes are not visible as they fold into their three-dimensional configuration during synthesis.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 26,
+     "tier": "teaches",
+     "coverage": 0.6,
+     "text": "In {{c1::prokaryotes::prokaryotes or eukaryotes}}, the {{c2::transcription}}, {{c2::translation}}, and {{c2::degradation",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.12",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_12.png",
+   "caption": "◾ FIGURE 11.12 In eukaryotes, most gene transcripts undergo three different types of posttranscriptional processing.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 27,
+     "tier": "teaches",
+     "coverage": 0.8,
+     "text": "In eukaryotes, most primary transcripts of protein-coding genes undergo three major modifications {{c2::prior to::prior ",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 28,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The 3′ end of a eukaryotic primary transcript (pre-mRNA) that receives the poly(A) tail is generated by {{c1::cleavage}}",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.13",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_13.png",
+   "caption": "◾ FIGURE 11.13 Structure of a promoter recognized by RNA polymerase II. The TATA and CAAT boxes are located at about the same positions in the promoters of most nuclear genes encoding proteins. The GC and octamer boxes may be present or absent; when present, they occur at many different locations, either singly or in multiple copies. The sequences shown here are the consensus sequences for each of the promoter elements. The conserved promoter elements are shown at their locations in the mouse thymidine kinase gene.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 40,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "In a promoter recognized by RNA polymerase II, the conserved element closest to the transcription start site (position +",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 41,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "In an RNA polymerase II promoter, the {{c1::CAAT box}}, consensus sequence {{c1::GGCCAATCT}}, usually occurs near positi",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 42,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "In RNA polymerase II promoters, the GC box has the consensus sequence {{c1::GGGCGG}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 43,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "In RNA polymerase II promoters, the octamer box has the consensus sequence {{c1::ATTTGCAT}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 87,
+     "tier": "teaches",
+     "coverage": 0.571,
+     "text": " Basal transcription factors  are {{c1::proteins eukaryotic RNA polymerase needs to start transcription}}.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.14",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_14.png",
+   "caption": "◾ FIGURE 11.14 The initiation of transcription by RNA polymerase II requires the formation of a basal transcription initiation complex at the promoter region. The assembly of this complex begins when TFIID, which contains the TATA-binding protein (TBP), binds to the TATA box. The other transcription factors and RNA polymerase II join the complex in the sequence shown.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 30,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "Unlike the <i>E. coli</i> enzyme, {{c1::all::all, or only some}} eukaryotic RNA polymerases require the assistance of ot",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 44,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The first three basal transcription factors to interact with an RNA polymerase II promoter, in order of arrival, are:<br",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 45,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "{{c1::TFIID}}, the first basal transcription factor to interact with an RNA polymerase II promoter, contains the {{c2::T",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 46,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "After TFIID, TFIIA and TFIIB are in place, the basal transcription factor that joins next is {{c1::TFIIF}}. The same fac",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 47,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "The basal transcription factor that joins the initiation complex right after TFIIF and RNA polymerase II is {{c1::TFIIE}",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 48,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "Two more basal transcription factors, {{c1::TFIIH}} and {{c1::TFIIJ}}, join the RNA polymerase II initiation complex aft",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 49,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "The basal transcription factor {{c1::TFIIH}} has {{c2::helicase}} activity, used alongside RNA polymerase II during {{c3",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 87,
+     "tier": "teaches",
+     "coverage": 0.429,
+     "text": "<b>Basal transcription factors</b> are {{c1::proteins eukaryotic RNA polymerase needs to start transcription}}.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.16",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_16.png",
+   "caption": "◾ FIGURE 11.16 7-Methyl guanosine (7-MG) caps are added to the 5′ ends of pre-mRNAs shortly after the elongation process begins. (a) Early stage in the transcription of a gene by RNA polymerase II. (b) Pathway of biosynthesis of the 7-MG cap.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 50,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "The 7-methyl guanosine (7-MG) cap at the 5′ end of a eukaryotic pre-mRNA serves two functions:<br><br>{{c1::initiation o",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.17",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_17.png",
+   "caption": "◾ FIGURE 11.17 Poly(A) tails are added to the 3′ ends of transcripts by the enzyme poly(A) polymerase. The 3′-end substrates for poly(A) polymerase are produced by endonucleolytic cleavage of the transcript downstream from a polyadenylation signal, which has the consensus sequence AAUAAA.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 51,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "{{c1::Polyadenylation::process}} is the {{c2::addition of a poly(A) tail}} to the {{c3::3′::5′ or 3′}} end of a eukaryot",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 52,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Once the 3′ end of a eukaryotic transcript has been generated, the enzyme {{c1::poly(A) polymerase}} adds a tail about {",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 88,
+     "tier": "context",
+     "coverage": 0.25,
+     "text": " Colinear  means {{c1::arranged in the same order, unit for unit}}.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.18",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_18.png",
+   "caption": "◾ FIGURE 11.18 Editing of the apolipoprotein-B mRNA in the intestines of mammals.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 53,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "RNA editing alters the information content of gene transcripts in two ways:<br><br>(1) {{c1::changing the structures of ",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.2",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_2.png",
+   "caption": "◾ FIGURE 11.2 Gene expression involves two steps: transcription and translation, in both prokaryotes (a) and eukaryotes (b). In eukaryotes, the primary transcripts or pre-mRNAs often must be processed by the excision of introns and the addition of 5′ 7-methyl guanosine caps (Cap) and 3′ poly(A) tails [(A)n]. In addition, eukaryotic mRNAs must be transported from the nucleus to the cytoplasm, where they are translated.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 4,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "In {{c1::eukaryotes::prokaryotes or eukaryotes}}, the primary transcript usually is a {{c2::precursor to the mRNA::relat",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 83,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "A <b>primary transcript</b> is {{c1::the RNA exactly as transcribed, before any processing}}.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.20",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_20.png",
+   "caption": "◾ FIGURE 11.20 The excision of intron sequences from primary transcripts by RNA splicing. The splicing mechanism must be accurate to the single nucleotide to assure that codons in downstream exons are translated correctly to produce the right amino acid sequence in the polypeptide product.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 54,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "{{c1::Introns}} (named for <i>{{c2::intervening}}</i> sequences) are the stretches of a eukaryotic gene that are excised",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 55,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "{{c1::Exons}} (named for <i>{{c2::expressed}}</i> sequences) are the parts of a pre-mRNA, coding and noncoding alike, th",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 58,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "Across the introns of nuclear genes, the only completely conserved sequences are the two dinucleotides at the intron's e",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 78,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "In the splice-junction consensus of nuclear genes (for example G100 T100 opening the intron), a numerical subscript give",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 80,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "For a protein-coding gene, RNA splicing must join the exons with accuracy to {{c1::the single nucleotide::what tolerance",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 81,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "In the processing of a eukaryotic transcript, {{c1::splicing::process}} is {{c2::removing introns and joining the remain",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 57,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "The spliceosomes that remove introns from pre-mRNA are particles built of {{c1::RNA and protein::two macromole",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.21",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_21.png",
+   "caption": "◾ FIGURE 11.21 Diagram of the mechanism of self-splicing of the Tetrahymena thermophila rRNA precursor and the subsequent circularization of the excised intron.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 62,
+     "tier": "teaches",
+     "coverage": 0.333,
+     "text": "The first self-splicing intron was found in {{c1::1982::year}} by {{c1::Thomas Cech::researcher}} and coworkers, in the ",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 64,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "Type 2 splicing (the self-splicing <i>Tetrahymena</i> rRNA intron) uses no protein and no external energy source, but it",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 65,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "In type 2 splicing (self-splicing) the intron is excised by {{c1::two::how many}} phosphoester bond transfers, after whi",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 66,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "The phosphoester bond transfers of self-splicing are potentially {{c1::reversible::reversible or irreversible}}, so what",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 67,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "Because a self-splicing reaction is {{c1::intramolecular::intra- or intermolecular}}, its rate is {{c1::not::not / stron",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.22",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_22.png",
+   "caption": "◾ FIGURE 11.22 The postulated roles of the snRNA-containing snRNPs in nuclear pre-mRNA splicing.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 68,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "Nuclear pre-mRNA introns come out in two steps, like tRNA and <i>Tetrahymena</i> rRNA introns, but a spliceosome does th",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 69,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "The five snRNAs that take part in nuclear pre-mRNA splicing as components of the spliceosome are:<br><br>{{c1::U1}}<br><",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 70,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "Of the snRNAs U1 through U6, the one that is <b>not</b> a component of the spliceosome is {{c1::U3::which one}}; it is l",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 72,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "Not every spliceosomal snRNA gets a particle of its own — which snRNAs go where?<br><br>{{c1::U1, U2 and U5::which three",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 73,
+     "tier": "teaches",
+     "coverage": 0.4,
+     "text": "Spliceosome assembly on a nuclear pre-mRNA — which snRNP binds where, in order of arrival:<br><br>{{c2::U1::which snRNP}",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 74,
+     "tier": "teaches",
+     "coverage": 0.25,
+     "text": "Nuclear pre-mRNA splicing (step 1): on the complete spliceosome the {{c1::5′::5′ or 3′}} splice site is cleaved, and the",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 75,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "Nuclear pre-mRNA splicing (step 2): the {{c1::3′::5′ or 3′}} splice site is cleaved and the two exons are joined by a no",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 76,
+     "tier": "teaches",
+     "coverage": 0.571,
+     "text": "In nuclear pre-mRNA splicing the {{c1::branch point::term}} is {{c2::a conserved A near the intron's 3′ end}} — the resi",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 57,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "The spliceosomes that remove introns from pre-mRNA are particles built of {{c1::RNA and protein::two macromolecule class",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 58,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "Across the introns of nuclear genes, the only completely conserved sequences are the two dinucleotides at the intron's e",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 78,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "In the splice-junction consensus of nuclear genes (for example G100 T100 opening the intron), a numerical subscript give",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 71,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "Spliceosomal snRNAs never exist as free RNA molecules: each is packaged with proteins into a {{c1::snRNP::particle}}. A ",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.3",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_3.png",
+   "caption": "◾ FIGURE 11.3 An overview of gene expression, emphasizing the transcriptional origin of miRNA, snRNA, tRNA, rRNA, and mRNA, the splicing function of snRNA, the regulation of gene expression by miRNA, and the translational roles of tRNA, rRNA, mRNA, and ribosomes. Dicer is a nuclease that processes the miRNA precursor into miRNA, and RISC is the RNA-induced silencing complex.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 3,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "Messenger RNAs (mRNAs) are the RNA molecules that are {{c1::translated on ribosomes::their fate}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 5,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Five classes of RNA molecules play essential roles in gene expression:<br><br>{{c1::mRNA}}, {{c1::tRNA}}, {{c1::rRNA}} —",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 6,
+     "tier": "teaches",
+     "coverage": 0.5,
+     "text": "{{c1::Transfer RNAs (tRNAs)::RNA class}} are small RNA molecules that function as {{c2::adaptors between amino acids and",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 7,
+     "tier": "teaches",
+     "coverage": 0.333,
+     "text": "{{c1::Ribosomal RNAs (rRNAs)::RNA class}} are {{c2::structural and catalytic::two roles}} components of the {{c1::riboso",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 8,
+     "tier": "teaches",
+     "coverage": 0.143,
+     "text": "{{c1::Small nuclear RNAs (snRNAs)::RNA class}} are structural components of {{c2::spliceosomes::organelle}}, the {{c1::n",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 9,
+     "tier": "teaches",
+     "coverage": 0.111,
+     "text": "{{c1::Micro RNAs (miRNAs)::RNA class}} are the RNAs that block the expression of {{c2::complementary or partially comple",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 10,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "Micro RNAs (miRNAs) are short, {{c2::single::single or double}}-stranded RNAs {{c1::20 to 22 nucleotides::length}} long.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 11,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Of the five RNA classes, <b>only</b> {{c1::mRNA::RNA class}} is translated into a polypeptide; the final products of the",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.4",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_4.png",
+   "caption": "◾ FIGURE 11.4 RNA synthesis utilizes only one DNA strand of a gene as template.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 13,
+     "tier": "teaches",
+     "coverage": 0.333,
+     "text": "An RNA transcript is {{c1::complementary::sequence relationship}} and {{c1::antiparallel::parallel or antiparallel}} to ",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.7",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_7.png",
+   "caption": "◾ FIGURE 11.7 The three stages of transcription: initiation, elongation, and termination.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 14,
+     "tier": "teaches",
+     "coverage": 0.571,
+     "text": "A {{c1::transcription unit}} is {{c2::the DNA segment transcribed into one RNA molecule}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 15,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Transcription has three stages, in order:<br><br>(1) {{c1::initiation}}<br><br>→ (2) {{c1::elongation}}<br><br>→ (3) {{c",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 84,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "A  promoter  is {{c1::where RNA polymerase binds DNA to start transcription}}.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.8",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_8.png",
+   "caption": "◾ FIGURE 11.8 Structure of a typical promoter in E. coli. RNA polymerase binds to the −35 sequence of the promoter and initiates unwinding of the DNA strands at the AT-rich −10 sequence. Transcription begins within the transcription bubble at a site five to nine base pairs beyond the −10 sequence.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 20,
+     "tier": "teaches",
+     "coverage": 0.333,
+     "text": "In a transcription unit, <b>upstream</b> sequences precede and <b>downstream</b> sequences follow one reference point: t",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 21,
+     "tier": "teaches",
+     "coverage": 0.667,
+     "text": "In an <i>E. coli</i> promoter, the two conserved consensus sequences, as read on the {{c2::nontemplate::template or nont",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 22,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "In an <i>E. coli</i> promoter, the sigma subunit of RNA polymerase initially binds the {{c1::−35::−10 or −35}} sequence,",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 84,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "A <b>promoter</b> is {{c1::where RNA polymerase binds DNA to start transcription}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 16,
+     "tier": "context",
+     "coverage": 1.0,
+     "text": "The  E. coli  RNA polymerase has a molecular weight of about {{c1::480,000}} and consists of {{c2::five::numbe",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "FIGURE 11.9",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/FIGURE_11_9.png",
+   "caption": "◾ FIGURE 11.9 Elongation of an RNA chain catalyzed by RNA polymerase in E. coli. (a) RNA polymerase is bound to DNA and is covalently extending the RNA chain. (b) RNA polymerase has moved downstream from its position in (a), processively extending the nascent RNA chain.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 18,
+     "tier": "context",
+     "coverage": 0.333,
+     "text": "Each kind of subunit in the  E. coli  RNA polymerase holoenzyme has its own job:  α → {{c1::helps assemble the",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "SLIDE 24 FIGURE (Isaacs Ch 11b)",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/LECTURE_11b_slide24_trna_splicing.png",
+   "caption": "Isaacs Chapter 11b, slide 24 'Splicing: type 1' figure (Principles of Genetics 4/e Fig 11-25): a tRNA precursor with its intron sequence is cut at both ends by a splicing endonuclease (I), releasing the intron, and the two tRNA halves are joined by a splicing ligase (II) to give the mature tRNA.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 59,
+     "tier": "teaches",
+     "coverage": 0.6,
+     "text": "Yeast tRNA precursor splicing (stage I): a {{c1::nuclear membrane-bound::its location}} splicing endonuclease makes {{c2",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 61,
+     "tier": "teaches",
+     "coverage": 0.143,
+     "text": "The specificity of type 1 (tRNA-precursor) splicing resides in the precursor's conserved {{c1::three-dimensional structu",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 56,
+     "tier": "context",
+     "coverage": 0.308,
+     "text": "Introns are removed by three splicing mechanisms, each tied to its own class of precursor RNA — match the mach",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  },
+  {
+   "figure": "TABLE 11.1",
+   "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/genetics/figures/study_v2/TABLE_11_1.png",
+   "caption": "TABLE 11.1 Characteristics of the Five RNA Polymerases of Eukaryotes. Enzyme / Location / Products: RNA polymerase I — Nucleolus — Ribosomal RNAs, excluding 5S rRNA. RNA polymerase II — Nucleus — Nuclear pre-mRNAs. RNA polymerase III — Nucleus — tRNAs, 5S rRNA, and other small nuclear RNAs. RNA polymerase IV — Nucleus (plant) — Small interfering RNAs (siRNAs). RNA polymerase V — Nucleus (plant) — Some siRNAs plus noncoding (antisense) transcripts of siRNA target genes.",
+   "publisher_description": null,
+   "depicts": "",
+   "cards": [
+    {
+     "card_index": 29,
+     "tier": "teaches",
+     "coverage": 0.375,
+     "text": "In eukaryotes, {{c1::heterogeneous nuclear RNA (hnRNA)}} is the name for {{c2::the population of primary trans",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 31,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Eukaryotes possess {{c1::five::number of enzymes}} different RNA polymerases, each with its own set of RNA products.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 32,
+     "tier": "teaches",
+     "coverage": 0.833,
+     "text": "Eukaryotic RNA polymerase {{c1::I::numeral}} synthesizes {{c2::all ribosomal RNAs except the small 5S rRNA::RNA class, a",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 33,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Eukaryotic RNA polymerase {{c1::II::numeral}} synthesizes the {{c2::nuclear pre-mRNAs::RNA class}}.",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 34,
+     "tier": "teaches",
+     "coverage": 0.857,
+     "text": "Eukaryotic RNA polymerase {{c1::III::numeral}} synthesizes three classes of RNA:<br><br>{{c2::tRNAs}}<br><br>{{c2::5S rR",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 35,
+     "tier": "teaches",
+     "coverage": 0.571,
+     "text": "Eukaryotic RNA polymerase {{c1::IV::IV or V}} is the one whose transcripts are processed into short RNAs called {{c2::sm",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 36,
+     "tier": "teaches",
+     "coverage": 1.0,
+     "text": "Eukaryotic RNA polymerase {{c1::V::numeral}} synthesizes some siRNAs plus {{c2::noncoding (antisense) transcripts::kind ",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 37,
+     "tier": "teaches",
+     "coverage": 0.0,
+     "text": "Two of the eukaryotic RNA polymerases, {{c1::IV and V::numerals}}, have so far been identified only in {{c2::plants::gro",
+     "verdict": "",
+     "why": ""
+    },
+    {
+     "card_index": 86,
+     "tier": "teaches",
+     "coverage": 0.4,
+     "text": "The  nucleolus  is {{c1::the nuclear region that makes rRNA and ribosomes}}.",
+     "verdict": "",
+     "why": ""
+    }
+   ]
+  }
+ ]
+}

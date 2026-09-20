@@ -1,0 +1,54 @@
+{
+ "run_id": "2026-09-19T10-03",
+ "source": "genetics",
+ "segment": 11,
+ "started": "2026-09-19T10:03:20",
+ "skill_sha": "b87f8d13d252ebd16c7aa00a5a00fd64dbfbe0ba",
+ "note": "chapter 11 (Transcription and RNA Processing): 70 marks = 63 yellow + 7 purple, pp274-301 physical; marks-only for the book, plus the AUTHORIZED lane for splicing content from the Isaacs Ch 11b lecture PDF (Parker: 'use all of the stuff that's talking about splicing from that PowerPoint')",
+ "status": "complete",
+ "finished": "2026-09-19T21:03:25",
+ "counts": {
+  "marks_total": 70,
+  "marks_yellow": 63,
+  "marks_purple": 7,
+  "notes": 89,
+  "notes_from_marks": 67,
+  "notes_lexicon": 7,
+  "notes_authorized_lane": 22,
+  "anki_cards": 158,
+  "cards_with_figure": 75,
+  "distinct_plates_attached": 19,
+  "plates_cut_and_eyeballed": 20,
+  "figure_proposals_judged": 87,
+  "figures_kept": 75,
+  "figures_dropped": 12,
+  "figures_forced_by_hand": 8,
+  "needs_human_check": 0,
+  "numeric_cards": 44,
+  "editor_drops": 1,
+  "judge_fixes": 17,
+  "judge_drops": 1,
+  "consolidation_merges": 1,
+  "provenance_records_with_note_id": 89,
+  "blocks": 61
+ },
+ "new_hazards_found": [
+  {
+   "summary": "media_audit.py exited FAIL on the chapter-11 Book Highlights subdeck, listing all 54 chapter-9/10 plates as ORPHANED: orphans were computed against refs in --deck only, which is wrong for a multi-segment source sharing one media prefix. Fixed in media_audit.py (orphans judged collection-wide; broken/uppercase stay deck-scoped).",
+   "regression_id": "R73"
+  },
+  {
+   "summary": "extract_highlights.py returned grounding NOT_FOUND / empty context for mark 57 (p288, TFIIH helicase) although the sentence IS in the page's text layer — figure text (FIGURE 11.14's step labels) is interleaved through the paragraph and defeats the locate. Same class as the 2026-08-24 ch9 hazard (marks 48/72/76). Handled by rendering the page and attaching an evidence crop (visual_source), as were marks 30/31/32, whose sentences are genuinely absent from the text layer.",
+   "mechanizable": false,
+   "why": "deferred, not impossible: the locate needs a fuzzy match that skips interleaved figure-label lines (extractor-level change, outside this run's scope); until then the render + visual_source route is the documented path and R13 keeps an unevidenced card from shipping."
+  },
+  {
+   "summary": "build_figure_index.py's own cuts for this chapter were fragments again (18 vector-render crops, none the complete plate) and its duplicate-art rule dropped BOTH FIGURE 11.12 and TABLE 11.1 (the same raster claimed by two captions). All 19 plates were re-cut by hand at 450 dpi as complete figures with captions and eyeballed one by one; the lecture's slide-24 tRNA plate was extracted because this edition prints no tRNA-splicing figure.",
+   "regression_id": "R55"
+  },
+  {
+   "summary": "the figure matcher paired 8 cards with a same-topic plate that did not depict them (FIGURE 11.1 for 'primary transcript', FIGURE 11.13 for basal factors, FIGURE 11.20 for the GT…AG dinucleotides and the junction consensus, FIGURE 11.7 for 'promoter', TABLE 11.1 for hnRNA…); each was replaced by hand with the depicting plate at the judge-look, and 12 pairings were dropped outright.",
+   "regression_id": "R19"
+  }
+ ]
+}

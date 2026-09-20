@@ -1,0 +1,972 @@
+{
+ "teaches": [
+  {
+   "card_index": 5,
+   "text": "Five classes of RNA molecules play essential roles in gene expression:  {{c1::mRNA}}, {{c1::tRNA}}, {{c1::rRNA",
+   "figure": "FIGURE 11.3",
+   "file": "figures/study_v2/FIGURE_11_3.png",
+   "native_file": "figures/full/FIGURE_11_3.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "mirna",
+    "mrna",
+    "rrna",
+    "snrna",
+    "trna"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 11,
+   "text": "Of the five RNA classes,  only  {{c1::mRNA::RNA class}} is translated into a polypeptide; the final products o",
+   "figure": "FIGURE 11.1",
+   "file": "figures/study_v2/FIGURE_11_1.png",
+   "native_file": "figures/full/FIGURE_11_1.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "mrna"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 24,
+   "text": "In  rho-independent  termination in  E. coli , the terminator's GC-rich {{c1::inverted repeats::DNA sequence f",
+   "figure": "FIGURE 11.10",
+   "file": "figures/study_v2/FIGURE_11_10.png",
+   "native_file": "figures/full/FIGURE_11_10.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "hairpin",
+    "inverted",
+    "pause",
+    "repeats"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 33,
+   "text": "Eukaryotic RNA polymerase {{c1::II::numeral}} synthesizes the {{c2::nuclear pre-mRNAs::RNA class}}.",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "nuclear",
+    "pre-mrnas"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 36,
+   "text": "Eukaryotic RNA polymerase {{c1::V::numeral}} synthesizes some siRNAs plus {{c2::noncoding (antisense) transcri",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "antisense",
+    "noncoding",
+    "transcripts"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 44,
+   "text": "The first three basal transcription factors to interact with an RNA polymerase II promoter, in order of arriva",
+   "figure": "FIGURE 11.14",
+   "file": "figures/study_v2/FIGURE_11_14.png",
+   "native_file": "figures/full/FIGURE_11_14.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "tfiia",
+    "tfiib",
+    "tfiid"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 45,
+   "text": "{{c1::TFIID}}, the first basal transcription factor to interact with an RNA polymerase II promoter, contains t",
+   "figure": "FIGURE 11.14",
+   "file": "figures/study_v2/FIGURE_11_14.png",
+   "native_file": "figures/full/FIGURE_11_14.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "protein",
+    "tata-binding",
+    "tbp",
+    "tfiid"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 47,
+   "text": "The basal transcription factor that joins the initiation complex right after TFIIF and RNA polymerase II is {{",
+   "figure": "FIGURE 11.14",
+   "file": "figures/study_v2/FIGURE_11_14.png",
+   "native_file": "figures/full/FIGURE_11_14.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "downstream",
+    "tfiie"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 30,
+   "text": "Unlike the  E. coli  enzyme, {{c1::all::all, or only some}} eukaryotic RNA polymerases require the assistance ",
+   "figure": "FIGURE 11.14",
+   "file": "figures/study_v2/FIGURE_11_14.png",
+   "native_file": "figures/full/FIGURE_11_14.png",
+   "coverage": 0.667,
+   "page_dist": 1,
+   "matched_terms": [
+    "factors",
+    "transcription"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 85,
+   "text": "A  promoter  is {{c1::where RNA polymerase binds DNA to start transcription}}.",
+   "figure": "FIGURE 11.7",
+   "file": "figures/study_v2/FIGURE_11_7.png",
+   "native_file": "figures/full/FIGURE_11_7.png",
+   "coverage": 0.667,
+   "page_dist": 2,
+   "matched_terms": [
+    "dna",
+    "polymerase",
+    "rna",
+    "transcription"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 26,
+   "text": "In {{c1::prokaryotes::prokaryotes or eukaryotes}}, the {{c2::transcription}}, {{c2::translation}}, and {{c2::d",
+   "figure": "FIGURE 11.11",
+   "file": "figures/study_v2/FIGURE_11_11.png",
+   "native_file": "figures/full/FIGURE_11_11.png",
+   "coverage": 0.6,
+   "page_dist": 1,
+   "matched_terms": [
+    "simultaneously",
+    "transcription",
+    "translation"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 14,
+   "text": "A {{c1::transcription unit}} is {{c2::the DNA segment transcribed into one RNA molecule}}.",
+   "figure": "FIGURE 11.7",
+   "file": "figures/study_v2/FIGURE_11_7.png",
+   "native_file": "figures/full/FIGURE_11_7.png",
+   "coverage": 0.571,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "molecule",
+    "rna",
+    "transcription"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 35,
+   "text": "Eukaryotic RNA polymerase {{c1::IV::IV or V}} is the one whose transcripts are processed into short RNAs calle",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 0.571,
+   "page_dist": 0,
+   "matched_terms": [
+    "interfering",
+    "rnas",
+    "sirnas",
+    "small"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 88,
+   "text": " Basal transcription factors  are {{c1::proteins eukaryotic RNA polymerase needs to start transcription}}.",
+   "figure": "FIGURE 11.13",
+   "file": "figures/study_v2/FIGURE_11_13.png",
+   "native_file": "figures/full/FIGURE_11_13.png",
+   "coverage": 0.571,
+   "page_dist": 1,
+   "matched_terms": [
+    "polymerase",
+    "proteins",
+    "rna",
+    "transcription"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 0,
+   "text": "Under the central dogma of molecular biology, genetic information  usually  flows two ways:  {{c1::DNA \u2192 DNA::",
+   "figure": "FIGURE 11.1",
+   "file": "figures/study_v2/FIGURE_11_1.png",
+   "native_file": "figures/full/FIGURE_11_1.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 2,
+   "text": "Beyond the central dogma's two usual flows, genetic information also moves two more ways in RNA viruses:  {{c1",
+   "figure": "FIGURE 11.1",
+   "file": "figures/study_v2/FIGURE_11_1.png",
+   "native_file": "figures/full/FIGURE_11_1.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "rna"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 3,
+   "text": "Messenger RNAs (mRNAs) are the RNA molecules that are {{c1::translated on ribosomes::their fate}}.",
+   "figure": "FIGURE 11.1",
+   "file": "figures/study_v2/FIGURE_11_1.png",
+   "native_file": "figures/full/FIGURE_11_1.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "ribosomes"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 4,
+   "text": "In {{c1::eukaryotes::prokaryotes or eukaryotes}}, the primary transcript usually is a {{c2::precursor to the m",
+   "figure": "FIGURE 11.2",
+   "file": "figures/study_v2/FIGURE_11_2.png",
+   "native_file": "figures/full/FIGURE_11_2.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "eukaryotes",
+    "mrna"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 6,
+   "text": "{{c1::Transfer RNAs (tRNAs)::RNA class}} are small RNA molecules that function as {{c2::adaptors between amino",
+   "figure": "FIGURE 11.3",
+   "file": "figures/study_v2/FIGURE_11_3.png",
+   "native_file": "figures/full/FIGURE_11_3.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "acids",
+    "amino",
+    "mrna",
+    "trnas"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 39,
+   "text": "An enzyme that copies RNA into DNA is formally an {{c1::RNA-dependent DNA polymerase::formal name}}, though it",
+   "figure": "FIGURE 11.13",
+   "file": "figures/study_v2/FIGURE_11_13.png",
+   "native_file": "figures/full/FIGURE_11_13.png",
+   "coverage": 0.4,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "polymerase"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 87,
+   "text": "The  nucleolus  is {{c1::the nuclear region that makes rRNA and ribosomes}}.",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 0.4,
+   "page_dist": 0,
+   "matched_terms": [
+    "nuclear",
+    "rrna"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches"
+  },
+  {
+   "card_index": 29,
+   "text": "In eukaryotes, {{c1::heterogeneous nuclear RNA (hnRNA)}} is the name for {{c2::the population of primary trans",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 0.375,
+   "page_dist": 1,
+   "matched_terms": [
+    "nuclear",
+    "rna",
+    "transcripts"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches"
+  }
+ ],
+ "context": [
+  {
+   "card_index": 15,
+   "text": "Transcription has three stages, in order:  (1) {{c1::initiation}}  \u2192 (2) {{c1::elongation}}  \u2192 (3) {{c1::termi",
+   "figure": "FIGURE 11.7",
+   "file": "figures/study_v2/FIGURE_11_7.png",
+   "native_file": "figures/full/FIGURE_11_7.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "elongation",
+    "initiation",
+    "termination"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 16,
+   "text": "The  E. coli  RNA polymerase has a molecular weight of about {{c1::480,000}} and consists of {{c2::five::numbe",
+   "figure": "FIGURE 11.8",
+   "file": "figures/study_v2/FIGURE_11_8.png",
+   "native_file": "figures/full/FIGURE_11_8.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "five"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 28,
+   "text": "The 3\u2032 end of a eukaryotic primary transcript (pre-mRNA) that receives the poly(A) tail is generated by {{c1::",
+   "figure": "FIGURE 11.12",
+   "file": "figures/study_v2/FIGURE_11_12.png",
+   "native_file": "figures/full/FIGURE_11_12.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "cleavage"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 31,
+   "text": "Eukaryotes possess {{c1::five::number of enzymes}} different RNA polymerases, each with its own set of RNA pro",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "five"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 40,
+   "text": "In a promoter recognized by RNA polymerase II, the conserved element closest to the transcription start site (",
+   "figure": "FIGURE 11.13",
+   "file": "figures/study_v2/FIGURE_11_13.png",
+   "native_file": "figures/full/FIGURE_11_13.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "box",
+    "tata",
+    "tataaaa"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 41,
+   "text": "In an RNA polymerase II promoter, the {{c1::CAAT box}}, consensus sequence {{c1::GGCCAATCT}}, usually occurs n",
+   "figure": "FIGURE 11.13",
+   "file": "figures/study_v2/FIGURE_11_13.png",
+   "native_file": "figures/full/FIGURE_11_13.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "box",
+    "caat",
+    "ggccaatct"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 42,
+   "text": "In RNA polymerase II promoters, the GC box has the consensus sequence {{c1::GGGCGG}}.",
+   "figure": "FIGURE 11.13",
+   "file": "figures/study_v2/FIGURE_11_13.png",
+   "native_file": "figures/full/FIGURE_11_13.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "gggcgg"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 43,
+   "text": "In RNA polymerase II promoters, the octamer box has the consensus sequence {{c1::ATTTGCAT}}.",
+   "figure": "FIGURE 11.13",
+   "file": "figures/study_v2/FIGURE_11_13.png",
+   "native_file": "figures/full/FIGURE_11_13.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "atttgcat"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 51,
+   "text": "{{c1::Polyadenylation::process}} is the {{c2::addition of a poly(A) tail}} to the {{c3::3\u2032::5\u2032 or 3\u2032}} end of ",
+   "figure": "FIGURE 11.17",
+   "file": "figures/study_v2/FIGURE_11_17.png",
+   "native_file": "figures/full/FIGURE_11_17.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "addition",
+    "poly",
+    "polyadenylation",
+    "tail"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 52,
+   "text": "Once the 3\u2032 end of a eukaryotic transcript has been generated, the enzyme {{c1::poly(A) polymerase}} adds a ta",
+   "figure": "FIGURE 11.17",
+   "file": "figures/study_v2/FIGURE_11_17.png",
+   "native_file": "figures/full/FIGURE_11_17.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "poly",
+    "polymerase"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 34,
+   "text": "Eukaryotic RNA polymerase {{c1::III::numeral}} synthesizes three classes of RNA:  {{c2::tRNAs}}  {{c2::5S rRNA",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 0.857,
+   "page_dist": 0,
+   "matched_terms": [
+    "iii",
+    "nuclear",
+    "rnas",
+    "rrna",
+    "small",
+    "trnas"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 32,
+   "text": "Eukaryotic RNA polymerase {{c1::I::numeral}} synthesizes {{c2::all ribosomal RNAs except the small 5S rRNA::RN",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 0.833,
+   "page_dist": 0,
+   "matched_terms": [
+    "nucleolus",
+    "ribosomal",
+    "rnas",
+    "rrna",
+    "small"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 1,
+   "text": "Genetic information moves from DNA to protein in two steps: (1) {{c1::transcription::process}}, the transfer o",
+   "figure": "FIGURE 11.1",
+   "file": "figures/study_v2/FIGURE_11_1.png",
+   "native_file": "figures/full/FIGURE_11_1.png",
+   "coverage": 0.8,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "rna",
+    "transcription",
+    "translation"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 27,
+   "text": "In eukaryotes, most primary transcripts of protein-coding genes undergo three major modifications {{c2::prior ",
+   "figure": "FIGURE 11.12",
+   "file": "figures/study_v2/FIGURE_11_12.png",
+   "native_file": "figures/full/FIGURE_11_12.png",
+   "coverage": 0.8,
+   "page_dist": 1,
+   "matched_terms": [
+    "cap",
+    "guanosine",
+    "intron",
+    "methyl",
+    "out",
+    "poly",
+    "spliced",
+    "tail"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 21,
+   "text": "In an  E. coli  promoter, the two conserved consensus sequences, as read on the {{c2::nontemplate::template or",
+   "figure": "FIGURE 11.8",
+   "file": "figures/study_v2/FIGURE_11_8.png",
+   "native_file": "figures/full/FIGURE_11_8.png",
+   "coverage": 0.667,
+   "page_dist": 0,
+   "matched_terms": [
+    "nontemplate",
+    "ttgaca"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 59,
+   "text": "Yeast tRNA precursor splicing (stage I): a {{c1::nuclear membrane-bound::its location}} splicing endonuclease ",
+   "figure": "SLIDE 24 FIGURE (Isaacs Ch 11b)",
+   "file": "figures/study_v2/LECTURE_11b_slide24_trna_splicing.png",
+   "native_file": "figures/full/LECTURE_11b_slide24_trna_splicing.png",
+   "coverage": 0.6,
+   "page_dist": 0,
+   "matched_terms": [
+    "ends",
+    "halves",
+    "trna"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 25,
+   "text": "In {{c2::rho-independent::rho-dependent or rho-independent}} termination in  E. coli , once the RNA hairpin ha",
+   "figure": "FIGURE 11.10",
+   "file": "figures/study_v2/FIGURE_11_10.png",
+   "native_file": "figures/full/FIGURE_11_10.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "rho-independent"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 38,
+   "text": "{{c1::Reverse transcription::process}} is {{c2::the copying of RNA into complementary DNA}}, which some RNA vi",
+   "figure": "FIGURE 11.13",
+   "file": "figures/study_v2/FIGURE_11_13.png",
+   "native_file": "figures/full/FIGURE_11_13.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "rna",
+    "transcription"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 46,
+   "text": "After TFIID, TFIIA and TFIIB are in place, the basal transcription factor that joins next is {{c1::TFIIF}}. Th",
+   "figure": "FIGURE 11.14",
+   "file": "figures/study_v2/FIGURE_11_14.png",
+   "native_file": "figures/full/FIGURE_11_14.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "tfiif"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 7,
+   "text": "{{c1::Ribosomal RNAs (rRNAs)::RNA class}} are {{c2::structural and catalytic::two roles}} components of the {{",
+   "figure": "FIGURE 11.3",
+   "file": "figures/study_v2/FIGURE_11_3.png",
+   "native_file": "figures/full/FIGURE_11_3.png",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "ribosomal",
+    "ribosomes"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 13,
+   "text": "An RNA transcript is {{c1::complementary::sequence relationship}} and {{c1::antiparallel::parallel or antipara",
+   "figure": "FIGURE 11.4",
+   "file": "figures/study_v2/FIGURE_11_4.png",
+   "native_file": "figures/full/FIGURE_11_4.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "nontemplate",
+    "template"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 18,
+   "text": "Each kind of subunit in the  E. coli  RNA polymerase holoenzyme has its own job:  \u03b1 \u2192 {{c1::helps assemble the",
+   "figure": "FIGURE 11.9",
+   "file": "figures/study_v2/FIGURE_11_9.png",
+   "native_file": "figures/full/FIGURE_11_9.png",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "dna",
+    "polymerase",
+    "region",
+    "ribonucleoside",
+    "site",
+    "triphosphate"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 20,
+   "text": "In a transcription unit,  upstream  sequences precede and  downstream  sequences follow one reference point: t",
+   "figure": "FIGURE 11.8",
+   "file": "figures/study_v2/FIGURE_11_8.png",
+   "native_file": "figures/full/FIGURE_11_8.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "site"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 23,
+   "text": " E. coli  has two types of transcription terminator, classified by whether termination needs a protein called ",
+   "figure": "FIGURE 11.10",
+   "file": "figures/study_v2/FIGURE_11_10.png",
+   "native_file": "figures/full/FIGURE_11_10.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "rho-independent"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 49,
+   "text": "The basal transcription factor {{c1::TFIIH}} has {{c2::helicase}} activity, used alongside RNA polymerase II d",
+   "figure": "FIGURE 11.16",
+   "file": "figures/study_v2/FIGURE_11_16.png",
+   "native_file": "figures/full/FIGURE_11_16.png",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "elongation"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 57,
+   "text": "The spliceosomes that remove introns from pre-mRNA are particles built of {{c1::RNA and protein::two macromole",
+   "figure": "FIGURE 11.20",
+   "file": "figures/study_v2/FIGURE_11_20.png",
+   "native_file": "figures/full/FIGURE_11_20.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "rna"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 56,
+   "text": "Introns are removed by three splicing mechanisms, each tied to its own class of precursor RNA \u2014 match the mach",
+   "figure": "SLIDE 24 FIGURE (Isaacs Ch 11b)",
+   "file": "figures/study_v2/LECTURE_11b_slide24_trna_splicing.png",
+   "native_file": "figures/full/LECTURE_11b_slide24_trna_splicing.png",
+   "coverage": 0.308,
+   "page_dist": 1,
+   "matched_terms": [
+    "endonuclease",
+    "ligase",
+    "splicing",
+    "trna"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 89,
+   "text": " Colinear  means {{c1::arranged in the same order, unit for unit}}.",
+   "figure": "FIGURE 11.17",
+   "file": "figures/study_v2/FIGURE_11_17.png",
+   "native_file": "figures/full/FIGURE_11_17.png",
+   "coverage": 0.25,
+   "page_dist": 1,
+   "matched_terms": [
+    "unit"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 50,
+   "text": "The 7-methyl guanosine (7-MG) cap at the 5\u2032 end of a eukaryotic pre-mRNA serves two functions:  {{c1::initiati",
+   "figure": "FIGURE 11.14",
+   "file": "figures/study_v2/FIGURE_11_14.png",
+   "native_file": "figures/full/FIGURE_11_14.png",
+   "coverage": 0.2,
+   "page_dist": 1,
+   "matched_terms": [
+    "initiation"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 83,
+   "text": "A  codon  is {{c1::three mRNA nucleotides that specify one amino acid}}.",
+   "figure": "FIGURE 11.1",
+   "file": "figures/study_v2/FIGURE_11_1.png",
+   "native_file": "figures/full/FIGURE_11_1.png",
+   "coverage": 0.2,
+   "page_dist": 0,
+   "matched_terms": [
+    "mrna"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 84,
+   "text": "A  primary transcript  is {{c1::the RNA exactly as transcribed, before any processing}}.",
+   "figure": "FIGURE 11.1",
+   "file": "figures/study_v2/FIGURE_11_1.png",
+   "native_file": "figures/full/FIGURE_11_1.png",
+   "coverage": 0.2,
+   "page_dist": 0,
+   "matched_terms": [
+    "rna"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 8,
+   "text": "{{c1::Small nuclear RNAs (snRNAs)::RNA class}} are structural components of {{c2::spliceosomes::organelle}}, t",
+   "figure": "FIGURE 11.2",
+   "file": "figures/study_v2/FIGURE_11_2.png",
+   "native_file": "figures/full/FIGURE_11_2.png",
+   "coverage": 0.143,
+   "page_dist": 1,
+   "matched_terms": [
+    "introns"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context"
+  },
+  {
+   "card_index": 9,
+   "text": "{{c1::Micro RNAs (miRNAs)::RNA class}} are the RNAs that block the expression of {{c2::complementary or partia",
+   "figure": "FIGURE 11.2",
+   "file": "figures/study_v2/FIGURE_11_2.png",
+   "native_file": "figures/full/FIGURE_11_2.png",
+   "coverage": 0.111,
+   "page_dist": 1,
+   "matched_terms": [
+    "translation"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context"
+  }
+ ],
+ "skipped": [],
+ "mode": "generous"
+}

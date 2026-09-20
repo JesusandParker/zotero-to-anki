@@ -629,7 +629,11 @@ python3 scripts/media_audit.py --deck "<the source's deck>" --prefix <source>_
 ```
 Zero broken refs (byte-for-byte), zero uppercase names, zero pipeline orphans — the class
 of defect that is invisible on the Mac and broken on the phone (R45/R47). Corrected assets
-always get a NEW versioned filename, never new bytes under an old name.
+always get a NEW versioned filename, never new bytes under an old name. `--deck` may be a
+single segment's deck: broken/uppercase refs are judged inside it, but orphans are judged
+against every note in the collection, because a multi-segment source shares one prefix
+across all its segment decks (R73 — the first version reported every other chapter's plates
+as orphans).
 
 ### Stage 4 — Hand off
 Tell Parker:

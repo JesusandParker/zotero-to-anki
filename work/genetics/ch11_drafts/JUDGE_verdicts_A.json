@@ -1,0 +1,296 @@
+[
+ {
+  "idx": 0,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p275 (mark 0); Why/Roster from the FIGURE 11.1 labels; both rows cold-solve from situational cues (generation-to-generation -> DNA->DNA; phenotypic expression -> DNA->protein) without restating; 2 cued answers under c1; Roster licensed because the four-flow set is split with card 2 along the book's own usual/RNA-virus line. No leak, no deixis."
+ },
+ {
+  "idx": 1,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p275 (mark 2); AAA->UUU->Phe in the Mechanism line checked on p275. c1 (step names) <-> c2 (directions) is the two-way row pairing, not an enumerated set fanned across numbers; each half cold-solves with the other shown; the RNA intermediate is the genuine recall on the c2 card."
+ },
+ {
+  "idx": 2,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Both rows grounded verbatim p275 (marks 1, 3); Why line = the unmarked reversible/irreversible sentence, Meaning line = FIGURE 11.1 labels. Rows forced by their visible anchors; c2 'RNA tumor virus' is a closed answer (retrovirus is the same referent), not open-set. Roster correct. Note: its Meaning line states cards 38/39's term<->meaning pairings on the back (teaching, not a scenario exemplar; not a check-16 hit)."
+ },
+ {
+  "idx": 3,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p275 (mark 5); one-way term->fate direction deliberately paired with card 11's reverse; 'their fate' is a slot label; nothing visible states 'translated'. Why line grounded p277. Its Distinguish line restates card 11's Text fact on the back (allowed teaching; noted as cross-card repetition, not a defect)."
+ },
+ {
+  "idx": 4,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p275 (mark 7); c1 forced-choice; c2 co-cloze (precursor to the mRNA / pre-mRNA) is anchored by visible 'eukaryotes' + 'primary transcript', not a husk. Meaning/Distinguish/Why lines grounded p275/p276 caption; 5' cap and 3' poly(A) are nomenclature. Its Why line names cap/tail/introns, card 27's answers, on the back only."
+ },
+ {
+  "idx": 5,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Stem cue p276 verbatim; role groups from the FIGURE 11.3 caption p278; all five members present (check 17 vs the full p276-p277 list). Load: 3 group-cued + 2 item-cued under c1, with the role schema as the regenerating handle. No row cue contains its own answer's expansion. Marks 5, 8-14 all cited."
+ },
+ {
+  "idx": 6,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p276 (mark 8); two-way, c2 side 6 words; Meaning line closes 'codon' from p275; Distinguish is a pure contrast (at vs into the ribosome) and no longer hands over card 7's answer."
+ },
+ {
+  "idx": 7,
+  "verdict": "FIX",
+  "checks_fired": [
+   "15",
+   "2"
+  ],
+  "reason": "The c1 card is decodable by a non-knower: the visible appositive 'the intricate machines that translate nucleotide sequences of mRNAs into amino acid sequences of polypeptides' IS the definition of the hidden 'ribosomes' (rule 3: the hidden answer's definition sitting visible), and once 'ribosomes' is decoded the 'RNA class' blank falls out by name (ribosomal). Parker's margin comment requires the whole sentence on the card, so the appositive cannot be moved; the fix is to make the note one-way and keep the only non-derivable recall (structural AND catalytic). Membership/name direction for rRNA is already tested on card 5. Back Extra unchanged; grounding p276/p277 verified.",
+  "Text": "Ribosomal RNAs (rRNAs) are {{c1::structural and catalytic::two roles}} components of the ribosomes, the intricate machines that translate nucleotide sequences of mRNAs into amino acid sequences of polypeptides.",
+  "Back Extra": "Distinguish: snRNAs are also <i>structural</i> components — of the spliceosome, not the ribosome; <i>catalytic</i> is said of rRNA alone.<br><br>Cue: keep the word catalytic — rRNA is not mere scaffolding; it takes part in the chemistry the ribosome performs."
+ },
+ {
+  "idx": 8,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p277 (mark 10); c1 (snRNA + nuclear) / c2 (spliceosomes) / c3 (excise introns) are three different facts; c2<->c3 is the licensed two-way definition of the spliceosome inside the marked sentence. Why line p275 intron/exon closure; U1/U2/U4/U5/U6 read on the p278 figure text layer; Distinguish cross-links rRNA without re-defining snRNA."
+ },
+ {
+  "idx": 9,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p277 (mark 11); c1 cold-solves from function (partially complementary mRNAs + degradation/translational repression = the book's miRNA profile, not siRNA, which this book ties to chromatin); c2 carries a form label; c3 is a closed two-member set with 'either...or' showing the count. Mechanism line = FIGURE 11.3 caption (Dicer, RISC). Not a duplicate of card 10."
+ },
+ {
+  "idx": 10,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "numeric: '20 to 22 nucleotides' checked against p277 text and the p277 render (mark 11); unit inside the cloze, '::length' + trailing 'long' announce the slot; single/double forced-choice present. Back Extra grounded (caption + marked 'not translated')."
+ },
+ {
+  "idx": 11,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded p277 (marks 12, 13) + p275 (mark 5); negator bold, carve-out clozed with an 'RNA class' slot label (rule 21 satisfied); the four non-translated classes are named only on the back, so no elimination leak. Reverse direction lives on card 3 (two-way split across two notes, licensed)."
+ },
+ {
+  "idx": 12,
+  "verdict": "PASS",
+  "checks_fired": [
+   "19-cleared"
+  ],
+  "reason": "husk_groups cleared: cover both c1 spans and the remainder still carries an independent anchor for each ('Compared with DNA synthesis ... require a preexisting primer strand' forces does/does not via its forced-choice hint; 'RNA chains are initiated ... [Latin phrase]' forces de novo). Neither blank's only cue is the other, and the two spans are one fact (no primer = de novo), so grouping is honest; splitting to c1/c2 would let either visible half decode the other. Grounded verbatim p279 (mark 15); Distinguish/Pitfall lines are unmarked p279 teaching only."
+ },
+ {
+  "idx": 13,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p279 (mark 16); c1 relationships (complementary/antiparallel/identical-with-U) and c2 strand identity (template/nontemplate) are different facts, both forced-choice where binary; U-for-T exception kept inside the answer. Back Extra: template/nontemplate definitions, polarity Pitfall faithful to the FIGURE 11.4 strand labels, sense/antisense Distinguish, all p279."
+ },
+ {
+  "idx": 14,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p281 (mark 19); two-way, c2 side 8 words; the Distinguish line (not a synonym for gene; may span several contiguous genes) is exactly what keeps 'gene' from being an alternative answer. No leak."
+ },
+ {
+  "idx": 15,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p281 (mark 20); three stages complete vs the page (check 17); ordinals printed, arrows as scaffold, <br><br> rows; 3 uncued under c1. Mechanism/Distinguish lines grounded p279/p281, unmarked, never clozed."
+ },
+ {
+  "idx": 16,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "numeric: 480,000 and five re-read on p281 (mark 21); 'molecular weight of about' announces the first slot, 'five' carries its rule-27 count hint; Pitfall (two identical -> four distinct) grounded p281; 480 kDa grounded lecture line 53. Not a duplicate of card 31's 'five' (different count, unmistakable stems)."
+ },
+ {
+  "idx": 17,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "numeric: alpha2-beta-beta'-sigma checked character by character against p281 (prime U+2032) (mark 22); two-way holoenzyme <-> composition; Distinguish (core = holoenzyme minus sigma, mark 23) and Pitfall (random in-vitro starts) grounded p281."
+ },
+ {
+  "idx": 18,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Forward keyed panel, 4 cued rows under c1; every row grounded verbatim p281 (marks 23-26); labels cue without restating; 'Each kind of subunit' keeps the stem true (five polypeptides, four kinds). Reverse direction on card 19 is the licensed forward/reverse pairing. Back Extra grounded p281 + lecture line 55 (rNTP)."
+ },
+ {
+  "idx": 19,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Reverse keyed panel, 3 cued rows, one c1; rows grounded verbatim p281 (marks 24-26); alpha row correctly omitted (its label would name the answer). Back Extra Cue is a memory hook, Why grounded p281 + lecture line 65. Pair with card 18 = two-way match, not a duplicate."
+ },
+ {
+  "idx": 20,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Fair test after the re-scope: the marked up/down words are decodable from plain English, so the one non-derivable fact in mark 27 is the reference point, and 'one reference point: the ___' forces the transcript initiation site (+1 / start site are the same referent; promoter and start codon are wrong). Grounded verbatim p282; +1 convention and -35/-10 positions are unmarked p282 Back Extra only; -35/-10 digits verified."
+ },
+ {
+  "idx": 21,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "numeric: TATAAT and TTGACA re-read letter by letter on p282 text and the p282 render, both given for the nontemplate strand (FIGURE 11.8 confirms TTGACA on the nontemplate strand); '15 to 20 base pairs' follows the p282 text ('never less than 15 or more than 20'); midpoints 10 and 35 verified. Two keyed rows (below the rule-25 threshold, uninterpolable strings); c2 forced-choice on its own number. Marks 28, 29."
+ },
+ {
+  "idx": 22,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Mark 30 read verbatim on the evidence crop and the p282 render; visual_source intact; -35 in the cloze with a -10 or -35 forced choice; c2 'recognition' is the marked name and is not spelled by the stem ('initially binds', not 'recognizes'). Distinguish/Pathway grounded in the FIGURE 11.8 caption (five to nine bp verified). Its Why line's first clause restates the stem and its 'random sites' edge already sits on cards 17 and 19; within the 1-3 line limit, so left as is (noted)."
+ },
+ {
+  "idx": 23,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Mark 31 read verbatim on the evidence crop and the p283 render; visual_source intact; rho + the two type names grouped under one c1 by design (a visible 'rho' would make 'rho-dependent' a freebie); rows lead with their cloze; count visible in the lead-in. Back Extra grounded p283/p284 (50-90 nucleotide pairs, rut, helicase verified)."
+ },
+ {
+  "idx": 24,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Mark 32 read verbatim on the evidence crop and the p283 render; visual_source intact; three nodes under c1 with slot labels, arrows visible; 'GC-rich' is unmarked p283 scaffolding; no source-medium words. Mechanism/Distinguish/Pitfall grounded p283/p284. 'pause' and 'hairpin' reappear as visible context on card 25, which tests different blanks (rule 12 respected)."
+ },
+ {
+  "idx": 25,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "c1 facts grounded verbatim p284 (mark 33): the run of U's FOLLOWS the hairpin; c2 type name from mark 31 (crop + render), forced-choice, and the U-run release is described only for rho-independent terminators in this book, so it is one answer. 'six or more AT base pairs' verified p283. Back Extra grounded p283/p284."
+ },
+ {
+  "idx": 26,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p285 (mark 37); c1 = two forced-choice binaries, c2 = the closed three-process set (3 uncued); c1 and c2 are different facts. Why/Distinguish/Ex lines grounded p284/p285 (Miller and Hamkalo verified)."
+ },
+ {
+  "idx": 27,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p285 (mark 34); three keyed rows complete vs the numbered list (check 17); c2 'prior to' forced-choice on its own number; 7-methyl guanosine / 5'-5' linkage / 20 to 200 verified p285. Card 28 carries the cleavage qualifier."
+ },
+ {
+  "idx": 28,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p285 (mark 34, item 2); the rejected alternative is visible and bolded, so the lone blank is forced (rule 21b); Pathway order read on the p286 render (cleavage site, poly(A) added, intron spliced) and matches the marked list; visual_source present."
+ },
+ {
+  "idx": 29,
+  "verdict": "FIX",
+  "checks_fired": [
+   "15",
+   "2"
+  ],
+  "reason": "On the c1 card the visible 'so named because of the large variation in the [sizes] of the RNA molecules present', together with 'in a nucleus', is the etymology of the hidden name: 'large variation' decodes 'heterogeneous' and 'nucleus' decodes 'nuclear', so a non-knower assembles 'heterogeneous nuclear RNA' from the cue (check 15 / rule 3). Hiding only 'sizes' does not remove the leak. Fix: co-cloze the whole reason phrase with the name under c1 (they are one fact, the name's etymology), leaving the c2 definition side untouched. Grounded verbatim p285 (marks 35, 36); Back Extra unchanged.",
+  "Text": "In eukaryotes, {{c1::heterogeneous nuclear RNA (hnRNA)}} is the name for {{c2::the population of primary transcripts}} in a nucleus, so named because of {{c1::the large variation in the sizes}} of the RNA molecules present.",
+  "Back Extra": "Why: much of the hnRNA is pre-mRNA caught in mid-processing; major portions of it are noncoding intron sequences, which are excised and degraded inside the nucleus.<br><br>Distinguish: mRNA is the finished product that leaves for the cytoplasm; hnRNA is the raw nuclear population, still carrying its introns."
+ },
+ {
+  "idx": 30,
+  "verdict": "FIX",
+  "checks_fired": [
+   "A5",
+   "3",
+   "11"
+  ],
+  "reason": "Text reads cleanly after the merge (one p286 sentence, three different facts under c1/c2/c3, 27 words) and is grounded verbatim p286 (mark 38) with mark 45 folded in. Back Extra fails the 1-3 line rule (four lines, two Pitfalls); neither Pitfall duplicates the Distinguish line, but the second Pitfall (basal factors vs enhancers/silencers) is a p288 RNA-polymerase-II claim that verified_against never quotes and that belongs to the D5 basal-factor cards, so it is dropped. Mark 45's polarity ('cannot initiate transcription by themselves', p287) is now stated in the Mechanism line so the merged mark is visible on the card.",
+  "Text": "Unlike the <i>E. coli</i> enzyme, {{c1::all::all, or only some}} eukaryotic RNA polymerases require the assistance of other proteins called {{c2::transcription factors}} in order to {{c3::initiate::initiate, elongate, or terminate}} the synthesis of RNA chains.",
+  "Back Extra": "Mechanism: eukaryotic RNA polymerases cannot initiate transcription by themselves; the transcription factors must first bind the promoter and form an initiation complex, and only then will the polymerase bind and begin transcription.<br><br>Distinguish: the <i>E. coli</i> enzyme brings its own initiation help: its sigma subunit recognizes the promoter and binds the polymerase there, then is released once the chain has started.<br><br>Pitfall: different promoters and different transcription factors are used by the different eukaryotic polymerases."
+ },
+ {
+  "idx": 31,
+  "verdict": "FIX",
+  "checks_fired": [
+   "1"
+  ],
+  "reason": "One-answer failure: the book itself says eukaryotes 'contain from three to five different RNA polymerases' (p285) and the standard teaching (and his MCAT deck) is three, so a knower can write 'three' and nothing in the stem selects the five-count that TABLE 11.1 (mark 43) is titled for. 'up to five' is the p285 wording, keeps the marked answer, and steers a knower away from the universal three without leaking anything; the Pitfall line then explains the range. numeric: five verified against the table title and p285. Back Extra unchanged.",
+  "Text": "Eukaryotes possess up to {{c1::five::number of enzymes}} different RNA polymerases, each with its own set of RNA products.",
+  "Back Extra": "Distinguish: a single RNA polymerase catalyzes all transcription in <i>E. coli</i>.<br><br>Pitfall: the honest range is three to five: only RNA polymerases I, II and III are known to be present in most, if not all, eukaryotes."
+ },
+ {
+  "idx": 32,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "TABLE 11.1 row + p286 text verified (mark 43): Pol I, nucleolus, all rRNAs except the small 5S rRNA; '5S' checked; c2 hint announces the exception; Pitfall names no sibling numeral; visual_source present. The nucleolus gloss on the back overlaps the purple 'nucleolus' lexicon card (other lane), noted."
+ },
+ {
+  "idx": 33,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "TABLE 11.1 row verified (mark 43): Pol II, nuclear pre-mRNAs; location left unclozed because 'nuclear' would make it a tautology; Why/Cue grounded p286/p287."
+ },
+ {
+  "idx": 34,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "TABLE 11.1 row + p286 text verified (mark 43): tRNAs, 5S rRNA, small nuclear RNAs (three, complete); c1 numeral / c2 set are different facts; 3 uncued under c2; Pitfall names no sibling numeral."
+ },
+ {
+  "idx": 35,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p286 (marks 41, 42) + table row; c1 forced-choice IV or V with V's subset on the Distinguish line; c2 slot-labelled; c3 hides target + two-way effect. Its Distinguish line states V's siRNA subset (card 36's visible stem, not its answers); card 36's numeral is still cued by the antisense transcripts, so no give-away of an answer."
+ },
+ {
+  "idx": 36,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "TABLE 11.1 row + p286 text verified (mark 43): Pol V, some siRNAs plus noncoding (antisense) transcripts of siRNA-regulated genes; c1 forced by the antisense signature; Distinguish names no sibling numeral."
+ },
+ {
+  "idx": 37,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p286 (mark 40) + table rows (IV/V 'Nucleus (plant)'); c2 'only in ___' carries its slot label; fungi caveat p286. Its Distinguish line necessarily implies the count five (three universal + a pair), which is card 31's answer; inherent to the contrast and shown after answering, so left (noted)."
+ },
+ {
+  "idx": 38,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p287 (mark 44); two-way, c2 side 6 words; HIV, transposable elements and '44 percent' verified p287, Back Extra only. Related to card 2's Meaning line (which states the term on its back), not a clozed duplicate."
+ },
+ {
+  "idx": 39,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p287 (mark 44); formal <-> common name two-way; Distinguish (RNA-dependent RNA polymerase, influenza p287, eukaryotic small RNAs p286) grounded. 'mirror image' in the Cue line is an idiom, not a source-medium reference (the checker agrees)."
+ },
+ {
+  "idx": 40,
+  "verdict": "PASS",
+  "checks_fired": [
+   "2-cleared"
+  ],
+  "reason": "parenthetical-after-cloze cleared: '(read 5' to 3' on the nontemplate strand)' is the book's reading convention for the sequence, a form note about strand and direction; it neither defines nor spells 'TATA box' or 'TATAAAA', and a non-knower cannot derive a single letter from it. Margin comment honoured (sentence completed with 'about position -30' from p288). TATAAAA (7 letters) verified p287, FIGURE 11.13 and FIGURE 11.14; -30 verified p288; minus sign inside the cloze; c1 groups name + sequence so 'TATA' cannot leak. Why/Pitfall grounded p288 (ATATTTT is the paired strand in FIGURE 11.14). Its Why line names TFIID first, card 44's row-1 answer, on the back only (noted)."
+ },
+ {
+  "idx": 41,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "GGCCAATCT (9 letters) verified p288 and FIGURE 11.13; -80 verified p288 (mark 47); c1 groups name + sequence; c2 position on its own number with a slot label; Distinguish grounded in the FIGURE 11.13 caption; no sibling box value given."
+ },
+ {
+  "idx": 42,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "GGGCGG verified p288 and FIGURE 11.13 (mark 48); one-way is correct (letters -> 'GC box' would be decodable); 'consensus sequence ___' announces the form; Pitfall/Distinguish grounded p288 + caption."
+ },
+ {
+  "idx": 43,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "ATTTGCAT (8 letters) verified p288 and FIGURE 11.13 (mark 49); one-way; Cue is a form hook shown after answering; Pitfall grounded p288 + caption."
+ },
+ {
+  "idx": 44,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Grounded verbatim p288 (marks 51, 52); three uncued items, ordinals printed, <br><br> rows; no cue restates an answer (the TBP parenthetical was rightly removed, so card 45's pairing is not given away here); Roster matches the p288 order (D, A, B, F+Pol II, E, H and J); Meaning/Why grounded p287/p288."
+ }
+]

@@ -1211,3 +1211,14 @@ in `all::EMT::Chapter 10::Book Highlights`, matching the highlight.
   of any file you depend on before trusting what it says.
 - **Standing audit:** `python3 scripts/ledger_repair.py` (writes nothing) should print
   *"ledger is in sync"*. If it does not, a write path has been added that skips the ledger.
+
+## R73 — the media audit reported every OTHER segment's plates as orphans when scoped to one segment's deck (2026-09-19)
+**Rule:** SKILL.md Stage 3.9 (media audit after every write that touches media). **Caught by:** `media_audit.py` itself — orphans are now judged against references in the WHOLE collection, and only broken/uppercase refs stay scoped to `--deck`. Found on genetics ch11 the first time a multi-segment source was audited by its segment subdeck.
+
+The audit computed `orphans = files_with_prefix − refs_in_deck`. That is correct for a source with one deck (Arabic Unit 1, where it was written) and wrong for any source whose prefix spans several segment decks: run against `…::03 - Chapter 11 - …::Book Highlights`, it listed all 54 chapter-9 and chapter-10 plates as *"staged media attached to nothing"* and exited FAIL, while the same run against the source root was all clear. A false FAIL is the dangerous direction — the next session either "cleans up" 54 live images or learns to ignore the audit.
+
+- **BAD:** `orphans = have − refs(--deck)` on `genetics_` from a chapter subdeck → 54 "orphans", exit 1.
+- **GOOD:** `orphans = have − refs(any note in the collection containing the prefix)`; `broken` and `upper` unchanged (deck-scoped, since they are about the notes just written).
+- **MUST CATCH:** a prefixed file that no note anywhere references (a genuinely missed attachment) → still ORPHANED.
+- **MUST NOT OVER-FLAG:** a file referenced only by a note in a sibling segment's deck → clean, whatever `--deck` is.
+- **Catch test:** after the fix, ch11's subdeck audit and the genetics root audit both print *all clear* (89 notes / 19 refs in-deck / 73 collection-wide / 73 files); the Arabic audit is unchanged.

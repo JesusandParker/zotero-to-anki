@@ -1,0 +1,1164 @@
+[
+ {
+  "Text": "Introns are removed by three splicing mechanisms, each tied to its own class of precursor RNA — match the machinery to the substrate:<br><br>{{c2::tRNA::which precursor RNA}} precursors → {{c1::a splicing endonuclease plus a splicing ligase::protein enzymes / the RNA itself / a spliceosome}}<br><br>some {{c2::rRNA::which precursor RNA}} precursors → {{c1::the RNA molecule itself, autocatalytically, with no protein enzyme::protein enzymes / the RNA itself / a spliceosome}}<br><br>nuclear {{c2::pre-mRNA (hnRNA)::which precursor RNA}} → {{c1::a spliceosome::protein enzymes / the RNA itself / a spliceosome}}",
+  "Back Extra": "Distinguish: all three mechanisms cut the intron out and rejoin the flanking RNA — what differs is who does the chemistry: free protein enzymes, the RNA itself, or the spliceosome.<br><br>Cue: 'endo-nuclease' cuts within the chain, 'ligase' ties the pieces back together, 'auto-catalytic' means the RNA catalyzes its own excision.<br><br>Pitfall: only SOME rRNA precursors self-splice, and nuclear pre-mRNA introns do not self-splice at all — they need the spliceosome.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   65,
+   66,
+   67
+  ],
+  "block": "U17_three_mechanisms",
+  "numeric": false,
+  "verified_against": "p294: 'Three splicing mechanisms have been studied in considerable detail:' | p294: '1. The introns of tRNA precursors are excised by precise endonucleolytic cleavage and ligation reactions catalyzed by special splicing endonuclease and ligase activities.' | p294: '2. The introns of some rRNA precursors are removed autocatalytically in a unique reaction mediated by the RNA molecule itself. No protein enzymatic activity is involved in this splicing process.' | p294: '3. The introns of nuclear pre-mRNAs (hnRNAs) are removed in two-step reactions carried out by complex ribonucleoprotein particles called splicesomes.' | Back Extra (unmarked, teaching only) p296: 'However, the introns are not excised by simple splicing nucleases and ligases or autocatalytically, and no guanosine cofactor is required. Instead, nuclear pre-mRNA splicing is carried out by complex RNA–protein structures called spliceosomes.'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 0,
+  "_fact_pass": {
+   "must_test": [
+    "tRNA precursor introns are excised by a splicing endonuclease + ligase (protein enzymes)",
+    "some rRNA precursor introns are removed autocatalytically by the RNA itself, no protein enzymatic activity",
+    "nuclear pre-mRNA (hnRNA) introns are removed by spliceosomes"
+   ],
+   "supporting": [
+    "three mechanisms have been studied in detail (the closed set)",
+    "the whole process is called splicing"
+   ],
+   "skip": [
+    "'We will examine each of these mechanisms in some detail'"
+   ]
+  },
+  "_archetype": "comparison (keyed two-way match panel: substrate ↔ machinery)"
+ },
+ {
+  "Text": "The spliceosomes that remove introns from pre-mRNA are particles built of {{c1::RNA and protein::two macromolecule classes}}; they work inside the {{c2::nucleus::cell compartment}} of eukaryotic cells and excise each intron in a {{c3::two::number of steps}}-step reaction.",
+  "Back Extra": "Why: splicing is finished before export — intron sequences are excised from transcripts in the nucleus, and only the spliced mRNA travels to the cytoplasm for translation.<br><br>Distinguish: tRNA introns are cut out by free enzymes and some rRNA introns cut themselves out; only pre-mRNA introns need this RNA–protein particle.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   67
+  ],
+  "block": "U17_spliceosome_particle",
+  "numeric": true,
+  "verified_against": "p294: 'The introns of nuclear pre-mRNAs (hnRNAs) are removed in two-step reactions carried out by complex ribonucleoprotein particles called splicesomes. These splicing organelles are composed of RNA and protein, and are found in the nuclei of eukaryotic cells.' | Back Extra (unmarked, teaching only) p297 KEY POINTS: 'Noncoding intron sequences are excised from RNA transcripts in the nucleus prior to their transport to the cytoplasm.' | Back Extra (unmarked, teaching only) p297: 'The spliced mRNA is now ready for export to the cytoplasm and translation on ribosomes.' | Back Extra (unmarked, teaching only) p294: marks 65 and 66 (tRNA: endonuclease + ligase; some rRNA: autocatalytic)",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 1,
+  "_fact_pass": {
+   "must_test": [
+    "spliceosomes are composed of RNA and protein (ribonucleoprotein particles)",
+    "spliceosomes are found in the nuclei of eukaryotic cells",
+    "pre-mRNA intron removal is a two-step reaction"
+   ],
+   "supporting": [
+    "spliceosome ↔ pre-mRNA is already the row-3 pairing of the three-mechanisms card"
+   ],
+   "skip": [
+    "'These splicing organelles' — the word organelle is the book's loose usage, not a testable claim"
+   ]
+  },
+  "_archetype": "definition (properties of a named particle)"
+ },
+ {
+  "Text": "Across the introns of nuclear genes, the only completely conserved sequences are the two dinucleotides at the intron's ends, written for the DNA nontemplate strand as exon-{{c1::GT::5′ dinucleotide}}……{{c1::AG::3′ dinucleotide}}-exon.",
+  "Back Extra": "Meaning: the nontemplate strand reads like the RNA transcript with T in place of U, so in the pre-mRNA the intron begins GU and ends AG.<br><br>Pitfall: 'completely conserved' applies only to these two dinucleotides — the rest of each junction is a consensus with percentage frequencies, and the body of an intron is barely conserved at all (introns collect mutations far faster than exons).<br><br>Distinguish: tRNA genes and the protein-coding genes of mitochondria and chloroplasts have different junctions and use different splicing mechanisms.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   68
+  ],
+  "block": "U18_conserved_dinucleotides",
+  "numeric": true,
+  "verified_against": "p294: 'However, in the primary transcripts of nuclear genes, the only completely conserved sequences of different introns are the dinucleotide sequences at the ends of introns, namely, exon-GT..............AG-exon' | p294: 'The sequences shown here are for the DNA nontemplate strand (equivalent to the RNA transcript, but with T rather than U). In addition, there are short consensus sequences at the exon–intron junctions.' | Back Extra (unmarked, teaching only) p293: 'The fact that introns accumulate new mutations much more rapidly than exons indicates that many of the specific nucleotide-pair sequences of introns, excluding the ends, are not very important.' | Back Extra (unmarked, teaching only) p295: 'The exon–intron junctions are different for tRNA genes and protein-encoding genes in mitochondria and chloroplasts. The transcripts of these genes utilize different RNA splicing mechanisms.'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 2,
+  "_fact_pass": {
+   "must_test": [
+    "the intron begins GT and ends AG (DNA nontemplate strand; GU…AG in the RNA)",
+    "these two dinucleotides are the ONLY completely conserved intron sequences in nuclear-gene transcripts"
+   ],
+   "supporting": [
+    "the sequence is written for the DNA nontemplate strand, equivalent to the RNA with T for U",
+    "short consensus sequences also exist at the junctions (carded in the authorized lane)"
+   ],
+   "skip": [
+    "'Accuracy to this degree would seem to require precise splicing signals' — rhetorical lead-in"
+   ]
+  },
+  "_archetype": "numeric (sequence value: the invariant GT…AG intron ends)",
+  "_figure_request": "FIGURE 11.20"
+ },
+ {
+  "Text": "Yeast tRNA precursor splicing (stage I): a {{c1::nuclear membrane-bound::where the enzyme is anchored}} splicing endonuclease makes {{c2::two::how many}} cuts, precisely at the {{c2::ends::which part}} of the intron.<br><br>Yeast tRNA precursor splicing (stage II): a splicing ligase joins {{c3::both halves of the tRNA::what it joins}}, yielding the mature tRNA.",
+  "Back Extra": "Ex: the pathway was worked out in the yeast <i>Saccharomyces cerevisiae</i>, with in-vitro splicing systems and temperature-sensitive splicing mutants.<br><br>Cue: cut twice, then tie once — nuclease first, ligase second; the intron falls out between the two cuts.<br><br>Distinguish: unlike a self-splicing rRNA intron (the RNA itself) or a pre-mRNA intron (a spliceosome), the tRNA intron is removed by two ordinary protein enzymes.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   69
+  ],
+  "block": "U19_trna_two_stages",
+  "numeric": true,
+  "verified_against": "p295: 'The excision of introns from yeast tRNA precursors occurs in two stages. In stage I, a nuclear membrane-bound splicing endonuclease makes two cuts precisely at the ends of the intron. Then, in stage II, a splicing ligase joins the two halves of the tRNA to produce the mature form of the tRNA molecule.' | Back Extra (unmarked, teaching only) p295: 'The tRNA precursor splicing reaction has been worked out in detail in the yeast Saccharomyces cerevisiae. Both in vitro splicing systems and temperature-sensitive splicing mutants have been used to analyze the tRNA splicing mechanism in S. cerevisiae.' | Back Extra (unmarked, teaching only) p294: marks 65–67 (the three mechanisms)",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 3,
+  "_fact_pass": {
+   "must_test": [
+    "stage I: the splicing endonuclease makes two cuts, precisely at the ends of the intron",
+    "the endonuclease is nuclear membrane-bound",
+    "stage II: the splicing ligase joins the two halves of the tRNA → mature tRNA"
+   ],
+   "supporting": [
+    "worked out in yeast S. cerevisiae (Ex line)",
+    "the enzyme NAMES are already tested on the three-mechanisms card, so here they stay visible as the scaffold and the specifics are clozed"
+   ],
+   "skip": [
+    "'Both in vitro splicing systems and temperature-sensitive splicing mutants have been used' — methods, teaching line only"
+   ]
+  },
+  "_archetype": "mechanism (step-scaffold: ordinals printed, content clozed)",
+  "_figure_request": "lecture slide 24 (PDF p42): the tRNA-precursor splicing figure (Principles of Genetics 4/e Fig 11-25). This edition prints NO tRNA-splicing FIGURE on p294–p297 — slide_p42.png is the only plate for this card"
+ },
+ {
+  "Text": "Isaacs numbers the three splicing mechanisms type 1, 2 and 3 — for each type, name the substrate and the machinery:<br><br>Type 1 → introns of {{c1::tRNA::precursor class}} precursors, removed by {{c1::a splicing endonuclease and ligase::machinery}}<br><br>Type 2 → introns of {{c1::rRNA::precursor class}} precursors, removed by {{c1::self-splicing (the RNA itself)::machinery}}<br><br>Type 3 → {{c1::pre-mRNA::precursor class}} transcripts, removed by {{c1::spliceosomes::machinery}}",
+  "Back Extra": "Cue: the numbering climbs with the size of the machinery — two free enzymes (1), a lone RNA acting on itself (2), a ribosome-sized RNA–protein particle (3) — and matches the order in which the three mechanisms are usually listed.<br><br>Pitfall: a quiz may write it 'type I' — same thing: tRNA precursors.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_type_numbering",
+  "numeric": false,
+  "verified_against": "Isaacs Ch 11b slide 23 (PDF p41): 'Three types 1. Endonuclease and ligase: tRNA precursors 2. Self-splicing: rRNA precursors 3. Spliceosomes: pre-mRNA transcripts' | Isaacs Ch 11b slides 24–26 (PDF p42–p44): 'Splicing: type 1' / 'Splicing: type 2' / 'Splicing: type 3' | p294: '1. The introns of tRNA precursors are excised by precise endonucleolytic cleavage and ligation reactions catalyzed by special splicing endonuclease and ligase activities. 2. The introns of some rRNA precursors are removed autocatalytically in a unique reaction mediated by the RNA molecule itself. No protein enzymatic activity is involved in this splicing process. 3. The introns of nuclear pre-mRNAs (hnRNAs) are removed in two-step reactions carried out by complex ribonucleoprotein particles called splicesomes.' | Back Extra (teaching only) p296: 'These structures are in many ways like small ribosomes.'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "lecture p41",
+    "lecture p42",
+    "lecture p43",
+    "lecture p44"
+   ],
+   "figures": [
+    "work/genetics/ch11_drafts/lecture_slides/slide_p41.png",
+    "work/genetics/ch11_drafts/lecture_slides/slide_p42.png",
+    "work/genetics/ch11_drafts/lecture_slides/slide_p43.png",
+    "work/genetics/ch11_drafts/lecture_slides/slide_p44.png"
+   ],
+   "labels": [
+    "slide 23",
+    "slide 24",
+    "slide 25",
+    "slide 26"
+   ],
+   "note": "the type 1/2/3 numbering exists only on the lecture slides; the book lists the same three mechanisms in the same order on p294 without numbering them"
+  },
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 4,
+  "_fact_pass": {
+   "must_test": [
+    "type 1 = tRNA precursors, endonuclease and ligase",
+    "type 2 = rRNA precursors, self-splicing",
+    "type 3 = pre-mRNA transcripts, spliceosomes"
+   ],
+   "supporting": [
+    "the numbering follows the book's listing order (p294) — the professor's numbering is the only thing the book lacks"
+   ],
+   "skip": [
+    "reverse direction (mechanism → type number) not carded separately: a 3-item bijection whose c1 card already forces the ordering, and a 3-row column of the numbers 1/2/3 would be a rule-25 value panel"
+   ]
+  },
+  "_archetype": "list (keyed panel: type number → substrate + machinery)",
+  "_lane": "authorized"
+ },
+ {
+  "Text": "In type 1 splicing (tRNA precursors) the endonuclease and ligase recognize the precursor's {{c1::conserved three-dimensional structure::3-D structure or nucleotide sequence}} — what Isaacs calls {{c1::shape::his one-word term}}-driven splicing, a description he also applies to {{c2::type 2 (self-splicing rRNA precursors)::which other type}}.",
+  "Back Extra": "Why: the specificity of the tRNA cuts and ligation resides in conserved three-dimensional features of the precursor, not in its nucleotide sequences per se — the enzymes read a fold, not a motif.<br><br>Distinguish: type 3 (spliceosomal) splicing is the sequence-read one — the GU…AG ends and the branch-point consensus are recognized by snRNPs, the 5′ site by base-pairing with U1 snRNA.<br><br>Pitfall: 'shape driven' for type 2 means the self-splicing activity depends on the secondary structure of the intron (or of the whole precursor), which folds to form its own active center.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_type1_shape_driven",
+  "numeric": false,
+  "verified_against": "p295: 'The specificity for these reactions resides in conserved three-dimensional features of the tRNA precursors, not in the nucleotide sequences per se.' | Isaacs Ch 11b slide 24 (PDF p42): 'Splicing: type 1 • \"Shape driven\" • Requires endonuclease and ligase' | Isaacs Ch 11b slide 25 (PDF p43): 'Splicing: type 2 • \"Shape driven\" • No protein enzymatic activity involved' | Back Extra (teaching only) p297: 'Recognition of the cleavage site at the 5′ end of the intron probably involves base-pairing between the consensus sequence at this site and a complementary sequence near the 5′ terminus of snRNA U1.' | Back Extra (teaching only) p296: 'Presumably, the autocatalytic activity depends on the secondary structure of the intron or at least the secondary structure of the RNA precursor molecule.' | Back Extra (teaching only) p296: 'Moreover, the RNA precursors are capable of forming an active center in which the guanosine-3′-OH cofactor binds.'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "lecture p42",
+    "lecture p43"
+   ],
+   "figures": [
+    "work/genetics/ch11_drafts/lecture_slides/slide_p42.png",
+    "work/genetics/ch11_drafts/lecture_slides/slide_p43.png"
+   ],
+   "labels": [
+    "slide 24",
+    "slide 25"
+   ],
+   "note": "'shape driven' is the lecturer's label, read from slides 24 and 25; the book states the underlying fact on p295 (3-D features, not sequence) without the label"
+  },
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 5,
+  "_fact_pass": {
+   "must_test": [
+    "tRNA-splicing specificity resides in conserved 3-D features of the precursor, not the nucleotide sequence",
+    "Isaacs' label for this: 'shape driven'",
+    "the same label applies to type 2 (self-splicing rRNA)"
+   ],
+   "supporting": [
+    "type 3 is the sequence-recognized one (Distinguish line)",
+    "type 2's 'shape' = secondary structure of the intron/precursor"
+   ],
+   "skip": []
+  },
+  "_archetype": "comparison (forced choice: structure vs sequence) + the lecturer's label",
+  "_lane": "authorized",
+  "_figure_request": "lecture slide 24 (PDF p42): tRNA-precursor splicing figure (4/e Fig 11-25)"
+ },
+ {
+  "Text": "The first self-splicing intron was found in {{c1::1982::year}} by {{c1::Thomas Cech::researcher}} and coworkers, in the rRNA precursor of {{c2::<i>Tetrahymena thermophila</i>::organism}}; Cech and Sidney Altman then shared the {{c3::1989::year}} Nobel Prize in Chemistry for the discovery of {{c3::catalytic RNAs::what}}.",
+  "Back Extra": "Why: the finding was startling because covalent bonds were assumed to be altered only by enzymes, and enzymes were assumed to be proteins — yet the intron was excised with no protein catalytic activity at all, so the catalysis is intrinsic to the RNA molecule itself.<br><br>Cue: 'catalytic RNA' is the general term; 'self-splicing' or 'autocatalytic' is what this particular one does.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_type2_discovery",
+  "numeric": true,
+  "verified_against": "p295: 'Thus, the 1982 discovery by Thomas Cech and his coworkers that the intron in the rRNA precursor of Tetrahymena thermophila was excised without the involvement of any protein catalytic activity was quite surprising.' | p295: 'However, it is now clearly established that the splicing activity that excises the intron from this rRNA precursor is intrinsic to the RNA molecule itself. Indeed, Cech and Sidney Altman shared the 1989 Nobel Prize in Chemistry for their discovery of catalytic RNAs.' | Back Extra (teaching only) p295: 'These all-important enzymes are generally proteins' | Back Extra (teaching only) p295: 'When covalent bonds are being altered, it is usually assumed that the reaction is being catalyzed by an enzyme.'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 6,
+  "_fact_pass": {
+   "must_test": [
+    "1982, Thomas Cech: the Tetrahymena thermophila rRNA-precursor intron excised with no protein",
+    "1989 Nobel Prize in Chemistry, Cech + Sidney Altman, for catalytic RNAs"
+   ],
+   "supporting": [
+    "why it was surprising (enzymes assumed to be proteins)"
+   ],
+   "skip": [
+    "'A general theme in biology is that metabolism occurs via sequences of enzyme-catalyzed reactions' — framing"
+   ]
+  },
+  "_archetype": "numeric (dates) + named-entity recall",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.21"
+ },
+ {
+  "Text": "Beyond <i>Tetrahymena</i>, self-splicing (autocatalytic) introns occur in the rRNA precursors of several {{c1::lower::higher or lower}} eukaryotes and in a large number of rRNA, tRNA and mRNA precursors inside {{c2::mitochondria and chloroplasts::which organelles}}.",
+  "Back Extra": "Distinguish: nuclear pre-mRNA introns are not excised autocatalytically — they need the spliceosome.<br><br>Ex: for many of these organelle introns the mechanism is the same as or very similar to the <i>Tetrahymena</i> one; for others it resembles nuclear pre-mRNA splicing but runs without a spliceosome.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_type2_distribution",
+  "numeric": false,
+  "verified_against": "p295: 'Moreover, such self-splicing or autocatalytic activity has been shown to occur in rRNA precursors of several lower eukaryotes and in a large number of rRNA, tRNA, and mRNA precursors in mitochondria and chloroplasts of many different species.' | Back Extra (teaching only) p295: 'In the case of many of these introns, the self-splicing mechanism is the same as or very similar to that utilized by the Tetrahymena rRNA precursors (see Figure 11.21). For others, the self-splicing mechanism is similar to the splicing mechanism observed with nuclear mRNA precursors, but without the involvement of the spliceosome' | Back Extra (teaching only) p296: 'However, the introns are not excised by simple splicing nucleases and ligases or autocatalytically, and no guanosine cofactor is required.'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 7,
+  "_fact_pass": {
+   "must_test": [
+    "self-splicing occurs in rRNA precursors of several LOWER eukaryotes",
+    "and in many rRNA, tRNA and mRNA precursors of mitochondria and chloroplasts"
+   ],
+   "supporting": [
+    "two sub-mechanisms among these introns (Tetrahymena-like vs spliceosome-like without a spliceosome)"
+   ],
+   "skip": []
+  },
+  "_archetype": "classification (where self-splicing occurs)",
+  "_lane": "authorized"
+ },
+ {
+  "Text": "Type 2 splicing (the self-splicing <i>Tetrahymena</i> rRNA intron) uses no protein and no external energy source, but it does need one cofactor — a {{c1::guanine::which base}} nucleoside or nucleotide with a free {{c1::3′-OH::which reactive group}} — plus {{c2::a monovalent cation and a divalent cation::which ions}}.",
+  "Back Extra": "Pitfall: the G requirement is absolute — no other base can be substituted — but the phosphates are irrelevant: GTP, GDP, GMP or free guanosine all work.<br><br>Why: the precursor RNA folds to form an active center in which the guanosine-3′-OH cofactor binds — proof that catalytic sites are not restricted to proteins.<br><br>Cue: Isaacs' bullets for type 2 — no protein enzymatic activity; requires guanosine with 3′-OH; two phosphoester bond transfers; reversible if products not degraded.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_type2_cofactor",
+  "numeric": true,
+  "verified_against": "p296: 'The autocatalytic excision of the intron in the Tetrahymena rRNA precursor and certain other introns requires no external energy source and no protein catalytic activity.' | p296: 'The reaction requires a guanine nucleoside or nucleotide with a free 3′-OH group (GTP, GDP, GMP, or guanosine all work) as a cofactor plus a monovalent cation and a divalent cation.' | p296: 'The requirement for the G-3′-OH is absolute; no other base can be substituted in the nucleoside or nucleotide cofactor.' | Isaacs Ch 11b slide 25 (PDF p43): 'No protein enzymatic activity involved • Requires guanosine with 3’-OH • Two phosphoester bond transfers • Reversible if products not degraded.' | Back Extra (teaching only) p296: 'Moreover, the RNA precursors are capable of forming an active center in which the guanosine-3′-OH cofactor binds. The autocatalytic splicing of these rRNA precursors demonstrates that catalytic sites are not restricted to proteins'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "lecture p43"
+   ],
+   "figures": [
+    "work/genetics/ch11_drafts/lecture_slides/slide_p43.png"
+   ],
+   "labels": [
+    "slide 25"
+   ],
+   "note": "book (p296) and slide 25 state the same requirement; the slide adds nothing beyond the book here"
+  },
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 8,
+  "_fact_pass": {
+   "must_test": [
+    "requires a guanine nucleoside or nucleotide with a free 3′-OH",
+    "plus a monovalent and a divalent cation",
+    "the G-3′-OH requirement is absolute (no other base substitutes) — Pitfall line",
+    "GTP, GDP, GMP or guanosine all work — Pitfall line"
+   ],
+   "supporting": [
+    "no protein, no external energy source (visible context; each tested on its own card)",
+    "the RNA forms an active center for the cofactor"
+   ],
+   "skip": []
+  },
+  "_archetype": "mechanism (requirements of a reaction)",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.21"
+ },
+ {
+  "Text": "In type 2 (self-) splicing the intron is excised by {{c1::two::how many}} phosphoester bond transfers, after which the excised intron can {{c2::circularize::what it does}} by one more transfer. Because every step is a bond transfer with {{c3::no bonds lost or gained::the energy bookkeeping}}, the reaction needs {{c3::no::no / an}} external energy source.",
+  "Back Extra": "Mechanism: transfer 1 — the phosphoester bond at the exon 1–intron junction moves onto the guanosine's 3′-OH, cutting exon 1 free; transfer 2 — the bond at the intron–exon 2 junction moves onto the 3′ end of exon 1, joining the two exons; a third, internal transfer then closes the excised intron into a circle.<br><br>Distinguish: spliceosomal (type 3) splicing is also two steps, but its first step requires ATP hydrolysis and no guanosine.<br><br>Why: the circularization of the excised intron on its own shows that the self-splicing activity resides primarily, if not entirely, within the intron itself.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_type2_transfers",
+  "numeric": true,
+  "verified_against": "p296: 'Instead, the splicing mechanism involves a series of phosphoester bond transfers, with no bonds lost or gained in the process.' | p296: 'The intron is excised by means of two phosphoester bond transfers, and the excised intron can subsequently circularize by means of another phosphoester bond transfer.' | p296: 'The autocatalytic excision of the intron in the Tetrahymena rRNA precursor and certain other introns requires no external energy source and no protein catalytic activity.' | Isaacs Ch 11b slide 25 (PDF p43): 'Two phosphoester bond transfers' | Back Extra (teaching only) p295 FIGURE 11.21 steps: '1 Phosphoester bond at exon 1–intron junction is transferred to G–OH, cleaving the exon 1–intron linkage.' / '2 Phosphoester bond at intron–exon 2 junction is transferred to 3′ end of exon 1, joining exons 1 and 2.' / '3 Intron circularizes by internal phosphoester bond transfer.' | Back Extra (teaching only) p296: 'The autocatalytic circularization of the excised intron suggests that the self-splicing of these rRNA precursors resides primarily, if not entirely, within the intron structure itself.' | Back Extra (teaching only) p297: 'This stage occurs on complete spliceosomes (Figure 11.22) and requires the hydrolysis of ATP.'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "lecture p43"
+   ],
+   "figures": [
+    "work/genetics/ch11_drafts/lecture_slides/slide_p43.png"
+   ],
+   "labels": [
+    "slide 25"
+   ],
+   "note": "book (p296) and slide 25 both state the two transfers; the slide's figure is the 4/e version of FIGURE 11.21"
+  },
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 9,
+  "_fact_pass": {
+   "must_test": [
+    "the intron is excised by TWO phosphoester bond transfers",
+    "the excised intron can circularize by another (third) transfer",
+    "no bonds are lost or gained, hence no external energy source is needed"
+   ],
+   "supporting": [
+    "the three transfers in order (Mechanism line)",
+    "circularization implies the activity lives in the intron itself"
+   ],
+   "skip": []
+  },
+  "_archetype": "numeric + mechanism (count of transfers; energetics why-card)",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.21"
+ },
+ {
+  "Text": "The phosphoester bond transfers of self-splicing are potentially {{c1::reversible::reversible or irreversible}}, so what drives type 2 splicing forward in the cell is rapid {{c1::degradation::fate}} of the excised intron or {{c1::export to the cytoplasm::fate}} of the spliced rRNA.",
+  "Back Extra": "Why: with no bonds lost or gained there is nothing to make the forward direction favorable on its own, so the cell tips the balance by taking the products away — Isaacs' phrasing: 'reversible if products not degraded'.<br><br>Cue: reversible, intramolecular, and no external energy source — the three thermodynamic quirks of self-splicing.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_type2_reversible",
+  "numeric": false,
+  "verified_against": "p296: 'Since the self-splicing phosphoester bond transfers are potentially reversible reactions, rapid degradation of the excised introns or export of the spliced rRNAs to the cytoplasm may drive splicing in the forward direction.' | Isaacs Ch 11b slide 25 (PDF p43): 'Reversible if products not degraded.' | Back Extra (teaching only) p296: 'with no bonds lost or gained in the process' | Back Extra (teaching only) p296: 'Note that the autocatalytic splicing reactions are intramolecular in nature'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "lecture p43"
+   ],
+   "figures": [
+    "work/genetics/ch11_drafts/lecture_slides/slide_p43.png"
+   ],
+   "labels": [
+    "slide 25"
+   ],
+   "note": "book (p296) and slide 25 both state reversibility; the slide's wording is quoted on the back"
+  },
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 10,
+  "_fact_pass": {
+   "must_test": [
+    "the transfers are potentially reversible",
+    "forward drive = rapid degradation of the excised intron, or export of the spliced rRNA to the cytoplasm"
+   ],
+   "supporting": [
+    "Isaacs' bullet 'reversible if products not degraded'"
+   ],
+   "skip": []
+  },
+  "_archetype": "mechanism (direction-of-reaction + what drives it)",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.21"
+ },
+ {
+  "Text": "Because a self-splicing reaction is {{c1::intramolecular::intra- or intermolecular}}, its rate is {{c1::not::not / strongly}} dependent on concentration; and while a protein enzyme shows {{c2::trans::cis or trans}} catalytic activity, the catalytic RNA shows only {{c2::cis::cis or trans}} catalytic activity.",
+  "Back Extra": "Meaning: cis = acting on the very molecule it is part of; trans = acting on separate substrate molecules, as enzymes do.<br><br>Why: catalytic sites are not restricted to proteins — but this RNA catalyzes only its own excision, so it is not an enzyme in the usual sense.<br><br>Cue: some scientists read autocatalytic RNA splicing as a relic of an early RNA-based world.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_type2_cis_only",
+  "numeric": false,
+  "verified_against": "p296: 'Note that the autocatalytic splicing reactions are intramolecular in nature and thus not dependent on concentration.' | p296: 'The autocatalytic splicing of these rRNA precursors demonstrates that catalytic sites are not restricted to proteins; however, there is no trans catalytic activity as for enzymes, only cis catalytic activity.' | Back Extra (teaching only) p296: 'Some scientists believe that autocatalytic RNA splicing may be a relic of an early RNA-based world.' | Back Extra Meaning line: a general-vocabulary gloss of cis/trans (the page uses the words without defining them)",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 11,
+  "_fact_pass": {
+   "must_test": [
+    "intramolecular → not concentration dependent",
+    "cis catalytic activity only; no trans activity as for enzymes"
+   ],
+   "supporting": [
+    "catalytic sites are not restricted to proteins",
+    "RNA-world relic (Cue line)"
+   ],
+   "skip": []
+  },
+  "_archetype": "comparison (forced-choice pairs: intra/inter, cis/trans)",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.21"
+ },
+ {
+  "Text": "Nuclear pre-mRNA introns come out in two steps, like tRNA and <i>Tetrahymena</i> rRNA introns, but a spliceosome does the chemistry: the first step requires the hydrolysis of {{c1::ATP::energy source}}, and a {{c2::guanosine::which cofactor}} cofactor is <b>not</b> required.",
+  "Back Extra": "Distinguish: the pre-mRNA intron is excised neither by simple splicing nucleases and ligases (type 1) nor autocatalytically (type 2); and where self-splicing needs no external energy but an obligatory guanosine, the spliceosome needs ATP but no guanosine.<br><br>Why: the ATP is spent on the complete spliceosome during the first cleavage, at the 5′ splice site.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_type3_requirements",
+  "numeric": true,
+  "verified_against": "p296: 'The introns in nuclear pre-mRNAs are excised in two steps like the introns in yeast tRNA precursors and Tetrahymena rRNA precursors that were discussed in the preceding two sections.' | p296: 'However, the introns are not excised by simple splicing nucleases and ligases or autocatalytically, and no guanosine cofactor is required. Instead, nuclear pre-mRNA splicing is carried out by complex RNA–protein structures called spliceosomes.' | p297: 'This stage occurs on complete spliceosomes (Figure 11.22) and requires the hydrolysis of ATP.' | Back Extra (teaching only) p296: 'requires no external energy source and no protein catalytic activity'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 12,
+  "_fact_pass": {
+   "must_test": [
+    "pre-mRNA splicing is two steps like the other two mechanisms",
+    "its first step requires ATP hydrolysis",
+    "no guanosine cofactor is required"
+   ],
+   "supporting": [
+    "not by nucleases/ligases, not autocatalytic (Distinguish line; the machinery mapping is tested on the three-mechanisms card)"
+   ],
+   "skip": []
+  },
+  "_archetype": "negation / comparison (type 3 vs types 1 and 2)",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.22"
+ },
+ {
+  "Text": "A spliceosome is in many ways like a small {{c1::ribosome::comparable particle}}: an RNA–protein machine that contains a set of small RNAs called {{c2::snRNAs (small nuclear RNAs)::its RNA class}} together with about {{c3::40::how many}} different proteins.",
+  "Back Extra": "Why: like a ribosome, the spliceosome is a ribonucleoprotein whose RNA parts do recognition work — the 5′ splice site is read by base-pairing with U1 snRNA.<br><br>Pitfall: 40 is the protein count of the whole spliceosome; each individual snRNP carries a subset of seven common snRNP proteins plus one or more of its own.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_spliceosome_composition",
+  "numeric": true,
+  "verified_against": "p296: 'Instead, nuclear pre-mRNA splicing is carried out by complex RNA–protein structures called spliceosomes. These structures are in many ways like small ribosomes. They contain a set of small RNA molecules called snRNAs (small nuclear RNAs) and about 40 different proteins.' | Isaacs Ch 11b slide 26 (PDF p44): 'Complex RNA/protein structures (spliceosomes)' | Back Extra (teaching only) p297: 'Recognition of the cleavage site at the 5′ end of the intron probably involves base-pairing between the consensus sequence at this site and a complementary sequence near the 5′ terminus of snRNA U1.' | Back Extra (teaching only) p297: 'Each of the four types of snRNP particles contains a subset of seven well-characterized snRNP proteins plus one or more proteins unique to the particular type of snRNP particle.'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "lecture p44"
+   ],
+   "figures": [
+    "work/genetics/ch11_drafts/lecture_slides/slide_p44.png"
+   ],
+   "labels": [
+    "slide 26"
+   ],
+   "note": "book (p296) and slide 26 both state the RNA–protein composition; the count (40) and the ribosome analogy are book-only"
+  },
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 13,
+  "_fact_pass": {
+   "must_test": [
+    "spliceosomes are in many ways like small ribosomes",
+    "they contain snRNAs (small nuclear RNAs)",
+    "and about 40 different proteins"
+   ],
+   "supporting": [
+    "RNA parts do recognition (U1 base-pairing)"
+   ],
+   "skip": []
+  },
+  "_archetype": "definition + numeric (composition of a particle)",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.22"
+ },
+ {
+  "Text": "The five snRNAs that take part in nuclear pre-mRNA splicing as components of the spliceosome are:<br><br>{{c1::U1}}<br><br>{{c1::U2}}<br><br>{{c1::U4}}<br><br>{{c1::U5}}<br><br>{{c1::U6}}",
+  "Back Extra": "Cue: U1 through U6 with one number skipped — U3 is not a spliceosome component; it sits in the nucleolus and probably helps build ribosomes.<br><br>Why: none of these works as naked RNA — each is packaged in a snRNP, and four snRNPs (U1, U2, U5, and the paired U4/U6) plus protein splicing factors assemble the spliceosome.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_snRNA_roster",
+  "numeric": true,
+  "verified_against": "p296: 'Five snRNAs, called U1, U2, U4, U5, and U6, are involved in nuclear pre-mRNA splicing as components of the spliceosome. (snRNA U3 is localized in the nucleolus and probably is involved in the formation of ribosomes.)' | Isaacs Ch 11b slide 26 (PDF p44): 'U1,U2,U4,U5,U6' | Back Extra (teaching only) p297: 'These snRNAs do not exist as free RNA molecules. Instead, they are present in small nuclear RNA–protein complexes called snRNPs' | Back Extra (teaching only) p297: 'Spliceosomes are assembled from four different snRNPs and protein splicing factors during the splicing process. Each of the snRNAs U1, U2, and U5 is present by itself in a specific snRNP particle. snRNAs U4 and U6 are present together in a fourth snRNP'",
+  "verified_by": "drafter-D7 — overloaded_group silent at 5 uncued; rule-23 handle: the U1–U6 numbering minus U3 regenerates the set, so it is one chunk",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "lecture p44"
+   ],
+   "figures": [
+    "work/genetics/ch11_drafts/lecture_slides/slide_p44.png"
+   ],
+   "labels": [
+    "slide 26"
+   ],
+   "note": "book (p296) and slide 26 both give the roster U1, U2, U4, U5, U6"
+  },
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 14,
+  "_fact_pass": {
+   "must_test": [
+    "the five spliceosomal snRNAs: U1, U2, U4, U5, U6"
+   ],
+   "supporting": [
+    "U3 is the skipped one (own card)",
+    "each lives in a snRNP (own card)"
+   ],
+   "skip": []
+  },
+  "_archetype": "list (grouped reveal, 5 members; retrieval handle = U1–U6 minus U3, the numbering regenerates the set)",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.22"
+ },
+ {
+  "Text": "Of the snRNAs U1 through U6, the one that is <b>not</b> a component of the spliceosome is {{c1::U3::which one}}; it is localized in the {{c2::nucleolus::which nuclear region}} and probably takes part in forming {{c2::ribosomes::what}}.",
+  "Back Extra": "Distinguish: the five spliceosomal snRNAs are U1, U2, U4, U5 and U6; U3's job is ribosome formation instead.<br><br>Pitfall: in mammals U3 is also the longest of these snRNAs (215 nucleotides) and U6 the shortest (100).",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_U3_exception",
+  "numeric": false,
+  "verified_against": "p296: 'Five snRNAs, called U1, U2, U4, U5, and U6, are involved in nuclear pre-mRNA splicing as components of the spliceosome. (snRNA U3 is localized in the nucleolus and probably is involved in the formation of ribosomes.)' | Back Extra (teaching only) p296–p297: 'In mammals, these snRNAs range in size from 100 nucleotides (U6) to 215 nucleotides (U3).'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 15,
+  "_fact_pass": {
+   "must_test": [
+    "U3 is not a spliceosome component",
+    "U3 is localized in the nucleolus and probably takes part in ribosome formation"
+   ],
+   "supporting": [
+    "sizes (Pitfall line; carded on the sizes note)"
+   ],
+   "skip": []
+  },
+  "_archetype": "negation / exception (the member that is NOT in the set)",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.22"
+ },
+ {
+  "Text": "Spliceosomal snRNAs never exist as free RNA molecules: each is packaged with proteins into a {{c1::snRNP (small nuclear ribonucleoprotein, a 'snurp')::particle}}. A spliceosome is assembled from {{c2::four::how many}} different snRNPs plus protein splicing factors, and every snRNP carries a subset of {{c3::seven::how many}} common snRNP proteins plus one or more of its own.",
+  "Back Extra": "Pitfall: five snRNAs but only four snRNPs — U4 and U6 ride together in one particle.<br><br>Cue: snRNA → snRNP: add the proteins to the RNA and you have the particle; add four particles and the splicing factors and you have the spliceosome.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_snRNP_particles",
+  "numeric": true,
+  "verified_against": "p297: 'These snRNAs do not exist as free RNA molecules. Instead, they are present in small nuclear RNA–protein complexes called snRNPs (small nuclear ribonucleoproteins, usually pronounced “snurps”).' | p297: 'Spliceosomes are assembled from four different snRNPs and protein splicing factors during the splicing process.' | p297: 'Each of the four types of snRNP particles contains a subset of seven well-characterized snRNP proteins plus one or more proteins unique to the particular type of snRNP particle.' | Isaacs Ch 11b slide 26 (PDF p44): 'snRNA→snRNPs' | Back Extra (teaching only) p297: 'snRNAs U4 and U6 are present together in a fourth snRNP'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "lecture p44"
+   ],
+   "figures": [
+    "work/genetics/ch11_drafts/lecture_slides/slide_p44.png"
+   ],
+   "labels": [
+    "slide 26"
+   ],
+   "note": "the slide's bullet 'snRNA→snRNPs' names the relationship; the book (p297) supplies the counts"
+  },
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 16,
+  "_fact_pass": {
+   "must_test": [
+    "snRNAs exist only inside snRNPs (snurps), never free",
+    "a spliceosome is assembled from FOUR snRNPs plus protein splicing factors",
+    "each snRNP has a subset of SEVEN common snRNP proteins plus unique ones"
+   ],
+   "supporting": [
+    "why four not five (U4/U6 share) — Pitfall line, carded on the pairing note"
+   ],
+   "skip": []
+  },
+  "_archetype": "definition + numeric (snRNP; counts of particles and common proteins)",
+  "_lane": "authorized"
+ },
+ {
+  "Text": "Not every spliceosomal snRNA gets a particle of its own — which snRNAs go where?<br><br>{{c1::U1, U2 and U5::which three}} → each alone in a snRNP of its own<br><br>{{c1::U4 and U6::which two}} → together in one shared snRNP<br><br>The two that share a particle are held together by {{c2::base-pairing between two complementary regions::what holds them}}.",
+  "Back Extra": "Cue: three soloists (1, 2, 5) and one duet (4/6) — four particles for five RNAs.<br><br>Pitfall: the duet does not last the whole reaction — U4 is released when the 5′ splice site is cleaved, while U6 stays with the intron to the end.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_U4_U6_pairing",
+  "numeric": false,
+  "verified_against": "p297: 'Each of the snRNAs U1, U2, and U5 is present by itself in a specific snRNP particle. snRNAs U4 and U6 are present together in a fourth snRNP; U4 and U6 snRNAs contain two regions of intermolecular complementarity that are base-paired in the U4/U6 snRNP.' | Back Extra (teaching only) p297: 'When the 5′ intron splice site is cleaved in step 1, the U4 snRNA is released from the spliceosome.' | Back Extra (teaching only) p296 FIGURE 11.22 caption: 'The lariat-shaped intron is released along with snRNPs U2, U5, and U6.'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 17,
+  "_fact_pass": {
+   "must_test": [
+    "U1, U2 and U5 each sit alone in their own snRNP",
+    "U4 and U6 share one snRNP",
+    "held together by base-pairing between two regions of intermolecular complementarity"
+   ],
+   "supporting": [
+    "U4 leaves at the first cleavage, U6 stays (Pitfall line)"
+   ],
+   "skip": []
+  },
+  "_archetype": "classification (sort the snRNAs into particles) + mechanism (what pairs them)",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.22"
+ },
+ {
+  "Text": "In mammals the U snRNAs range in size from {{c1::100::how many}} nucleotides ({{c2::U6::which snRNA}}, the shortest) to {{c1::215::how many}} nucleotides ({{c2::U3::which snRNA}}, the longest).",
+  "Back Extra": "Distinguish: some snRNAs of the yeast <i>S. cerevisiae</i> are much larger.<br><br>Pitfall: U3, the longest, is the one that is not a spliceosome component (it is nucleolar).",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_snRNA_sizes",
+  "numeric": true,
+  "verified_against": "p296–p297: 'In mammals, these snRNAs range in size from 100 nucleotides (U6) to 215 nucleotides (U3). Some of the snRNAs in the yeast S. cerevisiae are much larger.' | Back Extra (teaching only) p296: '(snRNA U3 is localized in the nucleolus and probably is involved in the formation of ribosomes.)'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 18,
+  "_fact_pass": {
+   "must_test": [
+    "mammalian snRNAs span 100 to 215 nucleotides",
+    "U6 is the shortest (100), U3 the longest (215)"
+   ],
+   "supporting": [
+    "yeast snRNAs can be much larger"
+   ],
+   "skip": []
+  },
+  "_archetype": "numeric (size range with the two endpoint identities)",
+  "_lane": "authorized"
+ },
+ {
+  "Text": "Spliceosome assembly on a nuclear pre-mRNA — each snRNP, what it binds, and its order of arrival:<br><br>{{c2::U1::which snRNP}} snRNP → binds the {{c1::5′ splice site::which site}} — arrives first<br><br>{{c2::U2::which snRNP}} snRNP → binds the {{c1::branch-point consensus (around the conserved A)::which site}} — arrives second<br><br>{{c2::U5::which snRNP}} snRNP → binds the {{c1::3′ splice site::which site}} — arrives third<br><br>{{c2::U4/U6::which snRNP}} snRNP → joins the complex, completing the spliceosome — arrives last",
+  "Back Extra": "Mechanism: U1 recognizes the 5′ splice site by base-pairing between the site's consensus and a complementary sequence near the 5′ end of U1 snRNA; the U2 site is the consensus containing the A that becomes the lariat branch point.<br><br>Pitfall: U1 must be bound at the 5′ site before the first cleavage can happen, and the moment that cleavage occurs U4 leaves the complex.<br><br>Cue: 1 – 2 – 5, then the 4/6 pair.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_spliceosome_assembly",
+  "numeric": true,
+  "verified_against": "p297: 'Evidence indicates that the U1 snRNP must bind at the 5′ splice site prior to the initial cleavage reaction. Recognition of the cleavage site at the 5′ end of the intron probably involves base-pairing between the consensus sequence at this site and a complementary sequence near the 5′ terminus of snRNA U1.' | p297: 'The second snRNP to be added to the splicing complex appears to be the U2 snRNP; it binds at the consensus sequence that contains the conserved A residue that forms the branch point in the lariat structure of the spliced intron. Thereafter, the U5 snRNP binds at the 3′ splice site, and the U4/U6 snRNP is added to the complex to yield the complete spliceosome (Figure 11.22).' | p296 FIGURE 11.22 caption: '1 snRNP U1 binds to the 5′ splice site, and snRNP U2 binds to the branch site.' / '2 The complete spliceosome assembles and cleaves the transcript at the 5′ splice site.' | Isaacs Ch 11b slide 26 (PDF p44): figure shows U1 on the intron's 5′ end, U2 at the branch, U5 and U4/U6 toward the 3′ end | Back Extra (teaching only) p297: 'When the 5′ intron splice site is cleaved in step 1, the U4 snRNA is released from the spliceosome.'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "lecture p44"
+   ],
+   "figures": [
+    "work/genetics/ch11_drafts/lecture_slides/slide_p44.png"
+   ],
+   "labels": [
+    "slide 26"
+   ],
+   "note": "the slide's figure (4/e Fig 11-28) shows the assembled spliceosome; the ORDER of arrival is book-only (p297)"
+  },
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 19,
+  "_fact_pass": {
+   "must_test": [
+    "U1 binds the 5′ splice site, first",
+    "U2 binds the branch-point consensus (conserved A), second",
+    "U5 binds the 3′ splice site",
+    "U4/U6 is added last to complete the spliceosome"
+   ],
+   "supporting": [
+    "U1 recognition is by base-pairing with U1 snRNA (Mechanism line)",
+    "U4 released at the first cleavage (own card)"
+   ],
+   "skip": [
+    "'the specificity of the binding of at least some of the snRNPs ... involves both the snRNAs and specific snRNP proteins' — hedged detail"
+   ]
+  },
+  "_archetype": "sequence (two-way keyed panel: snRNP ↔ binding site, in assembly order)",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.22"
+ },
+ {
+  "Text": "Nuclear pre-mRNA splicing (step 1): on the complete spliceosome the {{c1::5′::5′ or 3′}} splice site is cleaved, and the {{c1::5′ carbon of the intron's first nucleotide (a G)::which atom, which end}} is joined to the {{c1::2′ carbon of the branch-point A::which atom, which residue}}, forming the lariat; the snRNA released at this cleavage is {{c2::U4::which snRNA}}.",
+  "Back Extra": "Mechanism: the new linkage is intramolecular — the intron's own 5′ end loops back onto an A residue near its 3′ end, so the intermediate is a lariat (a 2′–5′ branch) rather than a linear piece.<br><br>Why: this stage needs ATP hydrolysis and the complete spliceosome; the 5′ site is the GU end of the intron.<br><br>Pitfall: U1 leaves along with U4 as the lariat forms, so only U2, U5 and U6 stay with the intron to the end.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_splicing_step1",
+  "numeric": true,
+  "verified_against": "p297: 'The first stage in nuclear pre-mRNA splicing involves cleavage at the 5′ intron splice site ( GU-intron) and the formation of an intramolecular phosphodiester linkage between the 5′ carbon of the G at the cleavage site and the 2′ carbon of a conserved A residue near the 3′ end of the intron.' | p297: 'This stage occurs on complete spliceosomes (Figure 11.22) and requires the hydrolysis of ATP.' | p297: 'When the 5′ intron splice site is cleaved in step 1, the U4 snRNA is released from the spliceosome.' | p296 FIGURE 11.22 caption: '3 The 5′ end of the intron is joined to the A in the branch site to form a lariat structure, and U1 and U4 are released.' | Isaacs Ch 11b slide 26 (PDF p44) figure step 1: 'The complete spliceosome participates in the cleavage of the phosphoester linkage at the 5′ intron splice site and the formation of a phosphodiester linkage between the 5′ G of the intron and the conserved A near the 3′ end of the intron. snRNA U4 is released.'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "lecture p44"
+   ],
+   "figures": [
+    "work/genetics/ch11_drafts/lecture_slides/slide_p44.png"
+   ],
+   "labels": [
+    "slide 26"
+   ],
+   "note": "book (p297, FIGURE 11.22 caption) and the slide's figure caption state the same step-1 chemistry"
+  },
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 20,
+  "_fact_pass": {
+   "must_test": [
+    "step 1 cleaves the 5′ splice site",
+    "the 5′ carbon of the intron's G is joined to the 2′ carbon of the conserved A (lariat)",
+    "U4 is released at this cleavage"
+   ],
+   "supporting": [
+    "requires ATP and the complete spliceosome (own card + Why line)",
+    "U1 also released per the figure caption (Pitfall line)"
+   ],
+   "skip": []
+  },
+  "_archetype": "mechanism (step-scaffold: ordinal printed, chemistry clozed)",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.22"
+ },
+ {
+  "Text": "Nuclear pre-mRNA splicing (step 2): the {{c1::3′::5′ or 3′}} splice site is cleaved and the two exons are joined by a normal 5′→3′ {{c1::phosphodiester::bond type}} linkage; the lariat-shaped intron is released together with snRNPs {{c2::U2, U5 and U6::which three}}, and the spliced mRNA is exported to the cytoplasm for translation.",
+  "Back Extra": "Distinguish: step 1's linkage was the odd one — the intron's 5′ G onto the 2′ carbon of an A — whereas step 2's is the ordinary backbone bond of RNA.<br><br>Why: only after both steps is the mRNA ready for export to the cytoplasm and translation on ribosomes; introns are excised in the nucleus and never travel with the message.<br><br>Pitfall: U4 is already gone (released at step 1's cleavage), which is why it is not among the snRNPs that leave with the lariat.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_splicing_step2",
+  "numeric": true,
+  "verified_against": "p297: 'In step 2 of the splicing reaction, the 3′ splice site of the intron is cleaved, and the two exons are joined by a normal 5′ to 3′ phosphodiester linkage (Figure 11.22). The spliced mRNA is now ready for export to the cytoplasm and translation on ribosomes.' | p296 FIGURE 11.22 caption: '4 The 3′ splice site is cleaved, and the 5′ end of exon 2 is joined to the 3′ end of exon 1. The lariat-shaped intron is released along with snRNPs U2, U5, and U6.' | Isaacs Ch 11b slide 26 (PDF p44) figure step 2: 'The 3′ intron splice site is cleaved and the two exons are joined by a phosphodiester linkage.' | Back Extra (teaching only) p297 KEY POINTS: 'Noncoding intron sequences are excised from RNA transcripts in the nucleus prior to their transport to the cytoplasm.' | Back Extra (teaching only) p297: 'When the 5′ intron splice site is cleaved in step 1, the U4 snRNA is released from the spliceosome.'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "lecture p44"
+   ],
+   "figures": [
+    "work/genetics/ch11_drafts/lecture_slides/slide_p44.png"
+   ],
+   "labels": [
+    "slide 26"
+   ],
+   "note": "book (p297, FIGURE 11.22 caption) and the slide's figure caption state the same step-2 chemistry"
+  },
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 21,
+  "_fact_pass": {
+   "must_test": [
+    "step 2 cleaves the 3′ splice site",
+    "the exons are joined by a normal 5′→3′ phosphodiester linkage",
+    "the lariat intron is released with U2, U5 and U6"
+   ],
+   "supporting": [
+    "spliced mRNA exported for translation (visible; tested as location on the spliceosome-particle card)"
+   ],
+   "skip": []
+  },
+  "_archetype": "mechanism (step-scaffold: ordinal printed, chemistry clozed)",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.22"
+ },
+ {
+  "Text": "In nuclear pre-mRNA splicing the {{c1::branch point::term}} is {{c2::a conserved A near the intron's 3′ end}}; when the intron's 5′ end is joined to this residue's 2′ carbon, the looped intermediate that results is called a {{c3::lariat::term for the shape}}.",
+  "Back Extra": "Why: the intron's 5′ end bonds to the A's 2′ carbon while the A's 3′ side keeps running on into the rest of the intron, so the excised intron is a loop with a tail — a lasso shape, hence 'lariat'.<br><br>Distinguish: the 5′ and 3′ splice sites are the intron's ends (GU…AG); the branch point is an interior residue near the 3′ end.<br><br>Cue: in Isaacs' shorthand GT…TACTAAC…AG, the branch-point A is the highlighted A inside TACTAAC.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_branch_point_lariat",
+  "numeric": true,
+  "verified_against": "p297: 'the formation of an intramolecular phosphodiester linkage between the 5′ carbon of the G at the cleavage site and the 2′ carbon of a conserved A residue near the 3′ end of the intron.' | p297: 'it binds at the consensus sequence that contains the conserved A residue that forms the branch point in the lariat structure of the spliced intron.' | p296 FIGURE 11.22 caption: '3 The 5′ end of the intron is joined to the A in the branch site to form a lariat structure' | Isaacs Ch 11b slide 26 (PDF p44): 'GT…TACTAAC…AG' (the sixth base, A, in red)",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "lecture p44"
+   ],
+   "figures": [
+    "work/genetics/ch11_drafts/lecture_slides/slide_p44.png"
+   ],
+   "labels": [
+    "slide 26"
+   ],
+   "note": "the lariat is drawn on the slide's figure; the book defines the branch point in words on p297"
+  },
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 22,
+  "_fact_pass": {
+   "must_test": [
+    "branch point = a conserved A residue near the 3′ end of the intron",
+    "the looped intermediate is called a lariat"
+   ],
+   "supporting": [
+    "why the shape is a loop with a tail",
+    "TACTAAC box (own card)"
+   ],
+   "skip": []
+  },
+  "_archetype": "two-way definition (branch point ↔ its location) + term (lariat)",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.22"
+ },
+ {
+  "Text": "Isaacs' shorthand for a nuclear intron on the nontemplate DNA strand is exon-GT…{{c1::TACTAAC::7-base branch-point box}}…AG-exon, with one A inside that box singled out as the branch-point adenine of the lariat.",
+  "Back Extra": "Meaning: the box lies inside the intron, upstream of the 3′ AG; its marked A is the residue whose 2′ carbon receives the intron's 5′ G to form the lariat.<br><br>Distinguish: GT and AG are the invariant intron ends; the TACTAAC box marks the branch point, an interior residue 'near the 3′ end of the intron'.<br><br>Pitfall: written for the nontemplate DNA strand — in the RNA it reads GU…UACUAAC…AG.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_tactaac_box",
+  "numeric": true,
+  "verified_against": "Isaacs Ch 11b slide 23 (PDF p41): 'Exon-GT………TACTAAC……....AG-Exon (non-Template DNA sequence/mRNA)' — the sixth base of TACTAAC, an A, is printed in red | Isaacs Ch 11b slide 26 (PDF p44): 'GT…TACTAAC…AG' — the same A in red | p297: 'the consensus sequence that contains the conserved A residue that forms the branch point in the lariat structure of the spliced intron' | p294: 'The sequences shown here are for the DNA nontemplate strand (equivalent to the RNA transcript, but with T rather than U).'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "lecture p41",
+    "lecture p44"
+   ],
+   "figures": [
+    "work/genetics/ch11_drafts/lecture_slides/slide_p41.png",
+    "work/genetics/ch11_drafts/lecture_slides/slide_p44.png"
+   ],
+   "labels": [
+    "slide 23",
+    "slide 26"
+   ],
+   "note": "fact read from the lecture slides: TACTAAC with its sixth base A in red appears only there; the book names the branch point as 'a conserved A residue near the 3′ end of the intron' (p297) without giving the box sequence"
+  },
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 23,
+  "_fact_pass": {
+   "must_test": [
+    "TACTAAC is the branch-point box in Isaacs' GT…TACTAAC…AG shorthand",
+    "its marked A is the branch-point adenine"
+   ],
+   "supporting": [
+    "nontemplate-strand convention; RNA reads UACUAAC"
+   ],
+   "skip": []
+  },
+  "_archetype": "numeric (sequence value: the lecturer's branch-point box)",
+  "_lane": "authorized"
+ },
+ {
+  "Text": "In the splice-junction consensus of nuclear genes (for example G100 T100 opening the intron), a numerical subscript gives the {{c1::percentage frequency::what the number means}} of that base at that position, so a subscript of 100 means the base is {{c1::always::how often}} present; the run of about six bases a little upstream of the 3′ AG consists of {{c2::pyrimidines (Py)::which base class}}.",
+  "Back Extra": "Meaning: N = any of the four standard nucleotides; Py = either pyrimidine (C or T). The full nuclear-gene consensus on the nontemplate strand, subscripts written as plain numbers after each base: exon A64 G73 | intron G100 T100 A68 A68 G84 T63 ………… 6Py(74–87) N C65 A100 G100 | exon N.<br><br>Cue: the exon's last two bases are usually A-G as well, so a typical 5′ junction reads …AG|GTAAGT…, with only the GT invariant.<br><br>Distinguish: the junctions differ for tRNA genes and for the protein-coding genes of mitochondria and chloroplasts, whose transcripts use different splicing mechanisms.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_junction_consensus",
+  "numeric": true,
+  "verified_against": "p294: 'In addition, there are short consensus sequences at the exon–intron junctions. For nuclear genes, the consensus junctions are exon A64G73 | intron G100T100A68A68G84T63.............6Py74-87N C65A100G100 | exon N' | p294–p295: 'The numerical subscripts indicate the percentage frequencies of the consensus bases at each position; thus, a 100 subscript indicates that a base is always present at that position. N and Py indicate that any of the four standard nucleotides or either pyrimidine, respectively, may be present at the indicated position.' | Back Extra (teaching only) p295: 'The exon–intron junctions are different for tRNA genes and protein-encoding genes in mitochondria and chloroplasts. The transcripts of these genes utilize different RNA splicing mechanisms.'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 24,
+  "_fact_pass": {
+   "must_test": [
+    "subscripts = percentage frequency of the consensus base at that position; 100 = always present",
+    "a run of ~6 pyrimidines (Py) sits upstream of the 3′ AG"
+   ],
+   "supporting": [
+    "N = any base, Py = either pyrimidine (Meaning line)",
+    "the full consensus string (back only — never asked cold)",
+    "the exon's last two bases are usually AG (Cue line)"
+   ],
+   "skip": [
+    "reproducing the subscripted string cold — a sequence VALUE, kept in Back Extra by design"
+   ]
+  },
+  "_archetype": "numeric (how to read the consensus; the derivable structure, full string on the back)",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.20"
+ },
+ {
+  "Text": "{{c1::Alternative splicing::process}} of a pre-mRNA is {{c2::removing its introns in more than one pattern}}, which yields mRNAs that encode {{c3::different but related::how the products compare}} polypeptides — so one gene can encode more than one product.",
+  "Back Extra": "Why: introns thereby increase the coding potential of the entire genome — one gene, several related proteins.<br><br>Cue: under 'mRNA processing' Isaacs files splicing as two items — removal of introns, and alternative splicing.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_alternative_splicing",
+  "numeric": false,
+  "verified_against": "p293: 'In some cases, alternate ways of removing introns from pre-mRNAs produce mRNAs that encode different, but related, polypeptides. In these cases, introns allow a gene to encode more than one product (see Chapter 18). The coding potential of the entire genome is thereby increased.' | Isaacs Ch 11b slide 22 (PDF p40, text layer beneath the adenovirus exon/intron figure): 'mRNA processing • Splicing – Removal of introns – Alternative splicing' | Isaacs Ch 11b slide 18 build 3/3 (PDF p35): 'Splicing – Removal of introns – Alternative splicing' (same bullets, visible)",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": {
+   "pages": [
+    "lecture p35",
+    "lecture p40"
+   ],
+   "figures": [
+    "work/genetics/ch11_drafts/lecture_slides/slide_p35.png",
+    "work/genetics/ch11_drafts/lecture_slides/slide_p40.png"
+   ],
+   "labels": [
+    "slide 18 (build 3/3)",
+    "slide 22"
+   ],
+   "note": "the bullets are the visible text of slide 18's final build (p35) and the text layer of slide 22 (p40), whose render shows the adenovirus exon/intron figure laid over them; the book states the same fact on p293"
+  },
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 25,
+  "_fact_pass": {
+   "must_test": [
+    "alternative splicing = alternate ways of removing introns from a pre-mRNA",
+    "products: mRNAs encoding different but related polypeptides",
+    "so one gene can encode more than one product"
+   ],
+   "supporting": [
+    "coding potential of the genome increased (Why line)",
+    "Isaacs lists it under splicing (Cue line)"
+   ],
+   "skip": [
+    "'(see Chapter 18)' — cross-reference"
+   ]
+  },
+  "_archetype": "two-way definition (term ↔ meaning) + consequence",
+  "_lane": "authorized"
+ },
+ {
+  "Text": "For a protein-coding gene, RNA splicing must join the exons with accuracy to {{c1::the single nucleotide::what tolerance}}, because the join decides whether the {{c2::codons::which units}} in every exon distal to the intron are read correctly.",
+  "Back Extra": "Why: shift the join by even one nucleotide and every codon downstream of the intron is translated wrongly, so the polypeptide's amino acid sequence from that point on is wrong.<br><br>Pitfall: 'distal to the intron' means the exons downstream of it — the ones whose codons a mis-join would throw off.<br><br>Cue: precision this fine is why the junction signals matter — the invariant GU…AG ends and the consensus around them.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_splicing_precision",
+  "numeric": false,
+  "verified_against": "p294: 'For genes that encode proteins, the splicing mechanism must be precise; it must join exon sequences with accuracy to the single nucleotide to assure that codons in exons distal to introns are read correctly (◾ Figure 11.20).' | p294 FIGURE 11.20 caption: 'The splicing mechanism must be accurate to the single nucleotide to assure that codons in downstream exons are translated correctly to produce the right amino acid sequence in the polypeptide product.' | p297 KEY POINTS: 'The intron excision process must be precise, with accuracy to the nucleotide level, to ensure that codons in exons distal to introns are read correctly during translation.' | Back Extra (teaching only) p294: 'Accuracy to this degree would seem to require precise splicing signals, presumably nucleotide sequences within introns and at the exon–intron junctions.'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 26,
+  "_fact_pass": {
+   "must_test": [
+    "splicing must be accurate to the single nucleotide",
+    "reason: so codons in exons distal (downstream) to the intron are read correctly"
+   ],
+   "supporting": [
+    "the consequence for the polypeptide (Why line)"
+   ],
+   "skip": []
+  },
+  "_archetype": "why-card (mechanism: precision and its reason)",
+  "_lane": "authorized",
+  "_figure_request": "FIGURE 11.20"
+ }
+]

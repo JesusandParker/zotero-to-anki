@@ -1,0 +1,24 @@
+{
+ "run_id": "figures",
+ "source": "genetics",
+ "segment": 11,
+ "stage": "figures",
+ "status": "complete",
+ "counts": {
+  "marks": 70,
+  "cards": 89,
+  "cards_placeable": 67,
+  "figures_indexed": 20,
+  "proposed": 87,
+  "judged": true,
+  "kept": 75,
+  "rejected": 12,
+  "attached_notes": 75,
+  "distinct_plates": 19,
+  "doubled": 0,
+  "leaks": 0
+ },
+ "anomalies": [],
+ "skill_sha": "b87f8d13d252ebd16c7aa00a5a00fd64dbfbe0ba",
+ "new_hazards_found": []
+}

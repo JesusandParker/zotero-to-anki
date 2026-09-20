@@ -766,6 +766,69 @@
     "segment": 2,
     "definition": "one beat of a word"
    }
+  ],
+  "codon": [
+   {
+    "term": "codons",
+    "noteId": 1789865746341,
+    "source": "genetics",
+    "segment": 11,
+    "definition": "three mRNA nucleotides that specify one amino acid"
+   }
+  ],
+  "prim_transcript": [
+   {
+    "term": "primary transcript",
+    "noteId": 1789865746618,
+    "source": "genetics",
+    "segment": 11,
+    "definition": "the RNA exactly as transcribed, before any processing"
+   }
+  ],
+  "promoter": [
+   {
+    "term": "promoters",
+    "noteId": 1789865746841,
+    "source": "genetics",
+    "segment": 11,
+    "definition": "where RNA polymerase binds DNA to start transcription"
+   }
+  ],
+  "archa": [
+   {
+    "term": "archaea",
+    "noteId": 1789865746993,
+    "source": "genetics",
+    "segment": 11,
+    "definition": "the prokaryotes that are not bacteria"
+   }
+  ],
+  "nucleol": [
+   {
+    "term": "nucleolus",
+    "noteId": 1789865747216,
+    "source": "genetics",
+    "segment": 11,
+    "definition": "the nuclear region that makes rRNA and ribosomes"
+   }
+  ],
+  "basal_transcript_factor": [
+   {
+    "term": "basal transcription factors",
+    "noteId": 1789865747460,
+    "source": "genetics",
+    "segment": 11,
+    "definition": "proteins eukaryotic RNA polymerase needs to start transcription"
+   }
+  ],
+  "colin": [
+   {
+    "term": "colinear",
+    "noteId": 1789865747617,
+    "source": "genetics",
+    "segment": 11,
+    "definition": "arranged in the same order, unit for unit"
+   }
   ]
  }
 }

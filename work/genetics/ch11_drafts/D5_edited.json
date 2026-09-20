@@ -1,0 +1,395 @@
+[
+  {
+    "Text": "Unlike their prokaryotic counterparts, eukaryotic RNA polymerases {{c1::cannot::can or cannot}} initiate transcription by themselves.",
+    "Back Extra": "Why: all five eukaryotic RNA polymerases need protein transcription factors, which must bind the promoter and form an initiation complex before the polymerase itself will bind and start the RNA chain.<br><br>Distinguish: a prokaryotic RNA polymerase manages initiation itself because its sigma subunit recognizes the promoter and binds the enzyme to it; a eukaryotic polymerase has to wait for separate transcription factors to do that job.<br><br>Pitfall: basal transcription factors are required for initiation to happen at all; enhancers and silencers, with still other transcription factors, only modulate how efficiently a promoter initiates.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      45
+    ],
+    "block": "U12a_pol2_promoter_elements",
+    "numeric": false,
+    "verified_against": "p287: 'Unlike their prokaryotic counterparts, eukaryotic RNA polymerases cannot initiate transcription by themselves.' | Back Extra (unmarked, teaching only) p287: 'All five eukaryotic RNA polymerases require the assistance of protein transcription factors to start the synthesis of an RNA chain.' | Back Extra (unmarked, teaching only) p287: 'Indeed, these transcription factors must bind to a promoter region in DNA and form an appropriate initiation complex before RNA polymerase will bind and initiate transcription.' | Back Extra (unmarked, teaching only) p288: 'Still other transcription factors and regulatory sequences called enhancers and silencers modulate the efficiency of initiation (Chapter 18).' | Back Extra (unmarked, teaching only) p281: 'The function of sigma is to recognize and bind RNA polymerase to the transcription initiation or promoter sites in DNA.'",
+    "verified_by": "drafter-D5; edited by editor-E5",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D5",
+    "_unit_idx": 0,
+    "_fact_pass": {
+      "must_test": [
+        "eukaryotic RNA polymerases cannot initiate transcription by themselves (the contrast with prokaryotic polymerases, which can)"
+      ],
+      "supporting": [
+        "all five need protein transcription factors that bind the promoter and form an initiation complex before the polymerase binds (unmarked next sentences, Back Extra Why)",
+        "enhancers and silencers only modulate efficiency (unmarked p288, Back Extra Distinguish)",
+        "sigma recognizes and binds the prokaryotic polymerase to the promoter (unmarked p281, Back Extra Distinguish)"
+      ],
+      "skip": [
+        "the section's focus statement on Pol II pre-mRNA synthesis (framing, not a fact)"
+      ]
+    },
+    "_archetype": "comparison",
+    "_figure_request": "FIGURE 11.14",
+    "_editor_notes": "Checks 1-30 run; Text passes unchanged: the rule-10 polarity cloze with a forced-choice hint, the prokaryotic contrast visible as the orchestrator specified, grounded verbatim p287. Check 11: Back Extra rewritten. The old Distinguish ('what initiation requires at all') was clumsy and only NAMED the prokaryotic side; it now explains it with the grounded p281 sigma sentence, and the enhancer/silencer line becomes a Pitfall. No claim changed; one grounded quote added.",
+    "_editor_verdict": "REWRITE"
+  },
+  {
+    "Text": "In a promoter recognized by RNA polymerase II, the conserved element closest to the transcription start site (position +1) is the {{c1::TATA box}}, with consensus sequence {{c1::TATAAAA}} (read 5′ to 3′ on the nontemplate strand) and centered at about position {{c2::−30::position}}.",
+    "Back Extra": "Why: the TATA box plays an important role in positioning the transcription startpoint, and it is where the first basal factor, TFIID, binds the promoter, through its TATA-binding protein.<br><br>Pitfall: the consensus is written from the nontemplate strand, the strand whose sequence matches the RNA transcript (with T in place of U); the template strand paired with it is the complement, which is why the same box also appears written as ATATTTT.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      46
+    ],
+    "block": "U12a_pol2_promoter_elements",
+    "numeric": true,
+    "verified_against": "p287: 'The conserved element closest to the transcription start site (position +1) is called the TATA box; it has the consensus sequence TATAAAA (reading 5′ to 3′ on the nontemplate strand) and is centered at' | p288 (continuation of the same sentence across the page break, requested by margin comment): 'about position −30.' | Back Extra (unmarked, teaching only) p288: 'The TATA box plays an important role in positioning the transcription startpoint.' | Back Extra (unmarked, teaching only) p288 FIGURE 11.14 caption: 'The assembly of this complex begins when TFIID, which contains the TATA-binding protein (TBP), binds to the TATA box. The other transcription factors and RNA polymerase II join the complex in the sequence shown.' | Back Extra (unmarked, teaching only) p288 FIGURE 11.14 art, read on the render: the TATA box is drawn as 'ATATTTT' on the upper strand over 'TATAAAA' on the lower strand. | Stem frame only (unmarked context, no answer drawn from it) p287: 'The promoters recognized by RNA polymerase II consist of short conserved elements, or modules, located upstream from the transcription startpoint.' | Back Extra (unmarked, teaching only) p287 Solve It: 'Remember that the nontemplate strand will have the same sequence as the transcript of the gene, but with T’s in place of U’s.'",
+    "verified_by": "drafter-D5; parenthetical-after-cloze warning cleared: '(read 5′ to 3′ on the nontemplate strand)' is the reading convention for the sequence, not a definition of TATAAAA or of the TATA box; parenthetical-after-cloze warning re-adjudicated by editor-E5 and confirmed cleared (the parenthetical names the reading convention, not the answer); edited by editor-E5",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D5",
+    "_unit_idx": 1,
+    "_fact_pass": {
+      "must_test": [
+        "the TATA box is the conserved element closest to the start site (+1)",
+        "consensus TATAAAA, read 5' to 3' on the nontemplate strand",
+        "centered at about position −30 (the sentence's continuation on p288; Parker's margin comment asked for it)"
+      ],
+      "supporting": [
+        "the TATA box's role in positioning the transcription startpoint (unmarked next sentence; carried as the Why line per the orchestrator's instruction)",
+        "TFIID/TBP binds it first (caption, Mechanism in Why line)",
+        "template strand reads ATATTTT (figure art, Pitfall)"
+      ],
+      "skip": [
+        "'components of the mouse thymidine kinase promoter are shown in Figure 11.13' (source artifact)"
+      ]
+    },
+    "_archetype": "numeric",
+    "_figure_request": "FIGURE 11.13",
+    "_editor_notes": "Margin comment honoured: the card carries the whole sentence, ends 'about position −30', and quotes p287 AND p288. Rule 29: the unmarked next sentence ('positioning the transcription startpoint') is a Why line only, cited 'unmarked, teaching only' - correct. TATAAAA checked letter by letter against p287 and the FIGURE 11.13 art; −30 checked against p288; minus sign inside the cloze; ::position hint present; numeric true. c1 groups name + sequence (a visible 'TATA box' would leak TATA-), c2 the position: both cards cold-solve; the c2 card is the lab-quiz fact (start site ~30 bases downstream of the TATA box). Parenthetical-after-cloze warning adjudicated and cleared: '(read 5′ to 3′ on the nontemplate strand)' names the reading convention, not the sequence or the box. Checks 3/10/11 on the Pitfall: 'beneath it' was a position word and the line implied the template strand reads ATATTTT in the 5′-to-3′ sense, which the art does not say; reworded to 'the paired strand is the complement, written ATATTTT' and grounded the nontemplate-matches-transcript claim in the p287 Solve It sentence. Back Extra names no sibling box value (rule 25 spirit).",
+    "_editor_verdict": "REWRITE"
+  },
+  {
+    "Text": "In an RNA polymerase II promoter, the {{c1::CAAT box}}, consensus sequence {{c1::GGCCAATCT}}, usually occurs near position {{c2::−80::position}}.",
+    "Back Extra": "Distinguish: the CAAT and TATA boxes sit at about the same positions in the promoters of most protein-coding nuclear genes, whereas the GC and octamer boxes may be present or absent and turn up at many different locations.<br><br>Cue: the box's name sits inside its consensus, GG-CCAAT-CT, so the real recall is the flanking letters.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      47
+    ],
+    "block": "U12a_pol2_promoter_elements",
+    "numeric": true,
+    "verified_against": "p288: 'The second conserved element is called the CAAT box; it usually occurs near position −80 and has the consensus sequence GGCCAATCT.' | Back Extra (unmarked, teaching only) p287 FIGURE 11.13 caption: 'The TATA and CAAT boxes are located at about the same positions in the promoters of most nuclear genes encoding proteins.' | Back Extra (unmarked, teaching only) p287 FIGURE 11.13 caption: 'The GC and octamer boxes may be present or absent; when present, they occur at many different locations, either singly or in multiple copies.' | Stem frame only (unmarked context, no answer drawn from it) p287: 'The promoters recognized by RNA polymerase II consist of short conserved elements, or modules, located upstream from the transcription startpoint.'",
+    "verified_by": "drafter-D5",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D5",
+    "_unit_idx": 2,
+    "_fact_pass": {
+      "must_test": [
+        "the CAAT box usually occurs near position −80",
+        "consensus GGCCAATCT"
+      ],
+      "supporting": [
+        "TATA and CAAT boxes sit at about the same positions in most protein-coding promoters (caption, Distinguish)"
+      ],
+      "skip": [
+        "'the second conserved element' is the book's order of description, not a promoter position (a GC box lies between the CAAT and TATA boxes in the mouse thymidine kinase promoter), so it is not used as a cue"
+      ]
+    },
+    "_archetype": "numeric",
+    "_figure_request": "FIGURE 11.13",
+    "_editor_verdict": "PASS",
+    "_editor_notes": "Checks 1-30 run. GGCCAATCT checked letter by letter against p288 and the FIGURE 11.13 art; −80 checked; minus inside the cloze; ::position hint; numeric true. c1 groups name + sequence (a visible 'CAAT box' would leak CCAAT), c2 the position; both cards cold-solve from '-80' / 'CAAT box'. The drafter rightly did not use 'the second conserved element' as a cue (book order, not promoter position). Back Extra gives no sibling box's sequence or position; Distinguish grounded in the FIGURE 11.13 caption; Cue is shown only after answering."
+  },
+  {
+    "Text": "In RNA polymerase II promoters, the GC box has the consensus sequence {{c1::GGGCGG}}.",
+    "Back Extra": "Pitfall: the GC box is optional, present in some RNA polymerase II promoters and absent from others, singly or in multiple copies at many different locations; when present it influences how efficiently the promoter initiates transcription.<br><br>Distinguish: the TATA and CAAT boxes, by contrast, sit at about the same positions in most protein-coding promoters.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      48
+    ],
+    "block": "U12a_pol2_promoter_elements",
+    "numeric": true,
+    "verified_against": "p288 (sentence carrying marks 48 and 49): 'Two other conserved elements, the GC box, consensus GGGCGG, and the octamer box, consensus ATTTGCAT, often are present in RNA polymerase II promoters; they influence the efficiency of a promoter in initiating transcription.' | Back Extra (unmarked, teaching only) p287 FIGURE 11.13 caption: 'The GC and octamer boxes may be present or absent; when present, they occur at many different locations, either singly or in multiple copies.' | Back Extra (unmarked, teaching only) p287 FIGURE 11.13 caption: 'The TATA and CAAT boxes are located at about the same positions in the promoters of most nuclear genes encoding proteins.'",
+    "verified_by": "drafter-D5; edited by editor-E5",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D5",
+    "_unit_idx": 3,
+    "_fact_pass": {
+      "must_test": [
+        "GC box consensus GGGCGG"
+      ],
+      "supporting": [
+        "GC and octamer boxes are often present and influence promoter efficiency (unmarked remainder of the sentence, Why)",
+        "may be present or absent, many locations, singly or in multiple copies (caption, Why)"
+      ],
+      "skip": [
+        "no position is given on the page for the GC box, so none is carded (zero guessing)"
+      ]
+    },
+    "_archetype": "numeric",
+    "_figure_request": "FIGURE 11.13",
+    "_editor_notes": "GGGCGG checked letter by letter against p288 and the FIGURE 11.13 art; numeric true. One-way is correct: the reverse direction (GGGCGG -> 'GC box') is decodable from the letters. No position is on the page, none carded. Check 11: the first Back Extra line was labeled 'Why' but states a property (optional, variable location), not a reason; relabeled Pitfall (the trap is expecting it at a fixed spot in every promoter). Wording tightened, no claim changed. Back Extra gives no sibling box value.",
+    "_editor_verdict": "REWRITE"
+  },
+  {
+    "Text": "In RNA polymerase II promoters, the octamer box has the consensus sequence {{c1::ATTTGCAT}}.",
+    "Back Extra": "Pitfall: like the GC box, the octamer box is optional and may be present or absent; when present it influences how efficiently the promoter initiates transcription.<br><br>Cue: 'octamer' means eight units, and the consensus is exactly eight letters long.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      49
+    ],
+    "block": "U12a_pol2_promoter_elements",
+    "numeric": true,
+    "verified_against": "p288 (sentence carrying marks 48 and 49): 'Two other conserved elements, the GC box, consensus GGGCGG, and the octamer box, consensus ATTTGCAT, often are present in RNA polymerase II promoters; they influence the efficiency of a promoter in initiating transcription.' | Back Extra (unmarked, teaching only) p287 FIGURE 11.13 caption: 'The GC and octamer boxes may be present or absent; when present, they occur at many different locations, either singly or in multiple copies.'",
+    "verified_by": "drafter-D5; edited by editor-E5",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D5",
+    "_unit_idx": 4,
+    "_fact_pass": {
+      "must_test": [
+        "octamer box consensus ATTTGCAT"
+      ],
+      "supporting": [
+        "often present; influences promoter efficiency (unmarked remainder of the sentence, Why)",
+        "may be present or absent (caption, Why)"
+      ],
+      "skip": [
+        "no position is given on the page for the octamer box, so none is carded (zero guessing)"
+      ]
+    },
+    "_archetype": "numeric",
+    "_figure_request": "FIGURE 11.13",
+    "_editor_notes": "ATTTGCAT checked letter by letter against p288 and the FIGURE 11.13 art (eight letters); numeric true. One-way is correct (eight letters -> 'octamer box' is decodable). Check 11: same relabel as card 3 (Why -> Pitfall, it states optionality, not a reason). Cue kept: it is a form cue shown after answering, and the eight-letter count is verifiable on the page. Back Extra gives no sibling box value.",
+    "_editor_verdict": "REWRITE"
+  },
+  {
+    "Text": "The first three basal transcription factors to interact with an RNA polymerase II promoter, in order of arrival, are:<br><br>1. {{c1::TFIID}}<br><br>2. {{c1::TFIIA}}<br><br>3. {{c1::TFIIB}}",
+    "Back Extra": "Meaning: each basal factor is written TFIIX, Transcription Factor X for RNA polymerase II, where X is a letter identifying the individual factor.<br><br>Why: the basal factors must interact with the promoter in the correct sequence for initiation to work; RNA polymerase II does not bind the promoter on its own, only after the factors have begun forming the initiation complex.<br><br>Roster: <b>TFIID</b> → <b>TFIIA</b> → <b>TFIIB</b> → TFIIF (bringing RNA polymerase II) → TFIIE → TFIIH and TFIIJ.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      51,
+      52
+    ],
+    "block": "U12b_basal_tf_assembly",
+    "numeric": false,
+    "verified_against": "p288: 'TFIID is the first basal transcription factor to interact with the promoter; it contains a TATA-binding protein (TBP) and several small TBP-associated proteins (Figure 11.14).' | p288: 'Next, TFIIA joins the complex, followed by TFIIB.' | Back Extra (unmarked, teaching only) p288: 'Each basal transcription factor is denoted TFIIX (Transcription Factor X for RNA polymerase II, where X is a letter identifying the individual factor).' | Back Extra (unmarked, teaching only) p288: 'The basal transcription factors must interact with promoters in the correct sequence to initiate transcription effectively (◾ Figure 11.14).' | Back Extra (unmarked, teaching only) p287: 'Indeed, these transcription factors must bind to a promoter region in DNA and form an appropriate initiation complex before RNA polymerase will bind and initiate transcription.'",
+    "verified_by": "drafter-D5; parenthetical-after-cloze warning resolved by REMOVING the row-1 cue '(the one carrying the TATA-binding protein)': it described the answer (R3), and TBP <-> TFIID is tested two-way on the TFIID/TBP note; edited by editor-E5",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D5",
+    "_unit_idx": 5,
+    "_fact_pass": {
+      "must_test": [
+        "TFIID is the first basal factor to interact with the promoter",
+        "TFIIA joins next",
+        "TFIIB follows TFIIA (the D, A, B order)"
+      ],
+      "supporting": [
+        "TFIIX naming convention (unmarked, Meaning line)",
+        "the factors must interact in the correct sequence (unmarked, Why line)"
+      ],
+      "skip": [
+        "what TFIID contains (TBP) is tested two-way on the TFIID/TBP note; it is no longer used as a row cue here (it described the answer)"
+      ]
+    },
+    "_archetype": "sequence",
+    "_figure_request": "FIGURE 11.14",
+    "_editor_notes": "Rule 23: three uncued items, passable. Rule 26: ordinals printed, not clozed; rule 19 rows spaced. Grounded p288 (marks 51, 52). Parenthetical-after-cloze warning adjudicated as a real defect, not cleared: '(the one carrying the TATA-binding protein)' is TFIID's defining property in this section, so a student who knows TFIID contains TBP but NOT the order answers row 1 by decoding (check 15 / R3) - and the order is exactly what this card tests. Cue removed; rows 2 and 3 never had one, so the card is now uniform. The lab-quiz fact (first = TFIID) is tested here cold and again on card 6. Why line tightened to the page's own claim (the polymerase binds only after the factors begin the complex; the earlier wording said 'until an initiation complex has formed', which the art contradicts since the polymerase enters at the TFIIF step). Roster intact, own members bolded.",
+    "_editor_verdict": "REWRITE"
+  },
+  {
+    "Text": "{{c1::TFIID}}, the first basal transcription factor to interact with an RNA polymerase II promoter, contains the {{c2::TATA-binding protein (TBP)}} plus several small proteins associated with it.",
+    "Back Extra": "Mechanism: the TATA-binding protein is what seats TFIID on the TATA box, the promoter element nearest the transcription startpoint; the other basal factors and RNA polymerase II then join the complex around it.<br><br>Pitfall: TBP is one part of TFIID, not a separate basal factor; TFIID as a whole is what reaches the promoter first.<br><br>Roster: <b>TFIID</b> → TFIIA → TFIIB → TFIIF (bringing RNA polymerase II) → TFIIE → TFIIH and TFIIJ.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      51
+    ],
+    "block": "U12b_basal_tf_assembly",
+    "numeric": false,
+    "verified_against": "p288: 'TFIID is the first basal transcription factor to interact with the promoter; it contains a TATA-binding protein (TBP) and several small TBP-associated proteins (Figure 11.14).' | Back Extra (unmarked, teaching only) p288 FIGURE 11.14 caption: 'The assembly of this complex begins when TFIID, which contains the TATA-binding protein (TBP), binds to the TATA box. The other transcription factors and RNA polymerase II join the complex in the sequence shown.'",
+    "verified_by": "drafter-D5; parenthetical-after-cloze warning resolved by RESHAPING: the '(TBP)' abbreviation blank was dropped as decodable from the initials of the visible name, and the note is now two-way TFIID <-> TATA-binding protein (TBP); edited by editor-E5",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D5",
+    "_unit_idx": 6,
+    "_fact_pass": {
+      "must_test": [
+        "TFIID is the basal factor that contains the TATA-binding protein (c1 direction: TBP + first -> TFIID)",
+        "TFIID contains a TATA-binding protein (TBP) (c2 direction)"
+      ],
+      "supporting": [
+        "several small TBP-associated proteins (visible scenery, worded without the abbreviation so the c2 card does not leak)",
+        "TFIID binds the TATA box (caption, Mechanism line)"
+      ],
+      "skip": [
+        "the bare abbreviation TBP as its own blank: decodable from the initials of the visible name, so it is shown inside the c2 answer instead"
+      ]
+    },
+    "_archetype": "two-way definition",
+    "_figure_request": "FIGURE 11.14",
+    "_editor_notes": "Parenthetical warning adjudicated as a real defect: the drafter's c2 card asked for 'TBP' with 'TATA-binding protein' visible (initials, check 2 leak), and its c1 card showed '(TBP)' as a crutch for 'TATA-binding protein' (check 15). Re-shaped as a proper two-way definition: c1 hides TFIID (cued by 'first' + 'contains the TATA-binding protein', which is the lab-quiz question verbatim: 'binds first? TFIID (with TBP)'); c2 hides 'TATA-binding protein (TBP)', cold-solvable, with the drafter's 'proteins associated with it' rewording kept so 'TBP-associated' cannot leak. c2 side is 4 words + abbreviation (crisp). 'TATA-binding protein' vs 'TFIID' pinned by the Pitfall line. Roster added because every U12b note carries one (rule 23), TFIID bolded. Grounded p288 + FIGURE 11.14 caption; no claim changed.",
+    "_editor_verdict": "REWRITE"
+  },
+  {
+    "Text": "After TFIID, TFIIA and TFIIB are in place, the basal transcription factor that joins next is {{c1::TFIIF}}. The same factor first associates with RNA polymerase II so that the two enter the initiation complex together, and one of its two subunits has {{c2::DNA-unwinding}} activity.",
+    "Back Extra": "Why: with an unwinding subunit on board, TFIIF probably catalyzes the localized unwinding of the double helix that initiation requires; the polymerase needs a locally unwound segment, with one strand free to serve as template, before it can start.<br><br>Distinguish: TFIIH also unwinds DNA, but as the helicase that travels with RNA polymerase II during elongation; TFIIF's unwinding is the local opening of the helix at initiation.<br><br>Roster: TFIID → TFIIA → TFIIB → <b>TFIIF (bringing RNA polymerase II)</b> → TFIIE → TFIIH and TFIIJ.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      53,
+      54
+    ],
+    "block": "U12b_basal_tf_assembly",
+    "numeric": true,
+    "verified_against": "p288: 'Next, TFIIA joins the complex, followed by TFIIB.' | p288: 'TFIIF first associates with RNA polymerase II, and then TFIIF and RNA polymerase II join the transcription initiation complex together.' | p288: 'TFIIF contains two subunits, one of which has DNA-unwinding activity.' | Back Extra (unmarked, teaching only) p288: 'Thus, TFIIF probably catalyzes the localized unwinding of the DNA double helix required to initiate transcription.' | Back Extra (unmarked, teaching only) p287: 'In all cases, the initiation of transcription involves the formation of a locally unwound segment of DNA, providing a DNA strand that is free to function as a template for the synthesis of a complementary strand of RNA (see Figure 11.6).' | Back Extra (unmarked, teaching only) p288 FIGURE 11.14 step 4 label: 'TFIIF, which has unwinding activity, joins the complex; polymerase II also binds here.' | p288 (mark 57; read verbatim on the render and on the evidence crop, also present in the page text layer): 'TFIIH has helicase activity and travels with RNA polymerase II during elongation, unwinding the strands in the region of transcription (the \"transcription bubble\").'",
+    "verified_by": "drafter-D5; edited by editor-E5",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D5",
+    "_unit_idx": 7,
+    "_fact_pass": {
+      "must_test": [
+        "TFIIF is the factor that joins after TFIIB and arrives with RNA polymerase II (c1: all properties visible -> TFIIF)",
+        "one TFIIF subunit has DNA-unwinding activity (c2)"
+      ],
+      "supporting": [
+        "TFIIF probably catalyzes the localized unwinding required to initiate (unmarked 'Thus' sentence, Why line)",
+        "initiation needs a locally unwound segment with a free template strand (unmarked p287, Why line)",
+        "'two subunits' is left visible as the setup for the unwinding fact; the count itself is not exam knowledge and is not clozed",
+        "'TFIIF first associates with RNA polymerase II' stays visible: as a blank it was decodable (the only enzyme in play), so it serves as the c1 cue instead"
+      ],
+      "skip": []
+    },
+    "_archetype": "mechanism",
+    "_figure_request": "FIGURE 11.14",
+    "_editor_notes": "Rule 17: the three facts sat under three different numbers, no husk; each card was cold-solvable. Check 15 / check 2 on the c2 blank '{{c2::RNA polymerase II::enzyme}}': decodable by a non-knower (the only enzyme an initiation complex assembles around, and 'TFII' itself says polymerase II), so it tested nothing. Dropped; the association stays visible and is tested in the useful direction on the c1 card (the factor that arrives with the polymerase = TFIIF). DNA-unwinding renumbered c2. Helicase vs DNA-unwinding: the c2 card's visible stem says 'initiation complex', the TFIIH card's stem says 'elongation', so neither can be answered by the other's wording; the Distinguish line pins the pair on both notes. Split into two sentences (the em-dash run-on read as one 40-word sentence); 'The same factor' avoids a sentence-initial 'It'. 'two subunits' left visible as scenery (rule 1: the unwinding activity is the fact; 'one of its ___ subunits' would be a near-free count), numeric stays true and is verified. Roster intact.",
+    "_editor_verdict": "REWRITE"
+  },
+  {
+    "Text": "The basal transcription factor that joins the initiation complex right after TFIIF and RNA polymerase II is {{c1::TFIIE}}, which binds the DNA {{c2::downstream::upstream or downstream}} from the transcription startpoint.",
+    "Back Extra": "Distinguish: the promoter's own conserved elements (the TATA, CAAT, GC and octamer boxes) all lie upstream of the startpoint; TFIIE is the factor that binds on the other side, downstream of it.<br><br>Pitfall: 'downstream from the startpoint' also describes where most RNA polymerase III promoters sit, inside the transcription unit; for RNA polymerase II it describes where TFIIE binds, not where the promoter is.<br><br>Roster: TFIID → TFIIA → TFIIB → TFIIF (bringing RNA polymerase II) → <b>TFIIE</b> → TFIIH and TFIIJ.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      55
+    ],
+    "block": "U12b_basal_tf_assembly",
+    "numeric": false,
+    "verified_against": "p288: 'TFIIE then joins the initiation complex, binding to the DNA downstream from the transcription startpoint.' | p288: 'TFIIF first associates with RNA polymerase II, and then TFIIF and RNA polymerase II join the transcription initiation complex together.' | Back Extra (unmarked, teaching only) p288: 'Interestingly, the promoters of most of the genes transcribed by RNA polymerase III are located within the transcription units, downstream from the transcription startpoints, rather than upstream as in units transcribed by RNA polymerases I and II.' | Back Extra (unmarked, teaching only) p287: 'The promoters recognized by RNA polymerase II consist of short conserved elements, or modules, located upstream from the transcription startpoint.'",
+    "verified_by": "drafter-D5; edited by editor-E5",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D5",
+    "_unit_idx": 8,
+    "_fact_pass": {
+      "must_test": [
+        "TFIIE joins after TFIIF and RNA polymerase II",
+        "TFIIE binds the DNA downstream from the transcription startpoint"
+      ],
+      "supporting": [
+        "most Pol III promoters lie within the transcription unit, downstream of the start (unmarked, Distinguish line)",
+        "the Pol II promoter's conserved elements lie upstream of the startpoint (unmarked p287, Back Extra Distinguish)"
+      ],
+      "skip": []
+    },
+    "_archetype": "sequence",
+    "_figure_request": "FIGURE 11.14",
+    "_editor_notes": "Rule 16/21: the c2 blank is a closed binary with a forced-choice hint matching the answer's spelling, and the stem is not an absolute; c1 cold-solves from 'right after TFIIF and RNA polymerase II'. Grounded p288. Check 11: the old Distinguish was a stretch ('is a fact about the RNA polymerase II complex'); the real edge is that every promoter element sits UPSTREAM while TFIIE binds DOWNSTREAM, now the Distinguish line, grounded p287; the Pol III contrast becomes a Pitfall. 'basal factor' -> 'basal transcription factor'. Roster intact.",
+    "_editor_verdict": "REWRITE"
+  },
+  {
+    "Text": "Two more basal transcription factors, {{c1::TFIIH}} and {{c1::TFIIJ}}, join the RNA polymerase II initiation complex after TFIIE, but their locations in the complex are unknown.",
+    "Back Extra": "Distinguish: of the pair, TFIIH is the one with a job beyond assembly; it is the helicase that travels with RNA polymerase II during elongation.<br><br>Roster: TFIID → TFIIA → TFIIB → TFIIF (bringing RNA polymerase II) → TFIIE → <b>TFIIH and TFIIJ</b>.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      56
+    ],
+    "block": "U12b_basal_tf_assembly",
+    "numeric": false,
+    "verified_against": "p288: 'Two other factors, TFIIH and TFIIJ, join the complex after TFIIE, but their locations in the complex are unknown.' | p288 (mark 57; read verbatim on the render and on the evidence crop, also present in the page text layer): 'TFIIH has helicase activity and travels with RNA polymerase II during elongation, unwinding the strands in the region of transcription (the \"transcription bubble\").'",
+    "verified_by": "drafter-D5; edited by editor-E5",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D5",
+    "_unit_idx": 9,
+    "_fact_pass": {
+      "must_test": [
+        "TFIIH and TFIIJ are the two factors that join after TFIIE"
+      ],
+      "supporting": [
+        "their locations in the complex are unknown (kept visible: as a known/unknown blank it was decodable from 'but')",
+        "TFIIH's helicase role during elongation (mark 57, Distinguish line; carded on its own note)"
+      ],
+      "skip": []
+    },
+    "_archetype": "sequence",
+    "_figure_request": "FIGURE 11.14",
+    "_editor_notes": "c1: two uncued answers (rule 23 fine), cold-solvable from 'after TFIIE'. Rule 16/21 pass. Grounded p288 verbatim. Check 2 on the drafter's c2 '{{c2::unknown::known or unknown}}': the visible 'but their locations in the complex are ___' is answerable from the conjunction alone (the sentence only makes sense with 'unknown'), so a non-knower decodes it every time - easy-via-giveaway, Parker's named defect. Dropped; the clause stays visible so the fact is still on the card and in the TFIIH note's context. Em dashes removed. Roster intact, pair bolded.",
+    "_editor_verdict": "REWRITE"
+  },
+  {
+    "Text": "The basal transcription factor {{c1::TFIIH}} has {{c2::helicase}} activity, used alongside RNA polymerase II during {{c3::elongation::initiation or elongation}}.",
+    "Back Extra": "Mechanism: TFIIH travels with RNA polymerase II as it elongates the chain, unwinding the two DNA strands in the region being transcribed, the transcription bubble.<br><br>Distinguish: TFIIF also carries a subunit with DNA-unwinding activity, but that is the localized opening of the helix needed to initiate; TFIIH is the helicase that stays with the polymerase through elongation.<br><br>Roster: TFIID → TFIIA → TFIIB → TFIIF (bringing RNA polymerase II) → TFIIE → <b>TFIIH</b> and TFIIJ.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      57
+    ],
+    "block": "U12b_basal_tf_assembly",
+    "numeric": false,
+    "verified_against": "p288 (mark 57; read verbatim on the render and on the evidence crop, also present in the page text layer): 'TFIIH has helicase activity and travels with RNA polymerase II during elongation, unwinding the strands in the region of transcription (the \"transcription bubble\").' | p288: 'TFIIF contains two subunits, one of which has DNA-unwinding activity.' | Back Extra (unmarked, teaching only) p288: 'Thus, TFIIF probably catalyzes the localized unwinding of the DNA double helix required to initiate transcription.' | p288: 'Two other factors, TFIIH and TFIIJ, join the complex after TFIIE, but their locations in the complex are unknown.'",
+    "verified_by": "drafter-D5; edited by editor-E5",
+    "needs_human_check": false,
+    "visual_source": {
+      "pages": [
+        "288"
+      ],
+      "figures": [
+        "work/genetics/figures/evidence/p288_mark57_TFIIH_helicase.png"
+      ],
+      "labels": [],
+      "note": "mark not located by the text layer; sentence read verbatim on the rendered page and the evidence crop"
+    },
+    "image": null,
+    "_unit": "D5",
+    "_unit_idx": 10,
+    "_fact_pass": {
+      "must_test": [
+        "TFIIH is the basal factor with helicase activity (c1)",
+        "TFIIH's activity is helicase (c2)",
+        "that helicase activity is used during elongation, not initiation (c3)"
+      ],
+      "supporting": [
+        "TFIIH travels with RNA polymerase II, unwinding the strands in the region of transcription (the transcription bubble) - mark 57, Mechanism line (visible on the front it defined the c2 answers)",
+        "TFIIF's initiation-stage unwinding (mark 54, Distinguish line)",
+        "TFIIH joins after TFIIE with an unknown seat (mark 56, on its own note)"
+      ],
+      "skip": [
+        "'transcription bubble' no longer on the front: it is the definition of the unwound region and leaked 'unwinding'"
+      ]
+    },
+    "_archetype": "mechanism",
+    "_figure_request": "FIGURE 11.14",
+    "_editor_notes": "visual_source kept (mark 57 NOT_FOUND; sentence verified on the p288 render and the evidence crop, and present in the text layer). Check 15 found three leaks on the drafter's fronts: on the c2 card '(the transcription bubble)' defines 'unwinding' (the bubble IS the unwound region) and 'unwinding the strands' defines 'helicase'; on the c3 card 'travels with' decodes 'elongation' (a travelling polymerase is elongating). Rebuilt: c1 TFIIH, c2 helicase, c3 elongation with a neutral verb ('used alongside'), and the travelling/unwinding/bubble content moved to a Mechanism line where it teaches after the answer. 'The basal transcription factor' added so the c1 card has one answer in the megadeck. The c3 card now genuinely tests the TFIIF/TFIIH stage discrimination (a guesser who thinks 'helicase = promoter opening' answers initiation and is wrong). Drafter's Pitfall line dropped to keep 3 lines + Roster; its content (joins after TFIIE, seat unknown) is card 9. Distinguish pins TFIIF.",
+    "_editor_verdict": "REWRITE"
+  }
+]

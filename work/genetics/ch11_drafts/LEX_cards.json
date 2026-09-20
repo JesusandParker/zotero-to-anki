@@ -1,0 +1,198 @@
+[
+ {
+  "Text": "A <b>codon</b> is {{c1::three mRNA nucleotides that specify one amino acid}}.",
+  "Back Extra": "Ex: \"This conversion is governed by the genetic code, the specification of amino acids by nucleotide triplets called <b>codons</b> in the gene transcript.\"<br><br>Cue: the UUU triplet in an mRNA specifies phenylalanine (Phe); three of the 64 codons signal 'stop' instead of an amino acid.<br><br>Formal: \"A set of three adjacent nucleotides in an mRNA molecule that specifies the incorporation of an amino acid into a polypeptide chain or that signals the end of polypeptide synthesis.\"",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   4
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "glossary p609: 'Codon: A set of three adjacent nucleotides in an mRNA molecule that specifies the incorporation of an amino acid into a polypeptide chain or that signals the end of polypeptide synthesis.' | Ex p275: 'the specification of amino acids by nucleotide triplets called codons in the gene transcript' | Cue p275: 'the UUU triplet in the RNA transcript shown in Figure 11.1 specifies the amino acid phenylalanine (Phe)'",
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "codons",
+   "term_key": "codon",
+   "anchor": {
+    "method": "glossary",
+    "page": "609"
+   }
+  },
+  "_unit": "LEX",
+  "_unit_idx": 0,
+  "_archetype": "lexicon (one-way, word -> meaning)"
+ },
+ {
+  "Text": "A <b>primary transcript</b> is {{c1::the RNA exactly as transcribed, before any processing}}.",
+  "Back Extra": "Ex: \"In prokaryotes, the product of transcription, the <b>primary transcript</b>, usually is equivalent to the mRNA molecule.\"<br><br>Distinguish: in eukaryotes the primary transcript is the pre-mRNA; the mature mRNA is what is left after capping, tailing and splicing, so the two are the same molecule only in prokaryotes.<br><br>Formal: \"The RNA molecule produced by transcription prior to any posttranscriptional modifications; also called a pre-mRNA in eukaryotes.\"",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   6
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "glossary p622: 'Primary transcript: The RNA molecule produced by transcription prior to any posttranscriptional modifications; also called a premRNA in eukaryotes.' | Ex p275: 'In prokaryotes, the product of transcription, the primary transcript, usually is equivalent to the mRNA molecule' | Distinguish p275: 'In eukaryotes, primary transcripts often must be processed by the excision of specific sequences and the modification of both termini before they can be translated'",
+  "verified_by": "orchestrator-lexicon; purple mark clipped by the extractor ('rimary transcript') — term repaired to 'primary transcript' from the page, flagged for Parker at hand-off",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "primary transcript",
+   "term_key": "prim_transcript",
+   "anchor": {
+    "method": "glossary",
+    "page": "622"
+   }
+  },
+  "_unit": "LEX",
+  "_unit_idx": 1,
+  "_archetype": "lexicon (one-way, word -> meaning)"
+ },
+ {
+  "Text": "A <b>promoter</b> is {{c1::where RNA polymerase binds DNA to start transcription}}.",
+  "Back Extra": "Ex: \"RNA polymerases bind to specific nucleotide sequences called <b>promoters</b>, and with the help of proteins called transcription factors, initiate the synthesis of RNA molecules at transcription start sites near the promoters.\"<br><br>Distinguish: the promoter sits in the DNA just upstream of the transcription start site (+1); it is a binding site, not part of the message that gets transcribed.<br><br>Pitfall: the same word has an unrelated second sense (a chemical that pushes benign cells toward cancer); in transcription it always means the polymerase-binding sequence.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   17
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "glossary p622: 'Promoter: A nucleotide sequence to which RNA polymerase binds and initiates transcription; also, a chemical substance that enhances the transformation of benign cells into cancerous cells.' | Ex p279: 'RNA polymerases bind to specific nucleotide sequences called promoters, and with the help of proteins called transcription factors, initiate the synthesis of RNA molecules at transcription start sites near the promoters' | Distinguish p282: 'Nucleotide sequences preceding the initiation site are referred to as upstream sequences'",
+  "verified_by": "orchestrator-lexicon | R67 cue-check cleared: the glossary entry is colon-style ('Term: A …'), a genuine definition that simply carries no is/are/called cue",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "promoters",
+   "term_key": "promoter",
+   "anchor": {
+    "method": "glossary",
+    "page": "622"
+   }
+  },
+  "_unit": "LEX",
+  "_unit_idx": 2,
+  "_archetype": "lexicon (one-way, word -> meaning)"
+ },
+ {
+  "Text": "<b>Archaea</b> are {{c1::the prokaryotes that are not bacteria}}.",
+  "Back Extra": "Ex: \"The RNA polymerases of <b>archaea</b> have quite different structures; they will not be discussed here.\"<br><br>Distinguish: bacteria and archaea are the two kinds of prokaryote (no nucleus); <i>E. coli</i> is a bacterium, so the single five-subunit RNA polymerase described for it is the bacterial enzyme, not the archaeal one.<br><br>Cue: introns turn up in some archaeal genes, which is one reason the book keeps archaea apart from bacteria.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   18
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "in_source p293: 'They are also found in the genomes of some archaea, which are prokaryotes' | Ex p281: 'The RNA polymerases of archaea have quite different structures; they will not be discussed here.' | Distinguish p281: 'The RNA polymerase of E. coli has been studied in great detail and will be discussed here. It catalyzes all RNA synthesis in this species.' | NOTE: the 'not bacteria' discriminator is general knowledge beyond the book's one-word gloss ('prokaryotes'); surfaced at hand-off",
+  "verified_by": "orchestrator-lexicon; --find anchored to p222 'Archaea is positively supercoiled' (a usage 59 pages away, not a definition) — re-pinned to the book's own gloss on p293",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "archaea",
+   "term_key": "archa",
+   "anchor": {
+    "method": "in_source",
+    "page": "293"
+   }
+  },
+  "_unit": "LEX",
+  "_unit_idx": 3,
+  "_archetype": "lexicon (one-way, word -> meaning)"
+ },
+ {
+  "Text": "The <b>nucleolus</b> is {{c1::the nuclear region that makes rRNA and ribosomes}}.",
+  "Back Extra": "Ex: \"RNA polymerase I is located in the <b>nucleolus</b>, a distinct region of the nucleus where rRNAs are synthesized and combined with ribosomal proteins.\"<br><br>Distinguish: the nucleolus is a region, not a membrane-bound organelle; the rest of the nucleus (where RNA polymerases II and III work) is simply called the nucleus.<br><br>Formal: \"An RNA-rich, spherical sack in the nucleus of metabolic cells; associated with the nucleolar organizer; storage place for ribosomes and ribosome precursors.\"",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   39
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "glossary p619: 'Nucleolus: An RNA-rich, spherical sack in the nucleus of metabolic cells; associated with the nucleolar organizer; storage place for ribosomes and ribosome precursors.' | Ex p286: 'RNA polymerase I is located in the nucleolus, a distinct region of the nucleus where rRNAs are synthesized and combined with ribosomal proteins.' | Distinguish p286 TABLE 11.1: 'RNA polymerase II — Nucleus', 'RNA polymerase III — Nucleus'",
+  "verified_by": "orchestrator-lexicon | R67 cue-check cleared: the glossary entry is colon-style ('Term: A …'), a genuine definition that simply carries no is/are/called cue",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "nucleolus",
+   "term_key": "nucleol",
+   "anchor": {
+    "method": "glossary",
+    "page": "619"
+   }
+  },
+  "_unit": "LEX",
+  "_unit_idx": 4,
+  "_archetype": "lexicon (one-way, word -> meaning)"
+ },
+ {
+  "Text": "<b>Basal transcription factors</b> are {{c1::proteins eukaryotic RNA polymerase needs to start transcription}}.",
+  "Back Extra": "Ex: \"The initiation of transcription by RNA polymerase II requires the assistance of several <b>basal transcription factors</b>.\"<br><br>Parts: basal = at the base, the minimum foundation; every RNA polymerase II promoter needs this set before any regulation is layered on.<br><br>Distinguish: enhancers and silencers are DNA sequences (with their own factors) that only tune how efficiently initiation happens; the basal factors are what make initiation possible in the first place.<br><br>Formal: \"Proteins required for the initiation of transcription in eukaryotes.\"",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   50
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "glossary p608: 'Basal transcription factors: Proteins required for the initiation of transcription in eukaryotes.' | Ex p288: 'The initiation of transcription by RNA polymerase II requires the assistance of several basal transcription factors.' | Distinguish p288: 'Still other transcription factors and regulatory sequences called enhancers and silencers modulate the efficiency of initiation (Chapter 18).'",
+  "verified_by": "orchestrator-lexicon | R67 cue-check cleared: the glossary entry is colon-style ('Term: A …'), a genuine definition that simply carries no is/are/called cue",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "basal transcription factors",
+   "term_key": "basal_transcript_factor",
+   "anchor": {
+    "method": "glossary",
+    "page": "608"
+   }
+  },
+  "_unit": "LEX",
+  "_unit_idx": 5,
+  "_archetype": "lexicon (one-way, word -> meaning)"
+ },
+ {
+  "Text": "<b>Colinear</b> means {{c1::arranged in the same order, unit for unit}}.",
+  "Back Extra": "Ex: \"Most of the well-characterized genes of prokaryotes consist of continuous sequences of nucleotide pairs, which specify <b>colinear</b> sequences of amino acids in the polypeptide gene products.\"<br><br>Parts: co- (together) + linear (in a line): two chains whose units line up in matching order.<br><br>Distinguish: a eukaryotic gene split by introns is <i>not</i> colinear with its polypeptide; the DNA carries stretches that never appear in the protein.<br><br>Formal: \"A relationship in which the units in one molecule occur in the same sequence as the units in another molecule which they specify; for example, the nucleotides in a gene are colinear with the amino acids in the polypeptide encoded by that gene.\"",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   62
+  ],
+  "block": "L_lexicon",
+  "numeric": false,
+  "verified_against": "glossary p610: 'Colinearity (adj., colinear): A relationship in which the units in one molecule occur in the same sequence as the units in another molecule which they specify; for example, the nucleotides in a gene are colinear with the amino acids in the polypeptide encoded by that gene.' | Ex p291: 'Most of the well-characterized genes of prokaryotes consist of continuous sequences of nucleotide pairs, which specify colinear sequences of amino acids in the polypeptide gene products.' | Distinguish p291: 'Most eukaryotic genes contain noncoding sequences called introns that interrupt the coding sequences, or exons.'",
+  "verified_by": "orchestrator-lexicon",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "kind": "lexicon",
+  "lexicon": {
+   "term": "colinear",
+   "term_key": "colin",
+   "anchor": {
+    "method": "glossary",
+    "page": "610"
+   }
+  },
+  "_unit": "LEX",
+  "_unit_idx": 6,
+  "_archetype": "lexicon (one-way, word -> meaning)"
+ }
+]

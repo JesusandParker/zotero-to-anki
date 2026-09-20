@@ -1,0 +1,210 @@
+[
+ {
+  "Text": "The 7-methyl guanosine (7-MG) cap at the 5′ end of a eukaryotic pre-mRNA serves two functions:<br><br>{{c1::initiation of translation::function}}<br><br>{{c1::protection of the growing chain from nuclease degradation::function}}",
+  "Back Extra": "Mechanism: protein factors of translation initiation recognize the cap; capping itself is co-transcriptional and goes on early in elongation, when the growing RNA chain is only about 30 nucleotides long.<br><br>Cue: the cap is a 7-methyl guanosine joined through an unusual 5′-5′ triphosphate linkage and carrying two or more methyl groups.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   58
+  ],
+  "block": "U13_7MG_cap_functions",
+  "numeric": true,
+  "verified_against": "p289: 'The 7-MG caps are recognized by protein factors involved in the initiation of translation (Chapter 12) and also help protect the growing RNA chains from degradation by nucleases.' | Stem framing (unmarked, visible only, not clozed) p289: 'Early in the elongation process, the 5′ ends of eukaryotic pre-mRNAs are modified by the addition of 7-methyl guanosine (7-MG) caps.' | Back Extra (unmarked, teaching only) p289: 'These 7-MG caps are added when the growing RNA chains are only about 30 nucleotides long' | Back Extra (unmarked, teaching only) p289: 'These 5′ caps are added co-transcriptionally by the biosynthetic pathway shown in Figure 11.16.' | Back Extra (unmarked, teaching only) p289: 'The 7-MG cap contains an unusual 5′-5′ triphosphate linkage (see Figure 11.12) and two or more methyl groups.'",
+  "verified_by": "drafter-D6",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D6",
+  "_unit_idx": 0,
+  "_fact_pass": {
+   "must_test": [
+    "7-MG cap function 1: recognized by protein factors involved in the initiation of translation",
+    "7-MG cap function 2: helps protect the growing RNA chain from degradation by nucleases"
+   ],
+   "supporting": [
+    "the cap is recognized by protein factors (the HOW of function 1; stated in the Mechanism line rather than as a visible cue beside the blank, so nothing sits next to the cloze)",
+    "the cap sits at the 5′ end of eukaryotic pre-mRNAs (unmarked framing; visible in the stem, never clozed)",
+    "added co-transcriptionally, early in elongation, when the chain is only about 30 nt long (unmarked; Back Extra)",
+    "cap structure: unusual 5′-5′ triphosphate linkage plus two or more methyl groups (unmarked; Back Extra)"
+   ],
+   "skip": [
+    "the '(Chapter 12)' cross-reference inside the mark",
+    "the FACT / nucleosome passage that follows on p289 (unmarked, a different topic)"
+   ]
+  },
+  "_archetype": "list (two functions, grouped under one number, cued ::function)",
+  "_figure_request": "FIGURE 11.16"
+ },
+ {
+  "Text": "{{c1::Polyadenylation::process}} is {{c2::the addition of a poly(A) tail}} to the {{c3::3′::5′ or 3′}} end of a eukaryotic mRNA.",
+  "Back Extra": "Why: the poly(A) tail enhances the mRNA's stability and plays an important role in its transport from the nucleus to the cytoplasm.<br><br>Mechanism: one multimeric complex carries out both the cleavage and the polyadenylation in tightly coupled reactions; it needs a specificity component that binds the AAUAAA signal, a stimulatory factor that binds the GU-rich sequence, an endonuclease, and poly(A) polymerase.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   60,
+   59
+  ],
+  "block": "U14_polyadenylation",
+  "numeric": true,
+  "verified_against": "p290: 'The addition of poly(A) tails to eukaryotic mRNAs is called polyadenylation.' | p290: 'After cleavage, the enzyme poly(A) polymerase adds poly(A) tails, tracts of adenosine monophosphate residues about 200 nucleotides long, to the 3′ ends of the transcripts (Figure 11.17).' | Back Extra (unmarked, teaching only) p290: 'The poly(A) tails of eukaryotic mRNAs enhance their stability and play an important role in their transport from the nucleus to the cytoplasm.' | Back Extra (unmarked, teaching only) p290: 'The formation of poly(A) tails on transcripts requires a specificity component that recognizes and binds to the AAUAAA sequence, a stimulatory factor that binds to the GU-rich sequence, an endonuclease, and the poly(A) polymerase. These proteins form a multimeric complex that carries out both the cleavage and the polyadenylation in tightly coupled reactions.'",
+  "verified_by": "drafter-D6",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D6",
+  "_unit_idx": 1,
+  "_fact_pass": {
+   "must_test": [
+    "the term polyadenylation = the addition of poly(A) tails to eukaryotic mRNAs (two-way)",
+    "the tail goes on the 3′ end (mark 59; a 5′-vs-3′ binary, so it carries a forced-choice hint)"
+   ],
+   "supporting": [
+    "functions: stability + nucleus-to-cytoplasm transport (unmarked; Back Extra 'Why', matches Isaacs slide 20)",
+    "the four-part machinery (specificity component/AAUAAA, stimulatory factor/GU-rich, endonuclease, poly(A) polymerase) (unmarked; Back Extra 'Mechanism', matches slide 20)"
+   ],
+   "skip": [
+    "the Solve It box on the human HBB gene (unmarked exercise)"
+   ]
+  },
+  "_archetype": "two-way definition (+ c3 on the 3′ qualifier)",
+  "_figure_request": "FIGURE 11.17"
+ },
+ {
+  "Text": "After endonucleolytic cleavage creates the 3′ end of a eukaryotic transcript, the enzyme {{c1::poly(A) polymerase::enzyme}} adds a tail about {{c2::200}} nucleotides long.",
+  "Back Extra": "Meaning: the tail is the poly(A) tail, a tract of adenosine monophosphate residues.<br><br>Mechanism: the cut that creates the 3′ end usually lands 11 to 30 nucleotides downstream of the conserved polyadenylation signal (consensus AAUAAA) and upstream of a GU-rich sequence near the end of the transcript.<br><br>Pitfall: the poly(A) tract is also described as 20 to 200 nucleotides long, so expect either figure.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   59
+  ],
+  "block": "U14_polyA_polymerase_tail",
+  "numeric": true,
+  "verified_against": "p290: 'After cleavage, the enzyme poly(A) polymerase adds poly(A) tails, tracts of adenosine monophosphate residues about 200 nucleotides long, to the 3′ ends of the transcripts (Figure 11.17).' | Back Extra (unmarked, teaching only) p290: 'The cleavage event that produces the 3′ end of a transcript usually occurs at a site 11 to 30 nucleotides downstream from a conserved polyadenylation signal, consensus AAUAAA, and upstream from a GU-rich sequence located near the end of the transcript.' | Back Extra (unmarked, teaching only) p285: 'The 3′ poly(A) tail is a polyadenosine tract 20 to 200 nucleotides long.'",
+  "verified_by": "drafter-D6",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D6",
+  "_unit_idx": 2,
+  "_fact_pass": {
+   "must_test": [
+    "the enzyme that adds the tail = poly(A) polymerase (enzyme-to-job pairing, ::enzyme)",
+    "tail length = about 200 nucleotides (the marked sentence's value; numeric)"
+   ],
+   "supporting": [
+    "the tail is a tract of adenosine monophosphate residues (moved to a Meaning line: left visible beside the hidden enzyme it let a non-knower decode 'poly(A) polymerase' from A = adenosine; the identity 'poly(A) tail' is tested under c2 of the polyadenylation definition card)",
+    "'after cleavage' timing and the 3′ end are visible framing here; the cleavage-vs-termination fact is mark 34 (p285, another unit) and 3′ is clozed on the polyadenylation definition card",
+    "cleavage site 11-30 nt downstream of AAUAAA, upstream of a GU-rich sequence (unmarked; Back Extra)",
+    "BOOK INCONSISTENCY surfaced, not resolved: p285 says '20 to 200 nucleotides long', p290 (marked) says 'about 200'; the card answers with the marked value and the Pitfall names the range"
+   ],
+   "skip": [
+    "the '(Figure 11.17)' reference inside the mark"
+   ]
+  },
+  "_archetype": "mechanism (enzyme-to-job pairing) + numeric",
+  "_figure_request": "FIGURE 11.17"
+ },
+ {
+  "Text": "RNA editing alters the information content of a gene transcript in two ways:<br><br>(1) {{c1::changing the structures of individual bases}}<br><br>(2) {{c1::inserting or deleting uridine monophosphate residues}}",
+  "Back Extra": "Ex: base-changing editing was discovered in apolipoprotein-B mRNA, where in the intestine a C in the pre-mRNA is converted to a U, creating an internal UAA stop codon, so the intestine makes a 2153-amino-acid apo-B while the liver makes the full 4563-amino-acid protein.<br><br>Mechanism: the C-to-U change is a deamination, catalyzed by a sequence-specific RNA-binding protein that removes amino groups from cytosine residues.<br><br>Distinguish: uridine insertion/deletion editing is the trypanosome-mitochondria kind, templated by guide RNAs; C-to-U base editing is the kind that is extensive in plant mitochondria.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   61
+  ],
+  "block": "U15_rna_editing_two_ways",
+  "numeric": true,
+  "verified_against": "p290: 'RNA editing processes alter the information content of gene transcripts in two ways: (1) by changing the structures of individual bases and (2) by inserting or deleting uridine monophosphate residues.' | Back Extra (unmarked, teaching only) p290: 'In the liver, the apo-B mRNA encodes a large protein 4563 amino acids long. In the intestine, the apo-B mRNA directs the synthesis of a protein only 2153 amino acids long. Here, a C residue in the pre-mRNA is converted to a U, generating an internal UAA translation–termination codon, which results in the truncated apolipoprotein' | Back Extra (unmarked, teaching only) p290: 'The C U conversion is catalyzed by a sequence-specific RNA-binding protein with an activity that removes amino groups from cytosine residues.' (the arrow glyph between C and U is dropped by the text layer) | Back Extra (unmarked, teaching only) p291 (Figure 11.18 label): 'RNA-binding deaminase' | Back Extra (unmarked, teaching only) p291 (Figure 11.18 label): 'RNA editing: oxidative deamination of cytosine' | Back Extra (unmarked, teaching only) p290: 'More extensive mRNA editing of the C U type occurs in the mitochondria of plants, where most of the gene transcripts are edited to some degree.' | Back Extra (unmarked, teaching only) p291: 'A second, more complex type of RNA editing occurs in the mitochondria of trypanosomes (a group of flagellated protozoa that causes sleeping sickness in humans). In this case, uridine monophosphate residues are inserted into (occasionally deleted from) gene transcripts' | Back Extra (unmarked, teaching only) p291: 'This RNA editing process is mediated by guide RNAs transcribed from distinct mitochondrial genes.' | p291: 'The guide RNAs serve as templates for editing, as U’s are inserted in the gaps in pre-mRNA molecules opposite the A’s in the guide RNAs.'",
+  "verified_by": "drafter-D6",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D6",
+  "_unit_idx": 3,
+  "_fact_pass": {
+   "must_test": [
+    "RNA editing way 1: changing the structures of individual bases",
+    "RNA editing way 2: inserting or deleting uridine monophosphate residues"
+   ],
+   "supporting": [
+    "apo-B example with the 4563 vs 2153 amino-acid proteins and the C-to-U-made UAA stop codon (unmarked; Ex line only, never a cloze answer)",
+    "type 1 is rare; the C-to-U change is a deamination by a sequence-specific RNA-binding protein (unmarked; Mechanism)",
+    "type 2 lives in trypanosome mitochondria and is templated by guide RNAs; C-to-U editing is extensive in plant mitochondria (unmarked; Distinguish)"
+   ],
+   "skip": [
+    "the rat glutamate-receptor example (unmarked)",
+    "the speculative 'why does editing exist' paragraph on p291 (unmarked, non-factual)"
+   ]
+  },
+  "_archetype": "list (two mechanisms, grouped under one number)",
+  "_figure_request": "FIGURE 11.18"
+ },
+ {
+  "Text": "{{c1::Introns}}, named for <i>{{c2::intervening}}</i> sequences, are the noncoding stretches of a eukaryotic gene that are {{c3::excised::excised or retained}} as the pre-mRNA matures into mRNA.",
+  "Back Extra": "Distinguish: exons are what remains in the mature mRNA, coding and noncoding sequences alike.<br><br>Ex: in 1977 the mouse and rabbit β-globin genes and the chicken ovalbumin gene were found to contain noncoding sequences intervening between their coding sequences, unlike most prokaryotic genes, which are continuous stretches of nucleotide pairs.<br><br>Pathway: gene → pre-mRNA (introns still present) → intron excision during maturation → mature mRNA → transport to the cytoplasm.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   63
+  ],
+  "block": "U16_introns",
+  "numeric": true,
+  "verified_against": "p291: 'Geneticists, who have a penchant for coining catchy terms, called them introns (for intervening sequences).' | Adjacent context, clozed as the definitional half per the brief for U16 (unmarked sentence in the same paragraph) p291: 'Introns are excised from pre-mRNA molecules during their maturation into mRNAs.' | Stem framing (unmarked, visible only, not clozed) p291: 'Most eukaryotic genes contain noncoding sequences called introns that interrupt the coding sequences, or exons.' | Back Extra (unmarked, teaching only) p291: 'The sequences that remain in mature mRNA molecules (both coding and noncoding sequences) are called exons (for expressed sequences).' | Back Extra (unmarked, teaching only) p291: 'However, in 1977, molecular analyses of three eukaryotic genes yielded a major surprise. Studies of mouse and rabbit β-globin (one of two different proteins in hemoglobin) genes and the chicken ovalbumin (an egg storage protein) gene revealed that they contain noncoding sequences intervening between coding sequences.' | Back Extra (unmarked, teaching only) p291: 'Most of the well-characterized genes of prokaryotes consist of continuous sequences of nucleotide pairs, which specify colinear sequences of amino acids in the polypeptide gene products.' | Back Extra (unmarked, teaching only) p291: 'The introns are excised from RNA transcripts prior to their transport to the cytoplasm.'",
+  "verified_by": "drafter-D6",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D6",
+  "_unit_idx": 4,
+  "_fact_pass": {
+   "must_test": [
+    "the name intron binds to 'intervening sequences' (the professor's framing: Expressed vs Intervening; two-way c1/c2)",
+    "the definitional half: introns are excised from the pre-mRNA during its maturation into mRNA (c3, forced-choice excised/retained; adjacent unmarked sentence, used per the brief)"
+   ],
+   "supporting": [
+    "introns are noncoding sequences that interrupt the coding sequences (unmarked framing, visible)",
+    "1977 discovery in mouse/rabbit β-globin and chicken ovalbumin genes; prokaryotic genes are continuous (unmarked; Ex)",
+    "excision happens before transport to the cytoplasm (unmarked; Pathway)"
+   ],
+   "skip": [
+    "'colinear' (mark 62) is the orchestrator's purple lexicon mark, not carded here",
+    "'Geneticists, who have a penchant for coining catchy terms' (flavor)"
+   ]
+  },
+  "_archetype": "two-way definition (name ↔ etymology) + binary fate",
+  "_figure_request": "FIGURE 11.20"
+ },
+ {
+  "Text": "{{c1::Exons}}, named for <i>{{c2::expressed}}</i> sequences, are the parts of a pre-mRNA, coding and noncoding alike, that {{c3::remain::remain or are excised}} when it matures into mRNA.",
+  "Back Extra": "Distinguish: introns are the intervening stretches excised from the pre-mRNA before it is transported to the cytoplasm.<br><br>Pitfall: noncoding does not mean intron. A noncoding sequence that stays in the mature mRNA is an exon; only the excised stretches are introns.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   64
+  ],
+  "block": "U16_exons",
+  "numeric": false,
+  "verified_against": "p291: 'The sequences that remain in mature mRNA molecules (both coding and noncoding sequences) are called exons (for expressed sequences).' | Back Extra (unmarked, teaching only) p291: 'Geneticists, who have a penchant for coining catchy terms, called them introns (for intervening sequences). Introns are excised from pre-mRNA molecules during their maturation into mRNAs.' | Back Extra (unmarked, teaching only) p291: 'The introns are excised from RNA transcripts prior to their transport to the cytoplasm.'",
+  "verified_by": "drafter-D6",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D6",
+  "_unit_idx": 5,
+  "_fact_pass": {
+   "must_test": [
+    "the name exon binds to 'expressed sequences' (two-way c1/c2)",
+    "the definitional half: exons are the sequences that remain in the mature mRNA (c3, forced-choice remain/excised; same sentence as the mark)"
+   ],
+   "supporting": [
+    "exons include both coding AND noncoding sequences (visible qualifier in the stem; the Pitfall states the converse trap)",
+    "introns = the intervening, excised stretches (unmarked; Distinguish cross-link)"
+   ],
+   "skip": [
+    "'colinear' (mark 62) is the orchestrator's purple lexicon mark, not carded here"
+   ]
+  },
+  "_archetype": "two-way definition (name ↔ etymology) + binary fate",
+  "_figure_request": "FIGURE 11.20"
+ }
+]

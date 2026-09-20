@@ -1,0 +1,439 @@
+[
+ {
+  "source": "genetics",
+  "segment": 11,
+  "numeric": false,
+  "verified_by": "drafter-D1",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D1",
+  "Text": "Under the central dogma of molecular biology, genetic information <b>usually</b> flows two ways:<br><br>{{c1::DNA → DNA::direction of flow}} — during its transmission from generation to generation<br><br>{{c1::DNA → protein::direction of flow}} — during its phenotypic expression in an organism",
+  "Back Extra": "Why: DNA → DNA is replication, carried out by a DNA-dependent DNA polymerase; DNA → protein is gene expression, run as transcription and then translation.<br><br>Pitfall: <i>usually</i> is doing real work — RNA viruses add two more flows, RNA → RNA and RNA → DNA.<br><br>Roster: <b>DNA → DNA</b> (replication) · <b>DNA → protein</b> (transcription, then translation) · RNA → RNA (replication of RNA viruses) · RNA → DNA (RNA tumor virus genome → DNA proviral form)",
+  "from_idx": [
+   0
+  ],
+  "block": "U1_central_dogma_usual_flows",
+  "verified_against": "p275: 'According to the central dogma of molecular biology, genetic information usually flows (1) from DNA to DNA during its transmission from generation to generation and (2) from DNA to protein during its phenotypic expression in an organism' | Back Extra (unmarked, teaching only) p275 (FIGURE 11.1 labels): '1. Perpetuation of genetic information from generation to generation … Replication … DNA-dependent DNA polymerase … 2. Control of the phenotype: Gene expression … Transcription … Translation' | p275: 'During the replication of RNA viruses, information is also transmitted from RNA to RNA.' | p275: 'In addition, genetic information flows from RNA to DNA during the conversion of the genomes of RNA tumor viruses to their DNA proviral forms.'",
+  "_fact_pass": {
+   "must_test": [
+    "usual flow 1: DNA → DNA, during transmission from generation to generation",
+    "usual flow 2: DNA → protein, during phenotypic expression in an organism"
+   ],
+   "supporting": [
+    "the qualifier 'usually' — the RNA-virus flows are the exceptions (sibling card U1_rna_virus_flows)",
+    "replication / gene expression as the names of the two flows (FIGURE 11.1 labels, unmarked → Back Extra only)"
+   ],
+   "skip": [
+    "the '(Figure 11.1)' cross-reference"
+   ]
+  },
+  "_archetype": "list",
+  "_figure_request": "FIGURE 11.1",
+  "_unit_idx": 0,
+  "_editor_verdict": "PASS",
+  "_editor_notes": "Checks 1-30 run, 18-24 per row. Grounded verbatim p275 (mark 0); Why/Roster lines grounded in the FIGURE 11.1 labels (Replication / DNA-dependent DNA polymerase / Gene expression: Transcription, Translation) and the two marked RNA-virus sentences. Both rows cold-solve from a situational cue (transmission generation-to-generation -> DNA->DNA; phenotypic expression -> DNA->protein) without restating it (rule 20); 2 cued answers under c1 (rule 23 fine); 'direction of flow' is a form label; count 'two ways' visible; no deixis ('its' has its referent 'genetic information' in the same sentence). Roster is legitimate: the four-flow set is partitioned across this note and card 2 along the source's own usual / RNA-virus division, and this note's members are bolded."
+ },
+ {
+  "source": "genetics",
+  "segment": 11,
+  "numeric": true,
+  "verified_by": "drafter-D1",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D1",
+  "Text": "Genetic information moves from DNA to protein in two steps: (1) {{c1::transcription::process}}, the transfer of information from {{c2::DNA to RNA::direction of flow}}, and (2) {{c1::translation::process}}, the transfer of information from {{c2::RNA to protein::direction of flow}}.",
+  "Back Extra": "Mechanism: in transcription, one strand of the gene's DNA is the template for a complementary RNA transcript (DNA AAA → RNA UUU); in translation, the transcript's nucleotide sequence is converted into the polypeptide's amino-acid sequence by the genetic code (UUU → phenylalanine).<br><br>Cue: transcription keeps the language (nucleotides → nucleotides); translation changes it (nucleotides → amino acids).",
+  "from_idx": [
+   2
+  ],
+  "block": "U1_transcription_translation_two_steps",
+  "verified_against": "p275: 'The transfer of genetic information from DNA to protein involves two steps: (1) transcription, the transfer of the genetic information from DNA to RNA, and (2) translation, the transfer of information from RNA to protein.' | Back Extra (unmarked, teaching only) p275: 'During transcription, one strand of DNA in a gene is used as a template to synthesize a complementary strand of RNA, called the gene transcript.' | Back Extra (unmarked, teaching only) p275: 'the DNA strand containing the nucleotide sequence AAA is used as a template to produce the complementary sequence UUU in the RNA transcript' | Back Extra (unmarked, teaching only) p275: 'During translation, the sequence of nucleotides in the RNA transcript is converted into the sequence of amino acids in the polypeptide gene product. This conversion is governed by the genetic code, the specification of amino acids by nucleotide triplets called codons in the gene transcript.' | Back Extra (unmarked, teaching only) p275: 'the UUU triplet in the RNA transcript shown in Figure 11.1 specifies the amino acid phenylalanine (Phe) in the polypeptide gene product.'",
+  "_fact_pass": {
+   "must_test": [
+    "transcription = transfer of genetic information from DNA to RNA (two-way: name ↔ direction)",
+    "translation = transfer of information from RNA to protein (two-way: name ↔ direction)",
+    "the two steps together carry information from DNA to protein (visible frame)"
+   ],
+   "supporting": [
+    "template strand → complementary transcript; codons → amino acids (unmarked TRANSCRIPTION AND TRANSLATION paragraph → Back Extra only)",
+    "AAA → UUU → Phe worked example (unmarked → Back Extra; numeric flag set because the Back Extra states nucleotide sequences, verified against p275)"
+   ],
+   "skip": [
+    "ribosome composition counts (unmarked, numeric)",
+    "'this chapter focuses on transcription' bookkeeping"
+   ]
+  },
+  "_archetype": "two-way definition",
+  "_figure_request": "FIGURE 11.1",
+  "_unit_idx": 1,
+  "_editor_verdict": "PASS",
+  "_editor_notes": "Checks 1-30 run. Grounded verbatim p275 (mark 2); Back Extra AAA->UUU->Phe example verified letter by letter against p275 (numeric true stays, as the Back Extra states sequences). c1 (step names) <-> c2 (directions) is rule 30's two-way row pairing, not an enumerated list fanned across numbers (rule 24): each card shows one half as anchor and asks the other. c2 sides are 3 words (check 6); 'process' / 'direction of flow' are form labels; the visible 'DNA to protein in two steps' frame is situational, the RNA intermediate is the recall, so a non-knower cannot decode it (check 15). No cross-card duplicate (card 0 tests the two usual flows, card 2 the exceptions)."
+ },
+ {
+  "source": "genetics",
+  "segment": 11,
+  "numeric": false,
+  "verified_by": "drafter-D1; edited by editor-E1",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D1",
+  "Text": "Beyond the central dogma's two usual flows, genetic information also moves two more ways in RNA viruses:<br><br>{{c1::RNA → RNA::direction of flow}} — during the replication of RNA viruses<br><br>{{c1::RNA → DNA::direction of flow}} — when the genome of an {{c2::RNA tumor virus::virus type}} is converted to its proviral form",
+  "Back Extra": "Why: the DNA → RNA step is therefore <i>sometimes</i> reversible, whereas RNA → protein is <i>always</i> irreversible.<br><br>Meaning: the proviral form is the RNA tumor virus's genome rewritten as DNA; that RNA → DNA copying is reverse transcription, done by an RNA-dependent DNA polymerase (reverse transcriptase).<br><br>Roster: DNA → DNA (replication) · DNA → protein (transcription, then translation) · <b>RNA → RNA</b> (replication of RNA viruses) · <b>RNA → DNA</b> (RNA tumor virus genome → DNA proviral form)",
+  "from_idx": [
+   1,
+   3
+  ],
+  "block": "U1_rna_virus_flows",
+  "verified_against": "p275: 'During the replication of RNA viruses, information is also transmitted from RNA to RNA.' | p275: 'In addition, genetic information flows from RNA to DNA during the conversion of the genomes of RNA tumor viruses to their DNA proviral forms.' | Back Extra (unmarked, teaching only) p275: 'Thus, the transfer of genetic information from DNA to RNA is sometimes reversible, whereas the transfer of information from RNA to protein is always irreversible.' | Back Extra (unmarked, teaching only) p275 (FIGURE 11.1 labels and caption): 'Reverse transcription … RNA-dependent DNA polymerase (reverse transcriptase)' and 'reverse transcription occurs in cells infected with certain RNA viruses. The transfer of information from RNA to RNA during the replication of RNA viruses is not shown.'",
+  "_fact_pass": {
+   "must_test": [
+    "RNA → RNA occurs during the replication of RNA viruses",
+    "RNA → DNA occurs when RNA tumor virus genomes are converted to their DNA proviral forms",
+    "which virus type carries the RNA → DNA flow: RNA tumor viruses (c2)"
+   ],
+   "supporting": [
+    "'proviral form' kept visible as scaffolding (the page never defines it beyond 'DNA proviral forms'); the adjective DNA was moved off the front because it names the c1 answer, and the Meaning line restores it after the answer",
+    "DNA → RNA sometimes reversible / RNA → protein always irreversible (unmarked follow-on → Back Extra only, as licensed)"
+   ],
+   "skip": [
+    "virus type of row 1 left visible, not clozed — 'RNA viruses' is derivable from 'RNA → RNA replication' and would be a self-answering row (rule 20)"
+   ]
+  },
+  "_archetype": "list",
+  "_figure_request": "FIGURE 11.1",
+  "_unit_idx": 2,
+  "_editor_verdict": "REWRITE",
+  "_editor_notes": "Check 10 fired: the stem opened 'Beyond its two usual flows' with the pronoun ahead of its referent; now 'Beyond the central dogma's two usual flows, genetic information...'. Everything else verified: both rows grounded verbatim p275 (marks 1, 3); each exception is forced by its visible anchor (replication of RNA viruses -> RNA->RNA; genome of an RNA tumor virus -> proviral form -> RNA->DNA) and the frame 'two more ways in RNA viruses' closes the set even for a reader who does not know 'proviral'; c2 'RNA tumor virus' cold-solves with the 'virus type' label. Rule 11 on 'proviral': the only grounded gloss is the page's own 'DNA proviral form', which would spell the c1 answer on the front (rule 20 restatement), so the closure stays on the back as the Meaning line (reworded to lead with the term). Why line is the unmarked p275 reversible/irreversible sentence, teaching only (rule 29). Roster correct with this note's members bolded. No open-set blank (rule 16)."
+ },
+ {
+  "source": "genetics",
+  "segment": 11,
+  "numeric": false,
+  "verified_by": "drafter-D1; edited by editor-E1",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D1",
+  "Text": "Messenger RNAs (mRNAs) are the RNA molecules that are {{c1::translated on ribosomes::their fate}}.",
+  "Back Extra": "Why: in a eukaryote most genes sit in the nucleus while proteins are made in the cytoplasm, so a messenger is needed to carry the genetic information from the nucleus out to the sites of protein synthesis.<br><br>Distinguish: mRNA is the <b>only</b> one of the five RNA classes that is translated — tRNA, rRNA, snRNA and miRNA are final products in their own right.",
+  "from_idx": [
+   5
+  ],
+  "block": "U2_mrna_definition",
+  "verified_against": "p275: 'The RNA molecules that are translated on ribosomes are called messenger RNAs (mRNAs).' | Back Extra (unmarked, teaching only) p277: 'If most of the genes of a eukaryote are located in the nucleus, and if proteins are synthesized in the cytoplasm, how do these genes control the amino acid sequences of their protein products? … Messengers are needed to transfer genetic information from the nucleus to the cytoplasm.' | p277: 'Transfer RNA, ribosomal RNA, snRNA, and miRNA molecules are not translated.'",
+  "_fact_pass": {
+   "must_test": [
+    "mRNA = the RNA molecules that are translated on ribosomes (two-way)"
+   ],
+   "supporting": [
+    "why a messenger is needed: nucleus vs cytoplasm (unmarked p277 → Back Extra only)",
+    "mRNA is the only translated class (marks 12–13; the exception itself is carded in U3)"
+   ],
+   "skip": [
+    "'codons' (mark 4) and 'primary transcript' (mark 6) — purple lexicon marks, orchestrator's lane"
+   ]
+  },
+  "_archetype": "one-way definition (term → meaning; the name direction is tested by the U3 negation card)",
+  "_figure_request": "FIGURE 11.3",
+  "_unit_idx": 3,
+  "_editor_verdict": "REWRITE",
+  "_editor_notes": "Rule 12 fired: the c1 term side ('[RNA class] are the RNA molecules that are translated on ribosomes' -> mRNA) tested the same recall as card 11's carve-out ('only [RNA class] is translated into a polypeptide' -> mRNA). Card 11's front is the better home (it carries the negation and the count), so this note keeps only the term -> meaning direction: c2 renumbered to c1, term visible. Grounded verbatim p275 (mark 5); c1 side is 3 words; 'their fate' is a slot label; the term is not leaked by the stem. Why line (nucleus vs cytoplasm messenger) is unmarked p277, teaching only; Distinguish line adds the 'only' edge without re-defining. Mark 5 remains cited here and on card 11."
+ },
+ {
+  "source": "genetics",
+  "segment": 11,
+  "numeric": false,
+  "verified_by": "drafter-D1; edited by editor-E1",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D1",
+  "Text": "In {{c1::eukaryotes::prokaryotes or eukaryotes}}, the primary transcript usually is a {{c2::precursor to the mRNA::relation to the mRNA}} and so is called a {{c2::pre-mRNA::name}}.",
+  "Back Extra": "Meaning: the primary transcript is the direct product of transcription, before any processing.<br><br>Distinguish: in prokaryotes the primary transcript usually <i>is</i> the mRNA — no processing step in between.<br><br>Why: eukaryotic primary transcripts often must be processed before they can be translated — specific sequences (the introns) are excised and both ends are modified (a 5′ cap and a 3′ poly(A) tail).",
+  "from_idx": [
+   7
+  ],
+  "block": "U2_pre_mrna",
+  "verified_against": "p275: 'Thus, in eukaryotes, primary transcripts usually are precursors to mRNAs and, as such, are called pre-mRNAs.' | Back Extra (unmarked, teaching only) p275: 'In prokaryotes, the product of transcription, the primary transcript, usually is equivalent to the mRNA molecule' | Back Extra (unmarked, teaching only) p275: 'In eukaryotes, primary transcripts often must be processed by the excision of specific sequences and the modification of both termini before they can be translated' | Back Extra (unmarked, teaching only) p276 (FIGURE 11.2 caption): 'In eukaryotes, the primary transcripts or pre-mRNAs often must be processed by the excision of introns and the addition of 5′ 7-methyl guanosine caps (Cap) and 3′ poly(A) tails [(A)n].'",
+  "_fact_pass": {
+   "must_test": [
+    "in EUKARYOTES (not prokaryotes) the primary transcript is usually only a precursor to the mRNA (c1, forced choice)",
+    "that precursor is called a pre-mRNA (c2 — term and meaning hidden together because each spells the other; the visible anchors 'eukaryotes' + 'primary transcript' still force the answer)"
+   ],
+   "supporting": [
+    "prokaryote: primary transcript ≈ mRNA (unmarked → Back Extra only)",
+    "what processing means: excision of sequences + modification of both termini / cap + poly(A) (unmarked p275–p276 → Back Extra only)",
+    "one-clause 'primary transcript' meaning for prerequisite closure (rule 11); the purple lexicon card for mark 6 is the orchestrator's"
+   ],
+   "skip": [
+    "introns/exons/spliceosome sentence (unmarked here; snRNA card carries it as teaching)"
+   ]
+  },
+  "_archetype": "two-way definition",
+  "_figure_request": "FIGURE 11.2",
+  "_unit_idx": 4,
+  "_editor_verdict": "REWRITE",
+  "_editor_notes": "Check 18 (cold-solve) on the c2 card: 'the primary transcript usually is a [...] and so is called a [name]' left the first span open to paraphrase ('a longer RNA that gets processed'); added the slot label '::relation to the mRNA' so a knower writes 'precursor to the mRNA' exactly. The c2 co-cloze of 'precursor to the mRNA' + 'pre-mRNA' is deliberate (each spells the other) and is anchored by the visible 'eukaryotes' + 'primary transcript', so it is not a husk (rule 17). c1 carries its forced-choice 'prokaryotes or eukaryotes' (check 13). Grounded verbatim p275 (mark 7); Distinguish/Why lines are unmarked p275/p276 teaching only; 5′ / 3′ in the Why line are nomenclature verified verbatim against the FIGURE 11.2 caption, numeric left false. Meaning line gives the one-clause 'primary transcript' closure (rule 11) without re-defining pre-mRNA."
+ },
+ {
+  "source": "genetics",
+  "segment": 11,
+  "numeric": false,
+  "verified_by": "drafter-D1; edited by editor-E1",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D1",
+  "Text": "Five classes of RNA molecules play essential roles in gene expression:<br><br>{{c1::mRNA}}, {{c1::tRNA}}, {{c1::rRNA}} — translational roles<br><br>{{c1::snRNA}} — splicing<br><br>{{c1::miRNA}} — regulation of gene expression",
+  "Back Extra": "Why: all five are produced the same way, by transcription — what differs is what happens to the transcript afterwards.<br><br>Pitfall: only mRNA is translated; the other four are working RNAs and the final products of their own genes.",
+  "from_idx": [
+   5,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "block": "U3_five_rna_types",
+  "verified_against": "p275: 'The RNA molecules that are translated on ribosomes are called messenger RNAs (mRNAs).' | p276: 'Transfer RNAs (tRNAs) are small RNA molecules that function as adaptors between amino acids and the codons in mRNA during translation.' | p276: 'Ribosomal RNAs (rRNAs) are structural and' | p277: 'Small nuclear RNAs (snRNAs) are structural components of spliceosomes, the nuclear organelles that excise introns from gene transcripts.' | p277: 'Micro RNAs (miRNAs) are short 20- to 22-nucleotide single-stranded RNAs' | p277: 'final products of tRNA, rRNA, snRNA, and miRNA genes are RNA molecules.' | p277: 'Transfer RNA, ribosomal RNA, snRNA, and miRNA molecules are not translated.' | Stem cue (unmarked, scaffolding only) p276: 'Five different classes of RNA molecules play essential roles in gene expression.' | Stem cue (unmarked, scaffolding only) p278 (FIGURE 11.3 caption): 'the splicing function of snRNA, the regulation of gene expression by miRNA, and the translational roles of tRNA, rRNA, mRNA, and ribosomes' | Back Extra (unmarked, teaching only) p277: 'All five types of RNA—mRNA, tRNA, rRNA, snRNA, and miRNA—are produced by transcription.'",
+  "_fact_pass": {
+   "must_test": [
+    "membership: the five RNA classes are mRNA, tRNA, rRNA, snRNA and miRNA (rule 30 — can he PRODUCE the five?)"
+   ],
+   "supporting": [
+    "the source's own grouping (FIGURE 11.3 caption: translational roles / splicing / regulation of gene expression) used as visible row cues so the 5-item group is passable — rule 23 handle = the count 'five' + the caption's three role groups + the shared -RNA suffix; grouping is not clozed (rule 23.1)",
+    "all five produced by transcription (unmarked → Back Extra only)"
+   ],
+   "skip": [
+    "each class's function is its own two-way card in this unit (the row cues here are coarser than those cards' definitions, so this is not the same recall)",
+    "mRNA's definition (U2 card)"
+   ]
+  },
+  "_archetype": "list",
+  "_figure_request": "FIGURE 11.3",
+  "_unit_idx": 5,
+  "_editor_verdict": "REWRITE",
+  "_editor_notes": "Load (check 25): five answers under c1, but the caption's three role groups are visible per-row cues, so only the translational trio (mRNA, tRNA, rRNA) is group-cued rather than item-cued = 3 uncued, under the <=4 ceiling; the role schema regenerates the members (rule 23 handle), so it ships whole, not chunked. Per row: 'translational roles' -> the three RNAs of translation, 'splicing' -> snRNA, 'regulation of gene expression' -> miRNA — each cold-solvable by a knower, none restating its answer (rule 20: no row cue contains messenger/transfer/ribosomal/small nuclear/micro). Grouping is the source's own (FIGURE 11.3 caption) and stays visible, not clozed (rule 23.1). Provenance fix: added marks 5 and 13 to from_idx — 'mRNA' is a cloze answer whose marked source is mark 5, and mark 13 names the other four — plus the mark-5 quote; plural 'RNA molecules' to match the page. Sibling definition cards test function, not membership (rule 30 wants both lanes); no rule-13 exemplar reuse."
+ },
+ {
+  "source": "genetics",
+  "segment": 11,
+  "numeric": false,
+  "verified_by": "drafter-D1; edited by editor-E1",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D1",
+  "Text": "{{c1::Transfer RNAs (tRNAs)::RNA class}} are small RNA molecules that function as {{c2::adaptors between amino acids and mRNA codons}} during translation.",
+  "Back Extra": "Meaning: a codon is a nucleotide triplet in the gene transcript that specifies one amino acid — the genetic code.<br><br>Distinguish: tRNA is a separate small molecule that works <i>at</i> the ribosome; rRNA is built <i>into</i> the ribosome itself.",
+  "from_idx": [
+   8,
+   14
+  ],
+  "block": "U3_trna_adaptor",
+  "verified_against": "p276: 'Transfer RNAs (tRNAs) are small RNA molecules that function as adaptors between amino acids and the codons in mRNA during translation.' | Back Extra (unmarked, teaching only) p275: 'the genetic code, the specification of amino acids by nucleotide triplets called codons in the gene transcript' | Back Extra (unmarked, teaching only) p275 (FIGURE 11.1 label): 'Translation — Complex process involving ribosomes, tRNAs, and other molecules' | p276: 'Ribosomal RNAs (rRNAs) are structural and' | p277: 'catalytic components of the ribosomes'",
+  "_fact_pass": {
+   "must_test": [
+    "tRNA = adaptor between amino acids and the codons in mRNA, during translation (two-way)"
+   ],
+   "supporting": [
+    "'small' (visible qualifier)",
+    "codon meaning for prerequisite closure (unmarked p275 → Back Extra; the purple lexicon card for 'codons' is the orchestrator's)"
+   ],
+   "skip": [
+    "tRNA structure detail (deferred by the book to Chapter 12, not on these pages)"
+   ]
+  },
+  "_archetype": "two-way definition",
+  "_figure_request": "FIGURE 11.3",
+  "_unit_idx": 6,
+  "_editor_verdict": "REWRITE",
+  "_editor_notes": "Check 11 fired: the Distinguish line opened by re-defining tRNA ('the adaptor that pairs an amino acid with its codon' = the Text's own c2) and handed over card 7's c2 answer verbatim. Rewritten to a pure contrast (tRNA works at the ribosome; rRNA is built into it), grounded in the FIGURE 11.1 label listing ribosomes and tRNAs separately plus the marked rRNA sentence. Text unchanged: grounded verbatim p276 (mark 8); two-way with c2 side 6 words; term not leaked by the stem; 'small' is scenery, not a testable fact. Meaning line closes 'codon' (rule 11) from p275; the purple lexicon card for 'codons' is the LEX lane's."
+ },
+ {
+  "source": "genetics",
+  "segment": 11,
+  "numeric": false,
+  "verified_by": "drafter-D1",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D1",
+  "Text": "{{c1::Ribosomal RNAs (rRNAs)::RNA class}} are {{c2::structural and catalytic::two roles}} components of the {{c1::ribosomes}}, the intricate machines that translate nucleotide sequences of mRNAs into amino acid sequences of polypeptides.",
+  "Back Extra": "Distinguish: snRNAs are also <i>structural</i> components — of the spliceosome, not the ribosome; <i>catalytic</i> is said of rRNA alone.<br><br>Cue: keep the word catalytic — rRNA is not mere scaffolding; it takes part in the chemistry the ribosome performs.",
+  "from_idx": [
+   9,
+   14
+  ],
+  "block": "U3_rrna_structural_catalytic",
+  "verified_against": "p276: 'Ribosomal RNAs (rRNAs) are structural and' | p277: 'catalytic components of the ribosomes, the intricate machines that translate nucleotide sequences of mRNAs into amino acid sequences of polypeptides.' | p277: 'Small nuclear RNAs (snRNAs) are structural components of spliceosomes'",
+  "_fact_pass": {
+   "must_test": [
+    "rRNAs are STRUCTURAL and CATALYTIC components of ribosomes ('catalytic' is the recall — c2)",
+    "the ribosome is the machine that translates mRNA nucleotide sequences into polypeptide amino-acid sequences; c1 chains machine → its RNA (ribosomes → rRNA) so the name direction is a real recall rather than a 'ribosomal ← ribosome' giveaway"
+   ],
+   "supporting": [
+    "MARGIN COMMENT on mark 9 ('Add the rest of the sent. Plzzzz') honoured: the whole sentence is carded across the p276/p277 page break and both pages are quoted",
+    "the translation definition itself is tested on the U1 two-step card, so the ribosome's job stays visible scaffolding here rather than a duplicate cloze (rule 12)"
+   ],
+   "skip": [
+    "ribosome composition counts (3–5 RNAs, 50–90 proteins) — unmarked p275 and numeric; left off"
+   ]
+  },
+  "_archetype": "two-way definition",
+  "_figure_request": "FIGURE 11.3",
+  "_unit_idx": 7,
+  "_editor_verdict": "PASS",
+  "_editor_notes": "Margin comment on mark 9 ('Add the rest of the sent.') honoured: the sentence is whole across the p276/p277 break, both pages quoted, and the second half ('the intricate machines that translate nucleotide sequences of mRNAs into amino acid sequences of polypeptides') is on the card — checked against the p277 render as well as the text layer. c1 hides rRNA AND ribosomes so the 'ribosomal <- ribosome' echo cannot leak; the visible appositive anchors 'ribosomes', then 'RNA class' anchors rRNA, so it is not a husk (rule 17). c2 'structural and catalytic' with the count label 'two roles' is the real recall. Distinguish line cross-links the structural-only snRNA (grounded mark 10). Not a duplicate of card 1 (which tests the step, not the machine)."
+ },
+ {
+  "source": "genetics",
+  "segment": 11,
+  "numeric": false,
+  "verified_by": "drafter-D1; edited by editor-E1",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D1",
+  "Text": "{{c1::Small nuclear RNAs (snRNAs)::RNA class}} are structural components of {{c2::spliceosomes::organelle}}, the {{c1::nuclear::location}} organelles that {{c3::excise introns}} from gene transcripts.",
+  "Back Extra": "Why: introns are noncoding sequences that separate a gene's exons; the whole gene is transcribed into the pre-mRNA, so the introns must be spliced out before it can be translated.<br><br>Ex: the spliceosome's snRNAs are named U1, U2, U4, U5 and U6.<br><br>Distinguish: rRNA is structural <i>and catalytic</i> (in the ribosome); snRNA is described as structural only.",
+  "from_idx": [
+   10,
+   14
+  ],
+  "block": "U3_snrna_spliceosome",
+  "verified_against": "p277: 'Small nuclear RNAs (snRNAs) are structural components of spliceosomes, the nuclear organelles that excise introns from gene transcripts.' | Back Extra (unmarked, teaching only) p275: 'Most of the nuclear genes in higher eukaryotes and some in lower eukaryotes contain noncoding sequences called introns that separate the expressed sequences or exons of these genes. The entire sequences of these split genes are transcribed into pre-mRNAs, and the noncoding intron sequences are subsequently removed by splicing reactions carried out on macromolecular structures called spliceosomes.' | Back Extra (unmarked, teaching only) p278 (FIGURE 11.3 labels, text layer): 'U1 Spliceosome … U4 … U2 U6 … U5' | p276: 'Ribosomal RNAs (rRNAs) are structural and' | p277: 'catalytic components of the ribosomes'",
+  "_fact_pass": {
+   "must_test": [
+    "snRNA = structural component of spliceosomes (two-way, c1/c2)",
+    "spliceosomes = the nuclear organelles that excise introns from gene transcripts (c3)"
+   ],
+   "supporting": [
+    "intron/exon meaning for prerequisite closure (unmarked p275 → Back Extra only)",
+    "U1/U2/U4/U5/U6 names read off the plate's text layer (names, not values — numeric left false)"
+   ],
+   "skip": [
+    "'nuclear' as a cloze — it is inside the class name and would leak from 'nuclear organelles'"
+   ]
+  },
+  "_archetype": "two-way definition",
+  "_figure_request": "FIGURE 11.3",
+  "_unit_idx": 8,
+  "_editor_verdict": "REWRITE",
+  "_editor_notes": "Check 2 fired on the c1 card: the visible 'the nuclear organelles' echoed the answer 'Small NUCLEAR RNAs' — a student who knows the five class names could pattern-match to snRNA without knowing it sits in the spliceosome. Fix: 'nuclear' co-clozed under c1 with a 'location' label, so the c1 card asks the class and its location and neither is decodable from 'spliceosomes ... excise introns'; on the c2/c3 cards 'nuclear' stays visible and leaks nothing. c2 (spliceosomes) <-> c3 (excise introns) is a two-way definition of the spliceosome inside the marked sentence (rule 3 precision: not a leak). Grounded verbatim p277 (mark 10); Why line is unmarked p275 intron/exon closure (rule 11); U1/U2/U4/U5/U6 are names read off the FIGURE 11.3 text layer (not values). Distinguish trimmed so it no longer re-defines snRNA (check 11)."
+ },
+ {
+  "source": "genetics",
+  "segment": 11,
+  "numeric": false,
+  "verified_by": "drafter-D1; edited by editor-E1",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D1",
+  "Text": "{{c1::Micro RNAs (miRNAs)::RNA class}} are the RNAs that block the expression of {{c2::complementary or partially complementary::sequence relationship}} mRNAs, by either {{c3::causing their degradation}} or {{c3::repressing their translation}}.",
+  "Back Extra": "Mechanism: a nuclease called Dicer processes the miRNA precursor into the mature miRNA, which acts through RISC (the RNA-induced silencing complex) — either cleavage of the target mRNA or repression of its translation.<br><br>Distinguish: snRNA works in the nucleus on the gene transcript (splicing); miRNA works on mRNAs, silencing them.",
+  "from_idx": [
+   11,
+   14
+  ],
+  "block": "U3_mirna_mechanism",
+  "verified_against": "p277: 'Micro RNAs (miRNAs) are short 20- to 22-nucleotide single-stranded RNAs that block the expression of complementary or partially complementary mRNAs by either causing their degradation or repressing their translation.' | Back Extra (unmarked, teaching only) p278 (FIGURE 11.3 caption): 'Dicer is a nuclease that processes the miRNA precursor into miRNA, and RISC is the RNA-induced silencing complex.' | Back Extra (unmarked, teaching only) p278 (FIGURE 11.3 labels): 'RISC … Cleavage of mRNA … Repression of translation' | p277: 'Small nuclear RNAs (snRNAs) are structural components of spliceosomes, the nuclear organelles that excise introns from gene transcripts.'",
+  "_fact_pass": {
+   "must_test": [
+    "miRNAs block the expression of mRNAs (c1: which class does this)",
+    "target = complementary or partially complementary mRNAs (c2)",
+    "two mechanisms: causing degradation OR repressing translation (c3, grouped pair)"
+   ],
+   "supporting": [
+    "Dicer / RISC processing chain (unmarked FIGURE 11.3 caption → Back Extra only)",
+    "'short' kept visible; the 20–22 nt value and single-strandedness are on the sibling numeric card so they are not shown here"
+   ],
+   "skip": [
+    "'mechanisms are discussed in Chapter 18' bookkeeping"
+   ]
+  },
+  "_archetype": "mechanism",
+  "_figure_request": "FIGURE 11.3",
+  "_unit_idx": 9,
+  "_editor_verdict": "REWRITE",
+  "_editor_notes": "Check 2 (echo) on the c1 card: 'the short RNAs' echoed 'MICRO RNAs' — size is card 10's job, so 'short' is dropped here and the clunky 'Among the RNA classes of gene expression' opener is removed ('RNA class' hint already frames the answer). c1 now cold-solves from function alone (blocks expression of complementary mRNAs by degradation / translational repression -> miRNA). c2 'complementary or partially complementary' keeps the 'sequence relationship' slot label; c3 pair (degradation / repression of translation) is one cohesive two-member set with 'either ... or' making the count visible, closed by the page. Grounded verbatim p277 (mark 11); Mechanism line (Dicer, RISC) is the unmarked FIGURE 11.3 caption, teaching only. Not a duplicate of card 10 (mechanism vs size/strandedness)."
+ },
+ {
+  "source": "genetics",
+  "segment": 11,
+  "numeric": true,
+  "verified_by": "drafter-D1",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D1",
+  "Text": "Micro RNAs (miRNAs) are short, {{c2::single::single or double}}-stranded RNAs {{c1::20 to 22 nucleotides::length}} long.",
+  "Back Extra": "Mechanism: the mature miRNA is cut from a longer precursor (pre-miRNA) by Dicer, a nuclease.<br><br>Cue: <i>micro</i> is the size claim — a miRNA is a regulator, not a message; it is never translated.",
+  "from_idx": [
+   11,
+   14
+  ],
+  "block": "U3_mirna_size",
+  "verified_against": "p277: 'Micro RNAs (miRNAs) are short 20- to 22-nucleotide single-stranded RNAs' | Back Extra (unmarked, teaching only) p278 (FIGURE 11.3 caption): 'Dicer is a nuclease that processes the miRNA precursor into miRNA' | Back Extra (unmarked, teaching only) p278 (FIGURE 11.3 label): 'Pre-miRNA' | p277: 'Transfer RNA, ribosomal RNA, snRNA, and miRNA molecules are not translated.'",
+  "_fact_pass": {
+   "must_test": [
+    "miRNA length = 20 to 22 nucleotides (numeric; digits verified against p277 '20- to 22-nucleotide')",
+    "miRNAs are single-stranded (forced-choice blank)"
+   ],
+   "supporting": [
+    "pre-miRNA → Dicer → miRNA (unmarked plate caption → Back Extra only)"
+   ],
+   "skip": []
+  },
+  "_archetype": "numeric",
+  "_figure_request": "FIGURE 11.3",
+  "_unit_idx": 10,
+  "_editor_verdict": "PASS",
+  "_editor_notes": "Numeric true; digits '20- to 22-nucleotide' verified against the p277 text layer AND read on the p277 render (mark 11). The length blank carries its unit inside the cloze ('20 to 22 nucleotides'), the '::length' slot label plus the trailing 'long' say a length is wanted (rule 27 / check 29); 'single or double' is the forced choice the strandedness blank needs (check 13). c1/c2 are two independent facts of one physical description (not an enumerated list). Back Extra lines are the unmarked caption (Dicer, pre-miRNA) and the marked 'not translated' sentence; neither restates the Text. needs_human_check left for verify_report."
+ },
+ {
+  "source": "genetics",
+  "segment": 11,
+  "numeric": false,
+  "verified_by": "drafter-D1; edited by editor-E1",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D1",
+  "Text": "Of the five RNA classes, <b>only</b> {{c1::mRNA::RNA class}} is translated into a polypeptide; the final products of the other four classes' genes are RNA molecules.",
+  "Back Extra": "Why: all five classes are produced by transcription — for four of them the transcript itself is the gene's working product, so they are never translated.<br><br>Pitfall: <i>not translated</i> does not mean <i>not expressed</i> — tRNA, rRNA, snRNA and miRNA are expressed as RNAs that do their own jobs (adaptor, ribosome, spliceosome, silencing).",
+  "from_idx": [
+   5,
+   12,
+   13,
+   14
+  ],
+  "block": "U3_only_mrna_translated",
+  "verified_against": "p277: 'final products of tRNA, rRNA, snRNA, and miRNA genes are RNA molecules.' | p277: 'Transfer RNA, ribosomal RNA, snRNA, and miRNA molecules are not translated.' | p275: 'The RNA molecules that are translated on ribosomes are called messenger RNAs (mRNAs).' | Back Extra (unmarked, teaching only) p277: 'Unlike mRNAs, which specify polypeptides, the final products of tRNA, rRNA, snRNA, and miRNA genes are RNA molecules.' | Back Extra (unmarked, teaching only) p277: 'All five types of RNA—mRNA, tRNA, rRNA, snRNA, and miRNA—are produced by transcription.'",
+  "_fact_pass": {
+   "must_test": [
+    "the carve-out: mRNA is the ONLY one of the five that is translated (negator kept loud, exception clozed — recipes §10)",
+    "the final products of tRNA, rRNA, snRNA and miRNA genes are RNA molecules (c2)"
+   ],
+   "supporting": [
+    "marks 12 and 13 are one proposition stated twice ('final product is RNA' ⟺ 'not translated'); Rule 0 + rule 12 → ONE note covering both",
+    "c2 is answerable by a reasoning step from the visible carve-out (not translated → the transcript is the product); a non-knower's default answer is 'proteins', which is exactly the misconception the blank catches, so the row is kept",
+    "all five produced by transcription (unmarked → Back Extra only)"
+   ],
+   "skip": [
+    "'which RNAs are discussed in which chapter' bookkeeping"
+   ]
+  },
+  "_archetype": "negation",
+  "_figure_request": "FIGURE 11.3",
+  "_unit_idx": 11,
+  "_editor_verdict": "REWRITE",
+  "_editor_notes": "Two fires. (1) Check 2 on the c1 card: the visible second clause named tRNA, rRNA, snRNA and miRNA as the non-translated four, so anyone who can list the five classes (card 5) got 'mRNA' by elimination; the clause now says 'the other four classes', and the four are named on the back (Pitfall). (2) Rule 20 / Parker's padding corollary on c2: with 'only mRNA is translated into a polypeptide' visible, '[molecule type]' -> 'RNA molecules' answered itself (the drafter's 'proteins' misconception cannot survive the visible carve-out), so c2 is removed and the mark-12 clause stays as the visible anchor; marks 12 and 13 are one proposition and its carve-out IS the cloze. Negator kept loud (<b>only</b>), carve-out clozed, no polarity coin-flip (recipes §10). Cue line dropped (restated the Text). Grounded verbatim p277 (marks 12, 13) + p275 (mark 5); Why line is the unmarked 'all five ... produced by transcription' sentence, teaching only. Card 3 now tests the reverse direction only, so no rule-12 duplicate remains."
+ }
+]

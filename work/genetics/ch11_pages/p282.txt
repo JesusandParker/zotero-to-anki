@@ -1,0 +1,92 @@
+       260            Chapter 11 Transcription and RNA Processing
+
+
+                                                      Transcription                  INITIATION OF RNA CHAINS
+               –10 sequence
+        Template strand                                                         Initiation of RNA chains involves three steps: (1) binding of the RNA
+                                          TTA          T
+                                         A      5–9    or
+        –35 sequence                     T       bp    C                        polymerase holoenzyme to a promoter region in DNA; (2) the localized
+       3'
+                                         A
+                                                                5'
+                                                                                unwinding of the two strands of DNA by RNA polymerase, providing a
+             A  A ...
+             .. ..
+             TTGACA
+                   C ..T ...
+                         GT  .. 16–19 bp                                        template strand free to base-pair with incoming ribonucleotides; and (3) the
+       5'
+                                         T
+                                                                3'              formation of phosphodiester bonds between the first few ribonucleotides in
+                                         A           A
+                                                     or
+                                                                                the nascent RNA chain. The holoenzyme remains bound at the promoter
+       Nontemplate strand                T
+                                          AAT        G                          region during the synthesis of the first eight or nine bonds; then the sigma
+                  Upstream sequences                    Downstream sequences
+                                                                                factor is released, and the core enzyme begins the elongation phase of RNA
+                                                                                synthesis. During initiation, short chains of two to nine ribonucleotides are
+                                           Localized unwinding                  synthesized and released. This abortive synthesis stops once chains of 10
+                                                                                or more ribonucleotides have been synthesized and RNA polymerase has
+       ◾ FIGURE 11.8 Structure of a typical promoter in E. coli. RNA
+                                                                                begun to move downstream from the promoter.
+       polymerase binds to the −35 sequence of the promoter and
+                                                                                      By convention, the nucleotide pairs or nucleotides within and adjacent to
+       initiates unwinding of the DNA strands at the AT-rich −10
+       sequence. Transcription begins within the transcription bubble
+                                                                                transcription  units are numbered relative to the transcript initiation site (des-
+       at a site five to nine base pairs beyond the −10 sequence.               ignated  +1)—the    nucleotide pair corresponding to the first (5′) nucleotide of
+                                                                                the RNA transcript. Base pairs preceding the initiation site are given minus
+                                                                                (−) prefixes; those following (relative to the direction of transcription) the
+                                                                     initiation site are given plus (+) prefixes. Nucleotide sequences preceding the initiation
+                                                                     site are referred to as upstream sequences; those following the initiation site are called
+                                                                        downstream sequences.
+                                                                    As mentioned earlier, the sigma subunit of RNA polymerase mediates its binding
+                                                               to promoters in DNA. Hundreds of E. coli promoters have been sequenced and found
+                                                               to have surprisingly little in common. Two short sequences within these promoters
+                                                               are sufficiently conserved to be recognized, but even these are seldom identical in two
+                                                                           different promoters. The midpoints of the two conserved sequences occur
+                             Site for incoming                             at about 10 and 35 nucleotide pairs before the transcription-initiation site
+                        ribonucleoside triphosphate                        (◾ Figure 11.8). Thus they are called the −10 sequence and the −35 sequence,
+              Growing RNA chain                                            respectively.  Although these sequences vary slightly from gene to gene,
+                                              RNA polymerase               some    nucleotides  are highly conserved. The nucleotide sequences that are
+                 5'                                                        present in such conserved genetic elements most often are called consen-
+                               3'                                     3'   sus sequences. The −10 consensus sequence in the nontemplate strand is
+                                                                      5'   TATAAT; the −35 consensus sequence is TTGACA. The sigma subunit
+                                                         DNA double helix
+                                                                           initially recognizes and binds to the −35 sequence; thus, this sequence
+                                                                           is sometimes called the recognition sequence. The AT-rich −10 sequence
+        Rewinding site Short region Unwinding site
+                      of DNA–RNA helix                                     facilitates the localized unwinding of DNA, which is an essential prerequisite
+                                                                           to the synthesis of a new RNA chain. The distance between the −35 and
+       (a) RNA polymerase is bound to DNA and is covalently                −10 sequences is highly conserved in E. coli promoters, never being less than
+           extending the RNA chain.
+                                                                           15 or more than 20 nucleotide pairs in length. In addition, the first or 5′ base
+                                                                           in E. coli RNAs is usually (>90 percent) a purine.
+
+
+                                                                                     ELONGATION OF RNA CHAINS
+                                Movement of RNA polymerase                           Elongation of RNA chains is catalyzed by the RNA polymerase core
+                                                                                     enzyme, after the release of the σ subunit. The covalent extension of
+                     Growing RNA chain                                               RNA chains (see Figure 11.5) takes place within the transcription bubble,
+                5'                                                                   a locally unwound segment of DNA. The RNA polymerase molecule
+                                                                                     contains both DNA unwinding and DNA rewinding activities. RNA poly-
+                                                       3'                 3'         merase continuously unwinds the DNA double helix ahead of the polym-
+                                                                          5'
+                                                                  DNA double helix
+                                                                                     erization site and rewinds the complementary DNA strands behind the
+                                                                                     polymerization site as it moves along the double helix (◾ Figure 11.9). In
+                                                                                     E. coli, the average length of a transcription bubble is 18 nucleotide pairs,
+                             Rewinding site                     Unwinding site
+                                                                                     and about 40 ribonucleotides are incorporated into the growing RNA
+       (b) RNA polymerase has moved downstream from its position                     chain per second. The nascent RNA chain is displaced from the DNA
+           in (a), processively extending the nascent RNA chain.                     template strand as RNA polymerase moves along the DNA molecule.
+       ◾ FIGURE 11.9 Elongation of an RNA chain catalyzed by RNA                     The region of transient base-pairing between the growing chain and the
+       polymerase in E. coli.                                                        DNA template strand is very short, perhaps only three base pairs in length.
+
+
+
+
+CH11.indd 260                                                                                                                                                        9/8/2015 10:09:37 AM
+

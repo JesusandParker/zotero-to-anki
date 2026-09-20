@@ -1,0 +1,322 @@
+[
+ {
+  "idx": 45,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Two-way TFIID <-> TATA-binding protein; both directions cold-solve (c1 from 'first'+TBP, c2 from TFIID) and neither decodes the other. p288 verbatim; Mechanism/Pitfall/Roster grounded (Fig 11.14 caption, p287 'closest to the start site'). Benign overlap: the visible 'first' restates card 44's row 1, but 45 tests the TBP binding, not the order."
+ },
+ {
+  "idx": 46,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "c1 forced by 'after TFIID, TFIIA and TFIIB'; c2 'DNA-unwinding' is the marked activity, form-cued by 'has ___ activity'. All quotes verified on p288 and p287 (l.34-37 'free to function as a template'). Distinguish pins TFIIH; Roster intact; numeric true for 'two subunits'."
+ },
+ {
+  "idx": 47,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "c1 forced by position; c2 is a hinted binary matching p288 'downstream from the transcription startpoint'. Distinguish (all promoter elements upstream, p287 l.43) and Pitfall (Pol III internal promoters, p288) grounded."
+ },
+ {
+  "idx": 48,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Two answers under c1, cued by 'after TFIIE'; p288 verbatim incl. 'locations unknown' left visible (a clozed 'unknown' would be decodable). Distinguish grounded in mark 57 crop; Roster intact."
+ },
+ {
+  "idx": 49,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Mark 57 verified on the evidence crop word for word. c1 TFIIH, c2 helicase (form-cued), c3 elongation with a forced-choice hint that genuinely discriminates from TFIIF's initiation-time unwinding; no definitional leak left on any front (bubble/travels moved to Mechanism)."
+ },
+ {
+  "idx": 50,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Closed two-member set from p289, rows <br><br>, ::function slot labels, 2 uncued. Back Extra digits verified (about 30 nt; 5'-5' triphosphate; two or more methyl groups). The visible '5' end' restates card 27's row 1 as context only, not as a test."
+ },
+ {
+  "idx": 51,
+  "verdict": "FIX",
+  "checks_fired": [
+   "12",
+   "16"
+  ],
+  "reason": "Rule 12 same-fact duplicate: c3 (poly(A) tail -> 3' end) is card 27's row 2 in the reverse direction (positions are not two-way'd per parker-preferences), and the same fact sits visible on the fronts of 28 and 52. Un-cloze the 3' so the note keeps only the licensed term<->meaning pair; Back Extra unchanged.",
+  "Text": "{{c1::Polyadenylation::process}} is the {{c2::addition of a poly(A) tail}} to the 3′ end of a eukaryotic mRNA."
+ },
+ {
+  "idx": 52,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "c1 forced (the enzyme that adds the ~200-nt tail once the 3' end exists; 'poly(A)' deliberately absent from the front); c2 has its unit after the blank (rule 27). 200 is the MARKED p290 value; the Pitfall honestly surfaces the book's own p285 '20 to 200' (verified p285 l.38) and Figure 11.17's (A)195 agrees. 11-30 nt / AAUAAA / GU-rich verified p290. needs_human_check will derive from numeric+PARTIAL."
+ },
+ {
+  "idx": 53,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Two-row closed taxonomy under one number, <br><br>, printed (1)/(2). p290 verbatim; Ex digits verified (liver 4563, intestine 2153, C->U, internal UAA); deamination = Figure 11.18 label; trypanosome/guide-RNA and plant-mitochondria facts verified p290-p291."
+ },
+ {
+  "idx": 54,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Gate warning CLEARED: the parenthetical holds the c2 half of the marked term<->etymology pair ('introns (for intervening sequences)' IS mark 63). On the c1 card 'intervening' does not hand over 'introns' to a non-knower (no transparent contraction) and a knower answers from the visible fate framing anyway; on the c2 card 'Introns (named for ___ sequences)' is real recall ('interrupting'/'internal' are plausible wrong fills). Moving the etymology to the back would leave the only marked content untested. Ex/Pathway/Distinguish verified p291 (1977; mouse/rabbit beta-globin; chicken ovalbumin)."
+ },
+ {
+  "idx": 55,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Gate warning CLEARED on the same reasoning as 54: 'expressed' -> 'exons' is the describe->name half of a licensed two-way pair on the marked etymology (mark 64), and the c2 card ('Exons (named for ___ sequences)') is genuine recall ('excised' is the tempting wrong fill). Pitfall (noncoding sequences that stay are exons) is p291 verbatim; back-only cross-links with 54 are the licensed confusable-pair Distinguish lines."
+ },
+ {
+  "idx": 56,
+  "verdict": "FIX",
+  "checks_fired": [
+   "24",
+   "9",
+   "6"
+  ],
+  "reason": "Check 24/9: the 3-option menu hint ('protein enzymes / the RNA itself / a spliceosome') turns the c1 card into a 1-in-6 permutation and lets him answer row 1 with the menu word 'protein enzymes' while the answer string says 'a splicing endonuclease and a splicing ligase' - the very item mark 65 exists to teach, and the only place those enzymes are ever a cloze (59 shows them visibly). Menu wording also did not match the answers (recipes s8). Replace with a ::machinery slot label; the set is a closed three-member taxonomy from p294 and cold-solves without a menu. Row 2 trimmed to 6 words. Back Extra unchanged. Noted, not fixed: every row's pairing is inevitably stated on the D7 mechanism siblings' fronts (59 names the tRNA enzymes; 62-65 name self-splicing rRNA; 68/74-76 name the spliceosome) - structural to the topic.",
+  "Text": "Introns are removed by three splicing mechanisms, each tied to its own class of precursor RNA (substrate → machinery):<br><br>{{c2::tRNA::which precursor RNA}} precursors → {{c1::a splicing endonuclease and a splicing ligase::machinery}}<br><br>some {{c2::rRNA::which precursor RNA}} precursors → {{c1::the RNA itself, autocatalytically (no protein enzyme)::machinery}}<br><br>nuclear {{c2::pre-mRNA (hnRNA)::which precursor RNA}} transcripts → {{c1::a spliceosome::machinery}}"
+ },
+ {
+  "idx": 57,
+  "verdict": "FIX",
+  "checks_fired": [
+   "16",
+   "12"
+  ],
+  "reason": "Text PASSES (c1 'RNA and protein' slot-labeled, c2 nucleus, c3 labeled count; mark 67 verbatim). Back Extra only: absorb dropped card 69's two book-only facts (the small-ribosome analogy and the ~40 proteins, p296) as a Cue line so nothing authorized is lost. Give-aways of its blanks on sibling FRONTS are fixed on those siblings: 69 dropped (composition), 68 trimmed (two steps), 82 trimmed (nucleus).",
+  "Back Extra": "Why: splicing is finished before export — intron sequences are excised from transcripts in the nucleus, and only the spliced mRNA travels to the cytoplasm for translation.<br><br>Distinguish: tRNA introns are cut out by two dedicated protein enzymes and some rRNA introns cut themselves out; only nuclear pre-mRNA introns need the spliceosome.<br><br>Cue: a spliceosome is in many ways like a small ribosome — an RNA–protein machine whose RNAs are the snRNAs, working with about 40 different proteins."
+ },
+ {
+  "idx": 58,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "GT/AG verified letter by letter on p294 (nontemplate strand); two labeled answers under c1; 'only completely conserved' correctly left visible. Pitfall (introns mutate faster, p293) and Distinguish (p295) grounded. Its answers were printed on the FRONTS of 78 ('exon-GT...AG-exon') and 79 ('G100 T100 opening the intron', 'the 3'-end AG') - fixed on those cards so this marked card stays real recall."
+ },
+ {
+  "idx": 59,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Mark 69 verbatim (nuclear membrane-bound; two cuts at the ends; ligase joins the halves); ordinals printed, values/decisions clozed (rule 26), counts labeled, 'both halves' no longer prints the c2 count. Ex/Cue/Distinguish grounded p295. Note: its visible enzyme names restate 56's row 1 - accepted as structural (this is the enzymes' own mechanism card)."
+ },
+ {
+  "idx": 60,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Tests number -> substrate only, exactly as required; slide 23 read on the render ('Three types 1. Endonuclease and ligase: tRNA precursors 2. Self-splicing: rRNA precursors 3. Spliceosomes: pre-mRNA transcripts') and slides 24-26 titled 'Splicing: type 1/2/3'. Book order p294 matches the Cue. Authorization block verbatim and identical across all 23 lane cards; from_idx []; visual_source names the renders. Distinct from 56 (machinery <-> substrate)."
+ },
+ {
+  "idx": 61,
+  "verdict": "FIX",
+  "checks_fired": [
+   "2",
+   "15"
+  ],
+  "reason": "Check 2/15 leak on the c1 card: the visible tail 'the remaining type reads sequence signals instead' decodes the forced choice (if type 3 reads sequence, type 1 is structure). Drop the clause; the reasoning cue for the c2 card already lives in the Distinguish line. 'Shape driven' verified on slides 24 and 25 renders; p295 verbatim for the 3-D fact. 'He' -> 'Isaacs' so no sentence opens on a pronoun.",
+  "Text": "The specificity of type 1 (tRNA-precursor) splicing resides in the precursor's conserved {{c1::three-dimensional structure::3-D structure or nucleotide sequence}} — Isaacs' one-word term for such splicing is '{{c1::shape}} driven'. Isaacs applies the same term to {{c2::type 2 (self-splicing rRNA precursors)::type 2 or type 3}}."
+ },
+ {
+  "idx": 62,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "1982 / Thomas Cech / Tetrahymena thermophila / catalytic RNAs / 1989 with Altman all verified p295; 'him' refers to Cech in-sentence; 4 blanks over 3 numbers, each hinted. Note: Tetrahymena is also visible on 63/64 fronts (canonical example) - structural, not fixed."
+ },
+ {
+  "idx": 63,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "p295 verbatim; c1 forced-choice, c2 two labeled organelles; Distinguish/Ex grounded p295-p296."
+ },
+ {
+  "idx": 64,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "p296 verbatim (guanine nucleoside/nucleotide, free 3'-OH, monovalent + divalent cation; GTP/GDP/GMP/guanosine all work; absolute); slide 25 bullets read on the render. Cue's back-only listing of 65's and 66's answers is fine (back)."
+ },
+ {
+  "idx": 65,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "'two' verified p296 and slide 25, count labeled; circularize p296; c3 pairs the reason with a forced-choice consequence. The 'Instead' sentence on p296 licenses the causal link. 64's visible 'no external energy source' softens the c3 forced-choice blank only; the reason blank is the real test."
+ },
+ {
+  "idx": 66,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "p296 verbatim; forced-choice + two 'fate' answers under one number; Isaacs' 'reversible if products not degraded' quoted from slide 25."
+ },
+ {
+  "idx": 67,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "p296 verbatim (intramolecular -> not concentration-dependent; cis only, no trans); every binary hinted; the cis/trans Meaning gloss is a plain one-clause prerequisite closure (rule 11) the page uses undefined."
+ },
+ {
+  "idx": 68,
+  "verdict": "FIX",
+  "checks_fired": [
+   "16"
+  ],
+  "reason": "Check 16: the visible frame 'come out in two steps, like tRNA and Tetrahymena rRNA introns' prints card 57's c3 answer on a sibling FRONT. Trim the frame (the p296 comparison moves to a Cue line on the back); ATP/guanosine clozes unchanged (p296-p297 verified).",
+  "Text": "In nuclear pre-mRNA splicing, carried out by a spliceosome, the first step requires the hydrolysis of {{c1::ATP::energy source}}, and a {{c2::guanosine::which cofactor}} cofactor is <b>not</b> required.",
+  "Back Extra": "Distinguish: the pre-mRNA intron is excised neither by simple splicing nucleases and ligases (type 1) nor autocatalytically (type 2); and where self-splicing needs no external energy but an obligatory guanosine, the spliceosome needs ATP but no guanosine.<br><br>Why: the ATP is spent on the complete spliceosome during the first cleavage, at the 5′ splice site.<br><br>Cue: like the introns of yeast tRNA and <i>Tetrahymena</i> rRNA precursors, a nuclear pre-mRNA intron comes out in two steps; what differs is the machinery and the energy source."
+ },
+ {
+  "idx": 69,
+  "verdict": "DROP",
+  "checks_fired": [
+   "12",
+   "16"
+  ],
+  "reason": "Rule 12 + check 16: c2 (spliceosome -> snRNAs) duplicates mark-built card 8 (snRNAs are structural components of spliceosomes); and every card of this note prints 'an RNA-protein machine ... small RNAs ... 40 different proteins', handing over mark-built card 57's c1 ('RNA and protein') - the composition cannot be hidden here because it IS this note's frame. Its two book-only facts (like a small ribosome; about 40 proteins, p296) survive as a Cue line on 57 (FIX above); its Back Extra facts already sit on 74 (U1 base-pairing) and 72 (seven common snRNP proteins). No mark cited (authorized lane), so nothing goes uncovered."
+ },
+ {
+  "idx": 70,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Rule 23 handle upheld: five uncued names, but 'U1-U6 minus U3' is a structure that regenerates the set and the card teaches it (Cue); count in the lead-in, rows <br><br>. p296 + slide 26 verified. Members appear on the row cards' fronts (73, 74) by design - rule 30's membership lane coexisting with the row lane."
+ },
+ {
+  "idx": 71,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Negation anchored by the closed U1-U6 set and a slot label (rule 21); nucleolus + ribosomes one linked chunk; p296 verbatim; Cue's 100 (U6) / 215 (U3) verified p297. Provenance note for the orchestrator: numeric should be true (Back Extra states 100/215), as card 54 does for its 1977."
+ },
+ {
+  "idx": 72,
+  "verdict": "FIX",
+  "checks_fired": [
+   "2"
+  ],
+  "reason": "Check 2: on the c1 card the second sentence prints the answer ('assembled from four different snRNPs'). Say 'such particles' instead; c2 count stays labeled. p297 verbatim; slide 26's snRNA->snRNPs arrow.",
+  "Text": "Spliceosomal snRNAs never exist as free RNA molecules: each is packaged with proteins into a {{c1::snRNP::particle}}. A spliceosome is assembled from {{c2::four::how many}} different such particles plus protein splicing factors."
+ },
+ {
+  "idx": 73,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "p297 verbatim (U1, U2, U5 alone; U4/U6 together, base-paired via two complementary regions); rows count-hinted under c1 and cloze-led; c2 mechanism 6 words; Pitfall grounded p297 + Fig 11.22 caption. 74's front necessarily names the U4/U6 snRNP - structural."
+ },
+ {
+  "idx": 74,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Gate warning CLEARED: the parentheticals are printed ordinals (first/second/third/last), not definitions of the hidden sites, and on the c2 card they cue by the book's stated arrival order (position printed, never clozed - rule 26). Rule 24 does not fire: c1 hides one column (3 sites) and c2 the other (4 snRNPs) of a keyed panel, no enumerated set fanned across numbers. Every row cold-solves in both directions; order verified p297 (U1 5' site -> U2 branch point -> U5 3' site -> U4/U6 completes) and Fig 11.22 step 1; 55 words."
+ },
+ {
+  "idx": 75,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Every atom/end forced by a hint (5' or 3'; which atom, which nucleotide -> 5' carbon of the first G; which atom, which residue -> 2' carbon of the branch-point A); 'forming the lariat' + 'complete spliceosome' keep the c1 group from being a husk. p297 verbatim; U4 per p297 text and slide 26's step-1 caption, with the Fig 11.22 caption's 'U1 and U4' reconciled honestly in the Pitfall. 77's front no longer restates the chemistry (fixed there)."
+ },
+ {
+  "idx": 76,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "3' forced-choice, phosphodiester slot-labeled, release trio count-hinted; p297 + Fig 11.22 caption ('released along with snRNPs U2, U5, and U6') + slide 26 step 2 verified; Pitfall explains U4's absence."
+ },
+ {
+  "idx": 77,
+  "verdict": "FIX",
+  "checks_fired": [
+   "15",
+   "16"
+  ],
+  "reason": "Check 15/16: the visible appositive 'the residue whose 2' carbon receives the intron's 5' end' is definitional content for c1 on every card and restates 75's c1 chemistry on a sibling front. Keep only the minimal context the lariat blank needs (the cleaved 5' end joins the A); the atoms stay on 75 and in this card's Why line. Cue's TACTAAC sixth-base A verified in red on slides 23 and 26.",
+  "Text": "In nuclear pre-mRNA splicing the {{c1::branch point::term}} is {{c2::a conserved A near the intron's 3′ end}}; the intron's cleaved 5′ end is joined to it, making the looped intermediate called a {{c3::lariat::term for the shape}}."
+ },
+ {
+  "idx": 78,
+  "verdict": "FIX",
+  "checks_fired": [
+   "16"
+  ],
+  "reason": "Check 16: the front printed 'exon-GT…[...]…AG-exon', spelling out mark-built card 58's two answers. Hide the ends behind 'the intron's two invariant end dinucleotides' and carry the full shorthand on the back. TACTAAC verified on slides 23 and 26; RNA form GU…UACUAAC…AG is the T->U conversion of the slide string.",
+  "Text": "In Isaacs' shorthand for a nuclear intron (nontemplate DNA strand), the interior consensus written between the intron's two invariant end dinucleotides is {{c1::TACTAAC::7 bases}}; it carries the branch-point A of the lariat.",
+  "Back Extra": "Meaning: the full shorthand is exon-GT…TACTAAC…AG-exon: the consensus lies inside the intron, upstream of the 3′ AG; its marked A — the sixth base, TACTA-A-C — is the residue whose 2′ carbon receives the intron's 5′ G to form the lariat.<br><br>Distinguish: GT and AG are the invariant intron ends; TACTAAC marks the branch point, an interior residue 'near the 3′ end of the intron'.<br><br>Pitfall: written for the nontemplate DNA strand — in the RNA it reads GU…UACUAAC…AG."
+ },
+ {
+  "idx": 79,
+  "verdict": "FIX",
+  "checks_fired": [
+   "16"
+  ],
+  "reason": "Check 16: the front's example 'G100 T100 opening the intron' and 'the 3'-end AG' hand card 58 both of its answers. Drop the example from the front (the full subscripted string on the back shows it after answering); subscript meaning and the 6Py run verified p294-p295 position by position, Cue's AG|GTAAGT checked against the string.",
+  "Text": "In the splice-junction consensus of nuclear genes, a numerical subscript gives the {{c1::percentage frequency::what the number means}} of the base at its position, so a subscript of 100 means the base is {{c1::always::how often}} present; the run of six positions a little upstream of the intron's 3′ end is filled by {{c2::pyrimidines (Py)::which base class}}."
+ },
+ {
+  "idx": 80,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "p293 verbatim; slide 18 build 3/3 render shows 'Splicing - Removal of introns - Alternative splicing'. Two-way with a 7-word c2; c3 slot-labeled; the one-gene-many-products consequence visible as framing."
+ },
+ {
+  "idx": 81,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "p294 + Fig 11.20 caption + p297 KEY POINTS verified; both blanks slot-labeled; 'distal' glossed in the Pitfall; Cue's GU…AG is back-only."
+ },
+ {
+  "idx": 82,
+  "verdict": "FIX",
+  "checks_fired": [
+   "16"
+  ],
+  "reason": "Check 16: 'it is finished in the nucleus' printed card 57's c2 answer on a sibling front. Keep the before-export framing without the word; term<->meaning pair unchanged (p294 'The entire process is referred to as splicing'; slide 18/22 bullet).",
+  "Text": "In the processing of a eukaryotic transcript, {{c1::splicing::process}} is {{c2::removing introns and joining the remaining RNA}}, completed before the transcript is exported to the cytoplasm for translation."
+ },
+ {
+  "idx": 83,
+  "verdict": "FIX",
+  "checks_fired": [
+   "3"
+  ],
+  "reason": "Check 30 passes (plain, 7 words, keeps the triplet+amino-acid discriminator, agrees with the p609 glossary quote; Ex verbatim p275; anchor resolves). Check 3 on the Cue: 'three of the 64 codons' - 64 is on no cited page. Drop the 64; 'three codons ... stop' is p290 ('UAA is one of three codons that terminates polypeptide chains') - orchestrator: add that quote to verified_against.",
+  "Back Extra": "Ex: \"This conversion is governed by the genetic code, the specification of amino acids by nucleotide triplets called <b>codons</b> in the gene transcript.\"<br><br>Cue: the UUU triplet in an mRNA specifies phenylalanine (Phe); three codons signal 'stop' instead of an amino acid.<br><br>Formal: \"A set of three adjacent nucleotides in an mRNA molecule that specifies the incorporation of an amino acid into a polypeptide chain or that signals the end of polypeptide synthesis.\""
+ },
+ {
+  "idx": 84,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Plain, 8 words, faithful to the p622 glossary ('prior to any posttranscriptional modifications'); Ex verbatim p275 l.53; Distinguish grounded p275; clipped-mark repair surfaced in verified_by. Anchor resolves."
+ },
+ {
+  "idx": 85,
+  "verdict": "FIX",
+  "checks_fired": [
+   "3"
+  ],
+  "reason": "R67 CLEARED: the p622 entry is colon-style ('Promoter: A nucleotide sequence to which RNA polymerase binds and initiates transcription') - a real definition with no is/are cue, and the authored answer agrees with it (plain, 8 words). Check 3 on the Distinguish: 'it is a binding site, not part of the message that gets transcribed' is over-general - p288 says most RNA polymerase III promoters lie INSIDE the transcription unit (card 47's own Pitfall says so). Reword to the grounded claim.",
+  "Back Extra": "Ex: \"RNA polymerases bind to specific nucleotide sequences called <b>promoters</b>, and with the help of proteins called transcription factors, initiate the synthesis of RNA molecules at transcription start sites near the promoters.\"<br><br>Distinguish: for RNA polymerase II and <i>E. coli</i> genes the promoter sits in the DNA upstream of the transcription start site (+1), so it is the polymerase's landing site rather than part of the transcript; most RNA polymerase III promoters are the exception, lying inside the transcription unit.<br><br>Pitfall: the same word has an unrelated second sense (a chemical that pushes benign cells toward cancer); in transcription it always means the polymerase-binding sequence."
+ },
+ {
+  "idx": 86,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "KEEP 'the prokaryotes that are not bacteria': check 30's faithful bar demands the discriminator from the nearest neighbour (bacteria), and dropping it to 'prokaryotes' would blend the two. The discriminator is in-source, not just general knowledge: p289 lists 'bacteria, archaea, and eukaryotes' as three groups and p281 separates archaeal polymerases from E. coli's - orchestrator: cite p289 in verified_against to close the gap. Anchor p293 pinned; Ex verbatim p281; Cue p293."
+ },
+ {
+  "idx": 87,
+  "verdict": "FIX",
+  "checks_fired": [
+   "3"
+  ],
+  "reason": "R67 CLEARED (colon-style p619 entry). Answer is plain, 8 words, and agrees with the book's usage (p286 'where rRNAs are synthesized and combined with ribosomal proteins'; p296 'formation of ribosomes'); the glossary's 'storage place' is quoted as Formal. Check 3 on the Distinguish: 'not a membrane-bound organelle' is on no cited page (the glossary even says 'sack'). Reword to what p286/TABLE 11.1 support.",
+  "Back Extra": "Ex: \"RNA polymerase I is located in the <b>nucleolus</b>, a distinct region of the nucleus where rRNAs are synthesized and combined with ribosomal proteins.\"<br><br>Distinguish: the nucleolus is a distinct region inside the nucleus, not a separate compartment; RNA polymerase I works there, while RNA polymerases II and III work in the rest of the nucleus.<br><br>Formal: \"An RNA-rich, spherical sack in the nucleus of metabolic cells; associated with the nucleolar organizer; storage place for ribosomes and ribosome precursors.\""
+ },
+ {
+  "idx": 88,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "R67 CLEARED (colon-style p608 entry 'Proteins required for the initiation of transcription in eukaryotes'); answer plain, 8 words, same content. Ex verbatim p288; Distinguish (enhancers/silencers modulate efficiency) p288. Four Back Extra lines is s4b's full set; accepted for the lexicon lane."
+ },
+ {
+  "idx": 89,
+  "verdict": "PASS",
+  "checks_fired": [],
+  "reason": "Plain, 7 words, faithful to the p610 glossary (same sequence, unit for unit); Ex verbatim p291; Parts sound; Distinguish follows from p291's interrupted eukaryotic genes."
+ }
+]

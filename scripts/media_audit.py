@@ -40,11 +40,25 @@ def main():
     refs = {r for r in refs if r.startswith(a.prefix)}
     have = set(anki("getMediaFilesNames", pattern=f"{a.prefix}*"))
 
+    # ORPHANS are judged against the WHOLE collection, not just `--deck` (R73). A
+    # multi-segment source (genetics ch9/10/11) shares one prefix across many segment
+    # decks, so auditing one segment's Book Highlights with deck-scoped refs reported
+    # every other chapter's plates as "orphaned" and exited FAIL (2026-09-19). Broken and
+    # uppercase refs stay deck-scoped: they are about the notes just written.
+    all_refs = set()
+    all_nids = anki("findNotes", query=f'"{a.prefix}"')
+    for n in (anki("notesInfo", notes=all_nids) if all_nids else []):
+        blob = "".join(f["value"] for f in n["fields"].values())
+        all_refs |= set(re.findall(r"\[sound:([^\]]+)\]", blob))
+        all_refs |= set(re.findall(r'<img src="([^"]+)"', blob))
+    all_refs = {r for r in all_refs if r.startswith(a.prefix)} | refs
+
     broken   = sorted(refs - have)
     upper    = sorted(r for r in refs | have if r != r.lower())
-    orphans  = sorted(have - refs)
+    orphans  = sorted(have - all_refs)
 
-    print(f"media audit: {len(nids)} notes, {len(refs)} prefixed refs, {len(have)} files")
+    print(f"media audit: {len(nids)} notes, {len(refs)} prefixed refs in --deck, "
+          f"{len(all_refs)} collection-wide, {len(have)} files")
     ok = True
     for label, items, why in (
         ("BROKEN refs", broken, "reference does not resolve byte-for-byte (R45/R47)"),

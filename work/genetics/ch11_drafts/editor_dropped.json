@@ -1,0 +1,39 @@
+[
+ {
+  "Text": "In mammals the U snRNAs range in size from {{c1::100::how many}} nucleotides ({{c2::U6::which snRNA}}, the shortest) to {{c1::215::how many}} nucleotides ({{c2::U3::which snRNA}}, the longest).",
+  "Back Extra": "Distinguish: some snRNAs of the yeast <i>S. cerevisiae</i> are much larger.<br><br>Pitfall: U3, the longest, is the one that is not a spliceosome component (it is nucleolar).",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-19",
+   "asked": "(unprompted — his opening request for this run, no hand-off question was needed)",
+   "quote": "use all of the stuff that's talking about splicing from that PowerPoint as well and make sure that I'm not missing anything because I just hadn't gotten to really read all that stuff yet ... for all of the splicing stuff, get it from the book and from the PowerPoint so that way I'm not missing any piece",
+   "scope": "splicing only: the book's 'Removal of Intron Sequences by RNA Splicing' section (physical p294-p297) plus the alternative-splicing paragraph on p293, and the splicing slides (22-26) of the Isaacs Chapter 11b lecture PDF; nothing else in the chapter or the lecture"
+  },
+  "block": "AUTH_snRNA_sizes",
+  "numeric": true,
+  "verified_against": "p296–p297: 'In mammals, these snRNAs range in size from 100 nucleotides (U6) to 215 nucleotides (U3). Some of the snRNAs in the yeast S. cerevisiae are much larger.' | Back Extra (teaching only) p296: '(snRNA U3 is localized in the nucleolus and probably is involved in the formation of ribosomes.)'",
+  "verified_by": "drafter-D7",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D7",
+  "_unit_idx": 18,
+  "_fact_pass": {
+   "must_test": [
+    "mammalian snRNAs span 100 to 215 nucleotides",
+    "U6 is the shortest (100), U3 the longest (215)"
+   ],
+   "supporting": [
+    "yeast snRNAs can be much larger"
+   ],
+   "skip": []
+  },
+  "_archetype": "numeric (size range with the two endpoint identities)",
+  "_lane": "authorized",
+  "_editor_verdict": "DROP",
+  "_editor_notes": "DROP per the brief (trivia the slides never touch and no professor tests): the mammalian snRNA size range. The fact survives as a Cue line on card 15 (the U3 exception), whose verified_against already cites p296–p297 for it; the 'yeast snRNAs are much larger' aside goes with it. Nothing else on this card was unique."
+ }
+]

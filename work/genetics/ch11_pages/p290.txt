@@ -1,0 +1,88 @@
+       268               Chapter 11 Transcription and RNA Processing
+
+
+                                                                                     RNA polymerase II   ◾ FIGURE 11.17 Poly(A) tails are added to the 3′ ends of transcripts by the enzyme
+                                                                                                         poly(A) polymerase. The 3′-end substrates for poly(A) polymerase are produced by
+                                    Transcription unit                                                   endonucleolytic cleavage of the transcript downstream from a polyadenylation signal,
+           5'                                                                                            which has the consensus sequence AAUAAA.
+           3'
+
+                                                                            that are located 1000 to 2000 nucleotides downstream from the site
+                  5' CAP                                                                    GU-rich
+                                               AAUAAA                       that will become the 3′ end of the mature transcript. That is, transcrip-
+                                                                                           sequence
+                                                                            tion proceeds beyond the site that will become the 3′ terminus, and the
+           TE                                         Endonucleolytic
+       S   P
+           1 Cleavage by endonuclease
+                                                                            distal segment is removed by endonucleolytic cleavage. The cleavage
+                                                         cleavage
+                                                                            event that produces the 3′ end of a transcript usually occurs at a site
+                                                                            11 to 30 nucleotides downstream from a conserved polyadenylation
+               5' CAP
+                                                                            signal, consensus AAUAAA, and upstream from a GU-rich sequence
+                                                             3'
+                                               AAUAAA                       located near the end of the transcript. After cleavage, the enzyme
+                                                                            poly(A) polymerase adds poly(A) tails, tracts of adenosine monophosphate
+           TE
+       S   P                                                                residues about 200 nucleotides long, to the 3′ ends of the transcripts
+           2 Addition of poly(A) tail by
+              poly(A) polymerase                                            (Figure 11.17). The addition of poly(A) tails to eukaryotic mRNAs is
+                                                                            called polyadenylation. To examine the polyadenylation signal of the
+                                                                            human HBB (β-globin) gene, work through Solve It: Formation of the
+               5' CAP                                       AAAAA (A)195 3'
+                                               AAUAAA                       3′-Terminus of an RNA Polymerase II Transcript.
+                                                           Poly(A) tail          The formation of poly(A) tails on transcripts requires a specific-
+                                                                            ity component that recognizes and binds to the AAUAAA sequence,
+                                                           a stimulatory factor that binds to the GU-rich sequence, an endonuclease, and the
+                                                           poly(A) polymerase. These proteins form a multimeric complex that carries out both
+                                                           the cleavage and the polyadenylation in tightly coupled reactions. The poly(A) tails
+                 Solve It!                                 of eukaryotic mRNAs enhance their stability and play an important role in their
+                                                           transport from the nucleus to the cytoplasm.
+                                                                 In contrast to RNA polymerase II, both RNA polymerase I and III respond to
+            Formation of the 3′-Terminus                   discrete termination signals. RNA polymerase I terminates transcription in response
+            of an RNA Polymerase II                        to an 18-nucleotide-long sequence that is recognized by an associated terminator
+            Transcript                                     protein. RNA polymerase III responds to a termination signal that is similar to the
+            The nucleotide sequence of the nontem-         rho-independent terminator in E. coli (see Figure 11.10).
+           plate strand of a portion of the human HBB
+           (β-globin) gene and the carboxyl-terminus                                       RNA EDITING: ALTERING THE INFORMATION
+           of its product, human β-globin (using the
+           single-letter amino acid code; see Figure
+                                                                                           CONTENT OF mRNA MOLECULES
+           12.1), are given as follows. Remember that                                      According to the central dogma of molecular biology, genetic information flows from
+           the nontemplate strand will have the same                                       DNA to RNA to protein during gene expression. Normally, the genetic information
+           sequence as the transcript of the gene, but                                     is not altered in the mRNA intermediary. However, the discovery of RNA editing has
+           with T’s in place of U’s.
+                                                                                           shown that exceptions do occur. RNA editing processes alter the information content
+           5'– GGTGTGGCTA ATGCCCTGGC CCACAAGTAT CACTAAGCTC GCTTTCTTGC                      of gene transcripts in two ways: (1) by changing the structures of individual bases and
+                 G   V    A   N A    L   A   H   K   Y   H   COOH-terminus of β-globin
+                TGTCCAATTT CTATTAAAGG TTCCTTTGTT CCCTAAGTCC AACTACTAAA
+                                                                                           (2) by inserting or deleting uridine monophosphate residues.
+                CTGGGGGATA TTATGAAGGG CCTTGAGCAT CTGGATTCTG CCTAATAAAA                          The first type of RNA editing, which results in the substitution of one base for
+                AACATTTATT TTCATTGCAA TGATGTATTT AAATTATTTC TGAATATTT–3'
+                                                                                           another base, is rare. This type of editing was discovered in studies of the apolipo-
+           Note that every other codon is underlined                                       protein-B (apo-B) genes and mRNAs in rabbits and humans. Apolipoproteins are
+           in the coding region of the gene. Also, note                                    blood proteins that transport certain types of fat molecules in the circulatory system.
+           that the GT-rich sequence involved in cleav-                                    In the liver, the apo-B mRNA encodes a large protein 4563 amino acids long. In the
+           age is located far downstream, near the end                                     intestine, the apo-B mRNA directs the synthesis of a protein only 2153 amino acids
+           of the transcription unit, and is not shown.                                    long. Here, a C residue in the pre-mRNA is converted to a U, generating an internal
+           Can you predict the exact endonucleolytic                                       UAA translation–termination codon, which results in the truncated apolipoprotein
+           cleavage site that produces the 3′ end of                                       (◾ Figure 11.18). UAA is one of three codons that terminates polypeptide chains dur-
+           the transcript? Can you predict the approxi-
+                                                                                           ing translation. If a UAA codon is produced within the coding region of an mRNA,
+           mate cleavage site? Will the 3′ end of the
+           transcript produced by this cleavage event
+                                                                                           it will prematurely terminate the polypeptide during translation, yielding an incom-
+           undergo any subsequent modiﬁcation(s)? If                                       plete gene product. The C U conversion is catalyzed by a sequence-specific RNA-
+           so, what?                                                                       binding protein with an activity that removes amino groups from cytosine residues.
+                                                                                           A similar example of RNA editing has been documented for an mRNA specify-
+           ▶ To see the solution to this problem, visit the                                ing a protein (the glutamate receptor) present in rat brain cells. More extensive
+           Student Companion site.
+                                                                                           mRNA editing of the C        U type occurs in the mitochondria of plants, where most
+                                                                                           of the gene transcripts are edited to some degree. Mitochondria have their own
+
+
+
+
+CH11.indd 268                                                                                                                                                                                   9/8/2015 10:09:42 AM
+

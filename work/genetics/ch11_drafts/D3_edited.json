@@ -1,0 +1,308 @@
+[
+  {
+    "Text": "In a transcription unit, <b>upstream</b> sequences precede and <b>downstream</b> sequences follow one reference point: the {{c1::transcript initiation site}}.",
+    "Back Extra": "Meaning: the transcript initiation site is designated +1 and corresponds to the first (5′) nucleotide of the RNA transcript; base pairs before it carry minus (−) prefixes, and those after it, counted in the direction of transcription, carry plus (+) prefixes.<br><br>Ex: the −35 and −10 elements of an <i>E. coli</i> promoter are upstream sequences, with midpoints about 35 and 10 base pairs before the initiation site.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      27
+    ],
+    "block": "U7_upstream_downstream",
+    "numeric": true,
+    "verified_against": "p282: 'Nucleotide sequences preceding the initiation site are referred to as upstream sequences; those following the initiation site are called downstream sequences.' | stem context (unmarked, not clozed beyond the marked words 'initiation site') p282: 'By convention, the nucleotide pairs or nucleotides within and adjacent to transcription units are numbered relative to the transcript initiation site (designated +1)—the nucleotide pair corresponding to the first (5′) nucleotide of the RNA transcript.' | Back Extra (unmarked, teaching only) p282: 'Base pairs preceding the initiation site are given minus (−) prefixes; those following (relative to the direction of transcription) the initiation site are given plus (+) prefixes.' | Back Extra (unmarked, teaching only) p282: 'The midpoints of the two conserved sequences occur at about 10 and 35 nucleotide pairs before the transcription-initiation site (Figure 11.8). Thus they are called the −10 sequence and the −35 sequence, respectively.'",
+    "verified_by": "drafter-D3; edited by editor-E3",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D3",
+    "_unit_idx": 0,
+    "_fact_pass": {
+      "must_test": [
+        "upstream and downstream sequences are reckoned from ONE reference point, the (transcript) initiation site — the only fact in the mark a non-knower cannot derive from the words themselves"
+      ],
+      "supporting": [
+        "+1 = the base pair matching the first (5′) nucleotide of the transcript (unmarked; Back Extra)",
+        "minus prefixes before +1, plus prefixes after it, in the direction of transcription (unmarked; Back Extra)",
+        "the −35 and −10 elements are worked examples of upstream positions (unmarked; Back Extra)"
+      ],
+      "skip": [
+        "'preceding the initiation site → upstream' and 'following → downstream' are derivable from the words' plain meaning even behind a forced-choice hint (a non-knower decodes them: checks 15/22, rule 20), so they are NOT clozed; the two terms stay visible as the anchors",
+        "the +1 / minus / plus numbering convention is unmarked p282 text: visible scaffolding or Back Extra only, never an answer (rule 29)",
+        "extractor list_lead_in flag: no enumerated list follows this sentence on p282"
+      ]
+    },
+    "_archetype": "definition (one direction: term → reference point)",
+    "_figure_request": "FIGURE 11.8",
+    "_editor_verdict": "REWRITE",
+    "_editor_notes": "Checks 15 and 22 fired (rule 20): both original blanks — 'sequences preceding the initiation site are called {{upstream}}' and 'those following it are called {{downstream}}' — are answerable from the words' plain meaning even with the forced-choice hint; a non-knower decodes them, so the card was a freebie (Parker: a row that answers itself is padding, not coverage). Re-scoped to the one non-derivable fact in the marked span: the reference point the terms are reckoned from, the initiation site, which the mark names twice. The +1/minus/plus convention is unmarked p282 text, so it is a Back Extra Meaning line and never an answer (rule 29). Cold-solve: 'one reference point: the ___' forces the initiation site (promoter / start codon are wrong; 'transcription start site' and '+1' are the same referent). Dropped the 'in the direction of transcription' scaffold from the Text (no longer needed to disambiguate; kept in Back Extra). Back Extra trimmed to two grounded lines. numeric stays true (+1, −35, −10 on the back)."
+  },
+  {
+    "Text": "In an <i>E. coli</i> promoter, the two conserved consensus sequences, as read on the {{c2::nontemplate::template or nontemplate}} strand, are:<br><br>−10 sequence → {{c1::TATAAT::sequence}}<br><br>−35 sequence → {{c1::TTGACA::sequence}}",
+    "Back Extra": "Meaning: a consensus sequence is the nucleotide sequence found most often in a conserved element; individual promoters vary slightly from it, and hundreds of sequenced <i>E. coli</i> promoters otherwise have surprisingly little in common.<br><br>Why: the −10 sequence is AT-rich, and that is what lets the DNA unwind locally there, an essential prerequisite to synthesizing a new RNA chain.<br><br>Cue: the two elements are named for their midpoints, about 10 and 35 base pairs before the +1 initiation site, and the spacing between them is highly conserved at 15 to 20 base pairs.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      28,
+      29
+    ],
+    "block": "U7_promoter_consensus_sequences",
+    "numeric": true,
+    "verified_against": "p282: 'The −10 consensus sequence in the nontemplate strand is TATAAT; the −35 consensus sequence is TTGACA.' | Back Extra (unmarked, teaching only) p282: 'Hundreds of E. coli promoters have been sequenced and found to have surprisingly little in common. Two short sequences within these promoters are sufficiently conserved to be recognized, but even these are seldom identical in two different promoters.' | Back Extra (unmarked, teaching only) p282: 'Although these sequences vary slightly from gene to gene, some nucleotides are highly conserved. The nucleotide sequences that are present in such conserved genetic elements most often are called consensus sequences.' | Back Extra (unmarked, teaching only) p282: 'The AT-rich −10 sequence facilitates the localized unwinding of DNA, which is an essential prerequisite to the synthesis of a new RNA chain.' | Back Extra (unmarked, teaching only) p282: 'The midpoints of the two conserved sequences occur at about 10 and 35 nucleotide pairs before the transcription-initiation site (Figure 11.8). Thus they are called the −10 sequence and the −35 sequence, respectively.' | Back Extra (unmarked, teaching only) p282: 'The distance between the −35 and −10 sequences is highly conserved in E. coli promoters, never being less than 15 or more than 20 nucleotide pairs in length.'",
+    "verified_by": "drafter-D3",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D3",
+    "_unit_idx": 1,
+    "_fact_pass": {
+      "must_test": [
+        "−10 consensus sequence = TATAAT (value; each sequence whole inside one cloze)",
+        "−35 consensus sequence = TTGACA (value; each sequence whole inside one cloze)",
+        "the consensus sequences are given for the nontemplate strand (qualifier inside mark 28; own cloze number so it never shares a reveal with the values)"
+      ],
+      "supporting": [
+        "definition of consensus sequence (unmarked; Back Extra)",
+        "AT-rich −10 facilitates localized unwinding (unmarked; Back Extra)",
+        "midpoints ~10 and ~35 bp before +1; spacing 15–20 bp (unmarked; Back Extra)"
+      ],
+      "skip": [
+        "which element sigma binds first is tested on the sibling U7_recognition_sequence_minus35 note, not here (rule 12)",
+        "keyed panel of exactly two sequence rows kept as one grouped card per the brief; rule 25's per-key split triggers at ≥3 rows and the two strings cannot be interpolated from each other"
+      ]
+    },
+    "_archetype": "numeric",
+    "_figure_request": "FIGURE 11.8",
+    "_editor_verdict": "PASS",
+    "_editor_notes": "Checks 1–30 run, 18–24 per row. Letters re-verified on p282 text and the p282 render: −10 = TATAAT, −35 = TTGACA, both given for the nontemplate strand; each sequence whole in one cloze, numeric true. Two keyed rows only (rule 25 splits at ≥3, and the two strings cannot be interpolated), laid out with <br><br> so the count is visible. c2 'nontemplate' is a forced-choice binary on its own number, so it never shares a reveal with the values; seeing the sequences does not let a non-knower decode the strand. Row labels (−10 / −35) cue without restating. Back Extra: the consensus-sequence definition is prerequisite closure (rule 11), the AT-rich Why and the spacing Cue are grounded p282 (text says 15–20 bp; the figure art says 16–19; the card follows the text). No change."
+  },
+  {
+    "Text": "In an <i>E. coli</i> promoter, the sigma subunit of RNA polymerase initially binds the {{c1::−35::−10 or −35}} sequence, which is therefore sometimes called the {{c2::recognition}} sequence.",
+    "Back Extra": "Distinguish: the other conserved element, the AT-rich −10 sequence, is where RNA polymerase initiates the localized unwinding of the DNA strands, not where sigma first binds.<br><br>Why: sigma is the subunit that mediates RNA polymerase's binding to promoters; a core enzyme with no sigma starts RNA chains at random sites on both strands of DNA.<br><br>Pathway: sigma binds the −35 → RNA polymerase unwinds the DNA at the AT-rich −10 → transcription begins within the transcription bubble, five to nine base pairs beyond the −10.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      30
+    ],
+    "block": "U7_recognition_sequence_minus35",
+    "numeric": true,
+    "verified_against": "p282 (rendered page; text layer did not locate this mark): 'The sigma subunit initially recognizes and binds to the −35 sequence; thus, this sequence is sometimes called the recognition sequence.' | Back Extra (unmarked, teaching only) p282: 'FIGURE 11.8 Structure of a typical promoter in E. coli. RNA polymerase binds to the −35 sequence of the promoter and initiates unwinding of the DNA strands at the AT-rich −10 sequence. Transcription begins within the transcription bubble at a site five to nine base pairs beyond the −10 sequence.' | Back Extra (unmarked, teaching only) p282: 'The AT-rich −10 sequence facilitates the localized unwinding of DNA, which is an essential prerequisite to the synthesis of a new RNA chain.' | Back Extra (unmarked, teaching only) p282: 'As mentioned earlier, the sigma subunit of RNA polymerase mediates its binding to promoters in DNA.' | Back Extra (unmarked, teaching only) p281: 'The core enzyme (with no σ) will catalyze RNA synthesis from DNA templates in vitro, but, in so doing, it will initiate RNA chains at random sites on both strands of DNA.'",
+    "verified_by": "drafter-D3; edited by editor-E3",
+    "needs_human_check": false,
+    "visual_source": {
+      "pages": [
+        "282"
+      ],
+      "figures": [
+        "work/genetics/figures/evidence/p282_mark30_recognition_sequence.png"
+      ],
+      "labels": [],
+      "note": "mark not located by the text layer; sentence read verbatim on the rendered page (evidence crop work/genetics/figures/evidence/p282_mark30_recognition_sequence.png, re-read by drafter-D3 against renders/p282.png; re-read again by editor-E3 on the crop and on renders/p282.png, wording confirmed)"
+    },
+    "image": null,
+    "_unit": "D3",
+    "_unit_idx": 2,
+    "_fact_pass": {
+      "must_test": [
+        "sigma initially recognizes/binds the −35 sequence (position → tested as a forced choice against −10)",
+        "the −35 sequence is therefore sometimes called the recognition sequence (name; own cloze number so each direction is one card)"
+      ],
+      "supporting": [
+        "AT-rich −10 is where unwinding starts (unmarked; Back Extra Distinguish)",
+        "sigma mediates polymerase binding to promoters; core enzyme without sigma starts at random sites (unmarked p282/p281; Back Extra Why)",
+        "order of initiation: −35 contact → unwinding at −10 → start 5–9 bp beyond the −10 (unmarked caption; Back Extra Pathway)"
+      ],
+      "skip": [
+        "the verb 'recognizes' is kept OFF the visible stem ('initially binds' instead) because it would hand over the c2 answer 'recognition' (rule 3)",
+        "the '>90 percent purine' first-base fact (unmarked) was removed from the back: unrelated to the recognition sequence"
+      ]
+    },
+    "_archetype": "two-way definition",
+    "_figure_request": "FIGURE 11.8",
+    "_editor_verdict": "REWRITE",
+    "_editor_notes": "Text PASSES the two-way leak test and is unchanged: on the c2 card 'initially binds' does not hand over 'recognition' (the drafter kept 'recognizes' off the stem; a non-knower reaches 'binding sequence', not the term), and on the c1 card the visible 'recognition sequence' names the entity but a non-knower cannot decode '−35' from it; the −10 or −35 forced choice is present. Mark 30 re-read on the p282 render and the evidence crop; visual_source intact. Check 11 fired on the Back Extra: the 'Cue' line was not a memory hook and its '>90 percent purine' fact is unrelated to the recognition sequence — replaced with a grounded Pathway line that places sigma's −35 contact in the initiation order (−35 → unwind at −10 → start 5–9 bp beyond); Distinguish trimmed of its restatement of the Text and of the TATAAT/TTGACA strings (card 1's answers, not needed here). verified_against updated (purine quote out, unwinding quote in). 'sigma' itself is left visible: it is mark 26's fact (unit D2), and a c3 here would be a cross-unit duplicate."
+  },
+  {
+    "Text": "<i>E. coli</i> has two types of transcription terminator, classified by whether termination needs a protein called {{c1::rho (ρ)}}:<br><br>{{c1::rho-dependent}} terminators end transcription only in the presence of that protein<br><br>{{c1::rho-independent}} terminators end transcription without that protein",
+    "Back Extra": "Distinguish: both terminator types make RNA polymerase pause at an RNA hairpin; a rho-dependent terminator adds a 50–90 base-pair C-rich, G-poor stretch upstream of the inverted repeats (a stretch whose RNA forms no hairpin) and a rut (rho utilization) site near the 3′ end of the transcript.<br><br>Mechanism: rho binds the rut sequence of the transcript, travels 5′ to 3′ behind RNA polymerase, catches up while the polymerase is paused at the hairpin, and unwinds the DNA/RNA pairing with its helicase activity to release the transcript.<br><br>Meaning: termination begins when RNA polymerase encounters a termination signal; the transcription complex then dissociates and releases the nascent RNA.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      31
+    ],
+    "block": "U8_termination_rho",
+    "numeric": true,
+    "verified_against": "p283 (rendered page; text layer did not locate this mark): 'One type results in termination only in the presence of a protein called rho (ρ); therefore, such termination sequences are called rho-dependent terminators. The other type results in the termination of transcription without the involvement of rho; such sequences are called rho-independent terminators.' | Back Extra (unmarked, teaching only) p283: 'Termination of RNA chains occurs when RNA polymerase encounters a termination signal. When it does, the transcription complex dissociates, releasing the nascent RNA molecule. There are two types of transcription terminators in E. coli.' | Back Extra (unmarked, teaching only) p284: 'The mechanism by which rho-dependent termination of transcription occurs is similar to that of rho-independent termination in that both involve the formation of a hydrogen-bonded hairpin structure upstream from the site of termination. In both cases, these hairpins impede the movement of RNA polymerase, causing it to pause.' | Back Extra (unmarked, teaching only) p284: 'However, rho-dependent terminators contain two additional sequences: a 50–90 nucleotide-pair sequence upstream from the inverted repeat sequences that produces an RNA strand with many C's but few G's, which therefore forms no hairpins or other secondary structures, and a sequence specifying a rho protein binding site called rut (for rho utilization) near the 3′ end of the transcript.' | Back Extra (unmarked, teaching only) p284: 'Rho protein binds to the rut sequence in the transcript and moves 5′ to 3′ following RNA polymerase. When polymerase encounters the hairpin, it pauses, allowing rho to catch up, pass through the hairpin, and use its helicase activity to unwind the DNA/RNA base-pairing at the terminus and release the RNA transcript.'",
+    "verified_by": "drafter-D3; edited by editor-E3",
+    "needs_human_check": false,
+    "visual_source": {
+      "pages": [
+        "283"
+      ],
+      "figures": [
+        "work/genetics/figures/evidence/p283_mark31_rho_terminator_types.png"
+      ],
+      "labels": [],
+      "note": "mark not located by the text layer; both sentences read verbatim on the rendered page (evidence crop work/genetics/figures/evidence/p283_mark31_rho_terminator_types.png, re-read by drafter-D3 against renders/p283.png; re-read again by editor-E3 on the crop and on renders/p283.png, wording confirmed)"
+    },
+    "image": null,
+    "_unit": "D3",
+    "_unit_idx": 3,
+    "_fact_pass": {
+      "must_test": [
+        "the classifying protein is rho (ρ) — the one genuine retrieval",
+        "rho-dependent terminators terminate only in the presence of rho",
+        "rho-independent terminators terminate without rho"
+      ],
+      "supporting": [
+        "E. coli has two types ('One type… The other type…'): the count is derivable from the two names, so it is VISIBLE scaffolding that announces the two rows (rule 19), not a blank",
+        "termination signal → complex dissociates, nascent RNA released (unmarked p283; Back Extra)",
+        "both types pause polymerase at a hairpin (unmarked p284; Back Extra)",
+        "rho-dependent extras: 50–90 bp C-rich/G-poor stretch, rut site, rho moves 5′→3′, helicase release (unmarked p284; Back Extra)"
+      ],
+      "skip": [
+        "the brief's two-row forced-choice ('needs rho → rho-dependent') was NOT built: the type name restates its own definition, so each row answers itself (rule 20, editor check 22); the mechanism → type direction is carried instead by the c2 on U8_termination_u_run_release, where the cue (run of U's) is a marked fact rather than the name's paraphrase",
+        "all four blanks share c1 on purpose: once 'rho' is recalled the two names follow, so this is one retrieval plus a count, not four independent ones"
+      ]
+    },
+    "_archetype": "list",
+    "_figure_request": "FIGURE 11.10",
+    "_editor_verdict": "REWRITE",
+    "_editor_notes": "Check 24/29 on the count: '{{two::number of types}}' hid a blank that is not a retrieval (the count is derivable from the two names revealed with it) and hid the row count Parker uses to know what he owes (rule 19) — made visible scaffolding. Kept rho + the two type names under ONE cloze number, deliberately: with 'rho' visible, 'needs rho → rho-dependent' answers itself (rule 20 / check 22), so the names cannot be tested apart from the protein without becoming freebies; grouped, the protein is the retrieval and the names ride on it (one retrieval plus a closed pair; load ≤4). Re-laid the two types as <br><br> rows that lead with their cloze (item-then-descriptor, the shape rule 22 licenses) and removed the cross-row dangling 'it' (rule A2). The mechanism→type direction lives on card 5's c2 (U-run release → rho-independent); type→mechanism for rho-dependent is unmarked p284 and stays in Back Extra. Mark 31 re-read on the p283 render and the evidence crop; visual_source intact. Back Extra: clarified the '(it forms no hairpin)' referent."
+  },
+  {
+    "Text": "In <b>rho-independent</b> termination in <i>E. coli</i>, the terminator's GC-rich {{c1::inverted repeats::DNA sequence feature}} are transcribed → the RNA copied from them folds into a {{c1::hairpin::RNA structure}} immediately after those regions are synthesized → the folded RNA makes RNA polymerase {{c1::pause::effect on the enzyme}} in chain extension.",
+    "Back Extra": "Mechanism: inverted repeats are sequences in each DNA strand that are inverted and complementary, so the single-stranded RNA transcribed from them is self-complementary and base-pairs with itself into the hairpin.<br><br>Distinguish: a rho-dependent terminator also forms a hairpin that pauses RNA polymerase; there the transcript is freed by rho, which catches the paused polymerase and unwinds the DNA/RNA pairing with its helicase activity.<br><br>Pitfall: the hairpin forms in the RNA transcript, not in the DNA; the DNA only carries the inverted repeats that encode it.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      32
+    ],
+    "block": "U8_termination_hairpin",
+    "numeric": false,
+    "verified_against": "p283 (rendered page; text layer did not locate this mark): 'When transcribed, these inverted repeat regions produce single-stranded RNA sequences that can base-pair and form hairpin structures (Figure 11.10, bottom). The RNA hairpin structures form immediately after the synthesis of the participating regions of the RNA chain and retard the movement of RNA polymerase molecules along the DNA, causing pauses in chain extension.' | stem context (unmarked, not clozed) p283: 'Rho-independent terminators contain a GC-rich region followed by six or more AT base pairs, with the A's present in the template strand (Figure 11.10, top). The nucleotide sequence of the GC-rich region contains inverted repeats—sequences of nucleotides in each DNA strand that are inverted and complementary.' | Back Extra (unmarked, teaching only) p284: 'The mechanism by which rho-dependent termination of transcription occurs is similar to that of rho-independent termination in that both involve the formation of a hydrogen-bonded hairpin structure upstream from the site of termination. In both cases, these hairpins impede the movement of RNA polymerase, causing it to pause.' | Back Extra (unmarked, teaching only) p284: 'When polymerase encounters the hairpin, it pauses, allowing rho to catch up, pass through the hairpin, and use its helicase activity to unwind the DNA/RNA base-pairing at the terminus and release the RNA transcript.'",
+    "verified_by": "drafter-D3",
+    "needs_human_check": false,
+    "visual_source": {
+      "pages": [
+        "283"
+      ],
+      "figures": [
+        "work/genetics/figures/evidence/p283_mark32_hairpin_pauses.png"
+      ],
+      "labels": [],
+      "note": "mark not located by the text layer; both sentences read verbatim on the rendered page (evidence crop work/genetics/figures/evidence/p283_mark32_hairpin_pauses.png, re-read by drafter-D3 against renders/p283.png; re-read again by editor-E3 on the crop and on renders/p283.png, wording confirmed)"
+    },
+    "image": null,
+    "_unit": "D3",
+    "_unit_idx": 4,
+    "_fact_pass": {
+      "must_test": [
+        "transcribed inverted repeats give RNA that base-pairs into a hairpin",
+        "the hairpin retards RNA polymerase, causing pauses in chain extension ('retards movement' and 'causes pauses' treated as one fact; hiding either alone leaks the other)",
+        "the DNA feature that encodes the hairpin is the inverted repeats"
+      ],
+      "supporting": [
+        "the hairpin forms immediately after the participating RNA regions are synthesized (marked; left VISIBLE as the chain's timing scaffold so the grouped reveal stays at three load-bearing nodes)",
+        "inverted repeats = inverted and complementary sequences in each strand (unmarked; Back Extra Mechanism)",
+        "rho-dependent terminators share the hairpin pause (unmarked p284; Back Extra Distinguish)"
+      ],
+      "skip": [
+        "'(Figure 11.10, bottom)' source reference",
+        "the type is NOT clozed on this note: both terminator types form a pausing hairpin (p284), so 'which type?' would have two right answers here (rule 2)"
+      ]
+    },
+    "_archetype": "sequence",
+    "_figure_request": "FIGURE 11.10",
+    "_editor_verdict": "PASS",
+    "_editor_notes": "Checks 1–30 run. Three nodes (inverted repeats → hairpin → pause), arrows visible outside the clozes, every blank a 1–2-word term with a slot-label hint; 3 uncued answers under c1 (≤4), no whole-clause cloze. Cold-solved with all three hidden: 'rho-independent termination … GC-rich … transcribed … folds into a … makes RNA polymerase … in chain extension' cues a knower and gives a non-knower nothing. 'GC-rich' is unmarked p283 scaffolding (never an answer). The marked timing qualifier 'immediately after synthesis' stays visible: clozing an adverb would add a fuzzy 4th blank and the chain already carries the co-transcriptional timing. Type deliberately not clozed here (both terminator types form a pausing hairpin, p284 — two right answers). Mark 32 re-read on the p283 render and the evidence crop; visual_source intact; no source-medium words (the mark's '(Figure 11.10, bottom)' was excluded). Back Extra: Mechanism line is prerequisite closure for 'inverted repeats', Distinguish and Pitfall grounded p283/p284. No change."
+  },
+  {
+    "Text": "In {{c2::rho-independent::rho-dependent or rho-independent}} termination in <i>E. coli</i>, once the RNA hairpin has made RNA polymerase pause, the run of {{c1::U's::nucleotide}} that {{c1::follows::precedes or follows}} the hairpin region facilitates release of the newly made RNA from the DNA template.",
+    "Back Extra": "Why: AU base-pairing is the weakest of the standard base pairs, needing the least energy to separate, so the U's paired with the template's A's let go while RNA polymerase sits stalled at the hairpin.<br><br>Mechanism: a rho-independent terminator is a GC-rich region followed by six or more AT base pairs with the A's in the template strand, so the transcript carries the hairpin and then the run of U's.<br><br>Distinguish: at a rho-dependent terminator the paused polymerase is instead caught by rho, which unwinds the DNA/RNA pairing with its helicase activity to free the transcript.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      33,
+      31
+    ],
+    "block": "U8_termination_u_run_release",
+    "numeric": true,
+    "verified_against": "p284: 'the run of U's after the hairpin region facilitates the release of the newly synthesized RNA chains from the DNA template when the hairpin structure causes RNA polymerase to pause at this site.' | p283 (rendered page; text layer did not locate this mark): 'The other type results in the termination of transcription without the involvement of rho; such sequences are called rho-independent terminators.' | stem context (unmarked, not clozed) p283: 'FIGURE 11.10 Mechanism of rho-independent termination of transcription. … When RNA polymerase encounters this hairpin, it will pause, and the weak hydrogen bonds between the A's that follow in the template strand and the U's in the newly synthesized transcript will break, releasing the transcript from the DNA.' | Back Extra (unmarked, teaching only) p284: 'Since AU base-pairing is weak, requiring less energy to separate the bases than any of the other standard base pairs, the run of U's after the hairpin region facilitates the release of the newly synthesized RNA chains from the DNA template when the hairpin structure causes RNA polymerase to pause at this site.' | Back Extra (unmarked, teaching only) p283: 'Rho-independent terminators contain a GC-rich region followed by six or more AT base pairs, with the A's present in the template strand (Figure 11.10, top).' | Back Extra (unmarked, teaching only) p284: 'When polymerase encounters the hairpin, it pauses, allowing rho to catch up, pass through the hairpin, and use its helicase activity to unwind the DNA/RNA base-pairing at the terminus and release the RNA transcript.'",
+    "verified_by": "drafter-D3; edited by editor-E3",
+    "needs_human_check": false,
+    "visual_source": {
+      "pages": [
+        "283",
+        "284"
+      ],
+      "figures": [
+        "work/genetics/figures/evidence/p283_mark31_rho_terminator_types.png"
+      ],
+      "labels": [],
+      "note": "the c2 type name comes from mark 31, which the text layer did not locate; read verbatim on the rendered p283 (evidence crop work/genetics/figures/evidence/p283_mark31_rho_terminator_types.png, re-read by drafter-D3 and again by editor-E3 on the crop and renders/p283.png). The c1 facts come from mark 33 on p284, which the text layer located (grounding EXACT)."
+    },
+    "image": null,
+    "_unit": "D3",
+    "_unit_idx": 5,
+    "_fact_pass": {
+      "must_test": [
+        "the nucleotide whose run facilitates release of the new RNA from the DNA template is U",
+        "the run of U's sits AFTER the hairpin region (position; forced-choice 'precedes or follows')",
+        "this U-run release mechanism is the rho-independent type (name from mark 31; forced-choice c2, the unit's mechanism → type direction)"
+      ],
+      "supporting": [
+        "the U-run's outcome (release of the RNA from the DNA template) is left VISIBLE as the situational cue: with 'termination' in the stem a non-knower decodes 'release', so a blank on it was padding (check 15, rule 20 spirit) and, as a 7-word phrase, not crisp (rule 5)",
+        "the release happens when the hairpin makes RNA polymerase pause (trigger; kept VISIBLE because 'pause' is already the answer on U8_termination_hairpin, rule 12)",
+        "AU pairing is the weakest standard pair (the 'Since…' clause precedes the mark and is UNMARKED, so it is a Back Extra Why line, never a cloze answer)",
+        "rho-independent anatomy: GC-rich region + six or more AT bp, A's in template strand (unmarked; Back Extra)",
+        "rho-dependent release uses rho's helicase (unmarked p284; Back Extra Distinguish)"
+      ],
+      "skip": [
+        "the drafter's third c1 blank ('release of the transcript from the DNA template') was removed by the editor (rule 5 + check 15); the outcome is the cue, not the recall"
+      ]
+    },
+    "_archetype": "mechanism",
+    "_figure_request": "FIGURE 11.10",
+    "_editor_verdict": "REWRITE",
+    "_editor_notes": "Check 6 (rule 5) fired: the third c1 blank hid a 7-word phrase ('release of the transcript from the DNA template') that no one reproduces verbatim, and check 15 fired on it too — with 'termination' visible, 'release' is decodable by a non-knower, so the blank was padding (the drafter's own note conceded it 'costs nothing'). Removed it; the outcome now stays visible as the situational cue and the card tests the two load-bearing recalls, the nucleotide (U's, ::nucleotide) and its position (follows, forced-choice). c2 kept: it is the unit's mechanism→type test (U-run release with no protein → rho-independent), forced-choice, built on mark 31 (re-read on the p283 render/crop; visual_source intact). 'AU pairing is weak' remains a Back Extra Why line only (unmarked p284, rule 29). 'pause' stays visible as the trigger because it is card 4's answer (rule 12). Back Extra unchanged; verified_against unchanged (claims unchanged)."
+  },
+  {
+    "Text": "In {{c1::prokaryotes::prokaryotes or eukaryotes}}, the {{c2::transcription}}, {{c2::translation}}, and {{c2::degradation}} of an mRNA molecule often occur {{c1::simultaneously::simultaneously or sequentially}}.",
+    "Back Extra": "Why: an mRNA is synthesized, translated, and degraded all in the 5′ to 3′ direction, and in prokaryotes no nuclear envelope separates the ribosomes from the site of mRNA synthesis, so the 5′ end of a transcript serves as a template for polypeptide synthesis as soon as it is made.<br><br>Distinguish: in eukaryotes RNA is synthesized in the nucleus, and most protein-coding RNAs must be transported to the cytoplasm before ribosomes translate them.<br><br>Ex: Oscar Miller and Barbara Hamkalo visualized the coupling of transcription and translation in bacteria by electron microscopy: a single <i>E. coli</i> gene being transcribed into many mRNAs, each already loaded with the ribosomes translating it.",
+    "source": "genetics",
+    "segment": 11,
+    "from_idx": [
+      37
+    ],
+    "block": "U9_concurrent_transcription_translation_degradation",
+    "numeric": false,
+    "verified_against": "p285: 'Transcription, translation, and degradation of mRNA molecules often occur simultaneously in prokaryotes.' | stem context (unmarked, not clozed) p284: 'Since mRNA molecules are synthesized, translated, and degraded in the 5′ to 3′ direction, all three processes can occur simultaneously on the same RNA molecule.' | Back Extra (unmarked, teaching only) p284: 'In prokaryotes, the translation and degradation of an mRNA molecule often begin before its synthesis (transcription) is complete. Since mRNA molecules are synthesized, translated, and degraded in the 5′ to 3′ direction, all three processes can occur simultaneously on the same RNA molecule.' | Back Extra (unmarked, teaching only) p284: 'In prokaryotes, the polypeptide-synthesizing machinery is not separated by a nuclear envelope from the site of mRNA synthesis. Therefore, once the 5′ end of an mRNA has been synthesized, it can immediately be used as a template for polypeptide synthesis.' | Back Extra (unmarked, teaching only) p284: 'Oscar Miller, Barbara Hamkalo, and colleagues developed techniques that allowed them to visualize this coupling between transcription and translation in bacteria by electron microscopy. One of their photographs showing the coupled transcription of a gene and translation of its mRNA product in E. coli is reproduced in Figure 11.11.' | Back Extra (unmarked, teaching only) p284: 'FIGURE 11.11 Electron micrograph prepared by Oscar Miller and Barbara Hamkalo showing the coupled transcription and translation of a gene in E. coli. DNA, mRNAs, and the ribosomes translating individual mRNA molecules are visible.' | Back Extra (unmarked, teaching only) p285: 'In eukaryotes, RNA is synthesized in the nucleus, and most RNAs that encode proteins must be transported to the cytoplasm for translation on ribosomes.'",
+    "verified_by": "drafter-D3; edited by editor-E3",
+    "needs_human_check": false,
+    "visual_source": null,
+    "image": null,
+    "_unit": "D3",
+    "_unit_idx": 6,
+    "_fact_pass": {
+      "must_test": [
+        "the three processes (transcription, translation, degradation) can run on one mRNA at the same time (c2 grouped: the third member, degradation, is the one that gets forgotten)",
+        "this happens in prokaryotes, not eukaryotes (c1 forced choice)",
+        "they occur simultaneously rather than one after another (c1 forced choice)"
+      ],
+      "supporting": [
+        "WHY: all three proceed 5′ to 3′ on the same molecule (unmarked p284; Back Extra)",
+        "WHY: no nuclear envelope separates ribosomes from the site of mRNA synthesis (unmarked p284; Back Extra)",
+        "Miller and Hamkalo electron microscopy of coupled transcription/translation (unmarked p284; Back Extra Ex)",
+        "eukaryotic contrast: RNA made in the nucleus, transported to the cytoplasm (unmarked p285; Back Extra Distinguish)"
+      ],
+      "skip": [
+        "the brief asked to cloze 'the fact and the reason'; the REASONS live only on unmarked p284, so under the brief's rule 0 they are Back Extra Why lines, not cloze answers. Built as the recipes §11 why-card instead: lean front, the mechanism on the back. If the orchestrator wants the reason clozed, that needs an authorization",
+        "'5′ to 3′' on the back is a strand-direction label, not a measured value; numeric left false"
+      ]
+    },
+    "_archetype": "mechanism",
+    "_figure_request": "FIGURE 11.11",
+    "_editor_verdict": "REWRITE",
+    "_editor_notes": "Rule-29 call confirmed: the two reasons (synthesis, translation and degradation all run 5′→3′; no nuclear envelope between ribosomes and the site of mRNA synthesis) are unmarked p284 text and mark 37 is the p285 key-point sentence, so they are Back Extra Why material and can never be answers. The marked fact is fully tested: c1 hides both binaries with forced-choice hints (prokaryotes or eukaryotes; simultaneously or sequentially) and c2 hides the three processes as one grouped closed set (3 uncued: what happens to an mRNA), with the count visible as three blanks; c1 and c2 mark different facts, not one enumerated set (rule 24 not triggered). Check 10 fired on the Back Extra Ex line: 'visualized this coupling' was anaphora to the Text — named the referent ('the coupling of transcription and translation'). No Text change; verified_against unchanged."
+  }
+]

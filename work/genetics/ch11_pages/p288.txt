@@ -1,0 +1,95 @@
+       266            Chapter 11 Transcription and RNA Processing
+
+
+                –50             –30            –10            +10             +30
+                                                                                    about position −30. The TATA box plays an important role in position-
+                                                              Transcription         ing the transcription startpoint. The second conserved element is called
+                                                         +1
+                                                                startpoint          the CAAT box; it usually occurs near position −80 and has the consensus
+                                                                                    sequence GGCCAATCT. Two other conserved elements, the GC box,
+                                                                                    consensus GGGCGG, and the octamer box, consensus ATTTGCAT,
+       S   TE
+            P
+                                                                                    often are present in RNA polymerase II promoters; they influence the
+           1      TFIID binds to the                                                efficiency of a promoter in initiating transcription. Try Solve It: Initiation
+                  TATA box.                                                         of Transcription by RNA Polymerase II in Eukaryotes to see how these
+                                        D
+                                                                                    conserved promoter sequences work in the human HBB (β-globin) gene.
+                                                         +1                              The initiation of transcription by RNA polymerase II requires the
+                                ATATTTT
+                                                                                    assistance of several basal transcription factors. Still other transcription fac-
+                                TATAAAA
+                                                                                    tors and regulatory sequences called enhancers and silencers modulate the
+                                                                                    efficiency of initiation (Chapter 18). The basal transcription factors must
+           TE
+       S    P
+                                                                                    interact with promoters in the correct sequence to initiate transcription
+           2      TFIIA joins the
+                  initiation complex.                                               effectively (◾ Figure 11.14). Each basal transcription factor is denoted TFIIX
+                                                                                    (Transcription Factor X for RNA polymerase II, where X is a letter iden-
+                                        D
+                                                                                    tifying the individual factor).
+                                 ATATTTT
+                                                                                         TFIID is the first basal transcription factor to interact with the pro-
+                            A                                                       moter; it contains a TATA-binding protein (TBP) and several small TBP-
+                                 TATAAAA
+                                                                                    associated proteins (Figure 11.14). Next, TFIIA joins the complex, followed
+           TE
+                                                                                    by TFIIB. TFIIF first associates with RNA polymerase II, and then TFIIF
+       S    P
+           3      TFIIB binds to the                                                and RNA polymerase II join the transcription initiation complex together.
+                  initiation complex.                                               TFIIF contains two subunits, one of which has DNA-unwinding activ-
+                                        D
+                                                                                    ity. Thus, TFIIF probably catalyzes the localized unwinding of the DNA
+                                                     B                              double helix required to initiate transcription. TFIIE then joins the ini-
+                                 ATATTTT                                            tiation complex, binding to the DNA downstream from the transcription
+                            A
+                                 TATAAAA                                            startpoint. Two other factors, TFIIH and TFIIJ, join the complex after
+                                                                                    TFIIE, but their locations in the complex are unknown. TFIIH has helicase
+       S   TE
+            P                                                                       activity and travels with RNA polymerase II during elongation, unwinding
+           4      TFIIF, which has unwinding                                        the strands in the region of transcription (the “transcription bubble”).
+                  activity, joins the complex;                                           RNA polymerases I and III initiate transcription by processes that are
+                  polymerase II also binds here.
+                                                                                    similar, but somewhat simpler, than the one used by polymerase II, whereas
+                                        D                                           the processes used by RNA polymerases IV and V are currently under
+                                                     B                              investigation. The promoters of genes transcribed by polymerases I and III
+                                 ATATTTT                                            are quite different from those utilized by polymerase II, even though they
+                            A
+                                 TATAAAA                                            sometimes contain some of the same regulatory elements. RNA polymerase
+                                       F                                            I promoters are bipartite, with a core sequence extending from about −45
+                                                              RNA polymerase II
+                                                                                    to +20, and an upstream control element extending from −180 to about
+       S   TE
+            P                                                                       −105. The two regions have similar sequences, and both are GC-rich. The
+           5      TFIIE binds to the                                                core sequence is sufficient for initiation; however, the efficiency of initia-
+                  initiation complex.                                               tion is strongly enhanced by the presence of the upstream control element.
+                                                                                         Interestingly, the promoters of most of the genes transcribed by RNA
+                                        D
+                                                                                    polymerase III are located within the transcription units, downstream
+                                                     B
+                                 ATATTTT
+                                                                                    from the transcription startpoints, rather than upstream as in units tran-
+                            A                                       E               scribed by RNA polymerases I and II. The promoters of other genes
+                                 TATAAAA
+                                       F
+                                                                                    transcribed by polymerase III are located upstream of the transcription
+                                                              RNA polymerase II
+                                                                                    start site, just as for polymerases I and II. Actually, polymerase III promot-
+                                                                                    ers can be divided into three classes, two of which have promoters located
+       ◾ FIGURE 11.14 The initiation of transcription by RNA poly-                  within the transcription unit.
+       merase II requires the formation of a basal transcription initiation
+       complex at the promoter region. The assembly of this complex
+       begins when TFIID, which contains the TATA-binding protein
+       (TBP), binds to the TATA box. The other transcription factors and            RNA CHAIN ELONGATION AND THE ADDITION
+       RNA polymerase II join the complex in the sequence shown.                    OF 5′ METHYL GUANOSINE CAPS
+                                                                                   Once eukaryotic RNA polymerases have been released from their ini-
+                                                                                   tiation complexes, they catalyze RNA chain elongation by the same
+                                                                        mechanism as the RNA polymerases of prokaryotes (see Figures 11.5 and 11.6).
+                                                                        Studies on the crystal structures of various RNA polymerases have provided a good
+
+
+
+
+CH11.indd 266                                                                                                                                                           9/8/2015 10:09:39 AM
+

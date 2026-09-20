@@ -1,0 +1,1561 @@
+{
+ "teaches": [
+  {
+   "card_index": 0,
+   "text": "Under the central dogma of molecular biology, genetic information <b>usually</b> flows two ways:<br><br>{{c1::DNA \u2192 DNA:",
+   "figure": "FIGURE 11.1",
+   "file": "figures/study_v2/FIGURE_11_1.png",
+   "native_file": "figures/full/FIGURE_11_1.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 1,
+   "text": "Genetic information moves from DNA to protein in two steps: (1) {{c1::transcription::process}}, the transfer of informat",
+   "figure": "FIGURE 11.1",
+   "file": "figures/study_v2/FIGURE_11_1.png",
+   "native_file": "figures/full/FIGURE_11_1.png",
+   "coverage": 0.8,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "rna",
+    "transcription",
+    "translation"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 2,
+   "text": "Beyond the central dogma's two usual flows, genetic information also moves two more ways in RNA viruses:<br><br>{{c1::RN",
+   "figure": "FIGURE 11.1",
+   "file": "figures/study_v2/FIGURE_11_1.png",
+   "native_file": "figures/full/FIGURE_11_1.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "rna"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 3,
+   "text": "Messenger RNAs (mRNAs) are the RNA molecules that are {{c1::translated on ribosomes::their fate}}.",
+   "figure": "FIGURE 11.3",
+   "file": "figures/study_v2/FIGURE_11_3.png",
+   "native_file": "figures/full/FIGURE_11_3.png",
+   "coverage": 0.5,
+   "page_dist": 3,
+   "matched_terms": [
+    "ribosomes"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 4,
+   "text": "In {{c1::eukaryotes::prokaryotes or eukaryotes}}, the primary transcript usually is a {{c2::precursor to the mRNA::relat",
+   "figure": "FIGURE 11.2",
+   "file": "figures/study_v2/FIGURE_11_2.png",
+   "native_file": "figures/full/FIGURE_11_2.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "eukaryotes",
+    "mrna"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 5,
+   "text": "Five classes of RNA molecules play essential roles in gene expression:<br><br>{{c1::mRNA}}, {{c1::tRNA}}, {{c1::rRNA}} \u2014",
+   "figure": "FIGURE 11.3",
+   "file": "figures/study_v2/FIGURE_11_3.png",
+   "native_file": "figures/full/FIGURE_11_3.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "mirna",
+    "mrna",
+    "rrna",
+    "snrna",
+    "trna"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 6,
+   "text": "{{c1::Transfer RNAs (tRNAs)::RNA class}} are small RNA molecules that function as {{c2::adaptors between amino acids and",
+   "figure": "FIGURE 11.3",
+   "file": "figures/study_v2/FIGURE_11_3.png",
+   "native_file": "figures/full/FIGURE_11_3.png",
+   "coverage": 0.5,
+   "page_dist": 1,
+   "matched_terms": [
+    "acids",
+    "amino",
+    "mrna",
+    "trnas"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 7,
+   "text": "{{c1::Ribosomal RNAs (rRNAs)::RNA class}} are {{c2::structural and catalytic::two roles}} components of the {{c1::riboso",
+   "figure": "FIGURE 11.3",
+   "file": "figures/study_v2/FIGURE_11_3.png",
+   "native_file": "figures/full/FIGURE_11_3.png",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "ribosomal",
+    "ribosomes"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 8,
+   "text": "{{c1::Small nuclear RNAs (snRNAs)::RNA class}} are structural components of {{c2::spliceosomes::organelle}}, the {{c1::n",
+   "figure": "FIGURE 11.3",
+   "file": "figures/study_v2/FIGURE_11_3.png",
+   "native_file": "figures/full/FIGURE_11_3.png",
+   "coverage": 0.143,
+   "page_dist": 1,
+   "matched_terms": [
+    "nuclear"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 9,
+   "text": "{{c1::Micro RNAs (miRNAs)::RNA class}} are the RNAs that block the expression of {{c2::complementary or partially comple",
+   "figure": "FIGURE 11.3",
+   "file": "figures/study_v2/FIGURE_11_3.png",
+   "native_file": "figures/full/FIGURE_11_3.png",
+   "coverage": 0.111,
+   "page_dist": 1,
+   "matched_terms": [
+    "translation"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 10,
+   "text": "Micro RNAs (miRNAs) are short, {{c2::single::single or double}}-stranded RNAs {{c1::20 to 22 nucleotides::length}} long.",
+   "figure": "FIGURE 11.3",
+   "file": "figures/study_v2/FIGURE_11_3.png",
+   "native_file": "figures/full/FIGURE_11_3.png",
+   "coverage": 0.0,
+   "page_dist": 1,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 11,
+   "text": "Of the five RNA classes, <b>only</b> {{c1::mRNA::RNA class}} is translated into a polypeptide; the final products of the",
+   "figure": "FIGURE 11.3",
+   "file": "figures/study_v2/FIGURE_11_3.png",
+   "native_file": "figures/full/FIGURE_11_3.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "mrna"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 13,
+   "text": "An RNA transcript is {{c1::complementary::sequence relationship}} and {{c1::antiparallel::parallel or antiparallel}} to ",
+   "figure": "FIGURE 11.4",
+   "file": "figures/study_v2/FIGURE_11_4.png",
+   "native_file": "figures/full/FIGURE_11_4.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "nontemplate",
+    "template"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 14,
+   "text": "A {{c1::transcription unit}} is {{c2::the DNA segment transcribed into one RNA molecule}}.",
+   "figure": "FIGURE 11.7",
+   "file": "figures/study_v2/FIGURE_11_7.png",
+   "native_file": "figures/full/FIGURE_11_7.png",
+   "coverage": 0.571,
+   "page_dist": 0,
+   "matched_terms": [
+    "dna",
+    "molecule",
+    "rna",
+    "transcription"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": false
+  },
+  {
+   "card_index": 15,
+   "text": "Transcription has three stages, in order:<br><br>(1) {{c1::initiation}}<br><br>\u2192 (2) {{c1::elongation}}<br><br>\u2192 (3) {{c",
+   "figure": "FIGURE 11.7",
+   "file": "figures/study_v2/FIGURE_11_7.png",
+   "native_file": "figures/full/FIGURE_11_7.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "elongation",
+    "initiation",
+    "termination"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 20,
+   "text": "In a transcription unit, <b>upstream</b> sequences precede and <b>downstream</b> sequences follow one reference point: t",
+   "figure": "FIGURE 11.8",
+   "file": "figures/study_v2/FIGURE_11_8.png",
+   "native_file": "figures/full/FIGURE_11_8.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "site"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 21,
+   "text": "In an <i>E. coli</i> promoter, the two conserved consensus sequences, as read on the {{c2::nontemplate::template or nont",
+   "figure": "FIGURE 11.8",
+   "file": "figures/study_v2/FIGURE_11_8.png",
+   "native_file": "figures/full/FIGURE_11_8.png",
+   "coverage": 0.667,
+   "page_dist": 0,
+   "matched_terms": [
+    "nontemplate",
+    "ttgaca"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 22,
+   "text": "In an <i>E. coli</i> promoter, the sigma subunit of RNA polymerase initially binds the {{c1::\u221235::\u221210 or \u221235}} sequence,",
+   "figure": "FIGURE 11.8",
+   "file": "figures/study_v2/FIGURE_11_8.png",
+   "native_file": "figures/full/FIGURE_11_8.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 23,
+   "text": "<i>E. coli</i> has two types of transcription terminator, classified by whether termination needs a protein called {{c1:",
+   "figure": "FIGURE 11.10",
+   "file": "figures/study_v2/FIGURE_11_10.png",
+   "native_file": "figures/full/FIGURE_11_10.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "rho-independent"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 24,
+   "text": "In <b>rho-independent</b> termination in <i>E. coli</i>, the terminator's GC-rich {{c1::inverted repeats::DNA sequence f",
+   "figure": "FIGURE 11.10",
+   "file": "figures/study_v2/FIGURE_11_10.png",
+   "native_file": "figures/full/FIGURE_11_10.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "hairpin",
+    "inverted",
+    "pause",
+    "repeats"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 25,
+   "text": "In {{c2::rho-independent::rho-dependent or rho-independent}} termination in <i>E. coli</i>, once the RNA hairpin has mad",
+   "figure": "FIGURE 11.10",
+   "file": "figures/study_v2/FIGURE_11_10.png",
+   "native_file": "figures/full/FIGURE_11_10.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "rho-independent"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 26,
+   "text": "In {{c1::prokaryotes::prokaryotes or eukaryotes}}, the {{c2::transcription}}, {{c2::translation}}, and {{c2::degradation",
+   "figure": "FIGURE 11.11",
+   "file": "figures/study_v2/FIGURE_11_11.png",
+   "native_file": "figures/full/FIGURE_11_11.png",
+   "coverage": 0.6,
+   "page_dist": 1,
+   "matched_terms": [
+    "simultaneously",
+    "transcription",
+    "translation"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 27,
+   "text": "In eukaryotes, most primary transcripts of protein-coding genes undergo three major modifications {{c2::prior to::prior ",
+   "figure": "FIGURE 11.12",
+   "file": "figures/study_v2/FIGURE_11_12.png",
+   "native_file": "figures/full/FIGURE_11_12.png",
+   "coverage": 0.8,
+   "page_dist": 1,
+   "matched_terms": [
+    "cap",
+    "guanosine",
+    "intron",
+    "methyl",
+    "out",
+    "poly",
+    "spliced",
+    "tail"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 28,
+   "text": "The 3\u2032 end of a eukaryotic primary transcript (pre-mRNA) that receives the poly(A) tail is generated by {{c1::cleavage}}",
+   "figure": "FIGURE 11.12",
+   "file": "figures/study_v2/FIGURE_11_12.png",
+   "native_file": "figures/full/FIGURE_11_12.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "cleavage"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 30,
+   "text": "Unlike the <i>E. coli</i> enzyme, {{c1::all::all, or only some}} eukaryotic RNA polymerases require the assistance of ot",
+   "figure": "FIGURE 11.14",
+   "file": "figures/study_v2/FIGURE_11_14.png",
+   "native_file": "figures/full/FIGURE_11_14.png",
+   "coverage": 0.667,
+   "page_dist": 1,
+   "matched_terms": [
+    "factors",
+    "transcription"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 31,
+   "text": "Eukaryotes possess {{c1::five::number of enzymes}} different RNA polymerases, each with its own set of RNA products.",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "five"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 32,
+   "text": "Eukaryotic RNA polymerase {{c1::I::numeral}} synthesizes {{c2::all ribosomal RNAs except the small 5S rRNA::RNA class, a",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 0.833,
+   "page_dist": 0,
+   "matched_terms": [
+    "nucleolus",
+    "ribosomal",
+    "rnas",
+    "rrna",
+    "small"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 33,
+   "text": "Eukaryotic RNA polymerase {{c1::II::numeral}} synthesizes the {{c2::nuclear pre-mRNAs::RNA class}}.",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "nuclear",
+    "pre-mrnas"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 34,
+   "text": "Eukaryotic RNA polymerase {{c1::III::numeral}} synthesizes three classes of RNA:<br><br>{{c2::tRNAs}}<br><br>{{c2::5S rR",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 0.857,
+   "page_dist": 0,
+   "matched_terms": [
+    "iii",
+    "nuclear",
+    "rnas",
+    "rrna",
+    "small",
+    "trnas"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 35,
+   "text": "Eukaryotic RNA polymerase {{c1::IV::IV or V}} is the one whose transcripts are processed into short RNAs called {{c2::sm",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 0.571,
+   "page_dist": 0,
+   "matched_terms": [
+    "interfering",
+    "rnas",
+    "sirnas",
+    "small"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 36,
+   "text": "Eukaryotic RNA polymerase {{c1::V::numeral}} synthesizes some siRNAs plus {{c2::noncoding (antisense) transcripts::kind ",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "antisense",
+    "noncoding",
+    "transcripts"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 37,
+   "text": "Two of the eukaryotic RNA polymerases, {{c1::IV and V::numerals}}, have so far been identified only in {{c2::plants::gro",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 38,
+   "text": "{{c1::Reverse transcription::process}} is {{c2::the copying of RNA into complementary DNA}}, which some RNA viruses of e",
+   "figure": "FIGURE 11.1",
+   "file": "figures/study_v2/FIGURE_11_1.png",
+   "native_file": "figures/full/FIGURE_11_1.png",
+   "coverage": 0.667,
+   "page_dist": 12,
+   "matched_terms": [
+    "dna",
+    "reverse",
+    "rna",
+    "transcription"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 39,
+   "text": "An enzyme that copies RNA into DNA is formally an {{c1::RNA-dependent DNA polymerase::formal name}}, though it is usuall",
+   "figure": "FIGURE 11.1",
+   "file": "figures/study_v2/FIGURE_11_1.png",
+   "native_file": "figures/full/FIGURE_11_1.png",
+   "coverage": 1.0,
+   "page_dist": 12,
+   "matched_terms": [
+    "dna",
+    "polymerase",
+    "reverse",
+    "rna-dependent",
+    "transcriptase"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 40,
+   "text": "In a promoter recognized by RNA polymerase II, the conserved element closest to the transcription start site (position +",
+   "figure": "FIGURE 11.13",
+   "file": "figures/study_v2/FIGURE_11_13.png",
+   "native_file": "figures/full/FIGURE_11_13.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "box",
+    "tata",
+    "tataaaa"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 41,
+   "text": "In an RNA polymerase II promoter, the {{c1::CAAT box}}, consensus sequence {{c1::GGCCAATCT}}, usually occurs near positi",
+   "figure": "FIGURE 11.13",
+   "file": "figures/study_v2/FIGURE_11_13.png",
+   "native_file": "figures/full/FIGURE_11_13.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "box",
+    "caat",
+    "ggccaatct"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 42,
+   "text": "In RNA polymerase II promoters, the GC box has the consensus sequence {{c1::GGGCGG}}.",
+   "figure": "FIGURE 11.13",
+   "file": "figures/study_v2/FIGURE_11_13.png",
+   "native_file": "figures/full/FIGURE_11_13.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "gggcgg"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 43,
+   "text": "In RNA polymerase II promoters, the octamer box has the consensus sequence {{c1::ATTTGCAT}}.",
+   "figure": "FIGURE 11.13",
+   "file": "figures/study_v2/FIGURE_11_13.png",
+   "native_file": "figures/full/FIGURE_11_13.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "atttgcat"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 44,
+   "text": "The first three basal transcription factors to interact with an RNA polymerase II promoter, in order of arrival, are:<br",
+   "figure": "FIGURE 11.14",
+   "file": "figures/study_v2/FIGURE_11_14.png",
+   "native_file": "figures/full/FIGURE_11_14.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "tfiia",
+    "tfiib",
+    "tfiid"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 45,
+   "text": "{{c1::TFIID}}, the first basal transcription factor to interact with an RNA polymerase II promoter, contains the {{c2::T",
+   "figure": "FIGURE 11.14",
+   "file": "figures/study_v2/FIGURE_11_14.png",
+   "native_file": "figures/full/FIGURE_11_14.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "protein",
+    "tata-binding",
+    "tbp",
+    "tfiid"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 46,
+   "text": "After TFIID, TFIIA and TFIIB are in place, the basal transcription factor that joins next is {{c1::TFIIF}}. The same fac",
+   "figure": "FIGURE 11.14",
+   "file": "figures/study_v2/FIGURE_11_14.png",
+   "native_file": "figures/full/FIGURE_11_14.png",
+   "coverage": 0.5,
+   "page_dist": 0,
+   "matched_terms": [
+    "tfiif"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 47,
+   "text": "The basal transcription factor that joins the initiation complex right after TFIIF and RNA polymerase II is {{c1::TFIIE}",
+   "figure": "FIGURE 11.14",
+   "file": "figures/study_v2/FIGURE_11_14.png",
+   "native_file": "figures/full/FIGURE_11_14.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "downstream",
+    "tfiie"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 48,
+   "text": "Two more basal transcription factors, {{c1::TFIIH}} and {{c1::TFIIJ}}, join the RNA polymerase II initiation complex aft",
+   "figure": "FIGURE 11.14",
+   "file": "figures/study_v2/FIGURE_11_14.png",
+   "native_file": "figures/full/FIGURE_11_14.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 50,
+   "text": "The 7-methyl guanosine (7-MG) cap at the 5\u2032 end of a eukaryotic pre-mRNA serves two functions:<br><br>{{c1::initiation o",
+   "figure": "FIGURE 11.16",
+   "file": "figures/study_v2/FIGURE_11_16.png",
+   "native_file": "figures/full/FIGURE_11_16.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 51,
+   "text": "{{c1::Polyadenylation::process}} is the {{c2::addition of a poly(A) tail}} to the {{c3::3\u2032::5\u2032 or 3\u2032}} end of a eukaryot",
+   "figure": "FIGURE 11.17",
+   "file": "figures/study_v2/FIGURE_11_17.png",
+   "native_file": "figures/full/FIGURE_11_17.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "addition",
+    "poly",
+    "polyadenylation",
+    "tail"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 52,
+   "text": "Once the 3\u2032 end of a eukaryotic transcript has been generated, the enzyme {{c1::poly(A) polymerase}} adds a tail about {",
+   "figure": "FIGURE 11.17",
+   "file": "figures/study_v2/FIGURE_11_17.png",
+   "native_file": "figures/full/FIGURE_11_17.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "poly",
+    "polymerase"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 53,
+   "text": "RNA editing alters the information content of gene transcripts in two ways:<br><br>(1) {{c1::changing the structures of ",
+   "figure": "FIGURE 11.18",
+   "file": "figures/study_v2/FIGURE_11_18.png",
+   "native_file": "figures/full/FIGURE_11_18.png",
+   "coverage": 0.0,
+   "page_dist": 1,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 54,
+   "text": "{{c1::Introns}} (named for <i>{{c2::intervening}}</i> sequences) are the stretches of a eukaryotic gene that are excised",
+   "figure": "FIGURE 11.20",
+   "file": "figures/study_v2/FIGURE_11_20.png",
+   "native_file": "figures/full/FIGURE_11_20.png",
+   "coverage": 0.5,
+   "page_dist": 3,
+   "matched_terms": [
+    "introns"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 55,
+   "text": "{{c1::Exons}} (named for <i>{{c2::expressed}}</i> sequences) are the parts of a pre-mRNA, coding and noncoding alike, th",
+   "figure": "FIGURE 11.20",
+   "file": "figures/study_v2/FIGURE_11_20.png",
+   "native_file": "figures/full/FIGURE_11_20.png",
+   "coverage": 0.5,
+   "page_dist": 3,
+   "matched_terms": [
+    "exons"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 59,
+   "text": "Yeast tRNA precursor splicing (stage I): a {{c1::nuclear membrane-bound::its location}} splicing endonuclease makes {{c2",
+   "figure": "SLIDE 24 FIGURE (Isaacs Ch 11b)",
+   "file": "figures/study_v2/LECTURE_11b_slide24_trna_splicing.png",
+   "native_file": "figures/full/LECTURE_11b_slide24_trna_splicing.png",
+   "coverage": 0.6,
+   "page_dist": 0,
+   "matched_terms": [
+    "ends",
+    "halves",
+    "trna"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 61,
+   "text": "The specificity of type 1 (tRNA-precursor) splicing resides in the precursor's conserved {{c1::three-dimensional structu",
+   "figure": "SLIDE 24 FIGURE (Isaacs Ch 11b)",
+   "file": "figures/study_v2/LECTURE_11b_slide24_trna_splicing.png",
+   "native_file": "figures/full/LECTURE_11b_slide24_trna_splicing.png",
+   "coverage": 0.143,
+   "page_dist": 252,
+   "matched_terms": [
+    "type"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 62,
+   "text": "The first self-splicing intron was found in {{c1::1982::year}} by {{c1::Thomas Cech::researcher}} and coworkers, in the ",
+   "figure": "FIGURE 11.21",
+   "file": "figures/study_v2/FIGURE_11_21.png",
+   "native_file": "figures/full/FIGURE_11_21.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "tetrahymena",
+    "thermophila"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 64,
+   "text": "Type 2 splicing (the self-splicing <i>Tetrahymena</i> rRNA intron) uses no protein and no external energy source, but it",
+   "figure": "FIGURE 11.21",
+   "file": "figures/study_v2/FIGURE_11_21.png",
+   "native_file": "figures/full/FIGURE_11_21.png",
+   "coverage": 0.0,
+   "page_dist": 252,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 65,
+   "text": "In type 2 splicing (self-splicing) the intron is excised by {{c1::two::how many}} phosphoester bond transfers, after whi",
+   "figure": "FIGURE 11.21",
+   "file": "figures/study_v2/FIGURE_11_21.png",
+   "native_file": "figures/full/FIGURE_11_21.png",
+   "coverage": 0.0,
+   "page_dist": 252,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 66,
+   "text": "The phosphoester bond transfers of self-splicing are potentially {{c1::reversible::reversible or irreversible}}, so what",
+   "figure": "FIGURE 11.21",
+   "file": "figures/study_v2/FIGURE_11_21.png",
+   "native_file": "figures/full/FIGURE_11_21.png",
+   "coverage": 0.0,
+   "page_dist": 252,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 67,
+   "text": "Because a self-splicing reaction is {{c1::intramolecular::intra- or intermolecular}}, its rate is {{c1::not::not / stron",
+   "figure": "FIGURE 11.21",
+   "file": "figures/study_v2/FIGURE_11_21.png",
+   "native_file": "figures/full/FIGURE_11_21.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 68,
+   "text": "Nuclear pre-mRNA introns come out in two steps, like tRNA and <i>Tetrahymena</i> rRNA introns, but a spliceosome does th",
+   "figure": "FIGURE 11.22",
+   "file": "figures/study_v2/FIGURE_11_22.png",
+   "native_file": "figures/full/FIGURE_11_22.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 69,
+   "text": "The five snRNAs that take part in nuclear pre-mRNA splicing as components of the spliceosome are:<br><br>{{c1::U1}}<br><",
+   "figure": "FIGURE 11.22",
+   "file": "figures/study_v2/FIGURE_11_22.png",
+   "native_file": "figures/full/FIGURE_11_22.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 70,
+   "text": "Of the snRNAs U1 through U6, the one that is <b>not</b> a component of the spliceosome is {{c1::U3::which one}}; it is l",
+   "figure": "FIGURE 11.22",
+   "file": "figures/study_v2/FIGURE_11_22.png",
+   "native_file": "figures/full/FIGURE_11_22.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 72,
+   "text": "Not every spliceosomal snRNA gets a particle of its own \u2014 which snRNAs go where?<br><br>{{c1::U1, U2 and U5::which three",
+   "figure": "FIGURE 11.22",
+   "file": "figures/study_v2/FIGURE_11_22.png",
+   "native_file": "figures/full/FIGURE_11_22.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 73,
+   "text": "Spliceosome assembly on a nuclear pre-mRNA \u2014 which snRNP binds where, in order of arrival:<br><br>{{c2::U1::which snRNP}",
+   "figure": "FIGURE 11.22",
+   "file": "figures/study_v2/FIGURE_11_22.png",
+   "native_file": "figures/full/FIGURE_11_22.png",
+   "coverage": 0.4,
+   "page_dist": 252,
+   "matched_terms": [
+    "site",
+    "splice"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 74,
+   "text": "Nuclear pre-mRNA splicing (step 1): on the complete spliceosome the {{c1::5\u2032::5\u2032 or 3\u2032}} splice site is cleaved, and the",
+   "figure": "FIGURE 11.22",
+   "file": "figures/study_v2/FIGURE_11_22.png",
+   "native_file": "figures/full/FIGURE_11_22.png",
+   "coverage": 0.25,
+   "page_dist": 252,
+   "matched_terms": [
+    "intron"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 75,
+   "text": "Nuclear pre-mRNA splicing (step 2): the {{c1::3\u2032::5\u2032 or 3\u2032}} splice site is cleaved and the two exons are joined by a no",
+   "figure": "FIGURE 11.22",
+   "file": "figures/study_v2/FIGURE_11_22.png",
+   "native_file": "figures/full/FIGURE_11_22.png",
+   "coverage": 0.0,
+   "page_dist": 252,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 76,
+   "text": "In nuclear pre-mRNA splicing the {{c1::branch point::term}} is {{c2::a conserved A near the intron's 3\u2032 end}} \u2014 the resi",
+   "figure": "FIGURE 11.22",
+   "file": "figures/study_v2/FIGURE_11_22.png",
+   "native_file": "figures/full/FIGURE_11_22.png",
+   "coverage": 0.571,
+   "page_dist": 252,
+   "matched_terms": [
+    "branch",
+    "end",
+    "intron",
+    "lariat"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 80,
+   "text": "For a protein-coding gene, RNA splicing must join the exons with accuracy to {{c1::the single nucleotide::what tolerance",
+   "figure": "FIGURE 11.20",
+   "file": "figures/study_v2/FIGURE_11_20.png",
+   "native_file": "figures/full/FIGURE_11_20.png",
+   "coverage": 1.0,
+   "page_dist": 0,
+   "matched_terms": [
+    "codons",
+    "nucleotide",
+    "single"
+   ],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 86,
+   "text": "The  nucleolus  is {{c1::the nuclear region that makes rRNA and ribosomes}}.",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 0.4,
+   "page_dist": 0,
+   "matched_terms": [
+    "nuclear",
+    "rrna"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": false
+  },
+  {
+   "card_index": 83,
+   "text": "A <b>primary transcript</b> is {{c1::the RNA exactly as transcribed, before any processing}}.",
+   "figure": "FIGURE 11.2",
+   "file": "figures/study_v2/FIGURE_11_2.png",
+   "native_file": "figures/full/FIGURE_11_2.png",
+   "coverage": 0.0,
+   "page_dist": 1,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "orchestrator judge-look: the plate that actually depicts this card (forced)",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 87,
+   "text": "<b>Basal transcription factors</b> are {{c1::proteins eukaryotic RNA polymerase needs to start transcription}}.",
+   "figure": "FIGURE 11.14",
+   "file": "figures/study_v2/FIGURE_11_14.png",
+   "native_file": "figures/full/FIGURE_11_14.png",
+   "coverage": 0.429,
+   "page_dist": 0,
+   "matched_terms": [
+    "polymerase",
+    "rna",
+    "transcription"
+   ],
+   "archetype": null,
+   "why": "orchestrator judge-look: the plate that actually depicts this card (forced)",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 84,
+   "text": "A <b>promoter</b> is {{c1::where RNA polymerase binds DNA to start transcription}}.",
+   "figure": "FIGURE 11.8",
+   "file": "figures/study_v2/FIGURE_11_8.png",
+   "native_file": "figures/full/FIGURE_11_8.png",
+   "coverage": 1.0,
+   "page_dist": 3,
+   "matched_terms": [
+    "binds",
+    "dna",
+    "polymerase",
+    "rna",
+    "start",
+    "transcription"
+   ],
+   "archetype": null,
+   "why": "orchestrator judge-look: the plate that actually depicts this card (forced)",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 57,
+   "text": "The spliceosomes that remove introns from pre-mRNA are particles built of {{c1::RNA and protein::two macromolecule class",
+   "figure": "FIGURE 11.22",
+   "file": "figures/study_v2/FIGURE_11_22.png",
+   "native_file": "figures/full/FIGURE_11_22.png",
+   "coverage": 0.0,
+   "page_dist": 2,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "orchestrator judge-look: the plate that actually depicts this card (forced)",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 58,
+   "text": "Across the introns of nuclear genes, the only completely conserved sequences are the two dinucleotides at the intron's e",
+   "figure": "FIGURE 11.22",
+   "file": "figures/study_v2/FIGURE_11_22.png",
+   "native_file": "figures/full/FIGURE_11_22.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "orchestrator judge-look: the plate that actually depicts this card (forced)",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 78,
+   "text": "In the splice-junction consensus of nuclear genes (for example G100 T100 opening the intron), a numerical subscript give",
+   "figure": "FIGURE 11.22",
+   "file": "figures/study_v2/FIGURE_11_22.png",
+   "native_file": "figures/full/FIGURE_11_22.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "orchestrator judge-look: the plate that actually depicts this card (forced)",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 71,
+   "text": "Spliceosomal snRNAs never exist as free RNA molecules: each is packaged with proteins into a {{c1::snRNP::particle}}. A ",
+   "figure": "FIGURE 11.22",
+   "file": "figures/study_v2/FIGURE_11_22.png",
+   "native_file": "figures/full/FIGURE_11_22.png",
+   "coverage": 0.5,
+   "page_dist": 252,
+   "matched_terms": [
+    "snrnp"
+   ],
+   "archetype": null,
+   "why": "orchestrator judge-look: the plate that actually depicts this card (forced)",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  },
+  {
+   "card_index": 81,
+   "text": "In the processing of a eukaryotic transcript, {{c1::splicing::process}} is {{c2::removing introns and joining the remain",
+   "figure": "FIGURE 11.20",
+   "file": "figures/study_v2/FIGURE_11_20.png",
+   "native_file": "figures/full/FIGURE_11_20.png",
+   "coverage": 0.5,
+   "page_dist": 254,
+   "matched_terms": [
+    "introns",
+    "rna",
+    "splicing"
+   ],
+   "archetype": null,
+   "why": "orchestrator judge-look: the plate that actually depicts this card (forced)",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true
+  }
+ ],
+ "context": [
+  {
+   "card_index": 82,
+   "text": "A  codon  is {{c1::three mRNA nucleotides that specify one amino acid}}.",
+   "figure": "FIGURE 11.1",
+   "file": "figures/study_v2/FIGURE_11_1.png",
+   "native_file": "figures/full/FIGURE_11_1.png",
+   "coverage": 0.2,
+   "page_dist": 0,
+   "matched_terms": [
+    "mrna"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "context",
+   "forced": false
+  }
+ ],
+ "no_figure": [],
+ "judged": true,
+ "rejected": [
+  {
+   "card_index": 29,
+   "text": "In eukaryotes, {{c1::heterogeneous nuclear RNA (hnRNA)}} is the name for {{c2::the population of primary trans",
+   "figure": "TABLE 11.1",
+   "file": "figures/study_v2/TABLE_11_1.png",
+   "native_file": "figures/full/TABLE_11_1.png",
+   "coverage": 0.375,
+   "page_dist": 1,
+   "matched_terms": [
+    "nuclear",
+    "rna",
+    "transcripts"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": false,
+   "rejected_because": "the polymerase table does not depict hnRNA"
+  },
+  {
+   "card_index": 49,
+   "text": "The basal transcription factor {{c1::TFIIH}} has {{c2::helicase}} activity, used alongside RNA polymerase II during {{c3",
+   "figure": "FIGURE 11.14",
+   "file": "figures/study_v2/FIGURE_11_14.png",
+   "native_file": "figures/full/FIGURE_11_14.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true,
+   "rejected_because": "the assembly plate stops at TFIIE; TFIIH's helicase role during elongation is not drawn, so the picture would send him hunting for TFIIH"
+  },
+  {
+   "card_index": 58,
+   "text": "Across the introns of nuclear genes, the only completely conserved sequences are the two dinucleotides at the intron's e",
+   "figure": "FIGURE 11.20",
+   "file": "figures/study_v2/FIGURE_11_20.png",
+   "native_file": "figures/full/FIGURE_11_20.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true,
+   "rejected_because": "exon/intron excision plate does not show the GT\u2026AG dinucleotides; FIGURE 11.22 labels GU, the branch A and AG at the intron ends and is forced instead"
+  },
+  {
+   "card_index": 78,
+   "text": "In the splice-junction consensus of nuclear genes (for example G100 T100 opening the intron), a numerical subscript give",
+   "figure": "FIGURE 11.20",
+   "file": "figures/study_v2/FIGURE_11_20.png",
+   "native_file": "figures/full/FIGURE_11_20.png",
+   "coverage": 0.0,
+   "page_dist": 0,
+   "matched_terms": [],
+   "archetype": null,
+   "why": "drafter's curated request (_figure_request); orchestrator to judge by eye",
+   "has_description": true,
+   "tier": "teaches",
+   "forced": true,
+   "rejected_because": "no plate prints the junction consensus subscripts; FIGURE 11.22 (splice sites labeled) forced instead"
+  },
+  {
+   "card_index": 84,
+   "text": "A  promoter  is {{c1::where RNA polymerase binds DNA to start transcription}}.",
+   "figure": "FIGURE 11.7",
+   "file": "figures/study_v2/FIGURE_11_7.png",
+   "native_file": "figures/full/FIGURE_11_7.png",
+   "coverage": 0.667,
+   "page_dist": 2,
+   "matched_terms": [
+    "dna",
+    "polymerase",
+    "rna",
+    "transcription"
+   ],
+   "archetype": true,
+   "why": "spatial/structural fact",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": false,
+   "rejected_because": "three-stages plate has no promoter label; FIGURE 11.8 (promoter structure) forced instead"
+  },
+  {
+   "card_index": 87,
+   "text": " Basal transcription factors  are {{c1::proteins eukaryotic RNA polymerase needs to start transcription}}.",
+   "figure": "FIGURE 11.13",
+   "file": "figures/study_v2/FIGURE_11_13.png",
+   "native_file": "figures/full/FIGURE_11_13.png",
+   "coverage": 0.571,
+   "page_dist": 1,
+   "matched_terms": [
+    "polymerase",
+    "proteins",
+    "rna",
+    "transcription"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "teaches",
+   "forced": false,
+   "rejected_because": "promoter-element map does not depict transcription factors; FIGURE 11.14 (basal factor assembly) forced instead"
+  },
+  {
+   "card_index": 16,
+   "text": "The  E. coli  RNA polymerase has a molecular weight of about {{c1::480,000}} and consists of {{c2::five::numbe",
+   "figure": "FIGURE 11.8",
+   "file": "figures/study_v2/FIGURE_11_8.png",
+   "native_file": "figures/full/FIGURE_11_8.png",
+   "coverage": 1.0,
+   "page_dist": 1,
+   "matched_terms": [
+    "five"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "forced": false,
+   "rejected_because": "promoter plate does not depict the polymerase's five subunits or its mass"
+  },
+  {
+   "card_index": 18,
+   "text": "Each kind of subunit in the  E. coli  RNA polymerase holoenzyme has its own job:  \u03b1 \u2192 {{c1::helps assemble the",
+   "figure": "FIGURE 11.9",
+   "file": "figures/study_v2/FIGURE_11_9.png",
+   "native_file": "figures/full/FIGURE_11_9.png",
+   "coverage": 0.333,
+   "page_dist": 1,
+   "matched_terms": [
+    "dna",
+    "polymerase",
+    "region",
+    "ribonucleoside",
+    "site",
+    "triphosphate"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "forced": false,
+   "rejected_because": "elongation plate labels sites, not the \u03b1/\u03b2/\u03b2\u2032/\u03c3 subunits the card asks about"
+  },
+  {
+   "card_index": 56,
+   "text": "Introns are removed by three splicing mechanisms, each tied to its own class of precursor RNA \u2014 match the mach",
+   "figure": "SLIDE 24 FIGURE (Isaacs Ch 11b)",
+   "file": "figures/study_v2/LECTURE_11b_slide24_trna_splicing.png",
+   "native_file": "figures/full/LECTURE_11b_slide24_trna_splicing.png",
+   "coverage": 0.308,
+   "page_dist": 1,
+   "matched_terms": [
+    "endonuclease",
+    "ligase",
+    "splicing",
+    "trna"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "forced": false,
+   "rejected_because": "the tRNA-splicing figure depicts only one of the three mechanisms; on the three-mechanism card it would look like the whole answer"
+  },
+  {
+   "card_index": 57,
+   "text": "The spliceosomes that remove introns from pre-mRNA are particles built of {{c1::RNA and protein::two macromole",
+   "figure": "FIGURE 11.20",
+   "file": "figures/study_v2/FIGURE_11_20.png",
+   "native_file": "figures/full/FIGURE_11_20.png",
+   "coverage": 0.333,
+   "page_dist": 0,
+   "matched_terms": [
+    "rna"
+   ],
+   "archetype": false,
+   "why": "numeric fact \u2014 a picture does not teach a value",
+   "has_description": false,
+   "tier": "context",
+   "forced": false,
+   "rejected_because": "spliceosomes are not depicted in the excision plate; FIGURE 11.22 forced instead"
+  },
+  {
+   "card_index": 83,
+   "text": "A  primary transcript  is {{c1::the RNA exactly as transcribed, before any processing}}.",
+   "figure": "FIGURE 11.1",
+   "file": "figures/study_v2/FIGURE_11_1.png",
+   "native_file": "figures/full/FIGURE_11_1.png",
+   "coverage": 0.2,
+   "page_dist": 0,
+   "matched_terms": [
+    "rna"
+   ],
+   "archetype": null,
+   "why": "neither clearly spatial nor clearly abstract",
+   "has_description": false,
+   "tier": "context",
+   "forced": false,
+   "rejected_because": "plate shows mRNA and reverse transcription, not a primary transcript; FIGURE 11.2 labels 'Primary transcript' and is forced instead"
+  },
+  {
+   "card_index": 88,
+   "text": " Colinear  means {{c1::arranged in the same order, unit for unit}}.",
+   "figure": "FIGURE 11.17",
+   "file": "figures/study_v2/FIGURE_11_17.png",
+   "native_file": "figures/full/FIGURE_11_17.png",
+   "coverage": 0.25,
+   "page_dist": 1,
+   "matched_terms": [
+    "unit"
+   ],
+   "archetype": false,
+   "why": "abstract/procedural fact",
+   "has_description": false,
+   "tier": "context",
+   "forced": false,
+   "rejected_because": "poly(A) plate has nothing to do with 'colinear' (a purely verbal relation); no plate"
+  }
+ ]
+}

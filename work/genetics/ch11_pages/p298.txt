@@ -1,0 +1,76 @@
+       276          Chapter 11 Transcription and RNA Processing
+
+
+
+       Basic Exercises
+         Illustrate Basic Genetic Analysis
+       1.        If the template strand of a segment of a gene has the                          3.    If the nontemplate strand shown in Exercise 2 were part
+                 nucleotide sequence 3′-GCTAAGC-5′, what nucleotide                                   of a gene in Drosophila rather than E. coli, would the same
+                 sequence will be present in the RNA transcript specified by                          transcript be produced?
+                 this gene segment?
+                                                                                                Answer: No, because the promoter sequences that control
+       Answer: The RNA transcript will be complementary to the tem-                                 transcription in eukaryotes such as Drosophila are different
+           plate strand and will have the opposite chemical polarity, as                            from the promoters in prokaryotes such as E. coli. There-
+           in the following illustration:                                                           fore, the E. coli gene would probably not be transcribed if
+                                                                                                    present in Drosophila.
+                 DNA template strand:                    3′-GCTAAGC-5′
+                                                            ... ... .. .. .. ... ...
+                 RNA transcript:                         5′-CGAUUCG-3′                          4.    The primary transcript or pre-mRNA of a nuclear gene in
+                                                                                                      a chimpanzee has the sequence:
+       2.        If the nontemplate strand of a gene in E. coli had the
+                 sequence:                                                                            5′-G—exon 1—AGGUAAGC—intron—CAGUC—exon 2—A-3′
+
+                 5′-TTGACA-(18 bases)-TATAAT-(8 bases)-GCCTTCCAGTG-3′                                 After the intron has been excised, what is the most likely
+                                                                                                      sequence of the mRNA?
+                 what nucleotide sequence would be present in the RNA
+                 transcript of this gene?                                                       Answer: Introns contain highly conserved dinucleotide ter-
+                                                                                                    mini: 5′-GT—AG-3′ in the DNA nontemplate strand or
+       Answer: The gene contains perfect −35 and −10 promoter                                       5′-GU—AG-3′ in the RNA transcript. Thus, the intron
+           sequences. Transcription should be initiated at a site five to                           sequence is almost certain to be 5′-GUUAAGC—intron—
+           nine bases downstream from the −10 TATAAT sequence,                                      CAG-3′. With precise excision of the intron, the sequence
+           and the 5′-terminus of the transcript should contain a                                   of the mRNA will be:
+           purine. The template strand and the 5′-end of the transcript
+           should have the following structure:                                                       5′-G—exon 1—AGUC—exon 2—A-3′
+
+                DNA template strand:
+                (−35 sequence)    (−10 sequence)
+                3′-AACTGT-(18 bases)-ATATTA-(8 bases)-CGGAAGGTCAC-5′
+                                                      ... ... ... .. .. ... ... .. ... .. ...
+                RNA transcript:                    5′-GCCUUCCAGUG-3′
+
+
+
+
+       Testing Your Knowledge
+         Integrate Different Concepts and Techniques
+       1.        Certain medically important human proteins such as                                   it contains introns. As you can see, expressing eukaryotic
+                 insulin and growth hormone are now being produced in                                 genes in prokaryotic cells is not a trivial task.
+                 bacteria. By using the tools of genetic engineering, DNA
+                                                                                                2.    A human β-globin gene has been purified and inserted into
+                 sequences encoding these proteins have been introduced
+                                                                                                      a linear bacteriophage lambda chromosome, producing the
+                 into bacteria. You wish to introduce a human gene into
+                                                                                                      following DNA molecule:
+                 E. coli and have that gene produce large amounts of the
+                 human gene product in the bacterial cells. Assuming that                            λ DNA   Exon 1   Intron 1   Exon 2   Intron 2 Exon 3   λ DNA
+                 the human gene of interest can be isolated and intro-
+                 duced into E. coli, what problems might you encounter in
+                 attempting to achieve your goal?                                                     If this DNA molecule is hybridized to human β-globin
+                                                                                                      mRNA using conditions that favor DNA–RNA duplexes
+       Answer: The promoter sequences that are required to initiate
+                                                                                                      over DNA–DNA duplexes (R-loop mapping conditions)
+           transcription are very different in mammals and bacteria.
+                                                                                                      and the product is visualized by electron microscopy, what
+           Therefore, your gene will not be expressed in E. coli unless
+                                                                                                      nucleic acid structure would you expect to see?
+           you first fuse its coding region to a bacterial promoter. In
+           addition, your human gene probably will contain introns.                             Answer: The primary transcript of this human β-globin gene
+           Since E. coli cells do not contain spliceosomes or equivalent                            will contain both introns and all three exons. How-
+           machinery with which to excise introns from RNA tran-                                    ever, prior to its export to the cytoplasm, the intron
+           scripts, your human gene will not be expressed correctly if                              sequences will be spliced out of the transcript. Thus,
+
+
+
+
+CH11.indd 276                                                                                                                                                       9/8/2015 10:09:46 AM
+

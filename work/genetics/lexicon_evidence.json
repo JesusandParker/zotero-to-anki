@@ -319,6 +319,68 @@
    "occurrences": 0,
    "pinned": true,
    "pin_note": "2026-09-11 orchestrator: term was a purple drag slip; glossary entry located by lexicon._parse_glossary under the corrected key"
+  },
+  "codon": {
+   "term": "codons",
+   "method": "glossary",
+   "page": "609",
+   "quote": "Codon: A set of three adjacent nucleotides in an mRNA molecule that specifies the incorporation of an amino acid into a polypeptide chain or that signals the end of polypeptide synthesis. Codons with the latter function are called termination codons.",
+   "headword": "Codon",
+   "occurrences": 69
+  },
+  "rimar_transcript": {
+   "term": "rimary transcript",
+   "method": "glossary",
+   "page": "627",
+   "quote": "Transcript: The RNA molecule produced by transcription of a gene.",
+   "headword": "Transcript",
+   "occurrences": 23
+  },
+  "promoter": {
+   "term": "promoters",
+   "method": "glossary",
+   "page": "622",
+   "quote": "Promoter: A nucleotide sequence to which RNA polymerase binds and initiates transcription; also, a chemical substance that enhances the transformation of benign cells into cancerous cells.",
+   "headword": "Promoter",
+   "occurrences": 27
+  },
+  "archa": {
+   "term": "archaea",
+   "method": "in_source",
+   "page": "293",
+   "quote": "They are also found in the genomes of some archaea, which are prokaryotes",
+   "page_distance": 12,
+   "pinned": true,
+   "note": "2026-09-19: --find had anchored to p222 'Archaea is positively supercoiled' (a usage 59 pages away, not a definition); re-pinned to the book's own gloss on p293, extracted mechanically from ch11_pages/p293.txt"
+  },
+  "nucleol": {
+   "term": "nucleolus",
+   "method": "glossary",
+   "page": "619",
+   "quote": "Nucleolus: An RNA-rich, spherical sack in the nucleus of metabolic cells; associated with the nucleolar organizer; storage place for ribosomes and ribosome precursors.",
+   "occurrences": 8
+  },
+  "basal_transcript_factor": {
+   "term": "basal transcription factors",
+   "method": "glossary",
+   "page": "608",
+   "quote": "Basal transcription factors: Proteins required for the initiation of transcription in eukaryotes.",
+   "occurrences": 5
+  },
+  "colin": {
+   "term": "colinear",
+   "method": "glossary",
+   "page": "610",
+   "quote": "Colinearity (adj., colinear): A relationship in which the units in one molecule occur in the same sequence as the units in another molecule which they specify; for example, the nucleotides in a gene are colinear with the amino acids in the polypeptide encoded by that gene.",
+   "headword": "Colinearity (adj., colinear)",
+   "occurrences": 4
+  },
+  "prim_transcript": {
+   "term": "primary transcript",
+   "method": "glossary",
+   "page": "622",
+   "quote": "Primary transcript: The RNA molecule produced by transcription prior to any posttranscriptional modifications; also called a premRNA in eukaryotes.",
+   "occurrences": 23
   }
  }
 }

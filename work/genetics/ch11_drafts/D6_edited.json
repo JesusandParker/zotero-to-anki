@@ -1,0 +1,222 @@
+[
+ {
+  "Text": "The 7-methyl guanosine (7-MG) cap at the 5′ end of a eukaryotic pre-mRNA serves two functions:<br><br>{{c1::initiation of translation::function}}<br><br>{{c1::protection from degradation by nucleases::function}}",
+  "Back Extra": "Mechanism: capping is co-transcriptional and happens early in elongation, when the growing RNA chain is only about 30 nucleotides long; protein factors of translation initiation then recognize the cap.<br><br>Cue: the cap is a 7-methyl guanosine joined through an unusual 5′-5′ triphosphate linkage and carrying two or more methyl groups.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   58
+  ],
+  "block": "U13_7MG_cap_functions",
+  "numeric": true,
+  "verified_against": "p289: 'The 7-MG caps are recognized by protein factors involved in the initiation of translation (Chapter 12) and also help protect the growing RNA chains from degradation by nucleases.' | Stem framing (unmarked, visible only, not clozed) p289: 'Early in the elongation process, the 5′ ends of eukaryotic pre-mRNAs are modified by the addition of 7-methyl guanosine (7-MG) caps.' | Back Extra (unmarked, teaching only) p289: 'These 7-MG caps are added when the growing RNA chains are only about 30 nucleotides long' | Back Extra (unmarked, teaching only) p289: 'These 5′ caps are added co-transcriptionally by the biosynthetic pathway shown in Figure 11.16.' | Back Extra (unmarked, teaching only) p289: 'The 7-MG cap contains an unusual 5′-5′ triphosphate linkage (see Figure 11.12) and two or more methyl groups.'",
+  "verified_by": "drafter-D6; edited by editor-E6",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D6",
+  "_unit_idx": 0,
+  "_fact_pass": {
+   "must_test": [
+    "7-MG cap function 1: recognized by protein factors involved in the initiation of translation",
+    "7-MG cap function 2: helps protect the growing RNA chain from degradation by nucleases"
+   ],
+   "supporting": [
+    "the cap is recognized by protein factors, and it protects the GROWING chain (both qualifiers live in the Mechanism line, not beside the blanks)",
+    "the cap sits at the 5′ end of eukaryotic pre-mRNAs (unmarked framing; visible in the stem, never clozed)",
+    "added co-transcriptionally, early in elongation, when the chain is only about 30 nt long (unmarked; Back Extra)",
+    "cap structure: unusual 5′-5′ triphosphate linkage plus two or more methyl groups (unmarked; Back Extra)"
+   ],
+   "skip": [
+    "the '(Chapter 12)' cross-reference inside the mark",
+    "the FACT / nucleosome passage that follows on p289 (unmarked, a different topic)"
+   ]
+  },
+  "_archetype": "list (two functions, grouped under one number, cued ::function)",
+  "_figure_request": "FIGURE 11.16",
+  "_editor_verdict": "REWRITE",
+  "_editor_notes": "Checks 18/21/25 on both rows: 'initiation of translation' and 'protection from degradation by nucleases' are the source's own closed two-member set (stem says 'two functions', each row carries the ::function slot-label; the lecture slide names the same two), so neither row is open-set (rule 16's closed-taxonomy exemption) and 2 uncued answers is far under the load cap. Check 6 fired on row 2: 'protection of the growing chain from nuclease degradation' (8 words) tightened to the book's own words 'protection from degradation by nucleases' (5); the 'growing chain' qualifier now sits in the Mechanism line. Check 11: Back Extra re-split so Mechanism carries timing + recognition and Cue carries structure; neither restates the Text. Check 3: every digit re-verified on p289 (about 30 nucleotides; 5′-5′ triphosphate linkage; two or more methyl groups; co-transcriptional). Check 10: the mark's '(Chapter 12)' is correctly absent. The 5′ location is unmarked framing, left visible and not clozed (rule 29); it is clozed from mark 34 in D4."
+ },
+ {
+  "Text": "{{c1::Polyadenylation::process}} is the {{c2::addition of a poly(A) tail}} to the {{c3::3′::5′ or 3′}} end of a eukaryotic mRNA.",
+  "Back Extra": "Why: the poly(A) tail enhances the mRNA's stability and plays an important role in its transport from the nucleus to the cytoplasm.<br><br>Mechanism: cleavage and polyadenylation are carried out by one multimeric complex in tightly coupled reactions: a specificity component that binds the AAUAAA signal, a stimulatory factor that binds the GU-rich sequence, an endonuclease, and poly(A) polymerase.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   60,
+   59
+  ],
+  "block": "U14_polyadenylation",
+  "numeric": true,
+  "verified_against": "p290: 'The addition of poly(A) tails to eukaryotic mRNAs is called polyadenylation.' | p290: 'After cleavage, the enzyme poly(A) polymerase adds poly(A) tails, tracts of adenosine monophosphate residues about 200 nucleotides long, to the 3′ ends of the transcripts (Figure 11.17).' | Back Extra (unmarked, teaching only) p290: 'The poly(A) tails of eukaryotic mRNAs enhance their stability and play an important role in their transport from the nucleus to the cytoplasm.' | Back Extra (unmarked, teaching only) p290: 'The formation of poly(A) tails on transcripts requires a specificity component that recognizes and binds to the AAUAAA sequence, a stimulatory factor that binds to the GU-rich sequence, an endonuclease, and the poly(A) polymerase. These proteins form a multimeric complex that carries out both the cleavage and the polyadenylation in tightly coupled reactions.'",
+  "verified_by": "drafter-D6; edited by editor-E6",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D6",
+  "_unit_idx": 1,
+  "_fact_pass": {
+   "must_test": [
+    "the term polyadenylation = the addition of poly(A) tails to eukaryotic mRNAs (two-way)",
+    "the tail goes on the 3′ end (mark 59; a 5′-vs-3′ binary, so it carries a forced-choice hint)"
+   ],
+   "supporting": [
+    "functions: stability + nucleus-to-cytoplasm transport (unmarked; Back Extra 'Why', matches Isaacs slide 20)",
+    "the four-part machinery (specificity component/AAUAAA, stimulatory factor/GU-rich, endonuclease, poly(A) polymerase) (unmarked; Back Extra 'Mechanism', matches slide 20)"
+   ],
+   "skip": [
+    "the Solve It box on the human HBB gene (unmarked exercise)"
+   ]
+  },
+  "_archetype": "two-way definition (+ c3 on the 3′ qualifier)",
+  "_figure_request": "FIGURE 11.17",
+  "_editor_verdict": "REWRITE",
+  "_editor_notes": "Checks 1-3 and 18-20 pass on all three cards: c1 (describe -> name) and c2 (name -> meaning, 5 words, crisp) are the licensed two-way pair (rule 3 precision: a two-way definition is not a leak, even though 'poly(A)' and 'polyadenylation' share a root - that is the material, and the book's own definition); c3 is a forced-choice 5′/3′ binary (check 13) whose answer comes from mark 59's 'to the 3′ ends'. Layer-A form fix only: the article 'the' moved outside the c2 brace (recipes §4). Mechanism line reordered to plain reading order (the complex first, then its four parts). Check 3: AAUAAA and GU-rich re-verified letter by letter on p290; the Why line is the unmarked p290 sentence, teaching only. Note for consolidation: the 3′ location is also stated as visible framing on the sibling poly(A) polymerase note and clozed from mark 34 in D4 - reinforcement, not a rule-13 leak."
+ },
+ {
+  "Text": "After endonucleolytic cleavage creates the 3′ end of a eukaryotic transcript, the enzyme {{c1::poly(A) polymerase}} adds a tail about {{c2::200}} nucleotides long.",
+  "Back Extra": "Meaning: the tail is the poly(A) tail, a tract of adenosine monophosphate residues (poly-adenosine).<br><br>Mechanism: the cut that creates the 3′ end usually lands 11 to 30 nucleotides downstream of the conserved polyadenylation signal (consensus AAUAAA) and upstream of a GU-rich sequence near the end of the transcript.<br><br>Pitfall: the poly(A) tract is also given as 20 to 200 nucleotides long; about 200 is the length stated with the enzyme, so a 20-to-200 range answer is also right.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   59
+  ],
+  "block": "U14_polyA_polymerase_tail",
+  "numeric": true,
+  "verified_against": "p290: 'After cleavage, the enzyme poly(A) polymerase adds poly(A) tails, tracts of adenosine monophosphate residues about 200 nucleotides long, to the 3′ ends of the transcripts (Figure 11.17).' | Back Extra (unmarked, teaching only) p290: 'The cleavage event that produces the 3′ end of a transcript usually occurs at a site 11 to 30 nucleotides downstream from a conserved polyadenylation signal, consensus AAUAAA, and upstream from a GU-rich sequence located near the end of the transcript.' | Back Extra (unmarked, teaching only) p285: 'The 3′ poly(A) tail is a polyadenosine tract 20 to 200 nucleotides long.' | Stem framing (unmarked, visible only, not clozed) p289: 'The 3′ ends of RNA transcripts synthesized by RNA polymerase II are produced by endonucleolytic cleavage of the primary transcripts rather than by the termination of transcription'",
+  "verified_by": "drafter-D6; edited by editor-E6",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D6",
+  "_unit_idx": 2,
+  "_fact_pass": {
+   "must_test": [
+    "the enzyme that adds the tail = poly(A) polymerase (enzyme-to-job pairing, ::enzyme)",
+    "tail length = about 200 nucleotides (the marked sentence's value; numeric)"
+   ],
+   "supporting": [
+    "the tail is a tract of adenosine monophosphate residues (moved to a Meaning line: left visible beside the hidden enzyme it let a non-knower decode 'poly(A) polymerase' from A = adenosine; the identity 'poly(A) tail' is tested under c2 of the polyadenylation definition card)",
+    "'after endonucleolytic cleavage' and the 3′ end are visible framing here (p289 sentence cited as unmarked stem framing); the cleavage-vs-termination fact is mark 34 (p285, carded in D4) and 3′ is clozed on the polyadenylation definition card",
+    "cleavage site 11-30 nt downstream of AAUAAA, upstream of a GU-rich sequence (unmarked; Back Extra)",
+    "BOOK INCONSISTENCY surfaced, not resolved: p285 says '20 to 200 nucleotides long', p290 (marked) says 'about 200'; the card answers with the marked value and the Pitfall names the range"
+   ],
+   "skip": [
+    "the '(Figure 11.17)' reference inside the mark"
+   ]
+  },
+  "_archetype": "mechanism (enzyme-to-job pairing) + numeric",
+  "_figure_request": "FIGURE 11.17",
+  "_editor_verdict": "REWRITE",
+  "_editor_notes": "Check 10 fired: the Pitfall read 'expect either figure' - 'figure' is a banned source-artifact word (Layer A #2) even in the sense of a number; reworded without it. Check 3 fired: the visible 'endonucleolytic cleavage creates the 3′ end' framing carried no citation; added the p289 sentence as unmarked stem framing (the cleavage-vs-termination fact itself is mark 34, clozed in D4 idx 1). Hint: '::enzyme' dropped - the visible 'the enzyme' already names the slot's form, so the hint was redundant (recipes §2: default is no hint). Cold-solve c1: the tail is deliberately not called 'poly(A)' in the stem so the enzyme is recalled rather than decoded; 'after cleavage ... 3′ end ... adds a tail' still forces poly(A) polymerase for a knower. Cold-solve c2: 'nucleotides' follows the blank, so the slot announces a number (rule 27) and needs no hint. Digits re-verified on p290: about 200; 11 to 30 downstream of AAUAAA; GU-rich. The book's own p285 '20 to 200' range is surfaced as a Pitfall and cited as unmarked rather than silently contradicted; the marked sentence's value stays the answer. numeric: true stands; needs_human_check is derived downstream (a stated number plus the extractor's PARTIAL grounding on mark 59 will raise it - Parker should glance at the 200)."
+ },
+ {
+  "Text": "RNA editing alters the information content of gene transcripts in two ways:<br><br>(1) {{c1::changing the structures of individual bases}}<br><br>(2) {{c1::inserting or deleting uridine monophosphate (U) residues}}",
+  "Back Extra": "Ex: apolipoprotein-B mRNA: in the intestine a C in the pre-mRNA is converted to a U, creating an internal UAA stop codon, so the intestine makes a 2153-amino-acid apo-B while the liver makes the full 4563-amino-acid protein.<br><br>Mechanism: the C-to-U change is a deamination: a sequence-specific RNA-binding protein removes the amino group from the cytosine.<br><br>Distinguish: U insertion/deletion is the trypanosome-mitochondria type, templated by guide RNAs; C-to-U base editing is rare overall but extensive in plant mitochondria.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   61
+  ],
+  "block": "U15_rna_editing_two_ways",
+  "numeric": true,
+  "verified_against": "p290: 'RNA editing processes alter the information content of gene transcripts in two ways: (1) by changing the structures of individual bases and (2) by inserting or deleting uridine monophosphate residues.' | Back Extra (unmarked, teaching only) p290: 'In the liver, the apo-B mRNA encodes a large protein 4563 amino acids long. In the intestine, the apo-B mRNA directs the synthesis of a protein only 2153 amino acids long. Here, a C residue in the pre-mRNA is converted to a U, generating an internal UAA translation–termination codon, which results in the truncated apolipoprotein' | Back Extra (unmarked, teaching only) p290: 'The C U conversion is catalyzed by a sequence-specific RNA-binding protein with an activity that removes amino groups from cytosine residues.' (the arrow glyph between C and U is dropped by the text layer) | Back Extra (unmarked, teaching only) p291 (Figure 11.18 label): 'RNA-binding deaminase' | Back Extra (unmarked, teaching only) p291 (Figure 11.18 label): 'RNA editing: oxidative deamination of cytosine' | Back Extra (unmarked, teaching only) p290: 'More extensive mRNA editing of the C U type occurs in the mitochondria of plants, where most of the gene transcripts are edited to some degree.' | Back Extra (unmarked, teaching only) p291: 'A second, more complex type of RNA editing occurs in the mitochondria of trypanosomes (a group of flagellated protozoa that causes sleeping sickness in humans). In this case, uridine monophosphate residues are inserted into (occasionally deleted from) gene transcripts' | Back Extra (unmarked, teaching only) p291: 'This RNA editing process is mediated by guide RNAs transcribed from distinct mitochondrial genes.' | p291: 'The guide RNAs serve as templates for editing, as U’s are inserted in the gaps in pre-mRNA molecules opposite the A’s in the guide RNAs.'",
+  "verified_by": "drafter-D6; edited by editor-E6",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D6",
+  "_unit_idx": 3,
+  "_fact_pass": {
+   "must_test": [
+    "RNA editing way 1: changing the structures of individual bases",
+    "RNA editing way 2: inserting or deleting uridine monophosphate residues"
+   ],
+   "supporting": [
+    "apo-B example with the 4563 vs 2153 amino-acid proteins and the C-to-U-made UAA stop codon (unmarked; Ex line only, never a cloze answer)",
+    "type 1 is rare; the C-to-U change is a deamination by a sequence-specific RNA-binding protein (unmarked; Mechanism)",
+    "type 2 lives in trypanosome mitochondria and is templated by guide RNAs; C-to-U editing is extensive in plant mitochondria (unmarked; Distinguish)"
+   ],
+   "skip": [
+    "the rat glutamate-receptor example (unmarked)",
+    "the speculative 'why does editing exist' paragraph on p291 (unmarked, non-factual)"
+   ]
+  },
+  "_archetype": "list (two mechanisms, grouped under one number)",
+  "_figure_request": "FIGURE 11.18",
+  "_editor_verdict": "REWRITE",
+  "_editor_notes": "Checks 18/19/25 per row: the stem's 'in two ways' plus the printed (1)/(2) fix the count and the two rows are the source's own closed taxonomy (rule 16 exemption), so a knower produces both cold and nothing visible decodes either; 2 uncued answers is well under the load cap; rows separated by <br><br> (check 21). Check 6 on row 2: the marked term 'uridine monophosphate residues' is kept (faithful) with the '(U)' shorthand added so the answer he will actually say ('U insertion/deletion') is visibly the same fact; row 1 left as the book's 6-word phrase. Back Extra tightened to plain words, still three labeled lines; the apo-B example is an Ex line only and never a cloze answer (unmarked, rule 29). Digits re-verified on p290: liver 4563 amino acids, intestine 2153, C->U, internal UAA; trypanosome/guide-RNA and plant-mitochondria facts re-verified on p290-p291; 'deamination' is the Figure 11.18 label wording ('RNA-binding deaminase'), cited by the drafter."
+ },
+ {
+  "Text": "{{c1::Introns}} (named for <i>{{c2::intervening}}</i> sequences) are the stretches of a eukaryotic gene that are excised from the pre-mRNA during its maturation into mRNA.",
+  "Back Extra": "Distinguish: exons (for expressed sequences) are the stretches that remain in the mature mRNA, coding and noncoding alike.<br><br>Ex: the 1977 surprise: mouse and rabbit β-globin genes and the chicken ovalbumin gene carry noncoding sequences intervening between their coding sequences, unlike most prokaryotic genes, which are continuous stretches of nucleotide pairs.<br><br>Pathway: gene → pre-mRNA (introns still present) → intron excision during maturation → mature mRNA → transport to the cytoplasm.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   63
+  ],
+  "block": "U16_introns",
+  "numeric": true,
+  "verified_against": "p291: 'Geneticists, who have a penchant for coining catchy terms, called them introns (for intervening sequences).' | Stem framing (unmarked, visible only, not clozed) p291: 'Introns are excised from pre-mRNA molecules during their maturation into mRNAs.' | Stem framing (unmarked, visible only, not clozed) p291: 'Most eukaryotic genes contain noncoding sequences called introns that interrupt the coding sequences, or exons.' | Back Extra (unmarked, teaching only) p291: 'The sequences that remain in mature mRNA molecules (both coding and noncoding sequences) are called exons (for expressed sequences).' | Back Extra (unmarked, teaching only) p291: 'However, in 1977, molecular analyses of three eukaryotic genes yielded a major surprise. Studies of mouse and rabbit β-globin (one of two different proteins in hemoglobin) genes and the chicken ovalbumin (an egg storage protein) gene revealed that they contain noncoding sequences intervening between coding sequences.' | Back Extra (unmarked, teaching only) p291: 'Most of the well-characterized genes of prokaryotes consist of continuous sequences of nucleotide pairs, which specify colinear sequences of amino acids in the polypeptide gene products.' | Back Extra (unmarked, teaching only) p291: 'The introns are excised from RNA transcripts prior to their transport to the cytoplasm.'",
+  "verified_by": "drafter-D6; edited by editor-E6; parenthetical-after-cloze warning cleared: the parenthetical '(named for {{c2::…}} sequences)' is the c2 half of the two-way pair (the marked etymology), hidden on its own card; on the c1 card it is the intended describe→name cue, not a visible definition of an un-clozed term (rule 3 precision)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D6",
+  "_unit_idx": 4,
+  "_fact_pass": {
+   "must_test": [
+    "the name intron binds to 'intervening sequences' (the professor's framing: Expressed vs Intervening; two-way c1/c2 on the marked span)"
+   ],
+   "supporting": [
+    "introns are excised from the pre-mRNA during its maturation into mRNA (UNMARKED adjacent sentence: visible stem framing only, not a cloze answer - rule 29; the fate is clozed from marks in D4 idx 0 [mark 34] and D1 idx 8)",
+    "introns are noncoding sequences that interrupt the coding sequences (unmarked; carried by the Ex line, kept out of the stem so 'noncoding' is not the cue for 'intron')",
+    "1977 discovery in mouse/rabbit β-globin and chicken ovalbumin genes; prokaryotic genes are continuous (unmarked; Ex)",
+    "excision happens before transport to the cytoplasm (unmarked; Pathway)"
+   ],
+   "skip": [
+    "'colinear' (mark 62) is the orchestrator's purple lexicon mark, not carded here",
+    "'Geneticists, who have a penchant for coining catchy terms' (flavor)"
+   ]
+  },
+  "_archetype": "two-way definition (name ↔ etymology); the fate (excised) is visible framing, not clozed",
+  "_figure_request": "FIGURE 11.20",
+  "_editor_verdict": "REWRITE",
+  "_editor_notes": "Rule 29 / drafting-brief rule 0 fired: c3 'excised' was a cloze answer taken from an UNMARKED sentence ('Introns are excised from pre-mRNA molecules during their maturation into mRNAs'); the marked span is only 'introns (for intervening sequences)'. Decision: Rule 0 licenses synthesizing adjacent MARKS into one point (which the sibling pair already does), not turning the unmarked sentence that sits between marks 63 and 64 into cloze material; the brief is explicit that a cloze ANSWER must come from a marked span, and the authorized lane is D7 only. So 'excised' is demoted to visible stem framing (cited as unmarked, visible only) and the note keeps the licensed two-way pair on the marked fact: c1 term ↔ c2 etymology. Nothing is lost at batch level: intron excision is clozed from marks elsewhere (D4 idx 0, mark 34: the three modifications incl. intron excision; D1 idx 8: spliceosomes excise introns; plus the D7 splicing lane). Checks 2/15 on the sibling pair: the stem no longer defines introns as 'the noncoding stretches' - that wording contradicted the exon note's own Pitfall ('noncoding does not mean intron') and, with 'noncoding' visible on the c1 card, partly handed over 'intron'; introns are now defined by their fate (excised), the true discriminator, and 'noncoding ... intervening between coding sequences' lives in the Ex line. Check 16 (cross-card): this note's Distinguish names 'expressed' (the exon note's c2 answer) and the exon note's Distinguish names 'intervening' - a deliberate cross-link for a confusable pair (parker-preferences: confusable terms get cross-linking Distinguish lines; it mirrors the professor's 'Expressed vs Intervening' framing), shown only after answering; neither note is a scenario/classify card, so rule 13 does not fire. Cold-solve c2: 'Introns (named for [...] sequences)' with only the fate visible forces 'intervening' for a knower and is not decodable from 'excised'. Layer-A #5: the Distinguish line no longer re-defines intron; it carries the exon contrast only. Check 10: 'as it matures' -> 'during its maturation' (referent named in-sentence). Digits/names re-verified on p291: 1977; mouse and rabbit β-globin; chicken ovalbumin; excised prior to transport to the cytoplasm. numeric: true kept for the 1977 in the Ex line. check_cards.py warning (parenthetical right after a cloze) reviewed and cleared - see verified_by."
+ },
+ {
+  "Text": "{{c1::Exons}} (named for <i>{{c2::expressed}}</i> sequences) are the parts of a pre-mRNA, coding and noncoding alike, that remain in the mature mRNA.",
+  "Back Extra": "Distinguish: introns (for intervening sequences) are the stretches excised from the pre-mRNA before it is transported to the cytoplasm.<br><br>Pitfall: noncoding does not mean intron: a noncoding sequence that stays in the mature mRNA is an exon; only the excised stretches are introns.",
+  "source": "genetics",
+  "segment": 11,
+  "from_idx": [
+   64
+  ],
+  "block": "U16_exons",
+  "numeric": false,
+  "verified_against": "p291: 'The sequences that remain in mature mRNA molecules (both coding and noncoding sequences) are called exons (for expressed sequences).' (marked span = 'exons (for expressed sequences)'; the rest of the sentence is visible stem framing only, not clozed) | Back Extra (unmarked, teaching only) p291: 'Geneticists, who have a penchant for coining catchy terms, called them introns (for intervening sequences). Introns are excised from pre-mRNA molecules during their maturation into mRNAs.' | Back Extra (unmarked, teaching only) p291: 'The introns are excised from RNA transcripts prior to their transport to the cytoplasm.'",
+  "verified_by": "drafter-D6; edited by editor-E6; parenthetical-after-cloze warning cleared: the parenthetical '(named for {{c2::…}} sequences)' is the c2 half of the two-way pair (the marked etymology), hidden on its own card; on the c1 card it is the intended describe→name cue, not a visible definition of an un-clozed term (rule 3 precision)",
+  "needs_human_check": false,
+  "visual_source": null,
+  "image": null,
+  "_unit": "D6",
+  "_unit_idx": 5,
+  "_fact_pass": {
+   "must_test": [
+    "the name exon binds to 'expressed sequences' (two-way c1/c2 on the marked span)"
+   ],
+   "supporting": [
+    "exons are the sequences that remain in the mature mRNA (same sentence as the mark but OUTSIDE the marked span: visible stem framing only, not a cloze answer - rule 29; the fate is clozed from marks in D4 idx 0 [mark 34] and D1 idx 8)",
+    "exons include both coding AND noncoding sequences (unmarked qualifier, visible in the stem; the Pitfall teaches the converse trap)",
+    "introns = the intervening, excised stretches (unmarked; Distinguish cross-link)"
+   ],
+   "skip": [
+    "'colinear' (mark 62) is the orchestrator's purple lexicon mark, not carded here"
+   ]
+  },
+  "_archetype": "two-way definition (name ↔ etymology); the fate (remain) is visible framing, not clozed",
+  "_figure_request": "FIGURE 11.20",
+  "_editor_verdict": "REWRITE",
+  "_editor_notes": "Same rule-29 call as the intron note: c3 'remain' sat outside the marked span ('exons (for expressed sequences)') even though it is in the same sentence, so it is demoted to visible framing and both fate blanks are handled identically; the note keeps the licensed two-way pair on the marked fact (term ↔ etymology). Check 4 vs rule 29: 'both coding and noncoding sequences' is a testable qualifier but unmarked, so it stays deliberate scenery, taught by the cited Pitfall rather than clozed. Check 10: 'that remain when it matures into mRNA' -> 'that remain in the mature mRNA' (no pronoun). Check 16: the Distinguish line names 'intervening' (the intron note's c2 answer) - the licensed post-answer cross-link for a confusable pair, not a scenario card, so rule 13 does not fire. Cold-solve c2: 'ex-' does not decode to 'expressed' (a non-knower could as easily guess 'excised'), so the recall is real; c1 (describe -> name) is the easy half of the two-way pair, as designed. Grounded on p291; no numbers, numeric: false stands. check_cards.py warning (parenthetical right after a cloze) reviewed and cleared - see verified_by."
+ }
+]
