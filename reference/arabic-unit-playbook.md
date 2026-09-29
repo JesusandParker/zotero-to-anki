@@ -227,3 +227,41 @@ Two traps, both hit:
 - the scan is duplex, so the raw crop carries the reverse side's **bleed-through**, which
   Parker's figure bar forbids. Composite the red over flat paper (`make_form_crops.redonly`).
   No storage check sees this — only the contact sheet does.
+
+## 8. Catch-up build: every word she taught + every Lingco word with audio (2026-09-29)
+
+Parker's request, verbatim intent: "all of the words that she's taught us in class, plus any words that we
+have access to a high quality audio slice for ... the limiting factor [is] the amount of audio". Method,
+scripts and data: `work/arabic/catchup_2026-09-29/` (copied from `~/arabic-catchup/`, audio excluded).
+
+1. **Transcripts**: mlx_whisper large-v3-turbo, `--condition-on-previous-text False --temperature 0
+   --word-timestamps True`, EN + AR passes per lecture, degeneracy check (top repeat). One MLX job at a time
+   for passes; cutters may share the GPU (they spend time in ffmpeg/CPU).
+2. **Phone vs Teams**: Teams = her lapel mic, noise-gated (clearer: mean logprob -0.39 vs -0.54 on 9/29; 60 vs
+   45 course words recovered). The phone still recovers words Teams missed (13 on 9/29) and holds the minutes
+   Teams did not record (9/24 last 12 min; 9/29 first 12 min). Offsets come from the Teams item name
+   (`ARAB 101-003-YYYYMMDD_HHMMSSUTC`) vs the Voice Memo start time.
+3. **Lecture mining**: one agent per lecture with `AGENT_BRIEF.md` (no ML, spelling authority order, never
+   quote Arabic from Teams ASR). Each returns words + her_clear_utterances + not_her_spans.
+4. **Lingco**: resolve every asset's ORIGIN filename (`ctx.request.get('/api/assets/<uuid>', maxRedirects:0)`
+   -> Location) — `AB3e_U4LE5-03` = item 3. **But the origin number can be wrong too: Unit 2 LE6 is numbered in
+   REVERSE of the printed items** (spectrogram-verified by the gloss audit). R63 stands: transcribe every clip.
+   Drill videos (dictation) are mp4 and were skipped by the vault harvest — fetch them through lu-chrome.
+   U3 LE1 clips say each word three times (j, zh, Egyptian g): ship only the first (j) take.
+5. **Cutting her voice** (`cutter/cut_her_voice.py`): stage A timestamp jitter, B silence islands, C dense grid;
+   encode from the ORIGINAL media (48 kHz), digital-silence pad, peak-normalise, then the dual-language gate on
+   the FINAL mp3 (R62/R66). New lessons: (a) **pitch cannot separate her from the publisher's female voice
+   she plays through her laptop** (her median ~216 Hz, publisher ~160-185 Hz, equally loud) — only agent-marked
+   `not_her_spans` + a male-voice (<150 Hz) reject work; (b) whisper hears short words as common English
+   ("ukht" -> "8"): a HINTED fallback (expected word as initial_prompt on the AR pass only; EN pass never
+   prompted) finds them, marked PASS_HINTED for his ear; (c) edit-distance >0 passes are PASS_NEAR (a one-letter
+   miss can be a different word: athaath -> athaar) — both go in Back Extra, never the Audio field, when a
+   verified publisher clip exists; (d) she deliberately MISpronounces words to show mistakes — those spans go in
+   `cutter/exclusions.json` so a clip can never come from them.
+6. **Cards**: `build/build_all.py` -> C_vocab / A_letter_forms / B_symbols, all 21 block-spec requirements +
+   local checks (mixed-script lines, media, Egyptian). An EDITOR agent pass turns lecture-agent notes into
+   student-facing lines (the raw notes are working chatter). "Why:" spells the letters; a syllable breakdown
+   ("Say it in beats: ta · faD · Dal") is printed ONLY when sounding out the vowelled Arabic reproduces the
+   known transliteration (`build/arabic_read.py`, self-checked).
+7. **Existing notes** are never overwritten: her clip goes in the EMPTY `Lecture Notes` field; pipeline-owned
+   Unit 2 form notes get appended lines; tags carry tiers (`ARAB101::tier::chart|class|practice|numbers|letters`).

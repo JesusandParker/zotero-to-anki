@@ -1,0 +1,298 @@
+[
+ {
+  "key": "الف",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "جيم",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "حاء",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "خاء",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "دال",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "ذال",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "راء",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "زاي",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "سين",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "شين",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "صاد",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "ضاد",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "طاء",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "ظاء",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "غين",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "فاء",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "قاف",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "كاف",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "لام",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "ميم",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "نون",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "هاء",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "واو",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "ياء",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "الامارات — ابو ظبي",
+  "why": "editor flag: vowelling: the sukuun on the baa reads DHaby, but the translit (and the city's name) is DHabii",
+  "arabic": "الإِمارات — أَبو ظَبْي",
+  "translit": "al-imaaraat — abuu DHabii"
+ },
+ {
+  "key": "ساح",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "داني",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "بثور",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "اثار",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "تثوب",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "جث",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "تحبو",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "ساد",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "توب",
+  "why": "editor flag: not a formal word: 'repent!' is tub (short u); tuub is only a drill sound, and the book audio linked here says tub",
+  "arabic": "توب",
+  "translit": "tuub"
+ },
+ {
+  "key": "شاب",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "بير",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "تقول",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "ثوبا",
+  "why": "editor flag: non-word: she called thuubaa 'not a real word, just a random combination'",
+  "arabic": "ثوبا",
+  "translit": "thuubaa"
+ },
+ {
+  "key": "بيتا",
+  "why": "editor flag: Levantine bayto / bayta sits on a formal-register row (the card would call it MSA) and is merged with the drill string biitaa",
+  "arabic": "بَيْتو / بَيْتا",
+  "translit": "bayto / bayta"
+ },
+ {
+  "key": "باتي",
+  "why": "editor flag: non-word: a spelling-drill letter string with no meaning",
+  "arabic": "باتي",
+  "translit": "baatii"
+ },
+ {
+  "key": "ثبت",
+  "why": "editor flag: vowelling clash: the row says thubta, but the linked book item and her 9/8 reading are thabat / thabata",
+  "arabic": "ثَبَت",
+  "translit": "thabat"
+ },
+ {
+  "key": "تبت",
+  "why": "editor flag: meaning/audio clash: tubta means 'you repented', but the gloss and the linked book audio are tubtu 'I repented'",
+  "arabic": "تُبْتُ / تُبْتَ",
+  "translit": "tubtu / tubta"
+ },
+ {
+  "key": "ثوبي",
+  "why": "editor flag: meaning clash: 'my robe' is thawbii in formal Arabic; thuubii is only the colloquial sound of the drill clip",
+  "arabic": "ثوبي",
+  "translit": "thuubii"
+ },
+ {
+  "key": "تبات",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "تيتو",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "بخت",
+  "why": "she called bakht Egyptian usage (9/10); no Egyptian forms, ever"
+ },
+ {
+  "key": "تحتج",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "جابي",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "تجاب",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "بح",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "خوجا",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "خادر",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "ما عندي",
+  "why": "editor flag: vowelling: the Arabic carries a kasra (cin-) but the Levantine translit is candi (the book prints it unvowelled)",
+  "arabic": "ما عِنْدي",
+  "translit": "maa candi"
+ },
+ {
+  "key": "باء · تاء · ثاء · واو · ياء",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "الفصحي",
+  "why": "editor flag: translit fuSHa drops the al- (and the long aa) of al-fuSHaa; same word as the fuSHaa row - move the REQUIRED tag there or fix the translit",
+  "arabic": "الفُصحى",
+  "translit": "fuSHa"
+ },
+ {
+  "key": "مصري",
+  "why": "editor flag: Egyptian form: maSri is the Egyptian pronunciation; the formal word is miSrii (no Egyptian forms on cards)",
+  "arabic": "مَصْري",
+  "translit": "maSrii"
+ },
+ {
+  "key": "بيبي",
+  "why": "editor flag: non-word: a letter-connecting drill string with no meaning",
+  "arabic": "بيبي",
+  "translit": "biibii"
+ },
+ {
+  "key": "اسم حضرتك",
+  "why": "editor flag: near-duplicate of the carded 'shuu ism HaDirtik?': the Levantine line had shu; the bare rising-tone question is the Egyptian scene's pattern",
+  "arabic": "اِسْم حَضِرْتِك؟",
+  "translit": "ism HaDirtik?"
+ },
+ {
+  "key": "هذا وظيفتي",
+  "why": "editor flag: grammar: waZiifa is feminine, so 'this' must be haadhihi (haadhihi waZiifatii), not haadhaa",
+  "arabic": "هٰذا وَظيفَتي",
+  "translit": "haadhaa waZiifatii"
+ },
+ {
+  "key": "وظيفتك",
+  "why": "editor flag: unverified: only a machine transcript suggests she said it; a Levantine noun with a formal ending",
+  "arabic": "وَظيفَتُكَ",
+  "translit": "waZiifatuka"
+ },
+ {
+  "key": "الحمد للرب",
+  "why": "editor flag: likely a phantom: her 9/15 and 9/17 audio point to nashkur ar-rabb (its own row), not al-Hamdu li-r-Rabb",
+  "arabic": "الْحَمْدُ لِلرَّبّ",
+  "translit": "al-Hamdu li-r-Rabb"
+ },
+ {
+  "key": "علي السطر",
+  "why": "editor flag: a guess from garbled transcripts - may be a student's name, not a phrase she taught",
+  "arabic": "عَلى السَّطْر",
+  "translit": "calaa s-saTr"
+ },
+ {
+  "key": "رفيق",
+  "why": "editor flag: register: rafiiq is the formal reading (her Levantine is rfii') but the row is marked Levantine; the bare word is unconfirmed",
+  "arabic": "رَفيق",
+  "translit": "rafiiq"
+ },
+ {
+  "key": "الف همزه",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ },
+ {
+  "key": "ثب#thub",
+  "why": "resolve: letter-name / pair / nonword / low-confidence gloss / no unit"
+ }
+]

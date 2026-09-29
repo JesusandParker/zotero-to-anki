@@ -1,0 +1,1740 @@
+{
+ "field_updates": [
+  {
+   "nid": 1786229801222,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (8/25): [sound:arabic_khouri_0825_marhaban.mp3]"
+  },
+  {
+   "nid": 1790070512231,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/17): [sound:arabic_khouri_0917_bayt.mp3]"
+  },
+  {
+   "nid": 1787925280988,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (8/27): [sound:arabic_khouri_0827_wa_calaykumu_s_salaam.mp3]"
+  },
+  {
+   "nid": 1790070512577,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/17): [sound:arabic_khouri_0917_waajib.mp3]"
+  },
+  {
+   "nid": 1790070512053,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/17): [sound:arabic_khouri_0825_hijaab.mp3]"
+  },
+  {
+   "nid": 1788627827339,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/1): [sound:arabic_khouri_0901_thawaab.mp3]"
+  },
+  {
+   "nid": 1790070513091,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/17): [sound:arabic_khouri_0917_habiibii.mp3]"
+  },
+  {
+   "nid": 1790070513265,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/17): [sound:arabic_khouri_0917_habiibatii.mp3]"
+  },
+  {
+   "nid": 1790070512403,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/15): [sound:arabic_khouri_0915_shaaric.mp3]"
+  },
+  {
+   "nid": 1790070512750,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/24): [sound:arabic_khouri_0924_akhbaar.mp3]"
+  },
+  {
+   "nid": 1790070512921,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/17): [sound:arabic_khouri_0917_kitaab.mp3]"
+  },
+  {
+   "nid": 1790070513437,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/17): [sound:arabic_khouri_0917_sabaah_al_khayr.mp3]"
+  },
+  {
+   "nid": 1790070513605,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/17): [sound:arabic_khouri_0917_sabaah_an_nuur.mp3]"
+  },
+  {
+   "nid": 1790070514118,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/17): [sound:arabic_khouri_0917_kayfa_al_haal.mp3]"
+  },
+  {
+   "nid": 1790070514296,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/17): [sound:arabic_khouri_0917_al_hamdu_lillaah.mp3]"
+  },
+  {
+   "nid": 1790070514656,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/22): [sound:arabic_khouri_0917_maashi.mp3]"
+  },
+  {
+   "nid": 1790070514838,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/17): [sound:arabic_khouri_0917_haadhaa.mp3]"
+  },
+  {
+   "nid": 1790070515018,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/17): [sound:arabic_khouri_0917_haadhihi.mp3]"
+  },
+  {
+   "nid": 1790070515183,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/17): [sound:arabic_khouri_0917_bi_khayr.mp3]"
+  },
+  {
+   "nid": 1787929190843,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/3): [sound:arabic_khouri_0827_maca_as_salaama.mp3]"
+  },
+  {
+   "nid": 1790070513772,
+   "field": "Lecture Notes",
+   "mode": "fill_empty",
+   "value": "Dr. Khouri says it (9/15): [sound:arabic_khouri_0915_yaa.mp3]"
+  },
+  {
+   "nid": 1790070935881,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Ex: <i>laa</i> (no) — laam joins alif from the right — and since it never joins forward, the word simply ends [sound:arabic_khouri_laa.mp3]<br><br><span style='font-size:28px'>‎لا</span><br><br>Dr. Khouri says it: [sound:arabic_khouri_letter_alif.mp3]"
+  },
+  {
+   "nid": 1789129142455,
+   "field": "Back Extra",
+   "mode": "append_missing",
+   "value": "Ex: <i>baab</i> (door) — baa opens the word and reaches forward to join alif [sound:arabic_khouri_baab.mp3]<br><br><span style='font-size:28px'>‎باب</span><br><br>Dr. Khouri says it: [sound:arabic_khouri_letter_baa.mp3]"
+  },
+  {
+   "nid": 1789129142621,
+   "field": "Back Extra",
+   "mode": "append_missing",
+   "value": "Ex: <i>khubz</i> (bread) — khaa joins baa from the right, and baa reaches forward to zaay [sound:arabic_lingco_u4vst_01.mp3]<br><br><span style='font-size:28px'>‎خُبْز</span><br><br>Dr. Khouri says it: [sound:arabic_khouri_letter_baa.mp3]"
+  },
+  {
+   "nid": 1789129142806,
+   "field": "Back Extra",
+   "mode": "append_missing",
+   "value": "Ex: <i>tuHibb</i> (you love / like) — Haa joins baa from the right, and the word ends there [sound:arabic_khouri_0908_tuhibb.mp3]<br><br><span style='font-size:28px'>‎تُحِبّ</span><br><br>Dr. Khouri says it: [sound:arabic_khouri_letter_baa.mp3]"
+  },
+  {
+   "nid": 1789129142971,
+   "field": "Back Extra",
+   "mode": "append_missing",
+   "value": "Ex: <i>tuHibb</i> (you love / like) — taa opens the word and reaches forward to join Haa [sound:arabic_khouri_0908_tuhibb.mp3]<br><br><span style='font-size:28px'>‎تُحِبّ</span>"
+  },
+  {
+   "nid": 1789129143213,
+   "field": "Back Extra",
+   "mode": "append_missing",
+   "value": "Ex: <i>kitaab</i> (book) — kaaf joins taa from the right, and taa reaches forward to alif [sound:arabcram_u03_0038_formal.mp3]<br><br><span style='font-size:28px'>‎كِتاب</span>"
+  },
+  {
+   "nid": 1789129143393,
+   "field": "Back Extra",
+   "mode": "append_missing",
+   "value": "Ex: <i>bayt</i> (house) — yaa joins taa from the right, and the word ends there [sound:arabcram_u03_0034_formal.mp3]<br><br><span style='font-size:28px'>‎بَيْت</span>"
+  },
+  {
+   "nid": 1789129143565,
+   "field": "Back Extra",
+   "mode": "append_missing",
+   "value": "Ex: <i>ithnaan</i> (two) — alif never joins forward, so thaa starts fresh and reaches forward to join nuun [sound:arabic_khouri_0922_ithnaan.mp3]<br><br><span style='font-size:28px'>‎اِثْنان</span>"
+  },
+  {
+   "nid": 1789129143745,
+   "field": "Back Extra",
+   "mode": "append_missing",
+   "value": "Ex: <i>juthath</i> (corpses, dead bodies) — jiim joins thaa from the right, and thaa reaches forward to thaa [sound:arabic_lingco_u3d1_05.mp3]<br><br><span style='font-size:28px'>‎جُثَث</span>"
+  },
+  {
+   "nid": 1789129143931,
+   "field": "Back Extra",
+   "mode": "append_missing",
+   "value": "Ex: <i>Hayth</i> (where (the place where)) — yaa joins thaa from the right, and the word ends there [sound:arabic_khouri_0917_hayth.mp3]<br><br><span style='font-size:28px'>‎حَيْث</span>"
+  },
+  {
+   "nid": 1789129144110,
+   "field": "Back Extra",
+   "mode": "append_missing",
+   "value": "Ex: <i>yaa</i> (O — you are addressing someone directly) — yaa opens the word and reaches forward to join alif [sound:arabcram_u03_0043_formal.mp3]<br><br><span style='font-size:28px'>‎يا</span>"
+  },
+  {
+   "nid": 1789129144281,
+   "field": "Back Extra",
+   "mode": "append_missing",
+   "value": "Ex: <i>bayt</i> (house) — baa joins yaa from the right, and yaa reaches forward to taa [sound:arabcram_u03_0034_formal.mp3]<br><br><span style='font-size:28px'>‎بَيْت</span>"
+  },
+  {
+   "nid": 1789129144455,
+   "field": "Back Extra",
+   "mode": "append_missing",
+   "value": "Ex: <i>fii</i> (in) — faa joins yaa from the right, and the word ends there [sound:arabic_vocab_u1_09_fii_formal.mp3]<br><br><span style='font-size:28px'>‎في</span>"
+  },
+  {
+   "nid": 1789129144676,
+   "field": "Back Extra",
+   "mode": "append_missing",
+   "value": "Ex: <i>huwa</i> (he; it) — haa joins waaw from the right — and since it never joins forward, the word simply ends [sound:arabic_lingco_u4vst_16.mp3]<br><br><span style='font-size:28px'>‎هُوَ</span>"
+  },
+  {
+   "nid": 1790070936003,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Ex: <i>jaar</i> (neighbor) — jiim opens the word and reaches forward to join alif [sound:arabic_khouri_0929_jaar.mp3]<br><br><span style='font-size:28px'>‎جار</span><br><br>Dr. Khouri says it: [sound:arabic_khouri_letter_jiim.mp3]"
+  },
+  {
+   "nid": 1790070936124,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Ex: <i>Hijaab</i> (veil, head covering) — Haa joins jiim from the right, and jiim reaches forward to alif [sound:arabcram_u03_0033_formal.mp3]<br><br><span style='font-size:28px'>‎حِجاب</span><br><br>Dr. Khouri says it: [sound:arabic_khouri_letter_jiim.mp3]"
+  },
+  {
+   "nid": 1790070936216,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Ex: <i>Hajj</i> (pilgrimage to Mecca (the Hajj)) — Haa joins jiim from the right, and the word ends there [sound:arabic_lingco_u3d6_03.mp3]<br><br><span style='font-size:28px'>‎حَجّ</span><br><br>Dr. Khouri says it: [sound:arabic_khouri_letter_jiim.mp3]"
+  },
+  {
+   "nid": 1790070936314,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Ex: <i>uHibb</i> (I love; I like) — hamza on alif never joins forward, so Haa starts fresh and reaches forward to join baa [sound:arabic_lingco_u4vst_28.mp3]<br><br><span style='font-size:28px'>‎أُحِبّ</span>"
+  },
+  {
+   "nid": 1790070936406,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Ex: <i>tuHibb</i> (you love / like) — taa joins Haa from the right, and Haa reaches forward to baa [sound:arabic_khouri_0908_tuhibb.mp3]<br><br><span style='font-size:28px'>‎تُحِبّ</span>"
+  },
+  {
+   "nid": 1790070936498,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Ex: <i>mniiH</i> (good, fine) — yaa joins Haa from the right, and the word ends there [sound:arabic_lingco_u3vs_20.mp3]<br><br><span style='font-size:28px'>‎منيح</span>"
+  },
+  {
+   "nid": 1790070936593,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Ex: <i>khubz</i> (bread) — khaa opens the word and reaches forward to join baa [sound:arabic_lingco_u4vst_01.mp3]<br><br><span style='font-size:28px'>‎خُبْز</span>"
+  },
+  {
+   "nid": 1790070936687,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Ex: <i>bi-khayr</i> (good, well) — baa joins khaa from the right, and khaa reaches forward to yaa [sound:arabcram_u03_0051_formal.mp3]<br><br><span style='font-size:28px'>‎بِخَير</span>"
+  },
+  {
+   "nid": 1790070936781,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Ex: <i>baTTiikh</i> (watermelon) — yaa joins khaa from the right, and the word ends there [sound:arabic_khouri_0910_battiikh.mp3]<br><br><span style='font-size:28px'>‎بِطّيخ</span>"
+  },
+  {
+   "nid": 1786229798201,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Dr. Khouri says it: [sound:arabic_khouri_letter_daal.mp3]"
+  },
+  {
+   "nid": 1786229798285,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Dr. Khouri says it: [sound:arabic_khouri_letter_dhaal.mp3]"
+  },
+  {
+   "nid": 1786229798374,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Dr. Khouri says it: [sound:arabic_khouri_letter_raa.mp3]"
+  },
+  {
+   "nid": 1786229800702,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Dr. Khouri says it: [sound:arabic_khouri_letter_hamza.mp3]"
+  },
+  {
+   "nid": 1786229797974,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Dr. Khouri says it: [sound:arabic_khouri_letter_jiim.mp3]"
+  },
+  {
+   "nid": 1786229797753,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Dr. Khouri says it: [sound:arabic_khouri_letter_baa.mp3]"
+  },
+  {
+   "nid": 1786229797674,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Dr. Khouri says it: [sound:arabic_khouri_letter_alif.mp3]"
+  },
+  {
+   "nid": 1790070515512,
+   "field": "Lecture Notes",
+   "mode": "append_missing",
+   "value": "Dr. Khouri says it: [sound:arabic_khouri_letter_jiim.mp3]"
+  }
+ ],
+ "tags": [
+  {
+   "nid": 1786229798201,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229798285,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229798374,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229798450,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229798526,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229798675,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229799052,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229802797,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229802351,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229803023,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1787925281107,
+   "add": [
+    "ARAB101::tier::class",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1786229802873,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229801876,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229802451,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229800702,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229802501,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229801650,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1787925281337,
+   "add": [
+    "ARAB101::tier::class",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1786229801927,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229802303,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1787925281451,
+   "add": [
+    "ARAB101::tier::class",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1787929190843,
+   "add": [
+    "ARAB101::tier::class",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1786229802250,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229802121,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229801725,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229802028,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229801777,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229802401,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229802722,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229801977,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229801828,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229802651,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229798600,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229798749,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229798825,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229798900,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229798976,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229799132,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229799200,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229799275,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229799356,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229799425,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229799500,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229799575,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229800027,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229800100,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229800174,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229800327,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229800400,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229800473,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229800551,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229800625,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229800776,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229800855,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229800927,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229804146,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229803098,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229802946,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1786229797974,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229798060,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229798125,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229799874,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229799949,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229800250,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229797753,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229799652,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229799726,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229801372,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1786229801447,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1787925280988,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1786229797827,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229799800,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229801072,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1787925281221,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1786229797901,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229801147,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1786229801295,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1786229800997,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1786229801596,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1786229797674,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1786229801222,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1786229801521,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1789129140997,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1788401441173,
+   "add": [
+    "ARAB101::tier::class",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788528744775,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1788627826148,
+   "add": [
+    "ARAB101::tier::class",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788627826408,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627827835,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627827970,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627828083,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627828655,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627829212,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627829648,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1788627829796,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1789129139950,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129140875,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129141916,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788528745451,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1788627827484,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627829520,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1789129139566,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129139800,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129140103,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1788528745769,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1788627827000,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1789129139685,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129141361,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129140620,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129141240,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129140742,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129141486,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1788627826278,
+   "add": [
+    "ARAB101::tier::class",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1789129140239,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129140500,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129141621,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1788627828187,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627826504,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627826607,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627826713,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627826846,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627827123,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627827240,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627827339,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627827719,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627828285,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627828407,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627828502,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788627828842,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627829065,
+   "add": [
+    "ARAB101::tier::class",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788627829305,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627829397,
+   "add": [
+    "ARAB101::tier::class"
+   ]
+  },
+  {
+   "nid": 1788627829969,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129141745,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129142033,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129142155,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129142284,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1789129140360,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070935881,
+   "add": [
+    "ARAB101::tier::letters",
+    "ARAB101::from::quiz-prep-2026-09-22"
+   ]
+  },
+  {
+   "nid": 1789129142455,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1789129142621,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1789129142806,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1789129142971,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1789129143213,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1789129143393,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1789129143565,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1789129143745,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1789129143931,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1789129144110,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1789129144281,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1789129144455,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1789129144676,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1788401440544,
+   "add": [
+    "ARAB101::tier::class",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788401440753,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788401440648,
+   "add": [
+    "ARAB101::tier::class",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788401440231,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788401441279,
+   "add": [
+    "ARAB101::tier::class",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788401440964,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788401439903,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788401440441,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788401440019,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788401441069,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788401440338,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788401440860,
+   "add": [
+    "ARAB101::tier::class",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1788401440126,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070515512,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1790070515597,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1790070515681,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1790070515763,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1790070515847,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1790070515931,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1790070936003,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1790070936124,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1790070936216,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1790070936314,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1790070936406,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1790070936498,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1790070936593,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1790070936687,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1790070936781,
+   "add": [
+    "ARAB101::tier::letters"
+   ]
+  },
+  {
+   "nid": 1790070511963,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070512319,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070512490,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070512662,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070512836,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070513352,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070513688,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070513855,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070514031,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070514205,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070514567,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070514931,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070515101,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070515263,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070515428,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070511862,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070512231,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070512403,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070512577,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070512750,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070513265,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070513605,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070513772,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070513939,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070514118,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070514478,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070514838,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070515018,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070515183,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070515345,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070512144,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070513004,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070513181,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070513521,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070514389,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070514743,
+   "add": [
+    "ARAB101::tier::concept"
+   ]
+  },
+  {
+   "nid": 1790070512053,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070512921,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070513091,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070513437,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070514296,
+   "add": [
+    "ARAB101::tier::chart",
+    "ARAB101::required"
+   ]
+  },
+  {
+   "nid": 1790070514656,
+   "add": [
+    "ARAB101::tier::chart"
+   ]
+  }
+ ],
+ "unsuspend": [],
+ "media": {
+  "arabic_khouri_0825_marhaban.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0825_marhaban.mp3",
+  "arabic_khouri_0917_bayt.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0917_bayt.mp3",
+  "arabic_khouri_0827_wa_calaykumu_s_salaam.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0827_wa_calaykumu_s_salaam.mp3",
+  "arabic_khouri_0917_waajib.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0917_waajib.mp3",
+  "arabic_khouri_0825_hijaab.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0825_hijaab.mp3",
+  "arabic_khouri_0901_thawaab.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0901_thawaab.mp3",
+  "arabic_khouri_0917_habiibii.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0917_habiibii.mp3",
+  "arabic_khouri_0917_habiibatii.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0917_habiibatii.mp3",
+  "arabic_khouri_0915_shaaric.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0915_shaaric.mp3",
+  "arabic_khouri_0924_akhbaar.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0924_akhbaar.mp3",
+  "arabic_khouri_0917_kitaab.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0917_kitaab.mp3",
+  "arabic_khouri_0917_sabaah_al_khayr.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0917_sabaah_al_khayr.mp3",
+  "arabic_khouri_0917_sabaah_an_nuur.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0917_sabaah_an_nuur.mp3",
+  "arabic_khouri_0917_kayfa_al_haal.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0917_kayfa_al_haal.mp3",
+  "arabic_khouri_0917_al_hamdu_lillaah.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0917_al_hamdu_lillaah.mp3",
+  "arabic_khouri_0917_maashi.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0917_maashi.mp3",
+  "arabic_khouri_0917_haadhaa.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0917_haadhaa.mp3",
+  "arabic_khouri_0917_haadhihi.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0917_haadhihi.mp3",
+  "arabic_khouri_0917_bi_khayr.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0917_bi_khayr.mp3",
+  "arabic_khouri_0827_maca_as_salaama.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0827_maca_as_salaama.mp3",
+  "arabic_khouri_0915_yaa.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0915_yaa.mp3",
+  "arabic_khouri_letter_alif.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_letter_alif.mp3",
+  "arabic_khouri_letter_baa.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_letter_baa.mp3",
+  "arabic_khouri_letter_jiim.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_letter_jiim.mp3",
+  "arabic_khouri_letter_hamza.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_letter_hamza.mp3",
+  "arabic_khouri_letter_daal.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_letter_daal.mp3",
+  "arabic_khouri_letter_dhaal.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_letter_dhaal.mp3",
+  "arabic_khouri_letter_raa.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_letter_raa.mp3",
+  "arabic_lingco_u4vst_01.mp3": "/Users/parkerregner/arabic-vault/media/u04_0067_bread_formal.mp3",
+  "arabic_khouri_0908_tuhibb.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0908_tuhibb.mp3",
+  "arabic_khouri_0922_ithnaan.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0922_ithnaan.mp3",
+  "arabic_lingco_u3d1_05.mp3": "/Users/parkerregner/arabic-catchup/build/media/arabic_lingco_u3d1_05.mp3",
+  "arabic_khouri_0917_hayth.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0917_hayth.mp3",
+  "arabic_lingco_u4vst_16.mp3": "/Users/parkerregner/arabic-vault/media/u04_0058_huwa_formal.mp3",
+  "arabic_khouri_0929_jaar.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0929_jaar.mp3",
+  "arabic_lingco_u3d6_03.mp3": "/Users/parkerregner/arabic-vault/media/u03_extra_5d158c7d.mp3",
+  "arabic_lingco_u4vst_28.mp3": "/Users/parkerregner/arabic-vault/media/u04_0080_i_love_formal.mp3",
+  "arabic_lingco_u3vs_20.mp3": "/Users/parkerregner/arabic-vault/media/u03_0051_mniih_mniiha_shaami.mp3",
+  "arabic_khouri_0910_battiikh.mp3": "/Users/parkerregner/arabic-catchup/clips/arabic_khouri_0910_battiikh.mp3"
+ }
+}

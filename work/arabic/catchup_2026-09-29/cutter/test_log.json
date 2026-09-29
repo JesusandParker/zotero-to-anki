@@ -1,0 +1,76 @@
+{
+ "test_akh": {
+  "status": "PASS",
+  "out": "test_akh.mp3",
+  "expect": "أخ",
+  "chosen": {
+   "file": "teams_2026-09-22",
+   "s": 4518.0,
+   "e": 4518.65,
+   "ar": "أخ",
+   "d": 0.0,
+   "peak": -8.8,
+   "how": "A",
+   "pad": 0.09,
+   "dur": 0.83,
+   "final_ar": "أخ",
+   "final_en": "Ugh.",
+   "final_d": 0.0
+  },
+  "tested": 20,
+  "tries": [
+   {
+    "file": "teams_2026-09-22",
+    "s": 4518.0,
+    "e": 4518.65,
+    "ar": "أخ",
+    "d": 0.0,
+    "peak": -8.8,
+    "how": "A",
+    "pad": 0.09,
+    "final_ar": "أخ",
+    "final_en": "Ugh.",
+    "final_d": 0.0,
+    "ok": true
+   }
+  ]
+ },
+ "test_ukht": {
+  "status": "PASS_HINTED",
+  "out": "test_ukht.mp3",
+  "expect": "أخت",
+  "chosen": {
+   "file": "teams_2026-09-22",
+   "s": 4572.35,
+   "e": 4573.4,
+   "ar": "أخت",
+   "d": 0.0,
+   "peak": -4.2,
+   "how": "A",
+   "tail": "extended",
+   "pad": 0.09,
+   "dur": 1.23,
+   "final_ar": "أخت",
+   "final_en": "8",
+   "final_d": 0.0
+  },
+  "tested": 168,
+  "tries": [
+   {
+    "file": "teams_2026-09-22",
+    "s": 4572.35,
+    "e": 4573.4,
+    "ar": "أخت",
+    "d": 0.0,
+    "peak": -4.2,
+    "how": "A",
+    "tail": "extended",
+    "pad": 0.09,
+    "final_ar": "أخت",
+    "final_en": "8",
+    "final_d": 0.0,
+    "ok": true
+   }
+  ]
+ }
+}

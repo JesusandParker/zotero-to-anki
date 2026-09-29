@@ -1,0 +1,37 @@
+{
+ "_why": "hand corrections from the two editor passes (2026-09-29)",
+ "انت من الشام": {
+  "translit": "inti min ish-shaam?",
+  "unflag": true
+ },
+ "الشام": {
+  "translit": "ash-shaam",
+  "unflag": true
+ },
+ "سلمي": {
+  "translit": "salmaa",
+  "unflag": true
+ },
+ "سامر": {
+  "translit": "saamir",
+  "unflag": true
+ },
+ "عندو": {
+  "arabic": "عَنْدو",
+  "unflag": true
+ },
+ "خبز عراقي": {
+  "translit": "khubz ciraaqii",
+  "unflag": true
+ },
+ "عراقي": {
+  "translit": "ciraaqii",
+  "unflag": true
+ },
+ "بيتي": {
+  "unflag": true
+ },
+ "فصحي": {
+  "required": true
+ }
+}

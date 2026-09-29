@@ -1,0 +1,243 @@
+<title>ARAB 101 Units 1–4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Noto+Naskh+Arabic:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a working ledger — summary strip, two tabs (clip check / word list), dense rows with the Arabic set large on the right edge the way the script reads. */
+:root {
+  --paper: #f5f6f8; --sheet: #ffffff; --ink: #1c2230; --muted: #5b6475; --rule: #dde1e8;
+  --lapis: #2c5aa0; --lapis-soft: #e6edf8; --gold: #9a6b10; --gold-soft: #fbf1dc;
+  --good: #1f7a4d; --good-soft: #e3f3ea; --bad: #b3372b; --bad-soft: #fbe7e4;
+  --f-ui: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --f-ar: "Noto Naskh Arabic", "Geeza Pro", "Arabic Typesetting", serif;
+  --f-data: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #0f1420; --sheet: #161d2c; --ink: #e5e9f1; --muted: #9aa4b8; --rule: #2a3346;
+  --lapis: #86aeea; --lapis-soft: #1d2a44; --gold: #e3b95a; --gold-soft: #33290f;
+  --good: #6fd19c; --good-soft: #15301f; --bad: #f08b7e; --bad-soft: #3a1b17; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #0f1420; --sheet: #161d2c; --ink: #e5e9f1; --muted: #9aa4b8; --rule: #2a3346;
+  --lapis: #86aeea; --lapis-soft: #1d2a44; --gold: #e3b95a; --gold-soft: #33290f;
+  --good: #6fd19c; --good-soft: #15301f; --bad: #f08b7e; --bad-soft: #3a1b17; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--paper); color: var(--ink); font: 15px/1.5 var(--f-ui); }
+.wrap { max-width: 1040px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 64px; }
+h1 { font-size: 1.6rem; line-height: 1.2; margin: 0; text-wrap: balance; }
+.lede { color: var(--muted); max-width: 66ch; margin: 6px 0 0; }
+.strip { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 16px 0 6px; padding: 12px 0; border-block: 1px solid var(--rule); }
+.stat { display: flex; flex-direction: column; min-width: 0 }
+.stat b { font: 500 1.25rem var(--f-data); font-variant-numeric: tabular-nums }
+.stat span { color: var(--muted); font-size: .8rem; letter-spacing: .04em; text-transform: uppercase }
+.tabs { display: flex; gap: 4px; margin: 18px 0 0; border-bottom: 1px solid var(--rule) }
+.tab { font: 700 .95rem var(--f-ui); color: var(--muted); background: none; border: 0; border-bottom: 3px solid transparent;
+  padding: 10px 14px; cursor: pointer }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--lapis) }
+.tab:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--lapis); outline-offset: 2px }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); padding: 10px 0 8px;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; border-bottom: 1px solid var(--rule) }
+.progress { flex: 1 1 220px; height: 8px; background: var(--rule); border-radius: 99px; overflow: hidden; min-width: 160px }
+.progress i { display: block; height: 100%; background: var(--lapis); width: 0 }
+.bar small { color: var(--muted); font-family: var(--f-data); font-variant-numeric: tabular-nums }
+.chips { display: flex; flex-wrap: wrap; gap: 6px }
+.chip { font: .82rem var(--f-ui); border: 1px solid var(--rule); background: var(--sheet); color: var(--ink);
+  border-radius: 99px; padding: 3px 10px; cursor: pointer }
+.chip[aria-pressed="true"] { background: var(--lapis-soft); border-color: var(--lapis); color: var(--lapis) }
+.keys { color: var(--muted); font-size: .8rem }
+.keys kbd { font: .75rem var(--f-data); border: 1px solid var(--rule); border-radius: 4px; padding: 0 4px; background: var(--sheet) }
+.group-h { margin: 22px 0 6px; font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted) }
+.clip { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 14px; align-items: center;
+  padding: 12px 14px; background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; margin-top: 8px }
+.clip.cur { border-color: var(--lapis); box-shadow: 0 0 0 1px var(--lapis) }
+.clip.v-good { border-left: 4px solid var(--good) }
+.clip.v-bad { border-left: 4px solid var(--bad) }
+.who { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; min-width: 0 }
+.ar { font: 600 1.7rem/1.4 var(--f-ar); direction: rtl }
+.tr { font-style: italic }
+.mean { color: var(--muted) }
+.meta { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; font-size: .78rem; color: var(--muted) }
+.tag { font-family: var(--f-data); border: 1px solid var(--rule); border-radius: 4px; padding: 0 6px }
+.tag.flag { color: var(--gold); border-color: var(--gold); background: var(--gold-soft) }
+.acts { display: flex; gap: 6px; align-items: center }
+.btn { font: 700 .9rem var(--f-ui); border: 1px solid var(--rule); background: var(--sheet); color: var(--ink);
+  border-radius: 6px; padding: 7px 12px; cursor: pointer; white-space: nowrap }
+.btn.play { background: var(--lapis); border-color: var(--lapis); color: var(--sheet) }
+.btn.good[aria-pressed="true"] { background: var(--good-soft); border-color: var(--good); color: var(--good) }
+.btn.bad[aria-pressed="true"] { background: var(--bad-soft); border-color: var(--bad); color: var(--bad) }
+.why { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; align-items: center }
+.why input { flex: 1 1 220px; min-width: 0; font: .9rem var(--f-ui); padding: 6px 8px; border: 1px solid var(--rule);
+  border-radius: 6px; background: var(--paper); color: var(--ink) }
+.saved { font-size: .78rem; color: var(--muted) }
+.tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 14px 0 8px }
+.tools input[type=search] { flex: 1 1 240px; min-width: 0; font: .95rem var(--f-ui); padding: 8px 10px; border: 1px solid var(--rule);
+  border-radius: 6px; background: var(--sheet); color: var(--ink) }
+.tablewrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 8px; background: var(--sheet) }
+table { border-collapse: collapse; width: 100%; font-size: .88rem }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--rule); vertical-align: top }
+th { font-size: .75rem; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); position: sticky; top: 0; background: var(--sheet) }
+td.a { font: 600 1.15rem var(--f-ar); direction: rtl; text-align: right; white-space: nowrap }
+td.n { font-family: var(--f-data); font-variant-numeric: tabular-nums; white-space: nowrap }
+.st { font: .75rem var(--f-data); padding: 1px 6px; border-radius: 4px; white-space: nowrap }
+.st.added { background: var(--lapis-soft); color: var(--lapis) } .st.had { background: var(--good-soft); color: var(--good) }
+.st.held { background: var(--gold-soft); color: var(--gold) }
+.note { color: var(--muted); font-size: .85rem; max-width: 70ch }
+.empty { color: var(--muted); padding: 24px 0 }
+@media (max-width: 560px) { .clip { grid-template-columns: 1fr } .acts { justify-content: flex-start } .ar { font-size: 1.5rem } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important } }
+</style>
+
+<div class="wrap">
+  <h1>ARAB 101 Units 1–4</h1>
+  <p class="lede" id="lede"></p>
+  <div class="strip" id="strip"></div>
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="t-clips" aria-selected="true" aria-controls="p-clips">Check her clips</button>
+    <button class="tab" role="tab" id="t-words" aria-selected="false" aria-controls="p-words">Every word</button>
+  </div>
+
+  <section id="p-clips" role="tabpanel" aria-labelledby="t-clips">
+    <div class="bar">
+      <div class="progress" aria-hidden="true"><i id="prog"></i></div>
+      <small id="progtxt"></small>
+      <div class="chips" id="clipfilter"></div>
+      <span class="keys"><kbd>j</kbd>/<kbd>k</kbd> move · <kbd>space</kbd> play · <kbd>g</kbd> good · <kbd>b</kbd> off</span>
+    </div>
+    <div id="cliplist"></div>
+  </section>
+
+  <section id="p-words" role="tabpanel" aria-labelledby="t-words" hidden>
+    <div class="tools">
+      <input type="search" id="q" placeholder="Search Arabic, transliteration or meaning" aria-label="Search words">
+      <div class="chips" id="wordfilter"></div>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Arabic</th><th>Say it</th><th>Meaning</th><th>Unit</th><th>Where from</th><th>In Anki</th><th>Audio</th></tr></thead>
+      <tbody id="wordrows"></tbody>
+    </table></div>
+    <p class="note" id="wordnote"></p>
+  </section>
+</div>
+
+<script>
+const DATA = /*__DATA__*/{"summary":{},"clips":[],"words":[]};
+const REASONS = ["starts too late", "ends too early", "extra sound attached", "not the word", "not her voice", "too quiet"];
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let verdicts = {};
+try { verdicts = JSON.parse(localStorage.getItem("verdicts-u14") || "{}") } catch (e) { verdicts = {} }
+let db = null, cur = 0, clipFilter = "all", wordFilter = "all";
+
+function summary() {
+  const s = DATA.summary;
+  $("#lede").textContent = s.lede || "";
+  $("#strip").innerHTML = (s.stats || []).map(x => `<div class="stat"><b>${esc(x.v)}</b><span>${esc(x.k)}</span></div>`).join("");
+}
+
+const CLIP_FILTERS = [["all","All"],["check","Check first"],["todo","Not reviewed"],["bad","Marked off"]];
+function clipVisible(c) {
+  const v = verdicts[c.slug];
+  if (clipFilter === "check") return c.flag;
+  if (clipFilter === "todo") return !v;
+  if (clipFilter === "bad") return v && v.verdict === "bad";
+  return true;
+}
+function renderClips() {
+  $("#clipfilter").innerHTML = CLIP_FILTERS.map(([k, l]) => `<button class="chip" data-f="${k}" aria-pressed="${clipFilter===k}">${l}</button>`).join("");
+  const list = DATA.clips.filter(clipVisible);
+  if (!list.length) { $("#cliplist").innerHTML = `<p class="empty">Nothing here. Switch the filter to see the rest.</p>`; progress(); return; }
+  let html = "", lastG = null;
+  list.forEach(c => {
+    if (c.group !== lastG) { html += `<h2 class="group-h">${esc(c.group)}</h2>`; lastG = c.group; }
+    const v = verdicts[c.slug] || {};
+    html += `<article class="clip ${v.verdict ? "v-" + v.verdict : ""}" data-slug="${esc(c.slug)}" tabindex="-1">
+      <div class="who"><span class="ar" lang="ar">${esc(c.arabic)}</span><span class="tr">${esc(c.translit)}</span><span class="mean">${esc(c.meaning)}</span></div>
+      <div class="acts">
+        <button class="btn play" data-act="play">Play</button>
+        <button class="btn good" data-act="good" aria-pressed="${v.verdict==="good"}">Sounds right</button>
+        <button class="btn bad" data-act="bad" aria-pressed="${v.verdict==="bad"}">Something's off</button>
+      </div>
+      <div class="meta">${c.flag ? `<span class="tag flag">${esc(c.flag)}</span>` : ""}<span class="tag">${esc(c.where)}</span><span class="tag">Unit ${c.unit}</span><span class="tag">${esc(c.card)}</span></div>
+      ${v.verdict === "bad" ? `<div class="why">${REASONS.map(r => `<button class="chip" data-reason="${r}" aria-pressed="${(v.reasons||[]).includes(r)}">${r}</button>`).join("")}
+        <input id="note-${esc(c.slug)}" placeholder="Anything else? (optional)" value="${esc(v.note||"")}" aria-label="Note for ${esc(c.translit)}"></div>` : ""}
+    </article>`;
+  });
+  $("#cliplist").innerHTML = html;
+  progress(); mark();
+}
+function progress() {
+  const n = DATA.clips.length, done = DATA.clips.filter(c => verdicts[c.slug]).length;
+  $("#prog").style.width = n ? (100 * done / n) + "%" : "0";
+  $("#progtxt").textContent = `${done} of ${n} checked`;
+}
+const audio = new Audio();
+function play(slug) { const c = DATA.clips.find(x => x.slug === slug); if (!c) return; audio.src = c.src; audio.currentTime = 0; audio.play().catch(() => {}); }
+function rows() { return [...document.querySelectorAll(".clip")]; }
+function mark() { rows().forEach((r, i) => r.classList.toggle("cur", i === cur)); }
+async function save(slug) {
+  const v = verdicts[slug];
+  try { localStorage.setItem("verdicts-u14", JSON.stringify(verdicts)) } catch (e) {}
+  if (!db) return;
+  try { await db.collection("verdicts").doc(slug).set({ slug, ...v, at: new Date().toISOString() }) }
+  catch (e) { console.warn("verdict not saved to the shared store", e && e.code) }
+}
+function setVerdict(slug, verdict) {
+  const prev = verdicts[slug] || {};
+  verdicts[slug] = { verdict, reasons: verdict === "bad" ? (prev.reasons || []) : [], note: verdict === "bad" ? (prev.note || "") : "" };
+  save(slug); renderClips();
+}
+document.addEventListener("click", e => {
+  const f = e.target.closest("[data-f]"); if (f) { clipFilter = f.dataset.f; cur = 0; renderClips(); return; }
+  const w = e.target.closest("[data-wf]"); if (w) { wordFilter = w.dataset.wf; renderWords(); return; }
+  const art = e.target.closest(".clip"); if (!art) return;
+  const slug = art.dataset.slug; cur = rows().indexOf(art); mark();
+  const act = e.target.closest("[data-act]"); const rs = e.target.closest("[data-reason]");
+  if (act && act.dataset.act === "play") play(slug);
+  if (act && act.dataset.act === "good") setVerdict(slug, "good");
+  if (act && act.dataset.act === "bad") setVerdict(slug, "bad");
+  if (rs) { const v = verdicts[slug]; const r = rs.dataset.reason; v.reasons = v.reasons.includes(r) ? v.reasons.filter(x => x !== r) : [...v.reasons, r]; save(slug); renderClips(); }
+});
+let noteTimer = null;
+document.addEventListener("input", e => {
+  if (!e.target.id.startsWith("note-")) return;
+  const slug = e.target.id.slice(5); if (!verdicts[slug]) return;
+  verdicts[slug].note = e.target.value; clearTimeout(noteTimer); noteTimer = setTimeout(() => save(slug), 700);
+});
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT" || $("#p-clips").hidden) return;
+  const r = rows(); if (!r.length) return;
+  const slug = r[cur] && r[cur].dataset.slug;
+  if (e.key === "j") { cur = Math.min(r.length - 1, cur + 1); mark(); r[cur].scrollIntoView({block: "nearest"}); }
+  else if (e.key === "k") { cur = Math.max(0, cur - 1); mark(); r[cur].scrollIntoView({block: "nearest"}); }
+  else if (e.key === " ") { e.preventDefault(); play(slug); }
+  else if (e.key === "g") { setVerdict(slug, "good"); cur = Math.min(rows().length - 1, cur + 1); mark(); }
+  else if (e.key === "b") setVerdict(slug, "bad");
+});
+
+const WORD_FILTERS = [["all","All"],["added","Added today"],["had","Already had"],["held","Held back"],["her","She taught it"],["lingco","Lingco only"]];
+function renderWords() {
+  $("#wordfilter").innerHTML = WORD_FILTERS.map(([k, l]) => `<button class="chip" data-wf="${k}" aria-pressed="${wordFilter===k}">${l}</button>`).join("");
+  const q = ($("#q").value || "").trim().toLowerCase();
+  const list = DATA.words.filter(w => (wordFilter === "all" || (wordFilter === "her" ? w.her : wordFilter === "lingco" ? !w.her : w.state === wordFilter))
+    && (!q || [w.arabic, w.bare, w.translit, w.meaning].some(x => String(x || "").toLowerCase().includes(q))));
+  $("#wordrows").innerHTML = list.map(w => `<tr><td class="a" lang="ar">${esc(w.arabic)}</td><td><i>${esc(w.translit)}</i></td><td>${esc(w.meaning)}</td>
+    <td class="n">${esc(w.unit)}</td><td>${esc(w.from)}</td><td><span class="st ${w.state}">${w.state === "had" ? "already had" : w.state === "added" ? "added" : "held back"}</span>${w.why ? `<div class="note">${esc(w.why)}</div>` : ""}</td><td>${esc(w.audio)}</td></tr>`).join("")
+    || `<tr><td colspan="7" class="empty">No words match.</td></tr>`;
+  $("#wordnote").textContent = `${list.length} of ${DATA.words.length} words shown.`;
+}
+$("#q").addEventListener("input", renderWords);
+document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
+  document.querySelectorAll(".tab").forEach(x => x.setAttribute("aria-selected", x === t));
+  $("#p-clips").hidden = t.id !== "t-clips"; $("#p-words").hidden = t.id !== "t-words";
+}));
+
+summary(); renderClips(); renderWords();
+(async () => {
+  try {
+    db = await (window.claude && window.claude.use ? window.claude.use("db") : null);
+    if (!db) return;
+    const snap = await db.collection("verdicts").get();
+    snap.docs.forEach(d => { const x = d.data(); if (x && x.slug) verdicts[x.slug] = { verdict: x.verdict, reasons: x.reasons || [], note: x.note || "" }; });
+    renderClips();
+  } catch (e) { db = null }
+})();
+</script>

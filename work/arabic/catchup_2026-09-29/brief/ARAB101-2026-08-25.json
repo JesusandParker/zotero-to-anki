@@ -1,0 +1,165 @@
+{
+  "course": "ARAB101",
+  "professor": "Khouri",
+  "date": "2026-08-25",
+  "duration_min": 76,
+  "source": "teams",
+  "transcript_path": "inbox/teams/ARAB101-2026-08-25.txt",
+  "topics": [
+    {
+      "topic": "who Khouri is: Damascus, seven years of underground ministry in Saudi Arabia, expulsion in 2006, the Syrian civil war, their degrees, and why indigenous Christianity still exists in the Middle East",
+      "minutes": 32
+    },
+    {
+      "topic": "the Arabic-speaking world and its dialects: Shami, Khaliji, Egyptian/Coptic, Sudanese, Maghrebi/Tamazight, and why this course teaches Modern Standard Arabic (fusha)",
+      "minutes": 6
+    },
+    {
+      "topic": "course mechanics: dress code, late policy, Top Hat attendance, the Lingco account and section code, how to photograph and upload handwritten homework, Canvas notification settings, and the two Arabic minors",
+      "minutes": 26
+    },
+    {
+      "topic": "sounds English does not have, and the transliteration system on page 11: the two th's, soft vs harsh S and D, capital H vs h vs kh, ain, ghain, qaf, the glottal stop; plus why Arabic letters connect and change shape",
+      "minutes": 12
+    }
+  ],
+  "announcements": [
+    {
+      "text": "Homework 1 is due Friday 8/28: read pages 1-25, do listening exercises 1 and 2, and complete unit 1 drill 1 on Lingco. They hedged the day - 'That's due this Friday, I believe' - but said separately that the majority of homework is due Friday on purpose, so students start Arabic the day they learn it instead of leaving it for the weekend. NOTE: on 8/27 they cut this assignment down in class; the corrected version is the commitment carried in the 2026-08-27 record.",
+      "kind": "assignment",
+      "confidence": "explicit"
+    },
+    {
+      "text": "Read chapter/unit 1 on your own before Thursday 8/27 - the culture and pronunciation front matter - and go over the transliteration table on page 11 at home.",
+      "kind": "assignment",
+      "confidence": "explicit"
+    },
+    {
+      "text": "Attendance is Top Hat, and you need the join code before the attendance code. Teams attendance is no longer counted. If Top Hat did not work for you that day, come to their right after class or email their the SAME day - they will not verify attendance a week later, and notes will not persuade their.",
+      "kind": "logistics",
+      "confidence": "explicit"
+    },
+    {
+      "text": "Late policy: 10% off if submitted within the first week past the due date, 20% off within the second week, and nothing is accepted after the third week.",
+      "kind": "logistics",
+      "confidence": "explicit"
+    },
+    {
+      "text": "Lingco setup: the book has a 15-digit scratch code; create the account at the Al-Kitab textbook site using Liberty credentials (not Google), then enter their section 003 course code, which is posted in their Canvas announcement. If you bought a used book you can buy website access separately from the bookstore.",
+      "kind": "logistics",
+      "confidence": "explicit"
+    },
+    {
+      "text": "Submission rules: oral assessments are recorded on Lingco; writing and photographed work go to Canvas. Canvas cannot read Apple's HEIC format, so email the photo to yourself and paste it into a Word document first. Every handwritten page needs a heading with your name, the lesson number and the homework number.",
+      "kind": "logistics",
+      "confidence": "explicit"
+    },
+    {
+      "text": "Turn on both Canvas notification bells - email and push - for Announcements. Canvas announcements are their only channel to the whole class in an emergency, including class cancellations.",
+      "kind": "logistics",
+      "confidence": "explicit"
+    },
+    {
+      "text": "There is no finals week this year; the final exam is given in class. They are aiming for December 14 and said December 15 (Tuesday) for this TR section. The semester officially ends December 18. They told students not to book travel before December 15. They said 'I'm trying to give it by the 14th', so this is a target, not a fixed date.",
+      "kind": "schedule_change",
+      "confidence": "explicit"
+    },
+    {
+      "text": "ARAB 102 will NOT be offered Tuesday/Thursday next semester - it is Monday/Wednesday/Friday only. They also said MWF students consistently outperform TR students because of more frequent exposure.",
+      "kind": "schedule_change",
+      "confidence": "explicit"
+    },
+    {
+      "text": "The Arabic language minor is 15 credit hours, but starting at 101 means six classes rather than five, and two of them must be at the 300 or 400 level - so you cannot declare the minor by finishing at 301. The alternative Arabic and Middle Eastern Studies minor is two language classes plus Intro to Islam, Arabic Culture and Arabic-Speaking Christianity.",
+      "kind": "logistics",
+      "confidence": "explicit"
+    },
+    {
+      "text": "Quizzes are taken in class. If you miss one for a genuine emergency they sends you to the testing center on the first floor.",
+      "kind": "logistics",
+      "confidence": "explicit"
+    },
+    {
+      "text": "The Shami and Egyptian audio tracks in Lingco are optional enrichment. Quizzes, homework and exams are all in fusha (Modern Standard Arabic) only.",
+      "kind": "exam_signal",
+      "confidence": "explicit"
+    },
+    {
+      "text": "Dress code, newly required this year by the administration: chest, shoulders, sides and waist covered; long pants or below-the-knee capris; shoes required. They will speak to you first, then submit a violation report - notification, a $15 fine, and an appeal route through the Office of Residential Life.",
+      "kind": "logistics",
+      "confidence": "explicit"
+    }
+  ],
+  "assigned_reading": [
+    {
+      "course": "ARAB101",
+      "chapter": 1,
+      "pages": "1-25",
+      "due": "2026-08-28"
+    },
+    {
+      "course": "ARAB101",
+      "chapter": 1,
+      "pages": "11",
+      "due": "2026-08-27"
+    }
+  ],
+  "position": {
+    "unit": "unit 1",
+    "next": "finish unit 1 on Thursday",
+    "said": "'Thursday we'll try to finish unit 1' - today only got as far as an alphabet overview and the transliteration system, with no letters formally taught"
+  },
+  "commitments": [
+    {
+      "due": "2026-08-27",
+      "title": "Read Alif Baa unit 1 front matter (culture + pronunciation) and the page 11 transliteration table before class",
+      "where": "other",
+      "confidence": "explicit"
+    }
+  ],
+  "off_slide": [
+    "Nearly half the hour was autobiography, and they framed it as the reason to learn the language: the Tower of Babel as the origin of language as a curse, and the argument that learning a language builds compassion for the people who speak it - 'build bridges with people who are different from us, not build walls'",
+    "Told the class not to be shy about opening religious conversations in the Middle East, because people there will open them with you",
+    "Walked through Damascus on screen: Straight Street from Acts 9, Ananias' house, and the Umayyad Mosque as a former cathedral with its Byzantine work still visible",
+    "Demonstrated the connection problem live on the board with Baba: the initial-form ba cannot simply sit next to a bare alef, so you write the connecting alef",
+    "Used the English 'the' vs 'three' contrast to explain why Arabic needs two separate letters where English has one th digraph, then ran the same argument for S/sad, D/dad, T/ta and dh",
+    "Told the class the accent is your personality and that learning a language happens through embarrassment, so nobody laughs at anyone's pronunciation here"
+  ],
+  "terms": [
+    "fusha / Modern Standard Arabic (MSA)",
+    "Shami dialect",
+    "Khaliji dialect",
+    "Masri (Egyptian) dialect",
+    "Tamazight",
+    "Syriac / Aramaic",
+    "transliteration",
+    "alef",
+    "ba",
+    "connecting vs non-connecting letters",
+    "initial, medial, final and independent forms",
+    "capital H (ha) vs h",
+    "kh",
+    "sad vs seen",
+    "dad vs dal",
+    "ain",
+    "ghain",
+    "qaf",
+    "glottal stop"
+  ],
+  "quotes": [
+    {
+      "text": "Languages you have to dedicate, I always say, an hour every day.",
+      "at": "00:34:04"
+    },
+    {
+      "text": "If you forgot, if Top Hat didn't work that day for you. Come right away after class or e-mail me on the same day.",
+      "at": "00:38:30"
+    }
+  ],
+  "notes": [
+    "This was an administratively dense first-week session - roughly two thirds of it was introduction and course policy, not Arabic.",
+    "Teams mangles the Arabic throughout. The letter names and sounds they demonstrated come through as ordinary English words, so the terms listed above are the standard forms rather than what the transcript literally says.",
+    "The Lingco section 003 enrollment code is spoken but garbled beyond recovery ('start by SCU... I see you and then you have to write the whole thing'). Do not trust any code read out of this transcript - it is in their Canvas announcement.",
+    "The Friday 8/28 homework is deliberately NOT emitted as a commitment here. They hedged the date, and on 8/27 they narrowed the assignment in class; the single, corrected due-list entry lives in the 2026-08-27 record so the due list does not carry two conflicting Arabic rows for the same day."
+  ]
+}

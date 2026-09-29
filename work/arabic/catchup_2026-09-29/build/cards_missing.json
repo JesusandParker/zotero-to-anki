@@ -1,0 +1,45 @@
+[
+ {
+  "block": "C_vocab",
+  "Text": "‎{{c1::بِـ}}<br><br>Transliteration: {{c1::bi}}<br><br>{{c2::in}} — Levantine; prefixed to the next word",
+  "Back Extra": "Cue: MSA — none; <i>bi</i> is shaami, her own dialect (the course tests Formal)<br><br>Why: baa.<br><br>Ex: Also the same bi- she later uses in ahlan bika (9/1): 'bi is a preposition like fii'.<br><br>Class: 8/27",
+  "Audio": "[sound:arabic_lingco_u1vs_09.mp3]",
+  "deck": "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 01",
+  "tags": [
+   "ARAB101::catchup-2026-09-29",
+   "ARAB101::from::book",
+   "ARAB101::from::class-2026-08-27",
+   "ARAB101::tier::class",
+   "arabic-u1"
+  ],
+  "media": {
+   "arabic_lingco_u1vs_09.mp3": "/Users/parkerregner/arabic-vault/media/u01_0014_bi_shaami.mp3"
+  },
+  "key": "ب",
+  "her_status": null,
+  "tier": "class"
+ },
+ {
+  "block": "C_vocab",
+  "Text": "‎{{c1::ـهُ / اِسْمُهُ}}<br><br>Transliteration: {{c1::-hu / ismuhu}}<br><br>{{c2::his (suffix) / his name}}",
+  "Back Extra": "Cue: MSA — -hu / ismuhu<br><br>Why: haa  |  alif + siin + miim + haa.<br><br>Ex: Rule: put a Damma (u) on the last letter of the noun, then add -hu: ism -&gt; ismu -&gt; ismuhu.<br><br>Ex: 'Those need a lot of practice, guys, because they're totally different from English.' She compared it to how hard English possessives were for her.<br><br>Ex: '-ii' = my, '-uka / -uki' = your, now '-uhu' = his and '-uhaa' = her.<br><br>Pitfall: she called this REQUIRED.<br><br>Ex: shaami (her dialect) — <i>-o / ismo</i> [sound:arabic_lingco_u4vs_18.mp3]<br><br>Class: 9/24, 9/29",
+  "Audio": "[sound:arabic_lingco_u4vst_18.mp3]",
+  "deck": "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 04",
+  "tags": [
+   "ARAB101::catchup-2026-09-29",
+   "ARAB101::from::book",
+   "ARAB101::from::class-2026-09-24",
+   "ARAB101::from::class-2026-09-29",
+   "ARAB101::required",
+   "ARAB101::tier::chart",
+   "arabic-u4"
+  ],
+  "media": {
+   "arabic_lingco_u4vst_18.mp3": "/Users/parkerregner/arabic-vault/media/u04_0060_huismuhu_formal.mp3",
+   "arabic_lingco_u4vs_18.mp3": "/Users/parkerregner/arabic-vault/media/u04_0060_oismo_shaami.mp3"
+  },
+  "key": "ه",
+  "her_status": null,
+  "tier": "chart"
+ }
+]

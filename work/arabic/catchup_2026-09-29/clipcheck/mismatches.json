@@ -1,0 +1,146 @@
+{
+ "arabic_lingco_u2le4_04.mp3": {
+  "expected": "أَثاث",
+  "heard": "أساس",
+  "dist": 0.5,
+  "text": "‎{{c1::أَثاث}}<br><br>Transliteration: {{c1::athaath}}<br><br>{{c2::fu"
+ },
+ "arabic_lingco_u2d4_01.mp3": {
+  "expected": "ثاب",
+  "heard": "سيب",
+  "dist": 0.67,
+  "text": "‎{{c1::ثاب}}<br><br>Transliteration: {{c1::thaab}}<br><br>{{c2::he ret"
+ },
+ "arabic_lingco_u2le7_01.mp3": {
+  "expected": "توبي",
+  "heard": "تو بي",
+  "dist": 0.5,
+  "text": "‎{{c1::توبي}}<br><br>Transliteration: {{c1::tuubii}}<br><br>{{c2::repe"
+ },
+ "arabic_lingco_u2vs_04.mp3": {
+  "expected": "أَهلاً فيك / أَهلاً فيكِ",
+  "heard": "أهلا فيك",
+  "dist": 0.56,
+  "text": "‎{{c1::أَهلاً فيك / أَهلاً فيكِ}}<br><br>Transliteration: {{c1::ahlan "
+ },
+ "arabic_lingco_u2vs_17.mp3": {
+  "expected": "إيه",
+  "heard": "إ",
+  "dist": 0.67,
+  "text": "‎{{c1::إيه}}<br><br>Transliteration: {{c1::ee}}<br><br>{{c2::yes}} — L"
+ },
+ "arabic_lingco_u3le4_03.mp3": {
+  "expected": "تَحْجُبُ",
+  "heard": "تحجبوا",
+  "dist": 0.5,
+  "text": "‎{{c1::تَحْجُبُ}}<br><br>Transliteration: {{c1::taHjubu}}<br><br>{{c2:"
+ },
+ "arabic_lingco_u3le7_01.mp3": {
+  "expected": "بُيوت",
+  "heard": "بُЮТ",
+  "dist": 0.75,
+  "text": "‎{{c1::بُيوت}}<br><br>Transliteration: {{c1::buyuut}}<br><br>{{c2::hou"
+ },
+ "arabic_lingco_u3le8_01.mp3": {
+  "expected": "حَيْث",
+  "heard": "هاية",
+  "dist": 1.0,
+  "text": "‎{{c1::حَيْث}}<br><br>Transliteration: {{c1::Hayth}}<br><br>{{c2::wher"
+ },
+ "arabic_lingco_u3d1_05.mp3": {
+  "expected": "جُثَث",
+  "heard": "جوسف",
+  "dist": 1.0,
+  "text": "‎{{c1::جُثَث}}<br><br>Transliteration: {{c1::juthath}}<br><br>{{c2::co"
+ },
+ "arabic_lingco_u3d5_04.mp3": {
+  "expected": "حاج",
+  "heard": "رج",
+  "dist": 0.67,
+  "text": "‎{{c1::حاج}}<br><br>Transliteration: {{c1::Haajj}}<br><br>{{c2::pilgri"
+ },
+ "arabic_lingco_u3d6_03.mp3": {
+  "expected": "حَجّ",
+  "heard": "حي",
+  "dist": 0.5,
+  "text": "‎{{c1::حَجّ}}<br><br>Transliteration: {{c1::Hajj}}<br><br>{{c2::pilgri"
+ },
+ "arabic_lingco_u3d9_15.mp3": {
+  "expected": "تُجيبي",
+  "heard": "إلى جي بي",
+  "dist": 0.6,
+  "text": "‎{{c1::تُجيبي}}<br><br>Transliteration: {{c1::tujiibii}}<br><br>{{c2::"
+ },
+ "arabic_lingco_u3vs_18.mp3": {
+  "expected": "هَيدا",
+  "heard": "هذا",
+  "dist": 0.5,
+  "text": "‎{{c1::هَيدا}}<br><br>Transliteration: {{c1::haada}}<br><br>{{c2::this"
+ },
+ "arabic_lingco_u4le1_04.mp3": {
+  "expected": "تَأْتَأَ",
+  "heard": "تا تا",
+  "dist": 0.5,
+  "text": "‎{{c1::تَأْتَأَ}}<br><br>Transliteration: {{c1::ta'ta'a}}<br><br>{{c2:"
+ },
+ "arabic_lingco_u4le3_04.mp3": {
+  "expected": "أُخْرِجَ",
+  "heard": "أخريجة",
+  "dist": 0.5,
+  "text": "‎{{c1::أُخْرِجَ}}<br><br>Transliteration: {{c1::ukhrija}}<br><br>{{c2:"
+ },
+ "arabic_lingco_u4le6_03.mp3": {
+  "expected": "بَذَرَ",
+  "heard": "بذارة",
+  "dist": 0.67,
+  "text": "‎{{c1::بَذَرَ}}<br><br>Transliteration: {{c1::badhara}}<br><br>{{c2::h"
+ },
+ "arabic_lingco_u4d9_12.mp3": {
+  "expected": "يَخْرُج",
+  "heard": "يخ رج",
+  "dist": 0.5,
+  "text": "‎{{c1::يَخْرُج}}<br><br>Transliteration: {{c1::yakhruj}}<br><br>{{c2::"
+ },
+ "arabic_lingco_nums_02.mp3": {
+  "expected": "اتنين",
+  "heard": "نين",
+  "dist": 0.4,
+  "text": "‎{{c1::اتنين}}<br><br>Transliteration: {{c1::tneen}}<br><br>{{c2::two}"
+ },
+ "arabic_lingco_nums_04.mp3": {
+  "expected": "أَرْبَعة",
+  "heard": "عربعاء",
+  "dist": 0.4,
+  "text": "‎{{c1::أَرْبَعة}}<br><br>Transliteration: {{c1::arbaca}}<br><br>{{c2::"
+ },
+ "arabic_lingco_u4vs_16.mp3": {
+  "expected": "هُوَ",
+  "heard": "هوي",
+  "dist": 0.5,
+  "text": "‎{{c1::هُوَ}}<br><br>Transliteration: {{c1::huwa}}<br><br>{{c2::he; it"
+ },
+ "arabic_lingco_u4vst_17.mp3": {
+  "expected": "هِيَ",
+  "heard": "هنا",
+  "dist": 1.0,
+  "text": "‎{{c1::هِيَ}}<br><br>Transliteration: {{c1::hiya}}<br><br>{{c2::she; i"
+ },
+ "arabic_lingco_u4vs_19.mp3": {
+  "expected": "ـها / اِسْمُها",
+  "heard": "أ. إسم",
+  "dist": 0.44,
+  "text": "‎{{c1::ـها / اِسْمُها}}<br><br>Transliteration: {{c1::-haa / ismuhaa}}"
+ },
+ "arabic_lingco_u4vs_24.mp3": {
+  "expected": "طالِبة",
+  "heard": "تالبي",
+  "dist": 0.4,
+  "text": "‎{{c1::طالِبة}}<br><br>Transliteration: {{c1::Taaliba}}<br><br>{{c2::s"
+ },
+ "arabic_lingco_u4vs_28.mp3": {
+  "expected": "بحِبّ",
+  "heard": "هد",
+  "dist": 1.0,
+  "text": "‎{{c1::بحِبّ}}<br><br>Transliteration: {{c1::baHibb}}<br><br>{{c2::I l"
+ }
+}

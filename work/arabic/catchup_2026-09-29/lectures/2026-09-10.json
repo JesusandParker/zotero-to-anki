@@ -1,0 +1,4780 @@
+{
+ "lecture": "2026-09-10",
+ "screen_share": true,
+ "coverage_notes": "Teams recording 0-4570 s (full 76 min, no phone backup exists for 9/10). SCREEN SHARE: partial - Top Hat/Canvas/Lingco (0:36-17:54), the opening slides (2:36-4:12), the Twinkl Haa deck 37:08-40:06, the Twinkl khaa deck 53:06-59:06 and the Lingco dictation drills 62:18-76:00 are screen-shared; the whiteboard (18:06-23:06, 44:24-52:12) and the first half of the Haa deck (31:00-37:06, room projector only) are on the room camera. Keyframes (every 6 s) mapped the whole video; slide windows sampled every 3 s at full resolution, deduped by a 96x72 grayscale-signature diff (threshold 1.0, fine enough that same-template slides stay separate), every distinct slide read by eye; the projector-only stretch sampled every 3 s and its picture edge tracked; PowerPoint editor thumbnails read for slides 11-12 (Haajib, Huut). 35 frames kept in ~/arabic-catchup/frames/2026-09-10/. Whisper en + ar passes read end to end with word timestamps and cross-checked with the Teams .txt (English context only). Speaker attribution by DSP only (no ML): 10 ms loudness envelope (lapel mic, noise-gated: her voice -8 to -15 dB, students mostly gated), autocorrelation F0 per span (her ~190-260 Hz; Lingco Drill 1 video male ~120-150 Hz; Drill 2 video ~176-219 Hz) and a log-spectrogram matcher against the 12 Unit 3 Drill 1/2 publisher clips to find where the videos played (listed as not_her_spans). Spelling: her slides > Lingco vault (U1-U3 vocab and lesson texts, U4/U6 vocab) > Alif Baa answer key (U3 Drills 1, 2, 4, 5) > book p.49-50 text layer > own knowledge (flagged). Required word: taHt only. She said the slang (shuu fii maa fii, kiif Haalak, yalla) is extra and NOT on the exam.",
+ "windows": [
+  {
+   "start": 0,
+   "end": 100,
+   "topic": "Pre-class: students ask for slang - kiif Haalak / kiif Haalik (both formal and informal), kiif il-Haal, kiifak; yalla ('I say that in class')"
+  },
+  {
+   "start": 100,
+   "end": 150,
+   "topic": "Prayer requests and prayer (courage to speak, enjoy the language); Top Hat attendance code on screen"
+  },
+  {
+   "start": 150,
+   "end": 256,
+   "topic": "Slides: taa as the alphabet's smiley face; 'shuu fii maa fii?' built word by word (shuu = what, fii = in, maa = what/not); 'extra, not on the exam'"
+  },
+  {
+   "start": 256,
+   "end": 590,
+   "topic": "Plan for the day; Homework 3 on Canvas (drills 1, 2, 5 by hand; drill 3 on Lingco - 'Recognizing ج ح خ' demoed; drill 4 letter connection; drill 16 recommended); photo rules (portrait, name files by drill)"
+  },
+  {
+   "start": 590,
+   "end": 1050,
+   "topic": "Unit 2 oral assessment (Drill 15, Lingco, Shami track): dialogue walked through - ahlan, ana ismi, shuu ism HaDirtak, tsharrafna, min ween HaDirtik, ween = ayna, ana min, ahlan biki/fiiki, min ayna anta; live recording test; Shami only; always full sentences"
+  },
+  {
+   "start": 1050,
+   "end": 1230,
+   "topic": "jiim review at the board: name, J sound, four forms, two handwriting fonts, dot under"
+  },
+  {
+   "start": 1230,
+   "end": 1390,
+   "topic": "Haa introduced: name, capital H, example fatHa (not 'th'), same shape as jiim with no dot; forms on the board"
+  },
+  {
+   "start": 1390,
+   "end": 1540,
+   "topic": "Haa vs English h; naHla (bee) / nakhla (palm tree) / nahla (name); Parker asks whether she exaggerates - yes, for listening practice; real speech is faster"
+  },
+  {
+   "start": 1540,
+   "end": 1700,
+   "topic": "Haa articulation coaching: epiglottis, no vibration, tongue back and relaxed, hand on throat; fog a mirror/glasses; 'Haa' when cold or over hot tea"
+  },
+  {
+   "start": 1700,
+   "end": 1857,
+   "topic": "Book p.49 Listening Exercise 2: Habiib, baHth (research), tabuuH (Haa with sukuun), SabaaH (morning); Habiibi register; gym analogy; jaw still, tongue back"
+  },
+  {
+   "start": 1857,
+   "end": 2225,
+   "topic": "Twinkl Haa slides on the room projector (recording on the camera only): Halwaa, naHla/nakhla, HiSaan, Haafila (fuSHa vs Egyptian), Hadiid, fallaaH, Ha/Hi/Hu, Haajib, Huut; practise at home with Lingco (play it, say it, record); Mike: no vibration"
+  },
+  {
+   "start": 2225,
+   "end": 2420,
+   "topic": "Screen-shared Haa slides: header translated (decks made for heritage speakers); naHiil (thin) vs nakhiil (palm trees); Haliib (milk); Hubuub (grain) vs hubuub (wind); Hidhaa' (shoes); Hibr (ink)"
+  },
+  {
+   "start": 2420,
+   "end": 2680,
+   "topic": "khaa introduced: same shape, dot on top, four forms; Habiibi/Habiibti aside; class copies the forms"
+  },
+  {
+   "start": 2680,
+   "end": 3140,
+   "topic": "Board connecting practice: khaab, bakht (she calls it Egyptian 'luck'), baakh, jiim+khaa; stacking vs the book's climb-up method; Hijaab; dot placement for stacked letters"
+  },
+  {
+   "start": 3140,
+   "end": 3565,
+   "topic": "khaa sound (clearing the throat; soft palate) + kha/khu/khi/akh; khaa slides: khubz, khunfusaa', khizaana, baTTiikh (+ shadda aside), ukhTubuuT (octopus cognate), khayma, khaatim, khawkh (peach vs plum; aw next week; durraaq), nakhiil vs naHiil, khashab, khuDaar, khiyaar, khass (not a house)"
+  },
+  {
+   "start": 3565,
+   "end": 3722,
+   "topic": "taHt 'under' - REQUIRED vocab, written at the board (fatHa + sukuun); takht 'bed' optional; same letters, only the dot differs"
+  },
+  {
+   "start": 3722,
+   "end": 4190,
+   "topic": "Homework Dictation Drill 1 at the board with the Lingco videos: jaab, taaj, juubii, jubab, juthath (Damma not waw), jiib (= jeep; Shami jiib = bring)"
+  },
+  {
+   "start": 4190,
+   "end": 4560,
+   "topic": "Dictation Drill 2 at the board (Parker first): Huut, baHth, Habiib (darling / my darling), [taHt skipped], buuHii, baaHat"
+  },
+  {
+   "start": 4560,
+   "end": 4570,
+   "topic": "Wrap-up: drill 5 and Lingco drill 3 still to do; 'ahlan wa sahlan'"
+  }
+ ],
+ "words": [
+  {
+   "arabic": "كِيف حالَك؟ / كِيف حالِك؟",
+   "arabic_bare": "كيف حالك؟ / كيف حالك؟",
+   "translit": "kiif Haalak? / kiif Haalik?",
+   "meaning": "How are you? (to a man / to a woman)",
+   "register": "shaami",
+   "kind": "phrase",
+   "status": "taught",
+   "book_unit": 3,
+   "spelling_source": "own-knowledge",
+   "spelling_ref": "Lingco U3 vocab: formal كَيْفَ الحال؟ (kayf al-Haal); shaami كيفك؟ (kiifak/-ik)",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 58.5,
+     "quote": "[en] (student) is kiif Haalik like formal or ... / (her) both, it's both. kiif Haalik for ladies. It's like how are you doing, or how are you"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 70.3,
+     "quote": "[en] so yeah we learned this I think in unit 3"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 59.2,
+     "quote": "[ar pass] كيف حالك؟ at 59.2-66.3 (the en pass confirms Arabic speech only at 59.1, 64.2 and 75.0)"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 63.71,
+     "end": 65.15,
+     "context": "'both, it's both - kiif Haalak/Haalik' (answering a student); ar pass كيف حالك",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 64.36,
+     "end": 66.09,
+     "context": "second form right before 'for ladies' (probably kiif Haalik)",
+     "confidence": "low"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 74.72,
+     "end": 75.83,
+     "context": "start of her list 'we have several of those' (en pass: kifhalik)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "A student asked for slang; she offered kiif Haalak / kiif Haalik and said it is BOTH formal and informal (1:03-1:06); the -ak form is to a man, -ik 'for ladies'.",
+    "She tied it to the book: 'we learned this, I think, in unit 3' (Lingco U3: formal كَيْفَ الحال؟ kayf al-Haal, shaami كيفك؟ kiifak/-ik).",
+    "Slang/extra: asked if it can be on the exam she said 'No, those are just extra' (3:54-3:57) - said of the whole slang block.",
+    "Spelling: Lingco prints only كيفك؟ and كَيْفَ الحال؟; the حالَك/حالِك form is standard Levantine, vowelled from own knowledge."
+   ],
+   "gender_pair_of": "كِيف حالِك؟",
+   "confidence": "med"
+  },
+  {
+   "arabic": "كِيف الحال؟",
+   "arabic_bare": "كيف الحال؟",
+   "translit": "kiif il-Haal?",
+   "meaning": "How are you? (literally 'how is the condition')",
+   "register": "shaami",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": 3,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U3 vocab u03_0045 formal كَيْفَ الحال؟",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 75.0,
+     "quote": "[en] kifhalik ... we have several of those (Teams heard 'Kifilhal, kifhalla, kifik')"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 74.72,
+     "end": 75.83,
+     "context": "first item of her quick list 'we have several of those' - identity inferred from the Teams caption 'Kifilhal'",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Said once in a quick list of how-are-you variants after kiif Haalak; the formal textbook form is كَيْفَ الحال؟ kayf al-Haal (Lingco U3). Not separately explained."
+   ],
+   "gender_pair_of": null,
+   "confidence": "low"
+  },
+  {
+   "arabic": "كيفَك؟ / كيفِك؟",
+   "arabic_bare": "كيفك؟ / كيفك؟",
+   "translit": "kiifak? / kiifik?",
+   "meaning": "How are you? (to a man / to a woman) - short form",
+   "register": "shaami",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": 3,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U3 vocab u03_0045 shaami كيفك؟ kiifak/-ik",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 76.5,
+     "quote": "[en] (her list of variants; Teams heard '...kifik. We have several of those')"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 76.52,
+     "end": 77.1,
+     "context": "last item of her list of variants (Teams 'kifik')",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Lingco U3 shaami form of 'How are you?'. Only named in passing here."
+   ],
+   "gender_pair_of": "كيفِك؟",
+   "confidence": "low"
+  },
+  {
+   "arabic": "يَللا",
+   "arabic_bare": "يللا",
+   "translit": "yalla",
+   "meaning": "Come on! / Let's go! / Let's do it",
+   "register": "shaami",
+   "kind": "classroom",
+   "status": "taught",
+   "book_unit": 6,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U6 vocab u06_0118 shaami يَللا (formal هَيّا بِنا)",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 79.7,
+     "quote": "[en] I'll give this one: Yallah"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 82.5,
+     "quote": "[en] I say that in class. Yallah, right? Yallah do this, Yallah tfaddal. So it's like 'let us, let us do something'"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 80.41,
+     "end": 80.81,
+     "context": "presenting the word, said alone",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 84.54,
+     "end": 85.41,
+     "context": "'yalla, right?'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 85.55,
+     "end": 86.52,
+     "context": "'yalla do this'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 86.52,
+     "end": 87.65,
+     "context": "'yalla tfaDDal' (two words)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "'I say that in class ... yalla, do this; yalla, tfaDDal. So it's like let us, let us do something' (1:21-1:32).",
+    "Given as extra slang (not on the exam). Lingco lists it as the shaami for 'let's go' (formal هَيّا بِنا hayyaa binaa, Unit 6).",
+    "Lingco spells it يَللا; the everyday spelling is يلّا."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "تفَضَّل",
+   "arabic_bare": "تفضل",
+   "translit": "tfaDDal (formal tafaDDal)",
+   "meaning": "Go ahead / please (come in, take it) - to a man",
+   "register": "shaami",
+   "kind": "classroom",
+   "status": "used",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U4 vocab u04_0053 تَفَضَّل tafaDDal / shaami تفَضَّل tfaDDal",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 86.9,
+     "quote": "[en] Yallah do this, Yallah tfaddal (Teams heard 'Yella, put that')"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 86.92,
+     "end": 87.62,
+     "context": "second half of 'yalla tfaDDal' inside an English sentence",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Used only as part of 'yalla, tfaDDal' while showing how she uses yalla in class; not explained here (it is Unit 4 vocabulary)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "شو في ما في؟",
+   "arabic_bare": "شو في ما في؟",
+   "translit": "shuu fii maa fii?",
+   "meaning": "What's up? / What's new? (literally 'what is there, what isn't there')",
+   "register": "shaami",
+   "kind": "phrase",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide (unvowelled); fii/maa vowels from Lingco U1/U2",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 166.8,
+     "quote": "[en] if you want to ask what's the news, what's up ... so you say"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 205.98,
+     "quote": "[en] so literally we're saying what in, not in ... Shufi ma fi, Shufi ma fi - what are the news, what's not the news"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 219.0,
+     "quote": "[en] So this is a slang. Shufi, mafi. If you say it to any Arab, they will say, oh, you have a Syrian teacher?"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 205.82,
+     "end": 207.43,
+     "context": "'so - shuu fii maa fii' (first full model)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 209.21,
+     "end": 210.45,
+     "context": "second model, right after the first",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 219.0,
+     "end": 219.88,
+     "context": "'So this is a slang: shuu fii maa fii'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 248.65,
+     "end": 249.9,
+     "context": "'Sydney, ask your Syrian friend: shuu fii maa fii'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_0165_shu_fii_maa_fii.jpg",
+   "card_notes": [
+    "Slide: a raised-eyebrow emoji with 'Shufi ma fi?' and شو في ما في؟ (unvowelled) (2:48-4:12).",
+    "She built it word by word: 'you learned shuu - what's shuu? what. fii ... maa - what, or it could be also not, negation. So literally we're saying what in, not in' (2:50-3:25).",
+    "'If you say it to any Arab, they will say, oh, you have a Syrian teacher? Or who taught you this? Because it's a slang. You will not learn it in a book.' (3:39-3:52)",
+    "Not testable: asked whether it could be on the exam - 'No, no, those are just extra. If you want to learn it, learn it.' (3:54-3:58)"
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "شو",
+   "arabic_bare": "شو",
+   "translit": "shuu",
+   "meaning": "what? (Levantine)",
+   "register": "shaami",
+   "kind": "vocab",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U2 vocab u02_0017 shaami شو؟ shuu (formal ما؟ maa)",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 173.3,
+     "quote": "[en] you learned Shu, what's Shu? ... what"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 173.66,
+     "end": 173.96,
+     "context": "'you learned shuu' (inside English)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 174.54,
+     "end": 174.82,
+     "context": "'what's shuu?'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Reviewed as the first piece of شو في ما في: 'you learned shuu - what's shuu? what' (2:53-2:57). Formal equivalent ما؟ maa."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "في",
+   "arabic_bare": "في",
+   "translit": "fii",
+   "meaning": "in (also 'there is' in speech)",
+   "register": "both",
+   "kind": "vocab",
+   "status": "used",
+   "book_unit": 1,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U1 vocab u01_0014 formal في fii 'in'",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 177.0,
+     "quote": "[en] what - Fi ... Ascon Fi Lynchburg - in, in"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 177.02,
+     "end": 177.8,
+     "context": "'fii' said alone",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 180.92,
+     "end": 181.94,
+     "context": "inside 'askun fii Lynchburg' (I live in Lynchburg)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Glossed as 'in' with the example askun fii Lynchburg (2:57-3:05); inside شو في ما في it works as 'there is'."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "ما",
+   "arabic_bare": "ما",
+   "translit": "maa",
+   "meaning": "what? - and also 'not' (negation)",
+   "register": "both",
+   "kind": "vocab",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U2 vocab u02_0017 formal ما؟ maa",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 187.8,
+     "quote": "[en] Ma - you learned ma, what, or it could be also not in Arabic - what or not, negation"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 187.98,
+     "end": 188.58,
+     "context": "'maa' said at the start of the explanation",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 189.54,
+     "end": 189.8,
+     "context": "'you learned maa - what'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "'You learned maa, what, or it could be also not in Arabic - what or not, negation' (3:08-3:16). In شو في ما في it is the 'not'."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "أَسْكُن في",
+   "arabic_bare": "أسكن في",
+   "translit": "askun fii",
+   "meaning": "I live in",
+   "register": "formal",
+   "kind": "phrase",
+   "status": "incidental",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 180.6,
+     "quote": "[en] Ascon Fi Lynchburg - in, in"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 180.92,
+     "end": 181.94,
+     "context": "'askun fii Lynchburg' - example sentence for fii",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Only used as an example sentence to show fii = 'in' (askun fii Lynchburg, 'I live in Lynchburg'); askun itself was not explained."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "أَهلاً",
+   "arabic_bare": "أهلا",
+   "translit": "ahlan",
+   "meaning": "Hello! / Hi!",
+   "register": "both",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": 1,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U1 vocab u01_0007",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 764.9,
+     "quote": "[en] better, but you could say ahlan as well"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 782.7,
+     "quote": "[en] after I say ahlan, I have to ask a question"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 695.44,
+     "end": 696.06,
+     "context": "'you could say: ahlan, ismi Lawson'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 766.08,
+     "end": 766.48,
+     "context": "'you could say ahlan as well' (inside English)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 771.02,
+     "end": 771.56,
+     "context": "'or ahlan, no problem'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 782.72,
+     "end": 783.26,
+     "context": "'after I say ahlan, I have to ask a question'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 826.4,
+     "end": 827.02,
+     "context": "'you say ahlan'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Oral-assessment walkthrough (Unit 2 Drill 15, Lingco, Shami female track): the loud spans (~-7 dB) are the Lingco speaker ('Dina'); her own re-statements are ~-10 to -16 dB. Pitch cannot separate the two (both female).",
+    "Allowed as a short reply to ahlan wa sahlan in the oral assessment, though ahlan biki/fiiki is 'better' (12:41-12:52)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "أَهلاً وسَهلاً",
+   "arabic_bare": "أهلا وسهلا",
+   "translit": "ahlan wa sahlan",
+   "meaning": "Hello / Welcome!",
+   "register": "both",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": 1,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U1 vocab u01_0008",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 768.1,
+     "quote": "[ar pass] أهلا وسهلا ... أهلا بكي at 768.1-770.6 (her modelling the exchange)"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 822.0,
+     "quote": "[ar pass] أهلاً وسهلاً ... when she say ana min Suuriya, you say ahlan"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 4568.6,
+     "quote": "[ar pass] أهلاً وسهلاً - her goodbye at the very end"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 768.08,
+     "end": 769.6,
+     "context": "modelling the exchange 'ahlan wa sahlan -> ahlan biki'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 822.0,
+     "end": 823.46,
+     "context": "'so you say ahlan wa sahlan'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4568.65,
+     "end": 4569.7,
+     "context": "last words of class, said alone",
+     "confidence": "high"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 753.56,
+     "end": 755.12,
+     "who": "Lingco oral-assessment recording (female 'Dina' track), loud ~-8 dB"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Oral-assessment walkthrough (Unit 2 Drill 15, Lingco, Shami female track): the loud spans (~-7 dB) are the Lingco speaker ('Dina'); her own re-statements are ~-10 to -16 dB. Pitch cannot separate the two (both female).",
+    "She closed the class with 'ahlan wa sahlan' (76:09)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "أَهلاً بِكِ",
+   "arabic_bare": "أهلا بك",
+   "translit": "ahlan biki",
+   "meaning": "(reply to ahlan wa sahlan, to a woman) Welcome to you",
+   "register": "formal",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U2 vocab u02_0019 formal أهلاً بكِ ahlan biki",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 761.9,
+     "quote": "[ar pass] أهلا ... أهلا بكي better, but you could say ahlan as well ... أهلا بكي or ahlan, no problem"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 763.62,
+     "end": 764.58,
+     "context": "'ahlan biki - better'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 769.6,
+     "end": 770.62,
+     "context": "'... ahlan biki, or ahlan, no problem'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Oral-assessment walkthrough (Unit 2 Drill 15, Lingco, Shami female track): the loud spans (~-7 dB) are the Lingco speaker ('Dina'); her own re-statements are ~-10 to -16 dB. Pitch cannot separate the two (both female).",
+    "'Ahlan biki - better - but you could say ahlan as well' (12:43-12:47). -ki because the recorded speaker is a woman; to a man it is ahlan bika (formal)."
+   ],
+   "gender_pair_of": "أَهلاً بِكَ",
+   "confidence": "high"
+  },
+  {
+   "arabic": "أَهلاً فيكِ",
+   "arabic_bare": "أهلا فيك",
+   "translit": "ahlan fiiki",
+   "meaning": "(reply to ahlan wa sahlan, to a woman) Welcome to you",
+   "register": "shaami",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U2 vocab u02_0019 shaami أهلاً فيكِ ahlan fiiki",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 828.2,
+     "quote": "[ar pass] so she said أهلاً فيكي and that's it, I think it's ending"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 828.24,
+     "end": 829.46,
+     "context": "'so she said ahlan fiiki'",
+     "confidence": "med"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 812.46,
+     "end": 814.02,
+     "who": "Lingco oral-assessment recording (loud ~-7 dB)"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 911.68,
+     "end": 912.85,
+     "who": "Lingco recording during her live recording test (loud ~-8 dB)"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Oral-assessment walkthrough (Unit 2 Drill 15, Lingco, Shami female track): the loud spans (~-7 dB) are the Lingco speaker ('Dina'); her own re-statements are ~-10 to -16 dB. Pitch cannot separate the two (both female).",
+    "The Shami reply heard in the oral-assessment recording; the formal counterpart she recommended is ahlan biki."
+   ],
+   "gender_pair_of": "أَهلاً فيك",
+   "confidence": "high"
+  },
+  {
+   "arabic": "أَنا اسمي ...",
+   "arabic_bare": "أنا اسمي ...",
+   "translit": "ana ismii ... (spoken: ana ismi ...)",
+   "meaning": "My name is ...",
+   "register": "both",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": 1,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U1 vocab: أَنا ana, اسمي ismii",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 677.1,
+     "quote": "[en] yes what's her name, did you catch? Dina, Dina. Ismi, ana ismi Dina"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 694.6,
+     "quote": "[en] You could say ahlan, ismi Lassan, or just ismi Lassan"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 680.44,
+     "end": 683.28,
+     "context": "'ismi Diinaa, ana ismi Diinaa' - repeating the recording",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 695.44,
+     "end": 697.06,
+     "context": "'you could say ahlan, ismi Lawson' (a student's name)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 697.54,
+     "end": 698.56,
+     "context": "'or just ismi Lawson'",
+     "confidence": "med"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 667.14,
+     "end": 668.96,
+     "who": "Lingco recording 'ana ismi Dina' (loud ~-7 dB)"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Oral-assessment walkthrough (Unit 2 Drill 15, Lingco, Shami female track): the loud spans (~-7 dB) are the Lingco speaker ('Dina'); her own re-statements are ~-10 to -16 dB. Pitch cannot separate the two (both female).",
+    "Both 'ahlan, ismi X' and just 'ismi X' accepted (11:34-11:38) - but see the full-sentence rule under ana min."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "شو اسم حَضِرتِك؟ / شو اسم حَضِرتَك؟",
+   "arabic_bare": "شو اسم حضرتك؟ / شو اسم حضرتك؟",
+   "translit": "shuu ism HaDirtik? / shuu ism HaDirtak?",
+   "meaning": "What is your name? (polite; to a woman / to a man)",
+   "register": "shaami",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U2: shaami شو؟ shuu, اِسم ism, حَضِرتَك/حَضِرتِك HaDәrtak/HaDәrtik",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 683.3,
+     "quote": "[ar pass] شو اسم حضرتك ... the male version would be شو اسم حضرتك"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 685.7,
+     "quote": "[en] The male version would be shoo ism, hadertak"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 683.28,
+     "end": 685.52,
+     "context": "repeating the recording's question (female-addressed form)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 687.2,
+     "end": 688.84,
+     "context": "'the male version would be shuu ism HaDirtak'",
+     "confidence": "high"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 668.96,
+     "end": 671.12,
+     "who": "Lingco recording's question (loud ~-9 dB)"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Oral-assessment walkthrough (Unit 2 Drill 15, Lingco, Shami female track): the loud spans (~-7 dB) are the Lingco speaker ('Dina'); her own re-statements are ~-10 to -16 dB. Pitch cannot separate the two (both female).",
+    "She contrasted the form in the female track with 'the male version would be shuu ism HaDirtak' (11:24-11:29)."
+   ],
+   "gender_pair_of": "شو اسم حَضِرتَك؟",
+   "confidence": "med"
+  },
+  {
+   "arabic": "حَضِرتَك / حَضِرتِك",
+   "arabic_bare": "حضرتك / حضرتك",
+   "translit": "HaDirtak / HaDirtik (formal HaDratuka / HaDratuki)",
+   "meaning": "you (polite; to a man / to a woman)",
+   "register": "shaami",
+   "kind": "vocab",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U2 vocab u02_0021/0022 shaami حَضِرتَك/حَضِرتِك; formal حَضرَتُكَ/حَضرَتُكِ",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 795.0,
+     "quote": "[en] someone said ... (ar pass) حضرتك حضرتك so either من أين حضرتك or من أين أنت"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 796.34,
+     "end": 797.9,
+     "context": "'someone said HaDirtak'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 800.44,
+     "end": 802.18,
+     "context": "inside 'min ayna HaDirtak'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Oral-assessment walkthrough (Unit 2 Drill 15, Lingco, Shami female track): the loud spans (~-7 dB) are the Lingco speaker ('Dina'); her own re-statements are ~-10 to -16 dB. Pitch cannot separate the two (both female).",
+    "A student used HaDirtak; she accepted both 'min ayna HaDirtak' and 'min ayna anta' (13:16-13:24)."
+   ],
+   "gender_pair_of": "حَضِرتِك",
+   "confidence": "high"
+  },
+  {
+   "arabic": "تشَرَّفنا",
+   "arabic_bare": "تشرفنا",
+   "translit": "tsharrafna (formal tasharrafnaa)",
+   "meaning": "Nice to meet you! / We are honored",
+   "register": "both",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U2 vocab u02_0023",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 622.8,
+     "quote": "[en] then you have either to ask a question or to say to sharafna back"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 706.4,
+     "quote": "[en] How would you answer? Sharrafna."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 706.34,
+     "end": 707.28,
+     "context": "'How would you answer? - tsharrafna'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 623.82,
+     "end": 624.44,
+     "context": "'or to say tsharrafna back' (inside English)",
+     "confidence": "low"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 703.16,
+     "end": 704.1,
+     "who": "Lingco recording 'tsharrafna' (loud ~-8 dB)"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Oral-assessment walkthrough (Unit 2 Drill 15, Lingco, Shami female track): the loud spans (~-7 dB) are the Lingco speaker ('Dina'); her own re-statements are ~-10 to -16 dB. Pitch cannot separate the two (both female).",
+    "In the oral assessment, when the speaker says tsharrafna you answer tsharrafna back (10:23-10:25)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "مِن وين حَضِرتِك؟",
+   "arabic_bare": "من وين حضرتك؟",
+   "translit": "min ween HaDirtik?",
+   "meaning": "Where are you from? (polite, to a woman)",
+   "register": "shaami",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U2 vocab u02_0029 shaami من وين؟ min ween",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 708.7,
+     "quote": "[ar pass] من وين حضرتك? (x3, 708.7-714.4)"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 710.94,
+     "end": 712.88,
+     "context": "repeating the recording's question",
+     "confidence": "low"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 713.0,
+     "end": 714.38,
+     "context": "second repetition before 'Do you remember ween?'",
+     "confidence": "low"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 708.7,
+     "end": 710.76,
+     "who": "Lingco recording question (loud ~-7 dB)"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Oral-assessment walkthrough (Unit 2 Drill 15, Lingco, Shami female track): the loud spans (~-7 dB) are the Lingco speaker ('Dina'); her own re-statements are ~-10 to -16 dB. Pitch cannot separate the two (both female).",
+    "Followed at once by the ween = ayna gloss."
+   ],
+   "gender_pair_of": "مِن وين حَضِرتَك؟",
+   "confidence": "med"
+  },
+  {
+   "arabic": "وين",
+   "arabic_bare": "وين",
+   "translit": "ween",
+   "meaning": "where? (Levantine)",
+   "register": "shaami",
+   "kind": "vocab",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U2 vocab u02_0028 shaami وين؟ ween",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 714.5,
+     "quote": "[en/ar] Do you remember ween? ayna. ayna is ween. What's ayna? Where"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 714.94,
+     "end": 715.46,
+     "context": "'Do you remember ween?'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 718.74,
+     "end": 719.12,
+     "context": "'ayna is ween'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "'Do you remember ween? ayna - ayna is ween. What's ayna? Where.' (11:54-12:02) - the Shami and formal words for 'where'."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "أَيْنَ",
+   "arabic_bare": "أين",
+   "translit": "ayna",
+   "meaning": "where?",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U2 vocab u02_0028",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 716.1,
+     "quote": "[ar pass] أين أين is وين What's أين? Where"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 716.12,
+     "end": 718.12,
+     "context": "'ayna, ayna' right after 'Do you remember ween?'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 719.9,
+     "end": 720.2,
+     "context": "'What's ayna?'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 725.9,
+     "end": 726.7,
+     "context": "'... where, ayna, all the same'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Glossed as the formal twin of ween (11:56-12:07)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "أَنا مِن ...",
+   "arabic_bare": "أنا من ...",
+   "translit": "ana min ...",
+   "meaning": "I am from ...",
+   "register": "both",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": 1,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U1 vocab: أَنا ana, مِن min",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 737.3,
+     "quote": "[en] Anna, men? Say, say it. Lynchburg, America, Virginia, Pennsylvania, you could whatever put after Anna, men"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 1010.4,
+     "quote": "[en] always answer with a full sentence ... so when she said, don't say America, no, I want the whole sentence"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 737.34,
+     "end": 738.62,
+     "context": "'ana min...? say it'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 748.46,
+     "end": 749.1,
+     "context": "'whatever you put after ana min'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Oral-assessment walkthrough (Unit 2 Drill 15, Lingco, Shami female track): the loud spans (~-7 dB) are the Lingco speaker ('Dina'); her own re-statements are ~-10 to -16 dB. Pitch cannot separate the two (both female).",
+    "'Lynchburg, America, Virginia, Pennsylvania - you could put whatever after ana min' (12:23-12:29).",
+    "Rule for EVERY oral assessment: answer in a full sentence - 'when she said, don't say America, no, I want the whole sentence' (16:42-17:00); dropping words is fine with friends, not in assessments."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "أَنا مِن سوريا",
+   "arabic_bare": "أنا من سوريا",
+   "translit": "ana min suuriyaa",
+   "meaning": "I am from Syria",
+   "register": "both",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 785.3,
+     "quote": "[ar pass] she said أنا من سوريا, what's the question?"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 823.5,
+     "quote": "[en] when she say i am in surya, you say ..."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 785.62,
+     "end": 787.12,
+     "context": "'she said: ana min suuriyaa'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 816.06,
+     "end": 817.22,
+     "context": "'she said ana min suuriyaa'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 824.6,
+     "end": 825.88,
+     "context": "'when she says ana min suuriyaa'",
+     "confidence": "med"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 775.12,
+     "end": 777.0,
+     "who": "Lingco recording answer (loud ~-8 dB)"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Oral-assessment walkthrough (Unit 2 Drill 15, Lingco, Shami female track): the loud spans (~-7 dB) are the Lingco speaker ('Dina'); her own re-statements are ~-10 to -16 dB. Pitch cannot separate the two (both female).",
+    "The recorded speaker answers ana min suuriyaa; you must ask her 'where are you from?' first (13:05-13:28)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "سوريا",
+   "arabic_bare": "سوريا",
+   "translit": "suuriyaa",
+   "meaning": "Syria",
+   "register": "both",
+   "kind": "place",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 785.6,
+     "quote": "[ar pass] أنا من سوريا"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 222.9,
+     "quote": "[en] they will say, oh, you have a Syrian teacher"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 786.4,
+     "end": 787.12,
+     "context": "end of 'ana min suuriyaa'",
+     "confidence": "low"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 816.6,
+     "end": 817.22,
+     "context": "end of 'ana min suuriyaa'",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Her own country ('in Syria and Lebanon and Jordan we call the plum khawkh'). س is NOT emphatic, so the translit starts with a lower-case s."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "مِن أَيْنَ أَنتَ؟ / مِن أَيْنَ أَنتِ؟",
+   "arabic_bare": "من أين أنت؟ / من أين أنت؟",
+   "translit": "min ayna anta? / min ayna anti?",
+   "meaning": "Where are you from? (to a man / to a woman)",
+   "register": "formal",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U2 vocab u02_0029 مِن أَيْنَ؟ + u02_0024/25 أَنتَ/أَنتِ",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 787.1,
+     "quote": "[en] What's the question? / [ar pass] من أين أنت or من أين ... so either من أين حضرتك or من أين أنت"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 790.88,
+     "end": 792.66,
+     "context": "answering 'what's the question?' (which of anta/anti she said is not audible in the passes)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 793.2,
+     "end": 794.14,
+     "context": "'or min ayna'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 802.62,
+     "end": 803.9,
+     "context": "'or min ayna anta/anti'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Oral-assessment walkthrough (Unit 2 Drill 15, Lingco, Shami female track): the loud spans (~-7 dB) are the Lingco speaker ('Dina'); her own re-statements are ~-10 to -16 dB. Pitch cannot separate the two (both female).",
+    "'So you have to ask this question before she gives you the answer' (13:26-13:28). Also accepted: min ayna HaDirtik (polite)."
+   ],
+   "gender_pair_of": "مِن أَيْنَ أَنتِ؟",
+   "confidence": "high"
+  },
+  {
+   "arabic": "أَمريكا",
+   "arabic_bare": "أمريكا",
+   "translit": "amriikaa",
+   "meaning": "America",
+   "register": "both",
+   "kind": "place",
+   "status": "incidental",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 743.9,
+     "quote": "[en] Lynchburg, America, Virginia, Pennsylvania (said in English)"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 894.9,
+     "quote": "Teams caption 'And I am in America' during her live recording test (neither whisper pass transcribed it)"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1015.12,
+     "end": 1015.76,
+     "context": "'don't say [amriikaa] - no, I want the whole sentence' (the one-word answer she forbids; Arabic pass heard أمريكا nearby, English pass 'America')",
+     "confidence": "low"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 894.95,
+     "end": 896.64,
+     "context": "possibly her own test answer 'ana min amriikaa' while recording on Lingco (untranscribed)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Mostly said in English as an example of what goes after ana min; the Arabic form is unconfirmed."
+   ],
+   "gender_pair_of": null,
+   "confidence": "low"
+  },
+  {
+   "arabic": "دينا",
+   "arabic_bare": "دينا",
+   "translit": "diinaa (Dina)",
+   "meaning": "Dina - the woman's name in the oral-assessment recording",
+   "register": "both",
+   "kind": "name",
+   "status": "incidental",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 677.1,
+     "quote": "[en] what's her name, did you catch? dina, dina"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 679.28,
+     "end": 680.44,
+     "context": "'Dina, Dina' (answering her own question)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Only as 'ana ismi Diinaa' in the Lingco recording."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "فَتْحة",
+   "arabic_bare": "فتحة",
+   "translit": "fatHa",
+   "meaning": "fatHa - the short 'a' vowel mark (a small slash above the letter)",
+   "register": "formal",
+   "kind": "grammar",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 1244.1,
+     "quote": "[en] And you know one word that has a H, which is Fath[a]"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 1252.1,
+     "quote": "[en] we're not reading it as fat-ha ... No, fat-Ha, we'll stop here, and then Ha"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 1325,
+     "quote": "board: 'fatHa' written in Latin letters next to حاء / H"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1249.05,
+     "end": 1249.9,
+     "context": "'one word that has a Haa, which is: fatHa' - said alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1474.86,
+     "end": 1475.34,
+     "context": "'because you know fatHa, you know the word'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3207.92,
+     "end": 3208.4,
+     "context": "'let's try it with a fatHa'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/board_1325_jiim_Haa_forms_fatHa.jpg",
+   "card_notes": [
+    "Her first example of the new letter: 'you know one word that has a Haa, which is fatHa' (20:45-20:50).",
+    "Warning: the 'tH' is NOT the English 'th' - 'we're not reading it as fat-ha ... fat - we stop here, and then Ha' (20:53-21:02).",
+    "Avoid 1257.6-1258.7: that is her imitation of the WRONG reading."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "نَحْلة",
+   "arabic_bare": "نحلة",
+   "translit": "naHla",
+   "meaning": "bee",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 1410.7,
+     "quote": "[en] If you say nahla, that's a B. If you say nahla, that's a palm tree. If you say nahla, that's a proper name"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 1914.5,
+     "quote": "[en] again nakhla, palm tree, nakhla [=naHla] is a b, so we want to convey the right letter, the right word"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1910.94,
+     "end": 1911.87,
+     "context": "reading the bee slide: 'Okay, this one: naHla' - alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1411.38,
+     "end": 1412.02,
+     "context": "'If you say naHla, that's a bee' (inside English)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1916.62,
+     "end": 1917.28,
+     "context": "'... naHla is a bee'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1923.82,
+     "end": 1925.04,
+     "context": "re-model after 'the right word' (ar pass نحلا)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1952.64,
+     "end": 1954.07,
+     "context": "'so naHla - good, better'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/proj_1930_bee_naHla.jpg",
+   "card_notes": [
+    "Three-way minimal set: 'If you say naHla, that's a bee. If you say nakhla, that's a palm tree. If you say nahla, that's a proper name. So we have to be careful about this sound.' (23:31-23:43)",
+    "The trap she heard over and over: 'I'm still hearing some saying nakhla. If you're saying nakhla you're hitting above where you're supposed to hit. It's the back of the throat but above - that's the next letter by the way ... This one is a little bit down.' (32:09-32:28)",
+    "The slide itself was only on the room projector (not screen-shared); the bee picture is visible at the edge of the camera frame. Vowelling from own knowledge."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "نَخْلة",
+   "arabic_bare": "نخلة",
+   "translit": "nakhla",
+   "meaning": "palm tree",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 1413.7,
+     "quote": "[en] If you say nahla [=nakhla], that's a palm tree"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 1915.3,
+     "quote": "[en] again nakhla palm tree"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1414.36,
+     "end": 1415.0,
+     "context": "'If you say nakhla, that's a palm tree' (inside English)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1915.26,
+     "end": 1915.92,
+     "context": "'again, nakhla - palm tree'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1930.84,
+     "end": 1931.66,
+     "context": "'I'm still hearing some saying nakhla' (she says the khaa word on purpose)",
+     "confidence": "low"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1933.6,
+     "end": 1934.18,
+     "context": "'if you're saying nakhla, you're hitting above'",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "The khaa twin of naHla (bee); she used it only as the contrast word, never on a slide.",
+    "Singular of nakhiil (palm trees), which did appear on a slide later."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "نَهْلة",
+   "arabic_bare": "نهلة",
+   "translit": "nahla",
+   "meaning": "Nahla - a girl's name (with plain h, ه)",
+   "register": "formal",
+   "kind": "name",
+   "status": "incidental",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 1417.6,
+     "quote": "[en] If you say nahla, that's a proper name"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1417.98,
+     "end": 1418.5,
+     "context": "'If you say nahla, that's a proper name' (inside English)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Third member of her naHla / nakhla / nahla set: the same skeleton with English-style h (letter haa ه, not yet taught) is a woman's name.",
+    "Translit is lower-case h because ه is the plain h."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "حَبيب",
+   "arabic_bare": "حبيب",
+   "translit": "Habiib",
+   "meaning": "darling, beloved; 'a love'",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": 3,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U3 LE2 #1 حَـ‍‍بـيـب; answer key U3 Drill 2 #3 حَبيب",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 1705.4,
+     "quote": "[en] All right. First one. Habib. Yes, say it. Habib. Good. Habib."
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 1720.1,
+     "quote": "[en] Habib, a love"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 4429.0,
+     "quote": "[en] Is that the word that means darling? - Habib: darling, Habibi: my darling"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1707.39,
+     "end": 1708.48,
+     "context": "book p.49 LE2 #1, modelled alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1710.86,
+     "end": 1711.8,
+     "context": "'Yes, say it: Habiib'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1713.46,
+     "end": 1714.41,
+     "context": "'Good. Habiib.'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1720.01,
+     "end": 1720.75,
+     "context": "'Habiib - a love'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4429.04,
+     "end": 4429.72,
+     "context": "answering a student in Drill 2: 'Habiib - darling'",
+     "confidence": "med"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 4355.88,
+     "end": 4356.73,
+     "who": "Lingco Drill 2 #3 video (F0 ~176 Hz = the clip, which matches)"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4359.75,
+     "end": 4360.87,
+     "who": "Lingco Drill 2 #3 video"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4363.99,
+     "end": 4365.08,
+     "who": "Lingco Drill 2 #3 video"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Book p.49 (Listening Exercise 2) #1, also Drill 2 #3 and Drill 4 #3; the book's handwriting model for ح is حبيب.",
+    "'Habiib - darling; Habiibi - my darling' (73:49-73:52)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "حَبيبي / حَبيبَتي",
+   "arabic_bare": "حبيبي / حبيبتي",
+   "translit": "Habiibii / Habiibatii (spoken: Habiibi / Habiibti)",
+   "meaning": "my darling, my love (to a man / to a woman)",
+   "register": "both",
+   "kind": "possessive-form",
+   "status": "taught",
+   "book_unit": 3,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U3 vocab u03_0039 حَبيبي, u03_0040 حَبيبَتي",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 1716.6,
+     "quote": "[en] If you say Habibi, that's my love ... You know the word Habibi, correct? Habibi, my darling, my love. You could use it with children. Come here, Habibi."
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 1732.7,
+     "quote": "[en] Husband to wife, fiances, boyfriend, girlfriend. It's inappropriate in a formal setting."
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 2531.6,
+     "quote": "[en] if you're talking to a woman, you're supposed to say Habibti. Habib[i] became more casual and they're using it as gender-ness. But the proper one Habib[i] masculine and Habibti feminine."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1716.6,
+     "end": 1718.77,
+     "context": "'If you say Habiibi, that's my love' (word ~1717.8-1718.5)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1723.94,
+     "end": 1724.62,
+     "context": "'Habiibi, my darling, my love'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1729.3,
+     "end": 1730.78,
+     "context": "'Come here, Habiibi' (word ~1729.8-1730.2)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4431.06,
+     "end": 4431.52,
+     "context": "'Habiibi - my darling'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2543.24,
+     "end": 2543.98,
+     "context": "'...and Habiibti, feminine' (feminine form; quieter)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Register: 'You could use it with children - come here, Habiibi. Husband to wife, fiances, boyfriend, girlfriend. It's inappropriate in a formal setting.' (28:47-29:01)",
+    "Gender: 'if you're talking to a woman, you're supposed to say Habiibti. Habiibi became more casual and they're using it as genderless. But the proper one: Habiibi masculine and Habiibti feminine.' (42:08-42:25)",
+    "Lingco prints the feminine حَبيبَتي (formal Habiibatii); in speech it is Habiibti."
+   ],
+   "gender_pair_of": "حَبيبَتي",
+   "confidence": "high"
+  },
+  {
+   "arabic": "بَحْث",
+   "arabic_bare": "بحث",
+   "translit": "baHth",
+   "meaning": "research",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": 3,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U3 LE2 #2 بَ‍‍‍ح‍ـث; answer key U3 Drill 2 #2 بَحث",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 1743.5,
+     "quote": "[en] number two ... (ar pass) بحث. Yes. بحث. بحث. Good. بحث means research."
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 4278.0,
+     "quote": "[en] Drill 2, two: bath bath (her + the Lingco clip)"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1745.91,
+     "end": 1746.47,
+     "context": "book p.49 LE2 #2, modelled alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1749.32,
+     "end": 1749.8,
+     "context": "'Yes - baHth'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1751.45,
+     "end": 1751.77,
+     "context": "third model",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1753.73,
+     "end": 1754.87,
+     "context": "'baHth means research' (word ~1753.7-1754.0; quieter)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4280.05,
+     "end": 4280.82,
+     "context": "Drill 2 #2 at the board (F0 241 Hz = her)",
+     "confidence": "med"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 4283.62,
+     "end": 4284.08,
+     "who": "Lingco Drill 2 #2 video (F0 ~205 Hz, clip match 0.96)"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4288.86,
+     "end": 4289.3,
+     "who": "Lingco Drill 2 #2 video"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "'baHth means research' (29:14). Book p.49 LE2 #2; Drill 2 #2."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "تَبوح",
+   "arabic_bare": "تبوح",
+   "translit": "tabuuH",
+   "meaning": "(she) reveals / (you) reveal - e.g. a secret (not glossed in class)",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 3,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U3 LE2 #3 تَـبـوح; book p.49",
+   "meaning_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 1756.6,
+     "quote": "[en] number three ... (ar pass) تبوح. تبوح. تبوح - now notice here the ha is with the sukoon - تبوح not ha تبوح"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 1801.8,
+     "quote": "[en] so one more time: taboo taboo ... make sure your lower jaw, they're not going back"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1758.1,
+     "end": 1759.03,
+     "context": "book p.49 LE2 #3, first model, alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1761.14,
+     "end": 1762.04,
+     "context": "second model",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1763.56,
+     "end": 1764.54,
+     "context": "third model",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1802.03,
+     "end": 1802.83,
+     "context": "'so one more time: tabuuH'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1822.61,
+     "end": 1823.61,
+     "context": "'so tabuuH - better'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "'Now notice here the Haa is with the sukuun' (29:25-29:29) - the Haa closes the word; she contrasted it with an English-h ending ('tabuuH, not -h').",
+    "Jaw/tongue: 'make sure your lower jaw ... not going back; your tongue is going a little bit back to make the sound ... the jaw is not supposed to move.' (30:06-30:22)",
+    "The gym analogy was given right here (see letter ح).",
+    "Meaning is not given in class; 'reveals/discloses' is own knowledge."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "صَباح",
+   "arabic_bare": "صباح",
+   "translit": "SabaaH",
+   "meaning": "morning",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": 3,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U3 LE2 #4 صَباح; vocab u03_0041 صَباح الْخَير",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 1829.9,
+     "quote": "[en] Number four. Sabah. Sabah. Good, good. Sabah. Good job. This word means morning."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1831.91,
+     "end": 1832.99,
+     "context": "book p.49 LE2 #4, alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1834.96,
+     "end": 1836.02,
+     "context": "second model",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1838.78,
+     "end": 1839.71,
+     "context": "'Good, good. SabaaH.'",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "'This word means morning' (30:42). The first word of the Unit 3 greeting SabaaH al-khayr."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "حَلْوى",
+   "arabic_bare": "حلوى",
+   "translit": "Halwaa",
+   "meaning": "candy, sweets",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 1895.3,
+     "quote": "[en] Okay, this word, repeat after me. Halwa. Halwa. Good. Halwa. Good job. It's easier with a fatha."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1897.59,
+     "end": 1898.45,
+     "context": "'repeat after me: Halwaa'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1900.18,
+     "end": 1901.07,
+     "context": "second model",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1902.94,
+     "end": 1903.84,
+     "context": "'Good. Halwaa.'",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/proj_1900_candy_Halwaa.jpg",
+   "card_notes": [
+    "Slide shown only on the room projector (the recording was on the camera, not screen-shared); only the picture is visible at the frame edge, so the spelling is standard vowelling from own knowledge.",
+    "First word of the Twinkl Haa deck (picture: wrapped candies). 'It's easier with a fatHa' (31:46).",
+    "Her 'Where is the Haa? Yes, initial here' (31:28-31:34) refers to this slide."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "حِصان",
+   "arabic_bare": "حصان",
+   "translit": "HiSaan",
+   "meaning": "horse",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 1962.5,
+     "quote": "[en] and ... is this, is it easier or harder? easier ... good ... good job (ar pass حسان x4)"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1963.42,
+     "end": 1964.58,
+     "context": "first model (ar pass حسان)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1973.0,
+     "end": 1974.11,
+     "context": "after 'easier' (ar حسان)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1978.57,
+     "end": 1979.64,
+     "context": "last model before 'good job'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/proj_1972_horse_Hisaan.jpg",
+   "card_notes": [
+    "Slide shown only on the room projector (the recording was on the camera, not screen-shared); only the picture is visible at the frame edge, so the spelling is standard vowelling from own knowledge.",
+    "Picture: a horse. She asked whether Haa + kasra ('Hi') is easier or harder; the class said easier (32:46-32:52).",
+    "Translit HiSaan: the second consonant is ص (emphatic S)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "حافِلة",
+   "arabic_bare": "حافلة",
+   "translit": "Haafila",
+   "meaning": "bus",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 1983.8,
+     "quote": "[en] for the bus we say bus, we say in Egypt they say autobies, but the fusha word is hafila, hafila, good job"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1992.51,
+     "end": 1993.58,
+     "context": "'...the fuSHaa word is Haafila'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1995.85,
+     "end": 1996.95,
+     "context": "second model",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/proj_1990_bus_Haafila.jpg",
+   "card_notes": [
+    "Slide shown only on the room projector (the recording was on the camera, not screen-shared); only the picture is visible at the frame edge, so the spelling is standard vowelling from own knowledge.",
+    "'For the bus ... in Egypt they say otobiis, but the fuSHaa word is Haafila.' (33:04-33:14) The Egyptian word is noted here only - do not card it.",
+    "Lingco's Unit 5 vocab lists أوتوبيس for 'bus' (formal and shaami); she gave Haafila as the FuSHa word."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "حَديد",
+   "arabic_bare": "حديد",
+   "translit": "Hadiid",
+   "meaning": "iron (she said 'steel')",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 2000.3,
+     "quote": "[en] okay this is a steel: hadeed, hadeed"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 2002.05,
+     "end": 2002.95,
+     "context": "model right after 'this is steel'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2004.89,
+     "end": 2005.86,
+     "context": "second model",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2007.6,
+     "end": 2008.67,
+     "context": "third model (untranscribed)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/proj_2005_iron_Hadiid.jpg",
+   "card_notes": [
+    "Slide shown only on the room projector (the recording was on the camera, not screen-shared); only the picture is visible at the frame edge, so the spelling is standard vowelling from own knowledge.",
+    "Picture: iron bars. 'This is steel: Hadiid' (33:20)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "فَلّاح",
+   "arabic_bare": "فلاح",
+   "translit": "fallaaH",
+   "meaning": "farmer",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 2013.0,
+     "quote": "[en] right, new one ... Fallah. Fallah. Good."
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 2032.9,
+     "quote": "[en] (student) Is that the first one ...? - That's fa. F, yeah, fa."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 2015.51,
+     "end": 2016.68,
+     "context": "first model after 'new one' (untranscribed)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2019.52,
+     "end": 2020.56,
+     "context": "'fallaaH'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2022.82,
+     "end": 2023.87,
+     "context": "'fallaaH'",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/proj_2035_farmer_fallaaH.jpg",
+   "card_notes": [
+    "Slide shown only on the room projector (the recording was on the camera, not screen-shared); only the picture is visible at the frame edge, so the spelling is standard vowelling from own knowledge.",
+    "Picture: a farmer with a pitchfork; the Haa is FINAL here. A student asked about the first letter - 'that's faa, F' (a letter not taught yet)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "حاجِب",
+   "arabic_bare": "حاجب",
+   "translit": "Haajib",
+   "meaning": "eyebrow",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "PowerPoint thumbnail slide 11 in frame 2228 (حاجِب, kasra under jiim)",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 2064.8,
+     "quote": "[en] all right so we're still with the ha, so this one ... good, good, good job"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 2067.52,
+     "end": 2068.5,
+     "context": "right after 'so this one' (untranscribed; F0 239 Hz = her)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/ppt_2228_thumbs_Haajib_Huut_naHiil_Haliib.jpg",
+   "card_notes": [
+    "Slide 11 of the Twinkl Haa deck (thumbnail visible when she screen-shared at 37:08: حاجِب with an eye/eyebrow picture). No gloss and no transcribed utterance."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "حوت",
+   "arabic_bare": "حوت",
+   "translit": "Huut",
+   "meaning": "whale",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 3,
+   "spelling_source": "slide",
+   "spelling_ref": "PowerPoint thumbnail slide 12; answer key U3 Drill 2 #1 حوت",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 2078.3,
+     "quote": "[en] okay, here with a waw, so let's see: hoot, hoot ... I'm hearing 'hoot' ... the Ha with the dhamma or with the waw need a little bit more practice"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 4204.8,
+     "quote": "[en] (Drill 2 #1) all right Parker, your turn ... food food"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 2082.1,
+     "end": 2083.06,
+     "context": "slide 12, 'let's see: Huut' (may include her imitation of the wrong 'hoot')",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2085.19,
+     "end": 2086.14,
+     "context": "second model",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2140.1,
+     "end": 2141.85,
+     "context": "'okay, so Huut, Huut'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4211.22,
+     "end": 4211.96,
+     "context": "Drill 2 #1 at the board (F0 274 Hz = her)",
+     "confidence": "low"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 4209.91,
+     "end": 4210.42,
+     "who": "Lingco Drill 2 #1 video (clip match 0.94)"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4214.24,
+     "end": 4214.88,
+     "who": "Lingco Drill 2 #1 video (clip match 0.95)"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/ppt_2228_thumbs_Haajib_Huut_naHiil_Haliib.jpg",
+   "card_notes": [
+    "Slide 12 (thumbnail, whale picture) and Dictation Drill 2 #1 (answer key حوت).",
+    "'I'm hearing hoot' - the class used an English h; 'the Haa with the Damma or with the waw needs a little bit more practice, from my experience with other students' (34:50-35:00).",
+    "Careful when cutting: 2090.5-2091.6 is her IMITATING the wrong 'hoot'."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "نَحيل",
+   "arabic_bare": "نحيل",
+   "translit": "naHiil",
+   "meaning": "thin (a thin person)",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide: نَحيل (fatHa on nuun only)",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 2293.1,
+     "quote": "[en] All right, so nahil, it means thin, thin person. So naheel."
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 2300.7,
+     "quote": "[en] be careful, not naheel [nakhiil] - a plural of palm tree, palm trees. So we don't want to say this person is a palm tree. We want to say naheel."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 2293.2,
+     "end": 2296.13,
+     "context": "'All right, so naHiil, it means thin' (word ~2293.8-2294.9)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2297.55,
+     "end": 2298.98,
+     "context": "'so naHiil'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2312.84,
+     "end": 2314.58,
+     "context": "'we want to say: naHiil'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2315.58,
+     "end": 2317.46,
+     "context": "'good - naHiil'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3450.62,
+     "end": 3451.5,
+     "context": "later: 'Do you remember naHiil?' (ar pass نحيل)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_2243_naHiil.jpg",
+   "card_notes": [
+    "'naHiil - it means thin, thin person' (38:13-38:17). 'Be careful - not nakhiil, a plural of palm tree. So we don't want to say this person is a palm tree!' (38:21-38:31)",
+    "Slide header: أنتَبِهُ إلى مُعلّمي، ثُمَّ ألفُظُ المُدودَ مُستَعينًا بالصّورة ('I pay attention to my teacher, then pronounce the long vowels with the help of the picture'). She translated it when a student asked and said these decks are made for heritage speakers who speak but cannot read (37:24-38:12)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "نَخيل",
+   "arabic_bare": "نخيل",
+   "translit": "nakhiil",
+   "meaning": "palm trees (plural of nakhla)",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide: نَخيل",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 2300.7,
+     "quote": "[en] be careful, not naheel naheel - a plural of palm tree, palm trees"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 3446.7,
+     "quote": "[ar pass] Okay, this one, نخيل. Do you remember نحيل? That's نخيل. So one more time, نخيل."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3446.68,
+     "end": 3448.9,
+     "context": "khaa slide: 'Okay, this one: nakhiil' (ar pass نخيل)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3453.77,
+     "end": 3456.38,
+     "context": "'That's nakhiil' (ar نخيل)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3457.91,
+     "end": 3459.95,
+     "context": "'so one more time: nakhiil' (ar نخيل)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2301.5,
+     "end": 2302.86,
+     "context": "earlier contrast: 'not nakhiil, nakhiil - plural of palm tree'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_3444_nakhiil.jpg",
+   "card_notes": [
+    "She paired it with naHiil twice (38:20 and 57:27-58:20). 'Did you see the difference? With a khaa, there is some little bit of vibration, but up.' (58:05-58:10)",
+    "In the 57:40-58:20 drill she alternated naHiil and nakhiil; the passes cannot tell which is which after 3460 s, so only the labelled spans are given."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "حَليب",
+   "arabic_bare": "حليب",
+   "translit": "Haliib",
+   "meaning": "milk",
+   "register": "both",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": 6,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide حَليب; Lingco U6 vocab u06_0113",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 2328.1,
+     "quote": "[en] okay, and milk: halib. Good. halib, halib. Good job. Yeah, I think you got the ha. We still need to work on the hi and the hu, those are harder."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 2329.0,
+     "end": 2331.47,
+     "context": "'and milk: Haliib' (word ~2330.3-2331.4)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2333.69,
+     "end": 2334.77,
+     "context": "'good - Haliib'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2336.37,
+     "end": 2337.45,
+     "context": "third model",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_2330_Haliib.jpg",
+   "card_notes": [
+    "'I think you got the Ha. We still need to work on the Hi and the Hu - those are harder.' (39:00-39:06)",
+    "Also Lingco Unit 6 vocabulary (Haliib = milk in formal and shaami)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "حُبوب",
+   "arabic_bare": "حبوب",
+   "translit": "Hubuub",
+   "meaning": "grains, cereal (also: pills)",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide حُبوب",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 2346.3,
+     "quote": "[en] okay hubub hubub ... make sure it's a hubub ... hubub, that's the sound of the wind; hubub is grain, so you need to be careful"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 2348.57,
+     "end": 2349.64,
+     "context": "first model of the slide word",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2351.49,
+     "end": 2352.51,
+     "context": "second model",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2361.36,
+     "end": 2363.23,
+     "context": "'Hubuub is grain' (word ~2361.4-2362.4)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2366.13,
+     "end": 2367.63,
+     "context": "'so Hubuub, Hubuub'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2369.3,
+     "end": 2370.41,
+     "context": "last model before 'next one'",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_2345_Hubuub.jpg",
+   "card_notes": [
+    "Minimal pair with the English-style h: 'hubuub - that's the sound of the wind. Hubuub is grain. So you need to be careful.' (39:18-39:26)",
+    "Picture: a sack marked GRAIN."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "هُبوب",
+   "arabic_bare": "هبوب",
+   "translit": "hubuub",
+   "meaning": "the blowing (of the wind)",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "incidental",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 2357.1,
+     "quote": "[en] hubub, that's the sound of the wind"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 2357.6,
+     "end": 2358.1,
+     "context": "the plain-h version, said just before 'that's the sound of the wind'",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Contrast word only (letter ه not taught yet): said to show what Hubuub turns into if you use an English h."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "حِذاء",
+   "arabic_bare": "حذاء",
+   "translit": "Hidhaa'",
+   "meaning": "shoe(s)",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide حِذاء",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 2373.8,
+     "quote": "[en] next one ... one more time ... good job (ar pass حيثاء x4)"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 2375.87,
+     "end": 2377.07,
+     "context": "first model (ar pass حيثاء)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2379.22,
+     "end": 2380.41,
+     "context": "second model",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2381.97,
+     "end": 2383.18,
+     "context": "third model",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2384.89,
+     "end": 2386.73,
+     "context": "'one more time: Hidhaa' - good'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_2375_Hidhaa.jpg",
+   "card_notes": [
+    "Picture: a pair of sneakers. Not glossed aloud. (The Teams captions' 'Hey there' belongs to this word, not to Hibr.)"
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "حِبْر",
+   "arabic_bare": "حبر",
+   "translit": "Hibr",
+   "meaning": "ink",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide حِبر",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 2391.2,
+     "quote": "[en] and this is ink: (ar pass) حبر"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 2393.43,
+     "end": 2394.21,
+     "context": "'and this is ink: Hibr'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2395.8,
+     "end": 2396.52,
+     "context": "second model",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2397.99,
+     "end": 2398.79,
+     "context": "third model",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_2393_Hibr.jpg",
+   "card_notes": [
+    "Picture: an ink bottle; slide header اقرأ هذه الكلمات ('read these words'). Next slide: أكتُب الكلمة التي قرأتها ('write the word you read')."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "خاب",
+   "arabic_bare": "خاب",
+   "translit": "khaab (khaaba)",
+   "meaning": "(he) failed, was disappointed (not glossed in class)",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 3,
+   "spelling_source": "lingco",
+   "spelling_ref": "board (unvowelled); Lingco U3 LE3 #1 خ‍‍ـاب",
+   "meaning_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 2685.5,
+     "quote": "[en] Try to connect Chah [khaa] with Aleph and Zafr [baa]"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 2712.0,
+     "quote": "[en] which kha did you use? initial ... which aleph? connecting ... which bar? independent, because bar connects to the right but aleph does not connect to the left ... Tab. Tab is the word."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 2734.92,
+     "end": 2735.64,
+     "context": "'khaab. khaab' (en pass heard 'Tab')",
+     "confidence": "low"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2736.01,
+     "end": 2737.17,
+     "context": "'khaab is the word'",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/board_2935_khaab_bakht_baakh.jpg",
+   "card_notes": [
+    "Board exercise 'خ + ا + ب' -> خاب. Rule she drew out: alif does not connect to the left, so the baa after it is the independent shape (45:12-45:32).",
+    "Book Listening Exercise 3 (khaa) #1. Meaning not given; 'failed / was disappointed' is own knowledge."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "باخ",
+   "arabic_bare": "باخ",
+   "translit": "baakh",
+   "meaning": "(board practice word; not glossed - roughly 'went stale / died down')",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 3,
+   "spelling_source": "lingco",
+   "spelling_ref": "board; Lingco U3 LE3 #3 بـاخ",
+   "meaning_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 2827.4,
+     "quote": "[en] Let's try this one ... plus bah ... which bow? which left [alif]? connecting ... which half [khaa]? independent, because the alif does not connect to the left"
+    }
+   ],
+   "her_clear_utterances": [],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/board_2935_khaab_bakht_baakh.jpg",
+   "card_notes": [
+    "Board exercise 'ب + ا + خ' -> باخ: a final khaa after alif must be the independent shape (47:39-47:45). She never said the word aloud on the recording.",
+    "Book Listening Exercise 3 #3. Meaning is own knowledge and uncertain."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "حِجاب",
+   "arabic_bare": "حجاب",
+   "translit": "Hijaab",
+   "meaning": "veil, (woman's) head covering",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": 3,
+   "spelling_source": "lingco",
+   "spelling_ref": "Lingco U3 vocab u03_0033 حِجاب",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 2996.1,
+     "quote": "[en] What if I have like this one, like the word hijab? I have a Kha [Haa] plus G plus L plus Ba. Try to connect this word for me."
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 3012.9,
+     "quote": "[en] Hijab. We all know what hijab is, right? The veil, the woman that put the veil on her head."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3012.82,
+     "end": 3013.43,
+     "context": "'Hijaab.' - said alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3000.6,
+     "end": 3001.26,
+     "context": "'like the word Hijaab?'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3014.68,
+     "end": 3015.28,
+     "context": "'We all know what Hijaab is, right?'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3055.06,
+     "end": 3055.66,
+     "context": "'Hijaab, that's the word'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/board_3130_Hijaab_stacking.jpg",
+   "card_notes": [
+    "'We all know what Hijaab is, right? The veil, the woman that put the veil on her head.' (50:14-50:20)",
+    "The hard stacking case: two below-the-line letters in a row (Haa then jiim). Board shows حجاب stacked and حـ ـجاب written down-and-up.",
+    "Her stacking rule: 'The book is saying to do like that. I don't like it. So what I'm going to do, I'm going to stack them at the top of each other' (49:38-49:46); 'I think they look nicer for the handwriting' (51:26-51:29); both ways are correct.",
+    "Dot placement when stacked: 'make it like toward the right so I know it's the first letter, not the jiim' (51:44-51:50)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "خُبْز",
+   "arabic_bare": "خبز",
+   "translit": "khubz",
+   "meaning": "bread",
+   "register": "both",
+   "kind": "vocab",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide خُبْز; Lingco U4 vocab u04_0067 خُبز",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3235.5,
+     "quote": "[en] So, you're going to learn this word soon. Khubs. Khubs. Khubs."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3239.15,
+     "end": 3239.84,
+     "context": "'...this word soon: khubz' - first model",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3241.6,
+     "end": 3242.15,
+     "context": "second model",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3243.4,
+     "end": 3244.1,
+     "context": "third model",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_3234_khubz.jpg",
+   "card_notes": [
+    "Twinkl khaa deck, header ابحث عن حرف الخاء ('look for the letter khaa'); the khaa is printed in red.",
+    "'You're going to learn this word soon' (53:56) - it is Unit 4 vocabulary in Lingco (formal and shaami خُبز; the Egyptian word is different)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "خُنْفُساء",
+   "arabic_bare": "خنفساء",
+   "translit": "khunfusaa'",
+   "meaning": "beetle (the slide shows a ladybug)",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide خُنفُساء",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3247.6,
+     "quote": "[en] And this one. Khunfusa. Khunfusa. Good. Khunfusa ... Good job."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3248.88,
+     "end": 3250.16,
+     "context": "'And this one: khunfusaa'' (ar خنفساء)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3252.52,
+     "end": 3253.81,
+     "context": "'Good. khunfusaa''",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3255.67,
+     "end": 3257.0,
+     "context": "third model",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_3246_khunfusaa.jpg",
+   "card_notes": [
+    "Twinkl khaa deck, header ابحث عن حرف الخاء ('look for the letter khaa'); the khaa is printed in red.",
+    "Not glossed aloud; picture of a ladybug."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "خِزانة",
+   "arabic_bare": "خزانة",
+   "translit": "khizaana",
+   "meaning": "wardrobe, cabinet, closet",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide خِزانَة",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3260.9,
+     "quote": "[ar pass] خزانة. ... خيزانة (x3) ... Good job"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3261.18,
+     "end": 3262.26,
+     "context": "first model, alone (ar خزانة)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3264.22,
+     "end": 3265.4,
+     "context": "second model",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3267.07,
+     "end": 3268.16,
+     "context": "third model",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_3261_khizaana.jpg",
+   "card_notes": [
+    "Twinkl khaa deck, header ابحث عن حرف الخاء ('look for the letter khaa'); the khaa is printed in red.",
+    "Picture: a wooden wardrobe. Not glossed aloud."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "بِطّيخ",
+   "arabic_bare": "بطيخ",
+   "translit": "baTTiikh",
+   "meaning": "watermelon",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide بِطّيخ",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3272.8,
+     "quote": "[en] Battigh ... Battigh ... The watermelon, and the kha here is with sukoon. Yes."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3272.77,
+     "end": 3273.81,
+     "context": "first model (en 'Battigh')",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3276.02,
+     "end": 3277.44,
+     "context": "second model",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3279.58,
+     "end": 3280.38,
+     "context": "third model",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3282.51,
+     "end": 3284.76,
+     "context": "'baTTiikh - the watermelon' (word first)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_3273_baTTiikh.jpg",
+   "card_notes": [
+    "Twinkl khaa deck, header ابحث عن حرف الخاء ('look for the letter khaa'); the khaa is printed in red.",
+    "'The watermelon, and the khaa here is with sukuun' (54:43-54:46) - final khaa, no vowel.",
+    "A student asked about the 'squiggly' mark over the Taa: she named it shadda and explained doubling (54:48-55:20); see شَدّة.",
+    "Translit baTTiikh: ط is emphatic T, doubled by the shadda."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "أُخْطُبوط",
+   "arabic_bare": "أخطبوط",
+   "translit": "ukhTubuuT",
+   "meaning": "octopus",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide أخطبوط (unvowelled)",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3324.5,
+     "quote": "[ar pass] أختبوت ... أختبوت ... Did you see the difference between English and Arabic with this one? ... But here أختبوت, I don't know who took it from who"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3324.54,
+     "end": 3325.71,
+     "context": "first model (ar أختبوت)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3328.25,
+     "end": 3329.57,
+     "context": "second model (ar أختبوت)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3338.56,
+     "end": 3340.53,
+     "context": "'But here: ukhTubuuT' (ar أختبوت)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_3326_ukhTubuuT.jpg",
+   "card_notes": [
+    "Twinkl khaa deck, header ابحث عن حرف الخاء ('look for the letter khaa'); the khaa is printed in red.",
+    "Cognate with 'octopus': 'Did you see the difference between English and Arabic with this one? ... I don't know who took it from who.' (55:32-55:45)",
+    "The slide prints أخطبوط without vowels; أُخْطُبوط vowelled from own knowledge. Translit T = ط."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "خَيْمة",
+   "arabic_bare": "خيمة",
+   "translit": "khayma",
+   "meaning": "tent",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide خَيمَة",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3348.5,
+     "quote": "[ar pass] خيما x3 (en pass silent; Teams heard 'Say ma')"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3348.5,
+     "end": 3349.48,
+     "context": "first model (ar خيما)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3351.18,
+     "end": 3352.25,
+     "context": "second model",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3353.65,
+     "end": 3354.71,
+     "context": "third model",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_3348_khayma.jpg",
+   "card_notes": [
+    "Twinkl khaa deck, header ابحث عن حرف الخاء ('look for the letter khaa'); the khaa is printed in red.",
+    "Picture: a camping tent. Not glossed aloud."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "خاتِم",
+   "arabic_bare": "خاتم",
+   "translit": "khaatim",
+   "meaning": "(finger) ring",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide خاتِم",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3358.4,
+     "quote": "[ar pass] خاتم x2, then 'good job, this is good, this is easy'"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3358.39,
+     "end": 3359.6,
+     "context": "first model (ar خاتم)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3361.32,
+     "end": 3362.46,
+     "context": "second model",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_3357_khaatim.jpg",
+   "card_notes": [
+    "Picture: a diamond ring; header of the long-vowel slides (المُدود). 'Good job, this is good, this is easy' (56:03-56:05).",
+    "The slide has kasra under the taa (خاتِم khaatim); the variant خاتَم khaatam also exists."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "خَوْخ",
+   "arabic_bare": "خوخ",
+   "translit": "khawkh (Shami: khookh)",
+   "meaning": "peach - but in Syria, Lebanon and Jordan: plum",
+   "register": "both",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": 3,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide خَوخ; Lingco U3 LE6 #4 خَـ‍‍وْخ",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3384.9,
+     "quote": "[en] so for now it's ... I'm going to teach you why not ... that's second week, next week, but for now it's okay to say ... and Shami you say ... it's more [o]"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 3411.1,
+     "quote": "[en] many Arabic countries, they call the peach khokh, but in Syria and Lebanon and Jordan we call the plum khokh ... the people who made the book, they are Palestinian ... they made khokh as peach"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3404.19,
+     "end": 3405.01,
+     "context": "first clean model after the aw/oo explanation (ar خوخ)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3406.46,
+     "end": 3407.26,
+     "context": "second model",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3408.59,
+     "end": 3409.39,
+     "context": "third model",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3433.65,
+     "end": 3435.41,
+     "context": "'but khawkh is peach' (inside English)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_3369_khawkh.jpg",
+   "card_notes": [
+    "Diphthong: the waw here is the 'aw' sound she will teach next week; for now 'it's okay to say' it with a long vowel, and in Shami it comes out closer to 'o' (khookh) (56:25-56:44).",
+    "Meaning depends on the country: 'many Arabic countries call the peach khawkh, but in Syria and Lebanon and Jordan we call the plum khawkh' (56:51-57:00). The Alif Baa authors are Palestinian, so the book glosses it as peach; for Syrians the peach is durraaq.",
+    "Book: Unit 3 Listening Exercise 6 #4 (خَـوْخ, diphthong aw)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "دُرّاق",
+   "arabic_bare": "دراق",
+   "translit": "durraaq",
+   "meaning": "peach (Levantine word)",
+   "register": "shaami",
+   "kind": "vocab",
+   "status": "incidental",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3443.2,
+     "quote": "[en] yeah, the rock is a peach, different one"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3443.18,
+     "end": 3444.2,
+     "context": "'the durraaq is a peach, a different one' (word ~3443.5-3443.9; en pass heard 'the rock')",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Said once to finish the khawkh story: for Syrians khawkh is the plum and the peach is durraaq. Identification of the word from 'the rock' is own inference."
+   ],
+   "gender_pair_of": null,
+   "confidence": "low"
+  },
+  {
+   "arabic": "تُوت",
+   "arabic_bare": "توت",
+   "translit": "tuut",
+   "meaning": "berries (mulberries)",
+   "register": "both",
+   "kind": "vocab",
+   "status": "incidental",
+   "book_unit": 2,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3374.3,
+     "quote": "[en] did we learn it or no, it's coming maybe - it's not toot - oh, we learned toot"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3379.15,
+     "end": 3380.22,
+     "context": "'oh, we learned tuut' (word at the end)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "A student guessed tuut for the peach picture; she confirmed they had learned tuut (a Unit 2 practice word) but it is not the answer."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "خَشَب",
+   "arabic_bare": "خشب",
+   "translit": "khashab",
+   "meaning": "wood",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide خَشَب",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3504.4,
+     "quote": "[en] Khashab. Khashab."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3504.97,
+     "end": 3505.82,
+     "context": "first model, alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3507.5,
+     "end": 3508.18,
+     "context": "second model (quieter)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_3507_khashab.jpg",
+   "card_notes": [
+    "Picture: a pile of sticks. Not glossed aloud."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "خُضار",
+   "arabic_bare": "خضار",
+   "translit": "khuDaar",
+   "meaning": "vegetables",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide خُضار",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3512.2,
+     "quote": "[en] Khudar. Khudar. Khudar. Good."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3512.29,
+     "end": 3513.22,
+     "context": "first model, alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3515.25,
+     "end": 3516.21,
+     "context": "second model",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3517.8,
+     "end": 3518.91,
+     "context": "third model",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_3521_khuDaar.jpg",
+   "card_notes": [
+    "Picture: a heap of vegetables. Not glossed aloud. Translit D = ض."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "خِيار",
+   "arabic_bare": "خيار",
+   "translit": "khiyaar",
+   "meaning": "cucumber(s)",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide خِيار",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3523.2,
+     "quote": "[en] Khiyar. Yeah. Khiyar. Khiyar. Good job."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3523.2,
+     "end": 3524.28,
+     "context": "first model, alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3526.03,
+     "end": 3527.1,
+     "context": "second model",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_3522_khiyaar.jpg",
+   "card_notes": [
+    "Picture: sliced cucumber. Not glossed aloud."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "خَسّ",
+   "arabic_bare": "خس",
+   "translit": "khass",
+   "meaning": "lettuce",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "spelling_ref": "her slide خَس (no shadda)",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3531.2,
+     "quote": "[en] Khas. Khas is not a house. Khas is lettuce. I don't know why they put the house here. Okay. This is lettuce. Khas. Khas."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3531.25,
+     "end": 3531.92,
+     "context": "first model",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3545.69,
+     "end": 3546.32,
+     "context": "'This is lettuce: khass'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3547.52,
+     "end": 3547.99,
+     "context": "last model",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-10/slide_3531_khass.jpg",
+   "card_notes": [
+    "The slide pairs it with a HOUSE picture by mistake: 'khass is not a house, khass is lettuce. I don't know why they put the house here.' (58:55-59:03)",
+    "The slide prints خَس without the shadda; the full spelling is خَسّ (doubled s)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "تَحْت",
+   "arabic_bare": "تحت",
+   "translit": "taHt",
+   "meaning": "under, below",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "required",
+   "book_unit": 3,
+   "spelling_source": "answer-key",
+   "spelling_ref": "answer key U3 Drill 2 #4 تَحت; book p.50",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3569.7,
+     "quote": "[en] Let me teach you this word. I need you to add it to your vocab list."
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 3634.4,
+     "quote": "[en] Put the shkiel, put the fatha on the Tau and the sukun on the Hau. So the word becomes taht."
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 3666.0,
+     "quote": "[en] But taHt means UNDER. I need you to learn this word."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3645.2,
+     "end": 3645.96,
+     "context": "'taHt.' - said alone right after writing it",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3666.57,
+     "end": 3667.2,
+     "context": "'But taHt means under'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3642.9,
+     "end": 3644.02,
+     "context": "'So the word becomes taHt' (ar تحت)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3649.08,
+     "end": 3649.84,
+     "context": "'taHt' - model after 'say it'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3709.36,
+     "end": 3709.96,
+     "context": "answer to 'how do we say under in Arabic?' (her echo or the class)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "REQUIRED: 'Let me teach you this word. I need you to add it to your vocab list' (59:30-59:34); 'I need you to learn this word' (61:12-61:15).",
+    "Built at the board: taa + middle Haa + final taa; 'put the fatHa on the taa and the sukuun on the Haa' (60:34-60:40).",
+    "Twin of takht (bed): 'the difference is just the dots. Same tashkiil, same letters, but the dots is the difference. And of course pronunciation is different.' (61:24-61:37)",
+    "Book p.50 uses تحت as the handwriting model for medial ح; also Dictation Drill 2 #4 (skipped in class: 'we just learned it')."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "تَخْت",
+   "arabic_bare": "تخت",
+   "translit": "takht",
+   "meaning": "bed",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": 3,
+   "spelling_source": "own-knowledge",
+   "spelling_ref": "Lingco U3 LE3 #5 / LE4 #2 تَختي (my bed)",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3651.5,
+     "quote": "[en] Be careful. Now we have taht [takht]. That's a bed."
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 3660.0,
+     "quote": "[en] I have takht with a KHA as BED"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 3676.5,
+     "quote": "[en] If you want to learn takht, that's optional."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3653.22,
+     "end": 3653.82,
+     "context": "'Now we have takht - that's a bed'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3660.4,
+     "end": 3660.82,
+     "context": "'I have takht with a khaa as bed'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3677.04,
+     "end": 3677.36,
+     "context": "'If you want to learn takht, that's optional'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3715.68,
+     "end": 3715.98,
+     "context": "after 'How do you say bed in Arabic? Good.' (ar pass تخذت)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3716.68,
+     "end": 3717.28,
+     "context": "second 'takht' there",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "OPTIONAL: 'If you want to learn takht, that's optional' (61:16-61:18) - she mentions it because the book uses it (Unit 3 exercises have تَختي 'my bed').",
+    "Same letters as taHt except the dot: a dot on top (khaa) turns 'under' into 'bed'."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "جاب",
+   "arabic_bare": "جاب",
+   "translit": "jaab",
+   "meaning": "(dictation word, not glossed) - in Levantine: 'he brought' (past of jiib)",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 3,
+   "spelling_source": "answer-key",
+   "spelling_ref": "answer key U3 Drill 1 #1 جاب",
+   "meaning_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3784.8,
+     "quote": "[en] all right, first word: job job (her + the video)"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3788.3,
+     "end": 3789.01,
+     "context": "her repetition after the video (F0 204 Hz)",
+     "confidence": "high"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3787.26,
+     "end": 3787.83,
+     "who": "Lingco D1#1 video (male, F0 136)"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3792.17,
+     "end": 3792.69,
+     "who": "Lingco video replay"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3795.1,
+     "end": 3795.63,
+     "who": "Lingco video replay"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Dictation Drill 1 (homework): she played the Lingco video (a MALE voice, F0 ~120-150 Hz) and repeated the word herself (F0 ~190-240 Hz); students wrote on the board.",
+    "Drill 1 #1. No meaning given; the Levantine 'he brought' reading is own knowledge."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "تاج",
+   "arabic_bare": "تاج",
+   "translit": "taaj",
+   "meaning": "crown",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 3,
+   "spelling_source": "answer-key",
+   "spelling_ref": "answer key U3 Drill 1 #2 تاج; Lingco U3 LE1 #1 تـاج",
+   "meaning_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3824.5,
+     "quote": "[en] tash, tash (her + the video)"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3825.96,
+     "end": 3826.82,
+     "context": "her repetition after the video (F0 196)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3830.68,
+     "end": 3831.39,
+     "context": "softer second repetition (F0 193; ar تاج)",
+     "confidence": "med"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3824.53,
+     "end": 3825.2,
+     "who": "Lingco D1#2 video (male, F0 132)"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3828.4,
+     "end": 3829.06,
+     "who": "Lingco video replay"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Dictation Drill 1 (homework): she played the Lingco video (a MALE voice, F0 ~120-150 Hz) and repeated the word herself (F0 ~190-240 Hz); students wrote on the board.",
+    "Drill 1 #2; also the first word of the book's jiim Listening Exercise 1. Not glossed."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "جوبي",
+   "arabic_bare": "جوبي",
+   "translit": "juubii",
+   "meaning": "(dictation practice word; no meaning given)",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 3,
+   "spelling_source": "answer-key",
+   "spelling_ref": "answer key U3 Drill 1 #3 جوبي",
+   "meaning_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3854.7,
+     "quote": "[en] The last one ... (ar pass) جوبي x4"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3857.88,
+     "end": 3859.16,
+     "context": "her repetition (F0 180, loudest)",
+     "confidence": "high"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3856.35,
+     "end": 3857.32,
+     "who": "Lingco D1#3 video (male)"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3862.05,
+     "end": 3863.04,
+     "who": "Lingco video replay (F0 152)"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3865.54,
+     "end": 3866.63,
+     "who": "Lingco video replay (F0 152)"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Dictation Drill 1 (homework): she played the Lingco video (a MALE voice, F0 ~120-150 Hz) and repeated the word herself (F0 ~190-240 Hz); students wrote on the board.",
+    "Drill 1 #3: long uu (waw) then long ii (yaa) - write both vowel letters."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "جُبَب",
+   "arabic_bare": "جبب",
+   "translit": "jubab",
+   "meaning": "robes, cloaks (plural of jubba) - not glossed in class",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 3,
+   "spelling_source": "answer-key",
+   "spelling_ref": "answer key U3 Drill 1 #4 جُبَب",
+   "meaning_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3916.5,
+     "quote": "[en] It's a [..] but it's on the first top [tooth]. So Shukba, Shukba. This one would be Shukba."
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 3942.8,
+     "quote": "[en] And good job, Lassin, on the Dhamma. Some students might think it's a waw. No, it's quick."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3920.26,
+     "end": 3920.84,
+     "context": "correcting at the board: 'So jubab' (quiet, F0 224)",
+     "confidence": "low"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3923.62,
+     "end": 3925.57,
+     "context": "'This one would be jubab' (quiet, F0 225)",
+     "confidence": "low"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3887.84,
+     "end": 3888.3,
+     "who": "Lingco D1#4 video (male, F0 143)"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3890.7,
+     "end": 3891.19,
+     "who": "Lingco video replay"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3895.38,
+     "end": 3895.85,
+     "who": "Lingco video replay"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Dictation Drill 1 (homework): she played the Lingco video (a MALE voice, F0 ~120-150 Hz) and repeated the word herself (F0 ~190-240 Hz); students wrote on the board.",
+    "Damma vs waw: 'good job on the Damma. Some students might think it's a waw. No, it's quick.' (65:43-65:56)",
+    "Her correction about the dot 'on the first tooth' is only partly audible."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "جُثَث",
+   "arabic_bare": "جثث",
+   "translit": "juthath",
+   "meaning": "corpses, bodies (plural of juththa) - not glossed in class",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 3,
+   "spelling_source": "answer-key",
+   "spelling_ref": "answer key U3 Drill 1 #5 جُثَث",
+   "meaning_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3961.7,
+     "quote": "[en] Okay, size [juthath]. Just size. Just size."
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 4033.7,
+     "quote": "[en] So again, it didn't say juthath, no, shuthath, quicker. So that's why we needed the dhamma, not the wa. And we said tath, tath. So first ta, that's the fatha."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3961.73,
+     "end": 3963.37,
+     "context": "'Okay - juthath' before the video (F0 221)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3967.64,
+     "end": 3968.3,
+     "context": "her repetition between video plays (F0 215)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4037.15,
+     "end": 4037.74,
+     "context": "'juthath - quicker' (correcting a long-u spelling; F0 291, emphatic)",
+     "confidence": "med"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3963.67,
+     "end": 3964.18,
+     "who": "Lingco D1#5 video (male, F0 154)"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3966.6,
+     "end": 3967.02,
+     "who": "Lingco video replay (F0 152)"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Dictation Drill 1 (homework): she played the Lingco video (a MALE voice, F0 ~120-150 Hz) and repeated the word herself (F0 ~190-240 Hz); students wrote on the board.",
+    "'It didn't say juuthath - juthath, quicker. So that's why we needed the Damma, not the waw. And we said -thath: the first thaa has the fatHa.' (67:14-67:27)"
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "جيب",
+   "arabic_bare": "جيب",
+   "translit": "jiib",
+   "meaning": "jeep (the vehicle) - borrowed word",
+   "register": "borrowed",
+   "kind": "drill-word",
+   "status": "taught",
+   "book_unit": 3,
+   "spelling_source": "answer-key",
+   "spelling_ref": "answer key U3 Drill 1 #6 جيب",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 4057.0,
+     "quote": "[en] Okay, last one. Sorry, Weston. Jeeb. Jeeb. Jeeb."
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 4127.4,
+     "quote": "[en] Now, anyone guess what's the word jiib is? ... we don't have p in Arabic ... yes, it's the jeep"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 4063.02,
+     "end": 4063.82,
+     "context": "her repetition between video plays (F0 213)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4148.26,
+     "end": 4149.12,
+     "context": "'yes, it's the jeep' (may be the English word)",
+     "confidence": "low"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 4061.76,
+     "end": 4062.43,
+     "who": "Lingco D1#6 video (male, F0 145)"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4068.03,
+     "end": 4068.71,
+     "who": "Lingco video replay (F0 145)"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Dictation Drill 1 (homework): she played the Lingco video (a MALE voice, F0 ~120-150 Hz) and repeated the word herself (F0 ~190-240 Hz); students wrote on the board.",
+    "'Anyone guess what the word jiib is? ... We don't have p in Arabic - yes, it's the jeep.' (68:48-69:09) English p becomes b."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "جيب",
+   "arabic_bare": "جيب",
+   "translit": "jiib",
+   "meaning": "Bring! (also 'buy!') - Levantine command",
+   "register": "shaami",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 4148.8,
+     "quote": "[en] and arabic also in syrian, in like shami, we say jeep with a bar, it means bring. okay you could use it as also buy or bring"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 4162.2,
+     "quote": "[en] so we could say in shami, if you want to bring a jeep, bring a jeep, it will sound like this: (ar pass) بيدك جيب جيب جيب"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 4154.42,
+     "end": 4155.2,
+     "context": "'in Shami we say jiib, with a baa, it means bring' (word inside English)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4169.78,
+     "end": 4172.18,
+     "context": "her Shami sentence '... jiib jiib' ('bring a jeep'; ar pass بيدك جيب جيب جيب)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "'In Shami we say jiib, with a baa - it means bring. You could use it also as buy or bring.' (69:13-69:22)",
+    "Her joke: 'bring a jeep' in Shami is jiib jiib (bring + jeep).",
+    "Same spelling as the dictation word جيب (jeep); different word."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "بوحي",
+   "arabic_bare": "بوحي",
+   "translit": "buuHii",
+   "meaning": "Reveal (it)! / Tell your secret! (to a woman) - not glossed",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 3,
+   "spelling_source": "answer-key",
+   "spelling_ref": "answer key U3 Drill 2 #5 بوحي",
+   "meaning_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 4486.1,
+     "quote": "[en] So this is for Sydney. (Teams: 'Boo he. Who he? Oh, three. Boo he. The wall. That's the wall.')"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 4494.82,
+     "end": 4495.35,
+     "context": "possible repetition by her (clip match 0.85)",
+     "confidence": "low"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4495.65,
+     "end": 4496.29,
+     "context": "possible repetition, likely 'the waw' comment",
+     "confidence": "low"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 4485.17,
+     "end": 4486.35,
+     "who": "Lingco D2#5 video (clip match 0.93)"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4490.83,
+     "end": 4492.1,
+     "who": "Lingco video replay (0.93)"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4498.71,
+     "end": 4500.11,
+     "who": "Lingco video replay (0.95)"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Dictation Drill 2: the Lingco video voice here is higher (F0 ~176-219 Hz), so her voice vs the clip is judged by clip-match + loudness; treat the spans as candidates.",
+    "Drill 2 #5. The Teams captions suggest she pointed out the waw ('that's the waw') for the long uu. Meaning is own knowledge."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "باحَت",
+   "arabic_bare": "باحت",
+   "translit": "baaHat",
+   "meaning": "she revealed / disclosed (a secret) - not glossed",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 3,
+   "spelling_source": "answer-key",
+   "spelling_ref": "answer key U3 Drill 2 #6 باحَت",
+   "meaning_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 4524.8,
+     "quote": "[en] And I'll [give] the 6th because we are out of time. Baahat. Baahat."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 4531.31,
+     "end": 4532.12,
+     "context": "her repetition after the video (F0 225)",
+     "confidence": "low"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4539.5,
+     "end": 4539.88,
+     "context": "soft third 'baaHat' (F0 222, quiet)",
+     "confidence": "low"
+    }
+   ],
+   "not_her_spans": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 4529.83,
+     "end": 4530.77,
+     "who": "Lingco D2#6 video (F0 198 = the clip, clip match 0.90)"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Dictation Drill 2: the Lingco video voice here is higher (F0 ~176-219 Hz), so her voice vs the clip is judged by clip-match + loudness; treat the spans as candidates.",
+    "Drill 2 #6, given to the class to finish because time ran out. Meaning is own knowledge."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "سُكون",
+   "arabic_bare": "سكون",
+   "translit": "sukuun",
+   "meaning": "sukuun - the 'no vowel' mark (small circle over a letter)",
+   "register": "formal",
+   "kind": "grammar",
+   "status": "taught",
+   "book_unit": 3,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 1765.4,
+     "quote": "[en] now notice here the ha is with the sukun"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 3637.2,
+     "quote": "[en] put the fatha on the Tau and the sukun on the Hau"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1768.78,
+     "end": 1769.32,
+     "context": "'the Haa is with the sukuun'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3638.44,
+     "end": 3638.86,
+     "context": "'...and the sukuun on the Haa'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3285.0,
+     "end": 3286.74,
+     "context": "'the khaa here is with sukuun' (baTTiikh)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Unit 3 topic. She pointed it out on tabuuH (29:26), baTTiikh (54:46) and taHt (60:38).",
+    "She also drilled khaa with sukuun ('with a sukuun: akh', 53:44-53:47)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "ضَمّة",
+   "arabic_bare": "ضمة",
+   "translit": "Damma",
+   "meaning": "Damma - the short 'u' vowel mark",
+   "register": "formal",
+   "kind": "grammar",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3214.3,
+     "quote": "[en] With a dhamma. Kh[u]."
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 4038.0,
+     "quote": "[en] So that's why we needed the dhamma, not the wa."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3214.66,
+     "end": 3215.32,
+     "context": "'With a Damma'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3944.3,
+     "end": 3944.76,
+     "context": "'good job on the Damma'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4039.76,
+     "end": 4040.26,
+     "context": "'we needed the Damma, not the waw'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Short u vs long uu is a spelling trap in dictation: 'Some students might think it's a waw. No, it's quick.' (65:45-65:55)"
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "كَسْرة",
+   "arabic_bare": "كسرة",
+   "translit": "kasra",
+   "meaning": "kasra - the short 'i' vowel mark (under the letter)",
+   "register": "formal",
+   "kind": "grammar",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3221.1,
+     "quote": "[ar pass] With a kesra. (khaa syllable drill)"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3221.34,
+     "end": 3221.9,
+     "context": "'with a kasra'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Used in the khaa syllable drill (kha / khu / khi / akh)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "شَدّة",
+   "arabic_bare": "شدة",
+   "translit": "shadda",
+   "meaning": "shadda - the doubling mark",
+   "register": "formal",
+   "kind": "grammar",
+   "status": "incidental",
+   "book_unit": 5,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3287.9,
+     "quote": "[en] (student) If we haven't learned the squiggly W, the weird like ... (her) The shadda? ... This character emphasized the letter. So instead of saying ba, you would say b[b] ... it's like putting them together but pronouncing just one sound. Yeah, Semitic languages, Hebrew, they have that as well."
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3293.06,
+     "end": 3293.64,
+     "context": "'The shadda?' - naming the student's 'squiggly W'",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Not taught yet (Unit 5): a student asked about the mark over baTTiikh; 'this character emphasizes the letter ... it's like putting them together but pronouncing just one sound. Semitic languages, Hebrew, they have that as well.' (54:53-55:20)"
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "تَشْكيل",
+   "arabic_bare": "تشكيل",
+   "translit": "tashkiil",
+   "meaning": "tashkiil - the vowel marks written on a word",
+   "register": "formal",
+   "kind": "grammar",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 3096.3,
+     "quote": "[en] (student) Where would you put the tashkiil?"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 3634.4,
+     "quote": "[en] Put the shkiel, put the fatha on the Tau"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 3688.3,
+     "quote": "[en] Same dashkil, same letters, but the dots is the difference"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 3634.78,
+     "end": 3635.38,
+     "context": "'put the tashkiil' (clipped)",
+     "confidence": "low"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3689.04,
+     "end": 3689.7,
+     "context": "'same tashkiil, same letters' (ar pass تشكيل)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Her comparison of taHt and takht: 'Same tashkiil, same letters, but the dots is the difference' (61:28-61:32)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "شامي",
+   "arabic_bare": "شامي",
+   "translit": "shaami",
+   "meaning": "Levantine (Syrian/Lebanese/Jordanian/Palestinian) Arabic",
+   "register": "both",
+   "kind": "classroom",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 626.3,
+     "quote": "[en] we're gonna do the shami because it's the closest to fusha"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 969.3,
+     "quote": "[en] do you want us to do the egyptian and the shami? no, just the shami"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 627.48,
+     "end": 627.92,
+     "context": "'we're gonna do the shaami'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 631.06,
+     "end": 631.56,
+     "context": "'she's speaking in shaami'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4153.12,
+     "end": 4153.88,
+     "context": "'in Syrian, like shaami, we say jiib'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Oral assessment: Shami track only - 'do you want us to do the Egyptian and the Shami? No, just the Shami' (16:09-16:16); reason: 'it's the closest to Fusha' (10:26-10:30). Pick the male or female track to match yourself; answer in Shami or Fusha."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "فُصْحى",
+   "arabic_bare": "فصحى",
+   "translit": "fuSHaa",
+   "meaning": "Modern Standard / formal Arabic",
+   "register": "formal",
+   "kind": "classroom",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-10",
+     "t": 629.6,
+     "quote": "[en] because it's the closest to fusha"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "t": 1990.3,
+     "quote": "[en] but the fusha word is hafila"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 629.56,
+     "end": 630.0,
+     "context": "'the closest to fuSHaa'",
+     "confidence": "low"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1990.78,
+     "end": 1991.36,
+     "context": "'but the fuSHaa word is Haafila'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2821.0,
+     "end": 2821.62,
+     "context": "'or even fuSHaa is a different one'",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "The graded register. She marks words as the 'fuSHa word' when dialects differ (Haafila vs Egyptian otobiis)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  }
+ ],
+ "letters": [
+  {
+   "letter": "ج",
+   "notes": "jiim, reviewed (it was actually taught 9/8 - she lost track across her three sections): 'the name of the letter is called jiim. Can you guess the sound? J sound' (18:35-18:46); connects both sides, four forms, two handwriting fonts (sharp or curvy tail, 'both works'); 'don't forget the position of the dot. This is very important' (19:32-19:35). The three sisters: 'the position of the dot differentiates between jiim, Haa, and khaa' (47:55-48:01); jiim = one dot UNDER. Board frame board_1325 shows the four jiim forms in print and handwriting.",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1117.46,
+     "end": 1118.78,
+     "context": "'the name of the letter is called: jiim' (alone at the end)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 377.62,
+     "end": 381.98,
+     "context": "the jiim SOUND: 'this word has a j, j, j sound' (Lingco Drill 3 demo)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1358.48,
+     "end": 1359.06,
+     "context": "'jiim has one [dot] that goes under'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2885.02,
+     "end": 2885.82,
+     "context": "'Let's connect jiim plus the khaa'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2956.36,
+     "end": 2956.96,
+     "context": "'stacking the jiim with the baa'",
+     "confidence": "med"
+    }
+   ]
+  },
+  {
+   "letter": "ح",
+   "notes": "Haa: 'We're gonna call that letter Haa ... when we transliterate it, it's capital H' (20:35-20:44); 'exactly like the jiim, but it does not have any dot' (21:06-21:11); example word fatHa. SOUND (her coaching, the core of the lesson): 'we call this muscle here epiglottis muscle' (25:44-25:58); 'put your hand on your throat ... if you speak in English you might just feel some vibration, but if you're saying the Haa there will be no vibration, more like air going through here, with some contraction ... you're making a little bit contraction' (25:58-26:31); 'the position of the tongue is a little bit to the back ... relaxed, not contracted' (26:32-26:46); 'you're going up - the contraction is not here, it's here' (27:04-27:10); images: fogging a mirror or glasses before cleaning them, the 'Haa' Arabs make when cold or after a sip of hot sweet tea (27:22-27:52); 'this letter Haa is coming from the middle center of the throat' (31:11-31:17); gym: 'sounding the sounds is exactly like going to the gym ... you didn't use [this muscle] before, so now we need to use it a lot' (29:42-30:00); 'there is no rolling ... no vibration ... it's like you're trying to force air but you're contracting, not all the way' (36:01-36:34). She admits exaggerating it when modelling (Parker's question): 'I'm saying it forcefully, a little bit more than usual, in order to help you develop your listening skills. When we speak, we speak faster ... because you know fatHa, you know the word' (24:06-24:50). Vowels: 'Ha' and 'Hi' are easier, 'Hu' (Damma/waw) is harder (34:16-34:23, 38:59-39:06). Board shows حاء and H.",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 1236.0,
+     "end": 1236.57,
+     "context": "'we're gonna call that letter: Haa'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1236.75,
+     "end": 1237.71,
+     "context": "'Haa' repeated alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 1618.04,
+     "end": 1619.53,
+     "context": "coaching: 'Ha, Ha' (syllable)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2039.9,
+     "end": 2040.6,
+     "context": "'say after me: Ha' (syllable)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2042.54,
+     "end": 2043.17,
+     "context": "'Hi' (syllable with kasra)",
+     "confidence": "med"
+    }
+   ]
+  },
+  {
+   "letter": "خ",
+   "notes": "khaa: 'Very similar to the jiim and the Haa except for the position of the dot. This one doesn't go under, it goes at the top' (40:47-40:59); four forms named independent / initial / middle / connecting-ending (41:00-41:14). Sound: 'That is easier ... it's like clearing your throat, so we all did that sound before' (52:38-52:45); 'The khaa is coming from, they call it the soft palate. At the top, it's like the back of your throat, at the top' (53:13-53:21); versus Haa, which is lower ('you're hitting above where you're supposed to hit ... that's the next letter', 32:14-32:22); 'With a khaa, there is some little bit of vibration, but up' (58:06-58:10). Syllable drill kha / khu / khi / akh (53:26-53:47): 'This is easier' / 'This is much easier'.",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 2442.0,
+     "end": 2442.95,
+     "context": "'the third letter is: khaa'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2444.84,
+     "end": 2445.65,
+     "context": "'okay, this one is khaa'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3209.06,
+     "end": 3209.58,
+     "context": "syllable 'kha' (fatHa)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3215.6,
+     "end": 3216.22,
+     "context": "syllable 'khu' (Damma)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3222.3,
+     "end": 3222.78,
+     "context": "syllable 'khi' (kasra)",
+     "confidence": "med"
+    }
+   ]
+  },
+  {
+   "letter": "ت",
+   "notes": "taa as the alphabet's smiley face: 'the Arabic alphabet is so friendly, it even has a smiley face. So the taa, it looked like a smiley face. This is your first slang' (2:33-2:45; slide slide_0152 shows a big ت). Named again when connecting taHt: 'which taa? ... put the fatHa on the taa' (60:29-60:38).",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 160.06,
+     "end": 160.3,
+     "context": "'so the taa, it looked like a smiley face'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3629.68,
+     "end": 3630.06,
+     "context": "'And which taa?'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 3637.24,
+     "end": 3637.74,
+     "context": "'put the fatHa on the taa'",
+     "confidence": "low"
+    }
+   ]
+  },
+  {
+   "letter": "ا",
+   "notes": "alif named in the khaa connecting exercises: 'which alif? connecting ... because khaa connects to the left'; 'baa connects to the right but alif does not connect to the left, so we need the independent one' (45:18-45:34, 47:38-47:45).",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 2718.64,
+     "end": 2719.4,
+     "context": "'Which alif?'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2730.46,
+     "end": 2730.9,
+     "context": "'but alif does not connect to the left'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2689.98,
+     "end": 2690.62,
+     "context": "'connect khaa with alif and baa'",
+     "confidence": "med"
+    }
+   ]
+  },
+  {
+   "letter": "ب",
+   "notes": "baa named in the connecting exercises ('which baa? independent') and for jiib: 'we say jiib with a baa' - Arabic has no p, English p becomes b (69:05-69:16). Shadda demo: 'instead of saying ba, you would say bb' (55:04).",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 2723.78,
+     "end": 2724.21,
+     "context": "'And which baa?'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 2963.92,
+     "end": 2964.18,
+     "context": "'I'm writing a baa and then a jiim'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4155.51,
+     "end": 4156.27,
+     "context": "'jiib with a baa'",
+     "confidence": "med"
+    }
+   ]
+  },
+  {
+   "letter": "و",
+   "notes": "waaw as the long-u letter: 'here with a waw' (Huut) and the Damma-vs-waw spelling trap in dictation: 'we needed the Damma, not the waw' (67:19-67:21); 'Some students might think it's a waw. No, it's quick' (65:45-65:55). In khawkh the waw is the diphthong she will teach next week.",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 2078.27,
+     "end": 2080.13,
+     "context": "'okay, here with a waw'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-10",
+     "start": 4040.74,
+     "end": 4040.96,
+     "context": "'not the waw' (short)",
+     "confidence": "low"
+    }
+   ]
+  },
+  {
+   "letter": "ث",
+   "notes": "Only incidental: in the juthath correction she stressed '-thath ... the first thaa has the fatHa' (67:21-67:26).",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-10",
+     "start": 4041.74,
+     "end": 4042.46,
+     "context": "'and we said: -thath'",
+     "confidence": "low"
+    }
+   ]
+  }
+ ],
+ "unresolved": [
+  "bakht (بَخْت, 'luck') - built on the board at 46:25-46:53 (ب + خ + ت); she said 'the word becomes bakht, means luck; in Egyptian they use it. We use a different one in Syria, or even FuSHa is a different one' (2812.8-2822.4). LEFT OUT of words under the no-Egyptian rule even though it is Alif Baa Listening Exercise 3 #4 - Parker's call.",
+  "otobiis ('bus') at 1988.5-1989.2 - she labelled it Egyptian and gave Haafila as the FuSHa word; not listed (note that Lingco's Unit 5 vocab lists أوتوبيس for formal and shaami too).",
+  "biddak (بِدَّك 'you want', Shami) - only the Arabic pass has it, inside her 'jiib jiib' joke at 4169.8-4170.5 ('بيدك جيب جيب جيب'); not listed as a word.",
+  "Six Haa slides (Halwaa, naHla, HiSaan, Haafila, Hadiid, fallaaH) were shown only on the room projector (31:00-37:06); the camera caught the pictures, not the text. Their spellings are standard vowelling from own knowledge; the slide may differ in which vowels it printed.",
+  "kiif il-Haal and kiifak/kiifik (74.7-77.1) are inferred from the Teams caption 'Kifilhal, kifhalla, kifik'; the English pass only heard 'kifhalik' once. Low confidence on both the spans and the exact forms.",
+  "Oral-assessment spans (11:07-15:13): the Lingco 'Dina' recording and her own re-statements are both female; spans at ~-7 dB are treated as the recording (listed as not_her_spans), but a few of her 'her_clear_utterances' there could still be the recording. Her own test answers during the live recording (879-899 s: probably 'ana ismi Sherene', 'ana min amriika') were not transcribed by either pass.",
+  "min ayna anta vs anti (790.9-794.1, 802.6-803.9): the passes cannot tell which pronoun she said.",
+  "Dictation Drill 2 (70:00-75:50): the Lingco Drill 2 voice is higher-pitched, so her voice vs the clip is uncertain for Huut, buuHii and baaHat (Habiib at 4355.9/4359.8/4364.0 matches the clip's pitch and is listed as not hers).",
+  "jubab correction (3916-3926): 'It's a [..] but it's on the first [tooth]. So jubab ... this one would be jubab' - the letter she named is inaudible.",
+  "hubuub (wind) - exact span uncertain (~2357.6-2358.1) inside a run of Hubuub/hubuub.",
+  "'Warha' at 3495.8-3496.6 (Arabic pass ورحا) inside the naHiil/nakhiil drill - unidentified; later spans in that drill (3462-3501) alternate the two words and cannot be labelled.",
+  "Dot-placement remark 3115.9-3122.8 ('if I'm putting a haja/hajab ... that's not the word') - she was showing that a misplaced dot makes a non-word (خجاب); not listed.",
+  "durraaq (دُرّاق) is reconstructed from the English pass 'the rock is a peach' (3443.6); low confidence.",
+  "The Lingco Drill 3 demo at 376.8 ('Jebel' / 'جمال') is the Lingco audio, not her; not listed.",
+  "Page 49 (distilled record's puzzle) resolves cleanly: book printed p.49 = physical PDF p.67 = Unit 3, Listening Exercise 2 (حبيب، بحث، تبوح، صباح); p.50 uses تحت as the medial-Haa handwriting model.",
+  "No screen share of the board during 59:18-62:12: the recording shows the PowerPoint editor while she wrote taHt/takht on the whiteboard, so there is no frame of that board."
+ ]
+}

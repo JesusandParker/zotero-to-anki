@@ -1,0 +1,5402 @@
+[
+{
+"uuid": "734cde91-a69b-4c16-9ccc-eee2d90d486d",
+"file": "u01_0001_good_morning_masri.mp3",
+"lesson": "Good morning!",
+"dialect": "masri",
+"entry": "u01_0001",
+"origin": "AB3e_U1LE2-06.mp3"
+},
+{
+"uuid": "237969d5-f3ce-4c3a-8d10-42a2742c1c45",
+"file": "u01_0002_how_are_you_masri.mp3",
+"lesson": "How are you?",
+"dialect": "masri",
+"entry": "u01_0002",
+"origin": "AB3e_U1LE2-07.mp3"
+},
+{
+"uuid": "a1b564f2-9c57-472d-8ed4-6d6e55f0be51",
+"file": "u01_0003_good_masri.mp3",
+"lesson": "Good",
+"dialect": "masri",
+"entry": "u01_0003",
+"origin": "AB3e_U1LE2-08.mp3"
+},
+{
+"uuid": "e917bcff-6446-4a59-8f82-2f0e9b2ff03c",
+"file": "u01_0004_good_bye_masri.mp3",
+"lesson": "Good-bye",
+"dialect": "masri",
+"entry": "u01_0004",
+"origin": "AB3e_U1LE2-09.mp3"
+},
+{
+"uuid": "f4be7a8c-d660-457a-a295-18005c07eed2",
+"file": "u01_0005_i_love_masri.mp3",
+"lesson": "I love…",
+"dialect": "masri",
+"entry": "u01_0005",
+"origin": "AB3e_U1LE2-10.mp3"
+},
+{
+"uuid": "2f823f09-779b-44b4-8eca-8bb3206bdf69",
+"file": "u01_0006_issalaamu_calaykum_masri.mp3",
+"lesson": "Greetings! (Islamic greeting)",
+"dialect": "masri",
+"entry": "u01_0006",
+"origin": "AB3e_U1VE-01.mp3"
+},
+{
+"uuid": "d7090ed3-12de-4dd3-9b16-44687de36fde",
+"file": "u01_0006_assalaamu_calaykum_shaami.mp3",
+"lesson": "Greetings! (Islamic greeting)",
+"dialect": "shaami",
+"entry": "u01_0006",
+"origin": "AB3e_U1VS-01.mp3"
+},
+{
+"uuid": "7a28bd01-917c-4ba8-b221-5f1bb856dbda",
+"file": "u01_0006_assalaamu_calaykum_formal.mp3",
+"lesson": "Greetings! (Islamic greeting)",
+"dialect": "formal",
+"entry": "u01_0006",
+"origin": "AB3e_U1VSt-01.mp3"
+},
+{
+"uuid": "e398edb4-3664-43a5-94d3-e7f573a870a1",
+"file": "u01_0007_ahlan_masri.mp3",
+"lesson": "Hello! or Hi! (used more in Egypt than the Levant)",
+"dialect": "masri",
+"entry": "u01_0007",
+"origin": "AB3e_U1VE-02.mp3"
+},
+{
+"uuid": "742393a0-a75e-4cde-9e0f-69d9704cf658",
+"file": "u01_0007_ahla_shaami.mp3",
+"lesson": "Hello! or Hi! (used more in Egypt than the Levant)",
+"dialect": "shaami",
+"entry": "u01_0007",
+"origin": "AB3e_U1VS-02.mp3"
+},
+{
+"uuid": "ef283a56-0280-453b-bad5-18b0ee19ea89",
+"file": "u01_0007_ahlan_formal.mp3",
+"lesson": "Hello! or Hi! (used more in Egypt than the Levant)",
+"dialect": "formal",
+"entry": "u01_0007",
+"origin": "AB3e_U1VSt-02.mp3"
+},
+{
+"uuid": "6623e4e1-230c-4132-b93f-f6316081893a",
+"file": "u01_0008_ahlan_wa_sahlan_masri.mp3",
+"lesson": "Hello",
+"dialect": "masri",
+"entry": "u01_0008",
+"origin": "AB3e_U1VE-03.mp3"
+},
+{
+"uuid": "4412352d-05d2-403c-a7cc-731f149615e0",
+"file": "u01_0008_ahla_w_sahla_shaami.mp3",
+"lesson": "Hello",
+"dialect": "shaami",
+"entry": "u01_0008",
+"origin": "AB3e_U1VS-03.mp3"
+},
+{
+"uuid": "11da4edd-5279-4be6-803b-f12ec6334a48",
+"file": "u01_0008_ahlan_wa_sahlan_formal.mp3",
+"lesson": "Hello",
+"dialect": "formal",
+"entry": "u01_0008",
+"origin": "AB3e_U1VSt-03.mp3"
+},
+{
+"uuid": "dc408834-5874-44e7-a44c-b41df507cb6a",
+"file": "u01_0009_marhaba_shaami.mp3",
+"lesson": "Hello! (used in the Levant)",
+"dialect": "shaami",
+"entry": "u01_0009",
+"origin": "AB3e_U1VS-04.mp3"
+},
+{
+"uuid": "49a7a309-3b43-4fd1-bf46-222d46cb0306",
+"file": "u01_0009_marhaban_formal.mp3",
+"lesson": "Hello! (used in the Levant)",
+"dialect": "formal",
+"entry": "u01_0009",
+"origin": "AB3e_U1VSt-04.mp3"
+},
+{
+"uuid": "ea333bf1-83da-4f18-afd3-a101999e7287",
+"file": "u01_0010_ana_masri.mp3",
+"lesson": "I",
+"dialect": "masri",
+"entry": "u01_0010",
+"origin": "AB3e_U1VE-05.mp3"
+},
+{
+"uuid": "3c07d86c-d252-474a-b1ff-3092f6313c35",
+"file": "u01_0010_ana_shaami.mp3",
+"lesson": "I",
+"dialect": "shaami",
+"entry": "u01_0010",
+"origin": "AB3e_U1VS-05.mp3"
+},
+{
+"uuid": "29d2c281-4060-477d-8f45-dec1195d7d97",
+"file": "u01_0010_ana_formal.mp3",
+"lesson": "I",
+"dialect": "formal",
+"entry": "u01_0010",
+"origin": "AB3e_U1VSt-05.mp3"
+},
+{
+"uuid": "c2c85449-2904-41e2-a4be-a76253964acb",
+"file": "u01_0011_ismi_masri.mp3",
+"lesson": "my name",
+"dialect": "masri",
+"entry": "u01_0011",
+"origin": "AB3e_U1VE-06.mp3"
+},
+{
+"uuid": "9c12db98-cee1-496b-a745-eaa7fe9ad257",
+"file": "u01_0011_ismi_shaami.mp3",
+"lesson": "my name",
+"dialect": "shaami",
+"entry": "u01_0011",
+"origin": "AB3e_U1VS-06.mp3"
+},
+{
+"uuid": "bb7dc702-9eb4-4b75-921d-c6eb9ed0f9c2",
+"file": "u01_0011_ismii_formal.mp3",
+"lesson": "my name",
+"dialect": "formal",
+"entry": "u01_0011",
+"origin": "AB3e_U1VSt-06.mp3"
+},
+{
+"uuid": "d0035e3d-1294-4365-ae2a-43144dd2dbcc",
+"file": "u01_0012_min_masri.mp3",
+"lesson": "from",
+"dialect": "masri",
+"entry": "u01_0012",
+"origin": "AB3e_U1VE-07.mp3"
+},
+{
+"uuid": "daf1fecd-0253-426a-8ac5-7cf6f39cf79c",
+"file": "u01_0012_min_shaami.mp3",
+"lesson": "from",
+"dialect": "shaami",
+"entry": "u01_0012",
+"origin": "AB3e_U1VS-07.mp3"
+},
+{
+"uuid": "33af2134-ad05-4aa7-91f7-be2b9fdb0b73",
+"file": "u01_0012_min_formal.mp3",
+"lesson": "from",
+"dialect": "formal",
+"entry": "u01_0012",
+"origin": "AB3e_U1VSt-07.mp3"
+},
+{
+"uuid": "22d9a275-cc38-49d7-9522-28300b0e4c45",
+"file": "u01_0013_midiinit_masri.mp3",
+"lesson": "the city of …",
+"dialect": "masri",
+"entry": "u01_0013",
+"origin": "AB3e_U1VE-08.mp3"
+},
+{
+"uuid": "45a6abfb-46d5-4d4e-a968-56bb92e0a714",
+"file": "u01_0013_madiinit_shaami.mp3",
+"lesson": "the city of …",
+"dialect": "shaami",
+"entry": "u01_0013",
+"origin": "AB3e_U1VS-08.mp3"
+},
+{
+"uuid": "bd20cf49-33be-40d1-ad0e-3f30375d7ce6",
+"file": "u01_0013_madiinat_formal.mp3",
+"lesson": "the city of …",
+"dialect": "formal",
+"entry": "u01_0013",
+"origin": "AB3e_U1VSt-08.mp3"
+},
+{
+"uuid": "1177b417-8d64-4df1-815b-2e86a82b9bc7",
+"file": "u01_0014_fi_masri.mp3",
+"lesson": "in",
+"dialect": "masri",
+"entry": "u01_0014",
+"origin": "AB3e_U1VE-09.mp3"
+},
+{
+"uuid": "711ac255-d297-492f-89de-78accace3f8d",
+"file": "u01_0014_bi_shaami.mp3",
+"lesson": "in",
+"dialect": "shaami",
+"entry": "u01_0014",
+"origin": "AB3e_U1VS-09.mp3"
+},
+{
+"uuid": "dde838e8-4943-4dce-bf6f-1a7d5f6d27f9",
+"file": "u01_0014_fii_formal.mp3",
+"lesson": "in",
+"dialect": "formal",
+"entry": "u01_0014",
+"origin": "AB3e_U1VSt-09.mp3"
+},
+{
+"uuid": "8313c5de-4805-470b-ae44-aa5132b4e166",
+"file": "u02_0015_door_masri.mp3",
+"lesson": "door",
+"dialect": "masri",
+"entry": "u02_0015",
+"origin": "AB3e_U2VE-01.mp3"
+},
+{
+"uuid": "f22c84e4-51b2-4ce1-91de-bcb3f785ce49",
+"file": "u02_0015_door_shaami.mp3",
+"lesson": "door",
+"dialect": "shaami",
+"entry": "u02_0015",
+"origin": "AB3e_U2VS-01.mp3"
+},
+{
+"uuid": "a1d6ef5c-9499-4faa-8606-1571ad3b5cfe",
+"file": "u02_0015_door_formal.mp3",
+"lesson": "door",
+"dialect": "formal",
+"entry": "u02_0015",
+"origin": "AB3e_U2VSt-01.mp3"
+},
+{
+"uuid": "05b57abe-a084-43b0-acdb-0f898e1421a5",
+"file": "u02_0016_ism_masri.mp3",
+"lesson": "name",
+"dialect": "masri",
+"entry": "u02_0016",
+"origin": "AB3e_U2VE-02.mp3"
+},
+{
+"uuid": "4613941d-7dcf-49ea-86e8-f6362e8e518e",
+"file": "u02_0016_ism_shaami.mp3",
+"lesson": "name",
+"dialect": "shaami",
+"entry": "u02_0016",
+"origin": "AB3e_U2VS-02.mp3"
+},
+{
+"uuid": "c9c5036d-cd34-4c52-b3c2-a506eb86f2ee",
+"file": "u02_0016_ism_formal.mp3",
+"lesson": "name",
+"dialect": "formal",
+"entry": "u02_0016",
+"origin": "AB3e_U2VSt-02.mp3"
+},
+{
+"uuid": "83bd3d1e-2ce2-47dc-97d2-394fddc0212f",
+"file": "u02_0017_ee_masri.mp3",
+"lesson": "what?",
+"dialect": "masri",
+"entry": "u02_0017",
+"origin": "AB3e_U2VE-03.mp3"
+},
+{
+"uuid": "8e682157-de9c-4847-ac74-a16dc3ec61ba",
+"file": "u02_0017_shuu_shaami.mp3",
+"lesson": "what?",
+"dialect": "shaami",
+"entry": "u02_0017",
+"origin": "AB3e_U2VS-03.mp3"
+},
+{
+"uuid": "eb233ae5-12f7-449e-9379-070b80b53002",
+"file": "u02_0017_maa_formal.mp3",
+"lesson": "what?",
+"dialect": "formal",
+"entry": "u02_0017",
+"origin": "AB3e_U2VSt-03.mp3"
+},
+{
+"uuid": "50690d4d-bb1f-4ca1-a288-677372c4a0de",
+"file": "u02_0018_ahlan_biik_masri.mp3",
+"lesson": "(reply) to ahlan wa sahlan (to a male)",
+"dialect": "masri",
+"entry": "u02_0018",
+"origin": "AB3e_U2VE-04.mp3"
+},
+{
+"uuid": "6c575a8d-01a6-4f71-96b8-a5fcffb12e06",
+"file": "u02_0018_ahlan_fiik_shaami.mp3",
+"lesson": "(reply) to ahlan wa sahlan (to a male)",
+"dialect": "shaami",
+"entry": "u02_0018",
+"origin": "AB3e_U2VS-04.mp3"
+},
+{
+"uuid": "faa487f9-25cf-4776-be47-834df7e37c0b",
+"file": "u02_0018_ahlan_bika_formal.mp3",
+"lesson": "(reply) to ahlan wa sahlan (to a male)",
+"dialect": "formal",
+"entry": "u02_0018",
+"origin": "AB3e_U2VSt-04.mp3"
+},
+{
+"uuid": "8414c6f9-2f80-4cca-9228-8a861c2e4668",
+"file": "u02_0019_ahlan_biiki_masri.mp3",
+"lesson": "(reply to) ahlan wa sahlan (to a female)",
+"dialect": "masri",
+"entry": "u02_0019",
+"origin": "AB3e_U2VE-05.mp3"
+},
+{
+"uuid": "b7456c43-15f1-4c5e-b46c-26b1dddc7c7c",
+"file": "u02_0019_ahlan_fiiki_shaami.mp3",
+"lesson": "(reply to) ahlan wa sahlan (to a female)",
+"dialect": "shaami",
+"entry": "u02_0019",
+"origin": "AB3e_U2VS-05.mp3"
+},
+{
+"uuid": "8b11da3d-d408-4e33-b9a6-5defe8a9522c",
+"file": "u02_0019_ahlan_biki_formal.mp3",
+"lesson": "(reply to) ahlan wa sahlan (to a female)",
+"dialect": "formal",
+"entry": "u02_0019",
+"origin": "AB3e_U2VSt-05.mp3"
+},
+{
+"uuid": "bcd96e14-484b-4101-83ef-81801f762520",
+"file": "u02_0020_wa_calaykumu_s_salaam_masri.mp3",
+"lesson": "(reply to) assalaamu calaykumyou (polite form, to a male)",
+"dialect": "masri",
+"entry": "u02_0020",
+"origin": "AB3e_U2VE-06.mp3"
+},
+{
+"uuid": "95de607c-6248-4555-aaf2-d0223a98216a",
+"file": "u02_0020_wa_calaykumu_s_salaam_shaami.mp3",
+"lesson": "(reply to) assalaamu calaykumyou (polite form, to a male)",
+"dialect": "shaami",
+"entry": "u02_0020",
+"origin": "AB3e_U2VS-06.mp3"
+},
+{
+"uuid": "8b6b2245-66de-4710-9287-a1b9fc36c04e",
+"file": "u02_0020_wa_calaykumu_s_salaam_formal.mp3",
+"lesson": "(reply to) assalaamu calaykumyou (polite form, to a male)",
+"dialect": "formal",
+"entry": "u02_0020",
+"origin": "AB3e_U2VSt-06.mp3"
+},
+{
+"uuid": "bfd64888-425e-4518-a872-413baac26142",
+"file": "u02_0021_hadritak_masri.mp3",
+"lesson": "you (polite form, to a male)",
+"dialect": "masri",
+"entry": "u02_0021",
+"origin": "AB3e_U2VE-07.mp3"
+},
+{
+"uuid": "8919a12f-9acf-4834-8e2a-153d32dc68b9",
+"file": "u02_0021_had_rtak_shaami.mp3",
+"lesson": "you (polite form, to a male)",
+"dialect": "shaami",
+"entry": "u02_0021",
+"origin": "AB3e_U2VS-07.mp3"
+},
+{
+"uuid": "97fb4c8b-cf9a-498f-8175-f558cfccd622",
+"file": "u02_0021_hadratuka_formal.mp3",
+"lesson": "you (polite form, to a male)",
+"dialect": "formal",
+"entry": "u02_0021",
+"origin": "AB3e_U2VSt-07.mp3"
+},
+{
+"uuid": "636a968d-c741-4d2a-a2eb-550c2ce6aa0b",
+"file": "u02_0022_hadritik_masri.mp3",
+"lesson": "you (polite form, to a female)",
+"dialect": "masri",
+"entry": "u02_0022",
+"origin": "AB3e_U2VE-08.mp3"
+},
+{
+"uuid": "7531dafc-e1da-4e47-98b9-1d08bb2679bc",
+"file": "u02_0022_had_rtik_shaami.mp3",
+"lesson": "you (polite form, to a female)",
+"dialect": "shaami",
+"entry": "u02_0022",
+"origin": "AB3e_U2VS-08.mp3"
+},
+{
+"uuid": "b77154b6-ba05-4387-8821-7cd185d1c04f",
+"file": "u02_0022_hadratuki_formal.mp3",
+"lesson": "you (polite form, to a female)",
+"dialect": "formal",
+"entry": "u02_0022",
+"origin": "AB3e_U2VSt-08.mp3"
+},
+{
+"uuid": "90321290-ba2c-4741-aab8-a15ad85ae6d4",
+"file": "u02_0023_itsharrafna_masri.mp3",
+"lesson": "Nice to meet you!",
+"dialect": "masri",
+"entry": "u02_0023",
+"origin": "AB3e_U2VE-09.mp3"
+},
+{
+"uuid": "1bfc785a-3993-4099-96a2-2874ef86f61f",
+"file": "u02_0023_tsharrafna_shaami.mp3",
+"lesson": "Nice to meet you!",
+"dialect": "shaami",
+"entry": "u02_0023",
+"origin": "AB3e_U2VS-09.mp3"
+},
+{
+"uuid": "fe1b02f5-2d82-46e8-a370-34af62ff7d56",
+"file": "u02_0023_tasharrafnaa_formal.mp3",
+"lesson": "Nice to meet you!",
+"dialect": "formal",
+"entry": "u02_0023",
+"origin": "AB3e_U2VSt-09.mp3"
+},
+{
+"uuid": "70f82a12-ea89-4357-af7b-d161b0ebf4b2",
+"file": "u02_0024_inta_masri.mp3",
+"lesson": "you (masculine)",
+"dialect": "masri",
+"entry": "u02_0024",
+"origin": "AB3e_U2VE-10.mp3"
+},
+{
+"uuid": "0e868e9a-3e23-4dbc-81ff-4f2604e96603",
+"file": "u02_0024_inte_shaami.mp3",
+"lesson": "you (masculine)",
+"dialect": "shaami",
+"entry": "u02_0024",
+"origin": "AB3e_U2VS-10.mp3"
+},
+{
+"uuid": "697e95f9-378b-4b32-9cc2-ff0e217253a9",
+"file": "u02_0024_anta_formal.mp3",
+"lesson": "you (masculine)",
+"dialect": "formal",
+"entry": "u02_0024",
+"origin": "AB3e_U2VSt-10.mp3"
+},
+{
+"uuid": "9311760e-7eef-4cc3-9928-ef19af058ea3",
+"file": "u02_0025_inti_masri.mp3",
+"lesson": "you (feminine)",
+"dialect": "masri",
+"entry": "u02_0025",
+"origin": "AB3e_U2VE-11.mp3"
+},
+{
+"uuid": "7b9193a6-c85b-480a-96ab-79fa37035744",
+"file": "u02_0025_inti_shaami.mp3",
+"lesson": "you (feminine)",
+"dialect": "shaami",
+"entry": "u02_0025",
+"origin": "AB3e_U2VS-11.mp3"
+},
+{
+"uuid": "5bf8563e-26bb-4df1-b26f-ccf57f63725c",
+"file": "u02_0025_anti_formal.mp3",
+"lesson": "you (feminine)",
+"dialect": "formal",
+"entry": "u02_0025",
+"origin": "AB3e_U2VSt-11.mp3"
+},
+{
+"uuid": "3749b7d3-b174-48d0-b2b7-4e959fe68246",
+"file": "u02_0026_akismak_masri.mp3",
+"lesson": "your (suffix, masculine) your name",
+"dialect": "masri",
+"entry": "u02_0026",
+"origin": "AB3e_U2VE-13.mp3"
+},
+{
+"uuid": "82e1bcbf-0c9c-4cf4-a5ae-233418590847",
+"file": "u02_0026_akismak_shaami.mp3",
+"lesson": "your (suffix, masculine) your name",
+"dialect": "shaami",
+"entry": "u02_0026",
+"origin": "AB3e_U2VS-13.mp3"
+},
+{
+"uuid": "49760368-eeb4-4d93-8c31-b33148c879a7",
+"file": "u02_0026_ka_or_kismuka_formal.mp3",
+"lesson": "your (suffix, masculine) your name",
+"dialect": "formal",
+"entry": "u02_0026",
+"origin": "AB3e_U2VSt-13.mp3"
+},
+{
+"uuid": "f25dd183-cf62-4ce0-bdcb-0a9604d17d1d",
+"file": "u02_0027_ikismik_masri.mp3",
+"lesson": "your (suffix, feminine) your name",
+"dialect": "masri",
+"entry": "u02_0027",
+"origin": "AB3e_U2VE-14.mp3"
+},
+{
+"uuid": "9e8544be-1b2f-49d3-9e53-ec6c6e268ebd",
+"file": "u02_0027_ikismik_shaami.mp3",
+"lesson": "your (suffix, feminine) your name",
+"dialect": "shaami",
+"entry": "u02_0027",
+"origin": "AB3e_U2VS-14.mp3"
+},
+{
+"uuid": "7a2f06c6-7aaf-4728-aba5-d66530fd6048",
+"file": "u02_0027_kiismuki_formal.mp3",
+"lesson": "your (suffix, feminine) your name",
+"dialect": "formal",
+"entry": "u02_0027",
+"origin": "AB3e_U2VSt-14.mp3"
+},
+{
+"uuid": "c5aa5e73-9bcb-4d34-b5f6-a2a9b2797eea",
+"file": "u02_0028_feen_masri.mp3",
+"lesson": "where?",
+"dialect": "masri",
+"entry": "u02_0028",
+"origin": "AB3e_U2VE-15.mp3"
+},
+{
+"uuid": "bc5ed82c-90e7-4506-89a6-1e0abfeff81c",
+"file": "u02_0028_ween_shaami.mp3",
+"lesson": "where?",
+"dialect": "shaami",
+"entry": "u02_0028",
+"origin": "AB3e_U2VS-15.mp3"
+},
+{
+"uuid": "b6f461fe-d43e-4ade-9557-25978a360c3d",
+"file": "u02_0028_ayna_formal.mp3",
+"lesson": "where?",
+"dialect": "formal",
+"entry": "u02_0028",
+"origin": "AB3e_U2VSt-15.mp3"
+},
+{
+"uuid": "e4a5bfd2-b7f9-45d9-818c-5263965420b2",
+"file": "u02_0029_mineen_masri.mp3",
+"lesson": "from where?",
+"dialect": "masri",
+"entry": "u02_0029",
+"origin": "AB3e_U2VE-16.mp3"
+},
+{
+"uuid": "a999cb6e-b8f6-46e1-a477-667842288f4e",
+"file": "u02_0029_min_ween_shaami.mp3",
+"lesson": "from where?",
+"dialect": "shaami",
+"entry": "u02_0029",
+"origin": "AB3e_U2VS-16.mp3"
+},
+{
+"uuid": "eb234e34-d861-402e-973a-71f972f93703",
+"file": "u02_0029_min_ayna_formal.mp3",
+"lesson": "from where?",
+"dialect": "formal",
+"entry": "u02_0029",
+"origin": "AB3e_U2VSt-16.mp3"
+},
+{
+"uuid": "fdbebd0a-aee8-4775-90ae-722b878f82d3",
+"file": "u02_0030_aywa_masri.mp3",
+"lesson": "yes",
+"dialect": "masri",
+"entry": "u02_0030",
+"origin": "AB3e_U2VE-17.mp3"
+},
+{
+"uuid": "ef183002-943b-4b32-b3f4-365be2c545f7",
+"file": "u02_0030_ee_shaami.mp3",
+"lesson": "yes",
+"dialect": "shaami",
+"entry": "u02_0030",
+"origin": "AB3e_U2VS-17.mp3"
+},
+{
+"uuid": "c1ead02f-e23f-43ec-a770-ab0b7ba04150",
+"file": "u02_0030_nacam_formal.mp3",
+"lesson": "yes",
+"dialect": "formal",
+"entry": "u02_0030",
+"origin": "AB3e_U2VSt-17.mp3"
+},
+{
+"uuid": "1a1a263f-6d39-4972-9090-5a126f37bbb9",
+"file": "u02_0031_la_masri.mp3",
+"lesson": "no",
+"dialect": "masri",
+"entry": "u02_0031",
+"origin": "AB3e_U2VE-18.mp3"
+},
+{
+"uuid": "01cf0cc5-a93e-4ec0-8bdd-dfd95a8255c9",
+"file": "u02_0031_la_laa_shaami.mp3",
+"lesson": "no",
+"dialect": "shaami",
+"entry": "u02_0031",
+"origin": "AB3e_U2VS-18.mp3"
+},
+{
+"uuid": "61eeff11-8a03-45c4-996e-0a98757ee1fa",
+"file": "u02_0031_laa_formal.mp3",
+"lesson": "no",
+"dialect": "formal",
+"entry": "u02_0031",
+"origin": "AB3e_U2VSt-18.mp3"
+},
+{
+"uuid": "121e0a27-369d-4d1f-ba42-beb30d81441c",
+"file": "u03_0032_and_masri.mp3",
+"lesson": "and",
+"dialect": "masri",
+"entry": "u03_0032",
+"origin": "AB3e_U3VE-01.mp3"
+},
+{
+"uuid": "8a3fa1fe-3381-4d0e-8a6f-c40f0559ae67",
+"file": "u03_0032_and_shaami.mp3",
+"lesson": "and",
+"dialect": "shaami",
+"entry": "u03_0032",
+"origin": "AB3e_U3VS-01.mp3"
+},
+{
+"uuid": "f95eb976-6014-4b7f-84dc-c78aef40a000",
+"file": "u03_0032_and_formal.mp3",
+"lesson": "and",
+"dialect": "formal",
+"entry": "u03_0032",
+"origin": "AB3e_U3VSt-01.mp3"
+},
+{
+"uuid": "c9903a57-1e73-468c-862e-3b86fdb3fe72",
+"file": "u03_0033_veil_head_covering_masri.mp3",
+"lesson": "veil, head covering",
+"dialect": "masri",
+"entry": "u03_0033",
+"origin": "AB3e_U3VE-02.mp3"
+},
+{
+"uuid": "8042dd13-54ae-457d-9a48-84ae6007e2c8",
+"file": "u03_0033_veil_head_covering_shaami.mp3",
+"lesson": "veil, head covering",
+"dialect": "shaami",
+"entry": "u03_0033",
+"origin": "AB3e_U3VS-02.mp3"
+},
+{
+"uuid": "8223862e-c22c-42eb-a505-0072fcecd641",
+"file": "u03_0033_veil_head_covering_formal.mp3",
+"lesson": "veil, head covering",
+"dialect": "formal",
+"entry": "u03_0033",
+"origin": "AB3e_U3VSt-02.mp3"
+},
+{
+"uuid": "e11192ce-020c-4ecd-8009-afc3df497516",
+"file": "u03_0034_house_masri.mp3",
+"lesson": "house",
+"dialect": "masri",
+"entry": "u03_0034",
+"origin": "AB3e_U3VE-03.mp3"
+},
+{
+"uuid": "15e26d03-6fbd-41f3-ba27-aa8296e228aa",
+"file": "u03_0034_house_shaami.mp3",
+"lesson": "house",
+"dialect": "shaami",
+"entry": "u03_0034",
+"origin": "AB3e_U3VS-03.mp3"
+},
+{
+"uuid": "fbe1cf88-3469-462c-9ee3-88a4ec9c7a23",
+"file": "u03_0034_house_formal.mp3",
+"lesson": "house",
+"dialect": "formal",
+"entry": "u03_0034",
+"origin": "AB3e_U3VSt-03.mp3"
+},
+{
+"uuid": "68d9ae60-5667-4216-8ad1-b4654df4d2ad",
+"file": "u03_0035_shaaric_masri.mp3",
+"lesson": "street",
+"dialect": "masri",
+"entry": "u03_0035",
+"origin": "AB3e_U3VE-04.mp3"
+},
+{
+"uuid": "9fa4b48e-e998-42b6-a3e5-c07166daa6aa",
+"file": "u03_0035_shaaric_shaami.mp3",
+"lesson": "street",
+"dialect": "shaami",
+"entry": "u03_0035",
+"origin": "AB3e_U3VS-04.mp3"
+},
+{
+"uuid": "6149e048-06cb-4497-bd99-13f963cb2bd5",
+"file": "u03_0035_shaaric_formal.mp3",
+"lesson": "street",
+"dialect": "formal",
+"entry": "u03_0035",
+"origin": "AB3e_U3VSt-04.mp3"
+},
+{
+"uuid": "bd5fb816-5ccf-4439-b115-71a3340ed46e",
+"file": "u03_0036_homework_masri.mp3",
+"lesson": "homework",
+"dialect": "masri",
+"entry": "u03_0036",
+"origin": "AB3e_U3VE-05.mp3"
+},
+{
+"uuid": "d55bb230-de62-4736-9bc4-ca95858818bb",
+"file": "u03_0036_waziife_shaami.mp3",
+"lesson": "homework",
+"dialect": "shaami",
+"entry": "u03_0036",
+"origin": "AB3e_U3VS-05.mp3"
+},
+{
+"uuid": "a4eb5d43-8d6c-444e-b26b-2f9f36437e2f",
+"file": "u03_0036_homework_formal.mp3",
+"lesson": "homework",
+"dialect": "formal",
+"entry": "u03_0036",
+"origin": "AB3e_U3VSt-05.mp3"
+},
+{
+"uuid": "a204dfbf-f2ec-45ee-a3dc-9c9970929bd8",
+"file": "u03_0037_akhbaar_masri.mp3",
+"lesson": "news",
+"dialect": "masri",
+"entry": "u03_0037",
+"origin": "AB3e_U3VE-06.mp3"
+},
+{
+"uuid": "0c235c71-afa2-4cd0-a243-ae20af316a9f",
+"file": "u03_0037_akhbaar_shaami.mp3",
+"lesson": "news",
+"dialect": "shaami",
+"entry": "u03_0037",
+"origin": "AB3e_U3VS-06.mp3"
+},
+{
+"uuid": "f05a5f6d-ff28-4b75-a054-6fa05d360f7a",
+"file": "u03_0037_akhbaar_formal.mp3",
+"lesson": "news",
+"dialect": "formal",
+"entry": "u03_0037",
+"origin": "AB3e_U3VSt-06.mp3"
+},
+{
+"uuid": "be5bb72c-61c5-4859-b45c-4e6280814fcf",
+"file": "u03_0038_kitaab_masri.mp3",
+"lesson": "book",
+"dialect": "masri",
+"entry": "u03_0038",
+"origin": "AB3e_U3VE-07.mp3"
+},
+{
+"uuid": "98ad1c22-fc43-44c5-b8a5-51e93afb83ef",
+"file": "u03_0038_kitaab_shaami.mp3",
+"lesson": "book",
+"dialect": "shaami",
+"entry": "u03_0038",
+"origin": "AB3e_U3VS-07.mp3"
+},
+{
+"uuid": "37b0ac38-f97d-4d21-bc48-0db9aebd891c",
+"file": "u03_0038_kitaab_formal.mp3",
+"lesson": "book",
+"dialect": "formal",
+"entry": "u03_0038",
+"origin": "AB3e_U3VSt-07.mp3"
+},
+{
+"uuid": "c9a7a9ec-1c66-494c-95c5-50226e3b3c51",
+"file": "u03_0039_my_male_dear_darling_masri.mp3",
+"lesson": "my (male) dear, darling",
+"dialect": "masri",
+"entry": "u03_0039",
+"origin": "AB3e_U3VE-08.mp3"
+},
+{
+"uuid": "7c726830-365e-4bc4-9f94-b5f0dbd897b8",
+"file": "u03_0039_my_male_dear_darling_shaami.mp3",
+"lesson": "my (male) dear, darling",
+"dialect": "shaami",
+"entry": "u03_0039",
+"origin": "AB3e_U3VS-08.mp3"
+},
+{
+"uuid": "6fd1e29d-9c2d-446b-9215-cdb4c82636fa",
+"file": "u03_0039_my_male_dear_darling_formal.mp3",
+"lesson": "my (male) dear, darling",
+"dialect": "formal",
+"entry": "u03_0039",
+"origin": "AB3e_U3VSt-08.mp3"
+},
+{
+"uuid": "192f2fab-433b-4d62-9bf7-048516a44786",
+"file": "u03_0040_my_female_dear_darling_masri.mp3",
+"lesson": "my (female) dear, darling",
+"dialect": "masri",
+"entry": "u03_0040",
+"origin": "AB3e_U3VE-09.mp3"
+},
+{
+"uuid": "4bc22de2-7c74-409e-84bd-0915783aa9a7",
+"file": "u03_0040_my_female_dear_darling_shaami.mp3",
+"lesson": "my (female) dear, darling",
+"dialect": "shaami",
+"entry": "u03_0040",
+"origin": "AB3e_U3VS-09.mp3"
+},
+{
+"uuid": "3353b388-dc39-4540-9ec8-d914257f16d9",
+"file": "u03_0040_my_female_dear_darling_formal.mp3",
+"lesson": "my (female) dear, darling",
+"dialect": "formal",
+"entry": "u03_0040",
+"origin": "AB3e_U3VSt-09.mp3"
+},
+{
+"uuid": "87f4dc21-71c2-42a2-b277-1b99f9f822d0",
+"file": "u03_0041_sabaah_il_kheer_masri.mp3",
+"lesson": "Good morning!",
+"dialect": "masri",
+"entry": "u03_0041",
+"origin": "AB3e_U3VE-10.mp3"
+},
+{
+"uuid": "af477557-88c5-4485-a06e-de07276e12cd",
+"file": "u03_0041_sabaah_il_kheer_shaami.mp3",
+"lesson": "Good morning!",
+"dialect": "shaami",
+"entry": "u03_0041",
+"origin": "AB3e_U3VS-10.mp3"
+},
+{
+"uuid": "0b3fc891-9508-4874-9f3b-d59b7d9c15c7",
+"file": "u03_0041_sabaah_al_khayr_formal.mp3",
+"lesson": "Good morning!",
+"dialect": "formal",
+"entry": "u03_0041",
+"origin": "AB3e_U3VSt-10.mp3"
+},
+{
+"uuid": "e4928ee7-459b-42e0-ac6e-23a28eeb7c5b",
+"file": "u03_0042_sabaah_in_nuur_masri.mp3",
+"lesson": "(response to) Good morning!",
+"dialect": "masri",
+"entry": "u03_0042",
+"origin": "AB3e_U3VE-11.mp3"
+},
+{
+"uuid": "39a7461e-2956-42ba-ba32-15a9870fe5c6",
+"file": "u03_0042_sabaah_shaami.mp3",
+"lesson": "(response to) Good morning!",
+"dialect": "shaami",
+"entry": "u03_0042",
+"origin": "AB3e_U3VS-11.mp3"
+},
+{
+"uuid": "3ad76d06-b320-493a-9ca5-17516675106c",
+"file": "u03_0042_sabaah_an_nuur_formal.mp3",
+"lesson": "(response to) Good morning!",
+"dialect": "formal",
+"entry": "u03_0042",
+"origin": "AB3e_U3VSt-11.mp3"
+},
+{
+"uuid": "bffae44d-232f-45b7-870f-32bab3ba1b7a",
+"file": "u03_0043_signal_that_you_are_addressi_masri.mp3",
+"lesson": "signal that you are addressing someone directly",
+"dialect": "masri",
+"entry": "u03_0043",
+"origin": "AB3e_U3VE-12.mp3"
+},
+{
+"uuid": "37fa6f4b-e1c9-435b-b31e-cae36ae27754",
+"file": "u03_0043_signal_that_you_are_addressi_shaami.mp3",
+"lesson": "signal that you are addressing someone directly",
+"dialect": "shaami",
+"entry": "u03_0043",
+"origin": "AB3e_U3VS-12.mp3"
+},
+{
+"uuid": "8fa2ebdc-3555-4d54-aee1-91220d8b614a",
+"file": "u03_0043_signal_that_you_are_addressi_formal.mp3",
+"lesson": "signal that you are addressing someone directly",
+"dialect": "formal",
+"entry": "u03_0043",
+"origin": "AB3e_U3VSt-12.mp3"
+},
+{
+"uuid": "5128e750-02e4-4694-8a55-232f45d4e9fe",
+"file": "u03_0044_izzayy_masri.mp3",
+"lesson": "How?",
+"dialect": "masri",
+"entry": "u03_0044",
+"origin": "AB3e_U3VE-13.mp3"
+},
+{
+"uuid": "d53e6a5a-5453-4062-8d4f-0f3f5d2e0945",
+"file": "u03_0044_kiif_shaami.mp3",
+"lesson": "How?",
+"dialect": "shaami",
+"entry": "u03_0044",
+"origin": "AB3e_U3VS-13.mp3"
+},
+{
+"uuid": "6edf78ab-5486-408a-a9c1-6df5aedb0812",
+"file": "u03_0044_kayfa_formal.mp3",
+"lesson": "How?",
+"dialect": "formal",
+"entry": "u03_0044",
+"origin": "AB3e_U3VSt-13.mp3"
+},
+{
+"uuid": "2e8ea495-d63f-4a21-bd5f-c951d2baef7b",
+"file": "u03_0045_izzayyak_ik_masri.mp3",
+"lesson": "How are you? (masc./fem.)",
+"dialect": "masri",
+"entry": "u03_0045",
+"origin": "AB3e_U3VE-14.mp3"
+},
+{
+"uuid": "1267f3df-4b45-4a60-81aa-5af30d4008f6",
+"file": "u03_0045_kiifak_ik_shaami.mp3",
+"lesson": "How are you? (masc./fem.)",
+"dialect": "shaami",
+"entry": "u03_0045",
+"origin": "AB3e_U3VS-14.mp3"
+},
+{
+"uuid": "4c271ad1-0bda-43ab-9ca1-db06eda2fb9a",
+"file": "u03_0045_kayf_al_haal_formal.mp3",
+"lesson": "How are you? (masc./fem.)",
+"dialect": "formal",
+"entry": "u03_0045",
+"origin": "AB3e_U3VSt-14.mp3"
+},
+{
+"uuid": "ecf43af8-829c-4c6d-8c91-61140ff479ed",
+"file": "u03_0046_il_hamdu_lillaah_masri.mp3",
+"lesson": "(response to) How are you?",
+"dialect": "masri",
+"entry": "u03_0046",
+"origin": "AB3e_U3VE-15.mp3"
+},
+{
+"uuid": "280685aa-1df2-40c3-88f8-2469a7eab767",
+"file": "u03_0046_il_hamdilla_shaami.mp3",
+"lesson": "(response to) How are you?",
+"dialect": "shaami",
+"entry": "u03_0046",
+"origin": "AB3e_U3VS-15.mp3"
+},
+{
+"uuid": "94a6f423-7ea1-431e-b871-869678a77ac1",
+"file": "u03_0046_al_hamdu_lillaah_formal.mp3",
+"lesson": "(response to) How are you?",
+"dialect": "formal",
+"entry": "u03_0046",
+"origin": "AB3e_U3VSt-15.mp3"
+},
+{
+"uuid": "be836da0-76a3-4bdc-bb8f-f341ba5eddab",
+"file": "u03_0047_tamaam_masri.mp3",
+"lesson": "great, fine",
+"dialect": "masri",
+"entry": "u03_0047",
+"origin": "AB3e_U3VE-16.mp3"
+},
+{
+"uuid": "793ad97d-9520-4298-a337-2427bb7996c3",
+"file": "u03_0047_tamaam_shaami.mp3",
+"lesson": "great, fine",
+"dialect": "shaami",
+"entry": "u03_0047",
+"origin": "AB3e_U3VS-16.mp3"
+},
+{
+"uuid": "c1ab10d7-e33f-4531-a2cd-b28dc08cf91a",
+"file": "u03_0047_jayyid_formal.mp3",
+"lesson": "great, fine",
+"dialect": "formal",
+"entry": "u03_0047",
+"origin": "AB3e_U3VSt-16.mp3"
+},
+{
+"uuid": "c4f70f21-6266-4411-af49-eac0dc9ae762",
+"file": "u03_0048_maashi_masri.mp3",
+"lesson": "OK",
+"dialect": "masri",
+"entry": "u03_0048",
+"origin": "AB3e_U3VE-17.mp3"
+},
+{
+"uuid": "60fcf4d3-f601-4c42-8278-021e85a6b694",
+"file": "u03_0048_maashi_shaami.mp3",
+"lesson": "OK",
+"dialect": "shaami",
+"entry": "u03_0048",
+"origin": "AB3e_U3VS-17.mp3"
+},
+{
+"uuid": "c0f9d676-5755-49a8-a2d2-7a7b10158a95",
+"file": "u03_0049_da_masri.mp3",
+"lesson": "this (masc.)",
+"dialect": "masri",
+"entry": "u03_0049",
+"origin": "AB3e_U3VE-18.mp3"
+},
+{
+"uuid": "b110f0c7-f202-4e18-b259-9178758ca62a",
+"file": "u03_0049_haada_shaami.mp3",
+"lesson": "this (masc.)",
+"dialect": "shaami",
+"entry": "u03_0049",
+"origin": "AB3e_U3VS-18.mp3"
+},
+{
+"uuid": "a66332ee-dfee-4942-b4a8-c10862ab8ca2",
+"file": "u03_0049_haadhaa_formal.mp3",
+"lesson": "this (masc.)",
+"dialect": "formal",
+"entry": "u03_0049",
+"origin": "AB3e_U3VSt-18.mp3"
+},
+{
+"uuid": "b1fdd514-e597-445e-ae2d-745f456d907f",
+"file": "u03_0050_di_masri.mp3",
+"lesson": "this (fem.)",
+"dialect": "masri",
+"entry": "u03_0050",
+"origin": "AB3e_U3VE-19.mp3"
+},
+{
+"uuid": "ec47b8d7-53b4-4010-a87d-73e2e1f7b239",
+"file": "u03_0050_haadi_shaami.mp3",
+"lesson": "this (fem.)",
+"dialect": "shaami",
+"entry": "u03_0050",
+"origin": "AB3e_U3VS-19.mp3"
+},
+{
+"uuid": "bfd49ad9-7bfd-43f2-b9ba-3b5d33e8753c",
+"file": "u03_0050_haadhihi_formal.mp3",
+"lesson": "this (fem.)",
+"dialect": "formal",
+"entry": "u03_0050",
+"origin": "AB3e_U3VSt-19.mp3"
+},
+{
+"uuid": "c16c3028-d5a0-4699-a32b-96a9e3f29609",
+"file": "u03_0051_kuwayyis_kuwayyisa_masri.mp3",
+"lesson": "good (masc.) / good (fem.)",
+"dialect": "masri",
+"entry": "u03_0051",
+"origin": "AB3e_U3VE-20.mp3"
+},
+{
+"uuid": "8d530c10-06d5-4ff5-a43e-542f8e57e783",
+"file": "u03_0051_mniih_mniiha_shaami.mp3",
+"lesson": "good (masc.) / good (fem.)",
+"dialect": "shaami",
+"entry": "u03_0051",
+"origin": "AB3e_U3VS-20.mp3"
+},
+{
+"uuid": "6af20807-b9b3-4e40-ac13-bd00faa9b5fe",
+"file": "u03_0051_bi_khayr_formal.mp3",
+"lesson": "good (masc.) / good (fem.)",
+"dialect": "formal",
+"entry": "u03_0051",
+"origin": "AB3e_U3VSt-20.mp3"
+},
+{
+"uuid": "d3c01cfa-1ae1-41dc-b5b8-1237badba334",
+"file": "u03_0052_mish_masri.mp3",
+"lesson": "(am/are/is) not",
+"dialect": "masri",
+"entry": "u03_0052",
+"origin": "AB3e_U3VE-21.mp3"
+},
+{
+"uuid": "97bc0062-8617-4dfd-b3f1-e5496a443550",
+"file": "u03_0052_muu_shaami.mp3",
+"lesson": "(am/are/is) not",
+"dialect": "shaami",
+"entry": "u03_0052",
+"origin": "AB3e_U3VS-21.mp3"
+},
+{
+"uuid": "d2a94a67-2938-4391-876e-14eca7c76159",
+"file": "u03_0052_laysa_formal.mp3",
+"lesson": "(am/are/is) not",
+"dialect": "formal",
+"entry": "u03_0052",
+"origin": "AB3e_U3VSt-21.mp3"
+},
+{
+"uuid": "f079b709-2753-4537-9430-086b9504cb87",
+"file": "u04_0053_itfaddal_masri.mp3",
+"lesson": "please come in, go ahead (to a male)",
+"dialect": "masri",
+"entry": "u04_0053",
+"origin": "AB3e_U4VE-09.mp3"
+},
+{
+"uuid": "637de4fb-bd74-4871-a1ea-a9d9c4feb99e",
+"file": "u04_0053_tfaddal_shaami.mp3",
+"lesson": "please come in, go ahead (to a male)",
+"dialect": "shaami",
+"entry": "u04_0053",
+"origin": "AB3e_U4VS-09.mp3"
+},
+{
+"uuid": "b54efad7-4e33-49b2-97ed-2f6e38134c47",
+"file": "u04_0053_tafaddal_formal.mp3",
+"lesson": "please come in, go ahead (to a male)",
+"dialect": "formal",
+"entry": "u04_0053",
+"origin": "AB3e_U4VSt-09.mp3"
+},
+{
+"uuid": "83edf566-0397-4017-b985-68fa50d184f3",
+"file": "u04_0054_itfaddali_masri.mp3",
+"lesson": "please come in, go ahead (to a female)",
+"dialect": "masri",
+"entry": "u04_0054",
+"origin": "AB3e_U4VE-10.mp3"
+},
+{
+"uuid": "1846acbc-c531-4568-9685-c869724b5626",
+"file": "u04_0054_tfaddli_shaami.mp3",
+"lesson": "please come in, go ahead (to a female)",
+"dialect": "shaami",
+"entry": "u04_0054",
+"origin": "AB3e_U4VS-10.mp3"
+},
+{
+"uuid": "d6955cf7-c1ea-4c65-8a72-d637273bc53d",
+"file": "u04_0054_tafaddalii_formal.mp3",
+"lesson": "please come in, go ahead (to a female)",
+"dialect": "formal",
+"entry": "u04_0054",
+"origin": "AB3e_U4VSt-10.mp3"
+},
+{
+"uuid": "b60f1286-57ea-4593-a162-497160b3c279",
+"file": "u04_0055_itfaddalu_masri.mp3",
+"lesson": "please come in, go ahead (plural)",
+"dialect": "masri",
+"entry": "u04_0055",
+"origin": "AB3e_U4VE-11.mp3"
+},
+{
+"uuid": "025f4307-eec7-4746-82aa-ddfcddacac30",
+"file": "u04_0055_tfaddlu_shaami.mp3",
+"lesson": "please come in, go ahead (plural)",
+"dialect": "shaami",
+"entry": "u04_0055",
+"origin": "AB3e_U4VS-11.mp3"
+},
+{
+"uuid": "18f39bd9-5768-471d-a53e-f4f49011a3b0",
+"file": "u04_0055_tafaddaluu_formal.mp3",
+"lesson": "please come in, go ahead (plural)",
+"dialect": "formal",
+"entry": "u04_0055",
+"origin": "AB3e_U4VSt-11.mp3"
+},
+{
+"uuid": "58ec8802-686f-4d48-a0d8-bfe6072a6fe1",
+"file": "u04_0056_sahbi_masri.mp3",
+"lesson": "my (male) friend; my boyfriend",
+"dialect": "masri",
+"entry": "u04_0056",
+"origin": "AB3e_U4VE-14.mp3"
+},
+{
+"uuid": "331eb3dd-b302-45cc-9df2-8ccd26ae2849",
+"file": "u04_0056_saahbi_rfii_i_shaami.mp3",
+"lesson": "my (male) friend; my boyfriend",
+"dialect": "shaami",
+"entry": "u04_0056",
+"origin": "AB3e_U4VS-14.mp3"
+},
+{
+"uuid": "db9045fc-c027-44e4-9038-422b967ea296",
+"file": "u04_0056_saahibii_formal.mp3",
+"lesson": "my (male) friend; my boyfriend",
+"dialect": "formal",
+"entry": "u04_0056",
+"origin": "AB3e_U4VSt-14.mp3"
+},
+{
+"uuid": "8812e860-145f-494c-9709-030c6285bb95",
+"file": "u04_0057_sahbiti_masri.mp3",
+"lesson": "my (female) friend; my girlfriend",
+"dialect": "masri",
+"entry": "u04_0057",
+"origin": "AB3e_U4VE-15.mp3"
+},
+{
+"uuid": "b3aa9d95-3bee-4c82-868c-d6dba3596b83",
+"file": "u04_0057_saahibti_rfii_ti_shaami.mp3",
+"lesson": "my (female) friend; my girlfriend",
+"dialect": "shaami",
+"entry": "u04_0057",
+"origin": "AB3e_U4VS-15.mp3"
+},
+{
+"uuid": "0a0189b6-fca8-401d-b13d-36f0bc54dcb8",
+"file": "u04_0057_saahibatii_formal.mp3",
+"lesson": "my (female) friend; my girlfriend",
+"dialect": "formal",
+"entry": "u04_0057",
+"origin": "AB3e_U4VSt-15.mp3"
+},
+{
+"uuid": "88edb22e-268f-487c-aaab-955fc338743a",
+"file": "u04_0058_huwwa_masri.mp3",
+"lesson": "he/it (masc.)",
+"dialect": "masri",
+"entry": "u04_0058",
+"origin": "AB3e_U4VE-16.mp3"
+},
+{
+"uuid": "b90c422e-cb3f-42df-a322-14684306b803",
+"file": "u04_0058_huwwe_shaami.mp3",
+"lesson": "he/it (masc.)",
+"dialect": "shaami",
+"entry": "u04_0058",
+"origin": "AB3e_U4VS-16.mp3"
+},
+{
+"uuid": "c82bde34-f863-4098-b968-0d3fd27be748",
+"file": "u04_0058_huwa_formal.mp3",
+"lesson": "he/it (masc.)",
+"dialect": "formal",
+"entry": "u04_0058",
+"origin": "AB3e_U4VSt-16.mp3"
+},
+{
+"uuid": "1335a3cb-6801-469f-8734-62804ea36a80",
+"file": "u04_0059_hiyya_masri.mp3",
+"lesson": "she/it (fem.)",
+"dialect": "masri",
+"entry": "u04_0059",
+"origin": "AB3e_U4VE-17.mp3"
+},
+{
+"uuid": "a2f7d95c-09f1-42ad-9c28-5ae3682903ef",
+"file": "u04_0059_hiyye_shaami.mp3",
+"lesson": "she/it (fem.)",
+"dialect": "shaami",
+"entry": "u04_0059",
+"origin": "AB3e_U4VS-17.mp3"
+},
+{
+"uuid": "465f2937-41ac-4b5b-8ab0-bf7363c0714f",
+"file": "u04_0059_hiya_formal.mp3",
+"lesson": "she/it (fem.)",
+"dialect": "formal",
+"entry": "u04_0059",
+"origin": "AB3e_U4VSt-17.mp3"
+},
+{
+"uuid": "9f986424-cff0-49cf-bd9f-6e0b54278794",
+"file": "u04_0060_uismu_masri.mp3",
+"lesson": "his his name",
+"dialect": "masri",
+"entry": "u04_0060",
+"origin": "AB3e_U4VE-18.mp3"
+},
+{
+"uuid": "2a3df4b5-6cca-4e73-945d-b0f1d86993a2",
+"file": "u04_0060_oismo_shaami.mp3",
+"lesson": "his his name",
+"dialect": "shaami",
+"entry": "u04_0060",
+"origin": "AB3e_U4VS-18.mp3"
+},
+{
+"uuid": "ddd88950-4548-4ce3-9289-246a4352a782",
+"file": "u04_0060_huismuhu_formal.mp3",
+"lesson": "his his name",
+"dialect": "formal",
+"entry": "u04_0060",
+"origin": "AB3e_U4VSt-18.mp3"
+},
+{
+"uuid": "0fe75732-4616-42d1-b8b0-080e2c47a35c",
+"file": "u04_0061_haismaha_masri.mp3",
+"lesson": "her/hers her name",
+"dialect": "masri",
+"entry": "u04_0061",
+"origin": "AB3e_U4VE-19.mp3"
+},
+{
+"uuid": "057d939d-02d4-4dfe-993b-f085f3be0d43",
+"file": "u04_0061_aisma_shaami.mp3",
+"lesson": "her/hers her name",
+"dialect": "shaami",
+"entry": "u04_0061",
+"origin": "AB3e_U4VS-19.mp3"
+},
+{
+"uuid": "0c3406ac-1c5f-4fba-90f1-c1422d813edc",
+"file": "u04_0061_haismuha_formal.mp3",
+"lesson": "her/hers her name",
+"dialect": "formal",
+"entry": "u04_0061",
+"origin": "AB3e_U4VSt-19.mp3"
+},
+{
+"uuid": "18331fe4-2aed-486d-b981-2a860c98c349",
+"file": "u04_0062_taalib_masri.mp3",
+"lesson": "student (male)",
+"dialect": "masri",
+"entry": "u04_0062",
+"origin": "AB3e_U4VE-23.mp3"
+},
+{
+"uuid": "c4838e1f-8ecb-412d-9040-05b48b89a926",
+"file": "u04_0062_taalib_shaami.mp3",
+"lesson": "student (male)",
+"dialect": "shaami",
+"entry": "u04_0062",
+"origin": "AB3e_U4VS-23.mp3"
+},
+{
+"uuid": "719da952-dd8b-4c3f-8382-47aefa5b9044",
+"file": "u04_0062_taalib_formal.mp3",
+"lesson": "student (male)",
+"dialect": "formal",
+"entry": "u04_0062",
+"origin": "AB3e_U4VSt-23.mp3"
+},
+{
+"uuid": "e183922e-25d0-4bf9-8e6f-f639bc98dbf0",
+"file": "u04_0063_taaliba_masri.mp3",
+"lesson": "your student (female)",
+"dialect": "masri",
+"entry": "u04_0063",
+"origin": "AB3e_U4VE-24.mp3"
+},
+{
+"uuid": "48d9ec5c-7785-4828-8c38-2c7a23e2027d",
+"file": "u04_0063_taalbe_shaami.mp3",
+"lesson": "your student (female)",
+"dialect": "shaami",
+"entry": "u04_0063",
+"origin": "AB3e_U4VS-24.mp3"
+},
+{
+"uuid": "60fbd428-df7e-493b-b483-6139cdd9197a",
+"file": "u04_0063_taaliba_formal.mp3",
+"lesson": "your student (female)",
+"dialect": "formal",
+"entry": "u04_0063",
+"origin": "AB3e_U4VSt-24.mp3"
+},
+{
+"uuid": "a9a78898-8fa3-41dd-8218-a1ac6f7da4b3",
+"file": "u04_0064_ustaaz_masri.mp3",
+"lesson": "professor, teacher (male)",
+"dialect": "masri",
+"entry": "u04_0064",
+"origin": "AB3e_U4VE-25.mp3"
+},
+{
+"uuid": "63238c62-9cbd-4540-9acf-424ed8d9fdcd",
+"file": "u04_0064_istaaz_shaami.mp3",
+"lesson": "professor, teacher (male)",
+"dialect": "shaami",
+"entry": "u04_0064",
+"origin": "AB3e_U4VS-25.mp3"
+},
+{
+"uuid": "8fb1a75b-0a55-4f62-aaca-6b62dc33d426",
+"file": "u04_0064_ustaadh_formal.mp3",
+"lesson": "professor, teacher (male)",
+"dialect": "formal",
+"entry": "u04_0064",
+"origin": "AB3e_U4VSt-25.mp3"
+},
+{
+"uuid": "b79cb050-3ad6-4627-8382-82025321e51f",
+"file": "u04_0065_ustaaza_masri.mp3",
+"lesson": "professor, teacher (female)",
+"dialect": "masri",
+"entry": "u04_0065",
+"origin": "AB3e_U4VE-26.mp3"
+},
+{
+"uuid": "e39d8b84-9acf-42b2-abeb-dcf65dee7adb",
+"file": "u04_0065_istaaze_shaami.mp3",
+"lesson": "professor, teacher (female)",
+"dialect": "shaami",
+"entry": "u04_0065",
+"origin": "AB3e_U4VS-26.mp3"
+},
+{
+"uuid": "e12ee507-9268-4e3c-8205-36b393d2afac",
+"file": "u04_0065_ustaadha_formal.mp3",
+"lesson": "professor, teacher (female)",
+"dialect": "formal",
+"entry": "u04_0065",
+"origin": "AB3e_U4VSt-26.mp3"
+},
+{
+"uuid": "e2ea453a-ff2c-4431-86ec-26e09e2d8350",
+"file": "u04_0066_gamcit_masri.mp3",
+"lesson": "university of...",
+"dialect": "masri",
+"entry": "u04_0066",
+"origin": "AB3e_U4VE-27.mp3"
+},
+{
+"uuid": "73ef29e7-d2a5-4b5c-9220-5695ffba2f44",
+"file": "u04_0066_jaamcit_shaami.mp3",
+"lesson": "university of...",
+"dialect": "shaami",
+"entry": "u04_0066",
+"origin": "AB3e_U4VS-27.mp3"
+},
+{
+"uuid": "ea00869a-f710-4361-91a7-b02d8a9f9ce6",
+"file": "u04_0066_jaamicat_formal.mp3",
+"lesson": "university of...",
+"dialect": "formal",
+"entry": "u04_0066",
+"origin": "AB3e_U4VSt-27.mp3"
+},
+{
+"uuid": "6ac5d819-c718-420c-bf7a-7f69bdf0798e",
+"file": "u04_0067_ceesh_masri.mp3",
+"lesson": "bread",
+"dialect": "masri",
+"entry": "u04_0067",
+"origin": "AB3e_U4VE-01.mp3"
+},
+{
+"uuid": "2f07bb42-16a5-4b50-874e-12db1f055215",
+"file": "u04_0067_bread_shaami.mp3",
+"lesson": "bread",
+"dialect": "shaami",
+"entry": "u04_0067",
+"origin": "AB3e_U4VS-01.mp3"
+},
+{
+"uuid": "8d8843c2-25bb-4f01-8558-fafe3c7347e4",
+"file": "u04_0067_bread_formal.mp3",
+"lesson": "bread",
+"dialect": "formal",
+"entry": "u04_0067",
+"origin": "AB3e_U4VSt-01.mp3"
+},
+{
+"uuid": "5a99f4d5-62f0-4e6b-9989-d6218c80a2dd",
+"file": "u04_0068_firaakh_masri.mp3",
+"lesson": "chicken",
+"dialect": "masri",
+"entry": "u04_0068",
+"origin": "AB3e_U4VE-02.mp3"
+},
+{
+"uuid": "579adc0d-c97d-4c62-9ade-ab515b84ec48",
+"file": "u04_0068_chicken_shaami.mp3",
+"lesson": "chicken",
+"dialect": "shaami",
+"entry": "u04_0068",
+"origin": "AB3e_U4VS-02.mp3"
+},
+{
+"uuid": "9c397c6c-98af-41bf-8f46-f3b58e7d2e60",
+"file": "u04_0068_chicken_formal.mp3",
+"lesson": "chicken",
+"dialect": "formal",
+"entry": "u04_0068",
+"origin": "AB3e_U4VSt-02.mp3"
+},
+{
+"uuid": "1ed1f223-d315-467e-9c8e-c9db212a07ed",
+"file": "u04_0069_neighbor_male_masri.mp3",
+"lesson": "neighbor (male)",
+"dialect": "masri",
+"entry": "u04_0069",
+"origin": "AB3e_U4VE-03.mp3"
+},
+{
+"uuid": "04054f8f-4b74-4491-a204-40724555dd84",
+"file": "u04_0069_neighbor_male_shaami.mp3",
+"lesson": "neighbor (male)",
+"dialect": "shaami",
+"entry": "u04_0069",
+"origin": "AB3e_U4VS-03.mp3"
+},
+{
+"uuid": "2a9d8295-805a-449b-bd04-0d3c9906acb7",
+"file": "u04_0069_neighbor_male_formal.mp3",
+"lesson": "neighbor (male)",
+"dialect": "formal",
+"entry": "u04_0069",
+"origin": "AB3e_U4VSt-03.mp3"
+},
+{
+"uuid": "675f668b-1aa5-414d-a39c-01e5be581e64",
+"file": "u04_0070_gaara_masri.mp3",
+"lesson": "neighbor (female)",
+"dialect": "masri",
+"entry": "u04_0070",
+"origin": "AB3e_U4VE-04.mp3"
+},
+{
+"uuid": "4e8d495b-b077-4cfb-a6e5-6613c6ce273c",
+"file": "u04_0070_jaara_shaami.mp3",
+"lesson": "neighbor (female)",
+"dialect": "shaami",
+"entry": "u04_0070",
+"origin": "AB3e_U4VS-04.mp3"
+},
+{
+"uuid": "5293f6e9-9d58-40a6-97ca-51e8438792b7",
+"file": "u04_0070_jaara_formal.mp3",
+"lesson": "neighbor (female)",
+"dialect": "formal",
+"entry": "u04_0070",
+"origin": "AB3e_U4VSt-04.mp3"
+},
+{
+"uuid": "ee6ecca3-fb0c-4962-a632-17f839d81887",
+"file": "u04_0071_brother_masri.mp3",
+"lesson": "brother",
+"dialect": "masri",
+"entry": "u04_0071",
+"origin": "AB3e_U4VE-05.mp3"
+},
+{
+"uuid": "5b472669-70ea-41f1-bd13-401e4672d808",
+"file": "u04_0071_brother_shaami.mp3",
+"lesson": "brother",
+"dialect": "shaami",
+"entry": "u04_0071",
+"origin": "AB3e_U4VS-05.mp3"
+},
+{
+"uuid": "59372ef4-8e03-4187-a91b-d64998e3f773",
+"file": "u04_0071_brother_formal.mp3",
+"lesson": "brother",
+"dialect": "formal",
+"entry": "u04_0071",
+"origin": "AB3e_U4VSt-05.mp3"
+},
+{
+"uuid": "612ca7df-d1fb-40f8-8de9-4d07ab793ae5",
+"file": "u04_0072_sister_masri.mp3",
+"lesson": "sister",
+"dialect": "masri",
+"entry": "u04_0072",
+"origin": "AB3e_U4VE-06.mp3"
+},
+{
+"uuid": "49183df2-5237-468b-b411-571f6f54d09e",
+"file": "u04_0072_sister_shaami.mp3",
+"lesson": "sister",
+"dialect": "shaami",
+"entry": "u04_0072",
+"origin": "AB3e_U4VS-06.mp3"
+},
+{
+"uuid": "40807922-da47-43f3-b71e-8488c2aead10",
+"file": "u04_0072_sister_formal.mp3",
+"lesson": "sister",
+"dialect": "formal",
+"entry": "u04_0072",
+"origin": "AB3e_U4VSt-06.mp3"
+},
+{
+"uuid": "5f7e8818-8621-4d20-be95-4129cb86ac92",
+"file": "u04_0073_new_masc_masri.mp3",
+"lesson": "new (masc.)",
+"dialect": "masri",
+"entry": "u04_0073",
+"origin": "AB3e_U4VE-07.mp3"
+},
+{
+"uuid": "5f65bdec-d81b-4372-b79f-8b69a11de3d7",
+"file": "u04_0073_new_masc_shaami.mp3",
+"lesson": "new (masc.)",
+"dialect": "shaami",
+"entry": "u04_0073",
+"origin": "AB3e_U4VS-07.mp3"
+},
+{
+"uuid": "f99a1761-a1a7-4ad2-b2c0-f15e85f47062",
+"file": "u04_0073_new_masc_formal.mp3",
+"lesson": "new (masc.)",
+"dialect": "formal",
+"entry": "u04_0073",
+"origin": "AB3e_U4VSt-07.mp3"
+},
+{
+"uuid": "f02a88ce-29bb-4d28-9256-2f893069d65b",
+"file": "u04_0074_gidiida_masri.mp3",
+"lesson": "new (fem.)",
+"dialect": "masri",
+"entry": "u04_0074",
+"origin": "AB3e_U4VE-08.mp3"
+},
+{
+"uuid": "6762fb2e-7983-491b-b1e7-bd0ee9ac6351",
+"file": "u04_0074_jdiide_shaami.mp3",
+"lesson": "new (fem.)",
+"dialect": "shaami",
+"entry": "u04_0074",
+"origin": "AB3e_U4VS-08.mp3"
+},
+{
+"uuid": "432675d9-e58a-401a-960b-0becc9407545",
+"file": "u04_0074_jadiida_formal.mp3",
+"lesson": "new (fem.)",
+"dialect": "formal",
+"entry": "u04_0074",
+"origin": "AB3e_U4VSt-08.mp3"
+},
+{
+"uuid": "b7236b37-89ec-46b0-b6f0-9991574e5ba4",
+"file": "u04_0075_misaa_il_kheer_masri.mp3",
+"lesson": "Good evening!",
+"dialect": "masri",
+"entry": "u04_0075",
+"origin": "AB3e_U4VE-12.mp3"
+},
+{
+"uuid": "72c20418-2ad8-4c54-af1c-f0ac62d29572",
+"file": "u04_0075_masa_l_kheer_shaami.mp3",
+"lesson": "Good evening!",
+"dialect": "shaami",
+"entry": "u04_0075",
+"origin": "AB3e_U4VS-12.mp3"
+},
+{
+"uuid": "7b71b525-8d14-4f72-8bd3-f5eb3743ed73",
+"file": "u04_0075_masaa_al_khayr_formal.mp3",
+"lesson": "Good evening!",
+"dialect": "formal",
+"entry": "u04_0075",
+"origin": "AB3e_U4VSt-12.mp3"
+},
+{
+"uuid": "41d20f35-3386-41b9-a84c-1df606c78436",
+"file": "u04_0076_misaa_in_nuur_masri.mp3",
+"lesson": "(response to) Good evening!",
+"dialect": "masri",
+"entry": "u04_0076",
+"origin": "AB3e_U4VE-13.mp3"
+},
+{
+"uuid": "629fa9fb-47d2-442d-87d4-74438233add3",
+"file": "u04_0076_masa_n_nuur_shaami.mp3",
+"lesson": "(response to) Good evening!",
+"dialect": "shaami",
+"entry": "u04_0076",
+"origin": "AB3e_U4VS-13.mp3"
+},
+{
+"uuid": "3df5373b-ba93-4d43-8943-faf5e4d90b42",
+"file": "u04_0076_masaa_an_nuur_formal.mp3",
+"lesson": "(response to) Good evening!",
+"dialect": "formal",
+"entry": "u04_0076",
+"origin": "AB3e_U4VSt-13.mp3"
+},
+{
+"uuid": "c4ee19b3-8901-45a2-a024-1d6336aa3a5a",
+"file": "u04_0077_candi_masri.mp3",
+"lesson": "I have",
+"dialect": "masri",
+"entry": "u04_0077",
+"origin": "AB3e_U4VE-20.mp3"
+},
+{
+"uuid": "ba560176-c22b-4e8a-a1c3-ce96cb684b4d",
+"file": "u04_0077_candi_shaami.mp3",
+"lesson": "I have",
+"dialect": "shaami",
+"entry": "u04_0077",
+"origin": "AB3e_U4VS-20.mp3"
+},
+{
+"uuid": "962e16e0-68c3-4966-b7bc-e1cb50c7a337",
+"file": "u04_0077_cindi_formal.mp3",
+"lesson": "I have",
+"dialect": "formal",
+"entry": "u04_0077",
+"origin": "AB3e_U4VSt-20.mp3"
+},
+{
+"uuid": "4adfa984-dee8-40f0-bce2-e6ed21de42eb",
+"file": "u04_0078_ma_candiish_masri.mp3",
+"lesson": "I don't have",
+"dialect": "masri",
+"entry": "u04_0078",
+"origin": "AB3e_U4VE-21.mp3"
+},
+{
+"uuid": "b6728600-931d-4cde-8eac-0bb7115625af",
+"file": "u04_0078_maa_candi_shaami.mp3",
+"lesson": "I don't have",
+"dialect": "shaami",
+"entry": "u04_0078",
+"origin": "AB3e_U4VS-21.mp3"
+},
+{
+"uuid": "f17cccf4-afc9-493d-8fd9-96ed618a7c27",
+"file": "u04_0078_laysa_cindi_formal.mp3",
+"lesson": "I don't have",
+"dialect": "formal",
+"entry": "u04_0078",
+"origin": "AB3e_U4VSt-21.mp3"
+},
+{
+"uuid": "a28cde36-d112-4987-a8f6-89573129a4ad",
+"file": "u04_0079_su_aal_masri.mp3",
+"lesson": "question",
+"dialect": "masri",
+"entry": "u04_0079",
+"origin": "AB3e_U4VE-22.mp3"
+},
+{
+"uuid": "de9059a9-f6e2-4da9-aa5d-dc2f1ca16a4f",
+"file": "u04_0079_su_aal_shaami.mp3",
+"lesson": "question",
+"dialect": "shaami",
+"entry": "u04_0079",
+"origin": "AB3e_U4VS-22.mp3"
+},
+{
+"uuid": "1a9adbdc-423e-403e-9e9b-e1e3e949a040",
+"file": "u04_0079_su_aal_formal.mp3",
+"lesson": "question",
+"dialect": "formal",
+"entry": "u04_0079",
+"origin": "AB3e_U4VSt-22.mp3"
+},
+{
+"uuid": "3252addc-83f8-4666-9e6b-7c6edcd9f556",
+"file": "u04_0080_i_love_masri.mp3",
+"lesson": "I love",
+"dialect": "masri",
+"entry": "u04_0080",
+"origin": "AB3e_U4VE-28.mp3"
+},
+{
+"uuid": "c54d492e-5857-4ceb-97ef-b35bfd3e7357",
+"file": "u04_0080_i_love_shaami.mp3",
+"lesson": "I love",
+"dialect": "shaami",
+"entry": "u04_0080",
+"origin": "AB3e_U4VS-28.mp3"
+},
+{
+"uuid": "45e182b0-65d2-4fc8-940b-510c83a7e47d",
+"file": "u04_0080_i_love_formal.mp3",
+"lesson": "I love",
+"dialect": "formal",
+"entry": "u04_0080",
+"origin": "AB3e_U4VSt-28.mp3"
+},
+{
+"uuid": "851d3090-4d38-4629-8573-812152d81fc4",
+"file": "u04_0081_you_masc_love_masri.mp3",
+"lesson": "you (masc.) love",
+"dialect": "masri",
+"entry": "u04_0081",
+"origin": "AB3e_U4VE-29.mp3"
+},
+{
+"uuid": "4fddc433-bbed-46fb-ad68-1aecf1409f16",
+"file": "u04_0081_you_masc_love_shaami.mp3",
+"lesson": "you (masc.) love",
+"dialect": "shaami",
+"entry": "u04_0081",
+"origin": "AB3e_U4VS-29.mp3"
+},
+{
+"uuid": "8c768901-0f9d-4bb6-8044-b93e3da127e1",
+"file": "u04_0081_you_masc_love_formal.mp3",
+"lesson": "you (masc.) love",
+"dialect": "formal",
+"entry": "u04_0081",
+"origin": "AB3e_U4VSt-29.mp3"
+},
+{
+"uuid": "4004d827-aa79-433e-920b-b07a0fd801a3",
+"file": "u04_0082_you_fem_love_masri.mp3",
+"lesson": "you (fem.) love",
+"dialect": "masri",
+"entry": "u04_0082",
+"origin": "AB3e_U4VE-30.mp3"
+},
+{
+"uuid": "7cd0bd48-9cd1-43b9-b439-8baa4aa6e8eb",
+"file": "u04_0082_you_fem_love_shaami.mp3",
+"lesson": "you (fem.) love",
+"dialect": "shaami",
+"entry": "u04_0082",
+"origin": "AB3e_U4VS-30.mp3"
+},
+{
+"uuid": "ddc634da-37fd-4c2d-ac45-26eb74ba466e",
+"file": "u04_0082_tuhibbiin_formal.mp3",
+"lesson": "you (fem.) love",
+"dialect": "formal",
+"entry": "u04_0082",
+"origin": "AB3e_U4VSt-30.mp3"
+},
+{
+"uuid": "82ff88da-a6f2-46a3-b70d-d00e5cca46b0",
+"file": "u04_0083_nimrit_tilifuun_masri.mp3",
+"lesson": "telephone number",
+"dialect": "masri",
+"entry": "u04_0083",
+"origin": "AB3e_U4VE-42.mp3"
+},
+{
+"uuid": "79ee7da3-07a0-40fb-aa75-a3e7bfdec6cc",
+"file": "u04_0083_nimrit_tilifuun_shaami.mp3",
+"lesson": "telephone number",
+"dialect": "shaami",
+"entry": "u04_0083",
+"origin": "AB3e_U4VS-42.mp3"
+},
+{
+"uuid": "a87e85c6-0972-435a-8ef6-c02618a9f447",
+"file": "u04_0083_raqm_tilifuun_formal.mp3",
+"lesson": "telephone number",
+"dialect": "formal",
+"entry": "u04_0083",
+"origin": "AB3e_U4VSt-42.mp3"
+},
+{
+"uuid": "8f73b420-8f54-4a08-91a8-57eb1c9ce055",
+"file": "u01_extra_8f73b420.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_04_thaa.mp4"
+},
+{
+"uuid": "2d09d51c-cec9-44ee-8da2-d0157c84f4e5",
+"file": "u01_extra_2d09d51c.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_03_taa.mp4"
+},
+{
+"uuid": "6351e40a-32aa-4a8f-97f6-4eb746080a80",
+"file": "u01_extra_6351e40a.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_02_baa.mp4"
+},
+{
+"uuid": "818988d1-5e29-4cc3-9214-1f2c8d3e0725",
+"file": "u01_extra_818988d1.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_01_alif.mp4"
+},
+{
+"uuid": "24dd206a-3033-4aa9-bbda-21631374d490",
+"file": "u01_extra_24dd206a.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_08_daal.mp4"
+},
+{
+"uuid": "9663c141-4a54-4dda-9e5d-ccbd91fa2b49",
+"file": "u01_extra_9663c141.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_07_khaa.mp4"
+},
+{
+"uuid": "df226f19-9b3e-4ee7-8916-28744f6f71ce",
+"file": "u01_extra_df226f19.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_06_Haa.mp4"
+},
+{
+"uuid": "aae09a28-c484-4135-80c3-5def2df8129f",
+"file": "u01_extra_aae09a28.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_05_jiim.mp4"
+},
+{
+"uuid": "e9d218d1-902c-4c5d-97e3-63e25d5b5308",
+"file": "u01_extra_e9d218d1.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_12_seen.mp4"
+},
+{
+"uuid": "7750f50d-453d-44e2-9e3b-d5b28788e06d",
+"file": "u01_extra_7750f50d.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_11_zaay.mp4"
+},
+{
+"uuid": "b781ea3f-7a99-4c35-8fb7-337767f2f74d",
+"file": "u01_extra_b781ea3f.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_10_raa.mp4"
+},
+{
+"uuid": "4162ebaa-b171-4d7d-802a-b387ed074fe0",
+"file": "u01_extra_4162ebaa.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_09_dhaal.mp4"
+},
+{
+"uuid": "7be4aea8-0ae4-4a55-a987-5e605cd3a3d8",
+"file": "u01_extra_7be4aea8.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_16_Taaa.mp4"
+},
+{
+"uuid": "6e32f3d1-81b4-401f-8d24-b025ea0de99b",
+"file": "u01_extra_6e32f3d1.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_15_Daad.mp4"
+},
+{
+"uuid": "a1b2f8b3-289a-445d-bd3c-01e50e5a3887",
+"file": "u01_extra_a1b2f8b3.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_14_Saad.mp4"
+},
+{
+"uuid": "bf91881c-aca1-44db-9e42-e3bd166871f0",
+"file": "u01_extra_bf91881c.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_13_sheen.mp4"
+},
+{
+"uuid": "9ce3d40e-700b-4f45-a6ba-cad6e5ebaa4b",
+"file": "u01_extra_9ce3d40e.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_20_faa.mp4"
+},
+{
+"uuid": "c540a143-2516-45a9-93c4-84c0c5475685",
+"file": "u01_extra_c540a143.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_19_ghayn.mp4"
+},
+{
+"uuid": "2ad3b76c-e10b-4730-954e-c07276591484",
+"file": "u01_extra_2ad3b76c.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_18_ayn.mp4"
+},
+{
+"uuid": "76e1691d-a779-4a7f-88a2-3c0746cc3d83",
+"file": "u01_extra_76e1691d.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_17_Dhaa.mp4"
+},
+{
+"uuid": "0bcecb16-b8a2-481a-a4a5-8d44c208c7f0",
+"file": "u01_extra_0bcecb16.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_24_miim.mp4"
+},
+{
+"uuid": "04c0107b-2f7a-40ef-b049-b801ede50b2f",
+"file": "u01_extra_04c0107b.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_23_laam.mp4"
+},
+{
+"uuid": "5aef0659-3158-400c-a99c-811a638d1e1b",
+"file": "u01_extra_5aef0659.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_22_kaaf.mp4"
+},
+{
+"uuid": "bf2144ac-e1fd-491d-b7b5-0df89759db42",
+"file": "u01_extra_bf2144ac.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_21_qaaf.mp4"
+},
+{
+"uuid": "4aa2c486-a8d5-4c42-b55d-917ac570a400",
+"file": "u01_extra_4aa2c486.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_28_yaa.mp4"
+},
+{
+"uuid": "bb2df89a-7ea8-4c3f-b8f1-0c283191ffbf",
+"file": "u01_extra_bb2df89a.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_27_waaw.mp4"
+},
+{
+"uuid": "3278718c-e3bb-4732-aa39-fa12026e8b8f",
+"file": "u01_extra_3278718c.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_26_ha.mp4"
+},
+{
+"uuid": "bf69bf36-5c2e-41f4-92c7-58d820fda47c",
+"file": "u01_extra_bf69bf36.mp3",
+"lesson": "Unit 1 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_pronouncing_25_nuun.mp4"
+},
+{
+"uuid": "b2d50fb9-e886-4b61-8baf-84347fe6eb07",
+"file": "u01_extra_b2d50fb9.mp3",
+"lesson": "Unit 1 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1LE2-16.mp3"
+},
+{
+"uuid": "d5c1ae02-286f-4769-a166-87f1b960de5d",
+"file": "u01_extra_d5c1ae02.mp3",
+"lesson": "Unit 1 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1LE2-01.mp3"
+},
+{
+"uuid": "272d9f47-f7e5-41e7-833c-ca59399525b0",
+"file": "u01_extra_272d9f47.mp3",
+"lesson": "Unit 1 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1LE2-11.mp3"
+},
+{
+"uuid": "ab602e45-a85f-4f2f-93ed-b9bd3d9cd0e0",
+"file": "u01_extra_ab602e45.mp3",
+"lesson": "Unit 1 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1LE2-17.mp3"
+},
+{
+"uuid": "380334e6-6ead-420e-9682-278f5c788de3",
+"file": "u01_extra_380334e6.mp3",
+"lesson": "Unit 1 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1LE2-02.mp3"
+},
+{
+"uuid": "bb79a47c-f04c-48f2-af26-442a63e4958c",
+"file": "u01_extra_bb79a47c.mp3",
+"lesson": "Unit 1 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1LE2-12.mp3"
+},
+{
+"uuid": "77605002-0909-4001-8756-ea3c75df8893",
+"file": "u01_extra_77605002.mp3",
+"lesson": "Unit 1 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1LE2-18.mp3"
+},
+{
+"uuid": "98bbb415-c2dd-4935-a9cd-39af6b60bcc5",
+"file": "u01_extra_98bbb415.mp3",
+"lesson": "Unit 1 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1LE2-03.mp3"
+},
+{
+"uuid": "64868ad4-653d-4446-bb37-c323cba4fa92",
+"file": "u01_extra_64868ad4.mp3",
+"lesson": "Unit 1 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1LE2-13.mp3"
+},
+{
+"uuid": "343a1e5e-90f3-4f6a-b8cc-c76ea4010b94",
+"file": "u01_extra_343a1e5e.mp3",
+"lesson": "Unit 1 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1LE2-19.mp3"
+},
+{
+"uuid": "42ae3d12-fd81-41dd-ad7b-bf6ba889ab58",
+"file": "u01_extra_42ae3d12.mp3",
+"lesson": "Unit 1 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1LE2-04.mp3"
+},
+{
+"uuid": "eafcf2c9-2a86-4449-b0b7-5810b757a82f",
+"file": "u01_extra_eafcf2c9.mp3",
+"lesson": "Unit 1 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1LE2-14.mp3"
+},
+{
+"uuid": "461b3952-bbfb-4581-ab9a-fd4fd242b48a",
+"file": "u01_extra_461b3952.mp3",
+"lesson": "Unit 1 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1LE2-20.mp3"
+},
+{
+"uuid": "3ecafbb6-4cee-401c-aed8-4dd15c107c2b",
+"file": "u01_extra_3ecafbb6.mp3",
+"lesson": "Unit 1 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1LE2-05.mp3"
+},
+{
+"uuid": "3f70f419-7489-4c6d-8b6f-9cf5e39ecd17",
+"file": "u01_extra_3f70f419.mp3",
+"lesson": "Unit 1 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1LE2-15.mp3"
+},
+{
+"uuid": "ce3a382c-9732-4335-b38b-6c30938ec3fa",
+"file": "u01_extra_ce3a382c.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-10.mp3"
+},
+{
+"uuid": "5f45a9a3-70b8-4482-af01-e1e5af4b467d",
+"file": "u01_extra_5f45a9a3.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-09.mp3"
+},
+{
+"uuid": "19e61e01-b547-4377-ae93-cb4a2822f028",
+"file": "u01_extra_19e61e01.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-19.mp3"
+},
+{
+"uuid": "0ff87cb3-ccca-4ed2-ae47-80f6973871ef",
+"file": "u01_extra_0ff87cb3.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-17.mp3"
+},
+{
+"uuid": "03cf1866-8183-42f6-ba4a-b6b1d28d79e2",
+"file": "u01_extra_03cf1866.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-08.mp3"
+},
+{
+"uuid": "8c7c616c-a8db-4ef5-8ae4-c1eb27fe2493",
+"file": "u01_extra_8c7c616c.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-20.mp3"
+},
+{
+"uuid": "8982224e-e287-42ad-be2c-5dd0b3916c37",
+"file": "u01_extra_8982224e.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-15.mp3"
+},
+{
+"uuid": "84cd880d-62e2-48ab-8c5d-07547a75b1b5",
+"file": "u01_extra_84cd880d.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-14.mp3"
+},
+{
+"uuid": "8f549bec-159d-4e0e-bb94-e7041563fe6b",
+"file": "u01_extra_8f549bec.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-05.mp3"
+},
+{
+"uuid": "39cfb6aa-0d34-4572-8d92-1b9429975154",
+"file": "u01_extra_39cfb6aa.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-04.mp3"
+},
+{
+"uuid": "90f90bc4-f66c-43f9-a123-24a03ab39b49",
+"file": "u01_extra_90f90bc4.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-07.mp3"
+},
+{
+"uuid": "062914c6-00de-49f3-9888-8db228926238",
+"file": "u01_extra_062914c6.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-16.mp3"
+},
+{
+"uuid": "14b9bd2d-20aa-46f4-a0f9-cb01e45f54b9",
+"file": "u01_extra_14b9bd2d.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-03.mp3"
+},
+{
+"uuid": "dcc28cc6-1d42-4893-a104-5227b6e6a570",
+"file": "u01_extra_dcc28cc6.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-06.mp3"
+},
+{
+"uuid": "48457f02-fe4c-4cc2-910a-fedeecdd51de",
+"file": "u01_extra_48457f02.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-13.mp3"
+},
+{
+"uuid": "51e7738a-bb98-4dc5-b7f9-9a03377db672",
+"file": "u01_extra_51e7738a.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-12.mp3"
+},
+{
+"uuid": "352e384a-c1d5-4f0d-bf0f-f91fafd03ba7",
+"file": "u01_extra_352e384a.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-01.mp3"
+},
+{
+"uuid": "fd175d7d-3940-4e80-b74c-937299151563",
+"file": "u01_extra_fd175d7d.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-02.mp3"
+},
+{
+"uuid": "9444e8e1-628c-4a6d-b82e-ac51da695e49",
+"file": "u01_extra_9444e8e1.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-11.mp3"
+},
+{
+"uuid": "66a28bac-4952-45f1-aabb-4ea62aa87072",
+"file": "u01_extra_66a28bac.mp3",
+"lesson": "Unit 1 / Drill 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U1D3-18.mp3"
+},
+{
+"uuid": "c14b5902-d258-4f9c-b2ee-7ff9ad10bdb5",
+"file": "u01_extra_c14b5902.mp3",
+"lesson": "Unit 1 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "516b330a647e6a63439a26c6a8b4f286.mp4"
+},
+{
+"uuid": "cd8b92ed-5b7a-4aa7-b2c5-83c20342de6a",
+"file": "u01_extra_cd8b92ed.mp3",
+"lesson": "Unit 1 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "fdb53a97408fb33c894044541d09cfdc.mp4"
+},
+{
+"uuid": "b2a926ce-a7e7-4554-ba9c-48aad3ac25ab",
+"file": "u02_extra_b2a926ce.mp3",
+"lesson": "Unit 2 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE1-01.mp3"
+},
+{
+"uuid": "bd698848-dc78-44e6-b83e-2675b6c29540",
+"file": "u02_extra_bd698848.mp3",
+"lesson": "Unit 2 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE1-02.mp3"
+},
+{
+"uuid": "8afeb36b-7ad5-4636-9c80-15880e5d4c79",
+"file": "u02_extra_8afeb36b.mp3",
+"lesson": "Unit 2 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE1-03.mp3"
+},
+{
+"uuid": "91a480de-3644-4308-8474-1a032fe8d34d",
+"file": "u02_extra_91a480de.mp3",
+"lesson": "Unit 2 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE1-04.mp3"
+},
+{
+"uuid": "618d24fe-3013-4a7f-a65b-753523801671",
+"file": "u02_extra_618d24fe.mp3",
+"lesson": "Unit 2 / Writing ا",
+"dialect": null,
+"entry": null,
+"origin": "5f68998fc49212c175b24fb98a64876f.mp4"
+},
+{
+"uuid": "b76d65d9-16e5-479b-a15c-e0d4437bb6fc",
+"file": "u02_extra_b76d65d9.mp3",
+"lesson": "Unit 2 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE2-01.mp3"
+},
+{
+"uuid": "96c244e7-32df-4199-8d4a-f8a992c24f40",
+"file": "u02_extra_96c244e7.mp3",
+"lesson": "Unit 2 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE2-02.mp3"
+},
+{
+"uuid": "607af667-bb43-4297-b777-1433d15f593c",
+"file": "u02_extra_607af667.mp3",
+"lesson": "Unit 2 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE2-03.mp3"
+},
+{
+"uuid": "a92d8ff0-1e02-4a5a-83a5-5be75e30121a",
+"file": "u02_extra_a92d8ff0.mp3",
+"lesson": "Unit 2 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE2-04.mp3"
+},
+{
+"uuid": "49bfae12-b04f-49aa-bc0a-162d9145516c",
+"file": "u02_extra_49bfae12.mp3",
+"lesson": "Unit 2 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE2-05.mp3"
+},
+{
+"uuid": "6a1c8cf7-cc08-4320-8198-9c9aeef98aaa",
+"file": "u02_extra_6a1c8cf7.mp3",
+"lesson": "Unit 2 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE2-06.mp3"
+},
+{
+"uuid": "1f3117ea-61a4-4188-91bf-108179a91066",
+"file": "u02_extra_1f3117ea.mp3",
+"lesson": "Unit 2 / Writing ب ",
+"dialect": null,
+"entry": null,
+"origin": "be6f0c78616cf46cb8a0154671c11c90.mp4"
+},
+{
+"uuid": "6fbe7679-8448-4b01-9a80-9030916e43a8",
+"file": "u02_extra_6fbe7679.mp3",
+"lesson": "Unit 2 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE3-01.mp3"
+},
+{
+"uuid": "08eb5c86-a6a3-4b95-8b14-bc1905182e26",
+"file": "u02_extra_08eb5c86.mp3",
+"lesson": "Unit 2 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE3-02.mp3"
+},
+{
+"uuid": "c8987fb7-ce06-4805-9f2f-40009cc17acd",
+"file": "u02_extra_c8987fb7.mp3",
+"lesson": "Unit 2 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE3-03.mp3"
+},
+{
+"uuid": "561b7467-c470-4245-9ab7-a716ab43dbe6",
+"file": "u02_extra_561b7467.mp3",
+"lesson": "Unit 2 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE3-04.mp3"
+},
+{
+"uuid": "9f03cae0-7bb3-4a31-829b-40cd7e933714",
+"file": "u02_extra_9f03cae0.mp3",
+"lesson": "Unit 2 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE3-05.mp3"
+},
+{
+"uuid": "a741b38d-7b4a-4670-b2b8-02376e55f3c0",
+"file": "u02_extra_a741b38d.mp3",
+"lesson": "Unit 2 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE3-06.mp3"
+},
+{
+"uuid": "5fbb4784-e573-46f1-b9fc-cc6683bad2cc",
+"file": "u02_extra_5fbb4784.mp3",
+"lesson": "Unit 2 / Writing ت",
+"dialect": null,
+"entry": null,
+"origin": "ABU2LE3.mp4"
+},
+{
+"uuid": "bfe6b20d-9363-4ade-8899-eae5f97a1747",
+"file": "u02_extra_bfe6b20d.mp3",
+"lesson": "Unit 2 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D2_01.mp4"
+},
+{
+"uuid": "6bcd2634-52f0-492a-a65c-10399209f6a3",
+"file": "u02_extra_6bcd2634.mp3",
+"lesson": "Unit 2 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D2_02.mp4"
+},
+{
+"uuid": "a5de3854-cc41-4456-8692-040419739e2a",
+"file": "u02_extra_a5de3854.mp3",
+"lesson": "Unit 2 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D2_03.mp4"
+},
+{
+"uuid": "7e0d7a28-cdfd-4631-bab8-670e535038be",
+"file": "u02_extra_7e0d7a28.mp3",
+"lesson": "Unit 2 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D2_04.mp4"
+},
+{
+"uuid": "1986d36a-8b52-421b-a3d0-920125e91ef1",
+"file": "u02_extra_1986d36a.mp3",
+"lesson": "Unit 2 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D2_05.mp4"
+},
+{
+"uuid": "b2f7d0ab-2d82-42d7-8999-2f631ceebdf4",
+"file": "u02_extra_b2f7d0ab.mp3",
+"lesson": "Unit 2 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D2_06.mp4"
+},
+{
+"uuid": "a56730d2-f430-4b74-8b8e-d490dc06188c",
+"file": "u02_extra_a56730d2.mp3",
+"lesson": "Unit 2 / Listening Exercise 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE4-01.mp3"
+},
+{
+"uuid": "0735f7da-028d-49d1-b69a-2ace1cbedba9",
+"file": "u02_extra_0735f7da.mp3",
+"lesson": "Unit 2 / Listening Exercise 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE4-02.mp3"
+},
+{
+"uuid": "535995dd-9534-4a7b-a448-854182f8c157",
+"file": "u02_extra_535995dd.mp3",
+"lesson": "Unit 2 / Listening Exercise 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE4-03.mp3"
+},
+{
+"uuid": "c570a205-abdc-45fb-8cdb-88362e320f11",
+"file": "u02_extra_c570a205.mp3",
+"lesson": "Unit 2 / Listening Exercise 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE4-04.mp3"
+},
+{
+"uuid": "487464e0-24de-4554-8c76-f7389285d46a",
+"file": "u02_extra_487464e0.mp3",
+"lesson": "Unit 2 / Listening Exercise 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE4-05.mp3"
+},
+{
+"uuid": "80332747-01b7-4798-b5a2-eeb39e859f75",
+"file": "u02_extra_80332747.mp3",
+"lesson": "Unit 2 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE5-01.mp3"
+},
+{
+"uuid": "286b3e87-9879-46dc-898b-702aafc7d0c3",
+"file": "u02_extra_286b3e87.mp3",
+"lesson": "Unit 2 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE5-02.mp3"
+},
+{
+"uuid": "03bd912e-1c79-4e3a-b8a0-9ad0a4ace65a",
+"file": "u02_extra_03bd912e.mp3",
+"lesson": "Unit 2 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE5-03.mp3"
+},
+{
+"uuid": "145f8eb2-8501-499a-9439-ba7b7bee701c",
+"file": "u02_extra_145f8eb2.mp3",
+"lesson": "Unit 2 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE5-04.mp3"
+},
+{
+"uuid": "bbc18380-e950-465f-be3c-8cc2ca5777b7",
+"file": "u02_extra_bbc18380.mp3",
+"lesson": "Unit 2 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE5-05.mp3"
+},
+{
+"uuid": "4c1ddaa4-0164-4e2e-bdd0-09b8b9623253",
+"file": "u02_extra_4c1ddaa4.mp3",
+"lesson": "Unit 2 / Writing ث",
+"dialect": null,
+"entry": null,
+"origin": "b87c9668516949904a670efa219ae9ac.mp4"
+},
+{
+"uuid": "c7121c0c-b9a6-4253-8619-b612a452629d",
+"file": "u02_extra_c7121c0c.mp3",
+"lesson": "Unit 2 / Listening Exercise 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE6-05.mp3"
+},
+{
+"uuid": "52788deb-f242-4ac7-90cd-71009aac2550",
+"file": "u02_extra_52788deb.mp3",
+"lesson": "Unit 2 / Listening Exercise 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE6-04.mp3"
+},
+{
+"uuid": "e564d02c-16f1-4698-9f46-a1880e0be31f",
+"file": "u02_extra_e564d02c.mp3",
+"lesson": "Unit 2 / Listening Exercise 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE6-03.mp3"
+},
+{
+"uuid": "b940dc0f-b4a5-4224-bf6b-d7c180bafa16",
+"file": "u02_extra_b940dc0f.mp3",
+"lesson": "Unit 2 / Listening Exercise 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE6-02.mp3"
+},
+{
+"uuid": "e5fa3e1e-7ea7-41a5-bd42-e73227bed328",
+"file": "u02_extra_e5fa3e1e.mp3",
+"lesson": "Unit 2 / Listening Exercise 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE6-01.mp3"
+},
+{
+"uuid": "f807f722-c6c9-4ccf-9717-e8b661c5de7e",
+"file": "u02_extra_f807f722.mp3",
+"lesson": "Unit 2 / Writing  و",
+"dialect": null,
+"entry": null,
+"origin": "3a7815b1729e429a9bf23b152979408d.mp4"
+},
+{
+"uuid": "4a845e54-10e7-4ed4-adeb-ebaf50ba5a4f",
+"file": "u02_extra_4a845e54.mp3",
+"lesson": "Unit 2 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D4_01.mp4"
+},
+{
+"uuid": "83d9b314-9c09-4b27-8d41-c8a0a4f2445f",
+"file": "u02_extra_83d9b314.mp3",
+"lesson": "Unit 2 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D4_02.mp4"
+},
+{
+"uuid": "6952954d-4a1a-4196-b7f1-f67ba0cc9a17",
+"file": "u02_extra_6952954d.mp3",
+"lesson": "Unit 2 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D4_03.mp4"
+},
+{
+"uuid": "f505bc97-a7bf-411e-bfc2-1153f213343a",
+"file": "u02_extra_f505bc97.mp3",
+"lesson": "Unit 2 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D4_04.mp4"
+},
+{
+"uuid": "7c4bfdeb-6dc0-4326-a9a6-e43382f11c36",
+"file": "u02_extra_7c4bfdeb.mp3",
+"lesson": "Unit 2 / Listening Exercise 7",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE7-01.mp3"
+},
+{
+"uuid": "43e758b7-e260-4012-a8fe-d6cded52dfc6",
+"file": "u02_extra_43e758b7.mp3",
+"lesson": "Unit 2 / Listening Exercise 7",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE7-02.mp3"
+},
+{
+"uuid": "c508ab56-4348-4b3b-9221-8d5cb8b9b9e5",
+"file": "u02_extra_c508ab56.mp3",
+"lesson": "Unit 2 / Listening Exercise 7",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE7-03.mp3"
+},
+{
+"uuid": "b459fb64-bc3f-4721-9b53-16b74164ee4e",
+"file": "u02_extra_b459fb64.mp3",
+"lesson": "Unit 2 / Listening Exercise 7",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE7-04.mp3"
+},
+{
+"uuid": "d10ae207-90b1-4a27-9dc9-4a305732126a",
+"file": "u02_extra_d10ae207.mp3",
+"lesson": "Unit 2 / Writing  ي",
+"dialect": null,
+"entry": null,
+"origin": "6cc83a9962debf1fe01a0729749e40c8.mp4"
+},
+{
+"uuid": "0fa4cd59-a91d-4d20-b3b2-7a0eab4e5e87",
+"file": "u02_extra_0fa4cd59.mp3",
+"lesson": "Unit 2 / Drill 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D5_01.mp4"
+},
+{
+"uuid": "bdba079e-6ab3-4c4f-8195-7df2ddf8aea0",
+"file": "u02_extra_bdba079e.mp3",
+"lesson": "Unit 2 / Drill 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D5_02.mp4"
+},
+{
+"uuid": "169e0023-2a42-47b5-85ec-53295ecea51e",
+"file": "u02_extra_169e0023.mp3",
+"lesson": "Unit 2 / Drill 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D5_03.mp4"
+},
+{
+"uuid": "8338e7ed-f3ba-4266-91c4-82b6531a8c35",
+"file": "u02_extra_8338e7ed.mp3",
+"lesson": "Unit 2 / Drill 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D5_04.mp4"
+},
+{
+"uuid": "1f15366a-85c3-4191-979b-4b8be3710252",
+"file": "u02_extra_1f15366a.mp3",
+"lesson": "Unit 2 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE8-01.mp3"
+},
+{
+"uuid": "e6a28c2c-c730-412e-ad36-c2e39bc9c454",
+"file": "u02_extra_e6a28c2c.mp3",
+"lesson": "Unit 2 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE8-02.mp3"
+},
+{
+"uuid": "d6ac85fd-582c-4906-86f3-f915d8f205eb",
+"file": "u02_extra_d6ac85fd.mp3",
+"lesson": "Unit 2 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE8-03.mp3"
+},
+{
+"uuid": "a3b038db-7095-4d72-8e80-63f0f16d5720",
+"file": "u02_extra_a3b038db.mp3",
+"lesson": "Unit 2 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE8-04.mp3"
+},
+{
+"uuid": "6f8793b0-5d72-4307-9c26-c47a7b6c690b",
+"file": "u02_extra_6f8793b0.mp3",
+"lesson": "Unit 2 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE8-05.mp3"
+},
+{
+"uuid": "ceb2ba6b-eb66-4ec1-a4c1-5003129ac22f",
+"file": "u02_extra_ceb2ba6b.mp3",
+"lesson": "Unit 2 / Listening Exercise 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE9-01.mp3"
+},
+{
+"uuid": "fd8cd9c2-1e40-4566-9540-ecd4b80104fe",
+"file": "u02_extra_fd8cd9c2.mp3",
+"lesson": "Unit 2 / Listening Exercise 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE9-02.mp3"
+},
+{
+"uuid": "454fcc4f-d648-4a74-9f4e-ea3cb388737a",
+"file": "u02_extra_454fcc4f.mp3",
+"lesson": "Unit 2 / Listening Exercise 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE9-03.mp3"
+},
+{
+"uuid": "b4e8a392-2c60-4130-b787-96695441147f",
+"file": "u02_extra_b4e8a392.mp3",
+"lesson": "Unit 2 / Listening Exercise 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE9-04.mp3"
+},
+{
+"uuid": "81fa93d5-ea38-4b83-86e6-74e56e98b381",
+"file": "u02_extra_81fa93d5.mp3",
+"lesson": "Unit 2 / Listening Exercise 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE9-05.mp3"
+},
+{
+"uuid": "de196f61-5af0-4585-823b-e4c0af7dbea7",
+"file": "u02_extra_de196f61.mp3",
+"lesson": "Unit 2 / Writing ـَـ",
+"dialect": null,
+"entry": null,
+"origin": "c2f0584d8f4cf00c4233a4e5c79bcfb4.mp4"
+},
+{
+"uuid": "5bbcb4ef-6710-48eb-a04d-74920ae2b197",
+"file": "u02_extra_5bbcb4ef.mp3",
+"lesson": "Unit 2 / Drill 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D8-01.mp3"
+},
+{
+"uuid": "03f573ba-a856-44f6-b181-55ac041d9c45",
+"file": "u02_extra_03f573ba.mp3",
+"lesson": "Unit 2 / Drill 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D8-02.mp3"
+},
+{
+"uuid": "b1bd109b-aaec-440d-80ed-6de54e0c94ad",
+"file": "u02_extra_b1bd109b.mp3",
+"lesson": "Unit 2 / Drill 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D8-03.mp3"
+},
+{
+"uuid": "b48540d1-1fc7-46a1-b1cf-fc87988357b3",
+"file": "u02_extra_b48540d1.mp3",
+"lesson": "Unit 2 / Drill 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D8-04.mp3"
+},
+{
+"uuid": "fd4b5d6f-9c4d-4d8c-9d4d-5b20d8fe715a",
+"file": "u02_extra_fd4b5d6f.mp3",
+"lesson": "Unit 2 / Drill 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D8-05.mp3"
+},
+{
+"uuid": "fe0b3c07-d7ef-4e4d-9416-32bbb9a8b4fc",
+"file": "u02_extra_fe0b3c07.mp3",
+"lesson": "Unit 2 / Drill 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D8-06.mp3"
+},
+{
+"uuid": "23814888-401f-425b-99eb-4da06c6cb0bd",
+"file": "u02_extra_23814888.mp3",
+"lesson": "Unit 2 / Listening Exercise 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE10-01.mp3"
+},
+{
+"uuid": "e59cfea2-9dec-45f6-a6a8-877f0e4d665f",
+"file": "u02_extra_e59cfea2.mp3",
+"lesson": "Unit 2 / Listening Exercise 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE10-02.mp3"
+},
+{
+"uuid": "34366a57-3384-48d0-a04b-bff585192dd1",
+"file": "u02_extra_34366a57.mp3",
+"lesson": "Unit 2 / Listening Exercise 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE10-03.mp3"
+},
+{
+"uuid": "4f76591f-1b53-436c-b1ae-6c5b3db4b4bc",
+"file": "u02_extra_4f76591f.mp3",
+"lesson": "Unit 2 / Listening Exercise 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE10-04.mp3"
+},
+{
+"uuid": "76c1770a-305a-431c-b52b-1fc3e09b2e15",
+"file": "u02_extra_76c1770a.mp3",
+"lesson": "Unit 2 / Listening Exercise 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE10-05.mp3"
+},
+{
+"uuid": "c4765da5-4525-4a3f-b6ec-bfd9e54046cb",
+"file": "u02_extra_c4765da5.mp3",
+"lesson": "Unit 2 / Listening Exercise 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE10-06.mp3"
+},
+{
+"uuid": "33def406-4143-415f-bcac-3a4de620a853",
+"file": "u02_extra_33def406.mp3",
+"lesson": "Unit 2 / Writing  ـُـ ",
+"dialect": null,
+"entry": null,
+"origin": "657110d674a8edcf3d4470300fdb5dd9.mp4"
+},
+{
+"uuid": "43c117b8-c327-49cc-ba4f-c41deb9f7c3c",
+"file": "u02_extra_43c117b8.mp3",
+"lesson": "Unit 2 / Listening Exercise 11",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE11-01.mp3"
+},
+{
+"uuid": "22979ea6-4e3f-46ae-9d13-1490116135b7",
+"file": "u02_extra_22979ea6.mp3",
+"lesson": "Unit 2 / Listening Exercise 11",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE11-02.mp3"
+},
+{
+"uuid": "78f63f10-c6f8-48e4-ad46-bfeaa328c4ab",
+"file": "u02_extra_78f63f10.mp3",
+"lesson": "Unit 2 / Listening Exercise 11",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE11-03.mp3"
+},
+{
+"uuid": "f99d4837-c629-4c3b-aee8-4983b958cbd6",
+"file": "u02_extra_f99d4837.mp3",
+"lesson": "Unit 2 / Listening Exercise 11",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE11-04.mp3"
+},
+{
+"uuid": "b16a07fb-a9cf-4a64-97a1-f1784984fbc8",
+"file": "u02_extra_b16a07fb.mp3",
+"lesson": "Unit 2 / Listening Exercise 11",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE11-05.mp3"
+},
+{
+"uuid": "22a971bf-c0b5-4d59-b121-00e098f72f82",
+"file": "u02_extra_22a971bf.mp3",
+"lesson": "Unit 2 / Listening Exercise 11",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2LE11-06.mp3"
+},
+{
+"uuid": "1c89bdcd-4a4a-40e1-859b-a792e8a73aa7",
+"file": "u02_extra_1c89bdcd.mp3",
+"lesson": "Unit 2 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D10-01.mp3"
+},
+{
+"uuid": "e871ff6c-c897-4b48-a541-4a6388ba1b85",
+"file": "u02_extra_e871ff6c.mp3",
+"lesson": "Unit 2 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D10-02.mp3"
+},
+{
+"uuid": "0df9313f-9553-4a5c-b73a-aff26bff5a4d",
+"file": "u02_extra_0df9313f.mp3",
+"lesson": "Unit 2 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D10-03.mp3"
+},
+{
+"uuid": "0ca07e3d-3e6f-4306-9d15-8b4f0de0f8a0",
+"file": "u02_extra_0ca07e3d.mp3",
+"lesson": "Unit 2 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D10-04.mp3"
+},
+{
+"uuid": "6a3b0bf3-d9c2-47b3-823f-529220ba7477",
+"file": "u02_extra_6a3b0bf3.mp3",
+"lesson": "Unit 2 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D10-05.mp3"
+},
+{
+"uuid": "d1620978-d7dd-4b2b-bebe-04e9a63a5ce1",
+"file": "u02_extra_d1620978.mp3",
+"lesson": "Unit 2 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D10-06.mp3"
+},
+{
+"uuid": "2b436750-b340-4f4f-9af2-ce8b4636c9e3",
+"file": "u02_extra_2b436750.mp3",
+"lesson": "Unit 2 / Drill 11",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D11_01.mp4"
+},
+{
+"uuid": "5f992198-165d-41e4-96fa-f73cf3123a9d",
+"file": "u02_extra_5f992198.mp3",
+"lesson": "Unit 2 / Drill 11",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D11_02.mp4"
+},
+{
+"uuid": "8b4c406f-4e98-4f15-80f4-5fffdc703960",
+"file": "u02_extra_8b4c406f.mp3",
+"lesson": "Unit 2 / Drill 11",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D11_03.mp4"
+},
+{
+"uuid": "08a61f1f-7f90-4c6d-a759-c5d85807b362",
+"file": "u02_extra_08a61f1f.mp3",
+"lesson": "Unit 2 / Drill 11",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D11_04.mp4"
+},
+{
+"uuid": "6522e4fc-3835-4f05-9771-6b9687ae1c38",
+"file": "u02_extra_6522e4fc.mp3",
+"lesson": "Unit 2 / Drill 11",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D11_05.mp4"
+},
+{
+"uuid": "c134a1f1-c6ef-4ad8-bb07-413a6d8fcdf6",
+"file": "u02_extra_c134a1f1.mp3",
+"lesson": "Unit 2 / Drill 11",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D11_06.mp4"
+},
+{
+"uuid": "b4fd5ea2-3b9e-460d-898b-a0320d7e2574",
+"file": "u02_extra_b4fd5ea2.mp3",
+"lesson": "Unit 2 / Drill 11",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D11_07.mp4"
+},
+{
+"uuid": "95889e8a-fd4a-439a-8afc-e1f026ffeff7",
+"file": "u02_extra_95889e8a.mp3",
+"lesson": "Unit 2 / Drill 11",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D11_08.mp4"
+},
+{
+"uuid": "94a726a6-ae34-4aca-957d-e664e1fedc5b",
+"file": "u02_extra_94a726a6.mp3",
+"lesson": "Unit 2 / Drill 12",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D12-01.mp3"
+},
+{
+"uuid": "8352a125-65ed-441f-84d5-b29bafd5e296",
+"file": "u02_extra_8352a125.mp3",
+"lesson": "Unit 2 / Drill 12",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D12-02.mp3"
+},
+{
+"uuid": "044cafe7-274f-4e36-9e02-2b316ce6e1e9",
+"file": "u02_extra_044cafe7.mp3",
+"lesson": "Unit 2 / Drill 12",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D12-03.mp3"
+},
+{
+"uuid": "dfd466e3-59c3-4fa4-8591-1dd430ca4527",
+"file": "u02_extra_dfd466e3.mp3",
+"lesson": "Unit 2 / Drill 12",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D12-04.mp3"
+},
+{
+"uuid": "7201a5b2-9747-48ff-a70e-4aa53ecdd517",
+"file": "u02_extra_7201a5b2.mp3",
+"lesson": "Unit 2 / Drill 12",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D12-05.mp3"
+},
+{
+"uuid": "fbe5c87c-9439-479e-9368-e7889e924533",
+"file": "u02_extra_fbe5c87c.mp3",
+"lesson": "Unit 2 / Drill 12",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D12-06.mp3"
+},
+{
+"uuid": "d42447be-316a-4e37-8da8-658ba0945902",
+"file": "u02_extra_d42447be.mp3",
+"lesson": "Unit 2 / Drill 12",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D12-07.mp3"
+},
+{
+"uuid": "ee54c93f-ec45-491f-a27b-1775955942a2",
+"file": "u02_extra_ee54c93f.mp3",
+"lesson": "Unit 2 / Drill 12",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D12-08.mp3"
+},
+{
+"uuid": "5e99171e-95a8-419f-a8fd-f9e5069b39b1",
+"file": "u02_extra_5e99171e.mp3",
+"lesson": "Unit 2 / Drill 12",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D12-09.mp3"
+},
+{
+"uuid": "1a870b07-0369-47eb-9dae-e917bd75372e",
+"file": "u02_extra_1a870b07.mp3",
+"lesson": "Unit 2 / Drill 12",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D12-10.mp3"
+},
+{
+"uuid": "5bdd1d83-8a42-41a6-8725-050a7739c179",
+"file": "u02_extra_5bdd1d83.mp3",
+"lesson": "Unit 2 / Drill 12",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D12-11.mp3"
+},
+{
+"uuid": "e4420d95-2432-46e8-ab3b-4edb5cda64ca",
+"file": "u02_extra_e4420d95.mp3",
+"lesson": "Unit 2 / Drill 12",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U2D12-12.mp3"
+},
+{
+"uuid": "4710d5d5-b4e0-47d1-a54c-47e46e6bc5c1",
+"file": "u02_extra_4710d5d5.mp3",
+"lesson": "Unit 2 / Drill 17",
+"dialect": null,
+"entry": null,
+"origin": "a4461459ced1684058c428d1b30de217.mp4"
+},
+{
+"uuid": "34fb243b-f67a-4b34-bc7d-0985cdb2608e",
+"file": "u02_extra_34fb243b.mp3",
+"lesson": "Unit 2 / Drill 17",
+"dialect": null,
+"entry": null,
+"origin": "cdcb5976ea73581c38ea8cea9510bcd9.mp4"
+},
+{
+"uuid": "2c57693e-92bf-41cf-898a-ac4d405df6aa",
+"file": "u02_extra_2c57693e.mp3",
+"lesson": "Unit 2 / Writing ـِـ",
+"dialect": null,
+"entry": null,
+"origin": "b9fe78fb61c717f3f00c1d053cdf5124.mp4"
+},
+{
+"uuid": "d2f78e95-971c-4fa3-8c5c-ca8a49ea15df",
+"file": "u03_extra_d2f78e95.mp3",
+"lesson": "Unit 3 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE1-01.mp3"
+},
+{
+"uuid": "43ad77c0-0526-499a-a5c1-bdcc93a874ef",
+"file": "u03_extra_43ad77c0.mp3",
+"lesson": "Unit 3 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE1-02.mp3"
+},
+{
+"uuid": "02ee14c7-7307-4019-a062-cd48f3e2288a",
+"file": "u03_extra_02ee14c7.mp3",
+"lesson": "Unit 3 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE1-03.mp3"
+},
+{
+"uuid": "faaf141f-192a-42e5-90c0-389aef9a90a6",
+"file": "u03_extra_faaf141f.mp3",
+"lesson": "Unit 3 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE1-04.mp3"
+},
+{
+"uuid": "205d3b70-6158-49fe-ad3e-7287fe3b952c",
+"file": "u03_extra_205d3b70.mp3",
+"lesson": "Unit 3 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE2-01.mp3"
+},
+{
+"uuid": "0f9a4213-6c60-4f5f-a7b5-64570a51c44f",
+"file": "u03_extra_0f9a4213.mp3",
+"lesson": "Unit 3 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE2-02.mp3"
+},
+{
+"uuid": "fe788319-3fcb-43c4-b647-06383fe16a92",
+"file": "u03_extra_fe788319.mp3",
+"lesson": "Unit 3 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE2-03.mp3"
+},
+{
+"uuid": "331ef59a-16f1-49c4-ad32-e1acaf41fcac",
+"file": "u03_extra_331ef59a.mp3",
+"lesson": "Unit 3 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE2-04.mp3"
+},
+{
+"uuid": "2c3a9759-8537-4e4b-9ed9-19d906d26666",
+"file": "u03_extra_2c3a9759.mp3",
+"lesson": "Unit 3 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE3-01.mp3"
+},
+{
+"uuid": "9c172d95-a417-4bca-8e45-29658d11a496",
+"file": "u03_extra_9c172d95.mp3",
+"lesson": "Unit 3 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE3-02.mp3"
+},
+{
+"uuid": "c161fcee-98cd-424e-b98f-498304adfe0e",
+"file": "u03_extra_c161fcee.mp3",
+"lesson": "Unit 3 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE3-03.mp3"
+},
+{
+"uuid": "ed48189b-2158-48e2-816d-bf15c78065df",
+"file": "u03_extra_ed48189b.mp3",
+"lesson": "Unit 3 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE3-04.mp3"
+},
+{
+"uuid": "09e07400-bcb0-49cc-bb2c-c18f8822f1c3",
+"file": "u03_extra_09e07400.mp3",
+"lesson": "Unit 3 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE3-05.mp3"
+},
+{
+"uuid": "792e2c04-f607-45dd-b34d-30959e1d8173",
+"file": "u03_extra_792e2c04.mp3",
+"lesson": "Unit 3 / Listening Exercise 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE4-01.mp3"
+},
+{
+"uuid": "61a50d45-7ebe-4a84-a0e5-98e8102ec23b",
+"file": "u03_extra_61a50d45.mp3",
+"lesson": "Unit 3 / Listening Exercise 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE4-02.mp3"
+},
+{
+"uuid": "8a8a4ed1-2401-4747-9f4d-9f82a18573ac",
+"file": "u03_extra_8a8a4ed1.mp3",
+"lesson": "Unit 3 / Listening Exercise 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE4-03.mp3"
+},
+{
+"uuid": "583cd08b-72cc-4f1b-8ca3-1650ca770a73",
+"file": "u03_extra_583cd08b.mp3",
+"lesson": "Unit 3 / Listening Exercise 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE4-04.mp3"
+},
+{
+"uuid": "885a474c-9470-4602-8ee5-2174f4764e0b",
+"file": "u03_extra_885a474c.mp3",
+"lesson": "Unit 3 / Listening Exercise 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE4-05.mp3"
+},
+{
+"uuid": "91914b5e-6663-4073-8c47-5c5f0319da18",
+"file": "u03_extra_91914b5e.mp3",
+"lesson": "Unit 3 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE5-01.mp3"
+},
+{
+"uuid": "089c4105-bcc3-4a49-a9bc-37c8f9c08600",
+"file": "u03_extra_089c4105.mp3",
+"lesson": "Unit 3 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE5-02.mp3"
+},
+{
+"uuid": "cb544192-2208-4535-ba58-03c57403b7bb",
+"file": "u03_extra_cb544192.mp3",
+"lesson": "Unit 3 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE5-03.mp3"
+},
+{
+"uuid": "5bc5bed8-d3a9-45f8-ab51-b104728b0910",
+"file": "u03_extra_5bc5bed8.mp3",
+"lesson": "Unit 3 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE5-04.mp3"
+},
+{
+"uuid": "553e9cb9-43dc-4679-8f89-d66c71f38187",
+"file": "u03_extra_553e9cb9.mp3",
+"lesson": "Unit 3 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE5-05.mp3"
+},
+{
+"uuid": "ba1825f3-4c45-4636-9bc9-46c68c41d76e",
+"file": "u03_extra_ba1825f3.mp3",
+"lesson": "Unit 3 / Listening Exercise 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE6-01.mp3"
+},
+{
+"uuid": "2bb90971-4ec1-43ea-8169-c15cbebc3890",
+"file": "u03_extra_2bb90971.mp3",
+"lesson": "Unit 3 / Listening Exercise 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE6-02.mp3"
+},
+{
+"uuid": "f64d92fa-03bb-4c63-b670-876bbc4e0959",
+"file": "u03_extra_f64d92fa.mp3",
+"lesson": "Unit 3 / Listening Exercise 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE6-03.mp3"
+},
+{
+"uuid": "5ae376a5-95e1-4dce-8421-5c4b45406811",
+"file": "u03_extra_5ae376a5.mp3",
+"lesson": "Unit 3 / Listening Exercise 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE6-04.mp3"
+},
+{
+"uuid": "e206756f-9079-44a8-84c3-3b9b62338725",
+"file": "u03_extra_e206756f.mp3",
+"lesson": "Unit 3 / Listening Exercise 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE6-05.mp3"
+},
+{
+"uuid": "915d9da4-c02b-4ab2-b780-b54563a30538",
+"file": "u03_extra_915d9da4.mp3",
+"lesson": "Unit 3 / Listening Exercise 7",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE7-01.mp3"
+},
+{
+"uuid": "d8fefc8d-5e2b-4086-99dd-efd37119d8e8",
+"file": "u03_extra_d8fefc8d.mp3",
+"lesson": "Unit 3 / Listening Exercise 7",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE7-02.mp3"
+},
+{
+"uuid": "9fd5da59-be62-4a7a-9bf1-81509852de21",
+"file": "u03_extra_9fd5da59.mp3",
+"lesson": "Unit 3 / Listening Exercise 7",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE7-03.mp3"
+},
+{
+"uuid": "b14cea0b-6621-49ba-852d-35607b4e0dd7",
+"file": "u03_extra_b14cea0b.mp3",
+"lesson": "Unit 3 / Listening Exercise 7",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE7-04.mp3"
+},
+{
+"uuid": "57b8fafc-aaf4-40f9-a106-f296c7604e82",
+"file": "u03_extra_57b8fafc.mp3",
+"lesson": "Unit 3 / Listening Exercise 7",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE7-05.mp3"
+},
+{
+"uuid": "69381eb8-d440-4747-b2de-ffa08dd4840d",
+"file": "u03_extra_69381eb8.mp3",
+"lesson": "Unit 3 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE8-01.mp3"
+},
+{
+"uuid": "ae4d02d2-e9db-4fba-9370-1f9511dcaafe",
+"file": "u03_extra_ae4d02d2.mp3",
+"lesson": "Unit 3 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE8-02.mp3"
+},
+{
+"uuid": "b0221b24-eb78-41ec-b5b3-3b7f3bc24aba",
+"file": "u03_extra_b0221b24.mp3",
+"lesson": "Unit 3 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE8-03.mp3"
+},
+{
+"uuid": "9c6bcb4a-a051-4ab6-8633-e4a3190fa126",
+"file": "u03_extra_9c6bcb4a.mp3",
+"lesson": "Unit 3 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE8-04.mp3"
+},
+{
+"uuid": "18a3546c-cf6d-429f-b24f-6bab0b7a03f9",
+"file": "u03_extra_18a3546c.mp3",
+"lesson": "Unit 3 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3LE8-05.mp3"
+},
+{
+"uuid": "e0f17593-a7de-4b6f-8422-094372d34f85",
+"file": "u03_extra_e0f17593.mp3",
+"lesson": "Unit 3 / Writing ج",
+"dialect": null,
+"entry": null,
+"origin": "a5ff6addfb5e25b89aba7463359de209.mp4"
+},
+{
+"uuid": "e3742b68-ab3b-4bb4-a115-d3d674084c19",
+"file": "u03_extra_e3742b68.mp3",
+"lesson": "Unit 3 / Writing ح",
+"dialect": null,
+"entry": null,
+"origin": "3312dedcf0bc396131e3e7e18df4e666.mp4"
+},
+{
+"uuid": "e237cddb-b04c-4ce1-a936-610965213d70",
+"file": "u03_extra_e237cddb.mp3",
+"lesson": "Unit 3 / Writing خ",
+"dialect": null,
+"entry": null,
+"origin": "ad13b59604f3572db03c164333667b4c.mp4"
+},
+{
+"uuid": "749a6fcd-a833-4a94-84cb-165c65634e52",
+"file": "u03_extra_749a6fcd.mp3",
+"lesson": "Unit 3 / Writing ـْـ ",
+"dialect": null,
+"entry": null,
+"origin": "b009014a30dc0ce08541871d5d7e8b5c.mp4"
+},
+{
+"uuid": "e08d607b-0313-405c-b706-3c8ddade922a",
+"file": "u03_extra_e08d607b.mp3",
+"lesson": "Unit 3 / Drill 1",
+"dialect": null,
+"entry": null,
+"origin": "U3D1_01.mp4"
+},
+{
+"uuid": "d8f0686f-5da7-46f4-bfe3-af0324ffaacd",
+"file": "u03_extra_d8f0686f.mp3",
+"lesson": "Unit 3 / Drill 1",
+"dialect": null,
+"entry": null,
+"origin": "U3D1_02.mp4"
+},
+{
+"uuid": "542e8e38-59e9-4c35-b2b5-9e2c40dda1d1",
+"file": "u03_extra_542e8e38.mp3",
+"lesson": "Unit 3 / Drill 1",
+"dialect": null,
+"entry": null,
+"origin": "U3D1_03.mp4"
+},
+{
+"uuid": "9c30ace1-00a8-4cca-980f-b393261ea639",
+"file": "u03_extra_9c30ace1.mp3",
+"lesson": "Unit 3 / Drill 1",
+"dialect": null,
+"entry": null,
+"origin": "U3D1_04.mp4"
+},
+{
+"uuid": "ff84bbcd-18ea-42c4-84ee-a5dc68d9a413",
+"file": "u03_extra_ff84bbcd.mp3",
+"lesson": "Unit 3 / Drill 1",
+"dialect": null,
+"entry": null,
+"origin": "U3D1_05.mp4"
+},
+{
+"uuid": "83fa53fe-257b-4129-b9dd-1657d589cd87",
+"file": "u03_extra_83fa53fe.mp3",
+"lesson": "Unit 3 / Drill 1",
+"dialect": null,
+"entry": null,
+"origin": "U3D1_06.mp4"
+},
+{
+"uuid": "c0a8e9f0-7c29-48fa-9bb9-1e60b74c362b",
+"file": "u03_extra_c0a8e9f0.mp3",
+"lesson": "Unit 3 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "U3D2_01.mp4"
+},
+{
+"uuid": "2cc3e716-a47b-4c9d-8a16-40f767c09098",
+"file": "u03_extra_2cc3e716.mp3",
+"lesson": "Unit 3 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "U3D2_02.mp4"
+},
+{
+"uuid": "3706c0d8-e063-44eb-bb63-0fb22eb3a357",
+"file": "u03_extra_3706c0d8.mp3",
+"lesson": "Unit 3 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "U3D2_03.mp4"
+},
+{
+"uuid": "2b280226-41c5-453f-aaa6-3db7484b871f",
+"file": "u03_extra_2b280226.mp3",
+"lesson": "Unit 3 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "U3D2_04.mp4"
+},
+{
+"uuid": "f73d72f7-7e4a-4a60-8429-a8a51c2cc364",
+"file": "u03_extra_f73d72f7.mp3",
+"lesson": "Unit 3 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "U3D2_05.mp4"
+},
+{
+"uuid": "e9a8b3ba-7ba5-4269-93c5-63e4020586e3",
+"file": "u03_extra_e9a8b3ba.mp3",
+"lesson": "Unit 3 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "U3D2_06.mp4"
+},
+{
+"uuid": "02f2d3d6-628f-4dac-a38c-1956010f53d2",
+"file": "u03_extra_02f2d3d6.mp3",
+"lesson": "Unit 3 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D4-01.mp3"
+},
+{
+"uuid": "2115a5ec-ef97-4b8d-8ab2-066cdacbc7fa",
+"file": "u03_extra_2115a5ec.mp3",
+"lesson": "Unit 3 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D4-02.mp3"
+},
+{
+"uuid": "f45a62be-44c8-41f2-9d36-531490f1fef4",
+"file": "u03_extra_f45a62be.mp3",
+"lesson": "Unit 3 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D4-03.mp3"
+},
+{
+"uuid": "a02f1d02-cdef-458b-824d-0ed711503913",
+"file": "u03_extra_a02f1d02.mp3",
+"lesson": "Unit 3 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D4-04.mp3"
+},
+{
+"uuid": "0d20d6b8-b99e-43a4-af1f-6187be564e5e",
+"file": "u03_extra_0d20d6b8.mp3",
+"lesson": "Unit 3 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D4-05.mp3"
+},
+{
+"uuid": "02c2c132-28d9-4fae-92bf-c11c4ae0cef8",
+"file": "u03_extra_02c2c132.mp3",
+"lesson": "Unit 3 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D4-06.mp3"
+},
+{
+"uuid": "9c52118a-ff3b-4c46-a999-f75b15237d6f",
+"file": "u03_extra_9c52118a.mp3",
+"lesson": "Unit 3 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D4-07.mp3"
+},
+{
+"uuid": "5d814705-ad4b-423b-b568-7c5392c0780a",
+"file": "u03_extra_5d814705.mp3",
+"lesson": "Unit 3 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D4-08.mp3"
+},
+{
+"uuid": "2f50ff92-a3fa-4f99-9f36-77b3c12798bd",
+"file": "u03_extra_2f50ff92.mp3",
+"lesson": "Unit 3 / Drill 5",
+"dialect": null,
+"entry": null,
+"origin": "U3D5_01.mp4"
+},
+{
+"uuid": "7b1079dd-73a5-4bc6-bba3-cf4ff77429bf",
+"file": "u03_extra_7b1079dd.mp3",
+"lesson": "Unit 3 / Drill 5",
+"dialect": null,
+"entry": null,
+"origin": "U3D5_02.mp4"
+},
+{
+"uuid": "728d534a-8030-4411-9c58-48b9bc2713d0",
+"file": "u03_extra_728d534a.mp3",
+"lesson": "Unit 3 / Drill 5",
+"dialect": null,
+"entry": null,
+"origin": "U3D5_03.mp4"
+},
+{
+"uuid": "2d5e1d96-d02b-4dd5-8367-d473203ad06d",
+"file": "u03_extra_2d5e1d96.mp3",
+"lesson": "Unit 3 / Drill 5",
+"dialect": null,
+"entry": null,
+"origin": "U3D5_04.mp4"
+},
+{
+"uuid": "e2c6a003-ae62-4c8a-8e8a-4e27e43ed6c2",
+"file": "u03_extra_e2c6a003.mp3",
+"lesson": "Unit 3 / Drill 5",
+"dialect": null,
+"entry": null,
+"origin": "U3D5_05.mp4"
+},
+{
+"uuid": "c1e8820c-6575-4c33-adad-21aef1cea3b0",
+"file": "u03_extra_c1e8820c.mp3",
+"lesson": "Unit 3 / Drill 5",
+"dialect": null,
+"entry": null,
+"origin": "U3D5_06.mp4"
+},
+{
+"uuid": "ea632183-e180-4b68-8f07-1d2a631059aa",
+"file": "u03_extra_ea632183.mp3",
+"lesson": "Unit 3 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D6-04.mp3"
+},
+{
+"uuid": "5d158c7d-2cf7-428f-ad90-6f1d0209024a",
+"file": "u03_extra_5d158c7d.mp3",
+"lesson": "Unit 3 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D6-03.mp3"
+},
+{
+"uuid": "adf8cca0-2002-40b5-a84b-80ac88144d41",
+"file": "u03_extra_adf8cca0.mp3",
+"lesson": "Unit 3 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D6-02.mp3"
+},
+{
+"uuid": "6becee96-801f-4b3f-be1a-ba3e6887ca2c",
+"file": "u03_extra_6becee96.mp3",
+"lesson": "Unit 3 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D6-01.mp3"
+},
+{
+"uuid": "fbc4466c-25c1-4f31-92aa-8403cd646d30",
+"file": "u03_extra_fbc4466c.mp3",
+"lesson": "Unit 3 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D6-08.mp3"
+},
+{
+"uuid": "ec053625-27f9-4c89-abb6-0cb3ff2527f6",
+"file": "u03_extra_ec053625.mp3",
+"lesson": "Unit 3 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D6-07.mp3"
+},
+{
+"uuid": "6129b354-8171-4b46-a3fe-fd11df780747",
+"file": "u03_extra_6129b354.mp3",
+"lesson": "Unit 3 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D6-06.mp3"
+},
+{
+"uuid": "f5c8d0db-7031-4ba5-9ef9-0c23e3c477cb",
+"file": "u03_extra_f5c8d0db.mp3",
+"lesson": "Unit 3 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D6-05.mp3"
+},
+{
+"uuid": "ac2aa199-c5fa-4fc4-8d83-f4360ac48028",
+"file": "u03_extra_ac2aa199.mp3",
+"lesson": "Unit 3 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D6-12.mp3"
+},
+{
+"uuid": "47c0303b-5fb4-4c15-be23-39d2cfcf2273",
+"file": "u03_extra_47c0303b.mp3",
+"lesson": "Unit 3 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D6-11.mp3"
+},
+{
+"uuid": "7bf0977e-888c-40f8-89c9-6694e4d77133",
+"file": "u03_extra_7bf0977e.mp3",
+"lesson": "Unit 3 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D6-10.mp3"
+},
+{
+"uuid": "c130c83d-e363-43c6-93e1-fb0e13f2cd45",
+"file": "u03_extra_c130c83d.mp3",
+"lesson": "Unit 3 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D6-09.mp3"
+},
+{
+"uuid": "bca22f98-d8cd-4da2-ac79-c71841387bf8",
+"file": "u03_extra_bca22f98.mp3",
+"lesson": "Unit 3 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D6-15.mp3"
+},
+{
+"uuid": "605cfad4-b82d-44d9-b529-d909fde59213",
+"file": "u03_extra_605cfad4.mp3",
+"lesson": "Unit 3 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D6-14.mp3"
+},
+{
+"uuid": "21a212d7-795c-42f4-9dca-55b4d28043c6",
+"file": "u03_extra_21a212d7.mp3",
+"lesson": "Unit 3 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D6-13.mp3"
+},
+{
+"uuid": "205a2044-3095-47fb-a4c8-c0bd2a02a125",
+"file": "u03_extra_205a2044.mp3",
+"lesson": "Unit 3 / Drill 7",
+"dialect": null,
+"entry": null,
+"origin": "U3D7_01.mp4"
+},
+{
+"uuid": "27a9d83f-ecc9-43d8-91b7-3c5baa70047a",
+"file": "u03_extra_27a9d83f.mp3",
+"lesson": "Unit 3 / Drill 7",
+"dialect": null,
+"entry": null,
+"origin": "U3D7_02.mp4"
+},
+{
+"uuid": "16483a05-56fd-4578-b360-d1abedec6cc0",
+"file": "u03_extra_16483a05.mp3",
+"lesson": "Unit 3 / Drill 7",
+"dialect": null,
+"entry": null,
+"origin": "U3D7_03.mp4"
+},
+{
+"uuid": "03bc4220-558c-4fdc-b164-2c8160b5bca6",
+"file": "u03_extra_03bc4220.mp3",
+"lesson": "Unit 3 / Drill 7",
+"dialect": null,
+"entry": null,
+"origin": "U3D7_04.mp4"
+},
+{
+"uuid": "8a6a884a-f88e-45ea-b690-7b9dc14d5c23",
+"file": "u03_extra_8a6a884a.mp3",
+"lesson": "Unit 3 / Drill 8",
+"dialect": null,
+"entry": null,
+"origin": "U3D8_01.mp4"
+},
+{
+"uuid": "18a4403d-cd27-422a-b67f-4a3f12d545a1",
+"file": "u03_extra_18a4403d.mp3",
+"lesson": "Unit 3 / Drill 8",
+"dialect": null,
+"entry": null,
+"origin": "U3D8_02.mp4"
+},
+{
+"uuid": "3c99f6e7-6ab4-4e7e-aef3-cf90f8143b13",
+"file": "u03_extra_3c99f6e7.mp3",
+"lesson": "Unit 3 / Drill 8",
+"dialect": null,
+"entry": null,
+"origin": "U3D8_03.mp4"
+},
+{
+"uuid": "ab764fa5-dbe1-4322-9baa-2e377a0ca3eb",
+"file": "u03_extra_ab764fa5.mp3",
+"lesson": "Unit 3 / Drill 8",
+"dialect": null,
+"entry": null,
+"origin": "U3D8_04.mp4"
+},
+{
+"uuid": "ee8b3e91-bc64-4925-9eba-ed2017082dbe",
+"file": "u03_extra_ee8b3e91.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-04.mp3"
+},
+{
+"uuid": "322bb8e1-45d3-478a-85f5-c7041cd866b1",
+"file": "u03_extra_322bb8e1.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-03.mp3"
+},
+{
+"uuid": "f0180763-7886-4345-b565-c1ddfa0a8293",
+"file": "u03_extra_f0180763.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-02.mp3"
+},
+{
+"uuid": "3570ba2c-ffbd-40d9-85a9-43167cc0c52a",
+"file": "u03_extra_3570ba2c.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-01.mp3"
+},
+{
+"uuid": "976097c8-9055-4c25-ae55-93be324f40d8",
+"file": "u03_extra_976097c8.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-08.mp3"
+},
+{
+"uuid": "3e9c133c-c764-42c0-b040-90db91b43683",
+"file": "u03_extra_3e9c133c.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-07.mp3"
+},
+{
+"uuid": "2fda9c3d-9c66-4f78-831a-14de0baa9a6d",
+"file": "u03_extra_2fda9c3d.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-06.mp3"
+},
+{
+"uuid": "a0f0df6d-f120-4bef-9e55-bfa4a011111f",
+"file": "u03_extra_a0f0df6d.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-05.mp3"
+},
+{
+"uuid": "746c0607-954a-4186-926f-556f872228c6",
+"file": "u03_extra_746c0607.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-12.mp3"
+},
+{
+"uuid": "023093e2-9854-487e-a82f-1167e54da767",
+"file": "u03_extra_023093e2.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-11.mp3"
+},
+{
+"uuid": "c0411424-849b-4e19-a240-29784018a6e2",
+"file": "u03_extra_c0411424.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-10.mp3"
+},
+{
+"uuid": "0dfffe94-866f-492f-ae2e-331268dc6309",
+"file": "u03_extra_0dfffe94.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-09.mp3"
+},
+{
+"uuid": "7deda868-403d-4823-a443-449269f1638e",
+"file": "u03_extra_7deda868.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-16.mp3"
+},
+{
+"uuid": "a69fb045-e23d-4cb6-97e9-f5f088d83a53",
+"file": "u03_extra_a69fb045.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-15.mp3"
+},
+{
+"uuid": "dac27994-e7d9-43a5-b66a-e6716519f1c8",
+"file": "u03_extra_dac27994.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-14.mp3"
+},
+{
+"uuid": "8f1e50bf-e1a4-4ff9-9317-635792bba6ad",
+"file": "u03_extra_8f1e50bf.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-13.mp3"
+},
+{
+"uuid": "c956a285-252c-454e-9eed-f51c4e4c9373",
+"file": "u03_extra_c956a285.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-20.mp3"
+},
+{
+"uuid": "a2985dc4-0f44-4ddd-8fed-124e578e640d",
+"file": "u03_extra_a2985dc4.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-19.mp3"
+},
+{
+"uuid": "f138dfad-0395-4aa4-b79f-708852862bd9",
+"file": "u03_extra_f138dfad.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-18.mp3"
+},
+{
+"uuid": "b6cc8c88-dae3-42ed-9afc-28c7580f5552",
+"file": "u03_extra_b6cc8c88.mp3",
+"lesson": "Unit 3 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D9-17.mp3"
+},
+{
+"uuid": "5f83f5f3-19b5-4791-9f57-4a8a50dd86ca",
+"file": "u03_extra_5f83f5f3.mp3",
+"lesson": "Unit 3 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D10-01.mp3"
+},
+{
+"uuid": "85b8bab2-5062-4100-913a-f7fa034eb289",
+"file": "u03_extra_85b8bab2.mp3",
+"lesson": "Unit 3 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D10-02.mp3"
+},
+{
+"uuid": "302b4b6e-ab2c-4fee-8168-d0e0bcca6abd",
+"file": "u03_extra_302b4b6e.mp3",
+"lesson": "Unit 3 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D10-03.mp3"
+},
+{
+"uuid": "436a5112-dbd5-4abf-8a57-0953fb83d230",
+"file": "u03_extra_436a5112.mp3",
+"lesson": "Unit 3 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D10-04.mp3"
+},
+{
+"uuid": "ddc76422-3221-44ef-b703-9bbc61ed8382",
+"file": "u03_extra_ddc76422.mp3",
+"lesson": "Unit 3 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D10-05.mp3"
+},
+{
+"uuid": "6235a486-d18a-46ec-a26e-60783ae02a89",
+"file": "u03_extra_6235a486.mp3",
+"lesson": "Unit 3 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D10-06.mp3"
+},
+{
+"uuid": "e0ea10d4-c116-4355-a658-0d4e784b323d",
+"file": "u03_extra_e0ea10d4.mp3",
+"lesson": "Unit 3 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D10-07.mp3"
+},
+{
+"uuid": "cab9503c-f04a-4474-952d-3a61b0e9e85d",
+"file": "u03_extra_cab9503c.mp3",
+"lesson": "Unit 3 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D10-08.mp3"
+},
+{
+"uuid": "d9284cc9-b433-46a2-8daa-0c42fbdb7755",
+"file": "u03_extra_d9284cc9.mp3",
+"lesson": "Unit 3 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D10-09.mp3"
+},
+{
+"uuid": "a0e97267-a262-4fd8-b363-1578ce665372",
+"file": "u03_extra_a0e97267.mp3",
+"lesson": "Unit 3 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U3D10-10.mp3"
+},
+{
+"uuid": "c086caf5-ace4-4399-9b34-cf7e728f9d6c",
+"file": "u03_extra_c086caf5.mp3",
+"lesson": "Unit 3 / Drill 11",
+"dialect": null,
+"entry": null,
+"origin": "U3D11_01.mp4"
+},
+{
+"uuid": "b23333ec-86a8-4ce1-b9cf-7937958e548e",
+"file": "u03_extra_b23333ec.mp3",
+"lesson": "Unit 3 / Drill 11",
+"dialect": null,
+"entry": null,
+"origin": "U3D11_02.mp4"
+},
+{
+"uuid": "dab9c1d7-f334-4280-9aad-0379610caa28",
+"file": "u03_extra_dab9c1d7.mp3",
+"lesson": "Unit 3 / Drill 11",
+"dialect": null,
+"entry": null,
+"origin": "U3D11_03.mp4"
+},
+{
+"uuid": "ddfeaaa7-d39e-4a74-800e-6ee2c6aefda1",
+"file": "u03_extra_ddfeaaa7.mp3",
+"lesson": "Unit 3 / Drill 11",
+"dialect": null,
+"entry": null,
+"origin": "U3D11_04.mp4"
+},
+{
+"uuid": "5cb65d33-a288-4505-9623-f2fc008a215b",
+"file": "u03_extra_5cb65d33.mp3",
+"lesson": "Unit 3 / Drill 11",
+"dialect": null,
+"entry": null,
+"origin": "U3D11_05.mp4"
+},
+{
+"uuid": "b93af1a7-83cc-4af3-8e16-f75d20156257",
+"file": "u03_extra_b93af1a7.mp3",
+"lesson": "Unit 3 / Drill 11",
+"dialect": null,
+"entry": null,
+"origin": "U3D11_06.mp4"
+},
+{
+"uuid": "557e65e5-d77d-4e96-a8e5-eb4a30ab30e2",
+"file": "u03_extra_557e65e5.mp3",
+"lesson": "Unit 3 / Drill 15",
+"dialect": null,
+"entry": null,
+"origin": "e6b2caadcad9de1210109125d238fb59.mp4"
+},
+{
+"uuid": "fb69a342-6dc4-4b56-95c3-6f7e95d7ef70",
+"file": "u03_extra_fb69a342.mp3",
+"lesson": "Unit 3 / Drill 15",
+"dialect": null,
+"entry": null,
+"origin": "ff32ad8eca40513ce49b4d037c524df9.mp4"
+},
+{
+"uuid": "89f203cc-54ec-4675-8900-bb6549e95ed7",
+"file": "u03_extra_89f203cc.mp3",
+"lesson": "Unit 3 / Drill 15",
+"dialect": null,
+"entry": null,
+"origin": "9f711b2c855e5d211ebb5a4f50d1e4f6.mp4"
+},
+{
+"uuid": "fd57795c-bce8-4d12-9bc7-afe0c8609ec5",
+"file": "u03_extra_fd57795c.mp3",
+"lesson": "Unit 3 / Drill 15",
+"dialect": null,
+"entry": null,
+"origin": "4c1acd061f8e0af99c0123dee9ed794c.mp4"
+},
+{
+"uuid": "85a26f0e-edff-4090-a776-3a3dd26a9474",
+"file": "u04_extra_85a26f0e.mp3",
+"lesson": "Unit 4 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE1-01.mp3"
+},
+{
+"uuid": "17fa4cd4-e60f-4cac-a4d6-5dcd39b5adf3",
+"file": "u04_extra_17fa4cd4.mp3",
+"lesson": "Unit 4 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE1-02.mp3"
+},
+{
+"uuid": "f6199f50-c781-44d8-bc1b-d3dd69a5604c",
+"file": "u04_extra_f6199f50.mp3",
+"lesson": "Unit 4 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE1-03.mp3"
+},
+{
+"uuid": "a0942a0e-9186-4f8f-b289-b04fa12b934c",
+"file": "u04_extra_a0942a0e.mp3",
+"lesson": "Unit 4 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE1-04.mp3"
+},
+{
+"uuid": "61e8fe42-50fb-4c43-8e33-299a4421ceaa",
+"file": "u04_extra_61e8fe42.mp3",
+"lesson": "Unit 4 / Listening Exercise 1",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE1-05.mp3"
+},
+{
+"uuid": "509a1077-d5e8-4157-a331-c4a8dafa3d45",
+"file": "u04_extra_509a1077.mp3",
+"lesson": "Unit 4 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE2-01.mp3"
+},
+{
+"uuid": "d06409fd-96dc-474e-969a-d34fa8f57a4d",
+"file": "u04_extra_d06409fd.mp3",
+"lesson": "Unit 4 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE2-02.mp3"
+},
+{
+"uuid": "b0896b5e-058c-4b53-bb93-f3487a94d3d5",
+"file": "u04_extra_b0896b5e.mp3",
+"lesson": "Unit 4 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE2-03.mp3"
+},
+{
+"uuid": "7ee63ef0-f452-489c-9cb4-5136347f4c90",
+"file": "u04_extra_7ee63ef0.mp3",
+"lesson": "Unit 4 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE2-04.mp3"
+},
+{
+"uuid": "b6c8f146-b0be-46c4-9f76-d7e5d3d68141",
+"file": "u04_extra_b6c8f146.mp3",
+"lesson": "Unit 4 / Listening Exercise 2",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE2-05.mp3"
+},
+{
+"uuid": "eb340eef-6e00-4b96-a002-61eea1cc1692",
+"file": "u04_extra_eb340eef.mp3",
+"lesson": "Unit 4 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE3-01.mp3"
+},
+{
+"uuid": "c5881e16-5414-471d-94d2-0b57c95fb148",
+"file": "u04_extra_c5881e16.mp3",
+"lesson": "Unit 4 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE3-02.mp3"
+},
+{
+"uuid": "2e05347d-a84d-4da2-a6b7-449feba06f09",
+"file": "u04_extra_2e05347d.mp3",
+"lesson": "Unit 4 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE3-03.mp3"
+},
+{
+"uuid": "7075a28b-2051-4dc8-9ca7-b90b856a974c",
+"file": "u04_extra_7075a28b.mp3",
+"lesson": "Unit 4 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE3-04.mp3"
+},
+{
+"uuid": "fbe917bb-ec6a-465c-9842-7b19de201aea",
+"file": "u04_extra_fbe917bb.mp3",
+"lesson": "Unit 4 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE3-05.mp3"
+},
+{
+"uuid": "ce719bb4-f240-439f-a1df-8e588326b4be",
+"file": "u04_extra_ce719bb4.mp3",
+"lesson": "Unit 4 / Listening Exercise 3",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE3-06.mp3"
+},
+{
+"uuid": "fe8e9185-27f3-479e-a0c9-9402c0ffec24",
+"file": "u04_extra_fe8e9185.mp3",
+"lesson": "Unit 4 / Listening Exercise 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE4-01.mp3"
+},
+{
+"uuid": "fd914648-dae7-4424-9588-a3262ac2fdef",
+"file": "u04_extra_fd914648.mp3",
+"lesson": "Unit 4 / Listening Exercise 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE4-02.mp3"
+},
+{
+"uuid": "c8fa267f-7e86-4afd-99b7-4c2eeb58c316",
+"file": "u04_extra_c8fa267f.mp3",
+"lesson": "Unit 4 / Listening Exercise 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE4-03.mp3"
+},
+{
+"uuid": "316a41af-caa1-442c-aba0-9b91d2123b22",
+"file": "u04_extra_316a41af.mp3",
+"lesson": "Unit 4 / Listening Exercise 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE4-04.mp3"
+},
+{
+"uuid": "2a90c591-230e-4513-b96c-c31b0ea726b9",
+"file": "u04_extra_2a90c591.mp3",
+"lesson": "Unit 4 / Listening Exercise 4",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE4-05.mp3"
+},
+{
+"uuid": "8f052c84-d763-4b65-aad7-026f06345ccd",
+"file": "u04_extra_8f052c84.mp3",
+"lesson": "Unit 4 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE5-01.mp3"
+},
+{
+"uuid": "a8c9c9bc-5411-4811-8d2e-188a50586de8",
+"file": "u04_extra_a8c9c9bc.mp3",
+"lesson": "Unit 4 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE5-02.mp3"
+},
+{
+"uuid": "f0aa9d1a-12ec-460b-8fb6-d43dc79f8be3",
+"file": "u04_extra_f0aa9d1a.mp3",
+"lesson": "Unit 4 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE5-03.mp3"
+},
+{
+"uuid": "48806d2b-b53f-4357-b76d-a2550ee3ed46",
+"file": "u04_extra_48806d2b.mp3",
+"lesson": "Unit 4 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE5-04.mp3"
+},
+{
+"uuid": "d4fde32e-c60b-4f88-9996-3b6e441a24fd",
+"file": "u04_extra_d4fde32e.mp3",
+"lesson": "Unit 4 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE5-05.mp3"
+},
+{
+"uuid": "0d3aaa62-6321-458d-b88d-f84b1dfcd658",
+"file": "u04_extra_0d3aaa62.mp3",
+"lesson": "Unit 4 / Listening Exercise 5",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE5-06.mp3"
+},
+{
+"uuid": "7d4cdae7-70bf-4c81-ad5b-87fcf8dd2c74",
+"file": "u04_extra_7d4cdae7.mp3",
+"lesson": "Unit 4 / Listening Exercise 6 ",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE6-01.mp3"
+},
+{
+"uuid": "913931f0-ac34-45f8-b71f-226faa383ca8",
+"file": "u04_extra_913931f0.mp3",
+"lesson": "Unit 4 / Listening Exercise 6 ",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE6-02.mp3"
+},
+{
+"uuid": "c1822a85-da3d-4f57-88ac-9a266db7ad69",
+"file": "u04_extra_c1822a85.mp3",
+"lesson": "Unit 4 / Listening Exercise 6 ",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE6-03.mp3"
+},
+{
+"uuid": "ad36b699-54b8-456e-9b17-6cf7a84d46f3",
+"file": "u04_extra_ad36b699.mp3",
+"lesson": "Unit 4 / Listening Exercise 6 ",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE6-04.mp3"
+},
+{
+"uuid": "f0e647d8-3a7f-4d1c-aa73-13ac141b8799",
+"file": "u04_extra_f0e647d8.mp3",
+"lesson": "Unit 4 / Listening Exercise 6 ",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE6-05.mp3"
+},
+{
+"uuid": "1d76a64f-fa8c-4572-8059-07e0940e6cb4",
+"file": "u04_extra_1d76a64f.mp3",
+"lesson": "Unit 4 / Listening Exercise 6 ",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE6-06.mp3"
+},
+{
+"uuid": "ee0961b3-2d01-4057-affb-7109abafa5c6",
+"file": "u04_extra_ee0961b3.mp3",
+"lesson": "Unit 4 / Listening Exercise 7",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE7-01.mp3"
+},
+{
+"uuid": "2007aaf9-03d9-435e-9ae5-ad559b4ea6bb",
+"file": "u04_extra_2007aaf9.mp3",
+"lesson": "Unit 4 / Listening Exercise 7",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE7-02.mp3"
+},
+{
+"uuid": "91067059-729e-48dd-a937-f4ad736f2b08",
+"file": "u04_extra_91067059.mp3",
+"lesson": "Unit 4 / Listening Exercise 7",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE7-03.mp3"
+},
+{
+"uuid": "31df9606-b93e-47d4-b581-fe3ea596574f",
+"file": "u04_extra_31df9606.mp3",
+"lesson": "Unit 4 / Listening Exercise 7",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE7-04.mp3"
+},
+{
+"uuid": "e204dd5b-59c3-4349-9c6c-4217719bfcf0",
+"file": "u04_extra_e204dd5b.mp3",
+"lesson": "Unit 4 / Listening Exercise 7",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE7-05.mp3"
+},
+{
+"uuid": "c820b369-6fc9-4d0d-9e06-4808435c51e8",
+"file": "u04_extra_c820b369.mp3",
+"lesson": "Unit 4 / Listening Exercise 7",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE7-06.mp3"
+},
+{
+"uuid": "702e478f-f388-453f-af3b-d545c1908a01",
+"file": "u04_extra_702e478f.mp3",
+"lesson": "Unit 4 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE8-01.mp3"
+},
+{
+"uuid": "1f736dcf-d46c-4d43-9bf0-05ee8b256bdf",
+"file": "u04_extra_1f736dcf.mp3",
+"lesson": "Unit 4 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE8-02.mp3"
+},
+{
+"uuid": "63a07412-92c0-418f-bdd8-61f25f75639a",
+"file": "u04_extra_63a07412.mp3",
+"lesson": "Unit 4 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE8-03.mp3"
+},
+{
+"uuid": "a0e89aa0-6718-462d-a2fd-7140b3877fcc",
+"file": "u04_extra_a0e89aa0.mp3",
+"lesson": "Unit 4 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE8-04.mp3"
+},
+{
+"uuid": "8d3eb449-8b29-4be8-931d-7cb8773ebfce",
+"file": "u04_extra_8d3eb449.mp3",
+"lesson": "Unit 4 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE8-05.mp3"
+},
+{
+"uuid": "189e678e-4da7-4bed-a910-a58a467510d0",
+"file": "u04_extra_189e678e.mp3",
+"lesson": "Unit 4 / Listening Exercise 8",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4LE8-06.mp3"
+},
+{
+"uuid": "15701a54-0d84-45d2-aad5-1d27b40f0d84",
+"file": "u04_extra_15701a54.mp3",
+"lesson": "Unit 4 / Writing ء",
+"dialect": null,
+"entry": null,
+"origin": "0524b9c15dc9b2701decb649832191b2.mp4"
+},
+{
+"uuid": "5265a8a1-396c-4947-aba9-d787acf78005",
+"file": "u04_extra_5265a8a1.mp3",
+"lesson": "Unit 4 / Writing د",
+"dialect": null,
+"entry": null,
+"origin": "d726f0c5987b9bc82f2f033cd9203684.mp4"
+},
+{
+"uuid": "08d604b3-ea8f-4f78-827c-7bde0c7fc3ee",
+"file": "u04_extra_08d604b3.mp3",
+"lesson": "Unit 4 / Writing ذ",
+"dialect": null,
+"entry": null,
+"origin": "f3c55dda32099d8ec25675ead338f6d8.mp4"
+},
+{
+"uuid": "9e9472be-de48-4782-97cf-3ffd0a70ed5c",
+"file": "u04_extra_9e9472be.mp3",
+"lesson": "Unit 4 / Writing ر",
+"dialect": null,
+"entry": null,
+"origin": "73910cb2bca9bb5a0e3f6ad28595aae0.mp4"
+},
+{
+"uuid": "f1255177-44e2-4ddb-bf6a-05e13286f214",
+"file": "u04_extra_f1255177.mp3",
+"lesson": "Unit 4 / Writing ز",
+"dialect": null,
+"entry": null,
+"origin": "92d57cdf5bb4813e1ded106c2cf69308.mp4"
+},
+{
+"uuid": "ecd5fb06-471c-477f-9aca-c735c485b2ef",
+"file": "u04_extra_ecd5fb06.mp3",
+"lesson": "Unit 4 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "U4D2_01.mp4"
+},
+{
+"uuid": "1a2c1aad-2711-40f6-b3cd-c7efe30f88a8",
+"file": "u04_extra_1a2c1aad.mp3",
+"lesson": "Unit 4 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "U4D2_02.mp4"
+},
+{
+"uuid": "47049faf-a595-439c-b41c-c61548d6a1da",
+"file": "u04_extra_47049faf.mp3",
+"lesson": "Unit 4 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "U4D2_03.mp4"
+},
+{
+"uuid": "f959f65c-2528-449b-a8c4-ca835ac59ddc",
+"file": "u04_extra_f959f65c.mp3",
+"lesson": "Unit 4 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "U4D2_04.mp4"
+},
+{
+"uuid": "2dcfc0af-c6fc-4505-b7a3-7a755cd0af79",
+"file": "u04_extra_2dcfc0af.mp3",
+"lesson": "Unit 4 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "U4D2_05.mp4"
+},
+{
+"uuid": "177d586b-2936-4b22-908f-243f2b881fe8",
+"file": "u04_extra_177d586b.mp3",
+"lesson": "Unit 4 / Drill 2",
+"dialect": null,
+"entry": null,
+"origin": "U4D2_06.mp4"
+},
+{
+"uuid": "bb4b4cf6-9d20-458b-9350-400cffeec5b4",
+"file": "u04_extra_bb4b4cf6.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumE-00.mp3"
+},
+{
+"uuid": "13889d2e-3de5-48dd-9268-88d506025c44",
+"file": "u04_extra_13889d2e.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumS-00.mp3"
+},
+{
+"uuid": "2ea28a38-ad23-4d13-8dd3-c8c4c68d108e",
+"file": "u04_extra_2ea28a38.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumSt-00.mp3"
+},
+{
+"uuid": "155a5d76-8b64-49a8-a435-b10c1818bcdd",
+"file": "u04_extra_155a5d76.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumE-01.mp3"
+},
+{
+"uuid": "a679d43e-28b7-4707-93b3-a93767e23806",
+"file": "u04_extra_a679d43e.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumS-01.mp3"
+},
+{
+"uuid": "c4502005-d309-49cc-9b24-fd91372726cb",
+"file": "u04_extra_c4502005.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumSt-01.mp3"
+},
+{
+"uuid": "a830e047-875a-4439-b96e-27ae4b0f48d1",
+"file": "u04_extra_a830e047.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumE-02.mp3"
+},
+{
+"uuid": "cc38e78e-98da-4218-823c-7f4c062c374c",
+"file": "u04_extra_cc38e78e.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumS-02.mp3"
+},
+{
+"uuid": "bf64928c-a4e7-4f35-a9e0-dc56fc25718b",
+"file": "u04_extra_bf64928c.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumSt-02.mp3"
+},
+{
+"uuid": "e00f8b4b-92e2-49fd-85ea-44ff8e299607",
+"file": "u04_extra_e00f8b4b.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumE-03.mp3"
+},
+{
+"uuid": "1bee60fc-aa7d-4dbe-8aff-5f61cc1504f2",
+"file": "u04_extra_1bee60fc.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumS-03.mp3"
+},
+{
+"uuid": "76cce3bc-b0c6-40d2-90c9-c549fe6fd116",
+"file": "u04_extra_76cce3bc.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumSt-03.mp3"
+},
+{
+"uuid": "27faa2f6-c7fc-44ef-915d-2424001197bd",
+"file": "u04_extra_27faa2f6.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumE-04.mp3"
+},
+{
+"uuid": "ef16d49c-7c03-4dfd-9174-151aabe3a85e",
+"file": "u04_extra_ef16d49c.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumS-04.mp3"
+},
+{
+"uuid": "38165901-9753-4a53-90bc-5fb9cc32f4d2",
+"file": "u04_extra_38165901.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumSt-04.mp3"
+},
+{
+"uuid": "532773df-e3a8-40c9-bfc0-0a7653658688",
+"file": "u04_extra_532773df.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumE-05.mp3"
+},
+{
+"uuid": "747f0e74-a0a9-4a97-98c4-94a8b5acba77",
+"file": "u04_extra_747f0e74.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumS-05.mp3"
+},
+{
+"uuid": "2baff3fc-e345-4470-83cb-428a390e5319",
+"file": "u04_extra_2baff3fc.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumSt-05.mp3"
+},
+{
+"uuid": "5378afb7-8a6a-4f6c-823e-168d87f7a8ee",
+"file": "u04_extra_5378afb7.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumE-06.mp3"
+},
+{
+"uuid": "ea19f740-0739-4f9e-bc88-84cf9c743e21",
+"file": "u04_extra_ea19f740.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumS-06.mp3"
+},
+{
+"uuid": "807ddfa8-6c73-4d3f-b1d7-8aa479eed6d5",
+"file": "u04_extra_807ddfa8.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumSt-06.mp3"
+},
+{
+"uuid": "e5b24737-84ac-48b5-8f91-2e6f8335e069",
+"file": "u04_extra_e5b24737.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumE-07.mp3"
+},
+{
+"uuid": "dc5ef6ff-8ade-4140-8f20-6f8c5d314559",
+"file": "u04_extra_dc5ef6ff.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumS-07.mp3"
+},
+{
+"uuid": "dc351f44-c3ba-4811-85df-35e00c06f697",
+"file": "u04_extra_dc351f44.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumSt-07.mp3"
+},
+{
+"uuid": "de253a4a-f766-44dd-969e-bb487a62b300",
+"file": "u04_extra_de253a4a.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumE-08.mp3"
+},
+{
+"uuid": "a6428991-1d17-47e9-8742-41f5c4621647",
+"file": "u04_extra_a6428991.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumS-08.mp3"
+},
+{
+"uuid": "bd6fd2ef-d3c3-4b4d-b8f3-7a541ca72376",
+"file": "u04_extra_bd6fd2ef.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumSt-08.mp3"
+},
+{
+"uuid": "e0d86066-2c58-47b0-b17c-669235790ff9",
+"file": "u04_extra_e0d86066.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumE-09.mp3"
+},
+{
+"uuid": "2a6ef943-1706-4212-b19a-36bdb180b8ef",
+"file": "u04_extra_2a6ef943.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumS-09.mp3"
+},
+{
+"uuid": "27d2de1b-51cf-4b2e-ad68-ecbac21de594",
+"file": "u04_extra_27d2de1b.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumSt-09.mp3"
+},
+{
+"uuid": "9241d38f-2b8c-4568-954a-f48fafc0feb4",
+"file": "u04_extra_9241d38f.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumE-10.mp3"
+},
+{
+"uuid": "b549a2b0-fa0b-4fc5-b871-02df96e814f3",
+"file": "u04_extra_b549a2b0.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumS-10.mp3"
+},
+{
+"uuid": "1bea90f7-0b43-4d37-a99e-de19e311069f",
+"file": "u04_extra_1bea90f7.mp3",
+"lesson": "Unit 4 / Arabic Numerals",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_NumSt-10.mp3"
+},
+{
+"uuid": "c8ae0afc-48e3-4377-9ae7-c28cbaa4f1eb",
+"file": "u04_extra_c8ae0afc.mp3",
+"lesson": "Unit 4 / Writing Numbers 1–10",
+"dialect": null,
+"entry": null,
+"origin": "b2eb6f2c4a0170d53cbf4c0d523fd2bd.mp4"
+},
+{
+"uuid": "625eeae3-7c30-42f9-93f2-0718d9d9b18c",
+"file": "u04_extra_625eeae3.mp3",
+"lesson": "Unit 4 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "5a5407d20d13316f8d010d12f09d0d57.mp4"
+},
+{
+"uuid": "676c38b8-8c79-437d-958a-2623c37cbf73",
+"file": "u04_extra_676c38b8.mp3",
+"lesson": "Unit 4 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "8b40f270562d53f84e41232eefe4c9a2.mp4"
+},
+{
+"uuid": "77649ac5-ff42-47de-915a-9ed50cf11219",
+"file": "u04_extra_77649ac5.mp3",
+"lesson": "Unit 4 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "08e1d3c4a0430570e53559eeac85cbbf.mp4"
+},
+{
+"uuid": "6d19ec1c-8aa7-4532-8f41-da8f0f8e6a30",
+"file": "u04_extra_6d19ec1c.mp3",
+"lesson": "Unit 4 / Drill 4",
+"dialect": null,
+"entry": null,
+"origin": "075f1e8729a97fde70e3e1f0dd248b48.mp4"
+},
+{
+"uuid": "64245b46-212a-496f-a1a0-2087a77a7649",
+"file": "u04_extra_64245b46.mp3",
+"lesson": "Unit 4 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D6-01.mp3"
+},
+{
+"uuid": "32fda0d5-b88e-4058-9316-7e14b172f171",
+"file": "u04_extra_32fda0d5.mp3",
+"lesson": "Unit 4 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D6-02.mp3"
+},
+{
+"uuid": "fbf5a2a1-65ae-4da6-a9da-fb5b730616ac",
+"file": "u04_extra_fbf5a2a1.mp3",
+"lesson": "Unit 4 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D6-03.mp3"
+},
+{
+"uuid": "e82c4bde-f194-4780-98e2-a4591f3ec35c",
+"file": "u04_extra_e82c4bde.mp3",
+"lesson": "Unit 4 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D6-04.mp3"
+},
+{
+"uuid": "31ee05c1-b43f-480f-a3fa-968aea14443b",
+"file": "u04_extra_31ee05c1.mp3",
+"lesson": "Unit 4 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D6-05.mp3"
+},
+{
+"uuid": "120afdd2-32d4-4d5a-82b7-b094eff18264",
+"file": "u04_extra_120afdd2.mp3",
+"lesson": "Unit 4 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D6-06.mp3"
+},
+{
+"uuid": "1bb892d7-6279-495b-a7df-a7539f67e776",
+"file": "u04_extra_1bb892d7.mp3",
+"lesson": "Unit 4 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D6-07.mp3"
+},
+{
+"uuid": "e14329c9-fe63-4809-b4f9-fe5056a2364e",
+"file": "u04_extra_e14329c9.mp3",
+"lesson": "Unit 4 / Drill 6",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D6-08.mp3"
+},
+{
+"uuid": "e00f9145-b548-43e3-834d-3f0c2f754923",
+"file": "u04_extra_e00f9145.mp3",
+"lesson": "Unit 4 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D9-01.mp3"
+},
+{
+"uuid": "c2f113d0-17f0-4e60-8ab5-c7c550b70d22",
+"file": "u04_extra_c2f113d0.mp3",
+"lesson": "Unit 4 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D9-02.mp3"
+},
+{
+"uuid": "a59a45f7-0c0c-4519-8945-3c05d242c062",
+"file": "u04_extra_a59a45f7.mp3",
+"lesson": "Unit 4 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D9-03.mp3"
+},
+{
+"uuid": "f19dc439-2794-450e-8d5c-6d65fb30255d",
+"file": "u04_extra_f19dc439.mp3",
+"lesson": "Unit 4 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D9-04.mp3"
+},
+{
+"uuid": "d5dd228c-b881-4654-a636-32ac1ede365c",
+"file": "u04_extra_d5dd228c.mp3",
+"lesson": "Unit 4 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D9-05.mp3"
+},
+{
+"uuid": "b1a50ef3-4782-4ab4-bc39-823d9dde5625",
+"file": "u04_extra_b1a50ef3.mp3",
+"lesson": "Unit 4 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D9-06.mp3"
+},
+{
+"uuid": "9e40cdfc-ec89-4b0a-a46d-74479b3b274d",
+"file": "u04_extra_9e40cdfc.mp3",
+"lesson": "Unit 4 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D9-07.mp3"
+},
+{
+"uuid": "d5f41feb-9c80-447c-934c-480e6620ab0b",
+"file": "u04_extra_d5f41feb.mp3",
+"lesson": "Unit 4 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D9-08.mp3"
+},
+{
+"uuid": "69a12c53-20bd-4255-b6db-c1d96bde80ee",
+"file": "u04_extra_69a12c53.mp3",
+"lesson": "Unit 4 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D9-09.mp3"
+},
+{
+"uuid": "9e7b24a8-654a-49f5-beaf-503a19a0ffe6",
+"file": "u04_extra_9e7b24a8.mp3",
+"lesson": "Unit 4 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D9-10.mp3"
+},
+{
+"uuid": "19280e1a-faa6-4f02-a249-c2056c56314f",
+"file": "u04_extra_19280e1a.mp3",
+"lesson": "Unit 4 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D9-11.mp3"
+},
+{
+"uuid": "59583a8d-69c1-4d5d-83e6-bc334b3fbf18",
+"file": "u04_extra_59583a8d.mp3",
+"lesson": "Unit 4 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D9-12.mp3"
+},
+{
+"uuid": "e1e8342c-eacc-4ca1-922a-df9d5642b259",
+"file": "u04_extra_e1e8342c.mp3",
+"lesson": "Unit 4 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D9-13.mp3"
+},
+{
+"uuid": "e8c84662-b6c9-4992-a343-ec87d8d73554",
+"file": "u04_extra_e8c84662.mp3",
+"lesson": "Unit 4 / Drill 9",
+"dialect": null,
+"entry": null,
+"origin": "AB3e_U4D9-14.mp3"
+},
+{
+"uuid": "ec54d25f-a389-43eb-b714-3026db1ae95e",
+"file": "u04_extra_ec54d25f.mp3",
+"lesson": "Unit 4 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "U4D10-01.mp4"
+},
+{
+"uuid": "8119fad2-f115-4532-9a5e-f4fa81896fa0",
+"file": "u04_extra_8119fad2.mp3",
+"lesson": "Unit 4 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "U4D10-06.mp4"
+},
+{
+"uuid": "db61f4f2-8aad-4447-928a-4976de24b0fc",
+"file": "u04_extra_db61f4f2.mp3",
+"lesson": "Unit 4 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "U4D10-02.mp4"
+},
+{
+"uuid": "96fe3f6a-a238-4bcb-ae1a-bf5f6cdaf14d",
+"file": "u04_extra_96fe3f6a.mp3",
+"lesson": "Unit 4 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "U4D10-07.mp4"
+},
+{
+"uuid": "04e5f193-77f3-48f1-a999-4f04b9dc0283",
+"file": "u04_extra_04e5f193.mp3",
+"lesson": "Unit 4 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "U4D10-03.mp4"
+},
+{
+"uuid": "83e0a3bd-5815-45d1-b2f4-6fdc32dda4d4",
+"file": "u04_extra_83e0a3bd.mp3",
+"lesson": "Unit 4 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "U4D10-08.mp4"
+},
+{
+"uuid": "f772c6a6-2856-4dfa-9ec2-dbf93d71fa86",
+"file": "u04_extra_f772c6a6.mp3",
+"lesson": "Unit 4 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "U4D10-04.mp4"
+},
+{
+"uuid": "f3f5c9dc-8af1-4513-9d1d-e362250f82d2",
+"file": "u04_extra_f3f5c9dc.mp3",
+"lesson": "Unit 4 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "U4D10-09.mp4"
+},
+{
+"uuid": "764cd1bf-b590-44e5-8bef-a85c07ea5a7e",
+"file": "u04_extra_764cd1bf.mp3",
+"lesson": "Unit 4 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "U4D10-05.mp4"
+},
+{
+"uuid": "7861b9d6-1433-45ae-8446-69c0a5a5aa0f",
+"file": "u04_extra_7861b9d6.mp3",
+"lesson": "Unit 4 / Drill 10",
+"dialect": null,
+"entry": null,
+"origin": "U4D10-10.mp4"
+},
+{
+"uuid": "cda3daa4-5050-4818-b133-bb87824e43ec",
+"file": "u04_extra_cda3daa4.mp3",
+"lesson": "Unit 4 / Drill 18",
+"dialect": null,
+"entry": null,
+"origin": "02793a2b4fb4e48a361023963923c391.mp4"
+},
+{
+"uuid": "d00e502a-c12d-4a0b-938d-efd50490d8a5",
+"file": "u04_extra_d00e502a.mp3",
+"lesson": "Unit 4 / Drill 18",
+"dialect": null,
+"entry": null,
+"origin": "c2f7d7d98757937be9d1acaf4df49d15.mp4"
+}
+]

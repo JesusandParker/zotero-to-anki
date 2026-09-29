@@ -1,0 +1,867 @@
+[
+ {
+  "key": "بتات",
+  "meaning_core": "household goods",
+  "qualifier": "rare word",
+  "how": null,
+  "notes": [
+   "Only the baa needs a fatHa: the alif already makes the long aa, and the final t has no vowel (not bataata or bataatu)."
+  ],
+  "also": "bataatan = 'not at all', as in 'laa, bataatan!' (No, not at all!)",
+  "flag": null
+ },
+ {
+  "key": "اسم حضرتك",
+  "meaning_core": "What's your name?",
+  "qualifier": "Levantine, polite, to a woman",
+  "how": "ism (name) + HaDirtik (polite 'you', to a woman): literally 'the name of your presence?'",
+  "notes": [
+   "A statement said with a question's rising tone; the full Levantine question adds shuu (what): shuu ism HaDirtik?"
+  ],
+  "also": null,
+  "flag": "near-duplicate of the carded 'shuu ism HaDirtik?': the Levantine line had shu; the bare rising-tone question is the Egyptian scene's pattern"
+ },
+ {
+  "key": "انت من الشام",
+  "meaning_core": "Are you from Damascus?",
+  "qualifier": "Levantine, to a woman",
+  "how": "inti (you, to a woman) + min (from) + ish-shaam (Damascus)",
+  "notes": [
+   "In Syria, ish-shaam means Damascus; it can also mean the whole Levant.",
+   "Her dialect says the article as il-, and the l blends into the sh: ish-shaam.",
+   "Formal Arabic: hal anti min dimashq?"
+  ],
+  "also": null,
+  "flag": "translit capital S reads as Saad in Parker's convention, but the letter is shiin: fix to 'inti min ish-shaam?'"
+ },
+ {
+  "key": "وانت من وين",
+  "meaning_core": "And you? Where are you from?",
+  "qualifier": "Levantine, to a man",
+  "how": "w- (and) + inte (you, to a man) + min ween (from where)",
+  "notes": [
+   "In her dialect 'you' is inte to a man and inti to a woman; the book spells both the same way.",
+   "ween is Levantine for 'where'. Formal Arabic: wa anta? min ayna anta?"
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "انا من حلب",
+  "meaning_core": "I'm from Aleppo",
+  "qualifier": null,
+  "how": "ana (I) + min (from) + Halab (Aleppo); Arabic needs no word for 'am'.",
+  "notes": [
+   "Same words in formal Arabic and in her Levantine dialect."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "حلب",
+  "meaning_core": "Aleppo",
+  "qualifier": null,
+  "how": null,
+  "notes": [
+   "Syria's great city in the north.",
+   "Starts with the breathy H (Haa'), not a plain h."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "الشام",
+  "meaning_core": "the Levant",
+  "qualifier": null,
+  "how": "al- (the) + shaam: the l of al- blends into the sh, so you say ash-shaam.",
+  "notes": [
+   "Her parallel: Egyptians call Cairo maSr (Egypt), and Syrians call Damascus ish-shaam.",
+   "The name of her dialect, shaami (Levantine), comes from this word."
+  ],
+  "also": "Damascus, the way Syrians often use it",
+  "flag": "translit capital S reads as Saad in Parker's convention, but the letter is shiin: fix to 'ash-shaam'"
+ },
+ {
+  "key": "مصر",
+  "meaning_core": "Egypt",
+  "qualifier": "spoken form",
+  "how": null,
+  "notes": [
+   "Formal Arabic says miSr: same letters, different first vowel.",
+   "Just as Syrians call Damascus ish-shaam, Egyptians call Cairo maSr."
+  ],
+  "also": "Cairo, the way Egyptians often use it",
+  "flag": null
+ },
+ {
+  "key": "الاسكندريه",
+  "meaning_core": "Alexandria",
+  "qualifier": null,
+  "how": null,
+  "notes": [
+   "Named after Alexander the Great: iskandar is Arabic for Alexander.",
+   "Egypt's big port city on the Mediterranean coast."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "انا من الاسكندريه",
+  "meaning_core": "I'm from Alexandria",
+  "qualifier": null,
+  "how": "ana (I) + min (from) + al-iskandariyya (Alexandria); Arabic needs no word for 'am'.",
+  "notes": [
+   "The al- is part of the city's name, like al-qaahira (Cairo)."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "عماد",
+  "meaning_core": "Imad",
+  "qualifier": "a man's name",
+  "how": null,
+  "notes": [
+   "Starts with cayn, the tight throat sound, not a plain i.",
+   "The name means 'pillar' or 'support'."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "سلمي",
+  "meaning_core": "Salma",
+  "qualifier": "a woman's name",
+  "how": null,
+  "notes": [
+   "The final aa is written with a dotless yaa shape (alif maqSuura), but it sounds like alif.",
+   "Same s-l-m core as salaam (peace) in as-salaamu calaykum."
+  ],
+  "also": null,
+  "flag": "translit capital S reads as Saad in Parker's convention, but the letter is siin: fix to 'salmaa'"
+ },
+ {
+  "key": "سامر",
+  "meaning_core": "Samer",
+  "qualifier": "a man's name",
+  "how": null,
+  "notes": [
+   "The name means 'companion in evening conversation'."
+  ],
+  "also": null,
+  "flag": "translit capital S reads as Saad in Parker's convention, but the letter is siin: fix to 'saamir'"
+ },
+ {
+  "key": "بيج",
+  "meaning_core": "beige",
+  "qualifier": null,
+  "how": null,
+  "notes": [
+   "Borrowed from French/English 'beige': 'just transliteration to Arabic'.",
+   "The jiim here is said like the s in 'measure', so it matches the English word.",
+   "Handwriting: she starts a little above the line so the baa-yaa zigzag fits; the book starts on the line. 'Both works.'"
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "كليه الطب",
+  "meaning_core": "medical school",
+  "qualifier": null,
+  "how": "kulliyyat (college of) + aT-Tibb (the medicine): kulliyya's -a is said -at before the next word, as in jaamicat.",
+  "notes": [
+   "Tibb = medicine; a doctor is Tabiib, from the same T-b-b letters.",
+   "Say aT-Tibb: the l of al- blends into the T."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "نمره تليفونك",
+  "meaning_core": "your phone number",
+  "qualifier": "Levantine, to a man",
+  "how": "nimra (number) + tilifuun (phone) + -ak (your, to a man): nimra's -a is said -it before the next word.",
+  "notes": [
+   "The tutor for the oral assessment speaks Levantine, so expect her to ask for your nimrit tilifuun.",
+   "Formal Arabic: raqm tilifuunak."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "عندو",
+  "meaning_core": "he has",
+  "qualifier": "Levantine",
+  "how": "cand (at) + -u (him): her dialect's short form of cindahu.",
+  "notes": [
+   "Formal Arabic: cindahu."
+  ],
+  "also": null,
+  "flag": "Arabic has a kasra under the cayn (reads cindu) but the translit and the Levantine form are candu: drop the kasra or make it a fatHa"
+ },
+ {
+  "key": "استاذه عندي سءال",
+  "meaning_core": "Professor, I have a question",
+  "qualifier": "to a woman",
+  "how": "ustaadha (female professor) + cindii (I have) + su'aal (question)",
+  "notes": [
+   "'From this moment onward, if you have a question, you have to say' this in her class.",
+   "To a male teacher: ustaadh, cindii su'aal.",
+   "Say the dh as in 'this': us-taa-dha."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "عندي سءال",
+  "meaning_core": "I have a question",
+  "qualifier": null,
+  "how": "cindii (I have) + su'aal (question): literally 'at me, a question'.",
+  "notes": [
+   "su'aal has a catch (hamza) in the middle: su-'aal.",
+   "In her class, open with ustaadha: ustaadha, cindii su'aal."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "هل عندك سءال",
+  "meaning_core": "Do you have a question?",
+  "qualifier": "to a man",
+  "how": "hal (yes/no question word) + cindaka (you have, to a man) + su'aal (question)",
+  "notes": [
+   "To a woman: hal cindaki su'aal? She asks both forms on purpose.",
+   "Answer with a full sentence: laa, laysa cindii su'aal."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "لا ليس عندي سءال",
+  "meaning_core": "No, I don't have a question",
+  "qualifier": null,
+  "how": "laa (no) + laysa cindii (I don't have) + su'aal (question)",
+  "notes": [
+   "Just 'laa' is 'not wrong, but it's not very respectful': give the full sentence.",
+   "laysa, not laa: cindii isn't a verb (it literally means 'at me').",
+   "laa shukran (no, thank you) is 'too polite' for this question."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "لا شكرا",
+  "meaning_core": "No, thank you",
+  "qualifier": null,
+  "how": "laa (no) + shukran (thank you)",
+  "notes": [
+   "The answer to her joke khudh dhubaab ('Take some flies!').",
+   "Not for 'Do you have a question?': she called it 'too polite' there."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "عند",
+  "meaning_core": "at, with",
+  "qualifier": "base of 'I have'",
+  "how": null,
+  "notes": [
+   "Arabic 'have' isn't a verb: cindii = 'at me' = I have; cindahu = 'at him' = he has.",
+   "It takes the same endings as a noun: -ii, -ka, -ki, -hu, -haa.",
+   "Starts with the throaty cayn, not a hamza: don't say English 'end'. 'Exaggerate to remember.'"
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "عندك",
+  "meaning_core": "you have",
+  "qualifier": "to a man",
+  "how": "cinda (at) + -ka (you, to a man): literally 'at you'.",
+  "notes": [
+   "To a woman: cindaki.",
+   "Keep the a before the ending: cindaka, cindaki, cindahu (not the u of kitaabuka).",
+   "Forgot the endings on a test? 'Go to a noun you know really well' (baab, ism, kitaab) and copy its endings."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "عنده",
+  "meaning_core": "he has",
+  "qualifier": null,
+  "how": "cinda (at) + -hu (him): literally 'at him'.",
+  "notes": [
+   "She has: cindahaa.",
+   "In her Levantine dialect: candu."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "عندنا",
+  "meaning_core": "we have",
+  "qualifier": null,
+  "how": "cinda (at) + -naa (us): literally 'at us'.",
+  "notes": [
+   "The -naa (us, our) ending is ARAB 102 material; this course teaches the singular endings."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "جاري",
+  "meaning_core": "my neighbor",
+  "qualifier": null,
+  "how": "jaar (neighbor) + -ii (my)",
+  "notes": [
+   "jaar sounds like English 'jar', but means neighbor."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "جارك",
+  "meaning_core": "your neighbor",
+  "qualifier": "to a man",
+  "how": "jaar (neighbor) + -uka (your, to a man): the u before -ka is part of the ending.",
+  "notes": [
+   "'jaaruk works' too: the everyday short form.",
+   "To a woman: jaaruki."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "جارها",
+  "meaning_core": "her neighbor",
+  "qualifier": null,
+  "how": "jaar (neighbor) + -uhaa (her): the u before -haa is part of the ending.",
+  "notes": [
+   "Ends in -a, but that's the -haa (her), not a feminine ending.",
+   "jaar is a male neighbor; a female neighbor is jaara."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "بابك",
+  "meaning_core": "your door",
+  "qualifier": "to a woman",
+  "how": "baab (door) + -uki (your, to a woman): the u before -ki is part of the ending.",
+  "notes": [
+   "To a man: baabuka.",
+   "baab is 'the easiest one' for practicing endings: baabii, baabuka, baabuki, baabuhu, baabuhaa."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "دجاج جديد",
+  "meaning_core": "new chicken",
+  "qualifier": null,
+  "how": "dajaaj (chicken) + jadiid (new): noun first, then the adjective, the reverse of English.",
+  "notes": [
+   "dajaaj has no -a ending, so the adjective stays masculine: jadiid."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "ذباب جديد",
+  "meaning_core": "new flies",
+  "qualifier": null,
+  "how": "dhubaab (flies) + jadiid (new): noun first, then the adjective.",
+  "notes": [
+   "Her joke to make it stick: 'new flies' could be spy-drone flies used by intelligence services."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "جامعه جديده",
+  "meaning_core": "new university",
+  "qualifier": null,
+  "how": "jaamica (university) + jadiida (new): jaamica is feminine, so the adjective gets the feminine -a too.",
+  "notes": [
+   "jaamica jadiid (no -a) would be wrong."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "تاء مربوطه",
+  "meaning_core": "the feminine -a ending",
+  "qualifier": null,
+  "how": "taa' (the letter t) + marbuuTa (tied): a 'tied t', shaped like haa' with two dots on top.",
+  "notes": [
+   "Most words ending in an -a sound are feminine, written with this letter; no -a usually means masculine.",
+   "Traps: kitaabuhaa ends in -a, but that's -haa (her); haadhaa ends in -a but is masculine.",
+   "Said -a at the end of a word, but -at when another word follows: jaamicat Liberty."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "مساء",
+  "meaning_core": "evening",
+  "qualifier": null,
+  "how": null,
+  "notes": [
+   "'Don't forget the glottal stop at the end': masaa'.",
+   "Good evening = masaa' al-khayr, built just like SabaaH al-khayr (good morning).",
+   "Her Levantine drops the final stop: masa."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "خذ ذباب",
+  "meaning_core": "Take some flies!",
+  "qualifier": "to a man",
+  "how": "khudh (take!, to a man) + dhubaab (flies)",
+  "notes": [
+   "Her joke drill; the expected answer is laa shukran (No, thank you).",
+   "Culture: handing someone something with 'khudh' is rude; say tafaDDal. khudh is fine with family and kids."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "اخذت",
+  "meaning_core": "I took",
+  "qualifier": null,
+  "how": null,
+  "notes": [
+   "The dh has a sukuun (no vowel): 'dh, not dhu'.",
+   "Writing: alif and dhaal never join the next letter, so khaa' starts a new piece and the final taa' stands alone.",
+   "Her drill: she says khudh (take!), you answer akhadhtu (I took)."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "اخذت A",
+  "meaning_core": "I got an A",
+  "qualifier": null,
+  "how": "akhadhtu (I took) + the grade: Arabic says 'I took A'.",
+  "notes": [],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "اخذت ذباب",
+  "meaning_core": "I took flies",
+  "qualifier": null,
+  "how": "akhadhtu (I took) + dhubaab (flies)",
+  "notes": [],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "يذوب",
+  "meaning_core": "he / it melts",
+  "qualifier": null,
+  "how": null,
+  "notes": [
+   "Arabic has no 'it': everything is he (huwa) or she (hiya).",
+   "Writing: dhaal and waaw never join the next letter, so it breaks into three pieces: yadh + uu + b."
+  ],
+  "also": "thaws, as frozen chicken does",
+  "flag": null
+ },
+ {
+  "key": "هو يذوب",
+  "meaning_core": "it melts",
+  "qualifier": "a masculine thing",
+  "how": "huwa (he, it) + yadhuub (melts)",
+  "notes": [
+   "Her example: snow (ath-thalj) is masculine, so it's huwa yadhuub."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "الثلج",
+  "meaning_core": "the snow",
+  "qualifier": null,
+  "how": "al- (the) + thalj (snow): the l of al- blends into the th, so you say ath-thalj.",
+  "notes": [
+   "Masculine (no -a ending), so it takes huwa: huwa yadhuub, 'it melts'."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "دجاج يذوب",
+  "meaning_core": "The chicken is thawing",
+  "qualifier": null,
+  "how": "dajaaj (chicken) + yadhuub (melts): Arabic uses 'melts' for thawing too.",
+  "notes": [],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "ذات الدجاج",
+  "meaning_core": "the same chicken",
+  "qualifier": null,
+  "how": "dhaat (same) + ad-dajaaj (the chicken): the l of al- blends into the d.",
+  "notes": [
+   "dhaat sounds like English 'that', but means 'the same' (or 'self')."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "ذات الذباب",
+  "meaning_core": "the same flies",
+  "qualifier": null,
+  "how": "dhaat (same) + adh-dhubaab (the flies): the l of al- blends into the dh.",
+  "notes": [
+   "dhaat + a noun with al- means 'the same': dhaat ad-dajaaj, the same chicken."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "ذاتي",
+  "meaning_core": "myself",
+  "qualifier": "less common",
+  "how": "dhaat (self) + -ii (my)",
+  "notes": [
+   "Understood, but not the usual way to say it; nafsii is more common."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "نفسي",
+  "meaning_core": "myself",
+  "qualifier": "the usual word",
+  "how": "nafs (self, soul) + -ii (my)",
+  "notes": [
+   "dhaatii means the same but is less common."
+  ],
+  "also": "nafs alone = soul, spirit, self",
+  "flag": null
+ },
+ {
+  "key": "انت بلا ادب",
+  "meaning_core": "You have no manners!",
+  "qualifier": "to a man",
+  "how": "anta (you, to a man) + bilaa (without) + adab (manners): 'you are without manners'.",
+  "notes": [
+   "Her example of when to say it: to men who catcall women.",
+   "adab has two meanings: literature, and (in everyday Levantine) manners."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "بلا",
+  "meaning_core": "without",
+  "qualifier": null,
+  "how": "bi- (with) + laa (no): literally 'with no'.",
+  "notes": [
+   "Goes right before a noun: bilaa adab (no manners), bilaa sabab (no reason).",
+   "Her three negatives: laa (with verbs), laysa (with nouns and pronouns), and bilaa (without).",
+   "She called it 'more shaami' (Levantine), but it's fine in formal Arabic too."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "سبب",
+  "meaning_core": "reason",
+  "qualifier": null,
+  "how": null,
+  "notes": [
+   "Her example: bilaa sabab, 'for no reason'."
+  ],
+  "also": "cause",
+  "flag": null
+ },
+ {
+  "key": "بلا سبب",
+  "meaning_core": "for no reason",
+  "qualifier": null,
+  "how": "bilaa (without) + sabab (reason): 'without a reason'.",
+  "notes": [
+   "Not 'laa sabab': Arabic wants the bi- 'connection' here."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "لا احب",
+  "meaning_core": "I don't like / love",
+  "qualifier": null,
+  "how": "laa (not) + uHibb (I like, I love)",
+  "notes": [
+   "uHibb is a verb, so it's negated with laa, not laysa."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "لا احب الدجاج",
+  "meaning_core": "I don't like chicken",
+  "qualifier": null,
+  "how": "laa (not) + uHibb (I like) + ad-dajaaj (the chicken): Arabic says 'the' for things in general.",
+  "notes": [
+   "Say ad-dajaaj: the l of al- blends into the d.",
+   "laa, not laysa, because uHibb is a verb."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "احب الدجاج",
+  "meaning_core": "I like chicken",
+  "qualifier": null,
+  "how": "uHibb (I like) + ad-dajaaj (the chicken): Arabic says 'the' for things in general.",
+  "notes": [
+   "Say ad-dajaaj: the l of al- blends into the d."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "هل تحب الدجاج",
+  "meaning_core": "Do you like chicken?",
+  "qualifier": "to a man",
+  "how": "hal (yes/no question word) + tuHibb (you like, to a man) + ad-dajaaj (the chicken)",
+  "notes": [
+   "To a woman: hal tuHibbiin ad-dajaaj?",
+   "Answer: nacam, uHibb ad-dajaaj, or laa, laa uHibb ad-dajaaj."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "هل تحبين الدجاج",
+  "meaning_core": "Do you like chicken?",
+  "qualifier": "to a woman",
+  "how": "hal (yes/no question word) + tuHibbiin (you like, to a woman) + ad-dajaaj (the chicken)",
+  "notes": [
+   "The -iin ending shows you're talking to a woman; to a man: hal tuHibb ad-dajaaj?"
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "هل تحب الخبز",
+  "meaning_core": "Do you like bread?",
+  "qualifier": "to a man",
+  "how": "hal (yes/no question word) + tuHibb (you like, to a man) + al-khubz (the bread)",
+  "notes": [
+   "Here the l of al- is said clearly (al-khubz), unlike ad-dajaaj, where it blends into the d.",
+   "To a woman: hal tuHibbiin al-khubz?"
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "هل تحبين الخبز",
+  "meaning_core": "Do you like bread?",
+  "qualifier": "to a woman",
+  "how": "hal (yes/no question word) + tuHibbiin (you like, to a woman) + al-khubz (the bread)",
+  "notes": [
+   "To a man: hal tuHibb al-khubz?"
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "لا احب الخبز",
+  "meaning_core": "I don't like bread",
+  "qualifier": null,
+  "how": "laa (not) + uHibb (I like) + al-khubz (the bread)",
+  "notes": [
+   "Arabic says 'the bread' for bread in general."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "خبز ودجاج",
+  "meaning_core": "bread and chicken",
+  "qualifier": null,
+  "how": "khubz (bread) + wa (and) + dajaaj (chicken)",
+  "notes": [
+   "wa is written joined to the next word."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "هل عندك اخ",
+  "meaning_core": "Do you have a brother?",
+  "qualifier": "to a man",
+  "how": "hal (yes/no question word) + cindaka (you have, to a man) + akh (brother)",
+  "notes": [
+   "Answer with a full sentence: cindii akh, ismuhu [name], or laysa cindii akh.",
+   "To a woman: hal cindaki akh?"
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "هل عندك اخت",
+  "meaning_core": "Do you have a sister?",
+  "qualifier": "to a woman",
+  "how": "hal (yes/no question word) + cindaki (you have, to a woman) + ukht (sister)",
+  "notes": [
+   "Don't mix them up: ukht (sister) has u at the start and t at the end; akh (brother) has neither.",
+   "To a man: hal cindaka ukht?"
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "عندي اخ",
+  "meaning_core": "I have a brother",
+  "qualifier": null,
+  "how": "cindii (I have) + akh (brother): literally 'at me, a brother'.",
+  "notes": [
+   "For a full answer, add his name: cindii akh, ismuhu [name] ('his name is')."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "ليس عندي اخت",
+  "meaning_core": "I don't have a sister",
+  "qualifier": null,
+  "how": "laysa (not) + cindii (I have) + ukht (sister)",
+  "notes": [
+   "laysa, not laa: cindii isn't a verb."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "ليس عندي اخ",
+  "meaning_core": "I don't have a brother",
+  "qualifier": null,
+  "how": "laysa (not) + cindii (I have) + akh (brother)",
+  "notes": [],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "تليفون",
+  "meaning_core": "telephone",
+  "qualifier": null,
+  "how": null,
+  "notes": [
+   "Borrowed from 'telephone': Arabic has no e or o vowels, so it comes out tilifuun."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "رقم تليفونك",
+  "meaning_core": "your phone number",
+  "qualifier": "to a man",
+  "how": "raqm (number) + tilifuun (phone) + -ak (your, to a man)",
+  "notes": [
+   "'In Arabic we flip them': raqm (number) comes first, then tilifuun (phone).",
+   "To a woman: raqm tilifuunik.",
+   "Levantine: nimrit tilifuunak."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "ما رقم تليفونك",
+  "meaning_core": "What is your phone number?",
+  "qualifier": "to a man",
+  "how": "maa (what) + raqm tilifuunak (your phone number)",
+  "notes": [
+   "She accepts maa or maadhaa; the book uses maa before a noun (maa ismuka?), so maa is the safe choice."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "ليس عندي تليفون",
+  "meaning_core": "I don't have a phone",
+  "qualifier": null,
+  "how": "laysa (not) + cindii (I have) + tilifuun (phone)",
+  "notes": [],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "خبز عراقي",
+  "meaning_core": "Iraqi bread",
+  "qualifier": null,
+  "how": "khubz (bread) + ciraaqii (Iraqi): the noun first, then the describing word.",
+  "notes": [
+   "Boat-shaped and thick, one layer (not two).",
+   "Arabic names breads by country: khubz + the nationality word."
+  ],
+  "also": null,
+  "flag": "translit caraaqii contradicts the kasra under the cayn (Iraq = al-ciraaq): fix to 'khubz ciraaqii'"
+ },
+ {
+  "key": "عراقي",
+  "meaning_core": "Iraqi",
+  "qualifier": "masc.",
+  "how": "al-ciraaq (Iraq) drops its al- and adds -ii ('from'): Iraqi.",
+  "notes": [
+   "This -ii means 'from (a place)', not 'my'."
+  ],
+  "also": null,
+  "flag": "translit caraaqii contradicts the kasra under the cayn (Iraq = al-ciraaq): fix to 'ciraaqii'"
+ },
+ {
+  "key": "خبز سوري",
+  "meaning_core": "Syrian bread",
+  "qualifier": null,
+  "how": "khubz (bread) + suurii (Syrian): the noun first, then the describing word.",
+  "notes": [
+   "Flat, with two layers.",
+   "Arabic names breads by country: khubz + the nationality word."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "سوري",
+  "meaning_core": "Syrian",
+  "qualifier": "masc.",
+  "how": "Country + -ii ('from'): Syria becomes suurii, like lubnaan (Lebanon) becomes lubnaanii.",
+  "notes": [
+   "This -ii means 'from (a place)', not 'my'.",
+   "For a woman: suuriyya."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "خبز لبناني",
+  "meaning_core": "Lebanese bread",
+  "qualifier": null,
+  "how": "khubz (bread) + lubnaanii (Lebanese: lubnaan + -ii, 'from')",
+  "notes": [
+   "The thinnest: two very thin layers."
+  ],
+  "also": null,
+  "flag": null
+ },
+ {
+  "key": "خبز باغيت",
+  "meaning_core": "baguette",
+  "qualifier": null,
+  "how": "khubz (bread) + baagiit, the French word 'baguette'",
+  "notes": [
+   "She said they just call it by its French name.",
+   "Arabic has no g letter, so borrowed words often write the g sound with ghayn."
+  ],
+  "also": null,
+  "flag": null
+ }
+]

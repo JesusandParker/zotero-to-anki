@@ -1,0 +1,38 @@
+{
+ "2026-09-22": {
+  "lag_s": -11.700000000000001,
+  "xcorr": 0.22,
+  "teams": {
+   "noise_floor_db": -180.0,
+   "speech_db": -14.5,
+   "snr_db": 165.5
+  },
+  "phone": {
+   "noise_floor_db": -38.5,
+   "speech_db": -28.1,
+   "snr_db": 10.3
+  },
+  "teams_rolloff_hz": 1370,
+  "phone_rolloff_hz": 620,
+  "teams_dur_min": 79.6,
+  "phone_dur_min": 77.0
+ },
+ "2026-09-24": {
+  "lag_s": 31.6,
+  "xcorr": 0.13,
+  "teams": {
+   "noise_floor_db": -180.0,
+   "speech_db": -14.0,
+   "snr_db": 166.0
+  },
+  "phone": {
+   "noise_floor_db": -41.6,
+   "speech_db": -26.3,
+   "snr_db": 15.4
+  },
+  "teams_rolloff_hz": 745,
+  "phone_rolloff_hz": 460,
+  "teams_dur_min": 63.1,
+  "phone_dur_min": 75.6
+ }
+}

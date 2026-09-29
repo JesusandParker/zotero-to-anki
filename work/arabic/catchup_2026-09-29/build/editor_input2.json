@@ -1,0 +1,1284 @@
+[
+{
+"key": "بتات",
+"arabic": "بَتات",
+"translit": "bataat",
+"meaning_core": "drill word (not glossed; as in bataatan 'absolutely (not)')",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [
+"(rare) household goods; best known in بَتاتاً 'absolutely (not), at all'"
+],
+"khouri_meanings": [
+"drill word (not glossed; as in bataatan 'absolutely (not)')"
+],
+"raw_notes": [
+"[2026-09-08] Unit 2 Drill 8 (fatHa dictation) -- publisher audio played first; she then discussed where the fatHa goes.",
+"[2026-09-08] Answer: fatHa on the baa; nothing before the alif; unwritten sukuun at the end (1000-1033).",
+"[2026-09-08] Do NOT clip 974.4-975.7 (publisher). 1023-1026 is her saying WRONG endings (bataata, bataatu, bataati) on purpose."
+]
+},
+{
+"key": "اسم حضرتك",
+"arabic": "اِسْم حَضِرْتِك؟",
+"translit": "ism HaDirtik?",
+"meaning_core": "What's your name?",
+"qualifier": "polite, to a woman -- Levantine",
+"tier": "class",
+"register": "shaami",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"What's your name? (polite, to a woman -- Levantine)"
+],
+"raw_notes": [
+"[2026-09-08] A question made from a statement: in the Egyptian scene 'he didn't say maa ism HaDritik, he kind of gave a statement but in a tone of a question' (3283.2-3293.3); same here.",
+"[2026-09-08] Possible 'shu' (Levantine 'what') before it at 3614.9-3616.4 (en pass 'show'), unverified."
+]
+},
+{
+"key": "انت من الشام",
+"arabic": "إِنْتِ مِن الشّام؟",
+"translit": "inti min ish-Shaam?",
+"meaning_core": "Are you (f.) from Damascus?",
+"qualifier": "Levantine",
+"tier": "class",
+"register": "shaami",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Are you (f.) from Damascus? (Levantine)"
+],
+"raw_notes": [
+"[2026-09-08] Samer's question to Salma in the Levantine scene. 'In Syria they say Shaam to refer to Damascus... in this context he means Damascus because he's asking about the city' (3746-3770)."
+]
+},
+{
+"key": "وانت من وين",
+"arabic": "وإِنْتِ مِن وين؟",
+"translit": "w-inte min ween?",
+"meaning_core": "And you (m.)? Where are you from?",
+"qualifier": "Levantine",
+"tier": "class",
+"register": "shaami",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"And you (m.)? Where are you from? (Levantine)"
+],
+"raw_notes": [
+"[2026-09-08] Salma's question back to Samer. 'w-' = and; she glossed it 'and you... where are you from?' (3788-3796).",
+"[2026-09-08] Lingco spells the Levantine MASCULINE you إنتِ (said inte); formal is أَنْتَ anta. Teams heard 'Wente Menway'."
+]
+},
+{
+"key": "انا من حلب",
+"arabic": "أَنا مِن حَلَب",
+"translit": "ana min Halab",
+"meaning_core": "I'm from Aleppo.",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"I'm from Aleppo."
+],
+"raw_notes": [
+"[2026-09-08] Samer's answer in the Levantine scene. Same words in formal Arabic and Shaami."
+]
+},
+{
+"key": "حلب",
+"arabic": "حَلَب",
+"translit": "Halab",
+"meaning_core": "Aleppo",
+"qualifier": "city in northern Syria",
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Aleppo (city in northern Syria)"
+],
+"raw_notes": [
+"[2026-09-08] Book Drill 16 map (p.43) labels it 'Halab'. She glossed: 'Aleppo -- that's the city of Aleppo' (3808-3811)."
+]
+},
+{
+"key": "الشام",
+"arabic": "الشّام",
+"translit": "ash-Shaam",
+"meaning_core": "the Levant (Greater Syria); in Syria also used to mean Damascus",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"the Levant (Greater Syria); in Syria also used to mean Damascus"
+],
+"raw_notes": [
+"[2026-09-08] Parallel she drew: Egyptians say maSr for Cairo, Syrians say ash-Shaam for Damascus; both can also mean the whole country/region (3751-3770).",
+"[2026-09-08] She says 'Shaam' / 'ish-Shaam' (spoken article); book map (p.43): 'dimashq/ish-shaam' for Damascus. The word shaami (Levantine) comes from it."
+]
+},
+{
+"key": "مصر",
+"arabic": "مَصْر",
+"translit": "maSr",
+"meaning_core": "Egypt (in Egypt, also Cairo) -- spoken form; formal is miSr",
+"qualifier": null,
+"tier": "class",
+"register": "shaami",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Egypt (in Egypt, also Cairo) -- spoken form; formal is miSr"
+],
+"raw_notes": [
+"[2026-09-08] She pronounces it maSr -- the everyday pronunciation in Egypt AND the Levant; FuSHa is مِصْر miSr. Book map (p.43): 'al-qaahira/maSr' for Cairo.",
+"[2026-09-08] Her other maSr clips (3440-3442, 3447-3449.5, 3464.5-3465.8) sit inside the EGYPTIAN line 'HaDritik min maSr?' -- avoid."
+]
+},
+{
+"key": "الاسكندريه",
+"arabic": "الإِسْكَنْدَرِيّة",
+"translit": "al-Iskandariyya",
+"meaning_core": "Alexandria",
+"qualifier": "city on Egypt's Mediterranean coast",
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Alexandria (city on Egypt's Mediterranean coast)"
+],
+"raw_notes": [
+"[2026-09-08] Book Drill 16 map (p.43): 'al-iskandariyya'. The Egyptian actor says it the Egyptian way (iskindiriyya) -- use only her clip."
+]
+},
+{
+"key": "انا من الاسكندريه",
+"arabic": "أَنا مِن الإِسْكَنْدَرِيّة",
+"translit": "ana min al-Iskandariyya",
+"meaning_core": "I'm from Alexandria.",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"I'm from Alexandria."
+],
+"raw_notes": [
+"[2026-09-08] Line from the EGYPTIAN scene repeated by her: check that the clip says iskandariyya (formal), not the Egyptian iskindiriyya, before using it."
+]
+},
+{
+"key": "عماد",
+"arabic": "عِماد",
+"translit": "cImaad",
+"meaning_core": "Imad",
+"qualifier": "a man's name -- the man in the Egyptian scene",
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Imad (a man's name -- the man in the Egyptian scene)"
+],
+"raw_notes": []
+},
+{
+"key": "سلمي",
+"arabic": "سَلْمى",
+"translit": "Salmaa",
+"meaning_core": "Salma",
+"qualifier": "a woman's name -- the woman in both scenes",
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Salma (a woman's name -- the woman in both scenes)"
+],
+"raw_notes": []
+},
+{
+"key": "سامر",
+"arabic": "سامِر",
+"translit": "Saamir",
+"meaning_core": "Samer",
+"qualifier": "a man's name -- the man in the Levantine scene",
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Samer (a man's name -- the man in the Levantine scene)"
+],
+"raw_notes": []
+},
+{
+"key": "بيج",
+"arabic": "بيج",
+"translit": "beej",
+"meaning_core": "beige (the color) -- borrowed from French/English",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"beige (the color) -- borrowed from French/English"
+],
+"raw_notes": [
+"[2026-09-08] The last word of the class (a final jiim after initial baa + middle yaa). The Arabic word is the same as English/French 'beige' -- 'just transliteration to Arabic' (4729-4731).",
+"[2026-09-08] Handwriting: she starts a little above the line so the zigzag fits; the book instead starts on the line and goes up -- 'both works' (4686-4718)."
+]
+},
+{
+"key": "كليه الطب",
+"arabic": "كُلِّيّة الطِّبّ",
+"translit": "kulliyyat aT-Tibb",
+"meaning_core": "medical school",
+"qualifier": "college of medicine",
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"medical school (college of medicine)"
+],
+"raw_notes": [
+"[2026-09-08] Glossed right after in English: 'the medicine school, medical school' (1862.6-1865.7). kulliyya = college/faculty; Tibb = medicine (Listening Ex. 11 #4).",
+"[2026-09-08] Only the ar pass heard it (the en pass has a 3.9 s gap with loud speech at 1860.6-1862.5); verify before carding."
+]
+},
+{
+"key": "نمره تليفونك",
+"arabic": "نِمْرة تِليفونَك",
+"translit": "nimrit tilifuunak",
+"meaning_core": "your (to a man) phone number",
+"qualifier": "Shaami",
+"tier": "class",
+"register": "shaami",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"your (to a man) phone number (Shaami)"
+],
+"raw_notes": [
+"[2026-09-29] What the Shaami-speaking tutor will ask in the oral assessment.",
+"[2026-09-29] Formal: raqm tilifuunak."
+]
+},
+{
+"key": "عندو",
+"arabic": "عِنْدو",
+"translit": "candu",
+"meaning_core": "he has",
+"qualifier": "Shaami",
+"tier": "class",
+"register": "shaami",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"he has (Shaami)"
+],
+"raw_notes": [
+"[2026-09-29] A student gave this for 'you have'; she said it is Shaami for 'he has'.",
+"[2026-09-29] Formal: cindahu. Vowels uncertain (cando/candu); her slide spells Shaami 'I have' as candi."
+]
+},
+{
+"key": "استاذه عندي سءال",
+"arabic": "أُسْتاذة، عِنْدي سُؤال",
+"translit": "ustaadha, cindii su'aal",
+"meaning_core": "Professor, I have a question",
+"qualifier": "to a woman teacher",
+"tier": "class",
+"register": "formal",
+"required": true,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Professor, I have a question (to a woman teacher)"
+],
+"raw_notes": [
+"[2026-09-29] REQUIRED from now on: 'from this moment onward, if you have a question, you have to say ustaadha, cindii su'aal.'",
+"[2026-09-29] ustaadha = female professor (Dr. Khouri); to a man it would be ustaadh.",
+"[2026-09-29] Her ustaadha may sound like 'ustaada' (Levantine softening of dh)."
+]
+},
+{
+"key": "عندي سءال",
+"arabic": "عِنْدي سُؤال",
+"translit": "cindii su'aal",
+"meaning_core": "I have a question",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": true,
+"lingco_meanings": [],
+"khouri_meanings": [
+"I have a question"
+],
+"raw_notes": [
+"[2026-09-29] Built from two vocab-list words: cindii (I have) + su'aal (question)."
+]
+},
+{
+"key": "هل عندك سءال",
+"arabic": "هَلْ عِنْدَكَ سُؤال؟",
+"translit": "hal cindaka su'aal?",
+"meaning_core": "Do you (a man) have a question?",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Do you (a man) have a question?",
+"Do you (a woman) have a question?"
+],
+"raw_notes": [
+"[2026-09-29] She deliberately gave both forms: -ka to a man, -ki to a woman.",
+"[2026-09-29] Answer respectfully in a full sentence: laa, laysa cindii su'aal."
+]
+},
+{
+"key": "لا ليس عندي سءال",
+"arabic": "لا، لَيْسَ عِنْدي سُؤال",
+"translit": "laa, laysa cindii su'aal",
+"meaning_core": "No, I don't have a question",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"No, I don't have a question"
+],
+"raw_notes": [
+"[2026-09-29] Etiquette she taught: answering just 'laa' is 'not wrong, but it's not very respectful' - use a full sentence.",
+"[2026-09-29] 'laa shukran' (no, thank you) was 'too polite' for this question.",
+"[2026-09-29] laysa (not laa) because cindii is not a verb."
+]
+},
+{
+"key": "لا شكرا",
+"arabic": "لا شُكْراً",
+"translit": "laa shukran",
+"meaning_core": "No, thank you",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"No, thank you"
+],
+"raw_notes": [
+"[2026-09-29] The class's answer to her joke 'khudh dhubaab' (take some flies!).",
+"[2026-09-29] Not the right answer to 'do you have a question?' - she called it 'too polite'; say laa, laysa cindii su'aal."
+]
+},
+{
+"key": "عند",
+"arabic": "عِنْدَ",
+"translit": "cinda",
+"meaning_core": "at, with",
+"qualifier": "the word behind \"have\"",
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"at, with (the word behind \"have\")"
+],
+"raw_notes": [
+"[2026-09-29] Literally 'at': cindii = at me = I have; cindahu = at him = he has.",
+"[2026-09-29] It acts like a noun, so it takes the possessive endings: -ii, -ka, -ki, -hu, -haa (and -naa, 'ours', in ARAB 102).",
+"[2026-09-29] Starts with cayn, not hamza."
+]
+},
+{
+"key": "عندك",
+"arabic": "عِنْدَكَ",
+"translit": "cindaka",
+"meaning_core": "you (a man) have",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"you (a man) have",
+"you (a woman) have"
+],
+"raw_notes": [
+"[2026-09-29] In the conjugation demo (~3040-3079 s) three transcripts hear her say it with u (cinduka / cinduki / cinduhu / cinduhaa) by analogy with kitaabuka, and she added 'the u might change later based on the position of the word'. In the real questions (hal cindaka / hal cindaki) she said -a-. Standard written Arabic: cindaka, cindaki, cindahu, cindahaa (fatHa).",
+"[2026-09-29] 'If you forgot on the exam, conjugate a noun you know really well (baab, ism, kitaab) and apply the same endings.'",
+"[2026-09-29] In the conjugation demo (~3040-3079 s) three transcripts hear her say it with u (cinduka / cinduki / cinduhu / cinduhaa) by analogy with kitaabuka, and she added 'the u might change later based on the position of the word'. In the real questions (hal cindaka / hal cindaki) she said -a-. Standard written Arabic: cindaka, cindaki, cindahu, cindahaa (fatHa)."
+]
+},
+{
+"key": "عنده",
+"arabic": "عِنْدَهُ",
+"translit": "cindahu",
+"meaning_core": "he has",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"he has"
+],
+"raw_notes": [
+"[2026-09-29] In the conjugation demo (~3040-3079 s) three transcripts hear her say it with u (cinduka / cinduki / cinduhu / cinduhaa) by analogy with kitaabuka, and she added 'the u might change later based on the position of the word'. In the real questions (hal cindaka / hal cindaki) she said -a-. Standard written Arabic: cindaka, cindaki, cindahu, cindahaa (fatHa).",
+"[2026-09-29] Shaami: candu/cando (عندو)."
+]
+},
+{
+"key": "عندنا",
+"arabic": "عِنْدَنا",
+"translit": "cindanaa",
+"meaning_core": "we have",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"we have"
+],
+"raw_notes": [
+"[2026-09-29] -naa = our/us. Plural endings are ARAB 102 material, not this course."
+]
+},
+{
+"key": "جاري",
+"arabic": "جاري",
+"translit": "jaarii",
+"meaning_core": "my neighbor",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"my neighbor"
+],
+"raw_notes": [
+"[2026-09-29] She said: 'those you need to study them, and repeat them several times. Go with Fabiola, the tutor... let's do possessive pronouns' with baab, ism, kitaab, jaar."
+]
+},
+{
+"key": "جارك",
+"arabic": "جارُكَ",
+"translit": "jaaruka",
+"meaning_core": "your (a man's) neighbor",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"your (a man's) neighbor",
+"your (a woman's) neighbor"
+],
+"raw_notes": [
+"[2026-09-29] She said: 'those you need to study them, and repeat them several times. Go with Fabiola, the tutor... let's do possessive pronouns' with baab, ism, kitaab, jaar.",
+"[2026-09-29] 'jaaruk works' too - the short everyday form without the final -a.",
+"[2026-09-29] She said: 'those you need to study them, and repeat them several times. Go with Fabiola, the tutor... let's do possessive pronouns' with baab, ism, kitaab, jaar."
+]
+},
+{
+"key": "جارها",
+"arabic": "جارُها",
+"translit": "jaaruhaa",
+"meaning_core": "her (male) neighbor",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"her (male) neighbor"
+],
+"raw_notes": [
+"[2026-09-29] She said: 'those you need to study them, and repeat them several times. Go with Fabiola, the tutor... let's do possessive pronouns' with baab, ism, kitaab, jaar.",
+"[2026-09-29] -haa (her) after a Damma: jaaru-haa."
+]
+},
+{
+"key": "بابك",
+"arabic": "بابُكِ",
+"translit": "baabuki",
+"meaning_core": "your (a woman's) door",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"your (a woman's) door"
+],
+"raw_notes": []
+},
+{
+"key": "دجاج جديد",
+"arabic": "دَجاج جَديد",
+"translit": "dajaaj jadiid",
+"meaning_core": "new chicken",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"new chicken"
+],
+"raw_notes": [
+"[2026-09-29] Word order rule she taught here: noun first, then the adjective (the reverse of English)."
+]
+},
+{
+"key": "ذباب جديد",
+"arabic": "ذُباب جَديد",
+"translit": "dhubaab jadiid",
+"meaning_core": "new flies",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"new flies"
+],
+"raw_notes": [
+"[2026-09-29] Her joke to make it stick: 'new flies' could be spy-drone flies used by intelligence services.",
+"[2026-09-29] Noun first, adjective second."
+]
+},
+{
+"key": "جامعه جديده",
+"arabic": "جامِعة جَديدة",
+"translit": "jaamica jadiida",
+"meaning_core": "new university",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"new university"
+],
+"raw_notes": [
+"[2026-09-29] jaamica is feminine (taa' marbuuTa), so the adjective must be feminine too: jadiida.",
+"[2026-09-29] Wrong on purpose: jaamica jadiid."
+]
+},
+{
+"key": "تاء مربوطه",
+"arabic": "تاء مَرْبوطة",
+"translit": "taa' marbuuTa",
+"meaning_core": "taa' marbuuTa () - the 'tied t' that ends most feminine words",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"taa' marbuuTa (ة) - the 'tied t' that ends most feminine words"
+],
+"raw_notes": [
+"[2026-09-29] How to tell a feminine noun: 'the sound or the writing' - an -a at the end, written ة. Most (not all) such words are feminine.",
+"[2026-09-29] Traps: kitaabuhaa ends in -a but it's the -haa (her); haadhaa ends in -a but is masculine.",
+"[2026-09-29] The letter itself has not been formally taught yet."
+]
+},
+{
+"key": "مساء",
+"arabic": "مَساء",
+"translit": "masaa'",
+"meaning_core": "evening",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"evening"
+],
+"raw_notes": [
+"[2026-09-29] Ends in a hamza (glottal stop): 'don't forget the glottal stop at the end.'",
+"[2026-09-29] Shaami drops it: masa."
+]
+},
+{
+"key": "خذ ذباب",
+"arabic": "خُذ ذُباب",
+"translit": "khudh dhubaab",
+"meaning_core": "Take (some) flies!",
+"qualifier": "her joke drill",
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Take (some) flies! (her joke drill)"
+],
+"raw_notes": [
+"[2026-09-29] The expected answer: laa shukran (no, thank you).",
+"[2026-09-29] Follow-up joke about a student who ate insect dishes in South Asia."
+]
+},
+{
+"key": "اخذت",
+"arabic": "أَخَذْتُ",
+"translit": "akhadhtu",
+"meaning_core": "I took",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"I took"
+],
+"raw_notes": [
+"[2026-09-29] Answer to khudh ('take!'): akhadhtu ('I took').",
+"[2026-09-29] Idiom: akhadhtu A = I got an A (literally 'I took A').",
+"[2026-09-29] Vowels she gave: a on the alif-hamza, a on the khaa', SUKUUN on the dhaal (no vowel: 'not dhu'), u on the taa'.",
+"[2026-09-29] Board: alif = initial/independent; khaa' = initial ('I'm still connecting'); dhaal = connecting; taa' = independent, because dhaal never connects to the left.",
+"[2026-09-29] Writing ذ practice word (p.80, 'I took')."
+]
+},
+{
+"key": "اخذت A",
+"arabic": "أَخَذْتُ A",
+"translit": "akhadhtu \"A\"",
+"meaning_core": "I got an A",
+"qualifier": "lit. I took A",
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"I got an A (lit. I took A)"
+],
+"raw_notes": []
+},
+{
+"key": "اخذت ذباب",
+"arabic": "أَخَذْتُ ذُباب",
+"translit": "akhadhtu dhubaab",
+"meaning_core": "I took flies",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"I took flies"
+],
+"raw_notes": []
+},
+{
+"key": "يذوب",
+"arabic": "يَذوب",
+"translit": "yadhuub",
+"meaning_core": "it melts / he melts",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"it melts / he melts"
+],
+"raw_notes": [
+"[2026-09-29] No 'it' in Arabic - things are he or she: the snow (masculine) = huwa yadhuub.",
+"[2026-09-29] One verb for both melting (snow) and thawing (frozen chicken): dajaaj yadhuub.",
+"[2026-09-29] Board: yaa' with a fatHa + dhaal + waaw + baa'. yaa' = initial; dhaal = connecting (yaa' connects left); waaw = independent (dhaal doesn't connect left); baa' = independent (waaw doesn't connect left).",
+"[2026-09-29] Writing ذ practice word (p.80, 'it melts')."
+]
+},
+{
+"key": "هو يذوب",
+"arabic": "هُوَ يَذوب",
+"translit": "huwa yadhuub",
+"meaning_core": "it (masc.) melts / he melts",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"it (masc.) melts / he melts"
+],
+"raw_notes": []
+},
+{
+"key": "الثلج",
+"arabic": "الثَّلْج",
+"translit": "ath-thalj",
+"meaning_core": "the snow",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"the snow"
+],
+"raw_notes": [
+"[2026-09-29] Masculine, so it takes huwa. Word identity uncertain - listen before carding."
+]
+},
+{
+"key": "دجاج يذوب",
+"arabic": "دَجاج يَذوب",
+"translit": "dajaaj yadhuub",
+"meaning_core": "the chicken is thawing",
+"qualifier": "lit. chicken melts",
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"the chicken is thawing (lit. chicken melts)"
+],
+"raw_notes": [
+"[2026-09-29] Arabic uses the same verb for melting and thawing."
+]
+},
+{
+"key": "ذات الدجاج",
+"arabic": "ذات الدَّجاج",
+"translit": "dhaat ad-dajaaj",
+"meaning_core": "the same chicken",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"the same chicken"
+],
+"raw_notes": []
+},
+{
+"key": "ذات الذباب",
+"arabic": "ذات الذُّباب",
+"translit": "dhaat adh-dhubaab",
+"meaning_core": "the same flies",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"the same flies"
+],
+"raw_notes": []
+},
+{
+"key": "ذاتي",
+"arabic": "ذاتي",
+"translit": "dhaatii",
+"meaning_core": "myself",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"myself"
+],
+"raw_notes": [
+"[2026-09-29] Understandable but NOT the common way to say 'myself' - she said another word (nafs/nafsii, unclear on tape) is more common."
+]
+},
+{
+"key": "نفسي",
+"arabic": "نَفْسي",
+"translit": "nafsii",
+"meaning_core": "myself (the more common word); nafs = soul, spirit, self",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"myself (the more common word); nafs = soul, spirit, self"
+],
+"raw_notes": [
+"[2026-09-29] Transcripts do not capture the Arabic here; nafs/nafsii is the standard word matching 'soul, spirit, self'. Listen before carding."
+]
+},
+{
+"key": "انت بلا ادب",
+"arabic": "أَنْتَ بِلا أَدَب",
+"translit": "anta bilaa adab",
+"meaning_core": "You have no manners!",
+"qualifier": "lit. you are without manners",
+"tier": "class",
+"register": "shaami",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"You have no manners! (lit. you are without manners)"
+],
+"raw_notes": [
+"[2026-09-29] Her example of when to say it: to men catcalling women.",
+"[2026-09-29] She framed it as Shaami usage (she may say inta / bala); the formal words are anta + bilaa."
+]
+},
+{
+"key": "بلا",
+"arabic": "بِلا",
+"translit": "bilaa",
+"meaning_core": "without",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"without"
+],
+"raw_notes": [
+"[2026-09-29] bilaa = bi- (with) + laa (no): 'without'. Used before nouns: bilaa adab, bilaa sabab.",
+"[2026-09-29] She called it 'more Shami'; it is also standard Arabic.",
+"[2026-09-29] More of this 'at a higher level'."
+]
+},
+{
+"key": "سبب",
+"arabic": "سَبَب",
+"translit": "sabab",
+"meaning_core": "reason",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"reason"
+],
+"raw_notes": []
+},
+{
+"key": "بلا سبب",
+"arabic": "بِلا سَبَب",
+"translit": "bilaa sabab",
+"meaning_core": "for no reason",
+"qualifier": "lit. without a reason",
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"for no reason (lit. without a reason)"
+],
+"raw_notes": [
+"[2026-09-29] Not 'laa sabab' - Arabic needs the bi- 'connection' here."
+]
+},
+{
+"key": "لا احب",
+"arabic": "لا أُحِبّ",
+"translit": "laa uHibb",
+"meaning_core": "I don't love / don't like",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"I don't love / don't like"
+],
+"raw_notes": [
+"[2026-09-29] uHibb is a verb, so it is negated with laa (not laysa)."
+]
+},
+{
+"key": "لا احب الدجاج",
+"arabic": "لا أُحِبّ الدَّجاج",
+"translit": "laa uHibb ad-dajaaj",
+"meaning_core": "I don't like chicken",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"I don't like chicken"
+],
+"raw_notes": [
+"[2026-09-29] Transcripts drop the al-; standard Arabic says ad-dajaaj ('chicken' in general)."
+]
+},
+{
+"key": "احب الدجاج",
+"arabic": "أُحِبّ الدَّجاج",
+"translit": "uHibb ad-dajaaj",
+"meaning_core": "I like chicken",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"I like chicken"
+],
+"raw_notes": []
+},
+{
+"key": "هل تحب الدجاج",
+"arabic": "هَلْ تُحِبّ الدَّجاج؟",
+"translit": "hal tuHibb ad-dajaaj?",
+"meaning_core": "Do you (a man) like chicken?",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Do you (a man) like chicken?"
+],
+"raw_notes": [
+"[2026-09-29] She asks both genders each time: hal tuHibb (to a man) / hal tuHibbiin (to a woman).",
+"[2026-09-29] Transcripts show 'dajaaj' without al-; the Teams caption 'disas' suggests ad-dajaaj."
+]
+},
+{
+"key": "هل تحبين الدجاج",
+"arabic": "هَلْ تُحِبِّين الدَّجاج؟",
+"translit": "hal tuHibbiin ad-dajaaj?",
+"meaning_core": "Do you (a woman) like chicken?",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Do you (a woman) like chicken?"
+],
+"raw_notes": []
+},
+{
+"key": "هل تحب الخبز",
+"arabic": "هَلْ تُحِبّ الخُبْز؟",
+"translit": "hal tuHibb al-khubz?",
+"meaning_core": "Do you (a man) like bread?",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Do you (a man) like bread?"
+],
+"raw_notes": [
+"[2026-09-29] Transcripts show 'khubz' without al-; standard Arabic says al-khubz here."
+]
+},
+{
+"key": "هل تحبين الخبز",
+"arabic": "هَلْ تُحِبِّين الخُبْز؟",
+"translit": "hal tuHibbiin al-khubz?",
+"meaning_core": "Do you (a woman) like bread?",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Do you (a woman) like bread?"
+],
+"raw_notes": []
+},
+{
+"key": "لا احب الخبز",
+"arabic": "لا أُحِبّ الخُبْز",
+"translit": "laa uHibb al-khubz",
+"meaning_core": "I don't like bread",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"I don't like bread"
+],
+"raw_notes": []
+},
+{
+"key": "خبز ودجاج",
+"arabic": "خُبْز وَدَجاج",
+"translit": "khubz wa dajaaj",
+"meaning_core": "bread and chicken",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"bread and chicken"
+],
+"raw_notes": []
+},
+{
+"key": "هل عندك اخ",
+"arabic": "هَلْ عِنْدَكَ أَخ؟",
+"translit": "hal cindaka akh?",
+"meaning_core": "Do you (a man) have a brother?",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Do you (a man) have a brother?"
+],
+"raw_notes": [
+"[2026-09-29] Answers she wanted: cindii akh (ismuhu ...) or laysa cindii akh."
+]
+},
+{
+"key": "هل عندك اخت",
+"arabic": "هَلْ عِنْدَكِ أُخْت؟",
+"translit": "hal cindaki ukht?",
+"meaning_core": "Do you (a woman) have a sister?",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Do you (a woman) have a sister?"
+],
+"raw_notes": [
+"[2026-09-29] She asked both gender forms: hal cindaka ukht? / hal cindaki ukht?"
+]
+},
+{
+"key": "عندي اخ",
+"arabic": "عِنْدي أَخ",
+"translit": "cindii akh",
+"meaning_core": "I have a brother",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"I have a brother"
+],
+"raw_notes": [
+"[2026-09-29] Round-the-room answer; students said it, not her."
+]
+},
+{
+"key": "ليس عندي اخت",
+"arabic": "لَيْسَ عِنْدي أُخْت",
+"translit": "laysa cindii ukht",
+"meaning_core": "I don't have a sister",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"I don't have a sister"
+],
+"raw_notes": [
+"[2026-09-29] She coached a student through it; her own full utterance is not clear on tape."
+]
+},
+{
+"key": "ليس عندي اخ",
+"arabic": "لَيْسَ عِنْدي أَخ",
+"translit": "laysa cindii akh",
+"meaning_core": "I don't have a brother",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"I don't have a brother"
+],
+"raw_notes": []
+},
+{
+"key": "تليفون",
+"arabic": "تِليفون",
+"translit": "tilifuun",
+"meaning_core": "telephone",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"telephone"
+],
+"raw_notes": []
+},
+{
+"key": "رقم تليفونك",
+"arabic": "رَقْم تِليفونَك",
+"translit": "raqm tilifuunak",
+"meaning_core": "your (a man's) phone number",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"your (a man's) phone number",
+"your (a woman's) phone number"
+],
+"raw_notes": [
+"[2026-09-29] Everyday pronunciation drops the case vowels (written: raqmu tilifuunika)."
+]
+},
+{
+"key": "ما رقم تليفونك",
+"arabic": "ما رَقْم تِليفونَك؟",
+"translit": "maa raqm tilifuunak?",
+"meaning_core": "What is your (a man's) phone number?",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"What is your (a man's) phone number?"
+],
+"raw_notes": [
+"[2026-09-29] She said 'maa or maadhaa, both work'. The textbook uses maa before a noun (maa ismuka?), so maa is the safe choice."
+]
+},
+{
+"key": "ليس عندي تليفون",
+"arabic": "لَيْسَ عِنْدي تِليفون",
+"translit": "laysa cindii tilifuun",
+"meaning_core": "I don't have a phone",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"I don't have a phone"
+],
+"raw_notes": []
+},
+{
+"key": "خبز عراقي",
+"arabic": "خُبْز عِراقي",
+"translit": "khubz caraaqii",
+"meaning_core": "Iraqi bread",
+"qualifier": "boat-shaped, thick, one layer",
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Iraqi bread (boat-shaped, thick, one layer)"
+],
+"raw_notes": [
+"[2026-09-29] In Arabic you name a bread by its country: khubz + nationality adjective (noun first)."
+]
+},
+{
+"key": "عراقي",
+"arabic": "عِراقي",
+"translit": "caraaqii",
+"meaning_core": "Iraqi",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Iraqi"
+],
+"raw_notes": []
+},
+{
+"key": "خبز سوري",
+"arabic": "خُبْز سوري",
+"translit": "khubz suurii",
+"meaning_core": "Syrian bread",
+"qualifier": "flat, two layers",
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Syrian bread (flat, two layers)"
+],
+"raw_notes": [
+"[2026-09-29] In Arabic you name a bread by its country: khubz + nationality adjective (noun first)."
+]
+},
+{
+"key": "سوري",
+"arabic": "سوري",
+"translit": "suurii",
+"meaning_core": "Syrian",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Syrian"
+],
+"raw_notes": []
+},
+{
+"key": "خبز لبناني",
+"arabic": "خُبْز لُبْناني",
+"translit": "khubz lubnaanii",
+"meaning_core": "Lebanese bread",
+"qualifier": "the thinnest, two very thin layers",
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"Lebanese bread (the thinnest, two very thin layers)"
+],
+"raw_notes": [
+"[2026-09-29] In Arabic you name a bread by its country: khubz + nationality adjective (noun first)."
+]
+},
+{
+"key": "خبز باغيت",
+"arabic": "خُبْز باغيت",
+"translit": "khubz baagiit",
+"meaning_core": "baguette",
+"qualifier": null,
+"tier": "class",
+"register": "formal",
+"required": false,
+"lingco_meanings": [],
+"khouri_meanings": [
+"baguette"
+],
+"raw_notes": [
+"[2026-09-29] Borrowed French name; Arabic spelling varies (باغيت / باجيت)."
+]
+}
+]

@@ -1,0 +1,145 @@
+{
+  "course": "ARAB101",
+  "professor": "Khouri",
+  "date": "2026-08-27",
+  "duration_min": 77,
+  "source": "teams",
+  "transcript_path": "inbox/teams/ARAB101-2026-08-27.txt",
+  "topics": [
+    {
+      "topic": "student introductions - each student's major and reason for taking Arabic, with Khouri responding at length to each one",
+      "minutes": 23
+    },
+    {
+      "topic": "homework 1 walkthrough in Lingco and Canvas, including the in-class decision to cut its scope",
+      "minutes": 8
+    },
+    {
+      "topic": "alef and ba: the four positional forms, which letters connect on both sides and which only on the right, and hamza (the glottal stop) which must sit on an alef at the start of a word",
+      "minutes": 21
+    },
+    {
+      "topic": "first vocabulary and greetings, drilled aloud: marhaba, as-salamu alaikum and its reply, ahlan wa sahlan, ana, ismi, min, madinat, askun, fi/bi, tasharrafna, shukran, afwan",
+      "minutes": 21
+    }
+  ],
+  "announcements": [
+    {
+      "text": "SCOPE CUT, decided in class: the Canvas page for homework 1 also lists unit 2 drills 1 and 3, but they removed them because they have only taught ba today and has not taught ta yet. Only unit 1 drill 1 is due tomorrow; unit 2 moves to next week. They did not say they had updated Canvas, so the Canvas page may still show the larger assignment.",
+      "kind": "schedule_change",
+      "confidence": "explicit"
+    },
+    {
+      "text": "Homework 1 is due tomorrow, Friday 8/28. They named no clock time.",
+      "kind": "assignment",
+      "confidence": "explicit"
+    },
+    {
+      "text": "For Tuesday 9/1, every student must come to class able to greet a classmate, give their name, say where they are from and where they live, and exchange thank-you and you're-welcome, all in Arabic. They said to practice the vocabulary list plus the extra words they added that are not on it (askun, fi/bi, tasharrafna).",
+      "kind": "assignment",
+      "confidence": "explicit"
+    },
+    {
+      "text": "They will introduce two or three more letters on Tuesday and is pacing the alphabet deliberately: 'I need you to process the information every day.'",
+      "kind": "logistics",
+      "confidence": "explicit"
+    },
+    {
+      "text": "Attendance reminder, repeated: Top Hat matters most for 100- and 200-level classes. If you forget, EMAIL their the same day rather than trying to catch their after class - they go straight to another class and will have forgotten by the time they reaches their office.",
+      "kind": "logistics",
+      "confidence": "explicit"
+    },
+    {
+      "text": "Everything on exams will be in fusha (Modern Standard Arabic). Shami and Egyptian remain optional.",
+      "kind": "exam_signal",
+      "confidence": "explicit"
+    },
+    {
+      "text": "Upload format, repeated: not HEIC. PDF, JPEG, PNG and Word all work in Canvas.",
+      "kind": "logistics",
+      "confidence": "explicit"
+    },
+    {
+      "text": "Global Focus Week is week 5 of the semester, with ministries set up on the first floor. They urged students aiming at the Middle East or North Africa to connect with one then, and to align internships with the region. No specific date was given.",
+      "kind": "logistics",
+      "confidence": "explicit"
+    },
+    {
+      "text": "A student could not open the Teams recordings; they agreed to grant access so lectures can be rewatched.",
+      "kind": "logistics",
+      "confidence": "explicit"
+    }
+  ],
+  "assigned_reading": [],
+  "position": {
+    "unit": "unit 1",
+    "next": "unit 1 continued - two or three more letters on Tuesday; unit 2 drills next week",
+    "said": "'let's do just drill unit one, okay, the drill one, unit 1 by tomorrow. And then Unit 2, we'll do it next week' and 'So Tuesday, I'll be introducing two or three more letters'"
+  },
+  "commitments": [
+    {
+      "due": "2026-08-28",
+      "time": "23:59",
+      "title": "Arabic homework 1: unit 1 drill 1 on Lingco (unit 2 drills 1 and 3 were cut in class and moved to next week)",
+      "where": "lingco",
+      "confidence": "explicit"
+    },
+    {
+      "due": "2026-09-01",
+      "title": "Come to Arabic ready to greet a classmate, give your name, say where you are from and where you live, and say thank you / you're welcome - spoken, in Arabic",
+      "where": "other",
+      "confidence": "explicit"
+    }
+  ],
+  "off_slide": [
+    "Worked Baba and ab on the board to show why an alef forces the letter after it into initial form and the letter before it into independent form - alef connects only to its right",
+    "Handed out tracing sheets for alef and ba and had the class darken the strokes right to left: 'I know it feels like kindergarten, but it helps a lot'",
+    "Taught a physical trick for the ain: say 'ah' and lightly tense the throat as if you were about to gag, without going all the way",
+    "Explained the ta marbuta on madinat - pronounced when there is a possessive relationship (madinat Dimashq) and dropped when there is not",
+    "Explained why Marhaba is a Christian greeting (Syriac origin, mar meaning Lord) and as-salamu alaikum a Muslim one, and advised leading with as-salamu alaikum when you do not know which the person is",
+    "Made the cultural point that failing to greet someone you recognise reads as an insult in Arabic culture, and that doubling a greeting (ahlan wa sahlan) is how emphasis works in the language",
+    "Answered a student on the 'wa' in wa alaikum as-salam by reasoning it out as a conjunction or filler rather than citing a rule, and said so",
+    "Noted that printed fonts and handwriting differ - they are teaching the handwritten forms and the book will sometimes show something else"
+  ],
+  "terms": [
+    "alef",
+    "ba",
+    "hamza (glottal stop)",
+    "ta marbuta",
+    "initial, medial, final and independent forms",
+    "connecting vs non-connecting letters",
+    "long vowel vs short vowel",
+    "marhaba",
+    "as-salamu alaikum",
+    "wa alaikum as-salam",
+    "ahlan / ahla / ahlan wa sahlan",
+    "ana",
+    "ismi",
+    "min",
+    "madinat",
+    "askun",
+    "fi / bi",
+    "tasharrafna",
+    "shukran",
+    "afwan",
+    "ahsant (good job)",
+    "fusha"
+  ],
+  "quotes": [
+    {
+      "text": "So let's do just drill unit one, okay, the drill one, unit 1 by tomorrow. And then Unit 2, we'll do it next week.",
+      "at": "00:30:35"
+    },
+    {
+      "text": "your job on Tuesday, each one of you to come to class and tell me where are you from, where do you live",
+      "at": "01:12:18"
+    }
+  ],
+  "notes": [
+    "The scope cut is the thing that matters in this record. The Canvas assignment as they read it aloud on 8/25 and again today includes unit 2 drills 1 and 3; they removed them verbally and did not say Canvas was updated. The commitment above reflects what they actually assigned.",
+    "The Friday 8/28 homework commitment is carried here rather than in the 2026-08-25 record, so the due list shows one Arabic row for that day with the corrected scope.",
+    "They gave no clock time for the homework, so 23:59 is the default rather than something they said.",
+    "Teams garbles the vocabulary badly: 'my but' for marhaba, 'Alaina' for ahlan, 'Hanza' and 'hands down' for hamza, 'Etrieve' for Arabic, 'Medina' for madinat, 'Ascon' for askun, 'this are rough now' for tasharrafna, 'Sam' and 'same' for the imperative 'say'. The vocabulary above is the corrected standard form, not what the transcript says.",
+    "Roughly the first third of the class was introductions, so the actual instructional content of the hour is the second half only."
+  ]
+}

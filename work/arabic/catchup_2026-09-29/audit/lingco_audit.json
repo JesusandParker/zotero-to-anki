@@ -1,0 +1,4572 @@
+[
+ {
+  "id": "u1_le2_01",
+  "verdict": "ok",
+  "meaning": "Good morning!",
+  "translit": null,
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Lebanese = Levantine family; keep only once the Arabic is transcribed from clip AB3e_U1LE2-01 (column order verified in the raw harvest: Tunisia|Egypt|Lebanon|Oman; book confirms row 5 is \"I love Tunisia/Egypt/Lebanon/Oman\"). Flag register."
+ },
+ {
+  "id": "u1_le2_02",
+  "verdict": "ok",
+  "meaning": "How are you?",
+  "translit": null,
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Lebanese = Levantine family; keep only once the Arabic is transcribed from clip AB3e_U1LE2-02 (column order verified in the raw harvest: Tunisia|Egypt|Lebanon|Oman; book confirms row 5 is \"I love Tunisia/Egypt/Lebanon/Oman\"). Flag register."
+ },
+ {
+  "id": "u1_le2_03",
+  "verdict": "ok",
+  "meaning": "Good (fine)",
+  "translit": null,
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Lebanese = Levantine family; keep only once the Arabic is transcribed from clip AB3e_U1LE2-03 (column order verified in the raw harvest: Tunisia|Egypt|Lebanon|Oman; book confirms row 5 is \"I love Tunisia/Egypt/Lebanon/Oman\"). Flag register."
+ },
+ {
+  "id": "u1_le2_04",
+  "verdict": "ok",
+  "meaning": "Good-bye",
+  "translit": null,
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Lebanese = Levantine family; keep only once the Arabic is transcribed from clip AB3e_U1LE2-04 (column order verified in the raw harvest: Tunisia|Egypt|Lebanon|Oman; book confirms row 5 is \"I love Tunisia/Egypt/Lebanon/Oman\"). Flag register."
+ },
+ {
+  "id": "u1_le2_05",
+  "verdict": "ok",
+  "meaning": "I love Lebanon",
+  "translit": null,
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Lebanese = Levantine family; keep only once the Arabic is transcribed from clip AB3e_U1LE2-05 (column order verified in the raw harvest: Tunisia|Egypt|Lebanon|Oman; book confirms row 5 is \"I love Tunisia/Egypt/Lebanon/Oman\"). Flag register."
+ },
+ {
+  "id": "u1_le2_11",
+  "verdict": "drop",
+  "meaning": "Good morning!",
+  "translit": null,
+  "arabic_fix": null,
+  "keep": false,
+  "confidence": "high",
+  "note": "Omani sample from the \"hear four dialects\" exercise: not a course variety, no printed Arabic; a third dialect for the same greeting would compete with the formal and Levantine forms he is graded on."
+ },
+ {
+  "id": "u1_le2_12",
+  "verdict": "drop",
+  "meaning": "How are you?",
+  "translit": null,
+  "arabic_fix": null,
+  "keep": false,
+  "confidence": "high",
+  "note": "Omani sample from the \"hear four dialects\" exercise: not a course variety, no printed Arabic; a third dialect for the same greeting would compete with the formal and Levantine forms he is graded on."
+ },
+ {
+  "id": "u1_le2_13",
+  "verdict": "drop",
+  "meaning": "Good (fine)",
+  "translit": null,
+  "arabic_fix": null,
+  "keep": false,
+  "confidence": "high",
+  "note": "Omani sample from the \"hear four dialects\" exercise: not a course variety, no printed Arabic; a third dialect for the same greeting would compete with the formal and Levantine forms he is graded on."
+ },
+ {
+  "id": "u1_le2_14",
+  "verdict": "drop",
+  "meaning": "Good-bye",
+  "translit": null,
+  "arabic_fix": null,
+  "keep": false,
+  "confidence": "high",
+  "note": "Omani sample from the \"hear four dialects\" exercise: not a course variety, no printed Arabic; a third dialect for the same greeting would compete with the formal and Levantine forms he is graded on."
+ },
+ {
+  "id": "u1_le2_15",
+  "verdict": "drop",
+  "meaning": "I love Oman",
+  "translit": null,
+  "arabic_fix": null,
+  "keep": false,
+  "confidence": "high",
+  "note": "Omani sample from the \"hear four dialects\" exercise: not a course variety, no printed Arabic; a third dialect for the same greeting would compete with the formal and Levantine forms he is graded on."
+ },
+ {
+  "id": "u1_le2_16",
+  "verdict": "drop",
+  "meaning": "Good morning!",
+  "translit": null,
+  "arabic_fix": null,
+  "keep": false,
+  "confidence": "high",
+  "note": "Tunisian sample from the \"hear four dialects\" exercise: not a course variety, no printed Arabic; a third dialect for the same greeting would compete with the formal and Levantine forms he is graded on."
+ },
+ {
+  "id": "u1_le2_17",
+  "verdict": "drop",
+  "meaning": "How are you?",
+  "translit": null,
+  "arabic_fix": null,
+  "keep": false,
+  "confidence": "high",
+  "note": "Tunisian sample from the \"hear four dialects\" exercise: not a course variety, no printed Arabic; a third dialect for the same greeting would compete with the formal and Levantine forms he is graded on."
+ },
+ {
+  "id": "u1_le2_18",
+  "verdict": "drop",
+  "meaning": "Good (fine)",
+  "translit": null,
+  "arabic_fix": null,
+  "keep": false,
+  "confidence": "high",
+  "note": "Tunisian sample from the \"hear four dialects\" exercise: not a course variety, no printed Arabic; a third dialect for the same greeting would compete with the formal and Levantine forms he is graded on."
+ },
+ {
+  "id": "u1_le2_19",
+  "verdict": "drop",
+  "meaning": "Good-bye",
+  "translit": null,
+  "arabic_fix": null,
+  "keep": false,
+  "confidence": "high",
+  "note": "Tunisian sample from the \"hear four dialects\" exercise: not a course variety, no printed Arabic; a third dialect for the same greeting would compete with the formal and Levantine forms he is graded on."
+ },
+ {
+  "id": "u1_le2_20",
+  "verdict": "drop",
+  "meaning": "I love Tunisia",
+  "translit": null,
+  "arabic_fix": null,
+  "keep": false,
+  "confidence": "high",
+  "note": "Tunisian sample from the \"hear four dialects\" exercise: not a course variety, no printed Arabic; a third dialect for the same greeting would compete with the formal and Levantine forms he is graded on."
+ },
+ {
+  "id": "u1_d3_01",
+  "verdict": "ok",
+  "meaning": "Morocco — capital: Rabat",
+  "translit": "al-maghrib — ar-ribaaT",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_02",
+  "verdict": "ok",
+  "meaning": "Mauritania — capital: Nouakchott",
+  "translit": "muuriitaanyaa — nuwaakshuuT",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_03",
+  "verdict": "ok",
+  "meaning": "Algeria — capital: Algiers (same name as the country)",
+  "translit": "al-jazaa'ir — al-jazaa'ir",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_04",
+  "verdict": "ok",
+  "meaning": "Tunisia — capital: Tunis (same name as the country)",
+  "translit": "tuunis — tuunis",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_05",
+  "verdict": "ok",
+  "meaning": "Libya — capital: Tripoli",
+  "translit": "liibyaa — Taraabulus",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_06",
+  "verdict": "ok",
+  "meaning": "Egypt — capital: Cairo",
+  "translit": "miSr — al-qaahira",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_07",
+  "verdict": "ok",
+  "meaning": "Sudan — capital: Khartoum",
+  "translit": "as-suudaan — al-kharTuum",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_08",
+  "verdict": "ok",
+  "meaning": "Somalia — capital: Mogadishu",
+  "translit": "aS-Suumaal — maqadiishuu",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_09",
+  "verdict": "ok",
+  "meaning": "Jordan — capital: Amman",
+  "translit": "al-urdunn — cammaan",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_10",
+  "verdict": "ok",
+  "meaning": "Palestine (book: 'Israel/Palestine') — Jerusalem",
+  "translit": "filasTiin — al-quds",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Clip order checked in the raw harvest. Book item 10 reads \"Israel/Palestine (Jerusalem)\"; the clip may name it differently, so check the Arabic against the audio."
+ },
+ {
+  "id": "u1_d3_11",
+  "verdict": "ok",
+  "meaning": "Lebanon — capital: Beirut",
+  "translit": "lubnaan — bayruut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_12",
+  "verdict": "ok",
+  "meaning": "Syria — capital: Damascus",
+  "translit": "suuryaa — dimashq",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_13",
+  "verdict": "ok",
+  "meaning": "Iraq — capital: Baghdad",
+  "translit": "al-ciraaq — baghdaad",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_14",
+  "verdict": "ok",
+  "meaning": "Kuwait — capital: Kuwait City (same name)",
+  "translit": "al-kuwayt — al-kuwayt",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_15",
+  "verdict": "ok",
+  "meaning": "Saudi Arabia — capital: Riyadh",
+  "translit": "as-sacuudiyya — ar-riyaaD",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_16",
+  "verdict": "ok",
+  "meaning": "Qatar — capital: Doha",
+  "translit": "qaTar — ad-dawHa",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_17",
+  "verdict": "ok",
+  "meaning": "Bahrain — capital: Manama",
+  "translit": "al-baHrayn — al-manaama",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_18",
+  "verdict": "ok",
+  "meaning": "United Arab Emirates — capital: Abu Dhabi",
+  "translit": "al-imaaraat — abuu DHabii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_19",
+  "verdict": "ok",
+  "meaning": "Oman — capital: Muscat",
+  "translit": "cumaan — masqaT",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_d3_20",
+  "verdict": "ok",
+  "meaning": "Yemen — capital: Sanaa",
+  "translit": "al-yaman — Sancaa'",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Country/capital match checked: the clip order follows the Lingco page order in the raw harvest, and the Morocco and Bahrain clips were spot-checked by spectrogram. The Arabic is the standard short name; the clip may use a longer official name, so check it against the audio."
+ },
+ {
+  "id": "u1_v01",
+  "verdict": "ok",
+  "meaning": "Peace be upon you — the Islamic greeting ('hello')",
+  "translit": "assalaamu calaykum",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u1_v02",
+  "verdict": "ok",
+  "meaning": "Hello! / Hi!",
+  "translit": "ahlan",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u1_v02_shaami",
+  "verdict": "ok",
+  "meaning": "Hello! / Hi! (Levantine pronunciation)",
+  "translit": "ahla",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u1_v03",
+  "verdict": "ok",
+  "meaning": "Hello! / Welcome!",
+  "translit": "ahlan wa sahlan",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u1_v03_shaami",
+  "verdict": "ok",
+  "meaning": "Hello! / Welcome! (Levantine pronunciation)",
+  "translit": "ahla w sahla",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u1_v04",
+  "verdict": "ok",
+  "meaning": "Hello! (used especially in the Levant)",
+  "translit": "marHaban",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u1_v04_shaami",
+  "verdict": "ok",
+  "meaning": "Hello! (Levantine)",
+  "translit": "marHaba",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u1_v05",
+  "verdict": "ok",
+  "meaning": "I",
+  "translit": "ana",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u1_v06",
+  "verdict": "ok",
+  "meaning": "my name",
+  "translit": "ismii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u1_v07",
+  "verdict": "ok",
+  "meaning": "from",
+  "translit": "min",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u1_v08",
+  "verdict": "ok",
+  "meaning": "the city of … (used right before a city's name)",
+  "translit": "madiinat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u1_v08_shaami",
+  "verdict": "ok",
+  "meaning": "the city of … (Levantine pronunciation)",
+  "translit": "madiinit",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u1_v09",
+  "verdict": "ok",
+  "meaning": "in",
+  "translit": "fii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u1_v09_shaami",
+  "verdict": "ok",
+  "meaning": "in (Levantine; attached to the next word)",
+  "translit": "bi-",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le2_02",
+  "verdict": "ok",
+  "meaning": "door",
+  "translit": "baab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le2_03",
+  "verdict": "ok",
+  "meaning": "Lebanon",
+  "translit": "lubnaan",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le2_04",
+  "verdict": "ok",
+  "meaning": "Libya",
+  "translit": "liibyaa",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le2_05",
+  "verdict": "ok",
+  "meaning": "house",
+  "translit": "bayt",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le2_06",
+  "verdict": "ok",
+  "meaning": "love",
+  "translit": "Hubb",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Clip checked (LPC): vowel after ح is u (F1~560, F2~1080), so Hubb \"love\", not Habb \"seeds\"."
+ },
+ {
+  "id": "u2_le3_02",
+  "verdict": "ok",
+  "meaning": "he spent the night",
+  "translit": "baat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Pausal form of باتَ."
+ },
+ {
+  "id": "u2_le3_03",
+  "verdict": "ok",
+  "meaning": "mulberries; berries (collective)",
+  "translit": "tuut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "collective; one berry = توتة tuuta"
+ },
+ {
+  "id": "u2_le3_04",
+  "verdict": "ok",
+  "meaning": "tent peg, stake",
+  "translit": "watad",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le3_05",
+  "verdict": "ok",
+  "meaning": "girl; daughter",
+  "translit": "bint",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le3_06",
+  "verdict": "ok",
+  "meaning": "winter",
+  "translit": "shitaa'",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le4_02",
+  "verdict": "ok",
+  "meaning": "firm, fixed, stable (also a man's name, Thabit)",
+  "translit": "thaabit",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le4_03",
+  "verdict": "fix",
+  "meaning": "she proves; you (m.) prove / confirm",
+  "translit": "tuthbit",
+  "arabic_fix": "تُثْبِت",
+  "keep": true,
+  "confidence": "med",
+  "note": "Printed unvowelled; the prior entry left it ambiguous. The clip has u…i vowels (LPC: V1 F1~370; V2 F2~1.9 kHz), matching the known تُثْبِت clip (U2 D12-03), so it is tuthbit, not tathbut."
+ },
+ {
+  "id": "u2_le4_04",
+  "verdict": "ok",
+  "meaning": "furniture",
+  "translit": "athaath",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le4_05",
+  "verdict": "ok",
+  "meaning": "broadcast, transmission (noun)",
+  "translit": "bathth",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le6_01",
+  "verdict": "fix",
+  "meaning": "mulberries; berries (collective)",
+  "translit": "tuut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "AUDIO: the U2 LE6 publisher files are numbered in REVERSE of the printed items (Lingco page order is 05,04,03,02,01; spectrograms confirm). This word is AB3e_U2LE6-05 (u02_extra_c7121c0c.mp3); the file currently attached, -01 actually says taHbuu. collective; one berry = توتة tuuta"
+ },
+ {
+  "id": "u2_le6_02",
+  "verdict": "fix",
+  "meaning": "coffin, casket",
+  "translit": "taabuut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "AUDIO: the U2 LE6 publisher files are numbered in REVERSE of the printed items (Lingco page order is 05,04,03,02,01; spectrograms confirm). This word is AB3e_U2LE6-04 (u02_extra_52788deb.mp3); the file currently attached, -02 actually says tuunis."
+ },
+ {
+  "id": "u2_le6_03",
+  "verdict": "fix",
+  "meaning": "being proven (established); firmness",
+  "translit": "thubuut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "ثُبوت is the verbal noun of ثَبَتَ, \"to be firm / be proven\". \"Proof\" is إِثْبات (ithbaat, u4_le3_03), so that gloss would mix the two up. Audio is OK here: LE6-03 is the middle item, so the reversal leaves it in place."
+ },
+ {
+  "id": "u2_le6_04",
+  "verdict": "fix",
+  "meaning": "Tunisia; Tunis",
+  "translit": "tuunis",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "AUDIO: the U2 LE6 publisher files are numbered in REVERSE of the printed items (Lingco page order is 05,04,03,02,01; spectrograms confirm). This word is AB3e_U2LE6-02 (u02_extra_b940dc0f.mp3); the file currently attached, -04 actually says taabuut."
+ },
+ {
+  "id": "u2_le6_05",
+  "verdict": "fix",
+  "meaning": "she crawls; you (m.) crawl (like a baby)",
+  "translit": "taHbuu",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "AUDIO: the U2 LE6 publisher files are numbered in REVERSE of the printed items (Lingco page order is 05,04,03,02,01; spectrograms confirm). This word is AB3e_U2LE6-01 (u02_extra_e5fa3e1e.mp3); the file currently attached, -05 actually says tuut. That correct clip clearly says ta-H-b-uu, which confirms taHbuu."
+ },
+ {
+  "id": "u2_le7_01",
+  "verdict": "ok",
+  "meaning": "repent! (said to a female)",
+  "translit": "tuubii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Fem. imperative of تابَ يَتوبُ (U2 D11-02 clip checked: tuubii)."
+ },
+ {
+  "id": "u2_le7_02",
+  "verdict": "ok",
+  "meaning": "fixing, securing; confirmation; (software) installation",
+  "translit": "tathbiit",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le7_03",
+  "verdict": "ok",
+  "meaning": "Libyan (m.)",
+  "translit": "liibii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le7_04",
+  "verdict": "fix",
+  "meaning": "(that) you (f.) stay firm",
+  "translit": "tathbutii",
+  "arabic_fix": "تَثْبُتي",
+  "keep": true,
+  "confidence": "med",
+  "note": "Printed unvowelled; the prior entry assumed tuthbitii. The clip has a…u…ii (LPC: V1 F1~650; V2 F1~300, F2~950), matching the known tathbut clip (U2 LE10-06), so it is تَثْبُتي, the subjunctive/jussive of تَثْبُتين."
+ },
+ {
+  "id": "u2_le9_01",
+  "verdict": "ok",
+  "meaning": "she returned, came back",
+  "translit": "thaabat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Rare/literary: ثابَ = \"to return\" (esp. to one's senses). Printed like باتَت/تابَت, so the fem. past thaabat."
+ },
+ {
+  "id": "u2_le9_02",
+  "verdict": "ok",
+  "meaning": "he repented",
+  "translit": "taaba",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le9_03",
+  "verdict": "ok",
+  "meaning": "she spent the night",
+  "translit": "baatat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le9_04",
+  "verdict": "ok",
+  "meaning": "she repented",
+  "translit": "taabat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le9_05",
+  "verdict": "ok",
+  "meaning": "firmness, stability",
+  "translit": "thabaat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le10_01",
+  "verdict": "ok",
+  "meaning": "repent! (said to a male)",
+  "translit": "tub",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le10_02",
+  "verdict": "ok",
+  "meaning": "broadcast! / spread! (said to a male)",
+  "translit": "buthth",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Imperative of بَثَّ يَبُثُّ."
+ },
+ {
+  "id": "u2_le10_03",
+  "verdict": "fix",
+  "meaning": "being proven (established); firmness",
+  "translit": "thubuut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "ثُبوت is the verbal noun of ثَبَتَ, \"to be firm / be proven\". \"Proof\" is إِثْبات (ithbaat, u4_le3_03), so that gloss would mix the two up."
+ },
+ {
+  "id": "u2_le10_04",
+  "verdict": "ok",
+  "meaning": "grains, seeds; pills (plural of حَبّة)",
+  "translit": "Hubuub",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. حَبّة Habba (collective حَبّ Habb)"
+ },
+ {
+  "id": "u2_le10_05",
+  "verdict": "ok",
+  "meaning": "pour! (said to a male)",
+  "translit": "Subb",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le10_06",
+  "verdict": "ok",
+  "meaning": "she stays firm; you (m.) stay firm",
+  "translit": "tathbut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le11_01",
+  "verdict": "ok",
+  "meaning": "jump! leap! (said to a male)",
+  "translit": "thib",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le11_02",
+  "verdict": "ok",
+  "meaning": "(that) you (f.) prove / confirm",
+  "translit": "tuthbitii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le11_03",
+  "verdict": "ok",
+  "meaning": "spend the night! (said to a male)",
+  "translit": "bit",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le11_04",
+  "verdict": "ok",
+  "meaning": "medicine (the field)",
+  "translit": "Tibb",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le11_05",
+  "verdict": "ok",
+  "meaning": "you (m.) love; she loves",
+  "translit": "tuHibb",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_le11_06",
+  "verdict": "ok",
+  "meaning": "my book",
+  "translit": "kitaabii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d2_02",
+  "verdict": "ok",
+  "meaning": "he repented",
+  "translit": "taab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d2_05",
+  "verdict": "ok",
+  "meaning": "door",
+  "translit": "baab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d2_06",
+  "verdict": "ok",
+  "meaning": "he spent the night",
+  "translit": "baat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Pausal form of باتَ."
+ },
+ {
+  "id": "u2_d4_01",
+  "verdict": "ok",
+  "meaning": "he returned, came back",
+  "translit": "thaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Rare/literary verb ثابَ يَثوبُ \"to return\"."
+ },
+ {
+  "id": "u2_d4_02",
+  "verdict": "ok",
+  "meaning": "mulberries; berries (collective)",
+  "translit": "tuut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "collective; one berry = توتة tuuta"
+ },
+ {
+  "id": "u2_d4_04",
+  "verdict": "ok",
+  "meaning": "coffin, casket",
+  "translit": "taabuut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d5_02",
+  "verdict": "drop",
+  "meaning": "(drill token biitii; \"my house\" = بَيْتي baytii)",
+  "translit": "biitii",
+  "arabic_fix": null,
+  "keep": false,
+  "confidence": "high",
+  "note": "Clip says biitii: steady ii (F1~295, F2~2250 from onset), no ay glide. It is a Unit 2 long-vowel dictation token. \"My house\" is بَيْتي baytii, already carded with correct audio (u3_d9_12, u3_d11_02); this clip would teach the wrong vowel."
+ },
+ {
+  "id": "u2_d8_01",
+  "verdict": "ok",
+  "meaning": "fixing, securing; confirmation; installation",
+  "translit": "tathbiit",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d8_02",
+  "verdict": "ok",
+  "meaning": "(rare) household goods; best known in بَتاتاً 'absolutely (not), at all'",
+  "translit": "bataat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Verified (Lane: provisions, furniture). Rare on its own; the live word is the adverb بَتاتاً."
+ },
+ {
+  "id": "u2_d8_03",
+  "verdict": "ok",
+  "meaning": "she spent the night",
+  "translit": "baatat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d8_04",
+  "verdict": "ok",
+  "meaning": "firmness, stability",
+  "translit": "thabaat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d8_05",
+  "verdict": "ok",
+  "meaning": "he/it stood firm (the verb ثَبَتَ said without its final vowel)",
+  "translit": "thabat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d8_06",
+  "verdict": "ok",
+  "meaning": "she returned, came back",
+  "translit": "thaabat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Rare/literary: ثابَ = \"to return\" (esp. to one's senses). Printed like باتَت/تابَت, so the fem. past thaabat."
+ },
+ {
+  "id": "u2_d10_01",
+  "verdict": "ok",
+  "meaning": "she/it became firm",
+  "translit": "thabutat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d10_02",
+  "verdict": "ok",
+  "meaning": "I repented",
+  "translit": "tubtu",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d10_03",
+  "verdict": "ok",
+  "meaning": "she spends the night; you (m.) spend the night",
+  "translit": "tabiit",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d10_04",
+  "verdict": "ok",
+  "meaning": "she repents; you (m.) repent",
+  "translit": "tatuub",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d10_05",
+  "verdict": "ok",
+  "meaning": "she stays firm; you (m.) stay firm",
+  "translit": "tathbut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d10_06",
+  "verdict": "fix",
+  "meaning": "being proven (established); firmness",
+  "translit": "thubuut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "ثُبوت is the verbal noun of ثَبَتَ, \"to be firm / be proven\". \"Proof\" is إِثْبات (ithbaat, u4_le3_03), so that gloss would mix the two up."
+ },
+ {
+  "id": "u2_d11_01",
+  "verdict": "ok",
+  "meaning": "my door",
+  "translit": "baabii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d11_02",
+  "verdict": "ok",
+  "meaning": "repent! (said to a female)",
+  "translit": "tuubii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Fem. imperative of تابَ يَتوبُ (U2 D11-02 clip checked: tuubii)."
+ },
+ {
+  "id": "u2_d11_03",
+  "verdict": "fix",
+  "meaning": "being proven (established); firmness",
+  "translit": "thubuut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "ثُبوت is the verbal noun of ثَبَتَ, \"to be firm / be proven\". \"Proof\" is إِثْبات (ithbaat, u4_le3_03), so that gloss would mix the two up."
+ },
+ {
+  "id": "u2_d11_04",
+  "verdict": "drop",
+  "meaning": "(sound-string drill item tuubaa)",
+  "translit": "tuubaa",
+  "arabic_fix": null,
+  "keep": false,
+  "confidence": "high",
+  "note": "Clip = tuubaa (u…aa confirmed). A long-vowel drill string, like بابا and باتا in Drill 13. The only real reading is the dual imperative \"repent, you two!\", which is not worth a card."
+ },
+ {
+  "id": "u2_d11_05",
+  "verdict": "ok",
+  "meaning": "she spends the night; you (m.) spend the night",
+  "translit": "tabiit",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d11_06",
+  "verdict": "ok",
+  "meaning": "firmness, stability",
+  "translit": "thabaat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d11_07",
+  "verdict": "ok",
+  "meaning": "she repented",
+  "translit": "taabat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d11_08",
+  "verdict": "drop",
+  "meaning": "(drill token thuubii; \"my robe\" = ثَوْبي thawbii)",
+  "translit": "thuubii",
+  "arabic_fix": null,
+  "keep": false,
+  "confidence": "high",
+  "note": "Clip says thuubii: steady uu (F1~450, F2~1100), no aw glide (real ثَوْب onset F1~650). It is a dictation token, not formal Arabic. ثَوْب/ثِياب are carded."
+ },
+ {
+  "id": "u2_d12_01",
+  "verdict": "ok",
+  "meaning": "broadcast, transmission (noun)",
+  "translit": "bathth",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d12_02",
+  "verdict": "ok",
+  "meaning": "my door",
+  "translit": "baabii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d12_03",
+  "verdict": "ok",
+  "meaning": "she proves; you (m.) prove / confirm",
+  "translit": "tuthbit",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d12_04",
+  "verdict": "ok",
+  "meaning": "come back! return! (said to a male; rare)",
+  "translit": "thub",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Rare/literary imperative of ثابَ يَثوبُ."
+ },
+ {
+  "id": "u2_d12_05",
+  "verdict": "ok",
+  "meaning": "firmness, stability",
+  "translit": "thabaat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d12_07",
+  "verdict": "drop",
+  "meaning": "(sound-string drill item taabaa)",
+  "translit": "taabaa",
+  "arabic_fix": null,
+  "keep": false,
+  "confidence": "high",
+  "note": "A long-vowel drill string, printed next to non-words (تيتو, تَبات). The only real reading is the dual \"they two repented\", which is not worth a card."
+ },
+ {
+  "id": "u2_d12_08",
+  "verdict": "ok",
+  "meaning": "firm, fixed, stable",
+  "translit": "thaabit",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_d12_09",
+  "verdict": "ok",
+  "meaning": "repent! (said to a female)",
+  "translit": "tuubii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Fem. imperative of تابَ يَتوبُ (U2 D11-02 clip checked: tuubii)."
+ },
+ {
+  "id": "u2_d12_11",
+  "verdict": "ok",
+  "meaning": "she returned, came back",
+  "translit": "thaabat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Rare/literary: ثابَ = \"to return\" (esp. to one's senses). Printed like باتَت/تابَت, so the fem. past thaabat."
+ },
+ {
+  "id": "u2_d12_12",
+  "verdict": "ok",
+  "meaning": "fixing, securing; confirmation; installation",
+  "translit": "tathbiit",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v01",
+  "verdict": "ok",
+  "meaning": "door",
+  "translit": "baab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v02",
+  "verdict": "ok",
+  "meaning": "name",
+  "translit": "ism",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v03",
+  "verdict": "ok",
+  "meaning": "what?",
+  "translit": "maa?",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v03_shaami",
+  "verdict": "ok",
+  "meaning": "what? (Levantine)",
+  "translit": "shuu?",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v04",
+  "verdict": "ok",
+  "meaning": "Hello to you too — reply to 'ahlan wa sahlan' (to a male)",
+  "translit": "ahlan bika",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v04_shaami",
+  "verdict": "ok",
+  "meaning": "Hello to you too — reply to 'ahla w sahla' (to a male; Levantine)",
+  "translit": "ahlan fiik",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v05",
+  "verdict": "ok",
+  "meaning": "Hello to you too — reply to 'ahlan wa sahlan' (to a female)",
+  "translit": "ahlan biki",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v05_shaami",
+  "verdict": "ok",
+  "meaning": "Hello to you too — reply to 'ahla w sahla' (to a female; Levantine)",
+  "translit": "ahlan fiiki",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v06",
+  "verdict": "ok",
+  "meaning": "And upon you be peace — reply to 'assalaamu calaykum'",
+  "translit": "wa calaykumu s-salaam",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v07",
+  "verdict": "ok",
+  "meaning": "you (polite, to a male) — literally 'your presence'",
+  "translit": "HaDratuka",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v07_shaami",
+  "verdict": "ok",
+  "meaning": "you (polite, to a male; Levantine)",
+  "translit": "HaDәrtak",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v08",
+  "verdict": "ok",
+  "meaning": "you (polite, to a female) — literally 'your presence'",
+  "translit": "HaDratuki",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v08_shaami",
+  "verdict": "ok",
+  "meaning": "you (polite, to a female; Levantine)",
+  "translit": "HaDәrtik",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v09",
+  "verdict": "ok",
+  "meaning": "Nice to meet you! (literally 'we have been honored')",
+  "translit": "tasharrafnaa",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v09_shaami",
+  "verdict": "ok",
+  "meaning": "Nice to meet you! (Levantine)",
+  "translit": "tsharrafna",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v10",
+  "verdict": "ok",
+  "meaning": "you (to a male)",
+  "translit": "anta",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v10_shaami",
+  "verdict": "ok",
+  "meaning": "you (to a male; Levantine)",
+  "translit": "inte",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v11",
+  "verdict": "ok",
+  "meaning": "you (to a female)",
+  "translit": "anti",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v11_shaami",
+  "verdict": "ok",
+  "meaning": "you (to a female; Levantine)",
+  "translit": "inti",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v13",
+  "verdict": "ok",
+  "meaning": "your (to a male; suffix) / your name",
+  "translit": "-ka / ismuka",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v13_shaami",
+  "verdict": "ok",
+  "meaning": "your (to a male; suffix) / your name (Levantine)",
+  "translit": "-ak / ismak",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v14",
+  "verdict": "ok",
+  "meaning": "your (to a female; suffix) / your name",
+  "translit": "-ki / ismuki",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v14_shaami",
+  "verdict": "ok",
+  "meaning": "your (to a female; suffix) / your name (Levantine)",
+  "translit": "-ik / ismik",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v15",
+  "verdict": "ok",
+  "meaning": "where?",
+  "translit": "ayna?",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v15_shaami",
+  "verdict": "ok",
+  "meaning": "where? (Levantine)",
+  "translit": "ween?",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v16",
+  "verdict": "ok",
+  "meaning": "from where?",
+  "translit": "min ayna?",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v16_shaami",
+  "verdict": "ok",
+  "meaning": "from where? (Levantine)",
+  "translit": "min ween?",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v17",
+  "verdict": "ok",
+  "meaning": "yes",
+  "translit": "nacam",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v17_shaami",
+  "verdict": "ok",
+  "meaning": "yes (Levantine)",
+  "translit": "ee",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u2_v18",
+  "verdict": "ok",
+  "meaning": "no",
+  "translit": "laa",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le1_01",
+  "verdict": "fix",
+  "meaning": "crown",
+  "translit": "taaj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "AUDIO: this U3 LE1 clip says the word three times, once per ج variant (j, zh, Egyptian g); the brief bans Egyptian audio. Trim it to the j take (the first take, ~0.5-1.2 s; the third take, ~3.6-4.4 s, is the g) or use u3_d1_02's clip."
+ },
+ {
+  "id": "u3_le1_02",
+  "verdict": "fix",
+  "meaning": "well, pit (like the well Joseph was thrown into)",
+  "translit": "jubb",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "AUDIO: this U3 LE1 clip says the word three times, once per ج variant (j, zh, Egyptian g); the brief bans Egyptian audio. Trim it to the j take (the spectrogram of u3_le1_01 shows the order j, zh, g; verify here). There is no other clip for this word."
+ },
+ {
+  "id": "u3_le1_03",
+  "verdict": "fix",
+  "meaning": "she answers; you (m.) answer",
+  "translit": "tujiib",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "AUDIO: this U3 LE1 clip says the word three times, once per ج variant (j, zh, Egyptian g); the brief bans Egyptian audio. Trim it to the j take (the spectrogram of u3_le1_01 shows the order j, zh, g; verify here). There is no other clip for this word."
+ },
+ {
+  "id": "u3_le1_04",
+  "verdict": "fix",
+  "meaning": "chicken (collective — one hen is دَجاجة)",
+  "translit": "dajaaj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "AUDIO: this U3 LE1 clip says the word three times, once per ج variant (j, zh, Egyptian g); the brief bans Egyptian audio. Trim it to the j take (the spectrogram of u3_le1_01 shows the order j, zh, g; verify here) or use u4_le5_01 / u4_d10_06's clip. collective; one hen = دَجاجة dajaaja"
+ },
+ {
+  "id": "u3_le2_01",
+  "verdict": "ok",
+  "meaning": "beloved, darling, dear",
+  "translit": "Habiib",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le2_02",
+  "verdict": "ok",
+  "meaning": "research; search",
+  "translit": "baHth",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le2_03",
+  "verdict": "ok",
+  "meaning": "she reveals (a secret); you (m.) reveal",
+  "translit": "tabuuH",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le2_04",
+  "verdict": "ok",
+  "meaning": "morning",
+  "translit": "SabaaH",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le3_01",
+  "verdict": "ok",
+  "meaning": "he failed; he was disappointed",
+  "translit": "khaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le3_02",
+  "verdict": "ok",
+  "meaning": "stingy; a miser",
+  "translit": "bakhiil",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le3_03",
+  "verdict": "fix",
+  "meaning": "it died down (fire, heat, anger); it went stale",
+  "translit": "baakh",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Core sense first, per Lane: (fire/heat/anger) abated. \"Went stale\" is secondary. Rare verb (باخَ يَبوخُ)."
+ },
+ {
+  "id": "u3_le3_04",
+  "verdict": "ok",
+  "meaning": "luck, fortune",
+  "translit": "bakht",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le3_05",
+  "verdict": "ok",
+  "meaning": "my bed",
+  "translit": "takhtii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le4_01",
+  "verdict": "ok",
+  "meaning": "(you/she) need — short form, as in لَمْ تَحْتَجْ 'you did not need'",
+  "translit": "taHtaj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Jussive of تَحْتاج, used after لَمْ."
+ },
+ {
+  "id": "u3_le4_02",
+  "verdict": "ok",
+  "meaning": "my bed",
+  "translit": "takhtii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le4_03",
+  "verdict": "ok",
+  "meaning": "she hides, veils; you (m.) hide",
+  "translit": "taHjubu",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le4_04",
+  "verdict": "ok",
+  "meaning": "(that) you (f.) prove / confirm",
+  "translit": "tuthbitii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le4_05",
+  "verdict": "ok",
+  "meaning": "my research",
+  "translit": "baHthii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le5_01",
+  "verdict": "ok",
+  "meaning": "he jumped, leaped",
+  "translit": "wathab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le5_02",
+  "verdict": "ok",
+  "meaning": "homework; duty",
+  "translit": "waajib",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le5_03",
+  "verdict": "ok",
+  "meaning": "answer, reply",
+  "translit": "jawaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le5_04",
+  "verdict": "ok",
+  "meaning": "dialogue, conversation",
+  "translit": "Hiwaar",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le5_05",
+  "verdict": "ok",
+  "meaning": "empty (spoken form of formal خاوٍ)",
+  "translit": "khaawii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le6_01",
+  "verdict": "ok",
+  "meaning": "garment, robe",
+  "translit": "thawb",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le6_02",
+  "verdict": "ok",
+  "meaning": "husband; pair",
+  "translit": "zawj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le6_03",
+  "verdict": "ok",
+  "meaning": "scolding, reprimand",
+  "translit": "tawbiikh",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le6_04",
+  "verdict": "ok",
+  "meaning": "peaches (collective — one peach is خَوْخة)",
+  "translit": "khawkh",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "In Syria and Lebanon خوخ often means plums. collective; one peach = خَوْخة khawkha"
+ },
+ {
+  "id": "u3_le6_05",
+  "verdict": "ok",
+  "meaning": "around; about",
+  "translit": "Hawl",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le7_01",
+  "verdict": "ok",
+  "meaning": "houses (plural of بَيْت)",
+  "translit": "buyuut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. بَيْت bayt"
+ },
+ {
+  "id": "u3_le7_02",
+  "verdict": "ok",
+  "meaning": "clothes (plural of ثَوْب)",
+  "translit": "thiyaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. ثَوْب thawb"
+ },
+ {
+  "id": "u3_le7_03",
+  "verdict": "ok",
+  "meaning": "pockets (plural of جَيْب)",
+  "translit": "juyuub",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. جَيْب jayb"
+ },
+ {
+  "id": "u3_le7_04",
+  "verdict": "ok",
+  "meaning": "it is necessary; (one) must",
+  "translit": "yajib",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le7_05",
+  "verdict": "ok",
+  "meaning": "he returns, comes back (to his senses)",
+  "translit": "yathuub",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Rare/literary verb ثابَ يَثوبُ \"to return\"."
+ },
+ {
+  "id": "u3_le8_01",
+  "verdict": "ok",
+  "meaning": "where (as in 'the place where'); since, because",
+  "translit": "Hayth",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le8_02",
+  "verdict": "ok",
+  "meaning": "good; goodness, well-being",
+  "translit": "khayr",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le8_03",
+  "verdict": "ok",
+  "meaning": "pocket",
+  "translit": "jayb",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le8_04",
+  "verdict": "ok",
+  "meaning": "house",
+  "translit": "bayt",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_le8_05",
+  "verdict": "ok",
+  "meaning": "between",
+  "translit": "bayn",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d1_01",
+  "verdict": "ok",
+  "meaning": "he roamed, crossed (formal جابَ); in spoken Arabic 'he brought'",
+  "translit": "jaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d1_02",
+  "verdict": "ok",
+  "meaning": "crown",
+  "translit": "taaj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d1_03",
+  "verdict": "ok",
+  "meaning": "roam! explore! (said to a female)",
+  "translit": "juubii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Rare imperative of جابَ يَجوبُ \"to roam\"."
+ },
+ {
+  "id": "u3_d1_04",
+  "verdict": "ok",
+  "meaning": "robes, cloaks (plural of جُبّة jubba)",
+  "translit": "jubab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. جُبّة jubba"
+ },
+ {
+  "id": "u3_d1_05",
+  "verdict": "ok",
+  "meaning": "corpses, dead bodies (plural of جُثّة)",
+  "translit": "juthath",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. جُثّة juththa"
+ },
+ {
+  "id": "u3_d1_06",
+  "verdict": "drop",
+  "meaning": "(jiib: \"jeep\" or spoken \"bring!\"; not جَيْب \"pocket\")",
+  "translit": "jiib",
+  "arabic_fix": null,
+  "keep": false,
+  "confidence": "med",
+  "note": "Clip says jiib: steady ii (F1~300-400, F2~2300), unlike the ay glide in the known جَيْب clip (U3 LE8-03). That makes it \"jeep\" or spoken \"bring!\", and the intended word cannot be known. It would also clash with جَيْب jayb \"pocket\", which is carded (u3_le8_03, u3_d9_*)."
+ },
+ {
+  "id": "u3_d2_01",
+  "verdict": "ok",
+  "meaning": "whale",
+  "translit": "Huut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d2_02",
+  "verdict": "ok",
+  "meaning": "research; search",
+  "translit": "baHth",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d2_03",
+  "verdict": "ok",
+  "meaning": "beloved, darling, dear",
+  "translit": "Habiib",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d2_04",
+  "verdict": "ok",
+  "meaning": "under, below",
+  "translit": "taHt",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d2_05",
+  "verdict": "ok",
+  "meaning": "reveal it! tell! (said to a female)",
+  "translit": "buuHii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d2_06",
+  "verdict": "ok",
+  "meaning": "she revealed (a secret)",
+  "translit": "baaHat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d4_01",
+  "verdict": "ok",
+  "meaning": "she failed; she was disappointed",
+  "translit": "khaabat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d4_02",
+  "verdict": "ok",
+  "meaning": "headscarf, veil",
+  "translit": "Hijaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d4_03",
+  "verdict": "ok",
+  "meaning": "beloved, darling, dear",
+  "translit": "Habiib",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d4_04",
+  "verdict": "ok",
+  "meaning": "beds (plural of تَخْت)",
+  "translit": "tukhuut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. تَخْت takht"
+ },
+ {
+  "id": "u3_d4_05",
+  "verdict": "ok",
+  "meaning": "she roams, travels through; you (m.) roam",
+  "translit": "tajuub",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d4_06",
+  "verdict": "ok",
+  "meaning": "research studies, papers (plural of بَحْث)",
+  "translit": "buHuuth",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. بَحْث baHth"
+ },
+ {
+  "id": "u3_d4_07",
+  "verdict": "ok",
+  "meaning": "(that) you (f.) reveal (a secret)",
+  "translit": "tabuuHii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d4_08",
+  "verdict": "ok",
+  "meaning": "she hid, veiled, blocked",
+  "translit": "Hajabat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d5_01",
+  "verdict": "ok",
+  "meaning": "he hid, veiled, blocked",
+  "translit": "Hajaba",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d5_02",
+  "verdict": "fix",
+  "meaning": "it died down (fire, heat, anger); it went stale",
+  "translit": "baakh",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Core sense first, per Lane: (fire/heat/anger) abated. \"Went stale\" is secondary. Rare verb (باخَ يَبوخُ)."
+ },
+ {
+  "id": "u3_d5_03",
+  "verdict": "ok",
+  "meaning": "my bed",
+  "translit": "takhtii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d5_04",
+  "verdict": "ok",
+  "meaning": "pilgrim (someone who has made the Hajj)",
+  "translit": "Haajj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d5_05",
+  "verdict": "ok",
+  "meaning": "researcher",
+  "translit": "baaHith",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d5_06",
+  "verdict": "ok",
+  "meaning": "she roamed, crossed (formal); in spoken Arabic 'she brought'",
+  "translit": "jaabat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d6_01",
+  "verdict": "ok",
+  "meaning": "she needs; you (m.) need",
+  "translit": "taHtaaj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d6_02",
+  "verdict": "ok",
+  "meaning": "collector (of taxes or fees)",
+  "translit": "jaabii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Formal jaabin (جابٍ); with al- it is الجابي. Still used for bill/fee collectors."
+ },
+ {
+  "id": "u3_d6_03",
+  "verdict": "ok",
+  "meaning": "the Hajj (pilgrimage to Mecca)",
+  "translit": "Hajj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d6_04",
+  "verdict": "ok",
+  "meaning": "headscarf, veil",
+  "translit": "Hijaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d6_05",
+  "verdict": "ok",
+  "meaning": "robes, cloaks (plural of جُبّة jubba)",
+  "translit": "jubab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. جُبّة jubba"
+ },
+ {
+  "id": "u3_d6_06",
+  "verdict": "ok",
+  "meaning": "pilgrim (someone who has made the Hajj)",
+  "translit": "Haajj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d6_07",
+  "verdict": "ok",
+  "meaning": "she roamed, crossed (formal); in spoken Arabic 'she brought'",
+  "translit": "jaabat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d6_08",
+  "verdict": "ok",
+  "meaning": "he failed; he was disappointed",
+  "translit": "khaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d6_09",
+  "verdict": "ok",
+  "meaning": "love",
+  "translit": "Hubb",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d6_10",
+  "verdict": "ok",
+  "meaning": "researcher",
+  "translit": "baaHith",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d6_11",
+  "verdict": "ok",
+  "meaning": "she/it is answered; you (m.) are answered (passive)",
+  "translit": "tujaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Rare passive (e.g. of a prayer being answered)."
+ },
+ {
+  "id": "u3_d6_12",
+  "verdict": "ok",
+  "meaning": "reveal it! (said to a male)",
+  "translit": "buH",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Imperative of باحَ يَبوحُ بـ; rare."
+ },
+ {
+  "id": "u3_d6_13",
+  "verdict": "ok",
+  "meaning": "Djibouti",
+  "translit": "jiibuutii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d6_14",
+  "verdict": "ok",
+  "meaning": "beds (plural of تَخْت)",
+  "translit": "tukhuut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. تَخْت takht"
+ },
+ {
+  "id": "u3_d6_15",
+  "verdict": "fix",
+  "meaning": "hodja: old title for a teacher or religious scholar (from Turkish hoca)",
+  "translit": "khuujaa",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "The prior gloss mixed in خَواجة khawaaja (\"(foreign) gentleman\"), which is a different word. Rare, old-fashioned."
+ },
+ {
+  "id": "u3_d7_01",
+  "verdict": "ok",
+  "meaning": "peaches (collective — one peach is خَوْخة)",
+  "translit": "khawkh",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "In Syria and Lebanon خوخ often means plums. collective; one peach = خَوْخة khawkha"
+ },
+ {
+  "id": "u3_d7_02",
+  "verdict": "ok",
+  "meaning": "arranging into chapters/sections; tabulation",
+  "translit": "tabwiib",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d7_03",
+  "verdict": "ok",
+  "meaning": "answer, reply",
+  "translit": "jawaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d7_04",
+  "verdict": "ok",
+  "meaning": "reward (especially God's reward for good deeds)",
+  "translit": "thawaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d8_01",
+  "verdict": "ok",
+  "meaning": "clothes (plural of ثَوْب)",
+  "translit": "thiyaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. ثَوْب thawb"
+ },
+ {
+  "id": "u3_d8_02",
+  "verdict": "ok",
+  "meaning": "my life",
+  "translit": "Hayaatii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d8_03",
+  "verdict": "ok",
+  "meaning": "my pockets",
+  "translit": "juyuubii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. جَيْب jayb"
+ },
+ {
+  "id": "u3_d8_04",
+  "verdict": "ok",
+  "meaning": "he hides, veils, blocks",
+  "translit": "yaHjub",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d9_01",
+  "verdict": "ok",
+  "meaning": "yacht",
+  "translit": "yakht",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d9_02",
+  "verdict": "ok",
+  "meaning": "my clothes",
+  "translit": "thiyaabii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. ثَوْب thawb"
+ },
+ {
+  "id": "u3_d9_03",
+  "verdict": "ok",
+  "meaning": "homework assignments; duties (plural of واجِب)",
+  "translit": "waajibaat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. واجِب waajib"
+ },
+ {
+  "id": "u3_d9_04",
+  "verdict": "ok",
+  "meaning": "my darling, my dear (to a male)",
+  "translit": "Habiibii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d9_05",
+  "verdict": "ok",
+  "meaning": "my darling, my dear (to a female)",
+  "translit": "Habiibatii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d9_06",
+  "verdict": "ok",
+  "meaning": "where (as in 'the place where'); since, because",
+  "translit": "Hayth",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d9_07",
+  "verdict": "ok",
+  "meaning": "reward (especially God's reward for good deeds)",
+  "translit": "thawaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d9_08",
+  "verdict": "ok",
+  "meaning": "my pocket",
+  "translit": "jaybii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d9_09",
+  "verdict": "ok",
+  "meaning": "pockets (plural of جَيْب)",
+  "translit": "juyuub",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. جَيْب jayb"
+ },
+ {
+  "id": "u3_d9_10",
+  "verdict": "ok",
+  "meaning": "(that) you (f.) reveal (a secret)",
+  "translit": "tabuuHii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d9_11",
+  "verdict": "ok",
+  "meaning": "research; search",
+  "translit": "baHth",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d9_12",
+  "verdict": "ok",
+  "meaning": "my house",
+  "translit": "baytii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d9_13",
+  "verdict": "ok",
+  "meaning": "houses (plural of بَيْت)",
+  "translit": "buyuut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. بَيْت bayt"
+ },
+ {
+  "id": "u3_d9_14",
+  "verdict": "ok",
+  "meaning": "necessity, obligation",
+  "translit": "wujuub",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d9_15",
+  "verdict": "ok",
+  "meaning": "(that) you (f.) answer",
+  "translit": "tujiibii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d9_16",
+  "verdict": "ok",
+  "meaning": "he failed; he was disappointed",
+  "translit": "khaaba",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d9_17",
+  "verdict": "ok",
+  "meaning": "it is necessary; (one) must",
+  "translit": "yajib",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d9_18",
+  "verdict": "ok",
+  "meaning": "corpses, dead bodies (plural of جُثّة)",
+  "translit": "juthath",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. جُثّة juththa"
+ },
+ {
+  "id": "u3_d9_19",
+  "verdict": "ok",
+  "meaning": "answer, reply",
+  "translit": "jawaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d9_20",
+  "verdict": "fix",
+  "meaning": "answers, replies (plural of جَواب)",
+  "translit": "jawaabaat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Dropped the \"letters\" sense, which is Egyptian usage (brief: no Egyptian forms). sing. جَواب jawaab"
+ },
+ {
+  "id": "u3_d10_01",
+  "verdict": "ok",
+  "meaning": "she roamed, crossed (formal); in spoken Arabic 'she brought'",
+  "translit": "jaabat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d10_02",
+  "verdict": "ok",
+  "meaning": "veils, screens, curtains (plural of حِجاب)",
+  "translit": "Hujub",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. حِجاب Hijaab"
+ },
+ {
+  "id": "u3_d10_03",
+  "verdict": "ok",
+  "meaning": "peaches (collective — one peach is خَوْخة)",
+  "translit": "khawkh",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "In Syria and Lebanon خوخ often means plums. collective; one peach = خَوْخة khawkha"
+ },
+ {
+  "id": "u3_d10_04",
+  "verdict": "ok",
+  "meaning": "my clothes",
+  "translit": "thiyaabii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. ثَوْب thawb"
+ },
+ {
+  "id": "u3_d10_05",
+  "verdict": "ok",
+  "meaning": "Djibouti",
+  "translit": "jiibuutii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d10_06",
+  "verdict": "ok",
+  "meaning": "my darling, my dear (to a female)",
+  "translit": "Habiibatii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d10_07",
+  "verdict": "ok",
+  "meaning": "research studies, papers (plural of بَحْث)",
+  "translit": "buHuuth",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. بَحْث baHth"
+ },
+ {
+  "id": "u3_d10_08",
+  "verdict": "ok",
+  "meaning": "homework assignments; duties (plural of واجِب)",
+  "translit": "waajibaat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. واجِب waajib"
+ },
+ {
+  "id": "u3_d10_09",
+  "verdict": "ok",
+  "meaning": "houses (plural of بَيْت)",
+  "translit": "buyuut",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. بَيْت bayt"
+ },
+ {
+  "id": "u3_d10_10",
+  "verdict": "ok",
+  "meaning": "pockets (plural of جَيْب)",
+  "translit": "juyuub",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. جَيْب jayb"
+ },
+ {
+  "id": "u3_d11_01",
+  "verdict": "ok",
+  "meaning": "homework; duty",
+  "translit": "waajib",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d11_02",
+  "verdict": "ok",
+  "meaning": "my house",
+  "translit": "baytii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d11_03",
+  "verdict": "ok",
+  "meaning": "he reveals (a secret)",
+  "translit": "yabuuH",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d11_04",
+  "verdict": "ok",
+  "meaning": "he fails; he is disappointed",
+  "translit": "yakhiib",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d11_05",
+  "verdict": "ok",
+  "meaning": "he hides, veils, blocks",
+  "translit": "yaHjub",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_d11_06",
+  "verdict": "ok",
+  "meaning": "she needs; you (m.) need",
+  "translit": "taHtaaj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v01",
+  "verdict": "ok",
+  "meaning": "and",
+  "translit": "wa",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v02",
+  "verdict": "ok",
+  "meaning": "headscarf, veil (head covering)",
+  "translit": "Hijaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v03",
+  "verdict": "ok",
+  "meaning": "house",
+  "translit": "bayt",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v04",
+  "verdict": "ok",
+  "meaning": "street",
+  "translit": "shaaric",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v05",
+  "verdict": "ok",
+  "meaning": "homework (also: duty)",
+  "translit": "waajib",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v05_shaami",
+  "verdict": "ok",
+  "meaning": "homework (Levantine)",
+  "translit": "waZiife",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v06",
+  "verdict": "ok",
+  "meaning": "news (plural of خَبَر, a piece of news)",
+  "translit": "akhbaar",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. خَبَر khabar"
+ },
+ {
+  "id": "u3_v07",
+  "verdict": "ok",
+  "meaning": "book",
+  "translit": "kitaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v08",
+  "verdict": "ok",
+  "meaning": "my darling, my dear (to a male; also used with children, parents, close friends)",
+  "translit": "Habiibii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v09",
+  "verdict": "ok",
+  "meaning": "my darling, my dear (to a female)",
+  "translit": "Habiibatii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v10",
+  "verdict": "ok",
+  "meaning": "Good morning!",
+  "translit": "SabaaH al-khayr",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v10_shaami",
+  "verdict": "ok",
+  "meaning": "Good morning! (Levantine)",
+  "translit": "SabaaH il-kheer",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v11",
+  "verdict": "ok",
+  "meaning": "Good morning! (reply) — literally 'morning of light'",
+  "translit": "SabaaH an-nuur",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v11_shaami",
+  "verdict": "ok",
+  "meaning": "Good morning! (reply; Levantine)",
+  "translit": "SabaaH in-nuur",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v12",
+  "verdict": "fix",
+  "meaning": "O …! — put before a name when calling or addressing someone directly (yaa aHmad)",
+  "translit": "yaa …",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Cosmetic: the example transliteration now follows the convention (ح = H), so aHmad, not Ahmad."
+ },
+ {
+  "id": "u3_v13",
+  "verdict": "ok",
+  "meaning": "how?",
+  "translit": "kayfa?",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v13_shaami",
+  "verdict": "ok",
+  "meaning": "how? (Levantine)",
+  "translit": "kiif?",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v14",
+  "verdict": "fix",
+  "meaning": "How are you? (literally 'how is the condition?')",
+  "translit": "kayfa l-Haal?",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "The Arabic has the fatHa on كَيْفَ, and the a of al- drops after a vowel. The book writes kayf al-Haal. \"kayfa al-Haal\" matches neither."
+ },
+ {
+  "id": "u3_v14_shaami",
+  "verdict": "ok",
+  "meaning": "How are you? (to a male / to a female; Levantine)",
+  "translit": "kiifak? / kiifik?",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Clip checked: it says both kiifak (to a man) and kiifik (to a woman), in that order."
+ },
+ {
+  "id": "u3_v15",
+  "verdict": "ok",
+  "meaning": "Praise be to God — the reply to 'How are you?' (fine, thank God)",
+  "translit": "al-Hamdu lillaah",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v15_shaami",
+  "verdict": "ok",
+  "meaning": "Thank God (reply to 'How are you?'; Levantine pronunciation)",
+  "translit": "il-Hamdilla",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "The phrase is always written الحمد لله; the Levantine pronunciation is il-Hamdilla."
+ },
+ {
+  "id": "u3_v16",
+  "verdict": "ok",
+  "meaning": "good, fine",
+  "translit": "jayyid",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v16_shaami",
+  "verdict": "ok",
+  "meaning": "great, fine (Levantine)",
+  "translit": "tamaam",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v17",
+  "verdict": "ok",
+  "meaning": "OK (Levantine)",
+  "translit": "maashi",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v18",
+  "verdict": "ok",
+  "meaning": "this (masc.)",
+  "translit": "haadhaa",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v18_shaami",
+  "verdict": "fix",
+  "meaning": "this (masc.; Levantine)",
+  "translit": "haada",
+  "arabic_fix": "هادا",
+  "keep": true,
+  "confidence": "med",
+  "note": "Lingco pairs the spelling هَيدا with the transliteration haada. The clip's first vowel matches this speaker's aa (F1~756, F2~1754; his maashi aa ~634/1887), not his ee (ween ~420/2115). The book prints both هادا haada and هَيْدا hayda, so pair this audio with هادا."
+ },
+ {
+  "id": "u3_v19",
+  "verdict": "ok",
+  "meaning": "this (fem.)",
+  "translit": "haadhihi",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v19_shaami",
+  "verdict": "fix",
+  "meaning": "this (fem.; Levantine)",
+  "translit": "haadi",
+  "arabic_fix": "هادي",
+  "keep": true,
+  "confidence": "med",
+  "note": "Same speaker and test as u3_v18_shaami: first vowel F1~635, F2~1804 = his aa, not ee. The book prints هادي haadi / هَيدي haydi, so pair this audio with هادي."
+ },
+ {
+  "id": "u3_v20",
+  "verdict": "fix",
+  "meaning": "fine, well (reply to 'kayfa l-Haal?')",
+  "translit": "bi-khayr",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Cosmetic: the embedded transliteration now matches the u3_v14 fix (kayfa l-Haal)."
+ },
+ {
+  "id": "u3_v20_shaami",
+  "verdict": "ok",
+  "meaning": "good, fine (masc. / fem.; Levantine)",
+  "translit": "mniiH / mniiHa",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v21",
+  "verdict": "ok",
+  "meaning": "is not / am not / are not (negating verb)",
+  "translit": "laysa",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u3_v21_shaami",
+  "verdict": "ok",
+  "meaning": "not (Levantine)",
+  "translit": "muu",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le1_01",
+  "verdict": "ok",
+  "meaning": "sisters (plural of أُخْت)",
+  "translit": "akhawaat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. أُخْت ukht"
+ },
+ {
+  "id": "u4_le1_02",
+  "verdict": "ok",
+  "meaning": "father",
+  "translit": "ab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le1_03",
+  "verdict": "ok",
+  "meaning": "Sheba (the ancient kingdom of Saba' in Yemen)",
+  "translit": "saba'",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le1_04",
+  "verdict": "ok",
+  "meaning": "he stammered, stuttered",
+  "translit": "ta'ta'",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le1_05",
+  "verdict": "ok",
+  "meaning": "harm (as in لا بَأْس 'no problem'); also might, courage",
+  "translit": "ba's",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le2_01",
+  "verdict": "ok",
+  "meaning": "father",
+  "translit": "ab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le2_02",
+  "verdict": "ok",
+  "meaning": "she came",
+  "translit": "atat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le2_03",
+  "verdict": "ok",
+  "meaning": "brother",
+  "translit": "akh",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le2_04",
+  "verdict": "ok",
+  "meaning": "sisters (plural of أُخْت)",
+  "translit": "akhawaat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. أُخْت ukht"
+ },
+ {
+  "id": "u4_le2_05",
+  "verdict": "ok",
+  "meaning": "furniture",
+  "translit": "athaath",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le3_01",
+  "verdict": "ok",
+  "meaning": "sailing, setting sail",
+  "translit": "ibHaar",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le3_02",
+  "verdict": "ok",
+  "meaning": "sister",
+  "translit": "ukht",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le3_03",
+  "verdict": "ok",
+  "meaning": "proof, confirmation",
+  "translit": "ithbaat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le3_04",
+  "verdict": "ok",
+  "meaning": "he was taken out, expelled (passive)",
+  "translit": "ukhrija",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le3_05",
+  "verdict": "ok",
+  "meaning": "informing; reporting news",
+  "translit": "ikhbaar",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le3_06",
+  "verdict": "ok",
+  "meaning": "it was proven, confirmed (passive)",
+  "translit": "uthbita",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le5_01",
+  "verdict": "ok",
+  "meaning": "chicken (collective — one hen is دَجاجة)",
+  "translit": "dajaaj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "collective; one hen = دَجاجة dajaaja"
+ },
+ {
+  "id": "u4_le5_02",
+  "verdict": "ok",
+  "meaning": "cheeks (plural of خَدّ)",
+  "translit": "khuduud",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. خَدّ khadd"
+ },
+ {
+  "id": "u4_le5_03",
+  "verdict": "ok",
+  "meaning": "borders, limits (plural of حَدّ)",
+  "translit": "Huduud",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. حَدّ Hadd"
+ },
+ {
+  "id": "u4_le5_04",
+  "verdict": "ok",
+  "meaning": "new",
+  "translit": "jadiid",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le5_05",
+  "verdict": "ok",
+  "meaning": "literature; good manners",
+  "translit": "adab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le5_06",
+  "verdict": "ok",
+  "meaning": "events (plural of حَدَث)",
+  "translit": "aHdaath",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. حَدَث Hadath"
+ },
+ {
+  "id": "u4_le6_01",
+  "verdict": "ok",
+  "meaning": "flies (the insects; collective — one fly is ذُبابة)",
+  "translit": "dhubaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "collective; one fly = ذُبابة dhubaaba"
+ },
+ {
+  "id": "u4_le6_02",
+  "verdict": "ok",
+  "meaning": "self; essence",
+  "translit": "dhaat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le6_03",
+  "verdict": "ok",
+  "meaning": "he sowed (seeds)",
+  "translit": "badhara",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le6_04",
+  "verdict": "ok",
+  "meaning": "take! (said to a male)",
+  "translit": "khudh",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le6_05",
+  "verdict": "ok",
+  "meaning": "beware! watch out!",
+  "translit": "Hadhaari",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le6_06",
+  "verdict": "ok",
+  "meaning": "fluctuation, wavering",
+  "translit": "tadhabdhub",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le7_01",
+  "verdict": "ok",
+  "meaning": "rebab (a bowed string instrument); also a woman's name",
+  "translit": "rabaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le7_02",
+  "verdict": "ok",
+  "meaning": "replies, responses (plural of رَدّ)",
+  "translit": "ruduud",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. رَدّ radd"
+ },
+ {
+  "id": "u4_le7_03",
+  "verdict": "ok",
+  "meaning": "land tax, tribute (historical)",
+  "translit": "kharaaj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le7_04",
+  "verdict": "ok",
+  "meaning": "justification",
+  "translit": "tabriir",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le7_05",
+  "verdict": "ok",
+  "meaning": "neighbor (m.)",
+  "translit": "jaar",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le7_06",
+  "verdict": "ok",
+  "meaning": "roses, flowers (plural of وَرْد); also 'arrival'",
+  "translit": "wuruud",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. وَرْدة warda (a rose); collective وَرْد ward"
+ },
+ {
+  "id": "u4_le8_01",
+  "verdict": "ok",
+  "meaning": "husband; pair",
+  "translit": "zawj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le8_02",
+  "verdict": "ok",
+  "meaning": "(political) parties (plural of حِزْب)",
+  "translit": "aHzaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. حِزْب Hizb"
+ },
+ {
+  "id": "u4_le8_03",
+  "verdict": "ok",
+  "meaning": "glass (the material)",
+  "translit": "zujaaj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le8_04",
+  "verdict": "ok",
+  "meaning": "he visits",
+  "translit": "yazuur",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le8_05",
+  "verdict": "ok",
+  "meaning": "passport (short for جَواز سَفَر); permission",
+  "translit": "jawaaz",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_le8_06",
+  "verdict": "ok",
+  "meaning": "she/it increases; you (m.) increase",
+  "translit": "taziid",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d2_02",
+  "verdict": "ok",
+  "meaning": "father",
+  "translit": "ab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d2_03",
+  "verdict": "ok",
+  "meaning": "furniture",
+  "translit": "athaath",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d2_04",
+  "verdict": "ok",
+  "meaning": "my brother",
+  "translit": "akhii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d2_06",
+  "verdict": "ok",
+  "meaning": "she came",
+  "translit": "atat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d6_01",
+  "verdict": "ok",
+  "meaning": "it melted, dissolved",
+  "translit": "dhaaba",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d6_02",
+  "verdict": "ok",
+  "meaning": "he returned, came back (to his senses)",
+  "translit": "thaaba",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Rare/literary verb ثابَ يَثوبُ \"to return\"."
+ },
+ {
+  "id": "u4_d6_03",
+  "verdict": "ok",
+  "meaning": "flies (the insects; collective — one fly is ذُبابة)",
+  "translit": "dhubaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "collective; one fly = ذُبابة dhubaaba"
+ },
+ {
+  "id": "u4_d6_04",
+  "verdict": "ok",
+  "meaning": "firmness, stability",
+  "translit": "thabaat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d6_05",
+  "verdict": "ok",
+  "meaning": "reward (especially God's reward for good deeds)",
+  "translit": "thawaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d6_06",
+  "verdict": "ok",
+  "meaning": "selves, beings (plural of ذات)",
+  "translit": "dhawaat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. ذات dhaat"
+ },
+ {
+  "id": "u4_d6_07",
+  "verdict": "ok",
+  "meaning": "corpses, dead bodies (plural of جُثّة)",
+  "translit": "juthath",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. جُثّة juththa"
+ },
+ {
+  "id": "u4_d6_08",
+  "verdict": "ok",
+  "meaning": "attractive; attracting",
+  "translit": "jaadhib",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d9_01",
+  "verdict": "ok",
+  "meaning": "drizzle; fine spray",
+  "translit": "radhaadh",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d9_02",
+  "verdict": "ok",
+  "meaning": "drowsy, sluggish; (of a lion) in its den",
+  "translit": "khaadir",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Verified in Lane (خادِر: languid; a lion keeping to its lair). Classical and rarely used."
+ },
+ {
+  "id": "u4_d9_03",
+  "verdict": "ok",
+  "meaning": "chain mail (armor)",
+  "translit": "zarad",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "med",
+  "note": "Rare (armor term)."
+ },
+ {
+  "id": "u4_d9_04",
+  "verdict": "ok",
+  "meaning": "wars (plural of حَرْب)",
+  "translit": "Huruub",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. حَرْب Harb"
+ },
+ {
+  "id": "u4_d9_05",
+  "verdict": "ok",
+  "meaning": "hope; request; 'please'",
+  "translit": "rajaa'",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d9_06",
+  "verdict": "ok",
+  "meaning": "seas (plural of بَحْر)",
+  "translit": "biHaar",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. بَحْر baHr"
+ },
+ {
+  "id": "u4_d9_07",
+  "verdict": "ok",
+  "meaning": "husbands; couples, pairs (plural of زَوْج)",
+  "translit": "azwaaj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. زَوْج zawj"
+ },
+ {
+  "id": "u4_d9_08",
+  "verdict": "ok",
+  "meaning": "borders, limits (plural of حَدّ)",
+  "translit": "Huduud",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. حَدّ Hadd"
+ },
+ {
+  "id": "u4_d9_09",
+  "verdict": "ok",
+  "meaning": "replies, responses (plural of رَدّ)",
+  "translit": "ruduud",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. رَدّ radd"
+ },
+ {
+  "id": "u4_d9_10",
+  "verdict": "ok",
+  "meaning": "warning",
+  "translit": "taHdhiir",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d9_11",
+  "verdict": "ok",
+  "meaning": "roles; turns; floors of a building (plural of دَوْر)",
+  "translit": "adwaar",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. دَوْر dawr"
+ },
+ {
+  "id": "u4_d9_12",
+  "verdict": "ok",
+  "meaning": "he goes out, leaves",
+  "translit": "yakhruj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d9_13",
+  "verdict": "ok",
+  "meaning": "experiments; experiences (plural of تَجْرِبة)",
+  "translit": "tajaarib",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. تَجْرِبة tajriba"
+ },
+ {
+  "id": "u4_d9_14",
+  "verdict": "ok",
+  "meaning": "she slaughtered",
+  "translit": "dhabaHat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d10_01",
+  "verdict": "ok",
+  "meaning": "sister",
+  "translit": "ukht",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d10_02",
+  "verdict": "ok",
+  "meaning": "my father",
+  "translit": "abii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d10_03",
+  "verdict": "ok",
+  "meaning": "one",
+  "translit": "waaHid",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d10_04",
+  "verdict": "ok",
+  "meaning": "wives (plural of زَوْجة)",
+  "translit": "zawjaat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. زَوْجة zawja"
+ },
+ {
+  "id": "u4_d10_05",
+  "verdict": "ok",
+  "meaning": "flies (the insects; collective — one fly is ذُبابة)",
+  "translit": "dhubaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "collective; one fly = ذُبابة dhubaaba"
+ },
+ {
+  "id": "u4_d10_06",
+  "verdict": "ok",
+  "meaning": "chicken (collective — one hen is دَجاجة)",
+  "translit": "dajaaj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "collective; one hen = دَجاجة dajaaja"
+ },
+ {
+  "id": "u4_d10_07",
+  "verdict": "ok",
+  "meaning": "buttons (plural of زِرّ)",
+  "translit": "azraar",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. زِرّ zirr"
+ },
+ {
+  "id": "u4_d10_08",
+  "verdict": "ok",
+  "meaning": "rebab (a bowed string instrument); also a woman's name",
+  "translit": "rabaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d10_09",
+  "verdict": "ok",
+  "meaning": "he wants",
+  "translit": "yuriid",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_d10_10",
+  "verdict": "ok",
+  "meaning": "(political) parties (plural of حِزْب)",
+  "translit": "aHzaab",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "sing. حِزْب Hizb"
+ },
+ {
+  "id": "u4_num00",
+  "verdict": "ok",
+  "meaning": "zero (0; Arabic-Indic numeral ٠)",
+  "translit": "Sifr",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num01",
+  "verdict": "ok",
+  "meaning": "one (1; Arabic-Indic numeral ١)",
+  "translit": "waaHid",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num02",
+  "verdict": "ok",
+  "meaning": "two (2; Arabic-Indic numeral ٢)",
+  "translit": "ithnayn",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num02_shaami",
+  "verdict": "ok",
+  "meaning": "two (2; Levantine)",
+  "translit": "tneen",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num03",
+  "verdict": "ok",
+  "meaning": "three (3; Arabic-Indic numeral ٣)",
+  "translit": "thalaatha",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num03_shaami",
+  "verdict": "ok",
+  "meaning": "three (3; Levantine)",
+  "translit": "tlaate",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num04",
+  "verdict": "ok",
+  "meaning": "four (4; Arabic-Indic numeral ٤)",
+  "translit": "arbaca",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num05",
+  "verdict": "ok",
+  "meaning": "five (5; Arabic-Indic numeral ٥)",
+  "translit": "khamsa",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num05_shaami",
+  "verdict": "ok",
+  "meaning": "five (5; Levantine)",
+  "translit": "khamse",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num06",
+  "verdict": "ok",
+  "meaning": "six (6; Arabic-Indic numeral ٦)",
+  "translit": "sitta",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num06_shaami",
+  "verdict": "ok",
+  "meaning": "six (6; Levantine)",
+  "translit": "sitte",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num07",
+  "verdict": "ok",
+  "meaning": "seven (7; Arabic-Indic numeral ٧)",
+  "translit": "sabca",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num08",
+  "verdict": "ok",
+  "meaning": "eight (8; Arabic-Indic numeral ٨)",
+  "translit": "thamaaniya",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num08_shaami",
+  "verdict": "ok",
+  "meaning": "eight (8; Levantine)",
+  "translit": "tmaane",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num09",
+  "verdict": "ok",
+  "meaning": "nine (9; Arabic-Indic numeral ٩)",
+  "translit": "tisca",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num10",
+  "verdict": "ok",
+  "meaning": "ten (10; Arabic-Indic numeral ١٠)",
+  "translit": "cashara",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_num10_shaami",
+  "verdict": "ok",
+  "meaning": "ten (10; Levantine)",
+  "translit": "cashra",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Lingco prints the formal vowels (عَشَرة); the spoken Levantine is cashra. The translit is right."
+ },
+ {
+  "id": "u4_v09",
+  "verdict": "ok",
+  "meaning": "Please come in / go ahead / here you are (to a male)",
+  "translit": "tafaDDal",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v09_shaami",
+  "verdict": "ok",
+  "meaning": "Please come in / go ahead (to a male; Levantine)",
+  "translit": "tfaDDal",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v10",
+  "verdict": "ok",
+  "meaning": "Please come in / go ahead / here you are (to a female)",
+  "translit": "tafaDDalii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v10_shaami",
+  "verdict": "ok",
+  "meaning": "Please come in / go ahead (to a female; Levantine)",
+  "translit": "tfaDDli",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v11",
+  "verdict": "ok",
+  "meaning": "Please come in / go ahead / here you are (to a group)",
+  "translit": "tafaDDaluu",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v11_shaami",
+  "verdict": "ok",
+  "meaning": "Please come in / go ahead (to a group; Levantine)",
+  "translit": "tfaDDlu",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v14",
+  "verdict": "ok",
+  "meaning": "my friend (m.); my boyfriend",
+  "translit": "SaaHibii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v14_shaami",
+  "verdict": "ok",
+  "meaning": "my friend (m.) — two Levantine words",
+  "translit": "SaaHbi / rfii'i",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v15",
+  "verdict": "ok",
+  "meaning": "my friend (f.); my girlfriend",
+  "translit": "SaaHibatii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v15_shaami",
+  "verdict": "ok",
+  "meaning": "my friend (f.) — two Levantine words",
+  "translit": "SaaHibti / rfii'ti",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v16",
+  "verdict": "ok",
+  "meaning": "he; it (masc.)",
+  "translit": "huwa",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v16_shaami",
+  "verdict": "ok",
+  "meaning": "he; it (masc.; Levantine)",
+  "translit": "huwwe",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v17",
+  "verdict": "ok",
+  "meaning": "she; it (fem.)",
+  "translit": "hiya",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v17_shaami",
+  "verdict": "ok",
+  "meaning": "she; it (fem.; Levantine)",
+  "translit": "hiyye",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v18",
+  "verdict": "ok",
+  "meaning": "his (suffix) / his name",
+  "translit": "-hu / ismuhu",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v18_shaami",
+  "verdict": "ok",
+  "meaning": "his (suffix) / his name (Levantine)",
+  "translit": "-o / ismo",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v19",
+  "verdict": "ok",
+  "meaning": "her (suffix) / her name",
+  "translit": "-haa / ismuhaa",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v19_shaami",
+  "verdict": "ok",
+  "meaning": "her (suffix) / her name (Levantine)",
+  "translit": "-a / isma",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v23",
+  "verdict": "ok",
+  "meaning": "student (male)",
+  "translit": "Taalib",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v24",
+  "verdict": "ok",
+  "meaning": "student (female)",
+  "translit": "Taaliba",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v24_shaami",
+  "verdict": "ok",
+  "meaning": "student (female; Levantine)",
+  "translit": "Taalbe",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v25",
+  "verdict": "ok",
+  "meaning": "professor, teacher (male)",
+  "translit": "ustaadh",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v25_shaami",
+  "verdict": "ok",
+  "meaning": "professor, teacher (male; Levantine)",
+  "translit": "istaaz",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v26",
+  "verdict": "ok",
+  "meaning": "professor, teacher (female)",
+  "translit": "ustaadha",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v26_shaami",
+  "verdict": "ok",
+  "meaning": "professor, teacher (female; Levantine)",
+  "translit": "istaaze",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v27",
+  "verdict": "ok",
+  "meaning": "the university of … (used right before a name)",
+  "translit": "jaamicat",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v27_shaami",
+  "verdict": "ok",
+  "meaning": "the university of … (Levantine)",
+  "translit": "jaamcit",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v01",
+  "verdict": "ok",
+  "meaning": "bread",
+  "translit": "khubz",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v02",
+  "verdict": "ok",
+  "meaning": "chicken",
+  "translit": "dajaaj",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "collective; one hen = دَجاجة dajaaja"
+ },
+ {
+  "id": "u4_v03",
+  "verdict": "ok",
+  "meaning": "neighbor (male)",
+  "translit": "jaar",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v04",
+  "verdict": "ok",
+  "meaning": "neighbor (female)",
+  "translit": "jaara",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v05",
+  "verdict": "ok",
+  "meaning": "brother",
+  "translit": "akh",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v06",
+  "verdict": "ok",
+  "meaning": "sister",
+  "translit": "ukht",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v07",
+  "verdict": "ok",
+  "meaning": "new (masc.)",
+  "translit": "jadiid",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v08",
+  "verdict": "ok",
+  "meaning": "new (fem.)",
+  "translit": "jadiida",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v08_shaami",
+  "verdict": "ok",
+  "meaning": "new (fem.; Levantine)",
+  "translit": "jdiide",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v12",
+  "verdict": "ok",
+  "meaning": "Good evening!",
+  "translit": "masaa' al-khayr",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v12_shaami",
+  "verdict": "ok",
+  "meaning": "Good evening! (Levantine)",
+  "translit": "masa l-kheer",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v13",
+  "verdict": "ok",
+  "meaning": "Good evening! (reply) — literally 'evening of light'",
+  "translit": "masaa' an-nuur",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v13_shaami",
+  "verdict": "ok",
+  "meaning": "Good evening! (reply; Levantine)",
+  "translit": "masa n-nuur",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v20",
+  "verdict": "ok",
+  "meaning": "I have (literally 'with me')",
+  "translit": "cindii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v20_shaami",
+  "verdict": "fix",
+  "meaning": "I have (Levantine)",
+  "translit": "candi",
+  "arabic_fix": "عَنْدي",
+  "keep": true,
+  "confidence": "high",
+  "note": "Lingco prints عندي unvowelled for shaami. The kasra was copied from the formal عِنْدي and contradicts candi."
+ },
+ {
+  "id": "u4_v21",
+  "verdict": "ok",
+  "meaning": "I don't have",
+  "translit": "laysa cindii",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v21_shaami",
+  "verdict": "fix",
+  "meaning": "I don't have (Levantine)",
+  "translit": "maa candi",
+  "arabic_fix": "ما عَنْدي",
+  "keep": true,
+  "confidence": "high",
+  "note": "Lingco prints ما عندي unvowelled. The kasra was copied from the formal form and contradicts maa candi."
+ },
+ {
+  "id": "u4_v22",
+  "verdict": "ok",
+  "meaning": "question",
+  "translit": "su'aal",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v28",
+  "verdict": "ok",
+  "meaning": "I love; I like",
+  "translit": "uHibb",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v28_shaami",
+  "verdict": "ok",
+  "meaning": "I love; I like (Levantine)",
+  "translit": "bHibb",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Clip checked: no vowel between b and H, so bHibb (Damascene) is right."
+ },
+ {
+  "id": "u4_v29",
+  "verdict": "ok",
+  "meaning": "you (m.) love / like",
+  "translit": "tuHibb",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v29_shaami",
+  "verdict": "ok",
+  "meaning": "you (m.) love / like (Levantine)",
+  "translit": "bitHibb",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Clip checked: bi-t-Hibb."
+ },
+ {
+  "id": "u4_v30",
+  "verdict": "ok",
+  "meaning": "you (f.) love / like",
+  "translit": "tuHibbiin",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v30_shaami",
+  "verdict": "ok",
+  "meaning": "you (f.) love / like (Levantine)",
+  "translit": "bitHibbi",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": "Clip checked: bi-t-Hibb-i."
+ },
+ {
+  "id": "u4_v42",
+  "verdict": "ok",
+  "meaning": "telephone number",
+  "translit": "raqm tilifuun",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "id": "u4_v42_shaami",
+  "verdict": "ok",
+  "meaning": "telephone number (Levantine)",
+  "translit": "nimrit tilifuun",
+  "arabic_fix": null,
+  "keep": true,
+  "confidence": "high",
+  "note": ""
+ }
+]

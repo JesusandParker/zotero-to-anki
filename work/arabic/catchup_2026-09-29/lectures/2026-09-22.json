@@ -1,0 +1,4406 @@
+{
+ "lecture": "2026-09-22",
+ "screen_share": false,
+ "coverage_notes": "NO screen share: the Teams video is her laptop webcam (her + whiteboard; the projector is at the right edge at a steep angle and washed out -- only digits like ٥/١٠ are readable, no words). No slide text exists for this lecture, so Arabic spellings come from Lingco (numerals table, Unit 4 listening-exercise texts and vocab) and the book p.67; her WHITEBOARD is the only visual source: numerals + 'Tisca' + 2,50/٢,٥٠ (t3300), hamza seats + شئ (t4125/t4143), 'Raqam'/'cadad' + ال (t4460/t4520) -- frames saved in ~/arabic-catchup/frames/2026-09-22/. Teams audio (her lapel mic, noise-gated) covers the whole class (80-4700 s), so the phone recording was not needed. Spans were chosen from the whisper en/ar word timestamps plus a 20 ms loudness envelope of the Teams WAV (her voice peaks -8 to -20 dBFS; students -23 to -35 or gated), so every listed span is loud on her mic; the cutter should still trim +-0.5 s. Spans where she deliberately says a WRONG form (waahid 1721.9-1722.9, arba'a 2155.6-2156.9 and 2166.9-2167.6, dark-L thalaatha 2006.9-2008.3 and 3504-3508, khamza 3517-3521) are called out in card_notes -- never clip them. The two quizzes (271-1100) were silent on the recording (no words read aloud). Required today: akh and ukht only. The numbers (0-10, formal + 4 Shaami variants) were the core of the hour and are Unit 4 book vocabulary. Correction to the nightly record: 'lonely' is waHiid (وحيد), not waaHid.",
+ "windows": [
+  {
+   "start": 80,
+   "end": 255,
+   "topic": "Ketchup chips from an Arab grocery in Forest; plan for the day; prayer"
+  },
+  {
+   "start": 271,
+   "end": 1100,
+   "topic": "Unit 1-3 VOCAB quiz (laptop, passcode 1) then WRITING quiz (paper, 'section 3'); tashkiil-placement note 688-716"
+  },
+  {
+   "start": 1178,
+   "end": 1266,
+   "topic": "Homework due Fri 9/25: Unit 4 drills 1+3 on Lingco, drill 2 dictation on Canvas; graded for completion"
+  },
+  {
+   "start": 1272,
+   "end": 1615,
+   "topic": "History of numerals; Hindi vs Arabic numerals; al-Khwarizmi video"
+  },
+  {
+   "start": 1616,
+   "end": 1745,
+   "topic": "Numerals packet; fast 1-10 list (1673-1685); Sifr; waaHid (Haa' not h)"
+  },
+  {
+   "start": 1745,
+   "end": 1960,
+   "topic": "Singular/dual/plural; ithnayn/ithnaan; Shaami tneen; writing ٢ vs two-teeth form; review 0-2"
+  },
+  {
+   "start": 1960,
+   "end": 2150,
+   "topic": "thalaatha; light L vs falafel; Shaami tlaate; yalla; count 0-3"
+  },
+  {
+   "start": 2150,
+   "end": 2372,
+   "topic": "arbaca (exaggerate the cayn, no Shaami); khamsa (circle > sukuun); count 0-5"
+  },
+  {
+   "start": 2372,
+   "end": 2528,
+   "topic": "2-minute study break (laysa at 2495)"
+  },
+  {
+   "start": 2528,
+   "end": 2708,
+   "topic": "Count 0-5; sitt 'lady' + sitta 'six'; Shaami sitte; mara; ٦ vs ٢ direction; count 0-6"
+  },
+  {
+   "start": 2708,
+   "end": 2835,
+   "topic": "sabca (V = peace/triumph, allaahu akbar); count 0-7"
+  },
+  {
+   "start": 2835,
+   "end": 2964,
+   "topic": "thamaaniya (inverted V = losing); Shaami tmaane; Fulbright/Shaami aside"
+  },
+  {
+   "start": 2964,
+   "end": 3060,
+   "topic": "tisca (board 'Tisca'); cashara"
+  },
+  {
+   "start": 3058,
+   "end": 3130,
+   "topic": "Numerals read left to right; decimal comma ٢,٥٠; min Sifr ilaa cashara; 'say it in your heart'"
+  },
+  {
+   "start": 3130,
+   "end": 3310,
+   "topic": "Silent practice"
+  },
+  {
+   "start": 3310,
+   "end": 3545,
+   "topic": "What-is-this-number drill; student counts; all-together pronunciation review incl. waaHid vs waHiid (3481-3542)"
+  },
+  {
+   "start": 3545,
+   "end": 3700,
+   "topic": "Number riddles (fingers, tomb, Genesis, Galatians, planets)"
+  },
+  {
+   "start": 3700,
+   "end": 3960,
+   "topic": "Student counts 0-10; Sara shopping-basket game (haadhihi sitt, laa)"
+  },
+  {
+   "start": 3960,
+   "end": 4190,
+   "topic": "HAMZA: seats, sounds, rules; shay' (board)"
+  },
+  {
+   "start": 4190,
+   "end": 4450,
+   "topic": "Listening Exercise 1 p.67: raqm/cadad, akhawaat, ab, Saba', ta'ta'a, ba's, laa ba's, maashi"
+  },
+  {
+   "start": 4450,
+   "end": 4545,
+   "topic": "Listening Exercise 2 (initial hamza; al- rule): ab, atat, akh, akhawaat, athaath"
+  },
+  {
+   "start": 4545,
+   "end": 4625,
+   "topic": "Listening Exercise 3: ibHaar, ukht, ithbaat, ukhrija; akh + ukht REQUIRED"
+  },
+  {
+   "start": 4625,
+   "end": 4775,
+   "topic": "Dismissal; after-class chat (cafwan)"
+  }
+ ],
+ "words": [
+  {
+   "arabic": "صِفْر",
+   "arabic_bare": "صفر",
+   "translit": "Sifr",
+   "meaning": "zero",
+   "register": "formal",
+   "kind": "number",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 1692.6,
+     "quote": "as I said, zero is, we call it [Sifr]... so say after me [Sifr]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 1699.5,
+     "quote": "good, it's just a dot, okay, make sure it's clear"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 3112.8,
+     "quote": "okay, [min Sifr ilaa cashara] (en pass itself wrote this in Arabic script)"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1695.3,
+     "end": 1696.2,
+     "context": "'so say after me:' then Sifr alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1692.45,
+     "end": 1693.6,
+     "context": "end of 'zero is, we call it Sifr'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1697.2,
+     "end": 1697.9,
+     "context": "Sifr repeated alone after the class echo",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3082.5,
+     "end": 3083.25,
+     "context": "'...and then Sifr' while writing 2,50 as ٢,٥٠",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3112.75,
+     "end": 3113.45,
+     "context": "inside 'min Sifr ilaa cashara'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_numerals_tisca_decimal-comma_t3300.jpg",
+   "card_notes": [
+    "Numeral: ٠ -- 'The zero is just a dot' (1661-1666); 'make sure it's clear' (1700-1703).",
+    "What English calls 'Arabic numerals' Arabs call Hindi/Indic numerals (they came from India); for this class: 'we're going to call English numbers English numbers and Arabic numbers Arabic numbers' (1357-1376).",
+    "Arabic (Hindi) numerals are written AND read left to right, same as English; only the decimal point becomes a comma: she wrote 2,50 -> ٢,٥٠ on the board. 'Direction doesn't change, but the numbers, they change' (3058-3105). Phone numbers in homework: write them as in English, just with Arabic numerals (3091-3099)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "واحِد",
+   "arabic_bare": "واحد",
+   "translit": "waaHid",
+   "meaning": "one",
+   "register": "both",
+   "kind": "number",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 1706.4,
+     "quote": "and then number one we say [waaHid], say it"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 1716.0,
+     "quote": "now notice the H is capital H, that means it's a Haa'... that would be wrong"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 1731.4,
+     "quote": "so number one [waaHid]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1706.2,
+     "end": 1707.6,
+     "context": "'number one we say' + waaHid",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1710.4,
+     "end": 1711.4,
+     "context": "waaHid alone after 'say it'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1713.0,
+     "end": 1713.95,
+     "context": "waaHid alone (repeat)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1725.3,
+     "end": 1726.3,
+     "context": "'so say it:' waaHid alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3496.8,
+     "end": 3497.85,
+     "context": "'so waaHid' -- final all-together pronunciation review, right after contrasting with waHiid",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_numerals_tisca_decimal-comma_t3300.jpg",
+   "card_notes": [
+    "Numeral: ١ -- 'just top to down like this... very similar to the alif' (1733-1742).",
+    "Pitfall she drilled: the H is Haa' (ح), not plain h: 'Now notice the H is capital H, that means it's a Haa'. So waaHid, not [waahid]. That would be wrong' (1715.7-1724.2). DO NOT clip 1721.9-1722.9 (her deliberate wrong version).",
+    "Do not confuse with waHiid (وَحيد) 'lonely' -- she contrasted the two at 3484-3497.",
+    "Same in Shaami (Lingco shaami = waaHid).",
+    "Practice tip: 'say it in your heart: waaHid waaHid waaHid, ithnayn ithnayn ithnayn' while writing (3117-3128)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "اِثْنَيْن",
+   "arabic_bare": "اثنين",
+   "translit": "ithnayn",
+   "meaning": "two",
+   "register": "formal",
+   "kind": "number",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 1785.2,
+     "quote": "so the word two ends with -ayn: [ithnayn]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 1890.4,
+     "quote": "so how do we say two in Arabic? [ithnayn]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 1845.3,
+     "quote": "so this is two and this is six, this is [ithnayn]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1894.3,
+     "end": 1895.3,
+     "context": "answer to 'how do we say two in Arabic?' -- alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1785.6,
+     "end": 1786.8,
+     "context": "'the word two ends with -ayn:' + ithnayn",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3499.9,
+     "end": 3500.6,
+     "context": "final all-together review, alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1845.2,
+     "end": 1846.9,
+     "context": "'this is ithnayn' pointing at ٢",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3124.5,
+     "end": 3126.0,
+     "context": "'say it in your heart ... ithnayn ithnayn'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_numerals_tisca_decimal-comma_t3300.jpg",
+   "card_notes": [
+    "Numeral: ٢ -- 'you go from right to left and then you go down; you could do it 90 angle degree or like this. Make sure you get the direction right because when we learn six it's going to be the other direction' (1822-1843).",
+    "The book's alternate 'two teeth' form of ٢ is confusable with ٣: 'I personally don't like that one... but if you want to follow the book, you have the option' (1849-1888).",
+    "Dual ending: 'every time you see a word that ends with -ayn or -aan, this word is referring to something dual' -- Arabic (and Hebrew) have singular / dual / plural (1762-1800).",
+    "Also said ithnaan (see that entry). Shaami: tneen (separate entry).",
+    "Riddle (3566-3579): 'a number between two and four; if you add me to two you get four' -> ithnayn."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "اِثْنان",
+   "arabic_bare": "اثنان",
+   "translit": "ithnaan",
+   "meaning": "two (the -aan form of the same word)",
+   "register": "formal",
+   "kind": "number",
+   "status": "taught",
+   "book_unit": 4,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 1787.3,
+     "quote": "some sometimes say [ithnaan]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 1790.4,
+     "quote": "so you will find in the book also [ithnayn] or [ithnaan]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 1847.5,
+     "quote": "this is [ithnayn] or [ithnaan]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1788.5,
+     "end": 1789.5,
+     "context": "'some sometimes say' + ithnaan",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1792.4,
+     "end": 1793.3,
+     "context": "'...ithnayn or ithnaan' (second word)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1848.2,
+     "end": 1848.95,
+     "context": "'ithnayn or ithnaan' (second word)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Same number as ithnayn; -aan vs -ayn is the dual ending (grammatical case). Lingco prints only ithnayn; the -aan spelling here is standard MSA (own knowledge).",
+    "'if you hear -ayn at the end or -aan, those are referring to two' (1793-1800)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "ثَلاثة",
+   "arabic_bare": "ثلاثة",
+   "translit": "thalaatha",
+   "meaning": "three",
+   "register": "formal",
+   "kind": "number",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 1980.4,
+     "quote": "so how do we say three in Arabic? [thalaatha]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 1985.0,
+     "quote": "now let me mention something about the L... like a deep L, like the word falafel"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2021.3,
+     "quote": "so let's say it one more time [thalaatha]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1983.9,
+     "end": 1984.8,
+     "context": "answer to 'how do we say three in Arabic?' -- alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2022.7,
+     "end": 2023.7,
+     "context": "'let's say it one more time:' + thalaatha",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2025.3,
+     "end": 2026.4,
+     "context": "'good, thalaatha'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2008.8,
+     "end": 2009.9,
+     "context": "'...it's thalaatha' (correct light L, right after the wrong one)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2010.4,
+     "end": 2011.1,
+     "context": "thalaatha alone",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_numerals_tisca_decimal-comma_t3300.jpg",
+   "card_notes": [
+    "Numeral: ٣ -- 'three teeth and then you go down... you write the teeth first and then you go down' (1950-1978).",
+    "Light L: 'In English sometimes you say L like a deep L, like the word falafel... Here same thing: it's not [thala- with a dark L], it's thalaatha. Keep that distinction in mind' (1985-2020). DO NOT clip 2006.9-2008.3 (the wrong dark-L version) or 3504-3508 ('remember, not ...').",
+    "Shaami: tlaate (separate entry): 'we turn the thaa' into taa' and the [aa] here into [e]' (2028-2041).",
+    "Riddle: days in the tomb before the resurrection = thalaatha (3602-3612)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "أَرْبَعة",
+   "arabic_bare": "أربعة",
+   "translit": "arbaca",
+   "meaning": "four",
+   "register": "both",
+   "kind": "number",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2151.3,
+     "quote": "all right, four. Four is [arbaca], not [arba'a]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2157.5,
+     "quote": "I need you here to exaggerate the cayn so you remember that there is a cayn"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2187.7,
+     "quote": "and there is no Shaami here"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2177.7,
+     "end": 2178.65,
+     "context": "'So, arbaca.' alone, cayn exaggerated",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2181.3,
+     "end": 2182.2,
+     "context": "arbaca alone after 'one more time'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2183.85,
+     "end": 2184.75,
+     "context": "arbaca alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2153.7,
+     "end": 2154.8,
+     "context": "'four is arbaca'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2195.5,
+     "end": 2196.45,
+     "context": "'that's arbaca'",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_numerals_tisca_decimal-comma_t3300.jpg",
+   "card_notes": [
+    "Numeral: ٤ -- 'arbaca is kind of the opposite of three in English' (2190-2193): ٤ looks like a backwards 3 (she joked about writing it and calling it dyslexia, 2196-2205).",
+    "Why she exaggerates the cayn: 'Because later I would ask you write arbaca. If you still pronounce it as [arba'a] that means you will write it with a hamza. But if you pronounce it correctly with the cayn, once we learn the cayn you will be able to write it correctly' (2157-2176). DO NOT clip 2155.6-2156.9 or 2166.9-2167.6 (her deliberate no-cayn version).",
+    "No Shaami variant: 'there is no Shaami here' (2187-2189); 'arbaca and sabca we don't turn them into...' (2714-2729).",
+    "'arbaca probably and thamaaniya, those are the harder to pronounce' (3011-3015).",
+    "Riddle: candles on the cake, greater than 3 less than 5 -> arbaca (3581-3600)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "خَمْسة",
+   "arabic_bare": "خمسة",
+   "translit": "khamsa",
+   "meaning": "five",
+   "register": "formal",
+   "kind": "number",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2273.0,
+     "quote": "wonderful. Five now: [khamsa]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2291.9,
+     "quote": "it's basically a circle. Five is just a circle like that. Bigger than a sukuun"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 3517.8,
+     "quote": "make sure it's not [khamza]... it's an S"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2275.5,
+     "end": 2276.45,
+     "context": "'five now:' khamsa (first time)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2277.5,
+     "end": 2278.3,
+     "context": "khamsa alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2281.2,
+     "end": 2282.3,
+     "context": "'say after me:' khamsa",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2283.7,
+     "end": 2284.45,
+     "context": "khamsa alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2289.0,
+     "end": 2290.45,
+     "context": "'khamsa -- yes, khamsa' (fingers on one hand)",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_numerals_tisca_decimal-comma_t3300.jpg",
+   "card_notes": [
+    "Numeral: ٥ -- 'basically a circle... similar to sukuun, but bigger than a sukuun' (2291-2301).",
+    "Pitfall: students said [khamza]; 'Make sure it's not hamza' (2351-2355) and 'make sure it's not [khamza], it's an S' (3517-3521) -- the middle letter is siin (س).",
+    "Riddle: the number that follows one(?)/fingers on one hand -> khamsa (3551-3565).",
+    "Lingco Shaami: khamse (she did not say it)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "سِتَّة",
+   "arabic_bare": "ستة",
+   "translit": "sitta",
+   "meaning": "six",
+   "register": "formal",
+   "kind": "number",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2588.7,
+     "quote": "six in Arabic is [sitta], [sitta]... so you learn two words, sitt and sitta"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2604.6,
+     "quote": "if two is this way, sitta the other way, so you go left to right"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2620.0,
+     "quote": "so say after me [sitta] [sitta]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2590.6,
+     "end": 2591.5,
+     "context": "'six in Arabic is sitta'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2621.6,
+     "end": 2622.4,
+     "context": "'say after me:' sitta",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2591.3,
+     "end": 2592.8,
+     "context": "'sitta, sitta' right after the first",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2623.5,
+     "end": 2624.2,
+     "context": "sitta alone",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2599.1,
+     "end": 2601.85,
+     "context": "'so uh, sitta... sitta' before explaining the direction",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_numerals_tisca_decimal-comma_t3300.jpg",
+   "card_notes": [
+    "Numeral: ٦ -- drawn in the OPPOSITE direction from ٢: 'if two is this way, sitta the other way, so you go left to right... Two and sitta, they're really confusing' (2598-2617).",
+    "Mnemonic: English 'sit' -> sitt = a lady, sitta = six: 'so you learn two words: sitt and sitta' (2571-2597).",
+    "Shaami: sitte (separate entry)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "سَبْعة",
+   "arabic_bare": "سبعة",
+   "translit": "sabca",
+   "meaning": "seven",
+   "register": "both",
+   "kind": "number",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2707.7,
+     "quote": "next one: [sabca], [sabca]. Shaami is the same"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2733.1,
+     "quote": "remember sabca because once we learn eight there's going to be a confusion; sabca is always the opening toward up"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2748.2,
+     "quote": "in the Arab world they interpret it as triumph... people saying Allahu akbar"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2709.2,
+     "end": 2710.0,
+     "context": "'next one:' sabca",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2711.25,
+     "end": 2712.0,
+     "context": "sabca alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2798.75,
+     "end": 2799.5,
+     "context": "'how many carrots?' -> sabca alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2763.2,
+     "end": 2764.45,
+     "context": "'that's sabca, sabca'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2767.6,
+     "end": 2768.85,
+     "context": "'so um, sabca'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_numerals_tisca_decimal-comma_t3300.jpg",
+   "card_notes": [
+    "Numeral: ٧ opens UPWARD -- the V / peace sign: 'I think here you interpret it as peace; in the Arab world they interpret it as triumph' (2733-2750). 'Whether you write it right to left or left to right, it's not a big deal' (2771-2775).",
+    "Same in Shaami: 'For some reason arbaca and sabca, we don't turn them into [...]' (2712-2729).",
+    "Riddle: days of creation in Genesis -> sabca (3668-3679)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "ثَمانِيَة",
+   "arabic_bare": "ثمانية",
+   "translit": "thamaaniya",
+   "meaning": "eight",
+   "register": "formal",
+   "kind": "number",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2836.7,
+     "quote": "all right, next one, [thamaaniya]. So say after me [thamaaniya]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2917.5,
+     "quote": "remember the opening is toward down... this one triumph, this is like losing"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2904.5,
+     "quote": "so how do we say eight in Arabic? [thamaaniya]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2837.4,
+     "end": 2838.45,
+     "context": "'next one,' thamaaniya",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2841.3,
+     "end": 2842.3,
+     "context": "'say after me:' thamaaniya",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2844.2,
+     "end": 2845.3,
+     "context": "thamaaniya alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2908.4,
+     "end": 2909.5,
+     "context": "answer to 'how do we say eight in Arabic?'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2910.1,
+     "end": 2911.1,
+     "context": "thamaaniya alone (repeat)",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_numerals_tisca_decimal-comma_t3300.jpg",
+   "card_notes": [
+    "Numeral: ٨ opens DOWNWARD -- the upside-down V: 'this one triumph, this is like losing... in the Arab world when we say that, it's like the devil, it's not good' (2915-2933).",
+    "'arbaca probably and thamaaniya, those are the harder to pronounce' (3011-3015).",
+    "Shaami: tmaane (separate entry).",
+    "Riddle: planets in the solar system -> thamaaniya (3637-3665, she hedged 'now we're discovering more things')."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "تِسْعة",
+   "arabic_bare": "تسعة",
+   "translit": "tisca",
+   "meaning": "nine",
+   "register": "both",
+   "kind": "number",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2964.4,
+     "quote": "next one is [tisca]... make sure it's a superscripted c"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2981.7,
+     "quote": "it's written like a circle and then you go down... very similar to the nine in English"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2997.7,
+     "quote": "same thing, we don't change it in Shaami"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2965.5,
+     "end": 2966.7,
+     "context": "'next one is' tisca",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2967.1,
+     "end": 2968.05,
+     "context": "tisca alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2978.5,
+     "end": 2979.45,
+     "context": "'So tisca, that's nine'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3006.6,
+     "end": 3008.35,
+     "context": "'say after me:' tisca",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3003.25,
+     "end": 3005.5,
+     "context": "'so tisca, tisca'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_numerals_tisca_decimal-comma_t3300.jpg",
+   "card_notes": [
+    "Board: she wrote the transliteration 'Tisca' with a superscript c (frame t3300) -- 'make sure it's a superscripted c' = the cayn (2974-2977).",
+    "Numeral: ٩ -- 'written like a circle and then you go down; if you want to make it a triangle you could... very similar to the nine in English' (2981-2997). 'That's easier, this one' (3010-3011).",
+    "Same in Shaami (2997-3002).",
+    "Riddle: fruit of the Spirit, Galatians 5:22-23 -> tisca (3680-3694)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "عَشَرة",
+   "arabic_bare": "عشرة",
+   "translit": "cashara",
+   "meaning": "ten",
+   "register": "formal",
+   "kind": "number",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 3047.8,
+     "quote": "and last one: [cashara]... so say [cashara]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 3538.0,
+     "quote": "for some reason, the cayn is almost in every number"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 3058.0,
+     "quote": "now let me mention something about the direction of number"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 3049.9,
+     "end": 3050.95,
+     "context": "'and last one:' cashara",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3051.4,
+     "end": 3052.3,
+     "context": "cashara alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3053.2,
+     "end": 3054.45,
+     "context": "'so say' cashara",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3055.8,
+     "end": 3056.7,
+     "context": "cashara alone",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3113.8,
+     "end": 3114.6,
+     "context": "end of 'min Sifr ilaa cashara'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_numerals_tisca_decimal-comma_t3300.jpg",
+   "card_notes": [
+    "Numeral: ١٠.",
+    "'For some reason, the cayn is almost in every number' (3538-3542): arbaca, sabca, tisca, cashara.",
+    "Arabic (Hindi) numerals are written AND read left to right, same as English; only the decimal point becomes a comma: she wrote 2,50 -> ٢,٥٠ on the board. 'Direction doesn't change, but the numbers, they change' (3058-3105). Phone numbers in homework: write them as in English, just with Arabic numerals (3091-3099).",
+    "Riddle: fingers on two hands -> cashara (3627-3638)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "اتنين",
+   "arabic_bare": "اتنين",
+   "translit": "tneen",
+   "meaning": "two (Levantine)",
+   "register": "shaami",
+   "kind": "number",
+   "status": "taught",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 1801.8,
+     "quote": "Shaami we say [tneen], [tneen]. So the thaa', we're lazy about the thaa', we turn it into taa'"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 1809.0,
+     "quote": "and then -ayn, -ayn, it becomes, instead of -ayn, it becomes -een"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1804.0,
+     "end": 1804.7,
+     "context": "tneen alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1802.75,
+     "end": 1803.7,
+     "context": "'Shaami we say' tneen",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1816.1,
+     "end": 1817.4,
+     "context": "'so, tneen...' (after the explanation)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1818.8,
+     "end": 1820.9,
+     "context": "'or itneen, tneen'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Levantine for ithnayn. Her rule: 'the thaa', we're lazy about the thaa', we turn it into taa'... instead of -ayn it becomes -een' (1804-1814).",
+    "She also said the form with a helping vowel, itneen (1818-1820).",
+    "Lingco prints the Shaami form unvowelled (اتنين, 'tneen')."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "تلاتة",
+   "arabic_bare": "تلاتة",
+   "translit": "tlaate",
+   "meaning": "three (Levantine)",
+   "register": "shaami",
+   "kind": "number",
+   "status": "taught",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2028.2,
+     "quote": "Shaami again we turn the thaa' into taa' and the [aa] here into [e], so [tlaate]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2038.9,
+     "quote": "so if you hear thalaatha or [tlaate], they're the same thing, referring to three"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2034.65,
+     "end": 2036.0,
+     "context": "tlaate alone (2nd of 3)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2033.7,
+     "end": 2034.7,
+     "context": "'so' tlaate",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2037.15,
+     "end": 2037.95,
+     "context": "tlaate alone (3rd)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2040.8,
+     "end": 2041.7,
+     "context": "'thalaatha or tlaate' (second word)",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Levantine for thalaatha: thaa' -> taa', final -a -> -e (2028-2041).",
+    "Lingco prints the Shaami form unvowelled (تلاتة, 'tlaate')."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "سِتّة",
+   "arabic_bare": "ستة",
+   "translit": "sitte",
+   "meaning": "six (Levantine)",
+   "register": "shaami",
+   "kind": "number",
+   "status": "taught",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2625.3,
+     "quote": "Shaami we turn the [a] into [e], so [sitte], [sitte]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2627.5,
+     "end": 2628.45,
+     "context": "'so' sitte",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2628.4,
+     "end": 2629.35,
+     "context": "sitte alone (2nd)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Same spelling as sitta; Levantine pronounces the ending -e: 'Shaami, we turn the [a] into [e], so sitte' (2625-2629)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "تمانية",
+   "arabic_bare": "تمانية",
+   "translit": "tmaane",
+   "meaning": "eight (Levantine)",
+   "register": "shaami",
+   "kind": "number",
+   "status": "taught",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2846.9,
+     "quote": "in Shaami you say [tmaane/tamaanye]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2850.1,
+     "quote": "thaa' turn into taa', [aa] turn into [e]. So [tmaane]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2847.4,
+     "end": 2848.95,
+     "context": "'In Shaami you say' + the Levantine form",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2854.2,
+     "end": 2855.4,
+     "context": "'So' + the Levantine form (after the thaa'->taa' rule)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Levantine for thamaaniya: thaa' -> taa', final -a -> -e (2847-2855).",
+    "Both transcripts heard her form as 'tamaani(ye)' -- could be tmaane or tamaanye; verify by ear before writing the card's transliteration. Lingco: تمانية 'tmaane'."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "مِن صِفْر إلى عَشَرة",
+   "arabic_bare": "من صفر إلى عشرة",
+   "translit": "min Sifr ilaa cashara",
+   "meaning": "from zero to ten",
+   "register": "formal",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 3109.0,
+     "quote": "all right, let me give you a few minutes, go over 0 to 10. Okay, [min Sifr ilaa cashara]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 3112.7,
+     "quote": "en pass transcribed this stretch in Arabic script (من 0 إلى 10); ar pass heard من سفر إلى عشرة"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 3112.3,
+     "end": 3114.65,
+     "context": "'Okay,' + the whole phrase, said once",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Said right after the English 'go over zero to ten', so the meaning is clear. min = from (Unit 1 vocab), ilaa = to."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "مِن",
+   "arabic_bare": "من",
+   "translit": "min",
+   "meaning": "from",
+   "register": "both",
+   "kind": "vocab",
+   "status": "used",
+   "book_unit": 1,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 3112.7,
+     "quote": "[min] Sifr ilaa cashara -- 'from zero to ten'"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 3112.65,
+     "end": 3112.95,
+     "context": "first word of 'min Sifr ilaa cashara' (very short -- clip the whole phrase instead)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Only inside 'min Sifr ilaa cashara' (3112-3115). Already Unit 1 vocab (Lingco u01_0012)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "إلى",
+   "arabic_bare": "إلى",
+   "translit": "ilaa",
+   "meaning": "to (up to)",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 3113.3,
+     "quote": "min Sifr [ilaa] cashara -- 'from zero to ten'"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 3113.25,
+     "end": 3113.9,
+     "context": "middle of 'min Sifr ilaa cashara' (short)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Only inside 'min Sifr ilaa cashara' (3112-3115). Not in the Lingco vault; spelling = standard MSA."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "ـان / ـَيْن",
+   "arabic_bare": "ان / ين",
+   "translit": "-aan / -ayn",
+   "meaning": "the dual ending: 'two of something'",
+   "register": "formal",
+   "kind": "grammar",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 1762.6,
+     "quote": "in Arabic we have the system... Hebrew they have it as well: system of singular, dual and then plural"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 1771.1,
+     "quote": "so every time you see a word that ends with -ayn or -aan, here this word is referring to something dual, two... a pair of something"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1771.0,
+     "end": 1775.8,
+     "context": "'every time you see a word that ends with -ayn or -aan' (English sentence with the endings)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1793.8,
+     "end": 1798.2,
+     "context": "'if you hear -ayn at the end or -aan... those are referring to two'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "First time the dual came up: Arabic and Hebrew have singular / dual / plural (1762-1770); ithnayn/ithnaan end this way.",
+    "Grammar concept card, not a vocab word."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "سِتّ",
+   "arabic_bare": "ست",
+   "translit": "sitt",
+   "meaning": "lady (used for an older lady)",
+   "register": "shaami",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2571.1,
+     "quote": "let me teach you two words. You know the word sit in English, right? [sitt] in Arabic, it means a lady"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2585.8,
+     "quote": "just [sitt], that means a lady"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2635.0,
+     "quote": "we say sitt sometimes, but sitt for like an older lady"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2586.55,
+     "end": 2587.35,
+     "context": "'just sitt, that means a lady'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2576.6,
+     "end": 2577.7,
+     "context": "'sitt in Arabic means a lady' (English 'sit' said just before -- trim)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2595.35,
+     "end": 2595.95,
+     "context": "'you learn two words: sitt and sitta' (first word)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2637.85,
+     "end": 2638.55,
+     "context": "'but sitt for like an older lady'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2635.4,
+     "end": 2636.5,
+     "context": "'sometimes sitt'",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Mnemonic: English 'sit' -> sitt 'a lady'; sit+ta -> sitta 'six' (2571-2597).",
+    "Register: she explained usage in Levantine terms -- 'we don't say that to a lady, we use a different word, [mara]. We say sitt sometimes, but sitt for like an older lady' (2630-2640); then something like 'and [fuSHa?] it works for just a lady' (2640-2643, unclear).",
+    "WARNING: Lingco lists سِتّ ONLY in its Egyptian (maSri) column (Unit 9 'woman'). Never use that Lingco audio; use her voice."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "مَرَة",
+   "arabic_bare": "مرة",
+   "translit": "mara",
+   "meaning": "woman (Levantine)",
+   "register": "shaami",
+   "kind": "vocab",
+   "status": "used",
+   "book_unit": 9,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2631.1,
+     "quote": "we don't say that to a lady, we use a different word, [mara]; we say sitt sometimes"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2632.6,
+     "end": 2633.85,
+     "context": "'we use the (different) word' + mara (en pass heard 'matter')",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Levantine everyday word for 'woman' (Lingco Unit 9 shaami column: مَرَة). FuSHa = اِمْرَأة imra'a (Lingco U9 formal) -- she did not say the FuSHa word.",
+    "The nightly brief record wrote this as mar'a; both transcripts only support 'mara' -- verify by ear."
+   ],
+   "gender_pair_of": null,
+   "confidence": "low"
+  },
+  {
+   "arabic": "وَحيد",
+   "arabic_bare": "وحيد",
+   "translit": "waHiid",
+   "meaning": "lonely; alone",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 3484.0,
+     "quote": "now [waHiid] -- [waaHid]. Okay, [waHiid] is lonely, lonely. It's a word"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 3490.3,
+     "quote": "so we want to differentiate it from [waaHid] 'one' and [waHiid] 'lonely'"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 3487.0,
+     "end": 3487.6,
+     "context": "'waHiid is lonely'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3493.8,
+     "end": 3494.6,
+     "context": "'...and waHiid, lonely' (contrast pair)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3484.3,
+     "end": 3485.5,
+     "context": "'now waHiid, waaHid' (contrast; trim to the first word)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "She corrected a student who said waHiid for 'one': waaHid (long aa, one) vs waHiid (long ii, lonely) (3481-3497).",
+    "The nightly brief record says 'waaHid also means lonely' -- that is wrong; the 'lonely' word is waHiid."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "اللهُ أَكْبَر",
+   "arabic_bare": "الله أكبر",
+   "translit": "allaahu akbar",
+   "meaning": "God is greatest (she glossed it 'God is triumphant')",
+   "register": "formal",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2750.5,
+     "quote": "so you will see people saying [allaahu akbar], like God is triumphant"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2752.0,
+     "end": 2753.15,
+     "context": "inside 'you will see people saying allaahu akbar'",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Cultural note on sabca's V gesture: in the Arab world it reads as triumph, the gesture people make while saying allaahu akbar (2744-2757)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "يَلّا",
+   "arabic_bare": "يلا",
+   "translit": "yalla",
+   "meaning": "come on! / let's go",
+   "register": "shaami",
+   "kind": "vocab",
+   "status": "used",
+   "book_unit": 6,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2052.2,
+     "quote": "[thalaatha]... [yalla], let me hear you, [thalaatha]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2053.8,
+     "end": 2054.6,
+     "context": "'yalla, let me hear you' -- yalla alone at the start",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Used to prompt the class to answer (2052-2056). Taught earlier (9/10); Lingco Unit 6 shaami يَللا.",
+    "9/24 record: she flagged yalla as not respectful for inviting someone in (use tafaDDal)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "لَيْسَ",
+   "arabic_bare": "ليس",
+   "translit": "laysa",
+   "meaning": "is not / not (the negator)",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "used",
+   "book_unit": 3,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2495.9,
+     "quote": "(study break, a student asked quietly about the negative) -- [laysa], [laysa]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2495.45,
+     "end": 2496.5,
+     "context": "laysa alone, answering a student during the study break",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2497.05,
+     "end": 2498.2,
+     "context": "laysa alone (repeat)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Loud on her lapel mic (so hers) but the student's question is gated out; Teams caption heard 'what's the negative?'. Taught 9/15; Lingco Unit 3 لَيسَ 'laysa'."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "لا",
+   "arabic_bare": "لا",
+   "translit": "laa",
+   "meaning": "no",
+   "register": "both",
+   "kind": "vocab",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 3817.7,
+     "quote": "she has [thalaatha]? [laa]. What she has? [arbaca]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 3821.0,
+     "end": 3821.7,
+     "context": "'laa' alone, correcting the basket count",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Shopping-basket game (Sara thinks she has thalaatha; 'laa', she has arbaca) (3806-3828). Lingco Unit 2 لا."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "هٰذِهِ سِتّ",
+   "arabic_bare": "هذه ست",
+   "translit": "haadhihi sitt",
+   "meaning": "This is a lady.",
+   "register": "both",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": 3,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 3769.7,
+     "quote": "so [haadhihi sitt], [haadhihi sitt]... her name is [ismuhaa?] Saara (en pass heard 'how do he sit')"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 3769.9,
+     "end": 3771.6,
+     "context": "introducing the basket-game character: haadhihi sitt",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3771.5,
+     "end": 3773.3,
+     "context": "haadhihi sitt (repeat)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "ar pass heard هاذهي ست twice; en pass heard 'how do he sit' -- consistent with haadhihi sitt, reusing sitt taught an hour earlier.",
+    "haadhihi = 'this (fem.)' (Lingco Unit 3 هٰذِهِ, taught 9/15). Verify by ear."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "اِسْمُها",
+   "arabic_bare": "اسمها",
+   "translit": "ismuhaa",
+   "meaning": "her name (is)",
+   "register": "formal",
+   "kind": "possessive-form",
+   "status": "used",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 3774.2,
+     "quote": "her name is [ismuhaa?] Saara (en pass heard 'her name is mohan sara')"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 3775.9,
+     "end": 3776.7,
+     "context": "'her name is --' + probably ismuhaa, right before Saara",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Only the en pass's 'mohan' supports this; could be English only. Verify by ear. Lingco Unit 4 اِسمُها; 9/24 she taught -uhu/-uhaa."
+   ],
+   "gender_pair_of": null,
+   "confidence": "low"
+  },
+  {
+   "arabic": "سارة",
+   "arabic_bare": "سارة",
+   "translit": "saara",
+   "meaning": "Sara (a woman's name)",
+   "register": "both",
+   "kind": "name",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 3774.2,
+     "quote": "her name is Saara... we need to help her count her purchases"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 3776.6,
+     "end": 3777.45,
+     "context": "Saara alone (end of 'her name is ... Saara')",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3779.3,
+     "end": 3780.1,
+     "context": "'[haadhihi?] Saara'",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Character in the shopping-basket counting game (3765-3950)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "عِنْدَها",
+   "arabic_bare": "عندها",
+   "translit": "cindahaa",
+   "meaning": "she has",
+   "register": "formal",
+   "kind": "possessive-form",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 3942.3,
+     "quote": "(end of the basket game) [thamaaniya] -- ar pass heard عندها ثمانية 'she has eight'; en pass silent"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 3942.2,
+     "end": 3943.2,
+     "context": "probably 'cindahaa thamaaniya' (she has eight)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Only the ar pass supports this (en pass dropped the stretch, typical when she speaks Arabic). cindii 'I have' is Unit 4 vocab. Verify by ear."
+   ],
+   "gender_pair_of": null,
+   "confidence": "low"
+  },
+  {
+   "arabic": "هَمْزة",
+   "arabic_bare": "همزة",
+   "translit": "hamza",
+   "meaning": "hamza, the glottal-stop consonant ء",
+   "register": "formal",
+   "kind": "letter-name",
+   "status": "taught",
+   "book_unit": 4,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 3962.2,
+     "quote": "so I'll introduce today the hamza"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 3993.6,
+     "quote": "so, hamza, or the glottal stop. We consider it a consonant"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4064.2,
+     "quote": "the beginning of the word or middle or ending, it has to have a seat to sit on"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 3973.0,
+     "end": 3974.2,
+     "context": "'So hamza, we said,'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3993.5,
+     "end": 3994.9,
+     "context": "'So, hamza, or the glottal stop'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3964.1,
+     "end": 3964.95,
+     "context": "end of 'I'll introduce today the hamza'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4037.2,
+     "end": 4037.7,
+     "context": "'...at the top of hamza' (trailing, quieter)",
+     "confidence": "low"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4045.2,
+     "end": 4046.1,
+     "context": "'alif with hamza'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_hamza_seats_shay_t4143.png",
+   "card_notes": [
+    "Board frame t4143: 'hamza ء' + the seats she drew.",
+    "Rules she gave (3962-4190): a consonant (glottal stop); never alone on the line at the start of a word -- it needs a seat: alif (fatHa -> a, Damma -> u, kasra under the alif -> i), waaw ('think of u'), a dotless yaa' tooth ('think of i sound, but don't write the dots'); only at the END of a word can it sit on the line by itself (shay').",
+    "'Usually we don't write the sukuun at the top of hamza, but the pronunciation will be like a sukuun' (4034-4042).",
+    "At the start of a word hamza is sometimes written and sometimes not, but ALWAYS pronounced -- 'we cannot start a word with a vowel' -- follow the tashkiil; exception: al- never takes a hamza (4455-4508). When to write it is 'a complicated rule... maybe 300 level' (4299-4316)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "رَقْم",
+   "arabic_bare": "رقم",
+   "translit": "raqm",
+   "meaning": "number (a numeral; the number of an item)",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4193.9,
+     "quote": "now I can say there are numbers in Arabic, right? Let me teach you those two words... it means number"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4204.6,
+     "quote": "[raqm], you could also hear [cadad]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4217.6,
+     "quote": "okay, [raqm] or [cadad], it means number"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4217.35,
+     "end": 4218.4,
+     "context": "'okay, raqm' (after writing it on the board)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4204.0,
+     "end": 4205.7,
+     "context": "'it means number' -> raqm",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4200.5,
+     "end": 4201.5,
+     "context": "first time, right after 'let me teach you those two words'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4223.8,
+     "end": 4224.4,
+     "context": "'so raqm (waaHid)' -- first word of the phrase",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_raqam_cadad_t4460.jpg",
+   "card_notes": [
+    "Board: she wrote the transliteration 'Raqam' (frame t4460) -- she pronounces it raqam (helping vowel); book/Lingco spell رَقم raqm (Unit 4 'raqm tilifuun' = telephone number).",
+    "She then read every exercise item as 'raqm + number': raqm waaHid (4223, 4554), raqm ithnayn (4508, 4570), raqm arbaca (4525), raqm khamsa (4407).",
+    "9/24 she reused it: 'haadhaa raqam sabca'."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "عَدَد",
+   "arabic_bare": "عدد",
+   "translit": "cadad",
+   "meaning": "number (a count, quantity)",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4205.9,
+     "quote": "you could also hear [cadad]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4218.6,
+     "quote": "[raqm] or [cadad], it means number"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4207.7,
+     "end": 4208.6,
+     "context": "'you could also hear' cadad",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4218.8,
+     "end": 4219.8,
+     "context": "'or cadad, it means number'",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_raqam_cadad_t4460.jpg",
+   "card_notes": [
+    "Board: she wrote the transliteration 'cadad' with a superscript c for cayn (frame t4460); the Arabic spelling is standard MSA (own knowledge, not in Lingco U1-4).",
+    "Taught as a synonym of raqm; not declared required."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "رَقْم واحِد",
+   "arabic_bare": "رقم واحد",
+   "translit": "raqm waaHid",
+   "meaning": "number one (item #1)",
+   "register": "formal",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4223.8,
+     "quote": "so, [raqm waaHid]: [akhawaat]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4554.5,
+     "quote": "so [raqm waaHid], you don't know all the letters but you could follow with me"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4223.6,
+     "end": 4225.15,
+     "context": "'So, raqm waaHid' reading LE1 item 1",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4554.2,
+     "end": 4555.75,
+     "context": "'so raqm waaHid' reading LE3 item 1",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4508.0,
+     "end": 4510.05,
+     "context": "'raqm ithnayn' (LE2 item 2; en pass wrote it in Arabic script)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4570.9,
+     "end": 4571.8,
+     "context": "'raqm ithnayn' (LE3 item 2)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4525.0,
+     "end": 4526.1,
+     "context": "'and raqm arbaca' (LE2 item 4)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "How she numbered the exercise items today: raqm + the number (also raqm khamsa at 4407.5-4409.6).",
+    "Good sentence card: raqm + each new number."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "أَخَوات",
+   "arabic_bare": "أخوات",
+   "translit": "akhawaat",
+   "meaning": "sisters",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4226.5,
+     "quote": "[akhawaat], [akhawaat]. Did you notice how I pronounce the first alif and the second alif in that word?"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4535.2,
+     "quote": "good -- sisters"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4226.45,
+     "end": 4227.9,
+     "context": "LE1 item 1, first reading",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4228.0,
+     "end": 4230.05,
+     "context": "LE1 item 1, repeated",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4527.35,
+     "end": 4529.4,
+     "context": "LE2 item 4 ('we read that one earlier')",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4529.95,
+     "end": 4531.7,
+     "context": "LE2 item 4, repeated",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4532.85,
+     "end": 4534.25,
+     "context": "third reading, then 'good -- sisters'",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Plural of ukht. First alif = hamza + fatHa = 'a'; the second alif is the long vowel: 'it's coming after another vowel, so when you see two vowels right after each other, the first one becomes consonant' -- the waaw is a w (4230-4267).",
+    "LE1 #1 and LE2 #4 on p. 67 (Lingco: أَخَوات)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "أَب",
+   "arabic_bare": "أب",
+   "translit": "ab",
+   "meaning": "father",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4277.0,
+     "quote": "we learned this word before, right? What's [ab]? Anyone remember? -- Father"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4283.8,
+     "quote": "so there is alif and hamza, plus the fatHa at the top, and baa'. So [ab]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4502.5,
+     "quote": "so [ab], like [ab]. So alif here, hamza is part of the word"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4274.0,
+     "end": 4274.5,
+     "context": "LE1 item 2, first reading, alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4275.6,
+     "end": 4276.1,
+     "context": "repeated alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4288.9,
+     "end": 4289.7,
+     "context": "'So ab.' after spelling it out",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4502.8,
+     "end": 4503.7,
+     "context": "LE2 item 1: 'So ab'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4290.4,
+     "end": 4290.8,
+     "context": "ab alone (short)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Spelling she walked through: alif + hamza + fatHa, then baa' (4283-4289).",
+    "Lawson asked why write hamza when the fatHa already shows the vowel; answer: there is a rule for when it is written, but you pronounce it written or not; for this class follow the tashkiil (4291-4325).",
+    "Taught first on 9/3 (ab / abii). LE1 #2 and LE2 #1 on p. 67."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "سَبَأ",
+   "arabic_bare": "سبأ",
+   "translit": "saba'",
+   "meaning": "Sheba (the Queen of Sheba's land)",
+   "register": "formal",
+   "kind": "place",
+   "status": "taught",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4342.2,
+     "quote": "number three: [Saba'], [Saba'], or you could also say [...] if there is a fatHa there"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4354.2,
+     "quote": "the city that the queen from Arabia came to see Solomon, the Queen of Sheba, in Arabic [Saba']"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4343.0,
+     "end": 4344.7,
+     "context": "LE1 item 3: 'number three: Saba', Saba''",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4345.9,
+     "end": 4346.5,
+     "context": "Saba' alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4365.4,
+     "end": 4366.7,
+     "context": "'in Arabic, Saba''",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4372.4,
+     "end": 4373.0,
+     "context": "Saba' alone after 'that's the Sheba'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Ends in hamza sitting on an alif seat after a fatHa (LE1 #3).",
+    "Card hook: Solomon and the Queen of Sheba (1 Kings 10) -- Sheba = Saba'."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "تَأْتَأَ",
+   "arabic_bare": "تأتأ",
+   "translit": "ta'ta'a",
+   "meaning": "he stuttered / stammered",
+   "register": "both",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4373.3,
+     "quote": "and number four: [ta'ta'a]... (en pass silent 4376-4384 while she repeats it)"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4384.6,
+     "quote": "now in Shaami we say [ta'ta'] to tell about a person who stuttered, like stuttering or he stuttered"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4399.2,
+     "quote": "so this is how we write it in fuSHa"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4377.1,
+     "end": 4379.3,
+     "context": "LE1 item 4, repeated",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4375.2,
+     "end": 4376.7,
+     "context": "'number four:' + ta'ta'a",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4380.4,
+     "end": 4381.8,
+     "context": "ta'ta'a alone",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4383.1,
+     "end": 4384.2,
+     "context": "ta'ta'a alone",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4401.3,
+     "end": 4402.95,
+     "context": "'...in fuSHa' + possibly ta'ta'a (en pass heard 'all right')",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Onomatopoeic: two hamzas with sukuun between -- ta'-ta'a. She said Shaami uses it for a person who stutters; the spelling is FuSHa (4384-4401).",
+    "LE1 #4 on p. 67 (book/Lingco print تَأتَأ without the final vowel)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "بَأْس",
+   "arabic_bare": "بأس",
+   "translit": "ba's",
+   "meaning": "strength, might (also 'harm')",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4406.9,
+     "quote": "number five: [ba's]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4414.4,
+     "quote": "now when we read it in fuSHa it's [ba's], even though there is nothing on it, so here you have to imagine it's a sukuun"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4427.3,
+     "quote": "so [ba's]. [ba's] means strength"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4426.7,
+     "end": 4427.7,
+     "context": "'so ba's' (before 'means strength')",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4430.2,
+     "end": 4430.95,
+     "context": "'So, ba's.' alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4417.6,
+     "end": 4418.2,
+     "context": "'...in fuSHa it's ba's'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4413.0,
+     "end": 4413.8,
+     "context": "LE1 item 5 reading",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4410.6,
+     "end": 4411.3,
+     "context": "LE1 item 5 first reading",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "No sukuun printed over the hamza, 'but here you have to imagine it's a sukuun' (4419-4426).",
+    "Her gloss: 'strength'. Standard dictionaries also give 'harm' -- hence laa ba's 'no harm / it's fine'.",
+    "LE1 #5 on p. 67."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "لا بَأْس",
+   "arabic_bare": "لا بأس",
+   "translit": "laa ba's",
+   "meaning": "not bad / it's okay (lit. 'no harm')",
+   "register": "both",
+   "kind": "phrase",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4433.1,
+     "quote": "and sometimes when we say [laa ba's], it means okay also, like [maashi]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4438.6,
+     "quote": "how are you doing? [laa ba's], [laa ba's], like not too strong today"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4440.3,
+     "end": 4441.25,
+     "context": "answer to 'How are you doing?': laa ba's",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4441.4,
+     "end": 4442.2,
+     "context": "laa ba's alone (repeat)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4434.5,
+     "end": 4435.85,
+     "context": "'when we say laa ba's'",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Usage she modeled: 'How are you doing?' -- 'laa ba's' = 'not too strong today' / okay (4433-4447).",
+    "Same meaning as maashi (Shaami) in that answer."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "ماشي",
+   "arabic_bare": "ماشي",
+   "translit": "maashi",
+   "meaning": "okay",
+   "register": "shaami",
+   "kind": "vocab",
+   "status": "used",
+   "book_unit": 3,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4437.5,
+     "quote": "it means okay also, like [maashi]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4445.5,
+     "quote": "so, [maashi]. Okay"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4437.5,
+     "end": 4438.2,
+     "context": "'like maashi'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4445.8,
+     "end": 4446.7,
+     "context": "'So, maashi.' alone",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Taught 9/17; Lingco Unit 3 (shaami/maSri columns only) ماشي 'maashi'. Use her audio or the Lingco SHAAMI clip, never the maSri one."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "أَتَتْ",
+   "arabic_bare": "أتت",
+   "translit": "atat",
+   "meaning": "she came",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4508.0,
+     "quote": "[raqm ithnayn]: [atat] (en pass wrote أتت in Arabic script)"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4510.0,
+     "end": 4511.2,
+     "context": "LE2 item 2, read once",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4512.1,
+     "end": 4512.6,
+     "context": "possible second reading",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Read, not glossed (LE2 #2, initial hamza with fatHa). Meaning from own knowledge."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "أَخ",
+   "arabic_bare": "أخ",
+   "translit": "akh",
+   "meaning": "brother",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "required",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4514.5,
+     "quote": "[raqm thalaatha]: [akh], [akh] means a brother"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4611.1,
+     "quote": "and they give you here the words [akh], [ukht]. So I need you to learn [akh] and [ukht]. Those are required. Add them to your vocab list: brother and sister"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4518.0,
+     "end": 4518.65,
+     "context": "LE2 item 3, akh alone (right before 'means a brother')",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4516.2,
+     "end": 4516.85,
+     "context": "LE2 item 3, first reading",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4613.0,
+     "end": 4613.45,
+     "context": "'the words: akh, ukht' (first word)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4615.25,
+     "end": 4615.65,
+     "context": "'I need you to learn akh and ukht' (first word)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4521.1,
+     "end": 4521.6,
+     "context": "akh alone",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "REQUIRED: 'I need you to learn akh and ukht. Those are required. Add them to your vocab list, brother and sister' (4611-4621).",
+    "'They give you here the words' = book p. 69, which has you copy أَخ (brother), أُخت (sister), إِثبات (proof).",
+    "Alif-hamza with fatHa (LE2 #3). Pairs with ukht; 9/24 she added akhii 'my brother'."
+   ],
+   "gender_pair_of": "أُخْت",
+   "confidence": "high"
+  },
+  {
+   "arabic": "أُخْت",
+   "arabic_bare": "أخت",
+   "translit": "ukht",
+   "meaning": "sister",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "required",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4570.6,
+     "quote": "number two: [ukht]. So do you see the Damma at the top? That's [u]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4611.1,
+     "quote": "the words [akh], [ukht]... those are required... brother and sister"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4572.35,
+     "end": 4573.3,
+     "context": "LE3 item 2, first reading",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4574.85,
+     "end": 4575.6,
+     "context": "LE3 item 2, repeated",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4613.55,
+     "end": 4614.3,
+     "context": "'the words: akh, ukht' (second word)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4615.85,
+     "end": 4616.45,
+     "context": "'...and ukht' (required)",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "REQUIRED (4611-4621).",
+    "Alif-hamza with Damma: 'do you see the Damma at the top? That's [u]' (4576-4581). Plural: akhawaat."
+   ],
+   "gender_pair_of": "أَخ",
+   "confidence": "high"
+  },
+  {
+   "arabic": "أَثاث",
+   "arabic_bare": "أثاث",
+   "translit": "athaath",
+   "meaning": "furniture",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4535.9,
+     "quote": "sisters. And last one: [athaath?] (an unidentified Arabic word follows; neither pass transcribed it)"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4538.0,
+     "end": 4539.15,
+     "context": "probably LE2 item 5 read once",
+     "confidence": "low"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4540.85,
+     "end": 4541.9,
+     "context": "possible second reading",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "LE2 #5 is أَثاث; the audio right after 'and last one' is a short Arabic word on her mic. Verify by ear."
+   ],
+   "gender_pair_of": null,
+   "confidence": "low"
+  },
+  {
+   "arabic": "إِبْحار",
+   "arabic_bare": "إبحار",
+   "translit": "ibHaar",
+   "meaning": "sailing, setting sail",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4554.0,
+     "quote": "you don't know all the letters but you could follow with me: [ibHaar]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4563.1,
+     "quote": "do you see the hamza is under and there is a kasra? So it's an [i]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4559.3,
+     "end": 4560.7,
+     "context": "LE3 item 1, first reading",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4561.7,
+     "end": 4562.4,
+     "context": "repeated",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4567.6,
+     "end": 4568.2,
+     "context": "repeated after the explanation",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4568.2,
+     "end": 4568.95,
+     "context": "repeated (last)",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4562.5,
+     "end": 4563.2,
+     "context": "repeated",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Hamza UNDER the alif = kasra = 'i' (4563-4566). Not glossed in class; meaning from own knowledge."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "إِثْبات",
+   "arabic_bare": "إثبات",
+   "translit": "ithbaat",
+   "meaning": "proof",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4326.0,
+     "quote": "sometimes you will see the kasra under the alif and there is no hamza, but we'll still pronounce it: [ithbaat] for instance"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4582.2,
+     "quote": "and then number three: kasra under the alif, [i], [ithbaat]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4586.5,
+     "end": 4587.7,
+     "context": "LE3 item 3: 'ithbaat, ithbaat'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4589.1,
+     "end": 4589.9,
+     "context": "ithbaat alone",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4336.0,
+     "end": 4337.2,
+     "context": "'for instance, ithbaat' (example of an unwritten hamza)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4337.9,
+     "end": 4338.8,
+     "context": "ithbaat repeated",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Her example of a word whose initial hamza is often NOT written but still pronounced (4326-4339); the book (p. 67) writes it إثبات.",
+    "Not glossed in class; the book glosses it 'proof' on p. 69 (copy-practice line with أَخ brother, أُخت sister, إِثبات proof)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "أُخْرِجَ",
+   "arabic_bare": "أخرج",
+   "translit": "ukhrija",
+   "meaning": "he was taken out / expelled",
+   "register": "formal",
+   "kind": "drill-word",
+   "status": "drilled",
+   "book_unit": 4,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4591.8,
+     "quote": "number four: [ukhrija]. So there is the Damma on the alif, so we have to say [u]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4593.6,
+     "end": 4594.5,
+     "context": "LE3 item 4, first reading",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4596.8,
+     "end": 4597.6,
+     "context": "repeated",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4595.2,
+     "end": 4595.9,
+     "context": "repeated (between the two)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Damma on the alif-hamza -> 'u' (4597-4602). Not glossed; passive verb, meaning from own knowledge."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "شَيْء",
+   "arabic_bare": "شيء",
+   "translit": "shay'",
+   "meaning": "a thing; something",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "taught",
+   "book_unit": 5,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4114.9,
+     "quote": "at the end of the word, like the word [shay'] for instance. That's a shiin. This word means something, a thing"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4134.9,
+     "quote": "the pronunciation not [shee] -- some people in Shaami they say [shee] -- but the fuSHa we have to emphasize the glottal stop, so we say [shay']"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4148.6,
+     "end": 4149.8,
+     "context": "'so we say shay'' -- the model FuSHa pronunciation",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4116.8,
+     "end": 4117.8,
+     "context": "'like the word shay' for instance'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4124.8,
+     "end": 4125.6,
+     "context": "shay' alone after 'that's a shiin'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_hamza_seats_shay_crop2x_t4125.png",
+   "card_notes": [
+    "Her example of a word-final hamza. Board (frames t4125/t4143): she wrote it شئ with the hamza on a dotless yaa' seat ('you will see it here, for instance, on the yaa''); the standard spelling (Lingco U5) is شَيء with the hamza on the line.",
+    "FuSHa must keep the final glottal stop; Shaami drops it (shii) -- separate entry. Avoid clipping 4139.8-4140.5 / 4142.5-4143.1 for this card (those are the Shaami form)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "شي",
+   "arabic_bare": "شي",
+   "translit": "shii",
+   "meaning": "a thing; something (Levantine)",
+   "register": "shaami",
+   "kind": "vocab",
+   "status": "used",
+   "book_unit": 5,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4139.3,
+     "quote": "not [shee] -- some people in Shaami they say [shee]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4142.5,
+     "end": 4143.15,
+     "context": "'some people in Shaami they say' + shii",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4139.8,
+     "end": 4140.5,
+     "context": "'not shii' (quoted as the non-FuSHa form)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Levantine form without the final hamza; she presented it as what NOT to say in FuSHa (4134-4149). Lingco U5 shaami شي."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "اَلْ",
+   "arabic_bare": "ال",
+   "translit": "al-",
+   "meaning": "the (definite article)",
+   "register": "formal",
+   "kind": "grammar",
+   "status": "taught",
+   "book_unit": null,
+   "spelling_source": "slide",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4476.4,
+     "quote": "except, we learned this earlier, when we use al, the definite article: we never write hamza above the alif"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4489.9,
+     "quote": "because I could remove al and still have the word"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4490.1,
+     "end": 4490.9,
+     "context": "'If al,' (said alone, then explained)",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4491.95,
+     "end": 4492.45,
+     "context": "'...remove al and still have the word'",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": "/Users/parkerregner/arabic-catchup/frames/2026-09-22/board_raqam_cadad_al_crop2x_t4520.png",
+   "card_notes": [
+    "Board (frame t4520): she wrote ال.",
+    "Rule: the definite article never takes a written hamza; test: if you can remove al- and still have a word, the alif is the article; an alif-hamza at the start (like ab) is part of the word (4476-4508)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "عَلى السَّطْر",
+   "arabic_bare": "على السطر",
+   "translit": "calaa s-saTr",
+   "meaning": "on the line (of writing)",
+   "register": "formal",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4059.5,
+     "quote": "at the end of the word like this, [call it] on the line, [calaa s-saTr?]; it could appear by itself"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4060.95,
+     "end": 4061.9,
+     "context": "short Arabic-sounding phrase right after 'on the line'",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Only a guess from both transcripts (ar: 'al-assatur'; Teams: 'Alison'). Could be a student's name. 9/24 she called a bare final hamza 'on the line'. Verify by ear before carding."
+   ],
+   "gender_pair_of": null,
+   "confidence": "low"
+  },
+  {
+   "arabic": "تَشْكيل",
+   "arabic_bare": "تشكيل",
+   "translit": "tashkiil",
+   "meaning": "the vowel marks (fatHa, Damma, kasra, sukuun...)",
+   "register": "formal",
+   "kind": "classroom",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 688.0,
+     "quote": "guys, look at the second word, you see the tashkiil? This is how I was able to do it on Word document. So the tashkiil goes on the previous letter"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4156.5,
+     "quote": "if you see it on an alif it depends on the tashkiil, especially at the beginning of the word"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 691.4,
+     "end": 692.1,
+     "context": "'you see the tashkiil?'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 698.8,
+     "end": 699.4,
+     "context": "'the tashkiil goes on the previous letter'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 702.1,
+     "end": 702.9,
+     "context": "'letter, tashkiil'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 703.1,
+     "end": 703.85,
+     "context": "'letter, tashkiil'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4159.0,
+     "end": 4159.7,
+     "context": "'it depends on the tashkiil'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Writing-quiz note: on her printed quiz the tashkiil appears with the PRECEDING letter (Word formatting): 'don't put it on the jiim, put it on the Haa'' (688-716)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "فَتْحة",
+   "arabic_bare": "فتحة",
+   "translit": "fatHa",
+   "meaning": "fatHa, the short-a mark (  َ )",
+   "register": "formal",
+   "kind": "grammar",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4170.8,
+     "quote": "these are examples of hamza with fatHa, hamza coming on alif with fatHa"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4549.8,
+     "quote": "now here we have now just the fatHa, we have a Damma, we have a kasra"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4174.4,
+     "end": 4175.05,
+     "context": "'hamza with fatHa'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4177.5,
+     "end": 4178.0,
+     "context": "'...on alif with fatHa'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4238.8,
+     "end": 4239.45,
+     "context": "'it has fatHa at the top'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4551.3,
+     "end": 4551.95,
+     "context": "'just the fatHa'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Hamza + fatHa on alif = 'a' (أَ)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "ضَمّة",
+   "arabic_bare": "ضمة",
+   "translit": "Damma",
+   "meaning": "Damma, the short-u mark (  ُ )",
+   "register": "formal",
+   "kind": "grammar",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4576.8,
+     "quote": "so do you see the Damma at the top? That's [u]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4597.7,
+     "quote": "so there is the Damma on the alif, so we have to say [u]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4578.0,
+     "end": 4578.65,
+     "context": "'do you see the Damma at the top?'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4598.2,
+     "end": 4598.9,
+     "context": "'there is the Damma on the alif'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4552.0,
+     "end": 4552.55,
+     "context": "'we have a Damma'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Hamza + Damma on alif = 'u' (أُ): ukht, ukhrija."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "كَسْرة",
+   "arabic_bare": "كسرة",
+   "translit": "kasra",
+   "meaning": "kasra, the short-i mark (  ِ )",
+   "register": "formal",
+   "kind": "grammar",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4563.1,
+     "quote": "do you see the hamza is under and there is a kasra? So it's an [i]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4329.0,
+     "quote": "you will see the kasra under the alif and there is no hamza, but we'll still pronounce it"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4565.0,
+     "end": 4565.65,
+     "context": "'...and there is a kasra'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4584.1,
+     "end": 4584.75,
+     "context": "'kasra under the alif'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4329.5,
+     "end": 4330.2,
+     "context": "'you will see the kasra under the alif'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4552.7,
+     "end": 4553.4,
+     "context": "'we have a kasra'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Hamza + kasra goes UNDER the alif = 'i' (إِ): ibHaar, ithbaat."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "سُكون",
+   "arabic_bare": "سكون",
+   "translit": "sukuun",
+   "meaning": "sukuun, the no-vowel mark (  ْ )",
+   "register": "formal",
+   "kind": "grammar",
+   "status": "used",
+   "book_unit": 3,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2296.6,
+     "quote": "five is just a circle like that, bigger than a sukuun, similar to sukuun but bigger"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4034.7,
+     "quote": "usually we don't write the sukuun at the top of hamza, but the pronunciation will be like a sukuun"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4423.5,
+     "quote": "here you have to imagine it's a sukuun"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2298.2,
+     "end": 2298.8,
+     "context": "'bigger than a sukuun'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2300.9,
+     "end": 2301.6,
+     "context": "'...but bigger than a sukuun'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4036.0,
+     "end": 4036.6,
+     "context": "'we don't write the sukuun at the top of hamza'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4425.3,
+     "end": 4425.85,
+     "context": "'imagine it's a sukuun'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "٥ (khamsa) is a circle 'bigger than a sukuun'. Over hamza the sukuun is usually not written but still pronounced (ba's)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "شامي",
+   "arabic_bare": "شامي",
+   "translit": "shaami",
+   "meaning": "Levantine (the dialect of Syria/Lebanon/Jordan/Palestine)",
+   "register": "both",
+   "kind": "classroom",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 1801.8,
+     "quote": "Shaami we say [tneen]"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 2855.3,
+     "quote": "if some of you are wondering why she's teaching us Shaami... a student applying to a Fulbright to Jordan"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1801.7,
+     "end": 1802.4,
+     "context": "'Shaami we say...'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2712.7,
+     "end": 2713.4,
+     "context": "'Shaami is the same'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2188.6,
+     "end": 2189.25,
+     "context": "'there is no Shaami here'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3002.3,
+     "end": 3002.9,
+     "context": "'we don't change it in Shaami'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2028.1,
+     "end": 2028.9,
+     "context": "'Shaami again...'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Why she teaches Shaami (2855-2903): a former student applying for a Fulbright to Jordan cited her Shaami exposure; extra dialect work 'is going to be beneficial... a government job, a scholarship, something competitive... that's a plus'."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "فُصْحى",
+   "arabic_bare": "فصحى",
+   "translit": "fuSHa",
+   "meaning": "formal (standard) Arabic",
+   "register": "formal",
+   "kind": "classroom",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4143.9,
+     "quote": "but the fuSHa, we have to emphasize the glottal stop"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4399.2,
+     "quote": "so this is how we write it in fuSHa"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4144.3,
+     "end": 4145.1,
+     "context": "'but the fuSHa...'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4400.8,
+     "end": 4401.5,
+     "context": "'...how we write it in fuSHa'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4416.6,
+     "end": 4417.3,
+     "context": "'when we read it in fuSHa'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "FuSHa is the graded standard; she contrasts it with Shaami throughout."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "بَغْداد",
+   "arabic_bare": "بغداد",
+   "translit": "baghdaad",
+   "meaning": "Baghdad",
+   "register": "both",
+   "kind": "place",
+   "status": "incidental",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 1319.1,
+     "quote": "but he was in Baghdad, in the House of Wisdom, that was the center... 8th, 9th and 10th century"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1320.4,
+     "end": 1321.1,
+     "context": "'he was in Baghdad' (inside an English sentence; may be anglicized)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Numerals history: al-Khwaarizmi worked at Baghdad's House of Wisdom during the Golden Age of Islam (1297-1342)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "الخُوارِزْمي",
+   "arabic_bare": "الخوارزمي",
+   "translit": "al-khwaarizmii",
+   "meaning": "al-Khwarizmi (the mathematician behind 'algorithm')",
+   "register": "formal",
+   "kind": "name",
+   "status": "incidental",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 1343.2,
+     "quote": "what is his name... al-Khwaarizmi, his name, he is the one who founded these numbers"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 1401.5,
+     "quote": "(video narrator) his name was Abu Abdallah Muhammad ibn Musa al-Khwarizmi"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1344.0,
+     "end": 1346.2,
+     "context": "she hesitates, then says the name",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Persian, born in present-day Uzbekistan; Baghdad's House of Wisdom; Latinized 'Algoritmi' -> algorithm; his 825 book on Hindu numerals brought them to Europe via a Latin translation (video 1381-1604)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "الجَبْر",
+   "arabic_bare": "الجبر",
+   "translit": "al-jabr",
+   "meaning": "al-jabr ('completion') -> algebra",
+   "register": "formal",
+   "kind": "vocab",
+   "status": "incidental",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 1386.8,
+     "quote": "(video narrator) he pioneered a method for solving problems called al-jabr, today known as algebra"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 1510.1,
+     "quote": "(video narrator) with what he called al-jabr, or completion"
+    }
+   ],
+   "her_clear_utterances": [],
+   "slide_frame": null,
+   "card_notes": [
+    "Said only by the video narrator, not by her -- no clip of her voice."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "هِنْدي",
+   "arabic_bare": "هندي",
+   "translit": "hindii",
+   "meaning": "Indian ('Hindi' numerals = what English calls Arabic numerals)",
+   "register": "both",
+   "kind": "vocab",
+   "status": "incidental",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 1356.8,
+     "quote": "Yeah, Hindi or Indic, that's coming from India. So the Arabs adopted the Indian numbers and the Western culture adopted the Arabic numbers"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1357.7,
+     "end": 1358.2,
+     "context": "'Hindi' inside an English sentence (anglicized)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Arabs call the digits ٠١٢٣ 'Hindi' numerals. Card note rather than a vocab card."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "كاتْشَب",
+   "arabic_bare": "كاتشب",
+   "translit": "kaatshab",
+   "meaning": "ketchup",
+   "register": "borrowed",
+   "kind": "vocab",
+   "status": "incidental",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 110.4,
+     "quote": "and this is how it's written, ketchup. You could tell the taa', you could tell the baa', right? And alif as well"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 111.9,
+     "end": 112.55,
+     "context": "she says 'ketchup' (English) while showing the bag",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Opening moment: ketchup is the most common chip flavour in the Arab world; she showed the Arabic word on a chip bag (not legible on video) and had students spot taa', baa', alif. Spelling is my best guess (كاتشب) -- verify if the bag photo is ever available."
+   ],
+   "gender_pair_of": null,
+   "confidence": "low"
+  },
+  {
+   "arabic": "شُكْراً",
+   "arabic_bare": "شكرا",
+   "translit": "shukran",
+   "meaning": "thank you",
+   "register": "both",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": 5,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4694.3,
+     "quote": "(after class) thank you... oh, [shukran]... [cafwan]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4695.1,
+     "end": 4695.5,
+     "context": "'oh, shukran' -- probably the STUDENT, not her (quieter)",
+     "confidence": "low"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "After-class exchange; likely a student said shukran and she answered cafwan. Already known (Unit 1 greetings; Lingco U5)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "عَفْواً",
+   "arabic_bare": "عفوا",
+   "translit": "cafwan",
+   "meaning": "you're welcome",
+   "register": "formal",
+   "kind": "phrase",
+   "status": "used",
+   "book_unit": 5,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4695.7,
+     "quote": "(after class) [cafwan]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4695.6,
+     "end": 4696.3,
+     "context": "cafwan alone, answering a student's shukran",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Already known. Lingco U5 formal عَفواً (Lingco's Shaami reply is ahla w sahla fiik)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "أَلِف",
+   "arabic_bare": "ألف",
+   "translit": "alif",
+   "meaning": "letter name: alif (ا)",
+   "register": "formal",
+   "kind": "letter-name",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4029.0,
+     "quote": "or just alif"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 118.1,
+     "quote": "and alif as well"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4031.4,
+     "end": 4032.25,
+     "context": "'or just alif'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4032.55,
+     "end": 4032.85,
+     "context": "'alif' repeated",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4157.8,
+     "end": 4158.25,
+     "context": "'if you see it on an alif'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 118.1,
+     "end": 118.6,
+     "context": "'and alif as well' (ketchup bag)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Seat of initial hamza; 'the second alif... it's coming after another vowel' = long aa (akhawaat)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "واو",
+   "arabic_bare": "واو",
+   "translit": "waaw",
+   "meaning": "letter name: waaw (و)",
+   "register": "formal",
+   "kind": "letter-name",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4072.1,
+     "quote": "so sometimes it will appear on a waaw"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4151.2,
+     "quote": "if you see it on a waaw, think of [u]"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4075.4,
+     "end": 4076.2,
+     "context": "'appear on a waaw'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4152.9,
+     "end": 4153.5,
+     "context": "'if you see it on a waaw'",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Hamza seat: on waaw think of u (ؤ)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "ياء",
+   "arabic_bare": "ياء",
+   "translit": "yaa'",
+   "meaning": "letter name: yaa' (ي)",
+   "register": "formal",
+   "kind": "letter-name",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4078.0,
+     "quote": "and sometimes it will appear on a yaa', because yaa' we have several forms"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 4093.3,
+     "quote": "only at the end of the word on independent yaa'"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4080.1,
+     "end": 4081.3,
+     "context": "'appear on a yaa''",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4082.6,
+     "end": 4083.3,
+     "context": "'because yaa' we have several forms'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4096.5,
+     "end": 4097.4,
+     "context": "'independent yaa''",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4133.4,
+     "end": 4133.9,
+     "context": "'on the yaa''",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Hamza seat: a tooth without the two dots in the middle of a word (ئـ), think of i; final ئ on an independent yaa'."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "باء",
+   "arabic_bare": "باء",
+   "translit": "baa'",
+   "meaning": "letter name: baa' (ب)",
+   "register": "formal",
+   "kind": "letter-name",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 116.1,
+     "quote": "you could tell the baa', right?"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 116.2,
+     "end": 116.8,
+     "context": "'you could tell the baa'' (ketchup bag)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Spotted on the ketchup bag.",
+    "Spelling as printed in the book, Unit 4 Listening Exercise 4 (letter names ending in hamza, p. 69)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "تاء",
+   "arabic_bare": "تاء",
+   "translit": "taa'",
+   "meaning": "letter name: taa' (ت)",
+   "register": "formal",
+   "kind": "letter-name",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 114.7,
+     "quote": "you could tell the taa'"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 1804.9,
+     "quote": "the thaa', we're lazy about the thaa', we turn it into taa'"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 115.0,
+     "end": 115.5,
+     "context": "'you could tell the taa''",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1807.9,
+     "end": 1808.45,
+     "context": "'we turn it into taa''",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2030.4,
+     "end": 2031.1,
+     "context": "'into taa''",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Shaami turns thaa' into taa' (tneen, tlaate, tmaane).",
+    "Spelling as printed in the book, Unit 4 Listening Exercise 4 (letter names ending in hamza, p. 69)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "ثاء",
+   "arabic_bare": "ثاء",
+   "translit": "thaa'",
+   "meaning": "letter name: thaa' (ث)",
+   "register": "formal",
+   "kind": "letter-name",
+   "status": "used",
+   "book_unit": 2,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 1804.8,
+     "quote": "so the thaa', we're lazy about the thaa', we turn it into taa'"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1805.3,
+     "end": 1805.75,
+     "context": "'so the thaa''",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1806.8,
+     "end": 1807.25,
+     "context": "'about the thaa''",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2029.8,
+     "end": 2030.4,
+     "context": "'we turn the thaa''",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2850.0,
+     "end": 2850.8,
+     "context": "'thaa' turn into taa''",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "'We're lazy about the thaa'' -- Levantine replaces it with taa'.",
+    "Spelling as printed in the book, Unit 4 Listening Exercise 4 (letter names ending in hamza, p. 69)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "جيم",
+   "arabic_bare": "جيم",
+   "translit": "jiim",
+   "meaning": "letter name: jiim (ج)",
+   "register": "formal",
+   "kind": "letter-name",
+   "status": "used",
+   "book_unit": 3,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 706.5,
+     "quote": "don't put it for instance on the jiim"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 707.1,
+     "end": 707.7,
+     "context": "'on the jiim' (writing-quiz tashkiil note)",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Writing-quiz aside (688-716)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "med"
+  },
+  {
+   "arabic": "حاء",
+   "arabic_bare": "حاء",
+   "translit": "Haa'",
+   "meaning": "letter name: Haa' (ح)",
+   "register": "formal",
+   "kind": "letter-name",
+   "status": "used",
+   "book_unit": 3,
+   "spelling_source": "lingco",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 710.9,
+     "quote": "put it on the Haa'"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 1716.3,
+     "quote": "the H is capital H, that means it's a Haa'"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1719.5,
+     "end": 1719.9,
+     "context": "'that means it's a Haa''",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 711.0,
+     "end": 711.5,
+     "context": "'put it on the Haa''",
+     "confidence": "med"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Capital H in transliteration = Haa' (waaHid).",
+    "Spelling as printed in the book, Unit 4 Listening Exercise 4 (letter names ending in hamza, p. 69)."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "عَيْن",
+   "arabic_bare": "عين",
+   "translit": "cayn",
+   "meaning": "letter name: cayn (ع) -- not yet taught as a letter",
+   "register": "formal",
+   "kind": "letter-name",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 2157.4,
+     "quote": "I need you here to exaggerate the cayn"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "t": 3538.0,
+     "quote": "the cayn is almost in every number"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2159.35,
+     "end": 2159.75,
+     "context": "'exaggerate the cayn'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2161.35,
+     "end": 2161.75,
+     "context": "'there is a cayn'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 2174.3,
+     "end": 2174.8,
+     "context": "'once we learn the cayn'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3539.7,
+     "end": 3540.2,
+     "context": "'the cayn is almost in every number'",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "Not taught yet as a letter, but in arbaca, sabca, tisca, cashara, cadad."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  },
+  {
+   "arabic": "شين",
+   "arabic_bare": "شين",
+   "translit": "shiin",
+   "meaning": "letter name: shiin (ش) -- not yet taught",
+   "register": "formal",
+   "kind": "letter-name",
+   "status": "used",
+   "book_unit": null,
+   "spelling_source": "own-knowledge",
+   "evidence": [
+    {
+     "file": "teams_2026-09-22",
+     "t": 4122.4,
+     "quote": "that's a shiin"
+    }
+   ],
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4122.9,
+     "end": 4124.3,
+     "context": "'that's a shiin' (pointing at shay' on the board)",
+     "confidence": "high"
+    }
+   ],
+   "slide_frame": null,
+   "card_notes": [
+    "First letter of shay'."
+   ],
+   "gender_pair_of": null,
+   "confidence": "high"
+  }
+ ],
+ "letters": [
+  {
+   "letter": "ء",
+   "notes": "HAMZA -- the one new letter (3962-4190, then LE1-3 4190-4610). A consonant = glottal stop ('the glottal stop'). Never on the line at the START of a word; always needs a seat: alif with fatHa (أَ 'a'), Damma (أُ 'u'), kasra UNDER the alif (إِ 'i'), or alif with no vowel (أ, sukuun sound -- 'usually we don't write the sukuun at the top of hamza'); in the middle on waaw (ؤ, 'think of u') or on a dotless yaa' tooth (ئـ, 'think of i sound but don't write the dots'); on the line by itself only at the END of a word (شيء). At the start of a word it is 'sometimes written, sometimes not, but you still have to pronounce it -- we cannot start a word with a vowel'; follow the tashkiil. Exception: al- never takes a hamza. The spelling rule is 300-level. Board frames t4125/t4143 show all the seats.",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4022.7,
+     "end": 4023.2,
+     "context": "the sound of أَ: 'we have [a]'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4024.9,
+     "end": 4025.3,
+     "context": "the sound of أُ: '[u]'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4027.3,
+     "end": 4027.75,
+     "context": "the sound of إِ: '[i]'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 3993.5,
+     "end": 3994.9,
+     "context": "'So, hamza, or the glottal stop'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4151.1,
+     "end": 4154.5,
+     "context": "'if you see it on a waaw, think of [u]'",
+     "confidence": "med"
+    }
+   ]
+  },
+  {
+   "letter": "ا",
+   "notes": "Seat for initial hamza (alif-hamza); 'Alif at the beginning of a word is always a seat for hamza' (book) -- she showed أَ أُ إِ أ on the board. Second alif in akhawaat is the long vowel because it follows another vowel letter (4230-4267).",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4031.4,
+     "end": 4032.25,
+     "context": "'or just alif'",
+     "confidence": "med"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4232.1,
+     "end": 4232.9,
+     "context": "'the first alif'",
+     "confidence": "med"
+    }
+   ]
+  },
+  {
+   "letter": "و",
+   "notes": "Hamza seat ؤ ('think of u'); in akhawaat the waaw is a consonant w because two vowel letters come together.",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4075.4,
+     "end": 4076.2,
+     "context": "'appear on a waaw'",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4151.1,
+     "end": 4154.5,
+     "context": "'on a waaw, think of u'",
+     "confidence": "med"
+    }
+   ]
+  },
+  {
+   "letter": "ي",
+   "notes": "Hamza seat: medial tooth WITHOUT the two dots (ئـ); final ئ on an 'independent yaa''. 'When you see this letter, think of [i] sound, but don't write the dots' (4106-4114).",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 4080.1,
+     "end": 4081.3,
+     "context": "'appear on a yaa''",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 4108.3,
+     "end": 4112.0,
+     "context": "'think of [i] sound'",
+     "confidence": "med"
+    }
+   ]
+  },
+  {
+   "letter": "ب",
+   "notes": "Only incidental: spotted on the ketchup bag (116); ab = alif-hamza-fatHa + baa' (4283-4289).",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 116.2,
+     "end": 116.8,
+     "context": "'the baa''",
+     "confidence": "med"
+    }
+   ]
+  },
+  {
+   "letter": "ت",
+   "notes": "Shaami replaces thaa' with taa' (tneen, tlaate, tmaane).",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1807.9,
+     "end": 1808.45,
+     "context": "'into taa''",
+     "confidence": "med"
+    }
+   ]
+  },
+  {
+   "letter": "ث",
+   "notes": "'We're lazy about the thaa'' -- in Shaami it becomes taa' (1804-1808, 2028-2031, 2850-2851). thalaatha, thamaaniya, athaath, ithbaat.",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1805.3,
+     "end": 1805.75,
+     "context": "'so the thaa''",
+     "confidence": "high"
+    },
+    {
+     "file": "teams_2026-09-22",
+     "start": 1806.8,
+     "end": 1807.25,
+     "context": "'about the thaa''",
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "letter": "ج",
+   "notes": "Only in the writing-quiz aside ('don't put it on the jiim', 707).",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 707.1,
+     "end": 707.7,
+     "context": "'on the jiim'",
+     "confidence": "med"
+    }
+   ]
+  },
+  {
+   "letter": "ح",
+   "notes": "'The H is capital H, that means it's a Haa'' -- waaHid is NOT waahid (1715-1724). ibHaar.",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1719.5,
+     "end": 1719.9,
+     "context": "'it's a Haa''",
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "letter": "خ",
+   "notes": "No explanation today; heard in khamsa, akh, ukht, akhawaat, ukhrija.",
+   "her_clear_utterances": []
+  },
+  {
+   "letter": "د ذ ر ز",
+   "notes": "Not taught on 9/22. She said she'd introduce two letters on Thursday 9/24 (1224-1231); the Unit 4 homework drills contain them.",
+   "her_clear_utterances": []
+  },
+  {
+   "letter": "ع (outside Units 1-4)",
+   "notes": "Exaggerate it in arbaca so you'll spell it right later; 'almost in every number'.",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 2159.35,
+     "end": 2159.75,
+     "context": "'exaggerate the cayn'",
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "letter": "ل (outside Units 1-4)",
+   "notes": "Arabic L is always light -- not the dark English L of 'falafel' (1985-2020).",
+   "her_clear_utterances": [
+    {
+     "file": "teams_2026-09-22",
+     "start": 1992.9,
+     "end": 1999.9,
+     "context": "explaining the deep English L (English sentence)",
+     "confidence": "med"
+    }
+   ]
+  },
+  {
+   "letter": "س (outside Units 1-4)",
+   "notes": "khamsa has an S (siin), not a hamza: 'make sure it's not [khamza], it's an S' (3517-3521).",
+   "her_clear_utterances": []
+  }
+ ],
+ "unresolved": [
+  "mara (2632.6-2633.9): en pass heard 'matter', Teams 'Mara'; the nightly record wrote mar'a. Listen: is it Shaami mara or FuSHa (i)mra'a? The following clause (2640-2643, 'and [fuSHa?] it works for just a lady') is also unclear.",
+  "haadhihi sitt / ismuhaa Saara (3769-3780): reconstructed from ar pass هاذهي ست + en 'how do he sit... her name is mohan sara'. Listen before carding.",
+  "cindahaa thamaaniya (3942.2-3944.2): only the ar pass heard it (en silent). Listen.",
+  "laysa (2495.5-2498.2): clearly her voice, but the student's question is gated out; Teams caption suggests 'what's the negative?'.",
+  "athaath (LE2 #5): the Arabic word after 'and last one' (4538.0-4539.2, maybe 4540.9-4541.9) was not transcribed by either pass.",
+  "calaa s-saTr (4061.0-4061.9): ar 'al-assatur' vs Teams 'Alison' -- may be a student's name.",
+  "saba' (4347-4353): 'or you could also say [...] if there is a fatHa there' -- she may have given a variant pronunciation; not recoverable from transcripts.",
+  "Shaami eight (2847-2855): tmaane vs tamaanye -- pick the transliteration by ear.",
+  "Possible 'SaH' (correct/right) on her mic at 3341.5-3342.2 and 3651.5-3651.7 (ar pass only; could be translation of English 'yes'). Not listed as a word.",
+  "Review stretch 1920-1945 (Sifr, waaHid, ithnayn recap) and the Sara-game count 3844-3860: both passes lost word timing; usable clips likely but not pinned.",
+  "Writing quiz 688-716: a student asked 'on or under?' and her answer is not audible.",
+  "LE3 items 5-6 (إِخْبار, أُثْبِتَ) were NOT read in class (she stopped at #4 and left the rest for Lingco); those two have Lingco audio only, none of her voice."
+ ]
+}

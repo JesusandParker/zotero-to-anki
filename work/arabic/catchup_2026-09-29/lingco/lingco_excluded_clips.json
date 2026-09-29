@@ -1,0 +1,794 @@
+[
+ {
+  "file": "u01_0001_good_morning_masri.mp3",
+  "origin": "AB3e_U1LE2-06.mp3",
+  "lesson": "Good morning!",
+  "entry": "u01_0001",
+  "reason": "Unit 1 LE2 Egyptian row (exists only as Egyptian audio) — excluded by rule",
+  "lingco_uuid": "734cde91-a69b-4c16-9ccc-eee2d90d486d"
+ },
+ {
+  "file": "u01_0002_how_are_you_masri.mp3",
+  "origin": "AB3e_U1LE2-07.mp3",
+  "lesson": "How are you?",
+  "entry": "u01_0002",
+  "reason": "Unit 1 LE2 Egyptian row (exists only as Egyptian audio) — excluded by rule",
+  "lingco_uuid": "237969d5-f3ce-4c3a-8d10-42a2742c1c45"
+ },
+ {
+  "file": "u01_0003_good_masri.mp3",
+  "origin": "AB3e_U1LE2-08.mp3",
+  "lesson": "Good",
+  "entry": "u01_0003",
+  "reason": "Unit 1 LE2 Egyptian row (exists only as Egyptian audio) — excluded by rule",
+  "lingco_uuid": "a1b564f2-9c57-472d-8ed4-6d6e55f0be51"
+ },
+ {
+  "file": "u01_0004_good_bye_masri.mp3",
+  "origin": "AB3e_U1LE2-09.mp3",
+  "lesson": "Good-bye",
+  "entry": "u01_0004",
+  "reason": "Unit 1 LE2 Egyptian row (exists only as Egyptian audio) — excluded by rule",
+  "lingco_uuid": "e917bcff-6446-4a59-8f82-2f0e9b2ff03c"
+ },
+ {
+  "file": "u01_0005_i_love_masri.mp3",
+  "origin": "AB3e_U1LE2-10.mp3",
+  "lesson": "I love…",
+  "entry": "u01_0005",
+  "reason": "Unit 1 LE2 Egyptian row (exists only as Egyptian audio) — excluded by rule",
+  "lingco_uuid": "f4be7a8c-d660-457a-a295-18005c07eed2"
+ },
+ {
+  "file": "u01_0006_issalaamu_calaykum_masri.mp3",
+  "origin": "AB3e_U1VE-01.mp3",
+  "lesson": "Greetings! (Islamic greeting)",
+  "entry": "u01_0006",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "2f823f09-779b-44b4-8eca-8bb3206bdf69"
+ },
+ {
+  "file": "u01_0007_ahlan_masri.mp3",
+  "origin": "AB3e_U1VE-02.mp3",
+  "lesson": "Hello! or Hi! (used more in Egypt than the Levant)",
+  "entry": "u01_0007",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "e398edb4-3664-43a5-94d3-e7f573a870a1"
+ },
+ {
+  "file": "u01_0008_ahlan_wa_sahlan_masri.mp3",
+  "origin": "AB3e_U1VE-03.mp3",
+  "lesson": "Hello",
+  "entry": "u01_0008",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "6623e4e1-230c-4132-b93f-f6316081893a"
+ },
+ {
+  "file": "u01_0010_ana_masri.mp3",
+  "origin": "AB3e_U1VE-05.mp3",
+  "lesson": "I",
+  "entry": "u01_0010",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "ea333bf1-83da-4f18-afd3-a101999e7287"
+ },
+ {
+  "file": "u01_0011_ismi_masri.mp3",
+  "origin": "AB3e_U1VE-06.mp3",
+  "lesson": "my name",
+  "entry": "u01_0011",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "c2c85449-2904-41e2-a4be-a76253964acb"
+ },
+ {
+  "file": "u01_0012_min_masri.mp3",
+  "origin": "AB3e_U1VE-07.mp3",
+  "lesson": "from",
+  "entry": "u01_0012",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "d0035e3d-1294-4365-ae2a-43144dd2dbcc"
+ },
+ {
+  "file": "u01_0013_midiinit_masri.mp3",
+  "origin": "AB3e_U1VE-08.mp3",
+  "lesson": "the city of …",
+  "entry": "u01_0013",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "22d9a275-cc38-49d7-9522-28300b0e4c45"
+ },
+ {
+  "file": "u01_0014_fi_masri.mp3",
+  "origin": "AB3e_U1VE-09.mp3",
+  "lesson": "in",
+  "entry": "u01_0014",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "1177b417-8d64-4df1-815b-2e86a82b9bc7"
+ },
+ {
+  "file": "u02_0015_door_masri.mp3",
+  "origin": "AB3e_U2VE-01.mp3",
+  "lesson": "door",
+  "entry": "u02_0015",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "8313c5de-4805-470b-ae44-aa5132b4e166"
+ },
+ {
+  "file": "u02_0016_ism_masri.mp3",
+  "origin": "AB3e_U2VE-02.mp3",
+  "lesson": "name",
+  "entry": "u02_0016",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "05b57abe-a084-43b0-acdb-0f898e1421a5"
+ },
+ {
+  "file": "u02_0017_ee_masri.mp3",
+  "origin": "AB3e_U2VE-03.mp3",
+  "lesson": "what?",
+  "entry": "u02_0017",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "83bd3d1e-2ce2-47dc-97d2-394fddc0212f"
+ },
+ {
+  "file": "u02_0018_ahlan_biik_masri.mp3",
+  "origin": "AB3e_U2VE-04.mp3",
+  "lesson": "(reply) to ahlan wa sahlan (to a male)",
+  "entry": "u02_0018",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "50690d4d-bb1f-4ca1-a288-677372c4a0de"
+ },
+ {
+  "file": "u02_0019_ahlan_biiki_masri.mp3",
+  "origin": "AB3e_U2VE-05.mp3",
+  "lesson": "(reply to) ahlan wa sahlan (to a female)",
+  "entry": "u02_0019",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "8414c6f9-2f80-4cca-9228-8a861c2e4668"
+ },
+ {
+  "file": "u02_0020_wa_calaykumu_s_salaam_masri.mp3",
+  "origin": "AB3e_U2VE-06.mp3",
+  "lesson": "(reply to) assalaamu calaykumyou (polite form, to a male)",
+  "entry": "u02_0020",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "bcd96e14-484b-4101-83ef-81801f762520"
+ },
+ {
+  "file": "u02_0021_hadritak_masri.mp3",
+  "origin": "AB3e_U2VE-07.mp3",
+  "lesson": "you (polite form, to a male)",
+  "entry": "u02_0021",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "bfd64888-425e-4518-a872-413baac26142"
+ },
+ {
+  "file": "u02_0022_hadritik_masri.mp3",
+  "origin": "AB3e_U2VE-08.mp3",
+  "lesson": "you (polite form, to a female)",
+  "entry": "u02_0022",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "636a968d-c741-4d2a-a2eb-550c2ce6aa0b"
+ },
+ {
+  "file": "u02_0023_itsharrafna_masri.mp3",
+  "origin": "AB3e_U2VE-09.mp3",
+  "lesson": "Nice to meet you!",
+  "entry": "u02_0023",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "90321290-ba2c-4741-aab8-a15ad85ae6d4"
+ },
+ {
+  "file": "u02_0024_inta_masri.mp3",
+  "origin": "AB3e_U2VE-10.mp3",
+  "lesson": "you (masculine)",
+  "entry": "u02_0024",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "70f82a12-ea89-4357-af7b-d161b0ebf4b2"
+ },
+ {
+  "file": "u02_0025_inti_masri.mp3",
+  "origin": "AB3e_U2VE-11.mp3",
+  "lesson": "you (feminine)",
+  "entry": "u02_0025",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "9311760e-7eef-4cc3-9928-ef19af058ea3"
+ },
+ {
+  "file": "u02_0026_akismak_masri.mp3",
+  "origin": "AB3e_U2VE-13.mp3",
+  "lesson": "your (suffix, masculine) your name",
+  "entry": "u02_0026",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "3749b7d3-b174-48d0-b2b7-4e959fe68246"
+ },
+ {
+  "file": "u02_0027_ikismik_masri.mp3",
+  "origin": "AB3e_U2VE-14.mp3",
+  "lesson": "your (suffix, feminine) your name",
+  "entry": "u02_0027",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "f25dd183-cf62-4ce0-bdcb-0a9604d17d1d"
+ },
+ {
+  "file": "u02_0028_feen_masri.mp3",
+  "origin": "AB3e_U2VE-15.mp3",
+  "lesson": "where?",
+  "entry": "u02_0028",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "c5aa5e73-9bcb-4d34-b5f6-a2a9b2797eea"
+ },
+ {
+  "file": "u02_0029_mineen_masri.mp3",
+  "origin": "AB3e_U2VE-16.mp3",
+  "lesson": "from where?",
+  "entry": "u02_0029",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "e4a5bfd2-b7f9-45d9-818c-5263965420b2"
+ },
+ {
+  "file": "u02_0030_aywa_masri.mp3",
+  "origin": "AB3e_U2VE-17.mp3",
+  "lesson": "yes",
+  "entry": "u02_0030",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "fdbebd0a-aee8-4775-90ae-722b878f82d3"
+ },
+ {
+  "file": "u02_0031_la_masri.mp3",
+  "origin": "AB3e_U2VE-18.mp3",
+  "lesson": "no",
+  "entry": "u02_0031",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "1a1a263f-6d39-4972-9090-5a126f37bbb9"
+ },
+ {
+  "file": "u03_0032_and_masri.mp3",
+  "origin": "AB3e_U3VE-01.mp3",
+  "lesson": "and",
+  "entry": "u03_0032",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "121e0a27-369d-4d1f-ba42-beb30d81441c"
+ },
+ {
+  "file": "u03_0033_veil_head_covering_masri.mp3",
+  "origin": "AB3e_U3VE-02.mp3",
+  "lesson": "veil, head covering",
+  "entry": "u03_0033",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "c9903a57-1e73-468c-862e-3b86fdb3fe72"
+ },
+ {
+  "file": "u03_0034_house_masri.mp3",
+  "origin": "AB3e_U3VE-03.mp3",
+  "lesson": "house",
+  "entry": "u03_0034",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "e11192ce-020c-4ecd-8009-afc3df497516"
+ },
+ {
+  "file": "u03_0035_shaaric_masri.mp3",
+  "origin": "AB3e_U3VE-04.mp3",
+  "lesson": "street",
+  "entry": "u03_0035",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "68d9ae60-5667-4216-8ad1-b4654df4d2ad"
+ },
+ {
+  "file": "u03_0036_homework_masri.mp3",
+  "origin": "AB3e_U3VE-05.mp3",
+  "lesson": "homework",
+  "entry": "u03_0036",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "bd5fb816-5ccf-4439-b115-71a3340ed46e"
+ },
+ {
+  "file": "u03_0037_akhbaar_masri.mp3",
+  "origin": "AB3e_U3VE-06.mp3",
+  "lesson": "news",
+  "entry": "u03_0037",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "a204dfbf-f2ec-45ee-a3dc-9c9970929bd8"
+ },
+ {
+  "file": "u03_0038_kitaab_masri.mp3",
+  "origin": "AB3e_U3VE-07.mp3",
+  "lesson": "book",
+  "entry": "u03_0038",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "be5bb72c-61c5-4859-b45c-4e6280814fcf"
+ },
+ {
+  "file": "u03_0039_my_male_dear_darling_masri.mp3",
+  "origin": "AB3e_U3VE-08.mp3",
+  "lesson": "my (male) dear, darling",
+  "entry": "u03_0039",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "c9a7a9ec-1c66-494c-95c5-50226e3b3c51"
+ },
+ {
+  "file": "u03_0040_my_female_dear_darling_masri.mp3",
+  "origin": "AB3e_U3VE-09.mp3",
+  "lesson": "my (female) dear, darling",
+  "entry": "u03_0040",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "192f2fab-433b-4d62-9bf7-048516a44786"
+ },
+ {
+  "file": "u03_0041_sabaah_il_kheer_masri.mp3",
+  "origin": "AB3e_U3VE-10.mp3",
+  "lesson": "Good morning!",
+  "entry": "u03_0041",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "87f4dc21-71c2-42a2-b277-1b99f9f822d0"
+ },
+ {
+  "file": "u03_0042_sabaah_in_nuur_masri.mp3",
+  "origin": "AB3e_U3VE-11.mp3",
+  "lesson": "(response to) Good morning!",
+  "entry": "u03_0042",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "e4928ee7-459b-42e0-ac6e-23a28eeb7c5b"
+ },
+ {
+  "file": "u03_0043_signal_that_you_are_addressi_masri.mp3",
+  "origin": "AB3e_U3VE-12.mp3",
+  "lesson": "signal that you are addressing someone directly",
+  "entry": "u03_0043",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "bffae44d-232f-45b7-870f-32bab3ba1b7a"
+ },
+ {
+  "file": "u03_0044_izzayy_masri.mp3",
+  "origin": "AB3e_U3VE-13.mp3",
+  "lesson": "How?",
+  "entry": "u03_0044",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "5128e750-02e4-4694-8a55-232f45d4e9fe"
+ },
+ {
+  "file": "u03_0045_izzayyak_ik_masri.mp3",
+  "origin": "AB3e_U3VE-14.mp3",
+  "lesson": "How are you? (masc./fem.)",
+  "entry": "u03_0045",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "2e8ea495-d63f-4a21-bd5f-c951d2baef7b"
+ },
+ {
+  "file": "u03_0046_il_hamdu_lillaah_masri.mp3",
+  "origin": "AB3e_U3VE-15.mp3",
+  "lesson": "(response to) How are you?",
+  "entry": "u03_0046",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "ecf43af8-829c-4c6d-8c91-61140ff479ed"
+ },
+ {
+  "file": "u03_0047_tamaam_masri.mp3",
+  "origin": "AB3e_U3VE-16.mp3",
+  "lesson": "great, fine",
+  "entry": "u03_0047",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "be836da0-76a3-4bdc-bb8f-f341ba5eddab"
+ },
+ {
+  "file": "u03_0048_maashi_masri.mp3",
+  "origin": "AB3e_U3VE-17.mp3",
+  "lesson": "OK",
+  "entry": "u03_0048",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "c4f70f21-6266-4411-af49-eac0dc9ae762"
+ },
+ {
+  "file": "u03_0049_da_masri.mp3",
+  "origin": "AB3e_U3VE-18.mp3",
+  "lesson": "this (masc.)",
+  "entry": "u03_0049",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "c0f9d676-5755-49a8-a2d2-7a7b10158a95"
+ },
+ {
+  "file": "u03_0050_di_masri.mp3",
+  "origin": "AB3e_U3VE-19.mp3",
+  "lesson": "this (fem.)",
+  "entry": "u03_0050",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "b1fdd514-e597-445e-ae2d-745f456d907f"
+ },
+ {
+  "file": "u03_0051_kuwayyis_kuwayyisa_masri.mp3",
+  "origin": "AB3e_U3VE-20.mp3",
+  "lesson": "good (masc.) / good (fem.)",
+  "entry": "u03_0051",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "c16c3028-d5a0-4699-a32b-96a9e3f29609"
+ },
+ {
+  "file": "u03_0052_mish_masri.mp3",
+  "origin": "AB3e_U3VE-21.mp3",
+  "lesson": "(am/are/is) not",
+  "entry": "u03_0052",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "d3c01cfa-1ae1-41dc-b5b8-1237badba334"
+ },
+ {
+  "file": "u04_0053_itfaddal_masri.mp3",
+  "origin": "AB3e_U4VE-09.mp3",
+  "lesson": "please come in, go ahead (to a male)",
+  "entry": "u04_0053",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "f079b709-2753-4537-9430-086b9504cb87"
+ },
+ {
+  "file": "u04_0054_itfaddali_masri.mp3",
+  "origin": "AB3e_U4VE-10.mp3",
+  "lesson": "please come in, go ahead (to a female)",
+  "entry": "u04_0054",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "83edf566-0397-4017-b985-68fa50d184f3"
+ },
+ {
+  "file": "u04_0055_itfaddalu_masri.mp3",
+  "origin": "AB3e_U4VE-11.mp3",
+  "lesson": "please come in, go ahead (plural)",
+  "entry": "u04_0055",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "b60f1286-57ea-4593-a162-497160b3c279"
+ },
+ {
+  "file": "u04_0056_sahbi_masri.mp3",
+  "origin": "AB3e_U4VE-14.mp3",
+  "lesson": "my (male) friend; my boyfriend",
+  "entry": "u04_0056",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "58ec8802-686f-4d48-a0d8-bfe6072a6fe1"
+ },
+ {
+  "file": "u04_0057_sahbiti_masri.mp3",
+  "origin": "AB3e_U4VE-15.mp3",
+  "lesson": "my (female) friend; my girlfriend",
+  "entry": "u04_0057",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "8812e860-145f-494c-9709-030c6285bb95"
+ },
+ {
+  "file": "u04_0058_huwwa_masri.mp3",
+  "origin": "AB3e_U4VE-16.mp3",
+  "lesson": "he/it (masc.)",
+  "entry": "u04_0058",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "88edb22e-268f-487c-aaab-955fc338743a"
+ },
+ {
+  "file": "u04_0059_hiyya_masri.mp3",
+  "origin": "AB3e_U4VE-17.mp3",
+  "lesson": "she/it (fem.)",
+  "entry": "u04_0059",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "1335a3cb-6801-469f-8734-62804ea36a80"
+ },
+ {
+  "file": "u04_0060_uismu_masri.mp3",
+  "origin": "AB3e_U4VE-18.mp3",
+  "lesson": "his his name",
+  "entry": "u04_0060",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "9f986424-cff0-49cf-bd9f-6e0b54278794"
+ },
+ {
+  "file": "u04_0061_haismaha_masri.mp3",
+  "origin": "AB3e_U4VE-19.mp3",
+  "lesson": "her/hers her name",
+  "entry": "u04_0061",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "0fe75732-4616-42d1-b8b0-080e2c47a35c"
+ },
+ {
+  "file": "u04_0062_taalib_masri.mp3",
+  "origin": "AB3e_U4VE-23.mp3",
+  "lesson": "student (male)",
+  "entry": "u04_0062",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "18331fe4-2aed-486d-b981-2a860c98c349"
+ },
+ {
+  "file": "u04_0063_taaliba_masri.mp3",
+  "origin": "AB3e_U4VE-24.mp3",
+  "lesson": "your student (female)",
+  "entry": "u04_0063",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "e183922e-25d0-4bf9-8e6f-f639bc98dbf0"
+ },
+ {
+  "file": "u04_0064_ustaaz_masri.mp3",
+  "origin": "AB3e_U4VE-25.mp3",
+  "lesson": "professor, teacher (male)",
+  "entry": "u04_0064",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "a9a78898-8fa3-41dd-8218-a1ac6f7da4b3"
+ },
+ {
+  "file": "u04_0065_ustaaza_masri.mp3",
+  "origin": "AB3e_U4VE-26.mp3",
+  "lesson": "professor, teacher (female)",
+  "entry": "u04_0065",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "b79cb050-3ad6-4627-8382-82025321e51f"
+ },
+ {
+  "file": "u04_0066_gamcit_masri.mp3",
+  "origin": "AB3e_U4VE-27.mp3",
+  "lesson": "university of...",
+  "entry": "u04_0066",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "e2ea453a-ff2c-4431-86ec-26e09e2d8350"
+ },
+ {
+  "file": "u04_0067_ceesh_masri.mp3",
+  "origin": "AB3e_U4VE-01.mp3",
+  "lesson": "bread",
+  "entry": "u04_0067",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "6ac5d819-c718-420c-bf7a-7f69bdf0798e"
+ },
+ {
+  "file": "u04_0068_firaakh_masri.mp3",
+  "origin": "AB3e_U4VE-02.mp3",
+  "lesson": "chicken",
+  "entry": "u04_0068",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "5a99f4d5-62f0-4e6b-9989-d6218c80a2dd"
+ },
+ {
+  "file": "u04_0069_neighbor_male_masri.mp3",
+  "origin": "AB3e_U4VE-03.mp3",
+  "lesson": "neighbor (male)",
+  "entry": "u04_0069",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "1ed1f223-d315-467e-9c8e-c9db212a07ed"
+ },
+ {
+  "file": "u04_0070_gaara_masri.mp3",
+  "origin": "AB3e_U4VE-04.mp3",
+  "lesson": "neighbor (female)",
+  "entry": "u04_0070",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "675f668b-1aa5-414d-a39c-01e5be581e64"
+ },
+ {
+  "file": "u04_0071_brother_masri.mp3",
+  "origin": "AB3e_U4VE-05.mp3",
+  "lesson": "brother",
+  "entry": "u04_0071",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "ee6ecca3-fb0c-4962-a632-17f839d81887"
+ },
+ {
+  "file": "u04_0072_sister_masri.mp3",
+  "origin": "AB3e_U4VE-06.mp3",
+  "lesson": "sister",
+  "entry": "u04_0072",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "612ca7df-d1fb-40f8-8de9-4d07ab793ae5"
+ },
+ {
+  "file": "u04_0073_new_masc_masri.mp3",
+  "origin": "AB3e_U4VE-07.mp3",
+  "lesson": "new (masc.)",
+  "entry": "u04_0073",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "5f7e8818-8621-4d20-be95-4129cb86ac92"
+ },
+ {
+  "file": "u04_0074_gidiida_masri.mp3",
+  "origin": "AB3e_U4VE-08.mp3",
+  "lesson": "new (fem.)",
+  "entry": "u04_0074",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "f02a88ce-29bb-4d28-9256-2f893069d65b"
+ },
+ {
+  "file": "u04_0075_misaa_il_kheer_masri.mp3",
+  "origin": "AB3e_U4VE-12.mp3",
+  "lesson": "Good evening!",
+  "entry": "u04_0075",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "b7236b37-89ec-46b0-b6f0-9991574e5ba4"
+ },
+ {
+  "file": "u04_0076_misaa_in_nuur_masri.mp3",
+  "origin": "AB3e_U4VE-13.mp3",
+  "lesson": "(response to) Good evening!",
+  "entry": "u04_0076",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "41d20f35-3386-41b9-a84c-1df606c78436"
+ },
+ {
+  "file": "u04_0077_candi_masri.mp3",
+  "origin": "AB3e_U4VE-20.mp3",
+  "lesson": "I have",
+  "entry": "u04_0077",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "c4ee19b3-8901-45a2-a024-1d6336aa3a5a"
+ },
+ {
+  "file": "u04_0078_ma_candiish_masri.mp3",
+  "origin": "AB3e_U4VE-21.mp3",
+  "lesson": "I don't have",
+  "entry": "u04_0078",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "4adfa984-dee8-40f0-bce2-e6ed21de42eb"
+ },
+ {
+  "file": "u04_0079_su_aal_masri.mp3",
+  "origin": "AB3e_U4VE-22.mp3",
+  "lesson": "question",
+  "entry": "u04_0079",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "a28cde36-d112-4987-a8f6-89573129a4ad"
+ },
+ {
+  "file": "u04_0080_i_love_masri.mp3",
+  "origin": "AB3e_U4VE-28.mp3",
+  "lesson": "I love",
+  "entry": "u04_0080",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "3252addc-83f8-4666-9e6b-7c6edcd9f556"
+ },
+ {
+  "file": "u04_0081_you_masc_love_masri.mp3",
+  "origin": "AB3e_U4VE-29.mp3",
+  "lesson": "you (masc.) love",
+  "entry": "u04_0081",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "851d3090-4d38-4629-8573-812152d81fc4"
+ },
+ {
+  "file": "u04_0082_you_fem_love_masri.mp3",
+  "origin": "AB3e_U4VE-30.mp3",
+  "lesson": "you (fem.) love",
+  "entry": "u04_0082",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "4004d827-aa79-433e-920b-b07a0fd801a3"
+ },
+ {
+  "file": "u04_0083_nimrit_tilifuun_masri.mp3",
+  "origin": "AB3e_U4VE-42.mp3",
+  "lesson": "telephone number",
+  "entry": "u04_0083",
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "82ff88da-a6f2-46a3-b70d-d00e5cca46b0"
+ },
+ {
+  "file": "u02_extra_4710d5d5.mp3",
+  "origin": "a4461459ced1684058c428d1b30de217.mp4",
+  "lesson": "Unit 2 / Drill 17",
+  "entry": null,
+  "reason": "Unit 2 Drill 17 — Scene 2, Egyptian version ('HaDritak min maSr?') — excluded (Egyptian)",
+  "lingco_uuid": "4710d5d5-b4e0-47d1-a54c-47e46e6bc5c1"
+ },
+ {
+  "file": "u03_extra_557e65e5.mp3",
+  "origin": "e6b2caadcad9de1210109125d238fb59.mp4",
+  "lesson": "Unit 3 / Drill 15",
+  "entry": null,
+  "reason": "Unit 3 Drill 15 — Scene 3A, Egyptian version ('izzay Hadritik?') — excluded (Egyptian)",
+  "lingco_uuid": "557e65e5-d77d-4e96-a8e5-eb4a30ab30e2"
+ },
+ {
+  "file": "u03_extra_fb69a342.mp3",
+  "origin": "ff32ad8eca40513ce49b4d037c524df9.mp4",
+  "lesson": "Unit 3 / Drill 15",
+  "entry": null,
+  "reason": "Unit 3 Drill 15 — Scene 3B, Egyptian version ('SabaaH l-kheer') — excluded (Egyptian)",
+  "lingco_uuid": "fb69a342-6dc4-4b56-95c3-6f7e95d7ef70"
+ },
+ {
+  "file": "u04_extra_bb4b4cf6.mp3",
+  "origin": "AB3e_NumE-00.mp3",
+  "lesson": "Unit 4 / Arabic Numerals",
+  "entry": null,
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "bb4b4cf6-9d20-458b-9350-400cffeec5b4"
+ },
+ {
+  "file": "u04_extra_155a5d76.mp3",
+  "origin": "AB3e_NumE-01.mp3",
+  "lesson": "Unit 4 / Arabic Numerals",
+  "entry": null,
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "155a5d76-8b64-49a8-a435-b10c1818bcdd"
+ },
+ {
+  "file": "u04_extra_a830e047.mp3",
+  "origin": "AB3e_NumE-02.mp3",
+  "lesson": "Unit 4 / Arabic Numerals",
+  "entry": null,
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "a830e047-875a-4439-b96e-27ae4b0f48d1"
+ },
+ {
+  "file": "u04_extra_e00f8b4b.mp3",
+  "origin": "AB3e_NumE-03.mp3",
+  "lesson": "Unit 4 / Arabic Numerals",
+  "entry": null,
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "e00f8b4b-92e2-49fd-85ea-44ff8e299607"
+ },
+ {
+  "file": "u04_extra_27faa2f6.mp3",
+  "origin": "AB3e_NumE-04.mp3",
+  "lesson": "Unit 4 / Arabic Numerals",
+  "entry": null,
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "27faa2f6-c7fc-44ef-915d-2424001197bd"
+ },
+ {
+  "file": "u04_extra_532773df.mp3",
+  "origin": "AB3e_NumE-05.mp3",
+  "lesson": "Unit 4 / Arabic Numerals",
+  "entry": null,
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "532773df-e3a8-40c9-bfc0-0a7653658688"
+ },
+ {
+  "file": "u04_extra_5378afb7.mp3",
+  "origin": "AB3e_NumE-06.mp3",
+  "lesson": "Unit 4 / Arabic Numerals",
+  "entry": null,
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "5378afb7-8a6a-4f6c-823e-168d87f7a8ee"
+ },
+ {
+  "file": "u04_extra_e5b24737.mp3",
+  "origin": "AB3e_NumE-07.mp3",
+  "lesson": "Unit 4 / Arabic Numerals",
+  "entry": null,
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "e5b24737-84ac-48b5-8f91-2e6f8335e069"
+ },
+ {
+  "file": "u04_extra_de253a4a.mp3",
+  "origin": "AB3e_NumE-08.mp3",
+  "lesson": "Unit 4 / Arabic Numerals",
+  "entry": null,
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "de253a4a-f766-44dd-969e-bb487a62b300"
+ },
+ {
+  "file": "u04_extra_e0d86066.mp3",
+  "origin": "AB3e_NumE-09.mp3",
+  "lesson": "Unit 4 / Arabic Numerals",
+  "entry": null,
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "e0d86066-2c58-47b0-b17c-669235790ff9"
+ },
+ {
+  "file": "u04_extra_9241d38f.mp3",
+  "origin": "AB3e_NumE-10.mp3",
+  "lesson": "Unit 4 / Arabic Numerals",
+  "entry": null,
+  "reason": "Egyptian (maSri) clip — excluded by rule",
+  "lingco_uuid": "9241d38f-2b8c-4568-954a-f48fafc0feb4"
+ },
+ {
+  "file": "u04_extra_625eeae3.mp3",
+  "origin": "5a5407d20d13316f8d010d12f09d0d57.mp4",
+  "lesson": "Unit 4 / Drill 4",
+  "entry": null,
+  "reason": "Unit 4 Drill 4 — Scene 4A, Egyptian version ('izayyak?') — excluded (Egyptian)",
+  "lingco_uuid": "625eeae3-7c30-42f9-93f2-0718d9d9b18c"
+ },
+ {
+  "file": "u04_extra_676c38b8.mp3",
+  "origin": "8b40f270562d53f84e41232eefe4c9a2.mp4",
+  "lesson": "Unit 4 / Drill 4",
+  "entry": null,
+  "reason": "Unit 4 Drill 4 — Scene 4B, Egyptian version ('al-Hamdu Lillah') — excluded (Egyptian)",
+  "lingco_uuid": "676c38b8-8c79-437d-958a-2623c37cbf73"
+ },
+ {
+  "file": "u04_extra_cda3daa4.mp3",
+  "origin": "02793a2b4fb4e48a361023963923c391.mp4",
+  "lesson": "Unit 4 / Drill 18",
+  "entry": null,
+  "reason": "Unit 4 Drill 18 — Scene 4C, first video (Lingco label 'tasharrafna'); PROBABLY EGYPTIAN: Egyptian-first order on every other scene pair, and a different set from the Levantine videos — verify before ever using — excluded (Egyptian)",
+  "lingco_uuid": "cda3daa4-5050-4818-b133-bb87824e43ec"
+ }
+]
