@@ -1,0 +1,1120 @@
+[
+ {
+  "slug": "thaabit",
+  "expect": "ثابت",
+  "at": [
+   [
+    "teams_2026-09-08",
+    1239.8,
+    1241.5
+   ],
+   [
+    "teams_2026-09-08",
+    1241.2,
+    1243.9
+   ]
+  ],
+  "out": "arabic_khouri_0908_thaabit.mp3",
+  "dmin": 0.45,
+  "dmax": 1.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "ثابت"
+ },
+ {
+  "slug": "tathbut",
+  "expect": "تثبت",
+  "at": [
+   [
+    "teams_2026-09-08",
+    1625.1,
+    1625.9
+   ],
+   [
+    "teams_2026-09-08",
+    1645.5,
+    1647.3
+   ]
+  ],
+  "out": "arabic_khouri_0908_tathbut.mp3",
+  "dmin": 0.45,
+  "dmax": 1.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "تثبت"
+ },
+ {
+  "slug": "thubuut",
+  "expect": "ثبوت",
+  "at": [
+   [
+    "teams_2026-09-08",
+    1746.5,
+    1748.2
+   ],
+   [
+    "teams_2026-09-08",
+    1748.5,
+    1749.8
+   ]
+  ],
+  "out": "arabic_khouri_0903_thubuut.mp3",
+  "dmin": 0.45,
+  "dmax": 1.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "ثبوت"
+ },
+ {
+  "slug": "tathbiit",
+  "expect": "تثبيت",
+  "at": [
+   [
+    "teams_2026-09-08",
+    699.2,
+    700.2
+   ],
+   [
+    "teams_2026-09-08",
+    895.1,
+    896.8
+   ],
+   [
+    "teams_2026-09-08",
+    893.0,
+    894.1
+   ],
+   [
+    "teams_2026-09-08",
+    622.1,
+    623.4
+   ],
+   [
+    "teams_2026-09-08",
+    620.2,
+    621.8
+   ]
+  ],
+  "out": "arabic_khouri_0908_tathbiit.mp3",
+  "dmin": 0.5,
+  "dmax": 1.8,
+  "budget": 150,
+  "priority": 0,
+  "key": "تثبيت"
+ },
+ {
+  "slug": "tuthbitii",
+  "expect": "تثبتي",
+  "at": [
+   [
+    "teams_2026-09-08",
+    1829.5,
+    1832.4
+   ],
+   [
+    "teams_2026-09-08",
+    1832.4,
+    1834.0
+   ],
+   [
+    "teams_2026-09-08",
+    1835.2,
+    1838.4
+   ],
+   [
+    "teams_2026-09-08",
+    2552.0,
+    2555.2
+   ]
+  ],
+  "out": "arabic_khouri_0903_tuthbitii.mp3",
+  "dmin": 0.5,
+  "dmax": 1.8,
+  "budget": 150,
+  "priority": 0,
+  "key": "تثبتي"
+ },
+ {
+  "slug": "baatat",
+  "expect": "باتت",
+  "at": [
+   [
+    "teams_2026-09-08",
+    1082.4,
+    1083.1
+   ]
+  ],
+  "out": "arabic_khouri_0908_baatat.mp3",
+  "dmin": 0.45,
+  "dmax": 1.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "باتت"
+ },
+ {
+  "slug": "thabaat",
+  "expect": "ثبات",
+  "at": [
+   [
+    "teams_2026-09-08",
+    1139.6,
+    1141.9
+   ],
+   [
+    "teams_2026-09-08",
+    1142.5,
+    1143.9
+   ],
+   [
+    "teams_2026-09-08",
+    1149.0,
+    1150.7
+   ]
+  ],
+  "out": "arabic_khouri_0903_thabaat.mp3",
+  "dmin": 0.45,
+  "dmax": 1.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "ثبات"
+ },
+ {
+  "slug": "thib",
+  "expect": "ثب",
+  "at": [
+   [
+    "teams_2026-09-08",
+    1806.15,
+    1806.7
+   ],
+   [
+    "teams_2026-09-08",
+    1807.2,
+    1807.7
+   ],
+   [
+    "teams_2026-09-08",
+    1808.45,
+    1808.85
+   ]
+  ],
+  "out": "arabic_khouri_0908_thib.mp3",
+  "dmin": 0.35,
+  "dmax": 1.2,
+  "budget": 150,
+  "priority": 0,
+  "key": "ثب"
+ },
+ {
+  "slug": "bit",
+  "expect": "بت",
+  "at": [
+   [
+    "teams_2026-09-08",
+    1840.1,
+    1842.0
+   ],
+   [
+    "teams_2026-09-08",
+    1843.3,
+    1844.2
+   ]
+  ],
+  "out": "arabic_khouri_0908_bit.mp3",
+  "dmin": 0.35,
+  "dmax": 1.2,
+  "budget": 150,
+  "priority": 0,
+  "key": "بت"
+ },
+ {
+  "slug": "tibb",
+  "expect": "طب",
+  "at": [
+   [
+    "teams_2026-09-08",
+    1856.3,
+    1857.3
+   ],
+   [
+    "teams_2026-09-08",
+    1855.5,
+    1857.4
+   ],
+   [
+    "teams_2026-09-08",
+    1867.7,
+    1869.9
+   ],
+   [
+    "teams_2026-09-08",
+    1846.7,
+    1848.6
+   ]
+  ],
+  "out": "arabic_khouri_0908_tibb.mp3",
+  "dmin": 0.35,
+  "dmax": 1.2,
+  "budget": 150,
+  "priority": 0,
+  "key": "طب"
+ },
+ {
+  "slug": "bataat",
+  "expect": "بتات",
+  "at": [
+   [
+    "teams_2026-09-08",
+    1012.7,
+    1015.3
+   ]
+  ],
+  "out": "arabic_khouri_0908_bataat.mp3",
+  "dmin": 0.45,
+  "dmax": 1.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "بتات"
+ },
+ {
+  "slug": "thabat",
+  "expect": "ثبت",
+  "at": [
+   [
+    "teams_2026-09-08",
+    1189.1,
+    1190.2
+   ],
+   [
+    "teams_2026-09-08",
+    1195.5,
+    1196.6
+   ],
+   [
+    "teams_2026-09-08",
+    2269.1,
+    2272.2
+   ],
+   [
+    "teams_2026-09-08",
+    2277.9,
+    2278.8
+   ]
+  ],
+  "out": "arabic_khouri_0903_thabat.mp3",
+  "dmin": 0.4,
+  "dmax": 1.4,
+  "budget": 150,
+  "priority": 0,
+  "key": "ثبت"
+ },
+ {
+  "slug": "thabutat",
+  "expect": "ثبتت",
+  "at": [
+   [
+    "teams_2026-09-08",
+    1320.7,
+    1323.8
+   ],
+   [
+    "teams_2026-09-08",
+    1324.0,
+    1325.4
+   ],
+   [
+    "teams_2026-09-08",
+    1325.6,
+    1327.1
+   ]
+  ],
+  "out": "arabic_khouri_0908_thabutat.mp3",
+  "dmin": 0.45,
+  "dmax": 1.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "ثبتت"
+ },
+ {
+  "slug": "tubtu",
+  "expect": "تبت",
+  "at": [
+   [
+    "teams_2026-09-08",
+    1409.3,
+    1410.1
+   ],
+   [
+    "teams_2026-09-08",
+    1343.9,
+    1345.0
+   ],
+   [
+    "teams_2026-09-08",
+    2427.3,
+    2428.6
+   ],
+   [
+    "teams_2026-09-08",
+    2438.2,
+    2439.2
+   ]
+  ],
+  "out": "arabic_khouri_0903_tubtu.mp3",
+  "dmin": 0.4,
+  "dmax": 1.4,
+  "budget": 150,
+  "priority": 0,
+  "key": "تبت"
+ },
+ {
+  "slug": "tabiit",
+  "expect": "تبيت",
+  "at": [
+   [
+    "teams_2026-09-08",
+    1544.0,
+    1544.8
+   ],
+   [
+    "teams_2026-09-08",
+    2701.45,
+    2701.8
+   ],
+   [
+    "teams_2026-09-08",
+    2702.65,
+    2703.6
+   ],
+   [
+    "teams_2026-09-08",
+    2696.7,
+    2697.2
+   ],
+   [
+    "teams_2026-09-08",
+    1547.3,
+    1548.0
+   ]
+  ],
+  "out": "arabic_khouri_0903_tabiit.mp3",
+  "dmin": 0.45,
+  "dmax": 1.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "تبيت"
+ },
+ {
+  "slug": "tatuub",
+  "expect": "تتوب",
+  "at": [
+   [
+    "teams_2026-09-08",
+    1579.0,
+    1580.3
+   ],
+   [
+    "teams_2026-09-08",
+    1582.2,
+    1583.6
+   ]
+  ],
+  "out": "arabic_khouri_0908_tatuub.mp3",
+  "dmin": 0.45,
+  "dmax": 1.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "تتوب"
+ },
+ {
+  "slug": "tujiib",
+  "expect": "تجيب",
+  "at": [
+   [
+    "teams_2026-09-08",
+    4577.35,
+    4579.65
+   ],
+   [
+    "teams_2026-09-08",
+    4579.6,
+    4582.0
+   ],
+   [
+    "teams_2026-09-08",
+    4641.35,
+    4642.0
+   ]
+  ],
+  "out": "arabic_khouri_0908_tujiib.mp3",
+  "dmin": 0.45,
+  "dmax": 1.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "تجيب"
+ },
+ {
+  "slug": "khudh",
+  "expect": "خذ",
+  "at": [
+   [
+    "teams_2026-09-29",
+    1530.9,
+    1531.8
+   ],
+   [
+    "teams_2026-09-29",
+    1532.9,
+    1533.6
+   ],
+   [
+    "teams_2026-09-29",
+    1533.6,
+    1534.3
+   ],
+   [
+    "teams_2026-09-29",
+    1539.6,
+    1540.7
+   ],
+   [
+    "teams_2026-09-29",
+    1549.6,
+    1550.0
+   ]
+  ],
+  "out": "arabic_khouri_0929_khudh.mp3",
+  "dmin": 0.35,
+  "dmax": 1.2,
+  "budget": 150,
+  "priority": 0,
+  "key": "خذ"
+ },
+ {
+  "slug": "bhibb",
+  "expect": "بحب",
+  "at": [
+   [
+    "teams_2026-09-29",
+    3370.6,
+    3371.3
+   ]
+  ],
+  "out": "arabic_khouri_0929_bhibb.mp3",
+  "dmin": 0.4,
+  "dmax": 1.4,
+  "budget": 150,
+  "priority": 0,
+  "key": "بحب"
+ },
+ {
+  "slug": "bithibbi",
+  "expect": "بتحبي",
+  "at": [
+   [
+    "teams_2026-09-29",
+    3372.7,
+    3373.5
+   ]
+  ],
+  "out": "arabic_khouri_0929_bithibbi.mp3",
+  "dmin": 0.5,
+  "dmax": 1.8,
+  "budget": 150,
+  "priority": 0,
+  "key": "بتحبي"
+ },
+ {
+  "slug": "thabaatii",
+  "expect": "ثباتي",
+  "at": [
+   [
+    "teams_2026-09-08",
+    2197.1,
+    2197.95
+   ],
+   [
+    "teams_2026-09-08",
+    2190.9,
+    2191.7
+   ]
+  ],
+  "out": "arabic_khouri_0903_thabaatii.mp3",
+  "dmin": 0.5,
+  "dmax": 1.8,
+  "budget": 150,
+  "priority": 0,
+  "key": "ثباتي"
+ },
+ {
+  "slug": "ism_hadirtik",
+  "expect": "اسم حضرتك؟",
+  "at": [
+   [
+    "teams_2026-09-08",
+    3616.2,
+    3618.0
+   ]
+  ],
+  "out": "arabic_khouri_0908_ism_hadirtik.mp3",
+  "dmin": 0.7,
+  "dmax": 2.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "اسم حضرتك"
+ },
+ {
+  "slug": "inti_min_ish_shaam",
+  "expect": "إنت من الشام؟/انت من الشام؟",
+  "at": [
+   [
+    "teams_2026-09-08",
+    3770.3,
+    3771.4
+   ],
+   [
+    "teams_2026-09-08",
+    3741.2,
+    3743.2
+   ]
+  ],
+  "out": "arabic_khouri_0908_inti_min_ish_shaam.mp3",
+  "dmin": 0.8,
+  "dmax": 3.0,
+  "budget": 150,
+  "priority": 0,
+  "key": "انت من الشام"
+ },
+ {
+  "slug": "w_inte_min_ween",
+  "expect": "وإنت من وين؟/وانت من وين؟",
+  "at": [
+   [
+    "teams_2026-09-08",
+    3784.1,
+    3785.7
+   ]
+  ],
+  "out": "arabic_khouri_0908_w_inte_min_ween.mp3",
+  "dmin": 0.75,
+  "dmax": 2.8,
+  "budget": 150,
+  "priority": 0,
+  "key": "وانت من وين"
+ },
+ {
+  "slug": "ash_shaam",
+  "expect": "الشام",
+  "at": [
+   [
+    "teams_2026-09-08",
+    3747.55,
+    3748.1
+   ],
+   [
+    "teams_2026-09-08",
+    3749.7,
+    3750.25
+   ],
+   [
+    "teams_2026-09-08",
+    3771.55,
+    3772.1
+   ]
+  ],
+  "out": "arabic_khouri_0908_ash_shaam.mp3",
+  "dmin": 0.5,
+  "dmax": 1.8,
+  "budget": 150,
+  "priority": 0,
+  "key": "الشام"
+ },
+ {
+  "slug": "beej",
+  "expect": "بيج",
+  "at": [
+   [
+    "teams_2026-09-08",
+    4721.95,
+    4722.6
+   ],
+   [
+    "teams_2026-09-08",
+    4723.75,
+    4724.15
+   ]
+  ],
+  "out": "arabic_khouri_0908_beej.mp3",
+  "dmin": 0.4,
+  "dmax": 1.4,
+  "budget": 150,
+  "priority": 0,
+  "key": "بيج"
+ },
+ {
+  "slug": "nimrit_tilifuunak",
+  "expect": "نمرة تليفونك",
+  "at": [
+   [
+    "teams_2026-09-29",
+    3472.6,
+    3474.7
+   ],
+   [
+    "teams_2026-09-29",
+    3474.7,
+    3477.3
+   ]
+  ],
+  "out": "arabic_khouri_0929_nimrit_tilifuunak.mp3",
+  "dmin": 0.8,
+  "dmax": 3.0,
+  "budget": 150,
+  "priority": 0,
+  "key": "نمره تليفونك"
+ },
+ {
+  "slug": "candu",
+  "expect": "عندو",
+  "at": [
+   [
+    "teams_2026-09-29",
+    3007.4,
+    3007.8
+   ],
+   [
+    "teams_2026-09-29",
+    3008.4,
+    3009.3
+   ]
+  ],
+  "out": "arabic_khouri_0929_candu.mp3",
+  "dmin": 0.45,
+  "dmax": 1.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "عندو"
+ },
+ {
+  "slug": "laa_laysa_cindii_suaal",
+  "expect": "لا، ليس عندي سؤال",
+  "at": [
+   [
+    "teams_2026-09-29",
+    3559.5,
+    3562.2
+   ]
+  ],
+  "out": "arabic_khouri_0929_laa_laysa_cindii_suaal.mp3",
+  "dmin": 0.95,
+  "dmax": 3.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "لا ليس عندي سءال"
+ },
+ {
+  "slug": "laa_shukran",
+  "expect": "لا شكرا",
+  "at": [
+   [
+    "teams_2026-09-29",
+    3546.2,
+    3547.5
+   ]
+  ],
+  "out": "arabic_khouri_0929_laa_shukran.mp3",
+  "dmin": 0.55,
+  "dmax": 2.0,
+  "budget": 150,
+  "priority": 0,
+  "key": "لا شكرا"
+ },
+ {
+  "slug": "cindahu",
+  "expect": "عنده",
+  "at": [
+   [
+    "teams_2026-09-29",
+    3066.0,
+    3069.4
+   ],
+   [
+    "teams_2026-09-29",
+    3069.4,
+    3071.6
+   ]
+  ],
+  "out": "arabic_khouri_0929_cindahu.mp3",
+  "dmin": 0.45,
+  "dmax": 1.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "عنده"
+ },
+ {
+  "slug": "cindanaa",
+  "expect": "عندنا",
+  "at": [
+   [
+    "teams_2026-09-29",
+    3137.9,
+    3138.4
+   ]
+  ],
+  "out": "arabic_khouri_0929_cindanaa.mp3",
+  "dmin": 0.5,
+  "dmax": 1.8,
+  "budget": 150,
+  "priority": 0,
+  "key": "عندنا"
+ },
+ {
+  "slug": "jaaruhaa",
+  "expect": "جارها",
+  "at": [
+   [
+    "teams_2026-09-29",
+    2504.4,
+    2506.2
+   ],
+   [
+    "teams_2026-09-29",
+    2506.2,
+    2508.3
+   ],
+   [
+    "phone_2026-09-29",
+    3243.1,
+    3244.9
+   ]
+  ],
+  "out": "arabic_khouri_0929_jaaruhaa.mp3",
+  "dmin": 0.5,
+  "dmax": 1.8,
+  "budget": 150,
+  "priority": 0,
+  "key": "جارها"
+ },
+ {
+  "slug": "dajaaj_jadiid",
+  "expect": "دجاج جديد",
+  "at": [
+   [
+    "teams_2026-09-29",
+    665.9,
+    667.1
+   ]
+  ],
+  "out": "arabic_khouri_0929_dajaaj_jadiid.mp3",
+  "dmin": 0.65,
+  "dmax": 2.4,
+  "budget": 150,
+  "priority": 0,
+  "key": "دجاج جديد"
+ },
+ {
+  "slug": "taa_marbuuta",
+  "expect": "تاء مربوطة",
+  "at": [
+   [
+    "teams_2026-09-29",
+    2677.4,
+    2678.6
+   ],
+   [
+    "teams_2026-09-29",
+    2634.3,
+    2635.1
+   ],
+   [
+    "teams_2026-09-29",
+    2588.5,
+    2589.5
+   ]
+  ],
+  "out": "arabic_khouri_0929_taa_marbuuta.mp3",
+  "dmin": 0.7,
+  "dmax": 2.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "تاء مربوطه"
+ },
+ {
+  "slug": "khudh_dhubaab",
+  "expect": "خذ ذباب",
+  "at": [
+   [
+    "teams_2026-09-29",
+    1598.3,
+    1599.6
+   ],
+   [
+    "teams_2026-09-29",
+    1601.6,
+    1603.0
+   ]
+  ],
+  "out": "arabic_khouri_0929_khudh_dhubaab.mp3",
+  "dmin": 0.55,
+  "dmax": 2.0,
+  "budget": 150,
+  "priority": 0,
+  "key": "خذ ذباب"
+ },
+ {
+  "slug": "akhadhtu_a",
+  "expect": "أخذت A",
+  "at": [
+   [
+    "teams_2026-09-29",
+    1770.0,
+    1771.1
+   ]
+  ],
+  "out": "arabic_khouri_0929_akhadhtu_a.mp3",
+  "dmin": 0.5,
+  "dmax": 1.8,
+  "budget": 150,
+  "priority": 0,
+  "key": "اخذت A"
+ },
+ {
+  "slug": "akhadhtu_dhubaab",
+  "expect": "أخذت ذباب",
+  "at": [
+   [
+    "teams_2026-09-29",
+    1832.1,
+    1833.6
+   ]
+  ],
+  "out": "arabic_khouri_0929_akhadhtu_dhubaab.mp3",
+  "dmin": 0.65,
+  "dmax": 2.4,
+  "budget": 150,
+  "priority": 0,
+  "key": "اخذت ذباب"
+ },
+ {
+  "slug": "yadhuub",
+  "expect": "يذوب",
+  "at": [
+   [
+    "teams_2026-09-29",
+    1964.7,
+    1966.7
+   ],
+   [
+    "teams_2026-09-29",
+    1995.4,
+    1996.3
+   ],
+   [
+    "teams_2026-09-29",
+    1968.1,
+    1968.8
+   ],
+   [
+    "teams_2026-09-29",
+    1959.1,
+    1962.7
+   ],
+   [
+    "teams_2026-09-29",
+    2047.4,
+    2048.2
+   ]
+  ],
+  "out": "arabic_khouri_0929_yadhuub.mp3",
+  "dmin": 0.45,
+  "dmax": 1.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "يذوب"
+ },
+ {
+  "slug": "ath_thalj",
+  "expect": "الثلج",
+  "at": [
+   [
+    "teams_2026-09-29",
+    1990.1,
+    1991.3
+   ]
+  ],
+  "out": "arabic_khouri_0929_ath_thalj.mp3",
+  "dmin": 0.5,
+  "dmax": 1.8,
+  "budget": 150,
+  "priority": 0,
+  "key": "الثلج"
+ },
+ {
+  "slug": "nafsii",
+  "expect": "نفسي",
+  "at": [
+   [
+    "teams_2026-09-29",
+    2161.9,
+    2163.6
+   ]
+  ],
+  "out": "arabic_khouri_0929_nafsii.mp3",
+  "dmin": 0.45,
+  "dmax": 1.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "نفسي"
+ },
+ {
+  "slug": "laa_uhibb",
+  "expect": "لا أحب",
+  "at": [
+   [
+    "teams_2026-09-29",
+    3684.1,
+    3685.0
+   ]
+  ],
+  "out": "arabic_khouri_0929_laa_uhibb.mp3",
+  "dmin": 0.5,
+  "dmax": 1.8,
+  "budget": 150,
+  "priority": 0,
+  "key": "لا احب"
+ },
+ {
+  "slug": "uhibb_ad_dajaaj",
+  "expect": "أحب الدجاج",
+  "at": [
+   [
+    "teams_2026-09-29",
+    3645.7,
+    3647.5
+   ]
+  ],
+  "out": "arabic_khouri_0929_uhibb_ad_dajaaj.mp3",
+  "dmin": 0.7,
+  "dmax": 2.6,
+  "budget": 150,
+  "priority": 0,
+  "key": "احب الدجاج"
+ },
+ {
+  "slug": "hal_tuhibb_ad_dajaaj",
+  "expect": "هل تحب الدجاج؟",
+  "at": [
+   [
+    "teams_2026-09-29",
+    3606.4,
+    3607.7
+   ],
+   [
+    "teams_2026-09-29",
+    3613.6,
+    3615.7
+   ]
+  ],
+  "out": "arabic_khouri_0929_hal_tuhibb_ad_dajaaj.mp3",
+  "dmin": 0.85,
+  "dmax": 3.2,
+  "budget": 150,
+  "priority": 0,
+  "key": "هل تحب الدجاج"
+ },
+ {
+  "slug": "laa_uhibb_al_khubz",
+  "expect": "لا أحب الخبز",
+  "at": [
+   [
+    "teams_2026-09-29",
+    3734.0,
+    3738.3
+   ]
+  ],
+  "out": "arabic_khouri_0929_laa_uhibb_al_khubz.mp3",
+  "dmin": 0.75,
+  "dmax": 2.8,
+  "budget": 150,
+  "priority": 0,
+  "key": "لا احب الخبز"
+ },
+ {
+  "slug": "hal_cindaki_ukht",
+  "expect": "هل عندك أخت؟",
+  "at": [
+   [
+    "teams_2026-09-29",
+    3754.2,
+    3757.5
+   ],
+   [
+    "teams_2026-09-29",
+    3745.3,
+    3751.3
+   ]
+  ],
+  "out": "arabic_khouri_0929_hal_cindaki_ukht.mp3",
+  "dmin": 0.75,
+  "dmax": 2.8,
+  "budget": 150,
+  "priority": 0,
+  "key": "هل عندك اخت"
+ },
+ {
+  "slug": "maa_raqm_tilifuunak",
+  "expect": "ما رقم تليفونك؟",
+  "at": [
+   [
+    "teams_2026-09-29",
+    3569.8,
+    3575.8
+   ]
+  ],
+  "out": "arabic_khouri_0929_maa_raqm_tilifuunak.mp3",
+  "dmin": 0.9,
+  "dmax": 3.4,
+  "budget": 150,
+  "priority": 0,
+  "key": "ما رقم تليفونك"
+ },
+ {
+  "slug": "caraaqii",
+  "expect": "عراقي",
+  "at": [
+   [
+    "teams_2026-09-29",
+    2338.4,
+    2339.9
+   ],
+   [
+    "teams_2026-09-29",
+    2311.8,
+    2312.4
+   ]
+  ],
+  "out": "arabic_khouri_0929_caraaqii.mp3",
+  "dmin": 0.5,
+  "dmax": 1.8,
+  "budget": 150,
+  "priority": 0,
+  "key": "عراقي"
+ },
+ {
+  "slug": "khubz_baagiit",
+  "expect": "خبز باغيت",
+  "at": [
+   [
+    "teams_2026-09-29",
+    2357.9,
+    2359.7
+   ]
+  ],
+  "out": "arabic_khouri_0929_khubz_baagiit.mp3",
+  "dmin": 0.65,
+  "dmax": 2.4,
+  "budget": 150,
+  "priority": 0,
+  "key": "خبز باغيت"
+ }
+]
