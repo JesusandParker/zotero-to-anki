@@ -1186,6 +1186,43 @@ def image_paths_check(cards):
     return hard, warn
 
 
+def front_image_reuse_check(cards):
+    """(hard, warn) — a picture that IS the question must not reappear on another card (R74).
+
+    An `image_side: "front"` image is the whole question ("which region is this vertebra
+    from?"). If the same file shows up on ANOTHER card's back — or inline in any card's Back
+    Extra — then reviewing that card teaches the photo next to its answer, and the question
+    card is answered by recognising the picture instead of reading the anatomy. Found by the
+    independent editor on the BIOL 214 W05 build (2026-09-29): the cervical photo asked on
+    one card was the back plate of the cervical-features card.
+
+    Sharing a front image between two FRONT cards is fine (two pins on one skeleton — the
+    answer is never printed on the image). What this cannot see is the same photo embedded
+    INSIDE a larger plate (the giraffe/moose plate held both region-ID photos); that stays a
+    judge-look item, recorded as not mechanizable."""
+    hard = []
+    base = lambda p: os.path.basename(p or "").lower()
+    fronts = {}
+    for i, c in enumerate(cards):
+        if c.get("image") and c.get("image_side") == "front":
+            fronts.setdefault(base(c["image"]), []).append(i)
+    if not fronts:
+        return hard, []
+    for i, c in enumerate(cards):
+        b = base(c.get("image"))
+        if b in fronts and c.get("image_side") != "front":
+            hard.append(f"#{i}: its back image {b} is the QUESTION picture of card(s) "
+                        f"{fronts[b]} — reviewing #{i} teaches that photo next to its answer "
+                        f"(R74). Give #{i} a different picture")
+        for src in re.findall(r'<img[^>]+src="([^"]+)"', c.get("Back Extra", "")):
+            s = src.lower()
+            for fb, users in fronts.items():
+                if s == fb or s.endswith("_" + fb):
+                    hard.append(f"#{i}: Back Extra shows {src}, the QUESTION picture of "
+                                f"card(s) {users} (R74)")
+    return hard, []
+
+
 def grounding_check(cards, highlights, require_provenance=False, source_root=None):
     """(hard, warn) — is every claim supported by the source it cites?"""
     hard, warn = [], []
@@ -1609,6 +1646,9 @@ def main():
         ih, iw = image_paths_check(cards)
         hard += ih
         warn += iw
+        fh, fw = front_image_reuse_check(cards)
+        hard += fh
+        warn += fw
         ah, aw = authorized_lane_check(cards)
         hard += ah
         warn += aw

@@ -1,0 +1,928 @@
+{
+ "card_facts": [
+  {
+   "idx": 13,
+   "severity": "error",
+   "quote": "Muscles and ligaments pull up bumps (projections), while joints, vessels, and nerves leave pits, grooves, and holes (depressions).",
+   "correction": "False split. Joints make BOTH kinds of marking: articular projections (head, condyle, facet) and articular depressions (fossa, notch). The manual says 'Projections are usually part of articulating surfaces or serve as attachment sites for muscles or ligaments', and the figure on this very card prints a list titled 'Projections involved in articulations: head, neck, facet, condyle, ramus'. Suggested: 'Projections are mostly muscle/ligament attachment sites or joint surfaces (head, condyle, facet); depressions are joint sockets or passages for vessels and nerves (fossa, groove, foramen).'"
+  },
+  {
+   "idx": 78,
+   "severity": "imprecise",
+   "quote": "from the side it looks like a giraffe's head, with the long, down-slanting spinous process as the neck",
+   "correction": "Contradicts the manual's giraffe figure, which is the picture on this card. There the long spinous process is the giraffe's long FACE/snout pointing down, the upward processes are the ears/horns, and the vertebral body is where the neck comes in. The manual calls the whole vertebra 'a giraffe head'. Suggested: 'from the side it looks like a giraffe's head: the long, down-slanting spinous process is the giraffe's long face.'"
+  },
+  {
+   "idx": 80,
+   "severity": "imprecise",
+   "quote": "the long spinous process slants steeply down like a giraffe's neck",
+   "correction": "Same mapping error as card 78. In the manual's figure the spinous process is the giraffe's long face/snout, not its neck. Suggested: 'slants steeply down like a giraffe's long face'."
+  },
+  {
+   "idx": 15,
+   "severity": "imprecise",
+   "quote": "packed solid with no open spaces",
+   "correction": "Compact bone is full of microscopic spaces: central and perforating canals, lacunae, canaliculi (cards 22-26 teach them). Suggested: 'densely packed, with none of the large open spaces of spongy bone'."
+  },
+  {
+   "idx": 12,
+   "severity": "imprecise",
+   "quote": "Only the curved plates of the skull cap (like the frontal and parietal) are flat; the complex bones of the face and cranial floor are irregular.",
+   "correction": "Too absolute. Standard classifications (for example Gray's) also count as flat the occipital, which forms much of the cranial floor, and the small facial plates: nasal, lacrimal, vomer. The irregular ones are the sphenoid, ethmoid, temporal, maxilla, zygomatic, mandible, palatine and inferior nasal concha. Suggested: 'Not every skull bone is flat: the curved plates of the braincase (frontal, parietal, occipital) are flat, but the complex bones of the face and cranial floor, such as the sphenoid, ethmoid, maxilla and mandible, are irregular.'"
+  },
+  {
+   "idx": 31,
+   "severity": "imprecise",
+   "quote": "every joint surface",
+   "correction": "Hyaline (articular) cartilage covers MOST synovial joint surfaces, not all. The temporomandibular, sternoclavicular and acromioclavicular joints have fibrocartilage surfaces, and symphyses (pubic symphysis, intervertebral joints) are fibrocartilage. Suggested: 'most joint surfaces'. Also, elastic cartilage 'only' in the external ear and epiglottis matches the lab, but it also occurs in the auditory tube and small laryngeal cartilages."
+  },
+  {
+   "idx": 75,
+   "severity": "imprecise",
+   "quote": "Each rib's head and tubercle make joints on a thoracic vertebra's body and transverse process",
+   "correction": "A typical rib's head joins the bodies of TWO vertebrae (its own and the one above, through the superior and inferior demifacets and the disc between). Its tubercle joins the transverse process of its own vertebra. Ribs 1 and 10-12 meet one body only, and ribs 11-12 have no tubercle joint (T11-T12 have no transverse costal facets). Suggested: 'A typical rib's head joins the bodies of two vertebrae and its tubercle joins a transverse process; the costal facets are those joint surfaces.'"
+  },
+  {
+   "idx": 0,
+   "severity": "imprecise",
+   "quote": "many fuse as you grow (the skull plates, sacrum, and coccyx)",
+   "correction": "The cranial 'plates' do not fuse with each other: the adult cranium is still 8 separate bones joined by sutures (card 37). The count drops because pieces WITHIN single bones fuse: the two halves of the frontal bone and the mandible, the parts of the occipital, temporal and sphenoid, the 3 parts of each hip bone, the sacral and coccygeal segments, and epiphyses onto shafts. Suggested: '(pieces of single skull bones, the hip bones, the sacrum, and the coccyx)'."
+  },
+  {
+   "idx": 78,
+   "severity": "imprecise",
+   "quote": "the steep, overlapping spinous processes stop the thoracic spine from bending far backward, which protects the chest",
+   "correction": "The shingled spinous processes limit extension and roof over the spinal cord from behind. The chest is protected by the rib cage, not by this. Suggested: '...stop the thoracic spine from bending far backward and shield the spinal cord from behind.'"
+  },
+  {
+   "idx": 92,
+   "severity": "imprecise",
+   "quote": "when the five sacral vertebrae fused, their spinous processes merged into one bumpy ridge",
+   "correction": "Only S1-S3, sometimes S4, contribute spinous tubercles. S5, and often S4, have no spinous process or complete laminae, and that gap is the sacral hiatus (card 93). As written, this contradicts card 93. Suggested: 'the spinous processes of the upper sacral vertebrae merged into one bumpy ridge'."
+  },
+  {
+   "idx": 33,
+   "severity": "imprecise",
+   "quote": "cuts friction where two bones meet in a joint, which is why the cartilage on bone ends is called articular cartilage",
+   "correction": "The name comes from its location, not from its low friction ('articular' = at an articulation, a joint). Suggested: '...cuts friction where two bones meet; because it covers the articulating (joint) surface, it is called articular cartilage.'"
+  },
+  {
+   "idx": 40,
+   "severity": "imprecise",
+   "quote": "Four skull bones contain air-filled sinuses",
+   "correction": "These four hold the PARANASAL sinuses. The temporal bone also has air spaces: the mastoid air cells (the manual itself says 'The mastoid process of the temporal bone also contains a sinus') and the middle-ear cavity. Suggested: 'Four skull bones contain the paranasal sinuses'. The cloze answers are fine."
+  },
+  {
+   "idx": 53,
+   "severity": "imprecise",
+   "quote": "right where the nerves headed for the eye and face have to leave the skull",
+   "correction": "True for the optic canal (optic nerve and ophthalmic artery), rotundum (V2) and ovale (V3). But the foramen spinosum's main occupant is the middle meningeal ARTERY, which enters the skull. Suggested: '...where the nerves for the eye and face exit and the middle meningeal artery enters.'"
+  },
+  {
+   "idx": 69,
+   "severity": "imprecise",
+   "quote": "Atlas, the Titan who held up the world",
+   "correction": "In Greek myth Atlas holds up the sky (the heavens); the globe on his shoulders comes from later art. Many textbooks repeat 'world', so this is minor. Suggested: 'the Titan who held up the heavens'."
+  },
+  {
+   "idx": 26,
+   "severity": "imprecise",
+   "quote": "these hair-thin channels",
+   "correction": "Minor. Canaliculi are well under 1 micrometre wide, roughly 100x thinner than a hair. Suggested: 'these microscopic channels'."
+  },
+  {
+   "idx": 95,
+   "severity": "imprecise",
+   "quote": "the sternum starts as separate pieces that fuse over time",
+   "correction": "Optional nuance: the cloze answer 'three fused bones' is what the slides and manual teach, so keep it. In reality the body forms from 4 fused sternebrae, the xiphoid fuses late (around 40), and the manubrium-body (manubriosternal) joint stays an unfused cartilaginous joint in most adults. No change is needed for the lab."
+  }
+ ],
+ "io_facts": [
+  {
+   "id": "thoracic_vertebra",
+   "severity": "error",
+   "quote": "c11 = 'Pedicle' (lateral view; printed label on the slide figure)",
+   "correction": "On the slide figure, the 'Pedicle' leader line ends on the tip of the TRANSVERSE PROCESS, on the rim next to the transverse costal facet, not on the pedicle. In a side view the pedicle is the short bar between the superior and inferior vertebral notches, just behind the superior costal facet. The card teaches the wrong spot. Either drop c11, or keep it and add to the Back: 'Heads-up: this figure's Pedicle pointer is misplaced (it sits on the transverse process). The real pedicle is the bar between the two vertebral notches.'"
+  },
+  {
+   "id": "cranial_floor_model",
+   "severity": "imprecise",
+   "quote": "c14 = '11. nuchal lines' (manual Fig 7-4 key)",
+   "correction": "Key #11's leader lines end on the INSIDE of the occipital bone (posterior cranial fossa of the painted model). The ridges there are the grooves for the transverse sinuses and the internal occipital protuberance. Nuchal lines are on the OUTER surface; the skull-from-below plate (skull_inferior c3) labels the superior nuchal line correctly. Keep the lab's answer for the practical, but add a Back note, or drop c14."
+  },
+  {
+   "id": "mandible_model",
+   "severity": "error",
+   "quote": "Mandible (lab model), from the left",
+   "correction": "The chin points to the viewer's RIGHT, and the far ramus shows its inner surface with the mandibular foramen. So this is the mandible's right side, seen obliquely from above. Suggested header: 'Mandible (lab model), from the right side'."
+  },
+  {
+   "id": "cranial_bones",
+   "severity": "error",
+   "quote": "skull from the left (left)",
+   "correction": "In the left panel the face points to the viewer's right, so it is a RIGHT lateral view. Suggested: 'skull from the right side (left panel) and the cranial floor seen from above (right panel)'."
+  },
+  {
+   "id": "skull_model_post_lat",
+   "severity": "imprecise",
+   "quote": "the sutures are named for where they run",
+   "correction": "The names describe shape or plane, not location. Coronal: in the coronal plane (corona = crown). Sagittal: in the midsagittal plane (sagitta = arrow). Lambdoid: shaped like the Greek letter lambda. Squamous: along the scale-like (squama) part of the temporal bone. The bone pairs the card lists are all correct. Suggested lead-in: 'the sutures and the bones they join:'."
+  },
+  {
+   "id": "skull_model_obl_ant",
+   "severity": "imprecise",
+   "quote": "the lacrimal fossa drains tears into the nasal cavity",
+   "correction": "The lacrimal fossa is a groove that HOLDS the lacrimal sac. Tears drain from the sac down the nasolacrimal duct (through the nasolacrimal canal) into the nasal cavity. The manual's own 'a small hole' wording is also loose. Suggested: 'the lacrimal fossa holds the lacrimal sac, which drains tears down into the nasal cavity'."
+  },
+  {
+   "id": "foramina_red",
+   "severity": "imprecise",
+   "quote": "optic canal — optic nerve · ... · foramen magnum — spinal cord",
+   "correction": "Correct at intro level, but two entries leave out major contents while the other entries list vessels. Optic canal: optic nerve AND ophthalmic artery. Foramen magnum: the medulla/spinal cord junction, plus the vertebral arteries and the spinal roots of the accessory nerve (XI)."
+  },
+  {
+   "id": "skull_inferior",
+   "severity": "imprecise",
+   "quote": "c7 = 'medial palatine suture' (printed label)",
+   "correction": "The standard term is MEDIAN palatine suture. The lab manual consistently says 'medial', so keep that for the practical, but a Back note naming the standard term would help."
+  }
+ ],
+ "images": [
+  {
+   "idx": 0,
+   "image": "s08_axial_appendicular.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Whole skeleton colour-coded axial (yellow) vs appendicular (green); fits the 206-bone count."
+  },
+  {
+   "idx": 1,
+   "image": "s08_axial_appendicular.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Same colour-coded skeleton shows the axial/appendicular split the 80/126 numbers describe."
+  },
+  {
+   "idx": 2,
+   "image": "s08_axial_appendicular.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Directly illustrates axial (yellow) vs appendicular (green)."
+  },
+  {
+   "idx": 3,
+   "image": "s08_axial_appendicular.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "The ribs are drawn in axial yellow."
+  },
+  {
+   "idx": 4,
+   "image": "m7_01_axial_skeleton.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Manual Fig 7-1 labels the three axial divisions (cephalic, thoracic cage, vertebral column)."
+  },
+  {
+   "idx": 5,
+   "image": "m7_01_axial_skeleton.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Shows the skull, thoracic cage and vertebral column the card names."
+  },
+  {
+   "idx": 6,
+   "image": "s02_bone_classes.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Bone-class figure shows all five shape classes, each with an example."
+  },
+  {
+   "idx": 7,
+   "image": "s02_bone_classes.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Shows the long-bone class (humerus example)."
+  },
+  {
+   "idx": 8,
+   "image": "s02_bone_classes.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Shows the short-bone class (trapezoid, a carpal)."
+  },
+  {
+   "idx": 9,
+   "image": "s02_bone_classes.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Shows the flat-bone class (sternum)."
+  },
+  {
+   "idx": 10,
+   "image": "s02_bone_classes.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Shows the sesamoid class (patella)."
+  },
+  {
+   "idx": 11,
+   "image": "s02_bone_classes.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Shows the irregular class (vertebra)."
+  },
+  {
+   "idx": 12,
+   "image": "s02_bone_classes.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Shape-class figure, but its irregular example is a vertebra; none of the six skull bones on the card appear. Acceptable, though a facial-bone figure would match better.",
+   "better_image": "s11_facial_bones.png"
+  },
+  {
+   "idx": 13,
+   "image": "m6_03_bone_markings.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Manual bone-markings plate with the projection/depression glossary. Its printed list 'Projections involved in articulations' contradicts this card's Back Extra (see card_facts)."
+  },
+  {
+   "idx": 14,
+   "image": "m6_03_bone_markings.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Bone-markings plate shows attachment projections (trochanters, tuberosity, crest)."
+  },
+  {
+   "idx": 15,
+   "image": "m6_07_gross_bone.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Photo contrasts compact bone with spongy bone."
+  },
+  {
+   "idx": 16,
+   "image": "m6_08_tibia_forces.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Distal tibia: multidirectional forces on spongy bone vs body weight through compact bone."
+  },
+  {
+   "idx": 17,
+   "image": "s05_marrow_section.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Fresh bone section with red marrow labelled."
+  },
+  {
+   "idx": 18,
+   "image": "s05_marrow_section.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Fresh bone section with yellow marrow labelled."
+  },
+  {
+   "idx": 19,
+   "image": "s03_long_bone.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Long-bone diagram labels diaphysis and proximal/distal epiphyses."
+  },
+  {
+   "idx": 20,
+   "image": "s03_long_bone.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Long-bone diagram (a humerus) labels the proximal epiphysis."
+  },
+  {
+   "idx": 21,
+   "image": "s03_long_bone.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Labels the distal epiphysis. The bone drawn is a humerus, not the femur the card asks about, but it still shows the concept."
+  },
+  {
+   "idx": 22,
+   "image": "s04_compact_bone.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Compact-bone wedge with osteons labelled."
+  },
+  {
+   "idx": 23,
+   "image": "m6_05_bone_tissue_400x.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Osteon micrograph labels the central canal."
+  },
+  {
+   "idx": 24,
+   "image": "s04_compact_bone.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Shows the lamellae ringing the central canal."
+  },
+  {
+   "idx": 25,
+   "image": "m6_05_bone_tissue_400x.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Labels 'osteocytes (living within lacunae)'."
+  },
+  {
+   "idx": 26,
+   "image": "m6_05_bone_tissue_400x.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Labels canaliculi on the micrograph."
+  },
+  {
+   "idx": 27,
+   "image": "m6_09_growth_plate.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Child's hand X-ray with epiphyseal plates, plus growth-plate histology."
+  },
+  {
+   "idx": 28,
+   "image": "s06_epiphyseal_plate.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Unlabelled low-power section of a growing bone end. The plate is visible, but nothing shows which side is epiphysis and which is diaphysis, which is the whole point of the card.",
+   "better_image": "m6_09_growth_plate.jpg"
+  },
+  {
+   "idx": 29,
+   "image": "s03_long_bone.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Labels the epiphyseal line."
+  },
+  {
+   "idx": 30,
+   "image": "m6_04_long_bone_model.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Model labels the epiphyseal line (bone). The cartilage plate itself is not shown, but that is acceptable."
+  },
+  {
+   "idx": 31,
+   "image": "m6_12_cartilages.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Body map colour-codes hyaline, fibrocartilage and elastic cartilage locations."
+  },
+  {
+   "idx": 32,
+   "image": "m6_12_cartilages.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Same map shows elastic cartilage only in the ear and epiglottis."
+  },
+  {
+   "idx": 33,
+   "image": "m6_04_long_bone_model.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Model labels the hyaline cartilage capping the joint end."
+  },
+  {
+   "idx": 34,
+   "image": "s07_disc.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Intervertebral disc (fibrocartilage anulus), the textbook example."
+  },
+  {
+   "idx": 35,
+   "image": "m7_01_axial_skeleton.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Fig 7-1 lists the cephalic bones: 14 facial, 8 cranial, 6 ossicles, 1 hyoid."
+  },
+  {
+   "idx": 36,
+   "image": "s10_cranial_bones.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Cranial bones labelled on the lateral skull and the cranial floor."
+  },
+  {
+   "idx": 37,
+   "image": "s10_cranial_bones.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Shows the paired parietal and temporal bones."
+  },
+  {
+   "idx": 38,
+   "image": "s11_facial_bones.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Facial bones labelled in front and inferior views."
+  },
+  {
+   "idx": 39,
+   "image": "s11_facial_bones.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Mandible and vomer both labelled."
+  },
+  {
+   "idx": 40,
+   "image": "m7_07_sinuses.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Lab model with frontal, maxillary, ethmoid and sphenoid sinuses labelled."
+  },
+  {
+   "idx": 41,
+   "image": "m7_07_sinuses.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Shows the air-filled sinuses the functions refer to."
+  },
+  {
+   "idx": 42,
+   "image": "m7_05_mandible.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Mental foramen labelled on the mandible."
+  },
+  {
+   "idx": 43,
+   "image": "m7_02b_skull_obl_ant.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Front view labels the infraorbital foramen on the maxillary bone."
+  },
+  {
+   "idx": 44,
+   "image": "m7_02a_skull_post_lat.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Lateral view labels the supraorbital foramen and the frontal bone."
+  },
+  {
+   "idx": 45,
+   "image": "m7_02a_skull_post_lat.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Mastoid process (temporal bone) labelled in both views."
+  },
+  {
+   "idx": 46,
+   "image": "m7_02a_skull_post_lat.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Labels the zygomatic process of the temporal, the temporal process of the zygomatic, and the arch."
+  },
+  {
+   "idx": 47,
+   "image": "m7_05_mandible.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Mandible model, the one movable skull bone."
+  },
+  {
+   "idx": 48,
+   "image": "s13_hyoid.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Inset shows the hyoid's level in the neck."
+  },
+  {
+   "idx": 49,
+   "image": "m7_06_hyoid.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Hyoid model (body and horns). The s13 inset showing it free in the neck would illustrate 'floats' a little better.",
+   "better_image": "s13_hyoid.jpg"
+  },
+  {
+   "idx": 50,
+   "image": "m7_02b_skull_obl_ant.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Labels 'styloid process (temporal bone)'. The hyoid itself is not shown, but the styloid-on-temporal point is."
+  },
+  {
+   "idx": 51,
+   "image": "s13_hyoid.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Hyoid figure (body and horns), the muscle-attachment bone."
+  },
+  {
+   "idx": 52,
+   "image": "s13_hyoid.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Greater and lesser cornua labelled."
+  },
+  {
+   "idx": 53,
+   "image": "s12_cranial_foramina.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Cranial-floor plate shows the optic canal, rotundum, ovale and spinosum in the sphenoid."
+  },
+  {
+   "idx": 54,
+   "image": "s12_cranial_foramina.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Labels the foramen magnum and hypoglossal canal in the occipital."
+  },
+  {
+   "idx": 55,
+   "image": "s12_cranial_foramina.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Labels the cribriform plate and cribriform foramina of the ethmoid."
+  },
+  {
+   "idx": 56,
+   "image": "s12_cranial_foramina.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Labels the temporal bone (petrous part) and the internal acoustic meatus."
+  },
+  {
+   "idx": 57,
+   "image": "s12_cranial_foramina.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Labels the jugular foramen between the temporal and occipital bones."
+  },
+  {
+   "idx": 58,
+   "image": "s12_cranial_foramina.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Labels 'Hypophyseal fossa of sella turcica' on the sphenoid."
+  },
+  {
+   "idx": 59,
+   "image": "s14_spine_regions.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Spine regions bracketed and named."
+  },
+  {
+   "idx": 60,
+   "image": "m7_08_spinal_curves.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Vertebrae numbered C1-C7."
+  },
+  {
+   "idx": 61,
+   "image": "m7_08_spinal_curves.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Vertebrae numbered T1-T12."
+  },
+  {
+   "idx": 62,
+   "image": "m7_08_spinal_curves.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Vertebrae numbered L1-L5."
+  },
+  {
+   "idx": 63,
+   "image": "m7_08_spinal_curves.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Posterior view with the curves labelled concave/convex, exactly the card's framing."
+  },
+  {
+   "idx": 64,
+   "image": "s14_typical_vertebra.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Typical vertebra with Body (centrum) labelled."
+  },
+  {
+   "idx": 65,
+   "image": "s14_typical_vertebra.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Vertebral foramen labelled."
+  },
+  {
+   "idx": 66,
+   "image": "s14_typical_vertebra.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Pedicle, lamina and vertebral arch labelled."
+  },
+  {
+   "idx": 67,
+   "image": "s16_thoracic.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Thoracic vertebra with superior and inferior articular facets labelled."
+  },
+  {
+   "idx": 68,
+   "image": "s07_disc.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Lateral view labels the intervertebral foramen."
+  },
+  {
+   "idx": 69,
+   "image": "s15_atlas_axis.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Atlas (C1) labelled in the atlas-axis complex."
+  },
+  {
+   "idx": 70,
+   "image": "s15_atlas_axis.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Axis (C2) and the dens labelled."
+  },
+  {
+   "idx": 71,
+   "image": "m7_11_atlas_axis_model.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Dens (odontoid process) (C2) labelled on the model."
+  },
+  {
+   "idx": 72,
+   "image": "m7_11_atlas_axis_model.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Model shows the C1 ring (no body) sitting on C2 around its dens."
+  },
+  {
+   "idx": 73,
+   "image": "m7_08_spinal_curves.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Labels 'C7 (prominens)'."
+  },
+  {
+   "idx": 74,
+   "image": "s15_cervical_labeled.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Cervical vertebra with the transverse foramen labelled."
+  },
+  {
+   "idx": 75,
+   "image": "s16_thoracic.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Superior, inferior and transverse costal facets labelled."
+  },
+  {
+   "idx": 76,
+   "image": "m7_13_vertebra_regions.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Manual table of cervical/thoracic/lumbar features: body small, then medium, then large."
+  },
+  {
+   "idx": 77,
+   "image": "s15_cervical_superior.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Cervical vertebra from above: small body, big triangular foramen, transverse foramina, bifid spine."
+  },
+  {
+   "idx": 78,
+   "image": "m7_14_giraffe_moose.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Giraffe next to a thoracic vertebra (side view), the card's cue. See card_facts: the figure makes the spinous process the giraffe's face, not its neck."
+  },
+  {
+   "idx": 79,
+   "image": "m7_14_giraffe_moose.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Moose next to a lumbar vertebra (side view), the card's cue."
+  },
+  {
+   "idx": 80,
+   "image": "pp7_a_thoracic.jpg",
+   "side": "front",
+   "verdict": "CONGRUENT",
+   "why": "Thoracic model from the side. Only the letter 'A' is on it, so nothing gives the answer away."
+  },
+  {
+   "idx": 81,
+   "image": "pp7_b_lumbar.jpg",
+   "side": "front",
+   "verdict": "CONGRUENT",
+   "why": "Lumbar model from the side. Only the letter 'B' is on it, so nothing gives the answer away."
+  },
+  {
+   "idx": 82,
+   "image": "pp7_c_cervical.jpg",
+   "side": "front",
+   "verdict": "FRONT_LEAK",
+   "why": "The Popcorn letter 'C' printed on the bone (and 'Vertebra C' in the prompt) doubles as the first letter of the answer, 'cervical'. It is a mild cue, but A and B have no such coincidence. Blank the letter on the image and refer to it as 'this vertebra'."
+  },
+  {
+   "idx": 83,
+   "image": "s17_lumbar_photo.jpg",
+   "side": "front",
+   "verdict": "CONGRUENT",
+   "why": "Unlabelled lumbar vertebra with the body on the right, as the prompt says; no giveaway."
+  },
+  {
+   "idx": 84,
+   "image": "s15_cervical_superior.png",
+   "side": "front",
+   "verdict": "CONGRUENT",
+   "why": "Unlabelled cervical vertebra from above; nothing on the image names the region."
+  },
+  {
+   "idx": 85,
+   "image": "pp3_front_trunk.png",
+   "side": "front",
+   "verdict": "CONGRUENT",
+   "why": "Trunk from the front with pin 15 on T12; only pin numbers are visible."
+  },
+  {
+   "idx": 86,
+   "image": "pp3_front_trunk.png",
+   "side": "front",
+   "verdict": "CONGRUENT",
+   "why": "Pin 16 sits on L3; only pin numbers are visible."
+  },
+  {
+   "idx": 87,
+   "image": "s19_abnormal_curves.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Scoliosis labelled (posterior view)."
+  },
+  {
+   "idx": 88,
+   "image": "s19_abnormal_curves.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Kyphosis labelled."
+  },
+  {
+   "idx": 89,
+   "image": "s19_abnormal_curves.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Lordosis labelled."
+  },
+  {
+   "idx": 90,
+   "image": "s18_sacrum_coccyx.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Sacrum with S1-S5 marked."
+  },
+  {
+   "idx": 91,
+   "image": "s18_sacrum_coccyx.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Coccyx shown as Co1-Co4, within the lab's 3-5 range."
+  },
+  {
+   "idx": 92,
+   "image": "m7_15_sacrum_photos.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Labels 'median sacral crest (fused spinous processes)'."
+  },
+  {
+   "idx": 93,
+   "image": "m7_15_sacrum_photos.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Labels the sacral canal and sacral hiatus (with the filum terminale)."
+  },
+  {
+   "idx": 94,
+   "image": "s18_sacrum_coccyx.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Shows the superior articular process (joint with L5), the auricular surface (joint with the hip bone) and the coccyx."
+  },
+  {
+   "idx": 95,
+   "image": "m7_16_sternum_model.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Two skeletons with manubrium, body and xiphoid labelled."
+  },
+  {
+   "idx": 96,
+   "image": "s20_sternum.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Sternum with manubrium, body and xiphoid labelled."
+  },
+  {
+   "idx": 97,
+   "image": "m7_17_thoracic_cage.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Jugular notch labelled."
+  },
+  {
+   "idx": 98,
+   "image": "s20_sternum.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Sternal angle labelled."
+  },
+  {
+   "idx": 99,
+   "image": "m7_17_thoracic_cage.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Costal cartilages labelled (the maroon bars)."
+  },
+  {
+   "idx": 100,
+   "image": "s20_rib_groups.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Text-only slide restating the answer ('True: ribs 1-7'). Not wrong, but it shows no anatomy.",
+   "better_image": "m7_17_thoracic_cage.jpg"
+  },
+  {
+   "idx": 101,
+   "image": "s20_rib_groups.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Text-only slide. A picture would show ribs 8-10 joining the cartilage above along the costal margin, which is the card's point.",
+   "better_image": "m7_17_thoracic_cage.jpg"
+  },
+  {
+   "idx": 102,
+   "image": "m7_17_thoracic_cage.jpg",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Floating ribs labelled."
+  },
+  {
+   "idx": 103,
+   "image": "s08_rib_counts.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Source-slide text 'True Ribs (14 total)'. Text only, but it is exactly the fact."
+  },
+  {
+   "idx": 104,
+   "image": "s08_rib_counts.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Source-slide text 'False Ribs (10 total)'."
+  },
+  {
+   "idx": 105,
+   "image": "s08_rib_counts.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Source-slide text 'Floating (4 total)'."
+  },
+  {
+   "idx": 106,
+   "image": "s08_rib_counts.png",
+   "side": "back",
+   "verdict": "CONGRUENT",
+   "why": "Source-slide text 'Ribs (24)'."
+  }
+ ],
+ "io_masks": [
+  {
+   "id": "thoracic_vertebra",
+   "problem": "c9, lateral-view 'Spinous process' mask (left 0.7878, top 0.8219, 0.1906 x 0.1222): the box is about 330x120 px on a label about 265x30 px. It covers the TIP of the spinous process itself (anatomy) and clips the 'W' of 'LATERAL VIEW'. Shrink it to the label text, roughly x 1390-1670, y 830-875 px in the 1728x961 image."
+  },
+  {
+   "id": "spine_regions",
+   "problem": "The vertebra numbers printed on the bodies (C1-C7, T1-T12, L1-L5, S1-S5) stay visible. Each letter gives away the region for c1-c4, and c5 (coccyx) then falls out by elimination. Mask the number column, or accept that this note only tests letter-to-name."
+  },
+  {
+   "id": "sacrum_other",
+   "problem": "c9 'Sacrum' and c10 'Coccyx' are answered by the note's own header ('Sacrum and coccyx — front (left) and back (right)...') and by the visible S1-S5 / Co1-Co4 labels. Those two cards test nothing: drop them or reword the header."
+  },
+  {
+   "id": "foramina_other",
+   "problem": "Minor: for c1 'Cribriform plate', the unmasked red-box label 'Cribriform foramina' (an answer of the foramina_red note, left visible here on purpose) points at the same plate and gives away 'cribriform'."
+  },
+  {
+   "id": "skull_model_obl_ant",
+   "problem": "Minor: the figure's footnote '*ethmoid bone' stays visible, so the answer text for c16 'ethmoid bone' is printed on the plate. It does not say which structure it is, so this is only a small hint."
+  }
+ ]
+}

@@ -1,0 +1,1058 @@
+{
+ "s02_bone_classes": {
+  "name": "s02_bone_classes",
+  "file": "s02_bone_classes.jpg",
+  "kind": "pptx",
+  "source": "image1.jpeg",
+  "native": [
+   405,
+   391
+  ],
+  "out": [
+   1080,
+   1014
+  ],
+  "scale": 2.525,
+  "bytes": 116496
+ },
+ "s03_long_bone": {
+  "name": "s03_long_bone",
+  "file": "s03_long_bone.jpg",
+  "kind": "pptx",
+  "source": "image2.jpeg",
+  "native": [
+   360,
+   614
+  ],
+  "out": [
+   1080,
+   1728
+  ],
+  "scale": 2.689,
+  "bytes": 144241
+ },
+ "s04_compact_bone": {
+  "name": "s04_compact_bone",
+  "file": "s04_compact_bone.jpg",
+  "kind": "pptx",
+  "source": "image3.jpeg",
+  "native": [
+   881,
+   637
+  ],
+  "out": [
+   1728,
+   1270
+  ],
+  "scale": 1.856,
+  "bytes": 314056
+ },
+ "s05_marrow_section": {
+  "name": "s05_marrow_section",
+  "file": "s05_marrow_section.jpg",
+  "kind": "pptx",
+  "source": "image4.jpeg",
+  "native": [
+   679,
+   418
+  ],
+  "out": [
+   1728,
+   1114
+  ],
+  "scale": 2.36,
+  "bytes": 220683
+ },
+ "s06_epiphyseal_plate": {
+  "name": "s06_epiphyseal_plate",
+  "file": "s06_epiphyseal_plate.jpg",
+  "kind": "pptx",
+  "source": "image5.jpeg",
+  "native": [
+   603,
+   391
+  ],
+  "out": [
+   1404,
+   947
+  ],
+  "scale": 2.156,
+  "bytes": 301350
+ },
+ "s07_hyaline": {
+  "name": "s07_hyaline",
+  "file": "s07_hyaline.jpg",
+  "kind": "pptx",
+  "source": "image8.jpeg",
+  "native": [
+   406,
+   233
+  ],
+  "out": [
+   1080,
+   654
+  ],
+  "scale": 2.463,
+  "bytes": 124574
+ },
+ "s07_disc": {
+  "name": "s07_disc",
+  "file": "s07_disc.jpg",
+  "kind": "pptx",
+  "source": "image7.jpeg",
+  "native": [
+   1000,
+   471
+  ],
+  "out": [
+   1728,
+   882
+  ],
+  "scale": 1.6,
+  "bytes": 117016
+ },
+ "s07_knee": {
+  "name": "s07_knee",
+  "file": "s07_knee.jpg",
+  "kind": "pptx",
+  "source": "image6.jpeg",
+  "native": [
+   304,
+   286
+  ],
+  "out": [
+   1080,
+   895
+  ],
+  "scale": 3.3,
+  "bytes": 93101
+ },
+ "s08_axial_appendicular": {
+  "name": "s08_axial_appendicular",
+  "file": "s08_axial_appendicular.jpg",
+  "kind": "pptx",
+  "source": "image9.jpeg",
+  "native": [
+   385,
+   676
+  ],
+  "out": [
+   599,
+   1188
+  ],
+  "scale": 1.644,
+  "bytes": 79086
+ },
+ "s10_cranial_bones": {
+  "name": "s10_cranial_bones",
+  "file": "s10_cranial_bones.png",
+  "kind": "pdfclip",
+  "source": 10,
+  "native": [
+   2233,
+   1204
+  ],
+  "out": [
+   1728,
+   967
+  ],
+  "scale": 0.729,
+  "bytes": 815686
+ },
+ "s11_facial_bones": {
+  "name": "s11_facial_bones",
+  "file": "s11_facial_bones.png",
+  "kind": "pdfclip",
+  "source": 11,
+  "native": [
+   2477,
+   1232
+  ],
+  "out": [
+   1728,
+   892
+  ],
+  "scale": 0.658,
+  "bytes": 886031
+ },
+ "s12_cranial_foramina": {
+  "name": "s12_cranial_foramina",
+  "file": "s12_cranial_foramina.png",
+  "kind": "pptx",
+  "source": "image14.png",
+  "native": [
+   2161,
+   1462
+  ],
+  "out": [
+   1728,
+   1197
+  ],
+  "scale": 0.761,
+  "bytes": 1037338
+ },
+ "s13_hyoid": {
+  "name": "s13_hyoid",
+  "file": "s13_hyoid.jpg",
+  "kind": "pptx",
+  "source": "image15.jpeg",
+  "native": [
+   640,
+   480
+  ],
+  "out": [
+   1728,
+   1344
+  ],
+  "scale": 2.544,
+  "bytes": 184880
+ },
+ "s14_spine_regions": {
+  "name": "s14_spine_regions",
+  "file": "s14_spine_regions.jpg",
+  "kind": "pptx",
+  "source": "image17.jpeg",
+  "native": [
+   250,
+   627
+  ],
+  "out": [
+   670,
+   1512
+  ],
+  "scale": 2.233,
+  "bytes": 90302
+ },
+ "s14_typical_vertebra": {
+  "name": "s14_typical_vertebra",
+  "file": "s14_typical_vertebra.png",
+  "kind": "pptx",
+  "source": "image16.gif",
+  "native": [
+   565,
+   440
+  ],
+  "out": [
+   1728,
+   1362
+  ],
+  "scale": 2.93,
+  "bytes": 1228313
+ },
+ "s15_atlas_axis": {
+  "name": "s15_atlas_axis",
+  "file": "s15_atlas_axis.jpg",
+  "kind": "pptx",
+  "source": "image18.jpeg",
+  "native": [
+   1002,
+   713
+  ],
+  "out": [
+   1728,
+   1263
+  ],
+  "scale": 1.616,
+  "bytes": 244659
+ },
+ "s15_cervical_superior": {
+  "name": "s15_cervical_superior",
+  "file": "s15_cervical_superior.png",
+  "kind": "pptx",
+  "source": "image20.png",
+  "native": [
+   560,
+   552
+  ],
+  "out": [
+   1080,
+   1066
+  ],
+  "scale": 1.786,
+  "bytes": 301765
+ },
+ "s15_cervical_labeled": {
+  "name": "s15_cervical_labeled",
+  "file": "s15_cervical_labeled.png",
+  "kind": "pdfclip",
+  "source": 15,
+  "native": [
+   2000,
+   980
+  ],
+  "out": [
+   1728,
+   907
+  ],
+  "scale": 0.815,
+  "bytes": 589591
+ },
+ "s16_thoracic": {
+  "name": "s16_thoracic",
+  "file": "s16_thoracic.png",
+  "kind": "pptx",
+  "source": "image21.png",
+  "native": [
+   1302,
+   724
+  ],
+  "out": [
+   1728,
+   961
+  ],
+  "scale": 1.249,
+  "bytes": 670019
+ },
+ "s17_lumbar_photo": {
+  "name": "s17_lumbar_photo",
+  "file": "s17_lumbar_photo.jpg",
+  "kind": "pptx",
+  "source": "image22.jpeg",
+  "native": [
+   364,
+   225
+  ],
+  "out": [
+   1080,
+   698
+  ],
+  "scale": 2.747,
+  "bytes": 78855
+ },
+ "s17_lumbar_superior": {
+  "name": "s17_lumbar_superior",
+  "file": "s17_lumbar_superior.jpg",
+  "kind": "pptx",
+  "source": "image23.jpeg",
+  "native": [
+   570,
+   301
+  ],
+  "out": [
+   1728,
+   986
+  ],
+  "scale": 3.077,
+  "bytes": 150266
+ },
+ "s18_sacrum_coccyx": {
+  "name": "s18_sacrum_coccyx",
+  "file": "s18_sacrum_coccyx.jpg",
+  "kind": "pptx",
+  "source": "image24.jpeg",
+  "native": [
+   800,
+   484
+  ],
+  "out": [
+   1728,
+   1074
+  ],
+  "scale": 2.049,
+  "bytes": 215638
+ },
+ "s19_abnormal_curves": {
+  "name": "s19_abnormal_curves",
+  "file": "s19_abnormal_curves.png",
+  "kind": "pptx",
+  "source": "image25.png",
+  "native": [
+   736,
+   491
+  ],
+  "out": [
+   1404,
+   998
+  ],
+  "scale": 1.915,
+  "bytes": 579443
+ },
+ "s20_sternum": {
+  "name": "s20_sternum",
+  "file": "s20_sternum.jpg",
+  "kind": "pptx",
+  "source": "image26.jpeg",
+  "native": [
+   213,
+   250
+  ],
+  "out": [
+   1080,
+   1188
+  ],
+  "scale": 4.681,
+  "bytes": 102516
+ },
+ "s20_rib": {
+  "name": "s20_rib",
+  "file": "s20_rib.png",
+  "kind": "pptx",
+  "source": "image27.png",
+  "native": [
+   534,
+   460
+  ],
+  "out": [
+   1273,
+   1728
+  ],
+  "scale": 3.501,
+  "bytes": 569925
+ },
+ "m6_01_axial_appendicular": {
+  "name": "m6_01_axial_appendicular",
+  "file": "m6_01_axial_appendicular.jpg",
+  "kind": "manual",
+  "source": 140,
+  "native": [
+   4140,
+   2640
+  ],
+  "out": [
+   1404,
+   922
+  ],
+  "scale": 0.319,
+  "bytes": 159184
+ },
+ "m6_02_bone_classes": {
+  "name": "m6_02_bone_classes",
+  "file": "m6_02_bone_classes.jpg",
+  "kind": "manual",
+  "source": 141,
+  "native": [
+   4390,
+   3150
+  ],
+  "out": [
+   1404,
+   1080
+  ],
+  "scale": 0.314,
+  "bytes": 243432
+ },
+ "m6_03_bone_markings": {
+  "name": "m6_03_bone_markings",
+  "file": "m6_03_bone_markings.jpg",
+  "kind": "manual",
+  "source": 142,
+  "native": [
+   3880,
+   5550
+  ],
+  "out": [
+   1029,
+   1404
+  ],
+  "scale": 0.24,
+  "bytes": 312762
+ },
+ "m6_04_long_bone_model": {
+  "name": "m6_04_long_bone_model",
+  "file": "m6_04_long_bone_model.jpg",
+  "kind": "manual",
+  "source": 144,
+  "native": [
+   1830,
+   2825
+  ],
+  "out": [
+   1127,
+   1728
+  ],
+  "scale": 0.567,
+  "bytes": 328352
+ },
+ "m6_05_bone_tissue_400x": {
+  "name": "m6_05_bone_tissue_400x",
+  "file": "m6_05_bone_tissue_400x.jpg",
+  "kind": "manual",
+  "source": 144,
+  "native": [
+   2000,
+   1660
+  ],
+  "out": [
+   1404,
+   1090
+  ],
+  "scale": 0.723,
+  "bytes": 312897
+ },
+ "m6_06_compact_bone": {
+  "name": "m6_06_compact_bone",
+  "file": "m6_06_compact_bone.jpg",
+  "kind": "manual",
+  "source": 144,
+  "native": [
+   2200,
+   1620
+  ],
+  "out": [
+   1404,
+   1001
+  ],
+  "scale": 0.617,
+  "bytes": 232472
+ },
+ "m6_07_gross_bone": {
+  "name": "m6_07_gross_bone",
+  "file": "m6_07_gross_bone.jpg",
+  "kind": "manual",
+  "source": 145,
+  "native": [
+   3290,
+   2470
+  ],
+  "out": [
+   1404,
+   1081
+  ],
+  "scale": 0.397,
+  "bytes": 382717
+ },
+ "m6_08_tibia_forces": {
+  "name": "m6_08_tibia_forces",
+  "file": "m6_08_tibia_forces.jpg",
+  "kind": "manual",
+  "source": 146,
+  "native": [
+   2830,
+   2890
+  ],
+  "out": [
+   1367,
+   1404
+  ],
+  "scale": 0.451,
+  "bytes": 323812
+ },
+ "m6_09_growth_plate": {
+  "name": "m6_09_growth_plate",
+  "file": "m6_09_growth_plate.jpg",
+  "kind": "manual",
+  "source": 147,
+  "native": [
+   4200,
+   2280
+  ],
+  "out": [
+   1404,
+   784
+  ],
+  "scale": 0.315,
+  "bytes": 202428
+ },
+ "m6_12_cartilages": {
+  "name": "m6_12_cartilages",
+  "file": "m6_12_cartilages.jpg",
+  "kind": "manual",
+  "source": 149,
+  "native": [
+   4060,
+   2940
+  ],
+  "out": [
+   1404,
+   1045
+  ],
+  "scale": 0.336,
+  "bytes": 164696
+ },
+ "m7_01_axial_skeleton": {
+  "name": "m7_01_axial_skeleton",
+  "file": "m7_01_axial_skeleton.jpg",
+  "kind": "manual",
+  "source": 162,
+  "native": [
+   1990,
+   2620
+  ],
+  "out": [
+   1047,
+   1404
+  ],
+  "scale": 0.518,
+  "bytes": 164136
+ },
+ "m7_02a_skull_post_lat": {
+  "name": "m7_02a_skull_post_lat",
+  "file": "m7_02a_skull_post_lat.jpg",
+  "kind": "manual",
+  "source": 163,
+  "native": [
+   4380,
+   2435
+  ],
+  "out": [
+   1728,
+   1017
+  ],
+  "scale": 0.371,
+  "bytes": 374964
+ },
+ "m7_02b_skull_obl_ant": {
+  "name": "m7_02b_skull_obl_ant",
+  "file": "m7_02b_skull_obl_ant.jpg",
+  "kind": "manual",
+  "source": 163,
+  "native": [
+   4380,
+   2350
+  ],
+  "out": [
+   1728,
+   978
+  ],
+  "scale": 0.368,
+  "bytes": 354110
+ },
+ "m7_03_skull_inferior": {
+  "name": "m7_03_skull_inferior",
+  "file": "m7_03_skull_inferior.jpg",
+  "kind": "manual",
+  "source": 164,
+  "native": [
+   4240,
+   2600
+  ],
+  "out": [
+   1728,
+   1116
+  ],
+  "scale": 0.38,
+  "bytes": 377479
+ },
+ "m7_04_cranial_floor": {
+  "name": "m7_04_cranial_floor",
+  "file": "m7_04_cranial_floor.jpg",
+  "kind": "manual",
+  "source": 165,
+  "native": [
+   4310,
+   2630
+  ],
+  "out": [
+   1728,
+   1156
+  ],
+  "scale": 0.391,
+  "bytes": 416851
+ },
+ "m7_05_mandible": {
+  "name": "m7_05_mandible",
+  "file": "m7_05_mandible.jpg",
+  "kind": "manual",
+  "source": 165,
+  "native": [
+   2380,
+   1360
+  ],
+  "out": [
+   1728,
+   1178
+  ],
+  "scale": 0.785,
+  "bytes": 396531
+ },
+ "m7_06_hyoid": {
+  "name": "m7_06_hyoid",
+  "file": "m7_06_hyoid.jpg",
+  "kind": "manual",
+  "source": 166,
+  "native": [
+   1945,
+   1250
+  ],
+  "out": [
+   1404,
+   967
+  ],
+  "scale": 0.708,
+  "bytes": 201354
+ },
+ "m7_07_sinuses": {
+  "name": "m7_07_sinuses",
+  "file": "m7_07_sinuses.jpg",
+  "kind": "manual",
+  "source": 166,
+  "native": [
+   2150,
+   3140
+  ],
+  "out": [
+   1201,
+   1728
+  ],
+  "scale": 0.537,
+  "bytes": 371664
+ },
+ "m7_08_spinal_curves": {
+  "name": "m7_08_spinal_curves",
+  "file": "m7_08_spinal_curves.jpg",
+  "kind": "manual",
+  "source": 167,
+  "native": [
+   4460,
+   2615
+  ],
+  "out": [
+   1404,
+   940
+  ],
+  "scale": 0.326,
+  "bytes": 200858
+ },
+ "m7_09_abnormal_curves": {
+  "name": "m7_09_abnormal_curves",
+  "file": "m7_09_abnormal_curves.jpg",
+  "kind": "manual",
+  "source": 167,
+  "native": [
+   2300,
+   1220
+  ],
+  "out": [
+   1404,
+   828
+  ],
+  "scale": 0.613,
+  "bytes": 220902
+ },
+ "m7_10_cervical_model": {
+  "name": "m7_10_cervical_model",
+  "file": "m7_10_cervical_model.jpg",
+  "kind": "manual",
+  "source": 168,
+  "native": [
+   2120,
+   1520
+  ],
+  "out": [
+   1728,
+   1320
+  ],
+  "scale": 0.836,
+  "bytes": 359215
+ },
+ "m7_11_atlas_axis_model": {
+  "name": "m7_11_atlas_axis_model",
+  "file": "m7_11_atlas_axis_model.jpg",
+  "kind": "manual",
+  "source": 168,
+  "native": [
+   4160,
+   2580
+  ],
+  "out": [
+   1728,
+   1121
+  ],
+  "scale": 0.387,
+  "bytes": 338317
+ },
+ "m7_12_thoracic_model": {
+  "name": "m7_12_thoracic_model",
+  "file": "m7_12_thoracic_model.jpg",
+  "kind": "manual",
+  "source": 169,
+  "native": [
+   2040,
+   1860
+  ],
+  "out": [
+   1404,
+   1275
+  ],
+  "scale": 0.644,
+  "bytes": 335120
+ },
+ "m7_13_vertebra_regions": {
+  "name": "m7_13_vertebra_regions",
+  "file": "m7_13_vertebra_regions.jpg",
+  "kind": "manual",
+  "source": 169,
+  "native": [
+   2240,
+   2390
+  ],
+  "out": [
+   1207,
+   1404
+  ],
+  "scale": 0.553,
+  "bytes": 368870
+ },
+ "m7_14_giraffe_moose": {
+  "name": "m7_14_giraffe_moose",
+  "file": "m7_14_giraffe_moose.jpg",
+  "kind": "manual",
+  "source": 169,
+  "native": [
+   1880,
+   1580
+  ],
+  "out": [
+   1404,
+   1198
+  ],
+  "scale": 0.7,
+  "bytes": 291256
+ },
+ "m7_14_thoracic_side": {
+  "name": "m7_14_thoracic_side",
+  "file": "m7_14_thoracic_side.jpg",
+  "kind": "manual",
+  "source": 169,
+  "native": [
+   985,
+   775
+  ],
+  "out": [
+   1080,
+   874
+  ],
+  "scale": 1.032,
+  "bytes": 132551
+ },
+ "m7_14_lumbar_side": {
+  "name": "m7_14_lumbar_side",
+  "file": "m7_14_lumbar_side.jpg",
+  "kind": "manual",
+  "source": 169,
+  "native": [
+   985,
+   760
+  ],
+  "out": [
+   1080,
+   910
+  ],
+  "scale": 1.127,
+  "bytes": 127165
+ },
+ "m7_15_sacrum_photos": {
+  "name": "m7_15_sacrum_photos",
+  "file": "m7_15_sacrum_photos.jpg",
+  "kind": "manual",
+  "source": 170,
+  "native": [
+   2140,
+   5540
+  ],
+  "out": [
+   580,
+   1404
+  ],
+  "scale": 0.238,
+  "bytes": 129251
+ },
+ "m7_16_sternum_model": {
+  "name": "m7_16_sternum_model",
+  "file": "m7_16_sternum_model.jpg",
+  "kind": "manual",
+  "source": 172,
+  "native": [
+   4100,
+   2780
+  ],
+  "out": [
+   1404,
+   971
+  ],
+  "scale": 0.323,
+  "bytes": 296133
+ },
+ "m7_17_rib_model": {
+  "name": "m7_17_rib_model",
+  "file": "m7_17_rib_model.jpg",
+  "kind": "manual",
+  "source": 172,
+  "native": [
+   2000,
+   1340
+  ],
+  "out": [
+   1404,
+   944
+  ],
+  "scale": 0.659,
+  "bytes": 205786
+ },
+ "m7_17_thoracic_cage": {
+  "name": "m7_17_thoracic_cage",
+  "file": "m7_17_thoracic_cage.jpg",
+  "kind": "manual",
+  "source": 172,
+  "native": [
+   1970,
+   2450
+  ],
+  "out": [
+   1418,
+   1728
+  ],
+  "scale": 0.669,
+  "bytes": 481415
+ },
+ "pp3_lower_trunk": {
+  "name": "pp3_lower_trunk",
+  "file": "pp3_lower_trunk.png",
+  "kind": "popcorn",
+  "source": "image4.png",
+  "native": [
+   2322,
+   1093
+  ],
+  "out": [
+   1728,
+   1002
+  ],
+  "scale": 0.8,
+  "bytes": 1093730
+ },
+ "pp7_vertebrae_abc": {
+  "name": "pp7_vertebrae_abc",
+  "file": "pp7_vertebrae_abc.jpg",
+  "kind": "popcorn",
+  "source": "image8.jpg",
+  "native": [
+   1270,
+   1200
+  ],
+  "out": [
+   1404,
+   1390
+  ],
+  "scale": 1.074,
+  "bytes": 100994
+ },
+ "pp7_a_thoracic": {
+  "name": "pp7_a_thoracic",
+  "file": "pp7_a_thoracic.jpg",
+  "kind": "popcorn",
+  "source": "image8.jpg",
+  "native": [
+   628,
+   468
+  ],
+  "out": [
+   1080,
+   851
+  ],
+  "scale": 1.733,
+  "bytes": 63081
+ },
+ "pp7_b_lumbar": {
+  "name": "pp7_b_lumbar",
+  "file": "pp7_b_lumbar.jpg",
+  "kind": "popcorn",
+  "source": "image8.jpg",
+  "native": [
+   610,
+   384
+  ],
+  "out": [
+   1080,
+   657
+  ],
+  "scale": 1.848,
+  "bytes": 50972
+ },
+ "pp7_c_cervical": {
+  "name": "pp7_c_cervical",
+  "file": "pp7_c_cervical.jpg",
+  "kind": "popcorn",
+  "source": "image8.jpg",
+  "native": [
+   520,
+   592
+  ],
+  "out": [
+   946,
+   1080
+  ],
+  "scale": 1.946,
+  "bytes": 72251
+ },
+ "pp3_front_trunk": {
+  "name": "pp3_front_trunk",
+  "file": "pp3_front_trunk.png",
+  "kind": "popcorn",
+  "source": "image4.png",
+  "native": [
+   1161,
+   1093
+  ],
+  "out": [
+   1040,
+   1296
+  ],
+  "scale": 1.098,
+  "bytes": 951934
+ },
+ "s08_rib_counts": {
+  "name": "s08_rib_counts",
+  "file": "s08_rib_counts.png",
+  "kind": "pdfclip",
+  "source": 8,
+  "native": [
+   896,
+   480
+  ],
+  "out": [
+   972,
+   583
+  ],
+  "scale": 1.122,
+  "bytes": 78882
+ },
+ "s20_rib_groups": {
+  "name": "s20_rib_groups",
+  "file": "s20_rib_groups.png",
+  "kind": "pdfclip",
+  "source": 20,
+  "native": [
+   1360,
+   424
+  ],
+  "out": [
+   1188,
+   392
+  ],
+  "scale": 0.836,
+  "bytes": 61860
+ },
+ "m7_14_giraffe_row": {
+  "name": "m7_14_giraffe_row",
+  "file": "m7_14_giraffe_row.jpg",
+  "kind": "manual",
+  "source": 169,
+  "native": [
+   1880,
+   798
+  ],
+  "out": [
+   1188,
+   552
+  ],
+  "scale": 0.591,
+  "bytes": 109195
+ },
+ "m7_14_moose_row": {
+  "name": "m7_14_moose_row",
+  "file": "m7_14_moose_row.jpg",
+  "kind": "manual",
+  "source": 169,
+  "native": [
+   1880,
+   768
+  ],
+  "out": [
+   1188,
+   528
+  ],
+  "scale": 0.591,
+  "bytes": 105059
+ }
+}

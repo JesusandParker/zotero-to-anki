@@ -1,0 +1,908 @@
+[
+ {
+  "deck": "Bone Basics & Cartilage",
+  "num": true,
+  "img": "s08_axial_appendicular.jpg",
+  "ver": "slide 2 + speaker notes ('Remember the number of bones'); lab manual p.130 footnote",
+  "text": "An adult human skeleton has {{c1::206::number of bones}} bones.",
+  "back": "Why: a newborn has around 270 separate bony pieces, and many fuse as you grow (pieces of single skull bones, the hip bones, the sacrum, and the coccyx), which is how the adult count settles at 206.<br><br>Pitfall: the lab manual counts 210 because it adds two sesamoid bones in each foot; the BIOL 214 lab itself uses 206.",
+  "draft_idx": 0
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "num": true,
+  "img": "s08_axial_appendicular.jpg",
+  "ver": "slide 2 ('Axial (80) vs. Appendicular (126)'); slide 8",
+  "text": "An adult has {{c1::80::number of bones}} axial bones and {{c1::126::number of bones}} appendicular bones.",
+  "back": "Why: the axial skeleton is only the central pole (skull, ribcage, spine), while the limbs hold most of the bones — each hand alone has 27.",
+  "draft_idx": 1
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s08_axial_appendicular.jpg",
+  "ver": "slide 8 speaker notes (axis vs appendages)",
+  "text": "Sort each bone into its division of the skeleton:<br><br>auditory ossicles → {{c1::axial::axial or appendicular}}<br><br>hyoid → {{c1::axial::axial or appendicular}}<br><br>sacrum → {{c1::axial::axial or appendicular}}<br><br>hip bone (os coxae) → {{c1::appendicular::axial or appendicular}}",
+  "back": "Why: the axial skeleton is the body's central pole (skull with its ear bones and hyoid, thoracic cage, and vertebral column down through the sacrum and coccyx), while the appendicular skeleton is the limbs plus the girdles that hang them from that pole.<br><br>Pitfall: the sacrum sits between the two hip bones but belongs to the spine, so it is axial; the hip bones form the pelvic girdle, so they are appendicular.",
+  "draft_idx": 2
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s08_axial_appendicular.jpg",
+  "ver": "slide 9 review question 4 (True)",
+  "text": "The ribs belong to the {{c1::axial::axial or appendicular}} skeleton.",
+  "back": "Why: the ribs and sternum form the thoracic cage around the body's central axis; they are not part of a limb.<br><br>Pitfall: the clavicle and scapula sit on the trunk but are appendicular, because they exist to hang the arm.",
+  "draft_idx": 3
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "m7_01_axial_skeleton.jpg",
+  "ver": "slide 8 (Cephalic / Thoracic Cage / Vertebral Column); lab manual p.152",
+  "text": "The axial skeleton has three divisions: the {{c1::skull (cephalic bones)}}, the {{c1::thoracic cage}}, and the {{c1::vertebral column}}.",
+  "back": "Why: each division wraps bone around something soft and vital, which is the axial skeleton's main job.",
+  "draft_idx": 4
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "m7_01_axial_skeleton.jpg",
+  "ver": "slide 20 ('protects vital thoracic organs'); lab manual p.152; blue page Q2",
+  "text": "Within the axial skeleton, the skull protects the {{c1::brain}}, the thoracic cage protects the {{c2::heart and lungs}}, and the vertebral column protects the {{c3::spinal cord}}.",
+  "back": "Why: the axial skeleton is built mainly for protection, while the appendicular skeleton is built mainly for movement.",
+  "draft_idx": 5
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s02_bone_classes.jpg",
+  "ver": "slide 2 (Flat, Long, Short, Sesamoid, Irregular)",
+  "text": "Bones are classified by shape into five classes: {{c1::flat}}, {{c1::long}}, {{c1::short}}, {{c1::sesamoid}}, and {{c1::irregular}}.",
+  "back": "Why: shape follows job: long bones are levers, short bones pack into blocks, flat bones are shields, sesamoids sit in tendons, and irregular bones fit an odd job.<br><br>Mnemonic: Five Lazy Skeletons Sit Idle = Flat, Long, Short, Sesamoid, Irregular.",
+  "draft_idx": 6
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s02_bone_classes.jpg",
+  "ver": "slide 2 speaker notes (Long: femur, radius, ulna, tibia, fibula); slide 5 Q1",
+  "text": "The femur, radius, ulna, tibia, and fibula are all {{c1::long::shape class}} bones.",
+  "back": "Why: a long bone is defined by its shape (a shaft with an epiphysis at each end), not its size, so even the small finger bones count as long bones.",
+  "draft_idx": 7
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s02_bone_classes.jpg",
+  "ver": "slide 2 ('Short: in terms of shaft length') + notes (carpals, tarsals); manual p.131",
+  "text": "The carpal (wrist) and tarsal (ankle) bones are {{c1::short::shape class}} bones.",
+  "back": "Why: short bones are roughly cube-shaped with no real shaft ('short' describes the shaft, not the overall size), which lets them pack together into a flexible block.",
+  "draft_idx": 8
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s02_bone_classes.jpg",
+  "ver": "slide 2 speaker notes (Flat: sternum, ribs, skull bones); manual p.131",
+  "text": "The sternum, the ribs, and the bowl-shaped bones of the braincase (such as the parietals) are {{c1::flat::shape class}} bones.",
+  "back": "Why: thin, plate-like bones make broad shields and wide anchor surfaces for muscle, ideal for covering the brain, heart, and lungs.",
+  "draft_idx": 9
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s02_bone_classes.jpg",
+  "ver": "slide 2 ('Sesamoid: like a seed') + notes (patella); slide 5 Q2 (False)",
+  "text": "The patella (kneecap) is a {{c1::sesamoid::shape class}} bone.",
+  "back": "Why: sesamoid means 'like a sesame seed': a small, rounded bone that forms inside a tendon. The patella sits in the quadriceps tendon, protecting it and improving its leverage over the knee.<br><br>Pitfall: the patella is NOT an irregular bone.",
+  "draft_idx": 10
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s02_bone_classes.jpg",
+  "ver": "slide 2 speaker notes (Irregular: vertebrae, ... hyoid)",
+  "text": "The vertebrae and the hyoid are {{c1::irregular::shape class}} bones.",
+  "back": "Why: vertebrae and the hyoid have complicated shapes (processes, arches, horns) built for special jobs, so they don't fit the long, short, flat, or sesamoid templates.",
+  "draft_idx": 11
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s11_facial_bones.png",
+  "ver": "slide 2 speaker notes (Irregular: sphenoid, ethmoid, zygomatic, maxilla, mandible, inferior nasal concha)",
+  "text": "The sphenoid, ethmoid, maxilla, mandible, zygomatic, and inferior nasal concha are {{c1::irregular::shape class}} bones.",
+  "back": "Why: bones such as the sphenoid, ethmoid, and maxilla wrap around the eyes, nose, sinuses, and teeth, so each has an odd 3-D shape (wings, plates, sockets, air spaces) that fits no simpler class.<br><br>Pitfall: not every skull bone is flat. The curved plates of the braincase (such as the frontal, parietal, and occipital) are flat, but complex bones like the sphenoid, ethmoid, maxilla, and mandible are irregular.",
+  "draft_idx": 12
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "m6_03_bone_markings.jpg",
+  "ver": "slide 3 ('two landmark categories: depressions or projections'); manual p.133",
+  "text": "Bone markings are divided into two landmark categories: {{c1::projections}} and {{c1::depressions}}.",
+  "back": "Why: a bone's surface is shaped by what touches it. Muscles and ligaments raise projections where they anchor, joints use both (a rounded head or condyle fitting a socket-like fossa), and vessels and nerves leave depressions such as grooves and foramina.",
+  "draft_idx": 13
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "m6_03_bone_markings.jpg",
+  "ver": "slide 3 ('Projections usually serve as attachment points for ligaments and tendons')",
+  "text": "Bone projections usually serve as attachment points for {{c1::ligaments and tendons::two connective tissues}}.",
+  "back": "Why: the steady pull of a tendon or ligament makes bone build up where it anchors, so the stronger the muscle, the bigger the projection.",
+  "draft_idx": 14
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "m6_07_gross_bone.jpg",
+  "ver": "slide 3 ('Compact (load bearing): densely packed hydroxyapatite'); slide 5 Q3; manual p.134",
+  "text": "{{c1::Compact::compact or spongy}} bone is the {{c2::load-bearing::its job}} bone, built of densely packed {{c3::hydroxyapatite::mineral}}.",
+  "back": "Why: hydroxyapatite is the calcium-phosphate mineral that makes bone hard; densely packed, with none of the large open spaces of spongy bone, it resists the heavy squeezing a femur's shaft takes when you stand.",
+  "draft_idx": 15
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "m6_08_tibia_forces.jpg",
+  "ver": "slide 3 ('Spongy: trabeculae; better manage stress from multiple directions'); manual p.135",
+  "text": "{{c1::Spongy::compact or spongy}} bone is a lattice of bony struts called {{c2::trabeculae}}, which handles stress from {{c3::multiple directions::how many directions}}.",
+  "back": "Why: the struts line up along the lines of force, so the light lattice can brace against pushes and pulls from many angles at once. The lattice therefore fills the ends of long bones, where many muscles pull from different angles.",
+  "draft_idx": 16
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s05_marrow_section.jpg",
+  "ver": "slide 3 ('Red marrow: site of RBC production')",
+  "text": "Red bone marrow is the site of {{c1::red blood cell (RBC) production::what it makes}}.",
+  "back": "Why: red marrow is packed with blood-forming stem cells that keep dividing to replace the millions of red blood cells that wear out every second. Red marrow looks red because it is full of new blood cells.",
+  "draft_idx": 17
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s05_marrow_section.jpg",
+  "ver": "slide 3 ('Yellow marrow: filled with adipose'); manual p.131",
+  "text": "Yellow bone marrow is filled with {{c1::adipose::tissue type}} tissue.",
+  "back": "Why: yellow marrow is mostly fat cells, a lightweight energy store that fills the marrow cavity without making the bone heavy.",
+  "draft_idx": 18
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s03_long_bone.jpg",
+  "ver": "slide 3 figure + notes (proximal & distal epiphysis, one diaphysis)",
+  "text": "The shaft of a long bone is the {{c1::diaphysis}}, and each knobby end is an {{c2::epiphysis}}.",
+  "back": "Why: the diaphysis is a hollow tube of compact bone that makes a strong, light lever, while the wider epiphyses spread the load where the bone meets its neighbor at a joint.<br><br>Parts: dia- (between) + -physis (growth); epi- (upon) + -physis. The diaphysis grows between the ends, and the epiphyses sit upon the shaft.<br><br>Cue: one diaphysis, but two epiphyses (proximal and distal).",
+  "draft_idx": 19
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s03_long_bone.jpg",
+  "ver": "slide 3 speaker notes ('distinguish between the proximal and distal epiphysis')",
+  "text": "On the humerus, the epiphysis at the shoulder end is the {{c1::proximal::proximal or distal}} epiphysis.",
+  "back": "Why: proximal means closer to where the limb attaches to the trunk, and the shoulder end of the humerus is nearest the trunk.",
+  "draft_idx": 20
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s03_long_bone.jpg",
+  "ver": "slide 3 speaker notes ('distinguish between the proximal and distal epiphysis')",
+  "text": "On the femur, the epiphysis at the knee end is the {{c1::distal::proximal or distal}} epiphysis.",
+  "back": "Why: distal means farther from where the limb attaches to the trunk, and the knee end is the femur's far end from the hip.",
+  "draft_idx": 21
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s04_compact_bone.jpg",
+  "ver": "slide 4 ('Osteon: basic structural unit'); slide 5 Q4 (False: osteocyte); manual p.134",
+  "text": "The basic structural unit of compact bone is the {{c1::osteon}}.",
+  "back": "Why: each osteon is a column of bone rings around one central canal, so no bone cell is ever far from its blood supply.<br><br>Pitfall: NOT the osteocyte, which is a bone CELL living inside the osteon.",
+  "draft_idx": 22
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "m6_05_bone_tissue_400x.jpg",
+  "ver": "slide 4 ('Central canal: contains nerves and vasculature'); manual p.134",
+  "text": "The central canal of an osteon carries {{c1::blood vessels}} and {{c1::nerves}}.",
+  "back": "Why: bone is living tissue, so every osteon needs a supply line down its middle; the vessels bring oxygen and nutrients and carry wastes away.",
+  "draft_idx": 23
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s04_compact_bone.jpg",
+  "ver": "slide 4 ('Concentric lamellae') + notes ('layered circles that surround a shared center')",
+  "text": "The layered rings of bone matrix that surround an osteon's central canal are the {{c1::concentric lamellae}}.",
+  "back": "Why: 'concentric' means sharing a center. The rings all surround the same central canal, like the rings of a tree trunk or the layers of an onion.",
+  "draft_idx": 24
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "m6_05_bone_tissue_400x.jpg",
+  "ver": "slide 4 ('Pockets in concentric lamellae are lacuna and contain osteocytes')",
+  "text": "The small pockets within the concentric lamellae are called {{c1::lacunae}}, and each one holds an {{c2::osteocyte}}.",
+  "back": "Why: an osteocyte is a mature bone cell walled into hard matrix, and the lacuna is the little chamber it lives in.",
+  "draft_idx": 25
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "m6_05_bone_tissue_400x.jpg",
+  "ver": "slide 4 ('Lacuna are connected to central canal via canaliculi') + notes",
+  "text": "In compact bone, lacunae are connected to the osteon's central canal by {{c1::canaliculi}}.",
+  "back": "Why: canaliculi are microscopic channels, and because osteocytes are sealed inside hard mineral, the canaliculi are how nutrients and wastes pass between each cell and the blood vessels in the central canal.",
+  "draft_idx": 26
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s06_epiphyseal_plate.jpg",
+  "ver": "slide 6 ('Growth occurs between the diaphysis and the epiphysis in the epiphyseal plate'; 'Diaphysis lengthens') + notes ('growth plate')",
+  "text": "A long bone grows in length at its {{c1::epiphyseal plate}}, and it is the {{c2::diaphysis::which part}} that lengthens.",
+  "back": "Why: the plate is a band of cartilage between the shaft and the end whose cells keep dividing, pushing the epiphysis away while bone fills in behind them.<br><br>Meaning: the epiphyseal plate is also called the growth plate.",
+  "draft_idx": 27
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "m6_09_growth_plate.jpg",
+  "ver": "slide 6 ('Cartilage growth occurs on distal end of plate while bone is added medially'); manual p.136",
+  "text": "Inside the epiphyseal plate, new cartilage is added on the {{c1::epiphysis::epiphysis or diaphysis}} side, while bone is added on the {{c1::diaphysis::epiphysis or diaphysis}} side.",
+  "back": "Why: the plate grows at its outer edge while being turned into bone at its inner edge, so it creeps outward, pushing the end of the bone away and lengthening the shaft.<br><br>Pitfall: the lab words the same fact as cartilage growth on the distal end of the plate while bone is added medially, so distal = the epiphysis side and medial = the diaphysis side.",
+  "draft_idx": 28
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s03_long_bone.jpg",
+  "ver": "slide 6 ('When growth is complete, the plate becomes the epiphyseal line'); slide 9 Q2",
+  "text": "When growth is complete, the epiphyseal plate becomes the {{c1::epiphyseal line}}.",
+  "back": "Why: once its cartilage stops dividing, bone replaces the whole plate, and the thin bony line left behind is the scar of the old growth plate.",
+  "draft_idx": 29
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "m6_04_long_bone_model.jpg",
+  "ver": "slide 6 speaker notes (plate = cartilage, line = bone); slide 9 Q1 (False: line)",
+  "text": "The epiphyseal plate is made of {{c1::cartilage::bone or cartilage}}, while the epiphyseal line is made of {{c1::bone::bone or cartilage}}.",
+  "back": "Why: cartilage can keep growing from within, so a cartilage plate can lengthen the bone; once the plate turns to bone (the line), lengthening is over.<br><br>Distinguish: the plate (cartilage) marks where growth is still happening; the line (bone) marks that growth has ended.<br><br>Pitfall: growth happens at the plate, never at the line.",
+  "draft_idx": 30
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "m6_12_cartilages.jpg",
+  "ver": "slide 7 ('Hyaline: most abundant'; 'Elastic: least abundant'); slide 9 Q3 (False)",
+  "text": "The most abundant cartilage in the body is {{c1::hyaline::cartilage type}} cartilage, and the least abundant is {{c1::elastic::cartilage type}} cartilage.",
+  "back": "Why: hyaline is used wherever a smooth, slightly flexible surface is needed (most joint surfaces, the rib cartilages, the trachea, the nose), while elastic is needed only in the few places where tissue must bend and spring back.",
+  "draft_idx": 31
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "m6_12_cartilages.jpg",
+  "ver": "slide 7 ('Elastic Cartilage: most flexible'); manual p.139",
+  "text": "The most flexible cartilage is {{c1::elastic::cartilage type}} cartilage, found in the {{c2::external ear}} and the {{c2::epiglottis}}.",
+  "back": "Why: elastic cartilage's matrix is threaded with elastic fibers, so it bends and snaps back into shape. Fold your ear and it springs right back.",
+  "draft_idx": 32
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "m6_04_long_bone_model.jpg",
+  "ver": "slide 7 ('Hyaline: covers articulating surfaces; flexible'); manual p.138",
+  "text": "Hyaline cartilage is {{c2::flexible::stiff or flexible}} and covers the {{c1::articulating surfaces::where on the bone}} of bones.",
+  "back": "Why: hyaline cartilage's glassy-smooth surface cuts friction where two bones meet, and because it covers the articulating (joint) surface, it is also called articular cartilage.",
+  "draft_idx": 33
+ },
+ {
+  "deck": "Bone Basics & Cartilage",
+  "img": "s07_disc.jpg",
+  "ver": "slide 7 ('Fibrocartilage: stiff and tough; absorbs force; intervertebral discs and meniscus')",
+  "text": "Of the three cartilages, {{c1::fibrocartilage}} is the stiffest and toughest, which lets it {{c2::absorb force::what it does}} in the {{c3::intervertebral discs}} and the knee's {{c3::menisci}}.",
+  "back": "Why: thick bundles of collagen fibers run through its matrix, so it resists squeezing and tearing, the right material for a shock absorber.",
+  "draft_idx": 34
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "m7_01_axial_skeleton.jpg",
+  "ver": "slide 8 (Cephalic: Cranial, Facial, Auditory Ossicles, Hyoid); manual p.152",
+  "text": "The cephalic (skull) division of the axial skeleton is made of the {{c1::cranial bones}}, the {{c1::facial bones}}, the {{c1::auditory ossicles}}, and the {{c1::hyoid}}.",
+  "back": "Why: the cranial bones box in the brain, the facial bones frame the face, the six tiny ossicles carry sound across the middle ear, and the hyoid anchors the tongue.",
+  "draft_idx": 35
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "s10_cranial_bones.png",
+  "ver": "slide 10 (Frontal, Sphenoid, Ethmoid, Temporal, Parietal, Occipital); blue page Q3",
+  "text": "The six cranial bone types, remembered as <b>PEST-OF</b>:<br><br>{{c1::Parietal::P}}<br><br>{{c1::Ethmoid::E}}<br><br>{{c1::Sphenoid::S}}<br><br>{{c1::Temporal::T}}<br><br>{{c1::Occipital::O}}<br><br>{{c1::Frontal::F}}",
+  "back": "Why: together they form the braincase: frontal (forehead), parietals (roof and upper sides), temporals (sides around the ears), occipital (back and base), and the sphenoid and ethmoid (the floor, behind and between the eyes).",
+  "draft_idx": 36
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "num": true,
+  "img": "s10_cranial_bones.png",
+  "ver": "slide 10 speaker notes ('Temporal and Parietal Bones are paired ... total of 8 cranial bones')",
+  "text": "The cranium has {{c1::8::number of bones}} bones, because the {{c2::parietal}} and {{c2::temporal}} bones come in left and right pairs.",
+  "back": "Why: six bone types with two of them doubled (6 + 2 = 8). The frontal, occipital, sphenoid, and ethmoid are single bones that cross the midline.",
+  "draft_idx": 37
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "num": true,
+  "img": "s11_facial_bones.png",
+  "ver": "slide 11 speaker notes ('14 total Facial Bones')",
+  "text": "The face has {{c1::14::number of bones}} bones.",
+  "back": "Why: eight bone types; six come in left and right pairs (12 bones) and two are single, so 12 + 2 = 14.",
+  "draft_idx": 38
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "s11_facial_bones.png",
+  "ver": "slide 11 speaker notes ('Unpaired Bones: Mandible, Vomer')",
+  "text": "The only two UNPAIRED facial bones are the {{c1::mandible}} and the {{c1::vomer}}.",
+  "back": "Why: both sit exactly on the midline (the mandible is one U-shaped jawbone and the vomer is one thin blade in the nasal septum), so there is no left and right copy.",
+  "draft_idx": 39
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "m7_07_sinuses.jpg",
+  "ver": "lab manual p.156 ('Four bones in the skull contain hollow pockets called sinuses'); Popcorn Points slide 5 key",
+  "text": "Four skull bones hold the paranasal sinuses: the {{c1::frontal}}, {{c1::ethmoid}}, {{c1::sphenoid}}, and {{c1::maxillary}} bones.",
+  "back": "Why: the mucus-lined air pockets drain into the nasal cavity, which is why a cold or allergy can cause sinus pressure and sinus headaches.<br><br>Pitfall: the mastoid process of the temporal bone also holds air cells, but it is not one of the four paranasal sinus bones.",
+  "draft_idx": 40
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "m7_07_sinuses.jpg",
+  "ver": "lab manual p.156 (sinuses lighten the facial bones; amplify the voice); blue page Q4",
+  "text": "Two likely functions of the skull's sinuses are to {{c1::lighten the skull::effect on weight}} and to {{c2::give the voice resonance::effect on sound}}.",
+  "back": "Why: hollow, air-filled bone weighs far less than solid bone, and the air spaces act like the body of a guitar, amplifying and coloring the voice.",
+  "draft_idx": 41
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "m7_05_mandible.jpg",
+  "ver": "blue page Q5 (mental foramen); lab manual p.156",
+  "text": "The mental foramen is an opening in the {{c1::mandible::bone}}.",
+  "back": "Why: the mental foramen sits on the front of the jaw below the premolars and lets nerves and blood vessels out to the skin and muscles of the chin and lower lip.",
+  "draft_idx": 42
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "m7_02b_skull_obl_ant.jpg",
+  "ver": "blue page Q5 (infraorbital foramen); lab manual p.155",
+  "text": "The infraorbital foramen is an opening in the {{c1::maxilla (maxillary bone)::bone}}.",
+  "back": "Why: the infraorbital foramen sits just below the eye socket (infra-orbital) and passes nerves and vessels to the skin and muscles of the cheek and upper lip.",
+  "draft_idx": 43
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "m7_02a_skull_post_lat.jpg",
+  "ver": "blue page Q5 (supraorbital foramen); lab manual p.152 and Fig 7-18 (notch 75%, foramen 25%)",
+  "text": "The supraorbital foramen (or notch) is part of the {{c1::frontal::bone}} bone.",
+  "back": "Why: the supraorbital foramen sits on the upper rim of the eye socket (supra-orbital) and lets nerves and vessels reach the forehead. In about three of four people it is an open notch rather than a closed hole.",
+  "draft_idx": 44
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "m7_02a_skull_post_lat.jpg",
+  "ver": "blue page Q5 (mastoid process); lab manual p.152",
+  "text": "The mastoid process is part of the {{c1::temporal::bone}} bone.",
+  "back": "Why: the mastoid process is the bump you can feel behind your ear; the sternocleidomastoid muscle pulls on it to turn and tilt the head.",
+  "draft_idx": 45
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "m7_02a_skull_post_lat.jpg",
+  "ver": "blue page Q5 (temporal process); lab manual p.155 and Fig 7-2",
+  "text": "The zygomatic arch is formed by the temporal process of the {{c1::zygomatic::bone}} bone joining the zygomatic process of the {{c1::temporal::bone}} bone.",
+  "back": "Why: each process is named for the bone it reaches toward, so the names cross over; the two meet in the middle to make the cheekbone arch.<br><br>Cue: you can feel the arch just in front of your ear.",
+  "draft_idx": 46
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "m7_05_mandible.jpg",
+  "ver": "lab manual p.156 ('the only skull bone that moves')",
+  "text": "The only skull bone you can move at will is the {{c1::mandible::bone}}.",
+  "back": "Why: the mandible hinges against the temporal bone just in front of the ear; lowering it opens the mouth and raising it closes the mouth.",
+  "draft_idx": 47
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "s13_hyoid.jpg",
+  "ver": "slide 13 ('Floats at the level of cervical vertebrae 3')",
+  "text": "The hyoid bone 'floats' in the neck at the level of vertebra {{c1::C3::region + number}}.",
+  "back": "Why: the hyoid sits just above the larynx (Adam's apple), roughly level with the third cervical vertebra, in the angle between the chin and the neck.",
+  "draft_idx": 48
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "s13_hyoid.jpg",
+  "ver": "slide 13 ('Does not articulate other bones'); manual p.156",
+  "text": "The hyoid is said to 'float' in the neck because it {{c1::does not articulate with any other bone}}.",
+  "back": "Why: instead of a joint, it is slung in place by ligaments and muscles, which is what lets it rise and fall when you swallow.",
+  "draft_idx": 49
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "m7_02b_skull_obl_ant.jpg",
+  "ver": "slide 13 ('Attached by ligaments from styloid and hangs like a swing'); manual p.152 + Fig 7-2 (styloid process, temporal bone)",
+  "text": "The hyoid hangs like a swing from ligaments attached to the {{c1::styloid processes::bony projections}} of the {{c2::temporal::bone}} bones.",
+  "back": "Why: the stylohyoid ligaments run from the pointed styloid processes just below the ears down to the hyoid's lesser horns.<br><br>Pitfall: one sentence of the lab manual says sphenoid; everywhere else the manual (correctly) puts the styloid processes on the temporal bone.",
+  "draft_idx": 50
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "s13_hyoid.jpg",
+  "ver": "slide 13 ('Serves as attachment site for other muscles'); manual p.156 (tongue, swallowing)",
+  "text": "The hyoid serves as an attachment site for the muscles of the {{c1::tongue}} and of {{c1::swallowing}}.",
+  "back": "Why: because it floats, muscles pulling on it from above and below can lift and lower the throat, the motion you feel when you swallow.",
+  "draft_idx": 51
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "s13_hyoid.jpg",
+  "ver": "slide 13 ('Cornu = horn')",
+  "text": "In anatomy, {{c1::cornu}} means {{c2::horn}}.",
+  "back": "Why: anatomists named the hyoid's slender projections cornua because they stick up and back from its body like a pair of horns.<br><br>Ex: the hyoid has greater and lesser cornua, and the sacrum and coccyx have cornua too.<br><br>Cue: Latin cornu, as in unicorn.",
+  "draft_idx": 52
+ },
+ {
+  "deck": "Skull Foramina & Cranial Floor",
+  "img": "s12_cranial_foramina.png",
+  "ver": "slide 12 (red-boxed foramina on the sphenoid)",
+  "text": "The optic canal and the foramina rotundum, ovale, and spinosum all pierce the {{c1::sphenoid::bone}} bone.",
+  "back": "Why: the sphenoid sits in the middle of the cranial floor, right where the nerves for the eye and face leave the skull (and where the middle meningeal artery enters through the foramen spinosum).",
+  "draft_idx": 53
+ },
+ {
+  "deck": "Skull Foramina & Cranial Floor",
+  "img": "s12_cranial_foramina.png",
+  "ver": "slide 12 (foramen magnum, hypoglossal canal); blue page Q5; manual p.152",
+  "text": "The foramen magnum and the hypoglossal canals are openings in the {{c1::occipital::bone}} bone.",
+  "back": "Why: the occipital bone forms the back of the cranial floor, where the spinal cord (foramen magnum) and the tongue's nerve (hypoglossal canal) leave the skull.",
+  "draft_idx": 54
+ },
+ {
+  "deck": "Skull Foramina & Cranial Floor",
+  "img": "s12_cranial_foramina.png",
+  "ver": "slide 12 (Ethmoid bone: cribriform plate; cribriform foramina)",
+  "text": "The cribriform foramina perforate the cribriform plate of the {{c1::ethmoid::bone}} bone.",
+  "back": "Why: 'cribriform' means sieve-like; dozens of tiny holes let the smell (olfactory) nerve fibers pass up from the nose to the brain.",
+  "draft_idx": 55
+ },
+ {
+  "deck": "Skull Foramina & Cranial Floor",
+  "img": "s12_cranial_foramina.png",
+  "ver": "slide 12 (Temporal bone, petrous part; internal acoustic meatus); manual p.152",
+  "text": "The internal acoustic meatus is an opening in the {{c1::temporal::bone}} bone.",
+  "back": "Why: the inner ear is housed entirely inside the temporal bone, so the nerves for hearing and balance (with the facial nerve) enter the bone through the internal acoustic meatus.",
+  "draft_idx": 56
+ },
+ {
+  "deck": "Skull Foramina & Cranial Floor",
+  "img": "s12_cranial_foramina.png",
+  "ver": "slide 12 (jugular foramen)",
+  "text": "The jugular foramen lies between the {{c1::temporal}} and {{c1::occipital}} bones.",
+  "back": "Why: the jugular foramen is the gap left where the two bones meet at the back of the cranial floor; the internal jugular vein and cranial nerves IX, X, and XI leave through it.",
+  "draft_idx": 57
+ },
+ {
+  "deck": "Skull Foramina & Cranial Floor",
+  "img": "s12_cranial_foramina.png",
+  "ver": "slide 12 (hypophyseal fossa of sella turcica); blue page Q5; manual p.152",
+  "text": "The sella turcica is part of the {{c1::sphenoid::bone}} bone.",
+  "back": "Why: the sella turcica, a saddle-shaped pocket ('Turkish saddle') in the middle of the cranial floor, holds and protects the pituitary gland.",
+  "draft_idx": 58
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s14_spine_regions.jpg",
+  "ver": "slide 14 (cervical, thoracic, lumbar, sacral, coccyx) + notes",
+  "text": "From top to bottom, the regions of the vertebral column are:<br><br>{{c1::cervical}}<br><br>{{c1::thoracic}}<br><br>{{c1::lumbar}}<br><br>{{c1::sacral}}<br><br>{{c1::coccygeal}}",
+  "back": "Why: the regions follow the body from neck to chest to lower back to pelvis to tailbone.",
+  "draft_idx": 59
+ },
+ {
+  "deck": "Vertebral Column",
+  "num": true,
+  "img": "m7_08_spinal_curves.jpg",
+  "ver": "slide 8 (Cervical (7)); slide 15 (C1-C7) + slide 14 notes mnemonic",
+  "text": "The cervical region of the spine has {{c1::7::number of vertebrae}} vertebrae.",
+  "back": "Why: seven neck vertebrae is a count shared by almost every mammal, from a mouse to a whale, so a long neck comes from longer vertebrae, not more of them.<br><br>Mnemonic: eat cereal for breakfast at 7 am, so 7 cervical.",
+  "draft_idx": 60
+ },
+ {
+  "deck": "Vertebral Column",
+  "num": true,
+  "img": "m7_08_spinal_curves.jpg",
+  "ver": "slide 8 (Thoracic (12)); slide 16 (T1-T12) + slide 14 notes mnemonic",
+  "text": "The thoracic region of the spine has {{c1::12::number of vertebrae}} vertebrae.",
+  "back": "Why: one thoracic vertebra for each of the 12 pairs of ribs.<br><br>Mnemonic: a turkey sandwich for lunch at 12 noon, so 12 thoracic.",
+  "draft_idx": 61
+ },
+ {
+  "deck": "Vertebral Column",
+  "num": true,
+  "img": "m7_08_spinal_curves.jpg",
+  "ver": "slide 8 (Lumbar (5)); slide 17 (L1-L5) + slide 14 notes mnemonic",
+  "text": "The lumbar region of the spine has {{c1::5::number of vertebrae}} vertebrae.",
+  "back": "Why: five massive vertebrae carry the whole upper body's weight down to the pelvis.<br><br>Mnemonic: lobster for dinner at 5 pm, so 5 lumbar.",
+  "draft_idx": 62
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "m7_08_spinal_curves.jpg",
+  "ver": "slide 14 (cervical Concave, thoracic Convex, lumbar Concave, sacral Convex); manual Fig 7-8; blue page Q8, Q14",
+  "text": "Classify each normal curve of the spine, judged from its posterior (back) surface:<br><br>cervical → {{c1::concave::concave or convex}}<br><br>thoracic → {{c1::convex::concave or convex}}<br><br>lumbar → {{c1::concave::concave or convex}}<br><br>sacral → {{c1::convex::concave or convex}}",
+  "back": "Why: the four curves bend in alternating directions, which turns the spine into a spring that absorbs shock and keeps the head balanced over the hips.<br><br>Pitfall: from the front (anterior) surface every word flips, and from directly behind a healthy spine looks straight, because the normal curves only show in a side view.",
+  "draft_idx": 63
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s14_typical_vertebra.png",
+  "ver": "slide 14 (Body (centrum), red-boxed); manual p.157-158",
+  "text": "The thick, drum-shaped front part of a vertebra that bears weight is the {{c1::body (centrum)::part}}.",
+  "back": "Why: the bodies stack with discs between them to form the load-bearing column, and they get larger from neck to lower back as the weight they carry increases.",
+  "draft_idx": 64
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s14_typical_vertebra.png",
+  "ver": "slide 14 (Vertebral foramen, red-boxed); manual p.157; blue page Q12",
+  "text": "The large opening in a vertebra that the spinal cord passes through is the {{c1::vertebral foramen}}.",
+  "back": "Why: stacked one above another, the vertebral foramina line up into the vertebral canal, a bony tunnel around the spinal cord.",
+  "draft_idx": 65
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s14_typical_vertebra.png",
+  "ver": "slide 14 (Vertebral arch, Pedicle, Lamina); manual p.157 ('arch is formed by the laminae posteriorly, the pedicles laterally')",
+  "text": "The vertebral arch is formed by two {{c1::pedicles}} on the sides and two {{c2::laminae}} behind.",
+  "back": "Why: the pedicles are the short 'feet' that anchor the arch to the body, and the laminae are the flat plates that roof it over behind the spinal cord.",
+  "draft_idx": 66
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s16_thoracic.png",
+  "ver": "slide 14 (superior articular process); manual p.157 ('superior articular facets and inferior articular facets at which they articulate with the vertebrae above and below')",
+  "text": "Each vertebra joins the vertebrae above and below it at its {{c1::articular processes (facets)::which processes}}.",
+  "back": "Why: the smooth facets on the paired superior and inferior articular processes glide against their neighbors, letting the spine bend and twist while staying stacked.",
+  "draft_idx": 67
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s07_disc.jpg",
+  "ver": "slide 7 (intervertebral foramen); manual p.156; blue page Q16",
+  "text": "Spinal nerves exit the vertebral column through the {{c1::intervertebral foramina}}.",
+  "back": "Why: each opening is framed by the notches of two stacked vertebrae, so the column can fully enclose the spinal cord yet still let a pair of nerves out at every level.",
+  "draft_idx": 68
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s15_atlas_axis.jpg",
+  "ver": "slide 15 ('C1=atlas') + notes",
+  "text": "{{c1::C1::vertebra}} is called the {{c2::atlas}}.",
+  "back": "Why: C1 is named for Atlas, the Titan who held up the heavens; C1 holds up the skull, which rocks on it for the 'yes' nod.",
+  "draft_idx": 69
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s15_atlas_axis.jpg",
+  "ver": "slide 15 ('C2=axis') + notes",
+  "text": "{{c1::C2::vertebra}} is called the {{c2::axis}}.",
+  "back": "Why: the dens of C2 is the pivot (axis) that the atlas and skull rotate around when you shake your head 'no'.",
+  "draft_idx": 70
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "m7_11_atlas_axis_model.jpg",
+  "ver": "slide 15 ('Dens'); manual p.158",
+  "text": "The peg of bone that projects upward from the body of C2 is the {{c1::dens}}.",
+  "back": "Why: the atlas fits around the dens like a ring on a peg, held in place by the transverse ligament, so the head can rotate side to side.<br><br>Meaning: dens means tooth; it is also called the odontoid process.",
+  "draft_idx": 71
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "m7_11_atlas_axis_model.jpg",
+  "ver": "slide 15 notes ('Be comfortable differentiating between C1 and C2'); manual Fig 7-11",
+  "text": "Of the first two vertebrae, the ring with no body and no spinous process is {{c1::C1 (atlas)::which vertebra}}, and the one with an upward peg is {{c1::C2 (axis)::which vertebra}}.",
+  "back": "Why: during development the body of C1 fuses onto C2 as the dens, which is why the atlas is left as a ring and the axis gains its peg.",
+  "draft_idx": 72
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "m7_08_spinal_curves.jpg",
+  "ver": "slide 15 ('C7=vertebral prominens') + notes ('palpate C7 at base of posterior neck'); blue page Q15",
+  "text": "{{c1::C7::vertebra}} is called the {{c2::vertebra prominens}}.",
+  "back": "Why: C7's long spinous process makes the bump you can feel at the base of the back of your neck, the easiest vertebra to palpate.",
+  "draft_idx": 73
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s15_cervical_labeled.png",
+  "ver": "slide 15 notes ('Transverse foramen are only found in cervical vertebrae'); blue page Q13",
+  "text": "{{c1::Transverse foramina::openings}} are found only in {{c2::cervical::region}} vertebrae.",
+  "back": "Why: the holes in the cervical transverse processes carry the vertebral arteries up the neck to the brain.<br><br>Pitfall: the lab manual says the carotid arteries pass through them; it is the vertebral arteries (the carotids run in front of the spine).",
+  "draft_idx": 74
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s16_thoracic.png",
+  "ver": "slide 16 ('Costal facets that articulate with ribs') + notes ('Costal facets are only found on thoracic vertebrae')",
+  "text": "The only vertebrae with {{c1::costal facets::joint surfaces}} for the ribs are the {{c2::thoracic::region}} vertebrae.",
+  "back": "Why: 'costa' means rib. A typical rib's head joins the bodies of two vertebrae and its tubercle joins a transverse process; each contact point is a costal facet.",
+  "draft_idx": 75
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "m7_13_vertebra_regions.jpg",
+  "ver": "slides 15-17 (small body / medium size body / large bodies); manual p.158",
+  "text": "Vertebral bodies get {{c1::larger::larger or smaller}} from the cervical region down to the lumbar region.",
+  "back": "Why: each lower vertebra carries more body weight; cervical bodies hold up only the head, while lumbar bodies carry the head, arms, and whole trunk.",
+  "draft_idx": 76
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s15_cervical_labeled.png",
+  "ver": "slide 15 (Identifying Characteristics: large vertebral foramina, transverse foramen, bifid spinous process, small body) + notes",
+  "text": "A cervical vertebra is identified by a {{c1::small::small, medium, or large}} body, a {{c1::large::small, medium, or large}} vertebral foramen, {{c1::transverse foramina}}, and a {{c1::bifid::shape}} spinous process.",
+  "back": "Why: the neck carries only the head, so the bodies are small, but the spinal cord is widest in the neck, so the vertebral foramen is large.<br><br>Meaning: bifid means split in two at the tip.<br><br>Cue: the lab's animal for a cervical vertebra is an elephant (thoracic = giraffe, lumbar = moose), and from above it looks like a face smiling at you.",
+  "draft_idx": 77
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s16_thoracic.png",
+  "ver": "slide 16 (Medium size body; Costal facets; Vertically angled spinous process) + notes (giraffe)",
+  "text": "A thoracic vertebra is identified by a {{c1::medium-sized::small, medium, or large}} body, {{c1::costal facets}} where the ribs articulate, and a long spinous process that is {{c1::vertically::vertically or horizontally}} angled.",
+  "back": "Why: the long spinous processes slope down and overlap like shingles, which limits backward bending and shields the spinal cord from behind.<br><br>Cue: from the side it looks like a giraffe's head: the long, down-slanting spinous process is the giraffe's long face.",
+  "draft_idx": 78
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s17_lumbar_superior.jpg",
+  "ver": "slide 17 (Large bodies; More horizontal spinous process; Triangular vertebral foramen) + notes (moose)",
+  "text": "A lumbar vertebra is identified by a {{c1::large::small, medium, or large}} body, a {{c1::triangular::shape}} vertebral foramen, and a spinous process that is more {{c1::horizontally::vertically or horizontally}} angled.",
+  "back": "Why: the huge bodies carry more weight than any other vertebrae.<br><br>Cue: from the side it looks like a moose's head: a massive body with a short, square spinous process jutting straight back.<br><br>Pitfall: a cervical vertebral foramen is roughly triangular too, but it is large next to a small body and flanked by transverse foramina; the lumbar foramen is small next to a massive body.",
+  "draft_idx": 79
+ },
+ {
+  "deck": "Vertebral Column",
+  "side": "front",
+  "img": "pp7_a_thoracic.jpg",
+  "ver": "Popcorn Points slide 7 key ('Which vertebra is thoracic? A')",
+  "text": "Vertebra A, a lab model seen from the side: which region is it from? {{c1::thoracic::region}}",
+  "back": "Why: the long spinous process slants steeply down like a giraffe's long face, and the body is medium-sized with small smooth costal facets for the ribs.",
+  "back_img": "m7_14_giraffe_row.jpg",
+  "draft_idx": 80
+ },
+ {
+  "deck": "Vertebral Column",
+  "side": "front",
+  "img": "pp7_b_lumbar.jpg",
+  "ver": "Popcorn Points slide 7 key ('Which vertebra is lumbar? B')",
+  "text": "Vertebra B, a lab model seen from the side: which region is it from? {{c1::lumbar::region}}",
+  "back": "Why: the massive body and the short, square spinous process jutting straight back give it the moose-head silhouette.",
+  "back_img": "m7_14_moose_row.jpg",
+  "draft_idx": 81
+ },
+ {
+  "deck": "Vertebral Column",
+  "side": "front",
+  "img": "s17_lumbar_photo.jpg",
+  "ver": "slide 17 photo (lumbar vertebra)",
+  "text": "A vertebra seen from the side, body on the right: which region is it from? {{c1::lumbar::region}}",
+  "back": "Why: the huge, boxy body and the short, hatchet-shaped spinous process pointing straight back are the lumbar giveaways.",
+  "draft_idx": 83
+ },
+ {
+  "deck": "Vertebral Column",
+  "side": "front",
+  "img": "s15_cervical_superior.png",
+  "ver": "slide 15 photo (cervical vertebra, superior view) + notes ('look like they are smiling at you')",
+  "text": "A vertebra seen from above: which region is it from? {{c1::cervical::region}}",
+  "back": "Why: a hole in each transverse process (transverse foramen) is found only in cervical vertebrae, and the small body, large vertebral foramen, and forked (bifid) spinous process confirm it.",
+  "draft_idx": 84
+ },
+ {
+  "deck": "Vertebral Column",
+  "side": "front",
+  "num": true,
+  "img": "pp3_front_trunk.png",
+  "ver": "Popcorn Points slide 3 key ('15 thoracic vertebra (12)')",
+  "text": "Skeleton seen from the front: name the specific vertebra at pin 15 (region and number). {{c1::T12::region + number}}",
+  "back": "Why: T12 is the last vertebra that carries a rib; follow the lowest (floating) rib back to the spine to find it.",
+  "draft_idx": 85
+ },
+ {
+  "deck": "Vertebral Column",
+  "side": "front",
+  "num": true,
+  "img": "pp3_front_trunk.png",
+  "ver": "Popcorn Points slide 3 key ('16 lumbar vertebra (3)')",
+  "text": "Skeleton seen from the front: name the specific vertebra at pin 16 (region and number). {{c1::L3::region + number}}",
+  "back": "Why: the lumbar vertebrae start right below the last rib-bearing vertebra (T12); count down three from there.",
+  "draft_idx": 86
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s19_abnormal_curves.png",
+  "ver": "slide 19 ('Scoliosis: Abnormal lateral curvature'); blue page Q9",
+  "text": "{{c1::Scoliosis}} is an abnormal {{c2::lateral (sideways)::direction}} curvature of the spine.",
+  "back": "Why: all the normal spinal curves are front-to-back, so any S- or C-shaped bend seen from behind is abnormal.",
+  "draft_idx": 87
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s19_abnormal_curves.png",
+  "ver": "slide 19 ('Kyphosis: exaggerated thoracic curvature') + notes ('hunchback'); blue page Q10",
+  "text": "{{c1::Kyphosis}} is an exaggerated {{c2::thoracic::region}} curvature of the spine.",
+  "back": "Why: kyphosis rounds the upper back forward into a hunchback, which is the lab's nickname for it.",
+  "draft_idx": 88
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s19_abnormal_curves.png",
+  "ver": "slide 19 ('Lordosis: exaggerated lumbar curvature') + notes ('common in pregnant women'); blue page Q11",
+  "text": "{{c1::Lordosis}} is an exaggerated {{c2::lumbar::region}} curvature of the spine, common in {{c3::pregnant women::which group}}.",
+  "back": "Why: a growing belly pulls the lumbar spine forward, so the lower back sways inward even more than its normal curve.",
+  "draft_idx": 89
+ },
+ {
+  "deck": "Sacrum & Coccyx",
+  "num": true,
+  "img": "s18_sacrum_coccyx.jpg",
+  "ver": "slide 18 ('Sacrum is 5 fused vertebrae'; S1-5) + slide 14 notes mnemonic",
+  "text": "The sacrum is {{c1::5::number of vertebrae}} fused vertebrae.",
+  "back": "Why: five vertebrae fused into one solid wedge make a strong base that passes the upper body's weight to the hip bones.<br><br>Mnemonic: sweets for dessert with dinner at 5, so 5 fused sacral vertebrae.",
+  "draft_idx": 90
+ },
+ {
+  "deck": "Sacrum & Coccyx",
+  "num": true,
+  "img": "s18_sacrum_coccyx.jpg",
+  "ver": "slide 18 ('Coccyx is 3-5 fused vertebrae') + notes ('The textbook says 4-5 ... We want you to remember 3-5')",
+  "text": "The coccyx is {{c1::3–5::number of vertebrae}} fused vertebrae.",
+  "back": "Why: the coccyx is the remnant of a tail, and the number of segments varies from person to person.<br><br>Pitfall: the textbook says 4–5, but the lab wants 3–5.",
+  "draft_idx": 91
+ },
+ {
+  "deck": "Sacrum & Coccyx",
+  "img": "m7_15_sacrum_photos.jpg",
+  "ver": "slide 18 (Median sacral crest, red-boxed); lab manual Fig 7-15 ('median sacral crest (fused spinous processes)')",
+  "text": "The median sacral crest is formed by the fused {{c1::spinous processes::which part of a vertebra}} of the sacral vertebrae.",
+  "back": "Why: the spinous processes of the upper sacral vertebrae merged into one bumpy ridge down the middle of the sacrum's back; the lowest segments never formed them, which leaves the gap of the sacral hiatus.",
+  "draft_idx": 92
+ },
+ {
+  "deck": "Sacrum & Coccyx",
+  "img": "m7_15_sacrum_photos.jpg",
+  "ver": "slide 18 (Sacral canal, Sacral hiatus, red-boxed); lab manual p.159",
+  "text": "The sacral canal is the lower end of the {{c1::vertebral canal}}, and it opens at the bottom as the {{c2::sacral hiatus}}.",
+  "back": "Why: the canal carries the last nerve roots of the spinal cord through the sacrum; the hiatus is the gap where the lowest sacral laminae never fused.",
+  "draft_idx": 93
+ },
+ {
+  "deck": "Sacrum & Coccyx",
+  "img": "s18_sacrum_coccyx.jpg",
+  "ver": "lab manual p.159 ('It articulates with L5 superiorly, the coccyx inferiorly and the ox coxae anterolaterally')",
+  "text": "The sacrum joins {{c1::L5::vertebra}} above, the {{c2::coccyx}} below, and the {{c3::hip bones (os coxae)::bones}} on each side.",
+  "back": "Why: the sacrum is the keystone of the pelvis; the spine's weight comes down through it and passes out sideways to the hip bones at the sacroiliac joints.",
+  "draft_idx": 94
+ },
+ {
+  "deck": "Thoracic Cage",
+  "img": "s20_sternum.jpg",
+  "ver": "slide 20 ('Manubrium, Body of sternum, and Xiphoid Process') + notes",
+  "text": "The sternum is three fused bones, which from top to bottom are:<br><br>{{c1::manubrium}}<br><br>{{c1::body}}<br><br>{{c1::xiphoid process}}",
+  "back": "Why: the sternum ossifies from separate pieces that knit together over the years, and the xiphoid process is the last part to ossify.<br><br>Cue: the sternum looks like a sword: manubrium = the handle, body = the blade, xiphoid ('sword-shaped') = the tip.",
+  "draft_idx": 96
+ },
+ {
+  "deck": "Thoracic Cage",
+  "img": "m7_17_thoracic_cage.jpg",
+  "ver": "slide 20 figure + notes ('jugular notch'); manual p.160",
+  "text": "The notch on the top of the manubrium, between the clavicles, is the {{c1::jugular notch}}.",
+  "back": "Why: you can feel it as the dip at the base of your neck, right in front of the trachea.",
+  "draft_idx": 97
+ },
+ {
+  "deck": "Thoracic Cage",
+  "img": "s20_sternum.jpg",
+  "ver": "slide 20 figure + notes ('sternal angle')",
+  "text": "The ridge where the manubrium joins the body of the sternum is the {{c1::sternal angle}}.",
+  "back": "Why: the sternal angle is easy to feel and sits level with the second rib, so it is the starting point for counting ribs.",
+  "draft_idx": 98
+ },
+ {
+  "deck": "Thoracic Cage",
+  "img": "m7_17_thoracic_cage.jpg",
+  "ver": "slide 20 ('Ribs attached to sternum via costal cartilages'); manual p.160 (hyaline)",
+  "text": "Ribs attach to the sternum by {{c1::costal cartilages}}, which are made of {{c2::hyaline::cartilage type}} cartilage.",
+  "back": "Why: flexible cartilage bars let the ribcage spring open each time you breathe instead of acting like a rigid bony box.",
+  "draft_idx": 99
+ },
+ {
+  "deck": "Thoracic Cage",
+  "num": true,
+  "img": "s20_rib_groups.png",
+  "ver": "slide 20 ('True: ribs 1-7') + notes ('attach directly to sternum via their own costal cartilage')",
+  "text": "The true ribs are ribs {{c1::1–7::rib numbers}}, and each reaches the sternum through {{c2::its own::its own or a shared}} costal cartilage.",
+  "back": "Why: 'true' means the rib reaches the sternum on its own; the lower ribs either borrow a neighbor's cartilage or never arrive.",
+  "draft_idx": 100
+ },
+ {
+  "deck": "Thoracic Cage",
+  "num": true,
+  "img": "s20_rib_groups.png",
+  "ver": "slide 20 ('False: 8-12') + notes ('do NOT attach directly ... ribs 8, 9, & 10 share a costal cartilage'); slide 8 (floating listed under false)",
+  "text": "In the BIOL 214 lab's scheme, the false ribs are ribs {{c1::8–12::rib numbers}}; ribs 8–10 reach the sternum only by joining the costal cartilage of rib {{c2::7::rib number}}.",
+  "back": "Why: a false rib has no costal cartilage of its own running to the sternum; ribs 11–12 never reach the sternum at all.<br><br>Distinguish: BIOL 313 and the lab manual split them three ways (false = 8–10 only); the BIOL 214 lab counts the floating ribs among the false ribs.",
+  "draft_idx": 101
+ },
+ {
+  "deck": "Thoracic Cage",
+  "num": true,
+  "img": "s20_rib_groups.png",
+  "ver": "slide 20 ('Floating ribs 11-12') + notes ('do NOT attach to sternum')",
+  "text": "The floating ribs are ribs {{c1::11–12::rib numbers}}, the only ribs with no connection at all to the sternum.",
+  "back": "Why: the front ends of ribs 11–12 stop short in the muscles of the abdominal wall; they connect only to the vertebrae behind, so they seem to float.",
+  "draft_idx": 102
+ },
+ {
+  "deck": "Thoracic Cage",
+  "num": true,
+  "img": "s08_rib_counts.png",
+  "ver": "slide 8 ('True Ribs (14 total)') + notes ('memorize ... the number of True, False, and Floating Ribs')",
+  "text": "Counting both sides, there are {{c1::14::number of ribs}} true ribs.",
+  "back": "Why: seven true ribs on each side (ribs 1–7), and 7 × 2 = 14.",
+  "draft_idx": 103
+ },
+ {
+  "deck": "Thoracic Cage",
+  "num": true,
+  "img": "s08_rib_counts.png",
+  "ver": "slide 8 ('False Ribs (10 total)') + notes",
+  "text": "Counting both sides, there are {{c1::10::number of ribs}} false ribs, floating ribs included.",
+  "back": "Why: five false ribs on each side (ribs 8–12), and 5 × 2 = 10.",
+  "draft_idx": 104
+ },
+ {
+  "deck": "Thoracic Cage",
+  "num": true,
+  "img": "s08_rib_counts.png",
+  "ver": "slide 8 ('Floating (4 total)') + notes",
+  "text": "Counting both sides, there are {{c1::4::number of ribs}} floating ribs.",
+  "back": "Why: two floating ribs on each side (ribs 11–12), and 2 × 2 = 4.",
+  "draft_idx": 105
+ },
+ {
+  "deck": "Thoracic Cage",
+  "num": true,
+  "img": "s08_rib_counts.png",
+  "ver": "slide 8 ('Ribs (24)'); manual p.160",
+  "text": "The adult thoracic cage has {{c1::24::number of ribs}} ribs.",
+  "back": "Why: one pair of ribs for each of the 12 thoracic vertebrae (12 × 2 = 24).",
+  "draft_idx": 106
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "s11_facial_bones.png",
+  "ver": "slide 11 speaker notes ('Paired Bones: Nasal, Lacrimal, Zygomatic, Inferior Nasal Conchae, Maxillae, Palatine')",
+  "text": "Three of the PAIRED facial bones sit between and beside the eye sockets:<br><br>{{c1::nasal bones}}<br><br>{{c1::lacrimal bones}}<br><br>{{c1::zygomatic bones}}",
+  "back": "Why: each sits off the midline with a mirror twin on the other side, so each counts twice toward the 14 facial bones.<br><br>Roster: paired = <b>nasal</b>, <b>lacrimal</b>, <b>zygomatic</b>, maxillae, palatine, inferior nasal conchae · unpaired = mandible, vomer",
+  "draft_idx": null
+ },
+ {
+  "deck": "Skull & Hyoid",
+  "img": "s11_facial_bones.png",
+  "ver": "slide 11 speaker notes ('Paired Bones: ... Maxillae, Palatine Bones', 'Inferior Nasal Conchae')",
+  "text": "Three of the PAIRED facial bones build the upper jaw, the hard palate, and the side walls of the airway inside the nose:<br><br>{{c1::maxillae}}<br><br>{{c1::palatine bones}}<br><br>{{c1::inferior nasal conchae}}",
+  "back": "Why: the right and left maxillae and palatine bones meet at the midline to build one hard palate, and each side of the airway gets its own concha.<br><br>Roster: paired = nasal, lacrimal, zygomatic, <b>maxillae</b>, <b>palatine</b>, <b>inferior nasal conchae</b> · unpaired = mandible, vomer",
+  "draft_idx": null
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "m7_08_spinal_curves.jpg",
+  "ver": "slide 15 speaker notes ('You can palpate C7 at base of posterior neck'); blue page Q15 + palpation check-off",
+  "text": "The bump you can feel at the base of the back of your neck is the spinous process of {{c1::C7::vertebra}}.",
+  "back": "Why: C7's spinous process is longer than the ones above it and sticks out under the skin, which is why C7 is called the vertebra prominens.",
+  "draft_idx": null
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "s15_cervical_labeled.png",
+  "ver": "blue page Q13 ('What is the function of the transverse foramina?'); lab manual p.158 (says carotid — incorrect)",
+  "text": "The transverse foramina carry the {{c1::vertebral arteries::which vessels}} toward the brain.",
+  "back": "Why: the vertebral arteries climb through the stack of bony rings, which shields them from the neck's constant bending and turning.<br><br>Pitfall: the lab manual says the carotid arteries; the carotids run in front of the spine, not through it.",
+  "draft_idx": null
+ },
+ {
+  "deck": "Vertebral Column",
+  "img": "m7_08_spinal_curves.jpg",
+  "ver": "blue page Q14 ('What are the functions of the spinal curves?'); slide 14 curves",
+  "text": "Two functions of the normal spinal curves are to {{c1::absorb shock::what they do to impact}} and to {{c2::keep the body balanced::what they do for posture}}.",
+  "back": "Why: the thoracic and sacral curves are present at birth, and the cervical and lumbar curves form as a baby lifts its head and learns to walk; the resulting S-shape flexes like a spring with each step.",
+  "draft_idx": null
+ }
+]

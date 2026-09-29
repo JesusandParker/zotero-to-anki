@@ -59,8 +59,10 @@ def main():
     media = media_dir()
 
     nids = sorted(anki("findNotes", query=f'deck:"{a.deck}"'))
+    # A deck can mix note types (Image Occlusion notes have no Text field) — only the
+    # cloze notes this script renders are matched; the rest are skipped, not fatal.
     live = {norm(n["fields"]["Text"]["value"]): n["noteId"]
-            for n in anki("notesInfo", notes=nids)}
+            for n in anki("notesInfo", notes=nids) if "Text" in n["fields"]}
 
     picked = collections.defaultdict(list)
     for c in cards:

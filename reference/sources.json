@@ -146,6 +146,21 @@
     "physics-ch{segment}"
    ],
    "caption_style": "caps-label"
+  },
+  "biol214-w05": {
+   "label": "BIOL 214 Lab — W05 The Axial Skeleton slides (Howell et al., Fa26)",
+   "attachment_key": "GU75PZ5A",
+   "kind": "lecture",
+   "segment_noun": "Chapter",
+   "deck_root": "all::LIBERTY::LIBERTY FALL 2026::BIOL 214 - Human Anatomy & Physiology I Lab::Practical 2::Axial Skeleton",
+   "deck": "{root}",
+   "tags": [
+    "BIOL214",
+    "W05",
+    "practical2"
+   ],
+   "profile": "science",
+   "notes": "Whole-deck build 2026-09-29 at Parker's request (every fact on the slides + speaker notes, IO for every labeled plate incl. lab-manual Ch 7 model photos). NOT highlight-driven: every card carries an authorization block quoting his request. Cards are routed per topic with anki_write --deck into six subdecks under deck_root (Bone Basics & Cartilage, Skull & Hyoid, Skull Foramina & Cranial Floor, Vertebral Column, Sacrum & Coccyx, Thoracic Cage). Image Occlusion notes are written by work/biol214-w05/build/io_write.py, not anki_write. Source .pptx: Drive 07_Week 5 - Axial Skeleton/04_B214 04 Axial Skeleton 2026.pptx (speaker notes carry the testable-scope statements)."
   }
  }
 }

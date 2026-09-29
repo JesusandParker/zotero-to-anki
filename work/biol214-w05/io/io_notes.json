@@ -1,0 +1,2214 @@
+[
+ {
+  "id": "long_bone_slide",
+  "deck": "Bone Basics & Cartilage",
+  "image": "s03_long_bone.jpg",
+  "header": "Long bone (humerus), cut lengthwise",
+  "back": "Cue: a long bone is one shaft (diaphysis) with a knobby epiphysis at each end; the epiphyseal line is the bony scar left where the growth plate used to be.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.0492:top=0.1185:width=0.1899:height=0.0574:oi=1}}<br>{{c2::image-occlusion:rect:left=0.0512:top=0.5110:width=0.1953:height=0.0332:oi=1}}<br>{{c3::image-occlusion:rect:left=0.0474:top=0.9031:width=0.1913:height=0.0588:oi=1}}<br>{{c4::image-occlusion:rect:left=0.5945:top=0.0334:width=0.1594:height=0.0567:oi=1}}<br>{{c5::image-occlusion:rect:left=0.6602:top=0.1691:width=0.1775:height=0.0604:oi=1}}<br>{{c6::image-occlusion:rect:left=0.6578:top=0.2295:width=0.2201:height=0.0583:oi=1}}<br>{{c7::image-occlusion:rect:left=0.6611:top=0.2895:width=0.2196:height=0.0315:oi=1}}<br>{{c8::image-occlusion:rect:left=0.6658:top=0.3389:width=0.2707:height=0.0314:oi=1}}<br>{{c9::image-occlusion:rect:left=0.6617:top=0.3831:width=0.1932:height=0.0584:oi=1}}",
+  "cards": 9,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Proximal epiphysis"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Diaphysis"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Distal epiphysis"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "Spongy bone"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "Articular cartilage"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "Epiphyseal line"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "Periosteum"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "Compact bone"
+    ]
+   },
+   {
+    "c": 9,
+    "printed": [
+     "Medullary cavity"
+    ]
+   }
+  ],
+  "size": [
+   1080,
+   1728
+  ]
+ },
+ {
+  "id": "long_bone_model",
+  "deck": "Bone Basics & Cartilage",
+  "image": "m6_04_long_bone_model.jpg",
+  "header": "Long bone model (humerus), cut lengthwise",
+  "back": "Cue: the hyaline cartilage capping the end is articular cartilage \u2014 the smooth joint surface; the bone marrow cavity of the shaft holds yellow (fatty) marrow.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.0746:top=0.0703:width=0.2607:height=0.0296:oi=1}}<br>{{c2::image-occlusion:rect:left=0.0809:top=0.1232:width=0.2126:height=0.0302:oi=1}}<br>{{c3::image-occlusion:rect:left=0.0720:top=0.1792:width=0.2413:height=0.0312:oi=1}}<br>{{c4::image-occlusion:rect:left=0.0915:top=0.2908:width=0.2177:height=0.0520:oi=1}}<br>{{c5::image-occlusion:rect:left=0.0781:top=0.3738:width=0.2335:height=0.0331:oi=1}}<br>{{c6::image-occlusion:rect:left=0.1077:top=0.4905:width=0.1989:height=0.0497:oi=1}}<br>{{c7::image-occlusion:rect:left=0.1248:top=0.5990:width=0.1845:height=0.0310:oi=1}}<br>{{c8::image-occlusion:rect:left=0.7204:top=0.1271:width=0.1603:height=0.0511:oi=1}}<br>{{c9::image-occlusion:rect:left=0.7193:top=0.4660:width=0.1670:height=0.0537:oi=1}}<br>{{c10::image-occlusion:rect:left=0.7250:top=0.8393:width=0.1602:height=0.0527:oi=1}}",
+  "cards": 10,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "hyaline cartilage"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "spongy bone"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "epiphyseal line"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "bone marrow cavity"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "compact bone"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "yellow bone marrow"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "periosteum"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "proximal epiphysis"
+    ]
+   },
+   {
+    "c": 9,
+    "printed": [
+     "diaphysis (shaft)"
+    ]
+   },
+   {
+    "c": 10,
+    "printed": [
+     "distal epiphysis"
+    ]
+   }
+  ],
+  "size": [
+   1127,
+   1728
+  ]
+ },
+ {
+  "id": "compact_bone",
+  "deck": "Bone Basics & Cartilage",
+  "image": "s04_compact_bone.jpg",
+  "header": "Compact bone \u2014 (a) a wedge of the shaft, (b) lamellae and osteocytes, (c) an osteon under the microscope",
+  "back": "Cue: rings of lamellae around one central canal make an osteon; osteocytes sit in lacunae between the rings, linked to the canal by canaliculi.<br><br>Distinguish: central (Haversian) canals run LENGTHWISE; perforating (Volkmann's) canals run SIDEWAYS and connect them.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.1389:top=0.2512:width=0.1262:height=0.0489:oi=1}}<br>{{c2::image-occlusion:rect:left=0.8750:top=0.8838:width=0.0969:height=0.0604:oi=1}}<br>{{c3::image-occlusion:rect:left=0.1412:top=0.1929:width=0.0635:height=0.0282:oi=1}}<br>{{c3::image-occlusion:rect:left=0.8334:top=0.5355:width=0.0629:height=0.0279:oi=1}}<br>{{c3::image-occlusion:rect:left=0.1393:top=0.2115:width=0.1531:height=0.0352:oi=1}}<br>{{c4::image-occlusion:rect:left=0.1404:top=0.3085:width=0.0737:height=0.0253:oi=1}}<br>{{c4::image-occlusion:rect:left=0.4988:top=0.0465:width=0.0642:height=0.0293:oi=1}}<br>{{c5::image-occlusion:rect:left=0.4989:top=0.0897:width=0.0836:height=0.0285:oi=1}}<br>{{c6::image-occlusion:rect:left=0.6793:top=0.3477:width=0.0687:height=0.0280:oi=1}}<br>{{c6::image-occlusion:rect:left=0.6721:top=0.7806:width=0.0657:height=0.0277:oi=1}}<br>{{c7::image-occlusion:rect:left=0.6854:top=0.3896:width=0.0942:height=0.0252:oi=1}}<br>{{c8::image-occlusion:rect:left=0.6805:top=0.4167:width=0.1999:height=0.0302:oi=1}}<br>{{c8::image-occlusion:rect:left=0.3986:top=0.8021:width=0.1956:height=0.0301:oi=1}}<br>{{c8::image-occlusion:rect:left=0.7720:top=0.8747:width=0.0681:height=0.0690:oi=1}}<br>{{c9::image-occlusion:rect:left=0.6308:top=0.5605:width=0.1076:height=0.0332:oi=1}}<br>{{c10::image-occlusion:rect:left=0.0305:top=0.6184:width=0.0989:height=0.0739:oi=1}}<br>{{c11::image-occlusion:rect:left=0.0331:top=0.6923:width=0.0752:height=0.0513:oi=1}}<br>{{c12::image-occlusion:rect:left=0.0340:top=0.8261:width=0.0962:height=0.0277:oi=1}}<br>{{c13::image-occlusion:rect:left=0.3980:top=0.8345:width=0.2375:height=0.0368:oi=1}}<br>{{c14::image-occlusion:rect:left=0.2748:top=0.8987:width=0.2310:height=0.0565:oi=1}}",
+  "cards": 14,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Circumferential- lamellae"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "LInterstitial lamellae"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Osteon",
+     "Osteon",
+     "(Haversian system)"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "Lamellae",
+     "Lamella"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "Osteocyte"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "-Lacuna",
+     "Lacuna-"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "Canaliculus"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "-Central (Haversian) canal",
+     "Central (Haversian) canal",
+     "Central canal"
+    ]
+   },
+   {
+    "c": 9,
+    "printed": [
+     "Spongy bone"
+    ]
+   },
+   {
+    "c": 10,
+    "printed": [
+     "Perforating (Sharpey's) fibers"
+    ]
+   },
+   {
+    "c": 11,
+    "printed": [
+     "Compact bone"
+    ]
+   },
+   {
+    "c": 12,
+    "printed": [
+     "Periosteum"
+    ]
+   },
+   {
+    "c": 13,
+    "printed": [
+     "Perforating (Volkmann's) canal"
+    ]
+   },
+   {
+    "c": 14,
+    "printed": [
+     "Endosteum lining bony canals and covering trabeculae"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1270
+  ]
+ },
+ {
+  "id": "marrow_section",
+  "deck": "Bone Basics & Cartilage",
+  "image": "s05_marrow_section.jpg",
+  "header": "Fresh bone cut in cross-section",
+  "back": "Cue: red marrow (blood-forming) fills the spongy bone; yellow marrow (fat) sits in the middle.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.7085:top=0.3027:width=0.1539:height=0.0431:oi=1}}<br>{{c2::image-occlusion:rect:left=0.7095:top=0.4674:width=0.1776:height=0.0427:oi=1}}",
+  "cards": 2,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Red marrow"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Yellow marrow"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1114
+  ]
+ },
+ {
+  "id": "intervertebral_disc",
+  "deck": "Bone Basics & Cartilage",
+  "image": "s07_disc.jpg",
+  "header": "Intervertebral disc \u2014 lateral view (left) and superior view (right)",
+  "back": "Cue: the anulus fibrosus is the tough fibrocartilage ring; the nucleus pulposus is the soft gel centre it holds in. Spinal nerves leave through the intervertebral foramen between two vertebrae.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.4315:top=0.2580:width=0.1356:height=0.0509:oi=1}}<br>{{c2::image-occlusion:rect:left=0.4303:top=0.3468:width=0.2019:height=0.0471:oi=1}}<br>{{c3::image-occlusion:rect:left=0.4335:top=0.4384:width=0.1403:height=0.0434:oi=1}}<br>{{c4::image-occlusion:rect:left=0.4324:top=0.5867:width=0.1627:height=0.0562:oi=1}}",
+  "cards": 4,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Vertebral body"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Intervertebral foramen"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Anulus fibrosus"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "Nucleus pulposus"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   882
+  ]
+ },
+ {
+  "id": "cranial_bones",
+  "deck": "Skull & Hyoid",
+  "image": "s10_cranial_bones.png",
+  "header": "Cranial bones \u2014 skull from the right side (left) and the cranial floor seen from above (right)",
+  "back": "Mnemonic: PEST OF \u2014 Parietal, Ethmoid, Sphenoid, Temporal, Occipital, Frontal.<br><br>Cue: parietal and temporal come in pairs, so the cranium has 8 bones.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.4426:top=0.0608:width=0.1017:height=0.0524:oi=1}}<br>{{c2::image-occlusion:rect:left=0.4440:top=0.2478:width=0.1105:height=0.0524:oi=1}}<br>{{c3::image-occlusion:rect:left=0.4383:top=0.3915:width=0.1307:height=0.0667:oi=1}}<br>{{c4::image-occlusion:rect:left=0.4411:top=0.5604:width=0.1295:height=0.0676:oi=1}}<br>{{c5::image-occlusion:rect:left=0.4421:top=0.7292:width=0.1085:height=0.0559:oi=1}}<br>{{c6::image-occlusion:rect:left=0.4447:top=0.8806:width=0.1222:height=0.0621:oi=1}}",
+  "cards": 6,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Frontal"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Ethmoid"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Sphenoid"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "Temporal"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "Parietal"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "Occipital"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   967
+  ]
+ },
+ {
+  "id": "facial_bones",
+  "deck": "Skull & Hyoid",
+  "image": "s11_facial_bones.png",
+  "header": "Facial bones \u2014 skull from the front (left) and from below (right)",
+  "back": "Cue: 14 facial bones \u2014 the mandible and vomer are single; the other six come in pairs.<br><br>Roster: nasal = bridge of the nose \u00b7 lacrimal = inner wall of the orbit (tear drainage) \u00b7 zygomatic = cheekbone \u00b7 maxilla = upper jaw \u00b7 palatine = back of the hard palate \u00b7 inferior nasal concha = scroll of bone in the nasal cavity \u00b7 vomer = lower nasal septum \u00b7 mandible = lower jaw",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.0348:top=0.3109:width=0.0728:height=0.0289:oi=1}}<br>{{c2::image-occlusion:rect:left=0.0342:top=0.4995:width=0.0928:height=0.0357:oi=1}}<br>{{c3::image-occlusion:rect:left=0.0326:top=0.5465:width=0.1049:height=0.0394:oi=1}}<br>{{c4::image-occlusion:rect:left=0.0313:top=0.6445:width=0.0536:height=0.0349:oi=1}}<br>{{c5::image-occlusion:rect:left=0.0313:top=0.7351:width=0.0654:height=0.0367:oi=1}}<br>{{c6::image-occlusion:rect:left=0.4296:top=0.6567:width=0.1364:height=0.0359:oi=1}}<br>{{c7::image-occlusion:rect:left=0.4311:top=0.7046:width=0.0492:height=0.0359:oi=1}}<br>{{c8::image-occlusion:rect:left=0.5820:top=0.2592:width=0.0686:height=0.0394:oi=1}}",
+  "cards": 8,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Nasal bone"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Lacrimal bone"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Zygomatic bone"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "Maxilla"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "Mandible"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "Inferior nasal concha"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "Vomer"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "Palatine"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   892
+  ]
+ },
+ {
+  "id": "skull_model_post_lat",
+  "deck": "Skull & Hyoid",
+  "image": "m7_02a_skull_post_lat.jpg",
+  "header": "Skull model \u2014 from behind (left) and from the left side (right)",
+  "back": "Cue: the sutures and the bones they join \u2014 coronal (frontal and parietals), sagittal (the two parietals), lambdoid (parietals and occipital), squamous (parietal and temporal).",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.7791:top=0.0756:width=0.1453:height=0.0679:oi=1}}<br>{{c2::image-occlusion:rect:left=0.3340:top=0.5131:width=0.1557:height=0.0713:oi=1}}<br>{{c3::image-occlusion:rect:left=0.2325:top=0.8022:width=0.1280:height=0.0674:oi=1}}<br>{{c3::image-occlusion:rect:left=0.7906:top=0.6959:width=0.1338:height=0.0702:oi=1}}<br>{{c4::image-occlusion:rect:left=0.3547:top=0.6912:width=0.1336:height=0.0650:oi=1}}<br>{{c5::image-occlusion:rect:left=0.7811:top=0.8444:width=0.1326:height=0.0592:oi=1}}<br>{{c6::image-occlusion:rect:left=0.3451:top=0.8840:width=0.1442:height=0.0346:oi=1}}<br>{{c7::image-occlusion:rect:left=0.6101:top=0.8796:width=0.1388:height=0.0458:oi=1}}<br>{{c8::image-occlusion:rect:left=0.0875:top=0.8195:width=0.1314:height=0.0623:oi=1}}<br>{{c9::image-occlusion:rect:left=0.7913:top=0.7728:width=0.1325:height=0.0644:oi=1}}<br>{{c10::image-occlusion:rect:left=0.2648:top=0.0935:width=0.1040:height=0.0369:oi=1}}<br>{{c10::image-occlusion:rect:left=0.8398:top=0.1704:width=0.0644:height=0.0675:oi=1}}<br>{{c11::image-occlusion:rect:left=0.0929:top=0.1591:width=0.1121:height=0.0423:oi=1}}<br>{{c12::image-occlusion:rect:left=0.0529:top=0.2365:width=0.0773:height=0.0646:oi=1}}<br>{{c12::image-occlusion:rect:left=0.8391:top=0.3841:width=0.0761:height=0.0630:oi=1}}<br>{{c13::image-occlusion:rect:left=0.2753:top=0.3505:width=0.0991:height=0.0317:oi=1}}<br>{{c14::image-occlusion:rect:left=0.0627:top=0.7004:width=0.0693:height=0.0658:oi=1}}<br>{{c14::image-occlusion:rect:left=0.8391:top=0.5153:width=0.0704:height=0.0626:oi=1}}<br>{{c15::image-occlusion:rect:left=0.6111:top=0.0938:width=0.1122:height=0.0346:oi=1}}<br>{{c16::image-occlusion:rect:left=0.4221:top=0.1381:width=0.0948:height=0.0350:oi=1}}<br>{{c17::image-occlusion:rect:left=0.3695:top=0.2096:width=0.1171:height=0.0376:oi=1}}<br>{{c18::image-occlusion:rect:left=0.8379:top=0.2866:width=0.0844:height=0.0591:oi=1}}<br>{{c19::image-occlusion:rect:left=0.3269:top=0.3039:width=0.1602:height=0.0431:oi=1}}<br>{{c20::image-occlusion:rect:left=0.3672:top=0.3822:width=0.1217:height=0.0425:oi=1}}<br>{{c21::image-occlusion:rect:left=0.3962:top=0.4349:width=0.0899:height=0.0315:oi=1}}<br>{{c22::image-occlusion:rect:left=0.3615:top=0.4676:width=0.1259:height=0.0454:oi=1}}<br>{{c23::image-occlusion:rect:left=0.8392:top=0.5991:width=0.0746:height=0.0602:oi=1}}<br>{{c24::image-occlusion:rect:left=0.3678:top=0.6389:width=0.1205:height=0.0407:oi=1}}<br>{{c25::image-occlusion:rect:left=0.3669:top=0.7728:width=0.1209:height=0.0346:oi=1}}<br>{{c26::image-occlusion:rect:left=0.4133:top=0.8270:width=0.0759:height=0.0349:oi=1}}",
+  "cards": 26,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "zygomatic process of temporal bone"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "temporal process of zygomatic bone"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "mastoid process (temporal bone)",
+     "mastoid process of temporal bone"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "coronoid process of mandible"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "condylar process of mandible"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "ramus of mandible"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "angle of mandible"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "external occipital protuberance"
+    ]
+   },
+   {
+    "c": 9,
+    "printed": [
+     "external acoustic meatus"
+    ]
+   },
+   {
+    "c": 10,
+    "printed": [
+     "parietal bone",
+     "parietal bone"
+    ]
+   },
+   {
+    "c": 11,
+    "printed": [
+     "sagittal suture"
+    ]
+   },
+   {
+    "c": 12,
+    "printed": [
+     "lambdoid suture",
+     "lambdoid suture"
+    ]
+   },
+   {
+    "c": 13,
+    "printed": [
+     "sutural bone"
+    ]
+   },
+   {
+    "c": 14,
+    "printed": [
+     "occipital bone",
+     "occipital bone"
+    ]
+   },
+   {
+    "c": 15,
+    "printed": [
+     "coronal suture"
+    ]
+   },
+   {
+    "c": 16,
+    "printed": [
+     "frontal bone"
+    ]
+   },
+   {
+    "c": 17,
+    "printed": [
+     "sphenoid bone"
+    ]
+   },
+   {
+    "c": 18,
+    "printed": [
+     "squamous suture"
+    ]
+   },
+   {
+    "c": 19,
+    "printed": [
+     "supraorbital foramen"
+    ]
+   },
+   {
+    "c": 20,
+    "printed": [
+     "zygomatic arch"
+    ]
+   },
+   {
+    "c": 21,
+    "printed": [
+     "nasal bone"
+    ]
+   },
+   {
+    "c": 22,
+    "printed": [
+     "zygomatic bone"
+    ]
+   },
+   {
+    "c": 23,
+    "printed": [
+     "temporal bone"
+    ]
+   },
+   {
+    "c": 24,
+    "printed": [
+     "maxillary bone"
+    ]
+   },
+   {
+    "c": 25,
+    "printed": [
+     "mental foramen"
+    ]
+   },
+   {
+    "c": 26,
+    "printed": [
+     "mandible"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1017
+  ]
+ },
+ {
+  "id": "skull_model_obl_ant",
+  "deck": "Skull & Hyoid",
+  "image": "m7_02b_skull_obl_ant.jpg",
+  "header": "Skull model \u2014 cut-away view into the orbit (left) and from the front (right)",
+  "back": "Cue: the starred parts (perpendicular plate, middle concha) belong to the ethmoid bone; the lacrimal fossa holds the lacrimal sac, which drains tears into the nasal cavity.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.0858:top=0.7301:width=0.1245:height=0.0702:oi=1}}<br>{{c2::image-occlusion:rect:left=0.1544:top=0.8432:width=0.1229:height=0.0673:oi=1}}<br>{{c3::image-occlusion:rect:left=0.2867:top=0.8305:width=0.1418:height=0.0673:oi=1}}<br>{{c4::image-occlusion:rect:left=0.3127:top=0.7403:width=0.1336:height=0.0713:oi=1}}<br>{{c5::image-occlusion:rect:left=0.7939:top=0.1671:width=0.1563:height=0.0677:oi=1}}<br>{{c6::image-occlusion:rect:left=0.8107:top=0.2835:width=0.1533:height=0.0425:oi=1}}<br>{{c7::image-occlusion:rect:left=0.8116:top=0.3260:width=0.1180:height=0.0329:oi=1}}<br>{{c8::image-occlusion:rect:left=0.7898:top=0.5358:width=0.1471:height=0.0360:oi=1}}<br>{{c9::image-occlusion:rect:left=0.7738:top=0.6641:width=0.1558:height=0.0359:oi=1}}<br>{{c10::image-occlusion:rect:left=0.4351:top=0.3870:width=0.1079:height=0.0364:oi=1}}<br>{{c11::image-occlusion:rect:left=0.4369:top=0.3541:width=0.1030:height=0.0328:oi=1}}<br>{{c11::image-occlusion:rect:left=0.8073:top=0.2461:width=0.1050:height=0.0361:oi=1}}<br>{{c12::image-occlusion:rect:left=0.3400:top=0.6865:width=0.1223:height=0.0434:oi=1}}<br>{{c12::image-occlusion:rect:left=0.8047:top=0.4471:width=0.1230:height=0.0475:oi=1}}<br>{{c13::image-occlusion:rect:left=0.0728:top=0.1177:width=0.1073:height=0.0406:oi=1}}<br>{{c14::image-occlusion:rect:left=0.2239:top=0.0826:width=0.1015:height=0.0406:oi=1}}<br>{{c15::image-occlusion:rect:left=0.4366:top=0.1897:width=0.0948:height=0.0360:oi=1}}<br>{{c16::image-occlusion:rect:left=0.4366:top=0.2872:width=0.1049:height=0.0359:oi=1}}<br>{{c16::image-occlusion:rect:left=0.8375:top=0.7561:width=0.1142:height=0.0392:oi=1}}<br>{{c17::image-occlusion:rect:left=0.4366:top=0.4256:width=0.0948:height=0.0361:oi=1}}<br>{{c18::image-occlusion:rect:left=0.0586:top=0.5702:width=0.0732:height=0.0606:oi=1}}<br>{{c19::image-occlusion:rect:left=0.4201:top=0.6222:width=0.1119:height=0.0428:oi=1}}<br>{{c20::image-occlusion:rect:left=0.8140:top=0.3749:width=0.1147:height=0.0413:oi=1}}<br>{{c21::image-occlusion:rect:left=0.7162:top=0.7645:width=0.0546:height=0.0301:oi=1}}",
+  "cards": 21,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "mastoid process (temporal bone)"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "styloid process (temporal bone)"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "zygomatic process (temporal bone)"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "temporal process (zygomatic bone)"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "supraorbital foramen (notch)"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "perpendicular plate*"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "middle concha*"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "infraorbital foramen"
+    ]
+   },
+   {
+    "c": 9,
+    "printed": [
+     "inferior nasal concha"
+    ]
+   },
+   {
+    "c": 10,
+    "printed": [
+     "lacrimal fossa"
+    ]
+   },
+   {
+    "c": 11,
+    "printed": [
+     "lacrimal bone",
+     "lacrimal bone"
+    ]
+   },
+   {
+    "c": 12,
+    "printed": [
+     "zygomatic bone",
+     "zygomatic bone"
+    ]
+   },
+   {
+    "c": 13,
+    "printed": [
+     "occipital bone"
+    ]
+   },
+   {
+    "c": 14,
+    "printed": [
+     "parietal bone"
+    ]
+   },
+   {
+    "c": 15,
+    "printed": [
+     "frontal bone"
+    ]
+   },
+   {
+    "c": 16,
+    "printed": [
+     "ethmoid bone",
+     "*ethmoid bone"
+    ]
+   },
+   {
+    "c": 17,
+    "printed": [
+     "nasal bones"
+    ]
+   },
+   {
+    "c": 18,
+    "printed": [
+     "temporal bone"
+    ]
+   },
+   {
+    "c": 19,
+    "printed": [
+     "maxillary bone"
+    ]
+   },
+   {
+    "c": 20,
+    "printed": [
+     "sphenoid bone"
+    ]
+   },
+   {
+    "c": 21,
+    "printed": [
+     "vomer"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   978
+  ]
+ },
+ {
+  "id": "mandible_model",
+  "deck": "Skull & Hyoid",
+  "image": "m7_05_mandible.jpg",
+  "header": "Mandible (lab model), from the right side",
+  "back": "Cue: the mandibular condyle hinges against the temporal bone; the mandibular foramen carries nerves and vessels to the lower teeth, the mental foramen to the chin.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.1498:top=0.0862:width=0.3196:height=0.0644:oi=1}}<br>{{c2::image-occlusion:rect:left=0.5935:top=0.0897:width=0.2840:height=0.0604:oi=1}}<br>{{c3::image-occlusion:rect:left=0.7102:top=0.2674:width=0.1509:height=0.1148:oi=1}}<br>{{c4::image-occlusion:rect:left=0.0881:top=0.2703:width=0.3239:height=0.0566:oi=1}}<br>{{c5::image-occlusion:rect:left=0.0618:top=0.3485:width=0.2587:height=0.0719:oi=1}}<br>{{c6::image-occlusion:rect:left=0.0678:top=0.6206:width=0.1600:height=0.1121:oi=1}}<br>{{c7::image-occlusion:rect:left=0.7670:top=0.7872:width=0.1592:height=0.1108:oi=1}}<br>{{c8::image-occlusion:rect:left=0.7917:top=0.5170:width=0.1434:height=0.1059:oi=1}}<br>{{c9::image-occlusion:rect:left=0.0893:top=0.8338:width=0.2864:height=0.0731:oi=1}}",
+  "cards": 9,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "mandibular condyle"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "mandibular notch"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "coronoid process"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "mandibular foramen"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "alveolar margin"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "ramus of mandible"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "body of mandible"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "mental foramen"
+    ]
+   },
+   {
+    "c": 9,
+    "printed": [
+     "mandibular angle"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1178
+  ]
+ },
+ {
+  "id": "sinuses_model",
+  "deck": "Skull & Hyoid",
+  "image": "m7_07_sinuses.jpg",
+  "header": "Sinuses of the skull (lab model) \u2014 front-side view (top) and midline cut (bottom)",
+  "back": "Cue: four skull bones hold air sinuses \u2014 frontal, ethmoid, sphenoid, maxillary; the sella turcica is the saddle on the sphenoid that seats the pituitary gland, right above the sphenoid sinus.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.6854:top=0.3495:width=0.1145:height=0.0540:oi=1}}<br>{{c2::image-occlusion:rect:left=0.5749:top=0.4399:width=0.1539:height=0.0545:oi=1}}<br>{{c3::image-occlusion:rect:left=0.3027:top=0.5618:width=0.2628:height=0.0276:oi=1}}<br>{{c4::image-occlusion:rect:left=0.1876:top=0.6054:width=0.1980:height=0.0275:oi=1}}<br>{{c5::image-occlusion:rect:left=0.0774:top=0.6451:width=0.2468:height=0.0329:oi=1}}",
+  "cards": 5,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "frontal sinus"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "maxillary sinus"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "ethmoid sinuses"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "sella turcica"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "sphenoid sinus"
+    ]
+   }
+  ],
+  "size": [
+   1201,
+   1728
+  ]
+ },
+ {
+  "id": "hyoid",
+  "deck": "Skull & Hyoid",
+  "image": "s13_hyoid.jpg",
+  "header": "Hyoid bone \u2014 from the front (top) and from the left side (bottom)",
+  "back": "Meaning: cornu = horn \u2014 the greater and lesser horns are where muscles and the stylohyoid ligaments attach.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.5358:top=0.0854:width=0.1479:height=0.0960:oi=1}}<br>{{c1::image-occlusion:rect:left=0.8313:top=0.5433:width=0.1412:height=0.0941:oi=1}}<br>{{c2::image-occlusion:rect:left=0.2441:top=0.2083:width=0.1326:height=0.0965:oi=1}}<br>{{c2::image-occlusion:rect:left=0.5410:top=0.4932:width=0.2370:height=0.0471:oi=1}}<br>{{c3::image-occlusion:rect:left=0.4809:top=0.3779:width=0.1208:height=0.0741:oi=1}}<br>{{c3::image-occlusion:rect:left=0.6171:top=0.7147:width=0.1116:height=0.0627:oi=1}}",
+  "cards": 3,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Greater cornu",
+     "Greater cornu"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Lesser cornu",
+     "Lesser cornu"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Body",
+     "Body"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1344
+  ]
+ },
+ {
+  "id": "foramina_red",
+  "deck": "Skull Foramina & Cranial Floor",
+  "image": "s12_cranial_foramina.png",
+  "header": "Cranial foramina \u2014 floor of the cranial cavity seen from above. The lab boxed these in red \u2014 know them for the practical.",
+  "back": "Cue: along each side of the sphenoid, rotundum \u2192 ovale \u2192 spinosum run front to back (round, oval, spiny).<br><br>Roster (what passes through): cribriform foramina \u2014 smell (olfactory) nerve fibers \u00b7 optic canal \u2014 optic nerve and ophthalmic artery \u00b7 foramen rotundum \u2014 maxillary nerve (V2) \u00b7 foramen ovale \u2014 mandibular nerve (V3) \u00b7 foramen spinosum \u2014 middle meningeal artery \u00b7 foramen lacerum \u2014 plugged with cartilage in life \u00b7 internal acoustic meatus \u2014 facial and vestibulocochlear nerves (VII, VIII) \u00b7 jugular foramen \u2014 internal jugular vein + nerves IX\u2013XI \u00b7 hypoglossal canal \u2014 hypoglossal nerve (XII) \u00b7 foramen magnum \u2014 spinal cord and the vertebral arteries",
+  "tags": [
+   "red-box"
+  ],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.8044:top=0.1635:width=0.1529:height=0.0295:oi=1}}<br>{{c1::image-occlusion:rect:left=0.1355:top=0.0647:width=0.1244:height=0.0320:oi=1}}<br>{{c2::image-occlusion:rect:left=0.8035:top=0.2349:width=0.0965:height=0.0376:oi=1}}<br>{{c3::image-occlusion:rect:left=0.8023:top=0.3075:width=0.1526:height=0.0350:oi=1}}<br>{{c4::image-occlusion:rect:left=0.8029:top=0.3438:width=0.1209:height=0.0294:oi=1}}<br>{{c5::image-occlusion:rect:left=0.8029:top=0.3792:width=0.1413:height=0.0298:oi=1}}<br>{{c6::image-occlusion:rect:left=0.8016:top=0.4116:width=0.1555:height=0.0412:oi=1}}<br>{{c7::image-occlusion:rect:left=0.8009:top=0.4528:width=0.1510:height=0.0341:oi=1}}<br>{{c8::image-occlusion:rect:left=0.0381:top=0.5783:width=0.1360:height=0.0596:oi=1}}<br>{{c9::image-occlusion:rect:left=0.0408:top=0.6473:width=0.1307:height=0.0345:oi=1}}<br>{{c10::image-occlusion:rect:left=0.1757:top=0.9132:width=0.1471:height=0.0365:oi=1}}",
+  "cards": 10,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Cribriform foramina",
+     "Cribriform plate"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Optic canal"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Foramen rotundum"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "Foramen ovale"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "Foramen lacerum"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "Foramen spinosum"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "Hypoglossal canal"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "Internal acoustic meatus"
+    ]
+   },
+   {
+    "c": 9,
+    "printed": [
+     "Jugular foramen"
+    ]
+   },
+   {
+    "c": 10,
+    "printed": [
+     "Foramen magnum"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1197
+  ]
+ },
+ {
+  "id": "foramina_other",
+  "deck": "Skull Foramina & Cranial Floor",
+  "image": "s12_cranial_foramina.png",
+  "header": "Floor of the cranial cavity seen from above \u2014 bones, fossae and landmarks",
+  "back": "Cue: the floor steps down in three tiers \u2014 anterior, middle and posterior cranial fossae, front to back.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.1355:top=0.0647:width=0.1244:height=0.0320:oi=1}}<br>{{c1::image-occlusion:rect:left=0.8044:top=0.1635:width=0.1529:height=0.0295:oi=1}}<br>{{c2::image-occlusion:rect:left=0.1351:top=0.0974:width=0.0903:height=0.0358:oi=1}}<br>{{c3::image-occlusion:rect:left=0.0411:top=0.0812:width=0.0762:height=0.0576:oi=1}}<br>{{c4::image-occlusion:rect:left=0.0410:top=0.1484:width=0.1666:height=0.0323:oi=1}}<br>{{c5::image-occlusion:rect:left=0.1444:top=0.2137:width=0.1008:height=0.0401:oi=1}}<br>{{c6::image-occlusion:rect:left=0.1468:top=0.2539:width=0.1046:height=0.0325:oi=1}}<br>{{c7::image-occlusion:rect:left=0.0410:top=0.2367:width=0.0866:height=0.0319:oi=1}}<br>{{c8::image-occlusion:rect:left=0.0398:top=0.3395:width=0.1515:height=0.0569:oi=1}}<br>{{c9::image-occlusion:rect:left=0.0398:top=0.4423:width=0.1166:height=0.0566:oi=1}}<br>{{c10::image-occlusion:rect:left=0.0394:top=0.5112:width=0.1304:height=0.0615:oi=1}}<br>{{c11::image-occlusion:rect:left=0.0410:top=0.6913:width=0.1041:height=0.0597:oi=1}}<br>{{c12::image-occlusion:rect:left=0.0406:top=0.7707:width=0.1165:height=0.0357:oi=1}}<br>{{c13::image-occlusion:rect:left=0.0418:top=0.8356:width=0.1256:height=0.0372:oi=1}}<br>{{c14::image-occlusion:rect:left=0.8041:top=0.0941:width=0.1098:height=0.0319:oi=1}}",
+  "cards": 14,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Cribriform plate",
+     "Cribriform foramina"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Crista galli"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Ethmoid bone"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "Anterior cranial fossa"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "Lesser wing"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "Greater wing"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "Sphenoid"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "Hypophyseal fossa of sella turcica"
+    ]
+   },
+   {
+    "c": 9,
+    "printed": [
+     "Middle cranial fossa"
+    ]
+   },
+   {
+    "c": 10,
+    "printed": [
+     "Temporal bone (petrous part)"
+    ]
+   },
+   {
+    "c": 11,
+    "printed": [
+     "Posterior cranial fossa"
+    ]
+   },
+   {
+    "c": 12,
+    "printed": [
+     "Parietal bone"
+    ]
+   },
+   {
+    "c": 13,
+    "printed": [
+     "Occipital bone"
+    ]
+   },
+   {
+    "c": 14,
+    "printed": [
+     "Frontal bone"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1197
+  ]
+ },
+ {
+  "id": "cranial_floor_model",
+  "deck": "Skull Foramina & Cranial Floor",
+  "image": "m7_04_cranial_floor.jpg",
+  "header": "Floor of the cranial cavity \u2014 painted lab model (left) and real skull (right). Find the highlighted key number on the photos and name it.",
+  "back": "Cue: the lab manual's 'internal acoustic canal' is the same opening as the internal acoustic meatus.<br><br>Pitfall: the true nuchal lines are ridges on the OUTER surface of the occipital bone (see the skull from below); key 11 points at the occipital from inside the skull.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.5411:top=0.6844:width=0.1938:height=0.0260:oi=1}}<br>{{c2::image-occlusion:rect:left=0.7650:top=0.6833:width=0.1559:height=0.0282:oi=1}}<br>{{c3::image-occlusion:rect:left=0.7656:top=0.7116:width=0.1513:height=0.0276:oi=1}}<br>{{c4::image-occlusion:rect:left=0.5415:top=0.8154:width=0.1396:height=0.0259:oi=1}}<br>{{c5::image-occlusion:rect:left=0.5412:top=0.8413:width=0.1357:height=0.0270:oi=1}}<br>{{c6::image-occlusion:rect:left=0.5486:top=0.8683:width=0.1473:height=0.0274:oi=1}}<br>{{c7::image-occlusion:rect:left=0.7650:top=0.8438:width=0.1501:height=0.0261:oi=1}}<br>{{c8::image-occlusion:rect:left=0.5402:top=0.6280:width=0.0960:height=0.0291:oi=1}}<br>{{c9::image-occlusion:rect:left=0.5411:top=0.6572:width=0.0848:height=0.0273:oi=1}}<br>{{c10::image-occlusion:rect:left=0.5403:top=0.7104:width=0.1018:height=0.0271:oi=1}}<br>{{c11::image-occlusion:rect:left=0.5411:top=0.7375:width=0.0964:height=0.0260:oi=1}}<br>{{c12::image-occlusion:rect:left=0.5405:top=0.7635:width=0.0929:height=0.0273:oi=1}}<br>{{c13::image-occlusion:rect:left=0.5410:top=0.7908:width=0.1212:height=0.0246:oi=1}}<br>{{c14::image-occlusion:rect:left=0.5483:top=0.8957:width=0.0834:height=0.0283:oi=1}}<br>{{c15::image-occlusion:rect:left=0.7650:top=0.7391:width=0.1254:height=0.0254:oi=1}}<br>{{c16::image-occlusion:rect:left=0.7654:top=0.7646:width=0.1163:height=0.0273:oi=1}}<br>{{c17::image-occlusion:rect:left=0.7650:top=0.7919:width=0.0992:height=0.0260:oi=1}}<br>{{c18::image-occlusion:rect:left=0.7650:top=0.8179:width=0.1268:height=0.0260:oi=1}}<br>{{c19::image-occlusion:rect:left=0.7641:top=0.8699:width=0.1110:height=0.0288:oi=1}}<br>{{c20::image-occlusion:rect:left=0.7648:top=0.8988:width=0.1232:height=0.0296:oi=1}}",
+  "cards": 20,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "sphenoid bone (greater wing)"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "sella turcica (sphenoid)"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "lesser wing (sphenoid)"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "anterior cranial fossa"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "middle cranial fossa"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "posterior cranial fossa"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "internal acoustic canal"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "ethmoid bone"
+    ]
+   },
+   {
+    "c": 9,
+    "printed": [
+     "frontal bone"
+    ]
+   },
+   {
+    "c": 10,
+    "printed": [
+     "temporal bone"
+    ]
+   },
+   {
+    "c": 11,
+    "printed": [
+     "occipital bone"
+    ]
+   },
+   {
+    "c": 12,
+    "printed": [
+     "parietal bone"
+    ]
+   },
+   {
+    "c": 13,
+    "printed": [
+     "foramen magnum"
+    ]
+   },
+   {
+    "c": 14,
+    "printed": [
+     "nuchal lines"
+    ]
+   },
+   {
+    "c": 15,
+    "printed": [
+     "foramen rotundum"
+    ]
+   },
+   {
+    "c": 16,
+    "printed": [
+     "foramen lacerum"
+    ]
+   },
+   {
+    "c": 17,
+    "printed": [
+     "foramen ovale"
+    ]
+   },
+   {
+    "c": 18,
+    "printed": [
+     "foramen spinosum"
+    ]
+   },
+   {
+    "c": 19,
+    "printed": [
+     "jugular foramen"
+    ]
+   },
+   {
+    "c": 20,
+    "printed": [
+     "hypoglossal canal"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1156
+  ]
+ },
+ {
+  "id": "skull_inferior",
+  "deck": "Skull Foramina & Cranial Floor",
+  "image": "m7_03_skull_inferior.jpg",
+  "header": "Skull from below (real skull)",
+  "back": "Cue: the occipital condyles beside the foramen magnum rest on C1 (the atlas) \u2014 the 'yes' nod; the carotid canal carries the internal carotid artery into the skull.<br><br>Meaning: the manual's 'medial palatine suture' is usually called the median palatine suture.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.0902:top=0.2129:width=0.1729:height=0.0694:oi=1}}<br>{{c2::image-occlusion:rect:left=0.0781:top=0.4069:width=0.1869:height=0.0725:oi=1}}<br>{{c3::image-occlusion:rect:left=0.7525:top=0.8624:width=0.1710:height=0.0710:oi=1}}<br>{{c4::image-occlusion:rect:left=0.1152:top=0.8514:width=0.1464:height=0.0683:oi=1}}<br>{{c5::image-occlusion:rect:left=0.7540:top=0.5742:width=0.1447:height=0.0715:oi=1}}<br>{{c6::image-occlusion:rect:left=0.0919:top=0.5503:width=0.1927:height=0.0342:oi=1}}<br>{{c7::image-occlusion:rect:left=0.0727:top=0.1388:width=0.1888:height=0.0370:oi=1}}<br>{{c8::image-occlusion:rect:left=0.6931:top=0.6732:width=0.1691:height=0.0405:oi=1}}<br>{{c9::image-occlusion:rect:left=0.7532:top=0.0602:width=0.1201:height=0.0347:oi=1}}<br>{{c10::image-occlusion:rect:left=0.7535:top=0.1340:width=0.1310:height=0.0459:oi=1}}<br>{{c11::image-occlusion:rect:left=0.7541:top=0.2260:width=0.1211:height=0.0394:oi=1}}<br>{{c12::image-occlusion:rect:left=0.6747:top=0.2876:width=0.1358:height=0.0303:oi=1}}<br>{{c13::image-occlusion:rect:left=0.1276:top=0.3185:width=0.1344:height=0.0406:oi=1}}<br>{{c14::image-occlusion:rect:left=0.7230:top=0.3179:width=0.1151:height=0.0297:oi=1}}<br>{{c15::image-occlusion:rect:left=0.7525:top=0.3476:width=0.1331:height=0.0402:oi=1}}<br>{{c16::image-occlusion:rect:left=0.7256:top=0.4155:width=0.1476:height=0.0342:oi=1}}<br>{{c17::image-occlusion:rect:left=0.7084:top=0.4628:width=0.1050:height=0.0316:oi=1}}<br>{{c18::image-occlusion:rect:left=0.7537:top=0.4969:width=0.1466:height=0.0441:oi=1}}<br>{{c19::image-occlusion:rect:left=0.1057:top=0.6979:width=0.1563:height=0.0415:oi=1}}<br>{{c20::image-occlusion:rect:left=0.7544:top=0.7745:width=0.1220:height=0.0375:oi=1}}",
+  "cards": 20,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "temporal process of zygomatic bone"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "zygomatic process of temporal bone"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "superior nuchal line (occipital bone)"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "external occipital protuberance"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "mastoid process (temporal bone)"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "external acoustic meatus"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "medial palatine suture"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "stylomastoid foramen"
+    ]
+   },
+   {
+    "c": 9,
+    "printed": [
+     "incisive fossa"
+    ]
+   },
+   {
+    "c": 10,
+    "printed": [
+     "maxillary bone"
+    ]
+   },
+   {
+    "c": 11,
+    "printed": [
+     "palatine bone"
+    ]
+   },
+   {
+    "c": 12,
+    "printed": [
+     "foramen lacerum"
+    ]
+   },
+   {
+    "c": 13,
+    "printed": [
+     "zygomatic arch"
+    ]
+   },
+   {
+    "c": 14,
+    "printed": [
+     "foramen ovale"
+    ]
+   },
+   {
+    "c": 15,
+    "printed": [
+     "sphenoid bone"
+    ]
+   },
+   {
+    "c": 16,
+    "printed": [
+     "foramen spinosum"
+    ]
+   },
+   {
+    "c": 17,
+    "printed": [
+     "carotid canal"
+    ]
+   },
+   {
+    "c": 18,
+    "printed": [
+     "occipital condyle"
+    ]
+   },
+   {
+    "c": 19,
+    "printed": [
+     "foramen magnum"
+    ]
+   },
+   {
+    "c": 20,
+    "printed": [
+     "occipital bone"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1116
+  ]
+ },
+ {
+  "id": "spine_regions",
+  "deck": "Vertebral Column",
+  "image": "s14_spine_regions.jpg",
+  "header": "Vertebral column from the side \u2014 name the region",
+  "back": "Mnemonic: breakfast at 7 (7 cervical), lunch at 12 (12 thoracic), dinner at 5 (5 lumbar), dessert at 5 (5 fused sacral); the coccyx is 3\u20135 fused.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.7229:top=0.2165:width=0.2001:height=0.0277:oi=1}}<br>{{c1::image-occlusion:rect:left=0.3164:top=0.1733:width=0.1388:height=0.1243:oi=1}}<br>{{c2::image-occlusion:rect:left=0.7243:top=0.4456:width=0.2039:height=0.0245:oi=1}}<br>{{c2::image-occlusion:rect:left=0.3701:top=0.2976:width=0.1463:height=0.3155:oi=1}}<br>{{c3::image-occlusion:rect:left=0.7232:top=0.6895:width=0.1832:height=0.0279:oi=1}}<br>{{c3::image-occlusion:rect:left=0.3463:top=0.6217:width=0.0746:height=0.1587:oi=1}}<br>{{c4::image-occlusion:rect:left=0.7284:top=0.8240:width=0.1630:height=0.0284:oi=1}}<br>{{c4::image-occlusion:rect:left=0.4000:top=0.7870:width=0.1672:height=0.1071:oi=1}}<br>{{c5::image-occlusion:rect:left=0.7263:top=0.9016:width=0.1834:height=0.0281:oi=1}}",
+  "cards": 5,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "cervical",
+     "(box)"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "thoracic",
+     "(box)"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "lumbar",
+     "(box)"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "sacral",
+     "(box)"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "coccyx"
+    ]
+   }
+  ],
+  "size": [
+   670,
+   1512
+  ]
+ },
+ {
+  "id": "typical_vertebra_red",
+  "deck": "Vertebral Column",
+  "image": "s14_typical_vertebra.png",
+  "header": "Typical vertebra, seen from above. The lab boxed these in red \u2014 know them for the practical.",
+  "back": "Cue: the body (front) bears weight; the vertebral arch wraps the vertebral foramen where the spinal cord runs; the spinous and transverse processes are levers for muscles.",
+  "tags": [
+   "red-box"
+  ],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.6441:top=0.1060:width=0.1317:height=0.0953:oi=1}}<br>{{c2::image-occlusion:rect:left=0.8306:top=0.1349:width=0.1426:height=0.0941:oi=1}}<br>{{c3::image-occlusion:rect:left=0.0318:top=0.2839:width=0.1660:height=0.0879:oi=1}}<br>{{c4::image-occlusion:rect:left=0.7267:top=0.6851:width=0.1426:height=0.0884:oi=1}}<br>{{c5::image-occlusion:rect:left=0.6864:top=0.7856:width=0.1527:height=0.1043:oi=1}}",
+  "cards": 5,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Spinous process"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Vertebral arch"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Transverse process"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "Vertebral foramen"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "Body (centrum)"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1362
+  ]
+ },
+ {
+  "id": "typical_vertebra_other",
+  "deck": "Vertebral Column",
+  "image": "s14_typical_vertebra.png",
+  "header": "Typical vertebra, seen from above \u2014 the other labeled parts",
+  "back": "Cue: pedicles are the short 'feet' joining the arch to the body, laminae are the flat plates roofing it behind, and the superior articular processes form the joints with the vertebra above.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.0292:top=0.4094:width=0.2484:height=0.0983:oi=1}}<br>{{c2::image-occlusion:rect:left=0.2134:top=0.1849:width=0.1104:height=0.0440:oi=1}}<br>{{c3::image-occlusion:rect:left=0.0332:top=0.6052:width=0.1136:height=0.0443:oi=1}}",
+  "cards": 3,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Superior articular process"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Lamina"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Pedicle"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1362
+  ]
+ },
+ {
+  "id": "atlas_axis",
+  "deck": "Vertebral Column",
+  "image": "s15_atlas_axis.jpg",
+  "header": "Atlas (C1) and axis (C2) fitted together, seen from above and behind",
+  "back": "Cue: the dens of C2 pokes up into the front of the atlas's ring, held against its anterior arch by the transverse ligament \u2014 the pivot for turning the head 'no'.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.3843:top=0.0450:width=0.1429:height=0.0998:oi=1}}<br>{{c2::image-occlusion:rect:left=0.1477:top=0.1007:width=0.1507:height=0.1010:oi=1}}<br>{{c3::image-occlusion:rect:left=0.0297:top=0.2479:width=0.1921:height=0.1071:oi=1}}<br>{{c4::image-occlusion:rect:left=0.7978:top=0.3510:width=0.1749:height=0.0615:oi=1}}<br>{{c5::image-occlusion:rect:left=0.7971:top=0.5086:width=0.1689:height=0.0994:oi=1}}<br>{{c6::image-occlusion:rect:left=0.7977:top=0.6523:width=0.1633:height=0.0631:oi=1}}",
+  "cards": 6,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Dens of axis"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Anterior arch"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Transverse ligament"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "Atlas (C1)"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "Posterior arch"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "Axis (C2)"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1263
+  ]
+ },
+ {
+  "id": "cervical_slide",
+  "deck": "Vertebral Column",
+  "image": "s15_cervical_labeled.png",
+  "header": "Cervical vertebra, seen from above",
+  "back": "Cue: a hole in each transverse process (transverse foramen) is found ONLY in cervical vertebrae \u2014 it carries the vertebral artery up to the brain.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.5507:top=0.1196:width=0.3244:height=0.0875:oi=1}}<br>{{c2::image-occlusion:rect:left=0.6540:top=0.4791:width=0.3083:height=0.0666:oi=1}}",
+  "cards": 2,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Bifid Spinous Process"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Transverse Foramen"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   907
+  ]
+ },
+ {
+  "id": "cervical_model",
+  "deck": "Vertebral Column",
+  "image": "m7_10_cervical_model.jpg",
+  "header": "Cervical vertebra (lab model), seen from above at an angle",
+  "back": "Cue: the same parts as any typical vertebra, plus the cervical giveaway \u2014 a transverse foramen in each transverse process.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.0496:top=0.0798:width=0.1595:height=0.1024:oi=1}}<br>{{c2::image-occlusion:rect:left=0.0339:top=0.2481:width=0.1590:height=0.1012:oi=1}}<br>{{c3::image-occlusion:rect:left=0.7521:top=0.6759:width=0.1860:height=0.0970:oi=1}}<br>{{c4::image-occlusion:rect:left=0.0422:top=0.8127:width=0.1497:height=0.1483:oi=1}}<br>{{c5::image-occlusion:rect:left=0.6656:top=0.8360:width=0.2405:height=0.0960:oi=1}}<br>{{c6::image-occlusion:rect:left=0.0278:top=0.3717:width=0.1454:height=0.1071:oi=1}}<br>{{c7::image-occlusion:rect:left=0.7371:top=0.0674:width=0.1536:height=0.0717:oi=1}}<br>{{c8::image-occlusion:rect:left=0.0818:top=0.6487:width=0.1241:height=0.0525:oi=1}}<br>{{c9::image-occlusion:rect:left=0.7501:top=0.3178:width=0.1107:height=0.0754:oi=1}}",
+  "cards": 9,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "vertebral foramen"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "vertebral arch"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "transverse foramen"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "inferior articular facet"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "superior articular facet"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "spinous process"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "pedicle"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "lamina"
+    ]
+   },
+   {
+    "c": 9,
+    "printed": [
+     "body"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1320
+  ]
+ },
+ {
+  "id": "atlas_axis_model",
+  "deck": "Vertebral Column",
+  "image": "m7_11_atlas_axis_model.jpg",
+  "header": "Atlas (C1) sitting on the axis (C2), lab model \u2014 the renders underneath show C1 turning on the dens",
+  "back": "Cue: C1 has no body and no spinous process \u2014 just an anterior and a posterior arch joined by the lateral masses; the dens of C2 fills the front of its ring.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.3996:top=0.0712:width=0.2095:height=0.0393:oi=1}}<br>{{c2::image-occlusion:rect:left=0.6475:top=0.0755:width=0.2245:height=0.0369:oi=1}}<br>{{c3::image-occlusion:rect:left=0.1571:top=0.0979:width=0.1866:height=0.0369:oi=1}}<br>{{c4::image-occlusion:rect:left=0.6440:top=0.1315:width=0.1699:height=0.0369:oi=1}}<br>{{c5::image-occlusion:rect:left=0.1512:top=0.1783:width=0.1885:height=0.0370:oi=1}}<br>{{c6::image-occlusion:rect:left=0.6453:top=0.2142:width=0.1439:height=0.0370:oi=1}}<br>{{c7::image-occlusion:rect:left=0.1934:top=0.3237:width=0.1474:height=0.0370:oi=1}}<br>{{c8::image-occlusion:rect:left=0.6440:top=0.3103:width=0.1583:height=0.0370:oi=1}}<br>{{c9::image-occlusion:rect:left=0.1672:top=0.4133:width=0.1736:height=0.0368:oi=1}}<br>{{c10::image-occlusion:rect:left=0.1733:top=0.5143:width=0.1672:height=0.0342:oi=1}}<br>{{c11::image-occlusion:rect:left=0.2555:top=0.3632:width=0.0846:height=0.0407:oi=1}}",
+  "cards": 11,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "superior articular facet (C1)"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "dens (odontoid process) (C2)"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "transverse process (C1)"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "anterior tubercle (C1)"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "transverse foramen (C1)"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "anterior arch (C1)"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "posterior arch (C1)"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "lateral masses (C1)"
+    ]
+   },
+   {
+    "c": 9,
+    "printed": [
+     "posterior tubercle (C1)"
+    ]
+   },
+   {
+    "c": 10,
+    "printed": [
+     "spinous process (C2)"
+    ]
+   },
+   {
+    "c": 11,
+    "printed": [
+     "body (C2)"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1121
+  ]
+ },
+ {
+  "id": "thoracic_vertebra",
+  "deck": "Vertebral Column",
+  "image": "s16_thoracic.png",
+  "header": "Thoracic vertebra \u2014 seen from above (left) and from the side (right)",
+  "back": "Cue: the costal facets \u2014 on the body and on the transverse process \u2014 are the joints for the ribs, found only on thoracic vertebrae; 'corpus' is Latin for body.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.6235:top=0.1574:width=0.1058:height=0.1245:oi=1}}<br>{{c2::image-occlusion:rect:left=0.6575:top=0.6329:width=0.0963:height=0.1236:oi=1}}<br>{{c3::image-occlusion:rect:left=0.4791:top=0.2755:width=0.1188:height=0.0866:oi=1}}<br>{{c3::image-occlusion:rect:left=0.0586:top=0.6371:width=0.1226:height=0.0907:oi=1}}<br>{{c4::image-occlusion:rect:left=0.5181:top=0.6364:width=0.1220:height=0.0905:oi=1}}<br>{{c5::image-occlusion:rect:left=0.0508:top=0.3924:width=0.1232:height=0.0904:oi=1}}<br>{{c5::image-occlusion:rect:left=0.8307:top=0.4723:width=0.1179:height=0.1246:oi=1}}<br>{{c6::image-occlusion:rect:left=0.1415:top=0.1115:width=0.1409:height=0.1016:oi=1}}<br>{{c6::image-occlusion:rect:left=0.7293:top=0.1732:width=0.1822:height=0.1092:oi=1}}<br>{{c7::image-occlusion:rect:left=0.6124:top=0.7629:width=0.2142:height=0.0564:oi=1}}<br>{{c8::image-occlusion:rect:left=0.0318:top=0.1565:width=0.1097:height=0.0992:oi=1}}<br>{{c9::image-occlusion:rect:left=0.2289:top=0.0608:width=0.1672:height=0.0507:oi=1}}<br>{{c9::image-occlusion:rect:left=0.8073:top=0.8658:width=0.1580:height=0.0437:oi=1}}<br>{{c10::image-occlusion:rect:left=0.3664:top=0.1917:width=0.0994:height=0.0908:oi=1}}<br>{{c11::image-occlusion:rect:left=0.2603:top=0.8052:width=0.0841:height=0.0565:oi=1}}",
+  "cards": 11,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Superior vertebral notch"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Inferior vertebral notch"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Superior costal facet",
+     "Superior costal facet"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "Inferior costal facet"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "Transverse costal facet",
+     "Transverse costal facet"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "Superior articular facet",
+     "Superior articular facet"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "Inferior articular facet"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "Transverse process"
+    ]
+   },
+   {
+    "c": 9,
+    "printed": [
+     "Spinous process",
+     "(box)"
+    ]
+   },
+   {
+    "c": 10,
+    "printed": [
+     "Vertebral foramen"
+    ]
+   },
+   {
+    "c": 11,
+    "printed": [
+     "Corpus"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   961
+  ]
+ },
+ {
+  "id": "lumbar_vertebra",
+  "deck": "Vertebral Column",
+  "image": "s17_lumbar_superior.jpg",
+  "header": "Lumbar vertebra, seen from above",
+  "back": "Cue: the massive body is the lumbar giveaway \u2014 it carries the whole upper body's weight; 'spinal canal' here is the vertebral foramen.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.6506:top=0.2317:width=0.0718:height=0.0609:oi=1}}<br>{{c2::image-occlusion:rect:left=0.7456:top=0.3914:width=0.0946:height=0.0595:oi=1}}<br>{{c3::image-occlusion:rect:left=0.7421:top=0.4814:width=0.2309:height=0.0678:oi=1}}<br>{{c4::image-occlusion:rect:left=0.6045:top=0.5645:width=0.1558:height=0.0618:oi=1}}<br>{{c5::image-occlusion:rect:left=0.6694:top=0.6977:width=0.0929:height=0.0499:oi=1}}<br>{{c6::image-occlusion:rect:left=0.6027:top=0.8613:width=0.1988:height=0.0584:oi=1}}",
+  "cards": 6,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Body"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Pedicle"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Transverse Process"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "Spinal Canal"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "Lamina"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "Spinous Process"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   986
+  ]
+ },
+ {
+  "id": "sacrum_red",
+  "deck": "Sacrum & Coccyx",
+  "image": "s18_sacrum_coccyx.jpg",
+  "header": "Sacrum and coccyx \u2014 front (left) and back (right). The lab boxed these in red \u2014 know them for the practical.",
+  "back": "Roster: base \u2014 broad top surface of S1 \u00b7 promontory \u2014 front lip of S1's body \u00b7 ala \u2014 the wing on each side of the base \u00b7 superior articular processes \u2014 the joints with L5 \u00b7 anterior and posterior sacral foramina \u2014 exits for the sacral nerves \u00b7 median sacral crest \u2014 the fused spinous processes \u00b7 sacral canal \u2014 the vertebral canal continued \u00b7 sacral hiatus \u2014 the canal's lower opening \u00b7 apex \u2014 the narrow tip that meets the coccyx",
+  "tags": [
+   "red-box"
+  ],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.2893:top=0.1093:width=0.1757:height=0.0385:oi=1}}<br>{{c1::image-occlusion:rect:left=0.5741:top=0.1078:width=0.1586:height=0.0405:oi=1}}<br>{{c2::image-occlusion:rect:left=0.0573:top=0.1517:width=0.0701:height=0.0609:oi=1}}<br>{{c3::image-occlusion:rect:left=0.0566:top=0.2182:width=0.0802:height=0.0402:oi=1}}<br>{{c4::image-occlusion:rect:left=0.0561:top=0.2905:width=0.0895:height=0.0935:oi=1}}<br>{{c5::image-occlusion:rect:left=0.0592:top=0.3873:width=0.0691:height=0.0931:oi=1}}<br>{{c6::image-occlusion:rect:left=0.0570:top=0.7217:width=0.0619:height=0.0593:oi=1}}<br>{{c7::image-occlusion:rect:left=0.8738:top=0.1300:width=0.1028:height=0.0368:oi=1}}<br>{{c8::image-occlusion:rect:left=0.8796:top=0.4436:width=0.0751:height=0.0897:oi=1}}<br>{{c9::image-occlusion:rect:left=0.8799:top=0.5419:width=0.0876:height=0.0589:oi=1}}<br>{{c9::image-occlusion:rect:left=0.8791:top=0.3701:width=0.0906:height=0.0690:oi=1}}<br>{{c10::image-occlusion:rect:left=0.4820:top=0.7176:width=0.0928:height=0.0298:oi=1}}",
+  "cards": 10,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Superior articular process",
+     "Superior articular facet"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Base of~ sacrum"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Sacral ala"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "Anterior sacral promontory"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "Anterior sacral foramen"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "Apex of sacrum"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "Sacral canal"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "Posterior sacral foramen"
+    ]
+   },
+   {
+    "c": 9,
+    "printed": [
+     "Median sacral crest",
+     "Lateral sacral crest"
+    ]
+   },
+   {
+    "c": 10,
+    "printed": [
+     "Sacral hiatus"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1074
+  ]
+ },
+ {
+  "id": "sacrum_other",
+  "deck": "Sacrum & Coccyx",
+  "image": "s18_sacrum_coccyx.jpg",
+  "header": "Sacrum and coccyx \u2014 front (left) and back (right): the other labeled landmarks",
+  "back": "Cue: the auricular ('ear-shaped') surface is where the sacrum meets the hip bone; the transverse lines are the seams where the five sacral vertebrae fused.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.5741:top=0.1078:width=0.1586:height=0.0405:oi=1}}<br>{{c1::image-occlusion:rect:left=0.2893:top=0.1093:width=0.1757:height=0.0385:oi=1}}<br>{{c2::image-occlusion:rect:left=0.0572:top=0.4904:width=0.0832:height=0.0587:oi=1}}<br>{{c3::image-occlusion:rect:left=0.8791:top=0.3701:width=0.0906:height=0.0689:oi=1}}<br>{{c3::image-occlusion:rect:left=0.8799:top=0.5419:width=0.0876:height=0.0589:oi=1}}<br>{{c4::image-occlusion:rect:left=0.8807:top=0.2353:width=0.0772:height=0.0690:oi=1}}<br>{{c5::image-occlusion:rect:left=0.8806:top=0.3043:width=0.0731:height=0.0658:oi=1}}<br>{{c6::image-occlusion:rect:left=0.8816:top=0.6031:width=0.0536:height=0.0582:oi=1}}<br>{{c7::image-occlusion:rect:left=0.8813:top=0.6631:width=0.0805:height=0.0593:oi=1}}<br>{{c8::image-occlusion:rect:left=0.8816:top=0.7269:width=0.0827:height=0.0583:oi=1}}",
+  "cards": 8,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Superior articular facet",
+     "Superior articular process"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Transverse line"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Lateral sacral crest",
+     "Median sacral crest"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "Sacral tuberosity"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "Auricular surface"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "Sacral cornu"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "Coccygeal cornu"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "Transverse process"
+    ]
+   }
+  ],
+  "size": [
+   1728,
+   1074
+  ]
+ },
+ {
+  "id": "sternum",
+  "deck": "Thoracic Cage",
+  "image": "s20_sternum.jpg",
+  "header": "Sternum, from the front",
+  "back": "Cue: manubrium (handle) + body (blade) + xiphoid process (tip) = a sword; the sternal angle, where the manubrium meets the body, marks rib 2 \u2014 the place to start counting ribs.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.0281:top=0.0476:width=0.2409:height=0.0458:oi=1}}<br>{{c2::image-occlusion:rect:left=0.6812:top=0.0429:width=0.2782:height=0.0378:oi=1}}<br>{{c3::image-occlusion:rect:left=0.0338:top=0.1787:width=0.1975:height=0.0393:oi=1}}<br>{{c4::image-occlusion:rect:left=0.0744:top=0.2903:width=0.2425:height=0.0446:oi=1}}<br>{{c5::image-occlusion:rect:left=0.7213:top=0.4609:width=0.2397:height=0.1577:oi=1}}<br>{{c6::image-occlusion:rect:left=0.0721:top=0.5287:width=0.1090:height=0.0537:oi=1}}<br>{{c7::image-occlusion:rect:left=0.0719:top=0.8658:width=0.2844:height=0.0505:oi=1}}",
+  "cards": 7,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Jugular notch"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Clavicular notch"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Manubrium"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "Sternal angle"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "Facets for attachment of costal cartilages 1-7"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "Body"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "Xiphoid process"
+    ]
+   }
+  ],
+  "size": [
+   1080,
+   1188
+  ]
+ },
+ {
+  "id": "rib",
+  "deck": "Thoracic Cage",
+  "image": "s20_rib.png",
+  "header": "Typical rib \u2014 (A) the whole rib, (B) close-up of its head and neck",
+  "back": "Cue: the head joins the vertebral bodies and the tubercle joins the transverse process; the costal groove on the lower inner edge shelters the intercostal nerve and vessels.<br><br>Pitfall: the lab notes say rib markings are NOT required for the practical \u2014 this plate is extra.",
+  "tags": [
+   "optional"
+  ],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.6109:top=0.9014:width=0.2378:height=0.0365:oi=1}}<br>{{c2::image-occlusion:rect:left=0.5111:top=0.9392:width=0.2223:height=0.0330:oi=1}}<br>{{c3::image-occlusion:rect:left=0.0503:top=0.9076:width=0.3057:height=0.0294:oi=1}}<br>{{c4::image-occlusion:rect:left=0.3836:top=0.2760:width=0.2466:height=0.0395:oi=1}}<br>{{c5::image-occlusion:rect:left=0.6992:top=0.6125:width=0.2465:height=0.0293:oi=1}}<br>{{c6::image-occlusion:rect:left=0.0987:top=0.4491:width=0.2405:height=0.0327:oi=1}}<br>{{c7::image-occlusion:rect:left=0.6089:top=0.3399:width=0.1211:height=0.0627:oi=1}}<br>{{c8::image-occlusion:rect:left=0.3001:top=0.0552:width=0.1492:height=0.0407:oi=1}}<br>{{c8::image-occlusion:rect:left=0.3535:top=0.7283:width=0.1412:height=0.0318:oi=1}}<br>{{c9::image-occlusion:rect:left=0.2439:top=0.2491:width=0.0960:height=0.0352:oi=1}}<br>{{c9::image-occlusion:rect:left=0.5687:top=0.7141:width=0.0954:height=0.0312:oi=1}}<br>{{c10::image-occlusion:rect:left=0.0430:top=0.1305:width=0.0918:height=0.0355:oi=1}}<br>{{c11::image-occlusion:rect:left=0.6156:top=0.0988:width=0.1001:height=0.0321:oi=1}}<br>{{c12::image-occlusion:rect:left=0.7889:top=0.7896:width=0.1068:height=0.0394:oi=1}}",
+  "cards": 12,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "Articular facets"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "Articular facet"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "Nonarticular surface"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "Internal surface"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "External surface"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "Costal cartilage"
+    ]
+   },
+   {
+    "c": 7,
+    "printed": [
+     "Costal groove"
+    ]
+   },
+   {
+    "c": 8,
+    "printed": [
+     "Tubercle",
+     "Tubercle"
+    ]
+   },
+   {
+    "c": 9,
+    "printed": [
+     "Neck",
+     "Neck"
+    ]
+   },
+   {
+    "c": 10,
+    "printed": [
+     "Head"
+    ]
+   },
+   {
+    "c": 11,
+    "printed": [
+     "Angle"
+    ]
+   },
+   {
+    "c": 12,
+    "printed": [
+     "Crest"
+    ]
+   }
+  ],
+  "size": [
+   1273,
+   1728
+  ]
+ },
+ {
+  "id": "thoracic_cage_model",
+  "deck": "Thoracic Cage",
+  "image": "m7_17_thoracic_cage.jpg",
+  "header": "Thoracic cage (lab skeleton), from the front",
+  "back": "Cue: the maroon bars are the costal cartilages \u2014 hyaline cartilage joining the ribs to the sternum; the floating ribs (11\u201312) end free and never reach the sternum.",
+  "tags": [],
+  "occlusion": "{{c1::image-occlusion:rect:left=0.7576:top=0.1799:width=0.1431:height=0.0693:oi=1}}<br>{{c2::image-occlusion:rect:left=0.7306:top=0.3894:width=0.2167:height=0.0366:oi=1}}<br>{{c3::image-occlusion:rect:left=0.7556:top=0.5064:width=0.1614:height=0.0710:oi=1}}<br>{{c4::image-occlusion:rect:left=0.7525:top=0.6316:width=0.1800:height=0.1063:oi=1}}<br>{{c5::image-occlusion:rect:left=0.7461:top=0.7628:width=0.1557:height=0.0736:oi=1}}<br>{{c6::image-occlusion:rect:left=0.6302:top=0.9186:width=0.2209:height=0.0428:oi=1}}",
+  "cards": 6,
+  "answers": [
+   {
+    "c": 1,
+    "printed": [
+     "jugular notch"
+    ]
+   },
+   {
+    "c": 2,
+    "printed": [
+     "manubrium"
+    ]
+   },
+   {
+    "c": 3,
+    "printed": [
+     "body of sternum"
+    ]
+   },
+   {
+    "c": 4,
+    "printed": [
+     "costal cartilage (ribs 4-5)"
+    ]
+   },
+   {
+    "c": 5,
+    "printed": [
+     "xiphoid process"
+    ]
+   },
+   {
+    "c": 6,
+    "printed": [
+     "floating ribs"
+    ]
+   }
+  ],
+  "size": [
+   1418,
+   1728
+  ]
+ }
+]

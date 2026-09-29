@@ -1,0 +1,767 @@
+{
+ "verdicts": [
+  {
+   "idx": 0,
+   "verdict": "REWRITE",
+   "issues": [
+    "[back, source word] The Pitfall ends 'The lab slides use 206.' 'Slides' is a banned source-artifact word (card-rules Layer A #2). I reworded it to name the course instead.",
+    "[back, accuracy] '(the skull plates, sacrum, and coccyx)' implies the cranial plates fuse with each other, but the adult cranium is still 8 separate bones (#37). The count drops because pieces WITHIN single bones fuse. (Confirmed independently against the manual/plate; it also appears in the parallel review_facts.json.)"
+   ],
+   "fixed_back": "Why: a newborn has around 270 separate bony pieces, and many fuse as you grow (pieces of single skull bones, the hip bones, the sacrum, and the coccyx), which is how the adult count settles at 206.<br><br>Pitfall: the lab manual counts 210 because it adds two sesamoid bones in each foot; the BIOL 214 lab itself uses 206."
+  },
+  {
+   "idx": 1,
+   "verdict": "REWRITE",
+   "issues": [
+    "[cross-card] The front prints '206', which is the whole answer to #0. Slide 2's notes say that is the one number to remember, so every review of #1 gives #0 away. With 206 visible, 126 = 206 - 80 can also be worked out inside the card. I reworded it without the total."
+   ],
+   "fixed_text": "An adult has {{c1::80::number of bones}} axial bones and {{c1::126::number of bones}} appendicular bones."
+  },
+  {
+   "idx": 2,
+   "verdict": "REWRITE",
+   "issues": [
+    "[leak, check 15] 'The body's central axis' gives away 'axial' through its own root (the Why line even says 'axial comes from axis'). With only two divisions, 'appendicular' then follows by elimination, so a non-knower passes the card.",
+    "[cross-card] Both answer words are printed on #1's front and in #3's forced-choice hint.",
+    "I rebuilt it as a 4-row sort card for the borderline bones, which is the real practical skill (which division does a bone belong to?). Each row is cued by its bone and has a forced-choice hint, so the load is 4. The lead-in names no answer; the options live in the hints. Grounding: slide 8 lists the auditory ossicles, hyoid and sacrum under axial; the Popcorn slide 3 key and manual Fig 6-1 put the hip bone in the appendicular skeleton. The speaker-note definitions move into the Why."
+   ],
+   "fixed_text": "Sort each bone into its division of the skeleton:<br><br>auditory ossicles → {{c1::axial::axial or appendicular}}<br><br>hyoid → {{c1::axial::axial or appendicular}}<br><br>sacrum → {{c1::axial::axial or appendicular}}<br><br>hip bone (os coxae) → {{c1::appendicular::axial or appendicular}}",
+   "fixed_back": "Why: the axial skeleton is the body's central pole (skull with its ear bones and hyoid, thoracic cage, and vertebral column down through the sacrum and coccyx), while the appendicular skeleton is the limbs plus the girdles that hang them from that pole.<br><br>Pitfall: the sacrum sits between the two hip bones but belongs to the spine, so it is axial; the hip bones form the pelvic girdle, so they are appendicular."
+  },
+  {
+   "idx": 3,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 4,
+   "verdict": "PASS",
+   "issues": [
+    "[note] #5's front shows all three divisions and #35's stem names the cephalic division, so siblings partly prime this membership card. Accepted under card-rules #30 (a pairing card next to a membership card is fine)."
+   ]
+  },
+  {
+   "idx": 5,
+   "verdict": "PASS",
+   "issues": [
+    "[note] c1/c2/c3 sit on one note, but each row is keyed by its own division and the organs are separate facts, not one enumerated list. That is rule 24's stated exception."
+   ]
+  },
+  {
+   "idx": 6,
+   "verdict": "REWRITE",
+   "issues": [
+    "[contract] The Back Extra leads with Mnemonic, not Why. I reordered it (the priority is Why > Mnemonic).",
+    "[note] Five uncued items is at the rule-23 limit. The back-side mnemonic is the handle, and #7-#12 each force one class name, so I kept the list whole."
+   ],
+   "fixed_back": "Why: shape follows job: long bones are levers, short bones pack into blocks, flat bones are shields, sesamoids sit in tendons, and irregular bones fit an odd job.<br><br>Mnemonic: Five Lazy Skeletons Sit Idle = Flat, Long, Short, Sesamoid, Irregular."
+  },
+  {
+   "idx": 7,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 8,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 9,
+   "verdict": "REWRITE",
+   "issues": [
+    "[mild leak, check 15] 'The curved plates of the braincase': a plate-like shape is what defines a flat bone, so the cue gives the answer away. I replaced it with the manual's own wording ('bowl-shaped bones forming the brain case') plus a named example."
+   ],
+   "fixed_text": "The sternum, the ribs, and the bowl-shaped bones of the braincase (such as the parietals) are {{c1::flat::shape class}} bones."
+  },
+  {
+   "idx": 10,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 11,
+   "verdict": "REWRITE",
+   "issues": [
+    "[deixis] The Back Extra says 'these bones', but the bones are only named in the Text. I named them."
+   ],
+   "fixed_back": "Why: vertebrae and the hyoid have complicated shapes (processes, arches, horns) built for special jobs, so they don't fit the long, short, flat, or sesamoid templates."
+  },
+  {
+   "idx": 12,
+   "verdict": "REWRITE",
+   "issues": [
+    "[contract] There is no Why line (Pitfall only), even though Parker asked for an explanation on every card. I added a Why.",
+    "[back, accuracy] The Pitfall said all the complex bones of the face and cranial floor are irregular. That is too absolute: the occipital (much of the cranial floor) and the small facial plates are classed as flat. I tightened it to named examples. (Confirmed independently against the manual/plate; it also appears in the parallel review_facts.json.)"
+   ],
+   "fixed_back": "Why: bones such as the sphenoid, ethmoid, and maxilla wrap around the eyes, nose, sinuses, and teeth, so each has an odd 3-D shape (wings, plates, sockets, air spaces) that fits no simpler class.<br><br>Pitfall: not every skull bone is flat. The curved plates of the braincase (such as the frontal, parietal, and occipital) are flat, but complex bones like the sphenoid, ethmoid, maxilla, and mandible are irregular."
+  },
+  {
+   "idx": 13,
+   "verdict": "REWRITE",
+   "issues": [
+    "[back, accuracy] The Why sorts joints only with depressions, but manual p.133 says projections are 'usually part of articulating surfaces or serve as attachment sites', and the card's own plate (Fig 6-3) lists 'Projections involved in articulations: head, neck, facet, condyle, ramus'. Joints use both kinds. (Confirmed independently against the manual/plate; it also appears in the parallel review_facts.json.)"
+   ],
+   "fixed_back": "Why: a bone's surface is shaped by what touches it. Muscles and ligaments raise projections where they anchor, joints use both (a rounded head or condyle fitting a socket-like fossa), and vessels and nerves leave depressions such as grooves and foramina."
+  },
+  {
+   "idx": 14,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 15,
+   "verdict": "REWRITE",
+   "issues": [
+    "[back, accuracy / internal consistency] 'Packed solid with no open spaces' contradicts #22-#26, which teach the canals, lacunae and canaliculi inside compact bone. (Confirmed independently against the manual/plate; it also appears in the parallel review_facts.json.)"
+   ],
+   "fixed_back": "Why: hydroxyapatite is the calcium-phosphate mineral that makes bone hard; densely packed, with none of the large open spaces of spongy bone, it resists the heavy squeezing a femur's shaft takes when you stand."
+  },
+  {
+   "idx": 16,
+   "verdict": "REWRITE",
+   "issues": [
+    "[form] A Back Extra sentence starts with 'That is why...', a sentence-initial pronoun (Layer A #2). I reworded it."
+   ],
+   "fixed_back": "Why: the struts line up along the lines of force, so the light lattice can brace against pushes and pulls from many angles at once. The lattice therefore fills the ends of long bones, where many muscles pull from different angles."
+  },
+  {
+   "idx": 17,
+   "verdict": "REWRITE",
+   "issues": [
+    "[form] A Back Extra sentence starts with 'It looks red...', a sentence-initial pronoun. I reworded it.",
+    "[note] 'Red' in the stem nudges toward 'red blood cells'. That comes with the structure's name, so I left the Text alone."
+   ],
+   "fixed_back": "Why: red marrow is packed with blood-forming stem cells that keep dividing to replace the millions of red blood cells that wear out every second. Red marrow looks red because it is full of new blood cells."
+  },
+  {
+   "idx": 18,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 19,
+   "verdict": "REWRITE",
+   "issues": [
+    "[contract] There is no Why line (Parts + Cue only). I added a short functional Why first."
+   ],
+   "fixed_back": "Why: the diaphysis is a hollow tube of compact bone that makes a strong, light lever, while the wider epiphyses spread the load where the bone meets its neighbor at a joint.<br><br>Parts: dia- (between) + -physis (growth); epi- (upon) + -physis. The diaphysis grows between the ends, and the epiphyses sit upon the shaft.<br><br>Cue: one diaphysis, but two epiphyses (proximal and distal)."
+  },
+  {
+   "idx": 20,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 21,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 22,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 23,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 24,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 25,
+   "verdict": "REWRITE",
+   "issues": [
+    "[check 11] The Distinguish line ('lacuna = the space; osteocyte = the cell inside it') says the same thing as the Text. I dropped it; the Why already adds something new."
+   ],
+   "fixed_back": "Why: an osteocyte is a mature bone cell walled into hard matrix, and the lacuna is the little chamber it lives in."
+  },
+  {
+   "idx": 26,
+   "verdict": "REWRITE",
+   "issues": [
+    "[leak, check 15] 'Tiny channels called ___' is the literal translation of canaliculi ('little canals'), and the word 'canal' is visible a few words earlier, so guessing from word parts produces the answer. I moved the description to the Why.",
+    "[standalone] I added 'In compact bone'. Cartilage also has lacunae (with no canaliculi), and 'central canal' is also a spinal-cord term in a shuffled deck that includes MCAT material.",
+    "[back] Fixed the deixis in 'these hair-thin channels'. 'Hair-thin' is also off by about 100x (canaliculi are under 1 micrometre); it now says 'microscopic'."
+   ],
+   "fixed_text": "In compact bone, lacunae are connected to the osteon's central canal by {{c1::canaliculi}}.",
+   "fixed_back": "Why: canaliculi are microscopic channels, and because osteocytes are sealed inside hard mineral, the canaliculi are how nutrients and wastes pass between each cell and the blood vessels in the central canal."
+  },
+  {
+   "idx": 27,
+   "verdict": "PASS",
+   "issues": [
+    "[nit] 'Meaning:' is used for a synonym (growth plate) rather than an acronym. Harmless."
+   ]
+  },
+  {
+   "idx": 28,
+   "verdict": "REWRITE",
+   "issues": [
+    "[deixis + label] 'Meaning: the lab words this as...' has deixis ('this'), and 'Meaning:' is meant for expanding an acronym. I relabeled it as a Pitfall that maps the slide's own words (distal / medially) onto the card's (epiphysis side / diaphysis side). He needs that mapping if the quiz uses the slide's wording."
+   ],
+   "fixed_back": "Why: the plate grows at its outer edge while being turned into bone at its inner edge, so it creeps outward, pushing the end of the bone away and lengthening the shaft.<br><br>Pitfall: the lab words the same fact as cartilage growth on the distal end of the plate while bone is added medially, so distal = the epiphysis side and medial = the diaphysis side."
+  },
+  {
+   "idx": 29,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 30,
+   "verdict": "REWRITE",
+   "issues": [
+    "[contract] There is no Why line (Distinguish + Pitfall only). I added a Why that explains why only cartilage can lengthen the bone."
+   ],
+   "fixed_back": "Why: cartilage can keep growing from within, so a cartilage plate can lengthen the bone; once the plate turns to bone (the line), lengthening is over.<br><br>Distinguish: the plate (cartilage) marks where growth is still happening; the line (bone) marks that growth has ended.<br><br>Pitfall: growth happens at the plate, never at the line."
+  },
+  {
+   "idx": 31,
+   "verdict": "REWRITE",
+   "issues": [
+    "[elimination, checks 1/15] Hyaline and elastic were on different cloze numbers, so each card showed the other answer and left a 50/50 between the two remaining cartilages for a non-knower. I put both under c1. Each blank keeps its own anchor ('most' / 'least abundant'), so it is not a husk, and a non-knower's odds drop to 1 in 6.",
+    "[back] I trimmed the ear/epiglottis mention from the Why, because #32 now tests those locations, and changed 'every joint surface' to 'most joint surfaces' (the TMJ and the sternoclavicular and acromioclavicular joints are fibrocartilage). (Confirmed independently against the manual/plate; it also appears in the parallel review_facts.json.)"
+   ],
+   "fixed_text": "The most abundant cartilage in the body is {{c1::hyaline::cartilage type}} cartilage, and the least abundant is {{c1::elastic::cartilage type}} cartilage.",
+   "fixed_back": "Why: hyaline is used wherever a smooth, slightly flexible surface is needed (most joint surfaces, the rib cartilages, the trachea, the nose), while elastic is needed only in the few places where tissue must bend and spring back."
+  },
+  {
+   "idx": 32,
+   "verdict": "REWRITE",
+   "issues": [
+    "[coverage] No card tested slide 7's 'Elastic: found in ear and epiglottis'; it only appeared in Why lines. I added it as c2 on this note.",
+    "[note] c1 ('most flexible' -> elastic) can nearly be worked out from the word 'flexible'. That is built into the slide's fact; the new c2 carries the real test."
+   ],
+   "fixed_text": "The most flexible cartilage is {{c1::elastic::cartilage type}} cartilage, found in the {{c2::external ear}} and the {{c2::epiglottis}}."
+  },
+  {
+   "idx": 33,
+   "verdict": "REWRITE",
+   "issues": [
+    "[back, logic] '...cuts friction..., which is why the cartilage on bone ends is called articular cartilage' makes friction the reason for the name. The name comes from where it sits (at an articulation, a joint). (Confirmed independently against the manual/plate; it also appears in the parallel review_facts.json.)"
+   ],
+   "fixed_back": "Why: hyaline cartilage's glassy-smooth surface cuts friction where two bones meet, and because it covers the articulating (joint) surface, it is also called articular cartilage."
+  },
+  {
+   "idx": 34,
+   "verdict": "REWRITE",
+   "issues": [
+    "[coverage] No card tested slide 7's 'Fibrocartilage: found in intervertebral discs and meniscus'; it was only in this card's Why. It is a classic practical question, so I added it as c3 and trimmed the Why so it no longer repeats the new c3."
+   ],
+   "fixed_text": "Of the three cartilages, {{c1::fibrocartilage}} is the stiffest and toughest, which lets it {{c2::absorb force::what it does}} in the {{c3::intervertebral discs}} and the knee's {{c3::menisci}}.",
+   "fixed_back": "Why: thick bundles of collagen fibers run through its matrix, so it resists squeezing and tearing, the right material for a shock absorber."
+  },
+  {
+   "idx": 35,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 36,
+   "verdict": "PASS",
+   "issues": [
+    "[note] Six items is allowed here because of the visible PEST-OF mnemonic and letter hints (rules 18/23)."
+   ]
+  },
+  {
+   "idx": 37,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 38,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 39,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 40,
+   "verdict": "REWRITE",
+   "issues": [
+    "[one-answer] 'Four skull bones contain air-filled sinuses' is not unique: the manual (p.156) adds that the mastoid process of the temporal bone also contains a sinus, so a well-read knower could write 'temporal'. The front now says 'paranasal sinuses', which leaves out the mastoid air cells, and a Pitfall on the back settles it. (Confirmed independently against the manual/plate; it also appears in the parallel review_facts.json.)"
+   ],
+   "fixed_text": "Four skull bones hold the paranasal sinuses: the {{c1::frontal}}, {{c1::ethmoid}}, {{c1::sphenoid}}, and {{c1::maxillary}} bones.",
+   "fixed_back": "Why: the mucus-lined air pockets drain into the nasal cavity, which is why a cold or allergy can cause sinus pressure and sinus headaches.<br><br>Pitfall: the mastoid process of the temporal bone also holds air cells, but it is not one of the four paranasal sinus bones."
+  },
+  {
+   "idx": 41,
+   "verdict": "PASS",
+   "issues": [
+    "[note] The slot hints ('effect on weight' / 'effect on sound') let both functions be worked out from physics. Acceptable for this simple blue-page Q4 fact, but it will feel easy."
+   ]
+  },
+  {
+   "idx": 42,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 43,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 44,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 45,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 46,
+   "verdict": "PASS",
+   "issues": [
+    "[confirmed benign] Both blanks sit under c1 on purpose. The card tests the cross-over naming, and the two options are already implied by the stem. The checker's 'answer visible in stem' warning is expected here."
+   ]
+  },
+  {
+   "idx": 47,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 48,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 49,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 50,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 51,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 52,
+   "verdict": "REWRITE",
+   "issues": [
+    "[contract] There is no Why line (Ex + Cue only). I added one."
+   ],
+   "fixed_back": "Why: anatomists named the hyoid's slender projections cornua because they stick up and back from its body like a pair of horns.<br><br>Ex: the hyoid has greater and lesser cornua, and the sacrum and coccyx have cornua too.<br><br>Cue: Latin cornu, as in unicorn."
+  },
+  {
+   "idx": 53,
+   "verdict": "REWRITE",
+   "issues": [
+    "[back, accuracy] 'where the nerves headed for the eye and face have to leave the skull' is right for the optic canal, rotundum and ovale, but the foramen spinosum's main occupant is the middle meningeal ARTERY, which enters. (Confirmed independently against the manual/plate; it also appears in the parallel review_facts.json.)"
+   ],
+   "fixed_back": "Why: the sphenoid sits in the middle of the cranial floor, right where the nerves for the eye and face leave the skull (and where the middle meningeal artery enters through the foramen spinosum)."
+  },
+  {
+   "idx": 54,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 55,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 56,
+   "verdict": "REWRITE",
+   "issues": [
+    "[deixis] The Back Extra says 'through this canal'. I named the meatus."
+   ],
+   "fixed_back": "Why: the inner ear is housed entirely inside the temporal bone, so the nerves for hearing and balance (with the facial nerve) enter the bone through the internal acoustic meatus."
+  },
+  {
+   "idx": 57,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 58,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 59,
+   "verdict": "PASS",
+   "issues": [
+    "[note] Five uncued items, allowed because the top-to-bottom anatomical order regenerates them (rule 23's structure handle)."
+   ]
+  },
+  {
+   "idx": 60,
+   "verdict": "REWRITE",
+   "issues": [
+    "[contract] There is no Why line (Mnemonic + Cue only).",
+    "[interference] The Cue used a giraffe as the example of seven neck vertebrae, but in this deck 'giraffe' is the lab's cue for a THORACIC vertebra (#78, #80). I swapped in a mouse and a whale and promoted the fact to the Why."
+   ],
+   "fixed_back": "Why: seven neck vertebrae is a count shared by almost every mammal, from a mouse to a whale, so a long neck comes from longer vertebrae, not more of them.<br><br>Mnemonic: eat cereal for breakfast at 7 am, so 7 cervical."
+  },
+  {
+   "idx": 61,
+   "verdict": "REWRITE",
+   "issues": [
+    "[contract] The Why is not first (Mnemonic leads). I reordered it."
+   ],
+   "fixed_back": "Why: one thoracic vertebra for each of the 12 pairs of ribs.<br><br>Mnemonic: a turkey sandwich for lunch at 12 noon, so 12 thoracic."
+  },
+  {
+   "idx": 62,
+   "verdict": "REWRITE",
+   "issues": [
+    "[contract] The Why is not first (Mnemonic leads). I reordered it."
+   ],
+   "fixed_back": "Why: five massive vertebrae carry the whole upper body's weight down to the pelvis.<br><br>Mnemonic: lobster for dinner at 5 pm, so 5 lumbar."
+  },
+  {
+   "idx": 63,
+   "verdict": "REWRITE",
+   "issues": [
+    "[accuracy] 'Viewed from behind' is wrong. The four normal curves are front-to-back, so they only show in a side view; from directly behind, a healthy spine looks straight. #87's own Why says exactly that ('all the normal spinal curves are front-to-back... any bend seen from behind is abnormal'), so the two cards contradict each other. Slide 14 labels the curves on the back side of a side-view figure, so the correct frame is 'judged from the posterior (back) surface'.",
+    "[leak] The stem says the curves 'alternate', so once the first row is recalled the other three come free, and a non-knower has a 50% chance of passing the whole card. I moved the alternation to the Why.",
+    "[layout] I re-laid the card as four keyed rows separated by <br><br> (rule 19). The 'Classify' lead-in marks it as a classify card (the checker's rule-22 exemption), and the option words live only in the hints."
+   ],
+   "fixed_text": "Classify each normal curve of the spine, judged from its posterior (back) surface:<br><br>cervical → {{c1::concave::concave or convex}}<br><br>thoracic → {{c1::convex::concave or convex}}<br><br>lumbar → {{c1::concave::concave or convex}}<br><br>sacral → {{c1::convex::concave or convex}}",
+   "fixed_back": "Why: the four curves bend in alternating directions, which turns the spine into a spring that absorbs shock and keeps the head balanced over the hips.<br><br>Pitfall: from the front (anterior) surface every word flips, and from directly behind a healthy spine looks straight, because the normal curves only show in a side view."
+  },
+  {
+   "idx": 64,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 65,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 66,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 67,
+   "verdict": "REWRITE",
+   "issues": [
+    "[deixis] The Back Extra says 'these paired processes'. I named them."
+   ],
+   "fixed_back": "Why: the smooth facets on the paired superior and inferior articular processes glide against their neighbors, letting the spine bend and twist while staying stacked."
+  },
+  {
+   "idx": 68,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 69,
+   "verdict": "REWRITE",
+   "issues": [
+    "[back, accuracy, minor] In the myth, Atlas holds up the heavens (the sky), not the world. (Confirmed independently against the manual/plate; it also appears in the parallel review_facts.json.)"
+   ],
+   "fixed_back": "Why: C1 is named for Atlas, the Titan who held up the heavens; C1 holds up the skull, which rocks on it for the 'yes' nod."
+  },
+  {
+   "idx": 70,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 71,
+   "verdict": "REWRITE",
+   "issues": [
+    "[leak, check 15] 'Tooth-shaped' is the literal meaning of dens (Latin for 'tooth'), so the stem gives the answer away. The card's own 'Meaning: dens means tooth' line only adds something once the stem stops saying it."
+   ],
+   "fixed_text": "The peg of bone that projects upward from the body of C2 is the {{c1::dens}}."
+  },
+  {
+   "idx": 72,
+   "verdict": "REWRITE",
+   "issues": [
+    "[cross-card, check 16] The visible parenthetical '(the dens)' prints #71's whole answer on every review of #72. I dropped it; the 'upward peg' cue is enough. This overrules the earlier 'benign' call, but for a different reason: the two blanks' cues are fine (the checker's husk warning stays benign), the parenthetical is not."
+   ],
+   "fixed_text": "Of the first two vertebrae, the ring with no body and no spinous process is {{c1::C1 (atlas)::which vertebra}}, and the one with an upward peg is {{c1::C2 (axis)::which vertebra}}."
+  },
+  {
+   "idx": 73,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 74,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 75,
+   "verdict": "REWRITE",
+   "issues": [
+    "[back, accuracy] 'Each rib's head and tubercle make joints on a thoracic vertebra's body and transverse process': a typical rib's head joins the bodies of TWO vertebrae (the superior and inferior demifacets, which slide 16's figure labels). (Confirmed independently against the manual/plate; it also appears in the parallel review_facts.json.)"
+   ],
+   "fixed_back": "Why: 'costa' means rib. A typical rib's head joins the bodies of two vertebrae and its tubercle joins a transverse process; each contact point is a costal facet."
+  },
+  {
+   "idx": 76,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 77,
+   "verdict": "REWRITE",
+   "issues": [
+    "[contract] There is no Why line (Meaning + Cue only).",
+    "[coverage] Slide 15's note 'Elephant shape' (the lab's animal for a cervical vertebra, alongside giraffe = thoracic and moose = lumbar) was on no card. I added it to the Cue.",
+    "[image cross-card] IMAGE FIX: the back image s15_cervical_superior.png is the same file used as #84's FRONT question image, so reviewing #77 lets him answer #84 by recognizing the photo. Swap #77's image to s15_cervical_labeled.png (the slide 15 drawing labeled bifid spinous process + transverse foramen, which also fits this card better)."
+   ],
+   "fixed_back": "Why: the neck carries only the head, so the bodies are small, but the spinal cord is widest in the neck, so the vertebral foramen is large.<br><br>Meaning: bifid means split in two at the tip.<br><br>Cue: the lab's animal for a cervical vertebra is an elephant (thoracic = giraffe, lumbar = moose), and from above it looks like a face smiling at you.",
+   "fixed_image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w05/figures/s15_cervical_labeled.png"
+  },
+  {
+   "idx": 78,
+   "verdict": "REWRITE",
+   "issues": [
+    "[coin-flip clarity] 'points steeply {{downward::direction}}': the slide separates thoracic from lumbar by 'vertically angled' vs 'more horizontal'. I changed it to a forced choice that mirrors #79.",
+    "[accuracy] The Why claimed the overlapping spinous processes 'protect the chest'. They limit backward bending and shield the spinal cord from behind; the ribs protect the chest.",
+    "[accuracy] The Cue made the spinous process the giraffe's NECK. In the manual's giraffe plate (this card's image) the down-slanting spinous process is the giraffe's long FACE, and the neck comes in at the vertebral body. I checked the plate. (Confirmed independently against the manual/plate; it also appears in the parallel review_facts.json.)",
+    "[contract] The Why was second; it is now first."
+   ],
+   "fixed_text": "A thoracic vertebra is identified by a {{c1::medium-sized::small, medium, or large}} body, {{c1::costal facets}} where the ribs articulate, and a long spinous process that is {{c1::vertically::vertically or horizontally}} angled.",
+   "fixed_back": "Why: the long spinous processes slope down and overlap like shingles, which limits backward bending and shields the spinal cord from behind.<br><br>Cue: from the side it looks like a giraffe's head: the long, down-slanting spinous process is the giraffe's long face."
+  },
+  {
+   "idx": 79,
+   "verdict": "REWRITE",
+   "issues": [
+    "[coin-flip clarity] 'more {{horizontally::direction}}': I made the forced choice explicit, mirroring #78.",
+    "[consistency] The lab uses 'triangular vertebral foramen' to identify a LUMBAR vertebra, while #82 and #84 taught a 'big triangular foramen' as a CERVICAL feature. I added a Pitfall that separates them: a cervical foramen is large next to a small body and has transverse foramina beside it; a lumbar foramen is small next to a massive body (manual Fig 7-13).",
+    "[contract] The Why was second; it is now first."
+   ],
+   "fixed_text": "A lumbar vertebra is identified by a {{c1::large::small, medium, or large}} body, a {{c1::triangular::shape}} vertebral foramen, and a spinous process that is more {{c1::horizontally::vertically or horizontally}} angled.",
+   "fixed_back": "Why: the huge bodies carry more weight than any other vertebrae.<br><br>Cue: from the side it looks like a moose's head: a massive body with a short, square spinous process jutting straight back.<br><br>Pitfall: a cervical vertebral foramen is roughly triangular too, but it is large next to a small body and flanked by transverse foramina; the lumbar foramen is small next to a massive body."
+  },
+  {
+   "idx": 80,
+   "verdict": "REWRITE",
+   "issues": [
+    "[back, accuracy] 'slants steeply down like a giraffe's neck': in the manual's giraffe plate the spinous process is the giraffe's long face (same mapping error as #78's Cue). (Confirmed independently against the manual/plate; it also appears in the parallel review_facts.json.)",
+    "[needs decision, image cross-card] The front photo is pixel-identical to the thoracic specimen in the giraffe/moose plate on #78/#79's back, so after #78 he can answer by recognizing the photo. The asset set has no fresh unlabeled thoracic side photo (m7_12 is labeled 'head of rib'). Either accept it (the practical's PowerPoint may reuse these exact lab images, and the giraffe outline is the lab's intended trick) or give #78/#79 s16_thoracic.png / s17_lumbar_superior.jpg as their images."
+   ],
+   "fixed_back": "Why: the long spinous process slants steeply down like a giraffe's long face, and the body is medium-sized with small smooth costal facets for the ribs."
+  },
+  {
+   "idx": 81,
+   "verdict": "PASS",
+   "issues": [
+    "[needs decision, image cross-card] The front photo is pixel-identical to the lumbar specimen in the giraffe/moose plate on #78/#79's back. Same trade-off as #80."
+   ]
+  },
+  {
+   "idx": 82,
+   "verdict": "DROP",
+   "issues": [
+    "[leak, R11 in image form] The front image has a large letter 'C' printed on the specimen, and the stem calls it 'Vertebra C'. That is an accidental first-letter cue for 'cervical'. The parallel image review (review_facts.json) flags the same card as FRONT_LEAK.",
+    "[cross-card, check 16] The same photo, rotated 180 degrees, sits beside the words 'Cervical Vertebrae' in the m7_13 plate on #76's back. I checked it visually.",
+    "#84 already tests cervical identification from above with a fresh, unlettered photo (once #77's back image is swapped). If you would rather keep it: paint out the C, drop 'Vertebra C' from the stem, AND swap #76's back image to s14_spine_regions.jpg."
+   ]
+  },
+  {
+   "idx": 83,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 84,
+   "verdict": "REWRITE",
+   "issues": [
+    "[consistency] The Why taught 'a large triangular foramen' as evidence for cervical, which clashes with the lab's lumbar identifier ('triangular vertebral foramen', #79). I reworded it to use the lab's own cervical identifiers. (This card's front photo is also #77's back image; fixed by swapping #77's image.)"
+   ],
+   "fixed_back": "Why: a hole in each transverse process (transverse foramen) is found only in cervical vertebrae, and the small body, large vertebral foramen, and forked (bifid) spinous process confirm it."
+  },
+  {
+   "idx": 85,
+   "verdict": "PASS",
+   "issues": [
+    "[verified] Counted on the image: pin 15 is the vertebra the 12th (last) rib meets, so T12."
+   ]
+  },
+  {
+   "idx": 86,
+   "verdict": "PASS",
+   "issues": [
+    "[verified] Counted on the image: pin 16 is the third vertebra below the last rib-bearing one, so L3."
+   ]
+  },
+  {
+   "idx": 87,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 88,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 89,
+   "verdict": "REWRITE",
+   "issues": [
+    "[coverage] Slide 19's note 'Lordosis = common in pregnant women' was only in the Why. I added it as c3. It is a situation, not a synonym, so it does not leak on the c1 card. I rewrote the Why to explain the link instead of repeating it."
+   ],
+   "fixed_text": "{{c1::Lordosis}} is an exaggerated {{c2::lumbar::region}} curvature of the spine, common in {{c3::pregnant women::which group}}.",
+   "fixed_back": "Why: a growing belly pulls the lumbar spine forward, so the lower back sways inward even more than its normal curve."
+  },
+  {
+   "idx": 90,
+   "verdict": "REWRITE",
+   "issues": [
+    "[contract] The Why is not first (Mnemonic leads). I reordered it."
+   ],
+   "fixed_back": "Why: five vertebrae fused into one solid wedge make a strong base that passes the upper body's weight to the hip bones.<br><br>Mnemonic: sweets for dessert with dinner at 5, so 5 fused sacral vertebrae."
+  },
+  {
+   "idx": 91,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 92,
+   "verdict": "REWRITE",
+   "issues": [
+    "[back, accuracy / internal consistency] 'when the five sacral vertebrae fused, their spinous processes merged' contradicts #93's Why (the hiatus is where the lowest sacral laminae never fused). Only the upper sacral segments contribute spinous tubercles. (Confirmed independently against the manual/plate; it also appears in the parallel review_facts.json.)"
+   ],
+   "fixed_back": "Why: the spinous processes of the upper sacral vertebrae merged into one bumpy ridge down the middle of the sacrum's back; the lowest segments never formed them, which leaves the gap of the sacral hiatus."
+  },
+  {
+   "idx": 93,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 94,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 95,
+   "verdict": "DROP",
+   "issues": [
+    "[dedupe, card-rules #12] The answer ('three') is printed in #96's stem ('the three parts of the sternum'), and #96 shows three blanks on every review. The count is part of #96's fact. 'Fused' and #95's Why are folded into #96 (see #96's fix)."
+   ]
+  },
+  {
+   "idx": 96,
+   "verdict": "REWRITE",
+   "issues": [
+    "[dedupe] This absorbs #95 (DROP): the lead-in now says 'three fused bones' and carries #95's Why, so the stem no longer prints the answer to a separate card.",
+    "[contract] There is no Why line (Cue only). I added one, worded so it does not claim the manubrium-body joint always fuses (it often stays a cartilage joint in adults)."
+   ],
+   "fixed_text": "The sternum is three fused bones, which from top to bottom are:<br><br>{{c1::manubrium}}<br><br>{{c1::body}}<br><br>{{c1::xiphoid process}}",
+   "fixed_back": "Why: the sternum ossifies from separate pieces that knit together over the years, and the xiphoid process is the last part to ossify.<br><br>Cue: the sternum looks like a sword: manubrium = the handle, body = the blade, xiphoid ('sword-shaped') = the tip."
+  },
+  {
+   "idx": 97,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 98,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 99,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 100,
+   "verdict": "REWRITE",
+   "issues": [
+    "[one-answer / crisp, checks 1 & 6] c2 hid the four-word phrase 'its own costal cartilage' under the vague hint 'how'. Slide 20 says ALL ribs attach through costal cartilages, so a knower writes 'costal cartilage' and misses the word that matters ('own', meaning direct). The blank is now just that key word, with a forced choice.",
+    "[back] The Why repeated the c2 answer. I rewrote it to explain what 'true' means."
+   ],
+   "fixed_text": "The true ribs are ribs {{c1::1–7::rib numbers}}, and each reaches the sternum through {{c2::its own::its own or a shared}} costal cartilage.",
+   "fixed_back": "Why: 'true' means the rib reaches the sternum on its own; the lower ribs either borrow a neighbor's cartilage or never arrive."
+  },
+  {
+   "idx": 101,
+   "verdict": "REWRITE",
+   "issues": [
+    "[back, source word] 'The lab slides count...' uses a banned source word. I reworded it to name the course."
+   ],
+   "fixed_back": "Why: a false rib has no costal cartilage of its own running to the sternum; ribs 11–12 never reach the sternum at all.<br><br>Distinguish: BIOL 313 and the lab manual split them three ways (false = 8–10 only); the BIOL 214 lab counts the floating ribs among the false ribs."
+  },
+  {
+   "idx": 102,
+   "verdict": "REWRITE",
+   "issues": [
+    "[tautology, check 2] c2 asked what 'floating' ribs do at the front, and the answer 'never attach to the sternum' is just the meaning of 'floating', so the term gives it away. I removed c2 and kept the fact as the visible cue for the rib numbers."
+   ],
+   "fixed_text": "The floating ribs are ribs {{c1::11–12::rib numbers}}, the only ribs with no connection at all to the sternum."
+  },
+  {
+   "idx": 103,
+   "verdict": "PASS",
+   "issues": [
+    "[note] Can be worked out from #100's range (1–7 x 2). Fine: slide 8's notes name these three counts as the ones to memorize."
+   ]
+  },
+  {
+   "idx": 104,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 105,
+   "verdict": "PASS",
+   "issues": []
+  },
+  {
+   "idx": 106,
+   "verdict": "PASS",
+   "issues": []
+  }
+ ],
+ "coverage_gaps": [
+  "slide 7: Fibrocartilage 'Found in intervertebral discs and meniscus' — no card tests it (it is only in #34's Why). The proposed #34 rewrite (c3) fixes this.",
+  "slide 7: Elastic cartilage 'Found in ear and epiglottis' — no card tests it (it is only in the Why lines of #31/#32). The proposed #32 rewrite (c2) fixes this.",
+  "slide 11 notes: the six PAIRED facial bones (nasal, lacrimal, zygomatic, inferior nasal conchae, maxillae, palatine) — no card tests them, and no card asks for the facial-bone list at all (the cranial list has PEST-OF, #36). Suggest two notes of three with a Roster: line, e.g. the bones around the nasal cavity (nasal, lacrimal, inferior nasal conchae) and those of the cheek, upper jaw and palate (zygomatic, maxillae, palatine), with the group names printed, not clozed (rule 23.1).",
+  "slide 15: 'Vertical angle' (sub-bullet under the cervical 'Bifid spinous process') — no card tests it, and #77's list of cervical identifiers leaves it out (check 17). It is ambiguous: slide 16 uses 'Vertically angled spinous process' to identify a THORACIC vertebra. Ask Parker what the lab means before carding it; at minimum add a Pitfall on #77.",
+  "slide 15 notes: 'Elephant shape' (the lab's animal for a cervical vertebra) — no card tests it or mentions it on the back. Added to #77's Cue in the proposed rewrite.",
+  "slide 15 notes: 'You can palpate C7 at base of posterior neck' (also blue page Q15, why C7 is the prominens) — only in #73's Why. Suggest a separate note, e.g. 'The spinous process you feel as the bump at the base of the back of the neck belongs to {{c1::C7::which vertebra}}.' Do NOT add it to #73 as c3, because 'a prominent bump' would leak 'prominens' on #73's c2 card.",
+  "slide 19 notes: 'Lordosis = common in pregnant women' — only in #89's Why. The proposed #89 rewrite (c3) fixes this.",
+  "slide 19 notes: 'Kyphosis = hunchback' — only in #88's Why. Low priority: a cloze would leak, because 'hunchback' is a lay synonym of the c1 answer, so leaving it on the back is right.",
+  "slide 6 notes: 'Epiphyseal plate is often referred to as the growth plate' — only on #27's back. Low priority: a cloze on the same note would print a synonym next to its own answer.",
+  "slide 12: foramen lacerum is red-boxed, but unlike every other red-boxed foramen it has no host-bone card (#53–#58). Identification is covered by IO, and the foramen lacerum is shared by the sphenoid, temporal and occipital bones, which may be why it was skipped. Listed for completeness.",
+  "slide 2: 'Short — In terms of shaft length' and 'Sesamoid — Like a seed' are only explained in the Why lines of #8/#10, never tested. Low priority.",
+  "slide 4 notes: canaliculi connect lacunae to the central canal 'to receive nutrients' — the purpose is only in #26's Why. Low priority."
+ ],
+ "notes": [
+  "SYSTEMIC (new failure class, check 16 in image form): front question images reappear on sibling cards' backs, where the answer sits right next to them. #84's front is the same file as #77's back. #82's front is the 'Cervical Vertebrae' photo in m7_13 on #76's back (rotated 180 degrees). #80/#81's fronts are the two specimen photos inside the giraffe/moose plate on #78/#79's back. I checked the matches visually. The parallel image review only caught #82 (as FRONT_LEAK, the letter). Suggested gate: an image_side='front' image must not appear on any other card in the batch, by file or by perceptual-hash match at any rotation.",
+  "The 'every Back Extra leads with Why:' premise did not hold. Seven cards had no Why at all (#12, #19, #30, #52, #60, #77, #96) and six led with another label (#6, #61, #62, #78, #79, #90). All 13 have a fixed_back.",
+  "Why-line accuracy: after my own pass I cross-checked the parallel fact review (review_facts.json, card_facts). I verified each point myself against manual Ch 6-7 text, the plates, or standard anatomy, and folded the confirmed ones into this report's fixed_back so that applying my rewrites cannot bring the errors back: #0, #12, #13, #15, #31, #33, #40, #53, #69, #75, #78 (Why and Cue), #80, #92, #96 (manubriosternal nuance), #26 ('hair-thin'). Those issues carry the tag 'Confirmed independently ... review_facts.json'. MERGE NOTE: where both reports give a replacement for the same card, apply this report's fixed_back (it already includes the fact fix); its IO findings (io_facts) are untouched by this report.",
+  "#63 and #87 contradicted each other on how the normal curves are seen (#63: 'viewed from behind'; #87: the normal curves are front-to-back, so anything seen from behind is abnormal). Fixed in #63.",
+  "'Triangular vertebral foramen' was taught both as the lab's lumbar identifier (#79) and as cervical evidence (#82, #84). Reconciled in #79/#84.",
+  "Schema: #77 carries one extra key, 'fixed_image' (the image swap). Every other REWRITE changes only fixed_text and/or fixed_back.",
+  "Effect of the verdicts: 107 -> 105 notes (DROP #82, #95). Card-level changes: #31 -1 (c2 merged into c1), #102 -1 (c2 removed), #32 +1 (new c2), #34 +1 (new c3), #89 +1 (new c3), #82 -1, #95 -1, a net of -1 card.",
+  "Checker run on a patched scratch copy (scripts/check_cards.py, stamp written to the scratch copy only, not the work folder): 0 HARD. The remaining warnings are the pre-existing, judged-benign #46 (answers are the process names) and #72 (two cued blanks under c1). The first draft's new warnings on #2 and #63 were removed by moving the option words out of the lead-ins.",
+  "Blue pages (inside the authorization scope but not slides): Q13 (function of the transverse foramina: vertebral arteries), Q14 (functions of the spinal curves) and Q15 (why C7 is the prominens) are answered only in the Why lines of #74, #63 and #73 and are never tested. Q8 (list the four normal curves) only appears as row keys in #63.",
+  "Elephant: the slides (slide 15 notes) use the elephant for a cervical vertebra; the lab manual (p.160) uses it for the sacrum and coccyx. #77's Cue follows the slides. Worth one sentence to Parker.",
+  "Scope: #40, #41, #47, #51, #94 and #99's 'hyaline' come from lab-manual text rather than slides. All fit the authorization's lab-manual / blue-page / 'all the parts of every bone' wording, so I did not flag them. Slide 8's auditory ossicles (6) are correctly left uncarded; slide 8's notes say the rib counts are the only numbers to memorize from that image.",
+  "Pitfall/Distinguish lines that name a real conflicting source ('the lab manual', 'the textbook', 'BIOL 313') were left in: they point to a source he will actually run into, not to a medium he has to look at. I only removed the banned word 'slides' (#0, #101).",
+  "Checked and left alone: false ribs 8–12, coccyx 3–5 and 206 bones (deliberate, and the cards say so); pin 15 = T12 and pin 16 = L3 (derivable by counting on pp3_front_trunk.png); the Popcorn A/B/C region answers; the #74 Pitfall (vertebral, not carotid, arteries) and the #50 Pitfall (styloid is on the temporal bone) correctly flag errors in the manual.",
+  "Housekeeping: a parallel agent's script shares the name scratchpad/make_review.py (it writes review_facts.json). My generator lives in scratchpad/craft_editor_w05/ to avoid clobbering it. Neither report overwrote the other."
+ ]
+}

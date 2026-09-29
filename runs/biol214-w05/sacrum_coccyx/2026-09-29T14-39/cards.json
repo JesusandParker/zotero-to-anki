@@ -1,0 +1,122 @@
+[
+ {
+  "Text": "The sacrum is {{c1::5::number of vertebrae}} fused vertebrae.",
+  "Back Extra": "Why: five vertebrae fused into one solid wedge make a strong base that passes the upper body's weight to the hip bones.<br><br>Mnemonic: sweets for dessert with dinner at 5, so 5 fused sacral vertebrae.",
+  "source": "biol214-w05",
+  "segment": null,
+  "block": "sacrum_coccyx",
+  "deck": "Sacrum & Coccyx",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-29",
+   "asked": "(no question asked — his own request in chat, 2026-09-29, the whole W05 Axial Skeleton lab PowerPoint with nothing highlighted)",
+   "quote": "turn my human anatomy lab PowerPoint over the axial skeleton into a fully functioning, perfectly well-made ANKI deck ... take each individual fact off of that PowerPoint turn that into its own individual flashcard and then attach an explanation and a picture ... let's just take all of the bones and memorize all of the parts",
+   "scope": "every fact on the W05 Axial Skeleton slides and their speaker notes; the parts of every axial bone (lab manual Ch 6-7 figures and blue-page review questions, the Popcorn Points answer key)"
+  },
+  "verified_against": "slide 18 ('Sacrum is 5 fused vertebrae'; S1-5) + slide 14 notes mnemonic",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w05/figures/s18_sacrum_coccyx.jpg",
+  "image_side": "back",
+  "draft_idx": 90,
+  "back_img": null
+ },
+ {
+  "Text": "The coccyx is {{c1::3–5::number of vertebrae}} fused vertebrae.",
+  "Back Extra": "Why: the coccyx is the remnant of a tail, and the number of segments varies from person to person.<br><br>Pitfall: the textbook says 4–5, but the lab wants 3–5.",
+  "source": "biol214-w05",
+  "segment": null,
+  "block": "sacrum_coccyx",
+  "deck": "Sacrum & Coccyx",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-29",
+   "asked": "(no question asked — his own request in chat, 2026-09-29, the whole W05 Axial Skeleton lab PowerPoint with nothing highlighted)",
+   "quote": "turn my human anatomy lab PowerPoint over the axial skeleton into a fully functioning, perfectly well-made ANKI deck ... take each individual fact off of that PowerPoint turn that into its own individual flashcard and then attach an explanation and a picture ... let's just take all of the bones and memorize all of the parts",
+   "scope": "every fact on the W05 Axial Skeleton slides and their speaker notes; the parts of every axial bone (lab manual Ch 6-7 figures and blue-page review questions, the Popcorn Points answer key)"
+  },
+  "verified_against": "slide 18 ('Coccyx is 3-5 fused vertebrae') + notes ('The textbook says 4-5 ... We want you to remember 3-5')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w05/figures/s18_sacrum_coccyx.jpg",
+  "image_side": "back",
+  "draft_idx": 91,
+  "back_img": null
+ },
+ {
+  "Text": "The median sacral crest is formed by the fused {{c1::spinous processes::which part of a vertebra}} of the sacral vertebrae.",
+  "Back Extra": "Why: the spinous processes of the upper sacral vertebrae merged into one bumpy ridge down the middle of the sacrum's back; the lowest segments never formed them, which leaves the gap of the sacral hiatus.",
+  "source": "biol214-w05",
+  "segment": null,
+  "block": "sacrum_coccyx",
+  "deck": "Sacrum & Coccyx",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-29",
+   "asked": "(no question asked — his own request in chat, 2026-09-29, the whole W05 Axial Skeleton lab PowerPoint with nothing highlighted)",
+   "quote": "turn my human anatomy lab PowerPoint over the axial skeleton into a fully functioning, perfectly well-made ANKI deck ... take each individual fact off of that PowerPoint turn that into its own individual flashcard and then attach an explanation and a picture ... let's just take all of the bones and memorize all of the parts",
+   "scope": "every fact on the W05 Axial Skeleton slides and their speaker notes; the parts of every axial bone (lab manual Ch 6-7 figures and blue-page review questions, the Popcorn Points answer key)"
+  },
+  "verified_against": "slide 18 (Median sacral crest, red-boxed); lab manual Fig 7-15 ('median sacral crest (fused spinous processes)')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w05/figures/m7_15_sacrum_photos.jpg",
+  "image_side": "back",
+  "draft_idx": 92,
+  "back_img": null
+ },
+ {
+  "Text": "The sacral canal is the lower end of the {{c1::vertebral canal}}, and it opens at the bottom as the {{c2::sacral hiatus}}.",
+  "Back Extra": "Why: the canal carries the last nerve roots of the spinal cord through the sacrum; the hiatus is the gap where the lowest sacral laminae never fused.",
+  "source": "biol214-w05",
+  "segment": null,
+  "block": "sacrum_coccyx",
+  "deck": "Sacrum & Coccyx",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-29",
+   "asked": "(no question asked — his own request in chat, 2026-09-29, the whole W05 Axial Skeleton lab PowerPoint with nothing highlighted)",
+   "quote": "turn my human anatomy lab PowerPoint over the axial skeleton into a fully functioning, perfectly well-made ANKI deck ... take each individual fact off of that PowerPoint turn that into its own individual flashcard and then attach an explanation and a picture ... let's just take all of the bones and memorize all of the parts",
+   "scope": "every fact on the W05 Axial Skeleton slides and their speaker notes; the parts of every axial bone (lab manual Ch 6-7 figures and blue-page review questions, the Popcorn Points answer key)"
+  },
+  "verified_against": "slide 18 (Sacral canal, Sacral hiatus, red-boxed); lab manual p.159",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w05/figures/m7_15_sacrum_photos.jpg",
+  "image_side": "back",
+  "draft_idx": 93,
+  "back_img": null
+ },
+ {
+  "Text": "The sacrum joins {{c1::L5::vertebra}} above, the {{c2::coccyx}} below, and the {{c3::hip bones (os coxae)::bones}} on each side.",
+  "Back Extra": "Why: the sacrum is the keystone of the pelvis; the spine's weight comes down through it and passes out sideways to the hip bones at the sacroiliac joints.",
+  "source": "biol214-w05",
+  "segment": null,
+  "block": "sacrum_coccyx",
+  "deck": "Sacrum & Coccyx",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-29",
+   "asked": "(no question asked — his own request in chat, 2026-09-29, the whole W05 Axial Skeleton lab PowerPoint with nothing highlighted)",
+   "quote": "turn my human anatomy lab PowerPoint over the axial skeleton into a fully functioning, perfectly well-made ANKI deck ... take each individual fact off of that PowerPoint turn that into its own individual flashcard and then attach an explanation and a picture ... let's just take all of the bones and memorize all of the parts",
+   "scope": "every fact on the W05 Axial Skeleton slides and their speaker notes; the parts of every axial bone (lab manual Ch 6-7 figures and blue-page review questions, the Popcorn Points answer key)"
+  },
+  "verified_against": "lab manual p.159 ('It articulates with L5 superiorly, the coccyx inferiorly and the ox coxae anterolaterally')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w05/figures/s18_sacrum_coccyx.jpg",
+  "image_side": "back",
+  "draft_idx": 94,
+  "back_img": null
+ }
+]

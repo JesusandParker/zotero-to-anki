@@ -1222,3 +1222,14 @@ The audit computed `orphans = files_with_prefix − refs_in_deck`. That is corre
 - **MUST CATCH:** a prefixed file that no note anywhere references (a genuinely missed attachment) → still ORPHANED.
 - **MUST NOT OVER-FLAG:** a file referenced only by a note in a sibling segment's deck → clean, whatever `--deck` is.
 - **Catch test:** after the fix, ch11's subdeck audit and the genetics root audit both print *all clear* (89 notes / 19 refs in-deck / 73 collection-wide / 73 files); the Arabic audit is unchanged.
+
+## R74 — the picture that WAS a question reappeared on another card's back (2026-09-29)
+**Rule:** card-rules #34's companion — a front image is the whole question, so it may appear on no other card except as another front. **Caught by:** `check_cards.front_image_reuse_check` (HARD): the same file as another card's `image` with `image_side` back, or inline as an `<img>` in any Back Extra (prefix-renamed media names included). Found by the independent editor on the BIOL 214 W05 axial-skeleton build, not by any gate.
+
+Region-ID cards put an unlabeled vertebra photo on the front ("which region is this from?"). The same photo was the back image of the cervical-FEATURES card, so every review of the features card taught the photo right next to the word "cervical", and the ID card was then answered by recognising the picture, not by reading the anatomy. Two more instances were the same photos embedded inside the manual's giraffe/moose plate on the thoracic/lumbar feature cards.
+
+- **BAD:** card A front = `s15_cervical_superior.png`; card B (features) back = the same file.
+- **GOOD:** card B gets a different plate (`s15_cervical_labeled.png`); the giraffe row of the plate goes on the thoracic ID card's OWN back, where it can teach the cue after the answer.
+- **MUST CATCH:** the same file as another card's back image, or inline in any Back Extra (`biol214-w05_<file>` after the writer's prefix).
+- **MUST NOT OVER-FLAG:** two FRONT cards sharing one picture to ask different pins (pp3 trunk: pin 15 = T12, pin 16 = L3) — the answer is never printed on the image.
+- **Not mechanizable (judge-look):** the photo embedded INSIDE a larger plate (the giraffe/moose plate held both region-ID photos). Whole-file comparison cannot see a sub-image; the figure judge has to look.

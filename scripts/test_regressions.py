@@ -71,7 +71,57 @@ def _auth_card(text, **over):
     return c
 
 
+R74_FIX = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                       "reference", "fixtures")
+R74_FRONT = os.path.join(R74_FIX, "r74_front_photo.png")
+R74_PLATE = os.path.join(R74_FIX, "r74_plate.png")
+
 CASES = [
+    # --- R74: a front (question) picture must not reappear on another card's back ---
+    {
+        "id": "r74_bad_front_photo_is_another_cards_back",
+        "warn": "QUESTION picture", "present": True, "scope": "hard",
+        "cards": [
+            {"Text": "A vertebra seen from above: which region is it from? {{c1::cervical::region}}",
+             "Back Extra": "Why: transverse foramina.", "chapter": 1,
+             "image": R74_FRONT, "image_side": "front"},
+            {"Text": "A cervical vertebra has {{c1::transverse foramina::openings}}.",
+             "Back Extra": "Why: they carry the vertebral arteries.", "chapter": 1,
+             "image": R74_FRONT, "image_side": "back"},
+        ],
+        "note": "BIOL 214 W05 (2026-09-29): the cervical photo asked on the ID card was the back "
+                "plate of the features card, so reviewing one taught the other's answer",
+    },
+    {
+        "id": "r74_bad_front_photo_inline_in_back_extra",
+        "warn": "QUESTION picture", "present": True, "scope": "hard",
+        "cards": [
+            {"Text": "Vertebra A seen from the side: which region? {{c1::thoracic::region}}",
+             "Back Extra": "Why: giraffe face.", "chapter": 1,
+             "image": R74_FRONT, "image_side": "front"},
+            {"Text": "A thoracic vertebra has {{c1::costal facets::joint surfaces}}.",
+             "Back Extra": 'Why: ribs.<br><br><img src="biol214-w05_r74_front_photo.png">',
+             "chapter": 1, "image": R74_PLATE, "image_side": "back"},
+        ],
+        "note": "the same leak through an inline <img> the writer's prefix renamed",
+    },
+    {
+        "id": "r74_good_two_pins_share_a_front_image",
+        "warn": "QUESTION picture", "present": False,
+        "cards": [
+            {"Text": "Skeleton from the front: the vertebra at pin 15? {{c1::T12::region + number}}",
+             "Back Extra": "Why: last rib-bearing vertebra.", "chapter": 1,
+             "image": R74_FRONT, "image_side": "front"},
+            {"Text": "Skeleton from the front: the vertebra at pin 16? {{c1::L3::region + number}}",
+             "Back Extra": "Why: count down from T12.", "chapter": 1,
+             "image": R74_FRONT, "image_side": "front"},
+            {"Text": "The sternum's top part is the {{c1::manubrium}}.",
+             "Back Extra": "Why: handle of the sword.", "chapter": 1,
+             "image": R74_PLATE, "image_side": "back"},
+        ],
+        "note": "must NOT over-flag: two front cards asking different pins on one picture — "
+                "the answer is never printed on the image",
+    },
     # --- R70: a front image ABOVE the stem hides the question below the fold ---
     {
         "id": "r70_bad_text_opens_with_image",

@@ -1,0 +1,24 @@
+{
+ "run_id": "2026-09-29T14-39",
+ "source": "biol214-w05",
+ "segment": "vertebral_column",
+ "started": "2026-09-29T14:39:50",
+ "skill_sha": "2f9300038bb14dd59842212de8cdc7af415c5637",
+ "note": "Whole-deck build of the W05 Axial Skeleton slides at Parker's request (authorized lane; no Zotero marks). Drafted from the slides + speaker notes + lab manual Ch 6-7; independent card-craft review and anatomy fact-check applied before staging.",
+ "status": "complete",
+ "finished": "2026-09-29T14:48:45",
+ "counts": {
+  "cloze_notes": 33
+ },
+ "new_hazards_found": [
+  {
+   "hazard": "a front (question) picture reappeared as another card's back image, so the ID card was answerable by recognising the photo",
+   "regression_id": "R74"
+  },
+  {
+   "hazard": "the same photo embedded INSIDE a larger plate on another card's back (giraffe/moose plate held both region-ID photos)",
+   "mechanizable": false,
+   "why": "whole-file comparison cannot detect a sub-image inside a composite plate; it stays a judge-look item (the independent editor caught it by viewing)"
+  }
+ ]
+}
