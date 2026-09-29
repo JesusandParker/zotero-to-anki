@@ -72,7 +72,7 @@
    "kind": "textbook",
    "segment_noun": "Unit",
    "deck_root": "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I",
-   "deck": "{root}::Unit {segment}::Book Highlights",
+   "deck": "{root}::Unit {segment_pad}",
    "profile": "language",
    "segments": "reference/maps/arabic.json",
    "tags": [

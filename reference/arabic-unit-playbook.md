@@ -37,7 +37,11 @@ is that the guards see what he sees, first.
 - Segment map (`reference/maps/arabic.json`) is in the new PDF's physical pages; there the
   printed→physical offset is a CONSTANT +20 (20 front-matter sides, printed 4-5 present).
   The old copy's offset drifted (+14→+17); that copy is no longer the source.
-- Deck: `all::LIBERTY::…::ARAB 101 - Elementary Arabic I::Unit {N}::Book Highlights`
+- Deck: `all::LIBERTY::…::ARAB 101 - Elementary Arabic I::Unit {NN}` — ONE flat deck per unit, zero-padded
+  (`Unit 04`), no subdecks. Flattened 2026-09-29: the old `Book Highlights` / `Khouri <date>` /
+  `Quiz Cram` subdecks are gone; where a note came from is the tag `ARAB101::from::<source>`
+  (`book`, `class-YYYY-MM-DD`, `quiz-prep-YYYY-MM-DD`). Lecture and quiz-prep cards go in the
+  unit they belong to with a `from` tag, never in a new subdeck.
   (one deck; the `claude review` staging sibling was removed 2026-08-24).
   Model `AnKing Cloze`; `Audio` field exists.
 
