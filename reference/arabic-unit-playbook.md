@@ -265,3 +265,21 @@ scripts and data: `work/arabic/catchup_2026-09-29/` (copied from `~/arabic-catch
    known transliteration (`build/arabic_read.py`, self-checked).
 7. **Existing notes** are never overwritten: her clip goes in the EMPTY `Lecture Notes` field; pipeline-owned
    Unit 2 form notes get appended lines; tags carry tiers (`ARAB101::tier::chart|class|practice|numbers|letters`).
+
+### 8a. Quiz week: REQUIRED-ONLY pivot (2026-09-30)
+
+Two days after the maximum build he asked for the opposite for the quiz: only what she REQUIRES, the rest suspended, and a
+limit that finishes by the quiz. `build/required_pivot.py` (plan) + `build/apply_required.py` (apply, rollback first).
+- **What she requires is findable in the audio.** Her lists = the Lingco "New Vocabulary" FORMAL rows (= book charts).
+  Her additions: grep the whisper EN passes for `add (it|them) to your (vocab )?list|required|you need to learn|you
+  have to learn|you should know|learn this word|optional` and read ±30 s around each hit. "Optional" hits are exclusions
+  (taab, takht, al-Hamdu li-r-Rabb, HaDratuk for speaking); Shaami/maSri are optional by her 8/25 rule.
+- **Writing** = the letters of the units in scope (her Unit n = book Unit n; Unit 1 has none: U2 ا ب ت ث و ي, U3 ج ح خ, U4 ء د ذ ر ز),
+  every position, plus the vowel marks those units teach (Lingco "Writing ..." lessons list them). Later letters PARK
+  even if already reviewed.
+- **Matching traps:** strip "…" before keying (the chart row is `يا …`); splitting a note's c1 on "/" can match an
+  abbreviated half ("… / أنتِ؟" hit the chart row anti) — list such notes explicitly.
+- **Limit** = new required cards / study days before the quiz (his Sunday is a 0% easy day). With the 8/2 FSRS params a
+  first-try Good goes 12 days out, so a push preset also caps max interval (3 d) and a cram record
+  (`~/.anki-cram-suspend-*.json`, `groups: {}`, `preset_restore` only) lets anki-autopilot put the decks back on the
+  long-term preset after the test. Parked notes carry `ARAB101::parked-<date>`; unsuspend by tag, never "all".

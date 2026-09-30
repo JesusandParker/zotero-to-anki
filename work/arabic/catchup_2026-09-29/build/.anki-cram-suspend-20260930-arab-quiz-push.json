@@ -1,0 +1,39 @@
+{
+ "created": "2026-09-30T13:43:55",
+ "purpose": "Parker 2026-09-30: ARAB 101 required-only push for the Tue 10/6 quizzes and Test 1 (~10/13). No cards to restore (the not-required notes stay parked under tag ARAB101::parked-2026-09-30 until he says otherwise); this record only moves the five ARAB decks from the push preset back to 'ARAB 101'.",
+ "keep_active": "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I",
+ "restore_after": "2026-10-14T04:00:00",
+ "preset_restore": {
+  "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I": {
+   "before": 1790070511602,
+   "during": 1790790235372,
+   "before_name": "ARAB 101",
+   "during_name": "ARAB 101 - quiz push (revert after 10/13)"
+  },
+  "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 01": {
+   "before": 1790070511602,
+   "during": 1790790235372,
+   "before_name": "ARAB 101",
+   "during_name": "ARAB 101 - quiz push (revert after 10/13)"
+  },
+  "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 02": {
+   "before": 1790070511602,
+   "during": 1790790235372,
+   "before_name": "ARAB 101",
+   "during_name": "ARAB 101 - quiz push (revert after 10/13)"
+  },
+  "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 03": {
+   "before": 1790070511602,
+   "during": 1790790235372,
+   "before_name": "ARAB 101",
+   "during_name": "ARAB 101 - quiz push (revert after 10/13)"
+  },
+  "all::LIBERTY::LIBERTY FALL 2026::ARAB 101 - Elementary Arabic I::Unit 04": {
+   "before": 1790070511602,
+   "during": 1790790235372,
+   "before_name": "ARAB 101",
+   "during_name": "ARAB 101 - quiz push (revert after 10/13)"
+  }
+ },
+ "groups": {}
+}
