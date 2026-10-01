@@ -1,0 +1,1014 @@
+[
+ {
+  "Text": "The pelvic girdle attaches the {{c1::lower limbs}} to the axial skeleton.",
+  "Back Extra": "Why: each os coxae meets the sacrum in back and holds the femur's head in the acetabulum, so body weight passes from the spine to the legs through it.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [40:27] ('This is where the lower extremities attach to the axial skeleton'); lab manual p.173",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s09_hip_lateral.png",
+  "image_side": "back",
+  "draft_idx": 109,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "Each os coxae (hip bone) forms from the fusion of three bones: the {{c1::ilium}}, {{c1::ischium}}, and {{c1::pubis}}.",
+  "Back Extra": "Why: the three are separate bones in a child and fuse around the acetabulum by adulthood, which is why all three share the hip socket.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 8 ('The os coxae is formed by the fusion of three bones: the ilium, ischium, and pubis'); lab recording 9/30 [40:27]; lab manual p.173",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s08_coxal_netter.png",
+  "image_side": "back",
+  "draft_idx": 110,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The {{c1::ilium}} is the largest of the three bones that fuse into the os coxae and forms its superior part.",
+  "Back Extra": "Why: the ilium's broad, flared wing (ala) supports the abdominal organs and anchors the large hip and abdominal muscles.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.173 ('The iliac bones are the largest of the 3 bones that form the os coxae'); lab recording 9/30 [41:17] ('the ilium is going to be the superior portion'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_07_hip_lateral.jpg",
+  "image_side": "back",
+  "draft_idx": 111,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The {{c1::ischium}} forms the posteroinferior part of the os coxae.",
+  "Back Extra": "Why: the ischium is the part you sit on, behind and below the hip socket.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.173 ('The ischial bones form the posteroinferior portion of the pelvis'); study guide p.2; lab recording 9/30 [41:17] ('The ischium is going to be posterior')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_07_hip_lateral.jpg",
+  "image_side": "back",
+  "draft_idx": 112,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The {{c1::pubis}} forms the anterior part of the os coxae.",
+  "Back Extra": "Why: the two pubic bones curve forward and meet each other at the midline in front, at the pubic symphysis.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [41:17] ('we know that the pubis is going to be anterior'); lab manual p.173",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_07_hip_lateral.jpg",
+  "image_side": "back",
+  "draft_idx": 113,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "All three bones of the os coxae contribute to the {{c1::acetabulum}}.",
+  "Back Extra": "Why: the three bones meet and fuse at the hip socket, so the cup is part ilium, part ischium, and part pubis.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.173 ('All three bones of the os coxae contribute to the formation of the acetabulum'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_07_hip_lateral.jpg",
+  "image_side": "back",
+  "draft_idx": 114,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The acetabulum always faces {{c1::laterally::direction}}.",
+  "Back Extra": "Why: the acetabulum is the socket for the head of the femur, and the thigh hangs from the outside of the pelvis.<br><br>Cue: Dr. Blais prefers 'external'; the inner face of the hip bone is smooth, with no acetabulum.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 8 ('Acetabulum is directed laterally') + notes ('Acetabulum is always facing laterally'); lab recording 9/30 [42:55] + [45:24] (Dr. Blais: 'it is lateral but it's also external')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s09_hip_lateral.png",
+  "image_side": "back",
+  "draft_idx": 115,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The acetabulum is the socket for the {{c1::head of the femur}}, forming the hip joint.",
+  "Back Extra": "Why: a deep cup around a ball makes a ball-and-socket joint that is far more stable than the shallow shoulder.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 8 notes ('articulates with the head of the femur'); lab recording 9/30 [42:55] ('That is where the femur will articulate'); lab manual p.173 ('accommodates the head of the femur and forms the hip joint')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s09_hip_lateral.png",
+  "image_side": "back",
+  "draft_idx": 116,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The two os coxae articulate directly with each other only in front, at the {{c1::pubic symphysis::joint}}.",
+  "Back Extra": "Why: a pad of fibrocartilage joins the two pubic bones at the midline, allowing only slight movement.<br><br>Cue: in back, each os coxae meets the sacrum instead of the other hip bone.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 8 notes ('Pubic Symphysis is the articulation between left and right pubic bones'); lab recording 9/30 [44:34] ('a little bit of a cartilaginous bit'); lab manual p.173 ('articulate directly with each other only in the front')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_08_hip_medial.jpg",
+  "image_side": "back",
+  "draft_idx": 117,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "Each os coxae articulates with the {{c1::sacrum}} at the ilium's {{c2::auricular surface}}.",
+  "Back Extra": "Why: auricular means 'ear-shaped'; this ear-shaped rough patch on the inner ilium forms the sacroiliac joint.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual Fig 8-8 ('auricular surface*' — '*articulating surfaces for sacrum'); study guide p.2 ('Auricular surface meets the sacrum')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_08_hip_medial.jpg",
+  "image_side": "back",
+  "draft_idx": 118,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The pelvic girdle mixes axial and appendicular bones: its posterior wall is the {{c1::sacrum and coccyx}} (axial), and its sides and front are the {{c2::two os coxae}} (appendicular).",
+  "Back Extra": "Why: the sacrum is part of the vertebral column, wedged between the two hip bones like a keystone.<br><br>Pitfall: the manual's definition differs from the lab's bone list and most textbooks, which count only the two os coxae as the pelvic girdle and call the ring they form with the sacrum and coccyx the bony pelvis.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.173 ('The posterior wall of the pelvic girdle is formed by the sacrum and coccyx of the axial skeleton; the lateral and anterior portions are formed by the coxal bones'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_08_hip_medial.jpg",
+  "image_side": "back",
+  "draft_idx": 119,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The bony 'hip bone' you feel at the front of your hips is the {{c1::anterior superior iliac spine (ASIS)}}.",
+  "Back Extra": "Why: the ASIS is the front end of the iliac crest and lies right under the skin, which also makes it the landmark for measuring the Q angle.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 8 notes ('The \"hip bone\" that you can feel is the anterior superior iliac spine'); lab recording 9/30 [42:04]; lab manual p.175; study guide p.2 ('ASIS is a visible anterior bump')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s09_hip_lateral.png",
+  "image_side": "back",
+  "draft_idx": 120,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The iliac crest ends anteriorly at the {{c1::ASIS}} and posteriorly at the {{c2::PSIS}}.",
+  "Back Extra": "Why: 'spine' marks each pointed end of the crest, and just below each superior spine sits an inferior one (AIIS, PIIS).",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.179 ('The crest terminates anteriorly with the anterior superior iliac spine ... with the posterior superior iliac spines'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s09_hip_lateral.png",
+  "image_side": "back",
+  "draft_idx": 121,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The ilium has four spines: the {{c1::anterior superior}}, {{c1::anterior inferior}}, {{c1::posterior superior}}, and {{c1::posterior inferior}} iliac spines.",
+  "Back Extra": "Why: the crest ends in a superior spine at each end, with an inferior spine just below it: two in front, two behind.<br><br>Cue: ASIS, AIIS, PSIS, PIIS.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "study guide p.2 ('Four spines: ASIS, AIIS, PSIS, PIIS'); slides 9-10 (all four boxed); lab recording 9/30 [49:31]",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s10_hip_medial.png",
+  "image_side": "back",
+  "draft_idx": 122,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The PSIS shows on the lower back as {{c1::dimples}} on either side of the sacrum.",
+  "Back Extra": "Why: the skin is anchored down to the bone over the posterior superior iliac spines, so it dimples inward there.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.175 ('the posterior superior iliac spines are seen as dimples on either side of the sacrum'); study guide p.2 ('PSIS = dimples beside the sacrum'); lab manual Fig 8-10",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_10_gluteal.jpg",
+  "image_side": "back",
+  "draft_idx": 123,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The long bony ridge where you rest your hands on your hips is the {{c1::iliac crest}}.",
+  "Back Extra": "Why: the crest is the thick upper border of the ilium, running from the ASIS in front to the PSIS behind.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.173 ('the long ridge - the iliac crest - that extends along the superior border') + p.179 ('where you commonly place your hands'); study guide p.2 ('Crest = hands-on-hips ridge'); lab recording 9/30 [44:34] (Dr. Blais)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s09_hip_lateral.png",
+  "image_side": "back",
+  "draft_idx": 124,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "A lab rule of thumb says that wherever bone feels rough, as along the iliac crest, {{c1::a muscle or tendon attaches}}.",
+  "Back Extra": "Why: tendons pull on bone where they anchor, and the bone responds by building a roughened ridge; along the iliac crest, the pull comes from all the abdominal muscles.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [45:24] (Dr. Blais: 'it's rough and bone anytime you have rough and bone that means something's going to attach and all your abdominal muscles they attach in that area')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s09_hip_lateral.png",
+  "image_side": "back",
+  "draft_idx": 125,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "The ischial spine points {{c1::posteriorly}}.",
+  "Back Extra": "Why: the ischial spine juts backward between the greater and lesser sciatic notches, on the back edge of the hip bone.<br><br>Cue: a 'spine' is a sharp, slender projection.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 8 ('ischial spine points posteriorly'); lab recording 9/30 [42:04]",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s09_hip_lateral.png",
+  "image_side": "back",
+  "draft_idx": 126,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The greater and lesser sciatic notches are on the {{c1::posterior}} edge of the hip bone.",
+  "Back Extra": "Why: the two notches cut into the back edge of the bone above and below the ischial spine, which is how Dr. Blais finds 'posterior' on a loose hip bone.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [46:13]-[47:02] (Dr. Blais: 'there's a big groove right here and there's a little one here. That's always facing posterior'); slides 9-10",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s09_hip_lateral.png",
+  "image_side": "back",
+  "draft_idx": 127,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The sciatic nerve leaves the pelvis for the lower limb through the {{c1::greater::greater or lesser}} sciatic notch.",
+  "Back Extra": "Why: the greater sciatic notch is the big gap between the ilium and the ischial spine, roomy enough for the sciatic nerve and its vessels; the lesser notch below the spine passes smaller nerves and vessels.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.175 ('The greater sciatic notch provides a route for the sciatic nerve and blood vessels to pass into the leg'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_07_hip_lateral.jpg",
+  "image_side": "back",
+  "draft_idx": 128,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The obturator foramen is the large hole in the os coxae, enclosed by the {{c1::ischium and pubis}}.",
+  "Back Extra": "Why: the ischium and pubis loop around it; in life a membrane covers most of it, leaving a small canal for a nerve and vessels.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.173 ('The ischial and pubis bones form a large opening called the obturator foramen'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_07_hip_lateral.jpg",
+  "image_side": "back",
+  "draft_idx": 129,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "A hip bone seen from its outer (lateral) side: is it a right or a left os coxae? {{c1::right::side}}",
+  "Back Extra": "Why: crest up, obturator foramen down, acetabulum facing you (lateral view). The sciatic notches mark the back and sit on the picture's left, so the front (ASIS) points to your right: that is a right hip bone seen from outside.<br><br>Cue: Dr. Blais's recipe: crest superior, obturator foramen inferior, acetabulum lateral, sciatic notches posterior.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual Fig 8-7 'The Right Hip Bones', lateral view (labels erased); lab recording 9/30 [46:13]-[47:50] (Dr. Blais's orientation recipe)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/lr_hip_lateral.jpg",
+  "image_side": "front",
+  "draft_idx": 130,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "The inner (medial) face of the hip bone has no acetabulum; above, the ilium is hollowed into the smooth, shallow {{c1::iliac fossa}}.",
+  "Back Extra": "Why: the iliac fossa is the smooth hollow on the inside of the ilium's wing that cradles the abdominal organs and anchors the iliacus muscle.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [43:42] ('if we look on the medial side, it's just a smooth surface, we don't see an acetabulum there') + [47:02] (Dr. Blais); slide 10 (Iliac fossa boxed)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s10_hip_medial.png",
+  "image_side": "back",
+  "draft_idx": 131,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The pubic tubercle faces {{c1::anteriorly}}.",
+  "Back Extra": "Why: the pubic tubercle is the small knob on the front of the pubis near the midline, where the inguinal ligament anchors.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 8 notes ('Pubic tubercle faces anteriorly')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s10_hip_medial.png",
+  "image_side": "back",
+  "draft_idx": 132,
+  "back_img": null,
+  "extra_tags": [
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The {{c1::inguinal ligament}} stretches from the ASIS to the pubis.",
+  "Back Extra": "Why: the inguinal ligament is the rolled lower edge of an abdominal muscle's sheet, tacked between two bony points, and it marks the crease of the groin.<br><br>Pitfall: the manual and the study guide say it ends at the pubic crest; most anatomy texts say the pubic tubercle, just beside it.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.175 ('The inguinal ligament, which connects the anterior superior iliac spine to the pubic crest'); study guide p.2; lab manual Fig 8-8",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_08_hip_medial.jpg",
+  "image_side": "back",
+  "draft_idx": 133,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The {{c1::pubic crest}} is the ridge you can feel just above the pubic symphysis.",
+  "Back Extra": "Why: the pubic crest is the upper border of the pubic bones and is harder to feel on women because of the fat pad (mons pubis) over it.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.173 ('The pubic crest above this joint is easily felt on men but is usually more difficult to feel on women because of a fat pad (the mons pubis)'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_08_hip_medial.jpg",
+  "image_side": "back",
+  "draft_idx": 134,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "When you sit, your weight rests on the {{c1::ischial tuberosities}}.",
+  "Back Extra": "Why: the ischial tuberosities are the thick, rough lower ends of the ischium, padded by the buttocks.<br><br>Pitfall: the manual credits the ischial RAMI and calls them the 'sitz bones'; most texts say the weight rests on the tuberosities.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "study guide p.2 ('Ischial tuberosity takes sitting weight'); lab manual p.173 ('The rami of the ischial bones support your body weight while you sit and have thus been nick-named the \"sitz bones\"')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_07_hip_lateral.jpg",
+  "image_side": "back",
+  "draft_idx": 135,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The ischial tuberosity (the manual's 'ischial ramus') can be felt by pressing hard on the buttocks at the level of the {{c1::gluteal fold}}.",
+  "Back Extra": "Why: the tuberosity lies deep to the lower buttock near the gluteal fold, so firm pressure with the gluteal muscles relaxed reaches the bone.<br><br>Pitfall: the manual and study guide call this bump the ischial ramus; the bone you press on through the buttock, and sit on, is the ischial tuberosity.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.175 ('The ischial rami is best felt by pressing hard against the buttocks at the level of the gluteal fold') + p.179",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_10_gluteal.jpg",
+  "image_side": "back",
+  "draft_idx": 136,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual"
+  ]
+ },
+ {
+  "Text": "The pelvic brim (pelvic inlet) is formed by the {{c1::sacral promontory}} behind and the {{c2::arcuate lines}} of the ilia at the sides.",
+  "Back Extra": "Why: the pelvic brim is the doorway into the true pelvis below, the opening a baby's head must pass through.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.173 ('The pelvic brim (or pelvic inlet) is formed by the sacral promontory posteriorly and the arcuate lines of the ilia anterolaterally'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_08_hip_medial.jpg",
+  "image_side": "back",
+  "draft_idx": 137,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The pelvic brim is much {{c1::wider::wider or narrower}} in women than in men.",
+  "Back Extra": "Why: a wider inlet eases the passage of the baby during childbirth; the whole female pelvis is also wider and shorter, which makes the hips the widest part of the female body.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.173-175 ('The pelvic brim is considerably wider in women ... the entire pelvis is wider and shorter in women'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_08_hip_medial.jpg",
+  "image_side": "back",
+  "draft_idx": 138,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The pelvis surrounds and protects the organs of the pelvic cavity and supports the organs of the {{c1::abdominal}} cavity.",
+  "Back Extra": "Why: the bony basin wraps the bladder and reproductive organs, and its flared iliac wings hold up the intestines above them.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.173 ('The pelvis surrounds and protects the organs of the pelvic cavity and supports the organs of the abdominal cavity')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_08_hip_medial.jpg",
+  "image_side": "back",
+  "draft_idx": 139,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual"
+  ]
+ },
+ {
+  "Text": "The lab manual says the gluteal region belongs anatomically to the {{c1::trunk}} and physiologically to the {{c1::lower limb}}.",
+  "Back Extra": "Why: the gluteal region lies over the pelvis, but its muscles (the glutes) move the thigh.<br><br>Pitfall: most anatomy texts count the gluteal region as a region of the lower limb, the transition between trunk and thigh.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.175 ('Anatomically, the gluteal region belongs to the body trunk; physiologically, the gluteal region belongs to the lower limbs')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_10_gluteal.jpg",
+  "image_side": "back",
+  "draft_idx": 140,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual"
+  ]
+ },
+ {
+  "Text": "The coccyx can be felt immediately superior to the {{c1::anus}}.",
+  "Back Extra": "Why: the tailbone curves forward at the bottom of the sacrum, in the cleft between the buttocks.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.175 ('The coccyx can be felt immediately superior to the anus'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_10_gluteal.jpg",
+  "image_side": "back",
+  "draft_idx": 141,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "Skeleton seen from the front: name the bone at pin 19, with its side. {{c1::left os coxae (ilium)::side + bone}}",
+  "Back Extra": "Why: the pin sits on the broad upper wing of the hip bone, the ilium part of the os coxae, on the skeleton's left (your right, seen from the front).",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "Popcorn Points slide 3, pin 19 (no instructor key for appendicular pins)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/pp3_lower_pins.png",
+  "image_side": "front",
+  "draft_idx": 142,
+  "back_img": null,
+  "extra_tags": [
+   "src::popcorn",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "A hip bone seen from its outer (lateral) side: is it a right or a left os coxae? {{c1::left::side}}",
+  "Back Extra": "Why: crest up, obturator foramen down, acetabulum facing you (lateral view). The sciatic notches mark the back and sit on the picture's right, so the front (ASIS) points to your left: that is a left hip bone seen from outside.<br><br>Cue: Dr. Blais's recipe: crest superior, obturator foramen inferior, acetabulum lateral, sciatic notches posterior.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual Fig 8-7 'The Right Hip Bones', lateral view (labels erased), mirrored left-right = a left hip bone; lab recording 9/30 [46:13]-[47:50] (Dr. Blais's orientation recipe)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/lr_hip_lateral_mirror.jpg",
+  "image_side": "front",
+  "draft_idx": null,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "Skeleton seen from the front: name the bone at pin 21, with its side. {{c1::right os coxae (ischium)::side + bone}}",
+  "Back Extra": "Why: the pin sits below and lateral to the obturator foramen, on the ischium part of the hip bone, on the skeleton's right (your left, seen from the front).",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pelvic_girdle",
+  "deck": "Pelvic Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "Popcorn Points slide 3, pin 21 (no instructor key for appendicular pins; the inferolateral part of the hip bone below the obturator foramen)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/pp3_lower_pins.png",
+  "image_side": "front",
+  "draft_idx": null,
+  "back_img": null,
+  "extra_tags": [
+   "src::popcorn",
+   "src::slides"
+  ]
+ }
+]

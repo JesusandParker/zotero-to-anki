@@ -1,0 +1,852 @@
+{
+ "s02_overview": {
+  "name": "s02_overview",
+  "file": "s02_overview.jpg",
+  "kind": "pdfclip",
+  "source": 2,
+  "native": [
+   912,
+   975
+  ],
+  "out": [
+   1023,
+   1080
+  ],
+  "scale": 1.087,
+  "bytes": 103567,
+  "erased_words": null
+ },
+ "s03_clavicle": {
+  "name": "s03_clavicle",
+  "file": "s03_clavicle.png",
+  "kind": "pdfclip",
+  "source": 3,
+  "native": [
+   1642,
+   1174
+  ],
+  "out": [
+   1708,
+   1288
+  ],
+  "scale": 1.011,
+  "bytes": 1035816,
+  "erased_words": null
+ },
+ "s04_scapula": {
+  "name": "s04_scapula",
+  "file": "s04_scapula.png",
+  "kind": "pdfclip",
+  "source": 4,
+  "native": [
+   1716,
+   1006
+  ],
+  "out": [
+   1728,
+   1089
+  ],
+  "scale": 0.955,
+  "bytes": 733726,
+  "erased_words": null
+ },
+ "s05_humerus": {
+  "name": "s05_humerus",
+  "file": "s05_humerus.png",
+  "kind": "pdfclip",
+  "source": 5,
+  "native": [
+   1476,
+   1375
+  ],
+  "out": [
+   1728,
+   1640
+  ],
+  "scale": 1.1,
+  "bytes": 815397,
+  "erased_words": null
+ },
+ "s06_forearm": {
+  "name": "s06_forearm",
+  "file": "s06_forearm.png",
+  "kind": "pdfclip",
+  "source": 6,
+  "native": [
+   1351,
+   1253
+  ],
+  "out": [
+   1728,
+   1606
+  ],
+  "scale": 1.184,
+  "bytes": 995331,
+  "erased_words": null
+ },
+ "s07_hand": {
+  "name": "s07_hand",
+  "file": "s07_hand.png",
+  "kind": "pdfclip",
+  "source": 7,
+  "native": [
+   1160,
+   1246
+  ],
+  "out": [
+   1554,
+   1728
+  ],
+  "scale": 1.357,
+  "bytes": 1111276,
+  "erased_words": null
+ },
+ "s08_coxal_netter": {
+  "name": "s08_coxal_netter",
+  "file": "s08_coxal_netter.png",
+  "kind": "pdfclip",
+  "source": 8,
+  "native": [
+   1674,
+   1440
+  ],
+  "out": [
+   1728,
+   1504
+  ],
+  "scale": 0.956,
+  "bytes": 893913,
+  "erased_words": null
+ },
+ "s09_hip_lateral": {
+  "name": "s09_hip_lateral",
+  "file": "s09_hip_lateral.png",
+  "kind": "pdfclip",
+  "source": 9,
+  "native": [
+   1734,
+   1291
+  ],
+  "out": [
+   1700,
+   1381
+  ],
+  "scale": 1.017,
+  "bytes": 160882,
+  "erased_words": null
+ },
+ "s10_hip_medial": {
+  "name": "s10_hip_medial",
+  "file": "s10_hip_medial.png",
+  "kind": "pdfclip",
+  "source": 10,
+  "native": [
+   1734,
+   1291
+  ],
+  "out": [
+   1755,
+   1385
+  ],
+  "scale": 0.985,
+  "bytes": 168077,
+  "erased_words": null
+ },
+ "s11_femur": {
+  "name": "s11_femur",
+  "file": "s11_femur.png",
+  "kind": "pdfclip",
+  "source": 11,
+  "native": [
+   1673,
+   1476
+  ],
+  "out": [
+   1732,
+   1604
+  ],
+  "scale": 0.998,
+  "bytes": 865838,
+  "erased_words": null
+ },
+ "s12_patella": {
+  "name": "s12_patella",
+  "file": "s12_patella.png",
+  "kind": "pdfclip",
+  "source": 12,
+  "native": [
+   1660,
+   980
+  ],
+  "out": [
+   1760,
+   1090
+  ],
+  "scale": 0.982,
+  "bytes": 281332,
+  "erased_words": null
+ },
+ "s13_tibia_fibula": {
+  "name": "s13_tibia_fibula",
+  "file": "s13_tibia_fibula.png",
+  "kind": "pdfclip",
+  "source": 13,
+  "native": [
+   1616,
+   1488
+  ],
+  "out": [
+   1710,
+   1614
+  ],
+  "scale": 1.01,
+  "bytes": 164323,
+  "erased_words": null
+ },
+ "s14_foot": {
+  "name": "s14_foot",
+  "file": "s14_foot.png",
+  "kind": "pdfclip",
+  "source": 14,
+  "native": [
+   1412,
+   1592
+  ],
+  "out": [
+   1535,
+   1728
+  ],
+  "scale": 1.06,
+  "bytes": 720373,
+  "erased_words": null
+ },
+ "m8_01_appendicular": {
+  "name": "m8_01_appendicular",
+  "file": "m8_01_appendicular.jpg",
+  "kind": "manual",
+  "source": 180,
+  "native": [
+   2260,
+   2740
+  ],
+  "out": [
+   1021,
+   1404
+  ],
+  "scale": 0.511,
+  "bytes": 182429,
+  "erased_words": null
+ },
+ "m8_02_scapula": {
+  "name": "m8_02_scapula",
+  "file": "m8_02_scapula.jpg",
+  "kind": "manual",
+  "source": 181,
+  "native": [
+   4650,
+   2710
+  ],
+  "out": [
+   1728,
+   1113
+  ],
+  "scale": 0.385,
+  "bytes": 350963,
+  "erased_words": null
+ },
+ "m8_03_clavicles": {
+  "name": "m8_03_clavicles",
+  "file": "m8_03_clavicles.jpg",
+  "kind": "manual",
+  "source": 181,
+  "native": [
+   2210,
+   1850
+  ],
+  "out": [
+   1404,
+   1275
+  ],
+  "scale": 0.69,
+  "bytes": 336432,
+  "erased_words": null
+ },
+ "m8_04a_joints": {
+  "name": "m8_04a_joints",
+  "file": "m8_04a_joints.jpg",
+  "kind": "manual",
+  "source": 182,
+  "native": [
+   4380,
+   2100
+  ],
+  "out": [
+   1404,
+   714
+  ],
+  "scale": 0.305,
+  "bytes": 170968,
+  "erased_words": null
+ },
+ "m8_04b_humerus": {
+  "name": "m8_04b_humerus",
+  "file": "m8_04b_humerus.jpg",
+  "kind": "manual",
+  "source": 182,
+  "native": [
+   2220,
+   2900
+  ],
+  "out": [
+   1281,
+   1728
+  ],
+  "scale": 0.561,
+  "bytes": 390677,
+  "erased_words": null
+ },
+ "m8_04c_forearm": {
+  "name": "m8_04c_forearm",
+  "file": "m8_04c_forearm.jpg",
+  "kind": "manual",
+  "source": 182,
+  "native": [
+   2180,
+   2900
+  ],
+  "out": [
+   1291,
+   1728
+  ],
+  "scale": 0.562,
+  "bytes": 363084,
+  "erased_words": null
+ },
+ "m8_07_hip_lateral": {
+  "name": "m8_07_hip_lateral",
+  "file": "m8_07_hip_lateral.jpg",
+  "kind": "manual",
+  "source": 184,
+  "native": [
+   4310,
+   2620
+  ],
+  "out": [
+   1728,
+   1093
+  ],
+  "scale": 0.386,
+  "bytes": 330055,
+  "erased_words": null
+ },
+ "m8_08_hip_medial": {
+  "name": "m8_08_hip_medial",
+  "file": "m8_08_hip_medial.jpg",
+  "kind": "manual",
+  "source": 184,
+  "native": [
+   4340,
+   2060
+  ],
+  "out": [
+   1728,
+   849
+  ],
+  "scale": 0.377,
+  "bytes": 277197,
+  "erased_words": null
+ },
+ "m8_09_femur_patella": {
+  "name": "m8_09_femur_patella",
+  "file": "m8_09_femur_patella.jpg",
+  "kind": "manual",
+  "source": 185,
+  "native": [
+   2400,
+   3200
+  ],
+  "out": [
+   1207,
+   1728
+  ],
+  "scale": 0.522,
+  "bytes": 426072,
+  "erased_words": null
+ },
+ "m8_10_gluteal": {
+  "name": "m8_10_gluteal",
+  "file": "m8_10_gluteal.jpg",
+  "kind": "manual",
+  "source": 185,
+  "native": [
+   2028,
+   1615
+  ],
+  "out": [
+   1728,
+   1473
+  ],
+  "scale": 0.833,
+  "bytes": 198139,
+  "erased_words": null
+ },
+ "m8_11_q_carrying": {
+  "name": "m8_11_q_carrying",
+  "file": "m8_11_q_carrying.jpg",
+  "kind": "manual",
+  "source": 186,
+  "native": [
+   2010,
+   2510
+  ],
+  "out": [
+   1195,
+   1404
+  ],
+  "scale": 0.573,
+  "bytes": 151833,
+  "erased_words": null
+ },
+ "m8_12_leg_foot": {
+  "name": "m8_12_leg_foot",
+  "file": "m8_12_leg_foot.jpg",
+  "kind": "manual",
+  "source": 186,
+  "native": [
+   2220,
+   3480
+  ],
+  "out": [
+   1097,
+   1728
+  ],
+  "scale": 0.474,
+  "bytes": 341540,
+  "erased_words": null
+ },
+ "m8_13_foot": {
+  "name": "m8_13_foot",
+  "file": "m8_13_foot.jpg",
+  "kind": "manual",
+  "source": 187,
+  "native": [
+   2500,
+   2900
+  ],
+  "out": [
+   1318,
+   1728
+  ],
+  "scale": 0.586,
+  "bytes": 307020,
+  "erased_words": null
+ },
+ "m8_14_arches": {
+  "name": "m8_14_arches",
+  "file": "m8_14_arches.jpg",
+  "kind": "manual",
+  "source": 188,
+  "native": [
+   2160,
+   3820
+  ],
+  "out": [
+   947,
+   1728
+  ],
+  "scale": 0.419,
+  "bytes": 186788,
+  "erased_words": null
+ },
+ "m8_15_arch_height": {
+  "name": "m8_15_arch_height",
+  "file": "m8_15_arch_height.jpg",
+  "kind": "manual",
+  "source": 190,
+  "native": [
+   2270,
+   3460
+  ],
+  "out": [
+   957,
+   1404
+  ],
+  "scale": 0.376,
+  "bytes": 154839,
+  "erased_words": null
+ },
+ "m8_16_q_measure": {
+  "name": "m8_16_q_measure",
+  "file": "m8_16_q_measure.jpg",
+  "kind": "manual",
+  "source": 191,
+  "native": [
+   4370,
+   2010
+  ],
+  "out": [
+   1404,
+   727
+  ],
+  "scale": 0.337,
+  "bytes": 177085,
+  "erased_words": null
+ },
+ "m8_17_fetal": {
+  "name": "m8_17_fetal",
+  "file": "m8_17_fetal.jpg",
+  "kind": "manual",
+  "source": 192,
+  "native": [
+   2310,
+   2770
+  ],
+  "out": [
+   1210,
+   1404
+  ],
+  "scale": 0.48,
+  "bytes": 151226,
+  "erased_words": null
+ },
+ "m8_18_fetal_skull": {
+  "name": "m8_18_fetal_skull",
+  "file": "m8_18_fetal_skull.jpg",
+  "kind": "manual",
+  "source": 192,
+  "native": [
+   4220,
+   1880
+  ],
+  "out": [
+   1728,
+   798
+  ],
+  "scale": 0.392,
+  "bytes": 223380,
+  "erased_words": null
+ },
+ "pp3_lower_pins": {
+  "name": "pp3_lower_pins",
+  "file": "pp3_lower_pins.png",
+  "kind": "popcorn",
+  "source": "image4.png",
+  "native": [
+   1180,
+   1093
+  ],
+  "out": [
+   1040,
+   1296
+  ],
+  "scale": 1.098,
+  "bytes": 951934,
+  "erased_words": null
+ },
+ "lr_clavicle_superior": {
+  "name": "lr_clavicle_superior",
+  "file": "lr_clavicle_superior.png",
+  "kind": "pdfclip",
+  "source": 3,
+  "native": [
+   1100,
+   590
+  ],
+  "out": [
+   1188,
+   693
+  ],
+  "scale": 1.026,
+  "bytes": 173948,
+  "erased_words": 8
+ },
+ "lr_scapula_posterior": {
+  "name": "lr_scapula_posterior",
+  "file": "lr_scapula_posterior.jpg",
+  "kind": "pptx",
+  "source": "image4.jpeg",
+  "native": [
+   816,
+   1152
+  ],
+  "out": [
+   882,
+   1081
+  ],
+  "scale": 0.999,
+  "bytes": 68652,
+  "erased_words": 20
+ },
+ "lr_humerus_anterior": {
+  "name": "lr_humerus_anterior",
+  "file": "lr_humerus_anterior.png",
+  "kind": "pdfclip",
+  "source": 5,
+  "native": [
+   830,
+   1920
+  ],
+  "out": [
+   555,
+   1188
+  ],
+  "scale": 0.581,
+  "bytes": 184039,
+  "erased_words": 16
+ },
+ "lr_forearm_anterior": {
+  "name": "lr_forearm_anterior",
+  "file": "lr_forearm_anterior.png",
+  "kind": "pptx",
+  "source": "image7.png",
+  "native": [
+   705,
+   1656
+  ],
+  "out": [
+   560,
+   1188
+  ],
+  "scale": 0.697,
+  "bytes": 282099,
+  "erased_words": 13
+ },
+ "lr_hip_lateral": {
+  "name": "lr_hip_lateral",
+  "file": "lr_hip_lateral.jpg",
+  "kind": "manual",
+  "source": 184,
+  "native": [
+   2900,
+   2620
+  ],
+  "out": [
+   1188,
+   1063
+  ],
+  "scale": 0.389,
+  "bytes": 171562,
+  "erased_words": 55
+ },
+ "lr_femur_posterior": {
+  "name": "lr_femur_posterior",
+  "file": "lr_femur_posterior.jpg",
+  "kind": "manual",
+  "source": 185,
+  "native": [
+   1180,
+   3200
+  ],
+  "out": [
+   491,
+   1188
+  ],
+  "scale": 0.358,
+  "bytes": 83612,
+  "erased_words": 33
+ },
+ "lr_tibia_fibula": {
+  "name": "lr_tibia_fibula",
+  "file": "lr_tibia_fibula.png",
+  "kind": "pdfclip",
+  "source": 13,
+  "native": [
+   1576,
+   1456
+  ],
+  "out": [
+   1188,
+   1136
+  ],
+  "scale": 0.72,
+  "bytes": 155926,
+  "erased_words": 20
+ },
+ "m8_06a_hand_palmar": {
+  "name": "m8_06a_hand_palmar",
+  "file": "m8_06a_hand_palmar.jpg",
+  "kind": "manual",
+  "source": 183,
+  "native": [
+   1670,
+   1600
+  ],
+  "out": [
+   1728,
+   1567
+  ],
+  "scale": 0.96,
+  "bytes": 457974,
+  "erased_words": null
+ },
+ "m8_06b_hand_dorsum": {
+  "name": "m8_06b_hand_dorsum",
+  "file": "m8_06b_hand_dorsum.jpg",
+  "kind": "manual",
+  "source": 183,
+  "native": [
+   2720,
+   1600
+  ],
+  "out": [
+   1728,
+   1112
+  ],
+  "scale": 0.657,
+  "bytes": 351242,
+  "erased_words": null
+ },
+ "pp2_front_pins": {
+  "name": "pp2_front_pins",
+  "file": "pp2_front_pins.png",
+  "kind": "popcorn",
+  "source": "image3.png",
+  "native": [
+   820,
+   842
+  ],
+  "out": [
+   1159,
+   1188
+  ],
+  "scale": 1.306,
+  "bytes": 1053294,
+  "erased_words": null
+ },
+ "pp2_back_pins": {
+  "name": "pp2_back_pins",
+  "file": "pp2_back_pins.png",
+  "kind": "popcorn",
+  "source": "image3.png",
+  "native": [
+   1022,
+   842
+  ],
+  "out": [
+   1188,
+   1161
+  ],
+  "scale": 1.275,
+  "bytes": 1064820,
+  "erased_words": null
+ },
+ "lr_clavicle_superior_mirror": {
+  "name": "lr_clavicle_superior_mirror",
+  "file": "lr_clavicle_superior_mirror.png",
+  "kind": "derived",
+  "source": "lr_clavicle_superior.png",
+  "native": [
+   1188,
+   693
+  ],
+  "out": [
+   1188,
+   693
+  ],
+  "scale": 1.0,
+  "bytes": 174378,
+  "erased_words": null
+ },
+ "lr_scapula_posterior_mirror": {
+  "name": "lr_scapula_posterior_mirror",
+  "file": "lr_scapula_posterior_mirror.jpg",
+  "kind": "derived",
+  "source": "lr_scapula_posterior.jpg",
+  "native": [
+   882,
+   1081
+  ],
+  "out": [
+   882,
+   1081
+  ],
+  "scale": 1.0,
+  "bytes": 69202,
+  "erased_words": null
+ },
+ "lr_humerus_anterior_mirror": {
+  "name": "lr_humerus_anterior_mirror",
+  "file": "lr_humerus_anterior_mirror.png",
+  "kind": "derived",
+  "source": "lr_humerus_anterior.png",
+  "native": [
+   555,
+   1188
+  ],
+  "out": [
+   555,
+   1188
+  ],
+  "scale": 1.0,
+  "bytes": 184259,
+  "erased_words": null
+ },
+ "lr_forearm_anterior_mirror": {
+  "name": "lr_forearm_anterior_mirror",
+  "file": "lr_forearm_anterior_mirror.png",
+  "kind": "derived",
+  "source": "lr_forearm_anterior.png",
+  "native": [
+   560,
+   1188
+  ],
+  "out": [
+   560,
+   1188
+  ],
+  "scale": 1.0,
+  "bytes": 284223,
+  "erased_words": null
+ },
+ "lr_hip_lateral_mirror": {
+  "name": "lr_hip_lateral_mirror",
+  "file": "lr_hip_lateral_mirror.jpg",
+  "kind": "derived",
+  "source": "lr_hip_lateral.jpg",
+  "native": [
+   1188,
+   1063
+  ],
+  "out": [
+   1188,
+   1063
+  ],
+  "scale": 1.0,
+  "bytes": 174881,
+  "erased_words": null
+ },
+ "lr_femur_posterior_mirror": {
+  "name": "lr_femur_posterior_mirror",
+  "file": "lr_femur_posterior_mirror.jpg",
+  "kind": "derived",
+  "source": "lr_femur_posterior.jpg",
+  "native": [
+   491,
+   1188
+  ],
+  "out": [
+   491,
+   1188
+  ],
+  "scale": 1.0,
+  "bytes": 85030,
+  "erased_words": null
+ },
+ "lr_tibia_fibula_mirror": {
+  "name": "lr_tibia_fibula_mirror",
+  "file": "lr_tibia_fibula_mirror.png",
+  "kind": "derived",
+  "source": "lr_tibia_fibula.png",
+  "native": [
+   1188,
+   1136
+  ],
+  "out": [
+   1188,
+   1136
+  ],
+  "scale": 1.0,
+  "bytes": 155184,
+  "erased_words": null
+ }
+}

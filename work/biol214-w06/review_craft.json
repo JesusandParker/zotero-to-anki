@@ -1,0 +1,752 @@
+{
+ "verdicts": [
+  {
+   "idx": 0,
+   "verdict": "REWRITE",
+   "why": "Text uses the banned source word 'slides', and its visible '126 out of 206' prints the answers to two W05 cards (206 total; 80 axial / 126 appendicular) on every review. Moved the usual count into the Why, dropped the '(9/30 recording)' tag, and used the rule-27 hint wording.",
+   "fixed_text": "The lab manual counts {{c1::130::number of bones}} appendicular bones out of its 210 total.",
+   "fixed_back": "Why: the manual adds four sesamoid bones (two under each big toe) to the usual count of 126 appendicular bones out of 206.<br><br>Pitfall: sources disagree on the totals, and on the last home quiz the lab accepted every published count.",
+   "fixed_image": null
+  },
+  {
+   "idx": 1,
+   "verdict": "REWRITE",
+   "why": "One-answer: 'the limbs' also fills the blank truthfully (120 of the 126 appendicular bones are in the limbs). A slot-label hint forces hands and feet.",
+   "fixed_text": "Most of the appendicular skeleton's bones are in the {{c1::hands and feet::which two parts of the limbs}}.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 2,
+   "verdict": "REWRITE",
+   "why": "Arithmetic leak: the stem lists every component with its count (1+1+1+8+5+14), so 30 is a sum of visible numbers, and the visible '8 carpals', '5 metacarpals' and '14 phalanges' print the answers to #88, #89 and #92. Moved the breakdown to the Why and said the girdle is excluded so 32 is not a defensible answer.",
+   "fixed_text": "Not counting the pectoral girdle, each upper limb has {{c1::30::number of bones}} bones.",
+   "fixed_back": "Why: 1 humerus + 1 radius + 1 ulna + 8 carpals + 5 metacarpals + 14 phalanges = 30, so the two upper limbs hold 60 bones, most of them in the hands.",
+   "fixed_image": null
+  },
+  {
+   "idx": 3,
+   "verdict": "REWRITE",
+   "why": "Same arithmetic leak as #2 (the visible components sum to 30), and it prints the answers to #187 (7 tarsals), #198 (5 metatarsals) and #199 (14 phalanges). Also 'not counting sesamoids' contradicts itself: the patella is a sesamoid (W05 #10) yet is counted. Narrowed the exclusion to the big-toe sesamoids and moved the list to the Why.",
+   "fixed_text": "Not counting the hip bone or the small sesamoids under the big toe, each lower limb has {{c1::30::number of bones}} bones.",
+   "fixed_back": "Why: femur + patella + tibia + fibula + 7 tarsals + 5 metatarsals + 14 phalanges = 30.<br><br>Pitfall: the manual adds the two sesamoids under each big toe, giving 32 per limb (64 for both).",
+   "fixed_image": null
+  },
+  {
+   "idx": 5,
+   "verdict": "REWRITE",
+   "why": "Ambiguous first step: the lab's own study tips (slide 2 notes) start with 'identify what bone it is', so 'the bone' is an equally valid answer to 'first work out ___'. Naming all three steps pins the blank to the faces; also drops the note-style lead-in.",
+   "fixed_text": "The lab sides a loose bone in three steps: name the bone, find its {{c1::anterior and posterior}} faces, then use one medial or lateral landmark to call left or right.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 6,
+   "verdict": "REWRITE",
+   "why": "Leak via parenthetical (card-rules #3): '(standing, palms facing forward)' is the definition of the answer, so it is decoded, not recalled. Moved the definition into the Why.",
+   "fixed_text": "The lab names every bone's orientation as if the body were in {{c1::anatomical position}}.",
+   "fixed_back": "Why: anatomical position is standing upright with the palms facing forward, so the thumbs point outward and the radius and its styloid process count as lateral even when your own forearm is turned.<br><br>Pitfall: a relaxed arm hangs palm-in, which makes the radius look anterior; always name sides as if the palms faced forward.",
+   "fixed_image": null
+  },
+  {
+   "idx": 7,
+   "verdict": "REWRITE",
+   "why": "Definition written one-way (description to term). Parker's standing default is two-way definitions, and term-to-meaning is the direction he needs when reading labels like 'olecranon fossa' or 'intercondylar fossa'. Dropped '(a divot or basin)', which would leak the c2 side, and replaced a Why that was only an example.",
+   "fixed_text": "A {{c1::fossa}} is a {{c2::shallow depression}} in a bone where another structure sits.",
+   "fixed_back": "Why: a fossa gives a neighboring part room to sit, like the olecranon fossa on the back of the humerus, which takes the ulna's olecranon when you straighten your elbow.",
+   "fixed_image": null
+  },
+  {
+   "idx": 9,
+   "verdict": "REWRITE",
+   "why": "Same two-way default as #7 (the slide's own line is 'Foramen = hole', the term-to-meaning direction). The old Why was an example, not a reason; dropped the '(9/30 recording)' tag.",
+   "fixed_text": "A {{c1::foramen}} is a {{c2::hole::kind of bone marking}} in a bone that nerves and blood vessels pass through.",
+   "fixed_back": "Why: nerves and vessels have to cross bone to reach what they supply, so bones have holes where they pass; the obturator foramen of the hip bone is the largest in the body.<br><br>Pitfall: foramina are holes in bones; openings in muscles are not called foramina.",
+   "fixed_image": null
+  },
+  {
+   "idx": 12,
+   "verdict": "REWRITE",
+   "why": "Under-clozed (editor check 4): the ribcage is half of the 'disproportionately large' fact but sits visible and is never tested.",
+   "fixed_text": "In a fetus, the {{c1::skull}} and {{c1::ribcage}} are disproportionately large, while the {{c2::limbs}} are disproportionately short.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 22,
+   "verdict": "REWRITE",
+   "why": "Root leak: 'the acromial end' spells out 'acromion', so the answer is read off the stem. Named the end by position instead (#21 already teaches lateral = acromial), crisped the answer, and kept the lab's synonym on the back.",
+   "fixed_text": "The clavicle's lateral end articulates with the scapula at the {{c1::acromion::part of the scapula}}.",
+   "fixed_back": "Why: the acromioclavicular (AC) joint at the top of the shoulder is the clavicle's only link to the scapula.<br><br>Cue: the lab also calls the acromion the acromial process.",
+   "fixed_image": null
+  },
+  {
+   "idx": 23,
+   "verdict": "REWRITE",
+   "why": "Pitfall uses the banned source word 'slide' and runs to three sentences. Same content, no source word, one sentence.",
+   "fixed_text": null,
+   "fixed_back": "Why: the sternal end is built up to bear against the manubrium, while the acromial end flattens out to meet the small acromion.<br><br>Pitfall: 'flat' is used both ways: the lab's orientation rule and the instructor mean the sternal end's flat tip (like a nail head), but the manual means the acromial end's flattened shape, so go by thickness and call the thick end sternal.",
+   "fixed_image": null
+  },
+  {
+   "idx": 25,
+   "verdict": "REWRITE",
+   "why": "The c2 hint 'which' names no category (card-rules #4); the end is a two-way choice, so give the forced choice.",
+   "fixed_text": "The conoid tubercle is on the {{c1::inferior::which surface}} side of the clavicle, near the {{c2::acromial::sternal or acromial}} end.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 26,
+   "verdict": "REWRITE",
+   "why": "Left/right set problem (systemic, see open questions): 6 of the 7 siding cards answer 'right', so 'right' is a free guess, and this exact drawing is on the back of six clavicle cards captioned '(b) Right clavicle, superior view' and in the IO note headed 'right clavicle from above'. Mirroring it makes the answer 'left', breaks the caption match, and (with #61 and #84) balances the set to 4 left / 3 right. REQUIRES a new image first; in the work folder run: magick figures/lr_clavicle_superior.png -flop figures/lr_clavicle_superior_L.png . Apply TEXT, BACK and IMAGE together or not at all: the new answer is only true for the mirrored picture.",
+   "fixed_text": "A clavicle seen from above, with the front of the body toward the bottom of the picture: is it a right or a left clavicle? {{c1::left::side}}",
+   "fixed_back": "Why: the thick, blunt end at the picture's left is the sternal end (medial), so the flattened acromial end points to the picture's right. Looking down from above with the front toward the bottom, the picture's right is the body's left.<br><br>Cue: sternal end medial, big curve bulging forward, conoid tubercle underneath.",
+   "fixed_image": "figures/lr_clavicle_superior_L.png"
+  },
+  {
+   "idx": 33,
+   "verdict": "REWRITE",
+   "why": "Cross-leak inside the note: the two lists share two of their three names (superior, lateral), so whichever list is visible hands over two thirds of the hidden one, and the third follows by elimination. SPLIT INTO TWO NOTES. fixed_text/fixed_back below is the borders note. ADD a new note for the angles: TEXT = \"The scapula's three angles (corners) are the {{c1::superior}}, {{c1::inferior}}, and {{c1::lateral}} angles.\" BACK = \"Why: the scapula is a flat triangle, so its corners are named for where they point; the lateral angle is the thick corner that carries the glenoid cavity.\" IMAGE = figures/m8_02_scapula.jpg, same deck and VER as #33.",
+   "fixed_text": "The scapula's three borders are the {{c1::superior}}, {{c1::medial}}, and {{c1::lateral}} borders.",
+   "fixed_back": "Why: the scapula is a flat triangle, so its three edges are named for where they face: up, toward the spine, and toward the armpit.",
+   "fixed_image": null
+  },
+  {
+   "idx": 34,
+   "verdict": "REWRITE",
+   "why": "Banned source word in the Text ('the slide's').",
+   "fixed_text": "The suprascapular notch (called the 'scapula notch' in lab) is on the scapula's {{c1::superior border}}.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 49,
+   "verdict": "REWRITE",
+   "why": "Cross-card give-away: #71's front prints 'the trochlear notch of the ulna', and with 'trochlear notch' visible here the card is a name lookup, not the joint fact. Moved the notch into the Why and gave the forced choice.",
+   "fixed_text": "At the elbow, the trochlea of the humerus articulates with the {{c1::ulna::radius or ulna}}.",
+   "fixed_back": "Why: trochlea means 'pulley': a spool-shaped surface that the ulna's C-shaped trochlear notch wraps around, making the elbow a hinge.",
+   "fixed_image": null
+  },
+  {
+   "idx": 52,
+   "verdict": "REWRITE",
+   "why": "Root leak: 'radial fossa' spells out 'radius', so 'head of the radius' is decoded from the name. Re-aimed the blank at the part the name does not give away, the elbow position (parallel to #51).",
+   "fixed_text": "The radial fossa takes the head of the radius when the elbow is fully {{c1::flexed::flexed or extended}}.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 55,
+   "verdict": "REWRITE",
+   "why": "Leak: 'the groove between the greater and lesser tubercles' is the literal meaning of 'intertubercular groove' (the Why even says inter- means between), so the name is built from the stem. Cued it by what the groove carries (already stated in the Why) and moved the etymology to the back.",
+   "fixed_text": "The groove on the front of the proximal humerus that carries the tendon of the biceps' long head is the {{c1::intertubercular groove (sulcus)}}.",
+   "fixed_back": "Why: inter- means between, and the groove runs between the greater and lesser tubercles, guiding the biceps tendon up over the front of the humerus to the shoulder.",
+   "fixed_image": null
+  },
+  {
+   "idx": 56,
+   "verdict": "REWRITE",
+   "why": "The Why's 'attaches there, so it outlines' never names what 'there' and 'it' are; the anatomical neck appears only in the Text.",
+   "fixed_text": null,
+   "fixed_back": "Why: the shoulder's joint capsule attaches along the anatomical neck, so the neck outlines the joint surface itself.<br><br>Distinguish: the surgical neck is the narrower shaft just below the tubercles, the common fracture site.",
+   "fixed_image": null
+  },
+  {
+   "idx": 58,
+   "verdict": "REWRITE",
+   "why": "Leak: 'the one you feel on the inner side of the elbow' is the plain-English meaning of 'medial', so the answer is decoded. Moved the palpation to a Cue (named, not 'it') and added the forced choice.",
+   "fixed_text": "The larger, more prominent epicondyle of the humerus is the {{c1::medial::medial or lateral}} epicondyle.",
+   "fixed_back": "Why: the medial epicondyle anchors many forearm flexor muscles, and the ulnar nerve runs just behind it (the 'funny bone').<br><br>Cue: the medial epicondyle is the big bump you feel on the inner side of your elbow.",
+   "fixed_image": null
+  },
+  {
+   "idx": 59,
+   "verdict": "REWRITE",
+   "why": "Open-set (card-rules #16): 'projections that ___' also takes 'anchor forearm muscles' or 'attach ligaments', both true (this card's own Why and #58's Why say so). Leaving 'the elbow joint' visible forces the verb.",
+   "fixed_text": "The medial and lateral epicondyles of the humerus are projections that {{c1::stabilize}} the elbow joint.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 60,
+   "verdict": "REWRITE",
+   "why": "Self-answering: with the forced choice 'proximal or distal', the visible 'because the proximal end sits inside the shoulder joint under large muscles' eliminates proximal. Moved the reason to the Why.",
+   "fixed_text": "Of the humerus, only the {{c1::distal::proximal or distal}} end can be felt through the skin.",
+   "fixed_back": "Why: the proximal end sits inside the shoulder joint, buried under the deltoid and rotator cuff, while at the elbow the two epicondyles lie just under the skin.",
+   "fixed_image": null
+  },
+  {
+   "idx": 61,
+   "verdict": "REWRITE",
+   "why": "Left/right set (see #26): this drawing is the IO note headed 'Right humerus' and the anterior view on the back of eleven humerus cards, so the card turns into recognition. Mirroring makes it a left humerus (checked: head to the picture's left, deltoid tuberosity and capitulum to the right). REQUIRES: magick figures/lr_humerus_anterior.png -flop figures/lr_humerus_anterior_L.png . Apply TEXT, BACK and IMAGE together or not at all: the new answer is only true for the mirrored picture.",
+   "fixed_text": "A humerus seen from the front (anterior view): is it a right or a left humerus? {{c1::left::side}}",
+   "fixed_back": "Why: the head points medially, and here it points to the picture's left. Seen from the front, a bone whose medial side is on your left is from the body's left side.<br><br>Cue: the deltoid tuberosity (lateral) is on the picture's right.",
+   "fixed_image": "figures/lr_humerus_anterior_L.png"
+  },
+  {
+   "idx": 64,
+   "verdict": "REWRITE",
+   "why": "Complementary pair split c1/c2: each card shows the other bone's answer, and the two are opposites, so the hidden one follows by elimination. Both under c1.",
+   "fixed_text": "The ulna is large at its {{c1::proximal}} end, and the radius is large at its {{c1::distal}} end.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 69,
+   "verdict": "REWRITE",
+   "why": "The stem opened with #50's whole fact ('In full extension, the olecranon locks into the olecranon fossa'), so every review of #69 answers #50. Dropped the extension clause.",
+   "fixed_text": "The olecranon locking into the olecranon fossa keeps the elbow from {{c1::overextending (hyperextending)}}.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 73,
+   "verdict": "REWRITE",
+   "why": "Elimination leak: the visible 'rough, ridged surface faces posteriorly' leaves only 'anteriorly' for the smooth one. Both under c1.",
+   "fixed_text": "The smooth, flat surface of the distal radius faces {{c1::anteriorly}}; its rough, ridged surface faces {{c1::posteriorly}}.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 76,
+   "verdict": "REWRITE",
+   "why": "Same complementary c1/c2 leak as #64: 'while' plus the visible opposite gives the hidden one away. Both under c1.",
+   "fixed_text": "The head of the ulna is at its {{c1::distal}} end, while the head of the radius is at its {{c1::proximal}} end.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 77,
+   "verdict": "REWRITE",
+   "why": "Naming leak between siblings: the ulnar notch is named for the head that fits into it, so on each card the visible span spells the hidden one. Both under c1 so neither is shown (the joint name and 'of the radius' keep it answerable). check_cards.py will warn 'possible husk' here; that is expected, since its suggested c1/c2 split is exactly the naming leak.",
+   "fixed_text": "At the distal radioulnar joint, the {{c1::head of the ulna}} fits into the {{c1::ulnar notch}} of the radius.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 78,
+   "verdict": "REWRITE",
+   "why": "Same naming leak as #77 (the radial notch is where the radial head turns). The Why also said 'this notch' with nothing named, and only restated the front.",
+   "fixed_text": "At the proximal radioulnar joint, the {{c1::head of the radius}} turns in the {{c1::radial notch}} of the ulna.",
+   "fixed_back": "Why: the radial head has to spin in place for the palm to turn up and down, and the ulna's radial notch is the cup it spins against.",
+   "fixed_image": null
+  },
+  {
+   "idx": 79,
+   "verdict": "REWRITE",
+   "why": "Elimination leak: with 'rotates around the ulna' visible, the only other forearm bone is the answer. Both under c1.",
+   "fixed_text": "During pronation and supination, the {{c1::radius}} rotates around the {{c1::ulna}}.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 80,
+   "verdict": "REWRITE",
+   "why": "Leak via parentheticals: '(flexion and extension)' and '(supination and pronation)' define the joint types, so 'hinge' and 'rotational' are decoded from the movements. Moved the movements into the Why.",
+   "fixed_text": "At the elbow, the humerus-ulna joint is a {{c1::hinge}} joint and the radius-ulna joint is a {{c2::rotational (pivot)}} joint.",
+   "fixed_back": "Why: the trochlear notch can only swing around the trochlea like a door on a hinge (flexion and extension), while the round radial head spins in place like a wheel on an axle (supination and pronation).",
+   "fixed_image": null
+  },
+  {
+   "idx": 81,
+   "verdict": "REWRITE",
+   "why": "The back picture contradicts the card: m8_11 labels 10-15 degrees on the man but 15+ degrees on the woman, while the card gives one value. Added a Pitfall so the figure explains instead of confusing.",
+   "fixed_text": null,
+   "fixed_back": "Why: the angle lets the forearms swing clear of the hips when the arms hang at the sides.<br><br>Pitfall: the manual puts 10–15° on the man and 15° or more on the woman, whose wider hips need more clearance.",
+   "fixed_image": null
+  },
+  {
+   "idx": 82,
+   "verdict": "REWRITE",
+   "why": "Elimination leak: 'the radius cannot' names the other forearm bone, so the answer is the only one left. Both under c1.",
+   "fixed_text": "The {{c1::ulna}} can be traced end to end on your forearm; the {{c1::radius}} cannot.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 84,
+   "verdict": "REWRITE",
+   "why": "Left/right set (see #26): this drawing is the IO note headed 'Right radius and ulna' and the anterior view on the back of ten forearm cards. Mirroring makes it a left forearm (radius to the picture's right). REQUIRES: magick figures/lr_forearm_anterior.png -flop figures/lr_forearm_anterior_L.png . Apply TEXT, BACK and IMAGE together or not at all: the new answer is only true for the mirrored picture.",
+   "fixed_text": "A radius and ulna seen from the front (anterior view): is this a right or a left forearm? {{c1::left::side}}",
+   "fixed_back": "Why: the radius (round head at the elbow, wide end at the wrist) is on the picture's right, and the radius is lateral. Seen from the front, lateral on your right means the body's left side.",
+   "fixed_image": "figures/lr_forearm_anterior_L.png"
+  },
+  {
+   "idx": 85,
+   "verdict": "REWRITE",
+   "why": "The back hands over #86's answer ('the radius (pin 18)'), so #86 turns into pin-number recall.",
+   "fixed_text": null,
+   "fixed_back": "Why: at the elbow the ulna is the medial forearm bone, the one with the big proximal end; the radius runs down the thumb side.",
+   "fixed_image": null
+  },
+  {
+   "idx": 88,
+   "verdict": "REWRITE",
+   "why": "Arithmetic leak: '(16 in the whole body)' halves to the answer. The 16 is already in the Pitfall.",
+   "fixed_text": "Each wrist has {{c1::8::number of bones}} carpal bones.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 89,
+   "verdict": "REWRITE",
+   "why": "Arithmetic leak: '(10 in the body)' halves to the answer. Moved the 10 into the Why.",
+   "fixed_text": "Each hand has {{c1::5::number of bones}} metacarpals.",
+   "fixed_back": "Why: one metacarpal carries each digit, and together they form the palm; with both hands that makes 10 in the body.",
+   "fixed_image": null
+  },
+  {
+   "idx": 91,
+   "verdict": "REWRITE",
+   "why": "Count leak: '(proximal and distal)' lists the thumb's two phalanges right after the blank. Moved it into the Why.",
+   "fixed_text": "The thumb has {{c1::2::number of bones}} phalanges; each other finger has {{c2::3::number of bones}}.",
+   "fixed_back": "Why: the thumb has only a proximal and a distal phalanx, with no middle one, so beyond the palm it bends at only one joint instead of two.",
+   "fixed_image": null
+  },
+  {
+   "idx": 92,
+   "verdict": "REWRITE",
+   "why": "Arithmetic leak: '(28 in both hands)' halves to the answer.",
+   "fixed_text": "Each hand has {{c1::14::number of bones}} phalanges.",
+   "fixed_back": "Why: 4 fingers × 3 phalanges + the thumb's 2 = 14, so the two hands hold 28.",
+   "fixed_image": null
+  },
+  {
+   "idx": 94,
+   "verdict": "REWRITE",
+   "why": "A three-item set fanned across c1/c2/c3 (card-rules #24): each card shows the other two items, so the third comes by elimination, and the answers were long parenthetical spans. One cloze number, crisp answers, the thumb = 1 detail moved to the Why.",
+   "fixed_text": "On the practical, a finger bone is named by three pieces of information: its {{c1::digit number}}, whether it is {{c1::proximal, middle, or distal}}, and {{c1::which hand (right or left)}}.",
+   "fixed_back": "Why: the practical asks for the specific bone, e.g. '4th proximal phalanx of the right hand' (the thumb is digit 1); 'phalanx' alone is only half right.",
+   "fixed_image": null
+  },
+  {
+   "idx": 95,
+   "verdict": "REWRITE",
+   "why": "Enumerated list fanned across c1..c4 (card-rules #24, the sibling_split_leak shape laid out inline so the checker missed it): each card shows three of the four carpals, so the fourth is found by elimination. One cloze number, one row per bone (rule #19), in the house SAMPLE shape: each mnemonic word is that row's hint, licensed because the spelled mnemonic is printed in the lead-in (rule #18).",
+   "fixed_text": "Proximal-row carpals, from the thumb side to the pinky side (So Long To Pinky):<br><br>{{c1::scaphoid::So}}<br><br>{{c1::lunate::Long}}<br><br>{{c1::triquetrum::To}}<br><br>{{c1::pisiform::Pinky}}",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 96,
+   "verdict": "REWRITE",
+   "why": "Same c1..c4 fan-out as #95; same SAMPLE-shape fix.",
+   "fixed_text": "Distal-row carpals, from the pinky side back to the thumb (Here Comes The Thumb):<br><br>{{c1::hamate::Here}}<br><br>{{c1::capitate::Comes}}<br><br>{{c1::trapezoid::The}}<br><br>{{c1::trapezium::Thumb}}",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 98,
+   "verdict": "REWRITE",
+   "why": "Leak: 'pea-shaped' is the meaning of 'pisiform' (the Why says so), so the name is decoded. Image mismatch: the back is the dorsal plate (m8_06b), where the pisiform hides behind the triquetrum; the palmar drawing (s07) shows it sitting on the triquetrum.",
+   "fixed_text": "The {{c1::pisiform}} is the small carpal that sits on the palm side of the wrist, on top of the triquetrum.",
+   "fixed_back": null,
+   "fixed_image": "figures/s07_hand.png"
+  },
+  {
+   "idx": 104,
+   "verdict": "REWRITE",
+   "why": "The Pitfall cites page numbers ('manual p.173', 'p.179') and says 'these two'. Same content without the source artifacts.",
+   "fixed_text": null,
+   "fixed_back": "Why: the pisiform sits on the palm side of the wrist, on top of the triquetrum, right where the heel of the hand meets the wrist crease.<br><br>Pitfall: the manual's carpal description and the study guide swap the pisiform and the triquetrum; the manual's palpation section has it right, with the triquetrum as the smaller bump on the back of the wrist just past the head of the ulna.",
+   "fixed_image": null
+  },
+  {
+   "idx": 107,
+   "verdict": "REWRITE",
+   "why": "Image is the palm-side skeleton on a card about the back of the hand; the dorsum plate shows the surface the card is about.",
+   "fixed_text": null,
+   "fixed_back": null,
+   "fixed_image": "figures/m8_06b_hand_dorsum.jpg"
+  },
+  {
+   "idx": 108,
+   "verdict": "REWRITE",
+   "why": "The Cue gives the wrong side half the time: 'cupped palm facing forward, thumb to your right = right hand' only holds with the fingers pointing down (anatomical position); held up like a stop sign, a right hand's thumb points left.",
+   "fixed_text": null,
+   "fixed_back": "Why: the arched metacarpals cup the palm around what you grip, so the hollow side is always the palm.<br><br>Cue: hold a loose hand the way your own hangs in anatomical position, cupped palm facing forward and fingers pointing down; if its thumb points to your right, it is a right hand.",
+   "fixed_image": null
+  },
+  {
+   "idx": 114,
+   "verdict": "REWRITE",
+   "why": "Cross-card give-away: '(ilium, ischium, pubis)' prints #110's entire answer on every review of this card.",
+   "fixed_text": "All three bones of the os coxae contribute to the {{c1::acetabulum}}.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 124,
+   "verdict": "REWRITE",
+   "why": "Leak: 'the long ridge along the top of the ilium' is the definition of 'iliac crest'. The hands-on-hips cue alone forces the answer.",
+   "fixed_text": "The long bony ridge where you rest your hands on your hips is the {{c1::iliac crest}}.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 125,
+   "verdict": "REWRITE",
+   "why": "Open-set: gluteal and back muscles also anchor on the iliac crest, so 'abdominal muscles' is one of several true fills. The instructor's point in the recording is the rough-bone rule, which is forced; the abdominal muscles move to the Why. (See open questions if the lab tests the specific muscles.)",
+   "fixed_text": "A lab rule of thumb says that wherever bone feels rough, as along the iliac crest, {{c1::a muscle or tendon attaches}}.",
+   "fixed_back": "Why: tendons pull on bone where they anchor, and the bone responds by building a roughened ridge; along the iliac crest, the pull comes from all the abdominal muscles.",
+   "fixed_image": null
+  },
+  {
+   "idx": 128,
+   "verdict": "REWRITE",
+   "why": "Root leak: 'the greater sciatic notch' spells 'sciatic nerve'. Flipped to the part the name does not give away: which of the two notches.",
+   "fixed_text": "The sciatic nerve leaves the pelvis for the leg through the {{c1::greater::greater or lesser}} sciatic notch.",
+   "fixed_back": "Why: the greater sciatic notch is the big gap between the ilium and the ischial spine, roomy enough for the sciatic nerve and its vessels; the lesser notch below the spine passes smaller nerves and vessels.",
+   "fixed_image": null
+  },
+  {
+   "idx": 133,
+   "verdict": "REWRITE",
+   "why": "Mild leak: 'marking the crease of the groin' glosses 'inguinal' (= of the groin). ASIS to pubis forces the answer alone; the groin crease moves into the Why.",
+   "fixed_text": "The {{c1::inguinal ligament}} stretches from the ASIS to the pubis.",
+   "fixed_back": "Why: the inguinal ligament is the rolled lower edge of an abdominal muscle's sheet, tacked between two bony points, and it marks the crease of the groin.<br><br>Pitfall: the manual says it ends at the pubic crest; most anatomy texts say the pubic tubercle, just beside it.",
+   "fixed_image": null
+  },
+  {
+   "idx": 138,
+   "verdict": "REWRITE",
+   "why": "Binary blank with no forced choice, and 'rounder' or 'larger' also fit 'much ___ in women'.",
+   "fixed_text": "The pelvic brim is much {{c1::wider::wider or narrower}} in women than in men.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 139,
+   "verdict": "REWRITE",
+   "why": "Root leak: 'the pelvis ... protects the organs of the ___' decodes to 'pelvic cavity'. Moved the blank to the cavity the pelvis supports, which the name does not give away.",
+   "fixed_text": "The pelvis surrounds and protects the organs of the pelvic cavity and supports the organs of the {{c1::abdominal}} cavity.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 140,
+   "verdict": "REWRITE",
+   "why": "Two-option pair split c1/c2: once one card shows 'lower limb' (or 'trunk'), the other answer is the only remaining option. Both under c1 so he must know which goes with which.",
+   "fixed_text": "Anatomically the gluteal region belongs to the {{c1::trunk}}; physiologically it belongs to the {{c1::lower limb}}.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 141,
+   "verdict": "REWRITE",
+   "why": "Open-set: 'can be felt just ___' takes many true locations (in the gluteal cleft, below the sacrum). Keeping the direction visible and hiding the landmark forces one answer.",
+   "fixed_text": "The coccyx can be felt immediately superior to the {{c1::anus}}.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 144,
+   "verdict": "REWRITE",
+   "why": "Cross-card give-away: ', into the acetabulum' prints #116's fact (the acetabulum holds the head of the femur) on every review. Moved it into the Why. check_cards.py then flags #44/#144 as 90% similar; benign, they are the parallel humerus and femur facts.",
+   "fixed_text": "The head of the femur points {{c1::medially}}.",
+   "fixed_back": "Why: the ball has to reach the acetabulum (the hip socket), which lies medial to the thigh; it is the same rule as the humerus's head at the shoulder.",
+   "fixed_image": null
+  },
+  {
+   "idx": 149,
+   "verdict": "REWRITE",
+   "why": "Compound answer with nothing saying so: a knower who learned 'medial' (the usual textbook wording) fails the card. A form hint says two directions are wanted.",
+   "fixed_text": "The lesser trochanter is on the {{c1::posteromedial::two-part direction}} side of the proximal femur.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 152,
+   "verdict": "REWRITE",
+   "why": "The c1 card duplicated #151 (linea aspera is posterior), and the c2 card leaked: '(the shin)' tells you the ridge is at the front. Rebuilt as the femur-versus-tibia contrast the instructor made, one cloze number, forced choices.",
+   "fixed_text": "The femur's sharp ridge (the linea aspera) runs down its {{c1::posterior::anterior or posterior}} side, but the tibia's sharp ridge runs down its {{c1::anterior::anterior or posterior}} side.",
+   "fixed_back": "Why: the femur's ridge anchors muscles on the back of the thigh, while the tibia's sharp front border is the bare bone of the shin.<br><br>Pitfall: the two long bones are opposite, so a sharp ridge tells you front from back only once you know which bone you hold.",
+   "fixed_image": null
+  },
+  {
+   "idx": 156,
+   "verdict": "REWRITE",
+   "why": "Binary blank (flexed or extended) with no forced-choice hint (card-rules #4); #50 and #51 carry one.",
+   "fixed_text": "The femur's epicondyles can be felt high on each side of the knee, best with the knee {{c1::flexed::flexed or extended}}.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 157,
+   "verdict": "REWRITE",
+   "why": "Leak: the text after the colon lists the trochanter at the hip and the condyles at the knee, which are the two ends, so 'ends' is read off the stem. Moved the list into the Why.",
+   "fixed_text": "Only the {{c1::two ends::which part}} of the femur can be felt through the thigh.",
+   "fixed_back": "Why: the thick thigh muscles bury the shaft, leaving only the greater trochanter at the hip and the condyles and epicondyles at the knee within reach.<br><br>Cue: to find the greater trochanter, press on the side of the hip while swinging the leg front to back.",
+   "fixed_image": null
+  },
+  {
+   "idx": 160,
+   "verdict": "REWRITE",
+   "why": "Banned source word ('the slide 11 notes') and 'these two' in the Pitfall.",
+   "fixed_text": null,
+   "fixed_back": "Why: inter- means between; both mark where hip ligaments and muscles attach between the greater and lesser trochanters.<br><br>Pitfall: the lab's notes say you do NOT need to know the intertrochanteric line or crest.",
+   "fixed_image": null
+  },
+  {
+   "idx": 164,
+   "verdict": "REWRITE",
+   "why": "Three landmarks fanned across c1/c2/c3: each card shows two of them, and #161 already names the set, so the third is found by elimination. Its front also printed 'goniometer', the whole answer to #165. One cloze number; the tool name moves into the Why.",
+   "fixed_text": "To measure the Q angle, set the fulcrum on the {{c1::patella}}, the stationary arm along the {{c1::tibial tuberosity}}, and the moving arm toward the {{c1::ASIS}}.",
+   "fixed_back": "Why: the angle sits at the knee, between the lower leg's line (to the tibial tuberosity) and the thigh's line (up to the hip), so the goniometer's hinge goes on the kneecap.<br><br>Cue: lying supine is preferred, with the subject keeping a finger on the ASIS.",
+   "fixed_image": null
+  },
+  {
+   "idx": 165,
+   "verdict": "REWRITE",
+   "why": "Leak via appositive: 'a tool usually used for joint range of motion' is the definition of a goniometer, turning the card into 'what is the range-of-motion tool called'. Moved it into the Why.",
+   "fixed_text": "In lab, the Q angle is measured with a {{c1::goniometer::instrument}}.",
+   "fixed_back": "Why: a goniometer is a protractor with two arms hinged at a fulcrum, the tool usually used for a joint's range of motion, so it reads the angle between two body segments.",
+   "fixed_image": null
+  },
+  {
+   "idx": 166,
+   "verdict": "REWRITE",
+   "why": "Leak: 'pointed' and 'broad' define apex and base, so the names are decoded from geometry, and the card never tests the trap its own Pitfall names (the base is the TOP). Blanked the directions instead.",
+   "fixed_text": "On the patella, the apex is the {{c1::inferior::superior or inferior}} end and the base is the {{c1::superior::superior or inferior}} end.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 167,
+   "verdict": "REWRITE",
+   "why": "Both blanks are given away by 'gliding on the femur's patellar surface' (the side that glides on the femur is the back, and a gliding surface is the articular one). Moved it into the Why.",
+   "fixed_text": "The patella's smooth {{c1::articular surface}} is on its {{c2::posterior}} side.",
+   "fixed_back": "Why: the back of the kneecap glides on the femur's patellar surface, so it is smooth; the front, which you feel through the skin, is rounded and rough.",
+   "fixed_image": null
+  },
+  {
+   "idx": 168,
+   "verdict": "REWRITE",
+   "why": "Elimination leak: there are only two facets and the stem names the medial one, so the larger must be the lateral.",
+   "fixed_text": "On the back of the patella, the {{c1::lateral::medial or lateral}} facet is the larger of the two.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 169,
+   "verdict": "REWRITE",
+   "why": "Image mismatch: m8_12's knee inset is literally captioned 'patella removed', on a card about the patella. The patella plate fits.",
+   "fixed_text": null,
+   "fixed_back": null,
+   "fixed_image": "figures/s12_patella.png"
+  },
+  {
+   "idx": 172,
+   "verdict": "REWRITE",
+   "why": "Elimination leak: 'the fibula mainly anchors muscles' names the other leg bone, so the weight-bearer is the one left. Both under c1.",
+   "fixed_text": "The {{c1::tibia}} carries the body's weight from the femur to the ankle, while the {{c1::fibula}} mainly anchors muscles.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 173,
+   "verdict": "REWRITE",
+   "why": "Elimination leak ('the fibula is not part of the knee joint' leaves the tibia) and ambiguity (the patella also articulates with the femur at the knee). Restricted to the two leg bones, with the forced choice the checker's 'only' rule asks for.",
+   "fixed_text": "Of the two leg bones, only the {{c1::tibia::tibia or fibula}} articulates with the femur at the knee.",
+   "fixed_back": "Why: the fibula's head sits against the side of the tibia below its lateral condyle, out of the femur's reach, so the fibula is not part of the knee joint.",
+   "fixed_image": null
+  },
+  {
+   "idx": 175,
+   "verdict": "REWRITE",
+   "why": "Leak via appositive: 'the muscles that straighten the knee when you kick a ball' defines the quadriceps. Moved it into the Why.",
+   "fixed_text": "The tibial tuberosity anchors the {{c1::quadriceps}}, through the patellar ligament.",
+   "fixed_back": "Why: the quadriceps tendon wraps the patella and continues as the patellar ligament to the tuberosity, so the pull that straightens the knee (as in kicking a ball) lands there.",
+   "fixed_image": null
+  },
+  {
+   "idx": 176,
+   "verdict": "REWRITE",
+   "why": "Image mismatch: m8_12 shows the leg from behind (popliteal line), so the anterior margin is not visible; s13 is the anterior view and labels 'tibia (shinbone)'.",
+   "fixed_text": null,
+   "fixed_back": null,
+   "fixed_image": "figures/s13_tibia_fibula.png"
+  },
+  {
+   "idx": 178,
+   "verdict": "REWRITE",
+   "why": "Binary with no forced choice, and 'more posterior' is also true of the lateral malleolus.",
+   "fixed_text": "The lateral malleolus sits {{c1::lower (more inferior)::higher or lower}} than the medial malleolus.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 181,
+   "verdict": "REWRITE",
+   "why": "Self-answering: the joint's name is assembled from the stem (tibia + fibula + 'just above the ankle' = distal tibiofibular), and #179's stem already names the proximal one. Re-aimed at the count, with both joints in the Why.",
+   "fixed_text": "The tibia and fibula articulate with each other at {{c1::two::number of joints}} joints.",
+   "fixed_back": "Why: the fibula's head meets the tibia just below the knee (the proximal tibiofibular joint), and the two bones meet again just above the ankle, between the malleoli (the distal tibiofibular joint).",
+   "fixed_image": null
+  },
+  {
+   "idx": 186,
+   "verdict": "REWRITE",
+   "why": "Image mismatch: one leg's bones on a card about both legs standing apart or together; the whole-skeleton plate shows the stance.",
+   "fixed_text": null,
+   "fixed_back": null,
+   "fixed_image": "figures/s02_overview.jpg"
+  },
+  {
+   "idx": 187,
+   "verdict": "REWRITE",
+   "why": "Arithmetic leak: '(14 in the body)' halves to the answer. Moved the 14 into the Why.",
+   "fixed_text": "Each ankle has {{c1::7::number of bones}} tarsal bones.",
+   "fixed_back": "Why: 2 in the hindfoot (talus, calcaneus) + 5 in the midfoot (navicular, 3 cuneiforms, cuboid) = 7, so 14 in the body.",
+   "fixed_image": null
+  },
+  {
+   "idx": 188,
+   "verdict": "REWRITE",
+   "why": "Enumerated list fanned across c1..c5 (card-rules #24): every card shows the other tarsals, so the missing one comes by elimination, and four of its five cards print #197's whole answer ('medial, intermediate, and lateral cuneiforms'). One cloze number, one row per mnemonic word in the SAMPLE shape (mnemonic word as the hint, mnemonic printed in the lead-in); 5 rows / 7 bones is licensed by that spelled handle (rule #23).",
+   "fixed_text": "Tarsals in mnemonic order (The Circus Needs More Interesting Little Clowns):<br><br>{{c1::talus::The}}<br><br>{{c1::calcaneus::Circus}}<br><br>{{c1::navicular::Needs}}<br><br>{{c1::medial, intermediate, and lateral cuneiforms::More Interesting Little}}<br><br>{{c1::cuboid::Clowns}}",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 189,
+   "verdict": "DROP",
+   "why": "Duplicate of #212: the same weight column (tibia on talus on calcaneus), and each note's fronts printed the other's answers. #212, rewritten as one grouped reveal, keeps the fact.",
+   "fixed_text": null,
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 198,
+   "verdict": "REWRITE",
+   "why": "Two leaks on the c1 card: '(10 in the body)' halves to 5, and 'numbered I to V' counts it out. Moved both into the Why; c2 gets the forced choice.",
+   "fixed_text": "Each foot has {{c1::5::number of bones}} metatarsals, numbered starting from the {{c2::big toe::big toe or little toe}}.",
+   "fixed_back": "Why: one metatarsal carries each toe, numbered I to V from the medial side like the hand (big toe = I), so 10 in the body.",
+   "fixed_image": null
+  },
+  {
+   "idx": 199,
+   "verdict": "REWRITE",
+   "why": "Arithmetic leak both ways: with '3 in each of the other toes' visible, 14 = 2 + 4×3 and 2 = 14 − 12. Moved the 3-per-toe rule into the Why so each card needs the fact, not the sum.",
+   "fixed_text": "Each foot has {{c1::14::number of bones}} phalanges; the big toe has {{c2::2::number of bones}}.",
+   "fixed_back": "Why: exactly like the hand: 3 in each of the four smaller toes plus 2 in the big toe (hallux), which has no middle phalanx.",
+   "fixed_image": null
+  },
+  {
+   "idx": 200,
+   "verdict": "REWRITE",
+   "why": "Arithmetic leak: '28 in the hands and 28 in the feet' sums to the answer on the front. The Pitfall also cites 'slide 2'.",
+   "fixed_text": "The body has {{c1::56::number of bones}} phalanges in all.",
+   "fixed_back": "Why: each hand and each foot has 14, so 28 in the hands + 28 in the feet = 56; a question asking for the phalanges 'in the body' means all four limbs.<br><br>Pitfall: the lab's bone list gives 'Phalanges (28)' twice, once for the hands and once for the feet, so don't stop at 28.",
+   "fixed_image": null
+  },
+  {
+   "idx": 201,
+   "verdict": "REWRITE",
+   "why": "Term-to-meaning fact written one-way; Parker's default for definitions is two-way, and 'hallux' is the word he will meet on labels and in the metatarsal numbering ('beginning with hallux').",
+   "fixed_text": "The {{c1::hallux}} is the {{c2::big toe}}.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 202,
+   "verdict": "REWRITE",
+   "why": "Sibling leak: visible 'PIP and DIP' spells 'IP' (drop the P and D), and visible 'IP' spells PIP and DIP. Both under c1.",
+   "fixed_text": "The big toe has one joint between its phalanges, the {{c1::IP}} joint; each other toe has two, the {{c1::PIP and DIP}} joints.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 203,
+   "verdict": "REWRITE",
+   "why": "Elimination leak: with 'its head meets a proximal phalanx' visible, the base must meet the metatarsal's only other neighbor. Both under c1.",
+   "fixed_text": "The base of each metatarsal meets the {{c1::tarsals}}, and its head meets a {{c1::proximal phalanx}}.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 209,
+   "verdict": "REWRITE",
+   "why": "The c1 card prints 'the base of the 2nd metatarsal' as a keystone (the top of an arch), which answers #205 ('highest point of the foot') on sight. Both under c1.",
+   "fixed_text": "The keystones of the transverse arch are the {{c1::medial cuneiform}} and the base of the {{c1::2nd metatarsal}}.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 212,
+   "verdict": "REWRITE",
+   "why": "Three-step pathway fanned across c1/c2/c3: each card shows the other two bones, so the missing one is found by elimination (and #189 printed the talus-calcaneus pair). One grouped reveal.",
+   "fixed_text": "Standing, body weight passes from the femur to the {{c1::tibia}}, then the {{c1::talus}}, then the {{c1::calcaneus}}.",
+   "fixed_back": null,
+   "fixed_image": null
+  },
+  {
+   "idx": 213,
+   "verdict": "REWRITE",
+   "why": "Pathway fanned across c1/c2/c3, the c1 answer was a long span ('lateral edge of the foot (5th metatarsal)'), and 'which lifts you into the next step' hands over the great toe. One cloze number, crisp answers, push-off moved into the Why.",
+   "fixed_text": "When walking, weight rolls from the heel along the {{c1::lateral}} edge of the foot, across the {{c1::heads of the metatarsals}}, and finally to the {{c1::great toe}}.",
+   "fixed_back": "Why: the heel strikes first, weight rolls along the outer edge over the 5th metatarsal, crosses the ball of the foot, and the big toe pushes off into the next step.",
+   "fixed_image": null
+  },
+  {
+   "idx": 215,
+   "verdict": "REWRITE",
+   "why": "Image: the dorsal foot plate shows no sesamoids at all; the patella is the textbook sesamoid (this card's own Why names it, and W05 #10 carries 'the patella is a sesamoid bone').",
+   "fixed_text": null,
+   "fixed_back": null,
+   "fixed_image": "figures/s12_patella.png"
+  },
+  {
+   "idx": 216,
+   "verdict": "REWRITE",
+   "why": "The Why is the reference table, not a reason.",
+   "fixed_text": null,
+   "fixed_back": "Why: in a normal foot the inner edge of the midfoot print falls near the foot's long axis, so the two distances are about equal and the ratio sits near 1; below 0.74 is a high arch, 1.26 to 2 a low arch, and above 2 a flat foot.",
+   "fixed_image": null
+  },
+  {
+   "idx": 218,
+   "verdict": "REWRITE",
+   "why": "Prerequisite closure (card-rules #11; the science profile wants every symbol broken down on the back): M, C and A are never defined, so 'MC / MA' only makes sense with the lab figure in hand.",
+   "fixed_text": null,
+   "fixed_back": "Why: along the line across the middle of the print, M sits on the medial line, C on the footprint's long axis, and A on the print's inner edge; as the arch sags, A creeps toward M, so MA shrinks and the ratio rises.",
+   "fixed_image": null
+  }
+ ],
+ "duplicates": [
+  {
+   "idx_a": 189,
+   "idx_b": 212,
+   "note": "Same weight column (tibia on talus on calcaneus); each note's fronts printed the other's answers. DROP #189; #212 keeps it as one grouped reveal."
+  },
+  {
+   "idx_a": 151,
+   "idx_b": 152,
+   "note": "Both test 'the linea aspera is posterior'. #152 is kept as the femur-versus-tibia contrast (rewritten); drop #151 only if you want zero overlap."
+  },
+  {
+   "idx_a": 50,
+   "idx_b": 69,
+   "note": "#69's old stem stated #50's whole fact (the olecranon locks into its fossa in full extension). Fixed by the #69 rewrite; keep both."
+  },
+  {
+   "idx_a": 161,
+   "idx_b": 164,
+   "note": "Same three landmarks (ASIS, patella, tibial tuberosity). #164 is kept for which goniometer arm goes where, rewritten as one grouped reveal without the tool name."
+  },
+  {
+   "idx_a": 95,
+   "idx_b": 97,
+   "note": "Both test that the carpal mnemonic starts at the scaphoid on the thumb side. Keep both: #97 carries the 'only works if you start at the scaphoid' warning."
+  }
+ ],
+ "open_questions": [
+  "Left/right siding cards (#26, #39, #61, #84, #130, #158, #185): every front picture is the same drawing an IO note shows under a header that names the side ('Right humerus', 'Right radius and ulna', 'Right scapula', 'Right hip bone (lab model)', 'Left femur (lab model)', 'Right tibia and fibula', 'right clavicle from above'), and the s03/s09/s10 plates on many backs print 'Right clavicle' / 'right hip bone' in the art itself. After a few IO reviews every siding card is answered by recognition, and 6 of 7 answers were 'right'. The three mirror rewrites (#26, #61, #84) fix the base rate (4 left / 3 right). To fix recognition as well, drop the side word from those seven IO headers. This is the W05 systemic failure again ('front question images reappear on sibling cards'): the suggested gate evidently does not catch a label-erased crop of a larger plate. Mirroring is anatomically exact (a mirrored right bone is a left bone), but it is an edited plate; if Parker would rather not, source genuine left-side views instead.",
+  "#33 needs a NEW note added (the scapula's three angles). The full TEXT, BACK and IMAGE are in #33's verdict.",
+  "Siding stems announce the view ('seen from behind (posterior view)'), which does step 1 of the lab's own method (#5) for him, while on the practical the bone lies loose. Drop the view from #39 (the spine shows the back) and #158 (linea aspera and intercondylar fossa show the back)? The Whys already teach how to read the view.",
+  "Popcorn Points slide 3 has appendicular pins with no card: 21 (the right hip bone's ischial region) and 23, 24, 25 (the first metacarpal and the proximal and distal phalanges of the left thumb). Pins 23-25 are exactly the phalanx-naming skill the lab stresses. Also, every carded pin sits on the skeleton's LEFT side; should pin answers include the side, since the practical wants e.g. 'olecranon process of the right'?",
+  "#81 (carrying angle): the study guide gives one value, 10-15 degrees, but the manual's own figure puts 15+ degrees on the woman. The new Pitfall says so; confirm which number the lab keys.",
+  "#125 was re-aimed from 'abdominal muscles' (ambiguous: gluteal and back muscles also attach to the crest) to Dr. Blais's rough-bone rule, with the abdominal muscles kept in the Why. If the lab asks 'what attaches along the iliac crest', revert and accept the ambiguity."
+ ],
+ "summary": "The Back Extras are uniformly well formed (every note opens with Why, none has more than one extra line, no pronoun openers), and the figures are clean; the problems are on the fronts. The biggest systemic leak is elimination: whole sets fanned across sibling cloze numbers (carpal and tarsal mnemonics, finger naming, Q-angle landmarks, both weight paths) and complementary pairs split c1/c2 or half-visible (ulna vs radius, tibia vs fibula, trunk vs lower limb, smooth vs rough, IP vs PIP/DIP), so about 25 notes were regrouped under one number. The second is answers readable off the stem: bilateral totals and component lists that halve or sum to the answer ('(16 in the whole body)', '1+1+1+8+5+14', '28 in the hands and 28 in the feet'), plus definition or root leaks (pea-shaped, inner side of the elbow, between the tubercles, sciatic notch, acromial end). The third is the left/right set: all seven siding pictures are drawings the IO notes label with their side, and 6 of 7 answers were 'right'; three are mirrored here and the IO headers need the side word removed. Result: 88 REWRITE, 1 DROP (#189, duplicate of #212), plus one new note to add from the #33 split."
+}

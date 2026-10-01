@@ -161,6 +161,21 @@
    ],
    "profile": "science",
    "notes": "Whole-deck build 2026-09-29 at Parker's request (every fact on the slides + speaker notes, IO for every labeled plate incl. lab-manual Ch 7 model photos). NOT highlight-driven: every card carries an authorization block quoting his request. Cards are routed per topic with anki_write --deck into six subdecks under deck_root (Bone Basics & Cartilage, Skull & Hyoid, Skull Foramina & Cranial Floor, Vertebral Column, Sacrum & Coccyx, Thoracic Cage). Image Occlusion notes are written by work/biol214-w05/build/io_write.py, not anki_write. Source .pptx: Drive 07_Week 5 - Axial Skeleton/04_B214 04 Axial Skeleton 2026.pptx (speaker notes carry the testable-scope statements)."
+  },
+  "biol214-w06": {
+   "label": "BIOL 214 Lab — W06 The Appendicular Skeleton slides (Howell et al., Fa26)",
+   "attachment_key": "6BDNNMXY",
+   "kind": "lecture",
+   "segment_noun": "Chapter",
+   "deck_root": "all::LIBERTY::LIBERTY FALL 2026::BIOL 214 - Human Anatomy & Physiology I Lab::Practical 2::Appendicular Skeleton",
+   "deck": "{root}",
+   "tags": [
+    "BIOL214",
+    "W06",
+    "practical2"
+   ],
+   "profile": "science",
+   "notes": "Whole-deck build 2026-09-30 at Parker's request ('the maximal set ... exactly what you did before ... plus the recording from lab'). Sources: the W06 slides + speaker notes, the 9/30 lab recording (Voice Memo '1971 University Blvd 7', mlx_whisper transcript in work/biol214-w06/audio), the Ch 8 study guide posted to Canvas 9/30, lab manual Ch 8 (pdf 179-198 incl. blue pages), the Popcorn Points renders. NOT highlight-driven: every card carries an authorization block quoting his request. Cloze cards routed per topic with anki_write --deck into subdecks under deck_root; Image Occlusion notes are written by work/biol214-w06/build/io_write.py. Source .pptx: Drive 08_Week 6 - Appendicular Skeleton/04_B214 05 Appendicular Skeleton 2026.pptx."
   }
  }
 }

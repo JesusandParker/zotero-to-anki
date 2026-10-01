@@ -1,0 +1,481 @@
+[
+ {
+  "Text": "The lab manual counts {{c1::130::number of bones}} appendicular bones out of its 210 total.",
+  "Back Extra": "Why: the manual adds four sesamoid bones (two under each big toe) to the usual count of 126 appendicular bones out of 206.<br><br>Pitfall: sources disagree on the totals, and on the last home quiz the lab accepted all three bone totals.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.170 + Fig 8-1 ('Of the 210 bones ... 130'); study guide p.1 ('130 appendicular bones of 210'); slide 2 ('Appendicular Skeleton (126)'); lab recording 9/30 [01:05]",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_01_appendicular.jpg",
+  "image_side": "back",
+  "draft_idx": 0,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "Most of the appendicular skeleton's bones are in the {{c1::hands and feet::which two parts of the limbs}}.",
+  "Back Extra": "Why: each hand and wrist holds 27 bones and each foot 26, so 106 of the 126 appendicular bones are in the hands and feet.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.170 ('Most of those bones are found in the hands and feet'); study guide p.1",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_01_appendicular.jpg",
+  "image_side": "back",
+  "draft_idx": 1,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "Not counting the pectoral girdle, each upper limb has {{c1::30::number of bones}} bones.",
+  "Back Extra": "Why: 1 humerus + 1 radius + 1 ulna + 8 carpals + 5 metacarpals + 14 phalanges = 30, so the two upper limbs hold 60 bones, most of them in the hands.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.170 ('Sixty bones are found in the upper limbs') + Fig 8-1; slide 2; blue page Q2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_01_appendicular.jpg",
+  "image_side": "back",
+  "draft_idx": 2,
+  "back_img": null,
+  "extra_tags": [
+   "src::blue-pages",
+   "src::manual",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "Not counting the hip bone or the small sesamoids under the big toe, each lower limb has {{c1::30::number of bones}} bones.",
+  "Back Extra": "Why: femur + patella + tibia + fibula + 7 tarsals + 5 metatarsals + 14 phalanges = 30; the patella is a sesamoid too, but every count includes it.<br><br>Pitfall: the manual adds the two sesamoids under each big toe, giving 32 per limb (64 for both).",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 2 (Femur, Patella, Tibia, Fibula (2 each), Tarsals (14), Metatarsals (10), Phalanges (28)); lab manual Fig 8-1 (+ '4 sesamoids'); study guide p.1 ('lower limbs 64'); blue page Q2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_01_appendicular.jpg",
+  "image_side": "back",
+  "draft_idx": 3,
+  "back_img": null,
+  "extra_tags": [
+   "src::blue-pages",
+   "src::manual",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The pectoral girdles contribute {{c1::4::number}} bones to the appendicular skeleton, and the pelvic girdle contributes {{c2::2::number}}.",
+  "Back Extra": "Why: each pectoral girdle is a clavicle plus a scapula (2 × 2 = 4), while the pelvic girdle's appendicular part is just the two os coxae.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 2 (Scapula (2), Clavicles (2), Os coxae (2)); lab manual Fig 8-1; study guide p.1 ('pectoral girdle 4 · ... · os coxae 2'); blue page Q2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_01_appendicular.jpg",
+  "image_side": "back",
+  "draft_idx": 4,
+  "back_img": null,
+  "extra_tags": [
+   "src::blue-pages",
+   "src::manual",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The lab sides a loose bone in three steps: name the bone, find its {{c1::anterior and posterior}} faces, then use one medial or lateral landmark to call left or right.",
+  "Back Extra": "Why: many bones look right either way until you know which face is the front and which end is up; after that, one medial or lateral landmark settles the side.<br><br>Cue: on the practical the bone lies loose in any orientation, so pick it up and turn it into anatomical position first.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [06:39] ('first identify the anterior posterior side and then ... the left and right') + [47:50] (Dr. Blais: 'I got to pick it up'); slides 3 + 16 ('Be able to differentiate Left vs Right')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s02_overview.jpg",
+  "image_side": "back",
+  "draft_idx": 5,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The lab names every bone's orientation as if the body were in {{c1::anatomical position}}.",
+  "Back Extra": "Why: anatomical position is standing upright with the palms facing forward, so the thumbs point outward and the radius and its styloid process count as lateral even when your own forearm is turned.<br><br>Pitfall: a relaxed arm hangs palm-in, which makes the radius look anterior; always name sides as if the palms faced forward.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [28:11] ('all of this stuff is going to be in anatomical position, what we taught you in the first week')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s02_overview.jpg",
+  "image_side": "back",
+  "draft_idx": 6,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "A {{c1::fossa}} is a {{c2::shallow depression}} in a bone where another structure sits.",
+  "Back Extra": "Why: a fossa gives a neighboring part room to sit, like the olecranon fossa on the back of the humerus, which takes the ulna's olecranon when you straighten your elbow.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [24:20] ('A fossa is something like a divot within a bone where something else sits') + [54:22] ('a divot within a bone, or a basin, or a concavity')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s05_humerus.png",
+  "image_side": "back",
+  "draft_idx": 7,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "Tuberosities, tubercles, processes, and spines are all bone markings that {{c1::stick out (projections)::stick out or dip in}}.",
+  "Back Extra": "Why: bone builds up where a muscle, tendon, or ligament pulls on it, raising bumps like the tibial tuberosity or the deltoid tuberosity.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [24:20] ('tuberosity, tubercle, process ... bulging out from a bone') + [42:55] ('A spine is something that sticks out') + [61:26]",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s13_tibia_fibula.png",
+  "image_side": "back",
+  "draft_idx": 8,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "A {{c1::foramen}} is a {{c2::hole::kind of bone marking}} in a bone that nerves and blood vessels pass through.",
+  "Back Extra": "Why: nerves and vessels have to cross bone to reach what they supply, so bones have holes where they pass; the obturator foramen of the hip bone is the largest in the body.<br><br>Pitfall: as a bone marking, a foramen is a hole through bone; the instructor said openings in muscles are not called foramina.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 9 notes ('Foramen = hole'); lab recording 9/30 [50:18]-[51:05] ('There's a lot of important structures that flow through foramens')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s10_hip_medial.png",
+  "image_side": "back",
+  "draft_idx": 9,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "About {{c1::99::percent}}% of the body's calcium is stored in the bones.",
+  "Back Extra": "Why: bone mineral is calcium phosphate (hydroxyapatite), so the skeleton doubles as the body's calcium bank and releases calcium into the blood when levels drop.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [00:51] (home-quiz correction: 'the percent of calcium in the bones. It was supposed to be 99%')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s02_overview.jpg",
+  "image_side": "back",
+  "draft_idx": 10,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "A newborn has about {{c1::275::number}} bones.",
+  "Back Extra": "Why: many adult bones, such as the sternum and the phalanges, start out as several pieces that fuse later in life.<br><br>Pitfall: estimates vary (roughly 270 to 300); 275 is the lab manual's figure.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.182 ('a newborn baby has closer to 275 bones'); study guide p.2 ('Newborn ≈ 275 bones')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_17_fetal.jpg",
+  "image_side": "back",
+  "draft_idx": 11,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "In a fetus, the {{c1::skull}} and {{c1::ribcage}} are disproportionately large, while the {{c2::limbs}} are disproportionately short.",
+  "Back Extra": "Why: growth runs head-first, so the brain and chest develop early and the limbs do most of their lengthening after birth.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.182 ('The skull of the fetus is disproportionately large, as is the ribcage. The limbs ... disproportionately short'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_17_fetal.jpg",
+  "image_side": "back",
+  "draft_idx": 12,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "In a fetus, the wrist and ankle bones are small and mostly {{c1::cartilage}}.",
+  "Back Extra": "Why: bones form by replacing a cartilage model, and the carpals and tarsals are among the last to ossify; most carpals don't start until after birth.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.182 ('The wrist and ankle bones are small and mostly cartilage'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_17_fetal.jpg",
+  "image_side": "back",
+  "draft_idx": 13,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The fetal mandible is almost {{c1::straight}}, which reduces the jaw's leverage and makes nursing easier for the mother.",
+  "Back Extra": "Why: an angled adult jaw gives the chewing muscles a strong lever; the nearly straight newborn jaw produces far less bite force.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.182 ('The mandible is almost straight ... makes nursing easier for the mother'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_18_fetal_skull.jpg",
+  "image_side": "back",
+  "draft_idx": 14,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The fetal skull bones are not fused; they are joined by areas of connective tissue called {{c1::fontanels}}.",
+  "Back Extra": "Why: the bones ossify from separate centers and don't meet and fuse until after birth.<br><br>Cue: the fontanels are the baby's 'soft spots' and last for months after birth.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.182 ('held loosely together by connective tissues called fontanels'); study guide p.2 ('Fontanels (\"soft spots\")')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_18_fetal_skull.jpg",
+  "image_side": "back",
+  "draft_idx": 15,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "Fontanels let the fetal skull {{c1::compress and change shape}} as it passes through the birth canal.",
+  "Back Extra": "Why: the skull is the widest part of the baby, and bones held by flexible tissue can shift and overlap slightly instead of cracking.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "overview",
+  "deck": "Overview & Fetal Skeleton",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.182 ('allows the skull (the widest part of the fetus) to be compressed and distorted during the birthing process'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_18_fetal_skull.jpg",
+  "image_side": "back",
+  "draft_idx": 16,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ }
+]

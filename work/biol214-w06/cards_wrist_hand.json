@@ -1,0 +1,676 @@
+[
+ {
+  "Text": "Each wrist has {{c1::8::number of bones}} carpal bones.",
+  "Back Extra": "Why: the carpals sit in two rows of four, a proximal row against the radius and a distal row against the metacarpals.<br><br>Pitfall: if a question says 'in the body', count both wrists (16).",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 2 ('Carpals (16)'); lab manual p.173 ('8 bones in two rows of four'); lab recording 9/30 [64:38]-[65:25] (Dr. Blais: 'Eight in each wrist ... 16 carpal bones')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s07_hand.png",
+  "image_side": "back",
+  "draft_idx": 88,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "Each hand has {{c1::5::number of bones}} metacarpals.",
+  "Back Extra": "Why: one metacarpal carries each digit, and together they form the palm; with both hands that makes 10 in the body.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 2 ('Metacarpals (10)'); lab recording 9/30 [44:37] ('There are five metacarpals') + [69:27] ('There are 10 metacarpals')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s07_hand.png",
+  "image_side": "back",
+  "draft_idx": 89,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "Metacarpals and fingers are numbered 1 to 5 starting from the {{c1::thumb}}.",
+  "Back Extra": "Why: numbering always starts from the thumb (or the big toe), so the pinky's metacarpal is metacarpal V.<br><br>Cue: give the full name on the practical, e.g. 'fifth metacarpal of the right hand.'",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [44:37]-[45:29] ('we want to start always with the big thumb or the big toe ... It would be the fifth metacarpal'); slide 7 figure (1-5); lab manual Fig 8-6",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s07_hand.png",
+  "image_side": "back",
+  "draft_idx": 90,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The thumb has {{c1::2::number of bones}} phalanges; each other finger has {{c2::3::number of bones}}.",
+  "Back Extra": "Why: the thumb has only a proximal and a distal phalanx (no middle one), so it has one joint between its phalanges (IP), where each other finger has two (PIP and DIP).",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [36:17] ('for the thumb ... we have the proximal bone, and then we have the distal bone'); study guide p.1 ('Thumb has 2 phalanges; fingers have 3')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s07_hand.png",
+  "image_side": "back",
+  "draft_idx": 91,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "Each hand has {{c1::14::number of bones}} phalanges.",
+  "Back Extra": "Why: 4 fingers × 3 phalanges + the thumb's 2 = 14, so the two hands hold 28.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 2 ('Phalanges (28)'); lab manual p.179 ('Each of the 14 phalanges can be felt'); study guide p.1 ('All 14 phalanges can be felt')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s07_hand.png",
+  "image_side": "back",
+  "draft_idx": 92,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "A hand has 5 proximal, {{c1::4::number}} middle, and 5 distal phalanges.",
+  "Back Extra": "Why: every digit has a proximal and a distal phalanx, but the thumb has no middle one.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [36:17]-[37:03] (the instructor's own question: 'How many middle phalange bones are there? Four')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s07_hand.png",
+  "image_side": "back",
+  "draft_idx": 93,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "On the practical, a finger bone is named by three pieces of information: its {{c1::digit number}}, whether it is {{c1::proximal, middle, or distal}}, and {{c1::which hand (right or left)}}.",
+  "Back Extra": "Why: the practical asks for the specific bone, e.g. '4th proximal phalanx of the right hand' (the thumb is digit 1); 'phalanx' alone is only half right.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 7 notes ('Especially the terminology of naming the bones in the phalanges (ex. 4th Proximal Phalange of the Right Hand)'); lab recording 9/30 [45:29] + [92:06] ('So specific, it would be a[n] olecranon process of the right')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_06a_hand_palmar.jpg",
+  "image_side": "back",
+  "draft_idx": 94,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "Proximal-row carpals, from the thumb side to the pinky side (So Long To Pinky):<br><br>{{c1::scaphoid::So}}<br><br>{{c1::lunate::Long}}<br><br>{{c1::triquetrum::To}}<br><br>{{c1::pisiform::Pinky}}",
+  "Back Extra": "Why: the proximal row is the carpal row next to the forearm, where it articulates with the radius (a cartilage disc keeps the ulna off it).<br><br>Mnemonic: So Long To Pinky, Here Comes The Thumb.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 7 (Carpals list + 'Mnemonic: So Long To Pinky, Here Comes The Thumb') + notes; lab manual p.173 + Fig 8-6",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s07_hand.png",
+  "image_side": "back",
+  "draft_idx": 95,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "Distal-row carpals, from the pinky side back to the thumb (Here Comes The Thumb):<br><br>{{c1::hamate::Here}}<br><br>{{c1::capitate::Comes}}<br><br>{{c1::trapezoid::The}}<br><br>{{c1::trapezium::Thumb}}",
+  "Back Extra": "Why: after crossing the proximal row, the mnemonic loops up to the distal row and comes back toward the thumb.<br><br>Mnemonic: So Long To Pinky, Here Comes The Thumb.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 7 (Carpals list + mnemonic) + notes ('Loop up and back around towards thumb'); lab manual p.173 + Fig 8-6",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s07_hand.png",
+  "image_side": "back",
+  "draft_idx": 96,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The carpal mnemonic only works if you start at the {{c1::scaphoid::carpal}}, the proximal carpal on the thumb side, next to the radius.",
+  "Back Extra": "Why: the order runs across the proximal row from thumb to pinky and then loops back along the distal row, so it has to start in that corner.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 7 notes ('Mnemonic works only if you start at scaphoid', 'Find proximal carpal on thumb side (near the radius on the thumb side)'); lab recording 9/30 [33:03]",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s07_hand.png",
+  "image_side": "back",
+  "draft_idx": 97,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The {{c1::pisiform}} is the small carpal that sits on the palm side of the wrist, on top of the triquetrum.",
+  "Back Extra": "Why: pisiform means 'pea-shaped'; it lies inside a wrist flexor tendon, so it rides on the front (palm side) of the triquetrum rather than lining up beside the other proximal-row carpals.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 7 notes ('The pisiform is on the anterior (palm side) of the hand'); lab recording 9/30 [31:27]-[32:18] ('it's going to kind of sit on top of the triquetrum')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s07_hand.png",
+  "image_side": "back",
+  "draft_idx": 98,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "On a loose hand, the pisiform marks both the {{c1::anterior (palm)}} side and the {{c2::medial (pinky)}} side.",
+  "Back Extra": "Why: once you know which face is the palm and which edge is the pinky side, the thumb (lateral) is on the other edge and the side follows.<br><br>Pitfall: in lab the instructor first said 'lateral', then corrected herself; the pisiform is MEDIAL.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 7 notes ('The pisiform is on the anterior (palm side) of the hand--> how to determine left versus right'); lab recording 9/30 [37:57]-[38:43] ('actually that's medial, why did I say lateral? The PISI form is going to be medial')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s07_hand.png",
+  "image_side": "back",
+  "draft_idx": 99,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The {{c1::trapezium}} is the distal carpal at the base of the thumb.",
+  "Back Extra": "Why: the trapezium forms the saddle-shaped joint that lets the thumb swing across the palm.<br><br>Mnemonic: trapeziUM sits under the thUMb.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.173 ('the trapezium (which articulates with the thumb)'); study guide p.1 ('Trapezium → thumb')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_06b_hand_dorsum.jpg",
+  "image_side": "back",
+  "draft_idx": 100,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The {{c1::trapezoid}} is the distal carpal at the base of the index finger.",
+  "Back Extra": "Why: the trapezoid sits between the trapezium (thumb) and the capitate (middle finger).<br><br>Pitfall: trapezoid and trapezium are spelled alike but are different bones, and the lab counts a swap as wrong.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.173 ('the trapezoid (which articulates with the index finger)'); study guide p.1; lab recording 9/30 [33:03]-[33:49] ('if we switch those up, that is technically wrong')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_06b_hand_dorsum.jpg",
+  "image_side": "back",
+  "draft_idx": 101,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The {{c1::capitate}} is the distal carpal at the base of the middle finger.",
+  "Back Extra": "Why: capitate means 'head-shaped'; it is the largest carpal and sits in the center of the wrist.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.173 ('the capitate (which articulates with the middle finger)'); study guide p.1",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_06b_hand_dorsum.jpg",
+  "image_side": "back",
+  "draft_idx": 102,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The {{c1::hamate}} is the distal carpal at the base of the ring and pinky fingers.",
+  "Back Extra": "Why: hamate means 'hooked'; it has a hook on its palm side and carries the two metacarpals on the pinky side of the hand.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.173 ('the hamate which articulates with the pinky and ring fingers'); study guide p.1",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_06b_hand_dorsum.jpg",
+  "image_side": "back",
+  "draft_idx": 103,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The bump at the base of the hypothenar eminence (the fleshy heel of the palm on the pinky side) is the {{c1::pisiform}}.",
+  "Back Extra": "Why: the pisiform sits on the palm side of the wrist, on top of the triquetrum, right where the heel of the hand meets the wrist crease.<br><br>Pitfall: the manual's carpal description and the study guide swap the pisiform and the triquetrum; the manual's palpation section has it right, with the triquetrum as the smaller bump on the back of the wrist just past the head of the ulna.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.179 ('at the base of the hypothenar eminence the pisiform bone can be palpated'; the triquetrum is 'distal to the head of the ulna'); conflicts: lab manual p.173 + study guide p.1 swap the two",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_06b_hand_dorsum.jpg",
+  "image_side": "back",
+  "draft_idx": 104,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "Each hand and wrist together contain {{c1::27::number}} bones.",
+  "Back Extra": "Why: 8 carpals + 5 metacarpals + 14 phalanges = 27.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.173 ('There are 27 bones in each hand and wrist'); study guide p.1 ('27 bones each side')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_06a_hand_palmar.jpg",
+  "image_side": "back",
+  "draft_idx": 105,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The knuckles are the {{c1::heads of the metacarpals}}.",
+  "Back Extra": "Why: each metacarpal ends in a rounded head that pushes up under the skin when you make a fist.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.179 ('the head of each bone is readily seen and felt at the distal ends (also known as the \"knuckles\")'); study guide p.1 ('Metacarpal heads = knuckles')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_06a_hand_palmar.jpg",
+  "image_side": "back",
+  "draft_idx": 106,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The lines you see on the back of your hand are {{c1::extensor tendons}}, not metacarpals.",
+  "Back Extra": "Why: the metacarpals lie deeper and are felt rather than seen; the tendons that straighten the fingers ride just under the skin.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.179 ('The lines you might see on the dorsum side of the hand are not the metacarpal bones but are tendons of the extensor muscles'); study guide p.1",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_06b_hand_dorsum.jpg",
+  "image_side": "back",
+  "draft_idx": 107,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The metacarpals arch so that the palm is {{c1::concave (cupped)}} on its anterior (palm) side.",
+  "Back Extra": "Why: the arched metacarpals cup the palm around what you grip, so the hollow side is always the palm.<br><br>Cue: hold a loose hand the way your own hangs in anatomical position, fingers pointing down and cupped palm facing forward (away from you); if its thumb points to your right, it is a right hand.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [38:43]-[39:34] (Dr. Blais: 'These metacarpals are curved. They form the palm ... the curvature is always going to be concave in the front')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_06a_hand_palmar.jpg",
+  "image_side": "back",
+  "draft_idx": 108,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "Skeleton seen from the front: name the bone at pin 23, with its side. {{c1::left first metacarpal (metacarpal I)::side + bone}}",
+  "Back Extra": "Why: the digit standing apart from the curled fingers has only three bones, so it is the thumb, and pin 23 is the long bone springing from the wrist; seen from the front, the skeleton's left hand is on your right.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "Popcorn Points slide 3, pin 23 (no instructor key; the thumb is the digit with only three bones: metacarpal + 2 phalanges)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/pp3_lower_pins.png",
+  "image_side": "front",
+  "draft_idx": null,
+  "back_img": null,
+  "extra_tags": [
+   "src::popcorn",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "Skeleton seen from the front: name the bone at pin 24, with its side. {{c1::left first proximal phalanx (of the thumb)::side + bone}}",
+  "Back Extra": "Why: the thumb has no middle phalanx, so the segment after its metacarpal is the proximal phalanx; the hand is the skeleton's left (your right, seen from the front).",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "Popcorn Points slide 3, pin 24 (no instructor key; thumb = metacarpal + proximal + distal phalanx)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/pp3_lower_pins.png",
+  "image_side": "front",
+  "draft_idx": null,
+  "back_img": null,
+  "extra_tags": [
+   "src::popcorn",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "Skeleton seen from the front: name the bone at pin 25, with its side. {{c1::left first distal phalanx (thumb tip)::side + bone}}",
+  "Back Extra": "Why: the tip of the thumb is its distal phalanx, the last of its two phalanges; the hand is the skeleton's left (your right, seen from the front).",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "wrist_hand",
+  "deck": "Wrist & Hand",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "Popcorn Points slide 3, pin 25 (no instructor key; thumb tip)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/pp3_lower_pins.png",
+  "image_side": "front",
+  "draft_idx": null,
+  "back_img": null,
+  "extra_tags": [
+   "src::popcorn",
+   "src::slides"
+  ]
+ }
+]

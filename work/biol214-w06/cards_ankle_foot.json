@@ -1,0 +1,902 @@
+[
+ {
+  "Text": "Each ankle has {{c1::7::number of bones}} tarsal bones.",
+  "Back Extra": "Why: 2 in the hindfoot (talus, calcaneus) + 5 in the midfoot (navicular, 3 cuneiforms, cuboid) = 7, so 14 in the body.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 2 ('Tarsals (14)'); lab manual p.177 ('There are seven ankle (or tarsal) bones')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s14_foot.png",
+  "image_side": "back",
+  "draft_idx": 187,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "Tarsals in mnemonic order (The Circus Needs More Interesting Little Clowns):<br><br>{{c1::talus::The}}<br><br>{{c1::calcaneus::Circus}}<br><br>{{c1::navicular::Needs}}<br><br>{{c1::medial, intermediate, and lateral cuneiforms::More Interesting Little}}<br><br>{{c1::cuboid::Clowns}}",
+  "Back Extra": "Why: start at the talus on top, drop to the calcaneus, run forward and medially to the navicular and the three cuneiforms (toward the big toe), then finish laterally at the cuboid (toward the little toe).",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 14 (Tarsals list + 'Mnemonic: The Circus Needs More Interesting Little Clowns') + notes ('Start on proximal portion of foot at talus ... Move laterally towards little toe'); lab recording 9/30 [66:11]-[67:00]",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s14_foot.png",
+  "image_side": "back",
+  "draft_idx": 188,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The heel bone, the largest tarsal, is the {{c1::calcaneus}}.",
+  "Back Extra": "Why: the calcaneus takes the full impact of each heel strike and anchors the Achilles tendon.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [66:11] ('The one that is our heel bone is called the calcaneus'); lab manual p.178 ('The calcaneus forms the bulk of your heel'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_12_leg_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 190,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The hindfoot is made of the {{c1::talus}} and the {{c1::calcaneus}}.",
+  "Back Extra": "Why: the talus and calcaneus carry the leg's weight down to the heel, at the back of the foot.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.177 ('The talus and calcaneus constitute the hindfoot') + Fig 8-13; lab recording 9/30 [66:11] ('they make up the rear foot'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_13_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 191,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The midfoot is made of the {{c1::navicular}}, the {{c1::three cuneiforms}}, and the {{c1::cuboid}}.",
+  "Back Extra": "Why: the five midfoot tarsals sit in front of the hindfoot and link the talus and calcaneus to the metatarsals.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.177 ('These five tarsal bones constitute the midfoot') + Fig 8-13; study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_13_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 192,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The forefoot is made of the {{c1::metatarsals}} and the {{c1::phalanges}}.",
+  "Back Extra": "Why: the long bones at the front of the foot spread the load across the ball of the foot and the toes.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual Fig 8-13 (forefoot / midfoot / hindfoot); study guide p.2 ('Forefoot: 5 metatarsals + 14 phalanges')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_13_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 193,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The {{c1::navicular}} bridges the talus and the three cuneiforms.",
+  "Back Extra": "Why: the navicular sits in front of the talus on the inner side of the foot and passes the talus's load forward to the cuneiforms.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.177 ('The navicular bone bridges the talus and the three cuneiform bones'); study guide p.2 ('Navicular (talus → three cuneiforms)')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s14_foot.png",
+  "image_side": "back",
+  "draft_idx": 194,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The navicular can be felt as a large bump on the {{c1::medial}} side of the foot, high on the arch.",
+  "Back Extra": "Why: the navicular sits near the top of the inner (medial longitudinal) arch, which is why its height from the floor is one of the lab's arch measurements.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.178 ('The navicular bone can often be felt and seen as a large bump on the medial side of your foot, high on the arch'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_15_arch_height.jpg",
+  "image_side": "back",
+  "draft_idx": 195,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The {{c1::cuboid}} sits on the lateral side of the foot, between the calcaneus and the 5th metatarsal.",
+  "Back Extra": "Why: cuboid means 'cube-shaped'; it carries the outer column of the foot from the heel to the little toe's metatarsal.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.177 ('Laterally, the cuboid bone is found between the calcaneus and 5th metatarsal'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s14_foot.png",
+  "image_side": "back",
+  "draft_idx": 196,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The three cuneiforms are named {{c1::medial, intermediate, and lateral}}, from the big-toe side outward.",
+  "Back Extra": "Why: cuneiform means 'wedge-shaped'; the three wedges sit in a row in front of the navicular, each carrying one of the first three metatarsals.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 14 (Medial / Intermediate / Lateral Cuneiform); lab manual Fig 8-13 (1C, 2C, 3C); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s14_foot.png",
+  "image_side": "back",
+  "draft_idx": 197,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "Each foot has {{c1::5::number of bones}} metatarsals, numbered starting from the {{c2::big toe::big toe or little toe}}.",
+  "Back Extra": "Why: one metatarsal carries each toe, numbered I to V from the big toe (on the medial side of the foot), just as the hand is numbered from the thumb; that makes 10 in the body.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 2 ('Metatarsals (10)'); slide 14 notes ('I-V (beginning with hallux)'); lab recording 9/30 [67:50] ('The big toes, number one, first metatarsal')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s14_foot.png",
+  "image_side": "back",
+  "draft_idx": 198,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "Each foot has {{c1::14::number of bones}} phalanges; the big toe has {{c2::2::number of bones}}.",
+  "Back Extra": "Why: exactly like the hand: 3 in each of the four smaller toes plus 2 in the big toe (hallux), which has no middle phalanx.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 14 notes ('I-V, proximal, middle & distal (except hallux has no middle phalanx)'); lab recording 9/30 [67:50]-[68:42]; lab manual p.177 ('The toes, or digits, contain 14 bones'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_13_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 199,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The body has {{c1::56::number of bones}} phalanges in all.",
+  "Back Extra": "Why: each hand and each foot has 14, so 28 in the hands + 28 in the feet = 56; a question asking for the phalanges 'in the body' means all four limbs.<br><br>Pitfall: the lab's bone list gives 'Phalanges (28)' twice, once for the hands and once for the feet, so don't stop at 28.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [68:42] (Dr. Blais: '28 in the hand, 28 in the feet, 56 all together ... I'm giving you the tricky questions now so you don't mess it up on a test'); slide 2 ('Phalanges (28)' under both limbs)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s02_overview.jpg",
+  "image_side": "back",
+  "draft_idx": 200,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The {{c1::hallux}} is the {{c2::big toe}}.",
+  "Back Extra": "Why: 'hallux' is the anatomical name, just as the thumb is the pollex; the big toe's bones are number 1 (first metatarsal, first proximal phalanx).",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.177 ('The hallux, i.e., the first toe, or great toe'); slide 14 notes ('beginning with hallux')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_13_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 201,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The big toe has one joint between its phalanges, the {{c1::IP}} joint; each other toe has two, the {{c1::PIP and DIP}} joints.",
+  "Back Extra": "Why: joints sit between phalanges, so two phalanges make one interphalangeal (IP) joint and three make a proximal and a distal one.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.177 ('The joint between the proximal and distal first phalanges is the interphalangeal (IP) joint. The two joints in the other toes are the distal interphalangeal joints (DIP) and proximal interphalangeal joints (PIP)'); study guide p.2; lab manual Fig 8-13",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_13_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 202,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The base of each metatarsal meets the {{c1::tarsals}}, and its head meets a {{c1::proximal phalanx}}.",
+  "Back Extra": "Why: for metacarpals and metatarsals alike, the base is the proximal end and the head is the distal end.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.177 ('The base of each metatarsal articulates with the ankle bones; the head of each metatarsal articulates with a proximal phalanx')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_13_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 203,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual"
+  ]
+ },
+ {
+  "Text": "The bump on the lateral side of the foot, halfway between the heel and the little toe, is the tuberosity of the {{c1::5th metatarsal}}.",
+  "Back Extra": "Why: the tuberosity juts from the base of the little toe's metatarsal on the outer edge of the foot, where the tendon of fibularis brevis, a muscle on the lateral side of the leg, attaches.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.178 ('The large tuberosity of the 5th metatarsal can be felt as a bump on the lateral side of your foot, exactly halfway between your heel and \"pinky\" toe'); study guide p.2; slide 14 notes; blue page 185 (palpation check-off)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_12_leg_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 204,
+  "back_img": null,
+  "extra_tags": [
+   "src::blue-pages",
+   "src::manual",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The highest point of the foot is the base of the {{c1::2nd metatarsal}}.",
+  "Back Extra": "Why: the 2nd metatarsal's base is wedged in among the cuneiforms at the top of the foot's transverse dome.<br><br>Pitfall: taken literally the talus, which the tibia rests on, sits higher; the manual's 'highest point' is the peak of the transverse arch, not of the whole foot.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.178 ('The highest point of the foot is the base of the 2nd metatarsal'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_14_arches.jpg",
+  "image_side": "back",
+  "draft_idx": 205,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The foot has three arches: the {{c1::medial longitudinal}}, the {{c1::lateral longitudinal}}, and the {{c1::transverse}} arch.",
+  "Back Extra": "Why: two run heel to toe along the inner and outer edges, and one arcs across the width of the foot.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.177 ('the metatarsals form three arches: The medial longitudinal arch ... the lateral longitudinal arch ... and the transverse arch'); study guide p.2; lab manual Fig 8-14",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_14_arches.jpg",
+  "image_side": "back",
+  "draft_idx": 206,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The keystone of the medial longitudinal arch is the {{c1::talus}}.",
+  "Back Extra": "Why: a keystone is the top stone of an arch, and the talus sits highest on the inner arch, taking the tibia's load.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "study guide p.2 ('Medial longitudinal (keystone ≈ talus)'); lab manual Fig 8-14 + p.177 ('Each arch has a keystone bone that marks the top of the arch')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_14_arches.jpg",
+  "image_side": "back",
+  "draft_idx": 207,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The keystone of the lateral longitudinal arch is the {{c1::cuboid}}.",
+  "Back Extra": "Why: the cuboid sits at the top of the outer arch, between the calcaneus and the 5th metatarsal.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "study guide p.2 ('Lateral longitudinal (keystone ≈ cuboid)'); lab manual Fig 8-14",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_14_arches.jpg",
+  "image_side": "back",
+  "draft_idx": 208,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "Per the lab manual, the keystones of the transverse arch are the {{c1::medial cuneiform}} and the base of the {{c1::2nd metatarsal}}.",
+  "Back Extra": "Why: a keystone marks the top of an arch, and the manual's figure shades the medial cuneiform and the wedged-in base of the 2nd metatarsal at the top of the dome across the foot.<br><br>Pitfall: most anatomy texts name the intermediate (middle) cuneiform, not the medial one, as the transverse arch's keystone; the manual and study guide say medial cuneiform.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "study guide p.2 ('Transverse (keystone ≈ medial cuneiform / 2nd metatarsal base)'); lab manual Fig 8-14",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_14_arches.jpg",
+  "image_side": "back",
+  "draft_idx": 209,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The arches of the foot act as {{c1::shock absorbers and springs}}, held up mainly by {{c2::ligaments}}.",
+  "Back Extra": "Why: the arched bones flatten slightly under each step and spring back, cushioning impact, while ligaments tie the arch's ends like a bowstring.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.177 ('These arches are dynamic structures that act as shock absorbers and springs when walking. The arches are held in place largely by supporting ligaments'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_14_arches.jpg",
+  "image_side": "back",
+  "draft_idx": 210,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "Stretched (elongated) ligaments let the arch drop, giving a {{c1::fallen arch (flat feet)}}.",
+  "Back Extra": "Why: once the ligaments stop holding the arch's ends together, the arch sags under body weight.<br><br>Cue: the manual asserts, without a source, that 'mounting evidence' blames shoes for most fallen arches and that walking barefoot can strengthen weak ones.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.177-178 ('elongated ligaments resulting in a \"fallen arch\", or \"flat feet.\" There is mounting evidence that shoes are the cause of most fallen arches'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_14_arches.jpg",
+  "image_side": "back",
+  "draft_idx": 211,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "Standing, body weight passes from the femur to the {{c1::tibia}}, then the {{c1::talus}}, then the {{c1::calcaneus}}.",
+  "Back Extra": "Why: the thick tibia sits on top of the talus, the talus on the heel bone, and the heel on the ground; the fibula is not part of this column.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.177 ('body weight is transferred from the femur to the tibia to the talus to the calcaneus'); blue page 186 Q3 ('Which bones of the lower limb support the body when standing?')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_12_leg_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 212,
+  "back_img": null,
+  "extra_tags": [
+   "src::blue-pages",
+   "src::manual"
+  ]
+ },
+ {
+  "Text": "When walking, weight rolls from the heel along the {{c1::lateral}} edge of the foot, across the {{c1::heads of the metatarsals}}, and finally to the {{c1::great toe}}.",
+  "Back Extra": "Why: the heel strikes first, weight rolls along the outer edge over the 5th metatarsal, crosses the ball of the foot, and the big toe pushes off into the next step.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.177 ('When walking, your body weight is transferred from the femur to the tibia to the talus to the calcaneus, then along the lateral edge of the foot through the 5th metatarsal, across the heads of the metatarsals and finally to the phalanges of the great toe'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_13_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 213,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "Each foot's two sesamoid bones sit under the head of the {{c1::first metatarsal (big toe)::which bone}}.",
+  "Back Extra": "Why: the sesamoids sit in the tendons under the ball of the big toe and take the pressure as you push off.<br><br>Cue: the four foot sesamoids are why the manual counts 210 bones instead of 206.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [68:42] (Dr. Blais: 'Right under that first metatarsal ... you're going to have two little sesamoid bones. They're medial and lateral sesamoids'); study guide p.2 ('Each foot has two sesamoid bones under the hallux'); lab manual Fig 8-1 ('4 sesamoids')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_13_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 214,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "Sesamoid bones are bones that form inside {{c1::tendons}}.",
+  "Back Extra": "Why: a bone embedded in a tendon protects it and improves its leverage; the patella and the two under each big toe are the main ones, and some people have extras in the hands or feet.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [68:42]-[69:27] (Dr. Blais: 'What are sesamoid bones? They are bones within tendons')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s12_patella.png",
+  "image_side": "back",
+  "draft_idx": 215,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "A normal transverse arch index (TAI) is {{c1::0.75–1.25::range}}.",
+  "Back Extra": "Why: in a normal foot the inner edge of the midfoot print falls near the foot's long axis, so the two distances are about equal and the ratio sits near 1; below 0.74 is a high arch, 1.26 to 2 a low arch, and above 2 a flat foot.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.181 (arch-type table: High arch <0.74, Normal 0.75 - 1.25, Low 1.26 - 2, Flat >2); study guide p.2 ('Arch TAI')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_15_arch_height.jpg",
+  "image_side": "back",
+  "draft_idx": 216,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The higher the TAI, the {{c1::lower (flatter)::higher or lower}} the arch.",
+  "Back Extra": "Why: the TAI rises as more of the midfoot prints on the paper, pushing the print's inner edge toward the medial line.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.181 (arch-type table) + Fig 8-15 (High TAI=0.545, Normal 0.750, Low 1.94)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_15_arch_height.jpg",
+  "image_side": "back",
+  "draft_idx": 217,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual"
+  ]
+ },
+ {
+  "Text": "The transverse arch index (TAI) from a charcoal footprint is the ratio {{c1::MC / MA}}, measured across the middle of the print.",
+  "Back Extra": "Why: along the line across the middle of the print, M sits on the medial line, C on the footprint's long axis, and A on the print's inner edge; as the arch sags, A creeps toward M, so MA shrinks and the ratio rises.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.180 (Activity 4 step 7: 'The transverse arch index (TAI) is the ratio of MC/MA')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_15_arch_height.jpg",
+  "image_side": "back",
+  "draft_idx": 218,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual"
+  ]
+ },
+ {
+  "Text": "Besides the TAI, the arch activity records the height of the {{c1::navicular}} bone from the floor while standing.",
+  "Back Extra": "Why: the navicular sits near the top of the medial arch, so its height is a direct measure of how high the arch is.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "ankle_foot",
+  "deck": "Ankle & Foot",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.181 (Activity 4 step 9: 'measure the height of the navicular bone from the floor (in mm) while standing'); study guide p.2 ('Also record navicular height from the floor')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_15_arch_height.jpg",
+  "image_side": "back",
+  "draft_idx": 219,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ }
+]

@@ -1,0 +1,799 @@
+[
+ {
+  "Text": "Each pectoral girdle is made of two bones: the {{c1::clavicle}} and the {{c1::scapula}}.",
+  "Back Extra": "Why: together they hang each arm from the trunk; the clavicle braces the shoulder out to the side and the scapula provides the socket.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 2 (Pectoral Girdle: Scapula, Clavicles); slide 3 notes ('Made of scapula and clavicle'); lab manual p.170",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s03_clavicle.png",
+  "image_side": "back",
+  "draft_idx": 17,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The pectoral girdle attaches the {{c1::upper limb}} to the {{c2::axial skeleton}}.",
+  "Back Extra": "Why: the limbs are appendicular, so each needs a girdle to anchor it to the body's central axis.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 3 notes ('Attaches upper limb to axial skeleton'); lab recording 9/30 [07:31]; lab manual p.170",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s03_clavicle.png",
+  "image_side": "back",
+  "draft_idx": 18,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The only bony joint between the upper limb and the axial skeleton is between the {{c1::clavicle}} and the {{c2::manubrium of the sternum}}.",
+  "Back Extra": "Why: the scapula has no joint with the ribs or spine, so the clavicle is the arm's only bony strut to the trunk.<br><br>Cue: the clavicle-manubrium joint is the sternoclavicular joint, beside the jugular notch at the base of the neck.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.170 ('the only articulation of the upper limbs with the axial skeleton occurs between the clavicles ... and the manubrium'); study guide p.1",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_03_clavicles.jpg",
+  "image_side": "back",
+  "draft_idx": 19,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The scapulae have no direct attachment to the axial skeleton; they are held over the posterior ribs by {{c1::muscles}}.",
+  "Back Extra": "Why: with no bony joint to the ribs or spine, each scapula can slide up and down and side to side over the ribs, which greatly widens the arm's range of motion.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.170 ('These \"floating\" bones have no direct attachment to the axial skeleton ... held in place by muscles'); study guide p.1",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_02_scapula.jpg",
+  "image_side": "back",
+  "draft_idx": 20,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The clavicle's medial end is the {{c1::sternal}} end and its lateral end is the {{c1::acromial}} end.",
+  "Back Extra": "Why: each end is named for what it meets: the sternum (manubrium) medially and the acromion of the scapula laterally.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 3 figure ('Sternal (medial) end', 'Acromial (lateral) end') + notes (landmarks: Acromial end, Sternal End)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s03_clavicle.png",
+  "image_side": "back",
+  "draft_idx": 21,
+  "back_img": null,
+  "extra_tags": [
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The clavicle's lateral end articulates with the scapula at the {{c1::acromion::part of the scapula}}.",
+  "Back Extra": "Why: the acromioclavicular (AC) joint at the top of the shoulder is the clavicle's only joint with the scapula; a ligament also ties the clavicle down to the coracoid process.<br><br>Cue: the lab also calls the acromion the acromial process.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 3 figure ('Acromioclavicular joint'); lab recording 9/30 [11:30] ('the acromial end, articulates with the acromial process'); study guide p.1",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s03_clavicle.png",
+  "image_side": "back",
+  "draft_idx": 22,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "On a loose clavicle, the thick, blunt end with a triangular outline is the {{c1::sternal}} end; the broad, flattened end is the {{c1::acromial}} end.",
+  "Back Extra": "Why: the sternal end is built up to bear against the manubrium, while the acromial end flattens out to meet the small acromion.<br><br>Pitfall: 'flat' is used both ways: the lab's orientation rule and the instructor mean the sternal end's flat tip (like a nail head), but the manual means the acromial end's flattened shape, so go by thickness and call the thick end sternal.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.170 + Fig 8-3 ('acromial end (flat)', 'sternal end (triangular)'); study guide p.1; slide 3 ('The flat sternal end points medially'); lab recording 9/30 [08:20]-[09:08] (sternal end 'looks kind of like a nail'; acromial end 'the round part')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_03_clavicles.jpg",
+  "image_side": "back",
+  "draft_idx": 23,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The clavicle is S-shaped, and its larger (medial) curve bulges {{c1::anteriorly::which direction}}.",
+  "Back Extra": "Why: the medial two-thirds curves forward and the lateral third curves back, so the bone arcs around the front of the ribcage to reach the shoulder.<br><br>Cue: the big bow you feel along your collarbone near the sternum is the forward curve.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [10:44] ('this bigger curvature ... is going to be facing anterior'); lab manual p.170 (S-shaped); slide 3 figure (superior view)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s03_clavicle.png",
+  "image_side": "back",
+  "draft_idx": 24,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The conoid tubercle is on the {{c1::inferior::which surface}} side of the clavicle, near the {{c2::acromial::sternal or acromial}} end.",
+  "Back Extra": "Why: the conoid tubercle anchors the conoid ligament, which ties the clavicle down to the coracoid process below, so finding it tells you which surface faces down.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 3 ('the conoid tubercle points inferiorly'); lab recording 9/30 [09:55] ('closer to the acromial end, this is going to be inferior'); lab manual Fig 8-3 (inferior view)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s03_clavicle.png",
+  "image_side": "back",
+  "draft_idx": 25,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "A clavicle seen from above, with the front of the body toward the bottom of the picture: is it a right or a left clavicle? {{c1::right::side}}",
+  "Back Extra": "Why: the thick, blunt end at the picture's right is the sternal end (medial), so the flattened acromial end points to the picture's left. Looking down from above with the front toward the bottom, the picture's left is the body's right.<br><br>Cue: sternal end medial, big curve bulging forward, conoid tubercle underneath.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 3 figure (b) 'Right clavicle, superior view' (labels erased); orientation rules slide 3; lab recording 9/30 [11:30] ('It's the right clavicle')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/lr_clavicle_superior.png",
+  "image_side": "front",
+  "draft_idx": 26,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The glenoid cavity of the scapula always faces {{c1::laterally::direction}}.",
+  "Back Extra": "Why: the glenoid cavity is the socket for the head of the humerus, and the arm hangs off the side of the body.<br><br>Pitfall: beginners often take the scapula's long curved edge for the lateral side; find the glenoid cavity instead, since wherever it points is lateral.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 4 ('The glenoid cavity faces laterally') + notes ('Glenoid cavity is always lateral'); lab recording 9/30 [14:40]",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s04_scapula.png",
+  "image_side": "back",
+  "draft_idx": 27,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The spine of the scapula is always on its {{c1::posterior::which surface}} surface.",
+  "Back Extra": "Why: the spine is a ridge that anchors back and shoulder muscles, while the front of the scapula lies against the ribs as a smooth hollow (the subscapular fossa).",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 4 ('the spine projects posteriorly') + notes ('Spine of scapula is always posterior'); lab recording 9/30 [13:06]; study guide p.1",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s04_scapula.png",
+  "image_side": "back",
+  "draft_idx": 28,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "On the scapula, the {{c1::coracoid process}} is anterior to the acromion.",
+  "Back Extra": "Why: the coracoid hooks forward under the clavicle toward the chest, while the acromion extends from the spine over the top of the shoulder.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 4 ('Coracoid process is more anterior than the acromial process'); lab recording 9/30 [13:52]",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s04_scapula.png",
+  "image_side": "back",
+  "draft_idx": 29,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "Of the two processes above the glenoid cavity, the larger, flat one that continues from the spine is the {{c1::acromion}}, and the smaller, finger-like hook that curls forward is the {{c1::coracoid process}}.",
+  "Back Extra": "Why: the acromion is the outer end of the scapula's spine, forming the tip of the shoulder; the coracoid ('like a crow's beak') projects forward below the clavicle.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 4 notes ('Be able to distinguish between acromial process and coracoid process'); lab recording 9/30 [16:05] ('this bigger one is called the acromial process'); lab manual Fig 8-2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_02_scapula.jpg",
+  "image_side": "back",
+  "draft_idx": 30,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The glenoid cavity is the socket where the {{c1::head of the humerus}} articulates, forming the shoulder joint.",
+  "Back Extra": "Why: the socket is shallow, which trades stability for the shoulder's huge range of motion.<br><br>Cue: glenohumeral joint = glenoid + humerus.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [13:52]-[14:40] ('the glenoid cavity, which is where the humerus attaches'); lab manual p.170; study guide p.1 ('Glenoid cavity = shallow socket for the humeral head')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_02_scapula.jpg",
+  "image_side": "back",
+  "draft_idx": 31,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The acromion and the coracoid process wrap around the head of the humerus from {{c1::above (superiorly)}}.",
+  "Back Extra": "Why: together they form a bony roof over the shoulder joint, shielding it and anchoring muscles and ligaments.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.170 ('The acromion and coracoid process wrap around the head of the humerus superiorly'); study guide p.1",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_02_scapula.jpg",
+  "image_side": "back",
+  "draft_idx": 32,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The scapula's three borders are the {{c1::superior}}, {{c1::medial}}, and {{c1::lateral}} borders.",
+  "Back Extra": "Why: the scapula is a flat triangle, so its three edges are named for where they face: up, toward the spine, and toward the armpit.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.170 ('three angles and three borders: The superior, lateral and inferior angles and the lateral, medial and superior borders'); study guide p.1; lab recording 9/30 [16:15] ('I want you guys to know the borders'); slide 4 overlays ('superior angle', 'Inferior angle')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_02_scapula.jpg",
+  "image_side": "back",
+  "draft_idx": 33,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The suprascapular notch (called the 'scapula notch' in lab) is on the scapula's {{c1::superior border}}.",
+  "Back Extra": "Why: the suprascapular nerve passes through it on its way to the muscles on the back of the scapula.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "study guide p.1 ('Suprascapular notch sits on the superior border'); lab manual Fig 8-2; slide 4 figure ('Scapula notch')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_02_scapula.jpg",
+  "image_side": "back",
+  "draft_idx": 34,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The spine divides the back of the scapula into the {{c1::supraspinous}} fossa above it and the larger {{c2::infraspinous}} fossa below it.",
+  "Back Extra": "Why: supra- means above and infra- means below the spine; each fossa holds the rotator-cuff muscle named for it.<br><br>Pitfall: the lab instructor said (9/30) they won't ask about these two fossae.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.170 ('The flattened area above the spine is the supraspinous fossa and the larger ... beneath the spine is the infraspinous fossa'); study guide p.1; slide 4 figure; lab recording 9/30 [16:15] (won't be asked)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_02_scapula.jpg",
+  "image_side": "back",
+  "draft_idx": 35,
+  "back_img": null,
+  "extra_tags": [
+   "optional",
+   "src::manual",
+   "src::recording",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The anterior (rib-facing) surface of the scapula is the {{c1::subscapular fossa}}.",
+  "Back Extra": "Why: sub- means under; it is the underside of the scapula, a smooth hollow pressed against the ribs with no spine on it.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 4 (overlay 'Subscapular fossa'); lab manual Fig 8-2; study guide p.1 ('Anterior face = subscapular fossa')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s04_scapula.png",
+  "image_side": "back",
+  "draft_idx": 36,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The bony bump at the top of the shoulder is the {{c1::acromion}}.",
+  "Back Extra": "Why: the acromion is the end of the scapula's spine and lies just under the skin where it meets the clavicle.<br><br>Cue: raise your arm and you can also find it in the dip the deltoid makes at the top of the shoulder.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.170 ('the acromion can be easily seen and felt as a bump on the superior aspect of the shoulder') + p.179; study guide p.1",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_02_scapula.jpg",
+  "image_side": "back",
+  "draft_idx": 37,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The {{c1::coracoid process}} can sometimes be felt on the upper chest just below the clavicle.",
+  "Back Extra": "Why: the coracoid is the only part of the scapula that reaches the front of the body, curling forward under the clavicle.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.170 ('the coracoid process can sometimes be seen on the anterior aspect of the shoulder ... just below the clavicle'); study guide p.1",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_02_scapula.jpg",
+  "image_side": "back",
+  "draft_idx": 38,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "A scapula with all labels removed: is it a right or a left scapula? {{c1::right::side}}",
+  "Back Extra": "Why: the spine shows, so you are looking at its back; the glenoid cavity always points laterally, and it is on the picture's right. Seen from behind, lateral on your right means the body's right side.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 4 figure, posterior view of a right scapula (labels erased); slide 4 notes ('Be able to differentiate right vs left scapula')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/lr_scapula_posterior.jpg",
+  "image_side": "front",
+  "draft_idx": 39,
+  "back_img": null,
+  "extra_tags": [
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "Skeleton seen from the front: name the bone at pin 9, with its side. {{c1::left clavicle::side + bone}}",
+  "Back Extra": "Why: the clavicle is the S-shaped bone running from the top of the sternum out to the shoulder, and seen from the front the skeleton's left side is on your right.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "Popcorn Points slide 2, pin 9 (the instructor key lists only the axial pins: 'The other bones are appendicular')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/pp2_front_pins.png",
+  "image_side": "front",
+  "draft_idx": 40,
+  "back_img": null,
+  "extra_tags": [
+   "src::popcorn",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "Skeleton seen from behind: name the bone at pin 10, with its side. {{c1::left scapula::side + bone}}",
+  "Back Extra": "Why: the scapula is the flat, triangular bone over the upper back ribs, and seen from behind the skeleton's left side is on your left.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "Popcorn Points slide 2, pin 10 (no instructor key for appendicular pins)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/pp2_back_pins.png",
+  "image_side": "front",
+  "draft_idx": 41,
+  "back_img": null,
+  "extra_tags": [
+   "src::popcorn",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The scapula's three angles (corners) are the {{c1::superior}}, {{c1::inferior}}, and {{c1::lateral}} angles.",
+  "Back Extra": "Why: the scapula is a flat triangle, so its corners are named for where they point; the lateral angle is the thick corner that carries the glenoid cavity.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.170 ('three angles and three borders: The superior, lateral and inferior angles'); study guide p.1; slide 4 overlays ('superior angle', 'Inferior angle')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_02_scapula.jpg",
+  "image_side": "back",
+  "draft_idx": null,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "A clavicle seen from above, with the front of the body toward the bottom of the picture: is it a right or a left clavicle? {{c1::left::side}}",
+  "Back Extra": "Why: the thick, blunt end at the picture's left is the sternal end (medial), so the flattened acromial end points to the picture's right. Looking down from above with the front toward the bottom, the picture's right is the body's left.<br><br>Cue: sternal end medial, big curve bulging forward, conoid tubercle underneath.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 3 figure (b) 'Right clavicle, superior view' (labels erased), mirrored left-right = a left clavicle; orientation rules slide 3",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/lr_clavicle_superior_mirror.png",
+  "image_side": "front",
+  "draft_idx": null,
+  "back_img": null,
+  "extra_tags": [
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "A scapula with all labels removed: is it a right or a left scapula? {{c1::left::side}}",
+  "Back Extra": "Why: the spine shows, so you are looking at its back; the glenoid cavity always points laterally, and it is on the picture's left. Seen from behind, lateral on your left means the body's left side.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "pectoral_girdle",
+  "deck": "Pectoral Girdle",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 4 figure, posterior view of a right scapula (labels erased), mirrored left-right = a left scapula",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/lr_scapula_posterior_mirror.jpg",
+  "image_side": "front",
+  "draft_idx": null,
+  "back_img": null,
+  "extra_tags": [
+   "src::slides"
+  ]
+ }
+]

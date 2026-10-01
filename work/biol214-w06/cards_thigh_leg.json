@@ -1,0 +1,1287 @@
+[
+ {
+  "Text": "The femur, the thigh's only bone, is the {{c1::largest (and heaviest)::size}} bone in the body.",
+  "Back Extra": "Why: the femur carries the body's weight from the hip to the knee and anchors the powerful thigh muscles.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [51:54] ('it is a very big bone the biggest bone in our body it is what makes up our thigh'); lab manual p.175 ('the largest and heaviest bone of the body'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s11_femur.png",
+  "image_side": "back",
+  "draft_idx": 143,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The head of the femur points {{c1::medially}}.",
+  "Back Extra": "Why: the ball has to reach the acetabulum (the hip socket), which lies medial to the thigh; it is the same rule as the humerus's head at the shoulder.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 11 ('Head is directed medially') + notes ('Head of the femur articulates with the acetabulum'); lab recording 9/30 [51:54]-[52:41]",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s11_femur.png",
+  "image_side": "back",
+  "draft_idx": 144,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The small pit on the head of the femur, the {{c1::fovea capitis}}, is where a ligament attaches.",
+  "Back Extra": "Why: fovea means small pit; the ligament of the head of the femur runs from here to the acetabulum and carries a small artery to the head.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 11 figure ('Fovea capitis'); study guide p.2 ('fovea capitis on the head is a ligament attachment'); lab manual Fig 8-9",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_09_femur_patella.jpg",
+  "image_side": "back",
+  "draft_idx": 145,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The femur's neck angles medially about {{c1::125::degrees}}° from the shaft (the angle of inclination).",
+  "Back Extra": "Why: the angle brings the knees in under the body even though the hip sockets are far apart, and it is why the femur isn't parallel to the tibia (the Q angle).",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.175 ('The rather long neck of the femur angles medially about 125 degrees (the angle of inclination)'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_09_femur_patella.jpg",
+  "image_side": "back",
+  "draft_idx": 146,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The greater trochanter is on the {{c1::lateral}} side of the proximal femur.",
+  "Back Extra": "Why: the greater trochanter is the big bump at the side of the hip, where the thigh's abductor muscles pull.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 11 ('greater trochanter is directed laterally'); lab recording 9/30 [56:42]",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s11_femur.png",
+  "image_side": "back",
+  "draft_idx": 147,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The greater trochanter anchors muscles that {{c1::abduct}} the thigh.",
+  "Back Extra": "Why: muscles pulling on the outside of the femur swing the thigh out to the side (abduction).",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.176 ('The greater trochanter ... serves as an attachment site for powerful muscles that abduct the thigh'); study guide p.2 ('Greater = abductors')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_09_femur_patella.jpg",
+  "image_side": "back",
+  "draft_idx": 148,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The lesser trochanter is on the {{c1::posteromedial::two-part direction}} side of the proximal femur.",
+  "Back Extra": "Why: the lesser trochanter faces back and in, just below the neck, where the main hip flexor (iliopsoas) pulls.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [52:41] ('the lesser trochanter is going to be ... more on the posterior medial side'); slide 11 figure",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s11_femur.png",
+  "image_side": "back",
+  "draft_idx": 149,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The lab manual says the lesser trochanter anchors muscles that {{c1::flex and adduct}} the thigh.",
+  "Back Extra": "Why: the iliopsoas, the main hip flexor, inserts on the lesser trochanter and pulls the thigh forward.<br><br>Pitfall: the manual and study guide add the adductors; most anatomy texts attach only the iliopsoas here and put the adductors just below, along the pectineal line and linea aspera.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.176 ('Muscles that adduct and flex the thigh attach to the lesser trochanter'); study guide p.2 ('Lesser = adductors and flexors')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_09_femur_patella.jpg",
+  "image_side": "back",
+  "draft_idx": 150,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The linea aspera is a rough ridge running down the {{c1::posterior}} shaft of the femur.",
+  "Back Extra": "Why: linea aspera means 'rough line'; the thigh's adductor muscles attach along it, building the ridge up the back of the shaft.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 11 notes ('Linea aspera is on posterior surface of femur'); lab recording 9/30 [52:41]-[53:32]; study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s11_femur.png",
+  "image_side": "back",
+  "draft_idx": 151,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The femur's sharp ridge (the linea aspera) runs down its {{c1::posterior::anterior or posterior}} side, but the tibia's sharp ridge runs down its {{c1::anterior::anterior or posterior}} side.",
+  "Back Extra": "Why: the femur's ridge runs down the back of the shaft and anchors thigh muscles (chiefly the adductors), while the tibia's sharp front border is the bare bone of the shin.<br><br>Pitfall: the two long bones are opposite, so a sharp ridge tells you front from back only once you know which bone you hold.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [53:32] ('the anterior portion of the femur is going to be a rounded edge, whereas the posterior shaft of the femur is going to be pointed') + [63:04] ('it's a little opposite than that, than the femur')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s11_femur.png",
+  "image_side": "back",
+  "draft_idx": 152,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "The intercondylar fossa is on the {{c1::posterior}} distal femur, between the medial and lateral condyles.",
+  "Back Extra": "Why: the deep notch between the condyles houses the knee's cruciate ligaments and opens toward the back.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 11 ('The intercondylar fossa is located posteriorly') + notes ('Intercondylar fossa is on distal portion of posterior femur'); lab recording 9/30 [53:32]-[54:22]",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s11_femur.png",
+  "image_side": "back",
+  "draft_idx": 153,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The patellar surface is on the {{c1::anterior}} distal femur.",
+  "Back Extra": "Why: the patellar surface is the shallow groove the kneecap glides in, at the front of the knee.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 11 ('patellar surface is anterior') + notes ('Patellar surface is on distal anterior surface'); lab recording 9/30 [55:07]",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s11_femur.png",
+  "image_side": "back",
+  "draft_idx": 154,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The femur's medial and lateral {{c1::condyles}} articulate with the tibia.",
+  "Back Extra": "Why: the two rounded knuckles at the bottom of the femur roll on the flat tops of the tibia's condyles to form the knee.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.176 ('the large medial and lateral condyles articulate with the tibia bone'); study guide p.2 ('Distal condyles meet the tibia')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_12_leg_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 155,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The femur's epicondyles can be felt high on each side of the knee, best with the knee {{c1::flexed::flexed or extended}}.",
+  "Back Extra": "Why: bending the knee pulls the kneecap and tendons out of the way and stretches the skin over the bony sides of the knee.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.176 ('The lateral and medial epicondyles can be felt high on either side of the knee') + p.180 ('best felt with the knee fully flexed'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_09_femur_patella.jpg",
+  "image_side": "back",
+  "draft_idx": 156,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "Only the {{c1::two ends::which part}} of the femur can be felt through the thigh.",
+  "Back Extra": "Why: the thick thigh muscles bury the shaft, leaving only the greater trochanter at the hip and the condyles and epicondyles at the knee within reach.<br><br>Cue: to find the greater trochanter, press on the side of the hip while swinging the leg front to back.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.179-180 ('Only the ends of the femur can be palpated. Proximally, the greater trochanter ... Distally, the two condyles'); study guide p.2 ('easier if you swing the leg')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_09_femur_patella.jpg",
+  "image_side": "back",
+  "draft_idx": 157,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "A femur with all labels removed: is it a right or a left femur? {{c1::left::side}}",
+  "Back Extra": "Why: the head points medially, here toward the picture's right. Seen from behind, a medial side on your right means the body's left side.<br><br>Cue: the linea aspera and intercondylar fossa show only from the back.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual Fig 8-9 'Left Femur & Patella', posterior view (labels erased)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/lr_femur_posterior.jpg",
+  "image_side": "front",
+  "draft_idx": 158,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual"
+  ]
+ },
+ {
+  "Text": "Skeleton seen from the front: name the bone at pin 22, with its side. {{c1::left femur::side + bone}}",
+  "Back Extra": "Why: the femur is the thigh's single bone, running from the hip socket to the knee, and seen from the front the skeleton's left side is on your right.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "Popcorn Points slide 3, pin 22 (no instructor key for appendicular pins)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/pp3_lower_pins.png",
+  "image_side": "front",
+  "draft_idx": 159,
+  "back_img": null,
+  "extra_tags": [
+   "src::popcorn",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The intertrochanteric {{c1::line}} runs across the front of the femur and the intertrochanteric {{c1::crest}} across the back, both between the two trochanters.",
+  "Back Extra": "Why: inter- means between; both mark where hip ligaments and muscles attach between the greater and lesser trochanters.<br><br>Pitfall: the lab's notes say you do NOT need to know the intertrochanteric line or crest.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "study guide p.2 ('Intertrochanteric line/crest connect them'); slide 11 notes ('You do NOT need to know the intertrochanteric line, intertrochanteric crest')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s11_femur.png",
+  "image_side": "back",
+  "draft_idx": 160,
+  "back_img": null,
+  "extra_tags": [
+   "optional",
+   "src::slides",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The Q angle is the angle between a line from the {{c1::ASIS}} to the middle of the patella and a line from the {{c2::tibial tuberosity}} to the middle of the patella.",
+  "Back Extra": "Why: the Q angle measures how far the thigh slants inward from hip to knee compared with the straight line of the lower leg.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "study guide p.2 ('Angle between ASIS → mid-patella and tibial tuberosity → mid-patella'); lab manual p.181 (Activity 5)",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_11_q_carrying.jpg",
+  "image_side": "back",
+  "draft_idx": 161,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "A normal Q angle is about {{c1::8–10::degrees}}° in males and {{c2::10–15::degrees}}° in females.",
+  "Back Extra": "Why: wider hips set a woman's femurs at a steeper inward slant, which widens the angle at the knee.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.181 ('It should be about 8-10 degrees on males and 10-15 degrees on females') + p.175 ('usually larger on women due to the wider hip bones'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": true,
+  "needs_human_check": true,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_11_q_carrying.jpg",
+  "image_side": "back",
+  "draft_idx": 162,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The Q angle's purpose is to bring the knees {{c1::closer together}}, putting the body's center of mass under the trunk.",
+  "Back Extra": "Why: the hip sockets are wide apart, so slanting the femurs inward sets the knees and feet under the body's midline for balance.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.175 ('The point of the Q angle is to bring the knees closer together to return the center of body mass directly under the trunk'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_11_q_carrying.jpg",
+  "image_side": "back",
+  "draft_idx": 163,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "To measure the Q angle, set the fulcrum on the {{c1::patella}}, the stationary arm along the {{c1::tibial tuberosity}}, and the moving arm toward the {{c1::ASIS}}.",
+  "Back Extra": "Why: the angle sits at the knee, between the lower leg's line (to the tibial tuberosity) and the thigh's line (up to the hip), so the goniometer's hinge goes on the kneecap.<br><br>Cue: lying supine is preferred, with the subject keeping a finger on the ASIS.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.181 (Activity 5 steps 1-5: 'lying down is preferred', 'Place the fulcrum of the goniometer on the patella and align the stationary arm with the tibial tuberosity', 'Align the rotating arm with the ASIS'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_16_q_measure.jpg",
+  "image_side": "back",
+  "draft_idx": 164,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "In lab, the Q angle is measured with a {{c1::goniometer::instrument}}.",
+  "Back Extra": "Why: a goniometer is a protractor with two arms hinged at a fulcrum, the tool usually used for a joint's range of motion, so it reads the angle between two body segments.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.175 ('The Q angle can be measured using a goniometer, which is more commonly used to measure joint range-of-motion'); slide 15 ('Use a goniometer to measure Q angle')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_16_q_measure.jpg",
+  "image_side": "back",
+  "draft_idx": 165,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "On the patella, the apex is the {{c1::inferior::superior or inferior}} end and the base is the {{c1::superior::superior or inferior}} end.",
+  "Back Extra": "Why: the patella is an upside-down triangle: wide at the top where the quadriceps tendon attaches, narrowing to the point the patellar ligament hangs from.<br><br>Pitfall: 'base' sounds like the bottom, but on the patella the base is the TOP.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 12 ('The apex is the inferior most feature') + notes ('Apex points inferiorly'); lab recording 9/30 [58:20]-[59:07] ('like an upside down pyramid')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s12_patella.png",
+  "image_side": "back",
+  "draft_idx": 166,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The patella's smooth {{c1::articular surface}} is on its {{c2::posterior}} side.",
+  "Back Extra": "Why: the back of the kneecap glides on the femur's patellar surface, so it is smooth; the front, which you feel through the skin, is rounded and rough.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 12 figure ('Articular surface', posterior view); lab recording 9/30 [59:07]-[59:52] ('The posterior view is going to be a little bit more smoother ... This is where it sits on the patellar surface of the femur')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s12_patella.png",
+  "image_side": "back",
+  "draft_idx": 167,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "On the back of the patella, the {{c1::lateral::medial or lateral}} facet is the larger of the two.",
+  "Back Extra": "Why: the lateral side of the femur's patellar groove is broader and higher, so the patella's matching lateral facet is bigger too.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 12 ('Posterior medial facet is smaller than lateral facet')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s12_patella.png",
+  "image_side": "back",
+  "draft_idx": 168,
+  "back_img": null,
+  "extra_tags": [
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The patella increases the leverage of the {{c1::quadriceps}} muscle.",
+  "Back Extra": "Why: set inside the tendon in front of the knee, it holds the tendon away from the joint's pivot, lengthening the lever arm; it also tracks up and down as the knee bends and straightens.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.176 ('One function of the patella is to increase the leverage arm of the quadriceps'; 'tracks up-and-down'); study guide p.2 ('lengthens the quads’ lever arm')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s12_patella.png",
+  "image_side": "back",
+  "draft_idx": 169,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "Anatomically, the leg is only the segment between the knee and the ankle; its two bones are the {{c1::tibia}} and the {{c1::fibula}}.",
+  "Back Extra": "Why: the thigh (femur) and the leg are separate segments in anatomy, just as the arm and the forearm are.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.176 ('The leg, defined anatomically as the region between the knee and the ankle, contains two bones'); slide 13",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s13_tibia_fibula.png",
+  "image_side": "back",
+  "draft_idx": 170,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "In the leg, the {{c1::tibia}} is medial and the {{c1::fibula}} is lateral.",
+  "Back Extra": "Why: the big tibia sits under the femur in line with the knee, and the slim fibula runs along its outer side.<br><br>Mnemonic: the 'la' in fibula = LAteral.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 13 ('Fibula is lateral while the tibia is medial') + notes ('the ”la” in fibula can remind you that it is lateral'); lab recording 9/30 [61:26]-[62:15]",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s13_tibia_fibula.png",
+  "image_side": "back",
+  "draft_idx": 171,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The {{c1::tibia}} carries the body's weight from the femur to the ankle, while the {{c1::fibula}} mainly anchors muscles.",
+  "Back Extra": "Why: the thick tibia sits right under the femur, while the slim fibula runs alongside as an anchor for the muscles that move the foot and toes.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.176 ('The tibia is the larger of the two bones and transfers body weight from the femur to the ankle and foot. The smaller fibula serves as an anchor for muscles'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_12_leg_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 172,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "Of the two leg bones, only the {{c1::tibia::tibia or fibula}} articulates with the femur at the knee.",
+  "Back Extra": "Why: the fibula's head sits against the side of the tibia below its lateral condyle, out of the femur's reach, so the fibula is not part of the knee joint.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [62:15] ('the tibia is the primary articulating bone for the femur'); lab manual p.176",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_12_leg_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 173,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "The tibial tuberosity is on the {{c1::anterior}} tibia, just below the knee.",
+  "Back Extra": "Why: the tibial tuberosity is the bump you can feel at the top of your shin, below the kneecap.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 13 ('Tibial tuberosity is anterior') + notes; lab recording 9/30 [60:38]-[61:26] ('You can kind of feel that at almost near the top of your shins')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s13_tibia_fibula.png",
+  "image_side": "back",
+  "draft_idx": 174,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The tibial tuberosity anchors the {{c1::quadriceps}}, through the patellar ligament.",
+  "Back Extra": "Why: the quadriceps tendon wraps the patella and continues as the patellar ligament to the tuberosity, so the pull that straightens the knee (as in kicking a ball) lands there.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.176 ('the large tibial tuberosity serves as an attachment site for powerful thigh muscles that extend the leg (e.g., when kicking a football)'); study guide p.2 ('Tibial tuberosity = patellar tendon (kicking)')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_12_leg_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 175,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The shin is the {{c1::anterior margin (border)}} of the tibia.",
+  "Back Extra": "Why: the tibia's front edge lies just under the skin for the whole length of the leg, which is why a knock to the shin hurts so much.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.177 ('The anterior margin of the tibia (i.e., the \"shin bone\") can be felt all the way down the front of the leg'); study guide p.2 ('Anterior margin = shin'); lab recording 9/30 [63:04]",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s13_tibia_fibula.png",
+  "image_side": "back",
+  "draft_idx": 176,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The medial malleolus is the lower end of the {{c1::tibia}}; the lateral malleolus is the lower end of the {{c1::fibula}}.",
+  "Back Extra": "Why: the two ankle bumps are the ends of the leg bones hugging the talus from each side.<br><br>Pitfall: people call them 'ankle bones', but they belong to the leg; the true ankle bones are the tarsals.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 13 ('Fibular malleolus is lateral while Tibial malleolus is medial') + notes; lab recording 9/30 [63:52]-[64:38]; lab manual p.176",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s13_tibia_fibula.png",
+  "image_side": "back",
+  "draft_idx": 177,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The lateral malleolus sits {{c1::lower (more inferior)::higher or lower}} than the medial malleolus.",
+  "Back Extra": "Why: the fibula reaches farther down than the tibia, so the outer ankle bump is the lower one, a quick way to side a leg.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.176 ('The lateral malleolus is lower than the medial malleolus'); study guide p.2; lab recording 9/30 [63:52] ('it's going to extend actually further than the tibia')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s13_tibia_fibula.png",
+  "image_side": "back",
+  "draft_idx": 178,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::recording",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The head of the fibula articulates with the tibia just below the tibia's {{c1::lateral condyle}} (the proximal tibiofibular joint).",
+  "Back Extra": "Why: the fibula's upper end tucks against the outside of the tibia, below the knee joint itself.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.176 ('The head of the fibula articulates with the tibia laterally just beneath the lateral condyle of the tibia at the proximal tibiofibular joint'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_12_leg_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 179,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The head of the fibula can be felt as a small bump on the {{c1::lateral}} side of the leg, level with the tibial tuberosity.",
+  "Back Extra": "Why: find the tibial tuberosity, then slide your hand around to the outside of the leg at the same height.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.177 ('The head of the fibula can be felt (and seen) as a small bump on the lateral side of the leg in the same plane as the tibial tuberosity') + p.180; study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_12_leg_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 180,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "The tibia and fibula articulate with each other at {{c1::two::number of joints}} joints.",
+  "Back Extra": "Why: the fibula's head meets the tibia just below the knee (the proximal tibiofibular joint), and the two bones meet again just above the ankle, between the malleoli (the distal tibiofibular joint).",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.176 ('Between the malleoli, the two bones articulate again at the distal tibiofibular joint')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/m8_12_leg_foot.jpg",
+  "image_side": "back",
+  "draft_idx": 181,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual"
+  ]
+ },
+ {
+  "Text": "The tibia's lateral condyle is not the most lateral part of the leg; the {{c1::head of the fibula}} lies farther out.",
+  "Back Extra": "Why: the fibula runs along the outside of the tibia, with its head tucked under the lateral condyle.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [62:15] ('the lateral condyle is not the most lateral structure within the distal leg, but it is the most lateral structure of the tibia')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s13_tibia_fibula.png",
+  "image_side": "back",
+  "draft_idx": 182,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "The sharp edge of the fibula's shaft faces {{c1::anteriorly}}.",
+  "Back Extra": "Why: like the tibia, the fibula's shaft is roughly triangular in cross-section, with its sharpest border pointing forward.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 13 notes ('“Sharp” surface of Fibula faces anteriorly')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s13_tibia_fibula.png",
+  "image_side": "back",
+  "draft_idx": 183,
+  "back_img": null,
+  "extra_tags": [
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "The long, thin leg bone that looks like a pencil (or an arrow) is the {{c1::fibula}}.",
+  "Back Extra": "Why: the fibula is the slimmest of the long bones, a thin shaft with a small knob at each end, easy to confuse with the radius and ulna until you check the ends.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab recording 9/30 [60:38] ('The fibula looks almost like a pencil') + [71:00] (Dr. Blais: 'I try to think of it like an arrow')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s13_tibia_fibula.png",
+  "image_side": "back",
+  "draft_idx": 184,
+  "back_img": null,
+  "extra_tags": [
+   "src::recording"
+  ]
+ },
+ {
+  "Text": "A tibia and fibula seen from the front: is this a right or a left leg? {{c1::right::side}}",
+  "Back Extra": "Why: the thin fibula is on the picture's left, and the fibula is lateral. Seen from the front, lateral on your left means the body's right leg.<br><br>Cue: the tibial tuberosity faces you (anterior), and the medial malleolus is on the tibia's side.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 13 figure, anterior view of a right tibia and fibula (labels erased); slide 13 notes ('How to distinguish right vs left?')",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/lr_tibia_fibula.png",
+  "image_side": "front",
+  "draft_idx": 185,
+  "back_img": null,
+  "extra_tags": [
+   "src::slides"
+  ]
+ },
+ {
+  "Text": "Standing with feet apart, your legs look like an apex-up triangle but the bones form a {{c1::rectangle}}; with feet together, flesh and bones both make an apex-{{c2::down::up or down}} triangle.",
+  "Back Extra": "Why: the femurs slant inward toward the knees, so with the feet apart the leg bones stand nearly vertical and stable; with the feet together they meet below, which is harder to balance on.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual p.176-177 ('your legs appear to make a triangle (apex up), but the bones actually form a rectangle ... With the legs closed, however, both the flesh of the legs and the bones make a triangle with the apex down'); study guide p.2",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/s02_overview.jpg",
+  "image_side": "back",
+  "draft_idx": 186,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual",
+   "src::study-guide"
+  ]
+ },
+ {
+  "Text": "A femur with all labels removed: is it a right or a left femur? {{c1::right::side}}",
+  "Back Extra": "Why: the head points medially, here toward the picture's left. The linea aspera and intercondylar fossa show this is the back, and seen from behind, a medial side on your left means the body's right side.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "lab manual Fig 8-9 'Left Femur & Patella', posterior view (labels erased), mirrored left-right = a right femur",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/lr_femur_posterior_mirror.jpg",
+  "image_side": "front",
+  "draft_idx": null,
+  "back_img": null,
+  "extra_tags": [
+   "src::manual"
+  ]
+ },
+ {
+  "Text": "A tibia and fibula seen from the front: is this a right or a left leg? {{c1::left::side}}",
+  "Back Extra": "Why: the thin fibula is on the picture's right, and the fibula is lateral. Seen from the front, lateral on your right means the body's left leg.<br><br>Cue: the tibial tuberosity faces you (anterior), and the medial malleolus is on the tibia's side.",
+  "source": "biol214-w06",
+  "segment": null,
+  "block": "thigh_leg",
+  "deck": "Thigh & Leg",
+  "from_idx": [],
+  "authorization": {
+   "by": "parker",
+   "date": "2026-09-30",
+   "asked": "(no question asked — his own request in chat, 2026-09-30, the W06 Appendicular Skeleton lab done the same way as the W05 axial deck, plus the lab recording)",
+   "quote": "make the set for the appendicular skeleton ... I want you to do like what you did with the first one where you literally just take everything and turn it into flashcards, so not the minimal set but the maximal set from the appendicular skeleton ... you do have the additional recording from lab, so you'll have to go through that as well",
+   "scope": "every fact on the W06 Appendicular Skeleton slides + speaker notes, in the 9/30 lab recording, in the Ch 8 study guide (Canvas 9/30), in lab manual Ch 8 and its blue pages, and the Popcorn Points pins; the parts of every appendicular bone"
+  },
+  "verified_against": "slide 13 figure, anterior view of a right tibia and fibula (labels erased), mirrored left-right = a left leg",
+  "verified_by": "claude — read directly off the slide/speaker notes/lab manual page named",
+  "numeric": false,
+  "needs_human_check": false,
+  "image": "/Users/parkerregner/.claude/skills/zotero-to-anki/work/biol214-w06/figures/lr_tibia_fibula_mirror.png",
+  "image_side": "front",
+  "draft_idx": null,
+  "back_img": null,
+  "extra_tags": [
+   "src::slides"
+  ]
+ }
+]

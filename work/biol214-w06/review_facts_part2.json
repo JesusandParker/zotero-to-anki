@@ -1,0 +1,218 @@
+{
+ "reviewed_idx_range": [
+  89,
+  219
+ ],
+ "card_facts": [
+  {
+   "idx": 91,
+   "verdict": "CHECK",
+   "problem": "BACK says that beyond the palm the thumb 'bends at only one joint instead of two'. The thumb's MCP joint also sits outside the palm (the thenar eminence covers metacarpal I), so a thumb visibly bends at two joints (MCP + IP). That is the same number a finger shows past the knuckle (PIP + DIP). The accurate contrast is between interphalangeal joints: one (IP) in the thumb, two (PIP, DIP) in each finger. Manual p.177 draws the same contrast for the hallux.",
+   "fix_text": null,
+   "fix_back": "Why: the thumb lacks a middle phalanx, so it has only one joint between its phalanges (the IP joint), where each other finger has two (PIP and DIP).",
+   "confidence": "medium"
+  },
+  {
+   "idx": 95,
+   "verdict": "CHECK",
+   "problem": "Minor: BACK says the proximal row 'sits against the radius and ulna'. Only the radius articulates with the proximal carpals; an articular disc keeps the ulna off them. The lab recording [43:49]-[44:37] stresses that the radius is 'the primary articulating bone for the wrist'. As written, a student could answer 'radius and ulna' when asked what the proximal row articulates with.",
+   "fix_text": null,
+   "fix_back": "Why: the proximal row is the carpal row next to the forearm (it articulates with the radius; a cartilage disc keeps the ulna off it), running from the thumb side to the pinky side.<br><br>Mnemonic: So Long To Pinky, Here Comes The Thumb.",
+   "confidence": "medium"
+  },
+  {
+   "idx": 98,
+   "verdict": "CHECK",
+   "problem": "BACK says the pisiform rides on the triquetrum 'instead of sitting in the row'. That reads as 'the pisiform is not a proximal-row carpal', which contradicts manual p.173 ('The proximal row contains the pisiform, triquetrum, lunate and scaphoid') and the mnemonic card idx 95. It is a proximal-row carpal that sits in front of (palmar to) the triquetrum instead of in line with the others.",
+   "fix_text": null,
+   "fix_back": "Why: pisiform means 'pea-shaped'; it lies inside a wrist flexor tendon, so it rides on the front (palm side) of the triquetrum rather than lining up beside the other proximal-row carpals.",
+   "confidence": "medium"
+  },
+  {
+   "idx": 108,
+   "verdict": "FIX",
+   "problem": "The Cue never says which way the fingers point. With the palm facing forward and away from you, a thumb pointing to your right means a RIGHT hand only when the fingers point DOWN (anatomical position, the way Dr. Blais orients it at [38:43]-[39:34]). A student who holds the model up in front of them, fingers up and palm away, will see a right hand's thumb point to their LEFT (like a raised 'stop' hand) and call it a left hand. The cloze answer itself is fine.",
+   "fix_text": null,
+   "fix_back": "Why: the arched metacarpals cup the palm around what you grip, so the hollow side is always the palm.<br><br>Cue: hold a loose hand the way your own hangs in anatomical position, fingers pointing down and cupped palm facing forward (away from you); if its thumb points to your right, it is a right hand.",
+   "confidence": "high"
+  },
+  {
+   "idx": 111,
+   "verdict": "CHECK",
+   "problem": "TEXT calls the ilium, ischium and pubis 'the three hip bones'. 'Hip bone' means the os coxae itself (idx 110: 'Each os coxae (hip bone)'), so the wording suggests three hip bones per side. The manual says 'the largest of the 3 bones that form the os coxae' (p.173).",
+   "fix_text": "The {{c1::ilium}} is the largest of the three bones that fuse into the os coxae and forms its superior part.",
+   "fix_back": null,
+   "confidence": "medium"
+  },
+  {
+   "idx": 119,
+   "verdict": "CHECK",
+   "problem": "TEXT follows manual p.173 and the study guide in counting the sacrum and coccyx as part of the pelvic girdle. Slide 2 lists only 'Os coxae (2)' under Pelvic Girdle. Most A&P texts (Marieb, Tortora, Martini) define the pelvic girdle as the two hip bones only; with the sacrum and coccyx added, they call the whole ring the bony pelvis. The course answer can stay, but the definitional split deserves a Pitfall.",
+   "fix_text": null,
+   "fix_back": "Why: the sacrum is part of the vertebral column, wedged between the two hip bones like a keystone.<br><br>Pitfall: this is the manual's definition; slide 2 and most textbooks count only the two os coxae as the pelvic girdle and call the ring they form with the sacrum and coccyx the bony pelvis.",
+   "confidence": "medium"
+  },
+  {
+   "idx": 128,
+   "verdict": "CHECK",
+   "problem": "Minor: TEXT says the sciatic nerve passes through the greater sciatic notch 'into the leg' (manual p.175 wording). This deck teaches (idx 170) that the leg runs only from knee to ankle. The nerve leaves the pelvis for the gluteal region and thigh, which is to say the lower limb.",
+   "fix_text": "The greater sciatic notch lets the {{c1::sciatic nerve}} (and blood vessels) pass out of the pelvis into the lower limb.",
+   "fix_back": null,
+   "confidence": "medium"
+  },
+  {
+   "idx": 131,
+   "verdict": "CHECK",
+   "problem": "Minor: TEXT says the whole inner (medial) face of the hip bone 'is smooth'. Only the iliac fossa is smooth. The same face has the rough auricular surface and iliac tuberosity, which this deck's idx 118 and IO hip_medial_model both call rough. The lab's actual point at [43:42] is that the inner face has no acetabulum.",
+   "fix_text": "The inner (medial) face of the hip bone has no acetabulum; above, the ilium is hollowed into the smooth, shallow {{c1::iliac fossa}}.",
+   "fix_back": null,
+   "confidence": "medium"
+  },
+  {
+   "idx": 133,
+   "verdict": "CHECK",
+   "problem": "The Pitfall blames only the manual for 'pubic crest'. The study guide p.2 says the same thing ('Inguinal ligament runs ASIS -> pubic crest'), so a student might assume the study guide gives the standard answer (pubic tubercle). The anatomy in the card is otherwise correct, and 'ASIS to the pubis' in TEXT avoids the conflict.",
+   "fix_text": null,
+   "fix_back": "Why: the inguinal ligament is the rolled lower edge of an abdominal muscle's sheet, tacked between two bony points.<br><br>Pitfall: the manual and the study guide say it ends at the pubic crest; most anatomy texts say the pubic tubercle, just beside it.",
+   "confidence": "medium"
+  },
+  {
+   "idx": 136,
+   "verdict": "FIX",
+   "problem": "This is the same rami-vs-tuberosity mix-up that idx 135 flags, but here it is stated as fact with no warning. Manual p.175 and p.179, plus the study guide's palpation list, say the 'ischial ramus' is felt by pressing on the buttocks at the gluteal fold (p.179 adds that you can feel it by sitting on your hands). Anatomically, the bone you feel there, and sit on, is the ischial tuberosity. The ramus runs forward from the tuberosity to join the pubis and is felt from the perineum/medial thigh, not through the buttock. As written, the card contradicts idx 135. The cloze answer (gluteal fold) is fine.",
+   "fix_text": "The ischial tuberosity (the manual's 'ischial ramus') can be felt by pressing hard on the buttocks at the level of the {{c1::gluteal fold}}.",
+   "fix_back": "Why: the tuberosity lies deep to the lower buttock near the gluteal fold, so firm pressure with the gluteal muscles relaxed reaches the bone.<br><br>Pitfall: the manual and study guide call this bump the ischial ramus; the bone you press on through the buttock, and sit on, is the ischial tuberosity.",
+   "confidence": "medium"
+  },
+  {
+   "idx": 140,
+   "verdict": "CHECK",
+   "problem": "TEXT states as fact the manual's claim (p.175) that the gluteal region 'anatomically ... belongs to the body trunk'. Standard gross-anatomy texts (Moore; Gray's Anatomy for Students) list the gluteal region as a region of the lower limb, the transition between trunk and thigh. The course answer can stay but should be attributed to the manual.",
+   "fix_text": "The lab manual says the gluteal region belongs anatomically to the {{c1::trunk}} and physiologically to the {{c2::lower limb}}.",
+   "fix_back": "Why: the gluteal region lies over the pelvis, but its muscles (the glutes) move the thigh.<br><br>Pitfall: most anatomy texts count the gluteal region as a region of the lower limb, the transition between trunk and thigh.",
+   "confidence": "medium"
+  },
+  {
+   "idx": 150,
+   "verdict": "FIX",
+   "problem": "This is one of the flagged conflicts, but the card has no Pitfall. Manual p.176 says 'Muscles that adduct and flex the thigh attach to the lesser trochanter', and the study guide says 'Lesser = adductors and flexors'. Standard anatomy puts only the iliopsoas on the lesser trochanter; it is the main hip flexor, as idx 149's own Back says. The adductors attach just below it, along the pectineal line and linea aspera, as idx 151 says. The current Why line makes up a mechanism for adduction. Keep the course answer, attribute it to the manual, and flag the conflict.",
+   "fix_text": "The lab manual says the lesser trochanter anchors muscles that {{c1::flex and adduct}} the thigh.",
+   "fix_back": "Why: the iliopsoas, the main hip flexor, inserts on the lesser trochanter and pulls the thigh forward.<br><br>Pitfall: the manual and study guide add the adductors; most anatomy texts attach only the iliopsoas here and put the adductors just below, along the pectineal line and linea aspera.",
+   "confidence": "medium"
+  },
+  {
+   "idx": 152,
+   "verdict": "CHECK",
+   "problem": "BACK says the linea aspera 'anchors muscles on the back of the thigh'. The muscles that attach there are chiefly the adductors (medial thigh) and vastus medialis/lateralis (anterior thigh), plus the short head of biceps femoris. The hamstrings as a group arise from the ischial tuberosity. The wording feeds the common misconception that the hamstrings attach to the linea aspera. idx 151 correctly says adductors.",
+   "fix_text": null,
+   "fix_back": "Why: the femur's ridge runs down the back of the shaft and anchors thigh muscles (chiefly the adductors), while the tibia's sharp anterior border is the bare bone of the shin.",
+   "confidence": "medium"
+  },
+  {
+   "idx": 198,
+   "verdict": "CHECK",
+   "problem": "BACK's 'numbered like the hand from the medial side' can be read as 'the hand is numbered from its medial side'. In anatomical position the hand is numbered from the thumb, which is LATERAL; only the foot is numbered from its medial side (the hallux). That ambiguity matters on a practical built around siding bones.",
+   "fix_text": null,
+   "fix_back": "Why: one metatarsal carries each toe, numbered from the big toe (I, on the medial side of the foot), just as the hand is numbered from the thumb.",
+   "confidence": "medium"
+  },
+  {
+   "idx": 204,
+   "verdict": "FIX",
+   "problem": "BACK calls fibularis brevis 'a calf muscle'. Fibularis (peroneus) brevis is in the lateral compartment of the leg; the calf is the posterior compartment (gastrocnemius, soleus). Its insertion on the tuberosity of the 5th metatarsal is correct.",
+   "fix_text": null,
+   "fix_back": "Why: the tuberosity juts from the base of the little toe's metatarsal on the outer edge of the foot, where the tendon of fibularis brevis, a muscle on the lateral side of the leg, attaches.",
+   "confidence": "high"
+  },
+  {
+   "idx": 205,
+   "verdict": "CHECK",
+   "problem": "TEXT repeats manual p.178 and the study guide ('Highest point of the foot ~ base of the 2nd metatarsal'). Taken literally it is wrong: the talus, which the tibia rests on, sits higher than any metatarsal, and idx 207 calls the talus the highest bone of the medial arch. The 2nd metatarsal base is the peak of the transverse arch, which the Back's Why already implies. Keep the course answer and add a clarifying Pitfall.",
+   "fix_text": null,
+   "fix_back": "Why: the 2nd metatarsal's base is wedged in among the cuneiforms at the top of the foot's transverse dome.<br><br>Pitfall: taken literally the talus, which the tibia rests on, sits higher; the manual's 'highest point' is the peak of the transverse arch, not of the whole foot.",
+   "confidence": "medium"
+  },
+  {
+   "idx": 209,
+   "verdict": "FIX",
+   "problem": "This flagged conflict has no Pitfall on the card. The study guide says 'Transverse (keystone ~ medial cuneiform / 2nd metatarsal base)', and manual Fig 8-14 labels 'medial cuneiform' and '2nd metatarsal' for the transverse arch. Standard anatomy names the intermediate (middle) cuneiform as the keystone at the cuneiform level, with the recessed base of the 2nd metatarsal at the tarsometatarsal level. The medial cuneiform's wedge is reversed (broad edge plantar), so it acts as a pillar of the arch, not its top stone. The Why line's claim that the medial cuneiform sits at the arch's high point is not standard. Keep the course answer, attribute it to the manual, and add the conflict. The talus (idx 207) and cuboid (idx 208) keystones are standard and correct.",
+   "fix_text": "In the lab manual (Fig 8-14), the keystones of the transverse arch are the {{c1::medial cuneiform}} and the base of the {{c2::2nd metatarsal}}.",
+   "fix_back": "Why: a keystone marks the top of an arch, and Fig 8-14 shades the medial cuneiform and the wedged-in base of the 2nd metatarsal at the top of the dome across the foot.<br><br>Pitfall: most anatomy texts name the intermediate (middle) cuneiform, not the medial one, as the transverse arch's keystone; the manual and study guide say medial cuneiform.",
+   "confidence": "medium"
+  },
+  {
+   "idx": 211,
+   "verdict": "CHECK",
+   "problem": "The Cue says 'the manual cites evidence'. Manual p.177-178 only asserts 'There is mounting evidence that shoes are the cause of most fallen arches' and cites nothing. The claim is also not established anatomy: most flat feet are flexible/congenital or come from tendon dysfunction. The card should present it as the manual's unsourced assertion.",
+   "fix_text": null,
+   "fix_back": "Why: once the ligaments stop holding the arch's ends together, the arch sags under body weight.<br><br>Cue: the manual asserts, without a source, that 'mounting evidence' blames shoes for most fallen arches and that walking barefoot can strengthen weak ones.",
+   "confidence": "medium"
+  }
+ ],
+ "io_facts": [
+  {
+   "id": "fetal_skull",
+   "verdict": "CHECK",
+   "problem": "Back Extra says fontanels 'close over the first months after birth'. Only the posterior (~2 months) and sphenoidal (~6 months) fontanels close that early. The mastoid closes at ~6-18 months and the anterior fontanel, the largest, at ~12-24 months. Manual p.182 says only that they 'persist for several months after birth'. The header's views check out: the right-hand skull faces the viewer's left, so it is a left lateral view.",
+   "fix_header": null,
+   "fix_back": "Cue: fontanels are the soft, unossified gaps between the skull bones; they let the skull squeeze through the birth canal and close during infancy, the large anterior fontanel last (by about 18–24 months)."
+  },
+  {
+   "id": "foot_regions_model",
+   "verdict": "CHECK",
+   "problem": "Back Extra's 'The big toe has one joint (IP), the other toes two (PIP, DIP)' leaves out the metatarsophalangeal joint every toe has. The count applies only to joints between phalanges, which is how cloze idx 202 words it.",
+   "fix_header": null,
+   "fix_back": "Cue: hindfoot = talus + calcaneus; midfoot = navicular, three cuneiforms, cuboid; forefoot = metatarsals + phalanges. Between its phalanges the big toe has one joint (IP); the other toes have two (PIP, DIP)."
+  },
+  {
+   "id": "foot_arches",
+   "verdict": "FIX",
+   "problem": "Same issue as cloze idx 209. The Back Extra gives 'medial cuneiform / 2nd metatarsal' as the transverse arch's keystone with no conflict note. Most anatomy texts name the intermediate (middle) cuneiform; the medial cuneiform is wedged the other way, broad side plantar. The manual's Fig 8-14 and the study guide say medial, so keep that and add a Pitfall. Talus (medial longitudinal) and cuboid (lateral longitudinal) are correct. The header is fine.",
+   "fix_header": null,
+   "fix_back": "Cue: like the top stone of a stone arch, each keystone sits at the highest point of its arch — talus (medial longitudinal), cuboid (lateral longitudinal), medial cuneiform / 2nd metatarsal (transverse).<br><br>Pitfall: most anatomy texts name the intermediate (middle) cuneiform, not the medial one, as the transverse arch's keystone; the manual's figure and the study guide say medial cuneiform."
+  }
+ ],
+ "front_image_checks": [
+  {
+   "idx": 130,
+   "image": "figures/lr_hip_lateral.jpg",
+   "stated_answer": "right",
+   "your_answer": "right",
+   "agree": true,
+   "notes": "This is manual Fig 8-7 ('The Right Hip Bones', lateral view) with the labels erased. The acetabulum faces the viewer; PSIS/PIIS and both sciatic notches are on the picture's left, and ASIS/AIIS and the pubic tubercle on the right. In a lateral view (viewer standing at that hip), anterior lands on the viewer's right only for a right hip bone. The Back's reasoning is correct. Side note: at [43:42] the TA called a lateral-view hip bone 'left'. If she meant the slide 8 Netter drawing, she was wrong, because that drawing (like slides 9-10) is a right hip bone. This card does not use it."
+  },
+  {
+   "idx": 142,
+   "image": "figures/pp3_lower_pins.png",
+   "stated_answer": "os coxae (ilium)",
+   "your_answer": "os coxae (ilium portion)",
+   "agree": true,
+   "notes": "Anterior view: lumbar vertebral bodies, anterior sacral foramina and the pubic symphysis are all visible. Pin 19 is on the ala/iliac fossa of the skeleton's left ilium."
+  },
+  {
+   "idx": 158,
+   "image": "figures/lr_femur_posterior.jpg",
+   "stated_answer": "left",
+   "your_answer": "left",
+   "agree": true,
+   "notes": "This is the posterior panel of manual Fig 8-9 ('Left Femur & Patella') with the labels erased. The intercondylar fossa and lesser trochanter show, so it is a posterior view. The head points to the picture's right; seen from behind, medial on the viewer's right means the body's left. The Back's reasoning is correct."
+  },
+  {
+   "idx": 159,
+   "image": "figures/pp3_lower_pins.png",
+   "stated_answer": "femur",
+   "your_answer": "femur",
+   "agree": true,
+   "notes": "Pin 22 is on the shaft of the skeleton's left femur, below the greater trochanter, in an anterior view."
+  },
+  {
+   "idx": 185,
+   "image": "figures/lr_tibia_fibula.png",
+   "stated_answer": "right",
+   "your_answer": "right",
+   "agree": true,
+   "notes": "This is slide 13's anterior view (Britannica) with the labels erased. The tibial tuberosity faces the viewer, and the tibia overlaps the fibular head and distal fibula, which lie posterolateral; both confirm an anterior view. The fibula is on the picture's left, and from the front lateral-on-the-viewer's-left means the right leg; the medial malleolus is on the right. The Back is correct."
+  }
+ ],
+ "summary": "Reviewed cloze idx 89-219 (131 notes) and all 35 image-occlusion notes: 6 FIX (cloze 108, 136, 150, 204, 209; IO foot_arches) and 15 CHECK (cloze 91, 95, 98, 111, 119, 128, 131, 133, 140, 152, 198, 205, 211; IO fetal_skull, foot_regions_model). Of the flagged conflicts, three need Pitfalls the cards lack: lesser trochanter adductors (150), transverse-arch keystone medial vs intermediate cuneiform (209 + foot_arches), and ischial ramus vs tuberosity at the gluteal fold (136). Pisiform/triquetrum (104), sitz bones (135), TAI (216-218), and Q-angle values and goniometer setup (161-165) are accurate, and the inguinal-ligament Pitfall (133) only needs to name the study guide too. All 5 front-image cards (130, 142, 158, 159, 185) and every side/view stated in an IO header check out against the images."
+}

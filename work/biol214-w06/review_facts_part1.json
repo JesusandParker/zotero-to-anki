@@ -1,0 +1,171 @@
+{
+  "reviewed_idx_range": [
+    0,
+    88
+  ],
+  "card_facts": [
+    {
+      "idx": 0,
+      "verdict": "FIX",
+      "problem": "Pitfall overstates the recording. At [01:35]-[01:54] the instructor said \"there's three different numbers in the body, so we gave you points for all of those\"; the card says the lab credited 'every published count', which reads as 'any count is accepted'. The 130/210 vs 126/206 facts and the 4-sesamoid explanation are correct.",
+      "fix_text": null,
+      "fix_back": "Why: the manual adds four sesamoid bones (two under each big toe) to the appendicular count.<br><br>Pitfall: sources disagree on the totals; on the last home quiz the lab accepted all three bone totals (9/30 recording).",
+      "confidence": "medium"
+    },
+    {
+      "idx": 3,
+      "verdict": "FIX",
+      "problem": "'not counting sesamoids' contradicts the card's own list: the patella IS a sesamoid bone (slide 12 notes: 'This is a sesamoid bone'; recording [68:42]: the big-toe sesamoids 'along with your kneecap are the main sesamoid bones'). Read literally, 30 minus the patella = 29. The sesamoids the manual adds are specifically the two under each big toe. The arithmetic (30; 32 per limb; 64) is right.",
+      "fix_text": "Each lower limb has {{c1::30::number}} bones, not counting the two sesamoids under the big toe: the femur, patella, tibia, fibula, 7 tarsals, 5 metatarsals, and 14 phalanges.",
+      "fix_back": "Why: 1 + 1 + 1 + 1 + 7 + 5 + 14 = 30; the patella is a sesamoid bone too, but every count includes it.<br><br>Pitfall: the manual adds the two sesamoids under each big toe, giving 32 per limb (64 for both).",
+      "confidence": "high"
+    },
+    {
+      "idx": 9,
+      "verdict": "FIX",
+      "problem": "Pitfall states 'foramina are holes in BONES' as an absolute, which is false in general anatomy. The word is also used for soft-tissue openings: the foramen ovale of the fetal heart, the interventricular foramen of the brain, the epiploic foramen, and the diaphragm's caval foramen. The instructor's point at [51:05] was narrower: openings in muscles aren't called foramina, and in this bone lab a foramen means a hole in bone. 'Obturator foramen = largest foramen in the body' is a standard claim; keep it.",
+      "fix_text": null,
+      "fix_back": "Why: the obturator foramen of the hip bone, the largest foramen in the body, is a good example.<br><br>Pitfall: as a bone marking, a foramen is a hole through bone; the instructor said openings in muscles are not called foramina (9/30 recording).",
+      "confidence": "medium"
+    },
+    {
+      "idx": 19,
+      "verdict": "FIX",
+      "problem": "Why line: 'every force from the arm reaches the trunk through the clavicle' is wrong. Muscles carry most arm loads straight to the trunk: pectoralis major and latissimus dorsi run from the humerus to the trunk, and trapezius, rhomboids and serratus anterior hold the scapula. What is true is that the clavicle is the only BONY link. The TEXT and the Cue are correct.",
+      "fix_text": null,
+      "fix_back": "Why: the scapula has no joint with the ribs or spine, so the clavicle is the arm's only bony strut to the trunk.<br><br>Cue: the clavicle-manubrium joint is the sternoclavicular joint, beside the jugular notch at the base of the neck.",
+      "confidence": "medium"
+    },
+    {
+      "idx": 20,
+      "verdict": "FIX",
+      "problem": "Why line: 'held by muscle alone' overstates. The scapula is also tied to the clavicle by the AC joint and the coracoclavicular (conoid and trapezoid) ligaments, which the deck itself teaches (idx 22, idx 25). The accurate point is that it has no bony joint with the axial skeleton. The TEXT is fine (manual p.170 wording).",
+      "fix_text": null,
+      "fix_back": "Why: with no bony joint to the ribs or spine, each scapula can slide up and down and side to side over the ribs, which greatly widens the arm's range of motion.",
+      "confidence": "medium"
+    },
+    {
+      "idx": 22,
+      "verdict": "FIX",
+      "problem": "Why line: 'the clavicle's only link to the scapula' is wrong. The coracoclavicular ligament (conoid + trapezoid parts) ties the clavicle to the coracoid process and is the shoulder's main suspensory ligament. The deck's own idx 25 says the conoid ligament 'ties the clavicle down to the coracoid process'. The AC joint is the only JOINT between the two bones. The TEXT is correct.",
+      "fix_text": null,
+      "fix_back": "Why: the acromioclavicular (AC) joint at the top of the shoulder is the clavicle's only joint with the scapula; a ligament also ties the clavicle down to the coracoid process.",
+      "confidence": "high"
+    },
+    {
+      "idx": 44,
+      "verdict": "FIX",
+      "problem": "The pitfall's remedy is wrong. The deltoid tuberosity is LATERAL (slide 5 notes: 'Deltoid tuberosity is lateral'), so it gives the same medial-vs-lateral information as the head and cannot tell front from back. Slide 5's own posterior view labels it on the lateral edge, visible from either side. In the recording [17:49]-[18:44] the instructor tells front from back with the bulging capitulum/trochlea (anterior) vs the olecranon fossa (posterior). The TEXT (head points medially) is correct.",
+      "fix_text": null,
+      "fix_back": "Why: the head has to face the glenoid cavity, which sits medial to the arm.<br><br>Pitfall: the head points 'inward' whichever way you turn the bone, so it can't tell front from back; pair it with a front/back landmark such as the olecranon fossa (posterior).",
+      "confidence": "high"
+    },
+    {
+      "idx": 60,
+      "verdict": "FIX",
+      "problem": "The TEXT repeats manual p.179's absolute, 'only the distal end can be felt', which isn't strictly true. The greater tubercle can be felt by pressing deep through the deltoid just below the acromion, and the shaft can be felt on the inner arm, where the brachial pulse is pressed against it. The tested answer (distal) stays; only 'only' needs softening. Do NOT cite manual p.171 as a counterexample: I checked the page image, and its 'can sometimes be felt when the arm is partially flexed' refers to the olecranon fossa, even though the study guide attaches it to the deltoid tuberosity.",
+      "fix_text": "Of the humerus, the {{c1::distal::proximal or distal}} end is the part you can easily feel, because the proximal end sits inside the shoulder joint under large muscles.",
+      "fix_back": "Why: the deltoid and rotator cuff bury the head, while at the elbow the two epicondyles lie just under the skin.<br><br>Pitfall: the manual says ONLY the distal end can be felt; strictly, the greater tubercle can also be felt by pressing deep through the deltoid.",
+      "confidence": "medium"
+    },
+    {
+      "idx": 76,
+      "verdict": "FIX",
+      "problem": "Why line: 'each head is the rounded end that turns in the other bone's notch' is right for the radius but wrong for the ulna. The ulnar head stays put while the radius's ulnar notch swings around it, as the deck's own idx 77 ('the fixed head of the ulna') and idx 79 teach. The TEXT and the Pitfall are correct.",
+      "fix_text": null,
+      "fix_back": "Why: each 'head' is the rounded end that fits into the other bone's notch: the radius's at the elbow, the ulna's at the wrist.<br><br>Pitfall: the ulna's head is its SMALL end; its big end is the olecranon at the elbow.",
+      "confidence": "medium"
+    },
+    {
+      "idx": 30,
+      "verdict": "CHECK",
+      "problem": "Card TEXT/BACK are correct; only the verified_against citation is wrong. The quote 'this bigger one is called the acromial process' is at [16:05] in audio/lab_2026-09-30.srt (inside the [15:29] paragraph), not [20:15]. Metadata-only fix; nothing on the card changes.",
+      "fix_text": null,
+      "fix_back": null,
+      "confidence": "high"
+    },
+    {
+      "idx": 65,
+      "verdict": "CHECK",
+      "problem": "Card TEXT/BACK are correct; the verified_against timestamps are 10 minutes off. 'the ulna ... was the primary articulating bone of the humerus' and 'the radius is the primary articulating bone for the wrist' are at [34:13]-[34:38] (paragraphs [33:49]-[34:37]), not [43:49]-[44:37]. Metadata-only fix.",
+      "fix_text": null,
+      "fix_back": null,
+      "confidence": "high"
+    }
+  ],
+  "front_image_checks": [
+    {
+      "idx": 26,
+      "image": "figures/lr_clavicle_superior.png",
+      "stated_answer": "right",
+      "your_answer": "right",
+      "agree": true,
+      "notes": "Same as slide 3 fig (b) 'Right clavicle, superior view' with labels erased, not mirrored. The knob with an articular face (sternal end) is at the picture's right; the broad, flattened acromial end is at the left. Seen from above with anterior at the bottom, picture-left = body's right, so the lateral end points to the body's right: a right clavicle. Cross-check: the medial curve bulges toward the bottom (anterior) and the lateral curve toward the top (posterior). The Why and the Cue are correct."
+    },
+    {
+      "idx": 39,
+      "image": "figures/lr_scapula_posterior.jpg",
+      "stated_answer": "right",
+      "your_answer": "right",
+      "agree": true,
+      "notes": "Slide 4 posterior view, not mirrored. The spine is visible, running up to the acromion at the upper right; the glenoid/lateral angle is at the picture's right and the medial border at the left. In a posterior view the viewer's right = the body's right: a right scapula. Why is correct."
+    },
+    {
+      "idx": 40,
+      "image": "figures/pp2_front_pins.png",
+      "stated_answer": "clavicle",
+      "your_answer": "clavicle",
+      "agree": true,
+      "notes": "Zoomed: '9' sits on the medial clavicle just lateral to the sternoclavicular joint (the person's left clavicle in this anterior view). Pin 12 is on the manubrium, as the BACK says."
+    },
+    {
+      "idx": 41,
+      "image": "figures/pp2_back_pins.png",
+      "stated_answer": "scapula",
+      "your_answer": "scapula",
+      "agree": true,
+      "notes": "Posterior view (spinous processes visible). '10' is on the body of the person's left scapula, below the spine."
+    },
+    {
+      "idx": 61,
+      "image": "figures/lr_humerus_anterior.png",
+      "stated_answer": "right",
+      "your_answer": "right",
+      "agree": true,
+      "notes": "Slide 5 fig (a) anterior view, not mirrored. Head at the picture's right (medial); greater tubercle and capitulum at the left, trochlea at the bottom right; the deltoid-tuberosity bump is at mid-shaft on the left edge. In an anterior view the body's right is on the viewer's left, and the lateral side is on the viewer's left: a right humerus. The Why and the Cue are correct."
+    },
+    {
+      "idx": 62,
+      "image": "figures/pp2_back_pins.png",
+      "stated_answer": "humerus",
+      "your_answer": "humerus",
+      "agree": true,
+      "notes": "'11' is on the upper-arm shaft below the humeral head (the person's left arm)."
+    },
+    {
+      "idx": 84,
+      "image": "figures/lr_forearm_anterior.png",
+      "stated_answer": "right",
+      "your_answer": "right",
+      "agree": true,
+      "notes": "Slide 6 fig (a) anterior view, not mirrored. The radius (disc head, wide distal end with styloid) is at the picture's left; the ulna (olecranon/trochlear notch, small distal head) is at the right. Lateral on the viewer's left in an anterior view = a right forearm."
+    },
+    {
+      "idx": 85,
+      "image": "figures/pp3_lower_pins.png",
+      "stated_answer": "ulna",
+      "your_answer": "ulna",
+      "agree": true,
+      "notes": "Anterior view (pubic symphysis and anterior sacral foramina visible); pins 17/18 are on the person's LEFT forearm. Zoomed: the pin-17 bone has the wedge-shaped coronoid tip seated under the trochlea, on the medial side. The rendered hands are NOT in anatomical position (thumbs point toward the midline). But the pins are at the elbow, where the radius is always lateral, so the answers hold, and 'the radius runs down the thumb side' is true at any rotation."
+    },
+    {
+      "idx": 86,
+      "image": "figures/pp3_lower_pins.png",
+      "stated_answer": "radius",
+      "your_answer": "radius",
+      "agree": true,
+      "notes": "The pin-18 bone has a disc-shaped head with a neck, sitting under the capitulum, lateral to the ulna at the elbow: the radius."
+    }
+  ],
+  "summary": "Reviewed idx 0-88 (89 notes, including idx 88 from Wrist & Hand). 9 FIX: 3 high (idx 3 counts the patella while 'not counting sesamoids'; idx 22 calls the AC joint the clavicle's only link to the scapula, ignoring the coracoclavicular ligament; idx 44 uses the lateral deltoid tuberosity to tell front from back) and 6 medium, all overstated absolutes in Why/Pitfall lines (idx 0, 9, 19, 20, 60, 76). 2 CHECK (idx 30, 65) are wrong recording timestamps in verified_against only. The three known conflicts in range (clavicle 'flat' end, the manual's humerus-clavicle articulation, newborn ~275) are described accurately with defensible tested answers. All 9 front-image cards were independently verified correct. Heads-up for the rest of the deck: the study guide says the deltoid tuberosity is 'sometimes felt with the arm partly flexed', but manual p.171's sentence is about the olecranon fossa. No card in my range repeats it."
+}
