@@ -21,7 +21,7 @@ TERMS = {
  "the-lab": r"\b(the|our|this)\s+lab('s)?\b(?!\s*(coat|value|result|test|finding|work-?up|report))|\blab\s+(station|scheme|list|manual|practical|photo|specimen|slide|notes|tables?|instructor|bone list|audio)s?\b|\bstation\s*\d|\bthe station\b|\bstation model\b",
  "the-book": r"\b(the|this|that|our|his|her)\s+(text)?book('s)?\b|\btextbooks?\b|\bthe\s+(reading|chapter|unit|section|lesson|module|page|figure|chart|table|diagram|map|dialogue|dialog|recording|drill|exercise|passage|prose|caption|answer key|outline|notes|manual|manual's|practice page|blue page|appendix)('s)?\b|\bthe book\b",
  "book-title": r"\balif ?baa('s)?\b|\bmoore('s)?\b|\bgrant'?s\b|\bseeley'?s?\b|\bmarieb\b|\bnetter'?s?\b|\brohen'?s?\b|\bclinically oriented anatomy\b|\bkaplan\b|\bemt textbook\b|\borange book\b|\baaos\b|\bjones\s*&\s*bartlett\b|\blippincott\b|\bal-kitaab\b|\bhaps\b",
- "page/fig-ref": r"\b(p|pp|pg)\.?\s?\d+\b|\bpages?\s+\d+|\bfig(ure|\.)?\s?\d+[\.-]?\d*\b|\btable\s+\d+[\.-]?\d*\b|\bplate\s+\d+\b|\bblue[- ]pages?\b|\bQ\d{1,2}\b|\bquestion\s+\d+\b|\b#\d+\b",
+ "page/fig-ref": r"\b(p|pp|pg)\.\s?\d+\b|\b(p|pp|pg)\s\d+\b|\bpages?\s+\d+|\bfig(ure|\.)?\s?\d+[\.-]?\d*\b|\btable\s+\d+[\.-]?\d*\b|\bplate\s+\d+\b|\bblue[- ]pages?\b|\bQ\d{1,2}\b|\bquestion\s+\d+\b|\b#\d+\b",
  "unit/chapter": r"\b(unit|chapter|ch\.|lesson|module|week|wk|section|part|drill|exercise)\s?\d+\b|\bW0\d\b|\bL\d\d\b|\blecture\s?\d+\b|\bunits?\s+\d",
  "scheme/list": r"\b(scheme|on the list|list of ten|the ten|the list|the roster)\b",
  "we/our/you": r"\b(we|we'll|we've|our|us)\b(?!\s*=)|\byou'?ll\s+(be asked|need to know|get asked|meet)\b|\bremember for\b|\bbe able to\b|\bfor the (test|exam|quiz)\b|\byou asked\b|\byou were\b",
