@@ -283,3 +283,17 @@ limit that finishes by the quiz. `build/required_pivot.py` (plan) + `build/apply
   first-try Good goes 12 days out, so a push preset also caps max interval (3 d) and a cram record
   (`~/.anki-cram-suspend-*.json`, `groups: {}`, `preset_restore` only) lets anki-autopilot put the decks back on the
   long-term preset after the test. Parked notes carry `ARAB101::parked-<date>`; unsuspend by tag, never "all".
+
+### 9. No class context on the card (card-rules #36, 2026-10-02)
+
+Parker's rule, stated after weeks of Card Feedback ("UNIT 2 whatttt", "saying the book smh"): a card must be
+understandable in ten years with no memory of the course. For the Arabic lane that means:
+- Audio labels are **"Native speaker:"** (Dr. Khouri's clips, `arabic_khouri_*.mp3`) and **"Ex: studio recording"**
+  (the Alif Baa / Lingco clips). Never "Dr. Khouri says it", never "book audio".
+- No "Class: 9/22" lines, no "she called this REQUIRED", no "(the course tests Formal)", no "her dialect" —
+  write "shaami (Levantine)" / "(Levantine colloquial)".
+- No "Unit 2", "drill 4", "the book's map", "Alif Baa's list", "the chart". A convention can be named without
+  the book ("in the common classroom transliteration, emphatic sounds are UPPERCASE").
+- A quote of hers survives only as a plain example with no speaker ("'What's baabii?' — 'my door.'").
+- A name inside an example sentence (al-ustaadha Khouri hiya ustaadhatii) is language content and may stay.
+The gate blocks the rest (`class_context.py`, HARD).

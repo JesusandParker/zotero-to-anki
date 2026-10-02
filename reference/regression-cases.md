@@ -1233,3 +1233,6 @@ Region-ID cards put an unlabeled vertebra photo on the front ("which region is t
 - **MUST CATCH:** the same file as another card's back image, or inline in any Back Extra (`biol214-w05_<file>` after the writer's prefix).
 - **MUST NOT OVER-FLAG:** two FRONT cards sharing one picture to ask different pins (pp3 trunk: pin 15 = T12, pin 16 = L3) — the answer is never printed on the image.
 - **Not mechanizable (judge-look):** the photo embedded INSIDE a larger plate (the giraffe/moose plate held both region-ID photos). Whole-file comparison cannot see a sub-image; the figure judge has to look.
+
+## R75
+**Class context on the card face (card-rules #36, 2026-10-02).** `r75_bad_professor_named_in_text` ("Howell calls the ... the workhorse"), `r75_bad_source_caption_under_image` (`<i>Howell L16 (Glutes & Thigh), slide 12</i>` under the plate), `r75_bad_unit_and_book_in_text` ("Of the consonants Unit 2 teaches ... the book names these as examples") must all produce a HARD `leans on the class`; `r75_good_plain_fact_with_required_word` ("ATP is required for the ...", image with no caption) must not be blocked. Detector: `scripts/class_context.py` (`HARD_TERMS` block, everything else warns).

@@ -1003,6 +1003,16 @@ def per_card(idx, c, strict_html=True):
             if dom > 1 and dom < stated:
                 warn.append(f"#{idx}: says '{m.group(0)}' but clozes only {dom} items "
                             f"— a list item may be missing; verify against the full source page")
+    # card-rules #36: a card must stand alone — no professor names, lecture/slide/book/unit/page/lab/test refs
+    try:
+        import class_context
+        for _fname, _val in (("Text", t), ("Back Extra", be)):
+            for _term, _match, _ctx in class_context.scan_text(_val):
+                _msg = (f"#{idx}: {_fname} leans on the class [{_term}] {_match!r} in …{_ctx.strip()[:80]}… — "
+                        f"a card must be understandable in 10 years with no memory of the course (card-rules #36)")
+                (hard if _term in class_context.HARD_TERMS else warn).append(_msg)
+    except Exception as _e:  # never let the detector itself break the gate
+        warn.append(f"#{idx}: class_context detector unavailable: {_e}")
     return hard, warn
 
 

@@ -1127,6 +1127,34 @@ CASES = [
         "note": "a card that RECORDS what it was checked against is exempt — the same "
                 "exemption verify_report.py derives, so the two scripts cannot disagree",
     },
+    # --- R75: class context on the card face (card-rules #36) ---
+    {
+        "id": "r75_bad_professor_named_in_text",
+        "warn": "leans on the class", "present": True,
+        "cards": [{"Text": "Howell calls the {{c1::gluteus medius}} the workhorse of the hip.",
+                   "Back Extra": "Why: it holds the pelvis level in single-leg stance.", "chapter": 16}],
+        "note": "a professor's name on the card face is meaningless in ten years",
+    },
+    {
+        "id": "r75_bad_source_caption_under_image",
+        "warn": "leans on the class", "present": True,
+        "cards": [{"Text": "The {{c1::gluteus medius}} holds the pelvis level in single-leg stance.",
+                   "Back Extra": "Why: it abducts the thigh.<br><br><img src=\"b313-l16-s12-fig.jpg\"><br><i>Howell L16 (Glutes &amp; Thigh), slide 12</i>", "chapter": 16}],
+        "note": "the pipeline's own provenance caption; provenance belongs in the filename and tags",
+    },
+    {
+        "id": "r75_bad_unit_and_book_in_text",
+        "warn": "leans on the class", "present": True,
+        "cards": [{"Text": "Of the consonants Unit 2 teaches, the frontal ones are {{c1::baa, taa and thaa}}.",
+                   "Back Extra": "Pitfall: the book names these as examples, not the complete set.", "chapter": 2}],
+    },
+    {
+        "id": "r75_good_plain_fact_with_required_word",
+        "warn": "leans on the class", "present": False, "scope": "hard",
+        "cards": [{"Text": "ATP is required for the {{c1::sodium-potassium pump}}.",
+                   "Back Extra": "Why: it moves ions against their gradients.<br><br><img src=\"pump.jpg\">", "chapter": 2}],
+        "note": "ordinary English 'required' and an uncaptioned image must not block",
+    },
 ]
 
 

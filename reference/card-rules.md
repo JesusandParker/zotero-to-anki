@@ -391,3 +391,39 @@ The Cold-Solve Gate asks whether each blank is *answerable*. These two ask a que
     The plate is a ground section of **compact** bone: an osteon exists only in compact bone.
     Parker hit it mid-cram, four days before the practical: *"this isnt just 'bone'."*
     `spongy` appeared on **zero** of the deck's 566 cards.
+
+36. **A card must stand alone in ten years — no class context, ever (2026-10-02).** A card is a
+    fact about the world, not a note about a course. Nothing on it may depend on knowing the
+    professor, the lecture, the slide, the book, the unit/chapter/page/figure, the lab, the
+    station, the test, the date, or any other card.
+    - **Banned on every field** (Text, Back Extra, hints, Header, Lecture Notes): professor/TA/
+      classmate names and the pronouns that point at them ("she says", "his slides"); lecture,
+      slide, presentation, "in class", "the board", class dates; "the book / textbook / manual /
+      lab manual", titles (Alif Baa, Moore, AAOS), "Figure 5-12", "p. 379", "Table 7-1", "Q20",
+      "blue page"; unit/chapter/week/drill numbers, W05, L13; "the lab / the station / the
+      practical / the quiz / the test / the exam", Top Hat, homework, "required / won't be asked /
+      extra card"; course codes; "see the sibling card"; MCQ "option a" unless the options are on
+      the card.
+    - **No source caption under an image.** Provenance lives in the media filename
+      (`b313-l13-s05-fig.jpg`) and the tags (`lecture::L13`), never on the card face. The
+      2026-10-02 pass deleted ~1,560 `<i>Howell L13 (Lecture), slide 5</i>` /
+      `<i>Lab Manual p. 132, Q12</i>` lines the pipeline itself had written.
+    - **Fix order:** state the fact plainly and drop the attribution → keep a nickname but lose its
+      owner → delete pure-logistics lines ("asked in class 9/29", "won't be on the practical") →
+      a professor-vs-textbook conflict becomes the standard fact, with "some sources ..." only for
+      a genuine variant → re-anchor a course scheme to the world ("counting every rib that fails
+      to reach the sternum directly, the false ribs are 8–12"). Pin and structure numbers survive
+      only because the image on the card shows them.
+    - Audio labels: "Native speaker:" / "studio recording", never "Dr. Khouri says it" /
+      "book audio".
+    - *Caught by:* `check_cards.py` → `class_context.scan_text()` (HARD for names, lecture, slide,
+      book titles, unit/page/figure refs, lab/test logistics, course codes; WARN for the fuzzy
+      ones: we/our, dates, "the table", pronoun+verb). Regression **R75**.
+    *Failure that created this rule (2026-10-02):* seven Card Feedback entries in a week — "why u
+    gotta name him", "\"the book\" BRUH WHAT IS THAT", "i hate these \"the page is this bla
+    blah\"", "why are we refing the class", "UNIT 2 whatttt ... I should be able to in 30 years
+    see this flash card and get it right without even thinking about unit two" — then the rule
+    stated plainly: *"these cards are supposed to be self-sustaining without the context of the
+    class ... understood in 10 years time without me having to remember Dr. Howell, or any of my
+    professors."* 2,813 of the 14,238 notes in his own decks carried class context; the pipeline's
+    own captions were the largest share. All fixed the same day.
