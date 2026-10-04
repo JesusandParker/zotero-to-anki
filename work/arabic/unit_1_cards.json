@@ -1100,8 +1100,8 @@
   "visual_source": null
  },
  {
-  "Text": "In this book's transliteration, emphatic sounds are marked by {{c1::UPPERCASE letters (S vs s)}}, and long vowels by {{c1::doubled vowels (aa, ii, uu)}}.",
-  "Back Extra": "Ex: <i>S</i> = emphatic ص while <i>s</i> = plain س; <i>aa</i> is held longer than <i>a</i>.",
+  "Text": "In one widely used transliteration system for Arabic, emphatic sounds are marked by {{c1::UPPERCASE letters (S vs s)}}, and long vowels by {{c1::doubled vowels (aa, ii, uu)}}.",
+  "Back Extra": "Meaning: an emphatic consonant is a deeper, heavier twin of a familiar sound — the tongue tip touches the ridge behind the teeth while the rest of the tongue drops low and pulls back — and it darkens the vowels next to it (fatHa sounds like the u in <i>but</i>). The four: ص S, ض D, ط T, ظ DH.<br><br>Ex: <i>S</i> = emphatic ص while <i>s</i> = plain س; <i>aa</i> is held longer than <i>a</i>.<br><br>Distinguish: scholarly systems mark the same sounds with a dot underneath instead (ṣ, ḍ, ṭ, ẓ) and long vowels with a bar on top (ā, ī, ū).",
   "source": "arabic",
   "segment": 1,
   "from_idx": [
@@ -1150,7 +1150,7 @@
  },
  {
   "Text": "Levantine pronunciation sometimes uses a very short, unstressed {{c1::schwa}} sound (ə).",
-  "Back Extra": "Ex: the <i>e</i> in <i>listen</i>.",
+  "Back Extra": "Ex: the <i>e</i> in <i>listen</i>.<br><br>Native speaker: <i>HaD\u0259rtak</i> (you \u2014 polite, to a man; Levantine) \u2014 the \u0259 is the quick, weak uh between D and r [sound:arabic_khouri_0901_hadartak.mp3]<br><br>Ex: studio recording \u2014 <i>Sif\u0259r</i> (zero; Levantine) \u2014 a quick \u0259 slips in between f and r [sound:arabic_lingco_nums_00.mp3]",
   "source": "arabic",
   "segment": 1,
   "from_idx": [

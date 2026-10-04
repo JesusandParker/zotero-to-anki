@@ -518,7 +518,7 @@
   "needs_human_check": false
  },
  {
-  "Text": "The foot's {{c1::seven}} tarsals include the large {{c2::calcaneus}}, or heel bone, and the {{c2::talus}}, which articulates with the tibia and fibula to form the ankle.",
+  "Text": "The foot's {{c1::seven::number of bones}} tarsals include the large {{c2::calcaneus}}, or heel bone, and the {{c2::talus}}, which articulates with the tibia and fibula to form the ankle.",
   "Back Extra": "Distinguish: the tarsals sit between the lower leg bones (tibia and fibula) and the metatarsals, just as the carpals sit between the forearm and the metacarpals of the palm.<br><br>Pitfall: \"include\" means the calcaneus and talus are only two of the seven tarsals, not the whole set.",
   "source": "emt",
   "segment": 6,

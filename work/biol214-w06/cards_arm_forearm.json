@@ -1044,8 +1044,8 @@
   ]
  },
  {
-  "Text": "During pronation and supination, the {{c1::radius}} rotates around the {{c1::ulna}}.",
-  "Back Extra": "Why: the ulna is locked to the humerus in a hinge that only bends, so turning the palm up or down has to come from the radius swinging around it.",
+  "Text": "When the palm turns down (pronation) and back up (supination), the forearm bone that rotates around the other one is the {{c1::radius::radius / ulna}}.",
+  "Back Extra": "Why: the ulna stays put — it is locked to the humerus by a hinge that can only bend and straighten — so the twist has to come from the radius, which spins in place at the elbow and swings its lower end across the ulna, carrying the hand with it.",
   "source": "biol214-w06",
   "segment": null,
   "block": "arm_forearm",

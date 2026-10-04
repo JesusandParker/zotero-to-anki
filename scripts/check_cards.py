@@ -458,7 +458,8 @@ BARE_QUANTITY = re.compile(
 UNIT_AFTER = re.compile(r"^\s*(?:%|°|mg|mcg|g|kg|mm|cm|mmHg|mL|L|bpm|beats|breaths|"
                         r"hours?|minutes?|seconds?|days?|weeks?|months?|years?|"
                         r"pounds?|lbs?|ounces?|oz|mph|miles?|feet|ft|inch(?:es)?|"
-                        r"MHz|watts?|percent|degrees?)\b", re.I)
+                        r"MHz|watts?|percent|degrees?|times)\b", re.I)
+# ("times" covers a rate — `about ___ times per minute` admits nothing but a number.)
 
 # A visible word that announces a quantity is being asked for.
 QUANTITY_ASKED = re.compile(r"\b(how many|how much|how long|how old|how often|"
@@ -475,7 +476,14 @@ QUANTITY_ASKED = re.compile(r"\b(how many|how much|how long|how old|how often|"
 COUNT_SLOT_LEAD = {"the", "a", "an", "is", "are", "was", "were", "has", "have", "had",
                    "form", "forms", "contain", "contains", "include", "includes",
                    "comprise", "comprises", "its", "their", "these", "those", "all",
-                   "only", "about", "approximately", "roughly", "some"}
+                   "only", "about", "approximately", "roughly", "some",
+                   "his", "her", "our", "your", "my", "whose", "each", "every"}
+# A POSSESSIVE NOUN is a determiner too, not a content word that labels the number:
+# `The foot's ___ tarsals` is exactly as attributive as `the ___ bones`. The first
+# version read "foot's" as a content word (the `Type ___ diabetes` exemption) and let
+# the tarsals card through the 2026-08-03 sweep — Parker, 2026-10-04: "wheres my number
+# in the hint for seven? why wasnt this issue fixed from the last one?" (R34b)
+POSSESSIVE_LEAD = re.compile(r"^[a-z][a-z\-]*(?:'s|’s|s'|s’)$", re.I)
 # and it must actually modify a noun — a word, not punctuation or the end of the card.
 NOUN_AFTER = re.compile(r"^\s*(?:<[^>]+>\s*)*[a-z][a-z\-]{2,}", re.I)
 
@@ -519,7 +527,8 @@ def unlabeled_quantity_blank(text):
         if not NOUN_AFTER.match(after):
             continue                                   # modifies nothing; not a count slot
         before = re.sub(r"<[^>]+>", " ", text[:m.start()]).split()
-        if not before or before[-1].strip("(,;:—–-").lower() not in COUNT_SLOT_LEAD:
+        lead = before[-1].strip("(,;:—–-").lower() if before else ""
+        if not lead or (lead not in COUNT_SLOT_LEAD and not POSSESSIVE_LEAD.match(lead)):
             continue                                   # a content word already labelled it
         stem = visible_stem(text, m.group(1))
         if QUANTITY_ASKED.search(stem):
@@ -528,6 +537,93 @@ def unlabeled_quantity_blank(text):
             continue                                   # a visible number in a parallel slot
         hits.append((m.group(1), ans))
     return hits
+
+
+# R76 — the stem asks for ONE, the blank hides SEVERAL (card-rules #37).
+ASK_ONE = re.compile(r"\b(?:name|give|list|state|identify|cite|recall)\s+(?:only\s+)?"
+                     r"(?:one|a single|any one|an example)\b|"
+                     r"\bone\s+(?:location|example|site|place|organ|region|structure|"
+                     r"cause|sign|symptom|use|source|instance)\b", re.I)
+_LIST_SPLIT = re.compile(r"\s*,\s*(?:and\s+|or\s+)?|\s+and\s+|\s+or\s+|\s*;\s*", re.I)
+
+
+def ask_one_hide_many(text):
+    """R76: a front that asks for ONE item over a blank that hides a LIST.
+
+    Parker, 2026-10-04, on the tissue location cards (`Name one location in the body
+    where fibrocartilage is found: {{c1::the intervertebral discs, the pubic symphysis,
+    and the meniscus of the knee}}`): *"I don't like how these cards say to give one
+    name. but then list a bunch of them … don't mislead me with just saying, oh name
+    one, because I get that the point of the card is that I'm supposed to be able to
+    name just one in lab, but I wanna learn them all."*
+
+    The front and the back disagree about what is owed: he produces one correct site,
+    flips, and is graded against three. A card asks for what its answer holds — the
+    whole set, each member its own blank (card-rules #37).
+
+    Scope: the ASK-ONE phrase must sit in the same segment as the blank, before it,
+    and the blank's answer must split into >=2 items on commas / and / or / semicolons.
+    A WARNING: a single long answer with an internal "and" ("absorbing compression and
+    shock") can trip the split, and only the judge can tell an item list from a phrase."""
+    hits = []
+    for seg in segments(text):
+        for m in CLOZE.finditer(seg):
+            lead = re.sub(r"<[^>]+>", " ", CLOZE.sub(lambda x: x.group(2), seg[:m.start()]))
+            if not ASK_ONE.search(lead):
+                continue
+            ans = re.sub(r"<[^>]+>", " ", m.group(2)).strip()
+            items = [s for s in _LIST_SPLIT.split(ans) if len(s.split()) >= 1 and s.strip()]
+            if len(items) >= 2:
+                hits.append((m.group(1), ans))
+    return hits
+
+
+# R77 — pronunciation clips must play in the order their words appear on the card.
+SOUND_TAG = re.compile(r"\[sound:([^\]]+)\]")
+_CLIP_WORD = re.compile(r"hypertts-(.+)-[0-9a-f]{40,}\.mp3$")
+
+
+def _clip_pos(word, reading):
+    m = re.search(r"\b" + re.escape(word) + r"\b", reading)          # the word itself
+    if m:
+        return m.start()
+    for cand in (word.rstrip("s"), word[:-2] if len(word) > 5 else word, word[:max(4, len(word) - 3)]):
+        m = re.search(r"\b" + re.escape(cand), reading)               # plural/singular forms
+        if m:
+            return m.start()
+    return None
+
+
+def audio_out_of_order(audio, text, back=""):
+    """R77: the Audio field's clips, as words, in the order they PLAY vs the order their
+    words APPEAR on the card (Text, then Back Extra). Returns (played, expected) when
+    they differ, else None.
+
+    Parker, 2026-10-04, on the four-organelle card: *"the audio should be in order of the
+    card display left to right"* — it played cytoskeleton, proteasome, centriole against
+    a card reading ribosome, proteasome, cytoskeleton, centriole. A sweep found 27 more.
+
+    Only clips whose filename names their word (HyperTTS Patch D: `hypertts-<word>-<hash>`)
+    can be placed; if ANY clip cannot be placed the note is skipped rather than guessed
+    at, since a curated order (Arabic native-speaker / studio pairs) must never be
+    'corrected' by a heuristic."""
+    clips = SOUND_TAG.findall(audio or "")
+    if len(clips) < 2:
+        return None
+    reading = CLOZE.sub(lambda m: m.group(2), (text or "") + " \n " + (back or ""))
+    reading = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", reading)).lower()
+    words, pos = [], []
+    for c in clips:
+        m = _CLIP_WORD.match(c)
+        if not m:
+            return None
+        w = m.group(1).replace("-", " ").lower()
+        p = _clip_pos(w, reading)
+        if p is None:
+            return None
+        words.append(w); pos.append(p)
+    expected = [w for _, _, w in sorted(zip(pos, range(len(words)), words))]
+    return (words, expected) if expected != words else None
 
 
 def fragment_clozed_list(text):
@@ -904,6 +1000,17 @@ def per_card(idx, c, strict_html=True):
                     f"saying a quantity is wanted — an attributive slot takes an adjective "
                     f"just as readily ('the ___ bones' → short? long? eight?); add a "
                     f"slot-label ::hint naming what is counted (card-rules #27)")
+    # pronunciation clips playing out of the order their words appear (R77)
+    _ooo = audio_out_of_order(c.get("Audio", ""), t, be)
+    if _ooo:
+        warn.append(f"#{idx}: the Audio clips play {_ooo[0]} but the card reads {_ooo[1]} — "
+                    f"put the clips in the order their words appear on the card (card-rules #38)")
+    # the front asks for ONE item, the blank hides a LIST (R76)
+    for g, ans in ask_one_hide_many(t):
+        warn.append(f"#{idx}: cloze c{g} sits under a 'name ONE' ask but hides a list "
+                    f"('{readable(ans)}') — the front and the back disagree about what is "
+                    f"owed. Ask for the whole set, each member its own blank (cued where a "
+                    f"natural region/category cue exists), and keep it <=4 (card-rules #37)")
     # an announced list whose items are visible and only a filler word is clozed (R17)
     if fragment_clozed_list(t):
         warn.append(f"#{idx}: the rows of this list are VISIBLE and only a word inside each "
@@ -1598,9 +1705,15 @@ def load_live(which, source_id):
     cards = []
     for n in notes:
         f = n["fields"]
+        if "Text" not in f:
+            # an Image Occlusion / Basic note in the same deck has no Text field; reading it
+            # as an empty cloze reported "no cloze markup" HARD errors on healthy notes
+            # (8 false blocks across biol214-w05/w06 + arabic, found 2026-10-04)
+            continue
         text = f.get("Text", {}).get("value", "")
         cards.append({"noteId": n["noteId"], "Text": text,
                       "Back Extra": f.get("Back Extra", {}).get("value", ""),
+                      "Audio": f.get("Audio", {}).get("value", ""),
                       "needs_human_check": bool(VALUE.search(readable(text)))})
     return cards
 

@@ -215,6 +215,7 @@ The Cold-Solve Gate asks whether each blank is *answerable*. These two ask a que
     - **This closes a hole in rule 21's own exemption.** `open_set_absolute` excused numeric answers as *"self-constraining, and already numeric-flagged"*, and regression R16 recorded the same reasoning. Both were wrong in the same way, and this is the exact shape that walked through the gap.
     - **Scope: BARE quantities in an ATTRIBUTIVE slot.** An answer carrying its own unit ("100 to 180 beats/min") has already said what kind of thing it is. Keeping the scope this tight is what makes the rule a fix rather than a war on cards: a first, looser draft fired on **1,454** notes across the collection; the shipped one fires on **4** in the 1,223-card EMT deck, every one genuine.
     - *Caught by:* `check_cards.py unlabeled_quantity_blank` — a WARNING, because ordinary English sometimes forces a count on its own ("there are ___ types of shock") and only the judge can tell. **Repairs are licensed by a verified predicate**, `authorship.is_hint_only_change()`: adding a hint where there was none is allowed even on a protected field, while changing or removing one is not, since a hint may be Parker's.
+    - **A possessive is a determiner, not a label (R34b, 2026-10-04).** `The foot's ___ tarsals` is as attributive as `the ___ bones`; the first detector read `foot's` as a content word and let the tarsals card through the very sweep that fixed the carpals card. Parker: *"wheres my number in the hint for seven? why wasnt this issue fixed from the last one?"*
     *Preference that created this rule (2026-08-03):* Parker, on the carpals card — *"a good hint here would be something like {{c1::five::number of bones}} — that would make it so i can know what im guessing... just say like 'long bones!' or 'short bones!'"* And on the scope: *"rem this is a SYSTEMATIC issue so fix this in the git hub for all the cards and the next ones to come."* Regression **R34**.
 
 28. **The PURPLE lane: a marked word becomes an AUTHORED plain-language definition (2026-08-08).**
@@ -419,6 +420,11 @@ The Cold-Solve Gate asks whether each blank is *answerable*. These two ask a que
     - *Caught by:* `check_cards.py` → `class_context.scan_text()` (HARD for names, lecture, slide,
       book titles, unit/page/figure refs, lab/test logistics, course codes; WARN for the fuzzy
       ones: we/our, dates, "the table", pronoun+verb). Regression **R75**.
+    - **Precision (R75b, 2026-10-04):** `slide` the verb ("slide your tongue back") and the idiom
+      "in the course of" / "the course of the nerve" are not class context; neither are clinical
+      shorthand (`B/P 88/50`, `q3-5 min`), a clinical lab, "direct quotes" in a PCR, an ambulance
+      station, or a vocab card whose answer is the word "homework". A HARD false positive blocks
+      every re-stamp of its file, so it costs more than a missed warning.
     *Failure that created this rule (2026-10-02):* seven Card Feedback entries in a week — "why u
     gotta name him", "\"the book\" BRUH WHAT IS THAT", "i hate these \"the page is this bla
     blah\"", "why are we refing the class", "UNIT 2 whatttt ... I should be able to in 30 years
@@ -427,3 +433,24 @@ The Cold-Solve Gate asks whether each blank is *answerable*. These two ask a que
     class ... understood in 10 years time without me having to remember Dr. Howell, or any of my
     professors."* 2,813 of the 14,238 notes in his own decks carried class context; the pipeline's
     own captions were the largest share. All fixed the same day.
+
+37. **Ask for what the answer holds — never "name ONE" over a list (2026-10-04).** If the
+    hidden answer is a set, the front asks for the set, and each member gets its own blank
+    (≤4 per rule 23), cued by a region or category where a natural one exists — a location
+    cue ("of the knee", "of the pelvis"), never a paraphrase ("between the vertebrae" would
+    decode "intervertebral").
+    - **BAD:** `Name one location in the body where fibrocartilage is found: {{c1::the intervertebral discs, the pubic symphysis, and the meniscus of the knee}}` — he names one correct site, flips, and is graded against three.
+    - **GOOD:** `Fibrocartilage is found in the {{c1::intervertebral discs}} of the spine, the {{c1::pubic symphysis}} of the pelvis, and the {{c1::meniscus}} of the knee.`
+    - **An exam stem is not a card stem.** "Name one location" is the exam's MINIMUM; the card's target is the full set he wants to own. Copying the examiner's grammar verbatim is what produced 23 of these at once.
+    - **Watch the sibling line on two-cloze notes.** On a location (c1) + function (c2) note, the function line is visible on the location card — a location blank that the function line names ("cushions organs" over "wraps around the {{c1::organs}}") is answered by the other line. Make that member visible context instead of a blank.
+    - *Caught by:* `check_cards.py ask_one_hide_many` (WARNING). Regression **R76**.
+    *Preference that created this rule (2026-10-04):* *"I don't like how these cards say to give one name. but then list a bunch of them … don't mislead me with just saying, oh name one … I wanna learn them all."*
+
+38. **Pronunciation clips play in the order their words appear on the card (2026-10-04).**
+    The `Audio` field's `[sound:]` clips are a reading aid; out of order they make him match
+    sounds to words by elimination. Order = first appearance in Text, then Back Extra. A
+    generator appends clips in the order it happens to make them, so ORDER THEM AT WRITE TIME,
+    and every word a list card names should be voiced if any are (the organelle card voiced
+    three of four).
+    - *Caught by:* `check_cards.py audio_out_of_order` (WARNING; `--live` loads `Audio`). A clip whose filename does not name its word makes the note unplaceable and it is left alone — curated orders (Arabic native-speaker / studio pairs) are never "corrected". Regression **R77**.
+    *Preference that created this rule (2026-10-04):* *"the audio should be in order of the card display left to right."* A sweep found 27 more out-of-order notes; all reordered.

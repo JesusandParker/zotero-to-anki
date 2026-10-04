@@ -695,6 +695,83 @@ CASES = [
         "note": "the fix, in his own words: 'a good hint here would be something like "
                 "{{c1::five::number of bones}}'",
     },
+    # --- R77: pronunciation clips play out of the order the card reads (Parker 2026-10-04) ---
+    {
+        "id": "r77_bad_audio_plays_out_of_order",
+        "warn": "card-rules #38", "present": True,
+        "cards": [{"Text": "The four NON-membranous organelles are the {{c1::ribosome}}, {{c1::proteasome}}, {{c1::cytoskeleton}} and {{c1::centriole}}.",
+                   "Back Extra": "Cue: everything not on that list is membranous.",
+                   "Audio": "[sound:hypertts-cytoskeleton-5e11c2ccd52dfeb6ec1f0614857984b21b92983f543482d934e461eb.mp3][sound:hypertts-proteasome-faa77e0d326bcb3eb8751c87a00f255fc643415256b2ee5c23d8a7c4.mp3][sound:hypertts-centriole-7d21b3035320725a7ffc0ba7664455f562351ca55603cc5fc6b1f152.mp3]",
+                   "chapter": 1}],
+        "note": "Parker: 'the audio should be in order of the card display left to right'",
+    },
+    {
+        "id": "r77_good_audio_in_reading_order",
+        "warn": "card-rules #38", "present": False,
+        "cards": [{"Text": "The four NON-membranous organelles are the {{c1::ribosome}}, {{c1::proteasome}}, {{c1::cytoskeleton}} and {{c1::centriole}}.",
+                   "Back Extra": "Cue: everything not on that list is membranous.",
+                   "Audio": "[sound:hypertts-ribosome-af10ccba6ec071caa2c7ee27a386b766138378526462beaba29dcaf4.mp3][sound:hypertts-proteasome-faa77e0d326bcb3eb8751c87a00f255fc643415256b2ee5c23d8a7c4.mp3][sound:hypertts-cytoskeleton-5e11c2ccd52dfeb6ec1f0614857984b21b92983f543482d934e461eb.mp3][sound:hypertts-centriole-7d21b3035320725a7ffc0ba7664455f562351ca55603cc5fc6b1f152.mp3]",
+                   "chapter": 1}],
+        "note": "the fix: ribosome, proteasome, cytoskeleton, centriole — as the card reads",
+    },
+    {
+        "id": "r77_good_unplaceable_clip_is_left_alone",
+        "warn": "card-rules #38", "present": False,
+        "cards": [{"Text": "‎{{c1::تابوت}}<br><br>Transliteration: {{c1::taabuut}}<br><br>{{c2::a casket, a coffin}}",
+                   "Back Extra": "Ex: studio recording, for comparison [sound:arabic_vocab_u2_le6_taabuut.mp3]",
+                   "Audio": "[sound:arabic_khouri_taabuut.mp3][sound:arabic_vocab_u2_le6_taabuut.mp3]", "chapter": 2}],
+        "note": "a curated order whose clips do not name their words is never 'corrected' by a heuristic",
+    },
+    # --- R76: the front asks for ONE, the blank hides a LIST (Parker 2026-10-04) ---
+    {
+        "id": "r76_bad_name_one_over_a_list",
+        "warn": "card-rules #37", "present": True,
+        "cards": [{"Text": "Name one location in the body where fibrocartilage is found: {{c1::the intervertebral discs, the pubic symphysis, and the meniscus of the knee::organ or region}}<br><br>Give the function of fibrocartilage: {{c2::absorbing compression and shock::what it does}}",
+                   "Back Extra": "Cue: rows of chondrocytes between heavy collagen is the shock absorber of the skeleton.", "chapter": 1}],
+        "note": "Parker: 'I don't like how these cards say to give one name. but then list a "
+                "bunch of them … I wanna learn them all.' He answers one site, flips, and is "
+                "graded against three.",
+    },
+    {
+        "id": "r76_good_every_member_its_own_cued_blank",
+        "warn": "card-rules #37", "present": False,
+        "cards": [{"Text": "Fibrocartilage is found in the {{c1::intervertebral discs}} of the spine, the {{c1::pubic symphysis}} of the pelvis, and the {{c1::meniscus}} of the knee.<br><br>Give the function of fibrocartilage: {{c2::absorbing compression and shock::what it does}}",
+                   "Back Extra": "Cue: rows of chondrocytes between heavy collagen is the shock absorber of the skeleton.", "chapter": 1}],
+        "note": "the fix: ask for the whole set, one blank per member, each cued by its region",
+    },
+    {
+        "id": "r76_good_name_one_with_a_single_answer",
+        "warn": "card-rules #37", "present": False,
+        "cards": [{"Text": "Name one organ that is lined by transitional epithelium: {{c1::the urinary bladder::organ}}",
+                   "Back Extra": "Ex: the ureters and part of the urethra are lined by it too.", "chapter": 1}],
+        "note": "asking for one and hiding one is coherent; only the mismatch is the defect",
+    },
+    {
+        "id": "r34b_bad_possessive_noun_before_the_count",
+        "warn": "card-rules #27", "present": True,
+        "cards": [{"Text": "The foot's {{c1::seven}} tarsals include the large {{c2::calcaneus}}, or heel bone, and the {{c2::talus}}, which articulates with the tibia and fibula to form the ankle.",
+                   "Back Extra": "Distinguish: the tarsals sit between the lower leg bones and the metatarsals.", "chapter": 6}],
+        "note": "Parker 2026-10-04: 'wheres my number in the hint for seven? why wasnt this issue "
+                "fixed from the last one?' A possessive noun ('foot's') is a determiner, not a "
+                "content word that names the number; the 2026-08-03 detector read it as the latter "
+                "and the card walked through that day's sweep.",
+    },
+    {
+        "id": "r34b_good_possessive_with_the_slot_label",
+        "warn": "card-rules #27", "present": False,
+        "cards": [{"Text": "The foot's {{c1::seven::number of bones}} tarsals include the large {{c2::calcaneus}}, or heel bone, and the {{c2::talus}}, which articulates with the tibia and fibula to form the ankle.",
+                   "Back Extra": "Distinguish: the tarsals sit between the lower leg bones and the metatarsals.", "chapter": 6}],
+        "note": "the fix he asked for: the hint names the slot",
+    },
+    {
+        "id": "r34b_good_times_per_minute_is_a_unit",
+        "warn": "card-rules #27", "present": False,
+        "cards": [{"Text": "CPR compressions are delivered at about {{c1::100-120}} times per minute.",
+                   "Back Extra": "Why: slower than that and the heart never builds enough pressure.",
+                   "chapter": 5, "needs_human_check": True}],
+        "note": "found by the 2026-10-04 collection sweep: nothing but a number fits before "
+                "'times per minute', so 'times' is a unit, not a noun the count modifies",
+    },
     {
         "id": "r34_good_a_unit_after_the_blank_labels_the_slot",
         "warn": "card-rules #27", "present": False,
@@ -1154,6 +1231,78 @@ CASES = [
         "cards": [{"Text": "ATP is required for the {{c1::sodium-potassium pump}}.",
                    "Back Extra": "Why: it moves ions against their gradients.<br><br><img src=\"pump.jpg\">", "chapter": 2}],
         "note": "ordinary English 'required' and an uncaptioned image must not block",
+    },
+    {
+        "id": "r75b_good_slide_as_a_verb",
+        "warn": "leans on the class", "present": False, "scope": "hard",
+        "cards": [{"Text": "The {{c1::hard palate}} forms the bony front two-thirds of the roof of the mouth.",
+                   "Back Extra": "Cue: slide your tongue backward along the roof of your mouth and you feel it end where the soft palate begins.", "chapter": 6}],
+        "note": "found 2026-10-04 re-stamping EMT ch6: 'slide' the verb is not a lecture slide",
+    },
+    {
+        "id": "r75b_good_in_the_course_of",
+        "warn": "leans on the class", "present": False, "scope": "hard",
+        "cards": [{"Text": "In the course of a day, the liver produces {{c1::0.5 to 1 L::volume}} of bile.",
+                   "Back Extra": "Why: bile salts are recycled many times a day.", "chapter": 6, "needs_human_check": True}],
+        "note": "found 2026-10-04 re-stamping EMT ch6: the idiom 'in the course of' — and 'the course "
+                "of the ulnar nerve' — are not the class",
+    },
+    {
+        "id": "r75b_good_grants_the_verb",
+        "warn": "leans on the class", "present": False, "scope": "hard",
+        "cards": [{"Text": "Restraining a patient requires {{c1::authorization::from whom?}} from medical control or law enforcement.",
+                   "Back Extra": "Distinguish: medical control grants you authorization to restrain; law enforcement may restrain on its own authority.", "chapter": 3}],
+        "note": "found 2026-10-04 by the live gate: 'grants' matched the Grant's Atlas title pattern",
+    },
+    {
+        "id": "r75b_good_per_the_standard",
+        "warn": "leans on the class", "present": False, "scope": "hard",
+        "cards": [{"Text": "Duty to act is an obligation to provide care {{c1::per the standard}} set by training and protocol.",
+                   "Back Extra": "Why: the standard of care is what a similarly trained provider would do.", "chapter": 3}],
+        "note": "'per the standard' is ordinary English; 'per the lecture/slides/book' still blocks",
+    },
+    {
+        "id": "r75b_good_the_ambulance_station",
+        "warn": "leans on the class", "present": False, "scope": "hard",
+        "cards": [{"Text": "After a call, the ambulance is {{c1::cleaned and disinfected}} before it returns to service.",
+                   "Back Extra": "Pitfall: if you clean the unit back at the station instead, you must keep it out of service until it is done.", "chapter": 2}],
+        "note": "an EMS / fire / police station is not a lab practical station",
+    },
+    {
+        "id": "r75b_good_homework_as_a_vocab_gloss",
+        "warn": "leans on the class", "present": False, "scope": "hard",
+        "cards": [{"Text": "Transliteration: {{c1::waajib}}<br><br>{{c2::homework}} — also duty",
+                   "Back Extra": "Cue: the same root gives 'obligatory'.", "chapter": 3}],
+        "note": "the word IS the cloze answer — the card teaches it rather than referencing class logistics",
+    },
+    {
+        "id": "r75b_good_clinical_shorthand",
+        "warn": "leans on the class", "present": False, "scope": "hard",
+        "cards": [{"Text": "The abbreviation {{c1::IO}} stands for {{c2::intraosseous}}.",
+                   "Back Extra": "Ex: radio report \"B/P 88/50, HR 120\"; order \"push epi q3-5 min\"; \"recheck vitals q5 min en route\"; a biopsy is sent to the lab; a PCR records the patient's words as direct quotes.", "chapter": 1}],
+        "note": "found 2026-10-04 by the EMT live gate: 'B/P 88' read as a page ref, 'q3' as a question "
+                "number, 'the lab' (a clinical lab) and 'quotes' as class logistics",
+    },
+    {
+        "id": "r75b_good_slide_noun_and_verb_in_prose",
+        "warn": "leans on the class", "present": False, "scope": "hard",
+        "cards": [{"Text": "A 4-year-old fell from a playground slide; capillary refill is {{c1::delayed::normal or delayed}}.",
+                   "Back Extra": "Cue: lift the patient just enough for your partner to slide that half of the stretcher into place.", "chapter": 7}],
+        "note": "a playground slide and 'slide that half' are not lecture slides",
+    },
+    {
+        "id": "r75b_bad_lab_logistics_still_blocks",
+        "warn": "leans on the class", "present": True,
+        "cards": [{"Text": "At the lab station, pin 3 is the {{c1::olecranon}}.",
+                   "Back Extra": "Cue: the point of the elbow.", "chapter": 6}],
+        "note": "'the lab' alone is WARN now; lab logistics (station, manual, practical) stay HARD",
+    },
+    {
+        "id": "r75b_bad_a_numbered_slide_still_blocks",
+        "warn": "leans on the class", "present": True,
+        "cards": [{"Text": "On slide 12 the {{c1::gluteus medius}} is shown holding the pelvis level.",
+                   "Back Extra": "Why: it abducts the thigh.", "chapter": 16}],
+        "note": "the precision fix must not open the door it was built to close",
     },
 ]
 

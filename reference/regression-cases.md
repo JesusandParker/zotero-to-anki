@@ -1236,3 +1236,39 @@ Region-ID cards put an unlabeled vertebra photo on the front ("which region is t
 
 ## R75
 **Class context on the card face (card-rules #36, 2026-10-02).** `r75_bad_professor_named_in_text` ("Howell calls the ... the workhorse"), `r75_bad_source_caption_under_image` (`<i>Howell L16 (Glutes & Thigh), slide 12</i>` under the plate), `r75_bad_unit_and_book_in_text` ("Of the consonants Unit 2 teaches ... the book names these as examples") must all produce a HARD `leans on the class`; `r75_good_plain_fact_with_required_word` ("ATP is required for the ...", image with no caption) must not be blocked. Detector: `scripts/class_context.py` (`HARD_TERMS` block, everything else warns).
+
+## R34b — a POSSESSIVE before the count walked straight through R34 (2026-10-04)
+**Rule:** card-rules #27. **Caught by:** `check_cards.unlabeled_quantity_blank` — `POSSESSIVE_LEAD` now treats `foot's` / `hand's` / `body's` as a determiner, and `his/her/our/your/my/whose/each/every` joined the function-word set.
+
+Parker, via Card Feedback on EMT ch6: *"wheres my number in the hint for seven? why wasnt this issue fixed from the last one?"* The card was `The foot's {{c1::seven}} tarsals include …`. R34's exemption reads a CONTENT word before the blank as having already named the number (`Type ___ diabetes`, `chromosome ___`) — and `foot's` is a content word to a word list, though grammatically it is a determiner exactly like `the`. So the 2026-08-03 sweep that fixed the carpals card skipped this one in the same chapter.
+- **BAD:** `The foot's {{c1::seven}} tarsals …` → flagged.
+- **GOOD:** `The foot's {{c1::seven::number of bones}} tarsals …` → silent.
+- **MUST NOT OVER-FLAG (found by the same sweep):** `about {{c1::100-120}} times per minute` — `times` is now a unit; nothing but a number fits there.
+- **Measured:** the fixed detector over all 8,311 of Parker's own cloze notes fires on exactly 2 — the tarsals card (genuine, fixed) and the CPR rate card (the `times` false positive, now silent).
+- **Catch test:** `r34b_*` (3 cases).
+
+## R75b — "slide" the verb and "in the course of" are not the class (2026-10-04)
+**Rule:** card-rules #36 precision. **Caught by:** `class_context.py` — `slide` no longer matches when a direction/possessive follows (`slide your tongue`, `slides past`), and `the course` no longer matches before `of` (`in the course of a day`, `the course of the ulnar nerve`).
+
+Found while re-stamping EMT ch6 after a one-hint fix: two HARD blocks, both false — `Cue: slide your tongue backward …` and `In the course of a day, the liver produces …`. A HARD false positive is worse than a missed warning: it blocks every re-stamp of the file, so the next small fix cannot land at all. The anatomy idiom matters most — "the course of the nerve" is ordinary anatomy prose.
+- **MUST NOT FLAG:** `r75b_good_slide_as_a_verb`, `r75b_good_in_the_course_of`.
+- **MUST STILL CATCH:** `r75b_bad_a_numbered_slide_still_blocks` (`On slide 12 …`).
+- **The same day's live gates found the rest of the class (all HARD, all false):** `medical control grants you…` (the Grant's Atlas title pattern — now needs the apostrophe), `per the standard` (now only `per the lecture/slides/book/…` or an owner), `back at the station` (an ambulance station — ignored near unit/crew/fire/ambulance words), `B/P 88/50` (read as "p 88"), `q3-5 min` / `q5 min` (dosing intervals read as "Q3"), `direct quotes` (quote/cite dropped — owners are caught by the she-says pattern), a playground slide and `slide that half of the stretcher` (slide is HARD only when numbered or owned: `slide 5`, `the/his/lecture slides`), `{{c2::homework}}` as a vocab gloss, and a glass slide near microscope words. `the lab` alone is now its own WARN term (`the-lab-bare`: a clinical lab is not a class lab); lab logistics stay HARD. EMT's live gate went from 19 HARD to 1 (a real one), biol214-w05/w06 and arabic to 0.
+- **Catch test:** `r75b_*` (10 cases, both directions).
+- The shared copy `course-to-anki/work/universal-context-2026-10-02/terms.py` got the same edits.
+
+## R76 — the front asks for ONE, the blank hides a LIST (2026-10-04)
+**Rule:** card-rules #37 + editor check #31. **Caught by:** `check_cards.ask_one_hide_many` (a WARNING).
+
+Parker, Card Feedback on the fibrocartilage location card: *"I don't like how these cards say to give one name. but then list a bunch of them … don't mislead me with just saying, oh name one, because I get that the point of the card is that I'm supposed to be able to name just one in lab, but I wanna learn them all."* The card asked `Name one location in the body where fibrocartilage is found:` over `{{c1::the intervertebral discs, the pubic symphysis, and the meniscus of the knee}}`. He produces one correct site, flips, and is graded against three — and the card trains the minimum when he wants the set. The shape came from copying an exam stem ("name one location") verbatim; the exam's minimum is not the card's target.
+- **BAD:** `r76_bad_name_one_over_a_list`.
+- **GOOD:** `Fibrocartilage is found in the {{c1::intervertebral discs}} of the spine, the {{c1::pubic symphysis}} of the pelvis, and the {{c1::meniscus}} of the knee.` — every member its own blank, each cued by its region (a location cue, never a paraphrase: "between the vertebrae" would decode "intervertebral").
+- **MUST NOT OVER-FLAG:** `Name one organ … {{c1::the urinary bladder}}` — asking one and hiding one is coherent.
+- **Measured:** 21 hits in 8,311 notes, all 21 the tissue location family (the other 2 of 23 had single answers); zero elsewhere. All 23 rewritten 2026-10-04.
+
+## R77 — pronunciation clips play out of the order the card reads (2026-10-04)
+**Rule:** card-rules #38. **Caught by:** `check_cards.audio_out_of_order` (a WARNING; `--live` now loads the `Audio` field).
+
+Parker on the non-membranous organelles card: *"the audio should be in order of the card display left to right."* The card read ribosome, proteasome, cytoskeleton, centriole; the clips played cytoskeleton, proteasome, centriole (and ribosome had none). Clips get appended in the order someone generated them, not the order the words sit on the card. A sweep of every note with ≥2 clips found **27 more** out of order (mitosis stages, epidermal strata, hair-shaft layers, region terms) — all reordered.
+- **BAD:** `r77_bad_audio_plays_out_of_order`. **GOOD:** `r77_good_audio_in_reading_order`.
+- **MUST NOT OVER-FLAG:** `r77_good_unplaceable_clip_is_left_alone` — a clip whose filename does not name its word (Arabic native-speaker / studio pairs) makes the whole note unplaceable, and a curated order is never "corrected" by a heuristic.
